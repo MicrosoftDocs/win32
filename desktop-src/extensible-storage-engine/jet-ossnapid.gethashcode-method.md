@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID.GetHashCode method"
 title: JET_OSSNAPID.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.GetHashCode

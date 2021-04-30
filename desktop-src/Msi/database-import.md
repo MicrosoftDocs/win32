@@ -1,5 +1,5 @@
 ---
-Description: The Import method of the Database object imports a database table from a text archive files, dropping any existing table.
+description: The Import method of the Database object imports a database table from a text archive files, dropping any existing table.
 ms.assetid: 9ecc31d9-bccd-48cc-b205-9ce70aaf638a
 title: Database.Import method
 ms.topic: reference
@@ -61,7 +61,7 @@ If the method fails, you can obtain extended error information by using the [**L
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

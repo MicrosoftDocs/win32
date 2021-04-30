@@ -1,5 +1,5 @@
 ---
-Description: Indicates the direction of the GPS receiver movement.
+description: Indicates the direction of the GPS receiver movement.
 ms.assetid: d63d0129-7c47-417c-bec1-965f58fcf090
 title: System.GPS.Track
 ms.topic: article

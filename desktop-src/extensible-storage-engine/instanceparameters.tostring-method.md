@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.ToString method"
 title: InstanceParameters.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.InstanceParameters.ToString

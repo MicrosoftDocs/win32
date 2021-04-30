@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CBasePin.CBasePin constructor - Constructor method.
 ms.assetid: e8cb5f1d-171f-4bf8-8ab6-6e547c4678d2
 title: CBasePin.CBasePin constructor (Amfilter.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ A filter might create pins in its constructor method, so at this point the *pFil
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

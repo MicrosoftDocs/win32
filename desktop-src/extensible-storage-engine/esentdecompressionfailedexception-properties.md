@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDecompressionFailedException properties"
 title: EsentDecompressionFailedException properties
 TOCTitle: EsentDecompressionFailedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException

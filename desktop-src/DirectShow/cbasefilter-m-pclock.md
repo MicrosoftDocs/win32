@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the filter's reference clock.
+description: Pointer to the filter's reference clock.
 ms.assetid: 164ea59d-d36d-41ab-9e25-815b30e21e95
 title: CBaseFilter::m_pClock member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ IReferenceClock *m_pClock;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

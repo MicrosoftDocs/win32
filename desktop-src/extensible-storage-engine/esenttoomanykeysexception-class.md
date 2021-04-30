@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyKeysException class"
 title: EsentTooManyKeysException class
 TOCTitle: EsentTooManyKeysException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyKeysException

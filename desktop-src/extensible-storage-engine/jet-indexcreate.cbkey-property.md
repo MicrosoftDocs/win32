@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.cbKey property"
 title: JET_INDEXCREATE.cbKey property 
 TOCTitle: 'cbKey property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.cbKey

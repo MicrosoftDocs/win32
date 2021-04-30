@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum data bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file.
+description: Specifies the maximum data bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: d20d374a-a259-4e89-8eeb-942bbe53e959
 title: MF_SD_ASF_EXTSTRMPROP_MAX_DATA_BITRATE attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

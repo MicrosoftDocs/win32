@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDeepCloneable<T> members"
 title: IDeepCloneable(T) members
 TOCTitle: IDeepCloneable(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1

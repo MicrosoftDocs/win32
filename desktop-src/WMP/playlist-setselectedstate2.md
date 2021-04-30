@@ -53,7 +53,7 @@ This method can work with nested playlists and replaces the **setSelectedState**
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

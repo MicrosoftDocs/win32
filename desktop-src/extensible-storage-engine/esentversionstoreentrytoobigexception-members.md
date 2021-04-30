@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreEntryTooBigException members"
 title: EsentVersionStoreEntryTooBigException members
 TOCTitle: EsentVersionStoreEntryTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException

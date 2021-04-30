@@ -1,5 +1,5 @@
 ---
-Description: The NetworkService account is a predefined local account used by the service control manager.
+description: The NetworkService account is a predefined local account used by the service control manager.
 ms.assetid: f90d9346-10ed-4eba-bae2-9a1f1e6dc6b7
 title: NetworkService Account
 ms.topic: article

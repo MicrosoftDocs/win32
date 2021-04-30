@@ -1,5 +1,5 @@
 ---
-Description: Represents printer options.
+description: Represents printer options.
 ms.assetid: 7cc3d10c-8bc2-4899-b083-63d802ee16e7
 title: PRINTER_OPTIONS structure (Winspool.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ A set of [**PRINTER\_OPTION\_FLAGS**](printer-option-flags.md) that specifies ho
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

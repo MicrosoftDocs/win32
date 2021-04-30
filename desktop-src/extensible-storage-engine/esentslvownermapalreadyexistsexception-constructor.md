@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapAlreadyExistsException constructor"
 title: EsentSLVOwnerMapAlreadyExistsException constructor 
 TOCTitle: 'EsentSLVOwnerMapAlreadyExistsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapAlreadyExistsException.#ctor

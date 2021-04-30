@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Extensible Storage Engine Managed Reference"
 title: Extensible Storage Engine Managed Reference
 TOCTitle: Extensible Storage Engine Managed Reference
 ms:assetid: b6dc69d0-82be-478d-b47f-37d7569cd200

@@ -1,5 +1,5 @@
 ---
-Description: Describes the current clip status.
+description: Describes the current clip status.
 ms.assetid: 3ea8631c-a967-4d24-a49a-1751b3ee6077
 title: D3DCLIPSTATUS9 structure (D3D9Types.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ Clip status is not updated by [**DrawRectPatch**](/windows/desktop/api) and [**D
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

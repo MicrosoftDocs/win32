@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPlaceholderColumnException members"
 title: EsentInvalidPlaceholderColumnException members
 TOCTitle: EsentInvalidPlaceholderColumnException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidPlaceholderColumnException

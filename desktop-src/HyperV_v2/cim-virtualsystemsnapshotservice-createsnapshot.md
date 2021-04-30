@@ -1,5 +1,5 @@
 ---
-Description: Creates a snapshot of a virtual system.
+description: Creates a snapshot of a virtual system.
 ms.assetid: cad4cb4f-523f-4fda-ac88-8cece7abc227
 title: CreateSnapshot method of the CIM_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -157,7 +157,7 @@ On success, returns 0; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

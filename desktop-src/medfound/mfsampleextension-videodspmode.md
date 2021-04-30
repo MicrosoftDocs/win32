@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether video stabilization was applied to a video frame.
+description: Indicates whether video stabilization was applied to a video frame.
 ms.assetid: 13F877A3-7600-400F-9071-FE1B83027355
 title: MFSampleExtension_VideoDSPMode attribute (Wmcodecdsp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The [**Video Stabilization MFT**](video-stabilization-mft.md) sets this attribut
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                    |

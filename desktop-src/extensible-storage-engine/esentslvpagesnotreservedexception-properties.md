@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotReservedException properties"
 title: EsentSLVPagesNotReservedException properties
 TOCTitle: EsentSLVPagesNotReservedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotReservedException

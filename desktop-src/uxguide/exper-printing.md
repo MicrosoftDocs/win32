@@ -6,10 +6,10 @@ ms.topic: article
 ms.date: 10/20/2020
 ---
 
-# Printing
+# Printing (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Printing is the user experience on paper. It's easy to overlook, but it is an important part of the overall user experience.
 
@@ -365,6 +365,4 @@ The Print Preview mode in Word has an obvious close preview command.
 -   Use print, not print out, as a verb.
 -   It's acceptable to use printout to refer to the result of a print job.
 -   Use print queue, not printer queue.
-
- 
 

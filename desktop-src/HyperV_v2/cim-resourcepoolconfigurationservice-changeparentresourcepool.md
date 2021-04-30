@@ -1,5 +1,5 @@
 ---
-Description: Start a job to change a parent pool using the specified allocation settings.
+description: Start a job to change a parent pool using the specified allocation settings.
 ms.assetid: 2eea1a60-fbf0-49a7-8f79-52c62c295316
 title: ChangeParentResourcePool method of the CIM_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -117,7 +117,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

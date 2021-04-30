@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int16ColumnValue methods"
 title: Int16ColumnValue methods
 TOCTitle: Int16ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Int16ColumnValue

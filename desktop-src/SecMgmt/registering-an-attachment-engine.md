@@ -1,5 +1,5 @@
 ---
-Description: Before the Security Configuration Engine can call your attachment engine to process service-specific tasks, you must install your attachment engine and register it with the Security Configuration Engine.
+description: Before the Security Configuration Engine can call your attachment engine to process service-specific tasks, you must install your attachment engine and register it with the Security Configuration Engine.
 ms.assetid: f7376a79-97cd-4607-9e1b-5b8c7cd76a32
 title: Registering an Attachment Engine
 ms.topic: article

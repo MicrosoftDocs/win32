@@ -1,12 +1,12 @@
 ---
-Description: The following sections describe in detail the data types, structures, functions, and notifications of the Setup API.
+description: The following sections describe in detail the data types, structures, functions, and notifications of the Setup API.
 ms.assetid: '25b162ef-c9d0-4031-b42c-4512daefa54a'
 title: Reference (Setup API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reference
+# Reference (Setup API)
 
 The following sections describe in detail the data types, structures, functions, and notifications of the Setup API.
 

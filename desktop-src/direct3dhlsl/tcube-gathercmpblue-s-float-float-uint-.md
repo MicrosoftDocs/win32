@@ -1,6 +1,6 @@
 ---
 title: TextureCube::GatherCmpBlue(S,float,float,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the blue component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value along with tile-mapping status. | TextureCube::GatherCmpBlue(S,float,float,uint) function
 ms.assetid: 1D1FFF0E-9CA7-48A4-A305-C0B6059056E7
 keywords:
 - GatherCmpBlue function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpBlue(S,float,float,uint) function
+# TextureCube::GatherCmpBlue(S,float,float,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the blue component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value along with tile-mapping status.
 
 ## Syntax
 

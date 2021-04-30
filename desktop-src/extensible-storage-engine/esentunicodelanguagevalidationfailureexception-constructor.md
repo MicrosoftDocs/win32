@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeLanguageValidationFailureException constructor"
 title: EsentUnicodeLanguageValidationFailureException constructor 
 TOCTitle: 'EsentUnicodeLanguageValidationFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnicodeLanguageValidationFailureException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.Start method"
 title: EsentStopwatch.Start method 
 TOCTitle: 'Start method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.Start

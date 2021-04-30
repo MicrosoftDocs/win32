@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnCannotDeleteException constructor"
 title: EsentSLVColumnCannotDeleteException constructor 
 TOCTitle: 'EsentSLVColumnCannotDeleteException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVColumnCannotDeleteException.#ctor

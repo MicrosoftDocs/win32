@@ -1,5 +1,5 @@
 ---
-Description: When making calls outside of the calling process or to a remote WMI service, WMI uses the distributed version of the Component Object Model (DCOM).
+description: When making calls outside of the calling process or to a remote WMI service, WMI uses the distributed version of the Component Object Model (DCOM).
 ms.assetid: 261b4f18-5de5-4e06-a887-f5afd9c45511
 ms.tgt_platform: multiple
 title: Setting Authentication in WMI

@@ -51,7 +51,7 @@ A compiled operator represents the efficient, baked form of an operator suitable
 The compiled operator doesn't use nor reference the [IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator) objects supplied within the graph description after this method returns.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 
@@ -68,9 +68,9 @@ HRESULT CompileGraph(
 
 `desc`
 
-Type: **[DML_GRAPH_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_graph_desc)\***
+Type: **[DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md)\***
 
-A description of the graph to compile. See [DML_GRAPH_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_graph_desc).
+A description of the graph to compile. See [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md).
 
 `flags`
 

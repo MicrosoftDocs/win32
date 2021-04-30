@@ -1,5 +1,5 @@
 ---
-Description: The following table lists all the HRESULT values that can be returned by the methods of the XPS Document API.
+description: The following table lists all the HRESULT values that can be returned by the methods of the XPS Document API.
 ms.assetid: 9e6db1e3-7151-4538-8607-b7185ebc0110
 title: XPS Document Errors (Xpsobjectmodel.h)
 ms.topic: reference
@@ -344,7 +344,7 @@ Some XPS document API methods make calls to the [Packaging](/previous-versions/w
 
 
 
-|                                     |                                                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |

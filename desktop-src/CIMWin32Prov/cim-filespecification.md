@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FileSpecification class represents a file that is either on or off of the system.
+description: The CIM\_FileSpecification class represents a file that is either on or off of the system.
 ms.assetid: 25d6cc79-1497-4615-9251-8e00524dff1b
 ms.tgt_platform: multiple
 title: CIM_FileSpecification class
@@ -916,7 +916,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

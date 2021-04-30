@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileNotCopiedException members"
 title: EsentLogFileNotCopiedException members
 TOCTitle: EsentLogFileNotCopiedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException

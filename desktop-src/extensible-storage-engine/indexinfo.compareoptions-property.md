@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.CompareOptions property"
 title: IndexInfo.CompareOptions property 
 TOCTitle: 'CompareOptions property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.CompareOptions

@@ -1,5 +1,5 @@
 ---
-Description: The TriggerThread method wakes up the worker thread that handles scheduling.
+description: The TriggerThread method wakes up the worker thread that handles scheduling.
 ms.assetid: 296a6b59-fc52-4f5e-8a19-6b534a253a6e
 title: CBaseReferenceClock.TriggerThread method (Refclock.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The clock uses a worker thread that calls the [**CAMSchedule::Advise**](camsched
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Refclock.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

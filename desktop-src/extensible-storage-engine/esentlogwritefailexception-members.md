@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogWriteFailException members"
 title: EsentLogWriteFailException members
 TOCTitle: EsentLogWriteFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException

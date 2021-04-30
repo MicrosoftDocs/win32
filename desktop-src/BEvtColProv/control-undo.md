@@ -1,5 +1,5 @@
 ---
-Description: Restore the active configuration of the collector from the previous backup file (determined by going back from the current original timestamp).
+description: Restore the active configuration of the collector from the previous backup file (determined by going back from the current original timestamp).
 ms.assetid: 150fa554-9efd-483e-a177-5fc7766a6a6c
 ms.tgt_platform: multiple
 title: Undo method of the Control class
@@ -182,7 +182,7 @@ Success
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

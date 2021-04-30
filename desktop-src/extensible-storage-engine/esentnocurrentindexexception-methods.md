@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentIndexException methods"
 title: EsentNoCurrentIndexException methods
 TOCTitle: EsentNoCurrentIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException

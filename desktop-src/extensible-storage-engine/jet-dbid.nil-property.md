@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID.Nil property"
 title: JET_DBID.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBID.Nil

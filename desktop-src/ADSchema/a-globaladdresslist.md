@@ -22,7 +22,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Global-Address-List                     |
 | Ldap-Display-Name | globalAddressList                       |
@@ -48,7 +48,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -69,7 +69,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -90,7 +90,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -111,7 +111,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -132,7 +132,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |
@@ -153,7 +153,7 @@ This attribute is used on a Microsoft Exchange container to store the distinguis
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                   |
 | MAPI-Id                | \-                                                                                   |

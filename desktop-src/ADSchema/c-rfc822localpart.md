@@ -21,7 +21,7 @@ Used to define entries that represent the local part of mail addresses.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | rFC822LocalPart                      |
 | Ldap-Display-Name | rFC822LocalPart                      |
@@ -45,7 +45,7 @@ Used to define entries that represent the local part of mail addresses.
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -187,7 +187,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -332,7 +332,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -488,7 +488,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -651,7 +651,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |

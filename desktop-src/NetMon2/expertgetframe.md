@@ -1,5 +1,5 @@
 ---
-Description: Returns the requested frame from a loaded capture.
+description: Returns the requested frame from a loaded capture.
 ms.assetid: efd1cff5-a3a1-4910-b003-25b6e10dad6e
 title: ExpertGetFrame function (Netmon.h)
 ms.topic: reference
@@ -136,7 +136,7 @@ The **ExpertGetFrame** function can only be called by experts that implement the
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

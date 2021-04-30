@@ -1,5 +1,5 @@
 ---
-Description: CERT\_CONTEXT AND CERT\_INFO are the main data structures holding the information in a certificate.
+description: CERT\_CONTEXT AND CERT\_INFO are the main data structures holding the information in a certificate.
 ms.assetid: 3e058ca7-9334-4fde-afe1-93d5ea3a9697
 title: Using a CERT_INFO Data Structure
 ms.topic: article

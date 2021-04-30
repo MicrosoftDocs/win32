@@ -123,7 +123,7 @@ The effect performs the transform operation and then applies a bounding box arou
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

@@ -1,5 +1,5 @@
 ---
-Description: Implementing Property Sheet Extensions
+description: Implementing Property Sheet Extensions
 ms.assetid: 5d1f9d91-e8a1-4cbb-b1de-4262a61e3cb7
 title: Implementing Property Sheet Extensions
 ms.topic: article

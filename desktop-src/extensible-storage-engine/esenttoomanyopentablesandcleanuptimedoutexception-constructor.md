@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesAndCleanupTimedOutException constructor"
 title: EsentTooManyOpenTablesAndCleanupTimedOutException constructor 
 TOCTitle: 'EsentTooManyOpenTablesAndCleanupTimedOutException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesAndCleanupTimedOutException.#ctor

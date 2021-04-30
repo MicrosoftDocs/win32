@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigForBackwardCompatibilityException members"
 title: EsentRecordTooBigForBackwardCompatibilityException members
 TOCTitle: EsentRecordTooBigForBackwardCompatibilityException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException

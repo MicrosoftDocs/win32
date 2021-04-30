@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogTornWriteDuringHardRestoreException members"
 title: EsentLogTornWriteDuringHardRestoreException members
 TOCTitle: EsentLogTornWriteDuringHardRestoreException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRestoreException

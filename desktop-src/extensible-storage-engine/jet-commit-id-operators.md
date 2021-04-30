@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_COMMIT_ID operators"
 title: JET_COMMIT_ID operators (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_COMMIT_ID operators
 ms:assetid: dcbdb0ce-2fda-646e-d73a-c2c96606ad5d

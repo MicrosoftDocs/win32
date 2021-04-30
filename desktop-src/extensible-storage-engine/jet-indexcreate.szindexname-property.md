@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.szIndexName property"
 title: JET_INDEXCREATE.szIndexName property 
 TOCTitle: 'szIndexName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.szIndexName

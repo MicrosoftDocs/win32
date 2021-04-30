@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF Structure"
 title: JET_COLUMNDEF Structure
 TOCTitle: JET_COLUMNDEF Structure
 ms:assetid: ee1fc473-bff5-438e-98ae-247de12e76f9

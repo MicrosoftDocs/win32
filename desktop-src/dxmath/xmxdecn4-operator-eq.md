@@ -1,5 +1,5 @@
 ---
-Description: Assigns vector component data to the current instance of XMXDECN4.
+description: Assigns vector component data to the current instance of XMXDECN4.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmxdecn4.operator = '
 title: XMXDECN4 operator = operators
 ms.topic: reference
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator = operators
+# XMXDECN4 operator = operators
 
 Assigns vector component data to the current instance of `XMXDECN4`.
 

@@ -1,5 +1,5 @@
 ---
-Description: The get\_ReplicateY method retrieves the number of times the wipe pattern is replicated vertically.
+description: The get\_ReplicateY method retrieves the number of times the wipe pattern is replicated vertically.
 ms.assetid: 347e1ffa-bb39-4980-b8af-5806a23d1334
 title: IDxtJpeg::get_ReplicateY method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

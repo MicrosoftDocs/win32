@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetOpenTemporaryTable method"
 title: VistaApi.JetOpenTemporaryTable method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetOpenTemporaryTable method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetOpenTemporaryTable(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE)

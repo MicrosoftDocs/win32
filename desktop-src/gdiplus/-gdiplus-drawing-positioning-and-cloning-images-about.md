@@ -1,5 +1,5 @@
 ---
-Description: You can use the Image class to load and display raster images (bitmaps) and vector images (metafiles).
+description: You can use the Image class to load and display raster images (bitmaps) and vector images (metafiles).
 ms.assetid: 0ad2a132-6db6-4099-81a2-10e1cd1b1f61
 title: Drawing, Positioning, and Cloning Images
 ms.topic: article

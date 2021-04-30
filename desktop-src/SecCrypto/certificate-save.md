@@ -1,5 +1,5 @@
 ---
-Description: Saves the certificate to a file.
+description: Saves the certificate to a file.
 ms.assetid: 2012b39b-47fd-4071-9752-98bb10954fc0
 title: ICertificate2::Save method
 ms.topic: reference
@@ -103,7 +103,7 @@ This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

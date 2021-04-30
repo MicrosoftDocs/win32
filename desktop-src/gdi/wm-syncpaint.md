@@ -1,5 +1,5 @@
 ---
-Description: The WM\_SYNCPAINT message is used to synchronize painting while avoiding linking independent GUI threads.
+description: The WM\_SYNCPAINT message is used to synchronize painting while avoiding linking independent GUI threads.
 ms.assetid: 4446be4e-e0b9-46ce-95b2-bea876348c25
 title: WM_SYNCPAINT message (Winuser.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ When a window has been hidden, shown, moved, or sized, the system may determine 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

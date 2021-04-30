@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file WiPolicy.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script can be used to manage system policy. Policy can be configured by an administrator using the Group Policy Editor (GPE).
+description: The VBScript file WiPolicy.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how script can be used to manage system policy. Policy can be configured by an administrator using the Group Policy Editor (GPE).
 ms.assetid: 17cfed46-503f-4124-9f0e-1655fda153d0
 title: Manage Policy Settings
 ms.topic: article

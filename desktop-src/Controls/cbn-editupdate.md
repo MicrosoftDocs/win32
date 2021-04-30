@@ -56,7 +56,7 @@ If the combo box has the [**CBS\_DROPDOWNLIST**](combo-box-styles.md) style, thi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

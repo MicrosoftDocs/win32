@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the tablet stylus.
+description: Retrieves the name of the tablet stylus.
 ms.assetid: 94955c04-f699-428b-b4bf-53919b61b1ab
 title: ITabletCursor::GetName method
 ms.topic: reference
@@ -65,7 +65,7 @@ It is the caller's responsibility to free the memory returned from this method b
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

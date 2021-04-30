@@ -1,5 +1,5 @@
 ---
-Description: The CanSeekForward method determines whether the stream can be seeked forward. This method implements the IMediaPosition::CanSeekForward method.
+description: The CanSeekForward method determines whether the stream can be seeked forward. This method implements the IMediaPosition::CanSeekForward method.
 ms.assetid: ccb2db8d-b52e-4e3d-b49b-9689197a974a
 title: CPosPassThru.CanSeekForward method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

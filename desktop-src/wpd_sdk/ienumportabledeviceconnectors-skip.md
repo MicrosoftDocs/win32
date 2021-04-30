@@ -1,5 +1,5 @@
 ---
-Description: Skips the specified number of devices in the enumeration sequence.
+description: Skips the specified number of devices in the enumeration sequence.
 ms.assetid: 38b72b80-93f5-433e-977c-e3ee503daae5
 title: IEnumPortableDeviceConnectors::Skip method (Devpkey.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                                     |                                                                                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                                   |

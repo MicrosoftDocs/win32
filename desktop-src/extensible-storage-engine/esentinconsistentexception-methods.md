@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInconsistentException methods"
 title: EsentInconsistentException methods
 TOCTitle: EsentInconsistentException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInconsistentException

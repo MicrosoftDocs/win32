@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type Uint8.
+description: Represents a PnP device property of type Uint8.
 ms.assetid: 56DCA3FD-45FD-4E87-909D-BE4CEFE2DF5A
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint8 class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

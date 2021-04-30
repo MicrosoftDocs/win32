@@ -1,5 +1,5 @@
 ---
-Description: Quality-Control Management
+description: Quality-Control Management
 ms.assetid: b1def588-6c9c-4853-a69b-1ba5df8b5ba2
 title: Quality-Control Management
 ms.topic: article

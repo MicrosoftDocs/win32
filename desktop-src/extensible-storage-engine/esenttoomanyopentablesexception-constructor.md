@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesException constructor"
 title: EsentTooManyOpenTablesException constructor 
 TOCTitle: 'EsentTooManyOpenTablesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException.#ctor

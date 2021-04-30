@@ -22,7 +22,7 @@ An abstract class that defines the base class for claim type or resource propert
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Claim-Type-Property-Base       |
 | Ldap-Display-Name | msDS-ClaimTypePropertyBase           |
@@ -42,7 +42,7 @@ An abstract class that defines the base class for claim type or resource propert
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 2                                                                                            |

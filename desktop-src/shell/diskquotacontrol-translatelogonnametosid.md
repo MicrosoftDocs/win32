@@ -1,5 +1,5 @@
 ---
-Description: Translates a logon name to the corresponding user security ID in string format.
+description: Translates a logon name to the corresponding user security ID in string format.
 title: DiskQuotaControl.TranslateLogonNameToSID method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -87,7 +87,7 @@ Name-to-SID translation can be a slow process when compared to lookups in the SI
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

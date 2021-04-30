@@ -1,5 +1,5 @@
 ---
-Description: Describes how to initialize an XPS OM, which allows a program to create an XPS document.
+description: Describes how to initialize an XPS OM, which allows a program to create an XPS document.
 ms.assetid: 920d940f-5ae2-4376-8c7b-0cef04f21df7
 title: Initialize an XPS OM
 ms.topic: article

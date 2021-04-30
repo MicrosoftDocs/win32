@@ -36,7 +36,7 @@ This attribute also applies to button elements inside the button group control.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

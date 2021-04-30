@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# EC\_WMT\_EVENT
+# EC_WMT_EVENT (Windows Media Format 11 SDK)
 
 Sent by the Windows Media Format SDK when an application uses the ASF Reader filter to play ASF files protected by digital rights management (DRM).
 

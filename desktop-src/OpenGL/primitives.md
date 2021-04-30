@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Primitives
+# Primitives (OpenGL)
 
 During the next stage of processing, primitives are converted to pixel fragments in the following steps:
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the dynamic range control mode that the audio decoder will use.
+description: Specifies the dynamic range control mode that the audio decoder will use.
 ms.assetid: 0dbe0c40-39ac-4c1b-9da2-9b142b5bb0eb
 title: MFPKEY_WMADEC_DRCMODE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ If you do not provide target values, the codec will provide its own.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

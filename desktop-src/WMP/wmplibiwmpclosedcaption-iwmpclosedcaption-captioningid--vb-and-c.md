@@ -51,7 +51,7 @@ The element name specified can be any HTML element in the webpage as long as it 
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

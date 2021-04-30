@@ -1,5 +1,5 @@
 ---
-Description: The SWbemSink object exposes the following events.
+description: The SWbemSink object exposes the following events.
 ms.assetid: 73ACD3D3-41F2-4B8C-B55F-8716799FC363
 ms.tgt_platform: multiple
 title: SWbemSink Events

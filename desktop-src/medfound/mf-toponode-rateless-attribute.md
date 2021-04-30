@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the media sink associated with this topology node is rateless.
+description: Specifies whether the media sink associated with this topology node is rateless.
 ms.assetid: 81ef7005-a9ab-4f26-bc39-68b27c4f92aa
 title: MF_TOPONODE_RATELESS attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

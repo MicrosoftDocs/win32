@@ -1,5 +1,5 @@
 ---
-Description: Frequency Tables
+description: Frequency Tables
 ms.assetid: 58a680ea-1f88-4900-8820-c30a2f3e3901
 title: Frequency Tables
 ms.topic: article

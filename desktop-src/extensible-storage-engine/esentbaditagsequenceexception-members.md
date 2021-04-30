@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadItagSequenceException members"
 title: EsentBadItagSequenceException members
 TOCTitle: EsentBadItagSequenceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadItagSequenceException

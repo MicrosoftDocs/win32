@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO.flags property"
 title: JET_OBJECTINFO.flags property 
 TOCTitle: 'flags property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.flags

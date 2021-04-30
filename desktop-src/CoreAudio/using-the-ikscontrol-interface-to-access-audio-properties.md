@@ -1,5 +1,5 @@
 ---
-Description: Using the IKsControl Interface to Access Audio Properties
+description: Using the IKsControl Interface to Access Audio Properties
 ms.assetid: 72bf9164-96c6-4543-b858-19480b032fdb
 title: Using the IKsControl Interface to Access Audio Properties
 ms.topic: article

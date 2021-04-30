@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesException members"
 title: EsentTooManyOpenTablesException members
 TOCTitle: EsentTooManyOpenTablesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesException

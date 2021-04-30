@@ -1,6 +1,6 @@
 ---
 title: Player.CurrentPlaylistItemAvailable event
-description: The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available.
+description: The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available. | Player.CurrentPlaylistItemAvailable event
 ms.assetid: 4894e2fc-3464-413f-8abf-8b5e91899946
 keywords:
 - CurrentPlaylistItemAvailable event Windows Media Player
@@ -60,7 +60,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

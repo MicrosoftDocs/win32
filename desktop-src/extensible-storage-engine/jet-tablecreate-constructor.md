@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE constructor"
 title: JET_TABLECREATE constructor 
 TOCTitle: 'JET_TABLECREATE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.#ctor

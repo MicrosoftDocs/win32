@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SESID operators"
 title: JET_SESID operators
 TOCTitle: JET_SESID operators
 ms:assetid: fc9db8fb-5468-7f64-a8ce-662ba7687623

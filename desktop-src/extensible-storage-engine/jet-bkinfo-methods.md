@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO methods"
 title: JET_BKINFO methods
 TOCTitle: JET_BKINFO methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_BKINFO

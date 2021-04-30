@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentForceDetachNotAllowedException constructor"
 title: EsentForceDetachNotAllowedException constructor 
 TOCTitle: 'EsentForceDetachNotAllowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentForceDetachNotAllowedException.#ctor

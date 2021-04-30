@@ -1,5 +1,5 @@
 ---
-Description: Clones, or copies, an animation controller.
+description: Clones, or copies, an animation controller.
 ms.assetid: 9836653c-9ea5-4fbc-89ac-0b46054a12d7
 title: ID3DXAnimationController::CloneAnimationController method (D3dx9anim.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: The NotifyMediaType method notifies the CDrawImage object of the current media type.
+description: The NotifyMediaType method notifies the CDrawImage object of the current media type.
 ms.assetid: 419d516f-4b96-47aa-80cc-ac785e65af8b
 title: CDrawImage.NotifyMediaType method (Winutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The **CDrawImage** object stores the *pMediaType* pointer in the **m\_pMediaType
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

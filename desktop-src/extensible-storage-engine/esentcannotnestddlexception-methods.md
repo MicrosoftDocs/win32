@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDDLException methods"
 title: EsentCannotNestDDLException methods
 TOCTitle: EsentCannotNestDDLException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDDLException

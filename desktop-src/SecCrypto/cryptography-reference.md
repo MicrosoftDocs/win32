@@ -1,5 +1,5 @@
 ---
-Description: Cryptography reference pages contain detailed descriptions of the Microsoft cryptography functions, interfaces, objects, and other programming elements.
+description: Cryptography reference pages contain detailed descriptions of the Microsoft cryptography functions, interfaces, objects, and other programming elements.
 ms.assetid: 9ccce1b6-4a53-41fd-92f0-c1ed48320781
 title: Cryptography Reference
 ms.topic: article

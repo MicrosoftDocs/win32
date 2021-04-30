@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to add items to the automatic Jump List for an application, including switching between the display of the Frequent and Recent categories.
+description: Demonstrates how to add items to the automatic Jump List for an application, including switching between the display of the Frequent and Recent categories.
 title: Automatic Jump List Sample
 ms.topic: article
 ms.date: 05/31/2018

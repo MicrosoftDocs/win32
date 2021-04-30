@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotTimeOutException class"
 title: EsentOSSnapshotTimeOutException class
 TOCTitle: EsentOSSnapshotTimeOutException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotTimeOutException

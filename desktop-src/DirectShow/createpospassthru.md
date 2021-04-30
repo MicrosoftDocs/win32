@@ -1,5 +1,5 @@
 ---
-Description: The CreatePosPassThru function creates a CPosPassThru object or CRendererPosPassThru object.
+description: The CreatePosPassThru function creates a CPosPassThru object or CRendererPosPassThru object.
 ms.assetid: d6fccfb4-b256-40aa-b927-84c7a886f631
 title: CreatePosPassThru function (Ctlutil.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ If the function succeeds, the returned **IUnknown** interface has an outstanding
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

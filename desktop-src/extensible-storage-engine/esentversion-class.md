@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion class"
 title: EsentVersion class
 TOCTitle: EsentVersion class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentVersion

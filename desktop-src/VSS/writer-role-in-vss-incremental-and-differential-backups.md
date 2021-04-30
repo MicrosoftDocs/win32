@@ -1,5 +1,5 @@
 ---
-Description: A writer's participation in incremental and differential backups typically takes place while handling Identify (CVssWriter::OnIdentify), PrepareForBackup (CVssWriter:OnPrepareBackup), and PostSnapshot (CVssWriter:OnPostSnapshot) events.
+description: A writer's participation in incremental and differential backups typically takes place while handling Identify (CVssWriter::OnIdentify), PrepareForBackup (CVssWriter:OnPrepareBackup), and PostSnapshot (CVssWriter:OnPostSnapshot) events.
 ms.assetid: 85c4e003-b531-4283-83aa-dd5cc53f35b1
 title: Writer Role in VSS Incremental and Differential Backups
 ms.topic: article

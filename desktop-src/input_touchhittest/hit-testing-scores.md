@@ -26,7 +26,7 @@ The following constants identify the possible hit test scores for an object, rel
 
 ## Requirements
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

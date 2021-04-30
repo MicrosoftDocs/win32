@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS methods"
 title: JET_RECPOS methods
 TOCTitle: JET_RECPOS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_RECPOS

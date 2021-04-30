@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transactions (Windows Events)"
 title: Transactions (Windows Events)
 TOCTitle: Transactions
 ms:assetid: 1ceb362c-1efe-439b-b10a-016c8a54f27b

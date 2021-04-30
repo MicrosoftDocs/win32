@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream members"
 title: ColumnStream members
 TOCTitle: ColumnStream members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnStream

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO.szInstanceName property"
 title: JET_INSTANCE_INFO.szInstanceName property 
 TOCTitle: 'szInstanceName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.szInstanceName

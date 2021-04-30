@@ -1,5 +1,5 @@
 ---
-Description: The GetRequestHandle method retrieves a handle to the event that is signaled by the CAMThread::CallWorker method.
+description: The GetRequestHandle method retrieves a handle to the event that is signaled by the CAMThread::CallWorker method.
 ms.assetid: 6e4496ae-a635-4b55-ae7a-31748f21068b
 title: CAMThread.GetRequestHandle method (Wxutil.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ If you call a function such as WaitForMultipleObjects, use GetRequestHandle to r
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

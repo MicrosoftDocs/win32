@@ -1,5 +1,5 @@
 ---
-Description: The Subtype method retrieves the subtype.
+description: The Subtype method retrieves the subtype.
 ms.assetid: b7555092-91e7-4bb8-8080-087b93472faa
 title: CMediaType.Subtype method (Mtype.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns a pointer to the **subtype** member.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: When the DVD Navigator filter goes into karaoke mode, it informs the audio decoder through the AM\_PROPERTY\_DVDKARAOKE\_ENABLE property.
+description: When the DVD Navigator filter goes into karaoke mode, it informs the audio decoder through the AM\_PROPERTY\_DVDKARAOKE\_ENABLE property.
 ms.assetid: 78b2998b-d8b3-424d-85bc-872e64eb4a4f
 title: DVD Karaoke Property Set (Dvdmedia.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ When the [DVD Navigator](dvd-navigator-filter.md) filter goes into karaoke mode,
 
 
 
-|                   |                             |
+| Label | Value |
 |-------------------|-----------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_DvdKaraoke |
 
@@ -35,7 +35,7 @@ When the [DVD Navigator](dvd-navigator-filter.md) filter goes into karaoke mode,
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

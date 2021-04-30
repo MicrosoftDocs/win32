@@ -22,7 +22,7 @@ An OpenType variable font can define continuous variation of its design along on
 
  
 
-![](images/opentype-width-weight.png)
+![Shows an OpenType variable font using the letter 'G' and showing different variations along a horizontal width axis and a vertical weight axis.](images/opentype-width-weight.png)
 
 A font developer determines a set of variation axes to use in a given font. These axes can include a set of well-known (or “registered”) axes of variation, such as weight and width, but they can also include arbitrary, custom axes of variation defined by the font developer.  
 

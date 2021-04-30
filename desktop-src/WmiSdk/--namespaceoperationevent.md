@@ -1,5 +1,5 @@
 ---
-Description: A base class for all intrinsic events that relate to a namespace.
+description: A base class for all intrinsic events that relate to a namespace.
 ms.assetid: 168637b1-217e-4b6d-bd07-25127b9e9f6c
 ms.tgt_platform: multiple
 title: '__NamespaceOperationEvent class'
@@ -105,7 +105,7 @@ Instances of this class are not created. WMI creates instances of one of the fol
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

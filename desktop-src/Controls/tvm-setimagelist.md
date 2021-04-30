@@ -61,7 +61,7 @@ The tree-view control will not destroy the image list specified with this messag
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.ExplicitPrepare field"
 title: Windows7Grbits.ExplicitPrepare field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: ExplicitPrepare field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.ExplicitPrepare

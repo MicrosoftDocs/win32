@@ -1,5 +1,5 @@
 ---
-Description: Starting with Windows 8.1, the Windows Imaging Component (WIC) JPEG codec supports reading and writing image data in its native YCbCr form.
+description: Starting with Windows 8.1, the Windows Imaging Component (WIC) JPEG codec supports reading and writing image data in its native YCbCr form.
 ms.assetid: 50B89A96-72E8-4771-9109-207F4CDD06CB
 title: JPEG YCbCr Support
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: glPixelTransferf function (Gl.h)
-description: The glPixelTransferf and glPixelTransferi functions set pixel transfer modes.
+description: The glPixelTransferf and glPixelTransferi functions set pixel transfer modes. | glPixelTransferf function (Gl.h)
 ms.assetid: c18ecbb9-af2a-4662-8e3f-0ac850b04fc1
 keywords:
 - glPixelTransferf function OpenGL
@@ -138,7 +138,7 @@ The following functions retrieve information related to **glPixelTransfer**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID.Equals method"
 title: JET_INDEXID.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_INDEXID.Equals

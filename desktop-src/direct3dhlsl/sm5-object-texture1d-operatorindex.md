@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# Texture1D::Operator  function
 
 Returns a read-only resource variable for a [**Texture1D**](sm5-object-texture1d.md).
 

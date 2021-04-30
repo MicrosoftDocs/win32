@@ -1,5 +1,5 @@
 ---
-Description: Enumerating Service Content
+description: Enumerating Service Content
 ms.assetid: 4af4201c-d3f6-4630-91ec-6509c51871a5
 title: Enumerating Service Content
 ms.topic: article

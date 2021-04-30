@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidFilenameException methods"
 title: EsentInvalidFilenameException methods
 TOCTitle: EsentInvalidFilenameException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException

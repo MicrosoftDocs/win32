@@ -1,6 +1,6 @@
 ---
 title: Player.StringCollectionChange event
-description: The StringCollectionChange event occurs when a string collection changes.
+description: The StringCollectionChange event occurs when a string collection changes. | Player.StringCollectionChange event
 ms.assetid: 465ec694-afd1-4baa-b559-3ab75874388f
 keywords:
 - StringCollectionChange event Windows Media Player
@@ -89,7 +89,7 @@ This event does not return a value.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

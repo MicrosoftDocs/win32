@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationJob2 interface
-description: 
+description: "Learn more about: IDeliveryOptimizationJob2 interface"
 keywords:
 - IDeliveryOptimizationJob2 interface
 topic_type:
@@ -38,7 +38,7 @@ The **IDeliveryOptimizationJob2** interface has these methods.
 
 ## Requirements
 
-|                          |                                                                                  |
+| Requirement | Value |
 |--------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client | Windows 10, version 1803 \[desktop apps only\]                                   |
 | Minimum supported server | Windows Server, version 1709 \[desktop apps only\]                               |

@@ -1,5 +1,5 @@
 ---
-Description: Extends the Folder object to support offline folders.
+description: Extends the Folder object to support offline folders.
 title: Folder2 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -71,7 +71,7 @@ The **Folder2** object has these properties.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

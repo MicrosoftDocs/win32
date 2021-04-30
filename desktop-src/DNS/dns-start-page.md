@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 ## Purpose
 
-Domain Name System (DNS), a locator service in Microsoft Windows, is an industry-standard protocol that locates computers on an IP-based network. IP networks, such as the Internet and Windows networks, rely on number-based addresses to process data. Users however, can more easily remember name addresses, so it is necessary to translate user-friendly names (such as www.microsoft.com) into addresses that the network can recognize (such as 207.46.131.137).
+Domain Name System (DNS), a locator service in Microsoft Windows, is an industry-standard protocol that locates computers on an IP-based network. IP networks, such as the Internet and Windows networks, rely on number-based addresses to process data. Users however, can more easily remember name addresses, so it is necessary to translate user-friendly names (such as `www.microsoft.com`) into addresses that the network can recognize (such as 207.46.131.137).
 
 ## Where applicable
 

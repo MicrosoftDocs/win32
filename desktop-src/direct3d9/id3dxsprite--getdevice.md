@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the device associated with the sprite object.
+description: Retrieves the device associated with the sprite object.
 ms.assetid: 9ce18623-893e-4395-bdf7-8d16a641a557
 title: ID3DXSprite::GetDevice method (D3dx9core.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Calling this method will increase the internal reference count on the [**IDirect
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

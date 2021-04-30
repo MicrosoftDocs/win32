@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetPrepareUpdate method"
 title: Api.JetPrepareUpdate method 
 TOCTitle: 'JetPrepareUpdate method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetPrepareUpdate(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_prep)

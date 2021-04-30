@@ -1,5 +1,5 @@
 ---
-Description: The ICertPropertyRenewal interface exposes the following methods.
+description: The ICertPropertyRenewal interface exposes the following methods.
 ms.assetid: 090DFA85-534D-4D98-892A-9ADBC1AE99ED
 title: ICertPropertyRenewal Methods
 ms.topic: reference

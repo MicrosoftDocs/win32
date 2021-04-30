@@ -1,5 +1,5 @@
 ---
-Description: Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-vertex or volume buffers.
+description: Creates a precomputed radiance transfer (PRT) buffer that can be compressed or filled by a simulator. This function should be used to create per-vertex or volume buffers.
 ms.assetid: f79a3691-ab5f-4404-aafd-f9635ff88e71
 title: D3DXCreatePRTBuffer function (D3DX9Mesh.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ When the buffer is created, all values are initialized to zero.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

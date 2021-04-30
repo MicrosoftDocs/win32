@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateDatabase Function"
 title: JetCreateDatabase Function
 TOCTitle: JetCreateDatabase Function
 ms:assetid: 2b13b038-1694-46d8-b903-9be64384cb06

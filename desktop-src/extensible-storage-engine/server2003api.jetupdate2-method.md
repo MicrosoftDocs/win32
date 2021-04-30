@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Api.JetUpdate2 method"
 title: Server2003Api.JetUpdate2 method  (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: 'JetUpdate2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api.JetUpdate2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[],System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.Server2003.UpdateGrbit)

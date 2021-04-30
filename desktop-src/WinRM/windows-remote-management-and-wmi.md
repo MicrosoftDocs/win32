@@ -40,7 +40,7 @@ The following procedure describes how to generate a resource URI either to get a
 
 1.  Start with the prefix that indicates the WS-Management protocol schema should be used.
 
-    http://schemas.microsoft.com/wbem/wsman/1
+    https://schemas.microsoft.com/wbem/wsman/1
 
     The resource URI prefix for WMI classes is always the same. For more information, see [URI Prefixes](uri-prefixes.md).
 

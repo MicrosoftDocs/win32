@@ -1,5 +1,5 @@
 ---
-Description: Specifies the protection level for video content.
+description: Specifies the protection level for video content.
 ms.assetid: 681c6ad9-cf55-47e4-bbb9-e7fdc499a709
 title: D3DAUTHENTICATEDCHANNEL_PROTECTION_FLAGS structure (D3d9types.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Use this member to access all of the bits in the union.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

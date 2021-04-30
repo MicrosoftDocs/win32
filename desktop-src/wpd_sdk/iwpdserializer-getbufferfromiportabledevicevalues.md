@@ -1,5 +1,5 @@
 ---
-Description: The GetBufferFromIPortableDeviceValues method serializes a submitted IPortableDeviceValues interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
+description: The GetBufferFromIPortableDeviceValues method serializes a submitted IPortableDeviceValues interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
 ms.assetid: fd856394-9cb3-41cb-875b-1d490ca859df
 title: IWpdSerializer::GetBufferFromIPortableDeviceValues method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

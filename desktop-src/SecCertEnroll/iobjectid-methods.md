@@ -1,5 +1,5 @@
 ---
-Description: The IObjectId interface exposes the following methods.
+description: The IObjectId interface exposes the following methods.
 ms.assetid: F3E9B573-8A6D-4BFB-8F03-D81698574BBC
 title: IObjectId Methods
 ms.topic: reference

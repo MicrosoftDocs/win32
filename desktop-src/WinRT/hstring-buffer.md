@@ -1,5 +1,5 @@
 ---
-Description: A handle to a mutable string buffer that you can use to create an HSTRING.
+description: A handle to a mutable string buffer that you can use to create an HSTRING.
 ms.assetid: D173CE70-ABF3-4703-A229-0753F2AF6F70
 title: HSTRING_BUFFER (Hstring.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ Call the [**WindowsPreallocateStringBuffer**](/windows/win32/api/winstring/nf-wi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |

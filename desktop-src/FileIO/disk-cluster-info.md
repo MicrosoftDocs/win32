@@ -1,5 +1,5 @@
 ---
-Description: Represents information maintained on the partition manager about a disk that is part of a cluster.
+description: Represents information maintained on the partition manager about a disk that is part of a cluster.
 ms.assetid: 9138F61A-E295-4F5B-AD65-361FCCB3C4B7
 title: DISK_CLUSTER_INFO structure (Ntdddisk.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ The flags that are being modified in the **Flags** member.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

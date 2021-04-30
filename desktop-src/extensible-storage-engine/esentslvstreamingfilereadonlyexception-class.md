@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileReadOnlyException class"
 title: EsentSLVStreamingFileReadOnlyException class
 TOCTitle: EsentSLVStreamingFileReadOnlyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException

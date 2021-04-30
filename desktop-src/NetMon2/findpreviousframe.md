@@ -1,5 +1,5 @@
 ---
-Description: The FindPreviousFrame function finds the previous frame in the current capture context that matches the filter.
+description: The FindPreviousFrame function finds the previous frame in the current capture context that matches the filter.
 ms.assetid: 16c5b981-a9f4-41e5-bb97-2caa3e9d8512
 title: FindPreviousFrame function (Netmon.h)
 ms.topic: reference
@@ -107,7 +107,7 @@ The capture filter is defined primarily by *ProtocolName*, which is the only req
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

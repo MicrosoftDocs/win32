@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when candidate processing has finished and the IME is about to move the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
+description: Notifies an application when candidate processing has finished and the IME is about to move the candidate window. The application receives this command through the WM\_IME\_NOTIFY message with parameter settings as shown below.
 ms.assetid: 64252d88-130b-44c3-854a-78b01def7a13
 title: IMN_SETCANDIDATEPOS notification code (Imm.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The IME window moves the candidate window when it processes this command.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

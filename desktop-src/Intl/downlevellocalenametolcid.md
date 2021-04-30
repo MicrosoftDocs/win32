@@ -1,5 +1,5 @@
 ---
-Description: Converts a locale name to a locale identifier that can be used to get information from the operating system.
+description: Converts a locale name to a locale identifier that can be used to get information from the operating system.
 ms.assetid: dc776c41-0376-4222-bebf-86be7e4be122
 title: DownlevelLocaleNameToLCID function (Nlsdl.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The required header file and DLL are part of the "Microsoft NLS Downlevel Data M
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                |

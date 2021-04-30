@@ -1,5 +1,5 @@
 ---
-Description: Contains a network key or passphrase.
+description: Contains a network key or passphrase.
 ms.assetid: d2ed407e-5eaa-477b-8c4d-a47795048e0b
 title: keyMaterial (sharedKey) Element
 ms.topic: reference
@@ -60,7 +60,7 @@ To view sample profiles that use the **keyMaterial** element, see [Non-Broadcast
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

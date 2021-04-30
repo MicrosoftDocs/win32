@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileNotCopiedException methods"
 title: EsentLogFileNotCopiedException methods
 TOCTitle: EsentLogFileNotCopiedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException

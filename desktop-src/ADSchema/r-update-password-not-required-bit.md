@@ -21,7 +21,7 @@ Extended control access right that allows a user to enable or disable the "passw
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Update-Password-Not-Required-Bit     |
 | Display-Name | Update Password Not Required Bit     |
@@ -41,7 +41,7 @@ Extended control access right that allows a user to enable or disable the "passw
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 68                                           |
@@ -52,7 +52,7 @@ Extended control access right that allows a user to enable or disable the "passw
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 68                                           |
@@ -63,7 +63,7 @@ Extended control access right that allows a user to enable or disable the "passw
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 68                                           |
@@ -74,7 +74,7 @@ Extended control access right that allows a user to enable or disable the "passw
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 68                                           |
@@ -85,7 +85,7 @@ Extended control access right that allows a user to enable or disable the "passw
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 68                                           |

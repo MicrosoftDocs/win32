@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetOSSnapshotFreeze method"
 title: Api.JetOSSnapshotFreeze method 
 TOCTitle: 'JetOSSnapshotFreeze method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOSSnapshotFreeze(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,System.Int32@,Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO[]@,Microsoft.Isam.Esent.Interop.SnapshotFreezeGrbit)

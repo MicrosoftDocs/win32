@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.CheckpointDepthMax property"
 title: InstanceParameters.CheckpointDepthMax property 
 TOCTitle: 'CheckpointDepthMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CheckpointDepthMax

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateAfterTruncationException members"
 title: EsentMultiValuedDuplicateAfterTruncationException members
 TOCTitle: EsentMultiValuedDuplicateAfterTruncationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCloseException class"
 title: EsentFileCloseException class
 TOCTitle: EsentFileCloseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileCloseException

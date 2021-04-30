@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMemoryException properties"
 title: EsentMemoryException properties
 TOCTitle: EsentMemoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMemoryException

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a key is pressed while the InkPicture control has focus.
+description: Occurs when a key is pressed while the InkPicture control has focus.
 ms.assetid: adb61eff-a92c-40b0-940c-02e14cd34e5f
 title: InkPicture.KeyPress event (Msinkaut.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

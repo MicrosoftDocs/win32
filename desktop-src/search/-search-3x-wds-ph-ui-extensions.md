@@ -1,5 +1,5 @@
 ---
-Description: To ensure that your data is indexed and presented correctly to the user during searches, you need to implement Shell data stores (also known as Shell Namespace Extensions), and file type handlers (also known as Shell extensions, extension handlers, or Shell extension handlers).
+description: To ensure that your data is indexed and presented correctly to the user during searches, you need to implement Shell data stores (also known as Shell Namespace Extensions), and file type handlers (also known as Shell extensions, extension handlers, or Shell extension handlers).
 ms.assetid: 38cebb3c-51bf-439c-8d4e-445344f6cb66
 title: Adding Icons, Previews and Shortcut Menus
 ms.topic: article

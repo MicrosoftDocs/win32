@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextNotSetByThisThreadException methods"
 title: EsentSessionContextNotSetByThisThreadException methods
 TOCTitle: EsentSessionContextNotSetByThisThreadException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException

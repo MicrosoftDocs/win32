@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexBuildCorruptedException members"
 title: EsentIndexBuildCorruptedException members
 TOCTitle: EsentIndexBuildCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexBuildCorruptedException

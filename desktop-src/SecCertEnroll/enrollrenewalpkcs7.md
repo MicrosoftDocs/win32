@@ -1,5 +1,5 @@
 ---
-Description: Creates a PKCS \#7 request object to renew an existing certificate. The request object uses a new key pair but retains the cryptographic provider associated with the certificate being renewed.
+description: Creates a PKCS \#7 request object to renew an existing certificate. The request object uses a new key pair but retains the cryptographic provider associated with the certificate being renewed.
 ms.assetid: 12a3f1b4-b31e-470e-8ce6-87f497841240
 title: enrollRenewalPKCS7
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Equality operator"
 title: JET_THREADSTATS.Equality operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.op_Equality(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS,Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)

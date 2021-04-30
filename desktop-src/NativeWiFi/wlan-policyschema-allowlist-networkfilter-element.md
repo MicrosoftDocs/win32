@@ -1,5 +1,5 @@
 ---
-Description: Specifies the list of wireless LAN networks to which any machine must be allowed to connect.
+description: Specifies the list of wireless LAN networks to which any machine must be allowed to connect.
 ms.assetid: e24557d8-dedf-4381-bba0-cdb7ea26083b
 title: allowList (networkFilter) Element
 ms.topic: reference
@@ -53,7 +53,7 @@ The **allowList** element is defined by the [**networkFilter**](wlan-policyschem
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

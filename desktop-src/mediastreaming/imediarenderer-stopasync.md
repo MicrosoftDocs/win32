@@ -1,6 +1,6 @@
 ---
 title: IMediaRenderer StopAsync method
-description: Instructs the DMR asynchronously to stop playing the current content.
+description: Instructs the DMR asynchronously to stop playing the current content. | IMediaRenderer StopAsync method
 ms.assetid: B6B0F3F2-E95E-4A58-9CBD-CF4CB24FDAD0
 keywords:
 - StopAsync method Media Streaming API

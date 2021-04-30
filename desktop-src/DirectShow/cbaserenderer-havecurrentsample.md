@@ -1,5 +1,5 @@
 ---
-Description: The HaveCurrentSample method determines whether the filter has a sample.
+description: The HaveCurrentSample method determines whether the filter has a sample.
 ms.assetid: cd20aea8-bb0b-4aa5-8d06-2733652fde08
 title: CBaseRenderer.HaveCurrentSample method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the filter has a sample, or **FALSE** otherwise.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

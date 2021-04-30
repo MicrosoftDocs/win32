@@ -1,5 +1,5 @@
 ---
-Description: The ScheduleSample method schedules a sample for rendering.
+description: The ScheduleSample method schedules a sample for rendering.
 ms.assetid: 08c218d1-6d0a-4c66-bbde-a39e5d31561c
 title: CBaseRenderer.ScheduleSample method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method first determines whether the sample should be rendered immediately, 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

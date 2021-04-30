@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentRecordException members"
 title: EsentNoCurrentRecordException members
 TOCTitle: EsentNoCurrentRecordException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException

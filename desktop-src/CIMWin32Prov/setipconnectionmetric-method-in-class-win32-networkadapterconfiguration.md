@@ -1,5 +1,5 @@
 ---
-Description: The SetIPConnectionMetric method is used to set the routing metric associated with this IP-bound adapter.
+description: The SetIPConnectionMetric method is used to set the routing metric associated with this IP-bound adapter.
 ms.assetid: d7f7c0df-51e3-4dc8-8a53-977ecde075df
 ms.tgt_platform: multiple
 title: SetIPConnectionMetric method of the Win32_NetworkAdapterConfiguration class
@@ -407,7 +407,7 @@ The [Modify the IP Connection Metric for a Network Adapter](https://Gallery.Tech
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2008<br/>                                     |

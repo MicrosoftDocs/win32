@@ -1,5 +1,5 @@
 ---
-Description: Represents an association where a CIM\_ServiceAccessPoint or CIM\_ProtocolEndpoint object depends on an underlying CIM\_LANEndpoint object on the same system.
+description: Represents an association where a CIM\_ServiceAccessPoint or CIM\_ProtocolEndpoint object depends on an underlying CIM\_LANEndpoint object on the same system.
 ms.assetid: 3c015fbd-0611-41e8-a79a-01c980eedfd3
 title: CIM_BindsToLANEndpoint class
 ms.topic: reference
@@ -137,7 +137,7 @@ The framing method for the upper layer service access point or protocol endpoint
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

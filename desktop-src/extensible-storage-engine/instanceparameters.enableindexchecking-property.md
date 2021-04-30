@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.EnableIndexChecking property"
 title: InstanceParameters.EnableIndexChecking property 
 TOCTitle: 'EnableIndexChecking property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EnableIndexChecking

@@ -22,7 +22,7 @@ Contains the method that is used to encrypt UNIX passwords.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msSFU-30-Crypt-Method                |
 | Ldap-Display-Name | msSFU30CryptMethod                   |
@@ -46,7 +46,7 @@ Contains the method that is used to encrypt UNIX passwords.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -67,7 +67,7 @@ Contains the method that is used to encrypt UNIX passwords.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -88,7 +88,7 @@ Contains the method that is used to encrypt UNIX passwords.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -109,7 +109,7 @@ Contains the method that is used to encrypt UNIX passwords.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

@@ -1,5 +1,5 @@
 ---
-Description: This operator converts the reference time to a double value.
+description: This operator converts the reference time to a double value.
 ms.assetid: 59de8e7d-4f1e-441a-bbdd-7393417fe74f
 title: COARefTime.operator double method (Ctlutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the reference time in seconds.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

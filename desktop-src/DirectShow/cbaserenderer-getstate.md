@@ -1,5 +1,5 @@
 ---
-Description: The GetState method retrieves the filters's state (running, stopped, or paused).
+description: The GetState method retrieves the filters's state (running, stopped, or paused).
 ms.assetid: 5d35824c-2509-499a-bbb1-1fb916b51808
 title: CBaseRenderer.GetState method (Renbase.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ This method overrides the [**CBaseFilter::GetState**](cbasefilter-getstate.md) m
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

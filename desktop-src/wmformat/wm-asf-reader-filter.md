@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# WM ASF Reader Filter
+# WM ASF Reader Filter (Windows Media Format 11 SDK)
 
 When given the name of an ASF file or a URL, the WM ASF Reader reads the compressed content, parses the streams, and exposes an output pin for each one. This filter connects downstream to the Windows Media Audio or Windows Media Video DMOs, which do the decompression. Seeking is supported if the ASF file is seekable. The WM ASF Reader applies time stamps to the media samples based on the time stamp in the ASF file, but it does not modify the time stamps in any way. Internally, the filter uses the Windows Media Format reader object to read the Windows Media–based content.
 

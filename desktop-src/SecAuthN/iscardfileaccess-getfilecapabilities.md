@@ -1,5 +1,5 @@
 ---
-Description: The GetFileCapabilities method retrieves a list of file capabilities from the current file.
+description: The GetFileCapabilities method retrieves a list of file capabilities from the current file.
 ms.assetid: 0d24efd2-d411-4fb3-95c2-4742a58aeb5e
 title: ISCardFileAccess::GetFileCapabilities method
 ms.topic: reference
@@ -108,7 +108,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: The IAzBizRuleContext interface exposes the following properties.
+description: The IAzBizRuleContext interface exposes the following properties.
 ms.assetid: F6E223F8-4511-494A-B7FF-968A28300896
 title: IAzBizRuleContext Properties
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Critical section that protects the blocking state.
+description: Critical section that protects the blocking state.
 ms.assetid: 6d20cf4c-2c27-41e6-8d01-6cb5e3876a38
 title: CDynamicOutputPin::m_BlockStateLock member (Amfilter.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ Hold this critical section before using any of the following member variables:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

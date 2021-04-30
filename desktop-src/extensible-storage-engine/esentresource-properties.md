@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentResource properties"
 title: EsentResource properties
 TOCTitle: EsentResource properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentResource

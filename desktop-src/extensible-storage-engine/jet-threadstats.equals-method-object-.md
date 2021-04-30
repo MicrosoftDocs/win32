@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Equals method (Object)"
 title: JET_THREADSTATS.Equals method (Object) (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Equals(System.Object)

@@ -1,5 +1,5 @@
 ---
-Description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
+description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
 title: AcquireCredentialsHandle (CredSSP) function
 ms.topic: reference
@@ -107,7 +107,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 ## Requirements
 
-|                          |                                                                                  |
+| Requirement | Value |
 |--------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client | Windows Vista \[desktop apps only\]                                              |
 | Minimum supported server | Windows Server 2008 \[desktop apps only\]                                        |

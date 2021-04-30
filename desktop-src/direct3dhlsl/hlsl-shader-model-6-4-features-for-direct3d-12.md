@@ -36,3 +36,12 @@ float dot2add( half2 a, half2 b, float acc );
 A 2-dimensional floating point dot-product of half2 vectors with add. Multiplies the elements of the two half-precision float input vectors together and sums the results into the 32-bit float accumulator. This instructions operates within a single 32-bit wide SIMD lane. The inputs are 16-bit quantities packed into the same lane.
 
 This is covered under the low-precision feature bit (indicating that native half and short support are present).
+
+### SV_ShadingRate
+```syntax
+uint shadingRate : SV_ShadingRate
+```
+
+An unsigned integer representing how many target pixels are written by each invocation of the pixel shader. Valid values belong to set of enumeration values [D3D12_SHADING_RATE](/windows/win32/api/d3d12/ne-d3d12-d3d12_shading_rate).
+
+This system value is available on platforms that are [D3D12_VARIABLE_SHADING_RATE_TIER_2](/windows/win32/api/d3d12/ne-d3d12-d3d12_variable_shading_rate_tier) or higher. It can be written from at most one of vertex or geometry shader stages. It can be read from the pixel shader stage. For more information, see the [Variable-rate Shading](../direct3d12/vrs.md).

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileUnknownException properties"
 title: EsentSLVFileUnknownException properties
 TOCTitle: EsentSLVFileUnknownException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException

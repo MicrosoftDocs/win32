@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullInvalidException constructor"
 title: EsentNullInvalidException constructor 
 TOCTitle: 'EsentNullInvalidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNullInvalidException.#ctor

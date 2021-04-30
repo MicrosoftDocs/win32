@@ -1,5 +1,5 @@
 ---
-Description: The LINEADDRESSSTATE\_ bit-flag constants describe various address status items.
+description: The LINEADDRESSSTATE\_ bit-flag constants describe various address status items.
 ms.assetid: f06140d0-f41a-4228-93c5-21d609af5473
 title: LINEADDRESSSTATE_ Constants (Tapi.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ An application is notified about changes to these status items in the [**LINE\_A
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

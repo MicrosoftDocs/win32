@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointFileNotFoundException constructor"
 title: EsentCheckpointFileNotFoundException constructor 
 TOCTitle: 'EsentCheckpointFileNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException.#ctor

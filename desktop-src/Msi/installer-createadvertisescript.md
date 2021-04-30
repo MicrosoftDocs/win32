@@ -1,5 +1,5 @@
 ---
-Description: The CreateAdvertiseScript method of the Installer object generates an advertise script.
+description: The CreateAdvertiseScript method of the Installer object generates an advertise script.
 ms.assetid: 32a331e5-d291-49cd-ab0e-7d0e4d72a95b
 title: Installer::CreateAdvertiseScript method
 ms.topic: reference
@@ -135,7 +135,7 @@ Installer.CreateAdvertiseScript "\\products\public\orca\orca.msi", "c:\scripts\o
 
 
 
-|                    |                                                                                                                                                                                                                                                              |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 4.5 on Windows Server 2003 and Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |

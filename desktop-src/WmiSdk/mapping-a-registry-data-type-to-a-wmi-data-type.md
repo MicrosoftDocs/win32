@@ -1,5 +1,5 @@
 ---
-Description: The application must create the properties with a data type that maps to the registry data type.
+description: The application must create the properties with a data type that maps to the registry data type.
 ms.assetid: aa86565c-47eb-40d3-a533-03464cd1c6cd
 ms.tgt_platform: multiple
 title: Mapping a Registry Data Type to a WMI Data Type

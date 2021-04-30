@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseDuplicateException constructor"
 title: EsentDatabaseDuplicateException constructor 
 TOCTitle: 'EsentDatabaseDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseDuplicateException.#ctor

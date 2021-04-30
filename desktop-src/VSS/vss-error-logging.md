@@ -1,5 +1,5 @@
 ---
-Description: 'The following VSS error and state information is written to the Application Event Log:'
+description: 'The following VSS error and state information is written to the Application Event Log:'
 ms.assetid: d0b0f012-ad4f-4bd8-bb97-98f212bcbe81
 title: VSS Error Logging
 ms.topic: article

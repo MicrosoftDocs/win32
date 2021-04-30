@@ -1,5 +1,5 @@
 ---
-Description: Loads a library.
+description: Loads a library.
 ms.assetid: 191fcbd8-4542-4cad-955e-6951f3005fc5
 title: '_LoadLibrary function'
 ms.topic: reference
@@ -44,7 +44,7 @@ HMODULE _LoadLibrary(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 

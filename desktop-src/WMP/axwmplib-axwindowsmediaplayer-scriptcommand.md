@@ -1,6 +1,6 @@
 ---
 title: ScriptCommand Event of the AxWindowsMediaPlayer Object
-description: The ScriptCommand event occurs when a synchronized command or URL is received.
+description: The ScriptCommand event occurs when a synchronized command or URL is received. | ScriptCommand Event of the AxWindowsMediaPlayer Object
 ms.assetid: b6c613b2-f1b0-43d3-9992-c01d1e00e644
 keywords:
 - ScriptCommand Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -103,7 +103,7 @@ The ScriptCommand event is not called if the file is being scanned (fast-forward
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

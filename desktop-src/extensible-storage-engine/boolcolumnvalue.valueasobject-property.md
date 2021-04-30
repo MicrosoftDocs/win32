@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BoolColumnValue.ValueAsObject property"
 title: BoolColumnValue.ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BoolColumnValue.ValueAsObject

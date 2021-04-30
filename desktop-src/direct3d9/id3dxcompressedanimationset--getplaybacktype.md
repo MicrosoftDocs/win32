@@ -1,5 +1,5 @@
 ---
-Description: Gets the type of the animation set playback loop.
+description: ID3DXCompressedAnimationSet::GetPlaybackType method - Gets the type of the animation set playback loop.
 ms.assetid: aa18b572-5fd9-4a2b-b4c6-c5895ee65c62
 title: ID3DXCompressedAnimationSet::GetPlaybackType method (D3dx9anim.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Type of the animation set playback loop. See [**D3DXPLAYBACK\_TYPE**](./d3dxplay
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyNotMadeException properties"
 title: EsentKeyNotMadeException properties
 TOCTitle: EsentKeyNotMadeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyNotMadeException

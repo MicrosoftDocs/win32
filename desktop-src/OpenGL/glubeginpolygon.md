@@ -1,6 +1,6 @@
 ---
 title: gluBeginPolygon function (Glu.h)
-description: The gluBeginPolygon and gluEndPolygon functions delimit a polygon description.
+description: The gluBeginPolygon and gluEndPolygon functions delimit a polygon description. | gluBeginPolygon function (Glu.h)
 ms.assetid: e4da731c-2082-4dbc-ae3a-8d6b30d50253
 keywords:
 - gluBeginPolygon function OpenGL
@@ -79,7 +79,7 @@ gluEndPolygon(tess);
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

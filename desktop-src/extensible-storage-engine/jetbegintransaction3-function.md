@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginTransaction3 Function"
 title: JetBeginTransaction3 Function
 TOCTitle: JetBeginTransaction3 Function
 ms:assetid: 7f8ed059-0b97-46fa-9925-e46cdcbee6ea

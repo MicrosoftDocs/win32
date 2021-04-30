@@ -1,5 +1,5 @@
 ---
-Description: The Mt.exe file is a tool that generates signed files and catalogs. It is available in the Microsoft Windows Software Development Kit (SDK). Mt.exe requires that the file referenced in the manifest be present in the same directory as the manifest.
+description: The Mt.exe file is a tool that generates signed files and catalogs. It is available in the Microsoft Windows Software Development Kit (SDK). Mt.exe requires that the file referenced in the manifest be present in the same directory as the manifest.
 ms.assetid: 37f010ee-2658-4547-9871-c913201042de
 title: Mt.exe
 ms.topic: article

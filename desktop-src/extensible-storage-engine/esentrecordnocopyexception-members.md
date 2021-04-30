@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNoCopyException members"
 title: EsentRecordNoCopyException members
 TOCTitle: EsentRecordNoCopyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException

@@ -1,5 +1,5 @@
 ---
-Description: This function enables or disables support for end-user-defined characters (EUDC).
+description: This function enables or disables support for end-user-defined characters (EUDC).
 ms.assetid: 9e531d8c-6008-4189-ae25-cda707be5e2c
 title: EnableEUDC function
 ms.topic: reference
@@ -59,7 +59,7 @@ It is recommended that you use this function with Windows XP SP2 or later.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

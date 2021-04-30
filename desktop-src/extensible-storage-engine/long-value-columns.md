@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Long Value Columns"
 title: Long Value Columns
 TOCTitle: Long Value Columns
 ms:assetid: 0690f9d3-1a58-4e53-92e1-213630fc88f4

@@ -1,5 +1,5 @@
 ---
-Description: Adjusts the hue.
+description: Adjusts the hue.
 ms.assetid: 8dc3c888-5ab8-40a1-8768-bec58b62eaf0
 title: MFPKEY_COLOR_HUE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ This property has a range of -127 to 127. Zero indicates no change in hue.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

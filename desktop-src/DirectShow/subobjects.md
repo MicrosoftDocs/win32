@@ -1,5 +1,5 @@
 ---
-Description: Subobjects
+description: Subobjects
 ms.assetid: 03cbd590-b573-4a98-9ab7-fe548800cfcb
 title: Subobjects
 ms.topic: article

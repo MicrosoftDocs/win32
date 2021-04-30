@@ -1,5 +1,5 @@
 ---
-Description: The SetTimeFormat method sets the time format. This method implements the IMediaSeeking::SetTimeFormat method.
+description: CSourceSeeking.SetTimeFormat method - The SetTimeFormat method sets the time format. This method implements the IMediaSeeking::SetTimeFormat method.
 ms.assetid: dbc7c950-8cc2-4f8e-adfa-8f5cdc1b56c7
 title: CSourceSeeking.SetTimeFormat method (Ctlutil.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

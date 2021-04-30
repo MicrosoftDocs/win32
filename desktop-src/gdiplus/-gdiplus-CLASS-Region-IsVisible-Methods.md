@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the IsVisible methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
+description: This topic lists the IsVisible methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 ms.assetid: 08773daa-0778-4525-a6e9-d18bcd4b76bf
 title: Region.IsVisible methods
 ms.date: 07/02/2019

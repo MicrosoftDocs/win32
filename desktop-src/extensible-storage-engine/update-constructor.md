@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update constructor"
 title: Update constructor 
 TOCTitle: 'Update constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.#ctor(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_prep)

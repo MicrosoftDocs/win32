@@ -1,5 +1,5 @@
 ---
-Description: The ReceiveCanBlock method determines whether calls to the IMemInputPin::Receive method might block. This method implements the IMemInputPin::ReceiveCanBlock method.
+description: The ReceiveCanBlock method determines whether calls to the IMemInputPin::Receive method might block. This method implements the IMemInputPin::ReceiveCanBlock method.
 ms.assetid: db96e389-e1bc-4b38-8d0a-a20f0d3a4460
 title: CBaseInputPin.ReceiveCanBlock method (Amfilter.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ In the base class, this method returns S\_OK when any of the following are true:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

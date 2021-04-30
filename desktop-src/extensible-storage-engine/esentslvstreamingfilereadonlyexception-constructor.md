@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileReadOnlyException constructor"
 title: EsentSLVStreamingFileReadOnlyException constructor 
 TOCTitle: 'EsentSLVStreamingFileReadOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException.#ctor

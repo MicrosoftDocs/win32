@@ -1,5 +1,5 @@
 ---
-Description: The CollectUserInfo method of the Installer object invokes a user interface wizard sequence which collects and stores both user information and the product code.
+description: The CollectUserInfo method of the Installer object invokes a user interface wizard sequence which collects and stores both user information and the product code.
 ms.assetid: 2faacf38-1af1-4e8a-a3f6-87733104614e
 title: Installer.CollectUserInfo method
 ms.topic: reference
@@ -55,7 +55,7 @@ The **CollectUserInfo** method invokes the [FirstRun Dialog](firstrun-dialog.md)
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

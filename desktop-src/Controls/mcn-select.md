@@ -52,7 +52,7 @@ The **MCN\_SELECT** notification code is similar to [**MCN\_SELCHANGE**](mcn-sel
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Create an asynchronous-data processor for a memory pool.
+description: Create an asynchronous-data processor for a memory pool.
 ms.assetid: 3985a5e5-492e-4003-9d10-6e34620de69f
 title: D3DX10CreateAsyncEffectPoolCreateProcessor function (D3DX10Async.h)
 ms.topic: reference
@@ -133,7 +133,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

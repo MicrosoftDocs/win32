@@ -1,5 +1,5 @@
 ---
-Description: The ODBCSourceAttribute table contains information about the attributes of data sources.
+description: The ODBCSourceAttribute table contains information about the attributes of data sources.
 ms.assetid: 8ee50fd7-507e-484f-9a16-de5449470562
 title: ODBCSourceAttribute Table
 ms.topic: article

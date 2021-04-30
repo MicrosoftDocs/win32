@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAlreadyPreparedException properties"
 title: EsentAlreadyPreparedException properties
 TOCTitle: EsentAlreadyPreparedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentAlreadyPreparedException

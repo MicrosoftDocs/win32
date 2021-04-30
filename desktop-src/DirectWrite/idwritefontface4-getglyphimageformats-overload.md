@@ -33,7 +33,7 @@ Gets supported glyph image formats.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dwrite\_3.h</dt> </dl> |
 

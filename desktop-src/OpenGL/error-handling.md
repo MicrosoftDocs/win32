@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Handling
+# Error Handling (OpenGL)
 
 When OpenGL detects an error, it records a current error code. The function that caused the error is ignored, so it has no effect on the OpenGL state or on the framebuffer contents. (If the error recorded was GL\_OUT\_OF\_MEMORY, however, the results of the function are undefined.) Once recorded, the current error code isn't cleared until you call the [**glGetError**](glgeterror.md) query function, which returns the current error code.
 

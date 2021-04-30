@@ -1,5 +1,5 @@
 ---
-Description: The defaultfx attribute specifies the class identifier (CLSID) of a default effect for the timeline.
+description: The defaultfx attribute specifies the class identifier (CLSID) of a default effect for the timeline.
 ms.assetid: 892de9fe-8fb9-419e-a18b-8f20148f4ee0
 title: defaultfx Attribute
 ms.topic: reference

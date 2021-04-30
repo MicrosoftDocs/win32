@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine System Parameters"
 title: Extensible Storage Engine System Parameters
 TOCTitle: Extensible Storage Engine System Parameters
 ms:assetid: f95c2e87-b25e-4be5-8c17-8486ba37dad4

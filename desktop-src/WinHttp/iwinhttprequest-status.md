@@ -1,5 +1,5 @@
 ---
-Description: The Status property retrieves the HTTP status code from the last response.
+description: The Status property retrieves the HTTP status code from the last response.
 ms.assetid: 80b05e69-7f00-455d-94c3-a06eaa997cae
 title: IWinHttpRequest::Status property
 ms.topic: reference
@@ -187,7 +187,7 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

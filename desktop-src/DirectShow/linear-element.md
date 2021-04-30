@@ -1,5 +1,5 @@
 ---
-Description: The linear element defines the value of a param element at a particular time, relative to the start of the transition or effect that contains the param element.
+description: The linear element defines the value of a param element at a particular time, relative to the start of the transition or effect that contains the param element.
 ms.assetid: f6af4bf1-fc2d-439c-b1e3-8e095ecad503
 title: linear Element (Camerauicontrol.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ The linear element defines the value of a [**param**](param-element.md) element 
 
 
 
-|          |                                |
+| Label | Value |
 |----------|--------------------------------|
 | Parent   | [**param**](param-element.md) |
 | Children | None                           |
@@ -45,7 +45,7 @@ The linear element defines the value of a [**param**](param-element.md) element 
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Camerauicontrol.h</dt> </dl> |
 

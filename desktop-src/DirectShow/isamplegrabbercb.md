@@ -1,5 +1,5 @@
 ---
-Description: The ISampleGrabberCB interface provides callback methods for the ISampleGrabber::SetCallback method. If your application calls that method, it must implement this interface. For more information, see ISampleGrabber.
+description: The ISampleGrabberCB interface provides callback methods for the ISampleGrabber::SetCallback method. If your application calls that method, it must implement this interface. For more information, see ISampleGrabber.
 ms.assetid: 30166d1b-cc37-43c4-8f64-681d8f2013b9
 title: ISampleGrabberCB interface (Qedit.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ The **ISampleGrabberCB** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

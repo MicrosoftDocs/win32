@@ -43,7 +43,7 @@ The header information in the email you want to send.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

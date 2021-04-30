@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS Structure"
 title: JET_THREADSTATS Structure
 TOCTitle: JET_THREADSTATS Structure
 ms:assetid: 37e86e14-7719-4991-aae8-bcff1baa80df

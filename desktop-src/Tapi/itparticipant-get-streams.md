@@ -1,5 +1,5 @@
 ---
-Description: The get\_Streams method creates a collection of streams associated with the current participant.
+description: The get\_Streams method creates a collection of streams associated with the current participant.
 ms.assetid: 9ab05b14-8ef8-4e7f-b598-05795011e35d
 title: ITParticipant::get_Streams method (Ipmsp.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ TAPI calls the **AddRef** method on the [**ITStream**](/windows/win32/api/tapi3i
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

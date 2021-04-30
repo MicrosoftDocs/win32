@@ -1,5 +1,5 @@
 ---
-Description: Gets a new stream for the specified item.
+description: Gets a new stream for the specified item.
 ms.assetid: fe25843c-2051-42fe-8737-eea39f6aeab9
 title: IWiaTransferCallback::GetNextStream method (Wia.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ The image processing filter's **IWiaTransferCallback::GetNextStream** implementa
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

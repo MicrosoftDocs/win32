@@ -1,5 +1,5 @@
 ---
-Description: Used with the Store.Open method to indicate how a certificate store is to be opened.
+description: Used with the Store.Open method to indicate how a certificate store is to be opened.
 ms.assetid: 6ec87b8c-9431-4ecc-bd90-943cfe2df1c2
 title: CAPICOM_STORE_OPEN_MODE enumeration (Capicom.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ When using the CAPICOM\_STORE\_OPEN\_MODE enumeration, only one of the following
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

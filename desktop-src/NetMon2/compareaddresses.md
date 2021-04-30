@@ -1,5 +1,5 @@
 ---
-Description: The CompareAddresses function compares two addresses, indicating that one of the addresses is greater than, less than, or equal to the other address.
+description: The CompareAddresses function compares two addresses, indicating that one of the addresses is greater than, less than, or equal to the other address.
 ms.assetid: 76ff37d2-714f-4bac-adcc-eab78c8f25d3
 title: CompareAddresses function (Netmon.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Network Monitor provides two other functions, [CompareFrameDestAddress](comparef
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

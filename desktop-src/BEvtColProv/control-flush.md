@@ -1,5 +1,5 @@
 ---
-Description: Clears the forward buffers for the stream and writes any buffered data to the configuration file.
+description: Clears the forward buffers for the stream and writes any buffered data to the configuration file.
 ms.assetid: 7f179237-95e5-470d-b613-c1deaa09c05f
 ms.tgt_platform: multiple
 title: Flush method of the Control class
@@ -41,7 +41,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

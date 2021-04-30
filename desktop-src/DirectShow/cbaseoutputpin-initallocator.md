@@ -1,5 +1,5 @@
 ---
-Description: The InitAllocator method creates a memory allocator.
+description: The InitAllocator method creates a memory allocator.
 ms.assetid: a1fa0ffb-ed43-446d-811e-6c3594743592
 title: CBaseOutputPin.InitAllocator method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ If the input pin does not provide a memory allocator, the [**CBaseOutputPin::Dec
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

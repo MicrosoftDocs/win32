@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue methods"
 title: ColumnValue methods
 TOCTitle: ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnValue

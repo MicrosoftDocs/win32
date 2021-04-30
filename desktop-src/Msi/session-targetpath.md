@@ -1,5 +1,5 @@
 ---
-Description: The TargetPath property of the Session object is a read-write property that provides the full path to the designated folder on the installation target drive.
+description: The TargetPath property of the Session object is a read-write property that provides the full path to the designated folder on the installation target drive.
 ms.assetid: 563b874e-c669-4f5b-b3fa-eeb6b6e578f2
 title: Session.TargetPath property
 ms.topic: reference
@@ -45,7 +45,7 @@ If the property fails, you can obtain extended error information by using the [*
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

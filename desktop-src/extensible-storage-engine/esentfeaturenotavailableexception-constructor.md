@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFeatureNotAvailableException constructor"
 title: EsentFeatureNotAvailableException constructor 
 TOCTitle: 'EsentFeatureNotAvailableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException.#ctor

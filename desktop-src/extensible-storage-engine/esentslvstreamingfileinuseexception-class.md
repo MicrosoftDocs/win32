@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileInUseException class"
 title: EsentSLVStreamingFileInUseException class
 TOCTitle: EsentSLVStreamingFileInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileInUseException

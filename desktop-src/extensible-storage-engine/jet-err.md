@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERR"
 title: JET_ERR
 TOCTitle: JET_ERR
 ms:assetid: cd9cb876-251c-458d-a015-8e9045e77fc9
@@ -26,7 +27,9 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_ERR** data type contains an [Extensible Storage Engine error code](./extensible-storage-engine-error-codes.md).
 
-    typedef long JET_ERR;
+```cpp
+typedef long JET_ERR;
+```
 
 ### Data Types
 

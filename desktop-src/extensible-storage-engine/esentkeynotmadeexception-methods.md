@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyNotMadeException methods"
 title: EsentKeyNotMadeException methods
 TOCTitle: EsentKeyNotMadeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentKeyNotMadeException

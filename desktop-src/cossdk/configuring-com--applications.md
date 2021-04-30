@@ -1,5 +1,5 @@
 ---
-Description: A COM+ application is essentially a declarative construct that enables you to configure any number of components in common. For example, you can configure the components in an application with a common security policy.
+description: A COM+ application is essentially a declarative construct that enables you to configure any number of components in common. For example, you can configure the components in an application with a common security policy.
 ms.assetid: 50039b30-1c91-4e93-9f23-873accb651cf
 title: Configuring COM+ Applications
 ms.topic: article

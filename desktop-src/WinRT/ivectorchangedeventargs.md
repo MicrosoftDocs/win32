@@ -1,5 +1,5 @@
 ---
-Description: Provides data for a VectorChanged event.
+description: Provides data for a VectorChanged event.
 ms.assetid: 635c0f96-5d64-436e-9186-78f9d85b6d29
 title: IVectorChangedEventArgs interface (IVectorChangedEventArgs.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The **IVectorChangedEventArgs** interface has these methods.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                 |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                       |

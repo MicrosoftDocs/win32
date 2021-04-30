@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Windows Media Format SDK Structures
 
 The Windows Media Format SDK implements the following structures.
 

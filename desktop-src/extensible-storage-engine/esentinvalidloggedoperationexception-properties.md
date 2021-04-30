@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLoggedOperationException properties"
 title: EsentInvalidLoggedOperationException properties
 TOCTitle: EsentInvalidLoggedOperationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidLoggedOperationException

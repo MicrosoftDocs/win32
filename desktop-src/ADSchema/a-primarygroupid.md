@@ -22,7 +22,7 @@ Contains the relative identifier (RID) for the primary group of the user. By def
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Primary-Group-ID                     |
 | Ldap-Display-Name | primaryGroupID                       |
@@ -48,7 +48,7 @@ Contains the relative identifier (RID) for the primary group of the user. By def
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ Contains the relative identifier (RID) for the primary group of the user. By def
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ Contains the relative identifier (RID) for the primary group of the user. By def
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ Contains the relative identifier (RID) for the primary group of the user. By def
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ Contains the relative identifier (RID) for the primary group of the user. By def
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ Contains the relative identifier (RID) for the primary group of the user. By def
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for processes obtain information such as the account under which a process is running. You can perform actions like creating processes. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for processes obtain information such as the account under which a process is running. You can perform actions like creating processes. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 2ae7c302-ab8b-4150-8ece-ffb66374b3f7
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Processes'
@@ -303,7 +303,6 @@ foreach ($objProcess in $colProcesses) { $objProcess.Terminate() }</code></pre><
 Set objWMIService = GetObject(&quot;winmgmts:&quot; & &quot;{impersonationLevel=impersonate}!\\&quot; & strComputer & &quot;\root\cimv2&quot;)
 Set colProcesses = objWMIService.ExecQuery(&quot;Select * from Win32_Process&quot;)
 For Each objProcess in colProcesses
-
     Wscript.Echo &quot;Process: &quot; & objProcess.Name
     sngProcessTime = (CSng(objProcess.KernelModeTime) + CSng(objProcess.UserModeTime)) / 10000000
     Wscript.Echo &quot;Processor Time: &quot; & sngProcessTime

@@ -1,6 +1,6 @@
 ---
 title: TSGRemoveConsentMsg method of the Win32_TSGatewayServerSettings class
-description: Removes the administrative message for the gateway server.
+description: Removes the administrative message for the gateway server. | TSGRemoveConsentMsg method of the Win32_TSGatewayServerSettings class
 ms.assetid: 626dc9ca-d6a1-48ab-84ec-cfccb8e720c2
 ms.tgt_platform: multiple
 keywords:
@@ -52,7 +52,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                        |

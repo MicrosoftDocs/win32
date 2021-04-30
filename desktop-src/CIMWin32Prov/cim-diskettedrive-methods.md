@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DisketteDrive class exposes the following methods.
+description: The CIM\_DisketteDrive class exposes the following methods.
 ms.assetid: C1E62403-DC39-49A0-85DD-403B6849A353
 ms.tgt_platform: multiple
 title: CIM_DisketteDrive Methods

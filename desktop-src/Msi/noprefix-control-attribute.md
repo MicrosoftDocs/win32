@@ -1,5 +1,5 @@
 ---
-Description: If this bit is set on a text control, the occurrence of the character &\#0034;&&\#0034; in a text string is displayed as itself. If this bit is not set, then the character following &\#0034;&&\#0034; in the text string is displayed as an underscored character.
+description: If this bit is set on a text control, the occurrence of the character &\#0034;&&\#0034; in a text string is displayed as itself. If this bit is not set, then the character following &\#0034;&&\#0034; in the text string is displayed as an underscored character.
 ms.assetid: b958eecb-2f44-420f-8c93-7a4bd8b589da
 title: NoPrefix Control Attribute
 ms.topic: article

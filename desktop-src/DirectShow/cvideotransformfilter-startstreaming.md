@@ -1,5 +1,5 @@
 ---
-Description: The StartStreaming method is called when the filter switches to the paused state. This method overrides the CTransformFilter::StartStreaming method.
+description: The StartStreaming method is called when the filter switches to the paused state. This method overrides the CTransformFilter::StartStreaming method.
 ms.assetid: fa05f88f-fed8-479d-b0b4-d9df982d51e7
 title: CVideoTransformFilter.StartStreaming method (Vtrans.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method resets all of the performance statistics.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Vtrans.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Performs a specified operation on a specified file.
+description: Shell.ShellExecute method - Performs a specified operation on a specified file.
 ms.assetid: 62E59A1C-51BD-4864-AF09-35FFD49FAB9D
 title: Shell.ShellExecute method (Shldisp.h)
 ms.topic: reference
@@ -160,7 +160,7 @@ End Function
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

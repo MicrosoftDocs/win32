@@ -1,5 +1,5 @@
 ---
-Description: The SetIUnknownValue method adds a new IUnknown value (type VT\_UNKNOWN) or overwrites an existing one.
+description: The SetIUnknownValue method adds a new IUnknown value (type VT\_UNKNOWN) or overwrites an existing one.
 ms.assetid: 292adf45-439c-4aae-9b17-e4d9ed701eda
 title: IPortableDeviceValues::SetIUnknownValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If an existing value has the same key that is specified by the *key* parameter, 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

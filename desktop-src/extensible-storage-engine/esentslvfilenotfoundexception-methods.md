@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileNotFoundException methods"
 title: EsentSLVFileNotFoundException methods
 TOCTitle: EsentSLVFileNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileNotFoundException

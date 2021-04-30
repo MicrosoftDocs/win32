@@ -1,5 +1,5 @@
 ---
-Description: Resets the replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
+description: Resets the replication statistics for a virtual machine and acts on the primary replication relationship of the virtual machine.
 ms.assetid: da4b60f8-6964-45af-8412-935234c7c0ff
 title: ResetReplicationStatistics method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -106,7 +106,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,6 +1,6 @@
 ---
 title: g_wszWMACAvgPCMValue (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMACAvgPCMValue (Wmcodecdsp.h)
 ms.assetid: f951b253-2bcf-4fa9-9166-cd63c93e7fe2
 keywords:
 - g_wszWMACAvgPCMValue windows Media Format
@@ -24,7 +24,7 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 

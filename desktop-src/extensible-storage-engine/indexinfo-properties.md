@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IndexInfo properties"
 title: IndexInfo properties
 TOCTitle: IndexInfo properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.IndexInfo

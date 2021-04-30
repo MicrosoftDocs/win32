@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseFileReadOnlyException constructor"
 title: EsentDatabaseFileReadOnlyException constructor 
 TOCTitle: 'EsentDatabaseFileReadOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseFileReadOnlyException.#ctor

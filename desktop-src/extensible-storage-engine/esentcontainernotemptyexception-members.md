@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentContainerNotEmptyException members"
 title: EsentContainerNotEmptyException members
 TOCTitle: EsentContainerNotEmptyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException

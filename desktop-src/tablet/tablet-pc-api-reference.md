@@ -1,5 +1,5 @@
 ---
-Description: This section describes the various COM references for Tablet PC.
+description: This section describes the various COM references for Tablet PC.
 ms.assetid: 271fe2aa-7b37-400d-9642-74eb09c18e3e
 title: Tablet PC API Reference
 ms.topic: article

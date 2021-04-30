@@ -1,5 +1,5 @@
 ---
-Description: This section identifies the structures that are used in Hyper-V management.
+description: This section identifies the structures that are used in Hyper-V management.
 ms.assetid: 73D81935-C903-46A9-B50A-D9907110C1F8
 title: Hyper-V management structures
 ms.topic: article

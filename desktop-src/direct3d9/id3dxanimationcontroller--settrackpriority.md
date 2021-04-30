@@ -1,5 +1,5 @@
 ---
-Description: Sets the priority blending weight for the specified animation track.
+description: Sets the priority blending weight for the specified animation track.
 ms.assetid: 8d40b0f6-d79a-42c1-99fb-3f76bd46f30c
 title: ID3DXAnimationController::SetTrackPriority method (D3dx9anim.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

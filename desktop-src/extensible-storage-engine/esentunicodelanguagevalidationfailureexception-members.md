@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeLanguageValidationFailureException members"
 title: EsentUnicodeLanguageValidationFailureException members
 TOCTitle: EsentUnicodeLanguageValidationFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnicodeLanguageValidationFailureException

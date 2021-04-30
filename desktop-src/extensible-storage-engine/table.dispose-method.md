@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Table.Dispose method"
 title: Table.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Table.Dispose

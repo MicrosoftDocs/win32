@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetCursorFilter Function"
 title: JetSetCursorFilter Function
 TOCTitle: JetSetCursorFilter Function
 ms:assetid: 3cea5beb-2cf8-4053-8e7f-7b8645580ef0

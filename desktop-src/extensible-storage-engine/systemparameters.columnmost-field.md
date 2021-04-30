@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.ColumnMost field"
 title: SystemParameters.ColumnMost field
 TOCTitle: ColumnMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.ColumnMost

@@ -71,7 +71,7 @@ The error messages added by the **WM\_ADSPROP\_NOTIFY\_ERROR** message are accum
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                       |

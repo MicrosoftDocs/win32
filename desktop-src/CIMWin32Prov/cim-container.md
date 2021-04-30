@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Container class represents an association between a contained and a containing physical element. A containing object must be a physical package.
+description: The CIM\_Container class represents an association between a contained and a containing physical element. A containing object must be a physical package.
 ms.assetid: 9b119163-3c56-44e2-ba66-d8add3c375fa
 ms.tgt_platform: multiple
 title: CIM_Container class
@@ -109,7 +109,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

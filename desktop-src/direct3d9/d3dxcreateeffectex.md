@@ -1,5 +1,5 @@
 ---
-Description: Creates an effect from an ASCII or binary effect description. This function is an extended version of D3DXCreateEffect that allows an application to control which parameters are ignored by the effects system.
+description: Creates an effect from an ASCII or binary effect description. This function is an extended version of D3DXCreateEffect that allows an application to control which parameters are ignored by the effects system.
 ms.assetid: b08f727e-6061-4e78-8243-08c4ccab342d
 title: D3DXCreateEffectEx function (D3DX9Effect.h)
 ms.topic: reference
@@ -155,7 +155,7 @@ If a constant is named in the string that is not present in the effect, it is ig
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

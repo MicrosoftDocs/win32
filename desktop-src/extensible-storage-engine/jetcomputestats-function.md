@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetComputeStats Function"
 title: JetComputeStats Function
 TOCTitle: JetComputeStats Function
 ms:assetid: 142f6ab0-715f-493a-a762-7a83854498d2

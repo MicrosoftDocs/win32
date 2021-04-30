@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEscrowUpdate Function"
 title: JetEscrowUpdate Function
 TOCTitle: JetEscrowUpdate Function
 ms:assetid: e509b6c9-a8ce-4898-a426-485e286869fa

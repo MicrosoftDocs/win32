@@ -1,6 +1,6 @@
 ---
 title: ID2D1DeviceContext DrawGdiMetafile methods
-description: Draw a metafile to the device context.
+description: Draw a metafile to the device context. | ID2D1DeviceContext DrawGdiMetafile methods
 ms.assetid: 57A08FFE-7B2D-477F-AEAD-E6A315B5B932
 keywords:
 - DrawGdiMetafile methods Direct2D

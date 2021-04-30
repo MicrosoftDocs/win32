@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfFileHandlesException properties"
 title: EsentOutOfFileHandlesException properties
 TOCTitle: EsentOutOfFileHandlesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesException

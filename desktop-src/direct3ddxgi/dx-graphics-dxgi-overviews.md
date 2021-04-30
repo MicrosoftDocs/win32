@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft DirectX Graphics Infrastructure (DXGI) manages low-level tasks that can be independent of the Direct3D graphics runtime. DXGI provides a common framework for several version of Direct3D.
+description: The Microsoft DirectX Graphics Infrastructure (DXGI) manages low-level tasks that can be independent of the Direct3D graphics runtime. DXGI provides a common framework for several version of Direct3D.
 ms.assetid: bcbeb4bc-3bd1-40ed-b176-a8091cc6ee9f
 title: Programming Guide for DXGI
 ms.topic: article

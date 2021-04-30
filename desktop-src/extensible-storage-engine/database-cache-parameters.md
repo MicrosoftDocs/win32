@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Database Cache Parameters"
 title: Database Cache Parameters
 TOCTitle: Database Cache Parameters
 ms:assetid: 715e5495-0cd8-430f-bf21-509cf03bfbfd

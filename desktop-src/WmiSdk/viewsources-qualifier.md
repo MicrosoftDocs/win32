@@ -1,5 +1,5 @@
 ---
-Description: All view classes must have a string array qualifier called ViewSources.
+description: All view classes must have a string array qualifier called ViewSources.
 ms.assetid: aefa8cda-962f-4f6c-92a0-a8825d48db60
 ms.tgt_platform: multiple
 title: ViewSources Qualifier
@@ -53,7 +53,7 @@ ViewSources{
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

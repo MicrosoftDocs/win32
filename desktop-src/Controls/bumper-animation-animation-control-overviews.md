@@ -1,6 +1,6 @@
 ---
 title: Animation Control Overviews
-description: .
+description: Animation Control Overviews
 ms.assetid: 73083685-ff0e-478f-842f-ec03ccaaf064
 ms.topic: article
 ms.date: 05/31/2018

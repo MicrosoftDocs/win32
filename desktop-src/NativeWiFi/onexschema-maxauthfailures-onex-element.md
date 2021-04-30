@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum number of authentication failures allowed for a set of credentials.
+description: Specifies the maximum number of authentication failures allowed for a set of credentials.
 ms.assetid: 191b6b03-8b27-4b35-8623-1ccec632f208
 title: maxAuthFailures (OneX) Element
 ms.topic: reference
@@ -45,7 +45,7 @@ The **maxAuthFailures** element is defined by the [**OneX**](onexschema-onex-ele
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

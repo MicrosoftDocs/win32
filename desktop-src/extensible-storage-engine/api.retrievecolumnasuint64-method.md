@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnAsUInt64 method"
 title: Api.RetrieveColumnAsUInt64 method 
 TOCTitle: 'RetrieveColumnAsUInt64 method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsUInt64

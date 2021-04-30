@@ -1,5 +1,5 @@
 ---
-Description: Moves stroke data from this IContextNode to the specified IContextNode.
+description: Moves stroke data from this IContextNode to the specified IContextNode.
 ms.assetid: 583f2de9-d32e-4177-83d1-4abbd0f9f960
 title: IContextNode::ReparentStrokeByIdToNode method (IACom.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ An empty node generates errors if it is in the tree during an ink analysis opera
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

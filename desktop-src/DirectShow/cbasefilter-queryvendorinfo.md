@@ -1,5 +1,5 @@
 ---
-Description: The QueryVendorInfo method retrieves a string containing vendor information. This method implements the IBaseFilter::QueryVendorInfo method.
+description: The QueryVendorInfo method retrieves a string containing vendor information. This method implements the IBaseFilter::QueryVendorInfo method.
 ms.assetid: 083c0556-d516-4daf-8621-e158ea78b5a3
 title: CBaseFilter.QueryVendorInfo method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ To provide vendor information for a filter, override this method. If you impleme
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

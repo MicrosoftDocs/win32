@@ -22,7 +22,7 @@ GUID that identifies an FRS Replica Set.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | FRS-Replica-Set-GUID                                  |
 | Ldap-Display-Name | fRSReplicaSetGUID                                     |
@@ -48,7 +48,7 @@ GUID that identifies an FRS Replica Set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -69,7 +69,7 @@ GUID that identifies an FRS Replica Set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -90,7 +90,7 @@ GUID that identifies an FRS Replica Set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -111,7 +111,7 @@ GUID that identifies an FRS Replica Set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -132,7 +132,7 @@ GUID that identifies an FRS Replica Set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -153,7 +153,7 @@ GUID that identifies an FRS Replica Set.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |

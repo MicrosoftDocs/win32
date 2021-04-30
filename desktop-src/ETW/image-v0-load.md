@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for image load events. The following syntax is simplified from MOF code.
+description: Image_V0_Load class - This class is the event type class for image load events. The following syntax is simplified from MOF code.
 ms.assetid: e2836153-8e4f-4c7f-9542-9402ed9e4356
 title: Image_V0_Load class
 ms.topic: reference
@@ -99,7 +99,7 @@ Size of the image.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

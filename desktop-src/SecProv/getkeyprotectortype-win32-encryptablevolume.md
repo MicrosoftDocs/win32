@@ -1,5 +1,5 @@
 ---
-Description: Indicates the type of a given key protector.
+description: Indicates the type of a given key protector.
 ms.assetid: 17cdde18-3979-4a19-b36e-aa71994148c9
 title: GetKeyProtectorType method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -99,7 +99,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Creates a new Win32\_ClusterShare instance.
+description: Creates a new Win32\_ClusterShare instance.
 ms.assetid: a6fde28d-f19e-4a31-8f0d-35927c75a030
 ms.tgt_platform: multiple
 title: Create method of the Win32_ClusterShare class
@@ -150,7 +150,7 @@ Optional embedded instance of a [**Win32\_SecurityDescriptor**](/previous-versio
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |

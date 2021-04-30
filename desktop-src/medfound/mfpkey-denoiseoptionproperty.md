@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the codec will use the noise filter when encoding.
+description: Specifies whether the codec will use the noise filter when encoding.
 ms.assetid: 9e099378-bb77-4dca-9171-7fe58e0139de
 title: MFPKEY_DENOISEOPTION Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This filter should be disabled for clean video sources since it can reduce image
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

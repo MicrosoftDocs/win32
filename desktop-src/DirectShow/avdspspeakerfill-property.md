@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables speaker fill in an audio decoder or digital signal processor (DSP).
+description: Enables or disables speaker fill in an audio decoder or digital signal processor (DSP).
 ms.assetid: 5a42d4c9-d593-4d7f-bfee-37271c48e5cf
 title: AVDSPSpeakerFill property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ Speaker fill is a DSP process that converts mono or stereo audio into multichann
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

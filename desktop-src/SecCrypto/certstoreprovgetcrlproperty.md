@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a specified property of a CRL.
+description: Retrieves a specified property of a CRL.
 ms.assetid: b02f4f92-952a-4625-a7d4-6e78e542774e
 title: CertStoreProvGetCRLProperty callback function
 ms.topic: reference
@@ -88,7 +88,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

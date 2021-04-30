@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 'd746bdd1-96c2-41f5-ad99-0b51c8ee8731'
 title: Legacy Print Schema Reference
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Legacy Print Schema Reference
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 The Print Schema and related technologies are available in the Microsoft .NET Framework 3.0, Microsoft Windows Vista, and later releases.
 
@@ -42,7 +42,7 @@ It is important to keep in mind that one of the goals of the Print Schema is to 
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

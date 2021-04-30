@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_STARTCOPY notification is sent to the callback function when the queue starts a file copy operation.
+description: The SPFILENOTIFY\_STARTCOPY notification is sent to the callback function when the queue starts a file copy operation.
 ms.assetid: 01a7d9d4-b548-4e72-b1c9-7116e67c023b
 title: SPFILENOTIFY_STARTCOPY message (Setupapi.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The callback routine should return one of the following values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

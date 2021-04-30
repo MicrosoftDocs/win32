@@ -1,5 +1,5 @@
 ---
-Description: Ends an active technique.
+description: Ends an active technique.
 ms.assetid: 7297aa67-5cd4-4557-b5ef-faa6c27eaeb5
 title: ID3DXEffect::End method (D3DX9Effect.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ By default, the effect system takes care of saving state prior to a technique, a
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

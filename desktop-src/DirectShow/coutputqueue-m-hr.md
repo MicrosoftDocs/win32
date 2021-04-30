@@ -1,5 +1,5 @@
 ---
-Description: HRESULT value that indicates whether the object will accept samples. If the value is S\_OK, the object will accept samples. Otherwise, it rejects samples.
+description: HRESULT value that indicates whether the object will accept samples. If the value is S\_OK, the object will accept samples. Otherwise, it rejects samples.
 ms.assetid: e05d4d2e-cc3e-4b83-8531-bc4bd6d665ac
 title: COutputQueue::m_hr member (Outputq.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This member variable is used to coordinate activities across threads. If the dow
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

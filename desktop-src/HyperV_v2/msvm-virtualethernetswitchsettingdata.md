@@ -1,5 +1,5 @@
 ---
-Description: Represents the current configuration of a virtual Ethernet switch.
+description: Represents the current configuration of a virtual Ethernet switch.
 ms.assetid: a7c03517-332d-47ce-8e04-c2187bcb2977
 title: Msvm_VirtualEthernetSwitchSettingData class
 ms.topic: reference
@@ -524,7 +524,7 @@ A list of VLAN identifiers that this switch can access. This property is inherit
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

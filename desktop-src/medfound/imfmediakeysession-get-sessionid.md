@@ -1,5 +1,5 @@
 ---
-Description: Gets a unique session id created for this session.
+description: Gets a unique session id created for this session.
 ms.assetid: 779ebea9-69ff-469a-8ee0-06d570ede6cb
 title: IMFMediaKeySession::get_SessionId method
 ms.topic: reference
@@ -49,7 +49,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

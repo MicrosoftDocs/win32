@@ -1,5 +1,5 @@
 ---
-Description: Formats the property instance data using the generic formatter that Network Monitor provides.
+description: Formats the property instance data using the generic formatter that Network Monitor provides.
 ms.assetid: 36206601-7519-45c8-a14e-707b318c539d
 title: FormatPropertyInstance function (Netmon.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ For more information and an example of how to implement [formatproperties](forma
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

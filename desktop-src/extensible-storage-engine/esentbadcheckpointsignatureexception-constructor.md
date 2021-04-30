@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadCheckpointSignatureException constructor"
 title: EsentBadCheckpointSignatureException constructor 
 TOCTitle: 'EsentBadCheckpointSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException.#ctor

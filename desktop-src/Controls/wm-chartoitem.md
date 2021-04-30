@@ -50,11 +50,11 @@ Handle to the list box.
 
 ## Return value
 
-The return value specifies the action that the application performed in response to the message. A return value of  1 or  2 indicates that the application handled all aspects of selecting the item and requires no further action by the list box. A return value of 0 or greater specifies the zero-based index of an item in the list box and indicates that the list box should perform the default action for the keystroke on the specified item.
+The return value specifies the action that the application performed in response to the message. A return value of -1 or -2 indicates that the application handled all aspects of selecting the item and requires no further action by the list box. A return value of 0 or greater specifies the zero-based index of an item in the list box and indicates that the list box should perform the default action for the keystroke on the specified item.
 
 ## Remarks
 
-The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns  1.
+The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) function returns -1.
 
 Only owner-drawn list boxes that do not have the [**LBS\_HASSTRINGS**](list-box-styles.md) style can receive this message.
 
@@ -64,7 +64,7 @@ If a dialog box procedure handles this message, it should cast the desired retur
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

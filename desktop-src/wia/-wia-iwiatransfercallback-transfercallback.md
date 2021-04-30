@@ -1,5 +1,5 @@
 ---
-Description: Provides progress and other notifications during a transfer.
+description: Provides progress and other notifications during a transfer.
 ms.assetid: 0faba0f8-b318-4c47-85e0-5ce128fe1c82
 title: IWiaTransferCallback::TransferCallback method (Wia.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ A filter's **IWiaTransferCallback::TransferCallback** must delegate to the appli
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

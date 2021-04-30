@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.IndexDisallowTruncation field"
 title: VistaGrbits.IndexDisallowTruncation field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: IndexDisallowTruncation field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.IndexDisallowTruncation

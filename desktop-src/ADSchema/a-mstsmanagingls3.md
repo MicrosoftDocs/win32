@@ -22,7 +22,7 @@ Issuer name of the third terminal server per user CAL.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-TS-ManagingLS3                           |
 | Ldap-Display-Name | msTSManagingLS3                             |
@@ -45,7 +45,7 @@ Issuer name of the third terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -66,7 +66,7 @@ Issuer name of the third terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -87,7 +87,7 @@ Issuer name of the third terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

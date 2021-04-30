@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Update properties"
 title: Update properties
 TOCTitle: Update properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Update

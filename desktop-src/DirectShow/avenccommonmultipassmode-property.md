@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of encoding passes that the encoder supports.
+description: Specifies the number of encoding passes that the encoder supports.
 ms.assetid: 8b476164-fd44-4277-89bd-ba9929bf93a2
 title: AVEncCommonMultipassMode property (Codecapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ To set the current encoding pass, set the [**AVEncCommonPassStart**](avenccommon
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

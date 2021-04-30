@@ -1,5 +1,5 @@
 ---
-Description: All virtual machines reflect the presence of an emulated S3 video controller and an accelerated, synthetic video controller.
+description: All virtual machines reflect the presence of an emulated S3 video controller and an accelerated, synthetic video controller.
 ms.assetid: 93BDC827-E84A-4460-A2DD-18EE87254426
 title: Video classes
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The Clear method deletes all items from the collection.
+description: IPortableDeviceKeyCollection::Clear method - The Clear method deletes all items from the collection.
 ms.assetid: d5477ded-d0bd-4909-abb1-6ff282cf7925
 title: IPortableDeviceKeyCollection::Clear method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

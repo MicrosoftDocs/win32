@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInRelationshipException constructor"
 title: EsentColumnInRelationshipException constructor 
 TOCTitle: 'EsentColumnInRelationshipException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnInRelationshipException.#ctor

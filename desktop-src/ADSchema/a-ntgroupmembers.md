@@ -1,6 +1,6 @@
 ---
 title: NT-Group-Members attribute
-description: This attribute is not used.
+description: This attribute is not used. | NT-Group-Members attribute
 ms.assetid: e7f7cf82-eff9-429f-ab3d-a35b9385362a
 ms.tgt_platform: multiple
 keywords:
@@ -24,7 +24,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | NT-Group-Members                                      |
 | Ldap-Display-Name | nTGroupMembers                                        |
@@ -50,7 +50,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -71,7 +71,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -92,7 +92,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -113,7 +113,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -134,7 +134,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |
@@ -155,7 +155,7 @@ The [**member**](a-member.md) attribute is used to contain the members of a grou
 
 
 
-|                        |                                     |
+| Entry | Value |
 |------------------------|-------------------------------------|
 | Link-Id                | \-                                  |
 | MAPI-Id                | \-                                  |

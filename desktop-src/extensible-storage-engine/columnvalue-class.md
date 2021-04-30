@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue class"
 title: ColumnValue class
 TOCTitle: ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumnValue

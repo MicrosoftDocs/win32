@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_COLUMNBASE properties"
 title: JET_COLUMNBASE properties
 TOCTitle: JET_COLUMNBASE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE

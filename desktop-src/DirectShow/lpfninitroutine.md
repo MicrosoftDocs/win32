@@ -1,5 +1,5 @@
 ---
-Description: Pointer to a function that gets called from the DLL entry point.
+description: Pointer to a function that gets called from the DLL entry point.
 ms.assetid: 30196657-38ab-42ca-b673-b0894999e566
 title: LPFNInitRoutine function pointer (Combase.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ This function pointer does not return a value.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Combase.h (include Streams.h)</dt> </dl> |
 

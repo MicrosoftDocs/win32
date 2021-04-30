@@ -1,5 +1,5 @@
 ---
-Description: Gets the maximum number of tracks in the animation controller.
+description: Gets the maximum number of tracks in the animation controller.
 ms.assetid: 55d8a0f4-b382-4cc8-925c-d2136225aaae
 title: ID3DXAnimationController::GetMaxNumTracks method (D3dx9anim.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The maximum number of tracks the controller can manage.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRunningInOneInstanceModeException properties"
 title: EsentRunningInOneInstanceModeException properties
 TOCTitle: EsentRunningInOneInstanceModeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRunningInOneInstanceModeException

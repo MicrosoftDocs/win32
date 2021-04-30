@@ -1,5 +1,5 @@
 ---
-Description: Not supported.
+description: IRenderEngine::SetSourceConnectCallback method - Not supported.
 ms.assetid: 7da88bab-abba-417c-9e33-c4fc4950536f
 title: IRenderEngine::SetSourceConnectCallback method
 ms.topic: reference

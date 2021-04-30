@@ -1,5 +1,5 @@
 ---
-Description: Profile flags that define the stream settings for the transcode topology. The flags are defined in the MF\_TRANSCODE\_ADJUST\_PROFILE\_FLAGS enumeration.
+description: Profile flags that define the stream settings for the transcode topology. The flags are defined in the MF\_TRANSCODE\_ADJUST\_PROFILE\_FLAGS enumeration.
 ms.assetid: 6782e080-284b-458d-8bc0-6e131a529e7b
 title: MF_TRANSCODE_ADJUST_PROFILE attribute (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

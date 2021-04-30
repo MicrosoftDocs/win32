@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetCreateInstance2 method"
 title: Api.JetCreateInstance2 method 
 TOCTitle: 'JetCreateInstance2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateInstance2(Microsoft.Isam.Esent.Interop.JET_INSTANCE@,System.String,System.String,Microsoft.Isam.Esent.Interop.CreateInstanceGrbit)

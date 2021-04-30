@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesVarSegMacNotAllowedException constructor"
 title: EsentIndexTuplesVarSegMacNotAllowedException constructor 
 TOCTitle: 'EsentIndexTuplesVarSegMacNotAllowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesVarSegMacNotAllowedException.#ctor

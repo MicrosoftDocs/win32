@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the KeyUsage extension is present.
+description: Retrieves a Boolean value that indicates whether the KeyUsage extension is present.
 ms.assetid: 'd666049a-4b40-42b6-8c2d-c27a1bb4c48a'
 title: KeyUsage.IsPresent property
 ms.topic: reference
@@ -40,7 +40,7 @@ If **true**, the KeyUsage extension is present.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

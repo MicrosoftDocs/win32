@@ -1,5 +1,5 @@
 ---
-Description: The example described in the section titled Authoring a Conditional &\#0034;Please Wait .
+description: The example described in the section titled Authoring a Conditional &\#0034;Please Wait .
 ms.assetid: b563e306-6d10-4298-9a71-9e749224ccd2
 title: Adding Text Stored in a Property
 ms.topic: article

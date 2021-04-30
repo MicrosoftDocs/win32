@@ -1,5 +1,5 @@
 ---
-Description: Specifies the stop time of the presentation.
+description: Specifies the stop time of the presentation.
 ms.assetid: c1022538-ea9f-41e9-9075-c106e8b16b7b
 title: MF_TOPONODE_MEDIASTOP attribute (Mfidl.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

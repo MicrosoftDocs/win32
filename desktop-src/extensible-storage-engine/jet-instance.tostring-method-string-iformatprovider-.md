@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE.ToString method (String, IFormatProvider)"
 title: JET_INSTANCE.ToString method (String, IFormatProvider)
 TOCTitle: ToString method (String, IFormatProvider)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INSTANCE.ToString(System.String,System.IFormatProvider)

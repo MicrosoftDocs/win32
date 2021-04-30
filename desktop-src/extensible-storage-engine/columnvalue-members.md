@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue members"
 title: ColumnValue members
 TOCTitle: ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnValue

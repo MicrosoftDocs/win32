@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ManagedSystemElement class is the base class for the system element hierarchy. Any distinguishable system component is a candidate for inclusion in this class.
+description: The CIM\_ManagedSystemElement class is the base class for the system element hierarchy. Any distinguishable system component is a candidate for inclusion in this class.
 ms.assetid: f1b952f4-4bed-4420-ad5d-62478846be8e
 ms.tgt_platform: multiple
 title: CIM_ManagedSystemElement class (CIMWin32 WMI Providers)
@@ -21,7 +21,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_ManagedSystemElement class
+# CIM_ManagedSystemElement class (CIMWin32 WMI Providers)
 
 The **CIM\_ManagedSystemElement** class is the base class for the system element hierarchy. Any distinguishable system component is a candidate for inclusion in this class. Examples include software components, such as files; devices, such as disk drives and controllers; and physical components, such as chips and cards.
 
@@ -238,7 +238,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Accesses the .x file data.
+description: Accesses the .x file data.
 ms.assetid: 0e92914b-47b3-4a88-87ba-ce3c14282dbb
 title: ID3DXFileData::Lock method (D3DX9Xof.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Returned parameter values are not guaranteed to be valid due to possible file co
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

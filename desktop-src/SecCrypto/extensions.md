@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Extension objects.
+description: Represents a collection of Extension objects.
 ms.assetid: 'f2a6854d-1831-489f-adf6-31a0b26511e3'
 title: Extensions object
 ms.topic: article
@@ -52,7 +52,7 @@ The **Extensions** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

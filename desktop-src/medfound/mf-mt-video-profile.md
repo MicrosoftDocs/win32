@@ -1,5 +1,5 @@
 ---
-Description: Specifies the profile of video encoding on the output media type. This is an alias of MF\_MT\_MPEG2\_PROFILE attribute.
+description: Specifies the profile of video encoding on the output media type. This is an alias of MF\_MT\_MPEG2\_PROFILE attribute.
 ms.assetid: 29D1CCCA-CC11-46F1-A094-8BA8F74F7EE9
 title: MF_MT_VIDEO_PROFILE attribute (Mfapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Recommended default: [**eAVEncH264VProfile\_Main**](/windows/desktop/api/codecap
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

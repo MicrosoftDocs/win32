@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces the property description schema used by the Shell property system.
+description: This topic introduces the property description schema used by the Shell property system.
 ms.assetid: cac93c31-d90d-4116-b846-0cf593d1d56e
 title: Understanding the Property Description Schema
 ms.topic: article

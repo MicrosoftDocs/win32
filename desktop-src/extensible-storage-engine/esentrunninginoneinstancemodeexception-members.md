@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRunningInOneInstanceModeException members"
 title: EsentRunningInOneInstanceModeException members
 TOCTitle: EsentRunningInOneInstanceModeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRunningInOneInstanceModeException

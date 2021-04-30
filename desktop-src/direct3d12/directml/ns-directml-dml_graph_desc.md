@@ -48,7 +48,7 @@ api_name:
 Describes a graph of DirectML operators used to compile a combined, optimized operator. See [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -93,7 +93,7 @@ The number of internal nodes in the graph.
 
 `Nodes`
 
-Type: \_Field\_size\_(NodeCount) **const [DML_GRAPH_NODE_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_graph_node_desc)\***
+Type: \_Field\_size\_(NodeCount) **const [DML_GRAPH_NODE_DESC](./ns-directml-dml_graph_node_desc.md)\***
 
 The internal nodes in the graph.
 
@@ -107,9 +107,9 @@ The number of connections between graph inputs and inputs of internal nodes in t
 
 `InputEdges`
 
-Type: \_Field\_size\_(InputEdgeCount) **const [DML_GRAPH_EDGE_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_graph_edge_desc)\***
+Type: \_Field\_size\_(InputEdgeCount) **const [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md)\***
 
-An array of connections between graph inputs and inputs of internal nodes in the graph. The *Type* field within each element should be set to [DML_GRAPH_EDGE_TYPE_INPUT](/windows/win32/direct3d12/directml/ne-directml-dml_graph_edge_type).
+An array of connections between graph inputs and inputs of internal nodes in the graph. The *Type* field within each element should be set to [DML_GRAPH_EDGE_TYPE_INPUT](./ne-directml-dml_graph_edge_type.md).
 
 
 `OutputEdgeCount`
@@ -121,9 +121,9 @@ The number of connections between graph outputs and outputs of internal nodes in
 
 `OutputEdges`
 
-Type: \_Field\_size\_(OutputEdgeCount) **const [DML_GRAPH_EDGE_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_graph_edge_desc)\***
+Type: \_Field\_size\_(OutputEdgeCount) **const [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md)\***
 
-An array of connections between graph outputs and outputs of internal nodes in the graph. The *Type* field within each element should be set to [DML_GRAPH_EDGE_TYPE_OUTPUT](/windows/win32/direct3d12/directml/ne-directml-dml_graph_edge_type).
+An array of connections between graph outputs and outputs of internal nodes in the graph. The *Type* field within each element should be set to [DML_GRAPH_EDGE_TYPE_OUTPUT](./ne-directml-dml_graph_edge_type.md).
 
 
 `IntermediateEdgeCount`
@@ -135,9 +135,9 @@ The number of internal connections between nodes in the graph.
 
 `IntermediateEdges`
 
-Type: \_Field\_size\_(IntermediateEdgeCount) **const [DML_GRAPH_EDGE_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_graph_edge_desc)\***
+Type: \_Field\_size\_(IntermediateEdgeCount) **const [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md)\***
 
-An array of connections between inputs and outputs of internal nodes in the graph. The Type field within each element should be set to [DML_GRAPH_EDGE_TYPE_INTERMEDIATE](/windows/win32/direct3d12/directml/ne-directml-dml_graph_edge_type)
+An array of connections between inputs and outputs of internal nodes in the graph. The Type field within each element should be set to [DML_GRAPH_EDGE_TYPE_INTERMEDIATE](./ne-directml-dml_graph_edge_type.md)
 
 
 ## Remarks
@@ -160,5 +160,5 @@ This API was introduced in DirectML version `1.1.0`.
 ## See also
 
 * [IDMLDevice1::CompileGraph method](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
-* [DML_GRAPH_NODE_DESC struct](/windows/win32/direct3d12/directml/ns-directml-dml_graph_node_desc)
-* [DML_GRAPH_EDGE_DESC struct](/windows/win32/direct3d12/directml/ns-directml-dml_graph_edge_desc)
+* [DML_GRAPH_NODE_DESC struct](./ns-directml-dml_graph_node_desc.md)
+* [DML_GRAPH_EDGE_DESC struct](./ns-directml-dml_graph_edge_desc.md)

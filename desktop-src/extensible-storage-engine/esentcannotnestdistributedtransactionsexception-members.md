@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDistributedTransactionsException members"
 title: EsentCannotNestDistributedTransactionsException members
 TOCTitle: EsentCannotNestDistributedTransactionsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException

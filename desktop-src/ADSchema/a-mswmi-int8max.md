@@ -22,7 +22,7 @@ The maximum value for a WMI 64-bit integer parameter object.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-WMI-int8Max                       |
 | Ldap-Display-Name | msWMI-Int8Max                        |
@@ -47,7 +47,7 @@ The maximum value for a WMI 64-bit integer parameter object.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -68,7 +68,7 @@ The maximum value for a WMI 64-bit integer parameter object.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -89,7 +89,7 @@ The maximum value for a WMI 64-bit integer parameter object.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -110,7 +110,7 @@ The maximum value for a WMI 64-bit integer parameter object.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -131,7 +131,7 @@ The maximum value for a WMI 64-bit integer parameter object.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

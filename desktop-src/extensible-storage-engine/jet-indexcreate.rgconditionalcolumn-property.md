@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.rgconditionalcolumn property"
 title: JET_INDEXCREATE.rgconditionalcolumn property 
 TOCTitle: 'rgconditionalcolumn property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.rgconditionalcolumn

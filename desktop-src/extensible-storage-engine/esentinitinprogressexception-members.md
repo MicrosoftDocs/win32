@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInitInProgressException members"
 title: EsentInitInProgressException members
 TOCTitle: EsentInitInProgressException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInitInProgressException

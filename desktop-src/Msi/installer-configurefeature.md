@@ -1,5 +1,5 @@
 ---
-Description: The ConfigureFeature method of the Installer object configures the installed state of a product feature.
+description: The ConfigureFeature method of the Installer object configures the installed state of a product feature.
 ms.assetid: cc950951-3b43-4d86-9ff1-80aa2ccd11d5
 title: Installer.ConfigureFeature method
 ms.topic: reference
@@ -79,7 +79,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

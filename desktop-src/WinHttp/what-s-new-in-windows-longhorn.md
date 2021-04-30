@@ -1,5 +1,5 @@
 ---
-Description: Starting in Windows Server 2008 and Windows Vista, the WinHTTP API has been enhanced to include the following features.
+description: Starting in Windows Server 2008 and Windows Vista, the WinHTTP API has been enhanced to include the following features.
 ms.assetid: b47a2e38-67bd-4d43-936c-8781641cb7f6
 title: Whats New in Windows Server 2008 and Windows Vista
 ms.topic: article

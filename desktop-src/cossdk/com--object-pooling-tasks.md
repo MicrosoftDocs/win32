@@ -1,5 +1,5 @@
 ---
-Description: COM+ Object Pooling Tasks
+description: COM+ Object Pooling Tasks
 ms.assetid: 197a01a0-5991-46c0-a954-3f06332220e2
 title: COM+ Object Pooling Tasks
 ms.topic: article

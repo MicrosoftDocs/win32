@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException members"
 title: EsentInvalidColumnException members
 TOCTitle: EsentInvalidColumnException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException

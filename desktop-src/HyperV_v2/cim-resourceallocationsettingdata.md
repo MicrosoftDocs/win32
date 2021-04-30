@@ -1,5 +1,5 @@
 ---
-Description: Represents settings for an allocated resource that are outside the scope of the CIM class typically used to represent the resource itself.
+description: Represents settings for an allocated resource that are outside the scope of the CIM class typically used to represent the resource itself.
 ms.assetid: 6261bab9-aa51-479e-bd6a-43c4a9b294a6
 title: CIM_ResourceAllocationSettingData class
 ms.topic: reference
@@ -703,7 +703,7 @@ The relative priority for this allocation in relation to other allocations from 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

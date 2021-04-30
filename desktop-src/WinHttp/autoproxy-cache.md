@@ -1,5 +1,5 @@
 ---
-Description: AutoProxy Cache
+description: AutoProxy Cache
 ms.assetid: 087104e8-ab38-4ba4-be70-23a5ea2bb130
 title: AutoProxy Cache
 ms.topic: article

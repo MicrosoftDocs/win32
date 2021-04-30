@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of packets in the data section of an Advanced Systems Format (ASF) file.
+description: Specifies the number of packets in the data section of an Advanced Systems Format (ASF) file.
 ms.assetid: 29cf2412-0a9a-4cf5-b0c3-668204c1c352
 title: MF_PD_ASF_FILEPROPERTIES_PACKETS attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

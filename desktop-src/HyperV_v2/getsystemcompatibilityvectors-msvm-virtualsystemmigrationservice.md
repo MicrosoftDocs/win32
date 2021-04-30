@@ -1,5 +1,5 @@
 ---
-Description: Gets a list of Msvm\_CompatibilityVector instances that can be used to check for virtual machine (VM) to host compatibility.
+description: Gets a list of Msvm\_CompatibilityVector instances that can be used to check for virtual machine (VM) to host compatibility.
 ms.assetid: 3881D9A0-07C2-4275-925D-F3C3A36B79B4
 title: Msvm_VirtualSystemMigrationService::GetSystemCompatibilityVectors method
 ms.topic: reference
@@ -102,7 +102,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

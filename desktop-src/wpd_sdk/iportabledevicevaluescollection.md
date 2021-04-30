@@ -1,5 +1,5 @@
 ---
-Description: The IPortableDeviceValuesCollection interface holds a collection of zero-based indexed IPortableDeviceValues interfaces.
+description: The IPortableDeviceValuesCollection interface holds a collection of zero-based indexed IPortableDeviceValues interfaces.
 ms.assetid: 8bce9d27-f240-41ec-acf4-fefccdd95e9f
 title: IPortableDeviceValuesCollection interface (PortableDeviceTypes.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The **IPortableDeviceValuesCollection** interface has these methods.
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

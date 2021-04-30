@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfLongValueIDsException members"
 title: EsentOutOfLongValueIDsException members
 TOCTitle: EsentOutOfLongValueIDsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException

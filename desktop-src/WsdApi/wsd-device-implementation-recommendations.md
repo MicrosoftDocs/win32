@@ -1,5 +1,5 @@
 ---
-Description: The following topics are of interest to device manufacturers and other device implementers that create devices that interoperate with Windows-based WSDAPI clients and hosts without using WSDAPI.
+description: The following topics are of interest to device manufacturers and other device implementers that create devices that interoperate with Windows-based WSDAPI clients and hosts without using WSDAPI.
 ms.assetid: 72e3ce48-fd7d-4a47-9055-ebcc034a84bf
 title: WSD Device Implementation Recommendations
 ms.topic: article

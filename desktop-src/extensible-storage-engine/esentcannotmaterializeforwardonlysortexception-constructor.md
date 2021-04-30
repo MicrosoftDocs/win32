@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotMaterializeForwardOnlySortException constructor"
 title: EsentCannotMaterializeForwardOnlySortException constructor 
 TOCTitle: 'EsentCannotMaterializeForwardOnlySortException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotMaterializeForwardOnlySortException.#ctor

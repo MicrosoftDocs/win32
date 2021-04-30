@@ -1,5 +1,5 @@
 ---
-Description: A Shell extension handler object must be registered before the Shell can use it. This topic is a general discussion of how to register a Shell extension handler.
+description: A Shell extension handler object must be registered before the Shell can use it. This topic is a general discussion of how to register a Shell extension handler.
 ms.assetid: e4b98c18-746b-4909-8821-f25de9d15373
 title: Registering Shell Extension Handlers
 ms.topic: article

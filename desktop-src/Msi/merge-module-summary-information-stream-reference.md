@@ -1,5 +1,5 @@
 ---
-Description: The following table identifies the properties for the summary information stream of the merge module. For more information, see Summary Information Stream.
+description: The following table identifies the properties for the summary information stream of the merge module. For more information, see Summary Information Stream.
 ms.assetid: a5be60f0-0245-4730-ba30-215a1bc3fa6a
 title: Merge Module Summary Information Stream Reference
 ms.topic: article

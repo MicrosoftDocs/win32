@@ -14,7 +14,14 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
+
+
+
 # status command
+
+> [!NOTE]
+> Bias-free Communication
+Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word 'slave.' Microsoft's [Style Guide for Bias-Free Communications](https://github.com/MicrosoftDocs/microsoft-style-guide/blob/master/styleguide/bias-free-communication.md) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the commands. For consistency, this document contains this word. When this word is altered in the commands, we will correct this document to be in alignment.
 
 The status command requests status information from a device. All devices recognize this command.
 
@@ -828,7 +835,7 @@ status mysound mode
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

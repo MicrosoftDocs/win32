@@ -1,5 +1,5 @@
 ---
-Description: Causes an event to be generated on a specific date at a specific time.
+description: Causes an event to be generated on a specific date at a specific time.
 ms.assetid: bcb64c81-3b40-4665-a880-a100629656e0
 ms.tgt_platform: multiple
 title: '__AbsoluteTimerInstruction class'
@@ -116,7 +116,7 @@ WMI generates the absolute timer event by creating an instance of the [**\_\_Tim
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

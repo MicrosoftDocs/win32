@@ -1,5 +1,5 @@
 ---
-Description: 'Lets the server component of a transport application establish a security context between the server and a remote client.'
+description: 'Lets the server component of a transport application establish a security context between the server and a remote client.'
 ms.assetid: 'a53f733e-b646-4431-b021-a2c446308849'
 title: 'AcceptSecurityContext (CredSSP) function'
 ms.topic: article
@@ -125,7 +125,7 @@ After the security context has been established, the server application can use 
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows�Vista \[desktop apps only\]       |
 | Minimum supported server | Windows Server�2008 \[desktop apps only\] |

@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get a list of stages used for the specified frame and event.
+description: An asynchronous request to get a list of stages used for the specified frame and event.
 MS-HAID: vspixengine.IPipeLineStagesRequest\_RequestSupportedStagesAsync\_DWORD\_EventID\_IPipeLineStagesCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFileToBackupException properties"
 title: EsentMissingFileToBackupException properties
 TOCTitle: EsentMissingFileToBackupException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException

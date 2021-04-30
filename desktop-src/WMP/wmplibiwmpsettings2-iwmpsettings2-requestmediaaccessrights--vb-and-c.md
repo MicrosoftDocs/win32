@@ -1,6 +1,6 @@
 ---
 title: IWMPSettings2 requestMediaAccessRights method
-description: The requestMediaAccessRights method requests a specified level of access to the library.
+description: The requestMediaAccessRights method requests a specified level of access to the library. | IWMPSettings2 requestMediaAccessRights method
 ms.assetid: ea33852c-d1e0-45cf-8954-2a1e2fe51910
 keywords:
 - requestMediaAccessRights method Windows Media Player
@@ -81,7 +81,7 @@ Applications running on the user's computer are not required to use this method.
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

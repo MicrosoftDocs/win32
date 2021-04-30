@@ -1,5 +1,5 @@
 ---
-Description: Creates the specified interface.
+description: Creates the specified interface.
 ms.assetid: f4cfc407-b006-46a2-9751-834b532309ec
 title: ISCardManage::CreateInterface method
 ms.topic: reference
@@ -93,7 +93,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

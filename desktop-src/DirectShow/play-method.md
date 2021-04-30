@@ -1,12 +1,12 @@
 ---
-Description: The Play method plays the current DVD title.
+description: The Play method plays the current DVD title.
 ms.assetid: fe9dc266-5b12-479d-85cb-50cc6bb9d580
 title: Play Method (DirectShow)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Play Method
+# Play Method (DirectShow)
 
 > [!Note]  
 > This component is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.

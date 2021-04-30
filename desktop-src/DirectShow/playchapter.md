@@ -1,5 +1,5 @@
 ---
-Description: The PlayChapter event is sent when the PlayChapter command has been enabled or disabled.
+description: The PlayChapter event is sent when the PlayChapter command has been enabled or disabled.
 ms.assetid: '896630ea-94da-4dc5-98ea-706b25f49d1e'
 title: PlayChapter
 ms.topic: article

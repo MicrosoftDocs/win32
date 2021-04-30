@@ -1,5 +1,6 @@
 ---
-title: JET_DBID.ToString method 
+description: "Learn more about: JET_DBID.ToString method overload list"
+title: JET_DBID.ToString method overload list
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_DBID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_dbid.tostring(v=EXCHG.10)

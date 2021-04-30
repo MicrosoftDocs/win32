@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPreviousVersionException constructor"
 title: EsentPreviousVersionException constructor 
 TOCTitle: 'EsentPreviousVersionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPreviousVersionException.#ctor

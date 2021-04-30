@@ -110,7 +110,7 @@ The **SKIPIFREF** attribute pertains only to **ENTRY** elements that are include
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

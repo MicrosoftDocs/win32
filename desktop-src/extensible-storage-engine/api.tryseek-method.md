@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.TrySeek method"
 title: Api.TrySeek method 
 TOCTitle: 'TrySeek method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.TrySeek(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.SeekGrbit)

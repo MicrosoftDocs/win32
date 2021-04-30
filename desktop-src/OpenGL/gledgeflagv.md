@@ -1,6 +1,6 @@
 ---
 title: glEdgeFlagv function (Gl.h)
-description: Flags edges as either boundary or nonboundary.
+description: Flags edges as either boundary or nonboundary. | glEdgeFlagv function (Gl.h)
 ms.assetid: 69b5ddbd-7c0c-47f0-a358-d8bf81755c88
 keywords:
 - glEdgeFlagv function OpenGL
@@ -66,7 +66,7 @@ The following functions retrieve information related to **glEdgeFlagv**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

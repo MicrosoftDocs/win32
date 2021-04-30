@@ -1,5 +1,5 @@
 ---
-Description: Defines the basis type of a high-order patch surface.
+description: Defines the basis type of a high-order patch surface.
 ms.assetid: 18c31c77-7ba3-449c-af4a-717b8c1dced1
 title: D3DBASISTYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The members of **D3DBASISTYPE** specify the formulation to be used in evaluating
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

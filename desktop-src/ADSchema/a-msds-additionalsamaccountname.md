@@ -22,7 +22,7 @@ This attribute is used to store the SAM account names that correspond to the DNS
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Additional-Sam-Account-Name           |
 | Ldap-Display-Name | msDS-AdditionalSamAccountName               |
@@ -47,7 +47,7 @@ This attribute is used to store the SAM account names that correspond to the DNS
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -68,7 +68,7 @@ This attribute is used to store the SAM account names that correspond to the DNS
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -89,7 +89,7 @@ This attribute is used to store the SAM account names that correspond to the DNS
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -110,7 +110,7 @@ This attribute is used to store the SAM account names that correspond to the DNS
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -131,7 +131,7 @@ This attribute is used to store the SAM account names that correspond to the DNS
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

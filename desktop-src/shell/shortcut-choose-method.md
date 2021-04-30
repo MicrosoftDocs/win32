@@ -1,5 +1,5 @@
 ---
-Description: 'This topic is organized as follows:'
+description: 'This topic is organized as follows:'
 title: Choosing a Static or Dynamic Shortcut Menu Method
 ms.topic: article
 ms.date: 05/31/2018

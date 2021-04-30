@@ -22,7 +22,7 @@ Version of the fourth terminal server per user CAL.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-TS-LicenseVersion4                       |
 | Ldap-Display-Name | msTSLicenseVersion4                         |
@@ -45,7 +45,7 @@ Version of the fourth terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -66,7 +66,7 @@ Version of the fourth terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -87,7 +87,7 @@ Version of the fourth terminal server per user CAL.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

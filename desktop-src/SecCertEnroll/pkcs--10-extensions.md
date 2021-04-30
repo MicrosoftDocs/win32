@@ -1,5 +1,5 @@
 ---
-Description: Extensions are included in a PKCS \#10 certificate request by adding them to the attributes field of the CertificationRequestInfo structure shown in the following ASN.1 syntax example. For more information, see the Attributes topic.
+description: Extensions are included in a PKCS \#10 certificate request by adding them to the attributes field of the CertificationRequestInfo structure shown in the following ASN.1 syntax example. For more information, see the Attributes topic.
 ms.assetid: 26fa8476-a0ad-4114-a1e7-ed3d4fc9d30e
 title: PKCS \#10 Extensions
 ms.topic: article

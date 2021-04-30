@@ -1,12 +1,12 @@
 ---
-Description: About Media Types
+description: About Media Types
 ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
 title: About Media Types (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# About Media Types
+# About Media Types (DirectShow)
 
 Because DirectShow is modular, it requires a way to describe the format of the data at each point in the filter graph. For example, consider AVI playback. Data enters the graph as a stream of RIFF chunks. These are parsed into video and audio streams. The video stream consists of video frames, which are probably compressed. After decoding, the video stream is a series of uncompressed bitmaps. The audio stream goes through a similar process.
 

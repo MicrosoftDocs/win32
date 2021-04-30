@@ -1,5 +1,5 @@
 ---
-Description: This section contains information about the interfaces used to control the appearance and behavior of the Tablet PC Input Panel.
+description: This section contains information about the interfaces used to control the appearance and behavior of the Tablet PC Input Panel.
 ms.assetid: 58f49d5b-8b38-45e7-94e1-8a4434d6e13b
 title: Text Input Panel Interfaces
 ms.topic: article

@@ -21,7 +21,7 @@ Contact information for a meeting.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | meetingContactInfo                          |
 | Ldap-Display-Name | meetingContactInfo                          |
@@ -47,7 +47,7 @@ Contact information for a meeting.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -68,7 +68,7 @@ Contact information for a meeting.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -89,7 +89,7 @@ Contact information for a meeting.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -110,7 +110,7 @@ Contact information for a meeting.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -131,7 +131,7 @@ Contact information for a meeting.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -152,7 +152,7 @@ Contact information for a meeting.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |

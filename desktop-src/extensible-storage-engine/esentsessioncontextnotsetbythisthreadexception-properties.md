@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextNotSetByThisThreadException properties"
 title: EsentSessionContextNotSetByThisThreadException properties
 TOCTitle: EsentSessionContextNotSetByThisThreadException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException

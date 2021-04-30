@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream methods"
 title: ColumnStream methods
 TOCTitle: ColumnStream methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnStream

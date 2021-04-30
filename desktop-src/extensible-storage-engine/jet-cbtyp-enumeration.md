@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_cbtyp enumeration"
 title: JET_cbtyp enumeration
 TOCTitle: JET_cbtyp enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_cbtyp

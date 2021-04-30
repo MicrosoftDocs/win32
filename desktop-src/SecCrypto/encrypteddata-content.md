@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the content to be encrypted or decrypted.
+description: Sets or retrieves the content to be encrypted or decrypted.
 ms.assetid: fdab0f19-c69e-443b-b4b3-079d23028921
 title: EncryptedData.Content property
 ms.topic: reference
@@ -38,7 +38,7 @@ The content to be encrypted or decrypted.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

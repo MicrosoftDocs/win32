@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLHUBTRACKING\_ bit-flag constants describe the type of call hub tracking provided.
+description: The LINECALLHUBTRACKING\_ bit-flag constants describe the type of call hub tracking provided.
 ms.assetid: ad3c8d2e-f074-4db0-bb72-fb2181cbf687
 title: LINECALLHUBTRACKING_ Constants (Tapi.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ When changes occur in this data structure, a [**LINE\_CALLINFO**](line-callinfo.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

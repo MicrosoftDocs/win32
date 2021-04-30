@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.Cp property"
 title: ColumnInfo.Cp property 
 TOCTitle: 'Cp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Cp

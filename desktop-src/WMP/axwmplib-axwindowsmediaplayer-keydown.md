@@ -1,6 +1,6 @@
 ---
 title: KeyDown Event of the AxWindowsMediaPlayer Object
-description: The KeyDown event occurs when a key is pressed.
+description: The KeyDown event occurs when a key is pressed. | KeyDown Event of the AxWindowsMediaPlayer Object
 ms.assetid: e67b9628-6c53-4893-921a-9487ebfc1cd5
 keywords:
 - KeyDown Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -123,7 +123,7 @@ Values for the navigation keys.
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

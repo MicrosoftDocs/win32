@@ -1,5 +1,5 @@
 ---
-Description: Defines resource types.
+description: Defines resource types.
 ms.assetid: 6b360fb1-4a5a-47a2-bef9-d8234770bf0c
 title: D3DRESOURCETYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentClientRequestToStopJetServiceException methods"
 title: EsentClientRequestToStopJetServiceException methods
 TOCTitle: EsentClientRequestToStopJetServiceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentClientRequestToStopJetServiceException

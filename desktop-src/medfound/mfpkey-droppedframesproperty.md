@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of video frames dropped during encoding.
+description: Specifies the number of video frames dropped during encoding.
 ms.assetid: e55db53e-ab70-42ce-b5cd-2e59a4e96b7b
 title: MFPKEY_DROPPEDFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Video frames are sometimes skipped, or dropped, during encoding because of buffe
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

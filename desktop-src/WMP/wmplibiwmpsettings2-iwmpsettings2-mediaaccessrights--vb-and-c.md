@@ -68,7 +68,7 @@ Applications running on the user's computer always have full access rights.
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

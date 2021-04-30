@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationBufferTooSmallException constructor"
 title: EsentUnicodeTranslationBufferTooSmallException constructor 
 TOCTitle: 'EsentUnicodeTranslationBufferTooSmallException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException.#ctor

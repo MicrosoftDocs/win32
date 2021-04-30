@@ -1,5 +1,5 @@
 ---
-Description: The SetTcpWindowSize WMI class static method is used to set the maximum TCP Receive Window size offered by the system.
+description: The SetTcpWindowSize WMI class static method is used to set the maximum TCP Receive Window size offered by the system.
 ms.assetid: c108fd9c-6de4-4f3e-9691-b0b5c1a3dc5f
 ms.tgt_platform: multiple
 title: SetTcpWindowSize method of the Win32_NetworkAdapterConfiguration class
@@ -416,7 +416,7 @@ The [Modify the TCP Window Size for All Network Adapters](https://Gallery.TechNe
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

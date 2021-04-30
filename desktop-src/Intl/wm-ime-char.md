@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application when the IME gets a character of the conversion result. A window receives this message through its WindowProc function.
+description: Sent to an application when the IME gets a character of the conversion result. A window receives this message through its WindowProc function.
 ms.assetid: 1e1353c3-5215-4829-a00a-2fee47a430eb
 title: WM_IME_CHAR message (Winuser.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ For a non-Unicode window, if the WM\_IME\_CHAR message includes a double-byte ch
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

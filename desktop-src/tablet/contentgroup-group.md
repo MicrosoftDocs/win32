@@ -1,5 +1,5 @@
 ---
-Description: Defines a group that contains a set of grouped content in a Journal note.
+description: Defines a group that contains a set of grouped content in a Journal note.
 ms.assetid: e2561be1-03ce-41f7-9ad4-197d75411c48
 title: ContentGroup Group
 ms.topic: reference

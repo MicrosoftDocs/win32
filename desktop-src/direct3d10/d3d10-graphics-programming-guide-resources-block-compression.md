@@ -1,5 +1,5 @@
 ---
-Description: Block compression is a texture compression technique for reducing texture size.
+description: Block compression is a texture compression technique for reducing texture size.
 ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: Block Compression (Direct3D 10)
 ms.topic: article

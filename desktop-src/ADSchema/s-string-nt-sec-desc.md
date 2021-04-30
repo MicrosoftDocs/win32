@@ -21,7 +21,7 @@ An octet string that contains a Windows NT or Windows 2000 security descriptor
 
 
 
-|              |                                                                                                |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------------------------------|
 | Name         | String(NT-Sec-Desc)                                                                            |
 | Syntax ID    | 2.5.5.15                                                                                       |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session constructor"
 title: Session constructor 
 TOCTitle: 'Session constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.#ctor(Microsoft.Isam.Esent.Interop.JET_INSTANCE)

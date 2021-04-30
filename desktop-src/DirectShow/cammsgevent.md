@@ -1,5 +1,5 @@
 ---
-Description: The CAMMsgEvent class is a wrapper for event objects that perform message processing.
+description: The CAMMsgEvent class is a wrapper for event objects that perform message processing.
 ms.assetid: 4b94febe-169f-4f04-be93-043a8c75e3b4
 title: CAMMsgEvent class (Wxutil.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ This class derives from the [**CAMEvent**](camevent.md) object. It adds one meth
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

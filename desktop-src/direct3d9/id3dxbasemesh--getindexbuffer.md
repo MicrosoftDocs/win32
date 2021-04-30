@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the data in an index buffer.
+description: ID3DXBaseMesh::GetIndexBuffer method - Retrieves the data in an index buffer.
 ms.assetid: 8e14a047-a8a6-4763-88c7-3b439044eeb4
 title: ID3DXBaseMesh::GetIndexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

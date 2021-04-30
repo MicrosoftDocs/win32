@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIncompleteIncrementalReseedException methods"
 title: EsentDatabaseIncompleteIncrementalReseedException methods
 TOCTitle: EsentDatabaseIncompleteIncrementalReseedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteIncrementalReseedException

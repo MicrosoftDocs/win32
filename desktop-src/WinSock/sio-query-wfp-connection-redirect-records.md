@@ -1,5 +1,5 @@
 ---
-Description: Control code retrieves the redirect record for the accepted TCP/IP connection for use by a Windows Filtering Platform redirect service.
+description: Control code retrieves the redirect record for the accepted TCP/IP connection for use by a Windows Filtering Platform redirect service.
 ms.assetid: E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5
 title: SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS Control Code
 ms.topic: reference

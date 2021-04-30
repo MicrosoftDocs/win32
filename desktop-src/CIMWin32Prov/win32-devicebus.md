@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DeviceBus association WMI class relates a system bus and a logical device using the bus. This class is used to discover which devices are on which bus.
+description: The Win32\_DeviceBus association WMI class relates a system bus and a logical device using the bus. This class is used to discover which devices are on which bus.
 ms.assetid: 2d7d83a5-c058-40c0-aab3-7700f4067a16
 ms.tgt_platform: multiple
 title: Win32_DeviceBus class
@@ -87,7 +87,7 @@ The **Win32\_DeviceBus** class is derived from [**CIM\_Dependency**](cim-depende
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

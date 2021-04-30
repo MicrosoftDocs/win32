@@ -1,5 +1,5 @@
 ---
-Description: Shows how to capture video from a video camera to a file.
+description: Shows how to capture video from a video camera to a file.
 ms.assetid: 910eb010-07df-4384-a489-3c268e4cd531
 title: MFCaptureToFile Sample
 ms.topic: article

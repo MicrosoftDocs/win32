@@ -1,5 +1,5 @@
 ---
-Description: Defines the prompting behavior of the Protected Store whenever it displays a user interface.
+description: Defines the prompting behavior of the Protected Store whenever it displays a user interface.
 ms.assetid: 413bcb33-5fe9-4ba1-b65f-3e53a7cbf70c
 title: PST_PROMPTINFO structure (Pstore.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ The prompt string.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Memory class exposes the following methods.
+description: The CIM\_Memory class exposes the following methods.
 ms.assetid: 003F03D7-0DAB-4FC0-A46E-0952CD86FF0D
 ms.tgt_platform: multiple
 title: CIM_Memory Methods

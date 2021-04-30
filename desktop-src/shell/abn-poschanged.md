@@ -1,5 +1,5 @@
 ---
-Description: Notifies an appbar when an event has occurred that may affect the appbar's size and position.
+description: Notifies an appbar when an event has occurred that may affect the appbar's size and position.
 ms.assetid: 1016a362-4d2b-410e-aec9-c1cc8f497778
 title: ABN_POSCHANGED message (Shellapi.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ An appbar should respond to this notification message by sending the [**ABM\_QUE
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

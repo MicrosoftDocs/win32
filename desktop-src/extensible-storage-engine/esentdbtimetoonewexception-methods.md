@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooNewException methods"
 title: EsentDbTimeTooNewException methods
 TOCTitle: EsentDbTimeTooNewException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException

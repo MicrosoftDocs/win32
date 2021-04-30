@@ -42,7 +42,7 @@ Each service operation within service model is given as a [**WS\_OPERATION\_DESC
 
 For each wsdl:operation the tool generates a separate [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_operation_description).
 
-![](images/porttypetocontract.png)
+![Diagram showing how wsutil.exe generates a WS_CONTRACT_DESCRIPTION.](images/porttypetocontract.png)
 
 ``` syntax
 static WS_OPERATION_DESCRIPTION serviceOperationsICalculator[] =

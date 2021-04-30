@@ -1,5 +1,5 @@
 ---
-Description: Specifies the audio service contained in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies the audio service contained in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 454021c7-f574-443c-bd23-411be44162b5
 title: AVEncDDService property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

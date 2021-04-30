@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a callback to return all pixel history results at once.
+description: Not used. Formerly a callback to return all pixel history results at once.
 MS-HAID: vspixengine.IPixelHistoryCallback
 MSHAttr:
 - PreferredSiteName:MSDN

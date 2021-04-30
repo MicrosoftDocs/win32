@@ -21,7 +21,7 @@ The documentTitle attribute type specifies the title of a document.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | documentTitle                               |
 | Ldap-Display-Name | documentTitle                               |
@@ -46,7 +46,7 @@ The documentTitle attribute type specifies the title of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -67,7 +67,7 @@ The documentTitle attribute type specifies the title of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -88,7 +88,7 @@ The documentTitle attribute type specifies the title of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -109,7 +109,7 @@ The documentTitle attribute type specifies the title of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -130,7 +130,7 @@ The documentTitle attribute type specifies the title of a document.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

@@ -1,5 +1,5 @@
 ---
-Description: The DecideBufferSize method sets the buffer requirements.
+description: CTransformOutputPin.DecideBufferSize method - The DecideBufferSize method sets the buffer requirements.
 ms.assetid: cdf9e384-623e-46a6-b123-d881fe21fb09
 title: CTransformOutputPin.DecideBufferSize method (Transfrm.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method overrides the [**CBaseOutputPin::DecideBufferSize**](cbaseoutputpin-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

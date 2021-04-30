@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetGetDatabaseFileInfo method"
 title: Api.JetGetDatabaseFileInfo method 
 TOCTitle: 'JetGetDatabaseFileInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetDatabaseFileInfo

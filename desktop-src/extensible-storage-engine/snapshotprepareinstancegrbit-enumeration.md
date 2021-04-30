@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotPrepareInstanceGrbit enumeration"
 title: SnapshotPrepareInstanceGrbit enumeration (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: SnapshotPrepareInstanceGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.SnapshotPrepareInstanceGrbit

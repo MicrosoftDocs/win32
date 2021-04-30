@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether metadata is written to the transcoded file.
+description: Specifies whether metadata is written to the transcoded file.
 ms.assetid: 0fbfc035-c9d1-4014-a28a-93d7e6adc718
 title: MF_TRANSCODE_SKIP_METADATA_TRANSFER attribute (Mfidl.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

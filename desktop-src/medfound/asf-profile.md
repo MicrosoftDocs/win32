@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to work with ASF profiles in Microsoft Media Foundation.
+description: This topic describes how to work with ASF profiles in Microsoft Media Foundation.
 ms.assetid: 03a0981b-29c3-450d-aa58-bc56a76e6cb6
 title: ASF Profile
 ms.topic: article

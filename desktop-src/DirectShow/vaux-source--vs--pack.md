@@ -1,5 +1,5 @@
 ---
-Description: VAUX Source (VS) Pack
+description: VAUX Source (VS) Pack
 ms.assetid: 5ffd2883-0e56-459f-b229-cc014b894237
 title: VAUX Source (VS) Pack
 ms.topic: article

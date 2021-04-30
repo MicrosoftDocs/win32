@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_GPS\_DestLongitude.
+description: The numerator of PKEY\_GPS\_DestLongitude.
 ms.assetid: 92573661-6b59-4eef-80f0-1d7088d67630
 title: System.GPS.DestLongitudeNumerator
 ms.topic: article

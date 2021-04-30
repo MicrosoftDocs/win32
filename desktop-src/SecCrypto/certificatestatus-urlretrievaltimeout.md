@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the length of time before a URL is determined to be unreachable.
+description: Sets or retrieves the length of time before a URL is determined to be unreachable.
 ms.assetid: f39dafc4-6017-463c-aeee-948b6173862a
 title: CertificateStatus.UrlRetrievalTimeout property
 ms.topic: reference
@@ -42,7 +42,7 @@ If this property is not set, the default time-out is 15 seconds.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

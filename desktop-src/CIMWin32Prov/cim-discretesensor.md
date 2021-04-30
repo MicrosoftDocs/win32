@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DiscreteSensor class has a set of legal string values that it can report. The values are enumerated in the sensor's PossibleValues property. A discrete sensor always has a current reading that corresponds to one of the enumerated values.
+description: The CIM\_DiscreteSensor class has a set of legal string values that it can report. The values are enumerated in the sensor's PossibleValues property. A discrete sensor always has a current reading that corresponds to one of the enumerated values.
 ms.assetid: 58ab5b4d-ff8b-4981-8f09-c9a255635110
 ms.tgt_platform: multiple
 title: CIM_DiscreteSensor class
@@ -1227,7 +1227,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

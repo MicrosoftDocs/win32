@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLPARAMFLAGS\_ constants describe various status flags about a call.
+description: The LINECALLPARAMFLAGS\_ constants describe various status flags about a call.
 ms.assetid: f323ec9f-5bab-4b5d-93ef-8a552ee0d591
 title: LINECALLPARAMFLAGS_ Constants (Tapi.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

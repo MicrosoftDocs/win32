@@ -1,5 +1,5 @@
 ---
-Description: Setting the Error Log
+description: Setting the Error Log
 ms.assetid: 2e3124e3-32d0-4eb6-9c1d-91b625018ac4
 title: Setting the Error Log
 ms.topic: article

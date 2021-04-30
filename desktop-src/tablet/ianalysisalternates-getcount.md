@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of IAnalysisAlternate objects contained in the IAnalysisAlternates collection.
+description: Retrieves the number of IAnalysisAlternate objects contained in the IAnalysisAlternates collection.
 ms.assetid: 17b71b5a-638a-4e6e-a43b-4ca3c8eba257
 title: IAnalysisAlternates::GetCount method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

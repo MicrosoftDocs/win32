@@ -1,5 +1,5 @@
 ---
-Description: Raster, Vector, TrueType, and OpenType Fonts
+description: Raster, Vector, TrueType, and OpenType Fonts
 ms.assetid: 4fe98f04-3fb0-4a03-86c3-d0ea6f07f8f0
 title: Raster, Vector, TrueType, and OpenType Fonts
 ms.topic: article

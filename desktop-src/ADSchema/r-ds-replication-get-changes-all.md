@@ -21,7 +21,7 @@ Control access right that allows the replication of secret domain data.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | DS-Replication-Get-Changes-All       |
 | Display-Name | Replicating Directory Changes All    |
@@ -42,7 +42,7 @@ Control access right that allows the replication of secret domain data.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 62                                                                                                                               |
@@ -53,7 +53,7 @@ Control access right that allows the replication of secret domain data.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 62                                                                                                                               |
@@ -64,7 +64,7 @@ Control access right that allows the replication of secret domain data.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 62                                                                                                                               |
@@ -75,7 +75,7 @@ Control access right that allows the replication of secret domain data.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 62                                                                                                                               |
@@ -86,7 +86,7 @@ Control access right that allows the replication of secret domain data.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 62                                                                                                                               |
@@ -97,7 +97,7 @@ Control access right that allows the replication of secret domain data.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 62                                                                                                                               |

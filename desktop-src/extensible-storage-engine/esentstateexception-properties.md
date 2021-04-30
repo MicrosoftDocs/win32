@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStateException properties"
 title: EsentStateException properties
 TOCTitle: EsentStateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStateException

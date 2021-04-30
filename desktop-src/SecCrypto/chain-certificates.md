@@ -1,5 +1,5 @@
 ---
-Description: The Certificates property retrieves a Certificates collection that represents the certificates in the chain. This is the default property.
+description: The Certificates property retrieves a Certificates collection that represents the certificates in the chain. This is the default property.
 ms.assetid: c3e6953f-35e5-469a-a1aa-e3a4ebe21ac3
 title: IChain2::Certificates property
 ms.topic: reference
@@ -44,7 +44,7 @@ A [**Certificates**](certificates.md) collection that is used to retrieve inform
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

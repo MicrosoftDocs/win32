@@ -1,5 +1,5 @@
 ---
-Description: Sets or gets the default quota threshold.
+description: Sets or gets the default quota threshold.
 ms.assetid: d3f23e52-586f-4cb8-b91c-44a71f8f94b2
 title: DiskQuotaControl.DefaultQuotaThreshold property
 ms.topic: reference
@@ -43,7 +43,7 @@ The default quota threshold is applied automatically to new users of the volume.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Scale the plane with the given scaling factor.
+description: Scale the plane with the given scaling factor.
 ms.assetid: 3a0454ef-2821-472f-b7a4-5e49bb5f556e
 title: D3DXPlaneScale function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

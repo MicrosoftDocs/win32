@@ -1,5 +1,5 @@
 ---
-Description: Alignment of each buffer. The address of each buffer must be an even multiple of this value. The prefix must be calculated into the alignment; see CBaseAllocator::m\_lPrefix.
+description: Alignment of each buffer. The address of each buffer must be an even multiple of this value. The prefix must be calculated into the alignment; see CBaseAllocator::m\_lPrefix.
 ms.assetid: 2b71b60a-feeb-4f09-bd56-e126eac8e150
 title: CBaseAllocator::m_lAlignment member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ long m_lAlignment;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

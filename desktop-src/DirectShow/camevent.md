@@ -1,5 +1,5 @@
 ---
-Description: The CAMEvent class is a wrapper for manual-reset and auto-reset events.
+description: The CAMEvent class is a wrapper for manual-reset and auto-reset events.
 ms.assetid: 228b4e51-afc5-4cb6-b225-309013713983
 title: CAMEvent class (Wxutil.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This class provides a convenient way to manage events, rather than calling funct
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

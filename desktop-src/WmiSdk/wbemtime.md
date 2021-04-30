@@ -1,5 +1,5 @@
 ---
-Description: The WBEMTime class facilitates conversions between various Windows and ANSI C run-time time formats. For more information, see also WBEMTimeSpan Class Methods.
+description: The WBEMTime class facilitates conversions between various Windows and ANSI C run-time time formats. For more information, see also WBEMTimeSpan Class Methods.
 ms.assetid: b633bc8c-9d02-4bcf-8528-10773fb5ae7a
 ms.tgt_platform: multiple
 title: WBEMTime class (WbemTime.h)
@@ -92,7 +92,7 @@ The **WBEMTime** object defines the following overloaded operators.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |

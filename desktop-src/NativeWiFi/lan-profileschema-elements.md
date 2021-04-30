@@ -1,5 +1,5 @@
 ---
-Description: A wired network profile contains the following schema elements.
+description: A wired network profile contains the following schema elements.
 ms.assetid: 3f316725-0cb9-414c-a267-875b3ad67765
 title: LAN_profile Schema Elements
 ms.topic: article

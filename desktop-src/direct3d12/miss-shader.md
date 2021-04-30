@@ -1,5 +1,5 @@
 ---
-Description: A shader that is invoked when no ray intersections are found or accepted.    
+description: A shader that is invoked when no ray intersections are found or accepted.
 ms.assetid: 
 title: Miss Shader
 ms.localizationpriority: low

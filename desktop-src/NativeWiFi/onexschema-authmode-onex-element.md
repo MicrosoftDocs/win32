@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of credentials used for authentication.
+description: Specifies the type of credentials used for authentication.
 ms.assetid: a56ce888-ec07-4ce8-a540-6d1890cb338d
 title: authMode (OneX) Element
 ms.topic: reference
@@ -68,7 +68,7 @@ This parameter can be set at the command line using the **netsh wlan set profile
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

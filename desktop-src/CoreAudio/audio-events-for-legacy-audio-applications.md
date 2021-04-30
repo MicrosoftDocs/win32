@@ -1,5 +1,5 @@
 ---
-Description: Audio Events for Legacy Audio Applications
+description: Audio Events for Legacy Audio Applications
 ms.assetid: 91a93b79-2563-4b25-af5d-ca5f7d35d77b
 title: Audio Events for Legacy Audio Applications
 ms.topic: article

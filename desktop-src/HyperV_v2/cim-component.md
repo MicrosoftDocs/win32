@@ -1,5 +1,5 @@
 ---
-Description: Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
+description: Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
 ms.assetid: b5cef452-2d00-483c-8e70-f804f1e3536b
 title: CIM_Component class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Component class
+# CIM_Component class (Hyper-V management)
 
 Represents a generic association between a parent managed element and a child managed element where the child represents a component or part of the parent.
 
@@ -80,7 +80,7 @@ The child element in the association.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

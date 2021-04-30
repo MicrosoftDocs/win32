@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG.cunitTotal property"
 title: JET_SNPROG.cunitTotal property 
 TOCTitle: 'cunitTotal property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SNPROG.cunitTotal

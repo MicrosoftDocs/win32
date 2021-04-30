@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cCompressedColumns property"
 title: JET_RECSIZE.cCompressedColumns property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cCompressedColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cCompressedColumns

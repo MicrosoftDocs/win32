@@ -22,7 +22,7 @@ The list of objects that can contain this class.
 
 
 
-|                   |                                                                 |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------|
 | CN                | Poss-Superiors                                                  |
 | Ldap-Display-Name | possSuperiors                                                   |
@@ -49,7 +49,7 @@ The list of objects that can contain this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -70,7 +70,7 @@ The list of objects that can contain this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -91,7 +91,7 @@ The list of objects that can contain this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -112,7 +112,7 @@ The list of objects that can contain this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -133,7 +133,7 @@ The list of objects that can contain this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -154,7 +154,7 @@ The list of objects that can contain this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -175,7 +175,7 @@ The list of objects that can contain this class.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

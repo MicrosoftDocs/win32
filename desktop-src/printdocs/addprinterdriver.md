@@ -1,5 +1,5 @@
 ---
-Description: The AddPrinterDriver function installs a local or remote printer driver and associates the configuration, data, and driver files.
+description: The AddPrinterDriver function installs a local or remote printer driver and associates the configuration, data, and driver files.
 ms.assetid: 0f762800-f5a5-40ea-8be1-7fd8bda23788
 title: AddPrinterDriver function (Winspool.h)
 ms.topic: reference
@@ -109,7 +109,7 @@ An application can determine which printer drivers are currently installed by ca
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

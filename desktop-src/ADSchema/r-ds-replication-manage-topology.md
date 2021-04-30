@@ -21,7 +21,7 @@ Extended right needed to update the replication topology for a given NC.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | DS-Replication-Manage-Topology       |
 | Display-Name | Manage Replication Topology          |
@@ -43,7 +43,7 @@ Extended right needed to update the replication topology for a given NC.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 27                                                                                                                               |
@@ -54,7 +54,7 @@ Extended right needed to update the replication topology for a given NC.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 27                                                                                                                               |
@@ -65,7 +65,7 @@ Extended right needed to update the replication topology for a given NC.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 27                                                                                                                               |
@@ -76,7 +76,7 @@ Extended right needed to update the replication topology for a given NC.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 27                                                                                                                               |
@@ -87,7 +87,7 @@ Extended right needed to update the replication topology for a given NC.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 27                                                                                                                               |
@@ -98,7 +98,7 @@ Extended right needed to update the replication topology for a given NC.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 27                                                                                                                               |
@@ -109,7 +109,7 @@ Extended right needed to update the replication topology for a given NC.
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 27                                                                                                                               |

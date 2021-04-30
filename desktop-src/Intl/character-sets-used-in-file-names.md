@@ -1,5 +1,5 @@
 ---
-Description: NTFS stores file names in Unicode. In contrast, the older FAT12, FAT16, and FAT32 file systems use the OEM character set. For more information, see Code Pages.
+description: NTFS stores file names in Unicode. In contrast, the older FAT12, FAT16, and FAT32 file systems use the OEM character set. For more information, see Code Pages.
 ms.assetid: 4573dd3b-ad68-460c-bc0f-ff65d4b70860
 title: Character Sets Used in File Names
 ms.topic: article

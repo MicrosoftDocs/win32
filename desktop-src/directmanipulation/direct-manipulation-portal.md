@@ -1,5 +1,5 @@
 ---
-Description: The Direct Manipulation APIs let you create great pan, zoom, and drag user experiences. To do this, it processes touch input on a region or object, generates output transforms, and applies the transforms to UI elements.
+description: The Direct Manipulation APIs let you create great pan, zoom, and drag user experiences. To do this, it processes touch input on a region or object, generates output transforms, and applies the transforms to UI elements.
 ms.assetid: 26358bc5-71e9-40f0-9243-9bddd961a0e5
 title: Direct Manipulation
 ms.topic: article

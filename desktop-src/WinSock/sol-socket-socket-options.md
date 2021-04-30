@@ -1,5 +1,5 @@
 ---
-Description: The following tables describe SOL\_SOCKET socket options. See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
+description: The following tables describe SOL\_SOCKET socket options. See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
 ms.assetid: 0cd0056e-0c33-4f6e-9f70-5417f8f8da4b
 title: SOL_SOCKET Socket Options (Winsock2.h)
 ms.topic: reference
@@ -150,7 +150,7 @@ On the Platform Software Development Kit (SDK) released for Windows Server 2003
 
 
 
-|                   |                                                                                                                                                                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Mswsock.h; </dt> <dt>Ws2def.h (include Winsock2.h)</dt> </dl> |
 

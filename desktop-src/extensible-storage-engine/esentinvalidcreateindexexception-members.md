@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCreateIndexException members"
 title: EsentInvalidCreateIndexException members
 TOCTitle: EsentInvalidCreateIndexException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateIndexException

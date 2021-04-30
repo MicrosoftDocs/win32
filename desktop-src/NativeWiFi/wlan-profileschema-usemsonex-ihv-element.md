@@ -1,5 +1,5 @@
 ---
-Description: Specifies the origin of 802.1X security settings used by an IHV security component.
+description: Specifies the origin of 802.1X security settings used by an IHV security component.
 ms.assetid: 9c216319-d962-4c68-89a3-116eff3f4376
 title: useMSOneX (IHV) Element
 ms.topic: reference
@@ -35,7 +35,7 @@ The element is defined by the [**IHV**](wlan-profileschema-ihv-wlanprofile-eleme
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ExceptionAction enumeration"
 title: JET_ExceptionAction enumeration
 TOCTitle: JET_ExceptionAction enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_ExceptionAction

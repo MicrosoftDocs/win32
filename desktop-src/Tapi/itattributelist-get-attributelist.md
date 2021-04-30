@@ -1,5 +1,5 @@
 ---
-Description: The get\_AttributeList method gets the list of attributes.
+description: The get\_AttributeList method gets the list of attributes.
 ms.assetid: 75518257-3339-441f-9965-b93e27f0e2bf
 title: ITAttributeList::get_AttributeList method (Sdpblb.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

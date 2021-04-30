@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table Implicit conversion (Table to JET_TABLEID)"
 title: Table Implicit conversion (Table to JET_TABLEID)
 TOCTitle: Implicit conversion (Table to JET_TABLEID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Table.op_Implicit(Microsoft.Isam.Esent.Interop.Table)~Microsoft.Isam.Esent.Interop.JET_TABLEID

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableDueToFatalLogDiskFullException members"
 title: EsentInstanceUnavailableDueToFatalLogDiskFullException members
 TOCTitle: EsentInstanceUnavailableDueToFatalLogDiskFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException

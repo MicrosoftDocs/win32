@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDistributedTransactionNotYetPreparedToCommitException constructor"
 title: EsentDistributedTransactionNotYetPreparedToCommitException constructor 
 TOCTitle: 'EsentDistributedTransactionNotYetPreparedToCommitException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionNotYetPreparedToCommitException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Represents a resource pool, which is a logical entity provided by the host system to allocate and assign resources.
+description: Represents a resource pool, which is a logical entity provided by the host system to allocate and assign resources.
 ms.assetid: c8e0b701-1814-4409-a073-017f8fea841a
 title: CIM_ResourcePool class
 ms.topic: reference
@@ -510,7 +510,7 @@ The type of resource allocated by the resource pool.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

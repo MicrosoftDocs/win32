@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a port or connection point and a device.
+description: Represents an association between a port or connection point and a device.
 ms.assetid: b35e741a-7110-4e48-a132-d436f4fbf038
 title: CIM_PortOnDevice class
 ms.topic: reference
@@ -80,7 +80,7 @@ The port on the device.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

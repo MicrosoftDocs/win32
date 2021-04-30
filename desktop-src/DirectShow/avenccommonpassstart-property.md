@@ -1,5 +1,5 @@
 ---
-Description: Starts the first encoding pass.
+description: Starts the first encoding pass.
 ms.assetid: a062be3f-7806-4f1c-b98e-2c9ed31f010c
 title: AVEncCommonPassStart property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is the encoding pass to start. To get the range of su
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum reference frames supported by the encoder.
+description: Specifies the maximum reference frames supported by the encoder.
 ms.assetid: 023FD791-BD43-41F6-95D0-8BE800F51579
 title: CODECAPI_AVEncVideoMaxNumRefFrame property (Codecapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Recommended default value is 2.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |

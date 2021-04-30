@@ -22,7 +22,7 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 
 
-|                   |                                                                    |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------|
 | CN                | ms-FRS-Hub-Member                                                  |
 | Ldap-Display-Name | msFRS-Hub-Member                                                   |
@@ -47,7 +47,7 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
@@ -68,7 +68,7 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
@@ -89,7 +89,7 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
@@ -110,7 +110,7 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 1046                                                      |
 | MAPI-Id                | \-                                                        |
@@ -131,7 +131,7 @@ The **ms-FRS-Hub-Member** attribute is used to record the preferred NTFRS topolo
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | 1046                                                      |
 | MAPI-Id                | \-                                                        |

@@ -46,7 +46,7 @@ An XML string that identifies the language used in the [**FragmentPath**](resour
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |

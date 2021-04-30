@@ -1,5 +1,5 @@
 ---
-Description: Represent differences between samples over time, and often use a base value for the calculation.
+description: Represent differences between samples over time, and often use a base value for the calculation.
 ms.assetid: 613268ab-386b-421d-a5b5-aab6a065999c
 ms.tgt_platform: multiple
 title: Basic Algorithm Counter Types

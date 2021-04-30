@@ -1,5 +1,5 @@
 ---
-Description: Associates a virtual machine instance with the management service that controls its state.
+description: Associates a virtual machine instance with the management service that controls its state.
 ms.assetid: 12EB3951-74D4-477F-8B55-69FAA3B14631
 title: Msvm_ServiceAffectsElement class
 ms.topic: reference
@@ -120,7 +120,7 @@ Access to the **Msvm\_ServiceAffectsElement** class might be restricted by UAC F
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

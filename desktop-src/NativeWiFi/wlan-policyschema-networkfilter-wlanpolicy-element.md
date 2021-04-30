@@ -1,5 +1,5 @@
 ---
-Description: Defines the list of allowed and denied networks for machines.
+description: Defines the list of allowed and denied networks for machines.
 ms.assetid: 21502c97-36a4-4cd6-9dd0-ee44c4cc522f
 title: networkFilter (WLANPolicy) Element
 ms.topic: reference
@@ -98,7 +98,7 @@ The **networkFilter** element is defined by the [**WLANPolicy**](wlan-policysche
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: This section of the Peer Infrastructure documentation describes the Identity Manager API.
+description: This section of the Peer Infrastructure documentation describes the Identity Manager API.
 ms.assetid: '0a862280-e57f-4662-987c-aa8003889333'
 title: Identity Manager API
 ms.topic: article

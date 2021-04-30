@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesCannotRetrieveFromIndexException class"
 title: EsentIndexTuplesCannotRetrieveFromIndexException class
 TOCTitle: EsentIndexTuplesCannotRetrieveFromIndexException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesCannotRetrieveFromIndexException

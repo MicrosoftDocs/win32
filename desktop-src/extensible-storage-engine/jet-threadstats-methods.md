@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS methods"
 title: JET_THREADSTATS methods (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS

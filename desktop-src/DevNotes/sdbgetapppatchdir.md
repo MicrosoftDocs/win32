@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the system AppPatch directory.
+description: Retrieves the system AppPatch directory.
 ms.assetid: 1c79411f-1f90-4b90-84c7-24a34cf0d91d
 title: SdbGetAppPatchDir function
 ms.topic: reference
@@ -65,7 +65,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

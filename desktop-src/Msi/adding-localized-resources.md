@@ -1,5 +1,5 @@
 ---
-Description: Depending upon the application, localization may require modifying or adding resources such as files or registry keys.
+description: Depending upon the application, localization may require modifying or adding resources such as files or registry keys.
 ms.assetid: f5af0ecd-cb57-4858-88b4-4608893004f6
 title: Adding Localized Resources
 ms.topic: article

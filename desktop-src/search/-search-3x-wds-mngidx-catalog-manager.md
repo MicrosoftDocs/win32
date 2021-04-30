@@ -1,5 +1,5 @@
 ---
-Description: The ISearchCatalogManager and ISearchCatalogManager2 interfaces provide methods to manage a search catalog, such as causing re-indexing or setting time-outs.
+description: The ISearchCatalogManager and ISearchCatalogManager2 interfaces provide methods to manage a search catalog, such as causing re-indexing or setting time-outs.
 ms.assetid: 8dad7012-d610-4398-8e86-cd319db8c360
 title: Using the Catalog Manager
 ms.topic: article

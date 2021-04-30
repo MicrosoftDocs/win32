@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVBufferTooSmallException properties"
 title: EsentSLVBufferTooSmallException properties
 TOCTitle: EsentSLVBufferTooSmallException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallException

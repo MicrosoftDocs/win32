@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetFreeBuffer Function"
 title: JetFreeBuffer Function
 TOCTitle: JetFreeBuffer Function
 ms:assetid: f37d35f6-4bea-46ba-a334-7b8ad7a1568c

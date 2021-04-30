@@ -1,5 +1,5 @@
 ---
-Description: Creating a Filter Property Page
+description: Creating a Filter Property Page
 ms.assetid: 028e2c4e-0241-4057-8514-d3e9b456ab6e
 title: Creating a Filter Property Page
 ms.topic: article

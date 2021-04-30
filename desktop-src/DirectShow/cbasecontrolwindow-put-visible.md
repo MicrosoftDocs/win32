@@ -1,5 +1,5 @@
 ---
-Description: The put\_Visible method makes shows or hides the window.
+description: The put\_Visible method makes shows or hides the window.
 ms.assetid: 77e8d071-f876-4e35-945c-d1daf96ad02b
 title: CBaseControlWindow.put_Visible method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns an **HRESULT** value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

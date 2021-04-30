@@ -1,5 +1,5 @@
 ---
-Description: In TAPI architecture, all TSPs are run in the context of TAPISRV, which is implemented as a service process within SVCHOST.
+description: In TAPI architecture, all TSPs are run in the context of TAPISRV, which is implemented as a service process within SVCHOST.
 ms.assetid: f47662f9-2fca-4044-ab26-617e5b1f9eae
 title: MSP Architecture
 ms.topic: article

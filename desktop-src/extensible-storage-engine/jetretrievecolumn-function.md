@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRetrieveColumn Function"
 title: JetRetrieveColumn Function
 TOCTitle: JetRetrieveColumn Function
 ms:assetid: 1e55063f-6033-4416-a9a6-894032fed069

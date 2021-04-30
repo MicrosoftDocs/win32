@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE.cbDefault property"
 title: JET_COLUMNCREATE.cbDefault property 
 TOCTitle: 'cbDefault property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.cbDefault

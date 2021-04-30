@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCloseException methods"
 title: EsentFileCloseException methods
 TOCTitle: EsentFileCloseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileCloseException

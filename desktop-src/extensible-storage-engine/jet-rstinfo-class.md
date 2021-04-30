@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO class"
 title: JET_RSTINFO class
 TOCTitle: JET_RSTINFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RSTINFO

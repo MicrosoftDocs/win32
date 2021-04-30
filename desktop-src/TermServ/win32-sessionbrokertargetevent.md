@@ -232,7 +232,7 @@ For more information about using **uint64** values in scripts, see [Scripting in
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |

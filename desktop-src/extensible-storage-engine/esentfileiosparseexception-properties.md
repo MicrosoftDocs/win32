@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOSparseException properties"
 title: EsentFileIOSparseException properties
 TOCTitle: EsentFileIOSparseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException

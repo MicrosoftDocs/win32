@@ -1,5 +1,5 @@
 ---
-Description: The IDxtKey interface sets properties on the Key transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the Key transition.
+description: The IDxtKey interface sets properties on the Key transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the Key transition.
 ms.assetid: b929bf0c-8aaf-456e-b692-e23d88e480dd
 title: IDxtKey interface (Qedit.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ The **IDxtKey** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

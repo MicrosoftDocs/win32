@@ -1,5 +1,5 @@
 ---
-Description: The put\_DestinationHeight method sets the destination rectangle height.
+description: The put\_DestinationHeight method sets the destination rectangle height.
 ms.assetid: 2cb7af2b-69dc-4e86-b2cf-34223c9e5a1b
 title: CBaseControlVideo.put_DestinationHeight method (Ctlutil.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

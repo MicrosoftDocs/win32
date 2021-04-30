@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStateException constructor (String, JET_err)"
 title: EsentStateException constructor (String, JET_err)
 TOCTitle: EsentStateException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStateException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSAlreadySetException constructor"
 title: EsentLSAlreadySetException constructor 
 TOCTitle: 'EsentLSAlreadySetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLSAlreadySetException.#ctor

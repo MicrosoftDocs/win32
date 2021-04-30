@@ -32,7 +32,7 @@ Each element in the array corresponds to a patch with each of the 16 bits repres
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

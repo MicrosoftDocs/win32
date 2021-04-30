@@ -22,7 +22,7 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Logon-Count                          |
 | Ldap-Display-Name | logonCount                           |
@@ -48,7 +48,7 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ The number of times the account has successfully logged on. A value of 0 indicat
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

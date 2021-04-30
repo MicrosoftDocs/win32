@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CImagePalette.CImagePalette constructor - Constructor method.
 ms.assetid: 50fa573c-a244-4a1e-9fd9-2b33a3427c84
 title: CImagePalette.CImagePalette constructor (Winutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Pointer to a **CDrawImage** object, which draws the video image. This parameter 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

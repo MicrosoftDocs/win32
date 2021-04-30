@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOSparseException members"
 title: EsentFileIOSparseException members
 TOCTitle: EsentFileIOSparseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException

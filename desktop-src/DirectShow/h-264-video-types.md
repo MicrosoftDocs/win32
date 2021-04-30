@@ -1,5 +1,5 @@
 ---
-Description: H.264 Video Types
+description: H.264 Video Types
 ms.assetid: aa3166b2-6b04-44fa-bc9d-c8ff46f99201
 title: H.264 Video Types
 ms.topic: article
@@ -36,7 +36,7 @@ When start codes are present in the bitstream, the following media type is used:
 
 
 
-|             |                                                                                                   |
+| Label | Value |
 |-------------|---------------------------------------------------------------------------------------------------|
 | Major type  | **MEDIATYPE\_Video**                                                                              |
 | Subtypes    | **MEDIASUBTYPE\_H264**, **MEDIASUBTYPE\_h264**, **MEDIASUBTYPE\_X264**, or **MEDIASUBTYPE\_x264** |
@@ -60,7 +60,7 @@ When start codes are not present in the bitstream, the following media type is u
 
 
 
-|             |                        |
+| Label | Value |
 |-------------|------------------------|
 | Major type  | **MEDIATYPE\_Video**   |
 | Subtype     | **MEDIASUBTYPE\_AVC1** |

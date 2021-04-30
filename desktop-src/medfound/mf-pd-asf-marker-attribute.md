@@ -1,5 +1,5 @@
 ---
-Description: Specifies the markers in an Advanced Systems Format (ASF) file. This attribute corresponds to the Marker Object in the ASF header, defined in the ASF specification.
+description: Specifies the markers in an Advanced Systems Format (ASF) file. This attribute corresponds to the Marker Object in the ASF header, defined in the ASF specification.
 ms.assetid: 6458eb5f-72a2-4723-b26b-b63516aa2df3
 title: MF_PD_ASF_MARKER attribute (Wmcontainer.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The first **DWORD** is the number of markers, followed by an array of markers. E
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

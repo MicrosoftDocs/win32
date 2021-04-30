@@ -1,5 +1,5 @@
 ---
-Description: Filter Chains
+description: Filter Chains
 ms.assetid: c17b3b58-65ab-4e83-91f2-54a995f22ddf
 title: Filter Chains
 ms.topic: article
@@ -21,7 +21,7 @@ The [**IFilterChain**](/windows/desktop/api/Strmif/nn-strmif-ifilterchain) inter
 
 
 
-|                                                               |                                 |
+| Label | Value |
 |---------------------------------------------------------------|---------------------------------|
 | [**IFilterChain::StartChain**](/windows/desktop/api/Strmif/nf-strmif-ifilterchain-startchain)   | Starts a chain.                 |
 | [**IFilterChain::StopChain**](/windows/desktop/api/Strmif/nf-strmif-ifilterchain-stopchain)     | Stops a chain.                  |

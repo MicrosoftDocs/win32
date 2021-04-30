@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Keyboard WMI class represents a keyboard installed on a computer system running Windows.
+description: The Win32\_Keyboard WMI class represents a keyboard installed on a computer system running Windows.
 ms.assetid: f42a8e4f-3db9-4f9a-88ca-336ec883e85b
 ms.tgt_platform: multiple
 title: Win32_Keyboard class
@@ -1315,7 +1315,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

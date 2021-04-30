@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFullBackupException class"
 title: EsentMissingFullBackupException class
 TOCTitle: EsentMissingFullBackupException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMissingFullBackupException

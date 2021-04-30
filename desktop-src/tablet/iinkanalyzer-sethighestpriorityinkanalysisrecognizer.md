@@ -1,5 +1,5 @@
 ---
-Description: Moves the specified IInkAnalysisRecognizer to the first position in the IInkAnalyzer object's list of ink recognizers.
+description: Moves the specified IInkAnalysisRecognizer to the first position in the IInkAnalyzer object's list of ink recognizers.
 ms.assetid: 9126187f-02dd-4988-91b8-c4f3d3b6f773
 title: IInkAnalyzer::SetHighestPriorityInkAnalysisRecognizer method (IACom.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) does not find an [**IInkAnalysisRecog
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

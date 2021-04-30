@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ElementCapacity class associates a CIM\_PhysicalCapacity object with one or more physical elements. It associates a description of the minimum and maximum hardware requirements (or capabilities) to the physical elements being described.
+description: The CIM\_ElementCapacity class associates a CIM\_PhysicalCapacity object with one or more physical elements. It associates a description of the minimum and maximum hardware requirements (or capabilities) to the physical elements being described.
 ms.assetid: 368c31e8-d56b-4b90-ba3f-20d9b0de8730
 ms.tgt_platform: multiple
 title: CIM_ElementCapacity class
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

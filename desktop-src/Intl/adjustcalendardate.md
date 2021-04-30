@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Adjusts a date by a specified number of years, months, weeks, or days.
+description: Deprecated. Adjusts a date by a specified number of years, months, weeks, or days.
 ms.assetid: be8d61fd-efa3-4386-969f-30216c282ebc
 title: AdjustCalendarDate function
 ms.topic: reference
@@ -74,7 +74,7 @@ This function does not have an associated header file or library file. The appli
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

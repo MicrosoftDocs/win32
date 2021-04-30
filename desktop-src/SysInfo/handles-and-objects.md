@@ -1,5 +1,5 @@
 ---
-Description: An object is a data structure that represents a system resource, such as a file, thread, or graphic image.
+description: An object is a data structure that represents a system resource, such as a file, thread, or graphic image.
 ms.assetid: '26aaad09-c1e1-46e8-9cd3-7d795a10d900'
 title: Handles and Objects
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the default number of consecutive B frames between I and P frames.
+description: Specifies the default number of consecutive B frames between I and P frames.
 ms.assetid: d41ed713-0159-4325-bc44-f4a3eea10aa2
 title: AVEncMPVDefaultBPictureCount property (Codecapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ If the encoder supports this property, it can be used to control the group of pi
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

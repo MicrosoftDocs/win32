@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Guide
+# Programming Guide (Touch Input)
 
 This section covers specific topics about software development with the Windows Touch API targeted to the Windows 7 operating system.
 

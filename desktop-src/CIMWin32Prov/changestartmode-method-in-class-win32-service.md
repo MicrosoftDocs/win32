@@ -1,5 +1,5 @@
 ---
-Description: Modifies the start mode of a Win32\_Service.
+description: Modifies the start mode of a Win32\_Service.
 ms.assetid: 4fd6a1eb-d2e0-4172-843d-24ae89c5bfcf
 ms.tgt_platform: multiple
 title: ChangeStartMode method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# ChangeStartMode method of the Win32\_Service class
+# ChangeStartMode method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **ChangeStartMode** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method modifies the start mode of a [**Win32\_Service**](win32-service.md).
 
@@ -358,7 +358,7 @@ ELSE
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

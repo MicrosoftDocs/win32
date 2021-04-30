@@ -1,5 +1,5 @@
 ---
-Description: The optional Boolean <includeInStartMenuScope> element specifies whether this search connector should be included in the Start menu search scope.
+description: The optional Boolean <includeInStartMenuScope> element specifies whether this search connector should be included in the Start menu search scope.
 ms.assetid: 934a3834-9ddc-4c15-b738-68ea74adc24c
 title: includeInStartMenuScope Element (Search Connector Schema)
 ms.topic: article

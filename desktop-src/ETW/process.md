@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for process events. The following syntax is simplified from MOF code.
+description: Process class - This class is the parent class for process events. The following syntax is simplified from MOF code.
 ms.assetid: a505c693-2169-499b-bd32-42fa9bd69d2f
 title: Process class
 ms.topic: reference
@@ -60,7 +60,7 @@ Process and thread start events may be logged in the context of the parent proce
 
 
 
-|                                     |                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets 2 (Winsock) interface elements for multipoint and multicast.
+description: Windows Sockets 2 (Winsock) interface elements for multipoint and multicast.
 ms.assetid: c6f704cf-031b-4714-9f07-2d7715a157a0
 title: Windows Sockets 2 Interface Elements for Multipoint and Multicast
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The following is a complete service sample. When using this code as a template, simply add code to the sections that are prefaced by TO\_DO.
+description: The following is a complete service sample. When using this code as a template, simply add code to the sections that are prefaced by TO\_DO.
 ms.assetid: dc968bd2-0397-4cec-a825-f807037b4c14
 title: Svc.cpp
 ms.topic: article

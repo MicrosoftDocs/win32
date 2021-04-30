@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRollback Function"
 title: JetRollback Function
 TOCTitle: JetRollback Function
 ms:assetid: 685c51f4-8fe4-47cc-8a8e-c42014431b8b

@@ -1,5 +1,5 @@
 ---
-Description: Represents the International Commission on Illumination (CIE) color characteristics of a computer monitor.
+description: Represents the International Commission on Illumination (CIE) color characteristics of a computer monitor.
 ms.assetid: 476aefae-11c0-46be-a2bb-83fbafd70421
 title: WmiMonitorColorCharacteristics class
 ms.topic: reference
@@ -140,7 +140,7 @@ The chromaticity and white point values are expressed as fractional numbers usin
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

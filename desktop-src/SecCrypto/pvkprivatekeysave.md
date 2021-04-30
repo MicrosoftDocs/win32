@@ -1,5 +1,5 @@
 ---
-Description: Saves a private key and its corresponding public key to a specified file.
+description: Saves a private key and its corresponding public key to a specified file.
 ms.assetid: 491a128a-b4aa-4cca-a835-d0e8d7df6720
 title: PvkPrivateKeySave function
 ms.topic: reference
@@ -99,7 +99,7 @@ Upon success, this function returns **TRUE**. The **PvkPrivateKeySave** function
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

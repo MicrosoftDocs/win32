@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update.Cancel method"
 title: Update.Cancel method 
 TOCTitle: 'Cancel method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.Cancel

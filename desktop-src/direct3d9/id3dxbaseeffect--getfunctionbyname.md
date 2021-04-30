@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of a function by looking up its name.
+description: Gets the handle of a function by looking up its name.
 ms.assetid: 1e2e2dae-5084-47f3-9812-3dbf609bd70b
 title: ID3DXBaseEffect::GetFunctionByName method (D3DX9Effect.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Returns the handle of the specified function, or **NULL** if the name was not fo
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultTargetRect method sets the default target video rectangle (pure virtual). This is an internal member function that gets called when the source rectangle is reset.
+description: The SetDefaultTargetRect method sets the default target video rectangle (pure virtual). This is an internal member function that gets called when the source rectangle is reset.
 ms.assetid: bb7e32b2-f02c-465f-a8cb-6172d9724790
 title: CBaseControlVideo.SetDefaultTargetRect method (Ctlutil.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

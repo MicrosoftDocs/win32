@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexInvalidDefException properties"
 title: EsentIndexInvalidDefException properties
 TOCTitle: EsentIndexInvalidDefException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexInvalidDefException

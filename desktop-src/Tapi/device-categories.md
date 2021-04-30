@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe key device categories frequently used in building TAPI applications. Typically, an application does not require precise knowledge of these devices because the service provider abstraction layer handles control.
+description: The following sections describe key device categories frequently used in building TAPI applications. Typically, an application does not require precise knowledge of these devices because the service provider abstraction layer handles control.
 ms.assetid: 652f9290-228d-4df1-b32e-4c638c56d1ce
 title: Device Categories
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Starts a named service.
+description: Shell.ServiceStart method - Starts a named service.
 ms.assetid: 72214E80-38A2-4a57-B555-942902BAFC3D
 title: Shell.ServiceStart method (Shldisp.h)
 ms.topic: reference
@@ -128,7 +128,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseAlreadyUpgradedException constructor"
 title: EsentDatabaseAlreadyUpgradedException constructor 
 TOCTitle: 'EsentDatabaseAlreadyUpgradedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyUpgradedException.#ctor

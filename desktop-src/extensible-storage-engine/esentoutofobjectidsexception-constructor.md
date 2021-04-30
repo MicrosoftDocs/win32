@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfObjectIDsException constructor"
 title: EsentOutOfObjectIDsException constructor 
 TOCTitle: 'EsentOutOfObjectIDsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfObjectIDsException.#ctor

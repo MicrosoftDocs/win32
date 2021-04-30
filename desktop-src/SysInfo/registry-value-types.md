@@ -1,5 +1,5 @@
 ---
-Description: A registry value can store data in various formats.
+description: A registry value can store data in various formats.
 ms.assetid: 5fd828d6-4d62-4823-a2f1-15782b5cd28c
 title: Registry Value Types
 ms.topic: article

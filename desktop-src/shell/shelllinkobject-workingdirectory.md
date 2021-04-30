@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets the working directory specified in the link.
+description: Gets or sets the working directory specified in the link.
 ms.assetid: c3820deb-9f00-42a9-ab0e-c0f6389e9f29
 title: ShellLinkObject.WorkingDirectory property (Shldisp.h)
 ms.topic: reference
@@ -165,7 +165,7 @@ Private Sub fnShellLinkObjectWorkingDirectoryVB()
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

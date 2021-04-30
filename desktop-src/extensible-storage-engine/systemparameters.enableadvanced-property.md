@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.EnableAdvanced property"
 title: SystemParameters.EnableAdvanced property 
 TOCTitle: 'EnableAdvanced property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.EnableAdvanced

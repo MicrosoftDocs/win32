@@ -1,5 +1,5 @@
 ---
-Description: Invokes the chkdsk operation on the disk.
+description: Invokes the chkdsk operation on the disk.
 ms.assetid: 65942702-b660-46cd-b614-e3e1ec3df7b9
 ms.tgt_platform: multiple
 title: Chkdsk method of the Win32_LogicalDisk class
@@ -158,7 +158,7 @@ errReturn = objDisk.ChkDsk(FIX_ERRORS)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

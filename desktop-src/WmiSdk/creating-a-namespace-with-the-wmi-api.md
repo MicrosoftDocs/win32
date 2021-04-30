@@ -1,5 +1,5 @@
 ---
-Description: Another way of creating a namespace is to use the WMI API to create the namespace programmatically.
+description: Another way of creating a namespace is to use the WMI API to create the namespace programmatically.
 ms.assetid: 27a65eb0-4312-4df6-8c74-f30fe61dfec9
 ms.tgt_platform: multiple
 title: Creating a Namespace with the WMI API

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingPreviousLogFileException class"
 title: EsentMissingPreviousLogFileException class
 TOCTitle: EsentMissingPreviousLogFileException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMissingPreviousLogFileException

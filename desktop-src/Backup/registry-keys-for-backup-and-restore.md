@@ -1,7 +1,7 @@
 ---
 title: Registry Keys and Values for Backup and Restore
 ms.assetid: 83449f78-cca1-449b-8c5f-3c8a91c8b3e7
-description: 
+description: "Learn more about: Registry Keys and Values for Backup and Restore"
 keywords:
 - backup Backup , registry keys
 - registry keys Backup

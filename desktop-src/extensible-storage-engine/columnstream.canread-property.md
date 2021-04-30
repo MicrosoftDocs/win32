@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.CanRead property"
 title: ColumnStream.CanRead property 
 TOCTitle: 'CanRead property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.CanRead

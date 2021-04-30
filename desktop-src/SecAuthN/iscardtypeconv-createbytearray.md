@@ -1,5 +1,5 @@
 ---
-Description: Creates a typical C/C++ byte array.
+description: Creates a typical C/C++ byte array.
 ms.assetid: 915e8cca-2a0f-409e-a6df-54fa73bdc305
 title: ISCardTypeConv::CreateByteArray method (Scarddat.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ To create an Automation SAFEARRAY of unsigned characters (bytes), call [**Create
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

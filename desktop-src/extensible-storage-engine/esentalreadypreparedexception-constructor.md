@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAlreadyPreparedException constructor"
 title: EsentAlreadyPreparedException constructor 
 TOCTitle: 'EsentAlreadyPreparedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAlreadyPreparedException.#ctor

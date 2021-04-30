@@ -1,5 +1,5 @@
 ---
-Description: WPD\_FUNCTIONAL\_CATEGORY\_ALL
+description: WPD\_FUNCTIONAL\_CATEGORY\_ALL
 ms.assetid: 7849f8e4-1ce3-4a26-8fee-16a66527da6b
 title: WPD_FUNCTIONAL_CATEGORY_ALL
 ms.topic: article

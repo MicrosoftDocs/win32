@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSequenceException methods"
 title: EsentOSSnapshotInvalidSequenceException methods
 TOCTitle: EsentOSSnapshotInvalidSequenceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException

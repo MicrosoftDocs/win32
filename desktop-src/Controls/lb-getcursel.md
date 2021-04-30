@@ -52,7 +52,7 @@ If sent to a multiple-selection list box, **LB\_GETCURSEL** returns the index of
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

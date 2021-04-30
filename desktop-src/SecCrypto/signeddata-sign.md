@@ -1,5 +1,5 @@
 ---
-Description: Creates a digital signature on the content to be signed. A digital signature consists of a hash of the content to be signed that is encrypted by using the private key of the signer.
+description: Creates a digital signature on the content to be signed. A digital signature consists of a hash of the content to be signed that is encrypted by using the private key of the signer.
 ms.assetid: ee98a36c-f9a9-4247-ae48-7b1a10b92be4
 title: SignedData.Sign method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # SignedData.Sign method
 
-\[The **Sign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](/dotnet/api/system.security.cryptography.pkcs.signedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Sign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](/dotnet/api/system.security.cryptography.pkcs.signedcms?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Sign** method creates a [*digital signature*](../secgloss/d-gly.md) on the content to be signed. A digital signature consists of a [*hash*](../secgloss/h-gly.md) of the content to be signed that is encrypted by using the private key of the signer. This method can only be used after the [**SignedData.Content**](signeddata-content.md) property has been initialized. If the **Sign** method is called on an object that already has a signature, the old signature is replaced. The signature is created by using the SHA1 signing algorithm.
 
@@ -98,7 +98,7 @@ The following results apply to the *Signer* parameter value:
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

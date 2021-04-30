@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID structure"
 title: JET_COLUMNID structure
 TOCTitle: JET_COLUMNID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_COLUMNID

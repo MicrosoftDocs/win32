@@ -1,6 +1,6 @@
 ---
 title: Texture2DMSArray::GetDimensions function
-description: Returns the dimensions of the resource.
+description: Returns the dimensions of the resource. | Texture2DMSArray::GetDimensions function
 ms.assetid: 86d54e0d-f168-479f-b2af-f021b8994741
 keywords:
 - GetDimensions function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetDimensions function
+# Texture2DMSArray::GetDimensions function
 
 Returns the dimensions of the resource.
 

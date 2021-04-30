@@ -1,5 +1,5 @@
 ---
-Description: Shows how to properly create a DACL.
+description: Shows how to properly create a DACL.
 ms.assetid: f8ec202f-4f34-4123-8f3c-cfc5960b4dc2
 title: Creating a DACL
 ms.topic: article

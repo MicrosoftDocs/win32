@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a selected file in the active File Manager window (the directory window or the Search Results window).
+description: Contains information about a selected file in the active File Manager window (the directory window or the Search Results window).
 title: FMS_GETFILESEL structure (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -95,7 +95,7 @@ The null-terminated full path and file name of the selected file.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

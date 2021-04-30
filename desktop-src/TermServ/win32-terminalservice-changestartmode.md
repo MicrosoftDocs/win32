@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# ChangeStartMode method of the Win32\_Service class
+# ChangeStartMode method of the Win32_Service class (Remote Desktop Services)
 
 The **ChangeStartMode** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method modifies the start mode of a [**Win32\_TerminalService**](win32-terminalservice.md).
 
@@ -304,7 +304,7 @@ ELSE
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

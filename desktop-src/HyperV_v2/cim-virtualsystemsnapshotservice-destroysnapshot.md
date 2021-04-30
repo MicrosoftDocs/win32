@@ -1,5 +1,5 @@
 ---
-Description: Destroy an existing virtual system snapshot. This method may as a side effect destroy other snapshots that are dependent on the affected snapshot.
+description: Destroy an existing virtual system snapshot. This method may as a side effect destroy other snapshots that are dependent on the affected snapshot.
 ms.assetid: 69f60d0e-50ef-4a38-ad4b-88534b7fb3f8
 title: DestroySnapshot method of the CIM_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -97,7 +97,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

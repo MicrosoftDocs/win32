@@ -1,5 +1,5 @@
 ---
-Description: The ExpertReallocMemory function increases or decreases the amount of memory allocated by Network Monitor.
+description: The ExpertReallocMemory function increases or decreases the amount of memory allocated by Network Monitor.
 ms.assetid: 78b99a66-692a-4e83-8b0d-d68caf156bb6
 title: ExpertReallocMemory function (Netmon.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ It is important to note that an expert should use the Network Monitor memory all
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

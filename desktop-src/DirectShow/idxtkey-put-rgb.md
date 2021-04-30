@@ -1,5 +1,5 @@
 ---
-Description: The put\_RGB method specifies the RGB color on which to key. This property applies only when the key type is DXTKEY\_RGB.
+description: The put\_RGB method specifies the RGB color on which to key. This property applies only when the key type is DXTKEY\_RGB.
 ms.assetid: 7a0b794e-bea6-4061-98a0-3f70521e89a3
 title: IDxtKey::put_RGB method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

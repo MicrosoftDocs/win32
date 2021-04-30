@@ -1,5 +1,5 @@
 ---
-Description: Many applications need to use lossless data compression and decompression. The Compression API simplifies this by exposing Windows compression algorithms through a public API.
+description: Many applications need to use lossless data compression and decompression. The Compression API simplifies this by exposing Windows compression algorithms through a public API.
 ms.assetid: D603A7DE-D4A1-4515-9702-B03C81504661
 title: Using the Compression API
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The COutputQueue class implements a queue to deliver media samples.
+description: The COutputQueue class implements a queue to deliver media samples.
 ms.assetid: da35bdac-fdc2-4b38-8253-547a19213cce
 title: COutputQueue class (Outputq.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ Optionally, you can configure the `COutputQueue` object to deliver samples synch
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

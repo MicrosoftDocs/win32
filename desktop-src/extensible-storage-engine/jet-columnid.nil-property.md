@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.Nil property"
 title: JET_COLUMNID.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNID.Nil

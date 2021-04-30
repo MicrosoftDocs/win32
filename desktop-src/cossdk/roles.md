@@ -1,5 +1,5 @@
 ---
-Description: The Roles collection is always related to an object in the Applications collection. It holds an object for each role assigned to the application to which it is related.
+description: The Roles collection is always related to an object in the Applications collection. It holds an object for each role assigned to the application to which it is related.
 ms.assetid: '87f39c2a-ad66-4390-9220-06751dcebd95'
 title: Roles collection
 ms.topic: reference
@@ -48,7 +48,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                            |
+| Entry | Value |
 |----------------|----------------------------|
 | Description    | A description of the role. |
 | Access         | ReadWrite                  |
@@ -64,7 +64,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                             |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The role name. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                   |

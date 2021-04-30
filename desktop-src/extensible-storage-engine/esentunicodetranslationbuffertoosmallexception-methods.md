@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationBufferTooSmallException methods"
 title: EsentUnicodeTranslationBufferTooSmallException methods
 TOCTitle: EsentUnicodeTranslationBufferTooSmallException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException

@@ -1,12 +1,12 @@
 ---
-Description: The following functions are used with pens.
+description: The following functions are used with pens.
 ms.assetid: 'd5cc81b5-0df4-4ec2-8941-d63819a8d5ff'
 title: Pen Functions (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Pen Functions
+# Pen Functions (Windows GDI)
 
 The following functions are used with pens.
 

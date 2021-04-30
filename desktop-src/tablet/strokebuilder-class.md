@@ -1,5 +1,5 @@
 ---
-Description: Implements the IStrokeBuilder Interface.
+description: Implements the IStrokeBuilder Interface.
 ms.assetid: 0d699089-b913-4020-9284-a955f61fd861
 title: StrokeBuilder class (RTSCom.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ This class can be instantiated by calling the [**CoCreateInstance**](/windows/wi
 
 
 
-|                                     |                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                       |

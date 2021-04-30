@@ -1,5 +1,5 @@
 ---
-Description: Signals that a rate change in DVD playback has been initiated.
+description: Signals that a rate change in DVD playback has been initiated.
 ms.assetid: 2a1e3c21-1623-4e43-8c7b-1a34514442c9
 title: EC_DVD_PLAYBACK_RATE_CHANGE (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Playback *rate* is the inverse of playback *speed*. For example, if playback spe
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

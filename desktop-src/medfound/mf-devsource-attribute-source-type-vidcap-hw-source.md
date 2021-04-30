@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a video capture source is a hardware device or a software device.
+description: Specifies whether a video capture source is a hardware device or a software device.
 ms.assetid: 4a886124-54f1-4cd1-a22b-552e8c8d556f
 title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_HW_SOURCE attribute (Mfidl.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

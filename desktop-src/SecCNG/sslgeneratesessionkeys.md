@@ -1,5 +1,5 @@
 ---
-Description: Generates a set of Secure Sockets Layer protocol (SSL) session keys.
+description: Generates a set of Secure Sockets Layer protocol (SSL) session keys.
 ms.assetid: 88465f30-8591-411e-8618-8a381d4c22e9
 title: SslGenerateSessionKeys function (Sslprovider.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

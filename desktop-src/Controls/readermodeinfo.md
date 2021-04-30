@@ -140,7 +140,7 @@ This structure is not declared in any public header. To use it, you must include
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows Vista \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>          |

@@ -1,5 +1,5 @@
 ---
-Description: The put\_Left method sets the left coordinate for the window.
+description: The put\_Left method sets the left coordinate for the window.
 ms.assetid: 4ba6b243-e7a7-4c41-a2c5-248b05b42f4f
 title: CBaseControlWindow.put_Left method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

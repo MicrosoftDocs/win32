@@ -1,5 +1,5 @@
 ---
-Description: The SetFormatType method specifies the format type.
+description: The SetFormatType method specifies the format type.
 ms.assetid: e8ed9190-7169-4d51-ace7-597f43ff083e
 title: CMediaType.SetFormatType method (Mtype.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method sets the **formattype** member. The format type defines the layout o
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

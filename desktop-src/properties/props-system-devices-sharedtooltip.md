@@ -1,5 +1,5 @@
 ---
-Description: Tooltip for the sharing state.
+description: Tooltip for the sharing state.
 ms.assetid: CBD921A5-8488-48da-AA83-28DF4B1E3FBC
 title: System.Devices.SharedTooltip
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Navigating a Tree of Item Objects"
 ms.assetid: e91f72c8-3ad6-49e8-88cc-aa99c13cd4c2
 title: Navigating a Tree of Item Objects
 ms.topic: article

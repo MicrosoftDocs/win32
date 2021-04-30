@@ -1,5 +1,5 @@
 ---
-Description: The Get method retrieves a property identified by a property set GUID and a property ID.
+description: The Get method retrieves a property identified by a property set GUID and a property ID.
 ms.assetid: f39862db-0659-4533-8cee-aee2f778e085
 title: IKsPropertySet::Get method (Ksproxy.h)
 ms.topic: reference
@@ -151,7 +151,7 @@ HRESULT GetPinCategory(IPin *pPin, GUID *pPinCategory)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

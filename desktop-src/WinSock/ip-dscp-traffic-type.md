@@ -1,5 +1,5 @@
 ---
-Description: The following table describes IP\_DSCP\_TRAFFIC\_TYPE Socket Options.
+description: The following table describes IP\_DSCP\_TRAFFIC\_TYPE Socket Options.
 ms.assetid: 0042B53F-B84E-453A-8E18-87052280DAD5
 title: IP_DSCP_TRAFFIC_TYPE
 ms.topic: reference
@@ -36,7 +36,7 @@ The following table describes IP\_DSCP\_TRAFFIC\_TYPE Socket Options.
 
 
 
-|                                  |                                                                                |
+| Requirement | Value |
 |----------------------------------|--------------------------------------------------------------------------------|
 | End of client support<br/> | Windows 10<br/>                                                          |
 | End of server support<br/> | Windows Server 2016<br/>                                                 |

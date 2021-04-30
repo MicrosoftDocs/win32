@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateMustVersionException constructor"
 title: EsentUpdateMustVersionException constructor 
 TOCTitle: 'EsentUpdateMustVersionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUpdateMustVersionException.#ctor

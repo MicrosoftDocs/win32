@@ -1,5 +1,5 @@
 ---
-Description: Signals that a DVD disc was ejected.
+description: Signals that a DVD disc was ejected.
 ms.assetid: 031156c2-f0f0-4a9e-b792-4d656ec49aef
 title: EC_DVD_DISC_EJECTED (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in all domains.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

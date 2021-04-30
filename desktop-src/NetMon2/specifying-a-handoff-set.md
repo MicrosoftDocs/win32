@@ -1,5 +1,5 @@
 ---
-Description: A handoff set specifies the protocols that follow a protocol. The parser uses a handoff set only when the parser can identify the next protocol from the data in a protocol instance.
+description: A handoff set specifies the protocols that follow a protocol. The parser uses a handoff set only when the parser can identify the next protocol from the data in a protocol instance.
 ms.assetid: d1f44646-98ee-4e3a-a81a-83d6c87c23f4
 title: Specifying a Handoff Set
 ms.topic: article

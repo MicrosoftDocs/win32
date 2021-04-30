@@ -1,5 +1,5 @@
 ---
-Description: Raised by the Media Session when it completes a scrubbing request.
+description: Raised by the Media Session when it completes a scrubbing request.
 ms.assetid: 1ae97022-3fb2-4c5e-9262-d5bdc2a62bee
 title: MESessionScrubSampleComplete event (Mfobjects.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

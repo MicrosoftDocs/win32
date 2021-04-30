@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO members"
 title: JET_BKINFO members
 TOCTitle: JET_BKINFO members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_BKINFO

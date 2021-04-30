@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProductParentChild association defines a parent-child hierarchy among products. For example, a product can come bundled with other products.
+description: The CIM\_ProductParentChild association defines a parent-child hierarchy among products. For example, a product can come bundled with other products.
 ms.assetid: 244576fd-8dae-4554-b80b-0cac58c93037
 ms.tgt_platform: multiple
 title: CIM_ProductParentChild class
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

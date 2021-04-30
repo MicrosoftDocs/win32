@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextNotSetByThisThreadException constructor"
 title: EsentSessionContextNotSetByThisThreadException constructor 
 TOCTitle: 'EsentSessionContextNotSetByThisThreadException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionContextNotSetByThisThreadException.#ctor

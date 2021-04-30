@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPreviousVersionException methods"
 title: EsentPreviousVersionException methods
 TOCTitle: EsentPreviousVersionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPreviousVersionException

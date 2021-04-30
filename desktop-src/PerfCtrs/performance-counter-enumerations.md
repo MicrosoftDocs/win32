@@ -1,5 +1,5 @@
 ---
-Description: You use the following enumerations when working with performance data.
+description: You use the following enumerations when working with performance data.
 ms.assetid: EF4B540A-E9F7-44F8-B5DC-027705C939FA
 title: Performance Counter Enumerations
 ms.topic: article

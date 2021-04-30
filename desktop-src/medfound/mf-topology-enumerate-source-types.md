@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the topology loader enumerates the media types provided by the media source.
+description: Specifies whether the topology loader enumerates the media types provided by the media source.
 ms.assetid: 2675ef16-2018-47e8-bb22-2fc0d62e6681
 title: MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES attribute (Mfidl.h)
 ms.topic: reference
@@ -107,7 +107,7 @@ Case 2: The flag is not set.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

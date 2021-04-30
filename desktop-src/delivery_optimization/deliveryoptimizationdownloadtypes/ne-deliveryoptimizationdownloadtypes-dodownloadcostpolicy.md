@@ -36,7 +36,7 @@ typedef enum _DODownloadCostPolicy
 
 ## Constants
 
-| | |
+| Requirement | Value |
 |-|-|
 | DODownloadCostPolicy_Always | Download runs regardless of the cost. |
 | DODownloadCostPolicy_Unrestricted | Download runs unless imposes costs or traffic limits. |

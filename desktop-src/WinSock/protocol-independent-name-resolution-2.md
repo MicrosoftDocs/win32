@@ -1,5 +1,5 @@
 ---
-Description: Protocol-independent name resolution and Windows Sockets (Winsock).
+description: Protocol-independent name resolution and Windows Sockets (Winsock).
 ms.assetid: f55219b9-1518-4b49-a0da-6a3fa025cca3
 title: Protocol-Independent Name Resolution
 ms.topic: article

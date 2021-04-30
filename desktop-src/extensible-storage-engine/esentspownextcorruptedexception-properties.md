@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPOwnExtCorruptedException properties"
 title: EsentSPOwnExtCorruptedException properties
 TOCTitle: EsentSPOwnExtCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSPOwnExtCorruptedException

@@ -21,7 +21,7 @@ Object(Replica-Link) syntax. This syntax is only used by the system.
 
 
 
-|              |                                                                   |
+| Entry | Value |
 |--------------|-------------------------------------------------------------------|
 | Name         | Object(Replica-Link)                                              |
 | Syntax ID    | 2.5.5.10                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Speech mode support for the audio device. If VARIANT\_TRUE the device supports speech mode.
+description: Speech mode support for the audio device. If VARIANT\_TRUE the device supports speech mode.
 ms.assetid: 1ed8b831-df74-4612-aeef-009160325248
 title: System.Devices.AudioDevice.SpeechProcessingSupported
 ms.topic: article

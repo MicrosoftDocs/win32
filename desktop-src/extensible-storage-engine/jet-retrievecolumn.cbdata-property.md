@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN.cbData property"
 title: JET_RETRIEVECOLUMN.cbData property 
 TOCTitle: 'cbData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.cbData

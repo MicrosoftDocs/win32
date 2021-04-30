@@ -1,5 +1,5 @@
 ---
-Description: Depth buffering is a method of removing hidden lines and surfaces. By default, Direct3D does not use depth buffering.
+description: Depth buffering is a method of removing hidden lines and surfaces. By default, Direct3D does not use depth buffering.
 ms.assetid: 03795e4e-1daa-48e3-8724-8dd4b5187edc
 title: Depth Buffering State (Direct3D 9)
 ms.topic: article

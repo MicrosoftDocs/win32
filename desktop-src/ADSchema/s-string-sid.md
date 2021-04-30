@@ -21,7 +21,7 @@ An octet string that contains a security identifier (SID).
 
 
 
-|              |                                                                   |
+| Entry | Value |
 |--------------|-------------------------------------------------------------------|
 | Name         | String(Sid)                                                       |
 | Syntax ID    | 2.5.5.17                                                          |

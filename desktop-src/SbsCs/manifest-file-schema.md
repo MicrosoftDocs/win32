@@ -1,5 +1,5 @@
 ---
-Description: The following is the complete listing of the manifest file schema.
+description: The following is the complete listing of the manifest file schema.
 ms.assetid: 5a4040a4-66ed-44ea-a07f-6410f88d1446
 title: Manifest File Schema
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following is the complete listing of the manifest file schema.
 
-``` syntax
+```xml syntax
 <?xml version="1.0" ?> 
   <Schema xmlns="urn:schemas-microsoft-com:xml-data" xmlns:dt="urn:schemas-microsoft-com:datatypes" 
    name="urn:schemas-microsoft-com:asm.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" >

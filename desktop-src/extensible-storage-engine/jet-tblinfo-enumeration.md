@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TblInfo enumeration"
 title: JET_TblInfo enumeration
 TOCTitle: JET_TblInfo enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_TblInfo

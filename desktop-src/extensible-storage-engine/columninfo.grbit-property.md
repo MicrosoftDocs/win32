@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.Grbit property"
 title: ColumnInfo.Grbit property 
 TOCTitle: 'Grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Grbit

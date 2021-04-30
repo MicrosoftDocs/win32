@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointFileNotFoundException members"
 title: EsentCheckpointFileNotFoundException members
 TOCTitle: EsentCheckpointFileNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException

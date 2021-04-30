@@ -1,5 +1,5 @@
 ---
-Description: 'This application builds on the Ink Collection Sample sample by demonstrating ink strokes deletion. The sample provides the user with a menu that has four modes to choose from: ink-enabled, erasing at cusp, erasing at intersections, and erasing strokes.'
+description: 'This application builds on the Ink Collection Sample sample by demonstrating ink strokes deletion. The sample provides the user with a menu that has four modes to choose from: ink-enabled, erasing at cusp, erasing at intersections, and erasing strokes.'
 ms.assetid: cec912ee-1645-47e1-8988-626719549e55
 title: Ink Erasing Sample
 ms.topic: article

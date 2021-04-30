@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID.Equality operator"
 title: JET_TABLEID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.op_Equality(Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

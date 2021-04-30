@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONVERT members"
 title: JET_CONVERT members
 TOCTitle: JET_CONVERT members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_CONVERT

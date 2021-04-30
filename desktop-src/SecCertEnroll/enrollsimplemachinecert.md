@@ -1,5 +1,5 @@
 ---
-Description: Enrolls a computer in a certificate hierarchy by using a template, a certificate display name, and the certificate description.
+description: Enrolls a computer in a certificate hierarchy by using a template, a certificate display name, and the certificate description.
 ms.assetid: d9e01767-f6e8-4fd6-a848-8d5acf57407e
 title: enrollSimpleMachineCert
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IMediaDet interface retrieves information about a media file, such as the number of streams, and the media type, duration, and frame rate of each stream.
+description: The IMediaDet interface retrieves information about a media file, such as the number of streams, and the media type, duration, and frame rate of each stream.
 ms.assetid: 596fc84e-a88a-4e1b-aa48-b6dc9031db31
 title: IMediaDet interface (Qedit.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ The **IMediaDet** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.lgposDetach property"
 title: JET_DBINFOMISC.lgposDetach property 
 TOCTitle: 'lgposDetach property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.lgposDetach

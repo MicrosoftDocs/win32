@@ -1,5 +1,5 @@
 ---
-Description: DVD Applications
+description: DVD Applications
 ms.assetid: 6f41e0f1-e550-4ca6-9a80-ce4d498289e2
 title: DVD Applications
 ms.topic: article

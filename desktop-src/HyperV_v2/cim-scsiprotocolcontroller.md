@@ -1,5 +1,5 @@
 ---
-Description: Represents a protocol controller that manages a SCSI interface.
+description: Represents a protocol controller that manages a SCSI interface.
 ms.assetid: 01ef85fc-2f05-4453-b524-7d63b647f6fb
 title: CIM_SCSIProtocolController class
 ms.topic: reference
@@ -110,7 +110,7 @@ A description of the **NameFormat** property when **NameFormat** is set to "1" (
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

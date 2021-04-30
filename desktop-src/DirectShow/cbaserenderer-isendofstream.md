@@ -1,5 +1,5 @@
 ---
-Description: The IsEndOfStream method queries whether the end-of-stream notification was received.
+description: The IsEndOfStream method queries whether the end-of-stream notification was received.
 ms.assetid: 44f9b740-ff7d-4387-9c2c-a5b6b90f3295
 title: CBaseRenderer.IsEndOfStream method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the [**CBaseRenderer::m\_bEOS**](cbaserenderer-m-beos.md) flag.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

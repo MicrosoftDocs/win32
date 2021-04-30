@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Video 9 Screen encoder is optimized for encoding sequential screen shots from computer monitors.
+description: The Windows Media Video 9 Screen encoder is optimized for encoding sequential screen shots from computer monitors.
 ms.assetid: 22faebf8-40c0-47f9-b66b-c0a8b5ba7202
 title: Windows Media Video 9 Screen Encoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -224,7 +224,7 @@ A screen encoder behaves as a DMO or an MFT depending on which interfaces you ob
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

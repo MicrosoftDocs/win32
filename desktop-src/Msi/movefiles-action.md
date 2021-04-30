@@ -1,5 +1,5 @@
 ---
-Description: The MoveFiles action locates existing files on the user's computer and moves or copies those files to a new location.
+description: The MoveFiles action locates existing files on the user's computer and moves or copies those files to a new location.
 ms.assetid: f08f751d-877b-4b17-8015-7108d5fd8195
 title: MoveFiles Action
 ms.topic: article

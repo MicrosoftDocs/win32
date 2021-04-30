@@ -1,5 +1,5 @@
 ---
-Description: Occurs when data is available from the response.
+description: Occurs when data is available from the response.
 ms.assetid: 62d02e3b-466a-4d3d-994b-0a1ae12049e1
 title: IWinHttpRequestEvents::OnResponseDataAvailable event
 ms.topic: reference
@@ -49,7 +49,7 @@ Because data is in bytes, it must be converted to wide characters when placed in
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

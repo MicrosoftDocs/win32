@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server2003Param members"
 title: Server2003Param members (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Param members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Param

@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object is moving.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object is moving.
 ms.assetid: 0c51d875-cef9-4087-b17d-5c5af04f81a5
 title: PenInputPanel.PanelMoving event (Msinkaut.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The [**MoveTo**](/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpa
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer records errors and events in its own error log and in the Event log. The diagnostic information that the installer writes to these logs can help users and administrators understand the cause of a failed installation.
+description: Windows Installer records errors and events in its own error log and in the Event log. The diagnostic information that the installer writes to these logs can help users and administrators understand the cause of a failed installation.
 ms.assetid: d39a3882-5846-4e20-84a2-e1bccd781e23
 title: Windows Installer Logging
 ms.topic: article

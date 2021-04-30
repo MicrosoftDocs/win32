@@ -1,5 +1,5 @@
 ---
-Description: Explains how to create an HMAC.
+description: Explains how to create an HMAC.
 ms.assetid: b1747b7e-a505-4b23-93bc-cef4e77bf825
 title: Creating an HMAC
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The ICertEncodeBitString interface exposes the following methods.
+description: The ICertEncodeBitString interface exposes the following methods.
 ms.assetid: 6F8588DA-425F-4E7D-A3F9-066EB3B161CA
 title: ICertEncodeBitString Methods
 ms.topic: reference

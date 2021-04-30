@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOBeyondEOFException class"
 title: EsentFileIOBeyondEOFException class
 TOCTitle: EsentFileIOBeyondEOFException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException

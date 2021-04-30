@@ -1,6 +1,6 @@
 ---
 title: glColor3ui function (Gl.h)
-description: Sets the current color.
+description: Sets the current color. | glColor3ui function (Gl.h)
 ms.assetid: 4a04ad4d-91a8-4d70-93e5-9c8f4ec4d9d2
 keywords:
 - glColor3ui function OpenGL
@@ -76,7 +76,7 @@ Neither floating-point nor signed integer values are clamped to the range \[0,1\
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

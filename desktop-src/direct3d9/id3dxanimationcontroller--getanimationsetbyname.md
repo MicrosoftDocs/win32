@@ -1,5 +1,5 @@
 ---
-Description: Gets an animation set, given its name.
+description: Gets an animation set, given its name.
 ms.assetid: 4c3f3002-45f6-49b2-8a42-18d5824fb36f
 title: ID3DXAnimationController::GetAnimationSetByName method (D3dx9anim.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The animation controller contains an array of animation sets. This method return
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

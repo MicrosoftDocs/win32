@@ -1,5 +1,5 @@
 ---
-Description: Capture a Type-1 DV File
+description: Capture a Type-1 DV File
 ms.assetid: fba11e9b-4900-4b29-a0c9-702272cd7387
 title: Capture a Type-1 DV File
 ms.topic: article

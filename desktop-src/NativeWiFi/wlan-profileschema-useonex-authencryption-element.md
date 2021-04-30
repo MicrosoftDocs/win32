@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether 802.1X authentication is used.
+description: Indicates whether 802.1X authentication is used.
 ms.assetid: dbddaf5a-7574-4282-ab4d-f6f697ed94ab
 title: useOneX (authEncryption) Element
 ms.topic: reference
@@ -35,7 +35,7 @@ To view sample profiles that use the **useOneX** element, see [Wireless Profile 
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

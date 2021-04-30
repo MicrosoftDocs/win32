@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLORIGIN\_ constants describe the origin of a call.
+description: The LINECALLORIGIN\_ constants describe the origin of a call.
 ms.assetid: b830a40e-62d9-4a6c-b43f-8318f30a7cd4
 title: LINECALLORIGIN_ Constants (Tapi.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ The origin of a call is stored in the **dwOrigin** member of the call's [**LINEC
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

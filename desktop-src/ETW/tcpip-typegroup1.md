@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for IPv4 TCP/IP events. The following syntax is simplified from MOF code.
+description: This class is the event type class for IPv4 TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: ed835df8-6f53-46a3-abf2-c66a1f13f987
 title: TcpIp_TypeGroup1 class
 ms.topic: reference
@@ -189,7 +189,7 @@ Source port number.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

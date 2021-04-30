@@ -1,5 +1,5 @@
 ---
-Description: Parameter Curves
+description: Parameter Curves
 ms.assetid: c073e7d0-c119-4c36-a5b2-b31dd6326ac8
 title: Parameter Curves
 ms.topic: article

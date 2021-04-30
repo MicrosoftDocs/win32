@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of principal component analysis (PCA) basis vectors to use in each cluster.
+description: Retrieves the number of principal component analysis (PCA) basis vectors to use in each cluster.
 ms.assetid: c8d53880-990c-4c0d-bb4c-354cf808886c
 title: ID3DXPRTCompBuffer::GetNumPCA method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the number of principal component analysis (PCA) basis vectors to use in
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

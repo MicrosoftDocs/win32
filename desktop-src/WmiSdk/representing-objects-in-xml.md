@@ -1,5 +1,5 @@
 ---
-Description: Generates XML representations of objects.
+description: Generates XML representations of objects.
 ms.assetid: 06d2b532-7ab2-489d-9021-27b5187c8f2b
 ms.tgt_platform: multiple
 title: Representing Objects in XML

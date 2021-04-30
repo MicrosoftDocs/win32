@@ -1,5 +1,5 @@
 ---
-Description: These sections describe patching a Windows Installer installation.
+description: These sections describe patching a Windows Installer installation.
 ms.assetid: 'e3c233bc-4344-449e-9e79-1a3b96ad2d08'
 title: Patching
 ms.topic: article

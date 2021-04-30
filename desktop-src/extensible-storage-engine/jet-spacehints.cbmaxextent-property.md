@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.cbMaxExtent property"
 title: JET_SPACEHINTS.cbMaxExtent property 
 TOCTitle: 'cbMaxExtent property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.cbMaxExtent

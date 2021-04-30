@@ -1,5 +1,5 @@
 ---
-Description: The Context property returns the context of this patch.
+description: The Context property returns the context of this patch.
 ms.assetid: 09c92b0b-44f3-4355-8171-03da8ba32757
 title: Patch.Context property
 ms.topic: reference
@@ -52,7 +52,7 @@ This property returns one of the following values.
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

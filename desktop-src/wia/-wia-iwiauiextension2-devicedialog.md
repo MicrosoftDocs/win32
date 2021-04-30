@@ -1,5 +1,5 @@
 ---
-Description: Provides a custom user interface that replaces the default system user interface.
+description: IWiaUIExtension2::DeviceDialog method - Provides a custom user interface that replaces the default system user interface.
 ms.assetid: 0d70392d-294a-42bf-adc5-1006f83d7e21
 title: IWiaUIExtension2::DeviceDialog method (Wiadevd.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ If you implement the [**IWiaUIExtension2**](-wia-iwiauiextension2.md) interface 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

@@ -1,5 +1,5 @@
 ---
-Description: Writing Object Properties
+description: Writing Object Properties
 ms.assetid: f762a571-83ea-4999-ad49-a51044bc790d
 title: Writing Object Properties
 ms.topic: article

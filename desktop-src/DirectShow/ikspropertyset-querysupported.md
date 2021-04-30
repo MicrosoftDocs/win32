@@ -1,5 +1,5 @@
 ---
-Description: The QuerySupported method determines whether an object supports a specified property set.
+description: The QuerySupported method determines whether an object supports a specified property set.
 ms.assetid: eda0325c-dba4-4d9f-81e2-7fd67d5b9873
 title: IKsPropertySet::QuerySupported method (Ks.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ You must include Ks.h before Ksproxy.h.
 
 
 
-|                                     |                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                             |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseBufferDependenciesCorruptedException methods"
 title: EsentDatabaseBufferDependenciesCorruptedException methods
 TOCTitle: EsentDatabaseBufferDependenciesCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException

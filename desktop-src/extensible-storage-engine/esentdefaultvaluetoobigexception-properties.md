@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDefaultValueTooBigException properties"
 title: EsentDefaultValueTooBigException properties
 TOCTitle: EsentDefaultValueTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException

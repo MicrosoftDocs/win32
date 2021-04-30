@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion.SupportsWindows8Features property"
 title: EsentVersion.SupportsWindows8Features property 
 TOCTitle: 'SupportsWindows8Features property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsWindows8Features

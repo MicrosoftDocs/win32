@@ -1,5 +1,5 @@
 ---
-Description: ICEM09 verifies the merge module safely handles predefined directories.
+description: ICEM09 verifies the merge module safely handles predefined directories.
 ms.assetid: 747ae5ee-adc1-4aa7-8239-2379f76bfd0f
 title: ICEM09
 ms.topic: article

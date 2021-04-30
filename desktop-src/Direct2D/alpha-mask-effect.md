@@ -20,7 +20,7 @@ This effect has no effect-specific properties.
 
 
 
-|                          |                                                   |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------|
 | Minimum supported client | Windows 10 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 10 \[desktop apps \| Windows Store apps\] |

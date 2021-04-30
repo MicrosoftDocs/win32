@@ -1,5 +1,5 @@
 ---
-Description: Specifies the starting hour number in the group of pictures (GOP) header.
+description: Specifies the starting hour number in the group of pictures (GOP) header.
 ms.assetid: 94830520-910a-4254-933c-6d95a3f0b6a4
 title: AVEncVideoHeaderHours property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The valid range of this property is 0 to 23, inclusive.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

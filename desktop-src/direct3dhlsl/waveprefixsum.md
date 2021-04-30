@@ -56,7 +56,7 @@ uint prefixSum = WavePrefixSum( numToSum );
 
 On a machine with a wave size of 8, and all lanes active except lanes 0 and 4, the following values would be returned from WavePrefixSum.
 
-| lane index | status   | prefixProduct | 
+| lane index | status   | prefixSum     | 
 |------------|----------|---------------|
 | 0          | inactive | n/a           |
 | 1          | active   | = 0           |

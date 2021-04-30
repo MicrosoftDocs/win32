@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder generates picture display extension headers. This property applies to MPEG video encoders.
+description: Specifies whether the encoder generates picture display extension headers. This property applies to MPEG video encoders.
 ms.assetid: 01d616ff-e1e4-4cad-9145-c01181e4f8b8
 title: AVEncMPVGenerateHeaderPicDispExt property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is **VARIANT\_TRUE**, the encoder generates picture display extensi
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

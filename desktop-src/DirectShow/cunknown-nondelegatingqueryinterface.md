@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an interface pointer and increments the reference count. This method implements the INonDelegatingUnknown::NonDelegatingQueryInterface method.
+description: Retrieves an interface pointer and increments the reference count. This method implements the INonDelegatingUnknown::NonDelegatingQueryInterface method.
 ms.assetid: 451ca350-f40b-4cbf-ac39-e86dadb48a24
 title: CUnknown.NonDelegatingQueryInterface method (Combase.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The **CUnknown** class exposes only the **IUknown** interface. Override this met
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

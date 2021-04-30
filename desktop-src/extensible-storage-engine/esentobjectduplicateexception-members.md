@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObjectDuplicateException members"
 title: EsentObjectDuplicateException members
 TOCTitle: EsentObjectDuplicateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentObjectDuplicateException

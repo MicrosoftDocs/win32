@@ -1,5 +1,5 @@
 ---
-Description: You can determine how many colors a device supports and what those colors are by retrieving the count of colors for the device and enumerating the colors of the solid pens.
+description: You can determine how many colors a device supports and what those colors are by retrieving the count of colors for the device and enumerating the colors of the solid pens.
 ms.assetid: cbaa3732-e55e-42af-93de-390450d38fc9
 title: Enumerating Colors
 ms.topic: article

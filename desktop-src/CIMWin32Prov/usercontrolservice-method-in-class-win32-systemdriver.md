@@ -1,5 +1,5 @@
 ---
-Description: Attempts to send a user-defined control code to a service managed by a system driver.
+description: Attempts to send a user-defined control code to a service managed by a system driver.
 ms.assetid: 62e66c35-f264-43d0-9e94-fb5e85f936e0
 ms.tgt_platform: multiple
 title: UserControlService method of the Win32_SystemDriver class
@@ -52,7 +52,7 @@ Returns a value of 0 (zero) if the **UserControlService** request was accepted, 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

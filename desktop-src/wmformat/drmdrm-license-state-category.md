@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DRM\_LICENSE\_STATE\_CATEGORY enumeration
+# DRM_LICENSE_STATE_CATEGORY enumeration (Wmdrmsdk.h)
 
 The **DRM\_LICENSE\_STATE\_CATEGORY** enumeration type specifies the type of license restriction that is described by a [**DRM\_LICENSE\_STATE\_DATA**](drmdrm-license-state-data.md) structure.
 
@@ -122,7 +122,7 @@ None.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

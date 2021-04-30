@@ -1,5 +1,5 @@
 ---
-Description: Contains the symbolic link for a video capture driver.
+description: Contains the symbolic link for a video capture driver.
 ms.assetid: 3d256dec-ec8c-4c62-883b-e2c292fd90eb
 title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_SYMBOLIC_LINK attribute (Mfidl.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

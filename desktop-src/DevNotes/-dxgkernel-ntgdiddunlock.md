@@ -1,5 +1,5 @@
 ---
-Description: Releases the lock held on the specified surface.
+description: Releases the lock held on the specified surface.
 ms.assetid: d9d3178b-aadd-4c33-8044-8e6362f9fefe
 title: NtGdiDdUnlock function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [**DD\_UNLOCKDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_unl
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

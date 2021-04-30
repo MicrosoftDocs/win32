@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_HostedFileSystem association represents a link between the computer system and the file system hosted on the computer system.
+description: The CIM\_HostedFileSystem association represents a link between the computer system and the file system hosted on the computer system.
 ms.assetid: 1027fc6b-588b-4da8-8b3f-0c4c3328534a
 ms.tgt_platform: multiple
 title: CIM_HostedFileSystem class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

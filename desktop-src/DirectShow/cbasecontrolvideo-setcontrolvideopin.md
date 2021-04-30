@@ -1,5 +1,5 @@
 ---
-Description: The SetControlVideoPin method sets the pin used by the filter.
+description: The SetControlVideoPin method sets the pin used by the filter.
 ms.assetid: 4346f828-4380-4150-9ecb-74eb690bdcdf
 title: CBaseControlVideo.SetControlVideoPin method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The interface can be called only when the filter has been connected successfully
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

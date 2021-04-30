@@ -1,5 +1,5 @@
 ---
-Description: Epresents the properties of a Plug and Play device.
+description: Epresents the properties of a Plug and Play device.
 ms.assetid: 621f4410-8d8f-4afa-b0f0-beed263f3a13
 ms.tgt_platform: multiple
 title: Win32_PnPEntity class
@@ -1366,7 +1366,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

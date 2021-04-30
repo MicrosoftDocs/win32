@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum buffer window, in milliseconds, of an encoded stream.
+description: Specifies the maximum buffer window, in milliseconds, of an encoded stream.
 ms.assetid: d4cb80fe-cf44-4260-a132-9d264c3efb22
 title: MFPKEY_STAT_BMAX Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ To determine the maximum buffer windows of an encoded stream, read this property
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

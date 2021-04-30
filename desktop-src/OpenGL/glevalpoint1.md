@@ -1,6 +1,6 @@
 ---
 title: glEvalPoint1 function (Gl.h)
-description: The glEvalPoint1 and glEvalPoint2 functions generate and evaluate a single point in a mesh.
+description: The glEvalPoint1 and glEvalPoint2 functions generate and evaluate a single point in a mesh. | glEvalPoint1 function (Gl.h)
 ms.assetid: 5ef1d2f0-d77b-4bb8-a0d4-45c1a6a91c18
 keywords:
 - glEvalPoint1 function OpenGL
@@ -84,7 +84,7 @@ The following functions retrieve information relating to [**glEvalPoint1**](glev
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the preferred legacy format structure to use when converting an audio media type.
+description: Specifies the preferred legacy format structure to use when converting an audio media type.
 ms.assetid: 9bb045a2-be5b-468b-b30b-aedcb7849945
 title: MF_MT_AUDIO_PREFER_WAVEFORMATEX attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

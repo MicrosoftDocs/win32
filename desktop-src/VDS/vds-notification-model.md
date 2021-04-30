@@ -1,5 +1,5 @@
 ---
-Description: VDS Notifications
+description: VDS Notifications
 ms.assetid: a0841215-3eb0-4769-b320-4da25b535362
 title: VDS Notifications
 ms.topic: article
@@ -14,7 +14,7 @@ A provider can send an event notification to VDS, and VDS can in turn forward th
 
 VDS generates service notifications for events such as a drive letter assignment or the arrival of an unallocated disk. Once VDS allocates a disk to a provider, the provider is responsible for generating the associated notifications. The illustration that follows shows the interfaces and methods used in the VDS notification model.
 
-![](images/vdsnotification.png)
+![Diagram that shows the interface and methods (Advise, OnLoad, and OnNotify) between Applications, Virtual Disk Service, and V D S Providers.](images/vdsnotification.png)
 
 To receive notifications, VDS registers its [**IVdsAdviseSink**](/windows/desktop/api/Vds/nn-vds-ivdsadvisesink) interface with the provider object by calling the [**IVdsProviderPrivate::OnLoad**](/windows/desktop/api/VdsHwPrv/nf-vdshwprv-ivdsproviderprivate-onload) method and passing a pointer to the interface. When a notification event occurs, such as the arrival of a new volume or drive, the provider passes the appropriate notification structure to VDS as an [**IVdsAdviseSink::OnNotify**](/windows/desktop/api/Vds/nf-vds-ivdsadvisesink-onnotify) method parameter.
 

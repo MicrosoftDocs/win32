@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotLogDuringRecoveryRedoException properties"
 title: EsentCannotLogDuringRecoveryRedoException properties
 TOCTitle: EsentCannotLogDuringRecoveryRedoException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotLogDuringRecoveryRedoException

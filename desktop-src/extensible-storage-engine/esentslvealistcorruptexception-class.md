@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListCorruptException class"
 title: EsentSLVEAListCorruptException class
 TOCTitle: EsentSLVEAListCorruptException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVEAListCorruptException

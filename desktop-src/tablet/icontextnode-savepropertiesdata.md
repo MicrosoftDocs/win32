@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an array of bytes that contains the application-specific and internal property data for this IContextNode.
+description: Retrieves an array of bytes that contains the application-specific and internal property data for this IContextNode.
 ms.assetid: f26d71a7-fe71-48a8-9c8f-9c4d99261df1
 title: IContextNode::SavePropertiesData method (IACom.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

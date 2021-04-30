@@ -1,5 +1,5 @@
 ---
-Description: Flags that restrict the data to be set or returned.
+description: Flags that restrict the data to be set or returned.
 title: SRRF (Shlwapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -68,7 +68,7 @@ These values are defined in Shlwapi.h.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

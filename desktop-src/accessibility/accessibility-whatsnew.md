@@ -1,5 +1,5 @@
 ---
-Description: Describes recent innovations and updates to Windows accessibility features, tools, documentation, and samples.
+description: Describes recent innovations and updates to Windows accessibility features, tools, documentation, and samples.
 title: What's new in Windows accessibility for developers
 ms.topic: article
 ms.date: 04/18/2019

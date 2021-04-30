@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID.Nil property"
 title: JET_SESID.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SESID.Nil

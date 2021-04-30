@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfSyncException methods"
 title: EsentSPAvailExtCacheOutOfSyncException methods
 TOCTitle: EsentSPAvailExtCacheOutOfSyncException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException

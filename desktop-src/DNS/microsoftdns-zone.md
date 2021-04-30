@@ -56,6 +56,12 @@ ms.date: 05/31/2018
 
 # MicrosoftDNS\_Zone class
 
+> [!NOTE]
+> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+
+> [!NOTE]
+> This article contains references to the term master server, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+
 The **MicrosoftDNS\_Zone** class describes a DNS Zone. Every instance of the **MicrosoftDNS\_Zone** class must be assigned to exactly one DNS Server. Zones may be associated with multiple instances of [**MicrosoftDNS\_Domain**](microsoftdns-domain.md) or [**MicrosoftDNS\_ResourceRecord**](microsoftdns-resourcerecord.md) classes.
 
 The following syntax is simplified from MOF code.
@@ -485,7 +491,7 @@ Additional values:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

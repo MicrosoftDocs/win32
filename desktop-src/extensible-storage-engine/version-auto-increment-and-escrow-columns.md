@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Version, Auto-Increment and Escrow Columns"
 title: Version, Auto-Increment and Escrow Columns
 TOCTitle: Version, Auto-Increment and Escrow Columns
 ms:assetid: b12724a4-6846-49a7-9223-43895f91427e

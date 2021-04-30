@@ -1,5 +1,5 @@
 ---
-Description: The Receive method receives the next media sample in the stream. This method overrides the CBaseInputPin::Receive method.
+description: The Receive method receives the next media sample in the stream. This method overrides the CBaseInputPin::Receive method.
 ms.assetid: b09140f0-2e3a-47b1-ace7-954043dd62eb
 title: CRendererInputPin.Receive method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method calls the filter's [**CBaseRenderer::Receive**](cbaserenderer-receiv
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

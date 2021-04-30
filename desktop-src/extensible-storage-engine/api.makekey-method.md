@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.MakeKey method"
 title: Api.MakeKey method 
 TOCTitle: 'MakeKey method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.MakeKey

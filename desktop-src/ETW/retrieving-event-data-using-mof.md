@@ -1,5 +1,5 @@
 ---
-Description: To consume event specific data, the consumer must know the format of the event data.
+description: To consume event specific data, the consumer must know the format of the event data.
 ms.assetid: 13512236-c416-43ba-bf36-b05c5c08d6c9
 title: Retrieving Event Data Using MOF
 ms.topic: article

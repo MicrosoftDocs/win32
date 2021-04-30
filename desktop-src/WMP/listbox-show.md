@@ -39,7 +39,7 @@ This method is primarily used with the **POPUP** element, which represents a lis
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

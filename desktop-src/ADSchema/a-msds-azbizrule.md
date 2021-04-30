@@ -22,7 +22,7 @@ Text of the script implementing the business rule.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Az-Biz-Rule                           |
 | Ldap-Display-Name | msDS-AzBizRule                              |
@@ -47,7 +47,7 @@ Text of the script implementing the business rule.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -68,7 +68,7 @@ Text of the script implementing the business rule.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | \-                                                |
 | MAPI-Id                | \-                                                |
@@ -89,7 +89,7 @@ Text of the script implementing the business rule.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -110,7 +110,7 @@ Text of the script implementing the business rule.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -131,7 +131,7 @@ Text of the script implementing the business rule.
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |

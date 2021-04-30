@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRequiredLogFilesMissingException constructor"
 title: EsentRequiredLogFilesMissingException constructor 
 TOCTitle: 'EsentRequiredLogFilesMissingException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException.#ctor

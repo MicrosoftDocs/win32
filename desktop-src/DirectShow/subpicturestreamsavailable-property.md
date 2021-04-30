@@ -1,5 +1,5 @@
 ---
-Description: The SubpictureStreamsAvailable property retrieves the number of subpicture streams available in the current title.
+description: The SubpictureStreamsAvailable property retrieves the number of subpicture streams available in the current title.
 ms.assetid: 6a6d9d15-2f56-47fc-a7bb-2cf33f384f41
 title: SubpictureStreamsAvailable Property
 ms.topic: reference

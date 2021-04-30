@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for process events. The following syntax is simplified from MOF code.
+description: Process_V1 class - This class is the parent class for process events. The following syntax is simplified from MOF code.
 ms.assetid: e517cd2d-5870-4666-93e9-6870b2f4a447
 title: Process_V1 class
 ms.topic: reference
@@ -37,7 +37,7 @@ The **Process\_V1** class does not define any members.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

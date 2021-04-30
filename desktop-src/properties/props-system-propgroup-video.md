@@ -1,5 +1,5 @@
 ---
-Description: The property group separator used in property lists to separate video files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+description: The property group separator used in property lists to separate video files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: 81a4a52e-610e-45a6-838c-e82c74d92ced
 title: System.PropGroup.Video
 ms.topic: article

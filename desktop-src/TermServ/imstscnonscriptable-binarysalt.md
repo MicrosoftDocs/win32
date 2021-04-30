@@ -1,6 +1,6 @@
 ---
 title: IMsTscNonScriptable BinarySalt property
-description: This property is no longer available for use.
+description: This property is no longer available for use. | IMsTscNonScriptable BinarySalt property
 ms.assetid: 7af2e5be-9ddb-46ab-947c-f79ab890d7bc
 ms.tgt_platform: multiple
 keywords:
@@ -82,7 +82,7 @@ Returns **E\_NOTIMPL**.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | None supported<br/>                                                              |

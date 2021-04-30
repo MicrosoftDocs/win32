@@ -1,5 +1,5 @@
 ---
-Description: Not supported in Windows 7 and later. Specifies what control to use in the query builder.
+description: Not supported in Windows 7 and later. Specifies what control to use in the query builder.
 ms.assetid: 7d79c2fe-c63d-4ac5-8dd6-1a6103e53245
 title: queryControl
 ms.topic: article

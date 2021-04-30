@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # CDN\_FOLDERCHANGE notification code
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/windows/win32/shell/common-file-dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when a new folder is opened.
 
@@ -64,7 +64,7 @@ To get the path of the newly opened folder, the hook procedure can send the [**C
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performance Counters Simple Types"
 ms.assetid: e4595729-f0c7-4cf8-a156-29e670784d36
 title: Performance Counters Simple Types
 ms.topic: article

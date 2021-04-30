@@ -1,5 +1,5 @@
 ---
-Description: A rectangle is a four-sided polygon whose opposing sides are parallel and equal in length.
+description: A rectangle is a four-sided polygon whose opposing sides are parallel and equal in length.
 ms.assetid: 77d29981-032e-45ba-a06b-c9c992236803
 title: Drawing Rectangles
 ms.topic: article

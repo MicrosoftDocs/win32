@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDeleteBackupFileFailException properties"
 title: EsentDeleteBackupFileFailException properties
 TOCTitle: EsentDeleteBackupFileFailException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException

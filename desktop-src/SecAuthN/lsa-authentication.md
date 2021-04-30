@@ -1,5 +1,5 @@
 ---
-Description: LSA Authentication describes the parts of the Local Security Authority (LSA) that applications can use to authenticate and log users on to the local system. It also describes how to create and call authentication packages and security packages.
+description: LSA Authentication describes the parts of the Local Security Authority (LSA) that applications can use to authenticate and log users on to the local system. It also describes how to create and call authentication packages and security packages.
 ms.assetid: a5bc4c5d-6e8e-4cdf-962e-4284997c75e7
 title: LSA Authentication
 ms.topic: article

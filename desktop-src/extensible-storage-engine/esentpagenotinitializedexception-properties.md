@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageNotInitializedException properties"
 title: EsentPageNotInitializedException properties
 TOCTitle: EsentPageNotInitializedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException

@@ -1,5 +1,5 @@
 ---
-Description: Describes the creation parameters for a device.
+description: Describes the creation parameters for a device.
 ms.assetid: 7db5ef2b-6894-4113-b726-8b238bb4fb2f
 title: D3DDEVICE_CREATION_PARAMETERS structure (D3D9Types.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ A combination of one or more [D3DCREATE](d3dcreate.md) constants that control gl
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

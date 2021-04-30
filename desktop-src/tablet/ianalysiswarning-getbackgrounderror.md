@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the error code for the background ink analysis operation if an error occurred.
+description: Retrieves the error code for the background ink analysis operation if an error occurred.
 ms.assetid: 0255751e-9b2a-46f1-aa45-6509f9d1c658
 title: IAnalysisWarning::GetBackgroundError method (IACom.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ If an error occurs within a background analysis operation, the [**IInkAnalyzer**
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

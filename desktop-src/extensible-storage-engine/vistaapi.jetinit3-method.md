@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetInit3 method"
 title: VistaApi.JetInit3 method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetInit3 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetInit3(Microsoft.Isam.Esent.Interop.JET_INSTANCE@,Microsoft.Isam.Esent.Interop.JET_RSTINFO,Microsoft.Isam.Esent.Interop.InitGrbit)

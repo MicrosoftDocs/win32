@@ -1,6 +1,6 @@
 ---
 title: glVertex3d function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex3d function (Gl.h)
 ms.assetid: 531a552d-7979-4994-ad28-73c2d3987bae
 keywords:
 - glVertex3d function OpenGL
@@ -70,7 +70,7 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

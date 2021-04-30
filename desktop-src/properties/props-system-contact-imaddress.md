@@ -1,5 +1,5 @@
 ---
-Description: Instant messaging address of the contact.
+description: Instant messaging address of the contact.
 ms.assetid: 6a82d888-244e-4cb1-acfe-57da73cd0bc2
 title: System.Contact.IMAddress
 ms.topic: article

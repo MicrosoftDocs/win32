@@ -22,7 +22,7 @@ An alias used to connect to the database. Default is set to Alias.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-SQL-Alias                                |
 | Ldap-Display-Name | mS-SQL-Alias                                |
@@ -48,7 +48,7 @@ An alias used to connect to the database. Default is set to Alias.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -69,7 +69,7 @@ An alias used to connect to the database. Default is set to Alias.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -90,7 +90,7 @@ An alias used to connect to the database. Default is set to Alias.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -111,7 +111,7 @@ An alias used to connect to the database. Default is set to Alias.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -132,7 +132,7 @@ An alias used to connect to the database. Default is set to Alias.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -153,7 +153,7 @@ An alias used to connect to the database. Default is set to Alias.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

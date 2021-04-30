@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException class"
 title: EsentInvalidColumnException class
 TOCTitle: EsentInvalidColumnException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException

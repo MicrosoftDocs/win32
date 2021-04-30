@@ -1,5 +1,5 @@
 ---
-Description: Tests whether a pointer is aligned to a specified boundary. If not, this macro invokes the ASSERT macro. Ignored in retail builds.
+description: Tests whether a pointer is aligned to a specified boundary. If not, this macro invokes the ASSERT macro. Ignored in retail builds.
 ms.assetid: 4d9ec3a9-7107-45a3-a7aa-28d6e38fa92a
 title: DbgAssertAligned macro (Wxdebug.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ This macro does not return a value.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

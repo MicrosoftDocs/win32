@@ -1,5 +1,5 @@
 ---
-Description: Internal.
+description: <span id="vspixengine.objectstatetype"></span>OBJECTSTATETYPE enumeration - Internal.
 MS-HAID: vspixengine.OBJECTSTATETYPE
 MSHAttr:
 - PreferredSiteName:MSDN

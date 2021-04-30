@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDbtimeValuesException constructor"
 title: EsentOutOfDbtimeValuesException constructor 
 TOCTitle: 'EsentOutOfDbtimeValuesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException.#ctor

@@ -22,7 +22,7 @@ GUID of an optional feature.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-Optional-Feature-GUID                           |
 | Ldap-Display-Name | msDS-OptionalFeatureGUID                              |
@@ -44,7 +44,7 @@ GUID of an optional feature.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -65,7 +65,7 @@ GUID of an optional feature.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Loads the filter's data from a given stream.
+description: Loads the filter's data from a given stream.
 ms.assetid: c2bfd379-2916-4698-bc41-653161723706
 title: CPersistStream.Load method (Pstream.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the **IPersistStream::Load** method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

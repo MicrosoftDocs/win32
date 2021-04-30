@@ -1,5 +1,5 @@
 ---
-Description: The following provides information on choices to consider when tailoring desktop app tiles for Windows 8 including how to design desktop app tiles for the new Start screen and how to choose what entry points to show in the Start screen.
+description: The following provides information on choices to consider when tailoring desktop app tiles for Windows 8 including how to design desktop app tiles for the new Start screen and how to choose what entry points to show in the Start screen.
 ms.assetid: EF5182A2-09B2-46F2-B55E-4BD212CC1F7F
 title: Desktop App Tiles on the Start Screen
 ms.topic: article
@@ -41,7 +41,7 @@ DON'T: Don't avoid the use of color. While Windows Store app icons are sometimes
 
 DO: Add one shortcut per app in the Start screen when the app is installed. This ensures that people can launch your app directly from the Start screen or through search. If you do not include a shortcut in the Start screen, your app becomes difficult to launch. In particular, do not add a shortcut only on the desktop. Users see the Start screen when they first login, and so placing a shortcut only on the desktop isn't as effective as including it in the Start screen.
 
-![](images/tiles-desktop-2.png)
+![Diagram that shows the a grid with an application tile, dimensions, and 'Segoe U I Semilight' to indicate the font used.](images/tiles-desktop-2.png)
 
 DON'T: Don't provide multiple shortcuts to the same app. For example, don't have two shortcuts that launch an app in two different modes, such as one for Windows Internet Explorer and one for Internet Explorer with no add-ons.
 

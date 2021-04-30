@@ -1,5 +1,5 @@
 ---
-Description: Defines date-time intervals with a format similar to the date and time syntax by breaking the string into the fields for days, hours, minutes, seconds, and microseconds.
+description: Defines date-time intervals with a format similar to the date and time syntax by breaking the string into the fields for days, hours, minutes, seconds, and microseconds.
 ms.assetid: 13a3ca74-e3e9-44d7-9254-e288eb70ae4c
 ms.tgt_platform: multiple
 title: Interval Format

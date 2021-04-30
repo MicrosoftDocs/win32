@@ -1,5 +1,5 @@
 ---
-Description: Generates an output vertex declaration from the input declaration. The output declaration is intended for use by the mesh tessellation functions.
+description: Generates an output vertex declaration from the input declaration. The output declaration is intended for use by the mesh tessellation functions.
 ms.assetid: 528b0da3-fc31-4872-98f2-31e03c1cae5e
 title: D3DXGenerateOutputDecl function (D3DX9Mesh.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

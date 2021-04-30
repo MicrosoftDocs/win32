@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotDeletedException methods"
 title: EsentSLVPagesNotDeletedException methods
 TOCTitle: EsentSLVPagesNotDeletedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException

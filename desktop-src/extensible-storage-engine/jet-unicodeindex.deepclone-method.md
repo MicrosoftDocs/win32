@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.DeepClone method"
 title: JET_UNICODEINDEX.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.DeepClone

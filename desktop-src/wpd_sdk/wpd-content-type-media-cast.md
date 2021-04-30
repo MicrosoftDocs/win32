@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_MEDIA\_CAST
+description: WPD\_CONTENT\_TYPE\_MEDIA\_CAST
 ms.assetid: 368e7381-8978-421a-b450-59915f8e70e2
 title: WPD_CONTENT_TYPE_MEDIA_CAST
 ms.topic: article

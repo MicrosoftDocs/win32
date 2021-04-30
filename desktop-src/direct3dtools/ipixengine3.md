@@ -1,5 +1,5 @@
 ---
-Description: Extensions to the IPixEngine2 interface.
+description: Extensions to the IPixEngine2 interface.
 MS-HAID: vspixengine.IPixEngine3
 MSHAttr:
 - PreferredSiteName:MSDN

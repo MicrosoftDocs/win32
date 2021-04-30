@@ -1,5 +1,5 @@
 ---
-Description: 'This filter decodes the following audio formats:'
+description: 'This filter decodes the following audio formats:'
 ms.assetid: 2fd14296-9eed-4e25-b140-6281c707fdb7
 title: Microsoft MPEG-1/DD/AAC Audio Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -219,7 +219,7 @@ The filter supports the following properties through [**ICodecAPI**](/windows/de
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Home Premium, Windows Vista Ultimate, Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                      |

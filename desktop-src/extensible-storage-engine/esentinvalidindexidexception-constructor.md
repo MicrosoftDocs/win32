@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidIndexIdException constructor"
 title: EsentInvalidIndexIdException constructor 
 TOCTitle: 'EsentInvalidIndexIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidIndexIdException.#ctor

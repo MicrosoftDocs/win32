@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseSharingViolationException methods"
 title: EsentDatabaseSharingViolationException methods
 TOCTitle: EsentDatabaseSharingViolationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException

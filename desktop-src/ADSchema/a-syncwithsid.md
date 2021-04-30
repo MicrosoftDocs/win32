@@ -22,7 +22,7 @@ For the SAM builtin group object/ local policy synchronization, this is the loca
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Sync-With-SID                        |
 | Ldap-Display-Name | syncWithSID                          |
@@ -48,7 +48,7 @@ For the SAM builtin group object/ local policy synchronization, this is the loca
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -69,7 +69,7 @@ For the SAM builtin group object/ local policy synchronization, this is the loca
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -90,7 +90,7 @@ For the SAM builtin group object/ local policy synchronization, this is the loca
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -111,7 +111,7 @@ For the SAM builtin group object/ local policy synchronization, this is the loca
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -132,7 +132,7 @@ For the SAM builtin group object/ local policy synchronization, this is the loca
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -153,7 +153,7 @@ For the SAM builtin group object/ local policy synchronization, this is the loca
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

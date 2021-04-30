@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.Backward field"
 title: Windows7Grbits.Backward field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Backward field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.Backward

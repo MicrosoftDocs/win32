@@ -1,5 +1,5 @@
 ---
-Description: Reduces the IAnalysisRegion to represent an empty area.
+description: Reduces the IAnalysisRegion to represent an empty area.
 ms.assetid: 647a90ee-a5fe-4019-92bb-76b84207d86e
 title: IAnalysisRegion::MakeEmpty method (IACom.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

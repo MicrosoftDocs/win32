@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCAvgBitrate (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCAvgBitrate (Wmcodecdsp.h)
 ms.assetid: a79f0919-d3e3-4ec5-8122-89db147dcf17
 keywords:
 - g_wszWMVCAvgBitrate windows Media Format
@@ -24,7 +24,7 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 

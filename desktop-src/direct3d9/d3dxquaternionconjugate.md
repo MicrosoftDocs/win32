@@ -1,5 +1,5 @@
 ---
-Description: Returns the conjugate of a quaternion.
+description: Returns the conjugate of a quaternion.
 ms.assetid: f690fdd8-7805-4fc1-9064-4f249d5f7c4f
 title: D3DXQuaternionConjugate function (D3dx9math.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

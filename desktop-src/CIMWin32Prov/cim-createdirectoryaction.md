@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CreateDirectoryAction class creates empty directories for software elements to be installed locally.
+description: The CIM\_CreateDirectoryAction class creates empty directories for software elements to be installed locally.
 ms.assetid: e8587534-4bb3-44de-98a1-8d777f1da1b3
 ms.tgt_platform: multiple
 title: CIM_CreateDirectoryAction class
@@ -844,7 +844,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

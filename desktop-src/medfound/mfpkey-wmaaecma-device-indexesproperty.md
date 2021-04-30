@@ -1,5 +1,5 @@
 ---
-Description: Specifies which audio devices the Voice Capture DSP uses for capturing and rendering audio.
+description: Specifies which audio devices the Voice Capture DSP uses for capturing and rendering audio.
 ms.assetid: 42b6b82b-ac64-4a07-956c-473dd57a128d
 title: MFPKEY_WMAAECMA_DEVICE_INDEXES Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ varDeviceIndexes.lVal = (unsigned long)(iSpeakerIndex << 16) +
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

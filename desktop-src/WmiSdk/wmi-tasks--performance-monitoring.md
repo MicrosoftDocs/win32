@@ -1,5 +1,5 @@
 ---
-Description: Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance.
+description: Use the WMI classes that obtain data from performance counters to access and refresh data about computer performance.
 ms.assetid: 4c88de96-992e-4d34-ba93-35d2b6e73c1d
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Performance Monitoring'
@@ -157,13 +157,10 @@ While (True)
     &quot;Win32_PerfRawData_PerfOS_Processor.Name=&#39;_Total&#39;&quot;)
     N2 = object2.PercentProcessorTime
     D2 = object2.TimeStamp_Sys100NS
-
     &#39; CounterType - PERF_100NSEC_TIMER_INV
     &#39; Formula - (1- ((N2 - N1) / (D2 - D1))) x 100
     PercentProcessorTime = (1 - ((N2 - N1)/(D2-D1)))*100
-
     Wscript.Echo &quot;% Processor Time=&quot; , PercentProcessorTime
-
 Wend</code></pre></td>
 </tr>
 </tbody>

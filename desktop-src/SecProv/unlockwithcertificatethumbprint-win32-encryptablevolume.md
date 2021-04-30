@@ -1,5 +1,5 @@
 ---
-Description: Uses the provided certificate thumbprint to obtain the derived key and unlock the encrypted volume.
+description: Uses the provided certificate thumbprint to obtain the derived key and unlock the encrypted volume.
 ms.assetid: 41c25d17-db1b-427e-907b-a547483927e0
 title: UnlockWithCertificateThumbprint method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -82,7 +82,7 @@ This method returns one of the following codes or another error code if it fails
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

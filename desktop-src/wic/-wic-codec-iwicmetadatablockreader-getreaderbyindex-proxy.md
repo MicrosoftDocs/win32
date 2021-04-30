@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetReaderByIndex method.
+description: Proxy function for the GetReaderByIndex method.
 ms.assetid: 9d70b339-9772-4c13-949e-109f354f9986
 title: IWICMetadataBlockReader_GetReaderByIndex_Proxy function
 ms.topic: reference
@@ -72,7 +72,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

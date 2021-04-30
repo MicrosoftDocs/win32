@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateSession3 interface defines the following methods.
+description: The IUpdateSession3 interface defines the following methods.
 ms.assetid: 8015443a-e232-44ab-b53a-e8cc4acd4dd3
 title: IUpdateSession3 Methods
 ms.topic: reference

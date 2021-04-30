@@ -1,5 +1,5 @@
 ---
-Description: Specifies the authentication method to be used to connect to the wireless LAN.
+description: Specifies the authentication method to be used to connect to the wireless LAN.
 ms.assetid: fb6c5cce-05d6-41a2-acf4-9ae2713079dd
 title: authentication (authEncryption) Element
 ms.topic: reference
@@ -78,7 +78,7 @@ To view sample profiles that use the **authentication** element, see [Wireless P
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

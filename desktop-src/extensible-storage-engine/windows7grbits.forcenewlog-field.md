@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.ForceNewLog field"
 title: Windows7Grbits.ForceNewLog field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: ForceNewLog field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.ForceNewLog

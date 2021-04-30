@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogVersionException class"
 title: EsentBadLogVersionException class
 TOCTitle: EsentBadLogVersionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException

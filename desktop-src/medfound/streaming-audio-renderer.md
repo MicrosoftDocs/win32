@@ -1,5 +1,5 @@
 ---
-Description: The streaming audio renderer (SAR) is a media sink that renders audio.
+description: The streaming audio renderer (SAR) is a media sink that renders audio.
 ms.assetid: 5884a128-597d-432b-a706-e10c894d7965
 title: Streaming Audio Renderer
 ms.topic: article

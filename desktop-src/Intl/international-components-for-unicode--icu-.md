@@ -1,5 +1,5 @@
 ---
-Description: International Components for Unicode (ICU) is a mature, widely used set of open-source globalization APIs.
+description: International Components for Unicode (ICU) is a mature, widely used set of open-source globalization APIs.
 ms.assetid: 4AEBE391-4121-44B2-B15B-0032645D7053
 title: International Components for Unicode (ICU)
 ms.topic: article
@@ -86,7 +86,7 @@ There are three main steps to follow: (Windows 10 Creators Update or higher)
 
 </dl>
 
-Then, you can call whatever ICU C API you want. (No C++ APIs are exposed.)
+Then, you can call whatever ICU C API from these libraries you want. (No C++ APIs are exposed.)
 
 > [!IMPORTANT]
 > If you are using the legacy import libraries, icuuc.lib and icuin.lib, ensure they're listed before the umbrella libraries, like onecoreuap.lib or WindowsApp.lib, in the Additional Dependencies Linker setting (see the image below). Otherwise, the linker will link to icu.lib, which will result in an attempt to load icu.dll during run time. That DLL is present only starting with version 1903. So, if a user upgrades the Windows 10 SDK on a pre-version 1903 Windows machine, the app will fail to load and run. For a history of the ICU libraries in Windows, see [History of changes to the ICU library in Windows](#history-of-changes-to-the-icu-library-in-windows).

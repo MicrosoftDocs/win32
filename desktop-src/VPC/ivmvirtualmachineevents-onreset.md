@@ -49,7 +49,7 @@ This method is called when the virtual machine has been reset. The client progra
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

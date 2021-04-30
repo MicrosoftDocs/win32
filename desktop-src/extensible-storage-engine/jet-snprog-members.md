@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG members"
 title: JET_SNPROG members
 TOCTitle: JET_SNPROG members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SNPROG

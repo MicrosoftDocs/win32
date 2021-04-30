@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/SimIccID (v4)
+description: MBNProfileExt\/SimIccID (v4)
 MS-HAID: WWAN\_profile\_v4.element\_SimIccID
 MSHAttr:
 - PreferredSiteName:MSDN

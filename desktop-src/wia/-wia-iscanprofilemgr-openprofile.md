@@ -1,5 +1,5 @@
 ---
-Description: Opens a scan profile that has been saved to disk as an XML file.
+description: Opens a scan profile that has been saved to disk as an XML file.
 ms.assetid: 2b45280e-a1b6-4db9-af8c-09faff34b067
 title: IScanProfileMgr::OpenProfile method (Scanprofilemgr.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If a scan profile is saved using the [**Save**](-wia-iscanprofile-save.md) metho
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

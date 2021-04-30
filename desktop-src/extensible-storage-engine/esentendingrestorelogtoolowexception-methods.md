@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEndingRestoreLogTooLowException methods"
 title: EsentEndingRestoreLogTooLowException methods
 TOCTitle: EsentEndingRestoreLogTooLowException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the selection state of any item or items in the view has changed.
+description: ShellFolderView.SelectionChanged event - Occurs when the selection state of any item or items in the view has changed.
 title: ShellFolderView.SelectionChanged event (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -52,7 +52,7 @@ This event handler has no parameters.
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

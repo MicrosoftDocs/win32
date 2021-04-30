@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_sesparam enumeration"
 title: JET_sesparam enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_sesparam enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JET_sesparam

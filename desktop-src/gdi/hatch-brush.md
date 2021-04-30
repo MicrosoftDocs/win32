@@ -1,5 +1,5 @@
 ---
-Description: There are six predefined logical hatch brushes maintained by GDI. The following rectangles were painted by using the six predefined hatch brushes.
+description: There are six predefined logical hatch brushes maintained by GDI. The following rectangles were painted by using the six predefined hatch brushes.
 ms.assetid: ac0957db-242a-4d52-9661-2aa9d8571aab
 title: Hatch Brush
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The GetTimelineType method retrieves the object's type.
+description: The GetTimelineType method retrieves the object's type.
 ms.assetid: db46457f-25d0-4421-af73-426d65b720d3
 title: IAMTimelineObj::GetTimelineType method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

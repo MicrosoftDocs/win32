@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the IMFTransform wants to receive MEPolicySet completion notifications.
+description: Specifies whether the IMFTransform wants to receive MEPolicySet completion notifications.
 title: MFT_POLICY_SET_AWARE (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -35,7 +35,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update   <br/>                                        |
 | Header<br/>                   | <dl> <dt>Mftransform.h</dt> </dl> |

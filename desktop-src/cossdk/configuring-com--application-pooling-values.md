@@ -1,5 +1,5 @@
 ---
-Description: You can use the following instructions to configure COM+ application pooling values for your COM+ application.
+description: You can use the following instructions to configure COM+ application pooling values for your COM+ application.
 ms.assetid: faba5cb7-745e-4fdf-a3e0-62132da4a843
 title: Configuring COM+ Application Pooling Values
 ms.topic: article

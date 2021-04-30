@@ -1,5 +1,5 @@
 ---
-Description: ICE15 validates that content type and extension references in the MIME and Extension tables are reciprocal. The MIME table must reference a content type to an extension that the Extension table references back to the same content type.
+description: ICE15 validates that content type and extension references in the MIME and Extension tables are reciprocal. The MIME table must reference a content type to an extension that the Extension table references back to the same content type.
 ms.assetid: 8a38c8d2-324d-4de9-932b-d188ff5ccbaf
 title: ICE15
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Set method sets the value of a given audio device property.
+description: The Set method sets the value of a given audio device property.
 ms.assetid: 701cdfd4-9241-408c-8497-3983018e7da0
 title: ITAudioDeviceControl::Set method (Ipmsp.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

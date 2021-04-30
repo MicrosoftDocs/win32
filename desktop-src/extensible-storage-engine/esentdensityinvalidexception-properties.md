@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDensityInvalidException properties"
 title: EsentDensityInvalidException properties
 TOCTitle: EsentDensityInvalidException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException

@@ -56,7 +56,7 @@ In a combo box with the [**CBS\_SIMPLE**](combo-box-styles.md) style, the CBN\_S
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: You can use the installed standard consumer classes to perform actions based on events in an operating system.
+description: You can use the installed standard consumer classes to perform actions based on events in an operating system.
 ms.assetid: 1979dc55-a440-4c31-832b-36fa84def4c9
 ms.tgt_platform: multiple
 title: Monitoring and Responding to Events with Standard Consumers
@@ -49,8 +49,8 @@ The following procedure describes how to monitor and respond to events by using 
 
     The following MOF code example shows how to specify the root\\subscription namespace.
 
-    ``` syntax
-#pragma namespace ("\\\\.\\root\\subscription")
+    ```syntax
+    #pragma namespace ("\\\\.\\root\\subscription")
     ```
 
     Most [*intrinsic events*](gloss-i.md) are associated with changes to class instances in the root\\cimv2 namespace. However, registry events such as [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent) are fired in the root\\default namespace by the [System Registry Provider](/previous-versions/windows/desktop/regprov/system-registry-provider).
@@ -67,7 +67,7 @@ The following procedure describes how to monitor and respond to events by using 
 
     The following MOF code example shows how to use an existing source of WSH and an **EventID** value of 8.
 
-    ``` syntax
+    ```syntax
     instance of NTEventLogEventConsumer as $Consumer
     {
         Name = "RunKeyEventlogConsumer";
@@ -89,7 +89,7 @@ The following procedure describes how to monitor and respond to events by using 
 
     In the following example, the filter monitors the registry key where startup programs are registered. Monitoring this registry key may be important because an unauthorized program can register itself under the key, which causes it to be launched when the computer boots.
 
-    ``` syntax
+    ```syntax
     instance of __EventFilter as $Filter
     {
     Name = "RunKeyFilter";
@@ -114,7 +114,7 @@ The following procedure describes how to monitor and respond to events by using 
 
     The following example shows how to define an [*alias*](gloss-a.md) for the filter and consumer.
 
-    ``` syntax
+    ```syntax
     instance of __EventFilter as $FILTER
     instance of LogFileEventConsumer as $CONSUMER
     ```
@@ -123,14 +123,14 @@ The following procedure describes how to monitor and respond to events by using 
 
     The following example shows how to identify an instance by the object path, or use an alias as a shorthand expression for the object path.
 
-    ``` syntax
+    ```syntax
     instance of __EventFilter as $FILTER
     instance of NTEventLogEventConsumer as $CONSUMER
     ```
 
     The following example binds the filter to the consumer by using aliases.
 
-    ``` syntax
+    ```syntax
     instance of __FilterToConsumerBinding
     {
         Filter = $FILTER;

@@ -22,7 +22,7 @@ Priority, authentication type, and URI of each certificate enrollment web servic
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-PKI-Enrollment-Servers                   |
 | Ldap-Display-Name | msPKI-Enrollment-Servers                    |
@@ -44,7 +44,7 @@ Priority, authentication type, and URI of each certificate enrollment web servic
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -65,7 +65,7 @@ Priority, authentication type, and URI of each certificate enrollment web servic
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

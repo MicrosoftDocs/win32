@@ -1,5 +1,5 @@
 ---
-Description: The BeginFlush method begins a flush operation.
+description: CTransformFilter.BeginFlush method - The BeginFlush method begins a flush operation.
 ms.assetid: 15bea993-f862-4791-b784-0d0468c6c05c
 title: CTransformFilter.BeginFlush method (Transfrm.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ If the derived class uses a worker thread to deliver samples, it should discard 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Device container ID.
+description: Device container ID.
 ms.assetid: 171c5b96-5d6d-4880-9ebb-16bfe05e4e4c
 title: System.Devices.ContainerId
 ms.topic: article

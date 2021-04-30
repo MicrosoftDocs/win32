@@ -1,5 +1,5 @@
 ---
-Description: Notifies a Media Foundation transform (MFT) that streaming is about to begin.
+description: Notifies a Media Foundation transform (MFT) that streaming is about to begin.
 ms.assetid: a7f02e92-a747-4ac6-aa83-60897acb2bc5
 title: MFT_MESSAGE_NOTIFY_BEGIN_STREAMING (Mftransform.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ An MFT is not required to respond to this message.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

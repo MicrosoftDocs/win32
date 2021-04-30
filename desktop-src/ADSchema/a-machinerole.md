@@ -22,7 +22,7 @@ Role for a machine: DC, Server, or Workstation.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Machine-Role                         |
 | Ldap-Display-Name | machineRole                          |
@@ -48,7 +48,7 @@ Role for a machine: DC, Server, or Workstation.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -69,7 +69,7 @@ Role for a machine: DC, Server, or Workstation.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -90,7 +90,7 @@ Role for a machine: DC, Server, or Workstation.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -111,7 +111,7 @@ Role for a machine: DC, Server, or Workstation.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -132,7 +132,7 @@ Role for a machine: DC, Server, or Workstation.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -153,7 +153,7 @@ Role for a machine: DC, Server, or Workstation.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

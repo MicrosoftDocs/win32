@@ -1,5 +1,5 @@
 ---
-Description: Defines an effect instance.
+description: Defines an effect instance.
 ms.assetid: 'vs|directx_sdk|~\effectinstance.htm'
 title: EffectInstance
 ms.topic: article

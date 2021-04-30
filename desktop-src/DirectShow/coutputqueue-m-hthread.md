@@ -1,5 +1,5 @@
 ---
-Description: Handle to the worker thread.
+description: Handle to the worker thread.
 ms.assetid: 29eeb9b0-2fbc-4f31-a4ef-97b13f374f4f
 title: COutputQueue::m_hThread member (Outputq.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ HANDLE m_hThread;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

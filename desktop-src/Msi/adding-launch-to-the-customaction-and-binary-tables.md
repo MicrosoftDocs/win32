@@ -1,5 +1,5 @@
 ---
-Description: Add a record to the CustomAction table for the Launch custom action.
+description: Add a record to the CustomAction table for the Launch custom action.
 ms.assetid: 010ce7cd-010b-4fac-90ad-5745c6a38630
 title: Adding Launch to the CustomAction and Binary Tables
 ms.topic: article

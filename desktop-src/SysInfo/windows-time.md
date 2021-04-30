@@ -1,5 +1,5 @@
 ---
-Description: Windows time is the number of milliseconds elapsed since the system was last started.
+description: Windows time is the number of milliseconds elapsed since the system was last started.
 ms.assetid: 95c00204-bfdf-4376-9aae-8d8139ba6750
 title: Windows Time
 ms.topic: article

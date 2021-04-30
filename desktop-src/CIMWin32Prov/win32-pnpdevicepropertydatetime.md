@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type datetime.
+description: Represents a PnP device property of type datetime.
 ms.assetid: 30B11948-4AF9-490F-B22F-260DDE5514AF
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyDateTime class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

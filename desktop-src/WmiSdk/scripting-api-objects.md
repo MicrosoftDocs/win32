@@ -1,5 +1,5 @@
 ---
-Description: The Scripting API for WMI reference describes each scripting object using a specific syntax. For an explanation of this syntax, see Document Conventions for the Scripting API.
+description: The Scripting API for WMI reference describes each scripting object using a specific syntax. For an explanation of this syntax, see Document Conventions for the Scripting API.
 ms.assetid: 91bc0fad-1a4b-4b48-b5a0-1a6502d2ab26
 ms.tgt_platform: multiple
 title: Scripting API Objects

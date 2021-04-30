@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).
+description: This topic describes how to use DirectShow to play media files that are protected with Windows Media Digital Rights Management (DRM).
 ms.assetid: a014942a-01e5-49d4-8a25-4604cd40f374
 title: Reading DRM-Protected ASF Files in DirectShow
 ms.topic: article
@@ -190,8 +190,6 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
             hr = m_pFileSource->Load(pwszFile, NULL);
 ```
 
-
-
 <span codelanguage="ManagedCPlusPlus"></span>
 
 <table>
@@ -209,7 +207,6 @@ HRESULT Player::LoadMediaFile(PCWSTR pwszFile)
             {
                 goto done;
             }
-
             hr = RenderOutputPins(pGraph, m_pReader);
     }
     else

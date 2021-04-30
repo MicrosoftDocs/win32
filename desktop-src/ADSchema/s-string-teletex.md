@@ -21,7 +21,7 @@ A case insensitive string that contains characters from the teletex character se
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | String(Teletex)                                                        |
 | Syntax ID    | 2.5.5.4                                                                |

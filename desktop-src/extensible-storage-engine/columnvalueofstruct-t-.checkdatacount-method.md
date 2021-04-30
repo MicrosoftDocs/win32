@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T>.CheckDataCount method"
 title: ColumnValueOfStruct(T).CheckDataCount method 
 TOCTitle: 'CheckDataCount method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.CheckDataCount(System.Int32)

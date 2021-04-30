@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CTransformInputPin.CTransformInputPin constructor - Constructor method.
 ms.assetid: 097dce19-b430-42d6-8914-68350c7eca40
 title: CTransformInputPin.CTransformInputPin constructor (Transfrm.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The *pName* parameter specifies the pin name, which is returned by the [**IPin::
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

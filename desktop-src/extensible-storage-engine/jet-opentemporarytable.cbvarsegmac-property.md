@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.cbVarSegMac property"
 title: JET_OPENTEMPORARYTABLE.cbVarSegMac property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbVarSegMac property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.cbVarSegMac

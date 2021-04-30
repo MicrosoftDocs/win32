@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the specified virtual system can be migrated to a target host specified by a network name or IP address.
+description: Determines whether the specified virtual system can be migrated to a target host specified by a network name or IP address.
 ms.assetid: eacc8448-4683-48df-81b9-8599292944db
 title: CheckVirtualSystemIsMigratableToHost method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -121,7 +121,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID.Equality operator"
 title: JET_DBID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBID.op_Equality(Microsoft.Isam.Esent.Interop.JET_DBID,Microsoft.Isam.Esent.Interop.JET_DBID)

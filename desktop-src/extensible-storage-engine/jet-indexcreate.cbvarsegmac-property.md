@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.cbVarSegMac property"
 title: JET_INDEXCREATE.cbVarSegMac property 
 TOCTitle: 'cbVarSegMac property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.cbVarSegMac

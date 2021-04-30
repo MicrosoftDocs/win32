@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefresher.Add method adds a new SWbemRefreshableItem object to the collection in the SWbemRefresher object.SWbemRefreshableItem object to the collection in the SWbemRefresher object.
+description: The SWbemRefresher.Add method adds a new SWbemRefreshableItem object to the collection in the SWbemRefresher object.SWbemRefreshableItem object to the collection in the SWbemRefresher object.
 ms.assetid: 92d11a18-1eed-4958-b74a-2f9de4907dd0
 ms.tgt_platform: multiple
 title: SWbemRefresher.Add method (Wbemdisp.h)
@@ -78,7 +78,7 @@ If the call is successful, an [**SWbemRefreshableItem**](swbemrefreshableitem.md
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

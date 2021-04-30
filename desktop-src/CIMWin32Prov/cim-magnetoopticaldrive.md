@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MagnetoOpticalDrive class represents the capabilities and management of a magneto-optical drive, a subtype of the media access device.
+description: The CIM\_MagnetoOpticalDrive class represents the capabilities and management of a magneto-optical drive, a subtype of the media access device.
 ms.assetid: 82a4604d-3bef-4378-812b-550849e30b8c
 ms.tgt_platform: multiple
 title: CIM_MagnetoOpticalDrive class
@@ -1552,7 +1552,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

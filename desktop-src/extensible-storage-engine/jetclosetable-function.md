@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCloseTable Function"
 title: JetCloseTable Function
 TOCTitle: JetCloseTable Function
 ms:assetid: c8975145-e48a-4029-9522-1509263019ae
@@ -29,10 +30,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetCloseTable** function closes an open table in a database. The table may be a temporary table or a normal table.
 
-    JET_ERR JET_API JetCloseTable(
-      __in          JET_SESID sesid,
-      __in          JET_TABLEID tableid
-    );
+```cpp
+JET_ERR JET_API JetCloseTable(
+  __in          JET_SESID sesid,
+  __in          JET_TABLEID tableid
+);
+```
 
 ### Parameters
 

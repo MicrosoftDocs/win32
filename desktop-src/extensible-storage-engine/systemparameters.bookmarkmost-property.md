@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.BookmarkMost property"
 title: SystemParameters.BookmarkMost property 
 TOCTitle: 'BookmarkMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.BookmarkMost

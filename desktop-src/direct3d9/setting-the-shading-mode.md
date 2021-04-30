@@ -1,5 +1,5 @@
 ---
-Description: Direct3D enables one shading mode to be selected at a time.
+description: Direct3D enables one shading mode to be selected at a time.
 ms.assetid: 9531947d-4cd8-43c3-8825-4c48a0d69395
 title: Setting the Shading Mode (Direct3D 9)
 ms.topic: article

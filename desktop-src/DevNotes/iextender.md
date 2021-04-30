@@ -1,5 +1,5 @@
 ---
-Description: The IExtender interface provides a set of basic properties that are added to the interface of a control. Programmers can use these properties as if they were part of the control.
+description: The IExtender interface provides a set of basic properties that are added to the interface of a control. Programmers can use these properties as if they were part of the control.
 ms.assetid: 901873bd-af6a-415e-865f-21769367c99f
 title: IExtender interface
 ms.topic: reference
@@ -196,7 +196,7 @@ The **IExtender** interface has these properties.
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ole2disp.dll; </dt> <dt>Oleaut32.dll</dt> </dl> |
 

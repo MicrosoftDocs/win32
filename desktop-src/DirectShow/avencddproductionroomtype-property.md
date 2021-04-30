@@ -1,5 +1,5 @@
 ---
-Description: Specifies the room type for a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies the room type for a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: d19b6b9d-9606-48a8-ac8e-cdbf15588a8f
 title: AVEncDDProductionRoomType property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The value of this property is a member of the [**eAVEncDDProductionRoomType**](/
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

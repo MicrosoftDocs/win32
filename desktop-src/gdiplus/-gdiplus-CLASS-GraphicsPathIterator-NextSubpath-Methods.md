@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the NextSubpath methods of the GraphicsPathIterator class. For a complete list of methods for the GraphicsPathIterator class, see GraphicsPathIterator Methods.
+description: This topic lists the NextSubpath methods of the GraphicsPathIterator class. For a complete list of methods for the GraphicsPathIterator class, see GraphicsPathIterator Methods.
 ms.assetid: 91137029-182d-4dc5-89a3-f3835f55d327
 title: GraphicsPathIterator.NextSubpath methods (Gdipluspath.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the NextSubpath methods of the [**GraphicsPathIterator**](/wind
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

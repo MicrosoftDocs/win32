@@ -1,5 +1,5 @@
 ---
-Description: The CompleteConnect method completes a connection to an output pin. This method overrides the CBasePin::CompleteConnect method.
+description: The CompleteConnect method completes a connection to an output pin. This method overrides the CBasePin::CompleteConnect method.
 ms.assetid: 32d95815-e018-4724-8cf3-8cd093ede517
 title: CRendererInputPin.CompleteConnect method (Renbase.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns an **HRESULT** value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

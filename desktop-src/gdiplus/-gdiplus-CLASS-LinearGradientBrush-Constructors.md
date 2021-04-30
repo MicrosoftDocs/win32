@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
+description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
 ms.assetid: e40d71b5-43eb-4062-86cd-225e593acd36
 title: LinearGradientBrush.LinearGradientBrush constructors
 ms.date: 07/02/2019

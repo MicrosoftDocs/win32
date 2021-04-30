@@ -1,5 +1,5 @@
 ---
-Description: Sent to all top-level windows when the system detects more than 12.5 percent of system time over a 30- to 60-second interval is being spent compacting memory. This indicates that system memory is low.
+description: Sent to all top-level windows when the system detects more than 12.5 percent of system time over a 30- to 60-second interval is being spent compacting memory. This indicates that system memory is low.
 ms.assetid: e8adc655-0252-4a43-8a62-b08e96f5744e
 title: WM_COMPACTING message (Winuser.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ When an application receives this message, it should free as much memory as poss
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

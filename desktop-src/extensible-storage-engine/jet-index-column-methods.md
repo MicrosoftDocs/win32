@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN methods"
 title: JET_INDEX_COLUMN methods (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_INDEX_COLUMN methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN

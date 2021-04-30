@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigException properties"
 title: EsentRecordTooBigException properties
 TOCTitle: EsentRecordTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException

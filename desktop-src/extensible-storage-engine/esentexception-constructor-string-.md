@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentException constructor (String)"
 title: EsentException constructor (String) (Microsoft.Isam.Esent)
 TOCTitle: EsentException constructor (String)
 ms:assetid: M:Microsoft.Isam.Esent.EsentException.#ctor(System.String)

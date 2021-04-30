@@ -1,5 +1,5 @@
 ---
-Description: The WM\_PRINTCLIENT message is sent to a window to request that it draw its client area in the specified device context, most commonly in a printer device context.
+description: The WM\_PRINTCLIENT message is sent to a window to request that it draw its client area in the specified device context, most commonly in a printer device context.
 ms.assetid: 8703ee74-812a-4ca2-8ee3-a3b8779739e7
 title: WM_PRINTCLIENT message (Winuser.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ The [AnimateWindow](/windows/desktop/api/winuser/nf-winuser-animatewindow) funct
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

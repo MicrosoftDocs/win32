@@ -1,5 +1,5 @@
 ---
-Description: The Dialog Table contains all the dialogs that appear in the user interface (UI) in both the full and reduced modes.
+description: The Dialog Table contains all the dialogs that appear in the user interface (UI) in both the full and reduced modes.
 ms.assetid: 981386dd-4fee-4003-8c62-16933cc5bd14
 title: Dialog Table
 ms.topic: article

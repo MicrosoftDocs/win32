@@ -1,12 +1,12 @@
 ---
-Description: Property Sets
+description: Property Sets
 ms.assetid: 4b8a917f-7a6c-4433-83f4-b83ef6d26115
 title: Property Sets (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Property Sets
+# Property Sets (DirectShow)
 
 Microsoft DirectShow uses property sets to support extended services offered by hardware and its associated drivers and filters. Hardware and filter vendors can define new capabilities as properties, arrange them in property sets, and publish the specification for these property sets. As the application developer, you can use the methods of the [**IKsPropertySet**](ikspropertyset.md) interface to determine whether a driver or filter supports a particular set of properties, and retrieve or set those properties.
 

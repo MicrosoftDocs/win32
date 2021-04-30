@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# Windows Media Format SDK Functions
 
 The Windows Media Format SDK includes functions for creating objects, and helper functions to simplify some procedures.
 

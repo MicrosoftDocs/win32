@@ -1,5 +1,5 @@
 ---
-Description: ICE76 verifies the use of the SFP (WFP) catalog within Windows Installer packages for Windows Me. This ICE also verifies that no files in the BindImage table reference SFP catalogs.
+description: ICE76 verifies the use of the SFP (WFP) catalog within Windows Installer packages for Windows Me. This ICE also verifies that no files in the BindImage table reference SFP catalogs.
 ms.assetid: e8b60b11-19ac-4ec4-aa36-a1f7a3ccd6f6
 title: ICE76
 ms.topic: article

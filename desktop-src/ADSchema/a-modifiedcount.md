@@ -22,7 +22,7 @@ Net Logon Change Log serial number.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Modified-Count                       |
 | Ldap-Display-Name | modifiedCount                        |
@@ -48,7 +48,7 @@ Net Logon Change Log serial number.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -69,7 +69,7 @@ Net Logon Change Log serial number.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -90,7 +90,7 @@ Net Logon Change Log serial number.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -111,7 +111,7 @@ Net Logon Change Log serial number.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -132,7 +132,7 @@ Net Logon Change Log serial number.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -153,7 +153,7 @@ Net Logon Change Log serial number.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |

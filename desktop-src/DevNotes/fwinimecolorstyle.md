@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the specified color is a Windows color.
+description: Specifies whether the specified color is a Windows color.
 ms.assetid: 0d2b2039-938c-4f9d-8ddc-9eb711f55009
 title: FWinIMEColorStyle function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

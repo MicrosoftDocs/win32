@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DefragGrbit enumeration"
 title: DefragGrbit enumeration
 TOCTitle: DefragGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.DefragGrbit

@@ -1,5 +1,5 @@
 ---
-Description: Modifies the settings for the Hyper-V Replica service.
+description: Modifies the settings for the Hyper-V Replica service.
 ms.assetid: e203f9f5-da4b-4ba7-8637-add7169990d3
 title: ModifyServiceSettings method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

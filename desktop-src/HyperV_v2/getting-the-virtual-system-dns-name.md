@@ -1,5 +1,5 @@
 ---
-Description: The following C# and Visual Basic Scripting Edition (VBScript) samples retrieve the DNS name of the virtual machine.
+description: The following C# and Visual Basic Scripting Edition (VBScript) samples retrieve the DNS name of the virtual machine.
 ms.assetid: 1E1F7E6F-5CF6-475F-8351-6A5F56B4FC8E
 title: Getting the virtual machine DNS name
 ms.topic: article
@@ -130,39 +130,39 @@ const Enabled = 2
 
 Main()
 
-&#39;-----------------------------------------------------------------
-&#39; Main routine
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Main routine
+'-----------------------------------------------------------------
 Sub Main()
 
     dim computer, objArgs, computerSystem, vmName
     
-    set fileSystem = Wscript.CreateObject(&quot;Scripting.FileSystemObject&quot;)
+    set fileSystem = Wscript.CreateObject("Scripting.FileSystemObject")
 
-    computer = &quot;.&quot;
-    set objWMIService = GetObject(&quot;winmgmts:\\&quot; & computer & &quot;\root\virtualization\v2&quot;)
+    computer = "."
+    set objWMIService = GetObject("winmgmts:\\" & computer & "\root\virtualization\v2")
 
     set objArgs = WScript.Arguments
     if WScript.Arguments.Count = 1 then
        vmName= objArgs.Unnamed.Item(0)
     else
-       WScript.Echo &quot;usage: cscript GetVirtualMachineDNSName.vbs vmName&quot;
+       WScript.Echo "usage: cscript GetVirtualMachineDNSName.vbs vmName"
        WScript.Quit
     end if
     
     if GetVirtualSystemDNS(vmName) then
-        WriteLog &quot;Done&quot;
+        WriteLog "Done"
         WScript.Quit(0)
     else
-        WriteLog &quot;GetVirtualMachineDNSName failed&quot;
+        WriteLog "GetVirtualMachineDNSName failed"
         WScript.Quit(1)
     end if
 
 End Sub
 
-&#39;-----------------------------------------------------------------
-&#39; Check if virtual machine is running
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Check if virtual machine is running
+'-----------------------------------------------------------------
 Function VMRunning(computerSystem)
     dim operationStatus
 
@@ -177,57 +177,57 @@ Function VMRunning(computerSystem)
 
 End Function
 
-&#39;-----------------------------------------------------------------
-&#39; GetVirtualSystemDNS
-&#39;
-&#39; exchangeDataItem xml document sample instance
-&#39;
-&#39; <INSTANCE CLASSNAME=&quot;Msvm_KvpExchangeDataItem&quot;>
-&#39;      <PROPERTY NAME=&quot;Caption&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;></PROPERTY>
-&#39;      <PROPERTY NAME=&quot;Data&quot; TYPE=&quot;string&quot;>
-&#39;         <VALUE>AUTOBVT-4OVYXAB</VALUE>
-&#39;      </PROPERTY>
-&#39;      <PROPERTY NAME=&quot;Description&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;></PROPERTY>
-&#39;      <PROPERTY NAME=&quot;ElementName&quot; PROPAGATED=&quot;true&quot; TYPE=&quot;string&quot;></PROPERTY>
-&#39;      <PROPERTY NAME=&quot;Name&quot; TYPE=&quot;string&quot;>
-&#39;         <VALUE>FullyQualifiedDomainName</VALUE>
-&#39;      </PROPERTY>
-&#39;      <PROPERTY NAME=&quot;Source&quot; TYPE=&quot;uint16&quot;>
-&#39;          <VALUE>2</VALUE>
-&#39;      </PROPERTY>
-&#39; </INSTANCE>           
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' GetVirtualSystemDNS
+'
+' exchangeDataItem xml document sample instance
+'
+' <INSTANCE CLASSNAME="Msvm_KvpExchangeDataItem">
+'      <PROPERTY NAME="Caption" PROPAGATED="true" TYPE="string"></PROPERTY>
+'      <PROPERTY NAME="Data" TYPE="string">
+'         <VALUE>AUTOBVT-4OVYXAB</VALUE>
+'      </PROPERTY>
+'      <PROPERTY NAME="Description" PROPAGATED="true" TYPE="string"></PROPERTY>
+'      <PROPERTY NAME="ElementName" PROPAGATED="true" TYPE="string"></PROPERTY>
+'      <PROPERTY NAME="Name" TYPE="string">
+'         <VALUE>FullyQualifiedDomainName</VALUE>
+'      </PROPERTY>
+'      <PROPERTY NAME="Source" TYPE="uint16">
+'          <VALUE>2</VALUE>
+'      </PROPERTY>
+' </INSTANCE>           
+'-----------------------------------------------------------------
 Function GetVirtualSystemDNS(vmName)
     dim objXMLDoc, query , kvpExchangeComponents, kvpExchangeComponent, vm, vms
     dim exchangeDataItem, xpath, node
     GetVirtualSystemDNS = false
-    set objXMLDoc = CreateObject(&quot;Microsoft.XMLDOM&quot;) 
+    set objXMLDoc = CreateObject("Microsoft.XMLDOM") 
     objXMLDoc.async = False 
 
-    query = Format1(&quot;select * from Msvm_ComputerSystem where ElementName = &#39;{0}&#39;&quot;, vmName)
+    query = Format1("select * from Msvm_ComputerSystem where ElementName = '{0}'", vmName)
     set vms = objWMIService.ExecQuery(query)
     for each vm in vms
         if VMRunning(vm) then
-            query = Format1(&quot;ASSOCIATORS OF {{0}} WHERE resultClass = Msvm_KvpExchangeComponent&quot;, vm.Path_.Path)
+            query = Format1("ASSOCIATORS OF {{0}} WHERE resultClass = Msvm_KvpExchangeComponent", vm.Path_.Path)
             set kvpExchangeComponents = objWMIService.ExecQuery(query)
             if kvpExchangeComponents.Count <> 1 then
-                WriteLog Format1(&quot;{0} instance of Msvm_KvpExchangeComponent was found&quot;, kvpExchangeComponents.Count)
+                WriteLog Format1("{0} instance of Msvm_KvpExchangeComponent was found", kvpExchangeComponents.Count)
                 WScript.Quit(1)
             end if
             
             set kvpExchangeComponent = kvpExchangeComponents.ItemIndex(0)
             for each exchangeDataItem in kvpExchangeComponent.GuestIntrinsicExchangeItems
                 objXMLDoc.loadXML(exchangeDataItem) 
-                xpath = &quot;/INSTANCE/PROPERTY[@NAME=&#39;Name&#39;]/VALUE[child:text() = &#39;FullyQualifiedDomainName&#39;]&quot;
+                xpath = "/INSTANCE/PROPERTY[@NAME='Name']/VALUE[child:text() = 'FullyQualifiedDomainName']"
                 set node = objXMLDoc.selectSingleNode(xpath) 
                 if Not (node Is Nothing) then
-                    xpath = &quot;/INSTANCE/PROPERTY[@NAME=&#39;Data&#39;]/VALUE/child:text()&quot;
+                    xpath = "/INSTANCE/PROPERTY[@NAME='Data']/VALUE/child:text()"
                     set node = objXMLDoc.selectSingleNode(xpath) 
-                    WriteLog Format2(&quot;Virtual machine {0} DNS name is: {1}&quot;, vmName, node.Text)
+                    WriteLog Format2("Virtual machine {0} DNS name is: {1}", vmName, node.Text)
                 end if
             next
         else
-            WriteLog Format1(&quot;Unable to retrieve virtual machine DNS name. VM {0} is not in running state&quot;, vmName)
+            WriteLog Format1("Unable to retrieve virtual machine DNS name. VM {0} is not in running state", vmName)
             WScript.Quit(1)
         end if
     next 
@@ -236,12 +236,12 @@ Function GetVirtualSystemDNS(vmName)
 
 End Function
 
-&#39;-----------------------------------------------------------------
-&#39; Create the console log files.
-&#39;-----------------------------------------------------------------
+'-----------------------------------------------------------------
+' Create the console log files.
+'-----------------------------------------------------------------
 Sub WriteLog(line)
     dim fileStream
-    set fileStream = fileSystem.OpenTextFile(&quot;.\GetVirtualSystemDNSName.log&quot;, 8, true)
+    set fileStream = fileSystem.OpenTextFile(".\GetVirtualSystemDNSName.log", 8, true)
     WScript.Echo line
     fileStream.WriteLine line
     fileStream.Close
@@ -249,42 +249,26 @@ Sub WriteLog(line)
 End Sub
 
 
-&#39;------------------------------------------------------------------------------
-&#39; The string formatting functions to avoid string concatenation.
-&#39;------------------------------------------------------------------------------
+'------------------------------------------------------------------------------
+' The string formatting functions to avoid string concatenation.
+'------------------------------------------------------------------------------
 Function Format2(myString, arg0, arg1)
     Format2 = Format1(myString, arg0)
-    Format2 = Replace(Format2, &quot;{1}&quot;, arg1)
+    Format2 = Replace(Format2, "{1}", arg1)
 End Function
 
-&#39;------------------------------------------------------------------------------
-&#39; The string formatting functions to avoid string concatenation.
-&#39;------------------------------------------------------------------------------
+'------------------------------------------------------------------------------
+' The string formatting functions to avoid string concatenation.
+'------------------------------------------------------------------------------
 Function Format1(myString, arg0)
-    Format1 = Replace(myString, &quot;{0}&quot;, arg0)
+    Format1 = Replace(myString, "{0}", arg0)
 End Function
 ```
 
-
-
-
-
 ## Related topics
 
-<dl> <dt>
-
 [Common utilities for the virtualization samples (V2)](common-utilities-for-the-virtualization-samples-v2.md)
-</dt> <dt>
 
 [**Msvm\_ComputerSystem**](msvm-computersystem.md)
-</dt> <dt>
 
 [**Msvm\_KvpExchangeComponent**](msvm-kvpexchangecomponent.md)
-</dt> </dl>
-
- 
-
- 
-
-
-

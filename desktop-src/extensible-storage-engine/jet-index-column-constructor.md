@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN constructor"
 title: JET_INDEX_COLUMN constructor  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JET_INDEX_COLUMN constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN.#ctor

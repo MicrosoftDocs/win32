@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSettingsException members"
 title: EsentInvalidSettingsException members
 TOCTitle: EsentInvalidSettingsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidSettingsException

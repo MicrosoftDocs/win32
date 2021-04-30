@@ -1,5 +1,5 @@
 ---
-Description: The m\_EndSample member variable specifies the stop time of the most recent sample.
+description: The m\_EndSample member variable specifies the stop time of the most recent sample.
 ms.assetid: 694815b6-8da5-4174-b2c7-7d686a557c6c
 title: CDrawImage::m_EndSample member (Winutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The value is only valid inside the [**CDrawImage::DisplaySampleTimes**](cdrawima
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

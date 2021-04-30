@@ -1,5 +1,5 @@
 ---
-Description: This section provides a list of objects used in security descriptors and constants used in methods that manipulate security descriptors or privileges.
+description: This section provides a list of objects used in security descriptors and constants used in methods that manipulate security descriptors or privileges.
 ms.assetid: dbf0bb52-8921-40a5-866b-ae03d7447a76
 ms.tgt_platform: multiple
 title: WMI Security

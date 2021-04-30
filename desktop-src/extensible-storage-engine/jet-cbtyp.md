@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CBTYP"
 title: JET_CBTYP
 TOCTitle: JET_CBTYP
 ms:assetid: babbfa11-01a7-477b-a525-cff27a983b60

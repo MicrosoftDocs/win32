@@ -22,7 +22,7 @@ For a computer, contains an XML string to be used for delegated DSA promotion.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Promotion-Settings                    |
 | Ldap-Display-Name | msDS-PromotionSettings                      |
@@ -45,7 +45,7 @@ For a computer, contains an XML string to be used for delegated DSA promotion.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -66,7 +66,7 @@ For a computer, contains an XML string to be used for delegated DSA promotion.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -87,7 +87,7 @@ For a computer, contains an XML string to be used for delegated DSA promotion.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

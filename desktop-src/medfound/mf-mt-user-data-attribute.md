@@ -1,5 +1,5 @@
 ---
-Description: Contains additional format data for a media type.
+description: Contains additional format data for a media type.
 ms.assetid: 020832c4-40a1-4d8b-ada0-7a04ce097bce
 title: MF_MT_USER_DATA attribute (Mfapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

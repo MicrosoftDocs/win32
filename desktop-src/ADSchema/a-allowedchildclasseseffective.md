@@ -22,7 +22,7 @@ A list of classes that can be modified.
 
 
 
-|                   |                                                                 |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------|
 | CN                | Allowed-Child-Classes-Effective                                 |
 | Ldap-Display-Name | allowedChildClassesEffective                                    |
@@ -49,7 +49,7 @@ A list of classes that can be modified.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ A list of classes that can be modified.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ A list of classes that can be modified.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ A list of classes that can be modified.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ A list of classes that can be modified.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ A list of classes that can be modified.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ A list of classes that can be modified.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

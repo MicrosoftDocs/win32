@@ -1,5 +1,5 @@
 ---
-Description: Optional Streams
+description: Optional Streams
 ms.assetid: 94477a71-c267-4602-893b-1bd1256b34ef
 title: Optional Streams
 ms.topic: article

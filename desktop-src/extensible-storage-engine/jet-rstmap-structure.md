@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP Structure"
 title: JET_RSTMAP Structure
 TOCTitle: JET_RSTMAP Structure
 ms:assetid: bddf95e4-1bd4-4e3a-ad3e-d01f6564e33b

@@ -1,5 +1,5 @@
 ---
-Description: The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.
+description: The native JPEG XR codec is available through the Windows Imaging Component (WIC). The JPEG XR format, which the codec supports, is designed for consumer and professional digital photography.
 ms.assetid: CB8D1A5F-B544-462E-8927-F45512CED873
 title: JPEG XR Codec Overview
 ms.topic: article

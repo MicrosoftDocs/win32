@@ -1,5 +1,5 @@
 ---
-Description: Constructor method. The constructor locks the specified critical section object.
+description: Constructor method. The constructor locks the specified critical section object.
 ms.assetid: 5a0d74f9-bb99-4922-9a92-2e7c1863421f
 title: CAutoLock.CAutoLock constructor (Wxutil.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Pointer to a [**CCritSec**](ccritsec.md) object, which contains a critical secti
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,6 +1,6 @@
 ---
 title: AcceptServerName
-description: Indicates whether the server name is validated against the name string specified in the ServerNames (ServerValidationParameters) element.
+description: Indicates whether the server name is validated against the name string specified in the ServerNames (ServerValidationParameters) element. | AcceptServerName
 ms.assetid: 440a46ae-7fef-4e97-9fd7-cbd20143597b
 keywords:
 - element EAPHost
@@ -38,7 +38,7 @@ The **AcceptServerName** element is optional.
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

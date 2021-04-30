@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CacheMemory class exposes the following methods.
+description: The CIM\_CacheMemory class exposes the following methods.
 ms.assetid: FFC5CDE3-A0B3-4967-8E9B-07A7B1C3DB92
 ms.tgt_platform: multiple
 title: CIM_CacheMemory Methods

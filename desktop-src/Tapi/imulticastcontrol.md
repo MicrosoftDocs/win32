@@ -1,5 +1,5 @@
 ---
-Description: The IMulticastControl interface is implemented by the IPConf MSP and available only on multicast call objects.
+description: The IMulticastControl interface is implemented by the IPConf MSP and available only on multicast call objects.
 ms.assetid: 9bdb4ab9-30b3-46fb-b13a-de9c294c8046
 title: IMulticastControl interface (Confpriv.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The **IMulticastControl** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

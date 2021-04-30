@@ -1,5 +1,5 @@
 ---
-Description: Accesses specific matrix elements referenced by row and column from the current instance of XMMATRIX.
+description: Accesses specific matrix elements referenced by row and column from the current instance of XMMATRIX.
 ms.assetid: 917d44b0-4625-412f-b3ad-5955856689d5
 title: XMMATRIX operator () operators
 ms.topic: reference
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator () operators
+# XMMATRIX operator () operators
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMMATRIX`.
 

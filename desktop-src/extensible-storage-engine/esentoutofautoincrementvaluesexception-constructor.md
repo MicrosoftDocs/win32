@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfAutoincrementValuesException constructor"
 title: EsentOutOfAutoincrementValuesException constructor 
 TOCTitle: 'EsentOutOfAutoincrementValuesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfAutoincrementValuesException.#ctor

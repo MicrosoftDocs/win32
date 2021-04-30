@@ -1,5 +1,5 @@
 ---
-Description: The Class property of the SWbemObjectPath object is the name of the class that is part of the object path.
+description: The Class property of the SWbemObjectPath object is the name of the class that is part of the object path.
 ms.assetid: 60123963-31be-4112-9d06-611b4c599fd4
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Class property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemObjectPath.Class As String
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Alpha Setter Effect
+description: Alpha Setter Effect
 ms.assetid: dd3ab119-328b-4782-811a-f06909c17dec
 title: Alpha Setter Effect
 ms.topic: article

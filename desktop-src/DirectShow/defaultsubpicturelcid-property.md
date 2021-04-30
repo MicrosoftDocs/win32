@@ -1,5 +1,5 @@
 ---
-Description: The DVDAdm.DefaultSubpictureLCID property sets or retrieves the registry setting for the user-specified default LCID for the subpicture stream.
+description: The DVDAdm.DefaultSubpictureLCID property sets or retrieves the registry setting for the user-specified default LCID for the subpicture stream.
 ms.assetid: 12dd308e-483b-489d-8d81-8da399bfac4d
 title: DefaultSubpictureLCID Property
 ms.topic: reference

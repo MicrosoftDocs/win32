@@ -1,5 +1,5 @@
 ---
-Description: Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been preempted.
+description: Sent by the IMFMediaSource that encapsulates the device to indicate that the device has been preempted.
 ms.assetid: 85EE663C-94B7-47EA-ABBA-A8371342EEB2
 title: MEVideoCaptureDevicePreempted event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This event is sent by the [**IMFMediaSource**](/windows/desktop/api/mfidl/nn-mfi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

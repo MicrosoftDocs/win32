@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Data Types"
 title: Extensible Storage Engine Data Types
 TOCTitle: Extensible Storage Engine Data Types
 ms:assetid: 37c23c0c-5c02-44a9-8a96-a712af221256

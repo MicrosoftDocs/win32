@@ -1,5 +1,5 @@
 ---
-Description: Creates or opens a file.
+description: Creates or opens a file.
 ms.assetid: 2a993f45-7f87-4b9e-bccc-277477558d3c
 title: '_CreateFile function'
 ms.topic: reference
@@ -44,7 +44,7 @@ BOOL _CreateFile(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 

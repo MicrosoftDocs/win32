@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the encoded data for the extension.
+description: Retrieves the encoded data for the extension.
 ms.assetid: 79811557-6d7e-4d19-bcbb-1f79455dd286
 title: Extension.EncodedData property
 ms.topic: reference
@@ -38,7 +38,7 @@ An [**EncodedData**](encodeddata.md) object that represents the data of the cert
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

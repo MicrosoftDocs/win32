@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileInUseException class"
 title: EsentSLVFileInUseException class
 TOCTitle: EsentSLVFileInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVFileInUseException

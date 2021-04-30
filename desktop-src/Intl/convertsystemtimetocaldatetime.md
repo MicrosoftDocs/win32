@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Converts a specified SYSTEMTIME structure to a CALDATETIME structure.
+description: Deprecated. Converts a specified SYSTEMTIME structure to a CALDATETIME structure.
 ms.assetid: d21f75bc-1a93-4cb9-8b9b-6fa0e81886bf
 title: ConvertSystemTimeToCalDateTime function
 ms.topic: reference
@@ -76,7 +76,7 @@ This function does not have an associated header file or library file. The appli
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

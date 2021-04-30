@@ -1,5 +1,5 @@
 ---
-Description: The following table lists the CHString methods.
+description: The following table lists the CHString methods.
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
 ms.tgt_platform: multiple
 title: CHString class (ChString.h)
@@ -132,7 +132,7 @@ The destructor for the class is **CHString::~CHString**.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                                                                                |

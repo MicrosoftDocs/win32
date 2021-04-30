@@ -1,5 +1,5 @@
 ---
-Description: Driver texture coordinate capability flags.
+description: Driver texture coordinate capability flags.
 ms.assetid: b15509b4-7db1-429a-9468-be7a11dee505
 title: D3DTSS_TCI
 ms.topic: article
@@ -12,9 +12,8 @@ Driver texture coordinate capability flags.
 
 
 
-|                                          |             |                                                                                                                                                                                                                      |
-|------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                                 | Value       | Description                                                                                                                                                                                                          |
+|------------------------------------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DTSS\_TCI\_PASSTHRU                    | 0x00000000L | Use the specified texture coordinates contained within the vertex format. This value resolves to zero.                                                                                                               |
 | D3DTSS\_TCI\_CAMERASPACENORMAL           | 0x00010000L | Use the vertex normal, transformed to camera space, as the input texture coordinates for this stage's texture transformation.                                                                                        |
 | D3DTSS\_TCI\_CAMERASPACEPOSITION         | 0x00020000L | Use the vertex position, transformed to camera space, as the input texture coordinates for this stage's texture transformation.                                                                                      |

@@ -15,7 +15,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# For More Information
+# For More Information (WMP SDK)
 
 -   For more information about developing digital media solutions, see the [Microsoft Windows Media Developer Center](https://msdn.microsoft.com/windowsmedia/default.aspx).
 -   For more information about Windows Media, see the [Windows Media website](https://support.microsoft.com/help/18612/windows-media-player).

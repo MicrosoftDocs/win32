@@ -1,6 +1,6 @@
 ---
 title: Player.launchURL method
-description: The launchURL method sends a URL to the user's default browser to be rendered.
+description: The launchURL method sends a URL to the user's default browser to be rendered. | Player.launchURL method
 ms.assetid: '2b445e59-f884-4519-9acb-f349319429d2'
 keywords:
 - launchURL method Windows Media Player
@@ -74,7 +74,7 @@ The following example creates an HTML BUTTON element that, when clicked, display
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

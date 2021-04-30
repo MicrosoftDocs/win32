@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotTruncateLog Function"
 title: JetOSSnapshotTruncateLog Function
 TOCTitle: JetOSSnapshotTruncateLog Function
 ms:assetid: 3df8f5b2-8083-49b7-a325-fd13187f785c

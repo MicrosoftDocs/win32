@@ -1,5 +1,5 @@
 ---
-Description: Defines values that specify the properties of a recognition alternate. The Tablet PC application programming interface (API) uses globally unique identifiers (GUIDs) to identify packet properties, which in Automation are constant strings.
+description: Defines values that specify the properties of a recognition alternate. The Tablet PC application programming interface (API) uses globally unique identifiers (GUIDs) to identify packet properties, which in Automation are constant strings.
 ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
 title: RecognitionProperty Constants (Msinkaut.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ In C++, you can access these constants in the Msinkaut.h header file, which is l
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

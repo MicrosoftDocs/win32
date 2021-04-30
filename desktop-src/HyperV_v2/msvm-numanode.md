@@ -1,5 +1,5 @@
 ---
-Description: Represents a Non-Uniform Memory Access (NUMA) node of a virtual system.
+description: Represents a Non-Uniform Memory Access (NUMA) node of a virtual system.
 ms.assetid: a2e9aa74-15e5-4a78-b7f8-ffe2883a31d0
 title: Msvm_NumaNode class
 ms.topic: reference
@@ -645,7 +645,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

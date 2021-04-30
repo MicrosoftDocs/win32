@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset of the LogicalDevice.
+description: Requests a reset of the LogicalDevice.
 ms.assetid: f7655825-3de5-421f-a3e9-97d2f605affd
 title: Reset method of the CIM_LogicalDevice class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# Reset method of the CIM\_LogicalDevice class
+# Reset method of the CIM_LogicalDevice class (Hyper-V management)
 
 Requests a reset of the LogicalDevice. In a subclass, the set of possible return codes could be specified, using a ValueMap qualifier on the method. The strings to which the ValueMap contents are 'translated' may also be specified in the subclass as a Values array qualifier.
 
@@ -40,7 +40,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

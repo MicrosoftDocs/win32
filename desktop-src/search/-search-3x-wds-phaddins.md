@@ -1,5 +1,5 @@
 ---
-Description: This section provides conceptual information necessary for the implementation, extension and testing of protocol handlers.
+description: This section provides conceptual information necessary for the implementation, extension and testing of protocol handlers.
 ms.assetid: c76d5c82-d62b-4dd4-9743-9572be61e2be
 title: Developing Protocol Handlers for Windows Search
 ms.topic: article

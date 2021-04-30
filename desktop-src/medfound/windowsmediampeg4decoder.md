@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media MPEG4 V1/V2 decoder decodes MPEG4 V1/V2 video streams.
+description: The Windows Media MPEG4 V1/V2 decoder decodes MPEG4 V1/V2 video streams.
 ms.assetid: 63b32972-1003-4291-bfdd-cc0cb8d65430
 title: Windows Media MPEG4 V1/V2 Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ The globally unique identifiers (GUIDs) for RGB media subtypes differ depending 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

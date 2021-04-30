@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RemoveDirectoryAction class removes directories for software elements.
+description: The CIM\_RemoveDirectoryAction class removes directories for software elements.
 ms.assetid: e403baa8-3704-42a6-970a-8159e7cd72a7
 ms.tgt_platform: multiple
 title: CIM_RemoveDirectoryAction class
@@ -859,7 +859,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

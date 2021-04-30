@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSessionsException constructor"
 title: EsentOutOfSessionsException constructor 
 TOCTitle: 'EsentOutOfSessionsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException.#ctor

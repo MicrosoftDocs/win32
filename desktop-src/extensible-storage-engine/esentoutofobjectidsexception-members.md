@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfObjectIDsException members"
 title: EsentOutOfObjectIDsException members
 TOCTitle: EsentOutOfObjectIDsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfObjectIDsException

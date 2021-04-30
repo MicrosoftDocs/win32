@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaType method retrieves a preferred media type, by index value.
+description: CTransformOutputPin.GetMediaType method - The GetMediaType method retrieves a preferred media type, by index value.
 ms.assetid: d106e6d1-66ff-4460-9ea2-c93f16116cf4
 title: CTransformOutputPin.GetMediaType method (Transfrm.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ This method overrides the [**CBasePin::GetMediaType**](cbasepin-getmediatype.md)
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

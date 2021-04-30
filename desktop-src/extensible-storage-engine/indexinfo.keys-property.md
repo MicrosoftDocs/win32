@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.Keys property"
 title: IndexInfo.Keys property 
 TOCTitle: 'Keys property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Keys

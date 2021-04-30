@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of information about source files associated with the callstack.
+description: A callback function used to notify the host of information about source files associated with the callstack.
 MS-HAID: vspixengine.ISourceFileInfoCallback\_ResultCallback\_DWORD\_SourceFileInfo\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

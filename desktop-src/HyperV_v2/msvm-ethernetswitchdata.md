@@ -1,5 +1,5 @@
 ---
-Description: Abstract class that represents a resource for a given instance of an Ethernet switch.
+description: Abstract class that represents a resource for a given instance of an Ethernet switch.
 ms.assetid: 5ae1be2a-8d59-4efe-a4ae-7cac1727cfa2
 title: Msvm_EthernetSwitchData class
 ms.topic: reference
@@ -181,7 +181,7 @@ The name of the virtual switch to which the associated resource instance is boun
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The read-only Patches property of the Installer object returns a StringList object that contains all the patches applied to the product.
+description: The read-only Patches property of the Installer object returns a StringList object that contains all the patches applied to the product.
 ms.assetid: a8d46073-399b-480e-b4b0-a7a2f832e160
 title: Installer.Patches property
 ms.topic: reference
@@ -42,7 +42,7 @@ To enumerate the patches, an application iterates through the [**StringList**](s
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

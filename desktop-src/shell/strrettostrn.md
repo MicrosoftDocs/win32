@@ -1,5 +1,5 @@
 ---
-Description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf, converts it to a string, and places the result in a buffer.
+description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf, converts it to a string, and places the result in a buffer.
 title: StrRetToStrN function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -106,7 +106,7 @@ Note that this function is exported from Shell32.dll rather than Shlwapi.dll. It
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

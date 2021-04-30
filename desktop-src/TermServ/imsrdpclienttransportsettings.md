@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings interface
-description: Manages client transport settings for the Remote Desktop Gateway (RD Gateway) server.
+description: Manages client transport settings for the Remote Desktop Gateway (RD Gateway) server. | IMsRdpClientTransportSettings interface
 ms.assetid: d2573727-1dcc-4d4d-af5c-038e9467ba84
 ms.tgt_platform: multiple
 keywords:
@@ -52,7 +52,7 @@ The **IMsRdpClientTransportSettings** interface has these properties.
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                         |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |

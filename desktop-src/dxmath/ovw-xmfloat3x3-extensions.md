@@ -1,5 +1,5 @@
 ---
-Description: XMFLOAT3X3 describes a 3\*3 floating point matrix.
+description: XMFLOAT3X3 describes a 3\*3 floating point matrix.
 ms.assetid: aae5e2b4-bc80-4919-80a6-02230796f57e
 title: XMFLOAT3X3 Extensions
 ms.topic: reference

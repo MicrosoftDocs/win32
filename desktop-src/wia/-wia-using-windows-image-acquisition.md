@@ -1,5 +1,5 @@
 ---
-Description: This section presents an overview of how Windows Image Acquisition (WIA) works, and how it can be used to create applications that manage imaging devices.
+description: This section presents an overview of how Windows Image Acquisition (WIA) works, and how it can be used to create applications that manage imaging devices.
 ms.assetid: e8a138f9-a322-4527-ace6-511c63a92afb
 title: Using Windows Image Acquisition
 ms.topic: article

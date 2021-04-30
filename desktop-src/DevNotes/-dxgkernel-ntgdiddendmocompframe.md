@@ -1,5 +1,5 @@
 ---
-Description: Completes a decoded frame.
+description: Completes a decoded frame.
 ms.assetid: 476f8bcc-2a93-430e-bda5-33102e36a35a
 title: NtGdiDdEndMoCompFrame function (Ntgdi.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

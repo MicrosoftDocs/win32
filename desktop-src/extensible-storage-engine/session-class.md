@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session class"
 title: Session class
 TOCTitle: Session class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Session

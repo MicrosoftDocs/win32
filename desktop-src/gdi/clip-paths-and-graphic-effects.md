@@ -1,5 +1,5 @@
 ---
-Description: An application can use clipping and paths to create special graphic effects. The following illustration shows a string of text drawn with a large Arial font.
+description: An application can use clipping and paths to create special graphic effects. The following illustration shows a string of text drawn with a large Arial font.
 ms.assetid: fda0d627-406c-44f9-9061-7aea3e2d7f66
 title: Clip Paths and Graphic Effects
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Primary e-mail address.
+description: Primary e-mail address.
 ms.assetid: 17a1018f-0bb7-4e4e-b518-2cbf83a33bd9
 title: System.Identity.PrimaryEmailAddress
 ms.topic: article

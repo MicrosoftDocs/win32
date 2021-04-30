@@ -1,5 +1,5 @@
 ---
-Description: Given a list of media types, the TryMediaTypes method tries to complete a connection using one of those types.
+description: Given a list of media types, the TryMediaTypes method tries to complete a connection using one of those types.
 ms.assetid: cc437e44-bc59-494e-8669-7f539353a794
 title: CBasePin.TryMediaTypes method (Amfilter.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ If the *pmt* parameter is non-**NULL**, the pin skips media types that do not ma
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

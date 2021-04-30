@@ -1,5 +1,5 @@
 ---
-Description: The CAMThread class is an abstract class for managing worker threads.
+description: The CAMThread class is an abstract class for managing worker threads.
 ms.assetid: c217d879-0203-4566-96ad-7463b05bc990
 title: CAMThread class (Wxutil.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ The `CAMThread` class provides two critical sections as public member variables.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

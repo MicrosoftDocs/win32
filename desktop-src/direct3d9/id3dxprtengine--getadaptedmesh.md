@@ -1,5 +1,5 @@
 ---
-Description: Returns a mesh with modifications resulting from adaptive spatial sampling. The returned mesh contains only positions, normals, and texture coordinates (if defined).
+description: Returns a mesh with modifications resulting from adaptive spatial sampling. The returned mesh contains only positions, normals, and texture coordinates (if defined).
 ms.assetid: 21447733-b27b-4906-8c0e-7089dec71b5b
 title: ID3DXPRTEngine::GetAdaptedMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ pVertRemap and pfVertWeights can be used to interpolate any per-vertex value ove
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

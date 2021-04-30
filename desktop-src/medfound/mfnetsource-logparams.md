@@ -1,5 +1,5 @@
 ---
-Description: Array of strings with the parameters to send to the log server.
+description: Array of strings with the parameters to send to the log server.
 ms.assetid: 36d711c7-a1ff-4ef2-b633-5f9f1662801e
 title: MFNETSOURCE_LOGPARAMS property (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The **MFNETSOURCE\_LOGPARAMS** constant defines the GUID for the property key. T
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

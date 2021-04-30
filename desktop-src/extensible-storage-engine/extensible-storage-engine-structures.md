@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Structures"
 title: Extensible Storage Engine Structures
 TOCTitle: Extensible Storage Engine Structures
 ms:assetid: 0fe8a183-0f4b-4840-a53f-2d6494c43f22

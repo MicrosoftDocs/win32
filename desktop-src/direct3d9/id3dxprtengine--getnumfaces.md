@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of faces in the mesh, including any new faces added as a result of adaptive spatial sampling.
+description: Retrieves the number of faces in the mesh, including any new faces added as a result of adaptive spatial sampling.
 ms.assetid: a389f996-0e37-4742-9bc3-48dcd60aeba4
 title: ID3DXPRTEngine::GetNumFaces method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Number of faces in the mesh, including any new faces added as a result of adapti
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

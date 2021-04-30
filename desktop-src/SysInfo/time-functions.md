@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with system time.
+description: The following functions are used with system time.
 ms.assetid: 3733f611-c6a1-4d48-b21e-ada3490c5de1
 title: Time Functions
 ms.topic: article

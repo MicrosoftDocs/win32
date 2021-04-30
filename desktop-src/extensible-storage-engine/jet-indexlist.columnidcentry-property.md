@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST.columnidcEntry property"
 title: JET_INDEXLIST.columnidcEntry property 
 TOCTitle: 'columnidcEntry property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidcEntry

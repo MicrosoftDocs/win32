@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetSystemParameter Function"
 title: JetGetSystemParameter Function
 TOCTitle: JetGetSystemParameter Function
 ms:assetid: 6e6ddb49-702c-4c45-ac9f-35ae817696dd

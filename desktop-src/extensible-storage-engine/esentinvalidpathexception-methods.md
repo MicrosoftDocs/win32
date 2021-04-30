@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPathException methods"
 title: EsentInvalidPathException methods
 TOCTitle: EsentInvalidPathException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidPathException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID members"
 title: JET_OSSNAPID members
 TOCTitle: JET_OSSNAPID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_OSSNAPID

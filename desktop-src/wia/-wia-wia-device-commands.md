@@ -1,5 +1,5 @@
 ---
-Description: The following constants form the set of valid Windows Image Acquisition (WIA) hardware device commands.
+description: The following constants form the set of valid Windows Image Acquisition (WIA) hardware device commands.
 ms.assetid: f86a0944-2f2a-467e-a9e8-4cdecfc50175
 title: WIA Device Commands (Wiadef.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ The WIA minidriver must reject this command and return <strong>WIA_ERROR_INVALID
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

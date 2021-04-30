@@ -1,5 +1,5 @@
 ---
-Description: Contains a recognition alternate for an InkWord. The alternates are ordered by the recognizer's confidence in the alternate, with highest first.
+description: Contains a recognition alternate for an InkWord. The alternates are ordered by the recognizer's confidence in the alternate, with highest first.
 ms.assetid: 6ec78ac9-c10c-4227-bead-5ddfc48ce27e
 title: Alternate Element (Wingdi.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ None.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wingdi.h</dt> </dl> |
 

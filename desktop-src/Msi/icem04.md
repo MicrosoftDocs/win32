@@ -1,5 +1,5 @@
 ---
-Description: ICEM04 verifies that the merge module's required empty tables are empty. Failure to fix an error that ICEM04 reports can result in incorrect merging of the merge module.
+description: ICEM04 verifies that the merge module's required empty tables are empty. Failure to fix an error that ICEM04 reports can result in incorrect merging of the merge module.
 ms.assetid: c6f64f5e-be65-485b-8831-e377535bd335
 title: ICEM04
 ms.topic: article

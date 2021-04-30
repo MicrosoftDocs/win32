@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedColumnMustBeTaggedException properties"
 title: EsentMultiValuedColumnMustBeTaggedException properties
 TOCTitle: EsentMultiValuedColumnMustBeTaggedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedColumnMustBeTaggedException

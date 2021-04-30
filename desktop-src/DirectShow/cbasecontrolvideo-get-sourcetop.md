@@ -1,5 +1,5 @@
 ---
-Description: The get\_SourceTop method retrieves the top coordinate of the current source rectangle.
+description: The get\_SourceTop method retrieves the top coordinate of the current source rectangle.
 ms.assetid: 78dbd1e6-f591-487e-b9fe-fcbda55f5338
 title: CBaseControlVideo.get_SourceTop method (Ctlutil.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

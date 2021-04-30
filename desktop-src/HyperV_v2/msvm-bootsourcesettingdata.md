@@ -1,5 +1,5 @@
 ---
-Description: Represents the parameters to set the boot source of a virtual machine.
+description: Represents the parameters to set the boot source of a virtual machine.
 ms.assetid: 21CD4B71-3D05-469E-89BB-DC2C65F5AB10
 title: Msvm_BootSourceSettingData class
 ms.topic: reference
@@ -227,7 +227,7 @@ The other location info, if any, that the firmware uses to further uniquely iden
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExistingLogFileIsNotContiguousException properties"
 title: EsentExistingLogFileIsNotContiguousException properties
 TOCTitle: EsentExistingLogFileIsNotContiguousException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileIsNotContiguousException

@@ -22,7 +22,7 @@ A class that defines Central Access Rules used to construct a central access pol
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Authz-Central-Access-Rule         |
 | Ldap-Display-Name | msAuthz-CentralAccessRule            |
@@ -42,7 +42,7 @@ A class that defines Central Access Rules used to construct a central access pol
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

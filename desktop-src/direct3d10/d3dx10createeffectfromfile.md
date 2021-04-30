@@ -1,5 +1,5 @@
 ---
-Description: Create an effect from a file.
+description: Create an effect from a file.
 ms.assetid: 1418857e-bda1-4ffb-bbb9-dfa3709313b1
 title: D3DX10CreateEffectFromFile function (D3DX10Async.h)
 ms.topic: reference
@@ -163,7 +163,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

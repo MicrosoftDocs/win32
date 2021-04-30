@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DeviceSoftware relationship identifies software that is associated with a device, such as drivers, configuration or application software, or firmware.
+description: The CIM\_DeviceSoftware relationship identifies software that is associated with a device, such as drivers, configuration or application software, or firmware.
 ms.assetid: 831d0014-2a01-49f4-9642-fae5682f0388
 ms.tgt_platform: multiple
 title: CIM_DeviceSoftware class
@@ -233,7 +233,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

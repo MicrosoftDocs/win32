@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the instruction identifier byte from the application protocol data unit (APDU).
+description: Retrieves the instruction identifier byte from the application protocol data unit (APDU).
 ms.assetid: 294f51cd-0a13-4dfb-bf02-9edd11a7085e
 title: ISCardCmd::get_InstructionId method (Scarddat.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

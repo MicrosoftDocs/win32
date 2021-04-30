@@ -1,5 +1,5 @@
 ---
-Description: Applications may encounter problems when run on multiprocessor systems due to assumptions they make which are valid only on single-processor systems.
+description: Applications may encounter problems when run on multiprocessor systems due to assumptions they make which are valid only on single-processor systems.
 ms.assetid: b20a1d2c-b795-4ed8-ac33-539a347020c8
 title: Synchronization and Multiprocessor Issues
 ms.topic: article
@@ -24,14 +24,17 @@ CPU caches can be partitioned into banks that can be accessed in parallel. This 
 
 Processors can support instructions for memory barriers with acquire, release, and fence semantics. These semantics describe the order in which results of an operation become available. With acquire semantics, the results of the operation are available before the results of any operation that appears after it in code. With release semantics, the results of the operation are available after the results of any operation that appears before it in code. Fence semantics combine acquire and release semantics. The results of an operation with fence semantics are available before those of any operation that appears after it in code and after those of any operation that appears before it.
 
-On Intel Itanium-based systems, the instruction is mf (memory fence) with the following modifiers: acq (acquire) and rel (release). On processors that support SSE2, the instructions are mfence (memory fence), lfence (load fence), and sfence (store fence). For more information, see the documentation for the processor.
+On x86 and x64 processors that support SSE2, the instructions are **mfence** (memory fence), **lfence** (load fence), and **sfence** (store fence). On ARM processors, the instrutions are **dmb** and **dsb**. For more information, see the documentation for the processor.
 
 The following synchronization functions use the appropriate barriers to ensure memory ordering:
 
 -   Functions that enter or leave critical sections
+-   Functions that acquire or release SRW locks
+-   One-time initialization begin and completion
+-   **EnterSynchronizationBarrier** function
 -   Functions that signal synchronization objects
 -   Wait functions
--   Interlocked functions
+-   Interlocked functions (except functions with _NoFence_ suffix, or intrinsics with _\_nf_ suffix)
 
 ## Fixing a Race Condition
 
@@ -65,7 +68,7 @@ BOOL FetchComputedValue(int *piResult)
 
 This race condition above can be repaired by using the **volatile** keyword or the [**InterlockedExchange**](/windows/desktop/api/winnt/nf-winnt-interlockedexchange.md) function to ensure that the value of `iValue` is updated for all processors before the value of `fValueHasBeenComputed` is set to **TRUE**.
 
-With Visual Studio 2005, the compiler uses acquire semantics for read operations on **volatile** variables and release semantics for write operations on **volatile** variables (when supported by the CPU). Therefore, you can correct the example as follows:
+Starting Visual Studio 2005, if compiled in **/volatile:ms** mode, the compiler uses acquire semantics for read operations on **volatile** variables and release semantics for write operations on **volatile** variables (when supported by the CPU). Therefore, you can correct the example as follows:
 
 ``` syntax
 volatile int iValue;

@@ -1,5 +1,5 @@
 ---
-Description: Texture save options.
+description: Texture save options.
 ms.assetid: c9ca47aa-7273-48b3-ba13-d603104ec1fd
 title: D3DX10_SAVE_TEXTURE_FLAG enumeration (D3DX10Tex.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ Do not optimize.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

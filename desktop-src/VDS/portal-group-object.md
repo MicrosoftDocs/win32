@@ -1,5 +1,5 @@
 ---
-Description: Portal Group Object
+description: Portal Group Object
 ms.assetid: e5892e96-b6ad-447a-9627-b44fc6f1b27a
 title: Portal Group Object
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Sets a nontransposed matrix.
+description: Sets a nontransposed matrix.
 ms.assetid: 30369e34-6e9d-4480-a142-e38f46fd38b0
 title: ID3DXConstantTable::SetMatrix method (D3DX9Shader.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

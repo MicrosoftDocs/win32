@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate the type of an event.
+description: An enum used to indicate the type of an event.
 MS-HAID: vspixengine.EVENTTYPE
 MSHAttr:
 - PreferredSiteName:MSDN

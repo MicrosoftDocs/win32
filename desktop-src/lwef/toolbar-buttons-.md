@@ -1,16 +1,16 @@
 ---
 title: Toolbar Buttons (Microsoft Agent Character Editor)
-description: Toolbar Buttons
+description: Learn about the Microsoft Agent Character Editor toolbar buttons, such as the New Custom Character button.
 ms.assetid: 8867a038-d2c4-43c1-b994-bd3779a251b9
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Toolbar Buttons
+# Toolbar Buttons (Microsoft Agent Character Editor)
 
 \[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]
 
-![](images/f9charnew.gif)
+:::image type="icon" source="images/f9charnew.gif":::
 
 <dl> <dt>
 
@@ -21,7 +21,7 @@ Resets the Editor for creating a new Custom character definition. If an existing
 
 </dd> </dl>
 
-![](images/f10charopen.gif)
+:::image type="icon" source="images/f10charopen.gif":::
 
 <dl> <dt>
 
@@ -32,7 +32,7 @@ Displays the Open File dialog box, enabling you to open an existing character de
 
 </dd> </dl>
 
-![](images/f11charsave.gif)
+:::image type="icon" source="images/f11charsave.gif":::
 
 <dl> <dt>
 
@@ -43,7 +43,7 @@ Saves the character definition. If the character definition does not exist (has 
 
 </dd> </dl>
 
-![](images/f12charbuild.gif)
+:::image type="icon" source="images/f12charbuild.gif":::
 
 <dl> <dt>
 
@@ -54,7 +54,7 @@ Builds a Microsoft Agent character from the character definition.
 
 </dd> </dl>
 
-![](images/f13charprint.gif)
+:::image type="icon" source="images/f13charprint.gif":::
 
 <dl> <dt>
 
@@ -65,7 +65,7 @@ Prints the current character definition file open in the Editor.
 
 </dd> </dl>
 
-![](images/f14charcut.gif)
+:::image type="icon" source="images/f14charcut.gif":::
 
 <dl> <dt>
 
@@ -76,7 +76,7 @@ Removes the selected item in the Editor and places it on the Windows Clipboard.
 
 </dd> </dl>
 
-![](images/f15charcopy.gif)
+:::image type="icon" source="images/f15charcopy.gif":::
 
 <dl> <dt>
 
@@ -87,7 +87,7 @@ Copies the selected item in the Editor to the Windows Clipboard.
 
 </dd> </dl>
 
-![](images/f16charpaste.gif)
+:::image type="icon" source="images/f16charpaste.gif":::
 
 <dl> <dt>
 
@@ -98,7 +98,7 @@ Copies data from the current Windows Clipboard to the selected location.
 
 </dd> </dl>
 
-![](images/f17chardel.gif)
+:::image type="icon" source="images/f17chardel.gif":::
 
 <dl> <dt>
 
@@ -109,7 +109,7 @@ Removes the selected item from the Editor.
 
 </dd> </dl>
 
-![](images/f18charundo.gif)
+:::image type="icon" source="images/f18charundo.gif":::
 
 <dl> <dt>
 
@@ -120,7 +120,7 @@ Removes a change made in the Editor.
 
 </dd> </dl>
 
-![](images/f19charredo.gif)
+:::image type="icon" source="images/f19charredo.gif":::
 
 <dl> <dt>
 
@@ -131,7 +131,7 @@ Reverses an undo action in the Editor.
 
 </dd> </dl>
 
-![](images/f20charaanim.gif)
+:::image type="icon" source="images/f20charaanim.gif":::
 
 <dl> <dt>
 
@@ -142,7 +142,7 @@ Creates a new animation object in the Editor.
 
 </dd> </dl>
 
-![](images/f21charanfr.gif)
+:::image type="icon" source="images/f21charanfr.gif":::
 
 <dl> <dt>
 
@@ -153,7 +153,7 @@ Creates a new frame for an animation.
 
 </dd> </dl>
 
-![](images/f22charprev.gif)
+:::image type="icon" source="images/f22charprev.gif":::
 
 <dl> <dt>
 
@@ -164,7 +164,7 @@ Plays an animation, starting from its selected frame.
 
 </dd> </dl>
 
-![](images/f23charprevex.gif)
+:::image type="icon" source="images/f23charprevex.gif":::
 
 <dl> <dt>
 
@@ -175,7 +175,7 @@ Plays an animation's exit branching, starting from its selected frame.
 
 </dd> </dl>
 
-![](images/f24charstop.gif)
+:::image type="icon" source="images/f24charstop.gif":::
 
 <dl> <dt>
 
@@ -186,7 +186,7 @@ Stops playing the preview of an animation.
 
 </dd> </dl>
 
-![](images/f25charadd.gif)
+:::image type="icon" source="images/f25charadd.gif":::
 
 <dl> <dt>
 
@@ -197,7 +197,7 @@ Displays the Select Image File dialog box. Selected images are added to the list
 
 </dd> </dl>
 
-![](images/f26charmvup.gif)
+:::image type="icon" source="images/f26charmvup.gif":::
 
 <dl> <dt>
 
@@ -208,7 +208,7 @@ Moves an image up in the ordered (z-ordered) list. In a frame's images list, thi
 
 </dd> </dl>
 
-![](images/f27charmvdwn.gif)
+:::image type="icon" source="images/f27charmvdwn.gif":::
 
 <dl> <dt>
 

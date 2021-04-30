@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Init method (InitGrbit)"
 title: Instance.Init method (InitGrbit)
 TOCTitle: Init method (InitGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init(Microsoft.Isam.Esent.Interop.InitGrbit)

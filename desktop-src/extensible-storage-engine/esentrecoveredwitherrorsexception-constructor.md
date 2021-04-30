@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithErrorsException constructor"
 title: EsentRecoveredWithErrorsException constructor 
 TOCTitle: 'EsentRecoveredWithErrorsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException.#ctor

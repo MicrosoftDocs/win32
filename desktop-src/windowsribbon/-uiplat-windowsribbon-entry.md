@@ -67,7 +67,7 @@ Recommended foundational knowledge:
 
 
 
-|                                        |                                                                                                                                                                          |
+| Requirement | Value |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client               | Windows 7<br/> Windows Vista with Service Pack 2 (SP2) and [Platform Update for Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
 | Minimum supported server               | Windows Server 2008 R2<br/> Windows Server 2008 with SP2 and [Platform Update for Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |

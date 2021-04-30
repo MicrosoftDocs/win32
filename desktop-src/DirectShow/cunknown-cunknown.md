@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CUnknown.CUnknown constructor - Constructor method.
 ms.assetid: dafe0d5c-b4c8-4efb-8c47-a8c5db6e8aed
 title: CUnknown.CUnknown constructor (Combase.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The object is initialized with a reference count of zero.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

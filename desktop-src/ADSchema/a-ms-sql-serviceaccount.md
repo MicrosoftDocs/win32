@@ -22,7 +22,7 @@ A user defined string. The default is set to ServiceAccount.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-SQL-ServiceAccount                       |
 | Ldap-Display-Name | mS-SQL-ServiceAccount                       |
@@ -48,7 +48,7 @@ A user defined string. The default is set to ServiceAccount.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |
@@ -69,7 +69,7 @@ A user defined string. The default is set to ServiceAccount.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |
@@ -90,7 +90,7 @@ A user defined string. The default is set to ServiceAccount.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |
@@ -111,7 +111,7 @@ A user defined string. The default is set to ServiceAccount.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |
@@ -132,7 +132,7 @@ A user defined string. The default is set to ServiceAccount.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |
@@ -153,7 +153,7 @@ A user defined string. The default is set to ServiceAccount.
 
 
 
-|                        |                                                                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                    |

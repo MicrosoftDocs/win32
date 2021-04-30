@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the keyAgreement bit is set.
+description: Retrieves a Boolean value that indicates whether the keyAgreement bit is set.
 ms.assetid: 3dd1f6c7-893d-453e-92dc-ffeffd879519
 title: KeyUsage.IsKeyAgreementEnabled property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the keyAgreement bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

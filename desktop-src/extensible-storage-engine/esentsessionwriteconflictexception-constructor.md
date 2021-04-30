@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionWriteConflictException constructor"
 title: EsentSessionWriteConflictException constructor 
 TOCTitle: 'EsentSessionWriteConflictException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException.#ctor

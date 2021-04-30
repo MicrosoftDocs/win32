@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPrereadException members"
 title: EsentInvalidPrereadException members
 TOCTitle: EsentInvalidPrereadException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidPrereadException

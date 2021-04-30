@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetStopServiceInstance2 method"
 title: Windows8Api.JetStopServiceInstance2 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetStopServiceInstance2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetStopServiceInstance2(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.Windows8.StopServiceGrbit)

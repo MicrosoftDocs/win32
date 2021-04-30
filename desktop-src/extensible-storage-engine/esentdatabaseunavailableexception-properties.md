@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseUnavailableException properties"
 title: EsentDatabaseUnavailableException properties
 TOCTitle: EsentDatabaseUnavailableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException

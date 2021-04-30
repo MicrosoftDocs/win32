@@ -1,5 +1,5 @@
 ---
-Description: Vertex buffers, represented by the IDirect3DVertexBuffer9 interface, are memory buffers that contain vertex data.
+description: Vertex buffers, represented by the IDirect3DVertexBuffer9 interface, are memory buffers that contain vertex data.
 ms.assetid: 'vs|directx_sdk|~\vertex_buffers.htm'
 title: Vertex Buffers (Direct3D 9)
 ms.topic: article

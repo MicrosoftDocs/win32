@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the Direct3D device associated with the font object.
+description: Retrieves the Direct3D device associated with the font object.
 ms.assetid: c713cbe2-6e6e-476b-a995-14fa149cb088
 title: ID3DXFont::GetDevice method (D3dx9core.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

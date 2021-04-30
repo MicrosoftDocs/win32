@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyIsMadeException properties"
 title: EsentKeyIsMadeException properties
 TOCTitle: EsentKeyIsMadeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyIsMadeException

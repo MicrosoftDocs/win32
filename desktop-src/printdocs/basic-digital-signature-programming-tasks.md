@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to perform basic programming tasks with the XPS Digital Signature API.
+description: This section describes how to perform basic programming tasks with the XPS Digital Signature API.
 ms.assetid: a25a8d33-000a-4774-8beb-56d3bb39d5ae
 title: Common Digital Signature Programming Tasks
 ms.topic: article

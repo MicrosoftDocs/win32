@@ -1,5 +1,5 @@
 ---
-Description: This operator subtracts one reference time from another, and sets this object to the result.
+description: This operator subtracts one reference time from another, and sets this object to the result.
 ms.assetid: 573b6f6b-7634-4e78-872c-f869b59a75e2
 title: COARefTime.operator-= method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns a reference to the object.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

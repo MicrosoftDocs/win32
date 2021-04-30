@@ -1,5 +1,5 @@
 ---
-Description: The AsynchronousBlockOutputPin method blocks the pin. The method might return before the pin is blocked.
+description: The AsynchronousBlockOutputPin method blocks the pin. The method might return before the pin is blocked.
 ms.assetid: 14cdc973-f0d3-4d1b-8491-67c1421f630b
 title: CDynamicOutputPin.AsynchronousBlockOutputPin method (Amfilter.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ If no streaming thread is using the pin, this method immediately blocks the pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Sent by the default context menu implementation to request LPFNDFMCALLBACK to invoke an extended menu command.
+description: Sent by the default context menu implementation to request LPFNDFMCALLBACK to invoke an extended menu command.
 title: DFM_INVOKECOMMANDEX message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -157,7 +157,7 @@ The items on which the command is being invoked are provided in a data object pa
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

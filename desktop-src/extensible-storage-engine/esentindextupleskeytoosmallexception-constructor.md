@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesKeyTooSmallException constructor"
 title: EsentIndexTuplesKeyTooSmallException constructor 
 TOCTitle: 'EsentIndexTuplesKeyTooSmallException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the PolicyInformation object that represents the indexed policy. This is the default property.
+description: Retrieves the PolicyInformation object that represents the indexed policy. This is the default property.
 ms.assetid: 0143629a-97cf-43f4-8f96-774f0f5cfeca
 title: CertificatePolicies.Item property
 ms.topic: reference
@@ -42,7 +42,7 @@ A [**PolicyInformation**](policyinformation.md) object that represents the index
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

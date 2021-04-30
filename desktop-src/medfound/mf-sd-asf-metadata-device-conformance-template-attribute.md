@@ -1,5 +1,5 @@
 ---
-Description: Specifies the device conformance template for a stream in an Advanced Systems Format (ASF) file.
+description: Specifies the device conformance template for a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: e0bfb393-c8de-47cf-b80a-b0d88722e815
 title: MF_SD_ASF_METADATA_DEVICE_CONFORMANCE_TEMPLATE attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

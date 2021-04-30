@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesTextBinaryColumnsOnlyException members"
 title: EsentIndexTuplesTextBinaryColumnsOnlyException members
 TOCTitle: EsentIndexTuplesTextBinaryColumnsOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTextBinaryColumnsOnlyException

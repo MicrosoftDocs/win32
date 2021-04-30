@@ -1,5 +1,5 @@
 ---
-Description: Inserts a separator in the Tasks section of a Jump List.
+description: Inserts a separator in the Tasks section of a Jump List.
 ms.assetid: 6cee1c20-865c-4d53-98c5-5402855a0004
 title: System.AppUserModel.IsDestListSeparator
 ms.topic: article

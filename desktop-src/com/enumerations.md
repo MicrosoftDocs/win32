@@ -1,12 +1,12 @@
 ---
 title: Enumerations (COM)
 ms.assetid: 57faa6ef-76fa-4b81-8aae-aa3263b952fd
-description: 
+description: "Learn more about: Enumerations (COM)"
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# Enumerations (COM)
 
 The following enumerations are provided by COM:
 
@@ -14,7 +14,7 @@ The following enumerations are provided by COM:
 -   [**APTTYPEQUALIFIER**](/windows/win32/api/objidlbase/ne-objidlbase-apttype)
 -   [**BIND\_FLAGS**](/windows/win32/api/objidl/ne-objidl-bind_flags)
 -   [**BINDSPEED**](/windows/win32/api/oleidl/ne-oleidl-bindspeed)
--   [**BSCO\_OPTION**](bsco-option.md)
+-   **BSCO\_OPTION**
 -   [**CALLFRAME\_COPY**](/windows/win32/api/callobj/ne-callobj-callframe_copy)
 -   [**CALLFRAME\_FREE**](/windows/desktop/api/CallObj/ne-callobj-callframe_free)
 -   [**CALLFRAME\_WALK**](/windows/desktop/api/CallObj/ne-callobj-callframe_walk)

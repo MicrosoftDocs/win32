@@ -1,5 +1,5 @@
 ---
-Description: Releases the attachment to a particular smart card or reader allocated by AttachByHandle and AttachByIFD respectively.
+description: Releases the attachment to a particular smart card or reader allocated by AttachByHandle and AttachByIFD respectively.
 ms.assetid: 601b35a6-9094-4786-b94c-5cd1283feef5
 title: ISCardManage::Detach method
 ms.topic: reference
@@ -62,7 +62,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

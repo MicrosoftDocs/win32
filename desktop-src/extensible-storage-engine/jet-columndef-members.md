@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF members"
 title: JET_COLUMNDEF members
 TOCTitle: JET_COLUMNDEF members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF

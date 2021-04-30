@@ -1,5 +1,5 @@
 ---
-Description: The base name of the System.ItemNameDisplay property.
+description: The base name of the System.ItemNameDisplay property.
 ms.assetid: 8add2d72-efd3-4971-89d9-428190115ba0
 title: System.ItemName
 ms.topic: article

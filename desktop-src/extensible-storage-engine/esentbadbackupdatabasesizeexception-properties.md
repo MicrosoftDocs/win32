@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBackupDatabaseSizeException properties"
 title: EsentBadBackupDatabaseSizeException properties
 TOCTitle: EsentBadBackupDatabaseSizeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException

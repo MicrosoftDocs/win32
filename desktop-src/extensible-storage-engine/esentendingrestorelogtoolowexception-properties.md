@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEndingRestoreLogTooLowException properties"
 title: EsentEndingRestoreLogTooLowException properties
 TOCTitle: EsentEndingRestoreLogTooLowException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException

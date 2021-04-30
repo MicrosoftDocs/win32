@@ -1,5 +1,5 @@
 ---
-Description: The Directory Services Provider mirrors classes and instances from Active Directory into the WMI Lightweight Directory Access Protocol (LDAP) namespace.
+description: The Directory Services Provider mirrors classes and instances from Active Directory into the WMI Lightweight Directory Access Protocol (LDAP) namespace.
 ms.assetid: 0215b614-cb10-4195-837d-bf81d523c560
 ms.tgt_platform: multiple
 title: Mapping Active Directory to WMI

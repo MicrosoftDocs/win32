@@ -1,5 +1,5 @@
 ---
-Description: The following flags are used to specify which channels in a texture to operate on.
+description: The following flags are used to specify which channels in a texture to operate on.
 ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
 ms.topic: article
@@ -12,9 +12,8 @@ The following flags are used to specify which channels in a texture to operate o
 
 
 
-|                          |                                                                               |
-|--------------------------|-------------------------------------------------------------------------------|
 | \#define                 | Description                                                                   |
+|--------------------------|-------------------------------------------------------------------------------|
 | D3DX\_CHANNEL\_RED       | Indicates the red channel should be used.                                     |
 | D3DX\_CHANNEL\_BLUE      | Indicates the blue channel should be used.                                    |
 | D3DX\_CHANNEL\_GREEN     | Indicates the green channel should be used.                                   |

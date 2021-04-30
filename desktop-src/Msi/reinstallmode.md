@@ -1,5 +1,5 @@
 ---
-Description: The REINSTALLMODE property is a string that contains letters specifying the type of reinstall to perform.
+description: The REINSTALLMODE property is a string that contains letters specifying the type of reinstall to perform.
 ms.assetid: 756d2899-2cfe-473a-bebf-a7f7bbe7d229
 title: REINSTALLMODE property
 ms.topic: reference
@@ -51,7 +51,7 @@ The option codes for this property correspond to the [command-line option](comma
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

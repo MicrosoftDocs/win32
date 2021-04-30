@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the Active Directory search location.
+description: Sets or retrieves the Active Directory search location.
 ms.assetid: 43320799-1c01-4e09-bed9-f3576baadcce
 title: Settings.ActiveDirectorySearchLocation property
 ms.topic: reference
@@ -50,7 +50,7 @@ A value of the [**CAPICOM\_ACTIVE\_DIRECTORY\_SEARCH\_LOCATION**](capicom-active
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

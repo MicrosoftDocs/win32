@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Reference
+# Shader Reference (Direct3D 12 Graphics)
 
 This section covers Direct3D 12 APIs declared in d3d12shader.h, which helps create and manage programmable shaders. Shaders are executable programs that are programmed exclusively using HLSL.
 

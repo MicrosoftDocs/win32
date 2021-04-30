@@ -1,5 +1,5 @@
 ---
-Description: Sent to an icon when the user requests that the window be restored to its previous size and position.
+description: Sent to an icon when the user requests that the window be restored to its previous size and position.
 ms.assetid: 6e14d5fd-6598-4d2e-a463-2b153c9c2aa3
 title: WM_QUERYOPEN message (Winuser.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ While processing this message, the application should not perform any action tha
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOnSortException properties"
 title: EsentInvalidOnSortException properties
 TOCTitle: EsentInvalidOnSortException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException

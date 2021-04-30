@@ -1,5 +1,5 @@
 ---
-Description: Counter algorithm counter types may calculate rates or averages bytes for a sample or over a time period for a particular operation.
+description: Counter algorithm counter types may calculate rates or averages bytes for a sample or over a time period for a particular operation.
 ms.assetid: 4423e35e-2a93-4f68-8494-89df05268cc9
 ms.tgt_platform: multiple
 title: Counter Algorithm Counter Types

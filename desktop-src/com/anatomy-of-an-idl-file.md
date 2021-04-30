@@ -44,7 +44,7 @@ HRESULT MethodC([in] long Max,
 
 The IDL [**import**](/windows/desktop/Midl/import) statement is used here to bring in a header file, Mydefs.h, which contains user-defined types, and Unknwn.idl, which contains the definition of [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown), from which IFace1 and IFace2 derive.
 
-The [**object**](/windows/desktop/Midl/object) attribute identifies the interface as an object interface and tells the MIDL compiler to generate proxy/stub code instead of RPC client and server stubs. Object interface methods must have a return type of **HRESULT**, to allow the underlying RPC mechanism to report errors for calls that fail to complete due to network problems.
+The [**object**](/windows/desktop/Midl/object) attribute identifies the interface as an object interface and tells the MIDL compiler to generate proxy/stub code instead of RPC client and server stubs. Object interface methods must have a return type of [**HRESULT**](/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a), to allow the underlying RPC mechanism to report errors for calls that fail to complete due to network problems.
 
 The [**uuid**](/windows/desktop/Midl/uuid) attribute specifies the interface identifier (IID). Each interface, class, and type library must be identified with its own unique identifier. Use the utility Uuidgen.exe to generate a set of unique IDs for your interfaces and other components.
 

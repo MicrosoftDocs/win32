@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadEmptyPageException members"
 title: EsentBadEmptyPageException members
 TOCTitle: EsentBadEmptyPageException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException

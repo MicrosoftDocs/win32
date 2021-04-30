@@ -1,5 +1,5 @@
 ---
-Description: In an installation package, the Last Printed Summary property can be set to the date and time during an administrative installation to record when the administrative image was created.
+description: In an installation package, the Last Printed Summary property can be set to the date and time during an administrative installation to record when the administrative image was created.
 ms.assetid: decbc92a-af56-4a3f-9e2f-c66f6cdd8880
 title: Last Printed Summary property
 ms.topic: reference
@@ -18,7 +18,7 @@ In a patch package, this property should be null.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

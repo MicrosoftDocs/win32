@@ -1,5 +1,5 @@
 ---
-Description: The IKsPin interface provides a method to retrieve the mediums supported by a pin on a kernel-mode filter. IKsPin has additional methods besides the one shown here, but they are not supported for DirectShow.
+description: The IKsPin interface provides a method to retrieve the mediums supported by a pin on a kernel-mode filter. IKsPin has additional methods besides the one shown here, but they are not supported for DirectShow.
 ms.assetid: 14d9bef2-e8f0-49d5-bd89-69a95814cf8c
 title: IKsPin interface (Ksproxy.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ You must include Ks.h before Ksproxy.h.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

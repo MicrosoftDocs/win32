@@ -1,5 +1,5 @@
 ---
-Description: Modifies virtual resource settings.
+description: ModifyResourceSettings method of the CIM_VirtualSystemManagementService class - Modifies virtual resource settings.
 ms.assetid: 4942f167-0e53-4ae2-b973-4a06b636b44a
 title: ModifyResourceSettings method of the CIM_VirtualSystemManagementService class
 ms.topic: reference
@@ -102,7 +102,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

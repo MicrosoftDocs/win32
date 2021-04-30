@@ -1,6 +1,6 @@
 ---
 title: Texture2DMSArray::GetSamplePosition function
-description: Samples a texture and returns all four components.
+description: Gets the position of the specified sample. | Texture2DMSArray::GetSamplePosition function
 ms.assetid: e04717be-58b0-4242-87dd-d769834ae1c2
 keywords:
 - GetSamplePosition function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GetSamplePosition function
+# Texture2DMSArray::GetSamplePosition function
 
-Samples a texture and returns all four components.
+Gets the position of the specified sample.
 
 ## Syntax
 

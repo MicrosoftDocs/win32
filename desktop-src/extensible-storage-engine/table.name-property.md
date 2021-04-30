@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table.Name property"
 title: Table.Name property 
 TOCTitle: 'Name property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Table.Name

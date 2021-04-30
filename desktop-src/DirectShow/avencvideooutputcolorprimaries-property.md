@@ -1,5 +1,5 @@
 ---
-Description: Specifies the color primaries for the encoded video.
+description: Specifies the color primaries for the encoded video.
 ms.assetid: f0369dee-12e4-4403-a0c4-6d840ad2552e
 title: AVEncVideoOutputColorPrimaries property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncVideoColorPrimaries**](/w
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

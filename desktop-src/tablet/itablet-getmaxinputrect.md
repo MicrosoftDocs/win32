@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a rectangle that represents maximum input area of the tablet.
+description: Retrieves a rectangle that represents maximum input area of the tablet.
 ms.assetid: 98facd24-b019-40d1-afe1-28c9a78cae80
 title: ITablet::GetMaxInputRect method
 ms.topic: reference
@@ -61,7 +61,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DiskSpaceCheck class checks the system's amount of available disk space and specifies it in the AvailableDiskSpace property.
+description: The CIM\_DiskSpaceCheck class checks the system's amount of available disk space and specifies it in the AvailableDiskSpace property.
 ms.assetid: 51440084-7713-4106-b05b-cd2827f4cb05
 ms.tgt_platform: multiple
 title: CIM_DiskSpaceCheck class
@@ -828,7 +828,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

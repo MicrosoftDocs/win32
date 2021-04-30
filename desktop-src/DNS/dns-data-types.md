@@ -1,7 +1,7 @@
 ---
 title: DNS Data Types (Windns.h)
 ms.assetid: 652012a5-e45d-4ea6-896a-17e8b1ed4a05
-description: 
+description: "Learn more about: DNS Data Types"
 keywords:
 - IP4_ADDRESS
 ms.topic: reference
@@ -32,7 +32,7 @@ A value that represents an Internet Protocol version 4 (IPv4) address. For examp
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |

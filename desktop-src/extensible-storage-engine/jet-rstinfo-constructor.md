@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO constructor"
 title: JET_RSTINFO constructor 
 TOCTitle: 'JET_RSTINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RSTINFO.#ctor

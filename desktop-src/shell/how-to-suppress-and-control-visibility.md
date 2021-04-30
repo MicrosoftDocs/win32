@@ -1,5 +1,5 @@
 ---
-Description: This topic tells you how to control verb visibility.
+description: This topic tells you how to control verb visibility.
 title: How to Suppress and Control Verb Visibility
 ms.topic: article
 ms.date: 05/31/2018

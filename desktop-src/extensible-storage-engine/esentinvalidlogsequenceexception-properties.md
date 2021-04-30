@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogSequenceException properties"
 title: EsentInvalidLogSequenceException properties
 TOCTitle: EsentInvalidLogSequenceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogSequenceException

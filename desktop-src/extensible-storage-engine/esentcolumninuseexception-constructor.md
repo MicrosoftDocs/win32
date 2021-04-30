@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInUseException constructor"
 title: EsentColumnInUseException constructor 
 TOCTitle: 'EsentColumnInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnInUseException.#ctor

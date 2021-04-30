@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.MaxSessions property"
 title: InstanceParameters.MaxSessions property 
 TOCTitle: 'MaxSessions property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxSessions

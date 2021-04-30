@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextAlreadySetException methods"
 title: EsentSessionContextAlreadySetException methods
 TOCTitle: EsentSessionContextAlreadySetException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileReadOnlyException methods"
 title: EsentSLVStreamingFileReadOnlyException methods
 TOCTitle: EsentSLVStreamingFileReadOnlyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException

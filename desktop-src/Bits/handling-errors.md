@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Handling Errors
+# Handling Errors (BITS)
 
 There are two types of errors to handle in your application. The first error is a failed method call. Each method returns an **HRESULT** value. The reference page for each method identifies the return values that it is most likely to generate. For additional return values, see [BITS Return Values](bits-return-values.md). To get the message text associated with the return value, call the [**IBackgroundCopyManager::GetErrorDescription**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopymanager-geterrordescription) method.
 

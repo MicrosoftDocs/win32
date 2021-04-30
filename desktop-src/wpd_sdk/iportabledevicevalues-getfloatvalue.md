@@ -1,5 +1,5 @@
 ---
-Description: The GetFloatValue method retrieves a FLOAT value (type VT\_R4) specified by a key.
+description: The GetFloatValue method retrieves a FLOAT value (type VT\_R4) specified by a key.
 ms.assetid: 8a134dfb-f671-4cde-ae35-c8a41be270cf
 title: IPortableDeviceValues::GetFloatValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExistingLogFileHasBadSignatureException members"
 title: EsentExistingLogFileHasBadSignatureException members
 TOCTitle: EsentExistingLogFileHasBadSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileHasBadSignatureException

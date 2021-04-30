@@ -1,5 +1,5 @@
 ---
-Description: The FOLDERTYPEID values represent a view template applied to a folder, usually based on its intended use and contents.
+description: The FOLDERTYPEID values represent a view template applied to a folder, usually based on its intended use and contents.
 ms.assetid: d147a05c-6a03-4f20-a7be-20825fcbeec2
 title: FOLDERTYPEID (Shlguid.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ HKEY_LOCAL_MACHINE
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

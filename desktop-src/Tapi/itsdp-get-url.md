@@ -1,5 +1,5 @@
 ---
-Description: The get\_Url method gets the URL.
+description: The get\_Url method gets the URL.
 ms.assetid: 9ea2ddf6-b8c7-4bfa-aab3-ff2d2056837f
 title: ITSdp::get_Url method (Sdpblb.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ An URL is typically used to reference a Web page containing additional resources
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Indicates that the output type has been set on the capture engine in response to IMFCaptureSink2::SetOutputType.
+description: Indicates that the output type has been set on the capture engine in response to IMFCaptureSink2::SetOutputType.
 ms.assetid: A48CBC82-87C2-4AED-B7E0-B7C60FCCE4CC
 title: MF_CAPTURE_ENGINE_OUTPUT_MEDIA_TYPE_SET attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ You can call [**IMFMediaEvent::GetStatus**](/windows/desktop/api/mfobjects/nf-mf
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                        |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskIOException properties"
 title: EsentDiskIOException properties
 TOCTitle: EsentDiskIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDiskIOException

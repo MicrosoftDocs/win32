@@ -1,5 +1,5 @@
 ---
-Description: Represents the available providers for replication.
+description: Represents the available providers for replication.
 ms.assetid: CAAD1CFC-6473-4642-8366-0A5625AE1F70
 title: Msvm_ReplicationProvider class
 ms.topic: reference
@@ -166,7 +166,7 @@ You can use any of available providers and the [**Msvm\_ReplicationRelationship*
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

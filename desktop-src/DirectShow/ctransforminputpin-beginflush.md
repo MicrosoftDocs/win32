@@ -1,5 +1,5 @@
 ---
-Description: The BeginFlush method begins a flush operation. This method implements the IPin::BeginFlush method.
+description: The BeginFlush method begins a flush operation. This method implements the IPin::BeginFlush method.
 ms.assetid: 7c76ca06-dc3c-4f9a-9761-32aea7db4c7e
 title: CTransformInputPin.BeginFlush method (Transfrm.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This method calls the pin's [**CBaseInputPin::BeginFlush**](cbaseinputpin-beginf
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

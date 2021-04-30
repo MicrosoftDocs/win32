@@ -1,5 +1,5 @@
 ---
-Description: The ToolTip property sets the text for the ToolTip that appears when the mouse pointer is over the MSWebDVD video rectangle.
+description: The ToolTip property sets the text for the ToolTip that appears when the mouse pointer is over the MSWebDVD video rectangle.
 ms.assetid: b71ec573-6585-4b0c-8171-9f9c8fdb7394
 title: ToolTip Property (Windows.ui.xaml.controls.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ This property is read/write with no default value. If the string is empty, no To
 
 
 
-|                   |                                                                                                       |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.ui.xaml.controls.h</dt> </dl> |
 

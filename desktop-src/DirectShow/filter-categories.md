@@ -1,5 +1,5 @@
 ---
-Description: The following tables list the CLSIDs for the DirectShow filter categories.
+description: The following tables list the CLSIDs for the DirectShow filter categories.
 ms.assetid: cab4e2c9-eab9-4836-adfc-870490ca5b6b
 title: Filter Categories
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment.IsAscending property"
 title: IndexSegment.IsAscending property 
 TOCTitle: 'IsAscending property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.IsAscending

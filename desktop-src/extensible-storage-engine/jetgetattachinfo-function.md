@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetAttachInfo Function"
 title: JetGetAttachInfo Function
 TOCTitle: JetGetAttachInfo Function
 ms:assetid: 6b1392f3-f40a-4eb0-aea8-1508b23ed649

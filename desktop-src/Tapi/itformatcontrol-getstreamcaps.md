@@ -1,5 +1,5 @@
 ---
-Description: The GetStreamCaps method retrieves the capabilities associated with a given format index.
+description: The GetStreamCaps method retrieves the capabilities associated with a given format index.
 ms.assetid: 4c375369-51d9-44ac-a8f0-c2a96fc10805
 title: ITFormatControl::GetStreamCaps method (Ipmsp.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

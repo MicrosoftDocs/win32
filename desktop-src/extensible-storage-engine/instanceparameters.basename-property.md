@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.BaseName property"
 title: InstanceParameters.BaseName property 
 TOCTitle: 'BaseName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.BaseName

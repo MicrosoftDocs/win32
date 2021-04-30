@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPatchFileMissingException constructor"
 title: EsentPatchFileMissingException constructor 
 TOCTitle: 'EsentPatchFileMissingException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException.#ctor

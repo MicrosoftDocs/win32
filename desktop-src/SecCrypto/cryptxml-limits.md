@@ -1,5 +1,5 @@
 ---
-Description: CryptXML defines the following global limits in the Cryptxml.h header file.
+description: CryptXML defines the following global limits in the Cryptxml.h header file.
 ms.assetid: 8f4dc314-76fc-40ce-a1e1-a701ae39d66d
 title: CryptXML Limits (Cryptxml.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ CryptXML defines the following global limits in the Cryptxml.h header file.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |

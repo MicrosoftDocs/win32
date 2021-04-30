@@ -1,5 +1,5 @@
 ---
-Description: This topic explains how to create new file types and how to associate your app with your file type and other well-defined file types.
+description: This topic explains how to create new file types and how to associate your app with your file type and other well-defined file types.
 ms.assetid: 055648cd-46ce-4e61-80b2-bcf1d1823e20
 title: File Types
 ms.topic: article

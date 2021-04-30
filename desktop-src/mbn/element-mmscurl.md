@@ -1,5 +1,5 @@
 ---
-Description: MmscUrl
+description: MmscUrl
 MS-HAID: WWAN\_profile\_v4.element\_MmscUrl
 MSHAttr:
 - PreferredSiteName:MSDN

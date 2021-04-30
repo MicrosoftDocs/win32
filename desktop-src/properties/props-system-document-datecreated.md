@@ -1,5 +1,5 @@
 ---
-Description: Indicates the date and time that a document was created. This information is stored in the document, not obtained from the file system.
+description: Indicates the date and time that a document was created. This information is stored in the document, not obtained from the file system.
 ms.assetid: 00d8faa6-6b9c-4981-aeb1-17f8f14b1926
 title: System.Document.DateCreated
 ms.topic: article

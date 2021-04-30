@@ -1,5 +1,5 @@
 ---
-Description: The Start method starts a capture.
+description: IESP::Start method - The Start method starts a capture.
 ms.assetid: 8bf8c0c7-20be-4404-8ea5-b28b4c658523
 title: IESP::Start method (Netmon.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ When you restart the capture by using the IESP::Start and [IESP::Stop](iesp-stop
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

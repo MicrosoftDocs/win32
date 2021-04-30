@@ -14,7 +14,7 @@ A system-provided moniker class, the URL moniker, provides a framework for build
 
 The following diagram shows the components involved in using URL monikers. All these components should be familiar. (See [Asynchronous Monikers](asynchronous-monikers.md).)
 
-![](images/bb10975a-9cb5-418e-872e-1e1add0b58ed.png)
+![Diagram that shows the components involved in using U R L monikers.](images/bb10975a-9cb5-418e-872e-1e1add0b58ed.png)
 
 Like all moniker clients, a user of URL Monikers typically creates and holds a reference to the moniker as well as to the bind context to be used during binding ([**IMoniker::BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) or [**IMoniker::BindToObject**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject)). To support asynchronous binding, the client can implement a bind-status-callback object, which implements the [**IBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775060(v=vs.85)) interface, and register it with the bind context using the [**RegisterBindStatusCallback**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775115(v=vs.85)) function. This object will receive the transport's [**IBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775071(v=vs.85)) interface during calls to [**IBindStatusCallback::OnStartBinding**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775065(v=vs.85)).
 

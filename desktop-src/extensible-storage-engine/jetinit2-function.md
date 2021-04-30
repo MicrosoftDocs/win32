@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetInit2 Function"
 title: JetInit2 Function
 TOCTitle: JetInit2 Function
 ms:assetid: b5541429-6ce6-457b-88cf-673d267f6209
@@ -33,10 +34,12 @@ The **JetInit2** function puts the database engine into a state where it can sup
 
 This function is obsolete. Use [JetInit3](./jetinit3-function.md) instead.
 
-    JET_ERR JET_API JetInit2(
-      __in_out_opt  JET_INSTANCE* pinstance,
-      __in          JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetInit2(
+  __in_out_opt  JET_INSTANCE* pinstance,
+  __in          JET_GRBIT grbit
+);
+```
 
 ### Parameters
 

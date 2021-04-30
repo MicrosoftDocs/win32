@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer version 2.0 begins searching for a source by checking the most recently used source location in the source list, then the list of network sources, then media sources, and finally URL sources.
+description: Windows Installer version 2.0 begins searching for a source by checking the most recently used source location in the source list, then the list of network sources, then media sources, and finally URL sources.
 ms.assetid: 21b1a31e-efe3-4d45-b1c5-fe6ed9b19fed
 title: Source Resiliency Policy
 ms.topic: article

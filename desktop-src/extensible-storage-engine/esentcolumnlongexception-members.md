@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnLongException members"
 title: EsentColumnLongException members
 TOCTitle: EsentColumnLongException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnLongException

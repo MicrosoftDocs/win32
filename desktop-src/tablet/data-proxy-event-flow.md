@@ -1,5 +1,5 @@
 ---
-Description: This topic discusses the details of eventing when using the ink analysis data proxy features.
+description: This topic discusses the details of eventing when using the ink analysis data proxy features.
 ms.assetid: 837867a4-7cda-41b0-b20d-eec9a3a7fb86
 title: Data Proxy Event Flow
 ms.topic: article

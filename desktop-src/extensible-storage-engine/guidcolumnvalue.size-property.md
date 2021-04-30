@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GuidColumnValue.Size property"
 title: GuidColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.GuidColumnValue.Size

@@ -1,5 +1,5 @@
 ---
-Description: Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.
+description: Flags passed to the TraceRay function to override transparency, culling, and early-out behavior.
 ms.assetid: 
 title: RAY_FLAG enumeration
 ms.localizationpriority: low

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.MaxCoalesceReadGapSize field"
 title: Windows7Param.MaxCoalesceReadGapSize field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: MaxCoalesceReadGapSize field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.MaxCoalesceReadGapSize

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table.Close method"
 title: Table.Close method 
 TOCTitle: 'Close method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Table.Close

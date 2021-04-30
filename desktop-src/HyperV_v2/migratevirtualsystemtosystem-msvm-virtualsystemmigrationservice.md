@@ -1,5 +1,5 @@
 ---
-Description: Moves, migrates, or relocates a virtual system to a target system.
+description: Moves, migrates, or relocates a virtual system to a target system.
 ms.assetid: 3a0be791-4514-4ce2-b4e8-3735bd6ea1d7
 title: MigrateVirtualSystemToSystem method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -132,7 +132,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

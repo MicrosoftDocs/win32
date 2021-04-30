@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CRenderedInputPin.CRenderedInputPin constructor - Constructor method.
 ms.assetid: bf335750-b776-47bc-978d-e84e8b5259f7
 title: CRenderedInputPin.CRenderedInputPin constructor (Amextra.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ Wide-character string containing the pin name (also used as the pin identifier).
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amextra.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Wi-Fi Direct Interface Address.
+description: Wi-Fi Direct Interface Address.
 ms.assetid: bc4245f4-2452-479c-8e93-df8b3a517920
 title: System.Devices.WiFiDirect.InterfaceAddress
 ms.topic: article

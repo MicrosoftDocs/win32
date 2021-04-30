@@ -1,5 +1,5 @@
 ---
-Description: Most drawing carried out during processing of the WM\_PAINT message is asynchronous; that is, there is a delay between the time a portion of the window is invalidated and the time WM\_PAINT is sent.
+description: Most drawing carried out during processing of the WM\_PAINT message is asynchronous; that is, there is a delay between the time a portion of the window is invalidated and the time WM\_PAINT is sent.
 ms.assetid: c4eac615-6526-4ca6-854b-b4a598da13a4
 title: Synchronous and Asynchronous Drawing
 ms.topic: article

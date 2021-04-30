@@ -1,5 +1,5 @@
 ---
-Description: Rotates (relative to the object's local coordinate space) around an arbitrary axis.
+description: ID3DXMATRIXStack::RotateYawPitchRollLocal method (D3dx9math.h) - Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 ms.assetid: c69f5ea7-5d14-4187-9405-1ceff8230185
 title: ID3DXMATRIXStack::RotateYawPitchRollLocal method (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::RotateYawPitchRollLocal method
+# ID3DXMATRIXStack::RotateYawPitchRollLocal method (D3dx9math.h)
 
 Rotates (relative to the object's local coordinate space) around an arbitrary axis.
 
@@ -89,7 +89,7 @@ Because the rotation is left-multiplied to the matrix stack, the rotation is rel
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

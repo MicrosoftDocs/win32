@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int64ColumnValue methods"
 title: Int64ColumnValue methods
 TOCTitle: Int64ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Int64ColumnValue

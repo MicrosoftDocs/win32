@@ -1,5 +1,5 @@
 ---
-Description: The following is the complete listing of the application configuration file schema.
+description: The following is the complete listing of the application configuration file schema.
 ms.assetid: c673dbff-cb64-4e90-88a8-c5f2c259f1d3
 title: Application Configuration File Schema
 ms.topic: article

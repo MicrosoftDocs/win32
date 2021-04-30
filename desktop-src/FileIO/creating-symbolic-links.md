@@ -1,5 +1,5 @@
 ---
-Description: Create symbolic links that use either an absolute or relative path by using the CreateSymbolicLink function.
+description: Create symbolic links that use either an absolute or relative path by using the CreateSymbolicLink function.
 ms.assetid: 3821478d-87bb-4e47-8263-d977cf665503
 title: Creating Symbolic Links
 ms.topic: article

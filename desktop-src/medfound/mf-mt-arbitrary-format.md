@@ -1,5 +1,5 @@
 ---
-Description: Additional format data for a binary stream in an Advanced Systems Format (ASF) file.
+description: Additional format data for a binary stream in an Advanced Systems Format (ASF) file.
 ms.assetid: fc5b9890-1508-498e-b2ce-ed4fa2052f9c
 title: MF_MT_ARBITRARY_FORMAT attribute (Mfapi.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

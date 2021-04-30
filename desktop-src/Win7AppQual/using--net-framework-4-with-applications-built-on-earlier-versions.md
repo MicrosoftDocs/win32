@@ -1,5 +1,5 @@
 ---
-Description: Using .NET Framework 4 with Applications Built on Earlier Versions
+description: Using .NET Framework 4 with Applications Built on Earlier Versions
 ms.assetid: 287E25AD-A560-40DA-A4E6-C46A3123914E
 title: Using .NET Framework 4 with Applications Built on Earlier Versions
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platform
 
- **Clients** - Windows XP \| Windows Vista \| Windows 7  
-**Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+ **Clients** - Windows XP, Windows Vista, Windows 7  
+**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 
 ## Feature Impact

@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 0-499 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 0-499 defined in the WinError.h header file and is intended for developers.
 ms.assetid: cacb0aec-d438-4875-a96e-4e0239fdc6ba
 title: System Error Codes (0-499) (WinError.h)
 ms.topic: reference
@@ -3192,7 +3192,7 @@ Attempt to access invalid address.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                      |

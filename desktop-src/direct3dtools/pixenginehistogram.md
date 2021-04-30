@@ -1,5 +1,5 @@
 ---
-Description: Represents a histogram of a texture.
+description: Represents a histogram of a texture.
 MS-HAID: vspixengine.PixEngineHistogram
 MSHAttr:
 - PreferredSiteName:MSDN

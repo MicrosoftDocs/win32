@@ -1,5 +1,5 @@
 ---
-Description: The IsSyncPoint method determines if the beginning of the sample is a synchronization point. This method implements the IMediaSample::IsSyncPoint method.
+description: The IsSyncPoint method determines if the beginning of the sample is a synchronization point. This method implements the IMediaSample::IsSyncPoint method.
 ms.assetid: e57f78f4-7bb9-4e23-bcb4-55ad7ab5482c
 title: CMediaSample.IsSyncPoint method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The [**CMediaSample::m\_dwFlags**](cmediasample-m-dwflags.md) member variable sp
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The SESSION structure contains information about the current session.
+description: The SESSION structure contains information about the current session.
 ms.assetid: e04571f9-eeb7-4612-8cb2-05aca7b5df06
 title: SESSION structure
 ms.topic: reference

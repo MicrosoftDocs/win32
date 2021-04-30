@@ -1,5 +1,5 @@
 ---
-Description: The ITTerminal interface is the base interface for a Terminal object. It provides methods for obtaining information such as the terminal class and the media supported.
+description: The ITTerminal interface is the base interface for a Terminal object. It provides methods for obtaining information such as the terminal class and the media supported.
 ms.assetid: d76f22c1-3d7c-48cf-bd37-388482929676
 title: ITTerminal (MSPI)
 ms.topic: article

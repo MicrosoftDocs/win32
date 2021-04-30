@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.Equality operator"
 title: JET_BKINFO.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKINFO.op_Equality(Microsoft.Isam.Esent.Interop.JET_BKINFO,Microsoft.Isam.Esent.Interop.JET_BKINFO)

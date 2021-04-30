@@ -1,5 +1,5 @@
 ---
-Description: In the example that follows, the certificates in a local store are enumerated and checked for validity.
+description: In the example that follows, the certificates in a local store are enumerated and checked for validity.
 ms.assetid: 59ae22f6-aa6d-4b53-8a27-73e1e5c62755
 title: Collecting and Verifying Certificates
 ms.topic: article

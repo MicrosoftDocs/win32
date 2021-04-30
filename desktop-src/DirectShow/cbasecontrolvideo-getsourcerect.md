@@ -1,5 +1,5 @@
 ---
-Description: The GetSourceRect method retrieves the source rectangle. This is an internal method.
+description: The GetSourceRect method retrieves the source rectangle. This is an internal method.
 ms.assetid: 51028b79-6aab-4abc-8ee8-2965bda9d191
 title: CBaseControlVideo.GetSourceRect method (Ctlutil.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

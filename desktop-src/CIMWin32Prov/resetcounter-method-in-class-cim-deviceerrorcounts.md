@@ -1,5 +1,5 @@
 ---
-Description: The ResetCounter method resets the error and warning counters.
+description: The ResetCounter method resets the error and warning counters.
 ms.assetid: 5bc6c939-cd97-40ca-a16c-5227e7f27c76
 ms.tgt_platform: multiple
 title: ResetCounter method of the CIM_DeviceErrorCounts class
@@ -105,7 +105,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

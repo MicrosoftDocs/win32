@@ -1,5 +1,5 @@
 ---
-Description: The Unregister method removes the filter from the registry.
+description: The Unregister method removes the filter from the registry.
 ms.assetid: 2eb70e9f-1acf-433e-972f-24fb32eaeb13
 title: CBaseFilter.Unregister method (Amfilter.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Returns S\_OK if successful, or an **HRESULT** value indicating the cause of the
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

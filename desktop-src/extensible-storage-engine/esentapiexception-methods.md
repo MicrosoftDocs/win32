@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentApiException methods"
 title: EsentApiException methods
 TOCTitle: EsentApiException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentApiException

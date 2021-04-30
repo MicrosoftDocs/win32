@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of tablets attached to the system.
+description: Retrieves the number of tablets attached to the system.
 ms.assetid: b2027336-611b-4d17-8943-f16770effaf8
 title: ITabletManager::GetTabletCount method
 ms.topic: reference
@@ -61,7 +61,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

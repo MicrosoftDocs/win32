@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQueryNotSupportedException constructor"
 title: EsentQueryNotSupportedException constructor 
 TOCTitle: 'EsentQueryNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentQueryNotSupportedException.#ctor

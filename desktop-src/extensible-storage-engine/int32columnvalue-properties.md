@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Int32ColumnValue properties"
 title: Int32ColumnValue properties
 TOCTitle: Int32ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Int32ColumnValue

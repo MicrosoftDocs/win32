@@ -1,5 +1,5 @@
 ---
-Description: File compression of files that contain mostly zeros makes efficient use of disk space.
+description: File compression of files that contain mostly zeros makes efficient use of disk space.
 ms.assetid: 7326041d-f11e-4b80-ac4e-07173e418ce7
 title: Sparse Files
 ms.topic: article

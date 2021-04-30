@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentFatalException constructor"
 title: EsentFatalException constructor 
 TOCTitle: 'EsentFatalException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentFatalException.#ctor

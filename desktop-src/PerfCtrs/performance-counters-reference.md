@@ -1,5 +1,5 @@
 ---
-Description: 'Use the following programming elements to write applications that consume or provide performance counter data:'
+description: 'Use the following programming elements to write applications that consume or provide performance counter data:'
 ms.assetid: 8600f48f-0ef5-4ac2-bdb9-6d9700cae306
 title: Performance Counters Reference
 ms.topic: article

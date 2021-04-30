@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidParameterException properties"
 title: EsentInvalidParameterException properties
 TOCTitle: EsentInvalidParameterException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException

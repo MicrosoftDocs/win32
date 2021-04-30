@@ -1,5 +1,5 @@
 ---
-Description: Contains the zero-based index of a media stream for an MFPlay event.
+description: Contains the zero-based index of a media stream for an MFPlay event.
 ms.assetid: 086fcb1e-f75a-4f38-9fe1-77d30f64bc89
 title: MFP_PKEY_StreamIndex property (Mfplay.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ VT\_UI4
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |

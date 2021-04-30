@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCorruptedException methods"
 title: EsentSPAvailExtCorruptedException methods
 TOCTitle: EsentSPAvailExtCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCorruptedException

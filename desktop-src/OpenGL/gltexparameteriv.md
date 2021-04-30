@@ -1,6 +1,6 @@
 ---
 title: glTexParameteriv function (Gl.h)
-description: Sets texture parameters.
+description: Sets texture parameters. | glTexParameteriv function (Gl.h)
 ms.assetid: c6381ee5-5323-4e11-9c32-bc70f25f8f4e
 keywords:
 - glTexParameterfv function OpenGL
@@ -134,7 +134,7 @@ Suppose that texturing is enabled (by calling [**glEnable**](glenable.md) with a
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

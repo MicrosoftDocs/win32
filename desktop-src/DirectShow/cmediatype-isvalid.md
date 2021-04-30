@@ -1,5 +1,5 @@
 ---
-Description: The IsValid method determines whether a major type has been assigned to this object.
+description: The IsValid method determines whether a major type has been assigned to this object.
 ms.assetid: 22d28019-f360-4b93-972c-d1dfe83938f0
 title: CMediaType.IsValid method (Mtype.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ By default, [**CMediaType**](cmediatype.md) objects are initialized with a major
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -22,7 +22,7 @@ An attribute that defines in seconds how far in the past DNSSEC signature validi
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-Signature-Inception-Offset    |
 | Ldap-Display-Name | msDNS-SignatureInceptionOffset       |
@@ -43,7 +43,7 @@ An attribute that defines in seconds how far in the past DNSSEC signature validi
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

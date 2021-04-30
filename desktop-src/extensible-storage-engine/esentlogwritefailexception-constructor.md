@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogWriteFailException constructor"
 title: EsentLogWriteFailException constructor 
 TOCTitle: 'EsentLogWriteFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException.#ctor

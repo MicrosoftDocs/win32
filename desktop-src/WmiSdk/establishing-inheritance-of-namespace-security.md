@@ -1,5 +1,5 @@
 ---
-Description: You can control whether a child namespace inherits the security descriptor of the parent namespace.
+description: You can control whether a child namespace inherits the security descriptor of the parent namespace.
 ms.assetid: d4fbd5af-69e2-4c60-907a-cb2a1506b7c9
 ms.tgt_platform: multiple
 title: Establishing Inheritance of Namespace Security

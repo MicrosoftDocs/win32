@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PKEY_AudioEndpoint_PhysicalSpeakers"
 ms.assetid: 20049071-0a14-421e-8bc5-04af9c7117b0
 title: PKEY_AudioEndpoint_PhysicalSpeakers (Mmdeviceapi.h)
 ms.topic: reference
@@ -20,7 +21,7 @@ The **uintVal** member of the **PROPVARIANT** structure contains a channel-confi
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

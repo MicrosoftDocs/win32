@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Functions"
 title: Extensible Storage Engine Functions
 TOCTitle: Extensible Storage Engine Functions
 ms:assetid: c105fa69-e558-4e11-995c-dcf1e5cfbe7e

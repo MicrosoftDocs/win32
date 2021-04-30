@@ -1,5 +1,5 @@
 ---
-Description: Pointer to a CAMSchedule object that handles scheduling tasks for the clock.
+description: Pointer to a CAMSchedule object that handles scheduling tasks for the clock.
 ms.assetid: 6af7437f-313c-4a1e-a412-f82d3486264f
 title: CBaseReferenceClock::m_pSchedule member (Refclock.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CAMSchedule *m_pSchedule;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Refclock.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

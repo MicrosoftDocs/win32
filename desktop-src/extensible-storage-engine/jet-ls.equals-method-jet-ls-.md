@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS.Equals method (JET_LS)"
 title: JET_LS.Equals method (JET_LS)
 TOCTitle: Equals method (JET_LS)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LS.Equals(Microsoft.Isam.Esent.Interop.JET_LS)

@@ -1,5 +1,5 @@
 ---
-Description: The Count property is a read-only property that returns the number of items in the RecordList object.
+description: The Count property is a read-only property that returns the number of items in the RecordList object.
 ms.assetid: df384d5c-931f-4a31-af55-d013f010e100
 title: RecordList.Count property
 ms.topic: reference
@@ -40,7 +40,7 @@ The client must verify that the [**RecordList**](recordlist-object.md) object ex
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

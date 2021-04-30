@@ -60,7 +60,7 @@ The following constants are used to create a bitmask for the **ValidFields** mem
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                       |

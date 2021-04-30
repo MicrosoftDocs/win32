@@ -1,5 +1,5 @@
 ---
-Description: Properties are defined by the ICEnroll4 interface or are properties the ICEnroll4 interface inherits from ICEnroll, ICEnroll2, and ICEnroll3.
+description: Properties are defined by the ICEnroll4 interface or are properties the ICEnroll4 interface inherits from ICEnroll, ICEnroll2, and ICEnroll3.
 ms.assetid: 46b22654-4d04-438a-89b0-a261898debf7
 title: Properties of ICEnroll4
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Winsock network tracing event for socket close operation.
+description: Winsock network tracing event for socket close operation.
 ms.assetid: C59B2B51-288A-46C9-B390-26A18DB0C2FB
 title: AFD_EVENT_CLOSE event
 ms.topic: reference
@@ -88,7 +88,7 @@ The **AFD\_EVENT\_CLOSE** event is traced for a Winsock network operation to clo
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

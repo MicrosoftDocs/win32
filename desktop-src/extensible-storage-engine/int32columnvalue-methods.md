@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int32ColumnValue methods"
 title: Int32ColumnValue methods
 TOCTitle: Int32ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Int32ColumnValue

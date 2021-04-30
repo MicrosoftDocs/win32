@@ -1,5 +1,5 @@
 ---
-Description: The AdvisePeriodic method creates a periodic advise request. This method implements the IReferenceClock::AdvisePeriodic method.
+description: The AdvisePeriodic method creates a periodic advise request. This method implements the IReferenceClock::AdvisePeriodic method.
 ms.assetid: ddaf0861-df11-4008-8e9c-a0c53929cd3f
 title: CBaseReferenceClock.AdvisePeriodic method (Refclock.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ At each notification time, the clock releases the semaphore specified in the *hS
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Refclock.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

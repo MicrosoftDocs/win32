@@ -1,5 +1,5 @@
 ---
-Description: Returns the type of I/O bus used by the video output.
+description: Returns the type of I/O bus used by the video output.
 ms.assetid: 1aff4c81-ffa0-4116-b7ea-60b1b83042df
 title: OPM_GET_ADAPTER_BUS_TYPE (Opmapi.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Returns the type of I/O bus used by the video output.
 
 
 
-|              |                                                                             |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ADAPTER\_BUS\_TYPE                                                |
 | Input data   | None                                                                        |
@@ -32,7 +32,7 @@ This query is equivalent to the DXVA\_COPPQueryBusData query used in Certified O
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

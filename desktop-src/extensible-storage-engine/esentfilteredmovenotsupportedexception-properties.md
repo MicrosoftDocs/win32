@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFilteredMoveNotSupportedException properties"
 title: EsentFilteredMoveNotSupportedException properties
 TOCTitle: EsentFilteredMoveNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException

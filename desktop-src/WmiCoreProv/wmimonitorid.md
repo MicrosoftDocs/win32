@@ -1,5 +1,5 @@
 ---
-Description: Represents the identifying information about a video monitor, such as manufacturer name, year of manufacture, or serial number.
+description: Represents the identifying information about a video monitor, such as manufacturer name, year of manufacture, or serial number.
 ms.assetid: 85c8c4b1-20e2-4c0b-9209-a3724509a2f0
 title: WmiMonitorID class
 ms.topic: reference
@@ -23,6 +23,7 @@ api_type:
 - DllExport
 api_location: 
 - WmiProv.dll
+ms.custom: project-verbatim
 ---
 
 # WmiMonitorID class
@@ -42,7 +43,7 @@ class WmiMonitorID : MSMonitorClass
   uint16  SerialNumberID[];
   uint8   WeekOfManufacture;
   uint16  YearOfManufacture;
-  uint16  UserFriendlyName;
+  uint16  UserFriendlyName[];
   uint16  UserFriendlyNameLength;
 };
 ```
@@ -143,7 +144,7 @@ Serial number.
 UserFriendlyName
 </dt> <dd> <dl> <dt>
 
-Data type: **uint16**
+Data type: **uint16** array
 </dt> <dt>
 
 Access type: Read-only
@@ -202,7 +203,7 @@ The following PowerShell example retrieves the serial number of multiple monitor
 
 
 ```PowerShell
-gwmi WmiMonitorID -Namespace root\wmi | ForEach-Object {($_.UserFriendlyName -notmatch 0 | foreach {[char]$_}) -join ""; ($_.SerialNumberID -notmatch 0 | foreach {[char]$_}) -join ""}
+gwmi WmiMonitorID -Namespace root\wmi | ForEach-Object {($_.UserFriendlyName -ne 0 | foreach {[char]$_}) -join ""; ($_.SerialNumberID -ne 0 | foreach {[char]$_}) -join ""}
 ```
 
 
@@ -235,7 +236,7 @@ Next
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

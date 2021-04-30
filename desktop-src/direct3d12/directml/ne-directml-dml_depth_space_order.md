@@ -43,10 +43,10 @@ api_name:
 
 # DML_DEPTH_SPACE_ORDER enumeration (directml.h)
 
-Defines constants controlling the transform applied in the DirectML operators [DML_OPERATOR_DEPTH_TO_SPACE1](/windows/win32/api/directml/ne-directml-dml_operator_type) and **DML_OPERATOR_SPACE_TO_DEPTH1**. These are used within the [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_depth_to_space1_operator_desc) and [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_space_to_depth1_operator_desc) structures.
+Defines constants controlling the transform applied in the DirectML operators [DML_OPERATOR_DEPTH_TO_SPACE1](/windows/win32/api/directml/ne-directml-dml_operator_type) and **DML_OPERATOR_SPACE_TO_DEPTH1**. These are used within the [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) and [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) structures.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -60,12 +60,12 @@ typedef enum DML_DEPTH_SPACE_ORDER {
 
 | Name | Description |
 | ---- |:---- |
-| DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW | Causes tensors used in [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_depth_to_space1_operator_desc) and [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_space_to_depth1_operator_desc) to be interpreted with the following layouts, where dimensions in parenthesis are flattened together.<br><br>- **Depth version**: [Batch, (BlockHeight, BlockWidth, Channels), Height, Width]<br>- **Space version**: [Batch, Channels, (Height, BlockHeight), (Width, BlockWidth)] |
-| DML_DEPTH_SPACE_ORDER_COLUMN_ROW_DEPTH | Causes tensors used in [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_depth_to_space1_operator_desc) and [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_space_to_depth1_operator_desc) to be interpreted with the following layouts, where dimensions in parenthesis are flattened together.<br><br>- **Depth version**: [Batch, (Channels, BlockHeight, BlockWidth), Height, Width]<br>- **Space version**: [Batch, Channels, (Height, BlockHeight), (Width, BlockWidth)] |
+| DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW | Causes tensors used in [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) and [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) to be interpreted with the following layouts, where dimensions in parenthesis are flattened together.<br><br>- **Depth version**: [Batch, (BlockHeight, BlockWidth, Channels), Height, Width]<br>- **Space version**: [Batch, Channels, (Height, BlockHeight), (Width, BlockWidth)] |
+| DML_DEPTH_SPACE_ORDER_COLUMN_ROW_DEPTH | Causes tensors used in [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) and [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) to be interpreted with the following layouts, where dimensions in parenthesis are flattened together.<br><br>- **Depth version**: [Batch, (Channels, BlockHeight, BlockWidth), Height, Width]<br>- **Space version**: [Batch, Channels, (Height, BlockHeight), (Width, BlockWidth)] |
 
 ## Remarks
 
-See [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_depth_to_space1_operator_desc) and [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_space_to_depth1_operator_desc) documentation for examples showing the effect of these values.
+See [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) and [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) documentation for examples showing the effect of these values.
 
 ## Requirements
 | &nbsp; | &nbsp; |
@@ -74,8 +74,8 @@ See [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-di
 
 ## See also
 
-* [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_depth_to_space1_operator_desc)
-* [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_space_to_depth1_operator_desc)
+* [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md)
+* [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md)
 
 ## Availability
 This enumeration was introduced in `DML_FEATURE_LEVEL_2_1`.

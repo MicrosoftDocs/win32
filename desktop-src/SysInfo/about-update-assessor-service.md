@@ -1,5 +1,5 @@
 ---
-Description: The following topic describes how the Windows as a Service (WaaS) Assessment Platform API works.
+description: The following topic describes how the Windows as a Service (WaaS) Assessment Platform API works.
 ms.assetid: B107AAF3-4248-40EF-ABD2-C5B31602AEF7
 title: About the WaaS Assessment Platform
 ms.topic: article

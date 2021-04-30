@@ -22,7 +22,7 @@ The list of catalogs that index storage on a given computer.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Catalogs                                    |
 | Ldap-Display-Name | catalogs                                    |
@@ -48,7 +48,7 @@ The list of catalogs that index storage on a given computer.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -69,7 +69,7 @@ The list of catalogs that index storage on a given computer.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -90,7 +90,7 @@ The list of catalogs that index storage on a given computer.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -111,7 +111,7 @@ The list of catalogs that index storage on a given computer.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -132,7 +132,7 @@ The list of catalogs that index storage on a given computer.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -153,7 +153,7 @@ The list of catalogs that index storage on a given computer.
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

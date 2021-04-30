@@ -1,5 +1,5 @@
 ---
-Description: The installer is notified through this event when a feature or all features are selected for removal while keeping the present dialog box running.
+description: The installer is notified through this event when a feature or all features are selected for removal while keeping the present dialog box running.
 ms.assetid: dabe44f7-97dd-4037-80e5-f289bab6d4b3
 title: Remove ControlEvent
 ms.topic: article

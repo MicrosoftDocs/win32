@@ -6,10 +6,10 @@ ms.topic: article
 ms.date: 10/20/2020
 ---
 
-# Error Messages
+# Error Messages (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 An error message alerts users of a problem that has already occurred. By contrast, a warning message alerts users of a condition that might cause a problem in the future. Error messages can be presented using modal dialog boxes, in-place messages, notifications, or balloons.
 
@@ -327,7 +327,7 @@ If you can't suppress an unknown error, it is better to be up front about the la
 
 On the other hand, do provide specific, actionable information if it is likely to be helpful most of the time.
 
-![screen shot of message: server unavailable ](images/mess-error-image21.png)
+![Screenshot that shows an Office Communicator 'server unavailable' message. ](images/mess-error-image21.png)
 
 This error message is suitable for an unknown error if network connectivity is usually the problem.
 
@@ -483,15 +483,15 @@ In this example, an in-place error is used for an error found by clicking the co
 - **Use an error icon.** Exceptions:
   - If the error is a user input problem displayed using a modal dialog box or balloon, don't use an icon. Doing so is counter to the encouraging tone of Windows. However, in-place error messages should use a small error icon (16x16 pixel) to clearly identify them as error messages.
 
-        ![screen shot of message incorrect postal format ](images/mess-error-image38.png)
+     ![screen shot of message incorrect postal format](images/mess-error-image38.png)
 
-        ![screen shot of message computer name too long ](images/mess-error-image39.png)
+     ![screen shot of message computer name too long](images/mess-error-image39.png)
 
-        In these examples, user input problems don't need error icons.
+     In these examples, user input problems don't need error icons.
 
-        ![screen shot of message phone number wrong format ](images/mess-error-image40.png)
+     ![screen shot of message phone number wrong format](images/mess-error-image40.png)
 
-        In this example, an in-place error message needs a small error icon to clearly identify it as an error message.
+     In this example, an in-place error message needs a small error icon to clearly identify it as an error message.
 
 - If the problem is for a feature that has an icon (and not a user input problem), you can use the feature icon with an error overlay. If you do this, also use the feature name as the error's subject.
 
@@ -659,7 +659,7 @@ We're sorry, but Fabrikam Backup detected an unrecoverable problem and was shut 
 
 **Incorrect:**
 
-![screen shot of message: can't open this item ](images/mess-error-image52.png)
+![Screenshot that shows a Microsoft Office Outlook 'Can't open this item' message. ](images/mess-error-image52.png)
 
 **Correct:**
 
@@ -690,7 +690,7 @@ For more guidelines and examples, see [Style and Tone](text-style-tone.md).
 
 **Incorrect:**
 
-![screen shot of message: can't rename new folder ](images/mess-error-image55.png)
+![Screenshot that shows a 'Can't rename new folder' message. ](images/mess-error-image55.png)
 
 In this example, the title is being incorrectly used to explain the problem.
 
@@ -792,7 +792,7 @@ In this example, most likely the problem is with the user's network connection, 
 
 **Incorrect:**
 
-![screen shot of message: can't open this item ](images/mess-error-image61.png)
+![Screenshot that shows a 'Can't open this item' message. ](images/mess-error-image61.png)
 
 In this example, the error message incorrectly recommends contacting technical support.
 

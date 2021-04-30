@@ -59,7 +59,7 @@ If an application does not provide an object, it must set **pObject** to **NULL*
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_RESTRICTEDSHAREDRESOURCEPROCESS query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_RESTRICTEDSHAREDRESOURCEPROCESS query.
 ms.assetid: 763c56b5-b240-4bad-b601-07959ed37479
 title: D3DAUTHENTICATEDCHANNEL_QUERYRESTRICTEDSHAREDRESOURCEPROCESS_OUTPUT structure (D3d9types.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ The Desktop Window Manager (DWM) process is identified by setting **ProcessIdent
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

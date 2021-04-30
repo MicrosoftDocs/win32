@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBookmarkException properties"
 title: EsentBadBookmarkException properties
 TOCTitle: EsentBadBookmarkException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadBookmarkException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationFailException constructor"
 title: EsentUnicodeTranslationFailException constructor 
 TOCTitle: 'EsentUnicodeTranslationFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException.#ctor

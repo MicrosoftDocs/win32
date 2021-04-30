@@ -22,7 +22,7 @@ String that contains the vendorID:Number installed on a router. The VendorID is 
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-RRAS-Attribute                           |
 | Ldap-Display-Name | msRRASAttribute                             |
@@ -48,7 +48,7 @@ String that contains the vendorID:Number installed on a router. The VendorID is 
 
 
 
-|                        |                                                                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                             |
 | MAPI-Id                | \-                                                                                             |
@@ -69,7 +69,7 @@ String that contains the vendorID:Number installed on a router. The VendorID is 
 
 
 
-|                        |                                                                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                             |
 | MAPI-Id                | \-                                                                                             |
@@ -90,7 +90,7 @@ String that contains the vendorID:Number installed on a router. The VendorID is 
 
 
 
-|                        |                                                                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                             |
 | MAPI-Id                | \-                                                                                             |
@@ -111,7 +111,7 @@ String that contains the vendorID:Number installed on a router. The VendorID is 
 
 
 
-|                        |                                                                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                             |
 | MAPI-Id                | \-                                                                                             |
@@ -132,7 +132,7 @@ String that contains the vendorID:Number installed on a router. The VendorID is 
 
 
 
-|                        |                                                                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                             |
 | MAPI-Id                | \-                                                                                             |
@@ -153,7 +153,7 @@ String that contains the vendorID:Number installed on a router. The VendorID is 
 
 
 
-|                        |                                                                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                             |
 | MAPI-Id                | \-                                                                                             |

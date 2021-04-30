@@ -1,5 +1,5 @@
 ---
-Description: Aspect Ratio Correction
+description: Aspect Ratio Correction
 ms.assetid: 0ed6010b-9168-44b1-be49-0c9d5d77ce3f
 title: Aspect Ratio Correction
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CImagePalette class manages palettes for video renderers. It can be used to create a logical palette from a video format. This class is intended to be used with the CBaseWindow and CDrawImage classes, so it is somewhat specialized.
+description: The CImagePalette class manages palettes for video renderers. It can be used to create a logical palette from a video format. This class is intended to be used with the CBaseWindow and CDrawImage classes, so it is somewhat specialized.
 ms.assetid: dcbe5049-0e8c-4221-825a-0fd8e6efd2a5
 title: CImagePalette class
 ms.topic: reference

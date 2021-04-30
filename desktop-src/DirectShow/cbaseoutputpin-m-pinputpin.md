@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the input pin connected to this pin.
+description: Pointer to the input pin connected to this pin.
 ms.assetid: 752f01ca-4195-4558-9a81-4a6a24e19b75
 title: CBaseOutputPin::m_pInputPin member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ IMemInputPin *m_pInputPin;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Windows Security Center
+description: Windows Security Center
 ms.assetid: FF0D7B81-AFDC-4DB2-B2B0-0D2536B2757B
 title: Windows Security Center
 ms.topic: article

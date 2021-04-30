@@ -1,5 +1,5 @@
 ---
-Description: Set the new active configuration of the collector.
+description: Set the new active configuration of the collector.
 ms.assetid: 1979e657-a8f3-4eab-991c-a884bde10724
 ms.tgt_platform: multiple
 title: SetConfiguration method of the Control class
@@ -174,7 +174,7 @@ Success
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

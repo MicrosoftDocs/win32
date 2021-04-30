@@ -1,5 +1,5 @@
 ---
-Description: ICE47 checks the Feature and FeatureComponents tables for features with 1600 or more components.
+description: ICE47 checks the Feature and FeatureComponents tables for features with 1600 or more components.
 ms.assetid: e3101569-4d0b-48c9-8ba2-6f0de0c39e74
 title: ICE47
 ms.topic: article

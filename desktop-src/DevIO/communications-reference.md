@@ -1,5 +1,5 @@
 ---
-Description: The following elements are used with communications resources.
+description: The following elements are used with communications resources.
 ms.assetid: 0bee52ac-0454-4c80-8452-d4ab32f45771
 title: Communications Reference
 ms.topic: article

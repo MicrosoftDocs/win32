@@ -1,5 +1,5 @@
 ---
-Description: The following table shows the various methods that the application can use to handle the caret, justification, and clusters.
+description: The following table shows the various methods that the application can use to handle the caret, justification, and clusters.
 ms.assetid: 950a24b4-62ab-4eaf-ac15-87434d3c28c0
 title: Working with Relationships Among Caret Positions, Justification Points, and Clusters
 ms.topic: article

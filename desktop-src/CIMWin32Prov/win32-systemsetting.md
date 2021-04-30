@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemSetting abstract association WMI class relates a computer system and a general setting on that system.
+description: The Win32\_SystemSetting abstract association WMI class relates a computer system and a general setting on that system.
 ms.assetid: 796ee263-2526-43f8-bd3d-23442b6bd4ca
 ms.tgt_platform: multiple
 title: Win32_SystemSetting class
@@ -87,7 +87,7 @@ The **Win32\_SystemSetting** class is derived from [**CIM\_ElementSetting**](cim
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

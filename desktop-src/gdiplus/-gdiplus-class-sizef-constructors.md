@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the SizeF class. For a complete class listing, see SizeF Class.
+description: This topic lists the constructors of the SizeF class. For a complete class listing, see SizeF Class.
 ms.assetid: 4aeaaead-0abb-48c3-a152-54b589d59646
 title: SizeF.SizeF constructors
 ms.topic: reference

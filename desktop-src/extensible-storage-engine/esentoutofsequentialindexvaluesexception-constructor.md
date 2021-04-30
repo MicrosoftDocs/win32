@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSequentialIndexValuesException constructor"
 title: EsentOutOfSequentialIndexValuesException constructor 
 TOCTitle: 'EsentOutOfSequentialIndexValuesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException.#ctor

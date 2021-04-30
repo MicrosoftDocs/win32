@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileSizeMismatchException properties"
 title: EsentLogFileSizeMismatchException properties
 TOCTitle: EsentLogFileSizeMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchException

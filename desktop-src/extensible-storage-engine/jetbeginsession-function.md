@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginSession Function"
 title: JetBeginSession Function
 TOCTitle: JetBeginSession Function
 ms:assetid: f1c33b78-f2d1-44ea-8ec9-94b729b94e24

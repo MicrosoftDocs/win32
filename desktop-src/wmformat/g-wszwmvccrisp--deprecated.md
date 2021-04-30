@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCCrisp (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCCrisp (Wmcodecdsp.h)
 ms.assetid: 2a7527ac-6057-47a1-ab3b-5ccdd6fe8586
 keywords:
 - g_wszWMVCCrisp windows Media Format
@@ -24,7 +24,7 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithErrorsException properties"
 title: EsentRecoveredWithErrorsException properties
 TOCTitle: EsentRecoveredWithErrorsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException

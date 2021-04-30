@@ -1,6 +1,6 @@
 ---
 title: IBasicDevice add_ConnectionStatusChanged method
-description: Registers an event handler for the ConnectionStatusChanged event.
+description: Registers an event handler for the ConnectionStatusChanged event. | IBasicDevice add_ConnectionStatusChanged method
 ms.assetid: 1A4CCEFE-B6B6-4AFD-9296-EE923B9EF399
 keywords:
 - add_ConnectionStatusChanged method Media Streaming API

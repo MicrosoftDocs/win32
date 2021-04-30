@@ -46,7 +46,7 @@ This method is used for displaying visualization titles in a user interface.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

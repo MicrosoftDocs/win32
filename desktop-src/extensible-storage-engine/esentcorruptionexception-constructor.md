@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentCorruptionException constructor"
 title: EsentCorruptionException constructor 
 TOCTitle: 'EsentCorruptionException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentCorruptionException.#ctor

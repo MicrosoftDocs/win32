@@ -1,5 +1,5 @@
 ---
-Description: Sends a ray into a search for hits in an acceleration structure.
+description: Sends a ray into a search for hits in an acceleration structure.
 ms.assetid: 
 title: TraceRay function
 ms.localizationpriority: low
@@ -57,7 +57,7 @@ if(!((InstanceInclusionMask & InstanceMask) & 0xff)) { //ignore intersection }
 
 An unsigned integer specifying the offset to add into addressing calculations within shader tables for hit group indexing.  Only the bottom 4 bits of this value are used.
 
-`MultiplierForGeometryContributionToShaderIndex`
+`MultiplierForGeometryContributionToHitGroupIndex`
 
 An unsigned integer specifying the stride to multiply by *GeometryContributionToHitGroupIndex*, which is just the 0 based index the geometry was supplied by the app into its bottom-level acceleration structure. Only the bottom 16 bits of this multiplier value are used.
 

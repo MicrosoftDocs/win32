@@ -1,5 +1,5 @@
 ---
-Description: Launches the Passport Wizard when used with Rundll32.exe.
+description: Launches the Passport Wizard when used with Rundll32.exe.
 title: PassportWizardRunDll function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -103,7 +103,7 @@ Using an entry point function with Rundll32.exe does not resemble a normal funct
 
 
 
-|                                     |                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                            |

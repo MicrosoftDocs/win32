@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE class"
 title: JET_OPENTEMPORARYTABLE class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_OPENTEMPORARYTABLE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE

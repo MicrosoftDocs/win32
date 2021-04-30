@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidIndexIdException members"
 title: EsentInvalidIndexIdException members
 TOCTitle: EsentInvalidIndexIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidIndexIdException

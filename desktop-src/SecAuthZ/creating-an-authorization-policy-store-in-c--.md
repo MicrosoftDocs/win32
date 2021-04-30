@@ -1,5 +1,5 @@
 ---
-Description: Instructions for using the Authorization Manager API to create an authorization policy store in C++.
+description: Instructions for using the Authorization Manager API to create an authorization policy store in C++.
 ms.assetid: a350f25a-7cda-4879-82d1-151a3da7d8ec
 title: Creating an Authorization Policy Store in C++
 ms.topic: article

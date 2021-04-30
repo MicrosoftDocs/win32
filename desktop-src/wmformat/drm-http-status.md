@@ -17,7 +17,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DRM\_HTTP\_STATUS enumeration
+# DRM_HTTP_STATUS enumeration (Drmexternals.h)
 
 The **DRM\_HTTP\_STATUS** enumeration type defines a range of states for a [*DRM*](wmformat-glossary.md) request.
 
@@ -83,7 +83,7 @@ This enumeration is used by the [**WM\_INDIVIDUALIZE\_STATUS**](wm-individualize
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |

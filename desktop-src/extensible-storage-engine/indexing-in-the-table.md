@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Indexing in the Table"
 title: Indexing in the Table
 TOCTitle: Indexing in the Table
 ms:assetid: d86c2c6b-d001-468d-ab74-937911b0036d

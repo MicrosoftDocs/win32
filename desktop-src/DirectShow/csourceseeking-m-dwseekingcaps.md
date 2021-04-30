@@ -1,5 +1,5 @@
 ---
-Description: Seeking capabilities.
+description: Seeking capabilities.
 ms.assetid: c849db20-7567-41e0-9a57-85070a6e6a3a
 title: CSourceSeeking::m_dwSeekingCaps member (Ctlutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ If the filter supports a different set of capabilities, override this value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

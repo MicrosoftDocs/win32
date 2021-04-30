@@ -1,5 +1,5 @@
 ---
-Description: 'Clusters may be referred to from two different perspectives: within the file and on the volume.'
+description: 'Clusters may be referred to from two different perspectives: within the file and on the volume.'
 ms.assetid: 8e999524-4fe9-49b0-8b59-081fa7a42c72
 title: Clusters and Extents
 ms.topic: article

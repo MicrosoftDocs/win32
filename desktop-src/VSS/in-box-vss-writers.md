@@ -1,5 +1,5 @@
 ---
-Description: The Windows operating system includes a set of VSS writers that are responsible for enumerating the data that is required by various Windows features. These are referred to as &\#0034;in-box&\#0034; writers.
+description: The Windows operating system includes a set of VSS writers that are responsible for enumerating the data that is required by various Windows features. These are referred to as &\#0034;in-box&\#0034; writers.
 ms.assetid: e20a303d-9440-42be-b383-85f6fad89157
 title: In-Box VSS Writers
 ms.topic: article

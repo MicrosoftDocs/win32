@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotPrepare Function"
 title: JetOSSnapshotPrepare Function
 TOCTitle: JetOSSnapshotPrepare Function
 ms:assetid: 364cbcba-7ddb-4748-8417-e885a5984b0d

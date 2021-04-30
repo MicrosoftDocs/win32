@@ -1,5 +1,5 @@
 ---
-Description: The IAMTimelineVirtualTrack interface provides methods for working with virtual tracks in DirectShow Editing Services (DES). Compositions and tracks support this interface.
+description: The IAMTimelineVirtualTrack interface provides methods for working with virtual tracks in DirectShow Editing Services (DES). Compositions and tracks support this interface.
 ms.assetid: 69d1d2ea-d33f-406d-a9ca-ddfb890bed34
 title: IAMTimelineVirtualTrack interface (Qedit.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ The **IAMTimelineVirtualTrack** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The get\_EnumerationIf method gets a pointer to a media enumeration interface.
+description: The get\_EnumerationIf method gets a pointer to a media enumeration interface.
 ms.assetid: d5f1e10f-e5ad-45e6-a5ec-024905603012
 title: ITMediaCollection::get_EnumerationIf method (Sdpblb.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ TAPI calls the **AddRef** method on the [**IEnumMedia**](ienummedia.md) interfac
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

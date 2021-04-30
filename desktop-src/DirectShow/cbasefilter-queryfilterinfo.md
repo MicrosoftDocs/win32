@@ -1,5 +1,5 @@
 ---
-Description: The QueryFilterInfo method retrieves information about the filter. This method implements the IBaseFilter::QueryFilterInfo method.
+description: The QueryFilterInfo method retrieves information about the filter. This method implements the IBaseFilter::QueryFilterInfo method.
 ms.assetid: 0c25aa9e-933c-4c45-a1cc-ffc9253dd561
 title: CBaseFilter.QueryFilterInfo method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The method sets the **pGraph** member of the FILTER\_INFO structure equal to the
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

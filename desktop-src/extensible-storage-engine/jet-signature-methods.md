@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE methods"
 title: JET_SIGNATURE methods
 TOCTitle: JET_SIGNATURE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SIGNATURE

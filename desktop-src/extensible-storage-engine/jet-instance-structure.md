@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE structure"
 title: JET_INSTANCE structure
 TOCTitle: JET_INSTANCE structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INSTANCE

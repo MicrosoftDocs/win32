@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T>.Length property"
 title: ColumnValueOfStruct(T).Length property 
 TOCTitle: 'Length property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.Length

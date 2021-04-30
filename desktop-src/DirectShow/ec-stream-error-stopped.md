@@ -1,5 +1,5 @@
 ---
-Description: A stream has stopped because of an error.
+description: A stream has stopped because of an error.
 ms.assetid: bee05025-161e-49b7-8c9b-79e1ed28315f
 title: EC_STREAM_ERROR_STOPPED (Dshow.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ None.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

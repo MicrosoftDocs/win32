@@ -1,5 +1,5 @@
 ---
-Description: Starting in Windows 7, Microsoft Media Foundation exposes metadata through the IPropertyStore interface.
+description: Starting in Windows 7, Microsoft Media Foundation exposes metadata through the IPropertyStore interface.
 ms.assetid: d219d3f1-3940-46ed-9811-3cf8bf1eec55
 title: Shell Metadata Providers
 ms.topic: article

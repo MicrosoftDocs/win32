@@ -1,6 +1,6 @@
 ---
 title: Getting started (DirectXMath)
-Description: The DirectXMath Library implements an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3×3 and 4×4).
+description: The DirectXMath Library implements an optimal and portable interface for arithmetic and linear algebra operations on single-precision floating-point vectors (2D, 3D, and 4D) or matrices (3×3 and 4×4).
 ms.assetid: 9972e382-7a0f-88a7-ad44-18521af3520d
 ms.topic: article
 ms.date: 05/31/2018
@@ -83,7 +83,7 @@ You should think of [**XMVECTOR**](xmvector-data-type.md) as a proxy for a SIMD 
 Allocations from the heap, however, are more complicated. As such, you need to be careful whenever you use either [**XMVECTOR**](xmvector-data-type.md) or [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) as a member of a class or structure to be allocated from the heap. On Windows x64, all heap allocations are 16-byte aligned, but for Windows x86, they are only 8-byte aligned. There are options for allocating structures from the heap with 16-byte alignment (see [Properly Align Allocations](pg-xnamath-optimizing.md)). For C++ programs, you can use operator new/delete/new\[\]/delete\[\] overloads (either globally or class-specific) to enforce optimal alignment if desired.
 
 > [!Note]  
-> As an alternative to enforcing alignment in your C++ class directly by overloading new/delete, you can use the [pImpl idiom](https://en.wikipedia.org/wiki/Opaque_pointer). If you ensure your **Impl** class is aligned via [**\_\_aligned\_malloc**](https://msdn.microsoft.com/library/8z34s9c6(v=VS.71).aspx) internally, you can then freely use aligned types within the internal implementation. This is a good option when the 'public' class is a Windows Runtime ref class or intended for use with [**std::shared\_ptr<>**](/previous-versions/visualstudio/visual-studio-2008/bb982026(v=vs.90)), which can otherwise disrupt careful alignment.
+> As an alternative to enforcing alignment in your C++ class directly by overloading new/delete, you can use the [pImpl idiom](https://en.wikipedia.org/wiki/Opaque_pointer). If you ensure your **Impl** class is aligned via [**\_aligned\_malloc**](/cpp/c-runtime-library/reference/aligned-malloc) internally, you can then freely use aligned types within the internal implementation. This is a good option when the 'public' class is a Windows Runtime ref class or intended for use with [**std::shared\_ptr<>**](/cpp/standard-library/shared-ptr-class), which can otherwise disrupt careful alignment.
 
  
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileUnknownException members"
 title: EsentSLVFileUnknownException members
 TOCTitle: EsentSLVFileUnknownException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDeepCloneable<T> methods"
 title: IDeepCloneable(T) methods
 TOCTitle: IDeepCloneable(T) methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1

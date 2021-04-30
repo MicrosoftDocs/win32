@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDeleteBackupFileFailException class"
 title: EsentDeleteBackupFileFailException class
 TOCTitle: EsentDeleteBackupFileFailException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException

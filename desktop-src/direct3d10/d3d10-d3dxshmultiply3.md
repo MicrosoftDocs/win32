@@ -1,5 +1,5 @@
 ---
-Description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 3.
+description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 3.
 ms.assetid: 2845f90f-c8a0-4ca9-b2f6-7491a2b4763b
 title: D3DXSHMultiply3 function (D3DX10Math.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ sum_i(y_i(s)*c_i)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: The ICategory interface defines the following properties.
+description: The ICategory interface defines the following properties.
 ms.assetid: aa9c4dbb-5e33-47b7-ae6c-8d83010e205b
 title: ICategory Properties
 ms.topic: article

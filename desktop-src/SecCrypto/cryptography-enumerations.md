@@ -1,5 +1,5 @@
 ---
-Description: The following enumerations are used by cryptography functions and methods.
+description: The following enumerations are used by cryptography functions and methods.
 ms.assetid: 305038c0-754d-4406-9689-716d11964700
 title: Cryptography Enumerations
 ms.topic: article

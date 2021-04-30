@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileAlreadyExistsException constructor"
 title: EsentSLVStreamingFileAlreadyExistsException constructor 
 TOCTitle: 'EsentSLVStreamingFileAlreadyExistsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileAlreadyExistsException.#ctor

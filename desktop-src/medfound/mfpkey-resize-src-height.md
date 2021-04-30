@@ -1,5 +1,5 @@
 ---
-Description: Specifies the height of the source rectangle, in pixels.
+description: Specifies the height of the source rectangle, in pixels.
 ms.assetid: 418bcd69-9dde-4bc3-9897-f465d12536a1
 title: MFPKEY_RESIZE_SRC_HEIGHT Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ VT\_I4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyActiveUsersException members"
 title: EsentTooManyActiveUsersException members
 TOCTitle: EsentTooManyActiveUsersException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyActiveUsersException

@@ -22,7 +22,7 @@ Contains the minor version of the schema of DFS metadata.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFS-Schema-Minor-Version          |
 | Ldap-Display-Name | msDFS-SchemaMinorVersion             |
@@ -45,7 +45,7 @@ Contains the minor version of the schema of DFS metadata.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -66,7 +66,7 @@ Contains the minor version of the schema of DFS metadata.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -87,7 +87,7 @@ Contains the minor version of the schema of DFS metadata.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

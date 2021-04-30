@@ -1,5 +1,5 @@
 ---
-Description: The DbgTerminate function cleans up the debug library. Ignored in retail builds.
+description: The DbgTerminate function cleans up the debug library. Ignored in retail builds.
 ms.assetid: a0e23c57-b4b5-4bcf-8c63-0dee40cc71a7
 title: DbgTerminate function (Wxdebug.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Call this function if you call the [**DbgInitialise**](dbginitialise.md) functio
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance fields"
 title: Instance fields
 TOCTitle: Instance fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Instance

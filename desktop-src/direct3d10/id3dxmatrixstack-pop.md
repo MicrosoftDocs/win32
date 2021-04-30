@@ -1,5 +1,5 @@
 ---
-Description: Removes the current matrix from the top of the stack.
+description: ID3DXMATRIXStack::Pop method (D3DX10.h) - Removes the current matrix from the top of the stack.
 ms.assetid: f4e4ff5d-a7a1-4f87-9b7e-53b9d044ba51
 title: ID3DXMATRIXStack::Pop method (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::Pop method
+# ID3DXMATRIXStack::Pop method (D3DX10.h)
 
 Removes the current matrix from the top of the stack.
 
@@ -47,7 +47,7 @@ Note that this method decrements the count of items on the stack by 1, effective
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

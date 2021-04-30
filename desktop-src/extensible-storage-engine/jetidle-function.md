@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetIdle Function"
 title: JetIdle Function
 TOCTitle: JetIdle Function
 ms:assetid: 77e036eb-b894-4ff7-b14f-1564bf21873f

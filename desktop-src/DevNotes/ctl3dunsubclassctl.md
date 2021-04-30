@@ -1,5 +1,5 @@
 ---
-Description: Turns off subclassing for the specified control.
+description: Turns off subclassing for the specified control.
 ms.assetid: d4d34624-7d85-4c53-8318-b3e5d6f95f7a
 title: Ctl3dUnsubclassCtl function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

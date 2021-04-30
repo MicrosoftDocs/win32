@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfFileHandlesException constructor"
 title: EsentOutOfFileHandlesException constructor 
 TOCTitle: 'EsentOutOfFileHandlesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesException.#ctor

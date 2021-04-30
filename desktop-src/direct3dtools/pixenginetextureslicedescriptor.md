@@ -1,5 +1,5 @@
 ---
-Description: Represents a description of a texture slice.
+description: Represents a description of a texture slice.
 MS-HAID: vspixengine.PixEngineTextureSliceDescriptor
 MSHAttr:
 - PreferredSiteName:MSDN

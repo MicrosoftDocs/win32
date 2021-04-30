@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseCorruptedException constructor"
 title: EsentDatabaseCorruptedException constructor 
 TOCTitle: 'EsentDatabaseCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedException.#ctor

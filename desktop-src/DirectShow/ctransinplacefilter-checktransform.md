@@ -1,5 +1,5 @@
 ---
-Description: The CheckTransform method checks whether an input media type is compatible with an output media type. This method overrides the CTransformFilter::CheckTransform method.
+description: The CheckTransform method checks whether an input media type is compatible with an output media type. This method overrides the CTransformFilter::CheckTransform method.
 ms.assetid: d0953014-4a49-4738-a449-c247396a6794
 title: CTransInPlaceFilter.CheckTransform method (Transip.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The **CTransInPlace** filter never calls `CheckTransform`. Instead, all pin conn
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

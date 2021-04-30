@@ -1,5 +1,5 @@
 ---
-Description: Changes the current top alternate to the specified alternate and clears the confirmation type for all IContextNode objects associated with the alternate.
+description: Changes the current top alternate to the specified alternate and clears the confirmation type for all IContextNode objects associated with the alternate.
 ms.assetid: a4ff7e82-623f-4501-9641-5235c3083757
 title: IInkAnalyzer::ModifyTopAlternate method (IACom.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ To change the confirmation type for a context node, use [**IContextNode::Confirm
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

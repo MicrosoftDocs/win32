@@ -1,5 +1,5 @@
 ---
-Description: Provides the ability to return a filtered list of CIM\_BaseMetricValue instances.
+description: Provides the ability to return a filtered list of CIM\_BaseMetricValue instances.
 ms.assetid: c207a0ef-11f1-42c4-af77-3dcf3fbff8a7
 title: GetMetricValues method of the CIM_MetricService class
 ms.topic: reference
@@ -118,7 +118,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

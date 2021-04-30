@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsNotArmedException constructor"
 title: EsentRfsNotArmedException constructor 
 TOCTitle: 'EsentRfsNotArmedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRfsNotArmedException.#ctor

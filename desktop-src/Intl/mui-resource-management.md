@@ -1,5 +1,5 @@
 ---
-Description: Your globalized application must define a variety of user interface elements, such as menus, dialog boxes, help strings, and other items, represented as localized resources.
+description: Your globalized application must define a variety of user interface elements, such as menus, dialog boxes, help strings, and other items, represented as localized resources.
 ms.assetid: 4d8b769d-0830-4e4e-b284-ce0b21dfe5d4
 title: MUI Resource Management
 ms.topic: article

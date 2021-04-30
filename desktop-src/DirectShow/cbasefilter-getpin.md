@@ -1,5 +1,5 @@
 ---
-Description: The GetPin method retrieves a pin. The CEnumPins class calls this method to enumerate pins on the filter.
+description: The GetPin method retrieves a pin. The CEnumPins class calls this method to enumerate pins on the filter.
 ms.assetid: e3ec3f11-1e7d-40b6-810e-3759f0511cb2
 title: CBaseFilter.GetPin method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ You must implement this pure virtual method in your derived class. Return a poin
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

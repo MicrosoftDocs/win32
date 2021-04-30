@@ -1,6 +1,6 @@
 ---
 title: DataDefinitionType Complex Type
-description: Defines a data item that you want to include with the event.
+description: Defines a data item that you want to include with the event. | DataDefinitionType Complex Type
 ms.assetid: f4234e54-a5a8-48e4-941f-05107dcd3f88
 keywords:
 - DataDefinitionType complex type EventLog
@@ -202,7 +202,7 @@ The following are a few examples of the data item definitions.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

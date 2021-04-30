@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Chip class represents the type of integrated circuit hardware, including ASICs, processors, memory chips, and so on.
+description: The CIM\_Chip class represents the type of integrated circuit hardware, including ASICs, processors, memory chips, and so on.
 ms.assetid: 3c2b0023-5d02-49b9-90f5-d66eb8a103f0
 ms.tgt_platform: multiple
 title: CIM_Chip class
@@ -687,7 +687,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

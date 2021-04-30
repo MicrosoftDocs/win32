@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentContainerNotEmptyException class"
 title: EsentContainerNotEmptyException class
 TOCTitle: EsentContainerNotEmptyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException

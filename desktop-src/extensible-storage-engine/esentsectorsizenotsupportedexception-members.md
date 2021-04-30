@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSectorSizeNotSupportedException members"
 title: EsentSectorSizeNotSupportedException members
 TOCTitle: EsentSectorSizeNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException

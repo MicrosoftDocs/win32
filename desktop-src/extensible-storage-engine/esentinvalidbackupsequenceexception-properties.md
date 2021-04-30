@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBackupSequenceException properties"
 title: EsentInvalidBackupSequenceException properties
 TOCTitle: EsentInvalidBackupSequenceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidBackupSequenceException

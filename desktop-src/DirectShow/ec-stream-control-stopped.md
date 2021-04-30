@@ -1,5 +1,5 @@
 ---
-Description: A stream-control stop command has taken effect.
+description: A stream-control stop command has taken effect.
 ms.assetid: a2f7a959-fafd-47ff-9b3d-1a898fdb1f81
 title: EC_STREAM_CONTROL_STOPPED (Dshow.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The *dwCookie* parameter is specified by the application in the [**StopAt**](/wi
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

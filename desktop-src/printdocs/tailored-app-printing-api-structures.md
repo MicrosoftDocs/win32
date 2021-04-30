@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Print Document Package API Structures"
 ms.assetid: B9E4F9DB-C92E-49B9-999C-AB0AC5841F3B
 title: Print Document Package API Structures
 ms.topic: article

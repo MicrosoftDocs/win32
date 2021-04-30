@@ -1,6 +1,6 @@
 ---
 title: glPushClientAttrib function (Gl.h)
-description: The glPushClientAttrib and glPopClientAttrib functions save and restore groups of client-state variables on the client-attribute stack.
+description: The glPushClientAttrib and glPopClientAttrib functions save and restore groups of client-state variables on the client-attribute stack. | glPushClientAttrib function (Gl.h)
 ms.assetid: 69f28af6-1023-4546-95ff-169525c23b07
 keywords:
 - glPushClientAttrib function OpenGL
@@ -97,7 +97,7 @@ The following functions retrieve information related to **glPushClientAttrib** a
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

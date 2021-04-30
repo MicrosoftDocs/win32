@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.genMinRequired property"
 title: JET_DBINFOMISC.genMinRequired property 
 TOCTitle: 'genMinRequired property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.genMinRequired

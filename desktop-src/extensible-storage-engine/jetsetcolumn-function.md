@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetColumn Function"
 title: JetSetColumn Function
 TOCTitle: JetSetColumn Function
 ms:assetid: f8877519-86d5-4e59-95a8-1927c70cd6b4

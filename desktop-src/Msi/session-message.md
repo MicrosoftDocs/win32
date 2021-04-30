@@ -1,5 +1,5 @@
 ---
-Description: The Message method of the Session object performs any enabled logging operations and defers execution to the UI handler object associated with the engine. Logging may be selectively enabled for the various message types. See the EnableLog method.
+description: The Message method of the Session object performs any enabled logging operations and defers execution to the UI handler object associated with the engine. Logging may be selectively enabled for the various message types. See the EnableLog method.
 ms.assetid: 09053700-a641-4970-bf55-d7c81f345257
 title: Session.Message method
 ms.topic: reference
@@ -180,7 +180,7 @@ If a custom action calls the **Message** method, the custom action should be cap
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

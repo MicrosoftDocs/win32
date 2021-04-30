@@ -1,5 +1,5 @@
 ---
-Description: If a proxy auto-configuration file has not been deployed on the local network, WinHttpGetProxyForUrl cannot find a proxy server.
+description: If a proxy auto-configuration file has not been deployed on the local network, WinHttpGetProxyForUrl cannot find a proxy server.
 ms.assetid: a170e63a-8586-47df-af5e-4ee3621795b2
 title: Discovery Without an Auto-Config File
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: PNRP uses the WSALookupServiceEnd function to do the following.
+description: PNRP uses the WSALookupServiceEnd function to do the following.
 ms.assetid: 0732929e-ca03-438f-80d9-48a3da0095f7
 title: PNRP and WSALookupServiceEnd
 ms.topic: article

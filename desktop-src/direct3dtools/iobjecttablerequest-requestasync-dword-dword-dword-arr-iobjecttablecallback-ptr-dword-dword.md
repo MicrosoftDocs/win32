@@ -1,5 +1,5 @@
 ---
-Description: Requests to get specified information from the object table for the specified event.
+description: Requests to get specified information from the object table for the specified event.
 MS-HAID: vspixengine.IObjectTableRequest\_RequestAsync\_DWORD\_DWORD\_DWORD\_arr\_IObjectTableCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

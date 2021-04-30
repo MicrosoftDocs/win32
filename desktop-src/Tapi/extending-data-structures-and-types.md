@@ -1,5 +1,5 @@
 ---
-Description: A range of values is reserved to accommodate future extensions to the Basic and Supplementary TAPI function set.
+description: A range of values is reserved to accommodate future extensions to the Basic and Supplementary TAPI function set.
 ms.assetid: fef4620d-fc97-4567-97b0-142e144bc180
 title: Extending Data Structures and Types
 ms.topic: article

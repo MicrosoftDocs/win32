@@ -1,5 +1,5 @@
 ---
-Description: Sets or gets the user's current quota limit.
+description: Sets or gets the user's current quota limit.
 title: DIDiskQuotaUser.QuotaLimit property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -49,7 +49,7 @@ An **Integer** value that specifies or receives the user's current quota limit, 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

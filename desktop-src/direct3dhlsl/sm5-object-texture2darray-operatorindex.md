@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::Operator  function
-description: Returns a read-only resource variable.
+description: Returns a read-only resource variable. | Texture2DArray::Operator  function
 ms.assetid: eb6ff496-c46f-405f-a172-ab747415a2f9
 keywords:
 - Operator function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# Texture2DArray::Operator  function
 
 Returns a read-only resource variable.
 

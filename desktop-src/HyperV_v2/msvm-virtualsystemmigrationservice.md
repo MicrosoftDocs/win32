@@ -1,5 +1,5 @@
 ---
-Description: Represents the virtual system migration service. It is used for migrating a virtual system or for migrating the storage of a virtual system from one virtualization platform to another.
+description: Represents the virtual system migration service. It is used for migrating a virtual system or for migrating the storage of a virtual system from one virtualization platform to another.
 ms.assetid: 'af25e405-4498-40a8-ba8e-4b3873c56097'
 title: Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -542,7 +542,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

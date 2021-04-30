@@ -1,5 +1,5 @@
 ---
-Description: An error occurred in a stream, but the stream is still playing.
+description: An error occurred in a stream, but the stream is still playing.
 ms.assetid: ff155c01-22ba-46dd-85b8-05eabf956908
 title: EC_STREAM_ERROR_STILLPLAYING (Dshow.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ None. The application must decide whether to stop the graph.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

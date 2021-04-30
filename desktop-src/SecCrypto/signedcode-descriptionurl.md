@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the URL of a description of the signed executable file.
+description: Sets or retrieves the URL of a description of the signed executable file.
 ms.assetid: 854c76fb-5cb3-4200-bab0-fa3fa5bd3abe
 title: SignedCode.DescriptionURL property
 ms.topic: reference
@@ -42,7 +42,7 @@ The **DescriptionURL** is the URL to which the [**Description**](signedcode-desc
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

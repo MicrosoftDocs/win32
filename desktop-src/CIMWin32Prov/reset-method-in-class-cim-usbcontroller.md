@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_USBController class requests a reset of the logical device.
+description: The Reset method of the CIM\_USBController class requests a reset of the logical device.
 ms.assetid: ff287548-c1d5-44bd-8126-28a6af3e06fc
 ms.tgt_platform: multiple
 title: Reset method of the CIM_USBController class
@@ -52,7 +52,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

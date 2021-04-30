@@ -1,5 +1,5 @@
 ---
-Description: Request for summary information.
+description: Request for summary information.
 MS-HAID: vspixengine.ISummaryRequest
 MSHAttr:
 - PreferredSiteName:MSDN

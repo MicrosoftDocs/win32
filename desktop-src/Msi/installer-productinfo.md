@@ -1,5 +1,5 @@
 ---
-Description: The ProductInfo property is a read-only property that returns the value of the specified attribute for an installed or published product.
+description: The ProductInfo property is a read-only property that returns the value of the specified attribute for an installed or published product.
 ms.assetid: 144cbba7-ec2b-44cd-acc8-868c210ccebd
 title: Installer.ProductInfo property (Oemupgex.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The **ProductInfo** property ("LocalPackage") does not necessarily return a path
 
 
 
-|                    |                                                                                                                                                                                                                                                                       |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP.<br/> |
 | Header<br/>  | <dl> <dt>Oemupgex.h</dt> </dl>                                                                                                                                                                                 |

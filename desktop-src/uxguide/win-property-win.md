@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Property Windows
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Property window is the collective name for the following types of user interfaces (UIs):
 
@@ -393,7 +393,3 @@ When referring to property pages:
  
 
  
-
-
-
-

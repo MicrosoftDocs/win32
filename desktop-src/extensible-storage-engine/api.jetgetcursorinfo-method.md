@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetCursorInfo method"
 title: Api.JetGetCursorInfo method 
 TOCTitle: 'JetGetCursorInfo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetCursorInfo(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

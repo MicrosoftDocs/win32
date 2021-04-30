@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_SMS\_ENCODING\_TYPES enumeration type describes the encoding type of a short message service (SMS) message.
+description: The WPD\_SMS\_ENCODING\_TYPES enumeration type describes the encoding type of a short message service (SMS) message.
 ms.assetid: 5a9752e5-4e09-42a4-8fed-b4ea551fa36f
 title: WPD_SMS_ENCODING_TYPES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ This enumeration is used by the [WPD\_SMS\_ENCODING](sms-properties.md) property
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

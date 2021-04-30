@@ -22,7 +22,7 @@ A user-supplied string that specifies the notification contact.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Print-Notify                                |
 | Ldap-Display-Name | printNotify                                 |
@@ -48,7 +48,7 @@ A user-supplied string that specifies the notification contact.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -69,7 +69,7 @@ A user-supplied string that specifies the notification contact.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -90,7 +90,7 @@ A user-supplied string that specifies the notification contact.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -111,7 +111,7 @@ A user-supplied string that specifies the notification contact.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -132,7 +132,7 @@ A user-supplied string that specifies the notification contact.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -153,7 +153,7 @@ A user-supplied string that specifies the notification contact.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentClientRequestToStopJetServiceException properties"
 title: EsentClientRequestToStopJetServiceException properties
 TOCTitle: EsentClientRequestToStopJetServiceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentClientRequestToStopJetServiceException

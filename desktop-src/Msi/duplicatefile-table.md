@@ -1,5 +1,5 @@
 ---
-Description: The DuplicateFile table contains a list of files that are to be duplicated, either to a different directory than the original file or to the same directory but with a different name. The original file must be a file installed by the InstallFiles action.
+description: The DuplicateFile table contains a list of files that are to be duplicated, either to a different directory than the original file or to the same directory but with a different name. The original file must be a file installed by the InstallFiles action.
 ms.assetid: 7fe1b52d-4b06-48cd-afe5-2bd5495bb55e
 title: DuplicateFile Table
 ms.topic: article

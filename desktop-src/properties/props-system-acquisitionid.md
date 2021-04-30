@@ -1,5 +1,5 @@
 ---
-Description: A hash value that indicates the acquisition session.
+description: A hash value that indicates the acquisition session.
 ms.assetid: 7c05639d-7324-4132-9d8d-f6bdd38b8e88
 title: System.AcquisitionID
 ms.topic: article

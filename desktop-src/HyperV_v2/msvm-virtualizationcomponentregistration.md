@@ -1,5 +1,5 @@
 ---
-Description: Represents the registration of a service in the Microsoft Hyper-V platform.
+description: Represents the registration of a service in the Microsoft Hyper-V platform.
 ms.assetid: 706557C2-49D6-453F-9DC0-2C655888EEBE
 title: Msvm_VirtualizationComponentRegistration class
 ms.topic: reference
@@ -79,7 +79,7 @@ Access to the **Msvm\_VirtualizationComponentRegistration** class might be restr
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTestInjectionNotSupportedException methods"
 title: EsentTestInjectionNotSupportedException methods
 TOCTitle: EsentTestInjectionNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException

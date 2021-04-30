@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSnapIdException members"
 title: EsentOSSnapshotInvalidSnapIdException members
 TOCTitle: EsentOSSnapshotInvalidSnapIdException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException

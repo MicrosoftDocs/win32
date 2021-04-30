@@ -1,5 +1,5 @@
 ---
-Description: A filter is requesting that the graph be restarted.
+description: A filter is requesting that the graph be restarted.
 ms.assetid: 58f17338-dd60-4b77-80d3-b6b6a76af9b2
 title: EC_NEED_RESTART (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ If a filter rejects a sample in the middle of a stream, the upstream pin will st
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: There are a number of conventionally supported backup types&\#8212;incremental, differential, and full&\#8212;that VSS is aware of, as well as a backup configuration peculiar to VSS.
+description: There are a number of conventionally supported backup types&\#8212;incremental, differential, and full&\#8212;that VSS is aware of, as well as a backup configuration peculiar to VSS.
 ms.assetid: eddf29bc-221b-4b10-9842-a893b62fa846
 title: VSS Backup Configurations
 ms.topic: article

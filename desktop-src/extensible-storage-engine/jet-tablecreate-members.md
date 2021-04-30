@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE members"
 title: JET_TABLECREATE members
 TOCTitle: JET_TABLECREATE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_TABLECREATE

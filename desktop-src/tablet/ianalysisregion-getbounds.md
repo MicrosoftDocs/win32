@@ -1,5 +1,5 @@
 ---
-Description: Gets the bounding rectangle of the IAnalysisRegion.
+description: Gets the bounding rectangle of the IAnalysisRegion.
 ms.assetid: 6b9deff7-12e9-4b30-86cb-25b94737d28d
 title: IAnalysisRegion::GetBounds method (IACom.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ If the [**IAnalysisRegion**](ianalysisregion.md) represents an empty area, all t
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

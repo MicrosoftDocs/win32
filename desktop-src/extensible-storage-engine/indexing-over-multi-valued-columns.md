@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Indexing over Multi-Valued Columns"
 title: Indexing over Multi-Valued Columns
 TOCTitle: Indexing over Multi-Valued Columns
 ms:assetid: 90e31df2-2f5b-47a8-84c1-ece6bcc40858

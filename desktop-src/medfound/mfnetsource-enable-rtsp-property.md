@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether Real-Time Streaming Protocol (RTSP) transport is enabled in the network source.
+description: Specifies whether Real-Time Streaming Protocol (RTSP) transport is enabled in the network source.
 ms.assetid: 299393d2-7949-48ef-a36d-19bb8760fc4e
 title: MFNETSOURCE_ENABLE_RTSP property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

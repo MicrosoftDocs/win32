@@ -45,7 +45,7 @@ If the **sticky** attribute is set to true, the button element will change to th
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

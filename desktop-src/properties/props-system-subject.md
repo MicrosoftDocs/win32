@@ -1,5 +1,5 @@
 ---
-Description: The subject of a document. This property maps to the OLE document property Subject.
+description: The subject of a document. This property maps to the OLE document property Subject.
 ms.assetid: c60badd8-4ffc-4e77-aa42-ff12b5ade68f
 title: System.Subject
 ms.topic: article

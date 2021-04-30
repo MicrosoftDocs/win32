@@ -36,9 +36,6 @@ An error number.
 
 </dd> </dl> 
 
-|             |       |
-|-------------|-------|
-| Error Level | Error |
 
 
 

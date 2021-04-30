@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following email properties.
+description: Windows Portable Devices supports the following email properties.
 ms.assetid: c886622e-57e7-4bd1-b645-0e979ee7b66a
 title: Email Properties (PortableDevice.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Windows Portable Devices supports the following email properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

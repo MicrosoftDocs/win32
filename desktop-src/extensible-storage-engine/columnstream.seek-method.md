@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.Seek method"
 title: ColumnStream.Seek method 
 TOCTitle: 'Seek method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.Seek(System.Int64,System.IO.SeekOrigin)

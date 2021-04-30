@@ -1,5 +1,5 @@
 ---
-Description: Locks a connected smart card for exclusive use.
+description: Locks a connected smart card for exclusive use.
 ms.assetid: c39a7cfe-04b6-4298-927a-4280664cf769
 title: ISCardManage::SCardLock method
 ms.topic: reference
@@ -60,7 +60,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

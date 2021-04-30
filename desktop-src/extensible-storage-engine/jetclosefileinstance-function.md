@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCloseFileInstance Function"
 title: JetCloseFileInstance Function
 TOCTitle: JetCloseFileInstance Function
 ms:assetid: 64a38655-b128-453b-9593-46032bd6c470

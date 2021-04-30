@@ -22,7 +22,7 @@ Container for holding members of an address book view.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Address-Book-Container               |
 | Ldap-Display-Name | addressBookContainer                 |
@@ -48,7 +48,7 @@ Container for holding members of an address book view.
 
 
 
-|                             |                                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                                         |
 | Object-Category             | 1                                                                                                                                             |
@@ -169,7 +169,7 @@ This class contains the following extended rights for Windows 2000 Server:
 
 
 
-|                             |                                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                                         |
 | Object-Category             | 1                                                                                                                                             |
@@ -308,7 +308,7 @@ This class contains the following extended rights for Windows Server 2003:
 
 
 
-|                             |                                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                                         |
 | Object-Category             | 1                                                                                                                                             |
@@ -450,7 +450,7 @@ This class contains the following extended rights for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                                         |
 | Object-Category             | 1                                                                                                                                             |
@@ -603,7 +603,7 @@ This class contains the following extended rights for Windows Server 2008:
 
 
 
-|                             |                                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                                         |
 | Object-Category             | 1                                                                                                                                             |
@@ -763,7 +763,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                                               |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                                                         |
 | Object-Category             | 1                                                                                                                                             |

@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for TCP/IP events. The following syntax is simplified from MOF code.
+description: TcpIp_V0 class - This class is the parent class for TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: 8738dc11-f1d4-4c30-b2ea-c34a8fdce9ac
 title: TcpIp_V0 class
 ms.topic: reference
@@ -37,7 +37,7 @@ The **TcpIp\_V0** class does not define any members.
 
 
 
-|                                     |                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeCorruptedException class"
 title: EsentDbTimeCorruptedException class
 TOCTitle: EsentDbTimeCorruptedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException

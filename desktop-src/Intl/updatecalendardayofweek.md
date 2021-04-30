@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Gets the day of the week that corresponds to a specified day and populates the DayOfWeek member in the specified CALDATETIME structure with that value.
+description: Deprecated. Gets the day of the week that corresponds to a specified day and populates the DayOfWeek member in the specified CALDATETIME structure with that value.
 ms.assetid: b9ae250a-73bb-4ec2-bb0d-e1f8b25c173c
 title: UpdateCalendarDayOfWeek function
 ms.topic: reference
@@ -58,7 +58,7 @@ This function does not have an associated header file or library file. The appli
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

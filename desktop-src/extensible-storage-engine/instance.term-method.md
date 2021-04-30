@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Term method"
 title: Instance.Term method 
 TOCTitle: 'Term method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Term

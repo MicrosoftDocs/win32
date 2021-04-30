@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the private key is in removable storage.
+description: Returns a Boolean value that indicates whether the private key is in removable storage.
 ms.assetid: 9371d7cf-65b2-4c0f-a387-195a058d6a8b
 title: PrivateKey.IsRemovable method
 ms.topic: reference
@@ -46,7 +46,7 @@ The return value of this method is dependent on the [*cryptographic service prov
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

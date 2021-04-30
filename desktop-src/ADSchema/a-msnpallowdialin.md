@@ -21,7 +21,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msNPAllowDialin                      |
 | Ldap-Display-Name | msNPAllowDialin                      |
@@ -47,7 +47,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -152,7 +152,7 @@ Indicates whether the account has permission to dial in to the RAS server. Do no
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

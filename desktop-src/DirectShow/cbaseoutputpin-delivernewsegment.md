@@ -1,5 +1,5 @@
 ---
-Description: The DeliverNewSegment method delivers a new-segment notification to the connected input pin.
+description: The DeliverNewSegment method delivers a new-segment notification to the connected input pin.
 ms.assetid: 304f0267-88e0-4642-98a2-68ce973bdeab
 title: CBaseOutputPin.DeliverNewSegment method (Amfilter.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ This method calls the [**IPin::NewSegment**](/windows/desktop/api/Strmif/nf-strm
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

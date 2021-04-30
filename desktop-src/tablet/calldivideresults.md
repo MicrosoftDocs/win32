@@ -1,5 +1,5 @@
 ---
-Description: Retrieves analysis results from the InkDivider object.
+description: Retrieves analysis results from the InkDivider object.
 ms.assetid: 7fc2bb5a-172f-4f4e-84dd-e31925f86982
 title: CallDivideResults function
 ms.topic: reference
@@ -172,7 +172,7 @@ To avoid memory leaks you must release the resources for *pastrWords*, *pastrLin
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |

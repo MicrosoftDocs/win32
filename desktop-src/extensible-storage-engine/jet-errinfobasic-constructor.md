@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC constructor"
 title: JET_ERRINFOBASIC constructor  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JET_ERRINFOBASIC constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.#ctor

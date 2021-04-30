@@ -1,5 +1,5 @@
 ---
-Description: Description of using active accessibility to expose custom controls for the Tablet PC.
+description: Description of using active accessibility to expose custom controls for the Tablet PC.
 ms.assetid: 1557bde2-c382-4259-ae0c-a70902fa91bd
 title: Using Active Accessibility to Expose Custom Controls
 ms.topic: article

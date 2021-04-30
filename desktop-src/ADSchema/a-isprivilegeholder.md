@@ -22,7 +22,7 @@ Backward link to privileges held by a given principal.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Is-Privilege-Holder                     |
 | Ldap-Display-Name | isPrivilegeHolder                       |
@@ -48,7 +48,7 @@ Backward link to privileges held by a given principal.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 71                              |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ Backward link to privileges held by a given principal.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 71                              |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ Backward link to privileges held by a given principal.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 71                              |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ Backward link to privileges held by a given principal.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 71                              |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ Backward link to privileges held by a given principal.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 71                              |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ Backward link to privileges held by a given principal.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 71                              |
 | MAPI-Id                | \-                              |

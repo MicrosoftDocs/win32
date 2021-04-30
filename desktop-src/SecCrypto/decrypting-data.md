@@ -1,5 +1,5 @@
 ---
-Description: Presents the steps to decrypt an encrypted message.
+description: Presents the steps to decrypt an encrypted message.
 ms.assetid: 6af7dd28-325e-431a-9cdb-109d93af6302
 title: Decrypting Data
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Requests permission to suspend the computer. An application that grants permission should carry out preparations for the suspension before returning.
+description: Requests permission to suspend the computer. An application that grants permission should carry out preparations for the suspension before returning.
 ms.assetid: 83cb0fdc-437e-4d03-87f0-6a416281c0d5
 title: PBT_APMQUERYSUSPEND event (WinUser.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The system allows approximately 20 seconds for an application to remove the [**W
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

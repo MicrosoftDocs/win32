@@ -1,5 +1,5 @@
 ---
-Description: Returns a collection of the extended properties of the certificate.
+description: Returns a collection of the extended properties of the certificate.
 ms.assetid: e03ce9cf-a437-43e8-89d1-109245492d72
 title: ICertificate2::ExtendedProperties method
 ms.topic: reference
@@ -39,7 +39,7 @@ This method has no parameters.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

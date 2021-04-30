@@ -1,5 +1,5 @@
 ---
-Description: The LINEFEATURE\_ constants list the operations that can be invoked on a line using this API.
+description: The LINEFEATURE\_ constants list the operations that can be invoked on a line using this API.
 ms.assetid: 77fa313c-e720-4607-b691-51b5be76ceed
 title: LINEFEATURE_ Constants (Tapi.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ The LINEFEATURE\_ constants are used in [**LINEDEVSTATUS**](/windows/desktop/api
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

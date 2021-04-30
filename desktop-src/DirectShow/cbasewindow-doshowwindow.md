@@ -1,5 +1,5 @@
 ---
-Description: The DoShowWindow method sets the window's show state.
+description: The DoShowWindow method sets the window's show state.
 ms.assetid: 4180de9d-ef40-40e3-aa37-be54283b1f97
 title: CBaseWindow.DoShowWindow method (Winutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

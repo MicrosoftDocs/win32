@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesInvalidLimitsException class"
 title: EsentIndexTuplesInvalidLimitsException class
 TOCTitle: EsentIndexTuplesInvalidLimitsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesInvalidLimitsException

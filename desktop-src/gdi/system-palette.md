@@ -1,5 +1,5 @@
 ---
-Description: The system maintains a system palette for each device that uses palettes.
+description: The system maintains a system palette for each device that uses palettes.
 ms.assetid: 4c93ce8c-6b3a-4016-bb47-786c25b93374
 title: System Palette
 ms.topic: article

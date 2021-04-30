@@ -1,5 +1,5 @@
 ---
-Description: Flag that specifies whether the palette should be a background palette. If TRUE, the palette is selected as a background palette.
+description: Flag that specifies whether the palette should be a background palette. If TRUE, the palette is selected as a background palette.
 ms.assetid: 908deebc-c978-4423-8e8b-c9cf0b3a0775
 title: CBaseWindow::m_bBackground member (Winutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BYTE m_bBackground;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

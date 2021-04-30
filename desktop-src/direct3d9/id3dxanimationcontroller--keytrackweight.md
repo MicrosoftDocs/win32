@@ -1,5 +1,5 @@
 ---
-Description: Sets an event key that changes the weight of an animation track. The weight is used as a multiplier when combining multiple tracks together.
+description: Sets an event key that changes the weight of an animation track. The weight is used as a multiplier when combining multiple tracks together.
 ms.assetid: fb2859de-9e77-49dd-be48-a50e22e2fc3a
 title: ID3DXAnimationController::KeyTrackWeight method (D3dx9anim.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ The weight is used like a multiplier to determine how much of this track to blen
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.DeepClone method"
 title: JET_TABLECREATE.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.DeepClone

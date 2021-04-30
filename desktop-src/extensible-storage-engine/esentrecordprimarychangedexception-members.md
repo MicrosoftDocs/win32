@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordPrimaryChangedException members"
 title: EsentRecordPrimaryChangedException members
 TOCTitle: EsentRecordPrimaryChangedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordPrimaryChangedException

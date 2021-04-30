@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsNotArmedException members"
 title: EsentRfsNotArmedException members
 TOCTitle: EsentRfsNotArmedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRfsNotArmedException

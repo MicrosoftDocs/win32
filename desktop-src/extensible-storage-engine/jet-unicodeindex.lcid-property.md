@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.lcid property"
 title: JET_UNICODEINDEX.lcid property 
 TOCTitle: 'lcid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.lcid

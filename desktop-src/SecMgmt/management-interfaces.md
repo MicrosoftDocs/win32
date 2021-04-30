@@ -1,5 +1,5 @@
 ---
-Description: Lists the interfaces provided by the attachment engine.
+description: Lists the interfaces provided by the attachment engine.
 ms.assetid: 451587bd-a7ab-446b-b647-be98de251915
 title: Security Management Interfaces
 ms.topic: article

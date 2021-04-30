@@ -1,5 +1,5 @@
 ---
-Description: The IWiaSegmentationFilter interface detects sub-regions of an image stream and makes separate IWiaItem2 items for each.
+description: The IWiaSegmentationFilter interface detects sub-regions of an image stream and makes separate IWiaItem2 items for each.
 ms.assetid: eb7f1284-ab98-4d86-8b30-7abd504cee12
 title: IWiaSegmentationFilter interface (Wia.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The **IWiaSegmentationFilter** interface, like all Component Object Model (COM) 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

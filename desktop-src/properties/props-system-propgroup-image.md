@@ -1,5 +1,5 @@
 ---
-Description: The property group separator used in property lists to separate image files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+description: The property group separator used in property lists to separate image files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: a45d281e-3fc5-44f0-b7cb-266e288007ca
 title: System.PropGroup.Image
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents a DVD drive.
+description: Represents a DVD drive.
 ms.assetid: 6127b58d-c70f-47c7-9eeb-6aff819f672e
 title: CIM_DVDDrive class
 ms.topic: reference
@@ -218,7 +218,7 @@ The CD and DVD formats that are supported by the device.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

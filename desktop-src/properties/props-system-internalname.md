@@ -1,5 +1,5 @@
 ---
-Description: The name of a .exe or .dll file as stored in a resource section within that file.
+description: The name of a .exe or .dll file as stored in a resource section within that file.
 ms.assetid: a521f727-b024-44ef-98ae-98986254857f
 title: System.InternalName
 ms.topic: article

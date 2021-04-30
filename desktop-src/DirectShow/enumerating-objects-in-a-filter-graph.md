@@ -1,5 +1,5 @@
 ---
-Description: Enumerating Objects in a Filter Graph
+description: Enumerating Objects in a Filter Graph
 ms.assetid: 04a3dbc8-33c4-4b70-930e-686be2f8301f
 title: Enumerating Objects in a Filter Graph
 ms.topic: article

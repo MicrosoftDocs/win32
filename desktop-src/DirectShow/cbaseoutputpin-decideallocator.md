@@ -1,5 +1,5 @@
 ---
-Description: The DecideAllocator method selects a memory allocator.
+description: The DecideAllocator method selects a memory allocator.
 ms.assetid: cdc15b0e-ea1b-43aa-9267-95fa9db56ed5
 title: CBaseOutputPin.DecideAllocator method (Amfilter.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This method is called at the end of the pin connection process. It performs the 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

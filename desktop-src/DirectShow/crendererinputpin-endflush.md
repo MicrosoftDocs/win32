@@ -1,5 +1,5 @@
 ---
-Description: The EndFlush method ends a flush operation. This method overrides the CBaseInputPin::EndFlush method.
+description: The EndFlush method ends a flush operation. This method overrides the CBaseInputPin::EndFlush method.
 ms.assetid: 1955a923-e912-44bd-b032-3689e5810d6f
 title: CRendererInputPin.EndFlush method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns an **HRESULT** value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnCannotBeCompressedException members"
 title: EsentColumnCannotBeCompressedException members
 TOCTitle: EsentColumnCannotBeCompressedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnCannotBeCompressedException

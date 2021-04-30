@@ -1,5 +1,5 @@
 ---
-Description: Links to documentation for the IAzRoleAssignments interoperability wrapper methods and properties.
+description: Links to documentation for the IAzRoleAssignments interoperability wrapper methods and properties.
 ms.assetid: 7aa691c9-0daa-4956-993f-973eaae081f6
 title: Microsoft.Interop.Security.AzRoles.IAzRoleAssignments interface
 ms.topic: reference
@@ -69,7 +69,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzRoleAssignments** interface has thes
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

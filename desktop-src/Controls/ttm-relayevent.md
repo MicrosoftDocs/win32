@@ -51,6 +51,7 @@ A tooltip control processes only the following messages passed to it by the **TT
 -   WM\_MBUTTONDOWN
 -   WM\_MBUTTONUP
 -   WM\_MOUSEMOVE
+-   WM\_NCMOUSEMOVE
 -   WM\_RBUTTONDOWN
 -   WM\_RBUTTONUP
 
@@ -60,7 +61,7 @@ All other messages are ignored.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotFreeException class"
 title: EsentSLVPagesNotFreeException class
 TOCTitle: EsentSLVPagesNotFreeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotFreeException

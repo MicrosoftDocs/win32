@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndDatabasesConsistentException constructor"
 title: EsentLogSequenceEndDatabasesConsistentException constructor 
 TOCTitle: 'EsentLogSequenceEndDatabasesConsistentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException.#ctor

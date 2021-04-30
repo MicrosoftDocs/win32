@@ -1,6 +1,6 @@
 ---
 title: CURRENTPOSITIONTEXT
-description: This is a predefined TEXT element with the following default values.
+description: This is a predefined TEXT element with the following default values. | CURRENTPOSITIONTEXT
 ms.assetid: 00574ead-85f2-4321-9e4e-2836be058e8c
 keywords:
 - CURRENTPOSITIONTEXT Windows Media Player
@@ -33,7 +33,7 @@ This will create a **TEXT** element that will display the current time of the me
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

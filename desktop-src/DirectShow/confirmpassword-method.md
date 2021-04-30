@@ -1,5 +1,5 @@
 ---
-Description: The DVDAdm.ConfirmPassword method tests whether the specified password matches the previously saved password.
+description: The DVDAdm.ConfirmPassword method tests whether the specified password matches the previously saved password.
 ms.assetid: 4dddc28d-edf7-45a2-ae1f-1c37b5df2eea
 title: ConfirmPassword Method (Segment.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Currently, the *sUserName* parameter is ignored on this and all related methods.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

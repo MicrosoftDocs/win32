@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current state of the smart card.
+description: Retrieves the current state of the smart card.
 ms.assetid: 0e6e4a8f-ecad-4a82-8804-aaf58f13f7ca
 title: ISCard::get_Status method (Scardmgr.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ switch (scState)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedIndexViolationException constructor"
 title: EsentMultiValuedIndexViolationException constructor 
 TOCTitle: 'EsentMultiValuedIndexViolationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedIndexViolationException.#ctor

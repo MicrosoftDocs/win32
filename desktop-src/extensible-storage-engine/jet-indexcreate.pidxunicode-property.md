@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.pidxUnicode property"
 title: JET_INDEXCREATE.pidxUnicode property 
 TOCTitle: 'pidxUnicode property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.pidxUnicode

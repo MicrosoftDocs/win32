@@ -1,5 +1,5 @@
 ---
-Description: Endpoint address of the device service.
+description: Endpoint address of the device service.
 ms.assetid: c2a208b0-8069-4070-8e82-9e6e8979a84f
 title: System.Devices.ServiceAddress
 ms.topic: article

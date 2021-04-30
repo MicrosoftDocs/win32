@@ -1,5 +1,5 @@
 ---
-Description: The following table lists the classes for WMI provider event troubleshooting. Each class is associated with the WMI provider event to which it is coupled.
+description: The following table lists the classes for WMI provider event troubleshooting. Each class is associated with the WMI provider event to which it is coupled.
 ms.assetid: 5acfc8f4-9b3b-4ff4-a8ed-7378334a8ddb
 ms.tgt_platform: multiple
 title: Provider Event Troubleshooting Classes

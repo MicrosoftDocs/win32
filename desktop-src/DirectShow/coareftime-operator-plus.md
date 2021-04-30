@@ -1,5 +1,5 @@
 ---
-Description: This operator adds two reference times.
+description: This operator adds two reference times.
 ms.assetid: 4dfc087a-ec4f-4a8a-8bd4-4da9e1699bcd
 title: COARefTime.operator+ method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns a new **COARefTime** object equal to the sum of the reference times.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

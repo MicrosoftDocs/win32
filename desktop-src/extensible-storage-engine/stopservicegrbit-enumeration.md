@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StopServiceGrbit enumeration"
 title: StopServiceGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: StopServiceGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.StopServiceGrbit

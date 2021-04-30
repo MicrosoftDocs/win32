@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDirtyShutdownException members"
 title: EsentDirtyShutdownException members
 TOCTitle: EsentDirtyShutdownException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDirtyShutdownException

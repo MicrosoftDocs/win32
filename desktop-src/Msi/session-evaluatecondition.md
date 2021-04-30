@@ -1,5 +1,5 @@
 ---
-Description: The EvaluateCondition method of the Session object evaluates a logical expression that contains symbols and values. This method uses the MsiEvaluateCondition function.
+description: The EvaluateCondition method of the Session object evaluates a logical expression that contains symbols and values. This method uses the MsiEvaluateCondition function.
 ms.assetid: 629f7efd-80fe-4a0e-95cc-b62d6258ae0a
 title: Session.EvaluateCondition method
 ms.topic: reference
@@ -84,7 +84,7 @@ Conditional expressions can be used to compare feature and component states. The
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

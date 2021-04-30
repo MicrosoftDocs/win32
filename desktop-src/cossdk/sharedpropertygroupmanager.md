@@ -1,5 +1,5 @@
 ---
-Description: Creates shared property groups and to obtain access to existing shared property groups.
+description: Creates shared property groups and to obtain access to existing shared property groups.
 ms.assetid: '4ba05806-afda-4926-8ca4-abbf15ed8278'
 title: SharedPropertyGroupManager class (ComSvcs.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                                    |
+| Requirement | Value |
 |------------|--------------------------------------------------------------------|
 | CLSID      | CLSID\_SharedPropertyGroupManager                                  |
 | ProgID     | L"MTxSpm.SharedPropertyGroupManager"                               |
@@ -49,7 +49,7 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of times BitLocker has been suspended.
+description: Retrieves the number of times BitLocker has been suspended.
 ms.assetid: B8C87352-62BA-4E5D-A273-CE74F3E1A7A8
 title: GetSuspendCount method of the Win32_EncryptableVolume class (Activdbg.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method only applies to the OS volume, and only if it is actually suspended 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 Enterprise, Windows 8 Pro \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEndSession Function"
 title: JetEndSession Function
 TOCTitle: JetEndSession Function
 ms:assetid: a9a8f98a-258e-4fbb-bed0-657581984a07

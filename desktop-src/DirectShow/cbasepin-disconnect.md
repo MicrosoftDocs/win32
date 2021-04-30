@@ -1,5 +1,5 @@
 ---
-Description: The Disconnect method breaks the current pin connection. This method implements the IPin::Disconnect method.
+description: CBasePin.Disconnect method - The Disconnect method breaks the current pin connection. This method implements the IPin::Disconnect method.
 ms.assetid: 04e07978-fca5-419f-8807-fd7a6846eff9
 title: CBasePin.Disconnect method (Amfilter.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The base class delegates most of the work to the [**CBasePin::DisconnectInternal
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

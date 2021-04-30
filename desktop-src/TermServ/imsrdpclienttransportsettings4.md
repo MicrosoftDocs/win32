@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientTransportSettings4 interface
-description: Defines additional properties for the Remote Desktop Gateway (RD Gateway) server.
+description: Defines additional properties for the Remote Desktop Gateway (RD Gateway) server. | IMsRdpClientTransportSettings4 interface
 ms.assetid: 8b079d38-f6bc-465b-9af8-414e618f2820
 ms.tgt_platform: multiple
 keywords:
@@ -46,7 +46,7 @@ The **IMsRdpClientTransportSettings4** interface has these properties.
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |

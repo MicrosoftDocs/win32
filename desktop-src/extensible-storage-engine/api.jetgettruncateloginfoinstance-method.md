@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetTruncateLogInfoInstance method"
 title: Api.JetGetTruncateLogInfoInstance method 
 TOCTitle: 'JetGetTruncateLogInfoInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetTruncateLogInfoInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String@,System.Int32,System.Int32@)

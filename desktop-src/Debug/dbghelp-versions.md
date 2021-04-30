@@ -1,5 +1,5 @@
 ---
-Description: The DbgHelp library is implemented by DbgHelp.dll.
+description: The DbgHelp library is implemented by DbgHelp.dll.
 ms.assetid: 8ef1740d-c791-4fbd-8297-7207a987c09d
 title: DbgHelp Versions
 ms.topic: article

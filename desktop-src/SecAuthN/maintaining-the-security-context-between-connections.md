@@ -1,5 +1,5 @@
 ---
-Description: To reduce domain controller traffic and improve performance, the client-side of Microsoft Digest caches information received after successful authentication with a server.
+description: To reduce domain controller traffic and improve performance, the client-side of Microsoft Digest caches information received after successful authentication with a server.
 ms.assetid: cd928266-889a-494c-a94b-4ea7b1dcc241
 title: Maintaining the Security Context Between Connections
 ms.topic: article

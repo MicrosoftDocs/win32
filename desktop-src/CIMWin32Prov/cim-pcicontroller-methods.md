@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PCIController class exposes the following methods.
+description: The CIM\_PCIController class exposes the following methods.
 ms.assetid: C1FE1B8B-2146-4A00-B6BA-A32CD3D269E7
 ms.tgt_platform: multiple
 title: CIM_PCIController Methods

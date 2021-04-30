@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PrereadIndexRangesGrbit enumeration"
 title: PrereadIndexRangesGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: PrereadIndexRangesGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.PrereadIndexRangesGrbit

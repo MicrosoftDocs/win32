@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.pSpaceHints property"
 title: JET_INDEXCREATE.pSpaceHints property 
 TOCTitle: 'pSpaceHints property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.pSpaceHints

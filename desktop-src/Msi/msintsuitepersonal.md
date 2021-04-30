@@ -1,5 +1,5 @@
 ---
-Description: On Windows XP and later operating systems, the installer sets the MsiNTSuitePersonal property to 1 if the operating system is Windows XP Home Edition.
+description: On Windows XP and later operating systems, the installer sets the MsiNTSuitePersonal property to 1 if the operating system is Windows XP Home Edition.
 ms.assetid: 324a4c45-bd64-4361-90ba-6a0554a9c5ef
 title: MsiNTSuitePersonal property
 ms.topic: reference
@@ -14,7 +14,7 @@ On Windows XP and later operating systems, the installer sets the **MsiNTSuiteP
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

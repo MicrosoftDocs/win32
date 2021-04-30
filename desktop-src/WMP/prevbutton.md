@@ -1,6 +1,6 @@
 ---
 title: PREVBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | PREVBUTTON
 ms.assetid: 3beb8084-9edb-4ccd-b611-8365ddcbdff1
 keywords:
 - PREVBUTTON Windows Media Player
@@ -34,7 +34,7 @@ All properties of this BUTTON can be overridden by explicitly specifying them.
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

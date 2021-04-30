@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.LogBuffers property"
 title: InstanceParameters.LogBuffers property 
 TOCTitle: 'LogBuffers property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.LogBuffers

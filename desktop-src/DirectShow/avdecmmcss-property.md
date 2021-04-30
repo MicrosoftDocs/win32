@@ -1,5 +1,5 @@
 ---
-Description: Specifies the Multimedia Class Scheduler Service (MMCSS) class for the decoding thread.
+description: Specifies the Multimedia Class Scheduler Service (MMCSS) class for the decoding thread.
 ms.assetid: 77724879-62e4-439e-9dd0-3642cd7f75ca
 title: AVDecMmcss property (Uuids.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ If the MMCSS service is not available or the specified MMCSS class does not exis
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Uuids.h</dt> </dl> |
 

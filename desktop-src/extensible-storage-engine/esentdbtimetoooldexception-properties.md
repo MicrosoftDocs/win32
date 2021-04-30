@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooOldException properties"
 title: EsentDbTimeTooOldException properties
 TOCTitle: EsentDbTimeTooOldException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException

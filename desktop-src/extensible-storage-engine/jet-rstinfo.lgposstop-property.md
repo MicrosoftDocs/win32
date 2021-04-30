@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO.lgposStop property"
 title: JET_RSTINFO.lgposStop property 
 TOCTitle: 'lgposStop property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTINFO.lgposStop

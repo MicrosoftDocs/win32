@@ -1,5 +1,5 @@
 ---
-Description: Addresses of the all the required attendees.
+description: Addresses of the all the required attendees.
 ms.assetid: 2fbed651-2fa0-441b-b174-6be6d49430bf
 title: System.Calendar.RequiredAttendeeAddresses
 ms.topic: article

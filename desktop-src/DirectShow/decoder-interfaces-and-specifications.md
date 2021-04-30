@@ -1,5 +1,5 @@
 ---
-Description: Decoder Interfaces and Specifications
+description: Decoder Interfaces and Specifications
 ms.assetid: 51e00392-8557-4c79-a687-434ba993c1cb
 title: Decoder Interfaces and Specifications
 ms.topic: article

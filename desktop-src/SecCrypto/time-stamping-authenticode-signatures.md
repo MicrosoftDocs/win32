@@ -1,5 +1,5 @@
 ---
-Description: Authenticode time stamping is based on standard PKCS \#7 countersignatures. Signing tools from Microsoft allow developers to affix time stamps at the same time as they affix Authenticode signatures.
+description: Authenticode time stamping is based on standard PKCS \#7 countersignatures. Signing tools from Microsoft allow developers to affix time stamps at the same time as they affix Authenticode signatures.
 ms.assetid: d0bd3e2f-1eee-4f71-9467-974994f720d5
 title: Time Stamping Authenticode Signatures
 ms.topic: article

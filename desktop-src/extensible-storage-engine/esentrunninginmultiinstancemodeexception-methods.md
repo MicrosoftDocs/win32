@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRunningInMultiInstanceModeException methods"
 title: EsentRunningInMultiInstanceModeException methods
 TOCTitle: EsentRunningInMultiInstanceModeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRunningInMultiInstanceModeException

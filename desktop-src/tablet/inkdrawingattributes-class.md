@@ -1,5 +1,5 @@
 ---
-Description: Represents the attributes that are applied to ink when it is drawn.
+description: Represents the attributes that are applied to ink when it is drawn.
 ms.assetid: 10ca7ae5-28dd-42a2-98d9-852d4de5869d
 title: InkDrawingAttributes class (Msinkaut.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ Each [**InkCollector**](inkcollector-class.md) object, [**InkOverlay**](inkoverl
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

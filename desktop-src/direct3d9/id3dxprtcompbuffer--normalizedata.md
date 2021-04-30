@@ -1,5 +1,5 @@
 ---
-Description: Normalizes all principal component analysis (PCA) weights so that they are between -1 and 1. Basis vectors are modified to reflect this normalization.
+description: Normalizes all principal component analysis (PCA) weights so that they are between -1 and 1. Basis vectors are modified to reflect this normalization.
 ms.assetid: f1c87049-a1ec-452e-b556-a2dc95324d5d
 title: ID3DXPRTCompBuffer::NormalizeData method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

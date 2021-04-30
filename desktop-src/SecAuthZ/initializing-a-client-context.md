@@ -1,5 +1,5 @@
 ---
-Description: An application must create a client context before it can use Authz API to perform access checks or auditing.
+description: An application must create a client context before it can use Authz API to perform access checks or auditing.
 ms.assetid: 82f207ff-cac4-4e9a-a9e6-ddb3f6c8b30a
 title: Initializing a Client Context
 ms.topic: article

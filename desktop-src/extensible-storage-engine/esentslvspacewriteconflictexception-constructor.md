@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVSpaceWriteConflictException constructor"
 title: EsentSLVSpaceWriteConflictException constructor 
 TOCTitle: 'EsentSLVSpaceWriteConflictException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVSpaceWriteConflictException.#ctor

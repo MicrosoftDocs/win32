@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InitGrbit enumeration"
 title: InitGrbit enumeration
 TOCTitle: InitGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.InitGrbit

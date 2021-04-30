@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentApiException properties"
 title: EsentApiException properties
 TOCTitle: EsentApiException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentApiException

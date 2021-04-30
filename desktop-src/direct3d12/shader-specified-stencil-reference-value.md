@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Specified Stencil Reference Value
+# Shader Specified Stencil Reference Value (Direct3D 12 Graphics)
 
 Enabling pixel shaders to output the Stencil Reference Value, rather than using the API-specified one, enables a very fine granular control over stencil operations.
 

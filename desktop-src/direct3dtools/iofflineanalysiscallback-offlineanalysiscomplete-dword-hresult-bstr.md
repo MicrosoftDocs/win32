@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host that offline analysis has completed.
+description: A callback function used to notify the host that offline analysis has completed.
 MS-HAID: vspixengine.IOfflineAnalysisCallback\_OfflineAnalysisComplete\_DWORD\_HRESULT\_BSTR
 MSHAttr:
 - PreferredSiteName:MSDN

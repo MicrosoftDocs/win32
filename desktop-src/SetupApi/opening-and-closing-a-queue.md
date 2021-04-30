@@ -1,5 +1,5 @@
 ---
-Description: Before you can queue file operations, you must open a file queue. Calling the SetupOpenFileQueue function returns a handle to a queue file. This handle is used by subsequent queue functions to reference the open queue and add operations to it or scan it.
+description: Before you can queue file operations, you must open a file queue. Calling the SetupOpenFileQueue function returns a handle to a queue file. This handle is used by subsequent queue functions to reference the open queue and add operations to it or scan it.
 ms.assetid: 3eeb4f34-c89e-4733-8a8c-54e470a1fd30
 title: Opening and Closing a Queue
 ms.topic: article

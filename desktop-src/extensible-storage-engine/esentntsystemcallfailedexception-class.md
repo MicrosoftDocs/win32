@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNTSystemCallFailedException class"
 title: EsentNTSystemCallFailedException class
 TOCTitle: EsentNTSystemCallFailedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException

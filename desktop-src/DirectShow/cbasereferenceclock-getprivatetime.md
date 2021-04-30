@@ -1,5 +1,5 @@
 ---
-Description: The GetPrivateTime method retrieves the real time from the clock.
+description: The GetPrivateTime method retrieves the real time from the clock.
 ms.assetid: ce9832cb-4b5a-49a1-9a69-d2fb90b3ed2e
 title: CBaseReferenceClock.GetPrivateTime method (Refclock.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This method returns the system time. Override this method if your clock gets the
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Refclock.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

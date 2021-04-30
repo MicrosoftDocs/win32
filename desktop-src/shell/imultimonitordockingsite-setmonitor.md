@@ -1,5 +1,5 @@
 ---
-Description: Changes which monitor is used for docked toolbars on a multiple monitor system.
+description: Changes which monitor is used for docked toolbars on a multiple monitor system.
 title: IMultiMonitorDockingSite::SetMonitor method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -81,7 +81,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |

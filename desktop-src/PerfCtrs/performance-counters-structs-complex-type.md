@@ -1,5 +1,5 @@
 ---
-Description: Defines a list of structures that contain counter values.
+description: Defines a list of structures that contain counter values.
 ms.assetid: 6f6b33ed-6440-456c-8379-61a37798c95f
 title: structs Complex Type
 ms.topic: reference
@@ -42,7 +42,7 @@ Defines a list of structures that contain counter values.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

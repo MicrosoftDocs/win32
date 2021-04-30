@@ -1,5 +1,5 @@
 ---
-Description: The following header file should be included with both the client and the server SSPI samples as SspiExample.h. It declares functions that handle communication with the security package.
+description: The following header file should be included with both the client and the server SSPI samples as SspiExample.h. It declares functions that handle communication with the security package.
 ms.assetid: 358c2cd6-674b-4d70-9657-800b0d1b2fe7
 title: Header File for SSPI Client and Server
 ms.topic: article

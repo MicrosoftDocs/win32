@@ -1,5 +1,5 @@
 ---
-Description: Gets a floating point value.
+description: Gets a floating point value.
 ms.assetid: 239dd29c-092a-4b9f-ba24-eb6181e91461
 title: ID3DXBaseEffect::GetFloat method (D3DX9Shader.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.GreaterThan operator"
 title: JET_LGPOS.GreaterThan operator 
 TOCTitle: 'GreaterThan operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.op_GreaterThan(Microsoft.Isam.Esent.Interop.JET_LGPOS,Microsoft.Isam.Esent.Interop.JET_LGPOS)

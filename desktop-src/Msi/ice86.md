@@ -1,5 +1,5 @@
 ---
-Description: ICE86 issues a warning if the package uses the AdminUser property in database column of the Condition type. Package authors should use the Privileged property in conditional statements.
+description: ICE86 issues a warning if the package uses the AdminUser property in database column of the Condition type. Package authors should use the Privileged property in conditional statements.
 ms.assetid: c23c2920-3b8b-4cd1-a570-bdeabcf11436
 title: ICE86
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: IDWriteTextLayout2 interface
-description: Represents a block of text after it has been fully analyzed and formatted.
+description: Represents a block of text after it has been fully analyzed and formatted. | IDWriteTextLayout2 interface
 ms.assetid: 034D795B-016A-401E-AD75-D5B0D1E87806
 keywords:
 - IDWriteTextLayout2 interface Direct Write
@@ -53,7 +53,7 @@ The **IDWriteTextLayout2** interface has these methods.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |

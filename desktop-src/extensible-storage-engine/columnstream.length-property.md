@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.Length property"
 title: ColumnStream.Length property 
 TOCTitle: 'Length property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.Length

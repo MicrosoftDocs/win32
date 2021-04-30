@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOFailException class"
 title: EsentFileIOFailException class
 TOCTitle: EsentFileIOFailException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIOFailException

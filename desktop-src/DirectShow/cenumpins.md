@@ -1,5 +1,5 @@
 ---
-Description: The CEnumPins class implements an enumerator for pins.
+description: The CEnumPins class implements an enumerator for pins.
 ms.assetid: 8729f294-c76d-404f-9f51-7565470eced8
 title: CEnumPins class (Amfilter.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ If the filter dynamically creates or destroys pins, it increments the pin versio
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: An operation is a low-level computer action.
+description: An operation is a low-level computer action.
 ms.assetid: d75bc507-3502-417c-af05-cbff807a5778
 title: Operations and Tasks
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: If an event is available, the NextEvent method of the SWbemEventSource object retrieves the event from an event query.
+description: If an event is available, the NextEvent method of the SWbemEventSource object retrieves the event from an event query.
 ms.assetid: ff2d54d4-b8ee-4bb8-b6f7-081a1ca20489
 ms.tgt_platform: multiple
 title: SWbemEventSource.NextEvent method (Wbemdisp.h)
@@ -67,7 +67,7 @@ Requested event did not arrive in the amount of time specified in *iTimeoutMs.*
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

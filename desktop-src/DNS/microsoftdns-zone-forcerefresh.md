@@ -20,6 +20,9 @@ ms.date: 05/31/2018
 
 # ForceRefresh method of the MicrosoftDNS\_Zone class
 
+> [!NOTE]
+> This article contains references to the term master server, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+
 The **ForceRefresh** method forces an update of the secondary DNS Server from the master server.
 
 ## Syntax
@@ -43,7 +46,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

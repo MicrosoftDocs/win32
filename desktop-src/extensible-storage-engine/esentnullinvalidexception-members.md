@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullInvalidException members"
 title: EsentNullInvalidException members
 TOCTitle: EsentNullInvalidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNullInvalidException

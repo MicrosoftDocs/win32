@@ -1,5 +1,5 @@
 ---
-Description: Evaluates an expression, and displays a diagnostic message if the expression is FALSE. Ignored in retail builds.
+description: Evaluates an expression, and displays a diagnostic message if the expression is FALSE. Ignored in retail builds.
 ms.assetid: 8c3815bb-3164-4066-a947-974e791af5cd
 title: ASSERT macro (Wxdebug.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ ASSERT(rtStartTime <= rtEndTime);
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

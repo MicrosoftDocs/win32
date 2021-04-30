@@ -41,6 +41,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 
@@ -133,7 +134,7 @@ The appearance of text or an icon or both on a button control depends on the BS\
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h</dt> </dl> |
 

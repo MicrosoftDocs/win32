@@ -1,5 +1,5 @@
 ---
-Description: Specifies a protected surface.
+description: Specifies a protected surface.
 ms.assetid: 9838AF18-A468-4B04-80A3-4863DE7572CF
 title: MFPROTECTION_PROTECTED_SURFACE attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies a protected surface.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

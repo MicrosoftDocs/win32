@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC members"
 title: JET_ERRINFOBASIC members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_ERRINFOBASIC members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC

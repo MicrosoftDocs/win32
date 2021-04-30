@@ -1,5 +1,5 @@
 ---
-Description: Represents a display controller.
+description: Represents a display controller.
 ms.assetid: 14598ae6-58e2-46ca-8653-b57e5833a224
 title: CIM_DisplayController class
 ms.topic: reference
@@ -480,7 +480,7 @@ A text description of the video processor/controller.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

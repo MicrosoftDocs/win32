@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DiscreteSensor class exposes the following methods.
+description: The CIM\_DiscreteSensor class exposes the following methods.
 ms.assetid: 4EC4D764-6717-43E4-ACA4-0F26F8B4FD03
 ms.tgt_platform: multiple
 title: CIM_DiscreteSensor Methods

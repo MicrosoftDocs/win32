@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaColtyp.GUID field"
 title: VistaColtyp.GUID field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: GUID field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp.GUID

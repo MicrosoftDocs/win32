@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumndefGrbit enumeration"
 title: ColumndefGrbit enumeration
 TOCTitle: ColumndefGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumndefGrbit

@@ -1,5 +1,5 @@
 ---
-Description: The OnApplyChanges method is called when the user applies changes to the property page.
+description: The OnApplyChanges method is called when the user applies changes to the property page.
 ms.assetid: 15a55644-b7bf-4c72-8e26-18fc4fb714b9
 title: CBasePropertyPage.OnApplyChanges method (Cprop.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ HRESULT CMyProp::OnApplyChanges(void)
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

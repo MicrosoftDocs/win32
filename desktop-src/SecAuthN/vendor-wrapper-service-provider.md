@@ -1,5 +1,5 @@
 ---
-Description: The purpose of the vendor wrapper is to encapsulate and use the low-level COM interfaces (supplied by the smart card manufacturers) for a particular smart card. These interfaces are not supplied by Microsoft.
+description: The purpose of the vendor wrapper is to encapsulate and use the low-level COM interfaces (supplied by the smart card manufacturers) for a particular smart card. These interfaces are not supplied by Microsoft.
 ms.assetid: 7bc26f7b-c355-448a-9f23-4ccfffea2fef
 title: Vendor Wrapper Service Provider
 ms.topic: article

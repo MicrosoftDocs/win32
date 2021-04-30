@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObjectNotFoundException constructor"
 title: EsentObjectNotFoundException constructor 
 TOCTitle: 'EsentObjectNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException.#ctor

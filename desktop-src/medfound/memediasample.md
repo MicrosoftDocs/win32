@@ -1,5 +1,5 @@
 ---
-Description: Sent when a media stream delivers a new sample in response to a call to IMFMediaStream::RequestSample.
+description: Sent when a media stream delivers a new sample in response to a call to IMFMediaStream::RequestSample.
 ms.assetid: 01610053-786f-44b5-90d6-2cb2668cd632
 title: MEMediaSample event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

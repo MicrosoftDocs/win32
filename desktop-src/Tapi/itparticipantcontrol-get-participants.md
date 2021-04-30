@@ -1,5 +1,5 @@
 ---
-Description: The get\_Participants method creates a collection of participants associated with the current conference.
+description: The get\_Participants method creates a collection of participants associated with the current conference.
 ms.assetid: 643acc3f-3df1-4f3a-a8fe-5d46864f8cf7
 title: ITParticipantControl::get_Participants method (Confpriv.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ TAPI calls the **AddRef** method on the [**ITParticipant**](itparticipant.md) in
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

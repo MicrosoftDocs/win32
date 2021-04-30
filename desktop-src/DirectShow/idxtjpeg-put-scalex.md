@@ -1,5 +1,5 @@
 ---
-Description: The put\_ScaleX method specifies the amount by which the wipe is stretched horizontally.
+description: The put\_ScaleX method specifies the amount by which the wipe is stretched horizontally.
 ms.assetid: d57af5dc-41e0-45a7-8f11-55ef3bc62549
 title: IDxtJpeg::put_ScaleX method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

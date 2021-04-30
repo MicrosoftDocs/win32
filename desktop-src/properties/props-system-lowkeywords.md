@@ -1,5 +1,5 @@
 ---
-Description: The low confidence keywords for the item.
+description: The low confidence keywords for the item.
 ms.assetid: 606619aa-2995-4024-99ee-64de9f2109b0
 title: System.LowKeywords
 ms.topic: article

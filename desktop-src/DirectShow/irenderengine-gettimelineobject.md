@@ -1,5 +1,5 @@
 ---
-Description: The GetTimelineObject method retrieves the timeline that the render engine is currently using.
+description: The GetTimelineObject method retrieves the timeline that the render engine is currently using.
 ms.assetid: 74398f85-07b2-42fa-bb4f-a1e7e1669e3f
 title: IRenderEngine::GetTimelineObject method (Qedit.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ On return, if the value of *\*ppTimeline* is non-**NULL**, the **IAMTimeline** i
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

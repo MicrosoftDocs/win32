@@ -1,5 +1,5 @@
 ---
-Description: The BeginFlush method begins a flush operation. Implements the IPin::BeginFlush method.
+description: The BeginFlush method begins a flush operation. Implements the IPin::BeginFlush method.
 ms.assetid: f16c8337-5b7f-47e8-810d-00ffb3b5a1b4
 title: CBaseOutputPin.BeginFlush method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method should only be called on input pins, so the **CBaseOutputPin** imple
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

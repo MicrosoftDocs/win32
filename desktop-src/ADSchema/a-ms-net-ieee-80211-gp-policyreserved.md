@@ -1,6 +1,6 @@
 ---
 title: ms-net-ieee-80211-GP-PolicyReserved attribute
-description: Reserved for future use.
+description: Reserved for future use. | ms-net-ieee-80211-GP-PolicyReserved attribute
 ms.assetid: 28381eaf-9f78-43b6-97e7-bdae5322cf39
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +21,7 @@ Reserved for future use.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-net-ieee-80211-GP-PolicyReserved                   |
 | Ldap-Display-Name | ms-net-ieee-80211-GP-PolicyReserved                   |
@@ -44,7 +44,7 @@ Reserved for future use.
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -65,7 +65,7 @@ Reserved for future use.
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -86,7 +86,7 @@ Reserved for future use.
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |

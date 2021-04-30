@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for creating the IWICImagingFactory.
+description: Proxy function for creating the IWICImagingFactory.
 ms.assetid: e4f575b0-878f-461e-92e7-9494e505ea6f
 title: WICCreateImagingFactory_Proxy function
 ms.topic: reference
@@ -61,7 +61,7 @@ This function is a helper for creating a WIC factory for explicit DLL linking, w
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

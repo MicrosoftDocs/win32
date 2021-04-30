@@ -1,5 +1,5 @@
 ---
-Description: Describes an effect object.
+description: Describes an effect object.
 ms.assetid: 161d3e7a-213a-4a83-a1b5-837b0aab96bf
 title: D3DXEFFECT_DESC structure (D3dx9effect.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ An effect object can contain multiple rendering techniques and parameters for th
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9effect.h</dt> </dl> |
 

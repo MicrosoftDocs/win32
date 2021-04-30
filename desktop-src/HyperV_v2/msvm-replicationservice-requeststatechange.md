@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_ReplicationService class - Requests a state change.
 ms.assetid: ae799e76-5177-42a5-8591-ceaf15dd7eaf
 title: RequestStateChange method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -150,7 +150,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

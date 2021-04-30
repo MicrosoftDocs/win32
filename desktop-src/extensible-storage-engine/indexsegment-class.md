@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment class"
 title: IndexSegment class
 TOCTitle: IndexSegment class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IndexSegment

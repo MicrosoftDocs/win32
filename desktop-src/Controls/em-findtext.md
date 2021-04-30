@@ -1,6 +1,6 @@
 ---
 title: EM_FINDTEXT message (Richedit.h)
-description: Finds text within a rich edit control.
+description: EM_FINDTEXT message - Finds text within a rich edit control.
 ms.assetid: f19e19a0-d8dd-4d31-b76d-f1f09577dd2d
 keywords:
 - EM_FINDTEXT message Windows Controls
@@ -65,7 +65,7 @@ The **cpMin** member of **FINDTEXT.chrg** always specifies the starting-point of
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Gets the remoting version of the engine.
+description: Gets the remoting version of the engine.
 MS-HAID: vspixengine.IPixEngine6\_GetRemotingVersion\_RemotingVersion\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

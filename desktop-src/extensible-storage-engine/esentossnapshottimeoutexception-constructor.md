@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotTimeOutException constructor"
 title: EsentOSSnapshotTimeOutException constructor 
 TOCTitle: 'EsentOSSnapshotTimeOutException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotTimeOutException.#ctor

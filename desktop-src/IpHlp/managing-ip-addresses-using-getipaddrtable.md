@@ -1,5 +1,5 @@
 ---
-Description: The GetIpAddrTable function fills a pointer to an MIB\_IPADDRTABLE structure with information about the current IP addresses associated with the system.
+description: The GetIpAddrTable function fills a pointer to an MIB\_IPADDRTABLE structure with information about the current IP addresses associated with the system.
 ms.assetid: f041cb37-926d-4eeb-835c-f8b9d5ee4d2e
 title: Managing IP Addresses Using GetIpAddrTable
 ms.topic: article

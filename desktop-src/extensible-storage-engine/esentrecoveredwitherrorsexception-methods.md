@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithErrorsException methods"
 title: EsentRecoveredWithErrorsException methods
 TOCTitle: EsentRecoveredWithErrorsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException

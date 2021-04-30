@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the output stream should be structured so that the encoded stream has a low decoding latency.
+description: Specifies whether the output stream should be structured so that the encoded stream has a low decoding latency.
 ms.assetid: a000a2d4-afcf-4b88-9bbc-f42758744de2
 title: AVEncCommonLowLatency property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Decoding latency is defined as the amount of data the decoder must buffer. For e
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

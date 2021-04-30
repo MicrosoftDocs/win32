@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID members"
 title: JET_INDEXID members
 TOCTitle: JET_INDEXID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXID

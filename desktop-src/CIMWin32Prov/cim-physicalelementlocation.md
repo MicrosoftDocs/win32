@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalElementLocation class associates a physical element with a CIM\_Location object for inventory or replacement purposes.
+description: The CIM\_PhysicalElementLocation class associates a physical element with a CIM\_Location object for inventory or replacement purposes.
 ms.assetid: d1698c1a-0eda-4e32-9a29-fb741b987671
 ms.tgt_platform: multiple
 title: CIM_PhysicalElementLocation class
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

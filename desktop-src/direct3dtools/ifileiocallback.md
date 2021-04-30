@@ -1,5 +1,5 @@
 ---
-Description: Callback to save or end the experiment. Indicates file save is done.
+description: Callback to save or end the experiment. Indicates file save is done.
 MS-HAID: vspixengine.IFileIOCallback
 MSHAttr:
 - PreferredSiteName:MSDN

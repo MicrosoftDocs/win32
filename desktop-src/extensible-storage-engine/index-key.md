@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Index Key"
 title: Index Key
 TOCTitle: Index Key
 ms:assetid: 104bdb1c-71ac-44f4-bbda-c553131aaad4

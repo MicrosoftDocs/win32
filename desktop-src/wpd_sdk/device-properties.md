@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following device properties.
+description: Windows Portable Devices supports the following device properties.
 ms.assetid: 1caf4c1a-ceb6-4aa5-b430-df01c9fb22ce
 title: Device Properties (PortableDevice.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - PortableDevice.h
 ---
 
-# Device Properties
+# Device Properties (PortableDevice.h)
 
 Windows Portable Devices supports the following device properties.
 
@@ -143,7 +143,7 @@ Windows Portable Devices supports the following device properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

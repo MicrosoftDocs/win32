@@ -1,12 +1,12 @@
 ---
-Description: Performance
+description: Performance
 ms.assetid: a0d5c4ae-e0a3-466b-bf43-6bf7cda7aa21
 title: Performance (Windows Imaging Component)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Performance
+# Performance (Windows Imaging Component)
 
 The Microsoft goal is that the performance of RAW processing through the Windows Imaging Component (WIC) interface be equivalent to industry-leading RAW processing tools and applications. To provide performance guidance, a set of comprehensive tests comparing the performance of popular RAW workflow tools was performed. The tests included both Windows and Apple Macintosh operating system versions of RAW processing products, sample RAW files from current single-lens reflex (SLR) cameras, and a series of functions that represent common workflow steps.
 

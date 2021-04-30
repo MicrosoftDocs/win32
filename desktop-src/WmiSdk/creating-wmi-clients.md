@@ -1,5 +1,5 @@
 ---
-Description: WMI provides a standardized system management infrastructure that can be leveraged by a number of different clients.
+description: WMI provides a standardized system management infrastructure that can be leveraged by a number of different clients.
 ms.assetid: 7aa0ead7-010c-4ad2-b6ba-0ef84263d5c6
 ms.tgt_platform: multiple
 title: Creating WMI Clients

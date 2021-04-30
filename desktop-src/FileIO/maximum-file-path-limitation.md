@@ -2,7 +2,7 @@
 description: Maximum path length limitation.
 title: Maximum Path Length Limitation
 ms.topic: article
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.date: 09/15/2020
 ---
 
@@ -37,8 +37,29 @@ To enable the new long path behavior, both of the following conditions must be m
 
 * The registry key `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled (Type: REG_DWORD)` must exist and be set to 1. The key's value will be cached by the system (per process) after the first call to an affected Win32 file or directory function (see below for the list of functions). The registry key will not be reloaded during the lifetime of the process. In order for all apps on the system to recognize the value of the key, a reboot might be required because some processes may have started before the key was set.
 
-    > [!NOTE]  
-    > This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
+You can also copy this code to a `.reg` file which can set this for you, or use the PowerShell command from a terminal window with elevated privileges:
+# [cmd](#tab/cmd)
+
+```cmd
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001
+
+```
+
+# [PowerShell](#tab/powershell)
+
+```powershell
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+-Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+
+```
+
+---
+
+> [!NOTE]  
+> This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
 
 * The [application manifest](../sbscs/application-manifests.md) must also include the `longPathAware` element.
 

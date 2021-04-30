@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException members"
 title: EsentErrorException members
 TOCTitle: EsentErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentErrorException

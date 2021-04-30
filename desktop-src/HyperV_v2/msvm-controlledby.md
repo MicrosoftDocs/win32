@@ -1,5 +1,5 @@
 ---
-Description: Associates a storage device with the storage controller that owns the device.
+description: Associates a storage device with the storage controller that owns the device.
 ms.assetid: 3DE05EDC-C54A-4C3C-9057-4418246037D5
 title: Msvm_ControlledBy class
 ms.topic: reference
@@ -215,7 +215,7 @@ Access to the **Msvm\_ControlledBy** class might be restricted by UAC Filtering.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

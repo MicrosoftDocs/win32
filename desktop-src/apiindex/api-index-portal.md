@@ -26,7 +26,7 @@ The Win32 API (also called the Windows API) is the native platform for Windows a
 WinRT is the leading edge platform for Windows 10 apps and games, including desktop apps. The WinRT API is suitable for both native C++ and managed desktop apps that require a sophisticated UI, styles customization, and graphics-intensive scenarios.
 
 * [WinRT API reference](/uwp/api/)
-* [WinRT APIs callable from Win32, WPF, and Windows Forms desktop apps](uwp-apis-callable-from-a-classic-desktop-app.md)
+* [WinRT APIs callable from a desktop app](uwp-apis-callable-from-a-classic-desktop-app.md)
 
 ## .NET
 

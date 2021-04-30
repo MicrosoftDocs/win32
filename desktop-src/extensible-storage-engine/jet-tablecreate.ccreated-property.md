@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.cCreated property"
 title: JET_TABLECREATE.cCreated property 
 TOCTitle: 'cCreated property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cCreated

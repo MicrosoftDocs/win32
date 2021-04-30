@@ -1,5 +1,5 @@
 ---
-Description: Checks the compatibility information for compatibility with the hosting computer system.
+description: Checks the compatibility information for compatibility with the hosting computer system.
 ms.assetid: 1991c58e-2d0b-4fc3-a04a-c18f358451f6
 title: CheckSystemCompatibilityInfo method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -101,7 +101,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Defines resource IDs for shared string resources.
+description: Defines resource IDs for shared string resources.
 MS-HAID: vspixengine.Resource\_Id
 MSHAttr:
 - PreferredSiteName:MSDN

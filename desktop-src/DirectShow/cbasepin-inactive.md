@@ -1,5 +1,5 @@
 ---
-Description: The Inactive method notifies the pin that the filter is no longer active.
+description: CBasePin.Inactive method - The Inactive method notifies the pin that the filter is no longer active.
 ms.assetid: 71847578-2271-4243-87c4-9f14b33f770c
 title: CBasePin.Inactive method (Amfilter.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The filter graph manager's internal state is not updated until after this method
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

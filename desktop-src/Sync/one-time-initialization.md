@@ -1,5 +1,5 @@
 ---
-Description: Components are often designed to perform initialization tasks when they are first called, rather than when they are loaded.
+description: Components are often designed to perform initialization tasks when they are first called, rather than when they are loaded.
 ms.assetid: 404c083c-7bee-44c2-b8e7-da1901b6ab2f
 title: One-Time Initialization
 ms.topic: article

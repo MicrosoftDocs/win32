@@ -1,5 +1,5 @@
 ---
-Description: Describes a three-component vector including operator overloads and type casts.
+description: D3DXVECTOR3 structure (D3DX10Math.h) - Describes a three-component vector including operator overloads and type casts.
 ms.assetid: d170cd26-d705-4a31-82b3-f9ea070b6ca4
 title: D3DXVECTOR3 structure (D3DX10Math.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXVECTOR3 structure
+# D3DXVECTOR3 structure (D3DX10Math.h)
 
 Describes a three-component vector including operator overloads and type casts.
 
@@ -126,7 +126,7 @@ typedef struct _D3DVECTOR D3DXVECTOR3, *LPD3DXVECTOR3;
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

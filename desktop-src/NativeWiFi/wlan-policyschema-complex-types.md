@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WLAN_policy Schema Complex Types"
 ms.assetid: 335f5d21-5a6b-40c1-8ed3-764e4707792a
 title: WLAN_policy Schema Complex Types
 ms.topic: article

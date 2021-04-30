@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PFNDURABLECOMMITCALLBACK delegate"
 title: JET_PFNDURABLECOMMITCALLBACK delegate (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_PFNDURABLECOMMITCALLBACK delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK

@@ -22,7 +22,7 @@ Full path of the common staging directory.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFSR-CommonStagingPath                   |
 | Ldap-Display-Name | msDFSR-CommonStagingPath                    |
@@ -45,7 +45,7 @@ Full path of the common staging directory.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -66,7 +66,7 @@ Full path of the common staging directory.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -87,7 +87,7 @@ Full path of the common staging directory.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

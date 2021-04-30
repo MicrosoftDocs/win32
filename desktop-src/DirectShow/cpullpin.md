@@ -1,5 +1,5 @@
 ---
-Description: The CPullPin class provides support for input pins that pull data through the IAsyncReader interface.
+description: The CPullPin class provides support for input pins that pull data through the IAsyncReader interface.
 ms.assetid: 33a6c342-3896-41f8-b32d-01db3eed003e
 title: CPullPin class (Pullpin.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This class does not derive from **CBasePin** or implement the [**IPin**](/window
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

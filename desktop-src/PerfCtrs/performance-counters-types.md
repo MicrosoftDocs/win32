@@ -1,5 +1,5 @@
 ---
-Description: PDH defines the following data types.
+description: PDH defines the following data types.
 ms.assetid: 8a2e8683-502a-4893-8b4f-5e2cf464a933
 title: Performance Counters Data Types
 ms.topic: article

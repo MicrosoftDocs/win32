@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientSecuredSettings2 PCB property
-description: Specifies the preconnection BLOB (PCB) setting to use prior to connecting for transmission to the server.
+description: Specifies the preconnection BLOB (PCB) setting to use prior to connecting for transmission to the server. | IMsRdpClientSecuredSettings2 PCB property
 ms.assetid: e2ddd9fd-d868-4fc5-835d-0f4db5da71e3
 ms.tgt_platform: multiple
 keywords:
@@ -50,7 +50,7 @@ The PCB setting.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

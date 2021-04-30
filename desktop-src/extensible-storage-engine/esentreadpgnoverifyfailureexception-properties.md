@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadPgnoVerifyFailureException properties"
 title: EsentReadPgnoVerifyFailureException properties
 TOCTitle: EsentReadPgnoVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException

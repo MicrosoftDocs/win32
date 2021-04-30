@@ -1,5 +1,5 @@
 ---
-Description: Digital signatures can be used to distribute a message in plaintext form when the recipients must identify and verify the message sender.
+description: Digital signatures can be used to distribute a message in plaintext form when the recipients must identify and verify the message sender.
 ms.assetid: 10c33787-72d3-4e5d-b4dd-633b3fd29903
 title: Digital Signatures
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents a 2D point with unsigned integer coordinates.
+description: Represents a 2D point with unsigned integer coordinates.
 MS-HAID: vspixengine.Point2D
 MSHAttr:
 - PreferredSiteName:MSDN

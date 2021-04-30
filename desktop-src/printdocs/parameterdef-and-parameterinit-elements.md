@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For current information, see the Print Schema Specification.
 ms.assetid: f1c73aed-fca4-47f6-bb98-bab40a6a9b2e
 title: ParameterDef and ParameterInit Elements
 ms.topic: article
@@ -8,14 +8,15 @@ ms.date: 05/31/2018
 
 # ParameterDef and ParameterInit Elements
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 A ParameterDef element differs from a ParameterInit element in that it describes the value that a ParameterInit element can contain, while a ParameterInit element assigns a value to the parameter. A ParameterDef element consists of a specific set of Property elements, which are children of the ParameterDef element, that specify the type of data, maximum, minimum, and default values for the data, and other information. These Property elements are discussed later in this topic.
 
 ParameterDef elements can appear only in their allowed context. For the initial version of the Print Schema they may be located at the root level of the PrintCapabilities document. The name attribute of the ParameterDef element defines the parameter name. Each ParameterDef element in the PrintCapabilities document must be assigned a unique name attribute.
 
-> [!Note]to Print Capabilities Document Providers:
->
+> [!Note]
+> to Print Capabilities Document Providers:
+> 
 > The meaning of a parameter name is universal; that is, if a ParameterDef element in one PrintCapabilities document has the same name attribute (the string formed from the namespace and the descriptive name of the ParameterDef element) as a ParameterDef element in another PrintCapabilities document, it is assumed that both of these elements represent the same concept and should be interpreted in the same manner. Thus a ParameterDef element defined in a PrintTicket for one PrintCapabilities document can be used to initialize the ParameterInit element of the same name defined in a different PrintCapabilities document.
 
  
@@ -123,7 +124,7 @@ For ParameterInit elements with integer or decimal values, the value of the Para
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

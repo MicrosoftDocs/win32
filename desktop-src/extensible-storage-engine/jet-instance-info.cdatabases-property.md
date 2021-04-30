@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO.cDatabases property"
 title: JET_INSTANCE_INFO.cDatabases property 
 TOCTitle: 'cDatabases property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.cDatabases

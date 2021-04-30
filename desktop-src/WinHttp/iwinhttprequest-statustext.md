@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the HTTP status text.
+description: Retrieves the HTTP status text.
 ms.assetid: 480babbd-432c-4722-98df-a73ba5928e1f
 title: IWinHttpRequest::StatusText property
 ms.topic: reference
@@ -186,7 +186,7 @@ WScript.Echo( WinHttpReq.GetAllResponseHeaders());
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

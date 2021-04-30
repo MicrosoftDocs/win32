@@ -61,7 +61,7 @@ The method returns an error if the setting is under group policy control.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                       |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEntryPointNotFoundException properties"
 title: EsentEntryPointNotFoundException properties
 TOCTitle: EsentEntryPointNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException

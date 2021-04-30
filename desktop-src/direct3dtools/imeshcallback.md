@@ -1,5 +1,5 @@
 ---
-Description: Callback to return a buffer containing the mesh of a pipeline stage.
+description: Callback to return a buffer containing the mesh of a pipeline stage.
 MS-HAID: vspixengine.IMeshCallback
 MSHAttr:
 - PreferredSiteName:MSDN

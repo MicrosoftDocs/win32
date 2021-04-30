@@ -1,5 +1,5 @@
 ---
-Description: Creates and returns a new FolderItemVerbs object that is a copy of this FolderItemVerbs object.
+description: Creates and returns a new FolderItemVerbs object that is a copy of this FolderItemVerbs object.
 title: FolderItemVerbs._NewEnum method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

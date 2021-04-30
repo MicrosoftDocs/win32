@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDoesNotFitException properties"
 title: EsentColumnDoesNotFitException properties
 TOCTitle: EsentColumnDoesNotFitException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnDoesNotFitException

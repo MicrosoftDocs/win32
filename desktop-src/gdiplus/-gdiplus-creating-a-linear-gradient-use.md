@@ -1,5 +1,5 @@
 ---
-Description: GDI+ provides horizontal, vertical, and diagonal linear gradients. By default, the color in a linear gradient changes uniformly. However, you can customize a linear gradient so that the color changes in a non-uniform fashion.
+description: GDI+ provides horizontal, vertical, and diagonal linear gradients. By default, the color in a linear gradient changes uniformly. However, you can customize a linear gradient so that the color changes in a non-uniform fashion.
 ms.assetid: 9b0236b2-be6b-4918-a106-5b0e6c3dd5ff
 title: Creating a Linear Gradient
 ms.topic: article

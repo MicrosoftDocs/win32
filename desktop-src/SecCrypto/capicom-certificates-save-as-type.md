@@ -1,5 +1,5 @@
 ---
-Description: Defines the format of a file containing certificates information.
+description: Defines the format of a file containing certificates information.
 ms.assetid: 2118746a-9fa4-4e6a-82ce-e57f154f4a94
 title: CAPICOM_CERTIFICATES_SAVE_AS_TYPE enumeration (Capicom.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The CAPICOM\_CERTIFICATES\_SAVE\_AS\_TYPE enumeration type is used by the [**Cer
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

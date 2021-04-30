@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Interfaces
+description: Media Foundation Interfaces
 ms.assetid: 3e367190-4c88-430e-adbf-9837e1bf0d2b
 title: Media Foundation Interfaces
 ms.topic: article

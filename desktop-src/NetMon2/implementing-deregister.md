@@ -1,5 +1,5 @@
 ---
-Description: Network Monitor passes all the frames of a capture to the parsers, and then starts calling the Deregister function for all the protocols it identifies. Each parser DLL must implement a Deregister function for each protocol that the parser DLL supports.
+description: Network Monitor passes all the frames of a capture to the parsers, and then starts calling the Deregister function for all the protocols it identifies. Each parser DLL must implement a Deregister function for each protocol that the parser DLL supports.
 ms.assetid: 936d5b00-b0ee-4a29-9396-1e2a7a91a2dd
 title: Implementing Deregister
 ms.topic: article

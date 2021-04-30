@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInTransactionException methods"
 title: EsentNotInTransactionException methods
 TOCTitle: EsentNotInTransactionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNotInTransactionException

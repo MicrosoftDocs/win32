@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table class"
 title: Table class
 TOCTitle: Table class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Table

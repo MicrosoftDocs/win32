@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_BaseService class exposes the following methods.
+description: The Win32\_BaseService class exposes the following methods.
 ms.assetid: 30CBACF4-F2E0-4FBD-BB81-ABDDADF0740D
 ms.tgt_platform: multiple
 title: Win32_BaseService Methods

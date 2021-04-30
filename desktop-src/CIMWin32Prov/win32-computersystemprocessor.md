@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ComputerSystemProcessor association WMI class relates a computer system and a processor running on that system.
+description: The Win32\_ComputerSystemProcessor association WMI class relates a computer system and a processor running on that system.
 ms.assetid: e630ebea-19bf-43c7-a8a0-7acfda3a752b
 ms.tgt_platform: multiple
 title: Win32_ComputerSystemProcessor class
@@ -87,7 +87,7 @@ The **Win32\_ComputerSystemProcessor** class is derived from [**Win32\_SystemDev
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

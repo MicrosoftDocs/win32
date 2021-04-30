@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedIndexViolationException class"
 title: EsentMultiValuedIndexViolationException class
 TOCTitle: EsentMultiValuedIndexViolationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMultiValuedIndexViolationException

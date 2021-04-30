@@ -1,5 +1,5 @@
 ---
-Description: IsAdditionalPdpContextProfile
+description: IsAdditionalPdpContextProfile
 MS-HAID: WWAN\_profile\_v3.element\_IsAdditionalPdpContextProfile
 MSHAttr:
 - PreferredSiteName:MSDN

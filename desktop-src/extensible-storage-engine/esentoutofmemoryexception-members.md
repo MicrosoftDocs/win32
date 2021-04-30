@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfMemoryException members"
 title: EsentOutOfMemoryException members
 TOCTitle: EsentOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException

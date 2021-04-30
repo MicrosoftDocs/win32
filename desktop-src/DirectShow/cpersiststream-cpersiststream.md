@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CPersistStream.CPersistStream constructor - Constructor method.
 ms.assetid: 48143a61-5ba7-4bf9-bffa-244f2769144d
 title: CPersistStream.CPersistStream constructor (Pstream.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Pointer to the general COM return value. This value is changed only if this func
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

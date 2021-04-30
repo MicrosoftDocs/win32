@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSesidException members"
 title: EsentInvalidSesidException members
 TOCTitle: EsentInvalidSesidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException

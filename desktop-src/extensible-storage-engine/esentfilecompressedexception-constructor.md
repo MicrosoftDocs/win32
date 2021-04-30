@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCompressedException constructor"
 title: EsentFileCompressedException constructor 
 TOCTitle: 'EsentFileCompressedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileCompressedException.#ctor

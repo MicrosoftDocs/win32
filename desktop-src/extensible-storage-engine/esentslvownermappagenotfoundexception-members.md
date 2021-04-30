@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapPageNotFoundException members"
 title: EsentSLVOwnerMapPageNotFoundException members
 TOCTitle: EsentSLVOwnerMapPageNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapPageNotFoundException

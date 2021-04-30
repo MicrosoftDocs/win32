@@ -22,7 +22,7 @@ Product-key configuration license used during online/phone activation of the Act
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-SPP-Config-License                                 |
 | Ldap-Display-Name | msSPP-ConfigLicense                                   |
@@ -43,7 +43,7 @@ Product-key configuration license used during online/phone activation of the Act
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

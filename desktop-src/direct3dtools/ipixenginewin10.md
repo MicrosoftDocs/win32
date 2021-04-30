@@ -1,5 +1,5 @@
 ---
-Description: Determines if the engine is from Windows 10.
+description: Determines if the engine is from Windows 10.
 MS-HAID: vspixengine.IPixEngineWin10
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -65,7 +65,7 @@ Indicates the type of contents being displayed in the results view is currently 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | IDL<br/> | <dl> <dt>WdsView.idl</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONVERT class"
 title: JET_CONVERT class
 TOCTitle: JET_CONVERT class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CONVERT

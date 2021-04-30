@@ -1,5 +1,5 @@
 ---
-Description: Draw an array of sprites.
+description: Draw an array of sprites.
 ms.assetid: 3fcc7705-0d59-450e-b137-c9cb7ec6b1ea
 title: ID3DX10Sprite::DrawSpritesImmediate method (D3DX10.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

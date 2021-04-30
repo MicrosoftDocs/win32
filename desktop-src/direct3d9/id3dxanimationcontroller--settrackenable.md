@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables a track in the animation controller.
+description: Enables or disables a track in the animation controller.
 ms.assetid: 8d06287b-e076-4553-962c-5c423e355101
 title: ID3DXAnimationController::SetTrackEnable method (D3dx9anim.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ To mix a track with other tracks, the Enable flag must be set to **TRUE**. Conve
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

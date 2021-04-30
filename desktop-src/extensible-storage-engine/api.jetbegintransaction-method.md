@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetBeginTransaction method"
 title: Api.JetBeginTransaction method 
 TOCTitle: 'JetBeginTransaction method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBeginTransaction(Microsoft.Isam.Esent.Interop.JET_SESID)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether topologies have a global start and stop time.
+description: Specifies whether topologies have a global start and stop time.
 ms.assetid: 6810a22c-f091-423c-97dd-c04fdabdb9bb
 title: MF_SESSION_GLOBAL_TIME attribute (Mfidl.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

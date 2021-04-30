@@ -1,5 +1,5 @@
 ---
-Description: Removes a specified list of child properties in the <Properties> element of a scan profile.
+description: Removes a specified list of child properties in the <Properties> element of a scan profile.
 ms.assetid: 512ccfec-0c95-4abb-98b6-d309e432151b
 title: IScanProfile::RemoveProperty method (Scanprofile.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If two applications create scan profile objects from the same XML file, and each
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

@@ -1,5 +1,5 @@
 ---
-Description: Smart Tee Filter
+description: Smart Tee Filter
 ms.assetid: 25bfbd62-b6be-4d1f-aa4c-77798bbb9fc9
 title: Smart Tee Filter
 ms.topic: article
@@ -18,7 +18,7 @@ The following illustration shows a typical capture graph that uses the Smart Tee
 
 
 
-|                                          |                                                                                                                |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                             |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_NULL                                                                           |

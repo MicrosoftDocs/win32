@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetOpenTemporaryTable2 method"
 title: Windows8Api.JetOpenTemporaryTable2 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetOpenTemporaryTable2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetOpenTemporaryTable2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE)

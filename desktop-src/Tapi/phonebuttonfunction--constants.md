@@ -1,5 +1,5 @@
 ---
-Description: The PHONEBUTTONFUNCTION\_ scalar constants describe the functions commonly assigned to buttons on telephone sets.
+description: The PHONEBUTTONFUNCTION\_ scalar constants describe the functions commonly assigned to buttons on telephone sets.
 ms.assetid: 33d369d0-2221-403e-8fbc-a9a1cbd640ad
 title: PHONEBUTTONFUNCTION_ Constants (Tapi.h)
 ms.topic: reference
@@ -492,7 +492,7 @@ The **PHONEBUTTONFUNCTION\_ constants** have values commonly found on current te
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

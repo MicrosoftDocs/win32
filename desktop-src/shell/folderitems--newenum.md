@@ -1,5 +1,5 @@
 ---
-Description: Creates and returns a new FolderItems object that is a copy of this FolderItemsss object.
+description: Creates and returns a new FolderItems object that is a copy of this FolderItemsss object.
 title: FolderItems._NewEnum method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ This method does not return a value.
 
 
 
-|                   |                                                                                                                |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Shldisp.h</dt> </dl>                           |
 | IDL<br/>    | <dl> <dt>Shldisp.idl</dt> </dl>                         |

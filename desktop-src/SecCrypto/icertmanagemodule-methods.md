@@ -1,5 +1,5 @@
 ---
-Description: The ICertManageModule interface exposes the following methods.
+description: The ICertManageModule interface exposes the following methods.
 ms.assetid: F44D827F-F537-4D8E-AE68-A74B65439882
 title: ICertManageModule Methods
 ms.topic: reference

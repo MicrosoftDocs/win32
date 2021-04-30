@@ -1,5 +1,5 @@
 ---
-Description: The Relpath property of the SWbemObjectPath object contains the relative path from the complete path.
+description: The Relpath property of the SWbemObjectPath object contains the relative path from the complete path.
 ms.assetid: 9a4363ae-b6b3-4e8c-a7ca-a9e48c28e19b
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Relpath property (Wbemdisp.h)
@@ -61,7 +61,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

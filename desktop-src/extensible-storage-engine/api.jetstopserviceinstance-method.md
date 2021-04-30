@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetStopServiceInstance method"
 title: Api.JetStopServiceInstance method 
 TOCTitle: 'JetStopServiceInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetStopServiceInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE)

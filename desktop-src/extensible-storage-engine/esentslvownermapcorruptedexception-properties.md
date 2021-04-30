@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapCorruptedException properties"
 title: EsentSLVOwnerMapCorruptedException properties
 TOCTitle: EsentSLVOwnerMapCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapCorruptedException

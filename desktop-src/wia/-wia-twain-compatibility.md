@@ -1,5 +1,5 @@
 ---
-Description: WIA provides a TWAIN compatibility layer that allows TWAIN-aware applications to communicate with Windows Image Acquisition (WIA) devices.
+description: WIA provides a TWAIN compatibility layer that allows TWAIN-aware applications to communicate with Windows Image Acquisition (WIA) devices.
 ms.assetid: 8e5673b9-c234-4722-b244-41aae015ac0c
 title: TWAIN Compatibility
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Assigns vector component data to the current instance of XMUNIBBLE4.
+description: Assigns vector component data to the current instance of XMUNIBBLE4.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmunibble4.operator = '
 title: XMUNIBBLE4 operator = operators
 ms.topic: reference
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator = operators
+# XMUNIBBLE4 operator = operators
 
 Assigns vector component data to the current instance of `XMUNIBBLE4`.
 

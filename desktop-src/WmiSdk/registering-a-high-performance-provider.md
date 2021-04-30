@@ -1,5 +1,5 @@
 ---
-Description: Like other instance providers, you register a high-performance provider with Microsoft Windows&\#160;Management Instrumentation (WMI) by creating an instance of the \_\_Win32Provider and \_\_InstanceProviderRegistration classes.
+description: Like other instance providers, you register a high-performance provider with Microsoft Windows&\#160;Management Instrumentation (WMI) by creating an instance of the \_\_Win32Provider and \_\_InstanceProviderRegistration classes.
 ms.assetid: 6ff3f8c6-71ca-4589-bca7-b864e24a473d
 ms.tgt_platform: multiple
 title: Registering a High-Performance Provider

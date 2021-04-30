@@ -47,7 +47,7 @@ api_name:
 Creates a DirectML device for a given Direct3D 12 device.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 
@@ -114,7 +114,7 @@ The Graphics Tools Feature on Demand (FOD) must be installed in order to use the
 
 ## Remarks
 
-A newer version of this function, [DMLCreateDevice1](/windows/win32/direct3d12/directml/nf-directml-dmlcreatedevice1), was introduced in DirectML version 1.1.0. **DMLCreateDevice1** is equivalent to calling **DMLCreateDevice1** and supplying a *minimumFeatureLevel* of [DML_FEATURE_LEVEL_1_0](/windows/win32/api/directml/ne-directml-dml_feature_level).
+A newer version of this function, [DMLCreateDevice1](), was introduced in DirectML version 1.1.0. **DMLCreateDevice1** is equivalent to calling **DMLCreateDevice1** and supplying a *minimumFeatureLevel* of [DML_FEATURE_LEVEL_1_0](/windows/win32/api/directml/ne-directml-dml_feature_level).
 
 ## Availability
 
@@ -131,6 +131,6 @@ This API was introduced in DirectML version `1.1.0`.
 ## See also
 
 * [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
-* [DirectML version history](/windows/win32/direct3d12/dml-version-history)
+* [DirectML version history](../dml-version-history.md)
 * [DirectML feature level history](/windows/win32/direct3d12/dml-feature_level-history)    
-* [Using the DirectML debug layer](/windows/win32/direct3d12/dml-debug-layer)
+* [Using the DirectML debug layer](../dml-debug-layer.md)

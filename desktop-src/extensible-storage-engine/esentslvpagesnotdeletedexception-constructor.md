@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotDeletedException constructor"
 title: EsentSLVPagesNotDeletedException constructor 
 TOCTitle: 'EsentSLVPagesNotDeletedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException.#ctor

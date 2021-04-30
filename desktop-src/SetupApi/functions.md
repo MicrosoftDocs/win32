@@ -1,12 +1,12 @@
 ---
-Description: 'The following functions are part of the Setup API:'
+description: 'The following functions are part of the Setup API:'
 ms.assetid: '0a9518b7-f231-48f2-ba50-5b802f8ccaed'
 title: Functions (Setup API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# Functions (Setup API)
 
 \[These functions are available for use in the operating systems indicated in the Requirements sections. They may be altered or unavailable in subsequent versions. SetupAPI should no longer be used for installing applications. Instead, use the Windows Installer for developing application installers. SetupAPI continues to be used for installing device drivers.\]
 

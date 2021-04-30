@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDecompressionFailedException methods"
 title: EsentDecompressionFailedException methods
 TOCTitle: EsentDecompressionFailedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException

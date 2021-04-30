@@ -21,7 +21,7 @@ The uniqueIdentifier attribute type specifies a "unique identifier" for an objec
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | uniqueIdentifier                            |
 | Ldap-Display-Name | uniqueIdentifier                            |
@@ -46,7 +46,7 @@ The uniqueIdentifier attribute type specifies a "unique identifier" for an objec
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -67,7 +67,7 @@ The uniqueIdentifier attribute type specifies a "unique identifier" for an objec
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -88,7 +88,7 @@ The uniqueIdentifier attribute type specifies a "unique identifier" for an objec
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -109,7 +109,7 @@ The uniqueIdentifier attribute type specifies a "unique identifier" for an objec
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -130,7 +130,7 @@ The uniqueIdentifier attribute type specifies a "unique identifier" for an objec
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

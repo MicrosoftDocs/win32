@@ -1,5 +1,5 @@
 ---
-Description: COM+ Service Application Tasks
+description: COM+ Service Application Tasks
 ms.assetid: b25b4838-7d3b-41d7-9d02-0edd4bd2f97c
 title: COM+ Service Application Tasks
 ms.topic: article

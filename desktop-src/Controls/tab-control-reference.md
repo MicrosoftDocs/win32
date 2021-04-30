@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Tab
+# Tab (Windows Controls)
 
 This section contains information about the programming elements used with tab controls.
 

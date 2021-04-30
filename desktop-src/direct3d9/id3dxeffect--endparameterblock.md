@@ -1,5 +1,5 @@
 ---
-Description: Stop capturing effect parameter state changes.
+description: Stop capturing effect parameter state changes.
 ms.assetid: b6ca2917-2df0-4f3a-9ee3-23e9d2501ff4
 title: ID3DXEffect::EndParameterBlock method (D3DX9Effect.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ All effect parameters that change state (after calling BeginParameterBlock and b
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

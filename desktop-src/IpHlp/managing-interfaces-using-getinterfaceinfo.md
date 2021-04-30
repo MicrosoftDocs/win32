@@ -1,5 +1,5 @@
 ---
-Description: The GetInterfaceInfo function fills a pointer to an IP\_INTERFACE\_INFO structure with information about the interfaces associated with the system.
+description: The GetInterfaceInfo function fills a pointer to an IP\_INTERFACE\_INFO structure with information about the interfaces associated with the system.
 ms.assetid: 0cc18e14-7329-49b0-bb07-912fa403db46
 title: Managing Interfaces Using GetInterfaceInfo
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Video 9 decoder decodes video streams that were encoded by the Windows Media Video Encoder.
+description: The Windows Media Video 9 decoder decodes video streams that were encoded by the Windows Media Video Encoder.
 ms.assetid: 08f68d1c-c226-4bf6-abd0-fce0f9ddbc05
 title: Windows Media Video 9 Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -178,7 +178,7 @@ The maximum resolution allowed by the Windows Media Video 9 decoder is 4096x4096
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Displays or hides the desktop.
+description: Shell.ToggleDesktop method - Displays or hides the desktop.
 title: Shell.ToggleDesktop method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -120,7 +120,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

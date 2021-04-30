@@ -1,5 +1,5 @@
 ---
-Description: The IEffectivePermission interface exposes the following methods.
+description: The IEffectivePermission interface exposes the following methods.
 ms.assetid: 38928251-8768-4888-8F29-36576EF25E24
 title: IEffectivePermission Methods
 ms.topic: reference

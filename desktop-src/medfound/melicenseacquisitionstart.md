@@ -1,5 +1,5 @@
 ---
-Description: Raised by the policy engine when license acquisition is about to begin. License acquisition is performed using the applications implementation of the IMFContentProtectionManager interface.
+description: Raised by the policy engine when license acquisition is about to begin. License acquisition is performed using the applications implementation of the IMFContentProtectionManager interface.
 ms.assetid: c328743c-a69b-431e-8a05-0e140aad9b4d
 title: MELicenseAcquisitionStart event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ When license acquisition is completed, the policy engine raises the [MELicenseAc
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

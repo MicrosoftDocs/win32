@@ -1,5 +1,5 @@
 ---
-Description: PNRP uses the WSANSPIoctl function to receive notifications about changes to the following.
+description: PNRP uses the WSANSPIoctl function to receive notifications about changes to the following.
 ms.assetid: e5509be1-5294-4696-ab5b-fa2217ae0956
 title: PNRP and WSANSPIoctl
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Each physical display is represented by a monitor handle of type HMONITOR.
+description: Each physical display is represented by a monitor handle of type HMONITOR.
 ms.assetid: c43c1401-52d3-485e-a418-205df5737040
 title: HMONITOR and the Device Context
 ms.topic: article

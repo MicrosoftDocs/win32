@@ -1,5 +1,5 @@
 ---
-Description: Removes a computer system from a domain or workgroup.
+description: Removes a computer system from a domain or workgroup.
 ms.assetid: 79ee177e-81e2-441b-b39a-2fb53a0145bf
 ms.tgt_platform: multiple
 title: UnjoinDomainOrWorkgroup method of the Win32_ComputerSystem class
@@ -118,7 +118,7 @@ The [Unjoin a Computer from a Domain using VBS script](https://Gallery.TechNet.M
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

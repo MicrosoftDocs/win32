@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Dispose method"
 title: Instance.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Instance.Dispose

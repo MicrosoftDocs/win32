@@ -1,5 +1,5 @@
 ---
-Description: The DeviceInfo object provides access to the properties of a Windows Image Acquisition (WIA) hardware device.
+description: The DeviceInfo object provides access to the properties of a Windows Image Acquisition (WIA) hardware device.
 ms.assetid: b3cf153b-76f8-4822-8d88-331ab91a1116
 title: DeviceInfo object
 ms.topic: reference
@@ -108,7 +108,7 @@ The **DeviceInfo** object has these properties.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

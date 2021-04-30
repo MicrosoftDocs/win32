@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.ToString method"
 title: JET_SETCOLUMN.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.ToString

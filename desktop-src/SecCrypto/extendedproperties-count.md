@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of ExtendedProperty objects in the collection.
+description: Retrieves the number of ExtendedProperty objects in the collection.
 ms.assetid: 50bc8485-7285-4704-80db-c2e0d68e8cb0
 title: ExtendedProperties.Count property
 ms.topic: reference
@@ -38,7 +38,7 @@ The number of [**ExtendedProperty**](extendedproperty.md) objects in the collect
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

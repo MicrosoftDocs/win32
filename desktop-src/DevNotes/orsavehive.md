@@ -1,5 +1,5 @@
 ---
-Description: Writes the specified offline registry hive to a file.
+description: Writes the specified offline registry hive to a file.
 ms.assetid: 26f2eed9-e6e0-4dc0-8b91-212cde072744
 title: ORSaveHive function (Offreg.h)
 ms.topic: reference
@@ -130,7 +130,7 @@ The **ORSaveHive** function can be used to save part of the offline registry hiv
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

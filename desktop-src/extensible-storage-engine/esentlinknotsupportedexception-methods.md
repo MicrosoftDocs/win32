@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLinkNotSupportedException methods"
 title: EsentLinkNotSupportedException methods
 TOCTitle: EsentLinkNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLinkNotSupportedException

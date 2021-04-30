@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a specified number of random bytes from the system random number generator.
+description: Retrieves a specified number of random bytes from the system random number generator.
 ms.assetid: 04746229-9dc1-4748-80c1-f1960bd1b768
 title: SystemPrng function
 ms.topic: reference
@@ -65,7 +65,7 @@ Always returns **TRUE**.
 
 
 
-|                                     |                                                                                                                                                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista with SP1 \[desktop apps only\]<br/>                                                                                                                                                                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                                                                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to request enumeration on a background thread. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to request enumeration on a background thread. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_BACKGROUNDENUM message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -42,7 +42,7 @@ In response to this notification, return S\_OK to enable background enumeration.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

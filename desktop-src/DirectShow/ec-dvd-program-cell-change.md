@@ -1,5 +1,5 @@
 ---
-Description: Sent when the DVD program number or cell number changes.
+description: Sent when the DVD program number or cell number changes.
 ms.assetid: a500e86d-cd42-4716-9c57-828a72c4e1df
 title: EC_DVD_PROGRAM_CELL_CHANGE (Dvdevcode.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

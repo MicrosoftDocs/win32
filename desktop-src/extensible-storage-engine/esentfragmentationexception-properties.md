@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFragmentationException properties"
 title: EsentFragmentationException properties
 TOCTitle: EsentFragmentationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFragmentationException

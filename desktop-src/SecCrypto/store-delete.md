@@ -1,5 +1,5 @@
 ---
-Description: Deletes the certificate store that is represented by the current Store object.
+description: Deletes the certificate store that is represented by the current Store object.
 ms.assetid: 274914ee-27a0-4bd6-8510-af897aab3a2d
 title: Store.Delete method
 ms.topic: reference
@@ -58,7 +58,7 @@ The **Delete** method returns an error if called from a web script.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.1 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

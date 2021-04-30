@@ -1,5 +1,5 @@
 ---
-Description: Flag that has a nonzero value when the thread is waiting for a sample.
+description: Flag that has a nonzero value when the thread is waiting for a sample.
 ms.assetid: bc628f47-fa5b-4742-aed4-351081a61c13
 title: COutputQueue::m_lWaiting member (Outputq.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ LONG m_lWaiting;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

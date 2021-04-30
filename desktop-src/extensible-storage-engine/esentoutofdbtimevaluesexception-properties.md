@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDbtimeValuesException properties"
 title: EsentOutOfDbtimeValuesException properties
 TOCTitle: EsentOutOfDbtimeValuesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException

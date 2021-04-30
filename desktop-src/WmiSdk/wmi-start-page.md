@@ -1,5 +1,5 @@
 ---
-Description: Windows Management Instrumentation (WMI) is the infrastructure for management data and operations on Windows-based operating systems.
+description: Windows Management Instrumentation (WMI) is the infrastructure for management data and operations on Windows-based operating systems.
 ms.assetid: 4804152f-2042-4c6a-83c6-75c5e1ab7a04
 ms.tgt_platform: multiple
 title: Windows Management Instrumentation

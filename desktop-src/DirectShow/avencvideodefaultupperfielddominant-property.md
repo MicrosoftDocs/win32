@@ -1,5 +1,5 @@
 ---
-Description: Specifies which field is displayed first.
+description: Specifies which field is displayed first.
 ms.assetid: c3ee4c1d-3d15-44a4-8e7e-acd5f9a51dfe
 title: AVEncVideoDefaultUpperFieldDominant property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is **VARIANT\_TRUE**, the upper field is displayed first. Otherwise
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

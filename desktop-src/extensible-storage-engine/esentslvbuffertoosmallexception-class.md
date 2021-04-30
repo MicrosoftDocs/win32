@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVBufferTooSmallException class"
 title: EsentSLVBufferTooSmallException class
 TOCTitle: EsentSLVBufferTooSmallException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVBufferTooSmallException

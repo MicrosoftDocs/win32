@@ -4,7 +4,7 @@ description: For Windows Remote Management (WinRM) scripts to run, and for the *
 ms.date: 08/31/2020
 ms.assetid: 81c40456-0003-46d0-8695-83bf77432056
 ms.topic: article
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ---
 
 # Installation and configuration for Windows Remote Management

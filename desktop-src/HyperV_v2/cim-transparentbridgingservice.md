@@ -1,5 +1,5 @@
 ---
-Description: Represents the transparent bridging aspect of a CIM\_SwitchService object.
+description: Represents the transparent bridging aspect of a CIM\_SwitchService object.
 ms.assetid: 24f650ab-22a1-41c8-8498-c6c30e63c83c
 title: CIM_TransparentBridgingService class
 ms.topic: reference
@@ -77,7 +77,7 @@ Filtering Database Identifier used by VLAN-aware switches that have more than on
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID.Equals method (JET_SESID)"
 title: JET_SESID.Equals method (JET_SESID)
 TOCTitle: Equals method (JET_SESID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SESID.Equals(Microsoft.Isam.Esent.Interop.JET_SESID)

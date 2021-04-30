@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.GetTableIndexes method"
 title: Api.GetTableIndexes method 
 TOCTitle: 'GetTableIndexes method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.GetTableIndexes

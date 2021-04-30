@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDisabledDueToRecoveryFailureException constructor"
 title: EsentLogDisabledDueToRecoveryFailureException constructor 
 TOCTitle: 'EsentLogDisabledDueToRecoveryFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException.#ctor

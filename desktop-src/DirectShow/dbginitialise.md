@@ -1,5 +1,5 @@
 ---
-Description: The DbgInitialise function initializes the debug library. Ignored in retail builds.
+description: The DbgInitialise function initializes the debug library. Ignored in retail builds.
 ms.assetid: d4ca739e-cd39-4692-81da-c5a88a09d546
 title: DbgInitialise function (Wxdebug.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ In a DLL that links to the base-class library (Strmbase.lib), it is not necessar
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

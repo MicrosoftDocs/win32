@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexMustStayException methods"
 title: EsentIndexMustStayException methods
 TOCTitle: EsentIndexMustStayException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexMustStayException

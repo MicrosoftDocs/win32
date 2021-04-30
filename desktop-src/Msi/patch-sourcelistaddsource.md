@@ -1,5 +1,5 @@
 ---
-Description: The SourceListAddSource method adds a network or URL source. Accepts SourcePath, Type and Index as parameters. This method calls MsiSourceListAddSourceEx.
+description: The SourceListAddSource method adds a network or URL source. Accepts SourcePath, Type and Index as parameters. This method calls MsiSourceListAddSourceEx.
 ms.assetid: 87797a8c-f1ba-4bfb-9296-3d3ef2a3c37f
 title: Patch.SourceListAddSource method
 ms.topic: reference
@@ -73,7 +73,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

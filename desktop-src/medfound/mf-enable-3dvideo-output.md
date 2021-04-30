@@ -1,5 +1,5 @@
 ---
-Description: Specifies how a Media Foundation transform (MFT) should output a 3D stereoscopic video stream.
+description: Specifies how a Media Foundation transform (MFT) should output a 3D stereoscopic video stream.
 ms.assetid: AA75A2FB-DEAC-44E9-93E9-4AC2D9F03B39
 title: MF_ENABLE_3DVIDEO_OUTPUT attribute (Mftransform.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ To get or set this attribute call [**IMFTransform::GetAttributes**](/windows/des
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                              |

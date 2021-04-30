@@ -1,5 +1,5 @@
 ---
-Description: Represents a certificate trust chain.
+description: Represents a certificate trust chain.
 ms.assetid: '45ed686f-4a7f-4df9-8366-98b825c3c657'
 title: Chain object
 ms.topic: reference
@@ -87,7 +87,7 @@ The **Chain** object can be created, and it is safe for scripting. The ProgID fo
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

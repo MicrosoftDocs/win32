@@ -1,5 +1,5 @@
 ---
-Description: Creates a new virtual switch.
+description: Creates a new virtual switch.
 ms.assetid: de7495e9-48c5-427a-b9bb-0821b53a9b09
 title: DefineSystem method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -110,7 +110,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

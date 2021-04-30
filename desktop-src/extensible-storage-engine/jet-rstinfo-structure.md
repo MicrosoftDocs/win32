@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO Structure"
 title: JET_RSTINFO Structure
 TOCTitle: JET_RSTINFO Structure
 ms:assetid: 2f144d68-dcd9-4d0d-9d9e-a7d2a5c350fe

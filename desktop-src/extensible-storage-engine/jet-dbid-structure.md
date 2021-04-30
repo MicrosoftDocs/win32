@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID structure"
 title: JET_DBID structure
 TOCTitle: JET_DBID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_DBID

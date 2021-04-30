@@ -1,5 +1,5 @@
 ---
-Description: 'Displays the Search Results: Computers dialog box. The dialog box shows the result of the search for a specified computer.'
+description: Shell.FindComputer method - 'Displays the Search Results: Computers dialog box. The dialog box shows the result of the search for a specified computer.'
 ms.assetid: 0304b955-afde-4de4-824a-9ec9c9530360
 title: Shell.FindComputer method (Shldisp.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

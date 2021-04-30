@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID structure"
 title: JET_INDEXID structure
 TOCTitle: JET_INDEXID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXID

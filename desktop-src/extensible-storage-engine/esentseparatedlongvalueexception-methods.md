@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSeparatedLongValueException methods"
 title: EsentSeparatedLongValueException methods
 TOCTitle: EsentSeparatedLongValueException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSeparatedLongValueException

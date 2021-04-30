@@ -1,5 +1,5 @@
 ---
-Description: Defines some or all of the character attributes, glyphs, advance widths, x and y positions, character-to-glyph mappings, and so forth, for a string.
+description: Defines some or all of the character attributes, glyphs, advance widths, x and y positions, character-to-glyph mappings, and so forth, for a string.
 ms.assetid: aa93d631-3cfc-449d-9d04-c1f851129c6c
 title: SCRIPT_STRING_ANALYSIS (Usp10.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ Since the analysis can be large, it is important for your application to call [*
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

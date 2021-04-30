@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.ColumnsTaggedMost field"
 title: SystemParameters.ColumnsTaggedMost field
 TOCTitle: ColumnsTaggedMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.ColumnsTaggedMost

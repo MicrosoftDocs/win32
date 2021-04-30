@@ -1,5 +1,5 @@
 ---
-Description: When an SSP/AP security package is functioning as an authentication package, it is loaded into the process space of the Local Security Authority (LSA) and is said to be in LSA mode.
+description: When an SSP/AP security package is functioning as an authentication package, it is loaded into the process space of the Local Security Authority (LSA) and is said to be in LSA mode.
 ms.assetid: ff4e61be-dbaa-4cfa-8c72-43e99fe1c3cb
 title: LSA Mode vs. User Mode
 ms.topic: article

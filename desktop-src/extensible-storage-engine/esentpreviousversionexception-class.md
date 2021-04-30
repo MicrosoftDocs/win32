@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPreviousVersionException class"
 title: EsentPreviousVersionException class
 TOCTitle: EsentPreviousVersionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentPreviousVersionException

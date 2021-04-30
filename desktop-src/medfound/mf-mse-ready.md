@@ -1,5 +1,5 @@
 ---
-Description: Defines the different ready states of the Media Source Extension.
+description: Defines the different ready states of the Media Source Extension.
 ms.assetid: 7455B92F-CC2D-4743-935D-F5EBFD834397
 title: MF_MSE_READY enumeration
 ms.topic: reference
@@ -61,7 +61,7 @@ The media source is ended.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

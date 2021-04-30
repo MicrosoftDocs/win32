@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseDuplicateException methods"
 title: EsentDatabaseDuplicateException methods
 TOCTitle: EsentDatabaseDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseDuplicateException

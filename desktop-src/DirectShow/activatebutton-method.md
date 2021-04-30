@@ -1,5 +1,5 @@
 ---
-Description: The ActivateButton method activates the selected menu button.
+description: The ActivateButton method activates the selected menu button.
 ms.assetid: 1da486a0-dadc-4c92-b3d3-83aeace01e39
 title: ActivateButton Method
 ms.topic: reference

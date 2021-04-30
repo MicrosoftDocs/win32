@@ -1,5 +1,5 @@
 ---
-Description: The AlterQuality method notifies the filter that a quality change is requested. This method overrides the CTransformFilter::AlterQuality method.
+description: The AlterQuality method notifies the filter that a quality change is requested. This method overrides the CTransformFilter::AlterQuality method.
 ms.assetid: 9a1d1379-8557-4b33-ab49-b5c6a684f685
 title: CVideoTransformFilter.AlterQuality method (Vtrans.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The lateness value from *q* is stored in the **m\_itrLate** member variable. The
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Vtrans.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

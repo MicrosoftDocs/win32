@@ -1,5 +1,5 @@
 ---
-Description: Rotates a quaternion about an arbitrary axis.
+description: D3DXQuaternionRotationAxis function (D3dx9math.h) - Rotates a quaternion about an arbitrary axis.
 ms.assetid: 9ff0fe2c-54d6-482c-84e1-f38e3c57d8dd
 title: D3DXQuaternionRotationAxis function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXQuaternionRotationAxis function
+# D3DXQuaternionRotationAxis function (D3dx9math.h)
 
 Rotates a quaternion about an arbitrary axis.
 
@@ -80,7 +80,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

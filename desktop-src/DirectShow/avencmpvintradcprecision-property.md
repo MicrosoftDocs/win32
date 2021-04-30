@@ -1,5 +1,5 @@
 ---
-Description: Specifies the precision of the DC coefficients, in bits. This property applies to MPEG video encoders.
+description: Specifies the precision of the DC coefficients, in bits. This property applies to MPEG video encoders.
 ms.assetid: 2b4d11c1-767c-4466-8291-7959d841ae65
 title: AVEncMPVIntraDCPrecision property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The usual range for this property is 8 to 11 bits. If the value is zero, the enc
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

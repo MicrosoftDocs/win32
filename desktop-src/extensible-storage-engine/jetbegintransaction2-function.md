@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginTransaction2 Function"
 title: JetBeginTransaction2 Function
 TOCTitle: JetBeginTransaction2 Function
 ms:assetid: 638af3f1-b342-46bd-9fd0-dc281936355c

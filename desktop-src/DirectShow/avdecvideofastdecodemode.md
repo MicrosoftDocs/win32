@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets the video decoding speed.
+description: Gets or sets the video decoding speed.
 ms.assetid: 76F7013D-C172-4D31-93BC-EA3D186EB14C
 title: AVDecVideoFastDecodeMode property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The [**eAVFastDecodeMode**](/windows/desktop/api/codecapi/ne-codecapi-eavfastdec
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CNG SSL Provider Functions"
 ms.assetid: dd1313c7-e0b1-41e6-b82e-a66fc26b4ac0
 title: CNG SSL Provider Functions
 ms.topic: article

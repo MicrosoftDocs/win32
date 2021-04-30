@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileInvalidTypeException properties"
 title: EsentFileInvalidTypeException properties
 TOCTitle: EsentFileInvalidTypeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException

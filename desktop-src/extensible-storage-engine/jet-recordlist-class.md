@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST class"
 title: JET_RECORDLIST class
 TOCTitle: JET_RECORDLIST class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableLockedException methods"
 title: EsentTableLockedException methods
 TOCTitle: EsentTableLockedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTableLockedException

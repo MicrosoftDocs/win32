@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the device associated with the effect.
+description: Retrieves the device associated with the effect.
 ms.assetid: acef5d0a-b185-4054-8982-0580440ab76b
 title: ID3DXEffect::GetDevice method (D3DX9Effect.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Calling this method will increase the internal reference count for the [**IDirec
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

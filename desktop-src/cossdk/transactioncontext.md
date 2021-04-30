@@ -1,5 +1,5 @@
 ---
-Description: Creates a generic transactional object that begins a transaction.
+description: Creates a generic transactional object that begins a transaction.
 ms.assetid: 'efaf1468-4973-472f-af91-85957a52b7df'
 title: TransactionContext class (ComSvcs.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                    |
+| Requirement | Value |
 |------------|----------------------------------------------------|
 | CLSID      | CLSID\_TransactionContext                          |
 | ProgID     | L"TxCTx.TransactionContext"                        |
@@ -49,7 +49,7 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

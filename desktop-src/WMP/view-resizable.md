@@ -45,7 +45,7 @@ If there is no **titlebar**, and therefore no window or border, you must use the
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

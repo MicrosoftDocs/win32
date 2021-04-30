@@ -1,6 +1,6 @@
 ---
 title: BitMapValueType Complex Type
-description: Defines the mapping between a bit value and a string value.
+description: Defines the mapping between a bit value and a string value. | BitMapValueType Complex Type
 ms.assetid: 2ef9ed89-83cf-4c47-9c6c-64459b6d7198
 keywords:
 - BitMapValueType complex type EventLog
@@ -64,7 +64,7 @@ Maps a hexadecimal value (the number must be preceded by 0x) with a single bit s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

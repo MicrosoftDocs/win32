@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a digital signature.
+description: Contains information about a digital signature.
 ms.assetid: 0b86fdf9-533f-4640-8c70-c3c8f4ef2c68
 title: SIGNER_SIGNATURE_INFO structure
 ms.topic: reference
@@ -102,7 +102,7 @@ Unauthenticated user-supplied attributes added to the digital signature.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

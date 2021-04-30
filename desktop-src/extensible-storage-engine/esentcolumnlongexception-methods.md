@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnLongException methods"
 title: EsentColumnLongException methods
 TOCTitle: EsentColumnLongException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnLongException

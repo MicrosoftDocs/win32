@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cbData property"
 title: JET_RECSIZE.cbData property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cbData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cbData

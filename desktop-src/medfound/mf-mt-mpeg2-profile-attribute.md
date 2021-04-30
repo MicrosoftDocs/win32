@@ -1,5 +1,5 @@
 ---
-Description: Specifies the MPEG-2 or H.264 profile in a video media type.
+description: Specifies the MPEG-2 or H.264 profile in a video media type.
 ms.assetid: 8c6a68cb-d976-4099-8934-064f0e8f6374
 title: MF_MT_MPEG2_PROFILE attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

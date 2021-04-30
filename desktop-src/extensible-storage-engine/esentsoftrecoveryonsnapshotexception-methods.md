@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnSnapshotException methods"
 title: EsentSoftRecoveryOnSnapshotException methods
 TOCTitle: EsentSoftRecoveryOnSnapshotException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException

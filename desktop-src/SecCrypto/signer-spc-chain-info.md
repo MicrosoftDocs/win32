@@ -1,5 +1,5 @@
 ---
-Description: Specifies a Software Publisher Certificate (SPC) and certificate chain used to sign a document.
+description: Specifies a Software Publisher Certificate (SPC) and certificate chain used to sign a document.
 ms.assetid: b65b4129-df92-410c-b372-b0c004f8bb03
 title: SIGNER_SPC_CHAIN_INFO structure
 ms.topic: reference
@@ -85,7 +85,7 @@ Optional. A handle to an additional certificate store.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

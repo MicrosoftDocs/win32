@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfBuffersException class"
 title: EsentOutOfBuffersException class
 TOCTitle: EsentOutOfBuffersException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException

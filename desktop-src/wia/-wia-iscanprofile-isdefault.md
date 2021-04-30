@@ -1,5 +1,5 @@
 ---
-Description: Gets a value that indicates whether the profile is the default scan profile of an associated IWiaItem2 device.
+description: Gets a value that indicates whether the profile is the default scan profile of an associated IWiaItem2 device.
 ms.assetid: 32ca3b9f-6235-4eec-aa94-bf20f15a9a16
 title: IScanProfile::IsDefault method (Scanprofile.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets the path to the link object.
+description: Gets or sets the path to the link object.
 ms.assetid: ddb5be91-7c21-46c8-949e-bdd973e11b6c
 title: ShellLinkObject.Path property (Shldisp.h)
 ms.topic: reference
@@ -167,7 +167,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

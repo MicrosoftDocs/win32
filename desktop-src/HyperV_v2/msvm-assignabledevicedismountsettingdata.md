@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings of a virtual system to import. Used by the Dismount method of the Msvm\_AssignableDeviceService class.
+description: Represents the settings of a virtual system to import. Used by the Dismount method of the Msvm\_AssignableDeviceService class.
 ms.assetid: 49892e21-3e8d-4644-8cde-72966927f350
 title: Msvm_AssignableDeviceDismountSettingData class
 ms.topic: reference
@@ -106,7 +106,7 @@ Indicates if device mitigations should be in place before permitting the dismoun
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

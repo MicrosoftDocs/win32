@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: DurableCommitCallback.Dispose method"
 title: DurableCommitCallback.Dispose method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback.Dispose

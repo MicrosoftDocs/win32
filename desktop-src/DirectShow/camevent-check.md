@@ -1,5 +1,5 @@
 ---
-Description: The Check method checks whether the event is set, without blocking.
+description: The Check method checks whether the event is set, without blocking.
 ms.assetid: b8e55798-fd8e-4442-bc35-08887d8a3129
 title: CAMEvent.Check method (Wxutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the event is set, or **FALSE** otherwise. This method calls 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

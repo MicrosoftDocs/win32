@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for event logs obtain event data from event log files and perform operations like backing up or clearing log files. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for event logs obtain event data from event log files and perform operations like backing up or clearing log files. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: f6d4e68e-d757-44aa-be74-3b26168626b8
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Event Logs'

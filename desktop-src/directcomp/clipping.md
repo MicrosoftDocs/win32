@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Clipping
+# Clipping (DirectComposition)
 
 > [!NOTE]
 > For apps on Windows 10, we recommend using Windows.UI.Composition APIs instead of DirectComposition. For more info, see [Modernize your desktop app using the Visual layer](/windows/uwp/composition/visual-layer-in-desktop-apps).

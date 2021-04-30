@@ -1,5 +1,5 @@
 ---
-Description: Manages the virtual media (.vhd, .vhdx, .iso, or .vfd files) for a virtual machine.
+description: Manages the virtual media (.vhd, .vhdx, .iso, or .vfd files) for a virtual machine.
 ms.assetid: '7caa720e-37cf-454e-8634-f2bd82bcf83d'
 title: Msvm_ImageManagementService class
 ms.topic: reference
@@ -642,7 +642,7 @@ Access to the **Msvm\_ImageManagementService** class might be restricted by UAC 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

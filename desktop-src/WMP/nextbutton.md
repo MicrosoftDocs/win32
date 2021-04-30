@@ -1,6 +1,6 @@
 ---
 title: NEXTBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | NEXTBUTTON
 ms.assetid: 0750966c-cc4c-4792-b350-1502788cd66b
 keywords:
 - NEXTBUTTON Windows Media Player
@@ -34,7 +34,7 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

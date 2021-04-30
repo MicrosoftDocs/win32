@@ -1,5 +1,5 @@
 ---
-Description: Callback to request a render target.
+description: Callback to request a render target.
 MS-HAID: vspixengine.IFrameBufferRequest
 MSHAttr:
 - PreferredSiteName:MSDN

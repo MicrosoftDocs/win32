@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets (Winsock) error codes returned by the WSAGetLastError function.
+description: Windows Sockets (Winsock) error codes returned by the WSAGetLastError function.
 ms.assetid: 50b924f3-2c88-443b-8a90-4293fe5c3048
 title: Windows Sockets Error Codes (Winsock2.h)
 ms.topic: reference
@@ -424,7 +424,7 @@ The following list describes the possible error codes returned by the [**WSAGetL
 
 
 
-|                   |                                                                                                                                                         |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Winerror.h</dt> </dl> |
 

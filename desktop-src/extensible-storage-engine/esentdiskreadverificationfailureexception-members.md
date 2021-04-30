@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskReadVerificationFailureException members"
 title: EsentDiskReadVerificationFailureException members
 TOCTitle: EsentDiskReadVerificationFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDiskReadVerificationFailureException

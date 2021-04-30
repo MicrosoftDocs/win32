@@ -1,5 +1,5 @@
 ---
-Description: Specifies the minimum coded bandwidth allowed by band truncation in the encoder.
+description: Specifies the minimum coded bandwidth allowed by band truncation in the encoder.
 ms.assetid: dce530cf-26f6-49bf-bca2-8de5cd8e395a
 title: MFPKEY_DYN_BANDTRUNC_BWFLOOR Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

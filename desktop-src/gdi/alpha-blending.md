@@ -1,12 +1,12 @@
 ---
-Description: Alpha blending is used to display an alpha bitmap, which is a bitmap that has transparent or semi-transparent pixels.
+description: Alpha blending is used to display an alpha bitmap, which is a bitmap that has transparent or semi-transparent pixels.
 ms.assetid: 52a044cc-a471-4951-adbe-32319b8e3129
 title: Alpha Blending (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Alpha Blending
+# Alpha Blending (Windows GDI)
 
 *Alpha blending* is used to display an alpha bitmap, which is a bitmap that has transparent or semi-transparent pixels. In addition to a red, green, and blue color channel, each pixel in an alpha bitmap has a transparency component known as its *alpha channel*. The alpha channel typically contains as many bits as a color channel. For example, an 8-bit alpha channel can represent 256 levels of transparency, from 0 (the entire bitmap is transparent) to 255 (the entire bitmap is opaque).
 

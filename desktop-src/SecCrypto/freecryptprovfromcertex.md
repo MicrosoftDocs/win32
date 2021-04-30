@@ -1,5 +1,5 @@
 ---
-Description: 'Releases the handle either to a cryptographic service provider (CSP) or to a Cryptography API: Next Generation (CNG) key.'
+description: 'Releases the handle either to a cryptographic service provider (CSP) or to a Cryptography API: Next Generation (CNG) key.'
 ms.assetid: 76cbf8ae-c4ab-43d9-b06d-ea0b2a66368a
 title: FreeCryptProvFromCertEx function
 ms.topic: reference
@@ -106,7 +106,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |

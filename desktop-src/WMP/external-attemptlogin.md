@@ -47,7 +47,7 @@ If the log-in attempt results in a change of log-in status, Windows Media Player
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

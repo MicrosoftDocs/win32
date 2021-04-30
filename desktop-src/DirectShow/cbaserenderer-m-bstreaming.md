@@ -1,5 +1,5 @@
 ---
-Description: Flag that indicates whether the filter is streaming data.
+description: Flag that indicates whether the filter is streaming data.
 ms.assetid: d94a22bc-ed4b-460b-96e6-1fb006218cf4
 title: CBaseRenderer::m_bStreaming member (Renbase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BOOL m_bStreaming;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

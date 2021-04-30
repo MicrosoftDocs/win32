@@ -1,5 +1,5 @@
 ---
-Description: Specifies the time interval over which the average bit rate applies. This property is used in conjunction with the AVEncCommonMeanBitRate property.
+description: Specifies the time interval over which the average bit rate applies. This property is used in conjunction with the AVEncCommonMeanBitRate property.
 ms.assetid: 3cf26f46-e8ac-448a-a031-800915cad1ef
 title: AVEncCommonMeanBitRateInterval property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ For two-pass variable bit rate (VBR) encoding, the value zero indicates that the
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

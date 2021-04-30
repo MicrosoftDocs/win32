@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.Size property"
 title: ColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.Size

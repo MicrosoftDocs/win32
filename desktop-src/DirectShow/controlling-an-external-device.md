@@ -1,5 +1,5 @@
 ---
-Description: Controlling an External Device
+description: Controlling an External Device
 ms.assetid: 5347cd55-a27e-40b9-857c-09e3665a1817
 title: Controlling an External Device
 ms.topic: article

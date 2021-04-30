@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS constructor"
 title: JET_SPACEHINTS constructor 
 TOCTitle: 'JET_SPACEHINTS constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.#ctor

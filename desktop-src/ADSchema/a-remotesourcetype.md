@@ -22,7 +22,7 @@ Type of pointer to foreign object.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Remote-Source-Type                   |
 | Ldap-Display-Name | remoteSourceType                     |
@@ -48,7 +48,7 @@ Type of pointer to foreign object.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -69,7 +69,7 @@ Type of pointer to foreign object.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -90,7 +90,7 @@ Type of pointer to foreign object.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -111,7 +111,7 @@ Type of pointer to foreign object.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -132,7 +132,7 @@ Type of pointer to foreign object.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |
@@ -153,7 +153,7 @@ Type of pointer to foreign object.
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

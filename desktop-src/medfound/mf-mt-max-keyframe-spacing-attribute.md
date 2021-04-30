@@ -1,5 +1,5 @@
 ---
-Description: Maximum number of frames from one key frame to the next, in a video media type.
+description: Maximum number of frames from one key frame to the next, in a video media type.
 ms.assetid: 833a212c-83a8-4046-8ac7-2bce35b2a982
 title: MF_MT_MAX_KEYFRAME_SPACING attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

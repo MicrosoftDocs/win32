@@ -1,5 +1,5 @@
 ---
-Description: The SelectLowerButton method selects the lower directional button from the displayed menu.
+description: The SelectLowerButton method selects the lower directional button from the displayed menu.
 ms.assetid: d815f7f1-9e11-40a5-99e5-23eb478c33a1
 title: SelectLowerButton Method (Segment.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ No return value.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the GetPathPoints methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the GetPathPoints methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 65a9d308-e1b7-40c4-a079-2ec9d9a5cae3
 title: GraphicsPath.GetPathPoints methods (Gdipluspath.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the GetPathPoints methods of the [**GraphicsPath**](/windows/wi
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdipluspath.h</dt> </dl> |
 

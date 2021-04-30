@@ -1,5 +1,5 @@
 ---
-Description: External Device Interfaces for DV Camcorders
+description: External Device Interfaces for DV Camcorders
 ms.assetid: 001321c5-70c7-4baa-ba5a-1e424ca0d647
 title: External Device Interfaces for DV Camcorders
 ms.topic: article
@@ -12,7 +12,7 @@ The [WDM Video Capture](wdm-video-capture-filter.md) filter exposes three interf
 
 
 
-|                                                |                                                 |
+| Label | Value |
 |------------------------------------------------|-------------------------------------------------|
 | [**IAMExtDevice**](/windows/desktop/api/Strmif/nn-strmif-iamextdevice)           | The base interface for external device control. |
 | [**IAMExtTransport**](/windows/desktop/api/Strmif/nn-strmif-iamexttransport)     | Controls the VCR functions.                     |

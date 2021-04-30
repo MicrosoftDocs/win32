@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE.Equality operator"
 title: JET_HANDLE.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.op_Equality(Microsoft.Isam.Esent.Interop.JET_HANDLE,Microsoft.Isam.Esent.Interop.JET_HANDLE)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetCreateTableColumnIndex4 method"
 title: Windows8Api.JetCreateTableColumnIndex4 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetCreateTableColumnIndex4 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetCreateTableColumnIndex4(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,Microsoft.Isam.Esent.Interop.JET_TABLECREATE)

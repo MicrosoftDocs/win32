@@ -1,5 +1,5 @@
 ---
-Description: Major Media Types
+description: Major Media Types
 ms.assetid: 1cca3539-a920-4938-93b9-ae41e1c0a287
 title: Major Media Types
 ms.topic: article

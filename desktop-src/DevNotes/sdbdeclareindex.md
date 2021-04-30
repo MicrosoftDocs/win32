@@ -1,5 +1,5 @@
 ---
-Description: Declares a new index in the specified database.
+description: Declares a new index in the specified database.
 ms.assetid: 21a09201-8f84-4263-b258-77716826a3cd
 title: SdbDeclareIndex function
 ms.topic: reference
@@ -93,7 +93,7 @@ Call this function before writing tags to the new index.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

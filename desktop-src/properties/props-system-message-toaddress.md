@@ -1,5 +1,5 @@
 ---
-Description: 'The addresses in the To: field.'
+description: 'The addresses in the To: field.'
 ms.assetid: 7f892659-7f3c-490f-bb41-c4f340303a8e
 title: System.Message.ToAddress
 ms.topic: article

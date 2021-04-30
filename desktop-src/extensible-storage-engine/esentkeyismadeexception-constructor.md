@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyIsMadeException constructor"
 title: EsentKeyIsMadeException constructor 
 TOCTitle: 'EsentKeyIsMadeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyIsMadeException.#ctor

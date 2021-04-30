@@ -1,5 +1,5 @@
 ---
-Description: Calls the library to get the security state relative to the host, and script or msi to be used.
+description: Calls the library to get the security state relative to the host, and script or msi to be used.
 ms.assetid: 4CCDA3B7-7661-47F6-A015-720BDEAEDBB1
 title: WldpGetLockdownPolicy function (Wldp.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The dwFlag WLDP\_FLAGS\_SKIPSIGNATUREVALIDATION can be used to skip the SaferIde
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                |

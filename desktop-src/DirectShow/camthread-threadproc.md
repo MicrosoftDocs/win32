@@ -1,5 +1,5 @@
 ---
-Description: The ThreadProc method is the thread procedure.
+description: The ThreadProc method is the thread procedure.
 ms.assetid: 2d991f15-afea-4843-bc68-aeb5ca69d28b
 title: CAMThread.ThreadProc method (Wxutil.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ When this method returns, the thread exits.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

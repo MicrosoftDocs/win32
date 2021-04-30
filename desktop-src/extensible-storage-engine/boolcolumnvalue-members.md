@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BoolColumnValue members"
 title: BoolColumnValue members
 TOCTitle: BoolColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.BoolColumnValue

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveryVerifyFailureException constructor"
 title: EsentRecoveryVerifyFailureException constructor 
 TOCTitle: 'EsentRecoveryVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveryVerifyFailureException.#ctor

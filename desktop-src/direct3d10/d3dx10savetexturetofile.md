@@ -1,5 +1,5 @@
 ---
-Description: Save a texture to a file.
+description: Save a texture to a file.
 ms.assetid: c1718903-039a-4132-b128-82e03078ef62
 title: D3DX10SaveTextureToFile function (D3DX10Tex.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |

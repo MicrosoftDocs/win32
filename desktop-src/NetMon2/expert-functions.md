@@ -1,5 +1,5 @@
 ---
-Description: The following helper functions can only be called by experts that export the Run or Configure function.
+description: The following helper functions can only be called by experts that export the Run or Configure function.
 ms.assetid: 6890087c-7c94-41ff-bb5c-4bf88a4e07cc
 title: Expert Functions
 ms.topic: article

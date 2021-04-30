@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COM+ Services"
 ms.assetid: dd4a9943-070b-4f84-8c0e-6c6e070d8e5b
 title: COM+ Services
 ms.topic: article

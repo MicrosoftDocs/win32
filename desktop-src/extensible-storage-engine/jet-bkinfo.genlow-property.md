@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.genLow property"
 title: JET_BKINFO.genLow property 
 TOCTitle: 'genLow property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.genLow

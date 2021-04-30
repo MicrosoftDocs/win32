@@ -1,5 +1,5 @@
 ---
-Description: Describes WMI SNMP provider errors 231 through 240.
+description: Describes WMI SNMP provider errors 231 through 240.
 ms.assetid: edb3dabb-6a65-4285-97d3-f7025d3bb5da
 ms.tgt_platform: multiple
 title: Errors 231 through 240

@@ -1,5 +1,5 @@
 ---
-Description: Represents an entry in the forwarding (filtering) database that is associated with the transparent bridging service.
+description: Represents an entry in the forwarding (filtering) database that is associated with the transparent bridging service.
 ms.assetid: 3C9FAE99-9543-4A6A-B578-3F4626598DB3
 title: Msvm_DynamicForwardingEntry class
 ms.topic: reference
@@ -425,7 +425,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

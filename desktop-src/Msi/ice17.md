@@ -1,5 +1,5 @@
 ---
-Description: ICE17 checks for the situations shown in the example at the end of this topic.
+description: ICE17 checks for the situations shown in the example at the end of this topic.
 ms.assetid: a1d9a6e9-4d21-4544-a813-dc82e11f5a26
 title: ICE17
 ms.topic: article

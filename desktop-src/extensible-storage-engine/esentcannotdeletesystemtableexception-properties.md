@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteSystemTableException properties"
 title: EsentCannotDeleteSystemTableException properties
 TOCTitle: EsentCannotDeleteSystemTableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteSystemTableException

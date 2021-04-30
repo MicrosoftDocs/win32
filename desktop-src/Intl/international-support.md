@@ -1,5 +1,5 @@
 ---
-Description: This section describes the technologies in Windows that enable you to support the many cultures and written languages of the international marketplace in your C or C++ based Microsoft Win32 application.
+description: This section describes the technologies in Windows that enable you to support the many cultures and written languages of the international marketplace in your C or C++ based Microsoft Win32 application.
 ms.assetid: 90dbbd70-3609-4c12-bdc1-7fa222c96f67
 title: Internationalization for Windows Applications
 ms.topic: article

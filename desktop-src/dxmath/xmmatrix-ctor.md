@@ -1,5 +1,5 @@
 ---
-Description: Constructs instances of the XMMATRIX structure.
+description: Constructs instances of the XMMATRIX structure.
 ms.assetid: 5efe5362-fb5a-46ff-b421-887f654a464f
 title: XMMATRIX constructors
 ms.topic: reference

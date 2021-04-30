@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset.
+description: Reset method of the Msvm_HeartbeatComponent class - Requests a reset.
 ms.assetid: 60dacd80-72f9-456f-9378-6cdc7b5cc964
 title: Reset method of the Msvm_HeartbeatComponent class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

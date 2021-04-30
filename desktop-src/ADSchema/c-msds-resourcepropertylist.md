@@ -22,7 +22,7 @@ An object of this class contains a list of resource properties.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Resource-Property-List         |
 | Ldap-Display-Name | msDS-ResourcePropertyList            |
@@ -42,7 +42,7 @@ An object of this class contains a list of resource properties.
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

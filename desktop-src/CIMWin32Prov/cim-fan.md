@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Fan class represents the capabilities and management of a fan cooling device.
+description: The CIM\_Fan class represents the capabilities and management of a fan cooling device.
 ms.assetid: eddfb694-cba1-45e2-998f-f93355520c80
 ms.tgt_platform: multiple
 title: CIM_Fan class
@@ -1222,7 +1222,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -93,7 +93,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                            |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                               |

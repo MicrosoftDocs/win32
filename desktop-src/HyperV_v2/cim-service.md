@@ -1,5 +1,5 @@
 ---
-Description: Represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.
+description: Represents a logical element that contains information to represent and manage the functionality provided by a device or software feature.
 ms.assetid: 0b2312da-433b-43d8-8d21-babab12a5b2c
 title: CIM_Service class (Hyper-V management)
 ms.topic: reference
@@ -23,7 +23,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Service class
+# CIM_Service class (Hyper-V management)
 
 Represents a logical element that contains information to represent and manage the functionality provided by a device or software feature. A service is a general-purpose object to configure and manage the implementation of functionality; it is not the functionality itself.
 
@@ -222,7 +222,7 @@ The name of the scoping system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

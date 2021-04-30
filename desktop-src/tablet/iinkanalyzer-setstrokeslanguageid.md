@@ -1,5 +1,5 @@
 ---
-Description: Changes the locale identifier for the specified strokes.
+description: Changes the locale identifier for the specified strokes.
 ms.assetid: 39dd24d5-4381-4b51-8d95-7d936fd69d47
 title: IInkAnalyzer::SetStrokesLanguageId method (IACom.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ For more information about language identifiers, see [Language Identifier Consta
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

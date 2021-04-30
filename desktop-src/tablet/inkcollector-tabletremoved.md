@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a IInkTablet is removed from the system.
+description: InkCollector.TabletRemoved event - Occurs when a IInkTablet is removed from the system.
 ms.assetid: 659a9809-fe35-4d34-aa95-af353998c350
 title: InkCollector.TabletRemoved event (Msinkaut.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

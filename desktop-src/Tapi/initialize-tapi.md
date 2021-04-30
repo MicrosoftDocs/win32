@@ -1,5 +1,5 @@
 ---
-Description: The following code example demonstrates creation of the TAPI object.
+description: The following code example demonstrates creation of the TAPI object.
 ms.assetid: f8566e53-51c9-4424-a8bb-369455f35706
 title: Initialize TAPI
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Lists the plane functions provided by DirectXMath.
+description: Lists the plane functions provided by DirectXMath.
 ms.assetid: 6505e72e-4af5-5db3-4fc0-f83fa77692b1
 title: DirectXMath Library plane functions
 ms.topic: reference

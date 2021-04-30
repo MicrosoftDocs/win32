@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Param.HungIOActions field"
 title: Windows8Param.HungIOActions field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: HungIOActions field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.HungIOActions

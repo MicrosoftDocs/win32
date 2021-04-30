@@ -1,5 +1,5 @@
 ---
-Description: Represents an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the item.
+description: Represents an item in a Shell folder. This object contains properties and methods that allow you to retrieve information about the item.
 title: FolderItem object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -81,7 +81,7 @@ The **FolderItem** object has these properties.
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

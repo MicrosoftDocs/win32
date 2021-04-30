@@ -1,5 +1,5 @@
 ---
-Description: Lists the protectors used to secure the volume's encryption key.
+description: Lists the protectors used to secure the volume's encryption key.
 ms.assetid: ea88f128-c835-49e3-a395-c5ba472fff4b
 title: GetKeyProtectors method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -101,7 +101,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

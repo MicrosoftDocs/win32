@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Devices
+# Devices (Windows 7 Developer Guide)
 
 Devices are a fundamental part of the PC experience, and Windows 7 enables new possibilities for developers of applications that interact with devices. The Device Experience Platform enables the association of applications and services with a particular device, so that users can get the maximum benefit from their peripherals immediately upon connection. The Sensor Platform provides a set of APIs for discovery of and communication with sensor devices that will enable a new generation of applications that are aware of their environments. The Location Platform provides new APIs for using location data from a Global Positioning Systems (GPS) receiver or other services that enable location-specific application behavior for mobile users. (See [Device Fundamentals - Overview](https://www.microsoft.com/whdc/device/default.mspx).)
 

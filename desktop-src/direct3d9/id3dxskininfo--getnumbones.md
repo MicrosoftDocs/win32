@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of bones.
+description: Gets the number of bones.
 ms.assetid: 1079dfa2-7b95-4f80-a622-87fa74348ddc
 title: ID3DXSkinInfo::GetNumBones method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the number of bones.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

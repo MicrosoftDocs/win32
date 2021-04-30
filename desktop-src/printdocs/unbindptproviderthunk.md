@@ -1,5 +1,5 @@
 ---
-Description: Closes a handle to a print ticket provider.
+description: Closes a handle to a print ticket provider.
 ms.assetid: ce979c89-9f9d-4e89-b142-beed414caa3f
 title: UnbindPTProviderThunk function
 ms.topic: reference
@@ -51,7 +51,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

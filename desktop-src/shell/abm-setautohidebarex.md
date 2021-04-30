@@ -1,5 +1,5 @@
 ---
-Description: Registers or unregisters an autohide appbar for a given edge of the screen. This message extends ABM\_SETAUTOHIDEBAR by enabling you to specify a particular monitor, for use in multiple monitor situations.
+description: Registers or unregisters an autohide appbar for a given edge of the screen. This message extends ABM\_SETAUTOHIDEBAR by enabling you to specify a particular monitor, for use in multiple monitor situations.
 title: ABM_SETAUTOHIDEBAREX message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ The system allows only one autohide appbar for each edge of each monitor. The mo
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Shellapi.h</dt> </dl> |
 

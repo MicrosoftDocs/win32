@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of PolicyInformation objects in the collection.
+description: Retrieves the number of PolicyInformation objects in the collection.
 ms.assetid: d4fb6bd8-4e92-4de8-9430-dd3b6262a806
 title: CertificatePolicies.Count property
 ms.topic: reference
@@ -44,7 +44,7 @@ The **Count** property can be used to specify the last [**PolicyInformation**](p
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

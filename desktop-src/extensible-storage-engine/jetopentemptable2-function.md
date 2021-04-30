@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenTempTable2 Function"
 title: JetOpenTempTable2 Function
 TOCTitle: JetOpenTempTable2 Function
 ms:assetid: 788ec4f9-b0c3-409b-850c-7567dec47024

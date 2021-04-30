@@ -1,5 +1,5 @@
 ---
-Description: This method is not currently implemented and returns E\_NOTIMPL.
+description: This method is not currently implemented and returns E\_NOTIMPL.
 ms.assetid: 1004d7e1-d1e9-4217-bbbb-a25f46c7112f
 title: CDeferredCommand.Confidence method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For information about implementing this method, see [**IDeferredCommand::Confide
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

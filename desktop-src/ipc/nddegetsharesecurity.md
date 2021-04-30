@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the security descriptor associated with the DDE share. This is done usually for editing.
+description: Retrieves the security descriptor associated with the DDE share. This is done usually for editing.
 ms.assetid: 7d3cc965-45ee-40ce-a462-568200592345
 title: NDdeGetShareSecurity function (Nddeapi.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ If the function fails, the return value is an error code, which can be translate
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when there is a run-time error in the application.
+description: Occurs when there is a run-time error in the application.
 ms.assetid: d99400a4-3661-4162-bfd6-8c2a27e0f328
 title: IWinHttpRequestEvents::OnError event
 ms.topic: reference
@@ -55,7 +55,7 @@ This event does not return a value.
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

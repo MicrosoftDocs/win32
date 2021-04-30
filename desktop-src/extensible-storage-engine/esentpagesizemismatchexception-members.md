@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageSizeMismatchException members"
 title: EsentPageSizeMismatchException members
 TOCTitle: EsentPageSizeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException

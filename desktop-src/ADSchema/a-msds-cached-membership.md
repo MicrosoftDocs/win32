@@ -22,7 +22,7 @@ The **ms-DS-Cached-Membership** attribute is used by the Security Accounts Manag
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-Cached-Membership                               |
 | Ldap-Display-Name | msDS-Cached-Membership                                |
@@ -47,7 +47,7 @@ The **ms-DS-Cached-Membership** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ The **ms-DS-Cached-Membership** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ The **ms-DS-Cached-Membership** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ The **ms-DS-Cached-Membership** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ The **ms-DS-Cached-Membership** attribute is used by the Security Accounts Manag
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

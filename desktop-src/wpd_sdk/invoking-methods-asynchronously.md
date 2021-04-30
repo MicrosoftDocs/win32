@@ -1,5 +1,5 @@
 ---
-Description: Invoking Service Methods Asynchronously
+description: Invoking Service Methods Asynchronously
 ms.assetid: d3072e34-65f2-4eeb-bcfa-e2db2d34e680
 title: Invoking Service Methods Asynchronously
 ms.topic: article

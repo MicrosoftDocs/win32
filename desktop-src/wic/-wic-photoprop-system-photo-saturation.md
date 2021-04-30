@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.Saturation property.
+description: The photo metadata policy for the System.Photo.Saturation property.
 ms.assetid: 1dbb7515-7022-404c-928a-9eb09e43e7a7
 title: System.Photo.Saturation Photo Metadata Policy
 ms.topic: article

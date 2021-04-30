@@ -1,5 +1,5 @@
 ---
-Description: Lists protected files.
+description: Lists protected files.
 ms.assetid: 46a1ff83-afed-4ce3-bb62-551446efdb78
 title: SfcGetFiles function (Sfcfiles.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If the function succeeds, the return value is STATUS\_SUCCESS. If the function f
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

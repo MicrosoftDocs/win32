@@ -1,5 +1,5 @@
 ---
-Description: Requests that the replication state of the replication relationship of the virtual machine be changed to the specified value.
+description: Requests that the replication state of the replication relationship of the virtual machine be changed to the specified value.
 ms.assetid: 8EC78CCC-2997-4239-A20C-BA56F848ECB6
 title: Msvm_ComputerSystem::RequestReplicationStateChangeEx method
 ms.topic: reference
@@ -162,7 +162,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                    |

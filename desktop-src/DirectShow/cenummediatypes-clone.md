@@ -1,5 +1,5 @@
 ---
-Description: The Clone method makes a copy of the enumerator with the same enumeration state. This method implements the IEnumMediaTypes::Clone method.
+description: The Clone method makes a copy of the enumerator with the same enumeration state. This method implements the IEnumMediaTypes::Clone method.
 ms.assetid: 3b4eb29e-48fc-4f00-a5f3-597b9aa94ce1
 title: CEnumMediaTypes.Clone method (Amfilter.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The Start method starts a capture.
+description: IStats::Start method - The Start method starts a capture.
 ms.assetid: d4086e30-e5ed-4f29-90f0-d65125d9af6d
 title: IStats::Start method (Netmon.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ When restarting the capture by using the IStats::Start and [IStats::Stop](istats
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

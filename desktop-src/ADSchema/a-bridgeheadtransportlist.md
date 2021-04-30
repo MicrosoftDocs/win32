@@ -22,7 +22,7 @@ Transports for which this server is a bridgehead.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Bridgehead-Transport-List               |
 | Ldap-Display-Name | bridgeheadTransportList                 |
@@ -49,7 +49,7 @@ Transports for which this server is a bridgehead.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 98                                    |
 | MAPI-Id                | \-                                    |
@@ -70,7 +70,7 @@ Transports for which this server is a bridgehead.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 98                                    |
 | MAPI-Id                | \-                                    |
@@ -91,7 +91,7 @@ Transports for which this server is a bridgehead.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 98                                    |
 | MAPI-Id                | \-                                    |
@@ -112,7 +112,7 @@ Transports for which this server is a bridgehead.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 98                                    |
 | MAPI-Id                | \-                                    |
@@ -133,7 +133,7 @@ Transports for which this server is a bridgehead.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 98                                    |
 | MAPI-Id                | \-                                    |
@@ -154,7 +154,7 @@ Transports for which this server is a bridgehead.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 98                                    |
 | MAPI-Id                | \-                                    |
@@ -175,7 +175,7 @@ Transports for which this server is a bridgehead.
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | 98                                    |
 | MAPI-Id                | \-                                    |

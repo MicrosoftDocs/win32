@@ -1,5 +1,5 @@
 ---
-Description: The IsSingleton property of the SWbemObjectPath object is a Boolean value that indicates if this path represents a singleton instance. A singleton instance is an instance of a class that can never have more than one instance. This property is read-only.
+description: The IsSingleton property of the SWbemObjectPath object is a Boolean value that indicates if this path represents a singleton instance. A singleton instance is an instance of a class that can never have more than one instance. This property is read-only.
 ms.assetid: 0d0533be-89fe-4ab6-bafa-2da6195ff02c
 ms.tgt_platform: multiple
 title: SWbemObjectPath.IsSingleton property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemObjectPath.IsSingleton As Boolean
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

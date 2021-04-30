@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySortsException properties"
 title: EsentTooManySortsException properties
 TOCTitle: EsentTooManySortsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException constructor"
 title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException constructor 
 TOCTitle: 'EsentVersionStoreOutOfMemoryAndCleanupTimedOutException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryAndCleanupTimedOutException.#ctor

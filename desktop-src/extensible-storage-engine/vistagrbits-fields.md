@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaGrbits fields"
 title: VistaGrbits fields (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaGrbits fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits

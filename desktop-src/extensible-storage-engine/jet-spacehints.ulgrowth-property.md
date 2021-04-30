@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.ulGrowth property"
 title: JET_SPACEHINTS.ulGrowth property 
 TOCTitle: 'ulGrowth property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.ulGrowth

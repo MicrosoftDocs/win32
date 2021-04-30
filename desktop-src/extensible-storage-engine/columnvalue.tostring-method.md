@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.ToString method"
 title: ColumnValue.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValue.ToString

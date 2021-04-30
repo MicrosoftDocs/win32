@@ -1,5 +1,5 @@
 ---
-Description: You can localize static properties by using partial value maps.
+description: You can localize static properties by using partial value maps.
 ms.assetid: 67e91454-c065-4ab2-a373-245c9392c71c
 ms.tgt_platform: multiple
 title: Localizing Static Properties
@@ -19,7 +19,7 @@ The following procedure describes how static properties can be localized using p
 
     The following code example can be used to create a master MOF file (Mastervm.mof).
 
-    ``` syntax
+    ```syntax
     [Locale(0x409)]
     class Group1
     {
@@ -35,7 +35,7 @@ The following procedure describes how static properties can be localized using p
 
     Type the following command at a command prompt to create the language-neutral and language-specific versions of the MOF file.
 
-    ``` syntax
+    ```syntax
     mofcomp -MOF:LnVm.mof -MFL:LsVm.mfl -Amendment:MS_409 MasterVm.mof
     ```
 
@@ -43,10 +43,10 @@ The following procedure describes how static properties can be localized using p
 
     The following code example shows the contents of the LsVm.mfl file.
 
-    ``` syntax
-#pragma namespace("\\\\.\\root\\default")
+    ```syntax
+    #pragma namespace("\\\\.\\root\\default")
     instance of __namespace{ name="ms_409";};
-#pragma namespace("\\\\.\\root\\default\\ms_409")
+    #pragma namespace("\\\\.\\root\\default\\ms_409")
 
     [AMENDMENT, LOCALE(0x409)] 
     class Group1
@@ -61,7 +61,7 @@ The following procedure describes how static properties can be localized using p
 
     Type the following command at a command prompt to compile the two MOF files.
 
-    ``` syntax
+    ```syntax
     Mofcomp LnVm.mof 
     Mofcomp LsVm.mfl
     ```
@@ -70,10 +70,10 @@ The following procedure describes how static properties can be localized using p
 
     The following code example shows the contents of an MFL file for the French namespace.
 
-    ``` syntax
-#pragma namespace("\\\\.\\root\\default")
+    ```syntax
+    #pragma namespace("\\\\.\\root\\default")
     instance of __namespace{ name="ms_40C";};
-#pragma namespace("\\\\.\\root\\default\\ms_40C")
+    #pragma namespace("\\\\.\\root\\default\\ms_40C")
 
     [AMENDMENT, LOCALE(0x40C)] 
     class Group1

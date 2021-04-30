@@ -1,5 +1,5 @@
 ---
-Description: The CRenderedInputPin class is a base class for implementing an input pin on a renderer.
+description: The CRenderedInputPin class is a base class for implementing an input pin on a renderer.
 ms.assetid: 644dc6ef-eefa-4dfa-a27e-cab690b6e1db
 title: CRenderedInputPin class (Amextra.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ You can use this class in a renderer that has more than one input pin. This clas
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amextra.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

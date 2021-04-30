@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the template extension is marked critical.
+description: Retrieves a Boolean value that indicates whether the template extension is marked critical.
 ms.assetid: 37e2000a-d3c8-46b5-84e5-a3904fdbaeea
 title: Template.IsCritical property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the template extension is marked critical.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

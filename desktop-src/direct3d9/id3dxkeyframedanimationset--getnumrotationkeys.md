@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of rotation keys in the specified key frame animation.
+description: Gets the number of rotation keys in the specified key frame animation.
 ms.assetid: b39c6585-461d-48fb-a048-9965f58b0736
 title: ID3DXKeyframedAnimationSet::GetNumRotationKeys method (D3dx9anim.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Number of rotation keys in the specified key frame animation.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

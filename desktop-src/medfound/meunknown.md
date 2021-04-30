@@ -1,5 +1,5 @@
 ---
-Description: Unknown event type. You can use this value to initialize variables of type MediaEventType, but a component should never raise the MEUnknown event.
+description: Unknown event type. You can use this value to initialize variables of type MediaEventType, but a component should never raise the MEUnknown event.
 ms.assetid: 786b69f4-8713-41db-829a-c13512baa3f1
 title: MEUnknown event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST.cRecord property"
 title: JET_OBJECTLIST.cRecord property 
 TOCTitle: 'cRecord property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.cRecord

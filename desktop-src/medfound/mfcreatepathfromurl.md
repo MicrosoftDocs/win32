@@ -1,5 +1,5 @@
 ---
-Description: Converts a file URL to a Microsoft MS-DOS path.
+description: Converts a file URL to a Microsoft MS-DOS path.
 ms.assetid: c35988ad-6cf8-41ec-bee9-e3bb982310ee
 title: MFCreatePathFromURL function
 ms.topic: reference
@@ -74,7 +74,7 @@ This function has no associated import library. To call this function, you must 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

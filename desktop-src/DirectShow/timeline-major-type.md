@@ -1,5 +1,5 @@
 ---
-Description: The TIMELINE\_MAJOR\_TYPE enumeration specifies the major type of an object.
+description: The TIMELINE\_MAJOR\_TYPE enumeration specifies the major type of an object.
 ms.assetid: 1a5fde83-2a0a-4bcf-bffe-340a9d914885
 title: TIMELINE_MAJOR_TYPE enumeration (Qedit.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ Group object. Contains one or more tracks of a given type.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

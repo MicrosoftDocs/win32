@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN class"
 title: JET_SETCOLUMN class
 TOCTitle: JET_SETCOLUMN class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN

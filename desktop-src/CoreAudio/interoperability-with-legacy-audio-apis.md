@@ -1,5 +1,5 @@
 ---
-Description: Interoperability with Legacy Audio APIs
+description: Interoperability with Legacy Audio APIs
 ms.assetid: 34939f6d-a6e4-4f7a-afa3-b1fed52b471f
 title: Interoperability with Legacy Audio APIs
 ms.topic: article

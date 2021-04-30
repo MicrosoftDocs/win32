@@ -1,5 +1,5 @@
 ---
-Description: The Peer Infrastructure provides a set of Application Programming Interfaces that are used to develop serverless applications, including peer-to-peer messaging and content sharing.
+description: The Peer Infrastructure provides a set of Application Programming Interfaces that are used to develop serverless applications, including peer-to-peer messaging and content sharing.
 ms.assetid: 'fd88a5a0-c79d-44df-b575-21c439cf369f'
 title: Peer Infrastructure
 ms.topic: article

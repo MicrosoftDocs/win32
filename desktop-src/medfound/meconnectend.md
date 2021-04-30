@@ -1,5 +1,5 @@
 ---
-Description: Raised by the network source when it finishes opening a URL.
+description: Raised by the network source when it finishes opening a URL.
 ms.assetid: 737aec32-24f4-4825-ad34-8d2fc889bc09
 title: MEConnectEnd event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The network source sends this event directly to the application through the appl
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

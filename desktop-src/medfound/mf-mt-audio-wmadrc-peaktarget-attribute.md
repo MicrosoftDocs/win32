@@ -1,5 +1,5 @@
 ---
-Description: Target peak volume level of a Windows Media Audio file.
+description: Target peak volume level of a Windows Media Audio file.
 ms.assetid: 73f4e763-dcb7-48cd-ab80-37635d973da0
 title: MF_MT_AUDIO_WMADRC_PEAKTARGET attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

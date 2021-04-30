@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Param class"
 title: Server2003Param class (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Param class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Param

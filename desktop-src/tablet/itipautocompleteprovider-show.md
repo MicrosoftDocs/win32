@@ -1,5 +1,5 @@
 ---
-Description: Displays or hides the auto complete list.
+description: Displays or hides the auto complete list.
 ms.assetid: 756ffa3d-03ee-4753-a826-3bc22ab16f5f
 title: ITipAutocompleteProvider::Show method (TipAutoComplete.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method is called by the client to show or hide the auto complete list. If t
 
 
 
-|                                     |                                                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | None supported<br/>                                                                                                       |

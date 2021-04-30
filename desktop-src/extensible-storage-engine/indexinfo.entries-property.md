@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.Entries property"
 title: IndexInfo.Entries property 
 TOCTitle: 'Entries property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Entries

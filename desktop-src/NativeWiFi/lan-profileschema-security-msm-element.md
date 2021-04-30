@@ -1,7 +1,7 @@
 ---
-Description: Contains security settings for wired networks.
+description: Contains security settings for wired networks.
 ms.assetid: 08470cf4-3722-4cb9-9877-13eca2f7d04e
-title: security (MSM) Element (LAN_policy)
+title: Security (MSM) Element (LAN_policy)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -14,7 +14,7 @@ api_type:
 api_location: 
 ---
 
-# security (MSM) Element (LAN_policy)
+# Security (MSM) Element (LAN_policy)
 
 The security (MSM) element contains security settings for wired networks. This element is optional.
 
@@ -56,7 +56,7 @@ The **security** element is defined by the [**MSM**](lan-profileschema-msm-lanpr
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

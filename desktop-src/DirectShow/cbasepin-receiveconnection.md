@@ -1,5 +1,5 @@
 ---
-Description: The ReceiveConnection method accepts a connection from another pin. This method implements the IPin::ReceiveConnection method.
+description: The ReceiveConnection method accepts a connection from another pin. This method implements the IPin::ReceiveConnection method.
 ms.assetid: f17e7d93-ac45-4b8a-98c6-0c76ec7117c9
 title: CBasePin.ReceiveConnection method (Amfilter.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ If **CheckConnect** or **CheckMediaType** fail, the base class calls the [**CBas
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

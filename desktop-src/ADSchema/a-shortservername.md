@@ -22,7 +22,7 @@ Pre-Windows 2000 compatible server name for print servers.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Short-Server-Name                           |
 | Ldap-Display-Name | shortServerName                             |
@@ -48,7 +48,7 @@ Pre-Windows 2000 compatible server name for print servers.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -69,7 +69,7 @@ Pre-Windows 2000 compatible server name for print servers.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -90,7 +90,7 @@ Pre-Windows 2000 compatible server name for print servers.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -111,7 +111,7 @@ Pre-Windows 2000 compatible server name for print servers.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -132,7 +132,7 @@ Pre-Windows 2000 compatible server name for print servers.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |
@@ -153,7 +153,7 @@ Pre-Windows 2000 compatible server name for print servers.
 
 
 
-|                        |                                                |
+| Entry | Value |
 |------------------------|------------------------------------------------|
 | Link-Id                | \-                                             |
 | MAPI-Id                | \-                                             |

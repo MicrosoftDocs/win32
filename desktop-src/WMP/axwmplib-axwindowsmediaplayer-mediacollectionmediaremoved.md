@@ -1,6 +1,6 @@
 ---
 title: MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object
-description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
+description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library. | MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object
 ms.assetid: 66dae2be-2a71-4d53-b2e2-f106426d4eea
 keywords:
 - MediaCollectionMediaRemoved Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -56,7 +56,7 @@ This event occurs only for the local library.
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                                         |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

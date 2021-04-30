@@ -1,5 +1,5 @@
 ---
-Description: The SetTimeAdvise method sets up a timer event with the reference clock.
+description: The SetTimeAdvise method sets up a timer event with the reference clock.
 ms.assetid: d0ab5c21-3585-413b-ba75-8591ed4527e4
 title: CCmdQueue.SetTimeAdvise method (Winutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This member function calls the [**IReferenceClock::AdviseTime**](/windows/deskto
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

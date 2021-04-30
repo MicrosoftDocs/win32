@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDDLException members"
 title: EsentCannotNestDDLException members
 TOCTitle: EsentCannotNestDDLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDDLException

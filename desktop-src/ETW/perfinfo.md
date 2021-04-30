@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for performance counter events. The following syntax is simplified from MOF code.
+description: This class is the parent class for performance counter events. The following syntax is simplified from MOF code.
 ms.assetid: 2606fea3-0651-4f7f-83a6-63021039eb95
 title: PerfInfo class
 ms.topic: reference
@@ -63,7 +63,7 @@ Event trace consumers can implement special processing for DPC events by calling
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

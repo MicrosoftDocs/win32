@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Best Practices for Energy Efficiency
 ms.assetid: 355abd0e-928e-442e-a724-855d9dd946fc
 title: Best Practices for Energy Efficiency
 ms.topic: article

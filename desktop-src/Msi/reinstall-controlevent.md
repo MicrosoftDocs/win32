@@ -1,5 +1,5 @@
 ---
-Description: Allows the author to initiate a reinstall of some or all features, while the current dialog box is running.
+description: Allows the author to initiate a reinstall of some or all features, while the current dialog box is running.
 ms.assetid: bc667f20-3abe-4ef3-b51e-dc74da63f651
 title: Reinstall ControlEvent
 ms.topic: article

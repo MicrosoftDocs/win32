@@ -4,6 +4,7 @@ ms.assetid: 51206aca-4784-4d18-95ca-bc0a45691f78
 ms.tgt_platform: multiple
 title: Win32_Process class
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/23/2020
 topic_type:
 - APIRef
@@ -68,7 +69,7 @@ The **Win32\_Process** [WMI class](../wmisdk/retrieving-a-class.md) represents a
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties.
 
 > [!NOTE]
-> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](../procthread/processes-and-threads.md).
+> For a general discussion on Processes and Threads within Windows, please see the topic [Processes and Threads](/ProcThread/processes-and-threads.md).
 
 ## Syntax
 
@@ -1260,7 +1261,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

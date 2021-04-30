@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether an Advanced Systems Format (ASF) file contains at least one video stream.
+description: Specifies whether an Advanced Systems Format (ASF) file contains at least one video stream.
 ms.assetid: 98411c75-519f-4ace-999f-1ea22457ed4a
 title: MF_PD_ASF_INFO_HAS_VIDEO attribute (Wmcontainer.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

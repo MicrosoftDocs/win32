@@ -45,7 +45,7 @@ A pointer to a user name. When you have finished using the string, free it by ca
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |

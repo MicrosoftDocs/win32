@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the private key container name.
+description: Retrieves the private key container name.
 ms.assetid: ecc0b4ba-4e2b-49e9-8358-8c498e1d6ae0
 title: PrivateKey.ContainerName property
 ms.topic: reference
@@ -38,7 +38,7 @@ A string that contains the private key container name.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

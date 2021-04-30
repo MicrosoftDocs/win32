@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaType method retrieves a preferred media type for the output pin.
+description: CTransInPlaceFilter.GetMediaType method - The GetMediaType method retrieves a preferred media type for the output pin.
 ms.assetid: 1bc6c06d-f399-4b8a-81f2-7fffe4630236
 title: CTransInPlaceFilter.GetMediaType method (Transip.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method overrides the [**CTransformFilter::GetMediaType**](ctransformfilter-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

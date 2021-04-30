@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Session type conversions"
 title: Session type conversions
 TOCTitle: Session type conversions
 ms:assetid: 699a5362-c72c-34b1-824f-b1dc3b386fee

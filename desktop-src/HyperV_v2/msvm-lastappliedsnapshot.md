@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a virtual system and the setting data of the snapshot that was most recently applied to the virtual system.
+description: Represents an association between a virtual system and the setting data of the snapshot that was most recently applied to the virtual system.
 ms.assetid: 9231b441-20c4-468b-905f-5baabc32a8cc
 title: Msvm_LastAppliedSnapshot class
 ms.topic: reference
@@ -82,7 +82,7 @@ Reference to an instance of the [**Msvm\_ComputerSystem**](msvm-computersystem.m
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

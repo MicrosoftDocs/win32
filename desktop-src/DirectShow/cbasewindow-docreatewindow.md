@@ -1,5 +1,5 @@
 ---
-Description: The DoCreateWindow method creates the window.
+description: The DoCreateWindow method creates the window.
 ms.assetid: bbe38a71-bbf7-4380-96a3-074b992a1d1e
 title: CBaseWindow.DoCreateWindow method (Winutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The [**CBaseWindow::PrepareWindow**](cbasewindow-preparewindow.md) method calls 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

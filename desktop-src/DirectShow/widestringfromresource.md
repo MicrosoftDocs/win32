@@ -1,5 +1,5 @@
 ---
-Description: The WideStringFromResource function loads a wide-character string from a resource file with the given resource identifier.
+description: The WideStringFromResource function loads a wide-character string from a resource file with the given resource identifier.
 ms.assetid: c5fac767-20c4-4342-9d4d-e1b916854b95
 title: WideStringFromResource function (Wxutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Property pages are typically called through their COM interfaces, which use wide
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

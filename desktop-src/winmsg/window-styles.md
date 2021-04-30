@@ -1,5 +1,5 @@
 ---
-Description: The following are the window styles. After the window has been created, these styles cannot be modified, except as noted.
+description: The following are the window styles. After the window has been created, these styles cannot be modified, except as noted.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstyles.htm'
 title: Window Styles (Winuser.h)
 ms.topic: article
@@ -48,7 +48,7 @@ The following are the window styles. After the window has been created, these st
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

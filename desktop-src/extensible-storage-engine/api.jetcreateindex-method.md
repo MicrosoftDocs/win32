@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetCreateIndex method"
 title: Api.JetCreateIndex method 
 TOCTitle: 'JetCreateIndex method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateIndex(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,Microsoft.Isam.Esent.Interop.CreateIndexGrbit,System.String,System.Int32,System.Int32)

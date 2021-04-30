@@ -1,5 +1,5 @@
 ---
-Description: The following constants represent the possible logging modes for an event tracing session.
+description: The following constants represent the possible logging modes for an event tracing session.
 ms.assetid: d12aaecb-776a-4476-9ba4-16af30fde9c2
 title: Logging Mode Constants
 ms.topic: article

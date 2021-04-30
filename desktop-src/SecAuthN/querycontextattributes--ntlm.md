@@ -1,5 +1,5 @@
 ---
-Description: Enables a transport application to query the NTLM [*security package*](../secgloss/s-gly.md) for certain attributes of a [security context](../secgloss/s-gly.md).
+description: Enables a transport application to query the NTLM [*security package*](../secgloss/s-gly.md) for certain attributes of a [security context](../secgloss/s-gly.md).
 ms.assetid: cfa545e7-c5d9-4ffd-bbba-669d2bd3df2d
 title: QueryContextAttributes (NTLM) function (Sspi.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ After the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT or SECPKG\_ATTR\_LOCAL\_CERT\_CONT
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

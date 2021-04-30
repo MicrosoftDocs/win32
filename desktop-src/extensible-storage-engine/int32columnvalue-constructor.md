@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int32ColumnValue constructor"
 title: Int32ColumnValue constructor 
 TOCTitle: 'Int32ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Int32ColumnValue.#ctor

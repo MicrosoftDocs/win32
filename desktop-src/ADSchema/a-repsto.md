@@ -22,7 +22,7 @@ Lists the servers that the directory will notify of changes and servers to which
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Reps-To                                               |
 | Ldap-Display-Name | repsTo                                                |
@@ -49,7 +49,7 @@ Lists the servers that the directory will notify of changes and servers to which
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ Lists the servers that the directory will notify of changes and servers to which
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ Lists the servers that the directory will notify of changes and servers to which
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ Lists the servers that the directory will notify of changes and servers to which
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ Lists the servers that the directory will notify of changes and servers to which
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ Lists the servers that the directory will notify of changes and servers to which
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ Lists the servers that the directory will notify of changes and servers to which
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

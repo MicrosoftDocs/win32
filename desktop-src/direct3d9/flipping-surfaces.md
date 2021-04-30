@@ -1,5 +1,5 @@
 ---
-Description: A Direct3D application typically displays an animated sequence by generating the frames of the animation in back buffers and presenting them in sequence.
+description: A Direct3D application typically displays an animated sequence by generating the frames of the animation in back buffers and presenting them in sequence.
 ms.assetid: 4ca9a845-f433-4d4a-939e-4b9ab2983927
 title: Flipping Surfaces (Direct3D 9)
 ms.topic: article

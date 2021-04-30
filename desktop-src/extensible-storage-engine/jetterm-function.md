@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetTerm Function"
 title: JetTerm Function
 TOCTitle: JetTerm Function
 ms:assetid: 7711c960-98f4-4134-b8ae-8ddf7b26b6b0

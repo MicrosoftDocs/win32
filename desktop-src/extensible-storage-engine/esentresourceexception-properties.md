@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException properties"
 title: EsentResourceException properties
 TOCTitle: EsentResourceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentResourceException

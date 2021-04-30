@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: dc19a568-3673-4061-b19a-50d5df0485d0
 title: User Interface Behavior
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # User Interface Behavior
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Assume that you are creating a PrintCapabilities client that reads in a PrintCapabilities document and selects one or more Options from each Feature and uses those to construct a PrintTicket that specifies the configuration that is to be used to process the Job. For each Feature of interest, the client must examine each Option, and decide whether that Option is appropriate for the task at hand. For an Option that is not parameterized, it can be evaluated by accessing the Value of each ScoredProperty. In the case of a nonparameterized media size Option, the client determines whether the width and height dimensions of the media reported in each Option match the dimensions required.
 
@@ -22,7 +22,7 @@ For the details of PrintTicket construction and specification of parameter initi
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

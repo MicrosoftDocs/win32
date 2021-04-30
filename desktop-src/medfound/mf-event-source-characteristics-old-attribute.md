@@ -1,5 +1,5 @@
 ---
-Description: Specifies the previous characteristics of the media source.
+description: Specifies the previous characteristics of the media source.
 ms.assetid: 9779f350-60d5-4129-bada-0c4a58f93e6a
 title: MF_EVENT_SOURCE_CHARACTERISTICS_OLD attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException properties"
 title: EsentObsoleteException properties
 TOCTitle: EsentObsoleteException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentObsoleteException

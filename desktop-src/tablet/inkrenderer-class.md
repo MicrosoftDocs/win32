@@ -1,5 +1,5 @@
 ---
-Description: Represents the management of mappings from ink to the display window. Use the InkRenderer object to display ink in a window. You can also use it to reposition and resize stroke.
+description: Represents the management of mappings from ink to the display window. Use the InkRenderer object to display ink in a window. You can also use it to reposition and resize stroke.
 ms.assetid: 66ec7cab-bfc2-4934-93a4-0ab9cb8c96e7
 title: InkRenderer class (Msinkaut.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ This object can be instantiated by calling the [**CoCreateInstance**](/windows/d
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

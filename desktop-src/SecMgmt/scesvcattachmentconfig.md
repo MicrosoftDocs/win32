@@ -1,5 +1,5 @@
 ---
-Description: The SceSvcAttachmentConfig function is called by the Security Configuration Engine when the system is configured.
+description: The SceSvcAttachmentConfig function is called by the Security Configuration Engine when the system is configured.
 ms.assetid: 'ad20649a-2391-421b-a08c-a4ea6a882abc'
 title: SceSvcAttachmentConfig callback function
 ms.topic: reference
@@ -59,7 +59,7 @@ For more information, see [Implementing SceSvcAttachmentConfig](implementing-sce
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

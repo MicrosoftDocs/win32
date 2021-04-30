@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotFoundException methods"
 title: EsentRecordNotFoundException methods
 TOCTitle: EsentRecordNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException

@@ -1,5 +1,5 @@
 ---
-Description: Time stamps the specified subject. This function supports Authenticode time stamping. To perform X.509 Public Key Infrastructure (RFC 3161) time stamping, use the SignerTimeStampEx2 function.
+description: Time stamps the specified subject. This function supports Authenticode time stamping. To perform X.509 Public Key Infrastructure (RFC 3161) time stamping, use the SignerTimeStampEx2 function.
 ms.assetid: fb2c149b-dba2-4879-be97-831037e1110b
 title: SignerTimeStamp function
 ms.topic: reference
@@ -84,7 +84,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

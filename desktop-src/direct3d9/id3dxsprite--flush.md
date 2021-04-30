@@ -1,5 +1,5 @@
 ---
-Description: Forces all batched sprites to be submitted to the device. Device states remain as they were after the last call to ID3DXSprite::Begin. The list of batched sprites is then cleared.
+description: Forces all batched sprites to be submitted to the device. Device states remain as they were after the last call to ID3DXSprite::Begin. The list of batched sprites is then cleared.
 ms.assetid: e5717bde-e339-4344-8ce7-b0c3fe118887
 title: ID3DXSprite::Flush method (D3dx9core.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces the effect of Advanced Format storage devices on software, discusses what applications can do to help support this type of media, and discusses the infrastructure that Microsoft introduced with Windows 7 SP1 and Windows Server 2008 R2 SP1 to enable developers to support these types of devices.
+description: This topic introduces the effect of Advanced Format storage devices on software, discusses what applications can do to help support this type of media, and discusses the infrastructure that Microsoft introduced with Windows 7 SP1 and Windows Server 2008 R2 SP1 to enable developers to support these types of devices.
 ms.assetid: 1D2847A7-15E9-42E0-90EB-7F43E76D3E44
 title: 512-byte Emulation (512e) Disk Compatibility Update
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Platform
 
- **Clients** - Windows Vista \| Windows 7 \| Windows 7 SP1  
-**Servers** - Windows Server 2008 \| Windows Server 2008 R2 \| Windows Server 2008 R2 SP1  
+ **Clients** - Windows Vista, Windows 7, Windows 7 SP1  
+**Servers** - Windows Server 2008, Windows Server 2008 R2, Windows Server 2008 R2 SP1  
 
 ## Feature Impact
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexHasPrimaryException constructor"
 title: EsentIndexHasPrimaryException constructor 
 TOCTitle: 'EsentIndexHasPrimaryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexHasPrimaryException.#ctor

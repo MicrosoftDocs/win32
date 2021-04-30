@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST constructor"
 title: JET_INDEXLIST constructor 
 TOCTitle: 'JET_INDEXLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.#ctor

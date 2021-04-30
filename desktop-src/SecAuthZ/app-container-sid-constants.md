@@ -1,5 +1,5 @@
 ---
-Description: Dictate the application package authority.
+description: Dictate the application package authority.
 ms.assetid: 047439EA-789B-41CF-87C2-66CFB3F20908
 title: App Container SID Constants (Winnt.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The app container specific SID constants dictate the application package authori
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

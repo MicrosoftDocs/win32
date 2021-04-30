@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_GRAPH_NODE_DESC
 title: DML_GRAPH_NODE_DESC
-description: A generic container for a node within a graph of DirectML operators defined by [DML_GRAPH_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_graph_desc) and passed to [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
+description: A generic container for a node within a graph of DirectML operators defined by [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md) and passed to [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
 helpviewer_keywords: ["DML_GRAPH_NODE_DESC","DML_GRAPH_NODE_DESC structure","direct3d12.dml_graph_node_desc","directml/DML_GRAPH_NODE_DESC"]
 ms.topic: reference
 tech.root: directml
@@ -44,10 +44,10 @@ api_name:
 ---
 
 # DML_GRAPH_NODE_DESC structure (directml.h)
-A generic container for a node within a graph of DirectML operators defined by [DML_GRAPH_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_graph_desc) and passed to [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
+A generic container for a node within a graph of DirectML operators defined by [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md) and passed to [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -63,9 +63,9 @@ struct DML_GRAPH_NODE_DESC {
 
 `Type`
 
-Type: **[DML_GRAPH_NODE_TYPE](/windows/win32/direct3d12/directml/ne-directml-dml_graph_node_type)**
+Type: **[DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md)**
 
-The type of graph node. See [DML_GRAPH_NODE_TYPE](/windows/win32/direct3d12/directml/ne-directml-dml_graph_node_type) for available types.
+The type of graph node. See [DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md) for available types.
 
 
 `Desc`
@@ -88,4 +88,4 @@ This API was introduced in DirectML version `1.1.0`.
 ## See also
 
 * [IDMLDevice1::CompileGraph method](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
-* [DML_GRAPH_DESC structure](/windows/win32/direct3d12/directml/ns-directml-dml_graph_desc)
+* [DML_GRAPH_DESC structure](./ns-directml-dml_graph_desc.md)

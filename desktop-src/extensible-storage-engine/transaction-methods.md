@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction methods"
 title: Transaction methods
 TOCTitle: Transaction methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Transaction

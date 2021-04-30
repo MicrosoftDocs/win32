@@ -1,5 +1,5 @@
 ---
-Description: Closes the specified shim database.
+description: Closes the specified shim database.
 ms.assetid: e4480860-8055-4134-b6ed-926c010d462f
 title: SdbCloseDatabase function
 ms.topic: reference
@@ -49,7 +49,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

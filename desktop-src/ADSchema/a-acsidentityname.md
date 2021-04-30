@@ -22,7 +22,7 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ACS-Identity-Name                           |
 | Ldap-Display-Name | aCSIdentityName                             |
@@ -48,7 +48,7 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -69,7 +69,7 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -90,7 +90,7 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -111,7 +111,7 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -132,7 +132,7 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -153,7 +153,7 @@ This attribute contains the DN of a user or OU and is the identity of a user or 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

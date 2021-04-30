@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNVALUE.itagSequence property"
 title: JET_ENUMCOLUMNVALUE.itagSequence property 
 TOCTitle: 'itagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE.itagSequence

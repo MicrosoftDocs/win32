@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDisabledDueToRecoveryFailureException properties"
 title: EsentLogDisabledDueToRecoveryFailureException properties
 TOCTitle: EsentLogDisabledDueToRecoveryFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException

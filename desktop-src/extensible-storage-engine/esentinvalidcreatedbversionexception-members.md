@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCreateDbVersionException members"
 title: EsentInvalidCreateDbVersionException members
 TOCTitle: EsentInvalidCreateDbVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateDbVersionException

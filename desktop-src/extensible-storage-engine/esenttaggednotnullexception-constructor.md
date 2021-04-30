@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTaggedNotNULLException constructor"
 title: EsentTaggedNotNULLException constructor 
 TOCTitle: 'EsentTaggedNotNULLException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTaggedNotNULLException.#ctor

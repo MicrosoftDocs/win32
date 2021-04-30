@@ -1,5 +1,5 @@
 ---
-Description: The concept of an address is core to most communications operations.
+description: The concept of an address is core to most communications operations.
 ms.assetid: 32fbd06b-f6f2-4024-b8d5-3d6eef16bca2
 title: Address
 ms.topic: article

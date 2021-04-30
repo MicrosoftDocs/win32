@@ -21,7 +21,7 @@ Legacy SAM right.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Domain-Administer-Server             |
 | Display-Name | Domain Administer Server             |
@@ -42,7 +42,7 @@ Legacy SAM right.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 1                                            |
@@ -53,7 +53,7 @@ Legacy SAM right.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 1                                            |
@@ -64,7 +64,7 @@ Legacy SAM right.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 1                                            |
@@ -75,7 +75,7 @@ Legacy SAM right.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 1                                            |
@@ -86,7 +86,7 @@ Legacy SAM right.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 1                                            |
@@ -97,7 +97,7 @@ Legacy SAM right.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Sam-Server**](c-samserver.md)<br/> |
 | Localization-Display-ID | 1                                            |

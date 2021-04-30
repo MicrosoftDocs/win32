@@ -1,5 +1,5 @@
 ---
-Description: Gets the extension interfaces that might come with a Windows Image Acquisition (WIA) 2.0 device driver.
+description: Gets the extension interfaces that might come with a Windows Image Acquisition (WIA) 2.0 device driver.
 ms.assetid: 70f20f33-905c-4a88-8065-1cf876e98302
 title: IWiaItem2::GetExtension method (Wia.h)
 ms.topic: reference
@@ -149,7 +149,7 @@ CreateSegmentationFilter(
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

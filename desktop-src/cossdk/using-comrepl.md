@@ -1,5 +1,5 @@
 ---
-Description: Using COMREPL
+description: Using COMREPL
 ms.assetid: bf67b434-c082-472d-9eae-ae31969d9cb8
 title: Using COMREPL
 ms.topic: article

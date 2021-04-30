@@ -1,5 +1,5 @@
 ---
-Description: Contains information that defines a new most recently used (MRU) list. Used by CreateMRUListW.
+description: Contains information that defines a new most recently used (MRU) list. Used by CreateMRUListW.
 title: MRUINFO structure
 ms.topic: reference
 ms.date: 05/31/2018
@@ -153,7 +153,7 @@ This structure is not defined in a header file. You must define it yourself.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

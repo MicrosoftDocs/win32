@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.PageTempDBSmallest field"
 title: SystemParameters.PageTempDBSmallest field
 TOCTitle: PageTempDBSmallest field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.PageTempDBSmallest

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Directory class represents a file type that logically groups the data files that it contains and provides path information for the grouped files.
+description: The CIM\_Directory class represents a file type that logically groups the data files that it contains and provides path information for the grouped files.
 ms.assetid: a9594f53-08f0-4a47-9edc-51686c80c5ea
 ms.tgt_platform: multiple
 title: CIM_Directory class
@@ -911,7 +911,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

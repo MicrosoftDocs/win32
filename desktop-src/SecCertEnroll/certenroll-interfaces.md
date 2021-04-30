@@ -1,5 +1,5 @@
 ---
-Description: The following interfaces are supported by the Certificate Enrollment API.
+description: The following interfaces are supported by the Certificate Enrollment API.
 ms.assetid: d49511ed-8651-457e-a102-0bea4edde24c
 title: CertEnroll Interfaces
 ms.topic: article

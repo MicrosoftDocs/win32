@@ -1,5 +1,5 @@
 ---
-Description: Gets the endpoint address of a remote engine.
+description: Gets the endpoint address of a remote engine.
 MS-HAID: vspixengine.IPeerToPeerEngine\_GetPlaybackEndpoint\_BOOL\_BSTR\_ptr\_BSTR\_ptr\_RemotingVersion\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

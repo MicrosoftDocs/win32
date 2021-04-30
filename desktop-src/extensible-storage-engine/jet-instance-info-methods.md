@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO methods"
 title: JET_INSTANCE_INFO methods
 TOCTitle: JET_INSTANCE_INFO methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO

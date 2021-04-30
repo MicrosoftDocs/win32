@@ -1,5 +1,5 @@
 ---
-Description: Step 7.
+description: Step 7.
 ms.assetid: 12bb1288-e764-4bc1-bea5-196e17cf3557
 title: Step 7. Handle Window Messages
 ms.topic: article

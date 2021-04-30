@@ -1,5 +1,5 @@
 ---
-Description: The SetFilterGraph method specifies the event sink for stream control events.
+description: The SetFilterGraph method specifies the event sink for stream control events.
 ms.assetid: a4c3dca6-6c80-4eca-87d6-875e746e9ed3
 title: CBaseStreamControl.SetFilterGraph method (Strmctl.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ STDMETHODIMP CMyFilter::JoinFilterGraph(IFilterGraph * pGraph, LPCWSTR pName)
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Strmctl.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

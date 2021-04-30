@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the device file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
+description: Changes the security permissions for the device file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
 ms.assetid: 5ad54470-6961-4c0d-9d2a-d3eaf81d75f4
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the CIM_DeviceFile class
@@ -269,7 +269,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

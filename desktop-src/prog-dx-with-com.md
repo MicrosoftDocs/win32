@@ -1,5 +1,5 @@
 ---
-Description: Programming DirectX with COM.
+description: Programming DirectX with COM.
 title: Programming DirectX with COM
 ms.topic: article
 ms.date: 01/29/2019
@@ -53,7 +53,7 @@ For convenience, the DirectX documentation normally refers to components and int
 
 So, the only unambiguous way to refer to a particular object or interface is by its GUID.
 
-Although a GUID is a structure, a GUID is often expressed in equivalent string form. The general format of the string form of a GUID is 32 hexadecimal digits, in the format 8-4-4-4-12. That is, {xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxxxx}, where each x corresponds to a hexadecimal digit. For example, the string form of the IID for the **ID3D12Device** interface is {189819F1-1DB6-4B57-BE54-1821339B85F7}.
+Although a GUID is a structure, a GUID is often expressed in equivalent string form. The general format of the string form of a GUID is 32 hexadecimal digits, in the format 8-4-4-4-12. That is, {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}, where each x corresponds to a hexadecimal digit. For example, the string form of the IID for the **ID3D12Device** interface is {189819F1-1DB6-4B57-BE54-1821339B85F7}.
 
 Because the actual GUID is somewhat clumsy to use and easy to mistype, an equivalent name is usually provided as well. In your code, you can use this name instead of the actual structure when you call functions, for example when you pass an argument for the `riid` parameter to [**D3D12CreateDevice**](/windows/desktop/api/d3d12/nf-d3d12-d3d12createdevice). The customary naming convention is to prepend either IID_ or CLSID_ to the descriptive name of the interface or object, respectively. For example, the name of the **ID3D12Device** interface's IID is IID_ID3D12Device.
 
@@ -225,6 +225,9 @@ When an object is created, the system allocates the necessary memory resources. 
 An object's reference count is the number of times one of its interfaces has been requested. Each time that an interface is requested, the reference count is incremented. An application releases an interface when that interface is no longer needed, decrementing the reference count. As long as the reference count is greater than zero, the object remains in memory. When the reference count reaches zero, the object destroys itself. You don't need to know anything about the reference count of an object. As long as you obtain and release an object's interfaces properly, the object will have the appropriate lifetime.
 
 Properly handling reference counting is a crucial part of COM programming. Failure to do so can easily create a memory leak or a crash. One of the most common mistakes that COM programmers make is failing to release an interface. When this happens, the reference count never reaches zero, and the object remains in memory indefinitely.
+
+> [!NOTE]
+> Direct3D 10 or later has slightly modified lifetime rules for objects. In particular, objects that are derived from **ID3DxxDeviceChild** never outlive their parent device (that is, if the owning **ID3DxxDevice** hits a 0 refcount, then all child objects are immediately invalid as well). Also, when you use **Set** methods to bind objects to the render pipeline, these references don't increase the reference count (that is, they are weak references). In practice, this is best handled by ensuring that you release all device child objects fully before you release the device.
 
 ## Incrementing and decrementing the reference count
 

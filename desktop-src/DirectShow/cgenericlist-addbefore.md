@@ -1,7 +1,7 @@
 ---
-Description: The AddBefore method inserts an item before the specified position.
+description: "The AddBefore method inserts an item before the specified position. This method uses the 'p' and 'pObj' parameters."
 ms.assetid: ec10fd08-6bb9-4357-830c-78b3d3a32e03
-title: CGenericList.AddBefore method (Wxlist.h)
+title: CGenericList.AddBefore method (Wxlist.h) - p, pObj parameters
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.AddBefore method
+# CGenericList.AddBefore method (Wxlist.h) - p, pObj parameters
 
 The `AddBefore` method inserts an item before the specified position.
 
@@ -58,14 +58,10 @@ Returns the position indicator for the inserted item.
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header | Wxlist.h (include Streams.h) |
+| Library| Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

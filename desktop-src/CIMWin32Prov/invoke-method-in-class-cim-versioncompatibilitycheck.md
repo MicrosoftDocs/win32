@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_VersionCompatibilityCheck class evaluates a particular check.
+description: The Invoke method of the CIM\_VersionCompatibilityCheck class evaluates a particular check.
 ms.assetid: d1ccc248-340e-4277-9696-063e1e2bf915
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_VersionCompatibilityCheck class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

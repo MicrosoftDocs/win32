@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDuplicateException constructor"
 title: EsentColumnDuplicateException constructor 
 TOCTitle: 'EsentColumnDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnDuplicateException.#ctor

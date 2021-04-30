@@ -1,5 +1,5 @@
 ---
-Description: Explains the registry entries for Winlogon events.
+description: Explains the registry entries for Winlogon events.
 ms.assetid: dbebe23f-84ff-4a3e-8b8c-fa3bda10fa57
 title: Registry Entries (Authentication)
 ms.topic: article

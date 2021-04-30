@@ -1,5 +1,5 @@
 ---
-Description: Get the amount of influence a given bone has over a given vertex.
+description: Get the amount of influence a given bone has over a given vertex.
 ms.assetid: 0586fdfd-e5b1-4699-b489-c54a0f305ee4
 title: ID3DX10SkinInfo::GetBoneInfluence method (D3DX10.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ Use ID3DX10SkinInfo::GetBoneInfluenceCount to find out how many vertices the bon
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

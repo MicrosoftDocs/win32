@@ -1,5 +1,5 @@
 ---
-Description: The PrivateFontCollection class inherits from the FontCollection abstract base class. You can use a PrivateFontCollection object to maintain a set of fonts specifically for your application.
+description: The PrivateFontCollection class inherits from the FontCollection abstract base class. You can use a PrivateFontCollection object to maintain a set of fonts specifically for your application.
 ms.assetid: ae12afcf-12cc-4c84-9aba-de56fc39437b
 title: Creating a Private Font Collection
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: An HRECOWORDLIST handle is used to manage a word list you attach to a recognizer context. You use a word list to improve recognition results.
+description: An HRECOWORDLIST handle is used to manage a word list you attach to a recognizer context. You use a word list to improve recognition results.
 ms.assetid: 7333307b-1857-48a7-bb9f-bdbd8530f093
 title: HRECOWORDLIST Handle (Recapis.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ The following function use an **HRECOWORDLIST**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                        |
 | Minimum supported server<br/> | None supported<br/>                                                            |

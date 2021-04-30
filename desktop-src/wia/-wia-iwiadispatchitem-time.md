@@ -1,5 +1,5 @@
 ---
-Description: The current time. Applies only to devices. Read-only.
+description: The current time. Applies only to devices. Read-only.
 ms.assetid: 090045c2-0f09-4929-8623-9f299f721de8
 title: Item.Time property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the time.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

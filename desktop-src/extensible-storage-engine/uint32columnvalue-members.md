@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt32ColumnValue members"
 title: UInt32ColumnValue members
 TOCTitle: UInt32ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.UInt32ColumnValue

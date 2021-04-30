@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPagesException properties"
 title: EsentDatabaseInvalidPagesException properties
 TOCTitle: EsentDatabaseInvalidPagesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException

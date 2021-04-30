@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnSnapshotException properties"
 title: EsentSoftRecoveryOnSnapshotException properties
 TOCTitle: EsentSoftRecoveryOnSnapshotException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException

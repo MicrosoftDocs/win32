@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP.szNewDatabaseName property"
 title: JET_RSTMAP.szNewDatabaseName property 
 TOCTitle: 'szNewDatabaseName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTMAP.szNewDatabaseName

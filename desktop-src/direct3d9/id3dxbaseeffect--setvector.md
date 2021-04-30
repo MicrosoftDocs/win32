@@ -1,5 +1,5 @@
 ---
-Description: Sets a vector.
+description: Sets a vector.
 ms.assetid: 7dae88fc-d5d3-4751-859a-fa1bde4d0ce8
 title: ID3DXBaseEffect::SetVector method (D3DX9Shader.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ If the destination vector is smaller than the source vector, the additional comp
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

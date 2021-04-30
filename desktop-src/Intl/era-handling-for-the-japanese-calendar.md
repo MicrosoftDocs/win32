@@ -1,5 +1,5 @@
 ---
-Description: Era Handling for the Japanese Calendar
+description: Era Handling for the Japanese Calendar
 ms.assetid: a1dabf7c-6521-492e-bdc0-27cfb07cfc20
 title: Era Handling for the Japanese Calendar
 ms.topic: article

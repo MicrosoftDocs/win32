@@ -936,7 +936,7 @@ Mobile Device Management (MDM) is not configured.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                    |

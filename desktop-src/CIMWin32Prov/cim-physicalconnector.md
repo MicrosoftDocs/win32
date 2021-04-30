@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalConnector class represents any physical element that is used to connect to other elements. Any object that can connect and transmit signals or power between two or more physical elements is a descendant (or member) of this class.
+description: The CIM\_PhysicalConnector class represents any physical element that is used to connect to other elements. Any object that can connect and transmit signals or power between two or more physical elements is a descendant (or member) of this class.
 ms.assetid: cc135ae8-5ae1-4028-a2e3-a81db8694d9d
 ms.tgt_platform: multiple
 title: CIM_PhysicalConnector class
@@ -1330,7 +1330,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

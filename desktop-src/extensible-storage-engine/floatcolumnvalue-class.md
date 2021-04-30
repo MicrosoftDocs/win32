@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FloatColumnValue class"
 title: FloatColumnValue class
 TOCTitle: FloatColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.FloatColumnValue

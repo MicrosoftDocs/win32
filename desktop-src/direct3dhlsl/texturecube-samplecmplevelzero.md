@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube SampleCmpLevelZero methods
-description: Samples a texture on mipmap level 0 only, using a comparison value to reject samples.
+description: Samples a texture on mipmap level 0 only, using a comparison value to reject samples. | TextureCube::TextureCube SampleCmpLevelZero methods
 ms.assetid: B1ACFFF2-5194-4C4F-8329-A85662F62793
 keywords:
 - SampleCmpLevelZero methods HLSL

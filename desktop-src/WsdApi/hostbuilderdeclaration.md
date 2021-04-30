@@ -1,5 +1,5 @@
 ---
-Description: Generates a declaration for a function that creates a typed host.
+description: Generates a declaration for a function that creates a typed host.
 ms.assetid: 3c08e913-b47e-4ca7-b8bc-7b036e57db01
 title: hostBuilderDeclaration element
 ms.topic: reference
@@ -52,7 +52,7 @@ interface+
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |

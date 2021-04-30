@@ -1,5 +1,5 @@
 ---
-Description: The GetCurrentFormat method retrieves the media format of the current stream.
+description: The GetCurrentFormat method retrieves the media format of the current stream.
 ms.assetid: 02d1b3b5-3639-4864-9b72-623bf94acf69
 title: ITFormatControl::GetCurrentFormat method (Ipmsp.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

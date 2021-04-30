@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session.JetSesid property"
 title: Session.JetSesid property 
 TOCTitle: 'JetSesid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Session.JetSesid

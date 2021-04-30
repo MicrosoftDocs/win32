@@ -1,5 +1,5 @@
 ---
-Description: Adds two spherical harmonic (SH) vectors; in other words, pOut\[i\] = pA\[i\] + pB\[i\].
+description: D3DXSHAdd function (D3DX10.h) - Adds two spherical harmonic (SH) vectors; in other words, pOut\[i\] = pA\[i\] + pB\[i\].
 ms.assetid: dbfea12b-c110-42a7-84b6-0dff3d958032
 title: D3DXSHAdd function (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHAdd function
+# D3DXSHAdd function (D3DX10.h)
 
 Adds two spherical harmonic (SH) vectors; in other words, pOut\[i\] = pA\[i\] + pB\[i\].
 
@@ -91,7 +91,7 @@ Each coefficient of the basis function Yₗₘ is stored at memory location l² 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

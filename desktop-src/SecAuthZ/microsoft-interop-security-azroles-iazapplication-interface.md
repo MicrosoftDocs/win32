@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft.Interop.Security.Azroles.IAzApplication interoperability wrapper methods and properties are documented under the COM version of the method or property. A link to the correlating COM documentation follows each member name.
+description: The Microsoft.Interop.Security.Azroles.IAzApplication interoperability wrapper methods and properties are documented under the COM version of the method or property. A link to the correlating COM documentation follows each member name.
 ms.assetid: 8c8c18c2-efbd-4893-8b95-510ba4a7a2ef
 title: Microsoft.Interop.Security.AzRoles.IAzApplication interface
 ms.topic: reference
@@ -270,7 +270,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzApplication** interface has these pr
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

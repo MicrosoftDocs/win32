@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNLIST.columnidDefault property"
 title: JET_COLUMNLIST.columnidDefault property 
 TOCTitle: 'columnidDefault property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.columnidDefault

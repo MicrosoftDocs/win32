@@ -21,7 +21,7 @@ Contains a user password that is compatible with a UNIX system.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | unixUserPassword                                      |
 | Ldap-Display-Name | unixUserPassword                                      |
@@ -45,7 +45,7 @@ Contains a user password that is compatible with a UNIX system.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -66,7 +66,7 @@ Contains a user password that is compatible with a UNIX system.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -87,7 +87,7 @@ Contains a user password that is compatible with a UNIX system.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -108,7 +108,7 @@ Contains a user password that is compatible with a UNIX system.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

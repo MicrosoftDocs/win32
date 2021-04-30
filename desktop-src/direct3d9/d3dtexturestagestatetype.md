@@ -1,5 +1,5 @@
 ---
-Description: Texture stage states define multi-blender texture operations.
+description: Texture stage states define multi-blender texture operations.
 ms.assetid: 87a5a1bb-e748-4c72-8320-ea82250dcc0e
 title: D3DTEXTURESTAGESTATETYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -203,7 +203,7 @@ The valid range of values for the D3DTSS\_BUMPENVMAT00, D3DTSS\_BUMPENVMAT01, D3
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

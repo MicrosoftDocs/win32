@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows7Param fields"
 title: Windows7Param fields (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Param fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param

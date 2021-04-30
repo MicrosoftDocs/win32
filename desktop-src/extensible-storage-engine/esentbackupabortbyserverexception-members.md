@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupAbortByServerException members"
 title: EsentBackupAbortByServerException members
 TOCTitle: EsentBackupAbortByServerException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException

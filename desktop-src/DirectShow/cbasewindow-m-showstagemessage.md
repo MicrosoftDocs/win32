@@ -1,5 +1,5 @@
 ---
-Description: Private message that brings the window to the foreground.
+description: Private message that brings the window to the foreground.
 ms.assetid: 88b28888-d729-4cf3-8b9d-618dbe150926
 title: CBaseWindow::m_ShowStageMessage member (Winutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The [**CBaseWindow::DoSetWindowForeground**](cbasewindow-dosetwindowforeground.m
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

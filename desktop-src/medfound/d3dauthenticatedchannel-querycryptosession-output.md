@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_CRYPTOSESSION query.
 ms.assetid: df9d9b41-8188-4597-9e83-d14065eb7fc7
 title: D3DAUTHENTICATEDCHANNEL_QUERYCRYPTOSESSION_OUTPUT structure (D3d9types.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ A handle to the Direct3D device that is associated with the decoder device.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

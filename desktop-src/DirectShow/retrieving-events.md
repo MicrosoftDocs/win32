@@ -1,5 +1,5 @@
 ---
-Description: Retrieving Events
+description: Retrieving Events
 ms.assetid: 18c5892d-7e33-497c-ab7d-d17fea5df17e
 title: Retrieving Events
 ms.topic: article

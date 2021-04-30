@@ -1,5 +1,5 @@
 ---
-Description: An application-defined function that handles callback access control entries (ACEs) during an access check.
+description: An application-defined function that handles callback access control entries (ACEs) during an access check.
 ms.assetid: e8a510e6-0739-4765-ad07-3bcb1b9c905c
 title: AuthzAccessCheckCallback callback function
 ms.topic: reference
@@ -82,7 +82,7 @@ For more information, see the [How AccessCheck Works](how-dacls-control-access-t
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.RetrieveColumnAsGuid method (JET_SESID, JET_TABLEID, JET_COLUMNID)"
 title: Api.RetrieveColumnAsGuid method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 TOCTitle: RetrieveColumnAsGuid method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsGuid(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)

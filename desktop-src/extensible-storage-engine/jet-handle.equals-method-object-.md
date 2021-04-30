@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE.Equals method (Object)"
 title: JET_HANDLE.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.Equals(System.Object)

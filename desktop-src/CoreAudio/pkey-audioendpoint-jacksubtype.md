@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_AudioEndpoint\_JackSubType property contains an output category GUID for an audio endpoint device.
+description: The PKEY\_AudioEndpoint\_JackSubType property contains an output category GUID for an audio endpoint device.
 ms.assetid: 5d712823-73e3-4872-a1ea-c166ed41ffa0
 title: PKEY_AudioEndpoint_JackSubType (Mmdeviceapi.h)
 ms.topic: reference
@@ -20,7 +20,7 @@ The **pwszVal** member of the **PROPVARIANT** structure points to a null-termina
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |

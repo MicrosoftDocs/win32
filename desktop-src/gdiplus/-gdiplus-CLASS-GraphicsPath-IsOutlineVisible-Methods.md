@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the IsOutlineVisible methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the IsOutlineVisible methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 4a6b7b5d-a74d-43be-b35c-54c49d742f89
 title: GraphicsPath.IsOutlineVisible methods
 ms.date: 07/02/2019

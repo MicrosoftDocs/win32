@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media MPEG-4 V3 decoder decodes MPEG-4 V3 video streams.
+description: The Windows Media MPEG-4 V3 decoder decodes MPEG-4 V3 video streams.
 ms.assetid: 5143b0cc-c171-46af-8d7f-4d029af71fb4
 title: Windows Media MPEG-4 V3 Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The globally unique identifiers (GUIDs) for RGB media subtypes differ depending 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

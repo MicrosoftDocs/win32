@@ -1,5 +1,5 @@
 ---
-Description: The following table lists the classes for WMI preinstalled permanent consumers.
+description: The following table lists the classes for WMI preinstalled permanent consumers.
 ms.assetid: 1239ea25-2835-4546-b66d-20a83704653e
 ms.tgt_platform: multiple
 title: Standard Consumer Classes

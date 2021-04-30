@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.GetHashCode method"
 title: JET_DBINFOMISC.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.GetHashCode

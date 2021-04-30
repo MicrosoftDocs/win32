@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Internet Explorer 8 - Data Execution Protection/NX
 ms.assetid: 56a4889c-5dcf-416f-b46e-5c48277d5636
 title: Internet Explorer 8 - Data Execution Protection/NX
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
- **Clients** - Windows XP \| Windows Vista \| Windows 7  
-**Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+ **Clients** - Windows XP, Windows Vista, Windows 7  
+**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 
 

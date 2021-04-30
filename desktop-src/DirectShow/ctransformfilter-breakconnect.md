@@ -1,5 +1,5 @@
 ---
-Description: The BreakConnect method releases a pin from a connection.
+description: The BreakConnect method releases a pin from a connection.
 ms.assetid: cc384786-9cba-4f68-9c60-740205b35661
 title: CTransformFilter.BreakConnect method (Transfrm.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The [**CTransformInputPin::BreakConnect**](ctransforminputpin-breakconnect.md) a
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

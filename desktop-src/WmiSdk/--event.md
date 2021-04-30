@@ -1,5 +1,5 @@
 ---
-Description: Is an abstract base class that serves as the parent class for all intrinsic and extrinsic events.
+description: Is an abstract base class that serves as the parent class for all intrinsic and extrinsic events.
 ms.assetid: 4d2e4715-041c-49e9-b948-a148dfe85483
 ms.tgt_platform: multiple
 title: '__Event class'
@@ -83,7 +83,7 @@ The **\_\_Event** class is derived from [**\_\_IndicationRelated**](--indication
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

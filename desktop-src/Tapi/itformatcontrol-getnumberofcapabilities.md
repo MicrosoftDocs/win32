@@ -1,5 +1,5 @@
 ---
-Description: The GetNumberOfCapabilities method retrieves the number of capabilities associated with the current format.
+description: The GetNumberOfCapabilities method retrieves the number of capabilities associated with the current format.
 ms.assetid: 26e51c0d-c1cb-410f-ab19-eb884afa8431
 title: ITFormatControl::GetNumberOfCapabilities method (Ipmsp.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

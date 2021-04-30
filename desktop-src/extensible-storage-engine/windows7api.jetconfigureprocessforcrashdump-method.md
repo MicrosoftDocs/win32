@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Api.JetConfigureProcessForCrashDump method"
 title: Windows7Api.JetConfigureProcessForCrashDump method  (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: 'JetConfigureProcessForCrashDump method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api.JetConfigureProcessForCrashDump(Microsoft.Isam.Esent.Interop.Windows7.CrashDumpGrbit)

@@ -1,5 +1,5 @@
 ---
-Description: Called from an any hit shader to reject the hit and end the shader.
+description: Called from an any hit shader to reject the hit and end the shader.
 ms.assetid: 
 title: IgnoreHit function
 ms.localizationpriority: low

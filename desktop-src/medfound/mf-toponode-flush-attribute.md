@@ -1,5 +1,5 @@
 ---
-Description: Specifies when a transform is flushed.
+description: Specifies when a transform is flushed.
 ms.assetid: 1e87f58f-546f-4dd4-b218-1458ff17db53
 title: MF_TOPONODE_FLUSH attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

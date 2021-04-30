@@ -22,7 +22,7 @@ The home directory for the account. If [**homeDrive**](a-homedrive.md) is set an
 
 
 
-|                   |                                                                                    |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | CN                | Home-Directory                                                                     |
 | Ldap-Display-Name | homeDirectory                                                                      |
@@ -48,7 +48,7 @@ The home directory for the account. If [**homeDrive**](a-homedrive.md) is set an
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ The home directory for the account. If [**homeDrive**](a-homedrive.md) is set an
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ The home directory for the account. If [**homeDrive**](a-homedrive.md) is set an
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -111,7 +111,7 @@ The home directory for the account. If [**homeDrive**](a-homedrive.md) is set an
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -132,7 +132,7 @@ The home directory for the account. If [**homeDrive**](a-homedrive.md) is set an
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |
@@ -153,7 +153,7 @@ The home directory for the account. If [**homeDrive**](a-homedrive.md) is set an
 
 
 
-|                        |                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                  |
 | MAPI-Id                | \-                                                                                  |

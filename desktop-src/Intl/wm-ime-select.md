@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application when the operating system is about to change the current IME. A window receives this message through its WindowProc function.
+description: Sent to an application when the operating system is about to change the current IME. A window receives this message through its WindowProc function.
 ms.assetid: 5559b3ab-8d81-4f33-b0af-d05489371328
 title: WM_IME_SELECT message (Winuser.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Lists the utility functions provided by DirectXMath.
+description: Lists the utility functions provided by DirectXMath.
 ms.assetid: 4d46fd96-55ca-cb66-f878-caf7894535ae
 title: DirectXMath Library utility functions
 ms.topic: reference

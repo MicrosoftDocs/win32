@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETINFO constructor"
 title: JET_RETINFO constructor 
 TOCTitle: 'JET_RETINFO constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETINFO.#ctor

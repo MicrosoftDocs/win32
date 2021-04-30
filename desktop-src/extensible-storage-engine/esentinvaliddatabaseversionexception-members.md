@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidDatabaseVersionException members"
 title: EsentInvalidDatabaseVersionException members
 TOCTitle: EsentInvalidDatabaseVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException

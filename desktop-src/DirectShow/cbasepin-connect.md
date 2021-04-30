@@ -1,5 +1,5 @@
 ---
-Description: The Connect method connects the pin to another pin. This method implements the IPin::Connect method.
+description: The Connect method connects the pin to another pin. This method implements the IPin::Connect method.
 ms.assetid: 8ea99d2f-09da-4b15-a3b0-04ceb7888bc1
 title: CBasePin.Connect method (Amfilter.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ In the base class, this method tests whether the pin is already connected and wh
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

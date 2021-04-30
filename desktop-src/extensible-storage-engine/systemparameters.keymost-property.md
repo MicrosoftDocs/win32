@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.KeyMost property"
 title: SystemParameters.KeyMost property 
 TOCTitle: 'KeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.KeyMost

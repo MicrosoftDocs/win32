@@ -1,5 +1,5 @@
 ---
-Description: The address type identifies address format, such as standard phone number or e-mail address. Only applications that negotiate TAPI version 3.0 or higher can use address types.
+description: The address type identifies address format, such as standard phone number or e-mail address. Only applications that negotiate TAPI version 3.0 or higher can use address types.
 ms.assetid: 2c32eda1-e510-40eb-ae75-fc7b9e9953cd
 title: LINEADDRESSTYPE_ Constants (Tapi.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Address type is an IP address.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

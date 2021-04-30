@@ -1,6 +1,6 @@
 ---
 title: Scroll Bars Overview
-description: .
+description: Scroll Bars Overview
 ms.assetid: 27bf8385-59c0-4419-9b77-4ac208cdc1a1
 ms.topic: article
 ms.date: 05/31/2018

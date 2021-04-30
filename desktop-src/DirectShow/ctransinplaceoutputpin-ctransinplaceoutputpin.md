@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CTransInPlaceOutputPin.CTransInPlaceOutputPin constructor - Constructor method.
 ms.assetid: fe7b2d62-0e6a-4253-b469-6cede5dc9bb1
 title: CTransInPlaceOutputPin.CTransInPlaceOutputPin constructor (Transip.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The *pName* parameter specifies the pin name, which is returned by the [**IPin::
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

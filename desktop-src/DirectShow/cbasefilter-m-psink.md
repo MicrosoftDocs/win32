@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the IMediaEventSink interface on the filter graph manager.
+description: Pointer to the IMediaEventSink interface on the filter graph manager.
 ms.assetid: 0d61e8b6-e9a3-495b-8bb1-9dab1f8b3626
 title: CBaseFilter::m_pSink member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ IMediaEventSink *m_pSink;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

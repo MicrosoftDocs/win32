@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID"
 title: JET_COLUMNID
 TOCTitle: JET_COLUMNID
 ms:assetid: d6c74c5c-ba61-4e1c-a1b1-495e925b6b68

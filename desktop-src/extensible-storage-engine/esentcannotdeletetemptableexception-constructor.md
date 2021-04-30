@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTempTableException constructor"
 title: EsentCannotDeleteTempTableException constructor 
 TOCTitle: 'EsentCannotDeleteTempTableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTempTableException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: The WMIEvent class is a base class from which all WMI event classes are derived.
+description: The WMIEvent class is a base class from which all WMI event classes are derived.
 ms.assetid: 0393d3fc-7566-4eda-940e-248d622a903a
 title: WMIEvent class
 ms.topic: reference
@@ -82,7 +82,7 @@ The **WMIEvent** class is derived from [**\_\_ExtrinsicEvent**](/windows/desktop
 
 
 
-|                                     |                                                                                                                                                       |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                                                                              |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                                                                                        |

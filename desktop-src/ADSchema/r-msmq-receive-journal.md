@@ -21,7 +21,7 @@ Allows receiving messages from the queue's Journal.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Receive-journal                 |
 | Display-Name | Receive Journal                      |
@@ -42,7 +42,7 @@ Allows receiving messages from the queue's Journal.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 45                                           |
@@ -53,7 +53,7 @@ Allows receiving messages from the queue's Journal.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 45                                           |
@@ -64,7 +64,7 @@ Allows receiving messages from the queue's Journal.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 45                                           |
@@ -75,7 +75,7 @@ Allows receiving messages from the queue's Journal.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 45                                           |
@@ -86,7 +86,7 @@ Allows receiving messages from the queue's Journal.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 45                                           |
@@ -97,7 +97,7 @@ Allows receiving messages from the queue's Journal.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**MSMQ-Queue**](c-msmqqueue.md)<br/> |
 | Localization-Display-ID | 45                                           |

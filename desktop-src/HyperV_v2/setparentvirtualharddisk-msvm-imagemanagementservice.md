@@ -1,5 +1,5 @@
 ---
-Description: Updates the parent for the specified leaf and child virtual hard disk files.
+description: Updates the parent for the specified leaf and child virtual hard disk files.
 ms.assetid: 5ad41218-bcfd-449a-a66e-2096a1d96bf5
 title: SetParentVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -134,7 +134,7 @@ Access to the [**Msvm\_ImageManagementService**](msvm-imagemanagementservice.md)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

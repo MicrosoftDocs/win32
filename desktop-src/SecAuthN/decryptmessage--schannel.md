@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message by using Schannel.
+description: Decrypts a message by using Schannel.
 ms.assetid: 5d7c8598-2d6b-4839-ae98-dff964bc962c
 title: DecryptMessage (Schannel) function
 ms.topic: reference
@@ -88,7 +88,7 @@ The **DecryptMessage (Schannel)** function returns SEC\_I\_RENEGOTIATE when the 
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

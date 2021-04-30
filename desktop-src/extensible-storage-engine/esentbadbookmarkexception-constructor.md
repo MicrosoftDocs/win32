@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBookmarkException constructor"
 title: EsentBadBookmarkException constructor 
 TOCTitle: 'EsentBadBookmarkException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadBookmarkException.#ctor

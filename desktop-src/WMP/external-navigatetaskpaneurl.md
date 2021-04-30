@@ -1,6 +1,6 @@
 ---
 title: External.NavigateTaskPaneURL method
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.NavigateTaskPaneURL method
 ms.assetid: c3a888c0-6589-4d21-9d47-37372d9069f4
 keywords:
 - NavigateTaskPaneURL method Windows Media Player
@@ -128,7 +128,7 @@ https://www.proseware.com/online store/html/navigate.asp?Pane=Store
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/>                                        |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

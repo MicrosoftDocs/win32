@@ -1,5 +1,5 @@
 ---
-Description: The IsDiscontinuity method determines if this sample represents a break in the data stream. This method implements the IMediaSample::IsDiscontinuity method.
+description: The IsDiscontinuity method determines if this sample represents a break in the data stream. This method implements the IMediaSample::IsDiscontinuity method.
 ms.assetid: 125b4a86-bd26-4539-a9ab-281f1aed1836
 title: CMediaSample.IsDiscontinuity method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The [**CMediaSample::m\_dwFlags**](cmediasample-m-dwflags.md) member variable sp
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

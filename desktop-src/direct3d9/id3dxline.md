@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXLine interface implements line drawing using textured triangles.
+description: The ID3DXLine interface implements line drawing using textured triangles.
 ms.assetid: 87472618-d3e4-4008-9009-ae17fc7b696d
 title: ID3DXLine interface (D3dx9core.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ typedef interface ID3DXLine *LPD3DXLINE;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

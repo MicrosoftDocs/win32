@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a mesh containing a torus.
+description: Uses a left-handed coordinate system to create a mesh containing a torus.
 ms.assetid: 68df7650-8a87-4762-8b57-5704c419b0d7
 title: D3DXCreateTorus function (D3dx9shape.h)
 ms.topic: reference
@@ -122,7 +122,7 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9shape.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>    |

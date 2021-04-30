@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DateTimeColumnValue methods"
 title: DateTimeColumnValue methods
 TOCTitle: DateTimeColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.DateTimeColumnValue

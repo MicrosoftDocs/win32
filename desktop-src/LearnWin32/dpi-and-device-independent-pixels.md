@@ -1,7 +1,7 @@
 ---
 title: DPI and Device-Independent Pixels
 ms.assetid: d282de02-62f4-4a12-a77c-f602f6db0216
-description: 
+description: "Learn more about: DPI and Device-Independent Pixels"
 ms.topic: article
 ms.date: 05/31/2018
 ---

@@ -1,6 +1,6 @@
 ---
 title: ProcessTriTessFactorsMax function
-description: Generates the corrected tessellation factors for a tri patch.
+description: Generates the corrected tessellation factors for a tri patch. | ProcessTriTessFactorsMax function
 ms.assetid: a24cc1a8-5e6e-4963-b36b-e2265475580e
 keywords:
 - ProcessTriTessFactorsMax function HLSL

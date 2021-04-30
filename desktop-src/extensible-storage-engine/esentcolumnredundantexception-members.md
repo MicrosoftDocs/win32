@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnRedundantException members"
 title: EsentColumnRedundantException members
 TOCTitle: EsentColumnRedundantException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnRedundantException

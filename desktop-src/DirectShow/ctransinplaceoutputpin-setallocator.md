@@ -1,5 +1,5 @@
 ---
-Description: The SetAllocator method specifies an allocator for the connection.
+description: The SetAllocator method specifies an allocator for the connection.
 ms.assetid: 6b8e80f9-3b0d-498f-b1b0-bae491c25e81
 title: CTransInPlaceOutputPin.SetAllocator method (Transip.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The output pin for this filter never provides an allocator. This method specifie
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

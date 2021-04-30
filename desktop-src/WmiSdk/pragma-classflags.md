@@ -1,5 +1,5 @@
 ---
-Description: Controls the way WMI creates or updates classes depending on the flags specified.
+description: Controls the way WMI creates or updates classes depending on the flags specified.
 ms.assetid: ec535662-be14-44dc-ba0f-f9d2cbf630ea
 ms.tgt_platform: multiple
 title: pragma classflags
@@ -58,7 +58,7 @@ The following example shows how to use this command with the updateonly and forc
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

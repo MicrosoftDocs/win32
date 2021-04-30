@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T> members"
 title: ColumnValueOfStruct(T) members
 TOCTitle: ColumnValueOfStruct(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1

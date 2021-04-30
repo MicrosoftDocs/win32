@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_ENCRYPTIONWHENACCESSIBLEGUIDCOUNT query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_ENCRYPTIONWHENACCESSIBLEGUIDCOUNT query.
 ms.assetid: 168f9455-8dc6-473a-ad2c-e51996b63650
 title: D3DAUTHENTICATEDCHANNEL_QUERYEVICTIONENCRYPTIONGUIDCOUNT_OUTPUT structure (D3d9types.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ The number of encryption GUIDs.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

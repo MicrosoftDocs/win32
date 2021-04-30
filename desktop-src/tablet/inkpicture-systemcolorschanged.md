@@ -1,5 +1,5 @@
 ---
-Description: Occurs after the system colors change.
+description: Occurs after the system colors change.
 ms.assetid: 5d77c24a-dc01-4ea0-b142-e83b1023acc1
 title: InkPicture.SystemColorsChanged event (Msinkaut.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

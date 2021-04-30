@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogTornWriteDuringHardRecoveryException methods"
 title: EsentLogTornWriteDuringHardRecoveryException methods
 TOCTitle: EsentLogTornWriteDuringHardRecoveryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRecoveryException

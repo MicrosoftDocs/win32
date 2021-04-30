@@ -1,5 +1,5 @@
 ---
-Description: The origin of the BoundingFrustum.
+description: The origin of the BoundingFrustum.
 ms.assetid: 9cfe75ae-cd9c-41c6-ae05-990d6b27fb04
 title: BoundingFrustum.Origin (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXCollision.h</dt> </dl> |
 

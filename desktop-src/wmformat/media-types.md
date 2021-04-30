@@ -1,6 +1,6 @@
 ---
-title: Media Types
-description: Media Types
+title: Media Types for Windows Media Format SDK
+description: Learn about media types that can be used by the Windows Media Format SDK. Media types are GUID values assigned to constants in the SDK.
 ms.assetid: 00dcbb20-09ed-44c5-992c-20f3d17ad47c
 keywords:
 - Windows Media Format SDK,media types
@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Media Types
+# Media Types for Windows Media Format SDK
 
 Media types identify the different types of media that can be used by the Windows Media Format SDK. All media types are GUID values that have been assigned to constants in the SDK. The GUID values represented by the constants listed in this section are listed in the [Media Type Identifiers](media-type-identifiers.md) section of this reference.
 

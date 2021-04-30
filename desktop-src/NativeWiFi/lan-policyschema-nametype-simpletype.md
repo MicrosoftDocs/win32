@@ -1,5 +1,5 @@
 ---
-Description: Defines a string type for either the name or the description of a wired LAN policy profile.
+description: Defines a string type for either the name or the description of a wired LAN policy profile.
 ms.assetid: 89de1e7a-618d-4501-a134-c7a37f9c552d
 title: nameType simple type (LAN_policy)
 ms.topic: reference
@@ -37,7 +37,7 @@ The nameType simple type defines a string type for either the name or the descri
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

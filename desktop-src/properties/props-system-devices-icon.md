@@ -1,5 +1,5 @@
 ---
-Description: Icon Path.
+description: Icon Path.
 ms.assetid: cf163996-2733-4be5-9455-26376575a0b2
 title: System.Devices.Icon
 ms.topic: article

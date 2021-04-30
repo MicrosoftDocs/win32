@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSnapIdException properties"
 title: EsentOSSnapshotInvalidSnapIdException properties
 TOCTitle: EsentOSSnapshotInvalidSnapIdException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException

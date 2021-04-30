@@ -1,5 +1,5 @@
 ---
-Description: The Format method retrieves a pointer to the format block.
+description: The Format method retrieves a pointer to the format block.
 ms.assetid: 368055cd-4592-4144-aef9-d7e830fc4de1
 title: CMediaType.Format method (Mtype.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the **pbFormat** member.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

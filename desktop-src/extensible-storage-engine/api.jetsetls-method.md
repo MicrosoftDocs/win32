@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetLS method"
 title: Api.JetSetLS method 
 TOCTitle: 'JetSetLS method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetLS(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_LS,Microsoft.Isam.Esent.Interop.LsGrbit)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the members of the NMCOLUMNVARIANT structure.
+description: Specifies the members of the NMCOLUMNVARIANT structure.
 ms.assetid: 29363341-f4d3-43c3-a523-45402174cb74
 title: NMCOLUMNTYPE enumeration (Netmon.h)
 ms.topic: reference
@@ -165,7 +165,7 @@ Pointer to a string.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Properties are extracted from items using registered property handlers, or using filters registered for specific file types. A filter handler (an implementation of the IFilter interface) can interpret the contents of a file type in any number of ways.
+description: Properties are extracted from items using registered property handlers, or using filters registered for specific file types. A filter handler (an implementation of the IFilter interface) can interpret the contents of a file type in any number of ways.
 ms.assetid: 6701d151-c36f-43e5-929b-9831c5ce5823
 title: Returning Properties from a Filter Handler
 ms.topic: article

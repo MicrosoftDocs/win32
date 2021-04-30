@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.RetrieveColumnSize method (JET_SESID, JET_TABLEID, JET_COLUMNID)"
 title: Api.RetrieveColumnSize method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 TOCTitle: RetrieveColumnSize method (JET_SESID, JET_TABLEID, JET_COLUMNID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnSize(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_COLUMNID)

@@ -1,5 +1,5 @@
 ---
-Description: CLSID of a custom video mixer for the enhanced video renderer (EVR) media sink.
+description: CLSID of a custom video mixer for the enhanced video renderer (EVR) media sink.
 ms.assetid: a3586e6f-a2a2-4932-8b43-a076f64c5958
 title: MF_ACTIVATE_CUSTOM_VIDEO_MIXER_CLSID attribute (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

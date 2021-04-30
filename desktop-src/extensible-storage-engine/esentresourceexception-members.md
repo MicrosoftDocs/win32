@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException members"
 title: EsentResourceException members
 TOCTitle: EsentResourceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentResourceException

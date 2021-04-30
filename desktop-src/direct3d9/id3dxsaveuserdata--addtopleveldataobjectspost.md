@@ -1,5 +1,5 @@
 ---
-Description: Add a top level object after the frame hierarchy.
+description: Add a top level object after the frame hierarchy.
 ms.assetid: 43b3cdb3-c6f0-4028-bf86-43d643fba73d
 title: ID3DXSaveUserData::AddTopLevelDataObjectsPost method (D3dx9anim.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The return values of this method are implemented by an application programmer. I
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

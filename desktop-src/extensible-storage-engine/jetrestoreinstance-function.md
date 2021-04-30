@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRestoreInstance Function"
 title: JetRestoreInstance Function
 TOCTitle: JetRestoreInstance Function
 ms:assetid: 7ba2b6ee-96f5-44c5-9842-5e58580f60f1

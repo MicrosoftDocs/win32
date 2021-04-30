@@ -1,5 +1,5 @@
 ---
-Description: The Type method retrieves the major type.
+description: The Type method retrieves the major type.
 ms.assetid: 9c3badb2-2d9f-44d8-a376-0918104ee431
 title: CMediaType.Type method (Mtype.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns a pointer to the **majortype** member.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

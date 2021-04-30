@@ -22,7 +22,7 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-NC-Replica-Locations              |
 | Ldap-Display-Name | msDS-NC-Replica-Locations               |
@@ -48,7 +48,7 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 1044                                       |
 | MAPI-Id                | \-                                         |
@@ -69,7 +69,7 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 1044                                       |
 | MAPI-Id                | \-                                         |
@@ -90,7 +90,7 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 1044                                       |
 | MAPI-Id                | \-                                         |
@@ -111,7 +111,7 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 1044                                       |
 | MAPI-Id                | \-                                         |
@@ -132,7 +132,7 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 1044                                       |
 | MAPI-Id                | \-                                         |
@@ -153,7 +153,7 @@ A list of servers that are the replica set for the corresponding Non-Domain Nami
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | 1044                                       |
 | MAPI-Id                | \-                                         |

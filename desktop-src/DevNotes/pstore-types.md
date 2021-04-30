@@ -1,5 +1,5 @@
 ---
-Description: The data types for Protected Storage methods.
+description: The data types for Protected Storage methods.
 ms.assetid: 4d494326-6d0f-4a12-83a2-3c3dd3ca9c1b
 title: PStore Types (Pstore.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Defines the key for the stored item.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl> |
 

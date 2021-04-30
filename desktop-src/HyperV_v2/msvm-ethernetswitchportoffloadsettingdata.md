@@ -1,5 +1,5 @@
 ---
-Description: Represents the port offload feature setting data.
+description: Represents the port offload feature setting data.
 ms.assetid: 7b8d8bee-86f3-4c55-bb32-987bf840d995
 title: Msvm_EthernetSwitchPortOffloadSettingData class
 ms.topic: reference
@@ -496,7 +496,7 @@ The vmbus channel affinity policy to use when VRSS is enabled.The default is str
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

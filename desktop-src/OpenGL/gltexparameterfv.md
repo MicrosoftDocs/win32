@@ -1,6 +1,6 @@
 ---
 title: glTexParameterfv function (Gl.h)
-description: Sets texture parameters.
+description: Sets texture parameters. | glTexParameterfv function (Gl.h)
 ms.assetid: 29aa2823-5c73-48f1-891f-018dd7a93323
 keywords:
 - glTexParameterfv function OpenGL
@@ -134,7 +134,7 @@ Suppose that texturing is enabled (by calling [**glEnable**](glenable.md) with a
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

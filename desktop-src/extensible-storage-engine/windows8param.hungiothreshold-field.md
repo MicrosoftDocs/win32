@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Param.HungIOThreshold field"
 title: Windows8Param.HungIOThreshold field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: HungIOThreshold field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.HungIOThreshold

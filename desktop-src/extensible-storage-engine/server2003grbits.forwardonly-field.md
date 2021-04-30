@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Grbits.ForwardOnly field"
 title: Server2003Grbits.ForwardOnly field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: ForwardOnly field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits.ForwardOnly

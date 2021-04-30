@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CreateDatabaseGrbit enumeration"
 title: CreateDatabaseGrbit enumeration
 TOCTitle: CreateDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CreateDatabaseGrbit

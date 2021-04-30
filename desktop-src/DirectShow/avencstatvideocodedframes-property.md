@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of video frames that were encoded.
+description: Returns the number of video frames that were encoded.
 ms.assetid: ade9fe69-b3dd-44aa-856b-75d4a7e4c680
 title: AVEncStatVideoCodedFrames property (Codecapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The value of this property is equal to the [**AVEncStatVideoTotalFrames**](avenc
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

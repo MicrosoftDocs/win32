@@ -1,5 +1,5 @@
 ---
-Description: The WBEMTime class constructor facilitates conversions between various Windows and ANSI C run-time time formats.
+description: The WBEMTime class constructor facilitates conversions between various Windows and ANSI C run-time time formats.
 audience: developer
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
 ms.tgt_platform: multiple
@@ -33,7 +33,7 @@ The **WBEMTime** class constructor facilitates conversions between various Windo
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |

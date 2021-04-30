@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.DisplayBusinessPhoneNumbers
 ms.assetid: e8b1ce0a-a6af-4035-b8f5-4b16cc0b47ae
 title: System.Contact.DisplayBusinessPhoneNumbers
 ms.topic: article

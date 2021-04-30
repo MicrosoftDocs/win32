@@ -1,5 +1,5 @@
 ---
-Description: Calculate per-triangle IMT's from from per-vertex data. This function allows you to calculate the IMT based off of any value in a mesh (color, normal, etc).
+description: Calculate per-triangle IMT's from from per-vertex data. This function allows you to calculate the IMT based off of any value in a mesh (color, normal, etc).
 ms.assetid: a417a8ad-77b1-49ae-aea0-6a32a154499f
 title: D3DXComputeIMTFromPerVertexSignal function (D3DX9Mesh.h)
 ms.topic: reference
@@ -124,7 +124,7 @@ If the function succeeds, the return value is D3D\_OK; otherwise, the value is D
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

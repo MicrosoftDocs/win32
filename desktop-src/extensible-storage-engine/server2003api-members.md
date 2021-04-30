@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server2003Api members"
 title: Server2003Api members (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Api members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api

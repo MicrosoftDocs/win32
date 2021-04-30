@@ -1,5 +1,5 @@
 ---
-Description: Msival2.exe is a command line utility that can run a suite of Internal Consistency Evaluators - ICEs.
+description: Msival2.exe is a command line utility that can run a suite of Internal Consistency Evaluators - ICEs.
 ms.assetid: c48f4584-732a-468d-a651-2c09ce3c9ddd
 title: Msival2.exe
 ms.topic: article

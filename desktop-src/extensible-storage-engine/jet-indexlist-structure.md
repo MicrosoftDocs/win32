@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST Structure"
 title: JET_INDEXLIST Structure
 TOCTitle: JET_INDEXLIST Structure
 ms:assetid: 0c092b48-e583-49f3-8f5e-1428a84d9265

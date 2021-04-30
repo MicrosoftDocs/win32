@@ -1,5 +1,5 @@
 ---
-Description: Retrieves extended error information regarding methods that deal with multiple objects, such as Populate and SaveChanges on the COMAdminCatalogCollection object, and methods to install, import, or export applications or components on the COMAdminCatalog object.
+description: Retrieves extended error information regarding methods that deal with multiple objects, such as Populate and SaveChanges on the COMAdminCatalogCollection object, and methods to install, import, or export applications or components on the COMAdminCatalog object.
 ms.assetid: cf612fc4-55dd-4706-8c41-2654ca922b9a
 title: ErrorInfo collection
 ms.topic: reference
@@ -50,7 +50,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                        |
+| Entry | Value |
 |----------------|----------------------------------------|
 | Description    | The error code for the object or file. |
 | Access         | ReadOnly                               |
@@ -66,7 +66,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property value for the object that has an error. For example, if a [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges) call for a collection fails on a particular object in the collection, the **Key** property value for that object is reported as the MajorRef value. Use this property to look at the item that fails to update or to find the component or DLL that fails to install. |
 | Access         | ReadOnly                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -82,7 +82,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                   |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A precise specification of the item that has an error, such as a property name. If multiple errors occur or in contexts in which this doesn't apply, MinorRef is <Invalid>. |
 | Access         | ReadOnly                                                                                                                                                                          |
@@ -98,7 +98,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                          |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the object or file that has an error. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                                                                 |

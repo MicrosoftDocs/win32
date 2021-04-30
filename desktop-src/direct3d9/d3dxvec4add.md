@@ -1,5 +1,5 @@
 ---
-Description: Adds two 4D vectors.
+description: Adds two 4D vectors.
 ms.assetid: da807dc0-6a31-4315-a32d-a42062c22199
 title: D3DXVec4Add function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

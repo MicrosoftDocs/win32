@@ -1,5 +1,5 @@
 ---
-Description: The GetDuration2 method retrieves the duration of the timeline. This method is equivalent to IAMTimeline::GetDuration, but takes a parameter of type double.
+description: The GetDuration2 method retrieves the duration of the timeline. This method is equivalent to IAMTimeline::GetDuration, but takes a parameter of type double.
 ms.assetid: 49f5eed3-7fab-4f08-b65c-300349b197cb
 title: IAMTimeline::GetDuration2 method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

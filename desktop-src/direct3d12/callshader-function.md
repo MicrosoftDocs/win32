@@ -1,5 +1,5 @@
 ---
-Description: Invokes another shader from within a shader.
+description: Invokes another shader from within a shader.
 ms.assetid: 
 title: CallShader function
 ms.date: 05/31/2018

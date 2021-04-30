@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue.ValueAsObject property"
 title: StringColumnValue.ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.StringColumnValue.ValueAsObject

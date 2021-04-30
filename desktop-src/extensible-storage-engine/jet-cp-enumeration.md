@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CP enumeration"
 title: JET_CP enumeration
 TOCTitle: JET_CP enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CP

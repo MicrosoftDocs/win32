@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDatabaseSpaceException constructor"
 title: EsentOutOfDatabaseSpaceException constructor 
 TOCTitle: 'EsentOutOfDatabaseSpaceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException.#ctor

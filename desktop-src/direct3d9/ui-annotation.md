@@ -1,5 +1,5 @@
 ---
-Description: Use this annotation to associate an effect parameter with a UI control in the host environment. This will allow a user to interactively control an effect parameter through the host application.
+description: Use this annotation to associate an effect parameter with a UI control in the host environment. This will allow a user to interactively control an effect parameter through the host application.
 ms.assetid: 6d0b2450-7d90-4a24-b710-faed26969876
 title: UI Annotation
 ms.topic: article
@@ -32,9 +32,8 @@ is one of the following:
 
 
 
-|             |                                                                                                                                                                                 |                                                                                                    |                                                                                                              |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | ControlType | Description                                                                                                                                                                     | Internal Data Type                                                                                 | Control Property Annotations                                                                                 |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | None        | No control should be shown. Note that a control is visible if [SasUiVisible](#sasuivisible) is True and the control type is any type other than None.                           | n/a                                                                                                | n/a                                                                                                          |
 | Any         | This implies that no special control is requested. The control presented is the result of application-defined behavior.                                                         | n/a                                                                                                | n/a                                                                                                          |
 | ColorPicker | Represent a color value as a color swatch. The value is packed into the XYZ components of the associated vector. The W component of the associated vector is always set to one. | float*N* where *N* is 1 to 4 inclusive.                                                            | [SasUiEnum](#sasuienum)                                                                                      |

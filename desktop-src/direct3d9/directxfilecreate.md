@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of a DirectXFile object. Deprecated.
+description: Creates an instance of a DirectXFile object. Deprecated.
 ms.assetid: c920d480-2557-491d-87ea-7eea1f470498
 title: DirectXFileCreate function (DXFile.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ After using this function, use [**RegisterTemplates**](idirectxfile--registertem
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

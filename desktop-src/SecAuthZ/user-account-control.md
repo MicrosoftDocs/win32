@@ -1,5 +1,5 @@
 ---
-Description: Enables users to perform common tasks as nonadministrators, called standard users, and as administrators without having to switch users, log off, or use Run As.
+description: Enables users to perform common tasks as nonadministrators, called standard users, and as administrators without having to switch users, log off, or use Run As.
 ms.assetid: 8a7ba726-c2a6-4b7b-b664-3c6fcfbfb221
 title: User Account Control (Authorization)
 ms.topic: article

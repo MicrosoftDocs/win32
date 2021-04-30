@@ -1,5 +1,5 @@
 ---
-Description: Handle to the thread.
+description: Handle to the thread.
 ms.assetid: 93d1182a-58f0-4570-8568-fe0fded762cb
 title: CAMThread::m_hThread member (Wxutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This variable is initialized as **NULL**. The [**CAMThread::Create**](camthread-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

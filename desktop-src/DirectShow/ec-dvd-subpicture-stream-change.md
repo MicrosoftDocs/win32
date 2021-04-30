@@ -1,5 +1,5 @@
 ---
-Description: Signals that the current subpicture stream number changed for the main title.
+description: Signals that the current subpicture stream number changed for the main title.
 ms.assetid: b6da3201-55df-47dc-ad4f-5cd2e78073ee
 title: EC_DVD_SUBPICTURE_STREAM_CHANGE (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in all domains.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

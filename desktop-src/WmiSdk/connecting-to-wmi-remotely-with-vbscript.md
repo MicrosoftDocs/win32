@@ -1,5 +1,5 @@
 ---
-Description: You can create a remote connection to WMI with VBScript by creating a connection object. This object contains the name of the computer, the WMI namespace you want to connect to, as well as any relevant credentials and authentication levels.
+description: You can create a remote connection to WMI with VBScript by creating a connection object. This object contains the name of the computer, the WMI namespace you want to connect to, as well as any relevant credentials and authentication levels.
 ms.assetid: b2ad262b-148d-47cc-8be7-6df99245aa7f
 ms.tgt_platform: multiple
 title: Connecting to WMI Remotely with VBScript

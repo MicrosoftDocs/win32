@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset.
+description: Reset method of the Msvm_ShutdownComponent class - Requests a reset.
 ms.assetid: cdd14090-4ea1-4547-b8a5-fd40f7e494f5
 title: Reset method of the Msvm_ShutdownComponent class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

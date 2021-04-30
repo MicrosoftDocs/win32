@@ -1,5 +1,5 @@
 ---
-Description: Represents the port offload feature status data.
+description: Represents the port offload feature status data.
 ms.assetid: 1117b9e4-cff7-4c9e-bf5e-74499297e84e
 title: Msvm_EthernetSwitchPortOffloadData class
 ms.topic: reference
@@ -527,7 +527,7 @@ Indicates how Vmbus channels are affinitized to host processors.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

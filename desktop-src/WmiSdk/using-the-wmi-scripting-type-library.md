@@ -1,5 +1,5 @@
 ---
-Description: You can use the WMI scripting type library to call WMI Scripting API methods from Microsoft Visual Studio and in Windows Script Host WSF files.
+description: You can use the WMI scripting type library to call WMI Scripting API methods from Microsoft Visual Studio and in Windows Script Host WSF files.
 ms.assetid: 6ef4e210-0733-4f2a-89c1-1a7aca5a19d9
 ms.tgt_platform: multiple
 title: Using the WMI Scripting Type Library

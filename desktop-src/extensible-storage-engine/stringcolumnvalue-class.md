@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue class"
 title: StringColumnValue class
 TOCTitle: StringColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.StringColumnValue

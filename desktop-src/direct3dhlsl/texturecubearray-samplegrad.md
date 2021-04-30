@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray SampleGrad methods
-description: Samples a texture using a gradient to influence the way the sample location is calculated.
+description: Samples a texture using a gradient to influence the way the sample location is calculated. | TextureCubeArray::TextureCubeArray SampleGrad methods
 ms.assetid: AA9F7778-F719-460F-86FC-652E1D7CD156
 keywords:
 - SampleGrad methods HLSL

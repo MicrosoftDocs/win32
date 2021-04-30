@@ -1,6 +1,6 @@
 ---
 title: glDisable function (Gl.h)
-description: The glEnable and glDisable functions enable or disable OpenGL capabilities.
+description: The glEnable and glDisable functions enable or disable OpenGL capabilities. | glDisable function (Gl.h)
 ms.assetid: 094f730e-5e2b-485e-8d9d-fee2902d3d5f
 keywords:
 - glDisable function OpenGL
@@ -129,7 +129,7 @@ Both [**glEnable**](glenable.md) and **glDisable** take a single argument, *cap*
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,7 +1,7 @@
 ---
-Description: Retrieves the security identifier and flags used to protect a key.
+description: Retrieves the security identifier and flags used to protect a key.
 ms.assetid: 5EF97F44-78FF-4FBF-9142-F2DD0A849057
-title: GetKeyProtectorCertificate method of the Win32_EncryptableVolume class
+title: GetKeyProtectorAdSidInformation method of the Win32_EncryptableVolume class
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -98,7 +98,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 Enterprise, Windows 8 Pro \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

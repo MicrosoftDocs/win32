@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyColumnsException constructor"
 title: EsentTooManyColumnsException constructor 
 TOCTitle: 'EsentTooManyColumnsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyColumnsException.#ctor

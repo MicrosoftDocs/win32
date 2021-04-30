@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTestInjectionNotSupportedException members"
 title: EsentTestInjectionNotSupportedException members
 TOCTitle: EsentTestInjectionNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException

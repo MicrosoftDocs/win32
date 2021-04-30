@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.ContentType
 ms.assetid: e12123c2-bcab-41a0-85dd-a4a46f64aed9
 title: System.ContentType
 ms.topic: article

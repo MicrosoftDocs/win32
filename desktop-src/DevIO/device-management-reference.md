@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used in device management:'
+description: 'The following elements are used in device management:'
 ms.assetid: 0acfbf59-1a7f-4a90-a961-559d27a0ee57
 title: Device Management Reference
 ms.topic: article

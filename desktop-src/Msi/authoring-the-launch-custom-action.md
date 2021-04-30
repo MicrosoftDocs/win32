@@ -1,5 +1,5 @@
 ---
-Description: The source code for a sample custom action named Launch, which meets the sample specifications, is provided by the Windows Installer SDK as the file Tutorial.cpp.
+description: The source code for a sample custom action named Launch, which meets the sample specifications, is provided by the Windows Installer SDK as the file Tutorial.cpp.
 ms.assetid: 6f6d45b0-759d-4d28-a542-5cdbb589448f
 title: Authoring the Launch Custom Action
 ms.topic: article

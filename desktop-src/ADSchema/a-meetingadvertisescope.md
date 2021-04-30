@@ -21,7 +21,7 @@ Indicates whether an entry should be advertised outside a corporate gateway or p
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | meetingAdvertiseScope                       |
 | Ldap-Display-Name | meetingAdvertiseScope                       |
@@ -47,7 +47,7 @@ Indicates whether an entry should be advertised outside a corporate gateway or p
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -68,7 +68,7 @@ Indicates whether an entry should be advertised outside a corporate gateway or p
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -89,7 +89,7 @@ Indicates whether an entry should be advertised outside a corporate gateway or p
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -110,7 +110,7 @@ Indicates whether an entry should be advertised outside a corporate gateway or p
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -131,7 +131,7 @@ Indicates whether an entry should be advertised outside a corporate gateway or p
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -152,7 +152,7 @@ Indicates whether an entry should be advertised outside a corporate gateway or p
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |

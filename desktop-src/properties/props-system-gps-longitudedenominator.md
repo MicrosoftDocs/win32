@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_GPS\_Longitude.
+description: The denominator of PKEY\_GPS\_Longitude.
 ms.assetid: 1eb4395b-2df7-42d1-bc34-83a8593916c2
 title: System.GPS.LongitudeDenominator
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempFileOpenErrorException members"
 title: EsentTempFileOpenErrorException members
 TOCTitle: EsentTempFileOpenErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException

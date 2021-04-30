@@ -1,5 +1,5 @@
 ---
-Description: The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPin::NotifyAllocator method.
+description: CTransInPlaceInputPin.NotifyAllocator method - The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPin::NotifyAllocator method.
 ms.assetid: adc1c5b6-99da-4140-b644-7b98f6b8bad4
 title: CTransInPlaceInputPin.NotifyAllocator method (Transip.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ The previous case has the following exception:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Returns a 4D vector that is made up of the largest components of two 4D vectors.
+description: Returns a 4D vector that is made up of the largest components of two 4D vectors.
 ms.assetid: a08ceba0-938c-42af-8f32-b1fd8c12d926
 title: D3DXVec4Maximize function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

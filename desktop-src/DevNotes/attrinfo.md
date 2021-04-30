@@ -1,5 +1,5 @@
 ---
-Description: Contains the attribute data for a file.
+description: Contains the attribute data for a file.
 ms.assetid: f23f801c-826c-4269-bf96-0e01430484f4
 title: ATTRINFO structure
 ms.topic: reference
@@ -89,7 +89,7 @@ A pointer to a string (if the tag type is **TAG\_TYPE\_STRINGREF**).
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for IPv4 TCP/IP connect and accept events. The following syntax is simplified from MOF code.
+description: This class is the event type class for IPv4 TCP/IP connect and accept events. The following syntax is simplified from MOF code.
 ms.assetid: a9b33ceb-7d50-4cd7-8224-0b2cf895b3b4
 title: TcpIp_TypeGroup2 class
 ms.topic: reference
@@ -315,7 +315,7 @@ Window Scale option in TCP header.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

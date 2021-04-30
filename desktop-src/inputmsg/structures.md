@@ -1,12 +1,12 @@
 ---
-title: Structures
+title: Structures (Pointer Input Messages and Notifications)
 description: The topics in this section provide the reference specifications for Pointer Input Messages and Notifications structures.
 ms.assetid: 2224DCD0-DAE1-4AC2-AB36-23D114801138
 ms.topic: article
 ms.date: 02/03/2020
 ---
 
-# Structures
+# Pointer Input Messages and Notifications structures
 
 The topics in this section provide the reference specifications for [Pointer Input Messages and Notifications](messages-and-notifications-portal.md) structures.
 

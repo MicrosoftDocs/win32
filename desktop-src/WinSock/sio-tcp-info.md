@@ -1,5 +1,5 @@
 ---
-Description: Control code retrieves the Transmission Control Protocol (TCP) statistics for a specified socket.
+description: Control code retrieves the Transmission Control Protocol (TCP) statistics for a specified socket.
 ms.assetid: AB5F25B6-D2D2-42D7-8189-06CAC4842C66
 title: SIO_TCP_INFO Control Code
 ms.topic: reference
@@ -62,8 +62,7 @@ Use **SIO\_TCP\_INFO** for this operation.
 ### lpvInBuffer
 
 A pointer to the input buffer.
-This parameter contains a pointer to a **DWORD** that specifies the version of the **SIO\_TCP\_INFO** control code that you are using.
-Currently, the only available version is 0.
+This parameter contains a pointer to a **DWORD** that specifies the version of the **SIO\_TCP\_INFO** control code that you are using. Specify 0 to use [TCP_INFO_v0](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0). Specify 1 to use [TCP_INFO_v1](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1), which povides more fields.
 
 ### cbInBuffer
 

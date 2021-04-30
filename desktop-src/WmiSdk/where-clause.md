@@ -1,5 +1,5 @@
 ---
-Description: Use the WHERE clause to narrow the scope of a data, event, or schema query.
+description: Use the WHERE clause to narrow the scope of a data, event, or schema query.
 ms.assetid: b275f8e0-773d-422c-be21-b427e7a1fb6b
 ms.tgt_platform: multiple
 title: WHERE Clause (WMI)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# WHERE Clause
+# WHERE Clause (WMI)
 
 Use the WHERE clause to narrow the scope of a data, event, or schema query. For more information, see [Querying with WQL](querying-with-wql.md). The WHERE clause is made up of a property or keyword, an operator, and a constant. All WHERE clauses must specify one of the predefined operators that are included in the Windows Management Instrumentation (WMI) Query Language (WQL). You can append the WHERE clause to the SELECT statement using one of the following forms:
 

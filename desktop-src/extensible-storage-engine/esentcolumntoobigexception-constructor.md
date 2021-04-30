@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnTooBigException constructor"
 title: EsentColumnTooBigException constructor 
 TOCTitle: 'EsentColumnTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnTooBigException.#ctor

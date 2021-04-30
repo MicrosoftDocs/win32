@@ -1,5 +1,5 @@
 ---
-Description: Removes the specified OID object from the collection.
+description: Removes the specified OID object from the collection.
 ms.assetid: c5eb6831-b195-4dc1-a6bd-d4245f9b0213
 title: OIDs.Remove method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # OIDs.Remove method
 
-\[The **Remove** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Remove** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Remove** method removes the specified [**OID**](oid.md) object from the collection.
 
@@ -51,7 +51,7 @@ This method does not return a value.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

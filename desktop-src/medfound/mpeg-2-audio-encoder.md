@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Media Foundation MPEG-2 audio encoder is a Media Foundation transform that encodes mono or stereo audio to MPEG-1 audio (ISO/IEC 11172-3) or MPEG-2 audio (ISO/IEC 13818-3).
+description: The Microsoft Media Foundation MPEG-2 audio encoder is a Media Foundation transform that encodes mono or stereo audio to MPEG-1 audio (ISO/IEC 11172-3) or MPEG-2 audio (ISO/IEC 13818-3).
 ms.assetid: EBEFED1F-D0B8-4C7E-B1FB-CDE3BDFD99AA
 title: MPEG-2 Audio Encoder
 ms.topic: reference
@@ -407,7 +407,7 @@ Input media type:
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | None supported<br/>                                                                 |

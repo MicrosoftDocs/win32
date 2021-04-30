@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetDatabaseInfo method (JET_SESID, JET_DBID, String, JET_DbInfo)"
 title: Api.JetGetDatabaseInfo method (JET_SESID, JET_DBID, String, JET_DbInfo)
 TOCTitle: JetGetDatabaseInfo method (JET_SESID, JET_DBID, String, JET_DbInfo)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetDatabaseInfo(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String@,Microsoft.Isam.Esent.Interop.JET_DbInfo)

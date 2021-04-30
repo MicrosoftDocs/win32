@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadVerifyFailureException properties"
 title: EsentReadVerifyFailureException properties
 TOCTitle: EsentReadVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentReadVerifyFailureException

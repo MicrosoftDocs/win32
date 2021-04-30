@@ -1,5 +1,5 @@
 ---
-Description: The file terminals can be used in two ways.
+description: The file terminals can be used in two ways.
 ms.assetid: 5a7d6aa7-0eb8-4652-af0b-74fbdb5a2c2f
 title: Using File Terminals
 ms.topic: article

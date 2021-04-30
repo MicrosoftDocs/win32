@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Maximum Settings Constants"
 title: Maximum Settings Constants
 TOCTitle: Maximum Settings Constants
 ms:assetid: 1111051f-55af-4c33-be38-6a3973c2c815

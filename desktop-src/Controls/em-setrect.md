@@ -1,6 +1,6 @@
 ---
 title: EM_SETRECT message (Winuser.h)
-description: Sets the formatting rectangle of a multiline edit control.
+description: EM_SETRECT message - Sets the formatting rectangle of a multiline edit control.
 ms.assetid: 4f576e94-3bd3-4416-a960-b7f22da963ea
 keywords:
 - EM_SETRECT message Windows Controls
@@ -64,7 +64,7 @@ If the edit control contains a border, the formatting rectangle is reduced by th
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

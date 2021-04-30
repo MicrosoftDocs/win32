@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoDatabasesConsistentException constructor"
 title: EsentRecoveredWithoutUndoDatabasesConsistentException constructor 
 TOCTitle: 'EsentRecoveredWithoutUndoDatabasesConsistentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException.#ctor

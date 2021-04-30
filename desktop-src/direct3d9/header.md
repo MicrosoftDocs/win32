@@ -1,5 +1,5 @@
 ---
-Description: The following definitions should be used when directly reading and writing the binary header.
+description: The following definitions should be used when directly reading and writing the binary header.
 ms.assetid: 19c36f94-8088-417d-867d-3a02912087dc
 title: Header
 ms.topic: article

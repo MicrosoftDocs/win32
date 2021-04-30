@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server2003Api methods"
 title: Server2003Api methods (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Api methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api

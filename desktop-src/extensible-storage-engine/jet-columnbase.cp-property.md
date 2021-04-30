@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE.cp property"
 title: JET_COLUMNBASE.cp property 
 TOCTitle: 'cp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.cp

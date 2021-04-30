@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.pSeqSpacehints property"
 title: JET_TABLECREATE.pSeqSpacehints property 
 TOCTitle: 'pSeqSpacehints property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.pSeqSpacehints

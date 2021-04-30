@@ -1,5 +1,5 @@
 ---
-Description: This section provides information that enables you to develop graphical user interfaces for your apps.
+description: This section provides information that enables you to develop graphical user interfaces for your apps.
 ms.assetid: 3aa1d3b0-34e5-40de-bab0-e90926eaae04
 title: Desktop App User Interface
 ms.topic: reference

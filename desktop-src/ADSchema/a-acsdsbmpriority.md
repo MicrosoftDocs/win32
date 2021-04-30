@@ -22,7 +22,7 @@ This attributes contains the priority for this Subnet Bandwidth Manager (SBM). W
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ACS-DSBM-Priority                    |
 | Ldap-Display-Name | aCSDSBMPriority                      |
@@ -48,7 +48,7 @@ This attributes contains the priority for this Subnet Bandwidth Manager (SBM). W
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -69,7 +69,7 @@ This attributes contains the priority for this Subnet Bandwidth Manager (SBM). W
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -90,7 +90,7 @@ This attributes contains the priority for this Subnet Bandwidth Manager (SBM). W
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -111,7 +111,7 @@ This attributes contains the priority for this Subnet Bandwidth Manager (SBM). W
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -132,7 +132,7 @@ This attributes contains the priority for this Subnet Bandwidth Manager (SBM). W
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -153,7 +153,7 @@ This attributes contains the priority for this Subnet Bandwidth Manager (SBM). W
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

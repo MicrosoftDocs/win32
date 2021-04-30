@@ -1,5 +1,5 @@
 ---
-Description: The Policy object is a container object.
+description: The Policy object is a container object.
 ms.assetid: ba8c4f61-8cbc-4a36-8336-8a84d84b46e4
 title: The Policy Object Type
 ms.topic: article

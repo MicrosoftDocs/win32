@@ -22,7 +22,7 @@ Terminal Services session Maximum Idle Time is the maximum amount of time, in mi
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-TS-Max-Idle-Time                  |
 | Ldap-Display-Name | msTSMaxIdleTime                      |
@@ -45,7 +45,7 @@ Terminal Services session Maximum Idle Time is the maximum amount of time, in mi
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services session Maximum Idle Time is the maximum amount of time, in mi
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services session Maximum Idle Time is the maximum amount of time, in mi
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

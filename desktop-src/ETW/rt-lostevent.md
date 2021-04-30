@@ -1,5 +1,5 @@
 ---
-Description: This event type class is used to indicate that events were lost in a real-time session. The following syntax is simplified from MOF code.
+description: This event type class is used to indicate that events were lost in a real-time session. The following syntax is simplified from MOF code.
 ms.assetid: 19c747c0-2d9f-49c5-81e4-06a870371bac
 title: RT_LostEvent class
 ms.topic: reference
@@ -45,7 +45,7 @@ Loosing events depends on the frequency with which the events are logged and how
 
 
 
-|                                     |                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                      |

@@ -22,7 +22,7 @@ An attribute used to define whether or not the DNS zone is signed.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-Is-Signed                     |
 | Ldap-Display-Name | msDNS-IsSigned                       |
@@ -43,7 +43,7 @@ An attribute used to define whether or not the DNS zone is signed.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

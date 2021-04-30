@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingPreviousLogFileException members"
 title: EsentMissingPreviousLogFileException members
 TOCTitle: EsentMissingPreviousLogFileException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingPreviousLogFileException

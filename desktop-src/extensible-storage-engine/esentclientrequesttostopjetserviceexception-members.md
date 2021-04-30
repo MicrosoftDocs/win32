@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentClientRequestToStopJetServiceException members"
 title: EsentClientRequestToStopJetServiceException members
 TOCTitle: EsentClientRequestToStopJetServiceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentClientRequestToStopJetServiceException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileFullException methods"
 title: EsentSLVStreamingFileFullException methods
 TOCTitle: EsentSLVStreamingFileFullException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException

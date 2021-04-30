@@ -1,5 +1,5 @@
 ---
-Description: Specifies the width and height of the encoded video, if the video is cropped.
+description: Specifies the width and height of the encoded video, if the video is cropped.
 ms.assetid: d6217250-63ff-4dff-a357-ff4aaa764695
 title: AVEncVideoEncodeDimension property (Codecapi.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ For UVC 1.5 camera encoders, [AVEncVideoEncodeOffsetOrigin](avencvideoencodeoffs
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

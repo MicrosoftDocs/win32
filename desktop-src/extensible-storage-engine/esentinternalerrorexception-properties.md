@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInternalErrorException properties"
 title: EsentInternalErrorException properties
 TOCTitle: EsentInternalErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInternalErrorException

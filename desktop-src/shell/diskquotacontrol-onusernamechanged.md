@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the name information for a DIDiskQuotaUser object has been resolved.
+description: Occurs when the name information for a DIDiskQuotaUser object has been resolved.
 ms.assetid: df32cb17-ad90-4535-a36b-60c5b4e9999f
 title: OnUserNameChanged function (Dskquota.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ When a client [**enumerates users**](didiskquotauser-object.md), or calls the [*
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

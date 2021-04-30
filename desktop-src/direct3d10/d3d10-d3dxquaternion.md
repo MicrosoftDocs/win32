@@ -1,5 +1,5 @@
 ---
-Description: Describes a quaternion.
+description: D3DXQUATERNION structure (D3DX10Math.h) - Describes a quaternion.
 ms.assetid: e6cb45b2-3132-4315-b02d-a3dfc444f8cc
 title: D3DXQUATERNION structure (D3DX10Math.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXQUATERNION structure
+# D3DXQUATERNION structure (D3DX10Math.h)
 
 Describes a quaternion.
 
@@ -99,7 +99,7 @@ q.w = cos(theta/2)
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

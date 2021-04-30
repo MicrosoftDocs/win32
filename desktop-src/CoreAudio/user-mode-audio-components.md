@@ -1,5 +1,5 @@
 ---
-Description: User-Mode Audio Components
+description: User-Mode Audio Components
 ms.assetid: b240b629-5bb6-4b07-95be-8ca5a14a3567
 title: User-Mode Audio Components
 ms.topic: article

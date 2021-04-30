@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateMustVersionException methods"
 title: EsentUpdateMustVersionException methods
 TOCTitle: EsentUpdateMustVersionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUpdateMustVersionException

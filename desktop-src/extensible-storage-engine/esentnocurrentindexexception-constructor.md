@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentIndexException constructor"
 title: EsentNoCurrentIndexException constructor 
 TOCTitle: 'EsentNoCurrentIndexException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException.#ctor

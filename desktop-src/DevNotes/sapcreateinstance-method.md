@@ -1,5 +1,5 @@
 ---
-Description: Creates a communication channel with the secure audio path driver.
+description: Creates a communication channel with the secure audio path driver.
 ms.assetid: D75F2C7F-AFE6-42AF-A8A2-ED7959B14123
 title: SapCreateInstance Method
 ms.topic: reference
@@ -31,7 +31,7 @@ Pointer to a **MSSAPDLLObject**.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustBeSeparateLongValueException properties"
 title: EsentMustBeSeparateLongValueException properties
 TOCTitle: EsentMustBeSeparateLongValueException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMustBeSeparateLongValueException

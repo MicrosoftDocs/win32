@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext)"
 title: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentInvalidColumnException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

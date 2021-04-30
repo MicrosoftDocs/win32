@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileNotCopiedException class"
 title: EsentLogFileNotCopiedException class
 TOCTitle: EsentLogFileNotCopiedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException

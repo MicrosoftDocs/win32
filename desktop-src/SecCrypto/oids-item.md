@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an OID object from the collection. This is the default property.
+description: Retrieves an OID object from the collection. This is the default property.
 ms.assetid: af0de567-e520-411d-850d-fbdbcb2ace69
 title: OIDs.Item property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # OIDs.Item property
 
-\[The **Item** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Item** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Item** property retrieves an [**OID**](oid.md) object from the collection. This is the default property.
 
@@ -40,7 +40,7 @@ The [**OID**](oid.md) object at the specified index, or the **OID** object with 
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -22,7 +22,7 @@ The name of a property page used to extend the UI of a directory object.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Extension-Name                              |
 | Ldap-Display-Name | extensionName                               |
@@ -48,7 +48,7 @@ The name of a property page used to extend the UI of a directory object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80A9                          |
@@ -69,7 +69,7 @@ The name of a property page used to extend the UI of a directory object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80A9                          |
@@ -90,7 +90,7 @@ The name of a property page used to extend the UI of a directory object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80A9                          |
@@ -111,7 +111,7 @@ The name of a property page used to extend the UI of a directory object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80A9                          |
@@ -132,7 +132,7 @@ The name of a property page used to extend the UI of a directory object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80A9                          |
@@ -153,7 +153,7 @@ The name of a property page used to extend the UI of a directory object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80A9                          |

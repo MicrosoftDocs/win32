@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a handle to the handshake hash that is used for client authentication.
+description: Retrieves a handle to the handshake hash that is used for client authentication.
 ms.assetid: 55007ce0-4bf1-4605-9b34-2931935762aa
 title: SslCreateClientAuthHash function (Sslprovider.h)
 ms.topic: reference
@@ -111,7 +111,7 @@ The **SslCreateClientAuthHash** function is called for [*Transport Layer Securit
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |

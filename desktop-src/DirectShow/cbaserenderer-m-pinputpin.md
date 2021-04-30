@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the filter's input pin.
+description: Pointer to the filter's input pin.
 ms.assetid: 405edb7d-7682-4cc0-b862-6ef5c44a26ab
 title: CBaseRenderer::m_pInputPin member (Renbase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CRendererInputPin *m_pInputPin;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

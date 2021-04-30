@@ -1,5 +1,5 @@
 ---
-Description: Specifies the start time for presentations that are queued after the first presentation.
+description: Specifies the start time for presentations that are queued after the first presentation.
 ms.assetid: 087f5d61-b3e6-4fdf-98e6-b018de7b237f
 title: MF_TOPOLOGY_START_TIME_ON_PRESENTATION_SWITCH attribute (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

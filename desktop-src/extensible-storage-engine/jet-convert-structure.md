@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONVERT Structure"
 title: JET_CONVERT Structure
 TOCTitle: JET_CONVERT Structure
 ms:assetid: 33a0ff95-e9af-44c0-bf80-03d785771d5e

@@ -1,5 +1,5 @@
 ---
-Description: Describes a namespace.
+description: Describes a namespace.
 ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: nameSpace element
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # nameSpace element
 
-Describes a namespace. This namespace may be used for code generation or for handling <wsdl:import> directives.
+Describes a namespace. This namespace may be used for code generation or for handling \<wsdl:import> directives.
 
 ## Usage
 
@@ -81,7 +81,7 @@ The following XML shows a nameSpace element (with children omitted for brevity).
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

@@ -1,5 +1,5 @@
 ---
-Description: The following topics describe the COM reference pages for the Windows Machine Learning SDK.
+description: The following topics describe the COM reference pages for the Windows Machine Learning SDK.
 ms.assetid: 15742C53-D5F8-48BA-9E93-9646D9AE2749
 title: Windows Machine Learning Reference
 ms.topic: article

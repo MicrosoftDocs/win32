@@ -1,5 +1,5 @@
 ---
-Description: The BindImage action binds each executable or DLL that must be bound to the DLLs imported by it.
+description: The BindImage action binds each executable or DLL that must be bound to the DLLs imported by it.
 ms.assetid: bf90acc0-4e90-4180-9df7-268b63a66538
 title: BindImage Action
 ms.topic: article

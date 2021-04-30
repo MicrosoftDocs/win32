@@ -56,7 +56,7 @@ This message is sent only when style [**HDS\_OVERFLOW**](header-control-styles.m
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

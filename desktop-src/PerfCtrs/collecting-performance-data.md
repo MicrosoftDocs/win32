@@ -1,5 +1,5 @@
 ---
-Description: After creating a query and adding counters to it, call the PdhCollectQueryData function to retrieve the current raw data for all counters in the query.
+description: After creating a query and adding counters to it, call the PdhCollectQueryData function to retrieve the current raw data for all counters in the query.
 ms.assetid: 2534d387-a280-4716-9a9d-3e42f40e2f92
 title: Collecting Performance Data
 ms.topic: article

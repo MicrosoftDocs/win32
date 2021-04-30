@@ -1,5 +1,5 @@
 ---
-Description: The GetKaraokeChannelContent method retrieves a value that indicates the type of content in the specified karaoke channel in the specified stream.
+description: The GetKaraokeChannelContent method retrieves a value that indicates the type of content in the specified karaoke channel in the specified stream.
 ms.assetid: e36a88b8-7184-44a4-8e02-204440f651bc
 title: GetKaraokeChannelContent Method
 ms.topic: reference

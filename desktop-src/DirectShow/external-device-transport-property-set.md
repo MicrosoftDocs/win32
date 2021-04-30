@@ -1,5 +1,5 @@
 ---
-Description: External Device Transport Property Set
+description: External Device Transport Property Set
 ms.assetid: 9c80cf59-054f-49b6-9456-ed5e091cbfaf
 title: External Device Transport Property Set
 ms.topic: article
@@ -14,7 +14,7 @@ The following table lists the properties that are relevant to user-mode applicat
 
 
 
-|                   |                           |
+| Label | Value |
 |-------------------|---------------------------|
 | Property Set GUID | PROPSETID\_EXT\_TRANSPORT |
 

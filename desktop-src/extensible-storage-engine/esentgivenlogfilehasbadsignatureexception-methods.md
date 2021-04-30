@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileHasBadSignatureException methods"
 title: EsentGivenLogFileHasBadSignatureException methods
 TOCTitle: EsentGivenLogFileHasBadSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileHasBadSignatureException

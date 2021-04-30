@@ -1,5 +1,5 @@
 ---
-Description: Used to register event providers with Windows Management Instrumentation (WMI).
+description: Used to register event providers with Windows Management Instrumentation (WMI).
 ms.assetid: d87f61a8-5549-4f33-ba67-31b5d72b5282
 ms.tgt_platform: multiple
 title: '__EventProviderRegistration class'
@@ -80,7 +80,7 @@ Only administrators can register or delete an event provider by creating an inst
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetRegisterCallback method"
 title: Api.JetRegisterCallback method 
 TOCTitle: 'JetRegisterCallback method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRegisterCallback(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_cbtyp,Microsoft.Isam.Esent.Interop.JET_CALLBACK,System.IntPtr,Microsoft.Isam.Esent.Interop.JET_HANDLE@)

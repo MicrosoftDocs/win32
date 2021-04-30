@@ -1,5 +1,5 @@
 ---
-Description: Represents a CD-ROM drive on a computer system running Windows.
+description: Represents a CD-ROM drive on a computer system running Windows.
 ms.assetid: 08087976-ca88-4ac8-9456-0d8bd799e66c
 ms.tgt_platform: multiple
 title: Win32_CDROMDrive class
@@ -2109,7 +2109,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

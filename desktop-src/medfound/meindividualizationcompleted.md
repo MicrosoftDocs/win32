@@ -1,5 +1,5 @@
 ---
-Description: Raised by the policy engine when individualization is complete. For more information, see MEIndividualizationStart event.
+description: Raised by the policy engine when individualization is complete. For more information, see MEIndividualizationStart event.
 ms.assetid: 44a4956f-19ba-410d-b96c-e7774cbe2d7e
 title: MEIndividualizationCompleted event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

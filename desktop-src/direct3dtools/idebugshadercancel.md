@@ -1,5 +1,5 @@
 ---
-Description: Request to cancel generating a shader trace.
+description: Request to cancel generating a shader trace.
 MS-HAID: vspixengine.IDebugShaderCancel
 MSHAttr:
 - PreferredSiteName:MSDN

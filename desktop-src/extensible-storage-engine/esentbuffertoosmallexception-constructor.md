@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBufferTooSmallException constructor"
 title: EsentBufferTooSmallException constructor 
 TOCTitle: 'EsentBufferTooSmallException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBufferTooSmallException.#ctor

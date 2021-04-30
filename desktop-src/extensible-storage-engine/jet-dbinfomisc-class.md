@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC class"
 title: JET_DBINFOMISC class
 TOCTitle: JET_DBINFOMISC class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnAsDateTime method"
 title: Api.RetrieveColumnAsDateTime method 
 TOCTitle: 'RetrieveColumnAsDateTime method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsDateTime

@@ -34,7 +34,7 @@ Enabling spline tension allows the user to adjust the equalizer bandwidths more 
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

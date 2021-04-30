@@ -1,5 +1,5 @@
 ---
-Description: Contains a wireless LAN policy.
+description: Contains a wireless LAN policy.
 ms.assetid: 16ffb682-f88b-4ca1-a902-d2db5e347975
 title: WLANPolicy Element
 ms.topic: reference
@@ -165,7 +165,7 @@ To view the list of child elements in a tree-like structure, see [WLAN\_policy S
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

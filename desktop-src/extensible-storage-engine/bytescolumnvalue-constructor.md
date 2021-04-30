@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue constructor"
 title: BytesColumnValue constructor 
 TOCTitle: 'BytesColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.BytesColumnValue.#ctor

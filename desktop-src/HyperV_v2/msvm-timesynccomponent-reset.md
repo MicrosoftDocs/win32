@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset.
+description: Reset method of the Msvm_TimeSyncComponent class - Requests a reset.
 ms.assetid: fb0ce09b-0d14-4de8-b2e5-4d86169b261b
 title: Reset method of the Msvm_TimeSyncComponent class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTooBigException members"
 title: EsentKeyTooBigException members
 TOCTitle: EsentKeyTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentKeyTooBigException

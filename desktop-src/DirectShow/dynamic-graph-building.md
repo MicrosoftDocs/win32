@@ -1,5 +1,5 @@
 ---
-Description: Dynamic Graph Building
+description: Dynamic Graph Building
 ms.assetid: 13fed430-979b-40f7-91ba-aff2d811bd92
 title: Dynamic Graph Building
 ms.topic: article

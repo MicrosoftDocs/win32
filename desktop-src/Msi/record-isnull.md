@@ -1,5 +1,5 @@
 ---
-Description: The IsNull property of the Record object is a read-only property that returns True if the indicated field is Null and False if the field contains data.
+description: The IsNull property of the Record object is a read-only property that returns True if the indicated field is Null and False if the field contains data.
 ms.assetid: f36240fa-d4a2-461f-a404-ba867b5f2950
 title: Record.IsNull property (Instance.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Required field number of the value within the record, 1-based.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | Header<br/>  | <dl> <dt>Instance.h</dt> </dl>                                                                                                                                                                   |

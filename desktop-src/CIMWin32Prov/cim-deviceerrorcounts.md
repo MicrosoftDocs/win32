@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DeviceErrorCounts class is a statistical class that contains error-related counters for a logical device. The types of errors are defined by CCITT (Rec X.733) and ISO (IEC 10164-4).
+description: The CIM\_DeviceErrorCounts class is a statistical class that contains error-related counters for a logical device. The types of errors are defined by CCITT (Rec X.733) and ISO (IEC 10164-4).
 ms.assetid: d65cbc78-40f2-4846-bd47-76e04b2f588b
 ms.tgt_platform: multiple
 title: CIM_DeviceErrorCounts class
@@ -294,7 +294,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

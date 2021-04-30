@@ -1,5 +1,5 @@
 ---
-Description: Returns a handle to the device that is associated with this authenticated channel.
+description: Returns a handle to the device that is associated with this authenticated channel.
 ms.assetid: 948eac1a-640a-47fd-b538-1de3ea5d8f0b
 title: D3DAUTHENTICATEDQUERY_DEVICEHANDLE (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Returns a handle to the device that is associated with this authenticated channe
 
 
 
-|             |                                                                                                                |
+| Requirement | Value |
 |-------------|----------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_DEVICEHANDLE**                                                                        |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT**](d3dauthenticatedchannel-query-input.md)                           |
@@ -39,7 +39,7 @@ This query is valid for all channel types.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

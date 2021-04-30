@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsNotArmedException properties"
 title: EsentRfsNotArmedException properties
 TOCTitle: EsentRfsNotArmedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRfsNotArmedException

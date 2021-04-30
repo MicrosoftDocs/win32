@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesSecondaryIndexOnlyException properties"
 title: EsentIndexTuplesSecondaryIndexOnlyException properties
 TOCTitle: EsentIndexTuplesSecondaryIndexOnlyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesSecondaryIndexOnlyException

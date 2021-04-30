@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EndSessionGrbit enumeration"
 title: EndSessionGrbit enumeration
 TOCTitle: EndSessionGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EndSessionGrbit

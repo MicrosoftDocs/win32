@@ -1,5 +1,5 @@
 ---
-Description: Describes swapchain statistics relating to PresentEx calls.
+description: Describes swapchain statistics relating to PresentEx calls.
 ms.assetid: aa100b83-6fbf-442d-9891-7fc034a5b1d5
 title: D3DPRESENTSTATS structure (D3d9types.h)
 ms.topic: reference
@@ -156,7 +156,7 @@ Applications can detect a glitch by keeping track of SynchRefreshCount. For exam
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

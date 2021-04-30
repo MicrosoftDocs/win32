@@ -1,5 +1,5 @@
 ---
-Description: Creates an Authenticode digital signature and signs the executable file specified in the SignedCode.FileName property.
+description: Creates an Authenticode digital signature and signs the executable file specified in the SignedCode.FileName property.
 ms.assetid: db17be29-35ec-4468-b5cc-5ba64c4cf3fb
 title: SignedCode.Sign method
 ms.topic: reference
@@ -67,7 +67,7 @@ This method uses the SHA-1 hashing algorithm.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

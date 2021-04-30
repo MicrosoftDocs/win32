@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileMissingException properties"
 title: EsentSLVStreamingFileMissingException properties
 TOCTitle: EsentSLVStreamingFileMissingException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileMissingException

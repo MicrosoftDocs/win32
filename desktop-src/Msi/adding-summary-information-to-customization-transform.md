@@ -1,5 +1,5 @@
 ---
-Description: To apply the customization transform during an installation of the product, you must add a Summary Information Stream to the transform file MNPtrans.mst generated in Generating a Customization Transform.
+description: To apply the customization transform during an installation of the product, you must add a Summary Information Stream to the transform file MNPtrans.mst generated in Generating a Customization Transform.
 ms.assetid: 586f6c43-7449-4d06-9201-9b4b4919871e
 title: Adding Summary Information to Customization Transform
 ms.topic: article

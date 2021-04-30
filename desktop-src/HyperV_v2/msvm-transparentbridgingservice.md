@@ -1,5 +1,5 @@
 ---
-Description: Serves as a placeholder for the service inside the switch that learns MAC addresses and serves as a bridge between the Msvm\_VirtualEthernetSwitch and Msvm\_DynamicForwardingEntry classes.
+description: Serves as a placeholder for the service inside the switch that learns MAC addresses and serves as a bridge between the Msvm\_VirtualEthernetSwitch and Msvm\_DynamicForwardingEntry classes.
 ms.assetid: E617DBC3-F5DD-4875-B3CC-E120A2218EBE
 title: Msvm_TransparentBridgingService class
 ms.topic: reference
@@ -738,7 +738,7 @@ Access to the **Msvm\_TransparentBridgingService** class might be restricted by 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

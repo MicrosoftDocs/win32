@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message by using Digest.
+description: Decrypts a message by using Digest.
 ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19
 title: DecryptMessage (Digest) function
 ms.topic: reference
@@ -77,7 +77,7 @@ Sometimes an application will read data from the remote party, attempt to decryp
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

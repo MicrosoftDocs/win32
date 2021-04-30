@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.dwMajorVersion property"
 title: JET_DBINFOMISC.dwMajorVersion property 
 TOCTitle: 'dwMajorVersion property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.dwMajorVersion

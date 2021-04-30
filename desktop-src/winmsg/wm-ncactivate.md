@@ -1,5 +1,5 @@
 ---
-Description: Sent to a window when its nonclient area needs to be changed to indicate an active or inactive state.
+description: Sent to a window when its nonclient area needs to be changed to indicate an active or inactive state.
 ms.assetid: d25732b9-b9ab-4754-a4cf-002d32e3945e
 title: WM_NCACTIVATE message (Winuser.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ The [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -35,7 +35,7 @@ For a client to make a call to an interface method in an object in another proce
 
 The following diagram shows the flow of communication between the components involved. On the client side of the process boundary, the client's method call goes through the proxy and then onto the channel, which is part of the COM library. The channel sends the buffer containing the marshaled parameters to the RPC run-time library, which transmits it across the process boundary. The RPC run time and the COM libraries exist on both sides of the process. The distinction between the channel and the RPC run time is a characteristic of this implementation and is not part of the programming model or the conceptual model for COM client/server objects. COM servers see only the proxy or stub and, indirectly, the channel. Future implementations may use different layers below the channel or no layers.
 
-![](images/457036c1-98b8-4f35-aebe-70de38112b83.png)
+![Diagram that shows the Client.exe and Server.exe flows on each side fo the Process Boundary.](images/457036c1-98b8-4f35-aebe-70de38112b83.png)
 
 ## Related topics
 

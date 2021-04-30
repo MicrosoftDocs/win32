@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int64ColumnValue members"
 title: Int64ColumnValue members
 TOCTitle: Int64ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Int64ColumnValue

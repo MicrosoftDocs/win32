@@ -1,5 +1,5 @@
 ---
-Description: Per-user event that supports up to three fields.
+description: Per-user event that supports up to three fields.
 ms.assetid: e6cf8008-b896-453b-9946-a6b3d94a991a
 title: WPCEVENT_CUSTOM event (Wpcevent.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ A custom string that provides extra information about the reason for blocking or
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | None supported<br/>                                                             |

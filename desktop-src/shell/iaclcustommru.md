@@ -1,5 +1,5 @@
 ---
-Description: Exposes methods that are used to initialize a most recently used (MRU) list for an autocompletion object.
+description: Exposes methods that are used to initialize a most recently used (MRU) list for an autocompletion object.
 title: IACLCustomMRU interface
 ms.topic: reference
 ms.date: 05/31/2018
@@ -52,7 +52,7 @@ The **IACLCustomMRU** interface has these methods.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

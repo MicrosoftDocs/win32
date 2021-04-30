@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCMissingCallbackException members"
 title: EsentDTCMissingCallbackException members
 TOCTitle: EsentDTCMissingCallbackException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackException

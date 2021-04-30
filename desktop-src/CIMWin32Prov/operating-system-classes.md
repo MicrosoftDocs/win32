@@ -1,5 +1,5 @@
 ---
-Description: The Operating System category groups classes that represent operating system related objects.
+description: The Operating System category groups classes that represent operating system related objects.
 ms.assetid: D0756D8C-A3D3-4C75-96A3-8C7F05300B39
 ms.tgt_platform: multiple
 title: Operating System Classes

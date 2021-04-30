@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_CALENDAR
+description: WPD\_CONTENT\_TYPE\_CALENDAR
 ms.assetid: b5fccaa8-03c7-4998-be46-82fc6aeb308b
 title: WPD_CONTENT_TYPE_CALENDAR
 ms.topic: article

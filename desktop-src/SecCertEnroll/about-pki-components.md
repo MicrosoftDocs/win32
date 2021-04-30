@@ -1,5 +1,5 @@
 ---
-Description: A typical Microsoft public key infrastructure (PKI) includes the following elements.ElementDescriptionCertification AuthoritiesProvide services that authenticate the identity of individuals, computers, and other entities in a network.
+description: A typical Microsoft public key infrastructure (PKI) includes the following elements.ElementDescriptionCertification AuthoritiesProvide services that authenticate the identity of individuals, computers, and other entities in a network.
 ms.assetid: c5b2ab0b-9e21-4807-9ee3-7e290cf836eb
 title: PKI Elements
 ms.topic: article

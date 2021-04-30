@@ -1,6 +1,6 @@
 ---
 title: task (TaskListType) Element
-description: Defines a component or subcomponent of an application.
+description: Defines a component or subcomponent of an application. | task (TaskListType) Element
 ms.assetid: 890f11cc-a379-41a5-a35b-08ad5615e18b
 keywords:
 - task element EventLog
@@ -31,7 +31,7 @@ The **task** element is defined by the [**TaskListType**](eventmanifestschema-ta
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

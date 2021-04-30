@@ -1,5 +1,5 @@
 ---
-Description: TAPI supports line device functions to configure line devices and perform telephony functions such hold and forward.
+description: TAPI supports line device functions to configure line devices and perform telephony functions such hold and forward.
 ms.assetid: 74e6300f-0d72-4b0f-8b95-fc1c8d0d0293
 title: Line Device Functions
 ms.topic: article

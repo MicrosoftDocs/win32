@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETINFO Structure"
 title: JET_RETINFO Structure
 TOCTitle: JET_RETINFO Structure
 ms:assetid: a47a7902-3ecd-4d42-941f-89d25d78eb4c

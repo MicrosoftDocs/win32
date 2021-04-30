@@ -1,5 +1,5 @@
 ---
-Description: Provides access to all of the tablets attached to the computer.
+description: Provides access to all of the tablets attached to the computer.
 ms.assetid: d0fd9a6f-93fe-43d6-97fd-fee45854dfa1
 title: ITabletManager interface
 ms.topic: reference
@@ -87,7 +87,7 @@ Call [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocrea
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

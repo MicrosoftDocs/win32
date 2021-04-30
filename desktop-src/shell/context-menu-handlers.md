@@ -1,5 +1,5 @@
 ---
-Description: Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
+description: Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
 ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Creating Shortcut Menu Handlers
 ms.topic: article
@@ -318,7 +318,7 @@ Another option for adding verbs to a cascading menu is through [**IExplorerComma
 
 The following two screen shots illustrate the use of cascading menus in the **Devices** folder.
 
-![screen shot showing an example of a cascading menu in the devices folder](images/file-assoc/filecascademenu.png)
+![Screenshot that shows an example of a cascading menu in the devices folder.](images/file-assoc/filecascademenu.png)
 
 The following screen shot illustrates another implementation of a cascading menu in the **Devices** folder.
 

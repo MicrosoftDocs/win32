@@ -40,7 +40,7 @@ The currently applied PSO defines and connects all of the shaders being used in 
 
 The following diagram illustrates the Direct3D 12 compute pipeline and state.
 
-![](images/compute-pipeline.png)
+![Diagram that shows the Direct3D 12 compute pipeline.](images/compute-pipeline.png)
 
 There are no fixed function units in this pipeline, however descriptor heaps, sampler heaps and static samplers are still available in compute.
 

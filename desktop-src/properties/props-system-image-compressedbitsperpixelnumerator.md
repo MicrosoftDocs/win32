@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_Image\_CompressedBitsPerPixel.
+description: The numerator of PKEY\_Image\_CompressedBitsPerPixel.
 ms.assetid: 934f045a-0e41-42df-b588-770851718890
 title: System.Image.CompressedBitsPerPixelNumerator
 ms.topic: article

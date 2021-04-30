@@ -1,5 +1,5 @@
 ---
-Description: Audio Renderer (WaveOut) Filter
+description: Audio Renderer (WaveOut) Filter
 ms.assetid: a3f2776b-974b-4886-82a3-38e00b607a07
 title: Audio Renderer (WaveOut) Filter
 ms.topic: article

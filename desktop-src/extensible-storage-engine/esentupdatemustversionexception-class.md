@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateMustVersionException class"
 title: EsentUpdateMustVersionException class
 TOCTitle: EsentUpdateMustVersionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUpdateMustVersionException

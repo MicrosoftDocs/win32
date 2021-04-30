@@ -1,5 +1,5 @@
 ---
-Description: Not implemented.
+description: IXml2Dex::WriteXMLPart method - Not implemented.
 ms.assetid: d0fc571f-79f5-448a-8082-6e5f7f48118f
 title: IXml2Dex::WriteXMLPart method
 ms.topic: reference

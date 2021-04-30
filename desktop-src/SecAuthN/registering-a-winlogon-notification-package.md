@@ -1,5 +1,5 @@
 ---
-Description: Information about Winlogon notification packages is stored in the registry. Registry entries specify the name of the notification package, the name of the DLL that implements the package, and the names of the functions that handle Winlogon events.
+description: Information about Winlogon notification packages is stored in the registry. Registry entries specify the name of the notification package, the name of the DLL that implements the package, and the names of the functions that handle Winlogon events.
 ms.assetid: dbe8d5a3-8927-4b95-a1a0-82c8e12ba8c1
 title: Registering a Winlogon Notification Package
 ms.topic: article

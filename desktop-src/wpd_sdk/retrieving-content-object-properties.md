@@ -1,6 +1,6 @@
 ---
 title: Retrieving WPD object properties
-Description: Retrieving Object Properties
+description: Retrieving Object Properties
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 ms.topic: article
 ms.date: 05/31/2018

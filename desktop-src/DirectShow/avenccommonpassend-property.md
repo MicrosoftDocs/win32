@@ -1,5 +1,5 @@
 ---
-Description: Stops the current encoding pass, or queries whether the current encoding pass is the last one.
+description: Stops the current encoding pass, or queries whether the current encoding pass is the last one.
 ms.assetid: 847f638f-9ab9-42ca-8e39-82c113cee92f
 title: AVEncCommonPassEnd property (Codecapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Reading this property queries whether the current encoding pass is the last one.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCCallbackUnexpectedErrorException properties"
 title: EsentDTCCallbackUnexpectedErrorException properties
 TOCTitle: EsentDTCCallbackUnexpectedErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException

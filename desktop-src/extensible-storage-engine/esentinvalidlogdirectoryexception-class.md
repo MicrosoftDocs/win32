@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDirectoryException class"
 title: EsentInvalidLogDirectoryException class
 TOCTitle: EsentInvalidLogDirectoryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDirectoryException

@@ -1,5 +1,5 @@
 ---
-Description: Other Direct3D Constants
+description: Other Direct3D Constants
 ms.assetid: 3e314f73-2653-481a-ac7d-1ce7db0591e2
 title: Other Direct3D Constants
 ms.topic: article
@@ -30,9 +30,8 @@ The following table lists constants that are used internally:
 
 
 
-|                                       |                                                   |                                                                    |
-|---------------------------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | \#define                              | Value                                             | Description                                                        |
+|---------------------------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | D3D\_MAX\_SIMULTANEOUS\_RENDERTARGETS | 4                                                 | The maximum number of rendertargets.                               |
 | D3DDMAPSAMPLER                        | 256                                               | The maximum number of displacement map samples.                    |
 | D3DDP\_MAXTEXCOORD                    | 8                                                 | The maximum number of texture coordinates.                         |

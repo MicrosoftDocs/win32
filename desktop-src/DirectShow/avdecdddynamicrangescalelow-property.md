@@ -1,5 +1,5 @@
 ---
-Description: Specifies the low-level boost when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
+description: Specifies the low-level boost when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
 ms.assetid: d723c825-f2f1-4ba0-a667-8285009764fd
 title: AVDecDDDynamicRangeScaleLow property (Codecapi.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This property applies only when the value of the [**AVDecDDOperationalMode**](av
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

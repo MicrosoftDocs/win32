@@ -1,5 +1,5 @@
 ---
-Description: Performance needs of users and administrators with Windows Sockets (Winsock) applications.
+description: Performance needs of users and administrators with Windows Sockets (Winsock) applications.
 ms.assetid: 6c4365c6-a406-497b-a313-1faeb3e3b7f5
 title: 'Performance Needs: Users and Administrators'
 ms.topic: article

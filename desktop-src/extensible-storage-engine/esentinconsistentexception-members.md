@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInconsistentException members"
 title: EsentInconsistentException members
 TOCTitle: EsentInconsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInconsistentException

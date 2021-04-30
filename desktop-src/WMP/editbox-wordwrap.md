@@ -36,7 +36,7 @@ If word wrap is disabled, and the text does not fit in the control, the text is 
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

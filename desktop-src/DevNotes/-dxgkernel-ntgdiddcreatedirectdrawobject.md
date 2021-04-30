@@ -1,5 +1,5 @@
 ---
-Description: Creates a kernel-side representation of the Microsoft DirectDraw object.
+description: Creates a kernel-side representation of the Microsoft DirectDraw object.
 ms.assetid: e380f948-35a0-4cf0-9b69-ab2bd4f9a161
 title: NtGdiDdCreateDirectDrawObject function (Ntgdi.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Applications are advised to use the DirectDraw and [Direct3D](../direct3d10/d3d1
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

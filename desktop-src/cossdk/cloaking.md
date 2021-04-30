@@ -1,12 +1,12 @@
 ---
-Description: There are two ingredients in determining the behavior of impersonation the authority the client explicitly grants the server through an impersonation level and the servers ability to mask its own identity when making calls on the clients behalf.
+description: There are two ingredients in determining the behavior of impersonation the authority the client explicitly grants the server through an impersonation level and the servers ability to mask its own identity when making calls on the clients behalf.
 ms.assetid: b34264ff-eb6a-4b99-8c0e-ab6b969a7fb1
 title: Cloaking (Component Services)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Cloaking
+# Cloaking (Component Services)
 
 There are two ingredients in determining the behavior of impersonation: the authority the client explicitly grants the server through an impersonation level and the server's ability to mask its own identity when making calls on the client's behalf. This latter capability is known as *cloaking*. Cloaking has to do with the security identity under which the server makes calls.
 

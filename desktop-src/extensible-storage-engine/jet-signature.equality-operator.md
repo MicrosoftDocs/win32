@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE.Equality operator"
 title: JET_SIGNATURE.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SIGNATURE.op_Equality(Microsoft.Isam.Esent.Interop.JET_SIGNATURE,Microsoft.Isam.Esent.Interop.JET_SIGNATURE)

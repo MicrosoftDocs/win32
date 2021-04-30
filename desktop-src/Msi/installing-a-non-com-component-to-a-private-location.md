@@ -1,5 +1,5 @@
 ---
-Description: To force a client application to always use the same copy of a non-COM server, author the application's installation package to specify an isolated components relationship between the server and client.
+description: To force a client application to always use the same copy of a non-COM server, author the application's installation package to specify an isolated components relationship between the server and client.
 ms.assetid: 3ca9cad7-6848-4483-b5e3-2b7bbdefe605
 title: Installing a non-COM Component to a Private Location
 ms.topic: article

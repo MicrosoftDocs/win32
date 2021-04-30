@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootNotSpecifiedException constructor"
 title: EsentSLVRootNotSpecifiedException constructor 
 TOCTitle: 'EsentSLVRootNotSpecifiedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException.#ctor

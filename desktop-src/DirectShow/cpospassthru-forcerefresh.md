@@ -1,5 +1,5 @@
 ---
-Description: The ForceRefresh method is obsolete.
+description: The ForceRefresh method is obsolete.
 ms.assetid: 9895f72b-abf8-46a8-aa75-2a30901a4c41
 title: CPosPassThru.ForceRefresh method (Ctlutil.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ As currently implemented, this class does not cache those interfaces. For compat
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

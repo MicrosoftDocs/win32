@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCatalogCorruptedException methods"
 title: EsentCatalogCorruptedException methods
 TOCTitle: EsentCatalogCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCatalogCorruptedException

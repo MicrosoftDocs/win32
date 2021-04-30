@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAlreadyInitializedException constructor"
 title: EsentAlreadyInitializedException constructor 
 TOCTitle: 'EsentAlreadyInitializedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAlreadyInitializedException.#ctor

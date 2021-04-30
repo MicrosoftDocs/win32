@@ -1,5 +1,5 @@
 ---
-Description: The ICryptAttribute interface exposes the following methods.
+description: The ICryptAttribute interface exposes the following methods.
 ms.assetid: 21B1B4C9-EAF7-46E9-A7AD-40AADF5A8690
 title: ICryptAttribute Methods
 ms.topic: reference

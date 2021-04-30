@@ -1,10 +1,10 @@
 ---
-Description: ModemDMConfigProfile\/AdminRoamControl (v4)
+description: ModemDMConfigProfile\/AdminRoamControl (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_AdminRoamControl
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: AdminRoamControl
+title: AdminRoamControl (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ---

@@ -1,5 +1,5 @@
 ---
-Description: The put\_BorderSoftness method specifies the width of the blurry region around the edges of the wipe pattern.
+description: The put\_BorderSoftness method specifies the width of the blurry region around the edges of the wipe pattern.
 ms.assetid: 9fdbda7f-c89b-4ed8-8035-054bc28f3231
 title: IDxtJpeg::put_BorderSoftness method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

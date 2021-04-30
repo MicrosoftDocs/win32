@@ -1,5 +1,5 @@
 ---
-Description: Resets to the beginning of the given enumeration sequence.
+description: Resets to the beginning of the given enumeration sequence.
 ms.assetid: add91f5d-3f84-4069-93c0-9380a3935b85
 title: IEnumPStoreItems::Reset method (Pstore.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ The return value is an **HRESULT** value.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

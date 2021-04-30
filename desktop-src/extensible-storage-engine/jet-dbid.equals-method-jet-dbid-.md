@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID.Equals method (JET_DBID)"
 title: JET_DBID.Equals method (JET_DBID)
 TOCTitle: Equals method (JET_DBID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBID.Equals(Microsoft.Isam.Esent.Interop.JET_DBID)

@@ -1,5 +1,5 @@
 ---
-Description: These interfaces are used by the Windows Presentation Foundation to implement ink support.
+description: These interfaces are used by the Windows Presentation Foundation to implement ink support.
 ms.assetid: 2bc78c90-20b2-4043-a1de-bd6486c36cc7
 title: Interfaces Used by WPF
 ms.topic: article

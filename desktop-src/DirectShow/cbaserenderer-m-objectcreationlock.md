@@ -1,5 +1,5 @@
 ---
-Description: Lock to protect the creation of objects inside the filter.
+description: Lock to protect the creation of objects inside the filter.
 ms.assetid: ad1d2584-0d9e-42a8-83ea-0c1907ddcf33
 title: CBaseRenderer::m_ObjectCreationLock member (Renbase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CCritSec m_ObjectCreationLock;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

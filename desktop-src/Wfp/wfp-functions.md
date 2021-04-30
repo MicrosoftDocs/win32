@@ -1,5 +1,5 @@
 ---
-Description: The following functions allow you to enumerate protected resources.
+description: The following functions allow you to enumerate protected resources.
 ms.assetid: 6806c320-6071-4075-9003-2469089a9cc4
 title: WRP Functions
 ms.topic: article

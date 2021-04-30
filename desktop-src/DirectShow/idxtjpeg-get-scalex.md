@@ -1,5 +1,5 @@
 ---
-Description: The get\_ScaleX method retrieves the amount by which the wipe is stretched horizontally.
+description: The get\_ScaleX method retrieves the amount by which the wipe is stretched horizontally.
 ms.assetid: 74c3f60b-68d9-4a8e-a6e5-767ce281a9fb
 title: IDxtJpeg::get_ScaleX method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

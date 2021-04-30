@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AdjacentSlots association describes the layout of slots on a hosting board or adapter card.
+description: The CIM\_AdjacentSlots association describes the layout of slots on a hosting board or adapter card.
 ms.assetid: d604647f-7b2f-4f99-8d98-adf115ae9dfb
 ms.tgt_platform: multiple
 title: CIM_AdjacentSlots class
@@ -121,7 +121,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

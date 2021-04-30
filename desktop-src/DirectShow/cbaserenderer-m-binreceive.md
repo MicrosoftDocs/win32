@@ -1,5 +1,5 @@
 ---
-Description: Flag that indicates whether the filter is processing a Receive call.
+description: Flag that indicates whether the filter is processing a Receive call.
 ms.assetid: 4b0d34c4-551a-4674-bda9-be67ed22d09b
 title: CBaseRenderer::m_bInReceive member (Renbase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BOOL m_bInReceive;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

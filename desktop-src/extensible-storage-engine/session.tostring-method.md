@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session.ToString method"
 title: Session.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.ToString

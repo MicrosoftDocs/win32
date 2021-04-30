@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the EKU object that represents the indexed extended key usage (EKU) property.
+description: Retrieves the EKU object that represents the indexed extended key usage (EKU) property.
 ms.assetid: b8c12a7a-e836-48c2-958c-937b3723f85b
 title: IEKUs::Item property
 ms.topic: reference
@@ -44,7 +44,7 @@ An [**EKU**](eku.md) object that represents the indexed extended key usage (EKU)
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

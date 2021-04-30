@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempFileOpenErrorException class"
 title: EsentTempFileOpenErrorException class
 TOCTitle: EsentTempFileOpenErrorException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException

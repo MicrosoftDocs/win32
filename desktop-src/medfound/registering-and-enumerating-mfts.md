@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to enumerate Media Foundation transforms, and how to register a custom MFT so that applications can discover it.
+description: This section describes how to enumerate Media Foundation transforms, and how to register a custom MFT so that applications can discover it.
 ms.assetid: 76d2a703-4162-428e-a4ff-643e346eacfb
 title: Registering and Enumerating MFTs
 ms.topic: article

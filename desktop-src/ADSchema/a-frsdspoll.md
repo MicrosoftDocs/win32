@@ -22,7 +22,7 @@ DS Polling interval for the File Replication engine.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | FRS-DS-Poll                          |
 | Ldap-Display-Name | fRSDSPoll                            |
@@ -48,7 +48,7 @@ DS Polling interval for the File Replication engine.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -69,7 +69,7 @@ DS Polling interval for the File Replication engine.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -90,7 +90,7 @@ DS Polling interval for the File Replication engine.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -111,7 +111,7 @@ DS Polling interval for the File Replication engine.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -132,7 +132,7 @@ DS Polling interval for the File Replication engine.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -153,7 +153,7 @@ DS Polling interval for the File Replication engine.
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |

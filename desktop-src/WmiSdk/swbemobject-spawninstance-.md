@@ -1,5 +1,5 @@
 ---
-Description: Use the SpawnInstance\_ method of the SWbemObject object to create a new instance of a class.
+description: Use the SpawnInstance\_ method of the SWbemObject object to create a new instance of a class.
 ms.assetid: 4761bdb2-455a-48c4-9e22-bfba6a1036ec
 ms.tgt_platform: multiple
 title: SWbemObject.SpawnInstance_ method (Wbemdisp.h)
@@ -93,7 +93,7 @@ Not enough memory to complete the operation.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_IMEASURE
+description: LOCALE\_IMEASURE
 ms.assetid: 48e07cc7-a5bc-404f-8046-fdaf92ba70d7
 title: LOCALE_IMEASURE
 ms.topic: article

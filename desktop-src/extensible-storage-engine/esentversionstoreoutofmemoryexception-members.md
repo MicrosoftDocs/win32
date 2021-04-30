@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryException members"
 title: EsentVersionStoreOutOfMemoryException members
 TOCTitle: EsentVersionStoreOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryException

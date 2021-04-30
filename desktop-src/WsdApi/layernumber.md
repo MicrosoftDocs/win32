@@ -1,5 +1,5 @@
 ---
-Description: Defines the number of the code layer to be generated.
+description: Defines the number of the code layer to be generated.
 ms.assetid: ad67a6fb-4bb6-4550-a9e9-f5219f3868c6
 title: layerNumber element
 ms.topic: reference
@@ -46,7 +46,7 @@ Legal values, except in the case of WSDAPI itself are greater than 0 and less th
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

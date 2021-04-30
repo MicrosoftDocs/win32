@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+description: InkPicture.SelectionMoved event - Occurs when the position of the current selection has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 669dc6c2-1620-40f3-b4b5-7ab8967e739a
 title: InkPicture.SelectionMoved event (Msinkaut.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ To get the new bounding rectangle of the collection of strokes that have been mo
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

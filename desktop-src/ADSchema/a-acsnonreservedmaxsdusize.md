@@ -22,7 +22,7 @@ The **ACS-Non-Reserved-Max-SDU-Size** attribute is for internal use only. Based 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ACS-Non-Reserved-Max-SDU-Size        |
 | Ldap-Display-Name | aCSNonReservedMaxSDUSize             |
@@ -48,7 +48,7 @@ The **ACS-Non-Reserved-Max-SDU-Size** attribute is for internal use only. Based 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -69,7 +69,7 @@ The **ACS-Non-Reserved-Max-SDU-Size** attribute is for internal use only. Based 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -90,7 +90,7 @@ The **ACS-Non-Reserved-Max-SDU-Size** attribute is for internal use only. Based 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -111,7 +111,7 @@ The **ACS-Non-Reserved-Max-SDU-Size** attribute is for internal use only. Based 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -132,7 +132,7 @@ The **ACS-Non-Reserved-Max-SDU-Size** attribute is for internal use only. Based 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -153,7 +153,7 @@ The **ACS-Non-Reserved-Max-SDU-Size** attribute is for internal use only. Based 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

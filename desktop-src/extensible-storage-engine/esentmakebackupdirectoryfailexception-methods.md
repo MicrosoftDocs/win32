@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMakeBackupDirectoryFailException methods"
 title: EsentMakeBackupDirectoryFailException methods
 TOCTitle: EsentMakeBackupDirectoryFailException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException

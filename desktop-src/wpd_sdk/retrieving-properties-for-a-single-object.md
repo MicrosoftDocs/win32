@@ -1,5 +1,5 @@
 ---
-Description: Retrieving Properties for a Single Object
+description: Retrieving Properties for a Single Object
 ms.assetid: e4e3b286-6330-4147-a367-57accf5beae6
 title: Retrieving Properties for a Single Object
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptDuringHardRecoveryException methods"
 title: EsentLogCorruptDuringHardRecoveryException methods
 TOCTitle: EsentLogCorruptDuringHardRecoveryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRecoveryException

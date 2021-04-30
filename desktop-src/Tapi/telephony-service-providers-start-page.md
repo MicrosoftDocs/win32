@@ -1,5 +1,5 @@
 ---
-Description: A telephony service provider (TSP) is a dynamic-link library (DLL) that supports communications device control through a set of exported service functions.
+description: A telephony service provider (TSP) is a dynamic-link library (DLL) that supports communications device control through a set of exported service functions.
 ms.assetid: 276c27ac-b6ee-42a7-8327-33dfd87e69bd
 title: Telephony Service Providers
 ms.topic: article

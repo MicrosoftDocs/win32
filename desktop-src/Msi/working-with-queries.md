@@ -1,5 +1,5 @@
 ---
-Description: Because the installer uses a relational database, there are functions for making Structured Query Language (SQL) queries to the database. The following procedure describes how to use SQL to query a database.
+description: Because the installer uses a relational database, there are functions for making Structured Query Language (SQL) queries to the database. The following procedure describes how to use SQL to query a database.
 ms.assetid: 1b8fd935-4964-4875-801b-cc6765b16924
 title: Working with Queries
 ms.topic: article

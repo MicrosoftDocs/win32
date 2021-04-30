@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the extended property data.
+description: Sets or retrieves the extended property data.
 ms.assetid: 115bb52a-e64d-4d84-a491-35f6dba25a58
 title: ExtendedProperty.Value property
 ms.topic: reference
@@ -40,7 +40,7 @@ The extended property data, in the format specified by *EncodingType*.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

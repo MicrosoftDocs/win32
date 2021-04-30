@@ -71,7 +71,7 @@ You cannot set this property if the VM is running or saved.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

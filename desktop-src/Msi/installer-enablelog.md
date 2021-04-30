@@ -1,5 +1,5 @@
 ---
-Description: The EnableLog method of the Installer object enables logging of the selected message type for all subsequent installation sessions in the current process space.
+description: The EnableLog method of the Installer object enables logging of the selected message type for all subsequent installation sessions in the current process space.
 ms.assetid: eb384587-0870-4812-866c-b483c1dfa841
 title: Installer.EnableLog method
 ms.topic: reference
@@ -103,7 +103,7 @@ The following sample script turns on verbose logging for an installation. At the
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

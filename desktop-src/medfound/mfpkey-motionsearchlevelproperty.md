@@ -1,5 +1,5 @@
 ---
-Description: Specifies how color information is used in motion search operations.
+description: Specifies how color information is used in motion search operations.
 ms.assetid: a625b103-0a55-4268-a01a-6a464a56fec2
 title: MFPKEY_MOTIONSEARCHLEVEL Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ By default, the codec performs motion search only in the luma channel. Including
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

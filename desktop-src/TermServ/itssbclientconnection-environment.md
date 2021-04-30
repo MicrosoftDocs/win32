@@ -62,7 +62,7 @@ An orchestration plug-in can call this method to retrieve environment informatio
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |

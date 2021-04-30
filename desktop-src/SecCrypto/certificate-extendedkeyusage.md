@@ -1,5 +1,5 @@
 ---
-Description: Returns an ExtendedKeyUsage object that indicates the valid uses of the certificate.
+description: Returns an ExtendedKeyUsage object that indicates the valid uses of the certificate.
 ms.assetid: e974e9e2-1011-48b7-9ebc-e754e4990286
 title: ICertificate2::ExtendedKeyUsage method
 ms.topic: reference
@@ -44,7 +44,7 @@ The [**ExtendedKeyUsage**](extendedkeyusage.md) object that is associated with t
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

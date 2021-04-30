@@ -1,5 +1,5 @@
 ---
-Description: Creates a save object. Deprecated.
+description: Creates a save object. Deprecated.
 ms.assetid: 50a7dbde-1dd4-4aae-a9ab-97d6f99618c0
 title: IDirectXFile::CreateSaveObject method (DXFile.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ The default value for the file format is DXFILEFORMAT\_BINARY. The file format v
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

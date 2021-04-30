@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the cursor moves over the tablet digitizer.
+description: Occurs when the cursor moves over the tablet digitizer.
 ms.assetid: cd2863af-59a9-4dd0-a679-84861a70ef53
 title: ITabletEventSink::CursorMove method
 ms.topic: reference
@@ -93,7 +93,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

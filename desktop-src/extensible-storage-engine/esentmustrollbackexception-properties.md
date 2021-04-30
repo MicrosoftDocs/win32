@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustRollbackException properties"
 title: EsentMustRollbackException properties
 TOCTitle: EsentMustRollbackException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentMustRollbackException

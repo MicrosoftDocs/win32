@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseUnavailableException methods"
 title: EsentDatabaseUnavailableException methods
 TOCTitle: EsentDatabaseUnavailableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException

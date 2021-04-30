@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SPACEHINTS properties"
 title: JET_SPACEHINTS properties
 TOCTitle: JET_SPACEHINTS properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS

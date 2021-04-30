@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AggregatePExtent class provides summary information about addressable logical blocks, which are in the same storage redundancy group and located on the same physical media.
+description: The CIM\_AggregatePExtent class provides summary information about addressable logical blocks, which are in the same storage redundancy group and located on the same physical media.
 ms.assetid: c8def347-e8d7-48d5-94d0-f6e704e7b40e
 ms.tgt_platform: multiple
 title: CIM_AggregatePExtent class
@@ -1199,7 +1199,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

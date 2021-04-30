@@ -1,5 +1,5 @@
 ---
-Description: Places the service, represented by the Win32\_Service object, in the stopped state.
+description: Places the service, represented by the Win32\_Service object, in the stopped state.
 ms.assetid: cc2c71f7-12e6-4ba4-bfb4-f23845d798b5
 ms.tgt_platform: multiple
 title: StopService method of the Win32_Service class (Sdoias.h)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# StopService method of the Win32\_Service class
+# StopService method of the Win32_Service class (Sdoias.h)
 
 The **StopService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method places the service, represented by the [**Win32\_Service**](win32-service.md) object, in the stopped state.
 
@@ -335,7 +335,7 @@ WScript.Echo "Return value: " & Return
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileSizeMismatchException methods"
 title: EsentLogFileSizeMismatchException methods
 TOCTitle: EsentLogFileSizeMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchException

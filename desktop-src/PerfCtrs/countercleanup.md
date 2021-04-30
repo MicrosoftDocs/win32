@@ -1,5 +1,5 @@
 ---
-Description: Removes the providers registration.
+description: Removes the providers registration.
 ms.assetid: e52c1ee0-140a-4277-bddd-d93338a512bc
 title: CounterCleanup function
 ms.topic: reference
@@ -45,7 +45,7 @@ The [**CTRPP**](ctrpp.md) tool generates this inline function when you specify t
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

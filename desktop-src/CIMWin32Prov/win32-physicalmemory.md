@@ -1,5 +1,5 @@
 ---
-Description: Represents a physical memory device located on a computer system and available to the operating system.
+description: Represents a physical memory device located on a computer system and available to the operating system.
 ms.assetid: 34baca53-ab85-4e06-9853-71b904ede4ab
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemory class
@@ -1613,7 +1613,7 @@ $mt=get-WMIMemoryType($stick.MemoryType)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

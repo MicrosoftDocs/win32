@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeNormalizationNotSupportedException properties"
 title: EsentUnicodeNormalizationNotSupportedException properties
 TOCTitle: EsentUnicodeNormalizationNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUnicodeNormalizationNotSupportedException

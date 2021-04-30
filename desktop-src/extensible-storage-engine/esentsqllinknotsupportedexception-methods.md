@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSQLLinkNotSupportedException methods"
 title: EsentSQLLinkNotSupportedException methods
 TOCTitle: EsentSQLLinkNotSupportedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSQLLinkNotSupportedException

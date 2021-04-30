@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRetrieveKey Function"
 title: JetRetrieveKey Function
 TOCTitle: JetRetrieveKey Function
 ms:assetid: a96d0a7c-f1db-48bc-807d-4e6357aec726

@@ -13,6 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 
@@ -195,7 +196,7 @@ If the *wParam* is **SC\_KEYMENU**, *lParam* contains the character code of the 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

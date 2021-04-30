@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CBaseObject.CBaseObject constructor - Constructor method.
 ms.assetid: 20c3c4af-b22f-4b74-a6b6-5ee309de4eef
 title: CBaseObject.CBaseObject constructor (Combase.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The [**NAME**](name.md) macro compiles to **NULL** in retail builds, so that sta
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

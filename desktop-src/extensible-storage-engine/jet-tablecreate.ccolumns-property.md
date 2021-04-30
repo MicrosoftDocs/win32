@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.cColumns property"
 title: JET_TABLECREATE.cColumns property 
 TOCTitle: 'cColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cColumns

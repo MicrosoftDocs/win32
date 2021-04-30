@@ -1,5 +1,5 @@
 ---
-Description: Returns the security descriptor that controls access to the service.
+description: GetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers) - Returns the security descriptor that controls access to the service.
 ms.assetid: 99c8346e-e8d6-4f3c-bbdc-437dcf852b2a
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# GetSecurityDescriptor method of the Win32\_Service class
+# GetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **GetSecurityDescriptor** method returns the security descriptor that controls access to the service. The descriptor is returned as an instance of [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor).
 
@@ -312,7 +312,7 @@ Scope.Options.EnablePrivileges = True
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

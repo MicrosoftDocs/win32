@@ -1,5 +1,5 @@
 ---
-Description: 'The addresses in the Bcc: field.'
+description: 'The addresses in the Bcc: field.'
 ms.assetid: d5e79055-e9e3-4a74-9b6c-805ade1438ba
 title: System.Message.BccAddress
 ms.topic: article

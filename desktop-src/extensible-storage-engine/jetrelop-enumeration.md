@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRelop enumeration"
 title: JetRelop enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JetRelop enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JetRelop

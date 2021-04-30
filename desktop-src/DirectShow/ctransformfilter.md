@@ -1,5 +1,5 @@
 ---
-Description: The CTransformFilter class is a base class for implementing transform filters.
+description: The CTransformFilter class is a base class for implementing transform filters.
 ms.assetid: 99db8252-a8db-4995-b4be-a6cf944be869
 title: CTransformFilter class (Transfrm.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ For more information about using this class, see [Writing Transform Filters](wri
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

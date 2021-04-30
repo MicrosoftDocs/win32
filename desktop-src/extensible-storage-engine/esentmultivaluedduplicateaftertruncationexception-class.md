@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateAfterTruncationException class"
 title: EsentMultiValuedDuplicateAfterTruncationException class
 TOCTitle: EsentMultiValuedDuplicateAfterTruncationException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException

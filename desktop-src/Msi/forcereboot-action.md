@@ -1,5 +1,5 @@
 ---
-Description: The ForceReboot action prompts the user for a restart of the system during the installation.
+description: The ForceReboot action prompts the user for a restart of the system during the installation.
 ms.assetid: e1bcdd59-8cbc-46f7-b908-c8cbc2ea0539
 title: ForceReboot Action
 ms.topic: article

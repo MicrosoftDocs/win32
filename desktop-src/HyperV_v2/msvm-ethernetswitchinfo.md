@@ -1,5 +1,5 @@
 ---
-Description: Defines the association between an Ethernet switch and a switch resource.
+description: Defines the association between an Ethernet switch and a switch resource.
 ms.assetid: fb29f4cb-50c4-4865-b267-21ff99bb4a8b
 title: Msvm_EthernetSwitchInfo class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to the [**Msvm\_EthernetSwitchData**](msvm-ethernetswitchdata.md) cl
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

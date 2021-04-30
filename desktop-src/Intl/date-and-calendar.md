@@ -1,5 +1,5 @@
 ---
-Description: Each locale has a default calendar type (data type CALTYPE) associated with it. A locale can also have an alternate calendar type. For details of calendar types, see Calendar Type Information.
+description: Each locale has a default calendar type (data type CALTYPE) associated with it. A locale can also have an alternate calendar type. For details of calendar types, see Calendar Type Information.
 ms.assetid: 32772cba-eb30-4cd3-adaf-57fb8425a6d5
 title: Date and Calendar
 ms.topic: article

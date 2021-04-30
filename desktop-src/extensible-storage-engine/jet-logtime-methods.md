@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME methods"
 title: JET_LOGTIME methods
 TOCTitle: JET_LOGTIME methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_LOGTIME

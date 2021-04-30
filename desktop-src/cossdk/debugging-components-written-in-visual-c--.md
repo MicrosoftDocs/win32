@@ -1,5 +1,5 @@
 ---
-Description: When you are ready to debug the COM+ functionality in your Microsoft Visual C++ components, you can configure Visual C++ project or the Component Services administrative tool to launch the debugger.
+description: When you are ready to debug the COM+ functionality in your Microsoft Visual C++ components, you can configure Visual C++ project or the Component Services administrative tool to launch the debugger.
 ms.assetid: 206467ac-108a-49de-a884-66959dc77650
 title: Debugging Components Written in Visual C++
 ms.topic: article

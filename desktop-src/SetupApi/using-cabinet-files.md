@@ -1,5 +1,5 @@
 ---
-Description: The setup functions handle cabinets internally. To explicitly enumerate and extract files from a cabinet, you can call the SetupIterateCabinet function.
+description: The setup functions handle cabinets internally. To explicitly enumerate and extract files from a cabinet, you can call the SetupIterateCabinet function.
 ms.assetid: 14bd925a-e7fe-48a3-9ed6-4e42ce796290
 title: Using Cabinet Files
 ms.topic: article

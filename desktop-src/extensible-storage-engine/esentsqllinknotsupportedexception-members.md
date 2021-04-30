@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSQLLinkNotSupportedException members"
 title: EsentSQLLinkNotSupportedException members
 TOCTitle: EsentSQLLinkNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSQLLinkNotSupportedException

@@ -1,5 +1,5 @@
 ---
-Description: Merge modules provide a standard method for developers to deliver shared Windows Installer components and setup logic to their applications.
+description: Merge modules provide a standard method for developers to deliver shared Windows Installer components and setup logic to their applications.
 ms.assetid: 3eb087b1-0f44-40d8-a950-67d489f09408
 title: Using the API to Merge a Merge Module into a Database
 ms.topic: article

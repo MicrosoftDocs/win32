@@ -1,12 +1,12 @@
 ---
-Description: Provides links to system error codes defined in the WinError.h header file and is intended for developers.
+description: Provides links to system error codes defined in the WinError.h header file and is intended for developers.
 ms.assetid: 4a3a8feb-a05f-4614-8f04-1f507da7e5b7
 title: System Error Codes
 ms.topic: article
 ms.date: 10/31/2019
 ---
 
-# Error Codes
+# System Error Codes
 
 This section is intended for developers who are debugging system errors. If you reached this page while searching for other errors, here are some links that might help:
 

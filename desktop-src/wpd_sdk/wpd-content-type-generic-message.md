@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_GENERIC\_FILE
+description: WPD\_CONTENT\_TYPE\_GENERIC\_FILE
 ms.assetid: e652bebc-fb3d-48cd-af59-3ad97a79711d
 title: WPD_CONTENT_TYPE_GENERIC_FILE
 ms.topic: article

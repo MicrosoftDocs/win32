@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Windows Environment
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 The Windows environment is the onscreen work area provided by Windows, analogous to a physical desktop, and the operating system's core extension points. Learn how to leverage the desktop, taskbar, notification area, control panels, help, and user account control for your app.
 
@@ -31,10 +31,4 @@ The Windows environment is the onscreen work area provided by Windows, analogous
  
 
  
-
- 
-
-
-
-
 

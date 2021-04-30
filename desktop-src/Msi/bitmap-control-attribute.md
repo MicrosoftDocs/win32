@@ -1,5 +1,5 @@
 ---
-Description: If the Bitmap Control bit is set, the text in the control is replaced by a bitmap image. The Text column in the Control table is a foreign key into the Binary table.
+description: If the Bitmap Control bit is set, the text in the control is replaced by a bitmap image. The Text column in the Control table is a foreign key into the Binary table.
 ms.assetid: ec774f31-7712-4a70-8c69-1cc731009049
 title: Bitmap Control Attribute
 ms.topic: article

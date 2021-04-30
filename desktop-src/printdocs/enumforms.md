@@ -1,5 +1,5 @@
 ---
-Description: The EnumForms function enumerates the forms supported by the specified printer.
+description: The EnumForms function enumerates the forms supported by the specified printer.
 ms.assetid: b13b515a-c764-4a80-ab85-95fb4abb2a6b
 title: EnumForms function (Winspool.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ In Windows Vista, the form data returned by **EnumForms** is retrieved from a lo
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

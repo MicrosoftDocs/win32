@@ -54,7 +54,7 @@ The set of bit flags that specifies the type of image list to create. This param
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

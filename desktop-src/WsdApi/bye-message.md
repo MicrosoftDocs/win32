@@ -1,5 +1,5 @@
 ---
-Description: A WS-Discovery message used to announce the departure of a device or service from the network.
+description: A WS-Discovery message used to announce the departure of a device or service from the network.
 ms.assetid: 7b9abfcc-28ab-4f29-af69-6dc68e3f51b6
 title: Bye Message
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.TruncateLogsAfterRecovery field"
 title: VistaGrbits.TruncateLogsAfterRecovery field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: TruncateLogsAfterRecovery field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.TruncateLogsAfterRecovery

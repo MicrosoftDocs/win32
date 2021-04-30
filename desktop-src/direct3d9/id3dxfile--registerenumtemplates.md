@@ -1,5 +1,5 @@
 ---
-Description: Registers custom templates, given an ID3DXFileEnumObject enumeration object.
+description: Registers custom templates, given an ID3DXFileEnumObject enumeration object.
 ms.assetid: 1b0c71db-639b-4836-8a65-7d0a2ed3ba4f
 title: ID3DXFile::RegisterEnumTemplates method (D3DX9Xof.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ If an [**ID3DXFileEnumObject**](id3dxfileenumobject.md) pointer is not available
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

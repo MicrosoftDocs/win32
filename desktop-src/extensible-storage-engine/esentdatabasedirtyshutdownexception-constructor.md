@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseDirtyShutdownException constructor"
 title: EsentDatabaseDirtyShutdownException constructor 
 TOCTitle: 'EsentDatabaseDirtyShutdownException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseDirtyShutdownException.#ctor

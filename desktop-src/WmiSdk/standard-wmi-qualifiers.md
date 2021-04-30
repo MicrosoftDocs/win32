@@ -1,5 +1,5 @@
 ---
-Description: The following lists standard qualifiers specific to WMI.
+description: The following lists standard qualifiers specific to WMI.
 ms.assetid: 63bdbafc-51f3-4714-8b7e-9d5a61cef45e
 ms.tgt_platform: multiple
 title: Standard WMI Qualifiers
@@ -415,7 +415,7 @@ ExecMethod("Circle.Name='MyCircle'","DrawIt");
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: The OpenPackage method of the Installer object opens an installer package for use with functions that access the product database and install engine, returning an Session object.
+description: The OpenPackage method of the Installer object opens an installer package for use with functions that access the product database and install engine, returning an Session object.
 ms.assetid: 22b03bde-29ae-4dd4-a41c-d55b3a4f424c
 title: Installer.OpenPackage method
 ms.topic: reference
@@ -65,7 +65,7 @@ A safe [**Session**](session-object.md) object ignores the current computer stat
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

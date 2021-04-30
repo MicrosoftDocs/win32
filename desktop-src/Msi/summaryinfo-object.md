@@ -1,5 +1,5 @@
 ---
-Description: The SummaryInfo object is used to read, create, and update document properties from the summary information stream of a storage object.
+description: The SummaryInfo object is used to read, create, and update document properties from the summary information stream of a storage object.
 ms.assetid: 296e90d2-84b8-4c9e-8716-be90f94294ee
 title: SummaryInfo object
 ms.topic: reference
@@ -59,7 +59,7 @@ The **SummaryInfo** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

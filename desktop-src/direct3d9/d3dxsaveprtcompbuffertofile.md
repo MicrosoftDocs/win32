@@ -1,5 +1,5 @@
 ---
-Description: Saves a compressed precomputed radiance transfer (PRT) buffer to disk.
+description: Saves a compressed precomputed radiance transfer (PRT) buffer to disk.
 ms.assetid: cc94a83e-f755-411d-a993-4529c5d53cd5
 title: D3DXSavePRTCompBufferToFile function (D3DX9Mesh.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ If *NumClusters* is greater than 1, then the file ends with the cluster IDs data
 
 ## Requirements
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

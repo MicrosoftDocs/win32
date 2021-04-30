@@ -1,5 +1,5 @@
 ---
-Description: Setting the ARPNOMODIFY property disables Add or Remove Programs functionality in Control Panel that modifies the product.
+description: Setting the ARPNOMODIFY property disables Add or Remove Programs functionality in Control Panel that modifies the product.
 ms.assetid: dc804910-cf15-4f9e-863f-78dcac248717
 title: ARPNOMODIFY property
 ms.topic: reference
@@ -26,7 +26,7 @@ This property can be set by a customization transform to prevent users from chan
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

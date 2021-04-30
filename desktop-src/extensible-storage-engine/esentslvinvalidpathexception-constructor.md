@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVInvalidPathException constructor"
 title: EsentSLVInvalidPathException constructor 
 TOCTitle: 'EsentSLVInvalidPathException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVInvalidPathException.#ctor

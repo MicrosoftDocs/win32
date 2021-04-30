@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following property attributes.
+description: Windows Portable Devices supports the following property attributes.
 ms.assetid: 129ee2b8-075c-457a-85ef-658a56eed541
 title: Property Attributes (PortableDevice.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - PortableDevice.h
 ---
 
-# Property Attributes
+# Property Attributes (PortableDevice.h)
 
 Windows Portable Devices supports the following property attributes. These attributes are returned by the following methods:
 
@@ -50,7 +50,7 @@ Windows Portable Devices supports the following property attributes. These attri
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

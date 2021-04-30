@@ -1,5 +1,5 @@
 ---
-Description: The QueryStatus method retrieves the status of the NPP.
+description: IDelaydC::QueryStatus method - The QueryStatus method retrieves the status of the NPP.
 ms.assetid: b035d495-a078-4436-9501-0a30fbfa7268
 title: IDelaydC::QueryStatus method (Netmon.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Before calling this method, you must allocate the memory needed for the [NETWORK
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

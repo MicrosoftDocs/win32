@@ -1,5 +1,5 @@
 ---
-Description: The following table lists formats that are available for each factoid used in English (United Kingdom).
+description: The following table lists formats that are available for each factoid used in English (United Kingdom).
 ms.assetid: d6acf41a-e94e-4e8b-b2ae-0b927632e04d
 title: English (Worldwide) Factoids
 ms.topic: article

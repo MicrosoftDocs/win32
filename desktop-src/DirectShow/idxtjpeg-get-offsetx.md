@@ -1,5 +1,5 @@
 ---
-Description: The get\_OffsetX method retrieves the horizontal offset of the wipe origin.
+description: The get\_OffsetX method retrieves the horizontal offset of the wipe origin.
 ms.assetid: 0ca97bb9-9359-4098-9e80-1847da4154ec
 title: IDxtJpeg::get_OffsetX method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

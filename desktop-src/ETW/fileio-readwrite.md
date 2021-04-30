@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for file read and write events. The following syntax is simplified from MOF code.
+description: This class is the event type class for file read and write events. The following syntax is simplified from MOF code.
 ms.assetid: 88c380fb-e043-40ab-aa74-550bce43c52b
 title: FileIo_ReadWrite class
 ms.topic: reference
@@ -171,7 +171,7 @@ Thread identifier of the thread that is performing the operation.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

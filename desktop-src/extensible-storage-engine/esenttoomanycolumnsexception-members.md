@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyColumnsException members"
 title: EsentTooManyColumnsException members
 TOCTitle: EsentTooManyColumnsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyColumnsException

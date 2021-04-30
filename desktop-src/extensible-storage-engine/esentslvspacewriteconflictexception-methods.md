@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVSpaceWriteConflictException methods"
 title: EsentSLVSpaceWriteConflictException methods
 TOCTitle: EsentSLVSpaceWriteConflictException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceWriteConflictException

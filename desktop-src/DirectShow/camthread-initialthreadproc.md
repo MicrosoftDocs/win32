@@ -1,5 +1,5 @@
 ---
-Description: The InitialThreadProc method calls the main thread procedure.
+description: The InitialThreadProc method calls the main thread procedure.
 ms.assetid: 1546c214-7ea9-4484-974b-dbd4b2b3e296
 title: CAMThread.InitialThreadProc method (Wxutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This method calls the [**CAMThread::CoInitializeHelper**](camthread-coinitialize
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

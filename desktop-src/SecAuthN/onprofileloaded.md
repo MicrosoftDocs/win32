@@ -1,5 +1,5 @@
 ---
-Description: Checks that the online user profile is loaded.
+description: Checks that the online user profile is loaded.
 ms.assetid: 4391664E-44D0-461D-84FF-E2B2410511BC
 title: OnProfileLoaded function (Lsaidprov.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ This function is called each time the [**LoadUserProfile**](/windows/win32/api/u
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |

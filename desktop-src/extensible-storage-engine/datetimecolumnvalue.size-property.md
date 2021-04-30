@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DateTimeColumnValue.Size property"
 title: DateTimeColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.DateTimeColumnValue.Size

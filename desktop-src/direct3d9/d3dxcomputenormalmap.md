@@ -1,5 +1,5 @@
 ---
-Description: Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.
+description: D3DXComputeNormalMap function - Converts a height map into a normal map. The (x,y,z) components of each normal are mapped to the (r,g,b) channels of the output texture.
 ms.assetid: ed9053c0-b1df-4f74-bdee-627c0f60d942
 title: D3DXComputeNormalMap function (D3dx9tex.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ This method computes the normal by using the central difference with a kernel si
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

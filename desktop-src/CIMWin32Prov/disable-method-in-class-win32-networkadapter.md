@@ -1,5 +1,5 @@
 ---
-Description: Disables the network adapter.
+description: Disables the network adapter.
 ms.assetid: 6b328d7c-a9ef-4c9b-bc32-13fa2e0f65eb
 ms.tgt_platform: multiple
 title: Disable method of the Win32_NetworkAdapter class
@@ -41,7 +41,7 @@ Returns zero (0) to indicate success. Any other number indicates an error. For e
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Music.InitialKey
 ms.assetid: 34ee1164-b23b-4fe4-ba66-0e963278d710
 title: System.Music.InitialKey
 ms.topic: article

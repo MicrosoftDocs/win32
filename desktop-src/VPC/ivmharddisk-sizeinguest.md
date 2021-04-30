@@ -61,7 +61,7 @@ The size, in bytes, of the hard disk image. This value is a **VARIANT** of type 
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

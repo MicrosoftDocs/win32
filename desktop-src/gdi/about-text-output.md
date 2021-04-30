@@ -1,5 +1,5 @@
 ---
-Description: Text output is the most common type of graphic output found within the client area; it is used by applications in different ways.
+description: Text output is the most common type of graphic output found within the client area; it is used by applications in different ways.
 ms.assetid: d19d7618-367a-408f-b4c1-7f76f13e5e90
 title: About Text Output
 ms.topic: article

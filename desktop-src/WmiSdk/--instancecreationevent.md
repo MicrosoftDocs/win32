@@ -1,5 +1,5 @@
 ---
-Description: Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.
+description: Reports an instance creation event, which is a type of intrinsic event that is generated when a new instance is added to the namespace.
 ms.assetid: 41976479-70e3-4914-a56a-fa94a1fd31c7
 ms.tgt_platform: multiple
 title: '__InstanceCreationEvent class'
@@ -115,7 +115,7 @@ The [Monitor process creation event](https://Gallery.TechNet.Microsoft.Com/6f137
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

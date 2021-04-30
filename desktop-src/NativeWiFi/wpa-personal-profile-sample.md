@@ -1,5 +1,5 @@
 ---
-Description: Uses a pre-shared key for network authentication.
+description: Uses a pre-shared key for network authentication.
 ms.assetid: f04de28b-a98d-40cd-91c8-e446cf669555
 title: WPA-Personal Profile Sample
 ms.topic: article

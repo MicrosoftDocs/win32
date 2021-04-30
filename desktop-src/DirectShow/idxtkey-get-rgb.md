@@ -1,5 +1,5 @@
 ---
-Description: The get\_RGB method retrieves the RGB color on which to key. This property applies only when the key type is DXTKEY\_RGB.
+description: The get\_RGB method retrieves the RGB color on which to key. This property applies only when the key type is DXTKEY\_RGB.
 ms.assetid: 7b1b22ff-457a-48c8-9221-ca38601874a9
 title: IDxtKey::get_RGB method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeNormalizationNotSupportedException class"
 title: EsentUnicodeNormalizationNotSupportedException class
 TOCTitle: EsentUnicodeNormalizationNotSupportedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentUnicodeNormalizationNotSupportedException

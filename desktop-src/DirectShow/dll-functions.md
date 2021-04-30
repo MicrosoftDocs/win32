@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to implement a component as a dynamic-link library (DLL) in Microsoft DirectShow.
+description: This topic describes how to implement a component as a dynamic-link library (DLL) in Microsoft DirectShow.
 ms.assetid: cb935c26-2dc9-4ab3-810d-b63f1018a62a
 title: DLL Functions
 ms.topic: article

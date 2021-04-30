@@ -1,5 +1,5 @@
 ---
-Description: A number of factoids describe input that is common to all language recognizers and need not have different formats for different languages. The following table lists factoids that are common across all languages.
+description: A number of factoids describe input that is common to all language recognizers and need not have different formats for different languages. The following table lists factoids that are common across all languages.
 ms.assetid: dae4a28d-0332-4bb2-b040-13a959c7945e
 title: Factoids Common Across Languages
 ms.topic: article

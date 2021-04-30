@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInTransactionException members"
 title: EsentNotInTransactionException members
 TOCTitle: EsentNotInTransactionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNotInTransactionException

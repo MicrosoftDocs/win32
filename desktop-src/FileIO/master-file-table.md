@@ -1,5 +1,5 @@
 ---
-Description: All information about a file, including its size, time and date stamps, permissions, and data content, is stored either in master file table (MFT) entries, or in space outside the MFT that is described by MFT entries.
+description: All information about a file, including its size, time and date stamps, permissions, and data content, is stored either in master file table (MFT) entries, or in space outside the MFT that is described by MFT entries.
 ms.assetid: e0933846-278e-4bc8-8982-c5819c252dad
 title: Master File Table (Local File Systems)
 ms.topic: article

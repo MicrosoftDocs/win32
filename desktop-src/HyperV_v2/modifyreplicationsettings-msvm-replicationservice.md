@@ -1,5 +1,5 @@
 ---
-Description: Modifies the replication settings for a virtual machine. When a client calls this method for a replica virtual machine, it modifies the replication settings of the replication relationship with the extended replica.
+description: Modifies the replication settings for a virtual machine. When a client calls this method for a replica virtual machine, it modifies the replication settings of the replication relationship with the extended replica.
 ms.assetid: e68514a5-f508-4047-8dcc-6a95f3e3353e
 title: ModifyReplicationSettings method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -142,7 +142,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

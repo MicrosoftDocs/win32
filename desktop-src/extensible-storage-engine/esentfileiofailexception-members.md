@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOFailException members"
 title: EsentFileIOFailException members
 TOCTitle: EsentFileIOFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileIOFailException

@@ -1,5 +1,5 @@
 ---
-Description: Creates a temporary container in the cryptographic service provider (CSP) and loads a private key from memory into the container.
+description: Creates a temporary container in the cryptographic service provider (CSP) and loads a private key from memory into the container.
 ms.assetid: 9388b49b-fad4-4499-a391-fe58ed672552
 title: PvkPrivateKeyAcquireContextFromMemory function
 ms.topic: reference
@@ -123,7 +123,7 @@ Upon success, this function returns **TRUE**. The **PvkPrivateKeyAcquireContextF
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

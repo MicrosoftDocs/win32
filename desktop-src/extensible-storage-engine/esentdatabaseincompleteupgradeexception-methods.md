@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIncompleteUpgradeException methods"
 title: EsentDatabaseIncompleteUpgradeException methods
 TOCTitle: EsentDatabaseIncompleteUpgradeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteUpgradeException

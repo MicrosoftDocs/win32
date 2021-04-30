@@ -1,5 +1,5 @@
 ---
-Description: Sets blending event keys for the specified animation track.
+description: Sets blending event keys for the specified animation track.
 ms.assetid: 2023d566-1de5-465a-ad6f-04a78ac01c33
 title: ID3DXAnimationController::KeyPriorityBlend method (D3dx9anim.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ The animation controller blends in three phases: low priority tracks are blended
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

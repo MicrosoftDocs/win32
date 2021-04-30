@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Addition operator"
 title: JET_THREADSTATS.Addition operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Addition operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.op_Addition(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS,Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)

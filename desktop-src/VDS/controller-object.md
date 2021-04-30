@@ -1,5 +1,5 @@
 ---
-Description: Controller Object
+description: Controller Object
 ms.assetid: ae2c4d47-15a6-4b9d-9165-4ee04a6ff3a8
 title: Controller Object
 ms.topic: article
@@ -12,7 +12,7 @@ ms.date: 05/31/2018
 
 A controller object models a controller in a subsystem. Controllers are contained by subsystems, and each controller has one or more controller ports through which the host computer can write to and read from LUNs. A single controller can be simultaneously set to active for one LUN and inactive for others. A controller that is active for a specified LUN carries the responsibility for handling input to and output from the LUN. The following figure illustrates this idea.
 
-![](images/vdscontroller.png)
+![Diagram that shows a 'Controller' with an active LUN on the left, and two active LUNs on the right.](images/vdscontroller.png)
 
 **VDS 1.0:** Each of a subsystem's controllers is set to either active or inactive in relation to each of the LUNs the subsystem surfaces.
 

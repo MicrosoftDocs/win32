@@ -1,5 +1,5 @@
 ---
-Description: Queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
+description: Queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
 ms.assetid: 8a4c3173-5911-49ec-8cb8-e30f96a4f1c9
 title: IDirect3DDXVADevice9::QueryStatus method (Dxva.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |

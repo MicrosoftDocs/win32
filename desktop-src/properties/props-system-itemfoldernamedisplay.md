@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly display name of an item's parent folder.
+description: The user-friendly display name of an item's parent folder.
 ms.assetid: 4049b6cb-41a1-4df6-89d1-a2022d3a285d
 title: System.ItemFolderNameDisplay
 ms.topic: article

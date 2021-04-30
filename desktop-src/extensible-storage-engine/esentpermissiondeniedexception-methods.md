@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPermissionDeniedException methods"
 title: EsentPermissionDeniedException methods
 TOCTitle: EsentPermissionDeniedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPermissionDeniedException

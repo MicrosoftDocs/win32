@@ -1,5 +1,5 @@
 ---
-Description: Sent to a window that the user is moving. By processing this message, an application can monitor the position of the drag rectangle and, if needed, change its position.
+description: Sent to a window that the user is moving. By processing this message, an application can monitor the position of the drag rectangle and, if needed, change its position.
 ms.assetid: f56a36c1-dbaa-438a-9e52-d12697a9dac9
 title: WM_MOVING message (Winuser.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ An application should return **TRUE** if it processes this message.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

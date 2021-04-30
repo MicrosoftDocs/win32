@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether 2-channel audio is encoded as stereo or dual mono.
+description: AVDecAudioDualMono property - Specifies whether 2-channel audio is encoded as stereo or dual mono.
 ms.assetid: 96cb9e17-588c-4a1a-a7ba-7f8439d5b79a
 title: AVDecAudioDualMono property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This property applies only when the decoder's input bit stream contains two-chan
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

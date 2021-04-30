@@ -53,7 +53,7 @@ Returns MMSYSERR\_NOERROR if successful or an error otherwise. Possible error va
 
 
 
-|                    |                                             |
+| Requirement | Value |
 |--------------------|---------------------------------------------|
 | MMIOM\_CANNOTOPEN  | The file could not be opened.               |
 | MMIOM\_OUTOFMEMORY | Not enough memory to perform the operation. |
@@ -74,7 +74,7 @@ If the application passed an [**MMIOINFO**](/previous-versions//dd757322(v=vs.85
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

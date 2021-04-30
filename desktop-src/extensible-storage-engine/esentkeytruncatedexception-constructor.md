@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTruncatedException constructor"
 title: EsentKeyTruncatedException constructor 
 TOCTitle: 'EsentKeyTruncatedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: The CheckMediaType method determines if the pin accepts a specific media type.
+description: CBasePin.CheckMediaType method - The CheckMediaType method determines if the pin accepts a specific media type.
 ms.assetid: 6a138679-02b7-4ccc-8881-a0d496f84f93
 title: CBasePin.CheckMediaType method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The derived class must override this pure virtual method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

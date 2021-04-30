@@ -22,7 +22,7 @@ The list of allowed suffixes for the dNSHostName attribute in computer objects.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Allowed-DNS-Suffixes                  |
 | Ldap-Display-Name | msDS-AllowedDNSSuffixes                     |
@@ -48,7 +48,7 @@ The list of allowed suffixes for the dNSHostName attribute in computer objects.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -69,7 +69,7 @@ The list of allowed suffixes for the dNSHostName attribute in computer objects.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -90,7 +90,7 @@ The list of allowed suffixes for the dNSHostName attribute in computer objects.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -111,7 +111,7 @@ The list of allowed suffixes for the dNSHostName attribute in computer objects.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -132,7 +132,7 @@ The list of allowed suffixes for the dNSHostName attribute in computer objects.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -153,7 +153,7 @@ The list of allowed suffixes for the dNSHostName attribute in computer objects.
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

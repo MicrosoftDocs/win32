@@ -1,5 +1,5 @@
 ---
-Description: Sent when an application requests that a window be created by calling the CreateWindowEx or CreateWindow function.
+description: Sent when an application requests that a window be created by calling the CreateWindowEx or CreateWindow function.
 ms.assetid: d484d0fc-bad0-4fcb-bf4b-37cbc50846ee
 title: WM_CREATE message (Winuser.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ If an application processes this message, it should return zero to continue crea
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The BlockOutputPin method blocks the pin.
+description: The BlockOutputPin method blocks the pin.
 ms.assetid: 49f6b8da-a8b2-482d-b70d-2c68a1b45a10
 title: CDynamicOutputPin.BlockOutputPin method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Before calling this method, hold the [**CDynamicOutputPin::m\_BlockStateLock**](
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

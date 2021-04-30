@@ -1,5 +1,5 @@
 ---
-Description: Using Multilingual User Interface
+description: Using Multilingual User Interface
 ms.assetid: caf167ad-f9a8-4093-9581-57bc507d1f6a
 title: Using Multilingual User Interface
 ms.topic: article

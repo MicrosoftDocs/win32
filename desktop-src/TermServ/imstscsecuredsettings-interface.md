@@ -1,6 +1,6 @@
 ---
 title: IMsTscSecuredSettings interface
-description: Includes methods to retrieve and set properties of the Remote Desktop ActiveX control that are restricted to specific Internet Explorer URL security zones.
+description: Includes methods to retrieve and set properties of the Remote Desktop ActiveX control that are restricted to specific Internet Explorer URL security zones. | IMsTscSecuredSettings interface
 ms.assetid: 1136dbc5-abe6-40e0-b44f-700a1460fbd2
 ms.tgt_platform: multiple
 keywords:
@@ -54,7 +54,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

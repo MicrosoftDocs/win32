@@ -1,5 +1,5 @@
 ---
-Description: The CQueue class template implements a simple, statically sized queue.
+description: The CQueue class template implements a simple, statically sized queue.
 ms.assetid: 5a4f0bcf-24ed-427d-898d-f3ddc6a35b59
 title: CQueue class (Wxutil.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ The class uses two semaphores to control queuing operations, a "get" semaphore a
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

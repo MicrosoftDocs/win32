@@ -197,7 +197,7 @@ For an example that shows how to use WMI to retrieve data from this class, see t
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                                |

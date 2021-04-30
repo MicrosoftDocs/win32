@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BootOSFromFS class associates the operating system and the file systems from which the operating system is loaded.
+description: The CIM\_BootOSFromFS class associates the operating system and the file systems from which the operating system is loaded.
 ms.assetid: c5697e9c-9031-4787-a03d-cf713c961cdf
 ms.tgt_platform: multiple
 title: CIM_BootOSFromFS class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

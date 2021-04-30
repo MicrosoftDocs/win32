@@ -1,5 +1,5 @@
 ---
-Description: For segment re-encoding, specifies the starting buffer fullness.
+description: For segment re-encoding, specifies the starting buffer fullness.
 ms.assetid: b93a6175-bd28-4d7b-a3a1-a94eeb55875a
 title: MFPKEY_REENCSTARTBUFFERSIZE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

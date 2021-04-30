@@ -1,5 +1,5 @@
 ---
-Description: A merge tool evaluates the ModuleAdminUISequence table and then inserts the calculated actions into the AdminUISequence table with a correct sequence number.
+description: A merge tool evaluates the ModuleAdminUISequence table and then inserts the calculated actions into the AdminUISequence table with a correct sequence number.
 ms.assetid: c71477e7-22bc-420a-9902-39bbf98b4ee5
 title: ModuleAdminUISequence Table
 ms.topic: article

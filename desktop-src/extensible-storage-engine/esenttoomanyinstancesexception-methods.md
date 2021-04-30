@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyInstancesException methods"
 title: EsentTooManyInstancesException methods
 TOCTitle: EsentTooManyInstancesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyInstancesException

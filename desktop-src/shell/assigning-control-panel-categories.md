@@ -1,5 +1,5 @@
 ---
-Description: As of Windows XP, Control Panel supports categorization of Control Panel items. Items are registered to appear in one or more category. New categories cannot be created.
+description: As of Windows XP, Control Panel supports categorization of Control Panel items. Items are registered to appear in one or more category. New categories cannot be created.
 title: Assigning Control Panel Categories
 ms.topic: article
 ms.date: 05/31/2018

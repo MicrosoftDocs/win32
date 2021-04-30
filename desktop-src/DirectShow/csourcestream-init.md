@@ -1,5 +1,5 @@
 ---
-Description: The Init method initializes the streaming thread.
+description: The Init method initializes the streaming thread.
 ms.assetid: c746e595-de97-478c-8b22-5c4dd5594a8f
 title: CSourceStream.Init method (Source.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method must be the first thread request sent to the [**CSourceStream::Threa
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The graph is buffering data, or has stopped buffering data.
+description: The graph is buffering data, or has stopped buffering data.
 ms.assetid: 39e8b151-0323-42b3-99f0-3dcd230925c8
 title: EC_BUFFERING_DATA (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ A filter can send this event if it needs to buffer data from an external source.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

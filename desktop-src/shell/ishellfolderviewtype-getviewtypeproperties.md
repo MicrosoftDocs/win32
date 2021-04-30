@@ -1,5 +1,5 @@
 ---
-Description: Gets the properties of the view.
+description: Gets the properties of the view.
 title: IShellFolderViewType::GetViewTypeProperties method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -95,7 +95,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: The AttachProperties export function maps the properties to a location within a piece of recognized data. AttachProperties must be implemented for each parser that the parser DLL supports.
+description: The AttachProperties export function maps the properties to a location within a piece of recognized data. AttachProperties must be implemented for each parser that the parser DLL supports.
 ms.assetid: ef28f571-8364-47d0-841c-580e89333afd
 title: AttachProperties callback function (Netmon.h)
 ms.topic: reference
@@ -145,7 +145,7 @@ Instance data is information that is passed from one parser to another. Instance
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

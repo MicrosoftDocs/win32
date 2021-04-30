@@ -1,5 +1,5 @@
 ---
-Description: Navigates to the client-side page immediately preceding the page hosting the server-side HTML pages.
+description: Navigates to the client-side page immediately preceding the page hosting the server-side HTML pages.
 title: WebWizardHost.FinalBack method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ When the wizard displays the first server-side page and the user clicks the **Ba
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetDatabaseFileInfo method (String, Int32, JET_DbInfo)"
 title: Api.JetGetDatabaseFileInfo method (String, Int32, JET_DbInfo)
 TOCTitle: JetGetDatabaseFileInfo method (String, Int32, JET_DbInfo)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetDatabaseFileInfo(System.String,System.Int32@,Microsoft.Isam.Esent.Interop.JET_DbInfo)

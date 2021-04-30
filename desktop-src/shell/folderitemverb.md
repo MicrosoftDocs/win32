@@ -1,5 +1,5 @@
 ---
-Description: Represents a single verb available to an item. This object contains properties and methods that allow you to retrieve information about the verb.
+description: Represents a single verb available to an item. This object contains properties and methods that allow you to retrieve information about the verb.
 title: FolderItemVerb object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -70,7 +70,7 @@ The **FolderItemVerb** object has these properties.
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

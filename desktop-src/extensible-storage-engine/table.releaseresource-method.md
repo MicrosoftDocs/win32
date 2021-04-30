@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table.ReleaseResource method"
 title: Table.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Table.ReleaseResource

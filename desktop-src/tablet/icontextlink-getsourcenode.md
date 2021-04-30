@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IContextNode object that is the source for this IContextLink.
+description: Retrieves the IContextNode object that is the source for this IContextLink.
 ms.assetid: 2f55ae9c-9f63-4d49-9bf0-9e169b819e79
 title: IContextLink::GetSourceNode method (IACom.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If the [**IContextLink**](icontextlink.md) object has a link type of Encloses (s
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

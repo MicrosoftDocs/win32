@@ -1,5 +1,5 @@
 ---
-Description: IPrivateIdentityManager2::GetDefaultIdentity method
+description: IPrivateIdentityManager2::GetDefaultIdentity method
 title: IPrivateIdentityManager2::GetDefaultIdentity method
 ms.topic: reference
 ms.date: 05/31/2018

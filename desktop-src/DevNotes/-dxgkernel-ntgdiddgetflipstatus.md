@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the most recently requested flip on a surface has occurred.
+description: Determines whether the most recently requested flip on a surface has occurred.
 ms.assetid: 4489e259-b22d-4e72-807a-5290401f0331
 title: NtGdiDdGetFlipStatus function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [DD\_GETFLIPSTATUSDATA](https://msdn.microsoft.com/library/ms793859
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

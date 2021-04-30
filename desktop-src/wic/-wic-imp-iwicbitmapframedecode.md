@@ -1,5 +1,5 @@
 ---
-Description: Implementing IWICBitmapFrameDecode
+description: Implementing IWICBitmapFrameDecode
 ms.assetid: 7dc626ad-1158-4b67-8ca7-47b4cf88e278
 title: Implementing IWICBitmapFrameDecode
 ms.topic: article

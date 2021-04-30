@@ -1,5 +1,5 @@
 ---
-Description: The AuthzGetCentralAccessPolicyCallback function is an application-defined function that retrieves the central access policy. AuthzGetCentralAccessPolicyCallback is a placeholder for the application-defined function name.
+description: The AuthzGetCentralAccessPolicyCallback function is an application-defined function that retrieves the central access policy. AuthzGetCentralAccessPolicyCallback is a placeholder for the application-defined function name.
 ms.assetid: 1D5831EF-ACA8-4EE9-A7C1-E1A3CB74CEC0
 title: AuthzGetCentralAccessPolicyCallback callback function
 ms.topic: reference
@@ -82,7 +82,7 @@ If the function is unable to perform the evaluation, it returns **FALSE**. Use [
 
 
 
-|                                     |                                                                        |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                   |

@@ -1,5 +1,5 @@
 ---
-Description: Media Session Events
+description: Media Session Events
 ms.assetid: 882a01f2-8f5c-4640-a8ac-f4f5860d7ed1
 title: Media Session Events
 ms.topic: article

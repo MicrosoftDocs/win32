@@ -59,7 +59,7 @@ The current state of the virtual machine. For a list of values, see [**VMVMState
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

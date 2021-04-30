@@ -1,5 +1,5 @@
 ---
-Description: Determines whether a virtual hard disk file is valid.
+description: Determines whether a virtual hard disk file is valid.
 ms.assetid: 5F7C99DB-0C81-46D5-A965-B6D87647ABF6
 title: ValidateVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -150,7 +150,7 @@ public static void ValidateVirtualHardDisk(string vhdPath)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

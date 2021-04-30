@@ -1,5 +1,5 @@
 ---
-Description: Primary telephone number of the contact.
+description: Primary telephone number of the contact.
 ms.assetid: ba4b812f-11f2-4039-958b-1a9e54432748
 title: System.Contact.PrimaryTelephone
 ms.topic: article

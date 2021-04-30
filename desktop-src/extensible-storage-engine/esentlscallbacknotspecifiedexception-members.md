@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSCallbackNotSpecifiedException members"
 title: EsentLSCallbackNotSpecifiedException members
 TOCTitle: EsentLSCallbackNotSpecifiedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLSCallbackNotSpecifiedException

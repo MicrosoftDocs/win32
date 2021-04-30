@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO.logtimeStop property"
 title: JET_RSTINFO.logtimeStop property 
 TOCTitle: 'logtimeStop property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTINFO.logtimeStop

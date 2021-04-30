@@ -1,5 +1,5 @@
 ---
-Description: The Distributed Routing Table (DRT) API allows applications to publish and resolve numeric keys in a peer network.
+description: The Distributed Routing Table (DRT) API allows applications to publish and resolve numeric keys in a peer network.
 ms.assetid: 17422d71-4c6d-458b-87b6-b31fc2b5bda5
 title: Distributed Routing Table API
 ms.topic: article

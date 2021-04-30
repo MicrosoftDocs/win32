@@ -1,5 +1,5 @@
 ---
-Description: IsExclusiveToOther
+description: IsExclusiveToOther
 MS-HAID: WWAN\_profile\_v4.element\_IsExclusiveToOther
 MSHAttr:
 - PreferredSiteName:MSDN

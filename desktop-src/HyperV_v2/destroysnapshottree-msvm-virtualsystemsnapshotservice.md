@@ -1,5 +1,5 @@
 ---
-Description: Removes an existing snapshot, and all its children, of a virtual machine.
+description: Removes an existing snapshot, and all its children, of a virtual machine.
 ms.assetid: d7a6442a-41a5-4e82-8ec8-dbc8e14d9a89
 title: DestroySnapshotTree method of the Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

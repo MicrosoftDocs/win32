@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentApiException constructor (SerializationInfo, StreamingContext)"
 title: EsentApiException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentApiException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentApiException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

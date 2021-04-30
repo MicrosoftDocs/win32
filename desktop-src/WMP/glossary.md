@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Glossary
+# Glossary (Windows Media Player SDK)
 
 <dl> <dt>
 

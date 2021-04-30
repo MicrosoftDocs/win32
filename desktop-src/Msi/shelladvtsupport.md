@@ -1,5 +1,5 @@
 ---
-Description: The ShellAdvtSupport property is set by the installer if the system's IShellLink interface supports installer descriptor resolution.
+description: The ShellAdvtSupport property is set by the installer if the system's IShellLink interface supports installer descriptor resolution.
 ms.assetid: 8c3503c5-2a9c-43ad-8cc5-ea10df39b24d
 title: ShellAdvtSupport property
 ms.topic: reference
@@ -18,7 +18,7 @@ If this property is set, the system's [**IShellLink**](/windows/win32/api/shobji
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

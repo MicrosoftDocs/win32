@@ -1,5 +1,5 @@
 ---
-Description: Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its average bit rate (specified by MFPKEY\_RAVG).
+description: Specifies the buffer window, in milliseconds, of a constrained variable-bit-rate (VBR) stream at its average bit rate (specified by MFPKEY\_RAVG).
 ms.assetid: 7eabceb5-976e-4ebc-9042-9c203044634c
 title: MFPKEY_BAVG Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This value is computed by the codec after the final encoding pass. You should no
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

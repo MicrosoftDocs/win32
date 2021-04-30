@@ -1,5 +1,5 @@
 ---
-Description: Normally, debugging information is stored in a symbol file separate from the executable.
+description: Normally, debugging information is stored in a symbol file separate from the executable.
 ms.assetid: 610e5cd3-9dc3-462c-98f8-6a63874464f8
 title: Symbol Files
 ms.topic: article

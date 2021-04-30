@@ -1,5 +1,5 @@
 ---
-Description: Multiplication assignment operators.
+description: Multiplication assignment operators.
 ms.assetid: 4d25cef1-8b39-42db-80df-c749940feb0b
 title: operator *= operators
 ms.topic: reference

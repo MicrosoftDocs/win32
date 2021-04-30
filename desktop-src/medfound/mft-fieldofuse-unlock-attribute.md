@@ -1,5 +1,5 @@
 ---
-Description: Contains an IMFFieldOfUseMFTUnlock pointer, which can be used to unlock a Media Foundation transform (MFT). The IMFFieldOfUseMFTUnlock interface is used to unlock an MFT that has field-of-use restrictions.
+description: Contains an IMFFieldOfUseMFTUnlock pointer, which can be used to unlock a Media Foundation transform (MFT). The IMFFieldOfUseMFTUnlock interface is used to unlock an MFT that has field-of-use restrictions.
 ms.assetid: 7f48967e-375a-4019-b14f-2f457b616cc0
 title: MFT_FIELDOFUSE_UNLOCK_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

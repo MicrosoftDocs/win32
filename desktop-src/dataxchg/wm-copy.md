@@ -47,7 +47,7 @@ This parameter is not used and must be zero.
 
 ## Return value
 
-This message does not return a value.
+Returns nonzero value on success, else zero.
 
 ## Remarks
 
@@ -57,7 +57,7 @@ When sent to a combo box, the **WM\_COPY** message is handled by its edit contro
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

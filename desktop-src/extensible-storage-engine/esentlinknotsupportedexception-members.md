@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLinkNotSupportedException members"
 title: EsentLinkNotSupportedException members
 TOCTitle: EsentLinkNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLinkNotSupportedException

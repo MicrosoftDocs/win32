@@ -1,5 +1,5 @@
 ---
-Description: PSI Parser Filter Sample
+description: PSI Parser Filter Sample
 ms.assetid: e815d57f-25e5-4a71-8f40-e7abec0db236
 title: PSI Parser Filter Sample
 ms.topic: article

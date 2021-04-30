@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS members"
 title: JET_RECPOS members
 TOCTitle: JET_RECPOS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RECPOS

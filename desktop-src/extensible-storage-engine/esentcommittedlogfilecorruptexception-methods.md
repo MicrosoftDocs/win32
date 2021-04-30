@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCommittedLogFileCorruptException methods"
 title: EsentCommittedLogFileCorruptException methods
 TOCTitle: EsentCommittedLogFileCorruptException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFileCorruptException

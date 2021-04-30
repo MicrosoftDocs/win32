@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for registry events. The following syntax is simplified from MOF code.
+description: Registry_V1_TypeGroup1 class - This class is the event type class for registry events. The following syntax is simplified from MOF code.
 ms.assetid: 59c455a0-af7e-4fd5-9af4-07ff72ee0545
 title: Registry_V1_TypeGroup1 class
 ms.topic: reference
@@ -135,7 +135,7 @@ NTSTATUS value of the registry operation.
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

@@ -1,5 +1,5 @@
 ---
-Description: Plug-in Distributors
+description: Plug-in Distributors
 ms.assetid: 80ff713d-f704-40d3-9317-cbf33d932207
 title: Plug-in Distributors
 ms.topic: article

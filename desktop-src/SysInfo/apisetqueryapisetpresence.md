@@ -1,5 +1,5 @@
 ---
-Description: This API is intended for internal use only and should not be used in your code.
+description: This API is intended for internal use only and should not be used in your code.
 ms.assetid: 836A7515-8C22-4032-9E99-F89B32C21685
 title: ApiSetQueryApiSetPresence function (Apiquery.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ BOOL WINAPI ApiSetQueryApiSetPresence(
 
 
 
-|                                     |                                                                                                                                                                                                       |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                                                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                                                  |

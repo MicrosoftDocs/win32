@@ -1,6 +1,6 @@
 ---
 title: channels (MetadataType) Element
-description: Defines a list of channels to which providers can log events.
+description: Defines a list of channels to which providers can log events. | channels (MetadataType) Element
 ms.assetid: ead7317f-29ec-43d2-a588-7915c8e74dc1
 keywords:
 - channels element EventLog
@@ -31,7 +31,7 @@ The **channels** element is defined by the [**MetadataType**](eventmanifestschem
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

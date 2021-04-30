@@ -61,7 +61,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |

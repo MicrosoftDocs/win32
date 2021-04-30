@@ -1,5 +1,5 @@
 ---
-Description: Specifies the current characteristics of the media source.
+description: Specifies the current characteristics of the media source.
 ms.assetid: af2a2b75-cd4e-453c-876e-3be2db695e4e
 title: MF_EVENT_SOURCE_CHARACTERISTICS attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

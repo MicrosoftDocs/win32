@@ -1,5 +1,5 @@
 ---
-Description: Exports a reference point collection to a file. The reference point collection, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
+description: Exports a reference point collection to a file. The reference point collection, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
 ms.assetid: 0ed61ded-b4d6-40c5-98be-e192eb934387
 title: ExportReferencePoint method of the Msvm_CollectionReferencePointService class
 ms.topic: reference
@@ -73,7 +73,7 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

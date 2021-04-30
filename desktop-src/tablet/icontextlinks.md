@@ -1,5 +1,5 @@
 ---
-Description: Contains a collection of objects that implement the IContextLink interface.
+description: Contains a collection of objects that implement the IContextLink interface.
 ms.assetid: 34d1bbbb-85c0-4209-97ca-c22f22a1b625
 title: IContextLinks interface (IACom.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ This is usually accessed through the [**IContextNode::GetContextLinks**](icontex
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

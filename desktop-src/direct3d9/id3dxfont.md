@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXFont interface encapsulates the textures and resources needed to render a specific font on a specific device.
+description: The ID3DXFont interface encapsulates the textures and resources needed to render a specific font on a specific device.
 ms.assetid: ac40b600-3b9f-4e6e-8563-18597b3dd602
 title: ID3DXFont interface (D3dx9core.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ typedef interface ID3DXFont *LPD3DXFONT;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

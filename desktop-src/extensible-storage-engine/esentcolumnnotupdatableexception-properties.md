@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotUpdatableException properties"
 title: EsentColumnNotUpdatableException properties
 TOCTitle: EsentColumnNotUpdatableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException

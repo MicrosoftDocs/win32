@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average bit rate of the encoded audio stream, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
+description: Specifies the average bit rate of the encoded audio stream, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 9513ad64-2de9-497d-86ce-46cfdf87e0f8
 title: AVEncAudioMeanBitRate property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Encoders can implement this property as an enumerated set or as a linear range.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

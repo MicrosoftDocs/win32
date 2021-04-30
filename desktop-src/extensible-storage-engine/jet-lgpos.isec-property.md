@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.isec property"
 title: JET_LGPOS.isec property 
 TOCTitle: 'isec property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.isec

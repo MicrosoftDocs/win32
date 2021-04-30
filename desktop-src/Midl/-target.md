@@ -11,7 +11,7 @@ api_name:
 api_type:
 - NA
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 02/05/2021
 ---
 
 # /target switch
@@ -29,7 +29,7 @@ midl /target level
 *level* 
 </dt> <dd>
 
-Specifies the target level, such as NT50, NT51, NT60, NT61, or NT62.
+Specifies the target level, such as NT50, NT51, NT60, NT61, NT62, or NT100.
 
 </dd> </dl>
 
@@ -46,9 +46,7 @@ The **/target** switch automatically activates additional switches, based on the
 | Windows Vista    | NT60          | /Oicf /error all /robust /protocol all |
 | Windows 7        | NT61          | /Oicf /error all /robust /protocol all |
 | Windows 8        | NT62          | /Oicf /error all /robust /protocol all |
-
-
-
+| Windows 10       | NT100         | /Oicf /error all /robust /protocol all |
  
 
 To ensure a stub runs on the system specified by the **/target** switch, MIDL issues an error when a feature available only on a more recent version of Windows is present. The following table specifies the minimum **/target** level required to enable the feature. Higher target levels include all features from lower target levels.
@@ -62,7 +60,7 @@ To ensure a stub runs on the system specified by the **/target** switch, MIDL is
 | NT60                           | Forced complex structure marshalling<br/> Context handles in an array or structure<br/> \[range\] support for unsized strings<br/> \[type\_strict\_context\_handle\]<br/> |
 | NT61                           | Direct COM stub calls for interfaces with less than 32 methods requires linking COM stubs with **OLE32.DLL**.<br/>                                                                          |
 | NT62                           | ARM support<br/> WinRT support<br/>                                                                                                                                                   |
-
+| NT100                          | \[system_handle\] support<br /> |
 
 
  
@@ -80,12 +78,3 @@ To ensure a stub runs on the system specified by the **/target** switch, MIDL is
 
 [**/osf**](-osf.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
-

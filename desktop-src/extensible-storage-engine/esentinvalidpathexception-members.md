@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPathException members"
 title: EsentInvalidPathException members
 TOCTitle: EsentInvalidPathException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidPathException

@@ -1,5 +1,5 @@
 ---
-Description: The ResetFormatBuffer method deletes the format block. The method sets the cbFormat and pbFormat members of the AM\_MEDIA\_TYPE structure to NULL.
+description: The ResetFormatBuffer method deletes the format block. The method sets the cbFormat and pbFormat members of the AM\_MEDIA\_TYPE structure to NULL.
 ms.assetid: 5eb6dfc8-cfba-41dd-b422-8fe93ca904c1
 title: CMediaType.ResetFormatBuffer method (Mtype.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

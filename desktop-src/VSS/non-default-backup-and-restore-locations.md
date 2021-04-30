@@ -1,5 +1,5 @@
 ---
-Description: Backup and restore operations typically copy files from a given, default location on disk to backup media and then restore from that media to the same default location on disk.
+description: Backup and restore operations typically copy files from a given, default location on disk to backup media and then restore from that media to the same default location on disk.
 ms.assetid: 7609c392-d5f8-48c2-8e7e-f35f56cf94f8
 title: Non-Default Backup and Restore Locations
 ms.topic: article

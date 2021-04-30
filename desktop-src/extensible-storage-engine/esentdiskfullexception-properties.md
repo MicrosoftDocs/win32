@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskFullException properties"
 title: EsentDiskFullException properties
 TOCTitle: EsentDiskFullException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDiskFullException

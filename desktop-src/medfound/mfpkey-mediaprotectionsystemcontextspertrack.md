@@ -1,5 +1,5 @@
 ---
-Description: Set to an IPropertySet that defines a mapping from track type to a IRandomAccessStream that contains the Digital Rights Management (DRM) context.
+description: Set to an IPropertySet that defines a mapping from track type to a IRandomAccessStream that contains the Digital Rights Management (DRM) context.
 ms.assetid: 76911293-CEB3-4D0E-A021-70A2D1303ED1
 title: MFPKEY_MediaProtectionSystemContextsPerTrack property (Mfidl.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ VT\_UNKNOWN that points to a IMap<HSTRING,IInspectable\*>
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                     |

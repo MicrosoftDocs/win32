@@ -1,5 +1,5 @@
 ---
-Description: Pixel shader capability flags.
+description: Pixel shader capability flags.
 ms.assetid: 41a8939f-eba5-47ca-8628-94b606b6f43d
 title: D3DD3DPSHADERCAPS2_0
 ms.topic: article
@@ -12,9 +12,8 @@ Pixel shader capability flags.
 
 
 
-|                                              |                |                                                                                                                                                                                                                   |
-|----------------------------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                                     | Value          | Description                                                                                                                                                                                                       |
+|----------------------------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DD3DPSHADERCAPS2\_0\_ARBITRARYSWIZZLE      | (1 << 0) | Arbitrary swizzling is supported.                                                                                                                                                                                 |
 | D3DD3DPSHADERCAPS2\_0\_GRADIENTINSTRUCTIONS  | (1 << 1) | Gradient instructions are supported.                                                                                                                                                                              |
 | D3DD3DPSHADERCAPS2\_0\_PREDICATION           | (1 << 2) | Instruction predication is supported. See [setp\_comp - ps](../direct3dhlsl/setp-comp---ps.md).                                                                                                                         |

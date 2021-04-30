@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical paging file (or directory) specified in the object path.
+description: Compresses the logical paging file (or directory) specified in the object path.
 ms.assetid: ebc69c9d-5a86-462b-9362-1ae02869ffa2
 ms.tgt_platform: multiple
 title: Compress method of the Win32_PageFile class
@@ -136,7 +136,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

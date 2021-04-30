@@ -1,6 +1,6 @@
 ---
 title: MediaCollectionMediaAdded Event of the AxWindowsMediaPlayer Object
-description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library.
+description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library. | MediaCollectionMediaAdded Event of the AxWindowsMediaPlayer Object
 ms.assetid: ba1779f6-a212-44f4-b52a-c88e22aebcce
 keywords:
 - MediaCollectionMediaAdded Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -56,7 +56,7 @@ This event occurs only for the local library.
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                                         |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

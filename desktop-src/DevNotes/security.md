@@ -1,12 +1,12 @@
 ---
-Description: Security
+description: Security
 ms.assetid: 'b53e9104-5515-463c-af95-1e1b51d97845'
 title: Security (Developer Notes)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Security
+# Security (Developer Notes)
 
 ## In this section
 

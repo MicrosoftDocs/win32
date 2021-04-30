@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetIndexRange method"
 title: Api.JetSetIndexRange method 
 TOCTitle: 'JetSetIndexRange method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetIndexRange(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.SetIndexRangeGrbit)

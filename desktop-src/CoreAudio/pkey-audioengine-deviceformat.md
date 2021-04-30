@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_AudioEngine\_DeviceFormat property specifies the device format, which is the format that the user has selected for the stream that flows between the audio engine and the audio endpoint device when the device operates in shared mode.
+description: The PKEY\_AudioEngine\_DeviceFormat property specifies the device format, which is the format that the user has selected for the stream that flows between the audio engine and the audio endpoint device when the device operates in shared mode.
 ms.assetid: eb3c734f-0bb8-47cc-a01f-99569f472cde
 title: PKEY_AudioEngine_DeviceFormat (Mmdeviceapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ The **blob** member of the **PROPVARIANT** structure is a structure of type **BL
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

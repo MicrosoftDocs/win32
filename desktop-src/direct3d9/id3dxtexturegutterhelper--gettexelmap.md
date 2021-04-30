@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the (u, v) texture coordinates of each texel.
+description: Retrieves the (u, v) texture coordinates of each texel.
 ms.assetid: 7d8eecf8-6344-4a48-8338-b92ebb0ab2ef
 title: ID3DXTextureGutterHelper::GetTexelMap method (D3DX9Mesh.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must allocate and manage pTexelData.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

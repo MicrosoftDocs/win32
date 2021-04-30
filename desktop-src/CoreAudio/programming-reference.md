@@ -1,12 +1,12 @@
 ---
-Description: Programming Reference
+description: Programming Reference
 ms.assetid: 80a0df34-5f67-4f61-b9c7-a586d1870765
 title: Core Audio Programming Reference
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Reference
+# Core Audio Programming Reference
 
 This programming reference for the core audio APIs in Windows SDK contains the following sections:
 

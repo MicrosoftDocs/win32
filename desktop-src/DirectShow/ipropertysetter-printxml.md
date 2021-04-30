@@ -1,5 +1,5 @@
 ---
-Description: The PrintXML method converts property data into an XML string.
+description: The PrintXML method converts property data into an XML string.
 ms.assetid: 24638489-b5ed-4bdd-b40e-6d61c0db1533
 title: IPropertySetter::PrintXML method (Qedit.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Returns S\_OK if successful. Otherwise, returns an **HRESULT** value indicating 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetIndexRecordCount method"
 title: Api.JetIndexRecordCount method 
 TOCTitle: 'JetIndexRecordCount method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetIndexRecordCount(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Int32@,System.Int32)

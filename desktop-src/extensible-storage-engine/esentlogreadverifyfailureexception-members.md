@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogReadVerifyFailureException members"
 title: EsentLogReadVerifyFailureException members
 TOCTitle: EsentLogReadVerifyFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureException

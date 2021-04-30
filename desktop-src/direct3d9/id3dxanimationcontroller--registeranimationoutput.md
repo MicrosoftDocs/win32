@@ -1,5 +1,5 @@
 ---
-Description: Adds an animation output to the animation controller and registers pointers for scale, rotate, and translate (SRT) transformations.
+description: Adds an animation output to the animation controller and registers pointers for scale, rotate, and translate (SRT) transformations.
 ms.assetid: 8c3197bc-9d03-40ba-869b-151f9c8e96ba
 title: ID3DXAnimationController::RegisterAnimationOutput method (D3dx9anim.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ Animation sets created with [**D3DXLoadMeshHierarchyFromX**](d3dxloadmeshhierarc
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

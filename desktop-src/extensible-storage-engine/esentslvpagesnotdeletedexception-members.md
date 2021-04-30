@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotDeletedException members"
 title: EsentSLVPagesNotDeletedException members
 TOCTitle: EsentSLVPagesNotDeletedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException

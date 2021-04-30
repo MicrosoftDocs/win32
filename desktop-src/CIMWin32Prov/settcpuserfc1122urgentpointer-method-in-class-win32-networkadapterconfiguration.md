@@ -1,5 +1,5 @@
 ---
-Description: The SetTcpUseRFC1122UrgentPointer WMI class static method is used to specify whether TCP uses the RFC 1122 specification for urgent data, or the mode used by Berkeley Software Design (BSD) derived systems.
+description: The SetTcpUseRFC1122UrgentPointer WMI class static method is used to specify whether TCP uses the RFC 1122 specification for urgent data, or the mode used by Berkeley Software Design (BSD) derived systems.
 ms.assetid: f8d07690-2723-4bc3-b15f-a24d575456a7
 ms.tgt_platform: multiple
 title: SetTcpUseRFC1122UrgentPointer method of the Win32_NetworkAdapterConfiguration class
@@ -411,7 +411,7 @@ The [Modify Urgent Pointer Use for All Network Adapters](https://Gallery.TechNet
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

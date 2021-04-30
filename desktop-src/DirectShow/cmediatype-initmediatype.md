@@ -1,5 +1,5 @@
 ---
-Description: The InitMediaType method initializes the media type.
+description: The InitMediaType method initializes the media type.
 ms.assetid: 141ced68-11ed-4567-b2e1-82c040d3b4a4
 title: CMediaType.InitMediaType method (Mtype.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method zeroes the object's memory, sets the fixed-sample-size property to *
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

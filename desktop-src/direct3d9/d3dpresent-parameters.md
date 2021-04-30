@@ -1,5 +1,5 @@
 ---
-Description: Describes the presentation parameters.
+description: Describes the presentation parameters.
 ms.assetid: d677aeb7-a188-4ddc-b8c9-48e13676e9c8
 title: D3DPRESENT_PARAMETERS structure (D3D9Types.h)
 ms.topic: reference
@@ -240,7 +240,7 @@ The maximum rate at which the swap chain's back buffers can be presented to the 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

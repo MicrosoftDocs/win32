@@ -1,5 +1,5 @@
 ---
-Description: You can use any one of the following methods to debug your service.
+description: You can use any one of the following methods to debug your service.
 ms.assetid: 6f4ae117-2120-4c1e-b69f-641ce2e633fa
 title: Debugging a Service
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the certificate has a private key associated with it. The method determines this by checking whether the CERT\_KEY\_PROV\_INFO\_PROP\_ID property is present.
+description: Determines whether the certificate has a private key associated with it. The method determines this by checking whether the CERT\_KEY\_PROV\_INFO\_PROP\_ID property is present.
 ms.assetid: 80478956-1ed7-4c25-9ae3-d7176649e6d7
 title: ICertificate2::HasPrivateKey method
 ms.topic: reference
@@ -40,7 +40,7 @@ This method has no parameters.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

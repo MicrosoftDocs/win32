@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentObsoleteException constructor"
 title: EsentObsoleteException constructor 
 TOCTitle: 'EsentObsoleteException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentObsoleteException.#ctor

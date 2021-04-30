@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft MPEG-2 Video Encoder filter encodes MPEG-2 and MPEG-1 video.
+description: The Microsoft MPEG-2 Video Encoder filter encodes MPEG-2 and MPEG-1 video.
 ms.assetid: d52c1299-0641-405c-8960-edd738b56823
 title: Microsoft MPEG-2 Video Encoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -344,7 +344,7 @@ The encoder introduces an encoding latency of at least one GOP.
 
 
 
-|                                     |                                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Home Premium, Windows Vista Ultimate, Windows 7 Home Premium, Windows 7 Professional, Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the firmware version of the device. This property applies only to items of type device (root items). Read-only.
+description: Retrieves the firmware version of the device. This property applies only to items of type device (root items). Read-only.
 ms.assetid: 9933746c-0730-4ca6-9f4c-82322d3474f1
 title: Item.FirmwareVersion property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the firmware version.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

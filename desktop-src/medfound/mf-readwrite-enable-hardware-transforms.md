@@ -1,5 +1,5 @@
 ---
-Description: Enables the source reader or sink writer to use hardware-based Media Foundation transforms (MFTs).
+description: Enables the source reader or sink writer to use hardware-based Media Foundation transforms (MFTs).
 ms.assetid: 03f2fa76-b828-40b1-929d-60e7d5ab49bb
 title: MF_READWRITE_ENABLE_HARDWARE_TRANSFORMS attribute (Mfreadwrite.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ If this attribute is **TRUE**, do not set the [MF\_READWRITE\_DISABLE\_CONVERTER
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

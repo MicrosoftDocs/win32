@@ -1,5 +1,5 @@
 ---
-Description: WSPConnect establishes a default destination address to enable a socket to be used with subsequent send (WSPSend) and receive (WSPRecv) operations.
+description: WSPConnect establishes a default destination address to enable a socket to be used with subsequent send (WSPSend) and receive (WSPRecv) operations.
 ms.assetid: efd57cb1-9736-4527-8e20-ab9304e3a8f6
 title: Connecting to a Default Peer
 ms.topic: article

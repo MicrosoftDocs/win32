@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for split IO events. The following syntax is simplified from MOF code.
+description: This class is the event type class for split IO events. The following syntax is simplified from MOF code.
 ms.assetid: 0eb1f712-8b1c-4de1-b701-5c7dbabb0f55
 title: SplitIo_Info class
 ms.topic: reference
@@ -85,7 +85,7 @@ Indicates that the volume manager split the IRP into two IRPs.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

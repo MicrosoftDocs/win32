@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotReservedException constructor"
 title: EsentSLVPagesNotReservedException constructor 
 TOCTitle: 'EsentSLVPagesNotReservedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotReservedException.#ctor

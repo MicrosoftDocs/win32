@@ -1,5 +1,5 @@
 ---
-Description: The DIBDATA structure contains information about a GDI device-independent bitmap (DIB).
+description: The DIBDATA structure contains information about a GDI device-independent bitmap (DIB).
 ms.assetid: 'abbfa5b4-8789-4a44-a467-5812d3cc8238'
 title: DIBDATA structure (Winutil.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ Address of the bitmap.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl> |
 

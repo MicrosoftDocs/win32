@@ -43,7 +43,7 @@ Use the [**WM\_CAP\_STOP**](wm-cap-stop.md) message to halt step capture at the 
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

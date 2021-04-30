@@ -1,6 +1,6 @@
 ---
 title: RWStructuredBuffer::Operator  function
-description: Returns a resource variable.
+description: Returns a resource variable. | RWStructuredBuffer::Operator  function
 ms.assetid: e821b60e-38db-463f-b0c6-47f2a4c9ccee
 keywords:
 - Operator function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# RWStructuredBuffer::Operator  function
 
 Returns a resource variable.
 

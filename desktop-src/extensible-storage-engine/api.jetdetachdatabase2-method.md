@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetDetachDatabase2 method"
 title: Api.JetDetachDatabase2 method 
 TOCTitle: 'JetDetachDatabase2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDetachDatabase2(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,Microsoft.Isam.Esent.Interop.DetachDatabaseGrbit)

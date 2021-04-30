@@ -1,5 +1,5 @@
 ---
-Description: Critical section that protects the filter state. For more information, see Data Flow for Filter Developers.
+description: Critical section that protects the filter state. For more information, see Data Flow for Filter Developers.
 ms.assetid: 75b9c8b0-e911-41fd-8d07-b854dbe25551
 title: CTransformFilter::m_csFilter member (Transfrm.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CCritSec m_csFilter;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

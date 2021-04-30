@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets a value that represents the hours component of the datetime value.
+description: Gets or sets a value that represents the hours component of the datetime value.
 ms.assetid: 83f084fa-57a5-4467-acea-7e19de82a91f
 ms.tgt_platform: multiple
 title: SWbemDateTime.Hours property (Wbemdisp.h)
@@ -59,7 +59,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

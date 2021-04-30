@@ -1,5 +1,5 @@
 ---
-Description: The CreateTimerQueue function creates a queue for timers.
+description: The CreateTimerQueue function creates a queue for timers.
 ms.assetid: ee85a6c3-3a1d-4f94-9112-cb8247b2a189
 title: Timer Queues
 ms.topic: article

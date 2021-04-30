@@ -1,5 +1,5 @@
 ---
-Description: Treatment refers to the handling of an incoming session that has not yet been answered or has been put on hold, such as music. Please see LINECALLTREATMENT\_ Constants for a list of treatments defined by TAPI.
+description: Treatment refers to the handling of an incoming session that has not yet been answered or has been put on hold, such as music. Please see LINECALLTREATMENT\_ Constants for a list of treatments defined by TAPI.
 ms.assetid: 0b8d1023-374a-4937-b39c-04043423eb47
 title: Treatment
 ms.topic: article

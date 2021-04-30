@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseDirtyShutdownException methods"
 title: EsentDatabaseDirtyShutdownException methods
 TOCTitle: EsentDatabaseDirtyShutdownException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseDirtyShutdownException

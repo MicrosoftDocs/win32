@@ -1,5 +1,5 @@
 ---
-Description: A partial-instance retrieval is when WMI retrieves only a subset of the properties of an instance.
+description: A partial-instance retrieval is when WMI retrieves only a subset of the properties of an instance.
 ms.assetid: 6cc26b26-adc9-4a8a-b51e-9db94eb4295f
 ms.tgt_platform: multiple
 title: Retrieving Part of a WMI Instance

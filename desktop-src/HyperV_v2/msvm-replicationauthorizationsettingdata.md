@@ -1,5 +1,5 @@
 ---
-Description: Represents an authorization entry for a recovery server.
+description: Represents an authorization entry for a recovery server.
 ms.assetid: 8c057b39-7102-4fbf-b4be-f18627a88834
 title: Msvm_ReplicationAuthorizationSettingData class
 ms.topic: reference
@@ -154,7 +154,7 @@ The name of the trust group for the authorization entry. This identifies the mul
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

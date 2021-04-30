@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows7Grbits fields"
 title: Windows7Grbits fields (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Grbits fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits

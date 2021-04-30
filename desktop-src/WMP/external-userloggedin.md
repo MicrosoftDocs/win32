@@ -1,6 +1,6 @@
 ---
 title: External.userLoggedIn
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.userLoggedIn
 ms.assetid: d02d9486-c692-4f46-bc29-f0aaa45cad0f
 keywords:
 - External.userLoggedIn Windows Media Player
@@ -39,7 +39,7 @@ This property is a read-only **Boolean**. **TRUE** indicates that the user is lo
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

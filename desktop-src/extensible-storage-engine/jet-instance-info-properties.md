@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INSTANCE_INFO properties"
 title: JET_INSTANCE_INFO properties
 TOCTitle: JET_INSTANCE_INFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO

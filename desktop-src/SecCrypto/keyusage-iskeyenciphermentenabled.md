@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the keyEncipherment bit is set.
+description: Retrieves a Boolean value that indicates whether the keyEncipherment bit is set.
 ms.assetid: 2bdce181-3de7-4dc1-8059-1e1ca96c0d2d
 title: KeyUsage.IsKeyEnciphermentEnabled property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the keyEncipherment bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

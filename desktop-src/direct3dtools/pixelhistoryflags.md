@@ -1,5 +1,5 @@
 ---
-Description: An enum containing flags used to describe a pixel history result. See PixelHistoryOperation.
+description: An enum containing flags used to describe a pixel history result. See PixelHistoryOperation.
 MS-HAID: vspixengine.PIXELHISTORYFLAGS
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: The SCM supports handle types to allow access to the following objects.
+description: The SCM supports handle types to allow access to the following objects.
 ms.assetid: 5ffdd1a9-1a66-4fc4-b35d-4f744bae4897
 title: SCM Handles
 ms.topic: article

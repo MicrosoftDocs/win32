@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.genHigh property"
 title: JET_BKINFO.genHigh property 
 TOCTitle: 'genHigh property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.genHigh

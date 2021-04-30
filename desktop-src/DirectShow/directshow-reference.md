@@ -1,5 +1,5 @@
 ---
-Description: DirectShow Reference
+description: DirectShow Reference
 ms.assetid: 5fd72be3-4ff5-4c93-8055-abe247f3c856
 title: DirectShow Reference
 ms.topic: article

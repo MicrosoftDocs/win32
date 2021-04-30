@@ -1,5 +1,5 @@
 ---
-Description: Computes the product of two functions represented using SH (f and g).
+description: Computes the product of two functions represented using SH (f and g).
 ms.assetid: 632400a4-2ac9-438d-85f7-869101f350c8
 title: D3DXSHMultiply2 function (D3dx9math.h)
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 - d3dx9math.h
 ---
 
-# D3DXSHMultiply2 function
+# D3DXSHMultiply2 function (D3dx9math.h)
 
 Computes the product of two functions represented using SH (f and g).
 
@@ -83,7 +83,7 @@ Computes the product of two functions represented using SH (f and g), where *pOu
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

@@ -457,7 +457,7 @@ An individual from a group of individuals that are represented by data in the sa
 
 
 
-|                                     |                                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: This topic demonstrates how to draw a line using GDI Plus.
+description: This topic demonstrates how to draw a line using GDI Plus.
 ms.assetid: 2e7444f8-94a6-40d6-b243-0764e245eec4
 title: Drawing a Line
 ms.topic: article

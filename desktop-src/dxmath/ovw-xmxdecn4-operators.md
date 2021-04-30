@@ -1,5 +1,5 @@
 ---
-Description: The XMXDECN4 structure exposes the following operators.
+description: The XMXDECN4 structure exposes the following operators.
 ms.assetid: 23e966a6-eca1-450d-98c4-3b4e5c6706ab
 title: XMXDECN4 Operators
 ms.topic: reference

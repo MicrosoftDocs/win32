@@ -1,5 +1,5 @@
 ---
-Description: Contains the start time at which a media source restarts from its current position.
+description: Contains the start time at which a media source restarts from its current position.
 ms.assetid: b598b4d1-40e1-4282-b312-5aa6ca3a6733
 title: MF_EVENT_SOURCE_ACTUAL_START attribute (Mfapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

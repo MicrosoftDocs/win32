@@ -1,5 +1,5 @@
 ---
-Description: This topic shows some helper functions for connecting DirectShow filters.
+description: This topic shows some helper functions for connecting DirectShow filters.
 ms.assetid: cfd85944-7ae7-49e6-948f-9e190cdeed12
 title: Connect Two Filters
 ms.topic: article

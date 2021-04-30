@@ -22,7 +22,7 @@ The total number of failed interactive logons up until the last successful C-A-D
 
 
 
-|                   |                                                               |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------|
 | CN                | ms-DS-Failed-Interactive-Logon-Count-At-Last-Successful-Logon |
 | Ldap-Display-Name | msDS-FailedInteractiveLogonCountAtLastSuccessfulLogon         |
@@ -45,7 +45,7 @@ The total number of failed interactive logons up until the last successful C-A-D
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ The total number of failed interactive logons up until the last successful C-A-D
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ The total number of failed interactive logons up until the last successful C-A-D
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

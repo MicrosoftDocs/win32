@@ -1,5 +1,5 @@
 ---
-Description: Using business rule scripts in C++ to provide run-time logic for checking access.
+description: Using business rule scripts in C++ to provide run-time logic for checking access.
 ms.assetid: 058086ab-8ebd-4ff6-b552-8d3c19ae5d38
 title: Qualifying Access with Business Logic in C++
 ms.topic: article

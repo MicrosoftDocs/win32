@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.OutstandingIOMax property"
 title: SystemParameters.OutstandingIOMax property 
 TOCTitle: 'OutstandingIOMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.OutstandingIOMax

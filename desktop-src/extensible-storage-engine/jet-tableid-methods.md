@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID methods"
 title: JET_TABLEID methods
 TOCTitle: JET_TABLEID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_TABLEID

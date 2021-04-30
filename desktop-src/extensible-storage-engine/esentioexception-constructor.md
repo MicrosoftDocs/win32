@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentIOException constructor"
 title: EsentIOException constructor 
 TOCTitle: 'EsentIOException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentIOException.#ctor

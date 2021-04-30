@@ -1,5 +1,5 @@
 ---
-Description: Evaluates a directional light and returns spectral spherical harmonic (SH) data.
+description: D3DXSHEvalDirectionalLight function (D3DX10.h) - Evaluates a directional light and returns spectral spherical harmonic (SH) data.
 ms.assetid: b5c657f5-d291-4e53-908c-670b29a1888a
 title: D3DXSHEvalDirectionalLight function (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHEvalDirectionalLight function
+# D3DXSHEvalDirectionalLight function (D3DX10.h)
 
 Evaluates a directional light and returns spectral spherical harmonic (SH) data.
 
@@ -136,7 +136,7 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

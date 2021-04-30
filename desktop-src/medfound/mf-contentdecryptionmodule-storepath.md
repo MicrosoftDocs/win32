@@ -1,5 +1,5 @@
 ---
-Description: Specifies a file path representing a storage location the Content Decryption Module (CDM) can use for initialization.
+description: Specifies a file path representing a storage location the Content Decryption Module (CDM) can use for initialization.
 title: MF_CONTENTDECRYPTIONMODULE_STOREPATH (mfcontentdecryptionmodule.h)
 ms.topic: reference
 ms.date: 01/31/2020
@@ -36,7 +36,7 @@ Set this property when you create a CDM by calling [IMFContentDecryptionModuleAc
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update<br/>                                     |
 | Header<br/>                   | <dl> <dt>mfcontentdecryptionmodule.h</dt> </dl> |

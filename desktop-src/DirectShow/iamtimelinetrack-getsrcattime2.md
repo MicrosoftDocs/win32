@@ -1,5 +1,5 @@
 ---
-Description: The GetSrcAtTime2 method retrieves the source object nearest to the specified time, according to the specified boundary conditions. This method is equivalent to IAMTimelineTrack::GetSrcAtTime, but takes a REFTIME value.
+description: The GetSrcAtTime2 method retrieves the source object nearest to the specified time, according to the specified boundary conditions. This method is equivalent to IAMTimelineTrack::GetSrcAtTime, but takes a REFTIME value.
 ms.assetid: 11f6545b-478b-4ffd-8344-2bf8585db2a5
 title: IAMTimelineTrack::GetSrcAtTime2 method (Qedit.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ Returns one of the following **HRESULT** values:
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

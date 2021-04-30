@@ -64,7 +64,7 @@ The mouse mode indicates how the ActiveX control calculates the mouse coordinate
 
 
 
-|                                     |                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista with SP1<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                   |

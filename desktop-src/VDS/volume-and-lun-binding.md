@@ -1,5 +1,5 @@
 ---
-Description: Volume and LUN Binding
+description: Volume and LUN Binding
 ms.assetid: ae32b354-799e-4f9b-8989-02bd95968210
 title: Volume and LUN Binding
 ms.topic: article
@@ -38,15 +38,15 @@ Non-fault tolerant volumes and LUNs do not offer disaster recovery. If one of th
 
 Simple
 
-![](images/vdssimplelunvol.png)
+![Diagram that shows a Simple non-fault tolerant type with 2 Packs and 2 Subsystems.](images/vdssimplelunvol.png)
 
 Spanned
 
-![](images/vdsspanlunvol.png)
+![Diagram that shows a Spanned non-fault tolerant type with 1 Pack and 1 Subsystem.](images/vdsspanlunvol.png)
 
 Striped
 
-![](images/vdsstripelunvol.png)
+![Diagram that shows a Striped non-fault tolerant type with 1 Pack and 1 Subsystem.](images/vdsstripelunvol.png)
 
 ### Fault Tolerant Binding
 
@@ -54,11 +54,11 @@ The following fault tolerant volumes and LUNs offer disaster recovery. If one of
 
 Mirrored (three-way mirror)
 
-![](images/vdsmirrorlunvol.png)
+![Diagram that shows a Mirrored (3-way mirror) fault tolerant type.](images/vdsmirrorlunvol.png)
 
 Striped with parity
 
-![](images/vdsstripeparitylunvol.png)
+![Diagram that shows a Striped with parity fault tolerant type.](images/vdsstripeparitylunvol.png)
 
 ## Related topics
 

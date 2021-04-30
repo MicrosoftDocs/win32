@@ -1,5 +1,5 @@
 ---
-Description: Gets a string.
+description: Gets a string.
 ms.assetid: 49388582-a110-4aa2-90ab-2282b59da951
 title: ID3DXBaseEffect::GetString method (D3DX9Shader.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

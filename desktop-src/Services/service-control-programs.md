@@ -1,5 +1,5 @@
 ---
-Description: A service control program starts and controls services.
+description: A service control program starts and controls services.
 ms.assetid: e7ba295f-2937-44ad-89e8-40200c5e58b6
 title: Service Control Programs
 ms.topic: article

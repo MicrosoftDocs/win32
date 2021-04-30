@@ -1,5 +1,5 @@
 ---
-Description: IwlanApplicability
+description: IwlanApplicability
 MS-HAID: WWAN\_profile\_v4.element\_IwlanApplicability
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Saves a volume to a file on disk.
+description: Saves a volume to a file on disk.
 ms.assetid: 4d33fba5-e003-4385-b683-aff6723af2a5
 title: D3DXSaveVolumeToFile function (D3dx9tex.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ If the volume is nondynamic (because of a usage parameter set to 0 at the creati
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

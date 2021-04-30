@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID methods"
 title: JET_INDEXID methods
 TOCTitle: JET_INDEXID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_INDEXID

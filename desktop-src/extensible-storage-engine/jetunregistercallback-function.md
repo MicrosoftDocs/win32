@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetUnregisterCallback Function"
 title: JetUnregisterCallback Function
 TOCTitle: JetUnregisterCallback Function
 ms:assetid: de5c7afa-07e1-4687-989b-b56125a9712e

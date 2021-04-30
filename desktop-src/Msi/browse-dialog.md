@@ -1,5 +1,5 @@
 ---
-Description: A Browse dialog box enables the user to select a directory. The directory does not have to exist and may be created by using this control.
+description: A Browse dialog box enables the user to select a directory. The directory does not have to exist and may be created by using this control.
 ms.assetid: 35b991b8-d291-44ef-b1c0-8128bed3c3c8
 title: Browse Dialog
 ms.topic: article

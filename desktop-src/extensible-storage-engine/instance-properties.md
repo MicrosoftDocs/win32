@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance properties"
 title: Instance properties
 TOCTitle: Instance properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Instance

@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of offline analysis progress.
+description: A callback function used to notify the host of offline analysis progress.
 MS-HAID: vspixengine.IOfflineAnalysisCallback\_OfflineAnalysisProgress\_DWORD\_DOUBLE
 MSHAttr:
 - PreferredSiteName:MSDN

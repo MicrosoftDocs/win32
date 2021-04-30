@@ -1,5 +1,5 @@
 ---
-Description: Converts a binary-packed string to a hexadecimal string.
+description: Converts a binary-packed string to a hexadecimal string.
 ms.assetid: fead5950-3494-4869-ae5b-0394b73c5ba4
 title: Utilities.BinaryToHex method
 ms.topic: reference
@@ -51,7 +51,7 @@ A hexadecimal string that is equivalent to the specified binary-packed string.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

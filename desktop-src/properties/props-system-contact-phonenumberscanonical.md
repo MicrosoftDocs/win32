@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.PhoneNumbersCanonical
 ms.assetid: 253cde36-2100-4f6b-9b4e-a82ab083aca9
 title: System.Contact.PhoneNumbersCanonical
 ms.topic: article

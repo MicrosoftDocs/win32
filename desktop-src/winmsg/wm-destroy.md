@@ -1,5 +1,5 @@
 ---
-Description: Sent when a window is being destroyed. It is sent to the window procedure of the window being destroyed after the window is removed from the screen.
+description: Sent when a window is being destroyed. It is sent to the window procedure of the window being destroyed after the window is removed from the screen.
 ms.assetid: 089c0645-199b-4a90-9cbc-740f0cf3267d
 title: WM_DESTROY message (Winuser.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ If the window being destroyed is part of the clipboard viewer chain (set by call
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

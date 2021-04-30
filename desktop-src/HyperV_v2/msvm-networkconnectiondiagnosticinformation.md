@@ -1,5 +1,5 @@
 ---
-Description: Provides information about the network connectivity for a virtual machine.
+description: Provides information about the network connectivity for a virtual machine.
 ms.assetid: 59503c1b-203b-46ec-8a65-f21a746f170f
 title: Msvm_NetworkConnectionDiagnosticInformation class
 ms.topic: reference
@@ -61,7 +61,7 @@ The round trip time for the ping request.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

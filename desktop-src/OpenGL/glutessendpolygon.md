@@ -1,6 +1,6 @@
 ---
 title: gluTessEndPolygon function (Glu.h)
-description: The gluTessBeginPolygon and gluTessEndPolygon functions delimit a polygon description.
+description: The gluTessBeginPolygon and gluTessEndPolygon functions delimit a polygon description. | gluTessEndPolygon function (Glu.h)
 ms.assetid: c9ae2075-59d7-4c1a-b720-0aa05954525c
 keywords:
 - gluTessEndPolygon function OpenGL
@@ -78,7 +78,7 @@ gluTessEndPolygon(tobj);
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

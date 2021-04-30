@@ -1,5 +1,5 @@
 ---
-Description: Raster-operation codes define how the graphics device interface (GDI) combines the bits from the selected pen with the bits in the destination bitmap.
+description: Raster-operation codes define how the graphics device interface (GDI) combines the bits from the selected pen with the bits in the destination bitmap.
 ms.assetid: 7f8272b8-85c4-4bda-99cb-4ec281e8197e
 title: Raster Operation Codes
 ms.topic: article

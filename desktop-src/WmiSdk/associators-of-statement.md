@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all instances that are associated with a particular source instance.
+description: Retrieves all instances that are associated with a particular source instance.
 ms.assetid: d6bd9643-523d-4d81-8bf1-da52ccc7524d
 ms.tgt_platform: multiple
 title: ASSOCIATORS OF Statement

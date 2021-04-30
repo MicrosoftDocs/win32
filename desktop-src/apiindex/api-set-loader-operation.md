@@ -30,7 +30,7 @@ While API set names provide a stable namespace for modules across devices, it is
 
 To accommodate this level of compatibility, a system of *forwarders* are provided on all Windows 10 devices that cover a subset of the Win32 API surface. These forwarders use the module names that were introduced on Windows PCs, and leverage the API Set system to provide compatibility across all Windows 10 devices.
 
-The loader operation beahaves like this:
+The loader operation behaves like this:
 
 1.  On a device other than a Windows PC, the loader is presented a legacy Windows PC module name dependency that is not present on the device.
 2.  The loader locates an API set forwarder for this module and loads it into memory.

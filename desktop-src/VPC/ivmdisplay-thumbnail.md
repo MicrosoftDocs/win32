@@ -1,6 +1,6 @@
 ---
 title: IVMDisplay Thumbnail property (VPCCOMInterfaces.h)
-description: Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen.
+description: Retrieves an array of pixels representing a thumbnail image of the virtual machine's screen. | IVMDisplay Thumbnail property (VPCCOMInterfaces.h)
 ms.assetid: e7b57f16-eec1-4461-acfb-742976eff14a
 keywords:
 - Thumbnail property Virtual PC
@@ -62,7 +62,7 @@ This interface returns the thumbnail less efficiently than the [**\_GenerateThum
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

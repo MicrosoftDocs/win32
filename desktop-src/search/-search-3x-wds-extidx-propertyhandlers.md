@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed.
+description: Microsoft Windows Search uses property handlers to extract the values of properties from items and uses the property system schema to determine how a specific property should be indexed.
 ms.assetid: b475329a-1ed7-43a4-8e11-3700889a4ce9
 title: Developing Property Handlers for Windows Search
 ms.topic: article

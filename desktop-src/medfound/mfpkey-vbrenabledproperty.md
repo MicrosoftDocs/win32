@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder uses variable-bit-rate (VBR) encoding.
+description: Specifies whether the encoder uses variable-bit-rate (VBR) encoding.
 ms.assetid: e6826802-99b7-4a38-9b58-8a9cb8b753fb
 title: MFPKEY_VBRENABLED Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ After you set this value to **VARIANT\_TRUE** on the audio encoder, the output t
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

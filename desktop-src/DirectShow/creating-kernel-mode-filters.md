@@ -1,5 +1,5 @@
 ---
-Description: Creating Kernel-Mode Filters
+description: Creating Kernel-Mode Filters
 ms.assetid: cbc86a5d-c53a-44a0-aa81-5c41527a8f67
 title: Creating Kernel-Mode Filters
 ms.topic: article

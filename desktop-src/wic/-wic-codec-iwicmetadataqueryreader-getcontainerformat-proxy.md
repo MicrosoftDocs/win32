@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetContainerFormat method.
+description: IWICMetadataQueryReader_GetContainerFormat_Proxy function - Proxy function for the GetContainerFormat method.
 ms.assetid: 3a909151-53c2-4f82-9ead-f689b73f5faf
 title: IWICMetadataQueryReader_GetContainerFormat_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

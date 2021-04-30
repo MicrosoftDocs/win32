@@ -1,12 +1,12 @@
 ---
-Description: Asynchronous Transfer Mode (ATM) networking is emerging into the mainstream of computing, and support for ATM has been added to many parts of the operating system.
+description: Asynchronous Transfer Mode (ATM) networking is emerging into the mainstream of computing, and support for ATM has been added to many parts of the operating system.
 ms.assetid: 0ca0ecf3-2b67-4925-a6fc-3edfaad2c0e2
 title: Quality of Service (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Quality of Service
+# Quality of Service (Telephony API)
 
 Asynchronous Transfer Mode (ATM) networking is emerging into the mainstream of computing, and support for ATM has been added to many parts of the operating system. TAPI also supports key attributes of establishing calls on ATM facilities. The most important of these from an application perspective is the ability to request, negotiate, renegotiate, and receive indications of Quality of Service (QOS) parameters on incoming and outgoing calls.
 

@@ -1,5 +1,5 @@
 ---
-Description: The SetRenderRange2 method sets the range of time on the timeline to be rendered. This method is equivalent to IRenderEngine::SetRenderRange, but takes values of type double.
+description: The SetRenderRange2 method sets the range of time on the timeline to be rendered. This method is equivalent to IRenderEngine::SetRenderRange, but takes values of type double.
 ms.assetid: 07df97a8-aa83-405d-91a0-45cd99185588
 title: IRenderEngine::SetRenderRange2 method (Qedit.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ Returns one of the following **HRESULT** values:
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRunningInMultiInstanceModeException constructor"
 title: EsentRunningInMultiInstanceModeException constructor 
 TOCTitle: 'EsentRunningInMultiInstanceModeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRunningInMultiInstanceModeException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: The Advise method dispatches all requests that are scheduled for a specified time or earlier.
+description: The Advise method dispatches all requests that are scheduled for a specified time or earlier.
 ms.assetid: 09ea84b7-517a-4ea6-9e03-0d9cd8f72e1f
 title: CAMSchedule.Advise method (Dsschedule.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ To dispatch an advise request, the scheduler signals the event or semaphore give
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dsschedule.h (include Streams.h)</dt> </dl>                                                                                |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

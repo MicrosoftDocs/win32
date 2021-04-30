@@ -32,7 +32,7 @@ Setting this transition is the same as setting the **dwEffectType** member of th
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmsdkidl.h</dt> </dl> |
 

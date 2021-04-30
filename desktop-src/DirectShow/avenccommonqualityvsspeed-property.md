@@ -1,5 +1,5 @@
 ---
-Description: Specifies the tradeoff between encoding quality and speed. This property is valid in all rate control modes.
+description: Specifies the tradeoff between encoding quality and speed. This property is valid in all rate control modes.
 ms.assetid: d721a50d-dec9-4e2d-bda5-25913f225d68
 title: AVEncCommonQualityVsSpeed property (Codecapi.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The value of this property has the following range.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

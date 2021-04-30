@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogTornWriteDuringHardRecoveryException class"
 title: EsentLogTornWriteDuringHardRecoveryException class
 TOCTitle: EsentLogTornWriteDuringHardRecoveryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRecoveryException

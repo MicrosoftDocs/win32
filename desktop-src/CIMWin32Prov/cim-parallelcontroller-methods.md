@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ParallelController class exposes the following methods.
+description: The CIM\_ParallelController class exposes the following methods.
 ms.assetid: 5AF9DB0B-614A-4595-99E8-BA54960B0310
 ms.tgt_platform: multiple
 title: CIM_ParallelController Methods

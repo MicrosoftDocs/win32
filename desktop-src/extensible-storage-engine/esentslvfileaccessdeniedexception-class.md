@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileAccessDeniedException class"
 title: EsentSLVFileAccessDeniedException class
 TOCTitle: EsentSLVFileAccessDeniedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException

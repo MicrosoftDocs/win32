@@ -1,5 +1,5 @@
 ---
-Description: Contains media-specific module (MSM) settings.
+description: Contains media-specific module (MSM) settings.
 ms.assetid: fe858701-e0eb-4817-b3c2-ae61e96a4cbe
 title: MSM (LANProfile) Element
 ms.topic: reference
@@ -69,7 +69,7 @@ The **MSM** element is defined by the [**LANProfile**](lan-profileschema-lanprof
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

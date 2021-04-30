@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Conversions class"
 title: Conversions class
 TOCTitle: Conversions class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Conversions

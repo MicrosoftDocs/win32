@@ -1,5 +1,5 @@
 ---
-Description: The GetSourcesCount method retrieves the number of sources in the track.
+description: The GetSourcesCount method retrieves the number of sources in the track.
 ms.assetid: eb7f249f-355f-454d-9fe6-c3271fd13fc7
 title: IAMTimelineTrack::GetSourcesCount method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

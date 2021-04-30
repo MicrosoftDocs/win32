@@ -22,7 +22,7 @@ The maximum amount of disk space the user can use. Use the value specified in US
 
 
 
-|                   |                                                            |
+| Entry | Value |
 |-------------------|------------------------------------------------------------|
 | CN                | Max-Storage                                                |
 | Ldap-Display-Name | maxStorage                                                 |
@@ -48,7 +48,7 @@ The maximum amount of disk space the user can use. Use the value specified in US
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ The maximum amount of disk space the user can use. Use the value specified in US
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ The maximum amount of disk space the user can use. Use the value specified in US
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ The maximum amount of disk space the user can use. Use the value specified in US
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ The maximum amount of disk space the user can use. Use the value specified in US
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ The maximum amount of disk space the user can use. Use the value specified in US
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

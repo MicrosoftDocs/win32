@@ -94,7 +94,7 @@ After the hook procedure returns control to the system, the **GetMessage** or **
 
 An application installs this hook procedure by specifying the **WH_GETMESSAGE** hook type and a pointer to the hook procedure in a call to the **SetWindowsHookEx** function.
 
-## -see-also
+## See also
 
 [CallNextHookEx](/windows/desktop/api/winuser/nf-winuser-callnexthookex)
 

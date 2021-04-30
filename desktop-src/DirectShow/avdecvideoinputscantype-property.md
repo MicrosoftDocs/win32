@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the decoded video stream is interlaced.
+description: Specifies how the decoded video stream is interlaced.
 ms.assetid: a2b95b90-1c58-47f3-b6a8-0f3f6f1a416c
 title: AVDecVideoInputScanType property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The upper 16 bits of the value contain the width, and the lower 16 bits contain 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

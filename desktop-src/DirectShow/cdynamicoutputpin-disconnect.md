@@ -1,5 +1,5 @@
 ---
-Description: The Disconnect method breaks the current pin connection. This method implements the IPin::Disconnect method.
+description: CDynamicOutputPin.Disconnect method - The Disconnect method breaks the current pin connection. This method implements the IPin::Disconnect method.
 ms.assetid: 8d92a504-98ad-4f8f-89a4-f0c80763db44
 title: CDynamicOutputPin.Disconnect method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This method overrides the [**CBasePin::Disconnect**](cbasepin-disconnect.md) met
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

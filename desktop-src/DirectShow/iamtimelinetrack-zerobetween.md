@@ -1,5 +1,5 @@
 ---
-Description: The ZeroBetween method removes everything from the track between the specified times. This method splits any objects that span the specified time range and removes the pieces that fall within the range.
+description: The ZeroBetween method removes everything from the track between the specified times. This method splits any objects that span the specified time range and removes the pieces that fall within the range.
 ms.assetid: df173a3c-147b-4f2d-9bcb-a8c2873f5420
 title: IAMTimelineTrack::ZeroBetween method (Qedit.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

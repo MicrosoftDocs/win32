@@ -1,5 +1,5 @@
 ---
-Description: The at element defines the value of a param element at a particular time, relative to the start of the transition or effect that contains the parameter.
+description: The at element defines the value of a param element at a particular time, relative to the start of the transition or effect that contains the parameter.
 ms.assetid: 523aa25c-790b-4532-9c69-76544235bdfe
 title: at Element
 ms.topic: reference
@@ -23,7 +23,7 @@ The `at` element defines the value of a [**param**](param-element.md) element at
 
 
 
-|          |                                |
+| Label | Value |
 |----------|--------------------------------|
 | Parent   | [**param**](param-element.md) |
 | Children | None                           |

@@ -1,5 +1,5 @@
 ---
-Description: Boolean value that specifies whether to trace this lock.
+description: Boolean value that specifies whether to trace this lock.
 ms.assetid: 23417410-cfdc-426e-a662-7d6580b43a28
 title: CCritSec::m_fTrace member (Wxutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This member variable is defined only in the debug version of the base class. If 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInconsistentException constructor (String, JET_err)"
 title: EsentInconsistentException constructor (String, JET_err)
 TOCTitle: EsentInconsistentException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInconsistentException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

@@ -1,5 +1,5 @@
 ---
-Description: The ChangeStop method is called when the stop position changes.
+description: The ChangeStop method is called when the stop position changes.
 ms.assetid: 3d4a73a4-68e6-449c-9637-62cad937c4b4
 title: CSourceSeeking.ChangeStop method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ HRESULT CMyStream::ChangeStop( )
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

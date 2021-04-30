@@ -1,5 +1,5 @@
 ---
-Description: The SetVariableSize method specifies that samples do not have a fixed size.
+description: The SetVariableSize method specifies that samples do not have a fixed size.
 ms.assetid: 2a207cdb-f8e6-44aa-8bf6-868267aeb42d
 title: CMediaType.SetVariableSize method (Mtype.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method sets the **bFixedSizeSamples** member to **FALSE**. Subsequent calls
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

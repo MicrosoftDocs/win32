@@ -1,5 +1,5 @@
 ---
-Description: Source code for the Platform Software Development Kit (SDK) sample Simplec.c and Simples.c.
+description: Source code for the Platform Software Development Kit (SDK) sample Simplec.c and Simples.c.
 ms.assetid: d6509917-05ce-4b8e-b1aa-04f07d947392
 title: 'Appendix A: IPv4-only Source Code'
 ms.topic: article

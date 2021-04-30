@@ -1,5 +1,5 @@
 ---
-Description: The ResetEndOfStreamTimer method cancels the timer that schedules EC\_COMPLETE notifications.
+description: The ResetEndOfStreamTimer method cancels the timer that schedules EC\_COMPLETE notifications.
 ms.assetid: 9d423241-1401-4181-8fbf-c409a1e8abdd
 title: CBaseRenderer.ResetEndOfStreamTimer method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

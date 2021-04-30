@@ -1,5 +1,5 @@
 ---
-Description: Building DirectShow Filters
+description: Building DirectShow Filters
 ms.assetid: fb907263-e7f3-42d6-80f9-a9f16fc21033
 title: Building DirectShow Filters
 ms.topic: article
@@ -29,7 +29,7 @@ The DirectShow base classes are recommended for implementing DirectShow filters.
 
 -   Link to the following lib files.
 
-    |              |                                      |
+| Label | Value |
     |--------------|--------------------------------------|
     | Debug Build  | Strmbasd.lib, Msvcrtd.lib, Winmm.lib |
     | Retail Build | Strmbase.lib, Msvcrt.lib, Winmm.lib  |

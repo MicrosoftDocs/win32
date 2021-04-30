@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for printers and printing manage and obtain data about printers, such as finding or setting the default printer. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for printers and printing manage and obtain data about printers, such as finding or setting the default printer. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 56aa8043-08cc-42c9-82b0-f1328cd52ff8
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Printers and Printing'

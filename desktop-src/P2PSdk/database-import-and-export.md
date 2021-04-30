@@ -1,5 +1,5 @@
 ---
-Description: When using the Peer Graphing or the Peer Grouping Infrastructures, the information (records) that peers publish to a graph or group is stored as a database on each peer computer.
+description: When using the Peer Graphing or the Peer Grouping Infrastructures, the information (records) that peers publish to a graph or group is stored as a database on each peer computer.
 ms.assetid: 1412b2eb-c97d-4415-998c-5f21eaadcc66
 title: Database Import and Export
 ms.topic: article

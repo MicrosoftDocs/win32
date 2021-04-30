@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnBackupDatabaseException constructor"
 title: EsentSoftRecoveryOnBackupDatabaseException constructor 
 TOCTitle: 'EsentSoftRecoveryOnBackupDatabaseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnBackupDatabaseException.#ctor

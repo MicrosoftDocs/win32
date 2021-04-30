@@ -1,5 +1,5 @@
 ---
-Description: Device-specific buffers may be part of a service providers implementation of extended operations. The service provider defines the meaning of these buffers.
+description: Device-specific buffers may be part of a service providers implementation of extended operations. The service provider defines the meaning of these buffers.
 ms.assetid: 5783f892-ec11-4340-afad-44f2ef55fd18
 title: 'Device-specific Buffer'
 ms.topic: article

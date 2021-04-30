@@ -4,7 +4,7 @@ ms.assetid: 44228cf2-6306-466c-8f16-f513cd3ba8b5
 title: Dynamic-Link Library Search Order
 ms.topic: article
 ms.date: 09/11/2020
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ---
 
 # Dynamic-Link Library Search Order

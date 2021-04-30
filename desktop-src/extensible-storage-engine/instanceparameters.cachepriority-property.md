@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.CachePriority property"
 title: InstanceParameters.CachePriority property 
 TOCTitle: 'CachePriority property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CachePriority

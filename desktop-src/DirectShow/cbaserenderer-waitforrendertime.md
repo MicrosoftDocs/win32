@@ -1,5 +1,5 @@
 ---
-Description: The WaitForRenderTime method waits for the current sample's presentation time.
+description: The WaitForRenderTime method waits for the current sample's presentation time.
 ms.assetid: a6acb780-48df-4f73-adcb-cfa4e54b19ac
 title: CBaseRenderer.WaitForRenderTime method (Renbase.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ This method calls the [**CBaseRenderer::OnWaitStart**](cbaserenderer-onwaitstart
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SetTableSequentialGrbit enumeration"
 title: SetTableSequentialGrbit enumeration
 TOCTitle: SetTableSequentialGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetTableSequentialGrbit

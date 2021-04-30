@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder performs stereo image processing.
+description: Specifies whether the encoder performs stereo image processing.
 ms.assetid: d1c787ee-787b-4efa-8d96-5cb4ffff0ed2
 title: MFPKEY_DYN_STEREO_PREPROC Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits class"
 title: Windows7Grbits class (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Grbits class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits

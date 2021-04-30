@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskException methods"
 title: EsentDiskException methods
 TOCTitle: EsentDiskException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDiskException

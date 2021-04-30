@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OpenDatabaseGrbit enumeration"
 title: OpenDatabaseGrbit enumeration
 TOCTitle: OpenDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.OpenDatabaseGrbit

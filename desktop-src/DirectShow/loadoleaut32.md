@@ -1,5 +1,5 @@
 ---
-Description: The LoadOLEAut32 function loads the Automation dynamic-link library (OleAut32.dll).
+description: The LoadOLEAut32 function loads the Automation dynamic-link library (OleAut32.dll).
 ms.assetid: af907341-1e2c-4c63-bf4e-d6c49b4f6a6e
 title: LoadOLEAut32 function (Combase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ When the [**CBaseObject**](cbaseobject.md) destructor destroys the object that l
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Provides the methods that WUA can use to gather information about the endpoint token.
+description: Provides the methods that WUA can use to gather information about the endpoint token.
 ms.assetid: 52D22909-B926-426F-98C7-643C4469D021
 title: IUpdateEndpointAuthToken interface (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The **IUpdateEndpointAuthToken** interface has these methods.
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>                |

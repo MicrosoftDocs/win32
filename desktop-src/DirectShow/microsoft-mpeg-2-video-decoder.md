@@ -1,5 +1,5 @@
 ---
-Description: This filter decodes MPEG-1, MPEG-2, H.264 video.
+description: This filter decodes MPEG-1, MPEG-2, H.264 video.
 ms.assetid: d8195c3a-97ac-4ad1-a097-18878c8fda6f
 title: Microsoft MPEG-2 Video Decoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -173,7 +173,7 @@ For H.264, the decoder supports the following formats:
 
 
 
-|                    |                                                                                                                                                                                                                                                                           |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Profiles/Levels    | Baseline, Main, and High profiles, up to level 5.1. (See ITU-T H.264 specification for details.)                                                                                                                                                                          |
 | Chroma Formats     | 4:2:0 chroma or monochrome                                                                                                                                                                                                                                                |
@@ -233,7 +233,7 @@ The filter supports the following properties through [**ICodecAPI**](/windows/de
 
 
 
-|                                     |                                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Home Premium, Windows Vista Ultimate, Windows 7 Home Premium, Windows 7 Professional, Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                                                                                     |

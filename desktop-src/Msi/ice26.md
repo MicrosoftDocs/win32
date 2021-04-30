@@ -1,5 +1,5 @@
 ---
-Description: ICE26 validates sequence tables in a Windows Installer database.
+description: ICE26 validates sequence tables in a Windows Installer database.
 ms.assetid: 7ea47452-3147-4d39-961d-a10eca8328c9
 title: ICE26
 ms.topic: article

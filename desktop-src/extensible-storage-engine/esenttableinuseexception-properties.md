@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableInUseException properties"
 title: EsentTableInUseException properties
 TOCTitle: EsentTableInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTableInUseException

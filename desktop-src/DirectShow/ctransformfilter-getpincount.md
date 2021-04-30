@@ -1,5 +1,5 @@
 ---
-Description: The GetPinCount method retrieves the number of pins on the filter.
+description: The GetPinCount method retrieves the number of pins on the filter.
 ms.assetid: 29039ada-fccd-4890-b36b-3dd5c0bbdc3e
 title: CTransformFilter.GetPinCount method (Transfrm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method overrides the [**CBaseFilter::GetPinCount**](cbasefilter-getpincount
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Path to metadata for the device.
+description: Path to metadata for the device.
 ms.assetid: 6499128d-d26d-47f2-b050-927159980307
 title: System.Devices.MetadataPath
 ms.topic: article

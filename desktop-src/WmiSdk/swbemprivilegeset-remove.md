@@ -1,5 +1,5 @@
 ---
-Description: The Remove method of the SWbemPrivilegeSet object deletes a privilege from the collection.
+description: The Remove method of the SWbemPrivilegeSet object deletes a privilege from the collection.
 ms.assetid: 4c0b6d49-262c-4840-955b-35b16b68f29f
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.Remove method (Wbemdisp.h)
@@ -74,7 +74,7 @@ Specified privilege does not exist.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

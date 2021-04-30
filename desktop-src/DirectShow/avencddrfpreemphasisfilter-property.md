@@ -1,5 +1,5 @@
 ---
-Description: Specifies the RF overmodulation protection setting in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies the RF overmodulation protection setting in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 2befb216-8735-4aed-80e7-22e31b2b147e
 title: AVEncDDRFPreEmphasisFilter property (Codecapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

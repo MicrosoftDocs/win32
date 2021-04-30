@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Columns"
 title: Columns
 TOCTitle: Columns
 ms:assetid: bc16ca4c-e3c9-43db-ac16-284d7cc0926d

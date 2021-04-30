@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of the number of threads and groups of the compute shader in the associated request.
+description: A callback that notifies the host of the number of threads and groups of the compute shader in the associated request.
 MS-HAID: vspixengine.IPipeLineStagesCallback2\_ThreadDataDimensionCallback\_ThreadData3D\_ThreadData3D
 MSHAttr:
 - PreferredSiteName:MSDN

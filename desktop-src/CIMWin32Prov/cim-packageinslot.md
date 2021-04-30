@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackageInSlot association represents the relationship between device cards and the chassis in which they are mounted.
+description: The CIM\_PackageInSlot association represents the relationship between device cards and the chassis in which they are mounted.
 ms.assetid: 439f28a8-24fd-4a53-9d42-48fabb58e84a
 ms.tgt_platform: multiple
 title: CIM_PackageInSlot class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

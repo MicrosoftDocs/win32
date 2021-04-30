@@ -1,5 +1,5 @@
 ---
-Description: The ClearProps method clears all property data from the property setter. The application can set new property data after calling this function.
+description: The ClearProps method clears all property data from the property setter. The application can set new property data after calling this function.
 ms.assetid: f3c31864-ddc3-4f3c-a097-2bab9d7f6a2a
 title: IPropertySetter::ClearProps method (Qedit.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

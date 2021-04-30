@@ -21,7 +21,7 @@ The control access right controls who can authenticate to a particular computer 
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Allowed-To-Authenticate              |
 | Display-Name | Allowed to Authenticate              |
@@ -41,7 +41,7 @@ The control access right controls who can authenticate to a particular computer 
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 65                                                                                                                              |
@@ -52,7 +52,7 @@ The control access right controls who can authenticate to a particular computer 
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 65                                                                                                                              |
@@ -63,7 +63,7 @@ The control access right controls who can authenticate to a particular computer 
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 65                                                                                                                              |
@@ -74,7 +74,7 @@ The control access right controls who can authenticate to a particular computer 
 
 
 
-|                         |                                                                                                                                                                                                                  |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 65                                                                                                                                                                                                               |
@@ -85,7 +85,7 @@ The control access right controls who can authenticate to a particular computer 
 
 
 
-|                         |                                                                                                                                                                                                                  |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**User**](c-user.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 65                                                                                                                                                                                                               |

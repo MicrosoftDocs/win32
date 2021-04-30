@@ -1,5 +1,5 @@
 ---
-Description: The GetTypeInfoCount method retrieves the number of type information interfaces the object provides.
+description: CMediaPosition.GetTypeInfoCount method - The GetTypeInfoCount method retrieves the number of type information interfaces the object provides.
 ms.assetid: c98368f2-ae0c-4301-be30-7332b19f53ee
 title: CMediaPosition.GetTypeInfoCount method (Ctlutil.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Returns one of the following values.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

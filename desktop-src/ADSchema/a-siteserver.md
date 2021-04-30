@@ -1,6 +1,6 @@
 ---
 title: Site-Server attribute
-description: Licensing master server for a given Site.
+description: Licensing main server for a given Site.
 ms.assetid: bcae8c63-a953-4721-b2d1-96d0376592c6
 ms.tgt_platform: multiple
 keywords:
@@ -18,11 +18,11 @@ ms.date: 05/31/2018
 
 # Site-Server attribute
 
-Licensing master server for a given Site.
+Licensing main server for a given Site.
 
 
 
-|                   |                                              |
+| Entry | Value |
 |-------------------|----------------------------------------------|
 | CN                | Site-Server                                  |
 | Ldap-Display-Name | siteServer                                   |
@@ -49,7 +49,7 @@ Licensing master server for a given Site.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -70,7 +70,7 @@ Licensing master server for a given Site.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -91,7 +91,7 @@ Licensing master server for a given Site.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -112,7 +112,7 @@ Licensing master server for a given Site.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -133,7 +133,7 @@ Licensing master server for a given Site.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -154,7 +154,7 @@ Licensing master server for a given Site.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -175,7 +175,7 @@ Licensing master server for a given Site.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |

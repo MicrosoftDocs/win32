@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentException methods"
 title: EsentException methods (Microsoft.Isam.Esent)
 TOCTitle: EsentException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.EsentException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInRelationshipException methods"
 title: EsentColumnInRelationshipException methods
 TOCTitle: EsentColumnInRelationshipException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnInRelationshipException

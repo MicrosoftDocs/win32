@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCatalogCorruptedException members"
 title: EsentCatalogCorruptedException members
 TOCTitle: EsentCatalogCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCatalogCorruptedException

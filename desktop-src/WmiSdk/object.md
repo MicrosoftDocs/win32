@@ -1,5 +1,5 @@
 ---
-Description: The OBJECT data type is a WMI class object use to declare weakly typed associations and embedded objects.
+description: The OBJECT data type is a WMI class object use to declare weakly typed associations and embedded objects.
 ms.assetid: 1ad99b92-dfd4-4147-abf5-045edceaa97d
 ms.tgt_platform: multiple
 title: OBJECT

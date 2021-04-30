@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.grbit property"
 title: JET_SPACEHINTS.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.grbit

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DoubleColumnValue.Size property"
 title: DoubleColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.DoubleColumnValue.Size

@@ -1,5 +1,5 @@
 ---
-Description: Prepares a device for drawing lines.
+description: Prepares a device for drawing lines.
 ms.assetid: c597703d-6466-4b55-b1a6-a4e7c667e50c
 title: ID3DXLine::Begin method (D3dx9core.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ ID3DXLine::Begin cannot be used as a substitute for either [**IDirect3DDevice9::
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

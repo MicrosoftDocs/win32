@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.Inequality operator"
 title: JET_BKLOGTIME.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.op_Inequality(Microsoft.Isam.Esent.Interop.JET_BKLOGTIME,Microsoft.Isam.Esent.Interop.JET_BKLOGTIME)

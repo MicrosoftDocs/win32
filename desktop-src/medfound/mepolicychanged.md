@@ -1,5 +1,5 @@
 ---
-Description: Raised by a pipeline component when the output policy for the stream changes. This event applies only to protected content.
+description: Raised by a pipeline component when the output policy for the stream changes. This event applies only to protected content.
 ms.assetid: 9dc78dc6-3fc2-4a81-ad41-45ff3fdbdade
 title: MEPolicyChanged event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The trusted output must apply the new policy or return the error code MF\_E\_POL
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

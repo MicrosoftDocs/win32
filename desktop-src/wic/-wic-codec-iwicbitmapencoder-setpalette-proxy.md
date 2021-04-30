@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the SetPalette method.
+description: IWICBitmapEncoder_SetPalette_Proxy function - Proxy function for the SetPalette method.
 ms.assetid: d8e2c36e-6886-4959-b2a2-469bebfe1cdc
 title: IWICBitmapEncoder_SetPalette_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

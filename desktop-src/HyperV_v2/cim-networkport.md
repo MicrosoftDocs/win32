@@ -1,5 +1,5 @@
 ---
-Description: A logical representation of a network port on a network device.
+description: A logical representation of a network port on a network device.
 ms.assetid: afcfc93d-174e-43b5-a16f-28937b4bf81a
 title: CIM_NetworkPort class
 ms.topic: reference
@@ -324,7 +324,7 @@ The maximum transmission unit (MTU) that is supported by the port.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

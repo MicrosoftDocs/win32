@@ -1,5 +1,5 @@
 ---
-Description: Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file.
+description: Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file.
 ms.assetid: b28162dc-0da8-41c6-9901-29381d2d72c4
 title: CancelIo function (IoAPI.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 
 
-|                                     |                                                                                                                                                                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                                       |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                                              |

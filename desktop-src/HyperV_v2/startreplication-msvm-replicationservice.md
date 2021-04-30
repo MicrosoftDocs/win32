@@ -1,5 +1,5 @@
 ---
-Description: Starts the replication of a virtual machine.
+description: Starts the replication of a virtual machine.
 ms.assetid: 58e89329-1ad4-4473-856d-ebfd7a863fa8
 title: StartReplication method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -158,7 +158,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

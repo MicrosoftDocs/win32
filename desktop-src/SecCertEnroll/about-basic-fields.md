@@ -1,5 +1,5 @@
 ---
-Description: An X.509 version 1 certificate contains the following fields. Version 2 fields are discussed in Version 2 Fields. Version 3 fields are discussed in Version 3 Extensions.
+description: An X.509 version 1 certificate contains the following fields. Version 2 fields are discussed in Version 2 Fields. Version 3 fields are discussed in Version 3 Extensions.
 ms.assetid: d614130c-cf1b-4580-8903-064982ed738e
 title: Basic Fields
 ms.topic: article

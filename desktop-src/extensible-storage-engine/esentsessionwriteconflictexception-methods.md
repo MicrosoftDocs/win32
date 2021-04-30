@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionWriteConflictException methods"
 title: EsentSessionWriteConflictException methods
 TOCTitle: EsentSessionWriteConflictException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException

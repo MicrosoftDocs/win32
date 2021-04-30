@@ -1,5 +1,5 @@
 ---
-Description: A privilege is the right of an account, such as a user or group account, to perform various system-related operations on the local computer, such as shutting down the system, loading device drivers, or changing the system time.
+description: A privilege is the right of an account, such as a user or group account, to perform various system-related operations on the local computer, such as shutting down the system, loading device drivers, or changing the system time.
 ms.assetid: 'fe6aae0f-93eb-4aba-a6ac-45e71c251c51'
 title: Privileges
 ms.topic: article

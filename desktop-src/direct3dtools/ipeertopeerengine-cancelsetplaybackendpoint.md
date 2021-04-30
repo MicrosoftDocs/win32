@@ -1,5 +1,5 @@
 ---
-Description: Cancels a previous request to set up a remote connection.
+description: Cancels a previous request to set up a remote connection.
 MS-HAID: vspixengine.IPeerToPeerEngine\_CancelSetPlaybackEndpoint
 MSHAttr:
 - PreferredSiteName:MSDN

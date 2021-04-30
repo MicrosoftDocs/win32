@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the items that Windows Search indexes.
+description: This topic describes the items that Windows Search indexes.
 ms.assetid: 'vs|search|~\search\wds3x\overviews\misc_items_in_index.htm'
 title: What Is Included in the Index
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: DMO Wrapper Filter
+description: DMO Wrapper Filter
 ms.assetid: ffa6234d-9040-4838-8f51-0cf87df40a5c
 title: DMO Wrapper Filter
 ms.topic: article
@@ -12,7 +12,7 @@ The DMO Wrapper filter enables a DirectShow application to use a [DirectX Media 
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IDMOWrapperFilter**](/previous-versions/windows/desktop/api/Dmodshow/nn-dmodshow-idmowrapperfilter), [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream)                                                                                                                       |
 | Input Pin Media Types                    | See Remarks                                                                                                                                                                                                                                        |

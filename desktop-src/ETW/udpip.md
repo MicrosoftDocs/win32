@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for UDP/IP events. The following syntax is simplified from MOF code.
+description: UdpIp class - This class is the parent class for UDP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: 0fbecad2-0221-408e-9f43-859547efa803
 title: UdpIp class
 ms.topic: reference
@@ -59,7 +59,7 @@ You can trace network events to a source and destination process using the **Pro
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

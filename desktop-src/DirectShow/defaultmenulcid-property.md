@@ -1,5 +1,5 @@
 ---
-Description: The DVDAdm.DefaultMenuLCID property sets or retrieves the registry setting for the user-specified default LCID for menus.
+description: The DVDAdm.DefaultMenuLCID property sets or retrieves the registry setting for the user-specified default LCID for menus.
 ms.assetid: 49e64b89-5914-4797-8aa6-2e3f253e494a
 title: DefaultMenuLCID Property
 ms.topic: reference

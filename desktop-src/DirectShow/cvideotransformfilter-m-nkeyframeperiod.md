@@ -1,5 +1,5 @@
 ---
-Description: The largest observed interval between key frames.
+description: The largest observed interval between key frames.
 ms.assetid: 66a39b4f-9eed-4fc3-aa31-f832c951c8a1
 title: CVideoTransformFilter::m_nKeyFramePeriod member (Vtrans.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ int m_nKeyFramePeriod;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Vtrans.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

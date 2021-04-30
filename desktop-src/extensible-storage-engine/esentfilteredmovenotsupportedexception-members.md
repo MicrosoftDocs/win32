@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFilteredMoveNotSupportedException members"
 title: EsentFilteredMoveNotSupportedException members
 TOCTitle: EsentFilteredMoveNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException

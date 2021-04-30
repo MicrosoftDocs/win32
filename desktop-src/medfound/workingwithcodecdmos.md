@@ -1,5 +1,5 @@
 ---
-Description: Working with Codec DMOs
+description: Working with Codec DMOs
 ms.assetid: bceba978-a986-4d92-ae83-14bae1835f18
 title: Working with Codec DMOs
 ms.topic: article

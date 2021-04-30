@@ -1,5 +1,5 @@
 ---
-Description: The system broadcasts the DBT\_DEVICEREMOVEPENDING device event when a device or piece of media is being removed and is no longer available for use.
+description: The system broadcasts the DBT\_DEVICEREMOVEPENDING device event when a device or piece of media is being removed and is no longer available for use.
 ms.assetid: 28cb4481-8961-4896-9608-afccba9a2bfe
 title: DBT_DEVICEREMOVEPENDING event (Dbt.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ For an example, see [Processing a Request to Remove a Device](processing-a-reque
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                   |

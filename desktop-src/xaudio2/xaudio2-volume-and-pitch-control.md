@@ -1,5 +1,5 @@
 ---
-Description: This topic describes XAudio2 volume and pitch control.
+description: This topic describes XAudio2 volume and pitch control.
 ms.assetid: dedc2d01-af83-d7d2-5b64-743dcebc83f7
 title: XAudio2 Volume and Pitch Control
 ms.topic: article

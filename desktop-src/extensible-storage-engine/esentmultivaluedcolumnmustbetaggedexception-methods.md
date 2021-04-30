@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedColumnMustBeTaggedException methods"
 title: EsentMultiValuedColumnMustBeTaggedException methods
 TOCTitle: EsentMultiValuedColumnMustBeTaggedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedColumnMustBeTaggedException

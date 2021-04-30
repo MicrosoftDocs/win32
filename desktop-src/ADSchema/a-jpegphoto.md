@@ -21,7 +21,7 @@ Used to store one or more images of a person using the JPEG File Interchange For
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | jpegPhoto                                             |
 | Ldap-Display-Name | jpegPhoto                                             |
@@ -46,7 +46,7 @@ Used to store one or more images of a person using the JPEG File Interchange For
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -67,7 +67,7 @@ Used to store one or more images of a person using the JPEG File Interchange For
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -88,7 +88,7 @@ Used to store one or more images of a person using the JPEG File Interchange For
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -109,7 +109,7 @@ Used to store one or more images of a person using the JPEG File Interchange For
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -130,7 +130,7 @@ Used to store one or more images of a person using the JPEG File Interchange For
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |

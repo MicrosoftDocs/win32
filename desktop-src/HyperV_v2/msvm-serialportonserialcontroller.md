@@ -1,5 +1,5 @@
 ---
-Description: Associates a serial port with a serial controller.
+description: Associates a serial port with a serial controller.
 ms.assetid: A07DE787-2600-4C40-9CE2-7D96D6A58E53
 title: Msvm_SerialPortOnSerialController class
 ms.topic: reference
@@ -80,7 +80,7 @@ Access to the **Msvm\_SerialPortOnSerialController** class might be restricted b
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

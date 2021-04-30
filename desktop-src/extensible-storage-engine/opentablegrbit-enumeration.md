@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OpenTableGrbit enumeration"
 title: OpenTableGrbit enumeration
 TOCTitle: OpenTableGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.OpenTableGrbit

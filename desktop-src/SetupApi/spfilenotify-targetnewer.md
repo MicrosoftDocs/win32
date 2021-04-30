@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_TARGETNEWER notification is sent to the callback routine if the file to be copied was queued with the SP\_COPY\_NEWER or SP\_COPY\_FORCE\_NEWER flags specified and a newer version of the file already exists in the target directory.
+description: The SPFILENOTIFY\_TARGETNEWER notification is sent to the callback routine if the file to be copied was queued with the SP\_COPY\_NEWER or SP\_COPY\_FORCE\_NEWER flags specified and a newer version of the file already exists in the target directory.
 ms.assetid: 93bcd610-f75d-4900-841c-f67946af5c4a
 title: SPFILENOTIFY_TARGETNEWER message (Setupapi.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The callback routine should return one of the following values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

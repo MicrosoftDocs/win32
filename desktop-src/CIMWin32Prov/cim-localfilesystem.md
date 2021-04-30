@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LocalFileSystem class represents the file store controlled by a computer system through local means (for example, direct device-driver access).
+description: The CIM\_LocalFileSystem class represents the file store controlled by a computer system through local means (for example, direct device-driver access).
 ms.assetid: eab52a25-ca24-4a69-b030-091603d3582c
 ms.tgt_platform: multiple
 title: CIM_LocalFileSystem class
@@ -589,7 +589,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

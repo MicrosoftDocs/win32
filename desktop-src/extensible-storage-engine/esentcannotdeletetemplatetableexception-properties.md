@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTemplateTableException properties"
 title: EsentCannotDeleteTemplateTableException properties
 TOCTitle: EsentCannotDeleteTemplateTableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException

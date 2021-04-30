@@ -1,5 +1,5 @@
 ---
-Description: The Streaming and Application Threads
+description: The Streaming and Application Threads
 ms.assetid: 954f7abd-fe06-430a-b6f7-d60852826bc9
 title: The Streaming and Application Threads
 ms.topic: article

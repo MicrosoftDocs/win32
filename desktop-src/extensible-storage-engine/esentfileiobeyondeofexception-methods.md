@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOBeyondEOFException methods"
 title: EsentFileIOBeyondEOFException methods
 TOCTitle: EsentFileIOBeyondEOFException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException

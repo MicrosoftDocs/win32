@@ -1,5 +1,5 @@
 ---
-Description: You can query and set the text alignment for a device context by using the GetTextAlign and SetTextAlign functions.
+description: You can query and set the text alignment for a device context by using the GetTextAlign and SetTextAlign functions.
 ms.assetid: 7fdfbadb-827a-4b42-9b9a-b9e46389e13c
 title: Setting the Text Alignment
 ms.topic: article

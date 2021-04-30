@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.IntrinsicLVsOnly field"
 title: Windows7Grbits.IntrinsicLVsOnly field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: IntrinsicLVsOnly field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.IntrinsicLVsOnly

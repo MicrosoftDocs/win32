@@ -1,6 +1,6 @@
 ---
 title: TB_GETUNICODEFORMAT message (Commctrl.h)
-description: Retrieves the Unicode character format flag for the control.
+description: TB_GETUNICODEFORMAT message - Retrieves the Unicode character format flag for the control.
 ms.assetid: aadce646-daf1-4f1e-9171-2aeac12d3484
 keywords:
 - TB_GETUNICODEFORMAT message Windows Controls
@@ -42,7 +42,7 @@ See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a d
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

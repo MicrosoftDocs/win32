@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransReadOnlyException properties"
 title: EsentTransReadOnlyException properties
 TOCTitle: EsentTransReadOnlyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException

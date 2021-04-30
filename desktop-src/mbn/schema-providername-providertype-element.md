@@ -1,5 +1,5 @@
 ---
-Description: Contains the name of the cellular network.
+description: Contains the name of the cellular network.
 ms.assetid: 4169babb-7616-468a-93f0-de25cce0c88b
 title: ProviderName (providerType) Element
 ms.topic: reference
@@ -33,7 +33,7 @@ The **ProviderName** element is defined by the [**providerType**](schema-provide
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

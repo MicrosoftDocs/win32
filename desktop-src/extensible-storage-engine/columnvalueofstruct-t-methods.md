@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T> methods"
 title: ColumnValueOfStruct(T) methods
 TOCTitle: ColumnValueOfStruct(T) methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1

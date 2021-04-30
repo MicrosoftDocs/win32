@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileAccessDeniedException constructor"
 title: EsentSLVFileAccessDeniedException constructor 
 TOCTitle: 'EsentSLVFileAccessDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileAccessDeniedException.#ctor

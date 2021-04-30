@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogTornWriteDuringHardRestoreException constructor"
 title: EsentLogTornWriteDuringHardRestoreException constructor 
 TOCTitle: 'EsentLogTornWriteDuringHardRestoreException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRestoreException.#ctor

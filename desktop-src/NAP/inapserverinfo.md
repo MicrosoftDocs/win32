@@ -56,7 +56,7 @@ These methods provide only static information about the NAP Server and its compo
 
 
 
-|                                     |                                                                                                    |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                               |

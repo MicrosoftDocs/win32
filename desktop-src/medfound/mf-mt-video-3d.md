@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a video stream contains 3D content.
+description: Specifies whether a video stream contains 3D content.
 ms.assetid: 43B6337D-9812-4EF1-8FDB-9BB21FB5A8D3
 title: MF_MT_VIDEO_3D attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ This attribute applies to video media types. If this attribute is **TRUE**, the 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

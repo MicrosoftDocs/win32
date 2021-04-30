@@ -1,5 +1,5 @@
 ---
-Description: The Delete method deletes a file at a given location within the smart card file system.
+description: The Delete method deletes a file at a given location within the smart card file system.
 ms.assetid: f51b0329-c5dc-4f70-a92e-19dc0dbc55f8
 title: ISCardFileAccess::Delete method
 ms.topic: reference
@@ -102,7 +102,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

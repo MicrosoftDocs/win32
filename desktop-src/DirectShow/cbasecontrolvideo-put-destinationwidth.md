@@ -1,5 +1,5 @@
 ---
-Description: The put\_DestinationWidth method sets the width of the destination rectangle.
+description: The put\_DestinationWidth method sets the width of the destination rectangle.
 ms.assetid: 1e7a4d38-1453-4dfd-8a2f-0f76b352fc64
 title: CBaseControlVideo.put_DestinationWidth method (Ctlutil.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

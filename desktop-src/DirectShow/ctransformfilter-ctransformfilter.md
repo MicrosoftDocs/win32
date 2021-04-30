@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CTransformFilter.CTransformFilter constructor - Constructor method.
 ms.assetid: a64c3e29-91f2-455f-aac1-1e4ecce6958d
 title: CTransformFilter.CTransformFilter constructor (Transfrm.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The constructor does not create the filter's pins. That happens during the first
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

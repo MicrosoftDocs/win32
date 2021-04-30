@@ -1,5 +1,5 @@
 ---
-Description: The Hyper-V metrics API defines the following programming elements.
+description: The Hyper-V metrics API defines the following programming elements.
 ms.assetid: 00235614-9FCB-4161-B03D-9D557050153B
 title: Hyper-V metrics API reference
 ms.topic: reference

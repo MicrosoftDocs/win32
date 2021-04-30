@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Chassis class represents the physical elements that enclose other elements and provide definable functionality, such as a desktop, processing node, UPS, disk or tape storage, or a combination of these.
+description: The CIM\_Chassis class represents the physical elements that enclose other elements and provide definable functionality, such as a desktop, processing node, UPS, disk or tape storage, or a combination of these.
 ms.assetid: 4c55dbff-bc4a-4cc9-8f34-29636defaa56
 ms.tgt_platform: multiple
 title: CIM_Chassis class
@@ -1203,7 +1203,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

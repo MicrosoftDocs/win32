@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# Functions (COM)
 
 The following functions are provided by COM.
 

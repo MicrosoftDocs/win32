@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.Coltyp property"
 title: ColumnInfo.Coltyp property 
 TOCTitle: 'Coltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Coltyp

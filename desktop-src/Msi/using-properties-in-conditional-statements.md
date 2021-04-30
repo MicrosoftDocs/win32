@@ -1,5 +1,5 @@
 ---
-Description: The logical value of a property that has been set is True.
+description: The logical value of a property that has been set is True.
 ms.assetid: aee818aa-912d-4e59-b061-61cd35993593
 title: Using Properties in Conditional Statements
 ms.topic: article

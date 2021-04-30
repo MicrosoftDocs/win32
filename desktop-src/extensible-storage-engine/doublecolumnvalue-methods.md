@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DoubleColumnValue methods"
 title: DoubleColumnValue methods
 TOCTitle: DoubleColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.DoubleColumnValue

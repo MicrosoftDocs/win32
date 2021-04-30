@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreEntryTooBigException constructor"
 title: EsentVersionStoreEntryTooBigException constructor 
 TOCTitle: 'EsentVersionStoreEntryTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException.#ctor

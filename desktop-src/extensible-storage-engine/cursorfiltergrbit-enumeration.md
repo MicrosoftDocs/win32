@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CursorFilterGrbit enumeration"
 title: CursorFilterGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: CursorFilterGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.CursorFilterGrbit

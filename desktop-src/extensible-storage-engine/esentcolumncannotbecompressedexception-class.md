@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnCannotBeCompressedException class"
 title: EsentColumnCannotBeCompressedException class
 TOCTitle: EsentColumnCannotBeCompressedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnCannotBeCompressedException

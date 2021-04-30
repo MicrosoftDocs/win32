@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDs are used for event tracing in DirectShow.
+description: The following GUIDs are used for event tracing in DirectShow.
 ms.assetid: 438938fe-37e7-45d6-b49a-d96698307f25
 title: Trace GUIDs (PerfStruct.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ The following GUIDs are used for event tracing in DirectShow.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PerfStruct.h</dt> </dl> |
 

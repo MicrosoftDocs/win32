@@ -1,7 +1,7 @@
 ---
-Description: Constructor method. The constuctor provides the mapping between old-style multimedia format DWORD types and GUID subtypes.
+description: "A constructor method that provides the mapping between old-style multimedia format DWORD types and GUID subtypes. This method uses the 'Fourcc' parameter."
 ms.assetid: 35344aae-ed87-4e5e-8824-84f5482b332e
-title: FOURCCMap::FOURCCMap constructor (Fourcc.h)
+title: FOURCCMap::FOURCCMap constructor (Fourcc.h) - Fourcc parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# FOURCCMap::FOURCCMap constructor
+# FOURCCMap::FOURCCMap constructor (Fourcc.h) - Fourcc parameter
 
 Constructor method. The constuctor provides the mapping between old-style multimedia format **DWORD** types and **GUID** subtypes.
 
@@ -50,14 +50,10 @@ If this object is constructed with the **FOURCC** code, a **GUID** is created to
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Fourcc.h (include Streams.h)</dt> </dl>                                                                                    |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header  | Fourcc.h (include Streams.h) |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

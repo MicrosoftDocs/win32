@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used in synchronization.
+description: The following functions are used in synchronization.
 ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: Synchronization Functions
 ms.topic: article

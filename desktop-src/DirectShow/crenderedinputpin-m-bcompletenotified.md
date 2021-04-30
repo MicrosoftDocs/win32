@@ -1,5 +1,5 @@
 ---
-Description: The m\_bCompleteNotified member variable is a Boolean flag indicating whether the pin has sent an EC\_COMPLETE event to the Filter Graph Manager.
+description: The m\_bCompleteNotified member variable is a Boolean flag indicating whether the pin has sent an EC\_COMPLETE event to the Filter Graph Manager.
 ms.assetid: c0ac19ee-68a4-4e93-97fb-a5298ec283c1
 title: CRenderedInputPin::m_bCompleteNotified member (Amextra.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BOOL m_bCompleteNotified;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amextra.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

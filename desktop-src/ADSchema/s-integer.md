@@ -21,7 +21,7 @@ Represents a 32-bit signed integer value.
 
 
 
-|              |                                                                           |
+| Entry | Value |
 |--------------|---------------------------------------------------------------------------|
 | Name         | Integer                                                                   |
 | Syntax ID    | 2.5.5.9                                                                   |

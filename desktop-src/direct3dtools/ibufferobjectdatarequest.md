@@ -1,5 +1,5 @@
 ---
-Description: Request for the contents of an object in buffer form for those that support it.
+description: Request for the contents of an object in buffer form for those that support it.
 MS-HAID: vspixengine.IBufferObjectDataRequest
 MSHAttr:
 - PreferredSiteName:MSDN

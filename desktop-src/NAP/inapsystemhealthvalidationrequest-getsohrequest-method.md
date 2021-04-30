@@ -87,7 +87,7 @@ If the *napSystemGenerated* parameter is **TRUE**, the format of *SoHRequest* is
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Encoder API
+description: Encoder API
 ms.assetid: 3d19152f-17a3-4576-a2a2-5b827d9ca8d1
 title: Encoder API
 ms.topic: article

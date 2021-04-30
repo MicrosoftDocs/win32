@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStateException members"
 title: EsentStateException members
 TOCTitle: EsentStateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStateException

@@ -1,5 +1,5 @@
 ---
-Description: Gives an overview of the changes to the Windows Parental Controls introduced in Windows 7.
+description: Gives an overview of the changes to the Windows Parental Controls introduced in Windows 7.
 ms.assetid: 5723fddd-52e2-46a1-a48f-647d479b21d9
 title: Whats New in Windows 7 Parental Controls
 ms.topic: article

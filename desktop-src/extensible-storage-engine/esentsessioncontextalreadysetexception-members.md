@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionContextAlreadySetException members"
 title: EsentSessionContextAlreadySetException members
 TOCTitle: EsentSessionContextAlreadySetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionContextAlreadySetException

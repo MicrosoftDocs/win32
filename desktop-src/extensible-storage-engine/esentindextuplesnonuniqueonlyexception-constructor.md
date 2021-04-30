@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesNonUniqueOnlyException constructor"
 title: EsentIndexTuplesNonUniqueOnlyException constructor 
 TOCTitle: 'EsentIndexTuplesNonUniqueOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesNonUniqueOnlyException.#ctor

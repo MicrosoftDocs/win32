@@ -1,5 +1,5 @@
 ---
-Description: The WpdAttributeForm enumeration type describes how a property stores its values.
+description: The WpdAttributeForm enumeration type describes how a property stores its values.
 ms.assetid: 3ad8d1f9-1b74-4f34-9af5-1acdd588b650
 title: WpdAttributeForm enumeration (PortableDevice.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ This enumeration is used by the [WPD\_PROPERTY\_ATTRIBUTE\_FORM](attributes.md) 
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

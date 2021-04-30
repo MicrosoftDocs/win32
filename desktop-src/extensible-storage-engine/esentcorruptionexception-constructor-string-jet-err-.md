@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCorruptionException constructor (String, JET_err)"
 title: EsentCorruptionException constructor (String, JET_err)
 TOCTitle: EsentCorruptionException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCorruptionException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the TPM is ready and provides additional information on the state of the TPM.
+description: Indicates whether the TPM is ready and provides additional information on the state of the TPM.
 ms.assetid: 1E348D77-979C-42FC-824D-7C57F7BAABE5
 title: Win32_Tpm::IsReadyInformation method
 ms.topic: reference
@@ -109,7 +109,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |

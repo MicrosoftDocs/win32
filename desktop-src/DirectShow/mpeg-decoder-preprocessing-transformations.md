@@ -1,5 +1,5 @@
 ---
-Description: MPEG Decoder Preprocessing Transformations
+description: MPEG Decoder Preprocessing Transformations
 ms.assetid: c7ae0137-0d02-46da-9532-738d805e327d
 title: MPEG Decoder Preprocessing Transformations
 ms.topic: article
@@ -26,7 +26,7 @@ The **dwControlFlags** member will now contain the new bits.
 
 
 
-|                          |            |
+| Label | Value |
 |--------------------------|------------|
 | AMCONTROL\_USED          | 0x00000001 |
 | AMCONTROL\_PAD\_TO\_4x3  | 0x00000002 |

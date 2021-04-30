@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVDatabaseMissingException members"
 title: EsentSLVDatabaseMissingException members
 TOCTitle: EsentSLVDatabaseMissingException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVDatabaseMissingException

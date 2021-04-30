@@ -1,5 +1,5 @@
 ---
-Description: Gets the current mean bit rate of the decoder.
+description: Gets the current mean bit rate of the decoder.
 ms.assetid: 11f6b5cb-10c6-470b-870d-b89983dba74e
 title: AVDecCommonMeanBitRate property (Codecapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is read-only.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

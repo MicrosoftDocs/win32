@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_GATHER_ND1_OPERATOR_DESC
 title: DML_GATHER_ND1_OPERATOR_DESC
-description: Gathers elements from the input tensor, using the indices tensor to remap indices to entire subblocks of the input.
+description: Gathers elements from the input tensor, using the indices tensor to remap indices to entire subblocks of the input. | DML_GATHER_ND1_OPERATOR_DESC
 helpviewer_keywords: ["DML_GATHER_ND1_OPERATOR_DESC","DML_GATHER_ND1_OPERATOR_DESC structure","direct3d12.dml_convolution_integer_operator_desc","directml/DML_GATHER_ND1_OPERATOR_DESC"]
 ms.topic: reference
 tech.root: directml
@@ -52,7 +52,7 @@ output[batch, ...] = input[batch, indices[batch, ...], ...]
 ```
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLoggingDisabledException members"
 title: EsentLoggingDisabledException members
 TOCTitle: EsentLoggingDisabledException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException

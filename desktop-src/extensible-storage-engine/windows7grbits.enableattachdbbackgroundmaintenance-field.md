@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.EnableAttachDbBackgroundMaintenance field"
 title: Windows7Grbits.EnableAttachDbBackgroundMaintenance field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: EnableAttachDbBackgroundMaintenance field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.EnableAttachDbBackgroundMaintenance

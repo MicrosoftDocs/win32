@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.DbScanIntervalMaxSec property"
 title: InstanceParameters.DbScanIntervalMaxSec property 
 TOCTitle: 'DbScanIntervalMaxSec property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.DbScanIntervalMaxSec

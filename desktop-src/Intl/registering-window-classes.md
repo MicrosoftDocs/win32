@@ -1,5 +1,5 @@
 ---
-Description: A window class is supported by a window procedure. Your application can register a window class by using either RegisterClassA or RegisterClassW. New applications should typically use RegisterClassW.
+description: A window class is supported by a window procedure. Your application can register a window class by using either RegisterClassA or RegisterClassW. New applications should typically use RegisterClassW.
 ms.assetid: 016296ce-6151-4673-ad59-c69a2138a05a
 title: Registering Window Classes
 ms.topic: article

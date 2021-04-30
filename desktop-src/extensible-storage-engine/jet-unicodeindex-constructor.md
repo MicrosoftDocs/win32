@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX constructor"
 title: JET_UNICODEINDEX constructor 
 TOCTitle: 'JET_UNICODEINDEX constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.#ctor

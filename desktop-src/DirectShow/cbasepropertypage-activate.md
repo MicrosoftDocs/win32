@@ -1,5 +1,5 @@
 ---
-Description: The Activate method creates the dialog box window. This method implements the IPropertyPage::Activate method.
+description: The Activate method creates the dialog box window. This method implements the IPropertyPage::Activate method.
 ms.assetid: 8f030dc5-1d14-46b5-9d40-7f07a1177dbe
 title: CBasePropertyPage.Activate method (Cprop.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

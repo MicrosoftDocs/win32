@@ -1,5 +1,5 @@
 ---
-Description: Specifies if access to all infrastructure networks is blocked.
+description: Specifies if access to all infrastructure networks is blocked.
 ms.assetid: d57ae27c-3cd3-4e53-b5c9-cd3cbb91289b
 title: denyAllESS (networkFilter) Element
 ms.topic: reference
@@ -32,7 +32,7 @@ The **denyAllESS** element is defined by the [**networkFilter**](wlan-policysche
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: The SelectFile method constructs an application protocol data unit (APDU) command that sets a current elementary file within a logical channel. Subsequent commands may implicitly refer to the current file through the logical channel.
+description: The SelectFile method constructs an application protocol data unit (APDU) command that sets a current elementary file within a logical channel. Subsequent commands may implicitly refer to the current file through the logical channel.
 ms.assetid: cb6231b3-fb1c-4350-8797-9efaa663c21b
 title: ISCardISO7816::SelectFile method (Scardssp.h)
 ms.topic: reference
@@ -148,7 +148,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

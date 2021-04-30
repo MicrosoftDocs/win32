@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE.Inequality operator"
 title: JET_SIGNATURE.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SIGNATURE.op_Inequality(Microsoft.Isam.Esent.Interop.JET_SIGNATURE,Microsoft.Isam.Esent.Interop.JET_SIGNATURE)

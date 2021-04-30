@@ -1,5 +1,5 @@
 ---
-Description: Specifies the starting frame number in the group of pictures (GOP) header.
+description: Specifies the starting frame number in the group of pictures (GOP) header.
 ms.assetid: 77b04001-f524-49c0-b2cf-be32ad16564b
 title: AVEncVideoHeaderFrames property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The valid range of this property depends on the frame rate.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: The ScheduleJob function requests that the print spooler schedule a specified print job for printing.
+description: The ScheduleJob function requests that the print spooler schedule a specified print job for printing.
 ms.assetid: a103a29c-be4d-491e-9b04-84571fe969a5
 title: ScheduleJob function (Winspool.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The **ScheduleJob** function checks for a valid spool file. If there is an inval
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

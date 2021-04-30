@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the network source sends UDP resend requests in response to lost packets.
+description: Specifies whether the network source sends UDP resend requests in response to lost packets.
 ms.assetid: 7956536d-9f3d-4875-8006-17e2cd577b61
 title: MFNETSOURCE_RESENDSENABLED property (Mfidl.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The default value of this property is **TRUE**.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

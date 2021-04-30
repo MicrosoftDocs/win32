@@ -1,5 +1,5 @@
 ---
-Description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the Schannel [*constrained delegation*](../secgloss/s-gly.md).
+description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the Schannel [*constrained delegation*](../secgloss/s-gly.md).
 ms.assetid: c451089a-d10d-469c-99dd-43d75a6b0b2a
 title: InitializeSecurityContext (Schannel) function (Sspi.h)
 ms.topic: reference
@@ -252,7 +252,7 @@ After a client application receives an authentication certificate from a CA that
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                |

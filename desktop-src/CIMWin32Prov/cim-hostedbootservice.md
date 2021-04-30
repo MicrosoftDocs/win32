@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_HostedBootService class associates a hosting system and a boot service. Since this relationship is subclassed from CIM\_HostedService, it inherits the scoping/naming scheme defined for service, where a service defers to its hosting system.
+description: The CIM\_HostedBootService class associates a hosting system and a boot service. Since this relationship is subclassed from CIM\_HostedService, it inherits the scoping/naming scheme defined for service, where a service defers to its hosting system.
 ms.assetid: 91621288-a231-4423-94df-7601bdf2ebe1
 ms.tgt_platform: multiple
 title: CIM_HostedBootService class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

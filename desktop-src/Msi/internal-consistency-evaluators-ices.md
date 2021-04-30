@@ -1,5 +1,5 @@
 ---
-Description: Internal consistency evaluators, also called ICEs, are custom actions written in VBScript, JScript, or as a DLL or EXE.
+description: Internal consistency evaluators, also called ICEs, are custom actions written in VBScript, JScript, or as a DLL or EXE.
 ms.assetid: 0789103d-ae34-46be-a9fb-093e066d6d4b
 title: Internal Consistency Evaluators - ICEs
 ms.topic: article

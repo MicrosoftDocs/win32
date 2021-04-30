@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetCloseTable method"
 title: Api.JetCloseTable method 
 TOCTitle: 'JetCloseTable method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCloseTable(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

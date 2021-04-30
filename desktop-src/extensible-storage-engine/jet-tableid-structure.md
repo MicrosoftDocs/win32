@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID structure"
 title: JET_TABLEID structure
 TOCTitle: JET_TABLEID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_TABLEID

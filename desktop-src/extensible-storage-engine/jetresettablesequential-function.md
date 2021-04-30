@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetResetTableSequential Function"
 title: JetResetTableSequential Function
 TOCTitle: JetResetTableSequential Function
 ms:assetid: 5fe9daf2-5ef1-46d6-b0c3-ef92fb57d8bb

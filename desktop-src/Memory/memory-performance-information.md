@@ -1,5 +1,5 @@
 ---
-Description: Memory performance information is available from the memory manager through the system performance counters and through functions such as GetPerformanceInfo, GetProcessMemoryInfo, and GlobalMemoryStatusEx.
+description: Memory performance information is available from the memory manager through the system performance counters and through functions such as GetPerformanceInfo, GetProcessMemoryInfo, and GlobalMemoryStatusEx.
 ms.assetid: b27ca747-8fd2-4267-9979-4e2e14a5a19f
 title: Memory Performance Information
 ms.topic: article

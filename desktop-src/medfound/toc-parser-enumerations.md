@@ -1,5 +1,5 @@
 ---
-Description: Table of Contents Parser Enumerations
+description: Table of Contents Parser Enumerations
 ms.assetid: d414c0d7-e3f1-4697-8ab1-f38815eaf889
 title: Table of Contents Parser Enumerations
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: When multicasting is employed, it is usually necessary to specify the scope over which the multicast should occur.
+description: When multicasting is employed, it is usually necessary to specify the scope over which the multicast should occur.
 ms.assetid: 744b43a8-dd89-4e63-ae3c-5bee72864df7
 title: SIO_MULTICAST_SCOPE Command Code for WSAIoctl
 ms.topic: article

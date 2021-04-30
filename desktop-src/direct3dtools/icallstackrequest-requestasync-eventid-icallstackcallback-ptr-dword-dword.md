@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get the call stack RVAs (relative virtual addresses) of the specified event.
+description: An asynchronous request to get the call stack RVAs (relative virtual addresses) of the specified event.
 MS-HAID: vspixengine.ICallStackRequest\_RequestAsync\_EventID\_ICallStackCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

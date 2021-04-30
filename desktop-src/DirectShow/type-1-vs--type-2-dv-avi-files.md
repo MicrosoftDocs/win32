@@ -1,5 +1,5 @@
 ---
-Description: Type-1 vs.
+description: Type-1 vs.
 ms.assetid: 3f1cf981-f678-46a6-9784-ffb389438b6d
 title: Type-1 vs. Type-2 DV AVI Files
 ms.topic: article

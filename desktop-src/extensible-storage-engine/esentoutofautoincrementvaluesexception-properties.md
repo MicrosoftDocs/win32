@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfAutoincrementValuesException properties"
 title: EsentOutOfAutoincrementValuesException properties
 TOCTitle: EsentOutOfAutoincrementValuesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfAutoincrementValuesException

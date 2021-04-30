@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Progressive Disclosure Controls
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a progressive disclosure control, users can show or hide additional information including data, options, or commands. Progressive disclosure promotes simplicity by focusing on the essential, yet revealing additional detail as needed.
 
@@ -28,7 +28,7 @@ To decide, consider these questions:
 
 -   **Do users need to see the information in some but not all scenarios, or some but not all of the time?** If so, displaying the information using progressive disclosure simplifies the baseline experience, yet allows users to access the information easily.
 
-    ![screen shot of security center status display ](images/progressive-disclosure-controls-image2.png)
+    ![Screenshot that shows the security center status display.](images/progressive-disclosure-controls-image2.png)
 
     In this example, Security Center displays the important security status all the time, but uses progressive disclosure to display details on demand.
 
@@ -161,7 +161,7 @@ Plus and minus controls are used in the following ways:
 
 |                                                                                                |                                                                                                                                                                                                                                      |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Collapsible trees**<br/> a multi-level hierarchy to show container content.<br/> | ![screen shot of windows explorer folder tree ](images/progressive-disclosure-controls-image16.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated container.<br/>       |
+| **Collapsible trees**<br/> a multi-level hierarchy to show container content.<br/> | ![Screenshot that shows a Windows Explorer folder tree with 'Behavior' selected.](images/progressive-disclosure-controls-image16.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated container.<br/>       |
 | **Collapsible lists**<br/> a two-level hierarchy to show container content.<br/>   | ![screen shot of list expanded to show two levels ](images/progressive-disclosure-controls-image17.png)<br/> In this example, the plus and minus controls are positioned to the left of the associated list header.<br/> |
 
 
@@ -358,6 +358,4 @@ Examples:
 -   (For a chevron) To determine the file size, click **Details**.
 -   (For an arrow) To see all the options, click the arrow next to the **Search** box.
 -   (For plus/minus) To view your picture, click **Pictures**.
-
- 
 

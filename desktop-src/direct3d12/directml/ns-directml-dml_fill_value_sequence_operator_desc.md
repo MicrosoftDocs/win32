@@ -54,7 +54,7 @@ endfor
 ```
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -86,14 +86,14 @@ The data type of *Value* field, which must match *OutputTensor.DataType*.
 
 `ValueStart`
 
-Type: **[DML_SCALAR_UNION](/windows/win32/direct3d12/directml/ns-directml-dml_scalar_union)**
+Type: **[DML_SCALAR_UNION](./ns-directml-dml_scalar_union.md)**
 
 The initial value to fill the first element in the output, with *ValueDataType* determining how to interpret the field.
 
 
 `ValueDelta`
 
-Type: **[DML_SCALAR_UNION](/windows/win32/direct3d12/directml/ns-directml-dml_scalar_union)**
+Type: **[DML_SCALAR_UNION](./ns-directml-dml_scalar_union.md)**
 
 A step to add to the value for each element written, with *ValueDataType* determining how to interpret the field.
 

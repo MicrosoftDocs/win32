@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotCommittedException properties"
 title: EsentSLVPagesNotCommittedException properties
 TOCTitle: EsentSLVPagesNotCommittedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException

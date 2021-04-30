@@ -19,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Playlist Attributes
+# Playlist Attributes Reference
 
 The following attributes are available for media items retrieved from the library by using [**MediaCollection.getByAttribute("MediaType", "playlist")**](/windows/desktop/WMP/mediacollection-getbyattribute).
 

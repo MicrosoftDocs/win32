@@ -1,5 +1,5 @@
 ---
-Description: Extracts the header information from a delta. 
+description: Extracts the header information from a delta.
 title: ExtractPatchHeaderToFileA/W function
 ms.topic: reference
 ms.date: 04/17/2020
@@ -51,7 +51,7 @@ This function returns **TRUE** if it succeeds; otherwise, it returns **FALSE**.
 
 ## Requirements
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | Header | patchapi.h |
 | DLL | mspatchc.dll |

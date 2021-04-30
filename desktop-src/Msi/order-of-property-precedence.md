@@ -1,5 +1,5 @@
 ---
-Description: The installer sets properties using the following order of precedence. A property value in this list can override a value that comes after it and be overridden by a value coming before it in the list.
+description: The installer sets properties using the following order of precedence. A property value in this list can override a value that comes after it and be overridden by a value coming before it in the list.
 ms.assetid: ba9240fe-2e5a-43f5-8cdf-59dd6348092b
 title: Order of Property Precedence
 ms.topic: article

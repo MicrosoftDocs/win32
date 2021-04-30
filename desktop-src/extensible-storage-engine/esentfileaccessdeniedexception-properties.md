@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileAccessDeniedException properties"
 title: EsentFileAccessDeniedException properties
 TOCTitle: EsentFileAccessDeniedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException

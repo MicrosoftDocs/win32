@@ -1,5 +1,5 @@
 ---
-Description: Memory management tracing event for a heap free operation.
+description: Memory management tracing event for a heap free operation.
 ms.assetid: 0CCC59F1-AB96-4B7A-9A86-19CA4FBA4A8A
 title: ETW_HEAP_EVENT_FREE event (Ntwmi.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The **ETW\_HEAP\_EVENT\_FREE** event is logged on all heap free operations.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

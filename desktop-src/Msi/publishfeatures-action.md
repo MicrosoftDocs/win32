@@ -1,5 +1,5 @@
 ---
-Description: The PublishFeatures action writes each feature's state into the system registry.
+description: The PublishFeatures action writes each feature's state into the system registry.
 ms.assetid: 8205e865-e625-43b9-8ce9-cff8026b2717
 title: PublishFeatures Action
 ms.topic: article

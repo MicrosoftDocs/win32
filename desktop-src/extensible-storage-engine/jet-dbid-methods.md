@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID methods"
 title: JET_DBID methods
 TOCTitle: JET_DBID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_DBID

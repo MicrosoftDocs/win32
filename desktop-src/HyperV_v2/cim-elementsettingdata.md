@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a managed element and its associated setting data. This association also describes whether this is a default or current setting.
+description: Represents an association between a managed element and its associated setting data. This association also describes whether this is a default or current setting.
 ms.assetid: 0df2b235-76d9-4899-938b-274ec5471324
 title: CIM_ElementSettingData class
 ms.topic: reference
@@ -205,7 +205,7 @@ The setting data associated with the element.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

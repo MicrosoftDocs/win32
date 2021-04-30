@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback methods"
 title: DurableCommitCallback methods (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: DurableCommitCallback methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback

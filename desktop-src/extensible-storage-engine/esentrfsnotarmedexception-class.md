@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsNotArmedException class"
 title: EsentRfsNotArmedException class
 TOCTitle: EsentRfsNotArmedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRfsNotArmedException

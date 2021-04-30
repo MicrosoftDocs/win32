@@ -86,7 +86,7 @@ If *pszDest* cannot hold the entire string pointed to by *pszSource*, then (*cch
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

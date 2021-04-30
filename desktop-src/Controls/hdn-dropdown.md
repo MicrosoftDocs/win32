@@ -54,7 +54,7 @@ This message is sent only if style HDF\_SPLITBUTTON is set on the header item.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

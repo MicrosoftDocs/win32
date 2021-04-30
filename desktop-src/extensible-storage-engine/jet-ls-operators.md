@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_LS operators"
 title: JET_LS operators
 TOCTitle: JET_LS operators
 ms:assetid: 35b69244-b6a8-50df-f442-6096bc5a5aa5

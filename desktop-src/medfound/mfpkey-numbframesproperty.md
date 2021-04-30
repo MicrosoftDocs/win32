@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of bidirectional predictive frames (B-frames).
+description: Specifies the number of bidirectional predictive frames (B-frames).
 ms.assetid: 8bd95baa-c130-4616-8ab7-7d902162e4ed
 title: MFPKEY_NUMBFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The valid range of values for this property is 0 to 7.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

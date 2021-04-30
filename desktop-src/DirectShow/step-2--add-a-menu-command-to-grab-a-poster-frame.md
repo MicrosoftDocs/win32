@@ -1,5 +1,5 @@
 ---
-Description: 'Step 2: Add a Menu Command to Grab a Poster Frame'
+description: 'Step 2: Add a Menu Command to Grab a Poster Frame'
 ms.assetid: 9a0f807b-5543-41d4-ad2a-030a4346131c
 title: 'Step 2: Add a Menu Command to Grab a Poster Frame'
 ms.topic: article

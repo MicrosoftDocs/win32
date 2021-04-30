@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationFailException members"
 title: EsentUnicodeTranslationFailException members
 TOCTitle: EsentUnicodeTranslationFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException

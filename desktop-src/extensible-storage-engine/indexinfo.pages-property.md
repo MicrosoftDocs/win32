@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.Pages property"
 title: IndexInfo.Pages property 
 TOCTitle: 'Pages property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Pages

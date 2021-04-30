@@ -1,5 +1,5 @@
 ---
-Description: The get\_TimeCollection method gets a pointer to an ITTimeCollection interface for conference.
+description: The get\_TimeCollection method gets a pointer to an ITTimeCollection interface for conference.
 ms.assetid: 1cfe3f5a-dcf7-480b-9b23-e17259d8ee9c
 title: ITSdp::get_TimeCollection method (Sdpblb.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ TAPI calls the **AddRef** method on the [**ITTimeCollection**](ittimecollection.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

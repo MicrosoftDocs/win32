@@ -1,5 +1,5 @@
 ---
-Description: Creates a moniker representing a hardware component and its associated event handler. AutoPlay uses this function to allow applications to use AutoPlay events.
+description: Creates a moniker representing a hardware component and its associated event handler. AutoPlay uses this function to allow applications to use AutoPlay events.
 title: CreateHardwareEventMoniker function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -111,7 +111,7 @@ HKEY_CLASSES_ROOT
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

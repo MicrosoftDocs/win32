@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Best Practices
+# Best Practices (Windows Filtering Platform)
 
 The following list contains best practices for developing applications using the Windows Filtering Platform (WFP) API.
 

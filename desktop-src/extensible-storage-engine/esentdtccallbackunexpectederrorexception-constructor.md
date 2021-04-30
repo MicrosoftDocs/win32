@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCCallbackUnexpectedErrorException constructor"
 title: EsentDTCCallbackUnexpectedErrorException constructor 
 TOCTitle: 'EsentDTCCallbackUnexpectedErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException.#ctor

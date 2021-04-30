@@ -1,5 +1,5 @@
 ---
-Description: .
+description: GPS
 ms.assetid: a19d6c4e-b3f3-4e54-99cd-76e16f650e3a
 title: GPS
 ms.topic: article

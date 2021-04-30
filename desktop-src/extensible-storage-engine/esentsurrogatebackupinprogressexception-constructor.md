@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSurrogateBackupInProgressException constructor"
 title: EsentSurrogateBackupInProgressException constructor 
 TOCTitle: 'EsentSurrogateBackupInProgressException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSurrogateBackupInProgressException.#ctor

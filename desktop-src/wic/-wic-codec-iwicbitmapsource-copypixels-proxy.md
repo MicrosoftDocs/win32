@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CopyPixels method.
+description: Proxy function for the CopyPixels method.
 ms.assetid: 020c11e9-0847-468e-b240-20529f6460cd
 title: IWICBitmapSource_CopyPixels_Proxy function
 ms.topic: reference
@@ -96,7 +96,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

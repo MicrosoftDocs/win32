@@ -1,5 +1,5 @@
 ---
-Description: Notification Sounds for Legacy Audio Applications
+description: Notification Sounds for Legacy Audio Applications
 ms.assetid: c5ad67d9-56fb-4bf0-aea4-5b49b0e5bf95
 title: Notification Sounds for Legacy Audio Applications
 ms.topic: article

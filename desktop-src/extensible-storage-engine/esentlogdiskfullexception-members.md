@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDiskFullException members"
 title: EsentLogDiskFullException members
 TOCTitle: EsentLogDiskFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException

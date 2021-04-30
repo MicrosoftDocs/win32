@@ -1,5 +1,5 @@
 ---
-Description: 'The following functions are used when working with enclaves that are used to create trusted execution environments:'
+description: 'The following functions are used when working with enclaves that are used to create trusted execution environments:'
 ms.assetid: DF6CDEE1-CAAA-429C-9939-DDC844302027
 title: Trusted Execution Functions
 ms.topic: article

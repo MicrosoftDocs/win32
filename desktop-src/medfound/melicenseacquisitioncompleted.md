@@ -1,5 +1,5 @@
 ---
-Description: Raised when license acquisition is complete. For more information, see MELicenseAcquisitionStart.
+description: Raised when license acquisition is complete. For more information, see MELicenseAcquisitionStart.
 ms.assetid: f577131b-887a-4912-8278-1165a801c2b3
 title: MELicenseAcquisitionCompleted event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

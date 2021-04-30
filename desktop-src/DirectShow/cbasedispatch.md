@@ -1,5 +1,5 @@
 ---
-Description: The CBaseDispatch class is a base class for implementing the IDispatch interface in a DirectShow filter.
+description: The CBaseDispatch class is a base class for implementing the IDispatch interface in a DirectShow filter.
 ms.assetid: 33a989be-d059-4ad7-99f8-715c55a128a2
 title: CBaseDispatch class (Ctlutil.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ For more details, refer to the source code for any of the sample classes declare
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

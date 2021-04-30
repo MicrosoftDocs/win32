@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CimInstance.SetCimSessionComputerName method (String)"
 title: CimInstance.SetCimSessionComputerName method (Microsoft.Management.Infrastructure)
 TOCTitle: CimInstance.SetCimSessionComputerName method (Microsoft.Management.Infrastructure)
 ms:assetid: M:Microsoft.Management.Infrastructure.CimInstance.SetCimSessionComputerName(System.String)

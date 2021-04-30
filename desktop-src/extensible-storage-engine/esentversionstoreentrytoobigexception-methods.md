@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreEntryTooBigException methods"
 title: EsentVersionStoreEntryTooBigException methods
 TOCTitle: EsentVersionStoreEntryTooBigException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException

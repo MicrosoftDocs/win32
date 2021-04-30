@@ -1,5 +1,5 @@
 ---
-Description: A URI that represents the service identifier.
+description: A URI that represents the service identifier.
 ms.assetid: ef676f02-56a7-4b3a-9ca3-e7fa3c494ec7
 title: ServiceID element
 ms.topic: reference
@@ -39,7 +39,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

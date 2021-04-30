@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: CBasePropertyPage.~CBasePropertyPage destructor - Destructor method.
 ms.assetid: 9a8e18b7-7582-4a91-8114-6f96481284c1
 title: CBasePropertyPage.~CBasePropertyPage destructor (Cprop.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

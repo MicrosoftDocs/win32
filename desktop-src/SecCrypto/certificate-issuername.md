@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a string that contains the name of the certificate issuer.
+description: Retrieves a string that contains the name of the certificate issuer.
 ms.assetid: 6cf528e3-061a-44dc-b320-0e4b48a6c6ab
 title: Certificate.IssuerName property
 ms.topic: reference
@@ -40,7 +40,7 @@ String that contains the name of the certificate issuer.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

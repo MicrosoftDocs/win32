@@ -1,5 +1,5 @@
 ---
-Description: Applications can better adapt their behavior to the current power state of the computer by registering for power events.
+description: Applications can better adapt their behavior to the current power state of the computer by registering for power events.
 ms.assetid: 840390ca-d32a-4cf3-9e75-66322c7cdee0
 title: Registering for Power Events
 ms.topic: article

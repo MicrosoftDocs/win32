@@ -1,5 +1,5 @@
 ---
-Description: Indicates if the stylus is upside down.
+description: Indicates if the stylus is upside down.
 ms.assetid: 04b05287-000d-455f-88e5-821c7fdb8119
 title: ITabletCursor::IsInverted method
 ms.topic: reference
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

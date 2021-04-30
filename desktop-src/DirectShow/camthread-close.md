@@ -1,5 +1,5 @@
 ---
-Description: The Close method waits for the thread to exit, then releases its resources.
+description: The Close method waits for the thread to exit, then releases its resources.
 ms.assetid: 57e27ff7-3665-416e-8a6e-660483c5aed2
 title: CAMThread.Close method (Wxutil.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The [**~ CAMThread**](camthread--camthread.md) destructor method calls this meth
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

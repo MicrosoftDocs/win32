@@ -1,5 +1,5 @@
 ---
-Description: This section contains the reference for the TSPI phone device messages.
+description: This section contains the reference for the TSPI phone device messages.
 ms.assetid: 69ec084b-e1b5-4417-8584-deb22ff5d893
 title: TSPI Phone Device Messages
 ms.topic: article

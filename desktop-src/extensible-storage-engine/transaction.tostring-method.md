@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.ToString method"
 title: Transaction.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.ToString

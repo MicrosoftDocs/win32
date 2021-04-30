@@ -1,5 +1,5 @@
 ---
-Description: The LoadMACAddresses function is called by the monitor to fill in a MAC address list with addresses taken from an HTML configuration string variable.
+description: The LoadMACAddresses function is called by the monitor to fill in a MAC address list with addresses taken from an HTML configuration string variable.
 ms.assetid: cb7d2812-e234-4858-8b25-f8fc72aeee79
 title: LoadMACAddresses function (Netmon.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ If the function is unsuccessful, the return value is **FALSE**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.grbit property"
 title: JET_INDEXCREATE.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.grbit

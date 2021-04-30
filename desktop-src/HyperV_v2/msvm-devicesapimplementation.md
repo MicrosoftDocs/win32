@@ -1,5 +1,5 @@
 ---
-Description: An association between a service access point (SAP) and how it is implemented.
+description: Msvm_DeviceSAPImplementation class - An association between a service access point (SAP) and how it is implemented.
 ms.assetid: 36108521-A699-4498-A962-DC0801D9EE81
 title: Msvm_DeviceSAPImplementation class
 ms.topic: reference
@@ -84,7 +84,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

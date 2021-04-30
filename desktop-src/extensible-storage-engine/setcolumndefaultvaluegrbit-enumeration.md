@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SetColumnDefaultValueGrbit enumeration"
 title: SetColumnDefaultValueGrbit enumeration
 TOCTitle: SetColumnDefaultValueGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetColumnDefaultValueGrbit

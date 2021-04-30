@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN members"
 title: JET_INDEX_COLUMN members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_INDEX_COLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN

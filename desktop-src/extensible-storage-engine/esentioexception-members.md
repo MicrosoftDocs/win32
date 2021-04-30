@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIOException members"
 title: EsentIOException members
 TOCTitle: EsentIOException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIOException

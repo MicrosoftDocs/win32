@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.MaxCoalesceWriteSize field"
 title: Windows7Param.MaxCoalesceWriteSize field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: MaxCoalesceWriteSize field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.MaxCoalesceWriteSize

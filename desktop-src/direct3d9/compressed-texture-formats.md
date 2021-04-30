@@ -1,5 +1,5 @@
 ---
-Description: This section contains information about the internal organization of compressed texture formats.
+description: This section contains information about the internal organization of compressed texture formats.
 ms.assetid: a916d635-2be4-48be-ba70-a743b2969553
 title: Compressed Texture Formats (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.LastSyncError
 ms.assetid: 1a3f8772-3b49-4db3-adca-68626d6f80c2
 title: System.LastSyncError
 ms.topic: article

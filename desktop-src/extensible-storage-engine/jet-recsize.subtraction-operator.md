@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.Subtraction operator"
 title: JET_RECSIZE.Subtraction operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Subtraction operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.op_Subtraction(Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE)

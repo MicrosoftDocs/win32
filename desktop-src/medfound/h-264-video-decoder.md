@@ -1,5 +1,5 @@
 ---
-Description: The Media Foundation H.264 video decoder is a Media Foundation Transform that supports decoding of Baseline, Main, and High profiles, up to level 5.1.
+description: The Media Foundation H.264 video decoder is a Media Foundation Transform that supports decoding of Baseline, Main, and High profiles, up to level 5.1.
 ms.assetid: 783a3618-981a-4573-9e9e-ebf5eeb75d06
 title: H.264 Video Decoder
 ms.topic: reference
@@ -201,7 +201,7 @@ If Platform Update Supplement for Windows Vista is installed, the H.264 video d
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                  |

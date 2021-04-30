@@ -1,5 +1,5 @@
 ---
-Description: Determines the product of the current matrix and the given matrix.
+description: ID3DXMATRIXStack::MultMatrix method (D3DX10.h) - Determines the product of the current matrix and the given matrix.
 ms.assetid: 72388919-e474-4433-b219-41e2d312848e
 title: ID3DXMATRIXStack::MultMatrix method (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::MultMatrix method
+# ID3DXMATRIXStack::MultMatrix method (D3DX10.h)
 
 Determines the product of the current matrix and the given matrix.
 
@@ -67,7 +67,7 @@ This method does not add an item to the stack, it replaces the current matrix wi
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

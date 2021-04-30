@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.Rollback method"
 title: Transaction.Rollback method 
 TOCTitle: 'Rollback method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Rollback

@@ -1,5 +1,5 @@
 ---
-Description: The taxonomy described in this section first distinguishes the control plane that concerns itself with the way a multipoint session is established, from the data plane that deals with the transfer of data among session participants.
+description: The taxonomy described in this section first distinguishes the control plane that concerns itself with the way a multipoint session is established, from the data plane that deals with the transfer of data among session participants.
 ms.assetid: f411acd7-5e33-4760-8a12-31c2d615426f
 title: Multipoint Taxonomy
 ms.topic: article

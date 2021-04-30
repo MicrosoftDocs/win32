@@ -1,5 +1,5 @@
 ---
-Description: When authoring a merge module, the summary information stream is required to include these required summary information properties.
+description: When authoring a merge module, the summary information stream is required to include these required summary information properties.
 ms.assetid: 9219d9fe-c723-4058-a9ec-cf017687f3b7
 title: Authoring Merge Module Summary Information Streams
 ms.topic: article

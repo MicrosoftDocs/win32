@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Attributes with Multiple Values
+# Attributes with Multiple Values (Windows Media Format 11 SDK)
 
 Some of the predefined attributes can have multiple values assigned to them. For example, **Artist** is an attribute that can have multiple values. You can call [**IWMHeaderInfo3::AddAttribute**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmheaderinfo3-addattribute) multiple times to add as many **Artist** values as you require. If you make multiple calls to **AddAttribute** for attributes that do not support multiple values, the method may return an error code, or simply ignore your request.
 

@@ -1,5 +1,5 @@
 ---
-Description: The InsertSpace method splits any objects that exist at the specified time and inserts space between them.
+description: The InsertSpace method splits any objects that exist at the specified time and inserts space between them.
 ms.assetid: f9e48f58-1867-405c-b208-1ab781912aa1
 title: IAMTimelineTrack::InsertSpace method (Qedit.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ Returns an **HRESULT** value. Possible return values include the following:
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

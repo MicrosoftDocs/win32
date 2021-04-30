@@ -1,5 +1,5 @@
 ---
-Description: The UIPreview object is used to view user interface dialog boxes and billboards during authoring. This object is created by the EnableUIPreview method of the Database object.
+description: The UIPreview object is used to view user interface dialog boxes and billboards during authoring. This object is created by the EnableUIPreview method of the Database object.
 ms.assetid: 5df2a4f3-6352-4575-b822-1811150a86be
 title: UIPreview object
 ms.topic: reference
@@ -59,7 +59,7 @@ The **UIPreview** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

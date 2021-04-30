@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetCreateTable method"
 title: Api.JetCreateTable method 
 TOCTitle: 'JetCreateTable method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateTable(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.Int32,System.Int32,Microsoft.Isam.Esent.Interop.JET_TABLEID@)

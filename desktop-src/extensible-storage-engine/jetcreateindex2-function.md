@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateIndex2 Function"
 title: JetCreateIndex2 Function
 TOCTitle: JetCreateIndex2 Function
 ms:assetid: 8810eaed-40cb-4561-aafc-9a9bbdb0d05b

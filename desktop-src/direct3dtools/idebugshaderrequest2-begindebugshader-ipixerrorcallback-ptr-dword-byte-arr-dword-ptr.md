@@ -1,5 +1,5 @@
 ---
-Description: Requests to start debugging the specified list of instructions.
+description: Requests to start debugging the specified list of instructions.
 MS-HAID: vspixengine.IDebugShaderRequest2\_BeginDebugShader\_IPixErrorCallback\_ptr\_DWORD\_BYTE\_arr\_DWORD\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: The IsChildOf method determines if a request is a child of a specified request (pId).
+description: The IsChildOf method determines if a request is a child of a specified request (pId).
 ms.assetid: 7be52496-7dcf-41c0-853a-859810a57d21
 ms.tgt_platform: multiple
 title: IWbemCausalityAccess::IsChildOf method (Wbemint.h)
@@ -50,7 +50,7 @@ Returns successful if the specified request is a child of the request calling th
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

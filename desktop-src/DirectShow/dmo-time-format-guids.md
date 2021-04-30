@@ -1,5 +1,5 @@
 ---
-Description: The following table lists the globally unique identifiers (GUIDs) defined for media parameter time formats.
+description: The following table lists the globally unique identifiers (GUIDs) defined for media parameter time formats.
 ms.assetid: 1622c5bb-94f7-4bbb-8564-d7180b37c910
 title: DMO Time Format GUIDs (Medparam.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The following table lists the globally unique identifiers (GUIDs) defined for me
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Medparam.h</dt> </dl> |
 

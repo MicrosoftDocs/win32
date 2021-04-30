@@ -1,5 +1,5 @@
 ---
-Description: The user-provided identifier for the instance on the bottom-level acceleration structure instance within the top-level structure.
+description: The user-provided identifier for the instance on the bottom-level acceleration structure instance within the top-level structure.
 ms.assetid: 
 title: InstanceId
 ms.localizationpriority: low

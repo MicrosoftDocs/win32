@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDupCursor Function"
 title: JetDupCursor Function
 TOCTitle: JetDupCursor Function
 ms:assetid: 154b7d2d-4656-46b3-873c-2e194a9059b4

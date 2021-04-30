@@ -1,5 +1,5 @@
 ---
-Description: The RemoveHeadI method removes the first item in the list.
+description: The RemoveHeadI method removes the first item in the list.
 ms.assetid: 7e448e32-ea31-4015-9219-1f990bf8763d
 title: CBaseList.RemoveHeadI method (Wxlist.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method deletes the list node, but not the item that the node contains.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

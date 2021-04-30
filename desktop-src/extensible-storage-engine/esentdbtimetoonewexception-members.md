@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooNewException members"
 title: EsentDbTimeTooNewException members
 TOCTitle: EsentDbTimeTooNewException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException

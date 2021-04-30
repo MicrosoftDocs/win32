@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.MoveAfterLast method"
 title: Api.MoveAfterLast method 
 TOCTitle: 'MoveAfterLast method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MoveAfterLast(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

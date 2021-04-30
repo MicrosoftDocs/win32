@@ -1,5 +1,5 @@
 ---
-Description: Returns a KeyUsage object that indicates the valid key usage of the certificate.
+description: Returns a KeyUsage object that indicates the valid key usage of the certificate.
 ms.assetid: e4590e95-ffa2-4953-bfc1-4d7c70271029
 title: ICertificate2::KeyUsage method
 ms.topic: reference
@@ -40,7 +40,7 @@ This method has no parameters.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

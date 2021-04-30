@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSNotSetException class"
 title: EsentLSNotSetException class
 TOCTitle: EsentLSNotSetException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLSNotSetException

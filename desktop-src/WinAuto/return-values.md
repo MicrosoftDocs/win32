@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Return Values
+# Return Values (Windows Accessibility features)
 
 This topic describes the most common return values, and other return values that you might see less frequently.
 

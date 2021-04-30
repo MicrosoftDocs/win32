@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Windows HTTP Services (WinHTTP) certificate configuration tool, &\#0034;WinHttpCertCfg.exe&\#0034;, enables administrators to install and configure client certificates in any certificate store that can be accessed by the Internet Server Web Application Manager (IWAM) account. The tool also eliminates the need to do anything special to accounts such as the IWAM account to gain access to certificates when using Active Server Pages (ASP).
+description: The Microsoft Windows HTTP Services (WinHTTP) certificate configuration tool, &\#0034;WinHttpCertCfg.exe&\#0034;, enables administrators to install and configure client certificates in any certificate store that can be accessed by the Internet Server Web Application Manager (IWAM) account. The tool also eliminates the need to do anything special to accounts such as the IWAM account to gain access to certificates when using Active Server Pages (ASP).
 ms.assetid: e4c2afc2-0fd3-4bdd-812e-f112958e1576
 title: WinHttpCertCfg.exe, a Certificate Configuration Tool
 ms.topic: article

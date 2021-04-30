@@ -1,5 +1,5 @@
 ---
-Description: Changes the frame rate of a video stream.
+description: Changes the frame rate of a video stream.
 ms.assetid: a66b9c52-a015-41d2-b27a-3ce6a4d95be9
 title: Frame Rate Converter DSP (Wmcodecdsp.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ By default, the DSP gets the frame rates from the media types. Optionally, you c
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

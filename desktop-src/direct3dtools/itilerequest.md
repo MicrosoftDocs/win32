@@ -1,5 +1,5 @@
 ---
-Description: Request for a tiled texture to be written as a DDS file.
+description: Request for a tiled texture to be written as a DDS file.
 MS-HAID: vspixengine.ITileRequest
 MSHAttr:
 - PreferredSiteName:MSDN

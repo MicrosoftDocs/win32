@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackFailedException members"
 title: EsentCallbackFailedException members
 TOCTitle: EsentCallbackFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException

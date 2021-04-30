@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.CacheSizeMax property"
 title: SystemParameters.CacheSizeMax property 
 TOCTitle: 'CacheSizeMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.CacheSizeMax

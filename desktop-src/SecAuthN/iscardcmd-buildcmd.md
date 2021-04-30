@@ -1,5 +1,5 @@
 ---
-Description: Constructs a valid command application protocol data unit (APDU) for transmission to a smart card.
+description: Constructs a valid command application protocol data unit (APDU) for transmission to a smart card.
 ms.assetid: d1003cc3-c235-4635-ad5a-8cea7363bf30
 title: ISCardCmd::BuildCmd method (Scarddat.h)
 ms.topic: reference
@@ -136,7 +136,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

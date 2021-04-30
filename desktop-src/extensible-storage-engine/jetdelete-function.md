@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDelete Function"
 title: JetDelete Function
 TOCTitle: JetDelete Function
 ms:assetid: 807de5ba-2f4b-4779-ab29-a1f094beecc1

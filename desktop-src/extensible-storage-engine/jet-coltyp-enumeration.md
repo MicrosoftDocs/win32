@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_coltyp enumeration"
 title: JET_coltyp enumeration
 TOCTitle: JET_coltyp enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_coltyp

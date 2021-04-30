@@ -1,5 +1,5 @@
 ---
-Description: Requests to cancel offline analysis in an offline analysis request.
+description: Requests to cancel offline analysis in an offline analysis request.
 MS-HAID: vspixengine.IOfflineAnalysisRequest\_CancelOfflineAnalysisAsync\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

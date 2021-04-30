@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder should generate dynamic range congrol parameters.
+description: Specifies whether the encoder should generate dynamic range congrol parameters.
 ms.assetid: 4ae424f1-10be-466a-8a98-163789fc9553
 title: MFPKEY_WMAENC_GENERATE_DRC_PARAMS Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

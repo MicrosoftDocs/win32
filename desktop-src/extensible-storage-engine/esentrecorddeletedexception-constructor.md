@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordDeletedException constructor"
 title: EsentRecordDeletedException constructor 
 TOCTitle: 'EsentRecordDeletedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordDeletedException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the response entity body as an array of unsigned bytes.
+description: Retrieves the response entity body as an array of unsigned bytes.
 ms.assetid: 557913e0-9f19-42fc-bfca-9ed248972b4b
 title: IWinHttpRequest::ResponseBody property
 ms.topic: reference
@@ -63,7 +63,7 @@ This property returns the response data in an array of unsigned bytes. If the re
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

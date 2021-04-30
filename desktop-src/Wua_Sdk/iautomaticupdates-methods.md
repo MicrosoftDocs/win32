@@ -1,5 +1,5 @@
 ---
-Description: The IAutomaticUpdates interface defines the following methods.
+description: The IAutomaticUpdates interface defines the following methods.
 ms.assetid: 5505e69c-50ac-4a80-ad4f-d416a37af1b6
 title: IAutomaticUpdates Methods
 ms.topic: reference

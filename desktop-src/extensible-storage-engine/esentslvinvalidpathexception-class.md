@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVInvalidPathException class"
 title: EsentSLVInvalidPathException class
 TOCTitle: EsentSLVInvalidPathException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVInvalidPathException

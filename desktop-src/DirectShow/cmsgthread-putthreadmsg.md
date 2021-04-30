@@ -1,5 +1,5 @@
 ---
-Description: Queues a request for execution by the worker thread.
+description: Queues a request for execution by the worker thread.
 ms.assetid: a854f962-143d-4776-bf98-119d003867df
 title: CMsgThread.PutThreadMsg method (Msgthrd.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ This member function uses a multithread safe list, so multiple calls to this mem
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Msgthrd.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The completion identifier for the incoming call is the result of a completion request that terminates.
+description: The completion identifier for the incoming call is the result of a completion request that terminates.
 ms.assetid: 7ce83ca0-1a51-42f1-a40f-95715d666277
 title: Completion ID
 ms.topic: article

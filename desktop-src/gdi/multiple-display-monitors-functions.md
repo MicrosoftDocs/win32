@@ -1,5 +1,5 @@
 ---
-Description: The following functions provide support for multiple monitors.
+description: The following functions provide support for multiple monitors.
 ms.assetid: a64b256c-e7a1-4ee2-a346-4b7abcab9e90
 title: Multiple Display Monitors Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Contains the global revocation list (GRL) header.
+description: Contains the global revocation list (GRL) header.
 ms.assetid: 806ae550-5106-47ec-8466-f967598d3e61
 title: GRL_HEADER structure
 ms.topic: reference
@@ -202,7 +202,7 @@ This structure is not declared in an SDK header. To use this structure, add the 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

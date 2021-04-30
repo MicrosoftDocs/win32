@@ -1,5 +1,5 @@
 ---
-Description: Deletes a share name from a server's list of shared resources, disconnecting connections to the shared resource.
+description: Deletes a share name from a server's list of shared resources, disconnecting connections to the shared resource.
 ms.assetid: 175f9c0e-0017-4a86-8e05-ad78e2c93c11
 ms.tgt_platform: multiple
 title: Delete method of the Win32_Share class
@@ -124,7 +124,7 @@ Foreach ($Share in $Shares) {
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

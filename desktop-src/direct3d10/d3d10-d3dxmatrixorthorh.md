@@ -1,5 +1,5 @@
 ---
-Description: Builds a right-handed orthographic projection matrix.
+description: D3DXMatrixOrthoRH function (D3DX10Math.h) - Builds a right-handed orthographic projection matrix.
 ms.assetid: e6673ff4-06a2-4a16-b72e-5ca69ddf2438
 title: D3DXMatrixOrthoRH function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixOrthoRH function
+# D3DXMatrixOrthoRH function (D3DX10Math.h)
 
 Builds a right-handed orthographic projection matrix.
 
@@ -112,7 +112,7 @@ This function uses the following formula to compute the returned matrix.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

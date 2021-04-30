@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetBeginTransaction3 method"
 title: Windows8Api.JetBeginTransaction3 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetBeginTransaction3 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetBeginTransaction3(Microsoft.Isam.Esent.Interop.JET_SESID,System.Int64,Microsoft.Isam.Esent.Interop.BeginTransactionGrbit)

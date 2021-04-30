@@ -22,7 +22,7 @@ An identifier used for a wireless policy object on AD.
 
 
 
-|                   |                                                                                  |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | CN                | ms-ieee-80211-ID                                                                 |
 | Ldap-Display-Name | msieee80211-ID                                                                   |
@@ -47,7 +47,7 @@ An identifier used for a wireless policy object on AD.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -68,7 +68,7 @@ An identifier used for a wireless policy object on AD.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -89,7 +89,7 @@ An identifier used for a wireless policy object on AD.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -110,7 +110,7 @@ An identifier used for a wireless policy object on AD.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -131,7 +131,7 @@ An identifier used for a wireless policy object on AD.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |

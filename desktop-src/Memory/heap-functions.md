@@ -1,5 +1,5 @@
 ---
-Description: Each process has a default heap provided by the system. Applications that make frequent allocations from the heap can improve performance by using private heaps.
+description: Each process has a default heap provided by the system. Applications that make frequent allocations from the heap can improve performance by using private heaps.
 ms.assetid: cfb683fa-4f46-48b5-9a28-f4625a9cb8cd
 title: Heap Functions
 ms.topic: article

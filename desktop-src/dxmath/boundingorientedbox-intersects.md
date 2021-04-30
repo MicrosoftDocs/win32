@@ -1,5 +1,5 @@
 ---
-Description: Tests the BoundingOrientedBox for intersection with another object.
+description: Tests the BoundingOrientedBox for intersection with another object.
 ms.assetid: a79b9c1c-58fe-4c7d-b11e-7d2c22534bf6
 title: BoundingOrientedBox.Intersects methods
 ms.topic: reference

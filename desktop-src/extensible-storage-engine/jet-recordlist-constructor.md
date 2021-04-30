@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST constructor"
 title: JET_RECORDLIST constructor 
 TOCTitle: 'JET_RECORDLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECORDLIST.#ctor

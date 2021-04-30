@@ -1,6 +1,6 @@
 ---
 title: Display an app-supplied bitmap on the composited image
-Description: Displaying an Application-Supplied Bitmap on the Composited Image
+description: Displaying an Application-Supplied Bitmap on the Composited Image
 ms.assetid: c51329d3-e814-4ef9-aad8-a3e60f9fa2a7
 ms.topic: article
 ms.date: 05/31/2018

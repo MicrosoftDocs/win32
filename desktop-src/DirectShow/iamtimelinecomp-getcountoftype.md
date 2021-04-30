@@ -1,5 +1,5 @@
 ---
-Description: The GetCountOfType method retrieves the number of objects of a given type contained in this composition and all its virtual tracks, recursively.
+description: The GetCountOfType method retrieves the number of objects of a given type contained in this composition and all its virtual tracks, recursively.
 ms.assetid: 2d14ccf7-77bc-4095-bfb8-12a52b4b9595
 title: IAMTimelineComp::GetCountOfType method (Qedit.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ Groups cannot reside inside compositions, so you cannot use this method to count
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

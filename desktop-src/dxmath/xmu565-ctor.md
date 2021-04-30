@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMU565.
+description: Constructors exposed by XMU565.
 ms.assetid: d482dbf5-081c-4a1b-a81f-63d21d46a489
 title: XMU565 constructors
 ms.topic: reference

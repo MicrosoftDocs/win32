@@ -1,5 +1,5 @@
 ---
-Description: Data processing object used by ID3DX10ThreadPump Interface for processing loaded data asynchronously.
+description: Data processing object used by ID3DX10ThreadPump Interface for processing loaded data asynchronously.
 ms.assetid: c932f558-10da-45fc-a833-8ed86fa065ab
 title: ID3DX10DataProcessor interface (D3DX10.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ This object can be inherited and its members redefined. Doing so would enable yo
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

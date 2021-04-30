@@ -1,5 +1,5 @@
 ---
-Description: Makes this pointer to an item identifier list (PIDL) an invalid portion of the Shell folder.
+description: Makes this pointer to an item identifier list (PIDL) an invalid portion of the Shell folder.
 title: IShellFolderSearchable::InvalidateSearch method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -77,7 +77,7 @@ When a search folder is invalidated, it can perform cleanup of any resources it 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

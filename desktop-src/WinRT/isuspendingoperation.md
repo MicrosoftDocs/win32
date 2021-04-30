@@ -1,5 +1,5 @@
 ---
-Description: Provides information about an app suspending operation.
+description: Provides information about an app suspending operation.
 ms.assetid: B380AEA2-6486-46CC-AD0A-CF25C144DC01
 title: ISuspendingOperation interface (Windows.ApplicationModel.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The **ISuspendingOperation** interface has these properties.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

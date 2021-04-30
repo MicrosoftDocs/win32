@@ -1,5 +1,5 @@
 ---
-Description: Credential Management API
+description: Credential Management API
 ms.assetid: e393041b-f10c-4053-bc6c-65a89f40e74f
 title: Credential Management API
 ms.topic: article

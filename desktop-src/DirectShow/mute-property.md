@@ -1,5 +1,5 @@
 ---
-Description: The Mute property turns the audio stream output on or off.
+description: The Mute property turns the audio stream output on or off.
 ms.assetid: 61ed2e28-ec6e-48ee-8640-29152b15c9ad
 title: Mute Property
 ms.topic: reference

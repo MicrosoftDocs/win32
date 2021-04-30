@@ -1,5 +1,5 @@
 ---
-Description: The GetDefaultTransitionB method retrieves the default transition. This method is equivalent to IAMTimeline::GetDefaultTransition, but receives a BSTR value, rather than a GUID.
+description: The GetDefaultTransitionB method retrieves the default transition. This method is equivalent to IAMTimeline::GetDefaultTransition, but receives a BSTR value, rather than a GUID.
 ms.assetid: ed743766-e970-4bd9-a9a0-8b5d9fec2d80
 title: IAMTimeline::GetDefaultTransitionB method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ The method allocates memory for the string. The application must call **SysFreeS
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

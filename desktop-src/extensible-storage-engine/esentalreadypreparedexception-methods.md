@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAlreadyPreparedException methods"
 title: EsentAlreadyPreparedException methods
 TOCTitle: EsentAlreadyPreparedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentAlreadyPreparedException

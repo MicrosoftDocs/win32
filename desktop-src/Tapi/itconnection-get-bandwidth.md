@@ -1,5 +1,5 @@
 ---
-Description: The get\_Bandwidth method gets the bandwidth value.
+description: The get\_Bandwidth method gets the bandwidth value.
 ms.assetid: d9020443-d061-4a60-9d54-191144def110
 title: ITConnection::get_Bandwidth method (Sdpblb.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

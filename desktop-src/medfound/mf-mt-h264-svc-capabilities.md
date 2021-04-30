@@ -1,5 +1,5 @@
 ---
-Description: Specifies the SVC capabilities of an H.264 video stream.
+description: Specifies the SVC capabilities of an H.264 video stream.
 ms.assetid: B727D9D2-6126-41F8-A27A-743640FE3AE4
 title: MF_MT_H264_SVC_CAPABILITIES attribute (Mfapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ This attribute is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

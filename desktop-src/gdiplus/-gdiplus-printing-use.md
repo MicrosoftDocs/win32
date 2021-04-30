@@ -1,12 +1,12 @@
 ---
-Description: With a few minor adjustments to your code, you can send Windows GDI+ output to a printer rather than to a screen.
+description: With a few minor adjustments to your code, you can send Windows GDI+ output to a printer rather than to a screen.
 ms.assetid: be6286e9-d125-40ad-b33e-b4e734ac2709
 title: Printing (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Printing
+# Printing (GDI+)
 
 With a few minor adjustments to your code, you can send Windows GDI+ output to a printer rather than to a screen. To draw on a printer, obtain a device context handle for the printer and pass that handle to a [**Graphics**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) constructor. Place your GDI+ drawing commands in between calls to [StartDoc](/windows/win32/api/wingdi/nf-wingdi-startdocw) and [EndDoc](/windows/win32/api/wingdi/nf-wingdi-enddoc).
 

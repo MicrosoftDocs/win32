@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupNotAllowedYetException class"
 title: EsentBackupNotAllowedYetException class
 TOCTitle: EsentBackupNotAllowedYetException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBackupNotAllowedYetException

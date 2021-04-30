@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DiskDriveToDiskPartition association WMI class relates a disk drive and a partition existing on it.
+description: The Win32\_DiskDriveToDiskPartition association WMI class relates a disk drive and a partition existing on it.
 ms.assetid: 82953097-ebfb-42b8-84b4-fb4ed19f3525
 ms.tgt_platform: multiple
 title: Win32_DiskDriveToDiskPartition class
@@ -93,7 +93,7 @@ The [Use Powershell to Gather Disk/Partition/Mount Point Information](https://Ga
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

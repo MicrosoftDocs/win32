@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST class"
 title: JET_INDEXLIST class
 TOCTitle: JET_INDEXLIST class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXLIST

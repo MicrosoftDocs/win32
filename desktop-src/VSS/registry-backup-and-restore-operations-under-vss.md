@@ -1,5 +1,5 @@
 ---
-Description: The Windows Registry Service supports a VSS writer, called the registry writer, which allows requesters to back up a system registry using data stored on a shadow copied volume.
+description: The Windows Registry Service supports a VSS writer, called the registry writer, which allows requesters to back up a system registry using data stored on a shadow copied volume.
 ms.assetid: 94a45b04-0bdc-4211-bed0-caeabba774af
 title: Registry Backup and Restore Operations Under VSS
 ms.topic: article

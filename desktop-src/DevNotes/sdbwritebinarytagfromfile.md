@@ -1,5 +1,5 @@
 ---
-Description: Writes binary data from the specified file to the specified database.
+description: Writes binary data from the specified file to the specified database.
 ms.assetid: 960633a8-5cec-462b-b7dc-72eb3e4fd0a2
 title: SdbWriteBinaryTagFromFile function
 ms.topic: reference
@@ -65,7 +65,7 @@ The function returns **TRUE** on success or **FALSE** on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

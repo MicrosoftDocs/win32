@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the public key and certificate thumbprint for a public key protector.
+description: Retrieves the public key and certificate thumbprint for a public key protector.
 ms.assetid: 86fd0562-feb9-4b85-b27b-30270f864d8e
 title: GetKeyProtectorCertificate method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -112,7 +112,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

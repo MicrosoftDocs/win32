@@ -1,5 +1,5 @@
 ---
-Description: When you open a handle to an object, the returned handle has some combination of access rights to the object.
+description: When you open a handle to an object, the returned handle has some combination of access rights to the object.
 ms.assetid: 581de4ba-0f90-42d7-b7db-1324d42595e2
 title: Requesting Access Rights to an Object
 ms.topic: article

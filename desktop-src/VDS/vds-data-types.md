@@ -1,5 +1,5 @@
 ---
-Description: The data types supported by VDS define function return values, function parameters, and structure members. Data types define the size and meaning of these elements.
+description: The data types supported by VDS define function return values, function parameters, and structure members. Data types define the size and meaning of these elements.
 ms.assetid: f17e8c7e-e3cb-49ca-9060-2299dda55770
 title: VDS Data Types
 ms.topic: article

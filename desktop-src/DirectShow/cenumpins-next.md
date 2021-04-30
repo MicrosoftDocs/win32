@@ -1,5 +1,5 @@
 ---
-Description: The Next method retrieves a specified number of pins in the enumeration sequence. This method implements the IEnumPins::Next method.
+description: The Next method retrieves a specified number of pins in the enumeration sequence. This method implements the IEnumPins::Next method.
 ms.assetid: c38fbd32-7d83-43ec-a105-4a7cb515b471
 title: CEnumPins.Next method (Amfilter.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ If the method succeeds, the **IPin** pointers all have outstanding reference cou
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

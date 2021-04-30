@@ -1,5 +1,5 @@
 ---
-Description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the Digest [*constrained delegation*](../secgloss/s-gly.md).
+description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the Digest [*constrained delegation*](../secgloss/s-gly.md).
 ms.assetid: 4b482dcc-3878-4bc6-85e4-229a1726cecc
 title: InitializeSecurityContext (Digest) function (Sspi.h)
 ms.topic: reference
@@ -240,7 +240,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

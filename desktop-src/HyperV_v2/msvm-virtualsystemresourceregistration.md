@@ -1,5 +1,5 @@
 ---
-Description: Registers a service that provides virtual machine-specific resource-related objects.
+description: Registers a service that provides virtual machine-specific resource-related objects.
 ms.assetid: 85782C4D-E0A3-4EED-9A26-7928862C559B
 title: Msvm_VirtualSystemResourceRegistration class
 ms.topic: reference
@@ -94,7 +94,7 @@ Access to the **Msvm\_VirtualSystemResourceRegistration** class might be restric
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

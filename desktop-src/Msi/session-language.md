@@ -1,5 +1,5 @@
 ---
-Description: The Language property of the Session object is a read-only property that represents the numeric language ID used by the current install session.
+description: The Language property of the Session object is a read-only property that represents the numeric language ID used by the current install session.
 ms.assetid: 46e74998-bcbe-440d-9278-d9ed8eb475e7
 title: Session.Language property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = Session.Language
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

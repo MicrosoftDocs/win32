@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnCannotBeCompressedException constructor"
 title: EsentColumnCannotBeCompressedException constructor 
 TOCTitle: 'EsentColumnCannotBeCompressedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnCannotBeCompressedException.#ctor

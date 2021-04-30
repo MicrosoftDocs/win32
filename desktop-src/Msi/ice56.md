@@ -1,5 +1,5 @@
 ---
-Description: ICE56 validates that the directory structure of the .msi file has a single root directory, that the root is the TARGETDIR property, and that the SourceDir property value is in the DefaultDir column of the Directory table.
+description: ICE56 validates that the directory structure of the .msi file has a single root directory, that the root is the TARGETDIR property, and that the SourceDir property value is in the DefaultDir column of the Directory table.
 ms.assetid: 6fbb51ff-64fc-40b7-852f-490c93e592c0
 title: ICE56
 ms.topic: article

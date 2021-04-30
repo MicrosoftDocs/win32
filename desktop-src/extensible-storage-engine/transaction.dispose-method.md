@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Transaction.Dispose method"
 title: Transaction.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Transaction.Dispose

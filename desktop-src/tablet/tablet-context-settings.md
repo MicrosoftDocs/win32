@@ -1,5 +1,5 @@
 ---
-Description: Contains information used in creating a tablet context.
+description: Contains information used in creating a tablet context.
 ms.assetid: 10466c23-f4cb-4205-886b-d85a2f530afe
 title: TABLET_CONTEXT_SETTINGS structure
 ms.topic: reference
@@ -108,7 +108,7 @@ The button masks together determine what kinds of events will be processed by th
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

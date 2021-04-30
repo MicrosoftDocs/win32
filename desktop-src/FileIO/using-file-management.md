@@ -1,5 +1,5 @@
 ---
-Description: The following samples use the file management functions.
+description: The following samples use the file management functions.
 ms.assetid: 0879898b-b661-48b3-af94-9ba24811503f
 title: Using File Management
 ms.topic: article

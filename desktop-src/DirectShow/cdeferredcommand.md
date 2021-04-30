@@ -1,5 +1,5 @@
 ---
-Description: Deferred commands are queued by calls to methods on the IQueueCommand interface and are exposed by the filter graph manager and by some filters.
+description: Deferred commands are queued by calls to methods on the IQueueCommand interface and are exposed by the filter graph manager and by some filters.
 ms.assetid: b2b177c6-af2b-4585-914f-001a6355a298
 title: CDeferredCommand class
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Frees a SIGNER\_CONTEXT structure allocated by a previous call to the SignerSignEx function.
+description: Frees a SIGNER\_CONTEXT structure allocated by a previous call to the SignerSignEx function.
 ms.assetid: 190de302-50fe-488e-90ed-c9efd39dae70
 title: SignerFreeSignerContext function
 ms.topic: reference
@@ -56,7 +56,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

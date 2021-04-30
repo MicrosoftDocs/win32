@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Media Stream Broadcast (MSB) multicast protocol is enabled in the network source.
+description: Specifies whether the Media Stream Broadcast (MSB) multicast protocol is enabled in the network source.
 ms.assetid: a46e3b4c-60be-4470-b9dc-041902c2563c
 title: MFNETSOURCE_ENABLE_MSB property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

@@ -1,5 +1,5 @@
 ---
-Description: Notfies an application when a selected IME needs information about the candidate window. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
+description: Notfies an application when a selected IME needs information about the candidate window. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
 ms.assetid: 35849290-a5be-406f-82f5-4a7e2af48586
 title: IMR_CANDIDATEWINDOW notification code (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This command can be sent by the IME to a window that has cleared the ISC\_SHOWUI
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

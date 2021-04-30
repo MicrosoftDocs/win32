@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the InkPicture control is double-clicked.
+description: Occurs when the InkPicture control is double-clicked.
 ms.assetid: 5b2a6413-d415-4bf1-a291-35f4c3c5a0dc
 title: InkPicture.DblClick event (Msinkaut.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

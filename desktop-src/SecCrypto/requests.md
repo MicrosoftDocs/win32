@@ -1,5 +1,5 @@
 ---
-Description: Certificate Services supports certificate requests based on the PKCS \#10 format and the Keygen (Netscape) format. Certificate Services also supports PKCS \#7 renewal requests and Cryptographic Message Syntax (CMS) requests.
+description: Certificate Services supports certificate requests based on the PKCS \#10 format and the Keygen (Netscape) format. Certificate Services also supports PKCS \#7 renewal requests and Cryptographic Message Syntax (CMS) requests.
 ms.assetid: '6321ce99-f5d1-4d72-a062-99cffb543731'
 title: Requests
 ms.topic: article

@@ -3,6 +3,7 @@ Description: The COLORREF value is used to specify an RGB color.
 ms.assetid: b87d3de2-7a13-44ef-8253-c6851a75fa54
 title: COLORREF (Windef.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 
@@ -45,7 +46,7 @@ Example from [Windows Classic Samples](https://github.com/microsoft/Windows-clas
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                    |

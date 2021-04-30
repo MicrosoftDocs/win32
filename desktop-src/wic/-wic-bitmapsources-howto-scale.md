@@ -1,5 +1,5 @@
 ---
-Description: This topic demonstrates how to scale an IWICBitmapSource using the IWICBitmapScaler component.
+description: This topic demonstrates how to scale an IWICBitmapSource using the IWICBitmapScaler component.
 ms.assetid: d2c65c9b-6f52-46f7-935d-0c582ca83867
 title: How to Scale a Bitmap Source
 ms.topic: article

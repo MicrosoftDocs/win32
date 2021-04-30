@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# NetFile Functions
+# NetFile Functions (Network Management)
 
 The network management file functions provide a way to monitor and close the file, device, and pipe resources open on a server. The file functions are listed following.
 

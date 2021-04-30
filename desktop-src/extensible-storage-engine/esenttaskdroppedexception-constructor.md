@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTaskDroppedException constructor"
 title: EsentTaskDroppedException constructor 
 TOCTitle: 'EsentTaskDroppedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTaskDroppedException.#ctor

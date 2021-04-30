@@ -23,7 +23,7 @@ Contains the NetBIOS or DNS names of the computers running Windows NT Workstatio
 >[!Note]
 >This user attribute should not be used anymore. To manage what accounts can logon to which workstations, we recommend using the “Allow Log on locally” and “Deny Log on locally” or “Allow log on through Remote Desktop Services” and “Deny log on through Remote Desktop Services”.
 
-|                   |                                                                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | CN                | User-Workstations                                                                          |
 | Ldap-Display-Name | userWorkstations                                                                           |
@@ -49,7 +49,7 @@ Contains the NetBIOS or DNS names of the computers running Windows NT Workstatio
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -70,7 +70,7 @@ Contains the NetBIOS or DNS names of the computers running Windows NT Workstatio
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -91,7 +91,7 @@ Contains the NetBIOS or DNS names of the computers running Windows NT Workstatio
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -112,7 +112,7 @@ Contains the NetBIOS or DNS names of the computers running Windows NT Workstatio
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -133,7 +133,7 @@ Contains the NetBIOS or DNS names of the computers running Windows NT Workstatio
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -154,7 +154,7 @@ Contains the NetBIOS or DNS names of the computers running Windows NT Workstatio
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

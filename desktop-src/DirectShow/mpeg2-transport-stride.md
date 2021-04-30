@@ -1,5 +1,5 @@
 ---
-Description: The MPEG2\_TRANSPORT\_STRIDE structure describes the format of MPEG-2 transport stream (TS) packets.
+description: The MPEG2\_TRANSPORT\_STRIDE structure describes the format of MPEG-2 transport stream (TS) packets.
 ms.assetid: 269d5fba-2dea-4786-93d6-e52b56c8bb53
 title: MPEG2_TRANSPORT_STRIDE structure (Bdatypes.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ Stride packets are identified by the following media type:
 
 
 
-|             |                                        |
+| Label | Value |
 |-------------|----------------------------------------|
 | Major Type  | MEDIATYPE\_Stream                      |
 | Subtype     | MEDIASUBTYPE\_MPEG2\_TRANSPORT\_STRIDE |
@@ -97,7 +97,7 @@ If the media type does not contain a format block (**pbFormat** is **NULL**), th
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Bdatypes.h</dt> </dl> |
 

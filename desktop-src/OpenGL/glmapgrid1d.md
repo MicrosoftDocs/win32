@@ -1,6 +1,6 @@
 ---
 title: glMapGrid1d function (Gl.h)
-description: Defines a one-dimensional mesh.
+description: Defines a one-dimensional mesh. | glMapGrid1d function (Gl.h)
 ms.assetid: a0bc822e-dd98-4586-a322-2779e11f38ca
 keywords:
 - glMapGrid1d function OpenGL
@@ -107,7 +107,7 @@ The following functions retrieve information related to **glMapGrid**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

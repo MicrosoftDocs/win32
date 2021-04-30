@@ -1,5 +1,5 @@
 ---
-Description: The EC\_BUILT event is sent by the Video Control when a graph has been completely built. This event is not forwarded to applications.
+description: The EC\_BUILT event is sent by the Video Control when a graph has been completely built. This event is not forwarded to applications.
 ms.assetid: 011d81a1-005a-4afc-971a-38a09fd132e3
 title: EC_BUILT (Dshow.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ None.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

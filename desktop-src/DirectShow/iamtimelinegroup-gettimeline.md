@@ -1,5 +1,5 @@
 ---
-Description: The GetTimeline method retrieves the timeline to which this group belongs.
+description: The GetTimeline method retrieves the timeline to which this group belongs.
 ms.assetid: a57d75c9-6e2e-426f-9403-ad32188b2211
 title: IAMTimelineGroup::GetTimeline method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If the value returned in *ppTimeline* is not **NULL**, the **IAMTimeline** inter
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

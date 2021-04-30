@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the audio content contains music or voice.
+description: Specifies whether the audio content contains music or voice.
 ms.assetid: 10e35d7f-06b8-427f-9309-167358ccbd6f
 title: AVEncAudioInputContent property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncAudioInputContent**](/win
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

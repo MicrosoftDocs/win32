@@ -1,5 +1,5 @@
 ---
-Description: VBI Surface Allocator
+description: VBI Surface Allocator
 ms.assetid: 51c73a25-1112-4fb4-a45f-967c6a1b5c55
 title: VBI Surface Allocator
 ms.topic: article
@@ -12,7 +12,7 @@ The VBI Surface Allocator controls the allocation of VBI buffers in analog telev
 
 
 
-|                                          |                                                                                     |
+| Label | Value |
 |------------------------------------------|-------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                  |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_VPVBI                                               |

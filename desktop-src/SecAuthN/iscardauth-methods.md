@@ -1,5 +1,5 @@
 ---
-Description: The ISCardAuth interface exposes the following methods.
+description: The ISCardAuth interface exposes the following methods.
 ms.assetid: 83B01082-2B1A-4075-9A79-E63FE385834B
 title: ISCardAuth Methods
 ms.topic: reference

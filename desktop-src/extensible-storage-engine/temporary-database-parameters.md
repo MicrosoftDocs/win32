@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Temporary Database Parameters"
 title: Temporary Database Parameters
 TOCTitle: Temporary Database Parameters
 ms:assetid: fa1cd867-6ce4-4de5-b31d-5b886f7c1e77

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the path length constraint is present.
+description: Retrieves a Boolean value that indicates whether the path length constraint is present.
 ms.assetid: 25840a62-13d1-4b54-9b09-64f77a465e06
 title: BasicConstraints.IsPathLenConstraintPresent property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **True**, the path length constraint is present.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBufferSizeException properties"
 title: EsentInvalidBufferSizeException properties
 TOCTitle: EsentInvalidBufferSizeException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException

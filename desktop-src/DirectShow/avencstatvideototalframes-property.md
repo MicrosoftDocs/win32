@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of video frames that the encoder received.
+description: Returns the number of video frames that the encoder received.
 ms.assetid: 3de49105-3c74-4a52-9cac-465b4abfcbf5
 title: AVEncStatVideoTotalFrames property (Codecapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The value of this property is the total number of frames sent to the encoder, in
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

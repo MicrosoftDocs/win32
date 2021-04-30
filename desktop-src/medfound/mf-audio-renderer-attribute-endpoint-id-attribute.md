@@ -1,5 +1,5 @@
 ---
-Description: Specifies the identifier for the audio endpoint device.
+description: Specifies the identifier for the audio endpoint device.
 ms.assetid: f145fb80-c136-421c-9a65-e69c52109348
 title: MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ID attribute (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

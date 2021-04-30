@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONDITIONALCOLUMN methods"
 title: JET_CONDITIONALCOLUMN methods
 TOCTitle: JET_CONDITIONALCOLUMN methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN

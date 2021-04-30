@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNoCopyException properties"
 title: EsentRecordNoCopyException properties
 TOCTitle: EsentRecordNoCopyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException

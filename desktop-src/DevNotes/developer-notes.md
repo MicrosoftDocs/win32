@@ -1,5 +1,5 @@
 ---
-Description: This documentation set describes items that may be of interest to developers.
+description: This documentation set describes items that may be of interest to developers.
 ms.assetid: e320733e-a9ec-4ead-9601-c736e6288c7a
 title: Developer Notes
 ms.topic: article
@@ -26,7 +26,7 @@ This documentation set describes items that may be of interest to developers. It
 -   [Miscellaneous Low-Level Client Support](-win32-misclowlevelclientsupport.md)
 -   [MSHTML](mshtml2.md)
 -   [Installation](installation.md)
--   [iSCSI Target Pass-Through](iscsi-target-pass-through.md)
+-   [iSCSI Target Pass-Through](/powershell/module/iscsi)
 -   [Java VM](java-vm.md)
 -   [Jet Debugging](jet-debugging.md)
 -   [MSN](msn.md)

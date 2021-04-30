@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadLostFlushVerifyFailureException members"
 title: EsentReadLostFlushVerifyFailureException members
 TOCTitle: EsentReadLostFlushVerifyFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentReadLostFlushVerifyFailureException

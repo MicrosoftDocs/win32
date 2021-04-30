@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with the disk-space list.
+description: The following functions are used with the disk-space list.
 ms.assetid: 18693b2d-6b0f-4f9c-b3cf-e50c36e2f2e1
 title: Disk-Space List Functions
 ms.topic: article

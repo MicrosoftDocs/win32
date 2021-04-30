@@ -1,5 +1,5 @@
 ---
-Description: The Windows operating system accumulates a set of operating statistics for workstations and servers from the time that the workstation or server service is started.
+description: The Windows operating system accumulates a set of operating statistics for workstations and servers from the time that the workstation or server service is started.
 ms.assetid: 4e0217bf-7550-40a2-b47c-8e898a586005
 title: Statistics Functions
 ms.topic: article

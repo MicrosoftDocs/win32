@@ -1,5 +1,5 @@
 ---
-Description: Defines the compression mode used for storing compressed animation set data.
+description: Defines the compression mode used for storing compressed animation set data.
 ms.assetid: 41592b71-52ba-4727-a885-fb10fc23c5f8
 title: D3DXCOMPRESSION_FLAGS enumeration (D3dx9anim.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

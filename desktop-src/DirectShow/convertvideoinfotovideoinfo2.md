@@ -1,5 +1,5 @@
 ---
-Description: The ConvertVideoInfoToVideoInfo2 function converts a media type that uses VIDEOINFOHEADER to one that uses VIDEOINFOHEADER2.
+description: The ConvertVideoInfoToVideoInfo2 function converts a media type that uses VIDEOINFOHEADER to one that uses VIDEOINFOHEADER2.
 ms.assetid: d938bfc0-a5ae-475b-b183-56ff39b4bae1
 title: ConvertVideoInfoToVideoInfo2 function (Winutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This function allocates a new **VIDEOINFOHEADER2** structure, copies the members
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

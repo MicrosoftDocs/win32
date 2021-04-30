@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# Enumerations (OLE and Data Transfer)
 
 The following enumerations are used to implement compound documents and perform data transfer between applications.
 

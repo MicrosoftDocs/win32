@@ -1,5 +1,5 @@
 ---
-Description: The EnableDNS WMI class static method enables the Domain Name System (DNS) for service.
+description: The EnableDNS WMI class static method enables the Domain Name System (DNS) for service.
 ms.assetid: 083dccb1-eb38-4ae5-a252-0001759c0f50
 ms.tgt_platform: multiple
 title: EnableDNS method of the Win32_NetworkAdapterConfiguration class
@@ -451,7 +451,7 @@ objNetworkSettings.EnableDNS strHostName, , , arrDNSSuffixes
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

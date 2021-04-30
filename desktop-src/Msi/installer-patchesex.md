@@ -1,5 +1,5 @@
 ---
-Description: The PatchesEx property returns a RecordList object that enumerates the list of patches.
+description: The PatchesEx property returns a RecordList object that enumerates the list of patches.
 ms.assetid: 14fa0a1b-325c-42b7-b023-cd168e0615cc
 title: Installer.PatchesEx property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = Installer.PatchesEx
 
 
 
-|                    |                                                                                                                                                                                                                                                                       |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP.<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                    |

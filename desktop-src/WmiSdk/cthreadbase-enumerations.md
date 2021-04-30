@@ -1,5 +1,5 @@
 ---
-Description: The CThreadBase class has the following enumerations.
+description: The CThreadBase class has the following enumerations.
 ms.assetid: 214DF754-5BE9-4F6A-A969-3C763946F75A
 ms.tgt_platform: multiple
 title: CThreadBase Enumerations

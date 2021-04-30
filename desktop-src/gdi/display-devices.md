@@ -1,5 +1,5 @@
 ---
-Description: Before painting, the system must prepare the display device for drawing operations.
+description: Before painting, the system must prepare the display device for drawing operations.
 ms.assetid: a3802aa7-deec-4151-b1b1-4cd38f769864
 title: Display Devices
 ms.topic: article

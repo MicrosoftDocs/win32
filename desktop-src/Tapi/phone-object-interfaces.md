@@ -1,5 +1,5 @@
 ---
-Description: The Phone object is the entity that represents the actual phone device and all of its controls.
+description: The Phone object is the entity that represents the actual phone device and all of its controls.
 ms.assetid: 5bc2f595-8e2b-4938-b813-1574a9390084
 title: Phone Object Interfaces
 ms.topic: article

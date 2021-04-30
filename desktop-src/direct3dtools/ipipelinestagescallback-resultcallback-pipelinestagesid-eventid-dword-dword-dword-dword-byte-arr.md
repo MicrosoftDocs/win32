@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of pipeline stages image information returned by the assocaited request.
+description: A callback that notifies the host of pipeline stages image information returned by the assocaited request.
 MS-HAID: vspixengine.IPipeLineStagesCallback\_ResultCallback\_PipeLineStagesID\_EventID\_DWORD\_DWORD\_DWORD\_DWORD\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordFormatConversionFailedException methods"
 title: EsentRecordFormatConversionFailedException methods
 TOCTitle: EsentRecordFormatConversionFailedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException

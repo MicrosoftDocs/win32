@@ -1,5 +1,5 @@
 ---
-Description: Indicates if the tablet context is in the top most hook.
+description: Indicates if the tablet context is in the top most hook.
 ms.assetid: b4aaee47-3d77-49cd-9600-f41764b9fb85
 title: ITabletContextP::IsTopMostHook method
 ms.topic: reference
@@ -52,7 +52,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSystemParamsAlreadySetException constructor"
 title: EsentSystemParamsAlreadySetException constructor 
 TOCTitle: 'EsentSystemParamsAlreadySetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSystemParamsAlreadySetException.#ctor

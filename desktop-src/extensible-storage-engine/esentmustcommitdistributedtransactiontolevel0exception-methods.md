@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustCommitDistributedTransactionToLevel0Exception methods"
 title: EsentMustCommitDistributedTransactionToLevel0Exception methods
 TOCTitle: EsentMustCommitDistributedTransactionToLevel0Exception methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMustCommitDistributedTransactionToLevel0Exception

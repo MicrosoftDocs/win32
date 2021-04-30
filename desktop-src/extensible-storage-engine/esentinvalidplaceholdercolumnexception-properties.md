@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPlaceholderColumnException properties"
 title: EsentInvalidPlaceholderColumnException properties
 TOCTitle: EsentInvalidPlaceholderColumnException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidPlaceholderColumnException

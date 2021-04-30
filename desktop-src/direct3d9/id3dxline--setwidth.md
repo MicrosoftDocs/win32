@@ -1,5 +1,5 @@
 ---
-Description: Specifies the thickness of the line.
+description: Specifies the thickness of the line.
 ms.assetid: cedf9217-2b47-40c3-a64c-9872c1083d71
 title: ID3DXLine::SetWidth method (D3dx9core.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

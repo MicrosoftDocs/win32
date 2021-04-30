@@ -1,6 +1,6 @@
 ---
 title: TextureCube::Gather(S,float,uint) function
-description: Samples a texture and returns all four components along with status about the operation.
+description: Returns the four texel values that would be used in a bi-linear filtering operation. | TextureCube::Gather(S,float,uint) function
 ms.assetid: 23FA8135-ECF0-4CAE-9A1C-B05DA3676453
 keywords:
 - Gather function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Gather(S,float,uint) function
+# TextureCube::Gather(S,float,uint) function
 
-Samples a texture and returns all four components along with status about the operation.
+Returns the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 

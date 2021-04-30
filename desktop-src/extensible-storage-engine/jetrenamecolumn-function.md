@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRenameColumn Function"
 title: JetRenameColumn Function
 TOCTitle: JetRenameColumn Function
 ms:assetid: 30967765-355b-417c-b0d6-8b59e677cc98

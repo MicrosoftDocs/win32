@@ -1,5 +1,5 @@
 ---
-Description: Provides COM-standard methods to manage protected storage data items.
+description: Provides COM-standard methods to manage protected storage data items.
 ms.assetid: 6a4200ed-c3cf-4d6c-8936-22261e670087
 title: IPStore interface (Pstore.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ The **IPStore** interface has these methods.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

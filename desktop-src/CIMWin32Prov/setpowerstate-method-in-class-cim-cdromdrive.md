@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
+description: SetPowerState method of the CIM_CDROMDrive class - The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 2f252d65-55ad-43b2-bee4-d5db24ca9d29
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_CDROMDrive class
@@ -111,7 +111,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

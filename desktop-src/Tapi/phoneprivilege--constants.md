@@ -1,5 +1,5 @@
 ---
-Description: The PHONEPRIVILEGE\_ bit-flag constants describe the various ways in which a phone device can be opened.
+description: The PHONEPRIVILEGE\_ bit-flag constants describe the various ways in which a phone device can be opened.
 ms.assetid: 1dc2fab9-b044-4ae3-8c16-fa450f9ef714
 title: PHONEPRIVILEGE_ Constants (Tapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

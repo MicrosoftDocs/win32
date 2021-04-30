@@ -47,7 +47,7 @@ You may wish to use this attribute in conjunction with the **borderSize** attrib
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

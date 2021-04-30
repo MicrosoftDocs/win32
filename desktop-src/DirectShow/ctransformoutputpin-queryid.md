@@ -1,5 +1,5 @@
 ---
-Description: The QueryId method retrieves an identifier for the pin. This method implements the IPin::QueryId method.
+description: CTransformOutputPin.QueryId method - The QueryId method retrieves an identifier for the pin. This method implements the IPin::QueryId method.
 ms.assetid: 3d83db3a-b919-454d-a91a-91f33a952a22
 title: CTransformOutputPin.QueryId method (Transfrm.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The pin identifier is used for graph persistence. The pin identifier for this cl
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

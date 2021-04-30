@@ -22,7 +22,7 @@ The application policy OID's in a certificate.
 
 
 
-|                   |                                                                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-Certificate-Application-Policy                                                      |
 | Ldap-Display-Name | msPKI-Certificate-Application-Policy                                                       |
@@ -47,7 +47,7 @@ The application policy OID's in a certificate.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -68,7 +68,7 @@ The application policy OID's in a certificate.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -89,7 +89,7 @@ The application policy OID's in a certificate.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -110,7 +110,7 @@ The application policy OID's in a certificate.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -131,7 +131,7 @@ The application policy OID's in a certificate.
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: Provides properties and methods to encrypt and decrypt data using a session key derived from a secret.
+description: Provides properties and methods to encrypt and decrypt data using a session key derived from a secret.
 ms.assetid: 3b9bd0a2-6e15-4d58-a682-588a93895799
 title: EncryptedData object
 ms.topic: reference
@@ -72,7 +72,7 @@ The **EncryptedData** object can be created, and it is safe for scripting. The P
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: For configured components running within COM+ applications, contexts are the foundation on which COM+ services are provided.
+description: For configured components running within COM+ applications, contexts are the foundation on which COM+ services are provided.
 ms.assetid: 62a0bef2-c3c2-4a60-a5d1-6c038958e13e
 title: COM+ Contexts
 ms.topic: article

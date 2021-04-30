@@ -21,7 +21,7 @@ Contains the section of the services map that specifies the port on which the UN
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ipServicePort                        |
 | Ldap-Display-Name | ipServicePort                        |
@@ -45,7 +45,7 @@ Contains the section of the services map that specifies the port on which the UN
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -66,7 +66,7 @@ Contains the section of the services map that specifies the port on which the UN
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -87,7 +87,7 @@ Contains the section of the services map that specifies the port on which the UN
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -108,7 +108,7 @@ Contains the section of the services map that specifies the port on which the UN
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |

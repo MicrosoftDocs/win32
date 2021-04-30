@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of IContextNode objects contained in this collection.
+description: Retrieves the number of IContextNode objects contained in this collection.
 ms.assetid: 7cc60bea-9a4c-4ac8-ad1a-0fca5e941c5e
 title: IContextNodes::GetCount method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

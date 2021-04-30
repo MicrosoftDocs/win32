@@ -1,5 +1,5 @@
 ---
-Description: Contains detailed information about an interface that is required by an RPC client.
+description: Contains detailed information about an interface that is required by an RPC client.
 ms.assetid: 92e734f3-eacb-44dc-9016-88dc6e9f04b6
 title: INTF_ENTRY structure (Wzcsapi.h)
 ms.topic: reference
@@ -299,7 +299,7 @@ The *pData* member points to binary data. The *dwDataLen* indicates the number o
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

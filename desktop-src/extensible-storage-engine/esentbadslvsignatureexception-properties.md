@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadSLVSignatureException properties"
 title: EsentBadSLVSignatureException properties
 TOCTitle: EsentBadSLVSignatureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadSLVSignatureException

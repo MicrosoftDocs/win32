@@ -1,5 +1,5 @@
 ---
-Description: Occurs when one or more IInkStrokeDisp objects are added to the InkStrokes collection.
+description: Occurs when one or more IInkStrokeDisp objects are added to the InkStrokes collection.
 ms.assetid: 577ad52b-ecd3-4a49-8997-481ebdb47203
 title: InkPicture.StrokesAdded event (Msinkaut.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ This event method is defined in the **\_IInkStrokesEvents** interface. The **\_I
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

@@ -45,7 +45,7 @@ Retrieves whether the Remote Desktop Connection (RDC) client supports RemoteApp 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

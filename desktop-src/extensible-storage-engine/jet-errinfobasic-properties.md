@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_ERRINFOBASIC properties"
 title: JET_ERRINFOBASIC properties (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_ERRINFOBASIC properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC

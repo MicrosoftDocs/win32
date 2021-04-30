@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDuplicateException properties"
 title: EsentColumnDuplicateException properties
 TOCTitle: EsentColumnDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnDuplicateException

@@ -93,7 +93,7 @@ Note that this technique is necessary only if your wizard removes pages dynamica
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

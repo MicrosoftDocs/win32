@@ -22,7 +22,7 @@ Contains a list of hardware processors supported by a given application.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Machine-Architecture                 |
 | Ldap-Display-Name | machineArchitecture                  |
@@ -48,7 +48,7 @@ Contains a list of hardware processors supported by a given application.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -69,7 +69,7 @@ Contains a list of hardware processors supported by a given application.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -90,7 +90,7 @@ Contains a list of hardware processors supported by a given application.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -111,7 +111,7 @@ Contains a list of hardware processors supported by a given application.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -132,7 +132,7 @@ Contains a list of hardware processors supported by a given application.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -153,7 +153,7 @@ Contains a list of hardware processors supported by a given application.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

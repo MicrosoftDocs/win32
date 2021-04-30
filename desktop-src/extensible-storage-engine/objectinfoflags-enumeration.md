@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ObjectInfoFlags enumeration"
 title: ObjectInfoFlags enumeration
 TOCTitle: ObjectInfoFlags enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ObjectInfoFlags

@@ -1,5 +1,5 @@
 ---
-Description: The FeatureInfo object contains information regarding the targeted feature and is created from the Session object using the FeatureInfo Method.
+description: The FeatureInfo object contains information regarding the targeted feature and is created from the Session object using the FeatureInfo Method.
 ms.assetid: c9c96799-22c7-4e74-947b-3b8d31ebc1f1
 title: FeatureInfo object
 ms.topic: reference
@@ -45,7 +45,7 @@ The **FeatureInfo** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

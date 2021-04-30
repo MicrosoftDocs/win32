@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Sync.HandlerCollectionID
 ms.assetid: e4eb8e49-57b9-4591-a398-cd9fab5f9980
 title: System.Sync.HandlerCollectionID
 ms.topic: article

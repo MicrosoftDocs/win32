@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SAPSAPDependency class is an association between two service access points (SAPs), which indicates that the second SAP is required for the first SAP to connect with its service.
+description: The CIM\_SAPSAPDependency class is an association between two service access points (SAPs), which indicates that the second SAP is required for the first SAP to connect with its service.
 ms.assetid: ba5f47d9-ebe5-4dcb-8a6d-0974acf67385
 ms.tgt_platform: multiple
 title: CIM_SAPSAPDependency class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_SAPSAPDependency class
+# CIM_SAPSAPDependency class (CIMWin32 WMI Providers)
 
 The **CIM\_SAPSAPDependency** class is an association between two service access points (SAPs), which indicates that the second SAP is required for the first SAP to connect with its service. For example, to print on a network printer, local printer access points must use underlying network-related SAPs, or protocol endpoints, to send the print request.
 
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

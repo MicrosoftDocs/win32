@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.Name property"
 title: IndexInfo.Name property 
 TOCTitle: 'Name property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Name

@@ -22,7 +22,7 @@ Internally used data type for msieee80211-Data BLOB.
 
 
 
-|                   |                                                                                  |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | CN                | ms-ieee-80211-Data-Type                                                          |
 | Ldap-Display-Name | msieee80211-DataType                                                             |
@@ -47,7 +47,7 @@ Internally used data type for msieee80211-Data BLOB.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -68,7 +68,7 @@ Internally used data type for msieee80211-Data BLOB.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -89,7 +89,7 @@ Internally used data type for msieee80211-Data BLOB.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -110,7 +110,7 @@ Internally used data type for msieee80211-Data BLOB.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -131,7 +131,7 @@ Internally used data type for msieee80211-Data BLOB.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |

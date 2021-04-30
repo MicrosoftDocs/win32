@@ -1,5 +1,5 @@
 ---
-Description: The dialog boxes created by the setup functions, SetupPromptForDisk, SetupCopyError, SetupDeleteError, and SetupRenameError can be used by a setup application, or by callback routines.
+description: The dialog boxes created by the setup functions, SetupPromptForDisk, SetupCopyError, SetupDeleteError, and SetupRenameError can be used by a setup application, or by callback routines.
 ms.assetid: 27e664c3-ba7c-4384-ba14-8600a372e6ee
 title: Using Disk Prompting and Error Handling
 ms.topic: article

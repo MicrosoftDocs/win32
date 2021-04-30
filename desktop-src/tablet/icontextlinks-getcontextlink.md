@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IContextLink at the specified index.
+description: Retrieves the IContextLink at the specified index.
 ms.assetid: 46bb71b9-5ef3-4756-97f6-40e0aaa82826
 title: IContextLinks::GetContextLink method (IACom.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

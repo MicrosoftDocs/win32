@@ -1,5 +1,5 @@
 ---
-Description: Represents an external Fibre Channel port.
+description: Represents an external Fibre Channel port.
 ms.assetid: bab3a243-5ebd-43e0-948e-ea8112e09d0a
 title: Msvm_ExternalFcPort class
 ms.topic: reference
@@ -83,6 +83,9 @@ api_location:
 ---
 
 # Msvm\_ExternalFcPort class
+
+> [!NOTE]
+> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
 
 Represents an external Fibre Channel port.
 
@@ -1493,7 +1496,7 @@ The world wide port name for this Fibre Channel port.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

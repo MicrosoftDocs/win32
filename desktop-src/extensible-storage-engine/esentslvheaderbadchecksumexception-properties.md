@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderBadChecksumException properties"
 title: EsentSLVHeaderBadChecksumException properties
 TOCTitle: EsentSLVHeaderBadChecksumException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVHeaderBadChecksumException

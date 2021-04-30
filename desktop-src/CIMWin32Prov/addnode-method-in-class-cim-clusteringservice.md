@@ -1,5 +1,5 @@
 ---
-Description: Brings a new computer system into a cluster.
+description: Brings a new computer system into a cluster.
 ms.assetid: 26d9428e-99de-4dcb-96ed-d773f28e015a
 ms.tgt_platform: multiple
 title: AddNode method of the CIM_ClusteringService class
@@ -63,7 +63,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

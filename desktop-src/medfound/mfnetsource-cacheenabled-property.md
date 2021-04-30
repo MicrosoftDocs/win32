@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the network source caches content.
+description: Specifies whether the network source caches content.
 ms.assetid: f9a36315-083c-4ebb-9d36-d55fc1f21621
 title: MFNETSOURCE_CACHEENABLED property (Mfidl.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The default value of this property is **TRUE**.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -34,7 +34,7 @@ The following constants are **WINBIO\_BIOMETRIC\_SUBTYPE** values that can be us
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                          |

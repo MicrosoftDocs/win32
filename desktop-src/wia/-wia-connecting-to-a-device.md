@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Connecting to a Device"
 ms.assetid: 16ff280d-818b-4a4e-b5a6-16e81f5b35c6
 title: Connecting to a Device
 ms.topic: article

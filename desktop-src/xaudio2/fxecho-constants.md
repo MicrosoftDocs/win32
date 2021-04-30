@@ -1,5 +1,5 @@
 ---
-Description: Defines values for use with the FXECHO\_PARAMETERS structure.
+description: Defines values for use with the FXECHO\_PARAMETERS structure.
 ms.assetid: bd8af2fc-7ae6-398a-0062-82090705e383
 title: FXECHO Constants (XAPOFX.H)
 ms.topic: reference
@@ -36,7 +36,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>XAPOFX.H</dt> </dl> |
 

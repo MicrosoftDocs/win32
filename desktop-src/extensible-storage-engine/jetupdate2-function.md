@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetUpdate2 Function"
 title: JetUpdate2 Function
 TOCTitle: JetUpdate2 Function
 ms:assetid: 125f372c-9c4c-4be8-b0df-bbf53d79e90b

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQueryNotSupportedException class"
 title: EsentQueryNotSupportedException class
 TOCTitle: EsentQueryNotSupportedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentQueryNotSupportedException

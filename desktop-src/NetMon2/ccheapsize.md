@@ -1,5 +1,5 @@
 ---
-Description: The CCHeapSize function returns the size of the memory allocated by the CCHeapAlloc function.
+description: The CCHeapSize function returns the size of the memory allocated by the CCHeapAlloc function.
 ms.assetid: 45d0fd89-bcd1-4298-8cc3-834d86301f93
 title: CCHeapSize function (Netmon.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

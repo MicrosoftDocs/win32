@@ -1,12 +1,12 @@
 ---
-Description: A custom action can call a function defined in a dynamic-link library (DLL) written in C or C++.
+description: A custom action can call a function defined in a dynamic-link library (DLL) written in C or C++.
 ms.assetid: 605c7b97-70bd-467a-9438-47b05d8b6b5d
 title: Dynamic-Link Libraries (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Dynamic-Link Libraries
+# Dynamic-Link Libraries (Windows Installer)
 
 A custom action can call a function defined in a dynamic-link library (DLL) written in C or C++. The DLL can exist as a file installed during the current installation or as a temporary binary stream originating from the [Binary table](binary-table.md) of the installation database.
 

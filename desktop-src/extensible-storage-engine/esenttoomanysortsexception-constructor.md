@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySortsException constructor"
 title: EsentTooManySortsException constructor 
 TOCTitle: 'EsentTooManySortsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManySortsException.#ctor

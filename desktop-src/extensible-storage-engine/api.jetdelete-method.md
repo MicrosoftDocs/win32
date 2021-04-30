@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetDelete method"
 title: Api.JetDelete method 
 TOCTitle: 'JetDelete method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDelete(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

@@ -1,5 +1,5 @@
 ---
-Description: Saves a texture to a file.
+description: Saves a texture to a file.
 ms.assetid: b14dd893-e967-4be9-81e8-aeb52035d91c
 title: D3DXSaveTextureToFile function (D3dx9tex.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ If the volume is nondynamic (because of a usage parameter set to 0 at the creati
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

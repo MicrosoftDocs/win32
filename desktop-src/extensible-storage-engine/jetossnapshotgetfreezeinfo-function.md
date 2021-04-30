@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotGetFreezeInfo Function"
 title: JetOSSnapshotGetFreezeInfo Function
 TOCTitle: JetOSSnapshotGetFreezeInfo Function
 ms:assetid: b94eaf91-7407-4c62-ab1e-3249ad076c1a

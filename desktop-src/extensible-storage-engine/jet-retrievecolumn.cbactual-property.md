@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN.cbActual property"
 title: JET_RETRIEVECOLUMN.cbActual property 
 TOCTitle: 'cbActual property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.cbActual

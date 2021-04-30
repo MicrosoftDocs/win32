@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFilteredMoveNotSupportedException constructor"
 title: EsentFilteredMoveNotSupportedException constructor 
 TOCTitle: 'EsentFilteredMoveNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException.#ctor

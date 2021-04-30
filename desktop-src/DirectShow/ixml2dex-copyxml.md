@@ -1,5 +1,5 @@
 ---
-Description: Not implemented.
+description: IXml2Dex::CopyXML method - Not implemented.
 ms.assetid: be412d17-6210-4b50-a2b9-9b51c722cb7c
 title: IXml2Dex::CopyXML method
 ms.topic: reference

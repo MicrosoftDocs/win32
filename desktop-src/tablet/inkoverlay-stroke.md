@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user draws a new stroke on any tablet.
+description: InkOverlay.Stroke event - Occurs when the user draws a new stroke on any tablet.
 ms.assetid: 315155ec-0de1-4052-ae7c-51bc3127fbbf
 title: InkOverlay.Stroke event (Msinkaut.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The [**Stroke**](inkcollector-stroke.md) event is fired when in select or erase 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

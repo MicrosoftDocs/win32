@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Removal of Windows Movie Maker
 ms.assetid: af55e570-0f24-4376-905a-3b879d5f3a1c
 title: Removal of Windows Movie Maker
 ms.topic: article

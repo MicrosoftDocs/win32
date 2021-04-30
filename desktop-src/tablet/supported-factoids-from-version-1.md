@@ -1,5 +1,5 @@
 ---
-Description: The Tablet PC Platform supports a number of factoids that are used to increase recognition accuracy.
+description: The Tablet PC Platform supports a number of factoids that are used to increase recognition accuracy.
 ms.assetid: 9d5fc370-ba58-438b-8850-f31f0f0f6608
 title: Supported Factoids from Version 1
 ms.topic: article

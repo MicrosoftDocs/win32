@@ -1,5 +1,5 @@
 ---
-Description: Specifies the MPEG-1/2 audio encoding mode. This property applies to MPEG audio encoders.
+description: Specifies the MPEG-1/2 audio encoding mode. This property applies to MPEG audio encoders.
 ms.assetid: c1a303fd-3625-4051-b6b8-4f83cceec945
 title: AVEncMPACodingMode property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncMPACodingMode**](/windows
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

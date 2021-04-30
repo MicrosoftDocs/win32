@@ -1,5 +1,5 @@
 ---
-Description: The transition element defines a transition object. A transition is a two-input transform that results in a transition from one stream (such as a composite or track) to another.
+description: The transition element defines a transition object. A transition is a two-input transform that results in a transition from one stream (such as a composite or track) to another.
 ms.assetid: d344a29f-5b6d-44a3-b1d7-759442e229f5
 title: transition Element
 ms.topic: reference
@@ -23,7 +23,7 @@ The `transition` element defines a transition object. A transition is a two-inpu
 
 
 
-|          |                                                                        |
+| Label | Value |
 |----------|------------------------------------------------------------------------|
 | Parent   | [**composite**](composite-element.md), [**track**](track-element.md) |
 | Children | [**param**](param-element.md)                                         |

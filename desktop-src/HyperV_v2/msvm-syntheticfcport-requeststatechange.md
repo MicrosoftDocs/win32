@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_SyntheticFcPort class - Requests a state change.
 ms.assetid: 5655b5ec-dd12-49b9-8753-5f329a91b4e1
 title: RequestStateChange method of the Msvm_SyntheticFcPort class
 ms.topic: reference
@@ -150,7 +150,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

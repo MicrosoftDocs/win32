@@ -1,5 +1,5 @@
 ---
-Description: The REFERENCE\_TIME() operator casts the object to a REFERENCE\_TIME data type.
+description: The REFERENCE\_TIME() operator casts the object to a REFERENCE\_TIME data type.
 ms.assetid: 36f51e03-a458-46e6-9657-977b263c127f
 title: CRefTime.operator REFERENCE_TIME method (Reftime.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ REFERENCE_TIME rt = (REFERENCE_TIME)cRT;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Reftime.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

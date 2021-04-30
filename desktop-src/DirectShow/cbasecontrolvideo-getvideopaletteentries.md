@@ -1,5 +1,5 @@
 ---
-Description: The GetVideoPaletteEntries method retrieves a range of palette entries for the video.
+description: The GetVideoPaletteEntries method retrieves a range of palette entries for the video.
 ms.assetid: 7ac12e28-daa7-4d6c-9983-401971e6704d
 title: CBaseControlVideo.GetVideoPaletteEntries method (Ctlutil.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ This member function returns the current palette of the video as an array alloca
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

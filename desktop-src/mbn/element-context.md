@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/Context (v4)
+description: MBNProfileExt\/Context (v4)
 MS-HAID: WWAN\_profile\_v4.element\_Context
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the start time for a segment topology.
+description: Specifies the start time for a segment topology.
 ms.assetid: d8902fb6-c758-4d3d-9230-e918948bda19
 title: MF_EVENT_SOURCE_PROJECTSTART attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

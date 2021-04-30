@@ -1,5 +1,5 @@
 ---
-Description: Enumerating Effects and Transitions
+description: Enumerating Effects and Transitions
 ms.assetid: 364b7bfb-5d6e-4ca6-b0c8-7a0180c3f61a
 title: Enumerating Effects and Transitions
 ms.topic: article

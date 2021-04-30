@@ -1,5 +1,5 @@
 ---
-Description: Is an abstract base class that is used in the registration of a permanent event consumer.
+description: Is an abstract base class that is used in the registration of a permanent event consumer.
 ms.assetid: c1dc9a91-76f9-4527-ad69-0323a9aef28a
 ms.tgt_platform: multiple
 title: '__EventConsumer class'
@@ -98,7 +98,7 @@ Permanent consumers define new consumer classes to describe an action to take an
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client that is using Schannel.
+description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client that is using Schannel.
 ms.assetid: 03fd5272-8476-4c93-8590-0d00acf6a130
 title: AcceptSecurityContext (Schannel) function (Sspi.h)
 ms.topic: reference
@@ -169,7 +169,7 @@ After the [*security context*](../secgloss/s-gly.md) has been established, the s
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                |

@@ -1,5 +1,5 @@
 ---
-Description: Extended line services (or device-specific line services) include all service-provider defined extensions to the API.
+description: Extended line services (or device-specific line services) include all service-provider defined extensions to the API.
 ms.assetid: 0f01509e-caa5-4f79-be78-36bd5f23c5d7
 title: Extended Line Functions
 ms.topic: article

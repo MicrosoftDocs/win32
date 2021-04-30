@@ -1,5 +1,5 @@
 ---
-Description: Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the WH\_JOURNALPLAYBACK procedure.
+description: Sent by a computer-based training (CBT) application to separate user-input messages from other messages sent through the WH\_JOURNALPLAYBACK procedure.
 ms.assetid: 9ac265be-1fcc-476f-9dee-3e961340b5a1
 title: WM_QUEUESYNC message (Winuser.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If an application specifies a **NULL** window handle, the message is posted to t
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The event type class for the log file header event. This class contains information about the event tracing session.
+description: The event type class for the log file header event. This class contains information about the event tracing session.
 ms.assetid: 3d0c4044-da06-4850-95c4-99b4ea28fcd9
 title: EventTrace_Header class
 ms.topic: reference
@@ -433,7 +433,7 @@ Typically, you want to save the values for the following properties for use late
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetGetRecordSize method"
 title: VistaApi.JetGetRecordSize method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetGetRecordSize method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetGetRecordSize(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE@,Microsoft.Isam.Esent.Interop.GetRecordSizeGrbit)

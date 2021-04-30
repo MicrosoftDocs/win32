@@ -16,7 +16,7 @@ Windows 10 supports HDR and other advanced color displays, which provide signifi
 
 Windows advanced color refers to several related technologies, first introduced with Windows 10 version 1703, that provide support for displays that exceed the color capabilities of traditional standard dynamic range (SDR) displays. The three major extended capabilities are described below. The most common type of advanced color display, HDR10, supports all three extended capabilities.
 
-### high dynamic range
+### High dynamic range
 
 Dynamic range refers to the difference between the maximum and minimum luminance in a scene; this is often measured in nits (candelas per square centimeter). Real world scenes, such as this sunset, often have dynamic ranges of 10 orders of magnitude of luminance; the human eye can discern an even greater range after adaptation.
 
@@ -462,9 +462,13 @@ D2D1_VECTOR_4F simpleReinhardTonemapper(
 }
 ```
 
+## Capturing HDR and WCG content
+
+APIs that support specifying pixel formats, such as those in the [**Windows.Graphics.Capture**](/uwp/api/windows.graphics.capture) namespace, and the [**IDXGIOutput5::DuplicateOutput1**](/windows/win32/api/dxgi1_5/nf-dxgi1_5-idxgioutput5-duplicateoutput1) method, provide the capability to capture HDR and WCG content without losing pixel information. Note that after acquiring content frames, additional processing is required. For example, HDR-to-SDR tone mapping (for example, SDR screenshot copy for Internet sharing) and content saving with proper format (for example, JPEG XR).
+
 ## Additional resources
 
-* [Using HDR Rendering with the DirectX Tool Kit](https://github.com/Microsoft/DirectXTK/wiki/Using-HDR-rendering). Walkthrough of how to add HDR support to a DirectX app using the DirectX Tool Kit (DirectXTK).
+* *Using HDR Rendering with the DirectX Tool Kit* for [DirectX 11](https://github.com/Microsoft/DirectXTK/wiki/Using-HDR-rendering) / [DirectX 12](https://github.com/microsoft/DirectXTK12/wiki/Using-HDR-rendering). Walkthrough of how to add HDR support to a DirectX app using the DirectX Tool Kit (DirectXTK).
 * [Direct2D advanced color images SDK sample](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/D2DAdvancedColorImages). UWP SDK sample implementing an advanced color-aware HDR and WCG image viewer using Direct2D. Demonstrates the full range of best practices for UWP apps, including responding to display capability changes and adjusting for SDR white level.
 * [Direct3D 12 HDR desktop sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12HDR). Desktop SDK sample implementing a basic Direct3D 12 HDR scene.
 * [Direct3D 12 HDR UWP sample](https://github.com/microsoft/DirectX-Graphics-Samples/tree/master/Samples/UWP/D3D12HDR). UWP equivalent of the above sample.

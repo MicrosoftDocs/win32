@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the ink leaf nodes.
+description: Retrieves all of the ink leaf nodes.
 ms.assetid: 988ae9f9-8fca-4757-8eb0-ae161e5690c9
 title: IInkAnalyzer::FindInkLeafNodes method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Leaf nodes do not contain child nodes. Ink nodes contain stroke data. Examples o
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

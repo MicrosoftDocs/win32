@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileAccessDeniedException constructor"
 title: EsentFileAccessDeniedException constructor 
 TOCTitle: 'EsentFileAccessDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException.#ctor

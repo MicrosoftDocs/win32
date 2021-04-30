@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLoggingDisabledException class"
 title: EsentLoggingDisabledException class
 TOCTitle: EsentLoggingDisabledException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLoggingDisabledException

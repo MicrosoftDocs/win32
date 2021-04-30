@@ -193,7 +193,7 @@ If the method succeeds, it returns zero. If the method is unsuccessful, it retur
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                            |

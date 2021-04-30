@@ -1,5 +1,5 @@
 ---
-Description: The GetPreviewMode method retrieves the preview mode for the group.
+description: The GetPreviewMode method retrieves the preview mode for the group.
 ms.assetid: 635354e5-5cb2-4045-8a7f-21d31005c5f3
 title: IAMTimelineGroup::GetPreviewMode method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ In preview mode, frames are dropped during slow effects or transitions to keep t
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

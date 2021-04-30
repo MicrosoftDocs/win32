@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX members"
 title: JET_UNICODEINDEX members
 TOCTitle: JET_UNICODEINDEX members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX

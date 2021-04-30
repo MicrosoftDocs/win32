@@ -1,5 +1,5 @@
 ---
-Description: Specifies the frame rate on the encoder's output stream, in frames per second.
+description: Specifies the frame rate on the encoder's output stream, in frames per second.
 ms.assetid: 72e16c7d-977e-4269-9576-afc789e31826
 title: AVEncVideoOutputFrameRate property (Codecapi.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ This property is also used with [H.264 UVC 1.5 camera encoders](/windows/desktop
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

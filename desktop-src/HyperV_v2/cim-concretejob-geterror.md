@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an error due to a failed job.
+description: Retrieves an error due to a failed job.
 ms.assetid: d499eb91-e1cc-4792-b32d-5a8875eebbb7
 title: GetError method of the CIM_ConcreteJob class
 ms.topic: reference
@@ -78,7 +78,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

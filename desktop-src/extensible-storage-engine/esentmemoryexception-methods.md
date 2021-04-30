@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMemoryException methods"
 title: EsentMemoryException methods
 TOCTitle: EsentMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMemoryException

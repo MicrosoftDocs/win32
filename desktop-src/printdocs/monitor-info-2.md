@@ -1,5 +1,5 @@
 ---
-Description: The MONITOR\_INFO\_2 structure identifies a monitor.
+description: The MONITOR\_INFO\_2 structure identifies a monitor.
 ms.assetid: 4dd1ca15-6983-403e-8159-1a6d35a88162
 title: MONITOR_INFO_2 structure (Winspool.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ A pointer to a null-terminated string that is the name of the monitor DLL.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

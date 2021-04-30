@@ -1,5 +1,5 @@
 ---
-Description: Generates a forward declaration for the C constant for the manufacturer metadata specified in the thisModelMetadata element.
+description: Generates a forward declaration for the C constant for the manufacturer metadata specified in the thisModelMetadata element.
 ms.assetid: 589cddb2-29a6-4ad7-9102-56c17fcc16e3
 title: thisModelMetadataDeclaration element
 ms.topic: reference
@@ -38,7 +38,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

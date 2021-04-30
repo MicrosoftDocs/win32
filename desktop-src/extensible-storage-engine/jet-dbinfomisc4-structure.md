@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC4 Structure"
 title: JET_DBINFOMISC4 Structure
 TOCTitle: JET_DBINFOMISC4 Structure
 ms:assetid: 63f446bc-98b7-4a60-9575-d6b4757fb0fa

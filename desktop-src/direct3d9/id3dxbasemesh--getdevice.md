@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the device associated with the mesh.
+description: Retrieves the device associated with the mesh.
 ms.assetid: 16ff5267-0c64-4c3d-925d-6fc10f54c9c4
 title: ID3DXBaseMesh::GetDevice method (D3DX9Mesh.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Calling this method will increase the internal reference count on the [**IDirect
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBookmarkException class"
 title: EsentBadBookmarkException class
 TOCTitle: EsentBadBookmarkException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadBookmarkException

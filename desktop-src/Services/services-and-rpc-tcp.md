@@ -1,5 +1,5 @@
 ---
-Description: Starting with Windows Vista, the service control manager (SCM) supports remote procedure calls over both Transmission Control Protocol (RPC/TCP) and named pipes (RPC/NP).
+description: Starting with Windows Vista, the service control manager (SCM) supports remote procedure calls over both Transmission Control Protocol (RPC/TCP) and named pipes (RPC/NP).
 ms.assetid: c51732f6-c22f-4726-afaa-13a8948ac44f
 title: Services and RPC/TCP
 ms.topic: article

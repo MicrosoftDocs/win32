@@ -48,7 +48,7 @@ When the end-of-line character used is set to **EC\_ENDOFLINE\_DETECTFROMCONTENT
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1809 \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                  |

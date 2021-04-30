@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a non-color style has the bold style.
+description: Specifies whether a non-color style has the bold style.
 ms.assetid: fd34af7f-8847-43aa-9e69-264a08eba98b
 title: FBoldIMEStyle function
 ms.topic: reference
@@ -53,7 +53,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

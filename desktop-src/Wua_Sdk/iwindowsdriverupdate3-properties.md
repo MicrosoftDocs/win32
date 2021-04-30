@@ -1,5 +1,5 @@
 ---
-Description: The IWindowsDriverUpdate3 interface defines the following property.
+description: The IWindowsDriverUpdate3 interface defines the following property.
 ms.assetid: a4526bb3-1652-4808-becd-a686afb2dd7e
 title: IWindowsDriverUpdate3 Properties
 ms.topic: article

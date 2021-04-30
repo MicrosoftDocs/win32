@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaTime method retrieves the media times for this sample. This method implements the IMediaSample::GetMediaTime method.
+description: The GetMediaTime method retrieves the media times for this sample. This method implements the IMediaSample::GetMediaTime method.
 ms.assetid: f58a2162-5764-48f2-8984-ee4bba1229ab
 title: CMediaSample.GetMediaTime method (Amfilter.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ For information about media times, see [Time and Clocks in DirectShow](time-and-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

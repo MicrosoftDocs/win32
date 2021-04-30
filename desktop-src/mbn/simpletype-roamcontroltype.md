@@ -1,5 +1,5 @@
 ---
-Description: Describes how the profile controls roaming.
+description: Describes how the profile controls roaming.
 MS-HAID: WWAN\_profile\_v4.simpleType\_roamControlType
 MSHAttr:
 - PreferredSiteName:MSDN

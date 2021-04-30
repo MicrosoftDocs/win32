@@ -1,5 +1,5 @@
 ---
-Description: Represents an association where a CIM\_ServiceAccessPoint object requests protocol services from a CIM\_ProtocolEndpoint object.
+description: Represents an association where a CIM\_ServiceAccessPoint object requests protocol services from a CIM\_ProtocolEndpoint object.
 ms.assetid: d1ef774d-f0e0-43e7-8a9d-63c2fad5ca4a
 title: CIM_BindsTo class
 ms.topic: reference
@@ -80,7 +80,7 @@ The access point or protocol endpoint that is dependent on the lower level endpo
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -52,7 +52,7 @@ This operator is deterministic, and behaves as if it were a pure function&mdash;
 The generators implemented by this operator are not cryptographically secure; therefore, this operator should not be used for encryption, key generation, or other applications which require cryptographically secure random number generation.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 
@@ -72,7 +72,7 @@ struct DML_RANDOM_GENERATOR_OPERATOR_DESC
 
 Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***
 
-An input tensor containing the internal generator state. The size and format of this input tensor depends on the [DML_RANDOM_GENERATOR_TYPE](/windows/win32/direct3d12/directml/ne-directml-dml_random_generator_type).
+An input tensor containing the internal generator state. The size and format of this input tensor depends on the [DML_RANDOM_GENERATOR_TYPE](./ne-directml-dml_random_generator_type.md).
 
 For **DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10**, this tensor must be of type **UINT32**, and have sizes `{1,1,1,6}`. The first four 32-bit values contain a monotonically increasing 128-bit counter. The last two 32-bit values contain the 64-bit key value for the generator.
 
@@ -98,9 +98,9 @@ An optional output tensor THAT holds the updated internal generator state. If su
 
 `Type`
 
-Type: **[DML_RANDOM_GENERATOR_TYPE](/windows/win32/direct3d12/directml/ne-directml-dml_random_generator_type)**
+Type: **[DML_RANDOM_GENERATOR_TYPE](./ne-directml-dml_random_generator_type.md)**
 
-One of the values from the [DML_RANDOM_GENERATOR_TYPE](/windows/win32/direct3d12/directml/ne-directml-dml_random_generator_type) enum, indicating the type of generator to use. Currently the only valid value is **DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10**, which generates pseudo-random numbers according to the [Philox 4x32-10 algorithm](http://www.thesalmons.org/john/random123/papers/random123sc11.pdf).
+One of the values from the [DML_RANDOM_GENERATOR_TYPE](./ne-directml-dml_random_generator_type.md) enum, indicating the type of generator to use. Currently the only valid value is **DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10**, which generates pseudo-random numbers according to the [Philox 4x32-10 algorithm](http://www.thesalmons.org/john/random123/papers/random123sc11.pdf).
 
 ## Remarks
 On each execution of this operator, the 128-bit counter should be incremented. If the *OutputStateTensor* is supplied, THEN this operator increments the counter with the correct value on your behalf, and writes the result into the *OutputStateTensor*. The amount it should be incremented by depends on the number of 32-bit output elements generated, and the type of the generator.

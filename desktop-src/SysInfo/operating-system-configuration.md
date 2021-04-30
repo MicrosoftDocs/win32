@@ -1,5 +1,5 @@
 ---
-Description: The Windows directory is the directory that contains Windows-based applications, initialization files, and help files. The GetWindowsDirectory function retrieves the path to this directory.
+description: The Windows directory is the directory that contains Windows-based applications, initialization files, and help files. The GetWindowsDirectory function retrieves the path to this directory.
 ms.assetid: c07c6337-2c92-42c5-8283-c95637fcb85a
 title: Operating System Configuration
 ms.topic: article

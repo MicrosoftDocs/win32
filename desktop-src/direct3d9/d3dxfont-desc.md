@@ -1,5 +1,5 @@
 ---
-Description: Defines the attributes of a font.
+description: Defines the attributes of a font.
 ms.assetid: 6f456f26-3410-4205-a013-e3c12bf0feb1
 title: D3DXFONT_DESC structure (D3dx9core.h)
 ms.topic: reference
@@ -163,7 +163,7 @@ Possible values of the above members are given in the GDI [**LOGFONT**](/windows
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9core.h</dt> </dl> |
 

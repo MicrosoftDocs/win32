@@ -1,5 +1,5 @@
 ---
-Description: Debugging Utilities
+description: Debugging Utilities
 ms.assetid: 1d40745f-9282-45ca-96e1-ed2a6f03cb98
 title: Debugging Utilities
 ms.topic: article

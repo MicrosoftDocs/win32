@@ -1,5 +1,5 @@
 ---
-Description: Stores information about shared memory sections.
+description: Stores information about shared memory sections.
 ms.assetid: 73a650ee-110c-43f2-a5e2-783d52fd29ee
 title: SHAREDMEMORY_HEADER structure
 ms.topic: reference

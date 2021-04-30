@@ -1,5 +1,5 @@
 ---
-Description: Both C++ applications and scripts running under a full administrator account can change a namespace security descriptor.
+description: Both C++ applications and scripts running under a full administrator account can change a namespace security descriptor.
 ms.assetid: d3e56b30-d5a8-446a-89aa-645b44a75af6
 ms.tgt_platform: multiple
 title: Setting Namespace Security Descriptors

@@ -1,5 +1,5 @@
 ---
-Description: The AlignUp method rounds a value up to a specified alignment boundary.Note  Removed in Windows 7. .
+description: The AlignUp method rounds a value up to a specified alignment boundary.Note  Removed in Windows 7. .
 ms.assetid: fa2a6567-3eb1-4aa9-b966-2e88b15c67b1
 title: CPullPin.AlignUp method (Pullpin.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Returns the aligned result.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h</dt> </dl>                                                                                                       |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

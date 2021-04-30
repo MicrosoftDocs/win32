@@ -1,5 +1,5 @@
 ---
-Description: Indicates the current state of the filter.
+description: Indicates the current state of the filter.
 ms.assetid: 65de36d4-4a05-40e2-aa00-701237281bbe
 title: CBaseFilter::m_State member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ FILTER_STATE m_State;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

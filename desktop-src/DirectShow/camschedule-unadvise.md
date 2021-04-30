@@ -1,5 +1,5 @@
 ---
-Description: The Unadvise method removes an advise request.
+description: The Unadvise method removes an advise request.
 ms.assetid: b3dfda82-577e-4499-a114-1c8721e4af9e
 title: CAMSchedule.Unadvise method (Dsschedule.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dsschedule.h (include Streams.h)</dt> </dl>                                                                                |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

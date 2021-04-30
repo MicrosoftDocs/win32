@@ -1,5 +1,5 @@
 ---
-Description: The ValidateBitmapInfoHeader function checks a BITMAPINFOHEADER structure for certain common errors that can cause buffer overruns or integer overflows.
+description: The ValidateBitmapInfoHeader function checks a BITMAPINFOHEADER structure for certain common errors that can cause buffer overruns or integer overflows.
 ms.assetid: a797c286-ed77-437f-9ec1-1ef3a189bf62
 title: ValidateBitmapInfoHeader function (Checkbmi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The function does not check whether the structure describes a valid video format
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Checkbmi.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyTestInjectionsException constructor"
 title: EsentTooManyTestInjectionsException constructor 
 TOCTitle: 'EsentTooManyTestInjectionsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyTestInjectionsException.#ctor

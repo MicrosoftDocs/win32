@@ -77,7 +77,7 @@ The **cid** attribute (the content ID) is populated by the Windows Media Player 
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

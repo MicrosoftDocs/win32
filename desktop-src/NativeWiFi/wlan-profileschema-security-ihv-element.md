@@ -1,5 +1,5 @@
 ---
-Description: Contains various security settings used by independent hardware vendors.
+description: Contains various security settings used by independent hardware vendors.
 ms.assetid: 237c5d98-3f3c-4279-b2ad-b0d05df041f9
 title: security (IHV) Element
 ms.topic: reference
@@ -41,7 +41,7 @@ The **security** element is defined by the [**IHV**](wlan-profileschema-ihv-wlan
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

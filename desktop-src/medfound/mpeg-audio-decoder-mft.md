@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft MPEG Audio Decoder is a synchronous Media Foundation Transform (MFT) that enables decoding MPEG audio elementary stream formats using the Media Foundation (MF) pipeline.
+description: The Microsoft MPEG Audio Decoder is a synchronous Media Foundation Transform (MFT) that enables decoding MPEG audio elementary stream formats using the Media Foundation (MF) pipeline.
 ms.assetid: 29A0491D-CA0D-4909-96F0-5640D5EE77F9
 title: MPEG Audio Decoder
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The CAutoLock class holds a critical section for the scope of a code block.
+description: The CAutoLock class holds a critical section for the scope of a code block.
 ms.assetid: 8013b3a7-297b-4cf8-8107-4cee1fc12b56
 title: CAutoLock class (Wxutil.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The methods in this class are not designed to be overridden.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

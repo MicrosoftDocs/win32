@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Reload-SSL-Certificate               |
 | Display-Name | Reload SSL/TLS Certificate           |
@@ -37,7 +37,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 76                                       |
@@ -48,7 +48,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 76                                       |
@@ -59,7 +59,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                          |
+| Entry | Value |
 |-------------------------|------------------------------------------|
 | Applies-To              | [**NTDS-DSA**](c-ntdsdsa.md)<br/> |
 | Localization-Display-ID | 76                                       |

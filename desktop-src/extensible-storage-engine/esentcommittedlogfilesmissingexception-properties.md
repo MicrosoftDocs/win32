@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCommittedLogFilesMissingException properties"
 title: EsentCommittedLogFilesMissingException properties
 TOCTitle: EsentCommittedLogFilesMissingException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFilesMissingException

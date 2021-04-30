@@ -1,5 +1,5 @@
 ---
-Description: The Unlock method unlocks the critical section object.
+description: The Unlock method unlocks the critical section object.
 ms.assetid: 61811e0e-df77-48e9-96d5-b7dff8c8db9b
 title: CCritSec.Unlock method (Wxutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method calls the [**LeaveCriticalSection**](/windows/desktop/api/synchapi/n
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

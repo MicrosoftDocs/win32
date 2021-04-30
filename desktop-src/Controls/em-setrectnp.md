@@ -1,6 +1,6 @@
 ---
 title: EM_SETRECTNP message (Winuser.h)
-description: Sets the formatting rectangle of a multiline edit control.
+description: EM_SETRECTNP message - Sets the formatting rectangle of a multiline edit control.
 ms.assetid: 1ab497ca-023f-4c26-b92d-b441a0d7b90c
 keywords:
 - EM_SETRECTNP message Windows Controls
@@ -56,7 +56,7 @@ This message does not return a value.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

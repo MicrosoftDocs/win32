@@ -1,5 +1,5 @@
 ---
-Description: Gets the module path.
+description: Gets the module path.
 ms.assetid: ff632357-8d4a-4de4-a69a-0be9e380639d
 title: '_GetModuleFileName function'
 ms.topic: reference
@@ -44,7 +44,7 @@ DWORD _GetModuleFileName(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 

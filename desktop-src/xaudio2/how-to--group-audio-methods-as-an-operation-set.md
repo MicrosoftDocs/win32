@@ -1,5 +1,5 @@
 ---
-Description: This topic shows you how you can group together XAudio2 methods so they take effect at the same time.
+description: This topic shows you how you can group together XAudio2 methods so they take effect at the same time.
 ms.assetid: 1b50acc5-a6b2-e010-9e7e-0080a5ee4a58
 title: 'How to: Group Audio Methods as an Operation Set'
 ms.topic: article

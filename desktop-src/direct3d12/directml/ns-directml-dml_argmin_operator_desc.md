@@ -50,7 +50,7 @@ Outputs the indices of the minimum-valued elements within one or more dimensions
 Each output element is the result of applying an *argmin* reduction on a subset of the input tensor. The *argmin* function outputs the index of the minimum-valued element within a set of input elements. The input elements involved in each reduction are determined by the provided input axes. Similarly, each output index is with respect to the provided input axes. If all input axes are specified, then the operator applies a single *argmin* reduction, and produces a single output element.
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -83,13 +83,13 @@ The tensor to write the results to. Each output element is the result of an *arg
 
 `AxisCount`
 
-Type: **[UINT](/windows/desktop/WinProg/windows-data-types)**
+Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
 The number of axes to reduce. This field determines the size of the *Axes* array.
 
 `Axes`
 
-Type: \_Field_size\_(AxisCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***
+Type: \_Field_size\_(AxisCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***
 
 The axes along which to reduce. Values must be in the range `[0, InputTensor.DimensionCount - 1]`.
 

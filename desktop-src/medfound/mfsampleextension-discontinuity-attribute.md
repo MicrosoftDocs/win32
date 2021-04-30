@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a media sample is the first sample after a gap in the stream.
+description: Specifies whether a media sample is the first sample after a gap in the stream.
 ms.assetid: f9e1e700-9958-404d-8b83-08f846f5a1b0
 title: MFSampleExtension_Discontinuity attribute (Mfapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

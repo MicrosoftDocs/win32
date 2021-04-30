@@ -1,5 +1,5 @@
 ---
-Description: Specifies the intended lighting conditions for viewing the input video.
+description: Specifies the intended lighting conditions for viewing the input video.
 ms.assetid: 718a6d56-c869-4340-bbb8-cac5b231c37e
 title: AVEncVideoInputColorLighting property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncVideoColorLighting**](/wi
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

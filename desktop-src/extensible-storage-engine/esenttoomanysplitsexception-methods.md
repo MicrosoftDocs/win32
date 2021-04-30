@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySplitsException methods"
 title: EsentTooManySplitsException methods
 TOCTitle: EsentTooManySplitsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManySplitsException

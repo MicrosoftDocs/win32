@@ -1,5 +1,5 @@
 ---
-Description: The server sends the client a reference to their shared security context using the opaque directive of the Digest challenge.
+description: The server sends the client a reference to their shared security context using the opaque directive of the Digest challenge.
 ms.assetid: 543c4bed-b224-4da7-9746-12c9993a40af
 title: Authenticating Subsequent Requests with Microsoft Digest
 ms.topic: article

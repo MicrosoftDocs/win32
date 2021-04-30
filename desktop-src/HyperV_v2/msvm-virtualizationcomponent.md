@@ -1,5 +1,5 @@
 ---
-Description: Represents a service of the Microsoft Windows Hyper-V platform.
+description: Represents a service of the Microsoft Windows Hyper-V platform.
 ms.assetid: 309EFE4C-EEA4-454C-943D-CBF99D64FE15
 title: Msvm_VirtualizationComponent class
 ms.topic: reference
@@ -116,7 +116,7 @@ Access to the **Msvm\_VirtualizationComponent** class might be restricted by UAC
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

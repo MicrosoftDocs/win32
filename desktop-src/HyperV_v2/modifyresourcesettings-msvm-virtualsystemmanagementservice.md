@@ -1,5 +1,5 @@
 ---
-Description: Modifies virtual resource settings.
+description: ModifyResourceSettings method of the Msvm_VirtualSystemManagementService class - Modifies virtual resource settings.
 ms.assetid: 3fb2a65f-9f40-4eb9-99e8-8fe1451427d9
 title: ModifyResourceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -100,7 +100,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

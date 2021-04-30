@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentConsistentTimeMismatchException members"
 title: EsentConsistentTimeMismatchException members
 TOCTitle: EsentConsistentTimeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException

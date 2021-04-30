@@ -1,5 +1,5 @@
 ---
-Description: A collection of PolicyInformation objects.
+description: A collection of PolicyInformation objects.
 ms.assetid: 2abdd070-82ae-47fd-afbc-6d4361e5a3f1
 title: CertificatePolicies object
 ms.topic: reference
@@ -59,7 +59,7 @@ The **CertificatePolicies** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

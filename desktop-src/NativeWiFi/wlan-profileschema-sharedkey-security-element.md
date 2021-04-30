@@ -1,5 +1,5 @@
 ---
-Description: Contains shared key information.
+description: Contains shared key information.
 ms.assetid: 9f401441-256c-4702-9503-f87b2b9cf0ee
 title: sharedKey (security) Element
 ms.topic: reference
@@ -83,7 +83,7 @@ To view sample profiles that use the **sharedKey** element, see [Non-Broadcast P
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

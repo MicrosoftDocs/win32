@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOFailException constructor"
 title: EsentFileIOFailException constructor 
 TOCTitle: 'EsentFileIOFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOFailException.#ctor

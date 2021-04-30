@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings RdpdrClipPasteInfoString property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings RdpdrClipPasteInfoString property
 ms.assetid: 1ee39a2d-1d99-4052-8d47-ee6f46cacefd
 ms.tgt_platform: multiple
 keywords:
@@ -89,7 +89,7 @@ Returns **S\_FALSE**.
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the node address (Nad) to use with the ISCardCmd interface.
+description: Specifies the node address (Nad) to use with the ISCardCmd interface.
 ms.assetid: 49de8264-9491-41a4-a8e0-68d0db088ded
 title: ISCardCmd::put_Nad method (Scarddat.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

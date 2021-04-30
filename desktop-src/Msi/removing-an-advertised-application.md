@@ -1,5 +1,5 @@
 ---
-Description: To remove an application that has been installed in the advertised state, simply uninstall it using MsiInstallProduct or MsiConfigureProduct. You can also remove an advertised application from the command line. See Command Line Options.
+description: To remove an application that has been installed in the advertised state, simply uninstall it using MsiInstallProduct or MsiConfigureProduct. You can also remove an advertised application from the command line. See Command Line Options.
 ms.assetid: 979928fc-d95b-4c4e-88bd-aa16fbced736
 title: Removing an Advertised Application
 ms.topic: article

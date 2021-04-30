@@ -1,5 +1,5 @@
 ---
-Description: Sent by the default context menu implementation during creation, specifying the default menu command and allowing an alternate choice to be made. Used by LPFNDFMCALLBACK.
+description: Sent by the default context menu implementation during creation, specifying the default menu command and allowing an alternate choice to be made. Used by LPFNDFMCALLBACK.
 title: DFM_GETDEFSTATICID message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -63,7 +63,7 @@ This message is sent to either the callback function or the callback object depe
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

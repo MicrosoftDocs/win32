@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the stylus tip contacts the digitizing tablet surface.
+description: Occurs when the stylus tip contacts the digitizing tablet surface.
 ms.assetid: 7f4a441d-00d2-4120-8a8d-d3496cdc7e58
 title: ITabletEventSink::CursorDown method
 ms.topic: reference
@@ -93,7 +93,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

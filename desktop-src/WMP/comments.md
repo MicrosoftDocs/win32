@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Comments
+# Comments (Msfeeds.h)
 
 Add comments to metafiles by following Extensible Markup Language (XML) syntax. Comments begin with "&lt;!--" and end with "--&gt;".
 
@@ -55,7 +55,7 @@ Comments can appear anywhere except within element content (between element open
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Msfeeds.h</dt> </dl> |
 

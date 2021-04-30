@@ -1,5 +1,5 @@
 ---
-Description: Pointer to a critical section.
+description: Pointer to a critical section.
 ms.assetid: 7d949b7f-a6a7-4ab5-b651-f85b70d55065
 title: CBaseMediaFilter::m_pLock member (Amfilter.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The critical section is held during state transitions ([**CBaseMediaFilter::Run*
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

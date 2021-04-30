@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Media.EncodedBy
 ms.assetid: 04bcdc5a-ba44-4b9c-ae87-fee50250d18b
 title: System.Media.EncodedBy
 ms.topic: article

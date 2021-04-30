@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Controls
+# Controls (Windows Ribbon Framework)
 
 Reference documentation for control markup elements in the Windows Ribbon framework.
 

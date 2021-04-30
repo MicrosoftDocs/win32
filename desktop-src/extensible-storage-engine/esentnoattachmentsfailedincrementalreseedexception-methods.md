@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoAttachmentsFailedIncrementalReseedException methods"
 title: EsentNoAttachmentsFailedIncrementalReseedException methods
 TOCTitle: EsentNoAttachmentsFailedIncrementalReseedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException

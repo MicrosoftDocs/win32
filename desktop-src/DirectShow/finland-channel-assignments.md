@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the frequency tables used for analog TV tuning for Finland.
+description: This topic lists the frequency tables used for analog TV tuning for Finland.
 ms.assetid: 092e8411-8ca4-4535-99d1-3db4bec5b03b
 title: Finland Channel Assignments
 ms.topic: article

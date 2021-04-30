@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SetIndexRangeGrbit enumeration"
 title: SetIndexRangeGrbit enumeration
 TOCTitle: SetIndexRangeGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetIndexRangeGrbit

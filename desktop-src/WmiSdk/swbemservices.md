@@ -1,5 +1,5 @@
 ---
-Description: You can use the methods of an SWbemServices object to perform operations against a namespace on either a local host or a remote host. This object cannot be created by the VBScript CreateObject call.
+description: You can use the methods of an SWbemServices object to perform operations against a namespace on either a local host or a remote host. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: 7fcfa404-2fe6-42e5-85ac-64536f6d2a44
 ms.tgt_platform: multiple
 title: SWbemServices object (Wbemdisp.h)
@@ -113,7 +113,7 @@ The methods most often used in system administration scripts are [**InstancesOf*
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

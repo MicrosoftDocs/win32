@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for the registry create and modify registry keys and values. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for the registry create and modify registry keys and values. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 0785189e-9638-4776-8414-1414d7b02524
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Registry'

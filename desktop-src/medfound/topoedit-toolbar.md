@@ -1,5 +1,5 @@
 ---
-Description: TopoEdit Toolbar
+description: TopoEdit Toolbar
 ms.assetid: d1bb1e07-5f9f-4161-ae0d-5a61990eaccd
 title: TopoEdit Toolbar
 ms.topic: article

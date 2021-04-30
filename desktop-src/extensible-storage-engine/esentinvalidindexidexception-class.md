@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidIndexIdException class"
 title: EsentInvalidIndexIdException class
 TOCTitle: EsentInvalidIndexIdException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidIndexIdException

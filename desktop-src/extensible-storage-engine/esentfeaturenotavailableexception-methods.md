@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFeatureNotAvailableException methods"
 title: EsentFeatureNotAvailableException methods
 TOCTitle: EsentFeatureNotAvailableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException

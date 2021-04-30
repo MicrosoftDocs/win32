@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.MaxInstances property"
 title: SystemParameters.MaxInstances property 
 TOCTitle: 'MaxInstances property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.MaxInstances

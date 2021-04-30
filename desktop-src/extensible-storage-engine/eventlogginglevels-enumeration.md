@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EventLoggingLevels enumeration"
 title: EventLoggingLevels enumeration
 TOCTitle: EventLoggingLevels enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EventLoggingLevels

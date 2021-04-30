@@ -1,5 +1,5 @@
 ---
-Description: This section contains the complete code for the tutorial Audio/Video Playback in DirectShow.
+description: This section contains the complete code for the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: a96474d9-8258-4c5d-b339-48fe167bd615
 title: DirectShow Playback Example
 ms.topic: article

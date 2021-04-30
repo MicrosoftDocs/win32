@@ -1,5 +1,5 @@
 ---
-Description: The GetCaptureCommentFromFilename function extracts the capture comment from a capture file.
+description: The GetCaptureCommentFromFilename function extracts the capture comment from a capture file.
 ms.assetid: d3665cb0-d54d-45f7-aef9-c2e603d6f773
 title: GetCaptureCommentFromFilename function (Netmon.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ To retrieve the comment of a real-time capture, call the [GetCaptureComment](get
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

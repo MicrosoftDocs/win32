@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetReadFileInstance method"
 title: Api.JetReadFileInstance method 
 TOCTitle: 'JetReadFileInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetReadFileInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_HANDLE,System.Byte[],System.Int32,System.Int32@)

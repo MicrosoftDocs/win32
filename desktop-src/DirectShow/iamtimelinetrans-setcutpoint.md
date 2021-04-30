@@ -1,5 +1,5 @@
 ---
-Description: The SetCutPoint method sets the time at which the transition cuts from one source to the next, if the transition is rendered as a cut.
+description: The SetCutPoint method sets the time at which the transition cuts from one source to the next, if the transition is rendered as a cut.
 ms.assetid: 2660f4a8-e249-45d7-8866-02a9f2ef52b8
 title: IAMTimelineTrans::SetCutPoint method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ By default, the cut-point is the middle of the transition. For example, in a tra
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

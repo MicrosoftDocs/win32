@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileIOException methods"
 title: EsentSLVFileIOException methods
 TOCTitle: EsentSLVFileIOException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileIOException

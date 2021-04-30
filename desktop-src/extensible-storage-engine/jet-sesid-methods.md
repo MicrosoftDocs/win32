@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID methods"
 title: JET_SESID methods
 TOCTitle: JET_SESID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SESID

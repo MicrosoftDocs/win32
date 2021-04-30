@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Init method"
 title: Instance.Init method 
 TOCTitle: 'Init method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init

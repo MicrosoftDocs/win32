@@ -1,5 +1,5 @@
 ---
-Description: Contains information about the drive selected in the active File Manager window (the directory window or the Search Results window).
+description: Contains information about the drive selected in the active File Manager window (the directory window or the Search Results window).
 title: FMS_GETDRIVEINFO structure (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -107,7 +107,7 @@ The null-terminated name of the network resource (if the drive is being accessed
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

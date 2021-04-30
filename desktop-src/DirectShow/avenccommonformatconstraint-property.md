@@ -1,5 +1,5 @@
 ---
-Description: Specifies the target format for an encoder.
+description: Specifies the target format for an encoder.
 ms.assetid: 3d316561-352f-44f9-9978-01301a68e7b6
 title: AVEncCommonFormatConstraint property (Codecapi.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Applications can set this property to specify the target format. Encoders can al
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

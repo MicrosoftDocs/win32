@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDataSequenceException members"
 title: EsentInvalidLogDataSequenceException members
 TOCTitle: EsentInvalidLogDataSequenceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException

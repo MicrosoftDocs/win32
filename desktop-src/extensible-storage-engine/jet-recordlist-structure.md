@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST Structure"
 title: JET_RECORDLIST Structure
 TOCTitle: JET_RECORDLIST Structure
 ms:assetid: 6b4d97a0-4b42-4f7c-bb18-b6db3c92668a

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSNotSetException constructor"
 title: EsentLSNotSetException constructor 
 TOCTitle: 'EsentLSNotSetException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLSNotSetException.#ctor

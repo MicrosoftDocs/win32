@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Transaction properties"
 title: Transaction properties
 TOCTitle: Transaction properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Transaction

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE methods"
 title: JET_HANDLE methods
 TOCTitle: JET_HANDLE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_HANDLE

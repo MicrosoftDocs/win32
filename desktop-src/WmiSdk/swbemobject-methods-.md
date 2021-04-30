@@ -1,5 +1,5 @@
 ---
-Description: The Methods\_ property of the SWbemObject object returns an SWbemMethodSet object that is a collection of the methods for the current class or instance. This property is read-only.
+description: The Methods\_ property of the SWbemObject object returns an SWbemMethodSet object that is a collection of the methods for the current class or instance. This property is read-only.
 ms.assetid: ef9abced-5126-4698-b01e-f3e9c871162f
 ms.tgt_platform: multiple
 title: SWbemObject.Methods_ property (Wbemdisp.h)
@@ -64,7 +64,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The get\_OutputStreams method retrieves the number of audio and video streams contained in the media source. Any other stream types, such as data streams, are ignored.
+description: The get\_OutputStreams method retrieves the number of audio and video streams contained in the media source. Any other stream types, such as data streams, are ignored.
 ms.assetid: 9acd0a1e-c968-4c3b-a71a-b6aa2219a8cd
 title: IMediaDet::get_OutputStreams method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Before calling this method, call [**IMediaDet::put\_Filename**](imediadet-put-fi
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

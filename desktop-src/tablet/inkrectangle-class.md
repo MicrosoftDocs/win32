@@ -1,5 +1,5 @@
 ---
-Description: Represents access to a rectangle.
+description: Represents access to a rectangle.
 ms.assetid: 78e6c29c-0f43-46a5-9d30-948de5f369c8
 title: InkRectangle class (Msinkaut.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ This object can be instantiated by calling the [**CoCreateInstance**](/windows/d
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

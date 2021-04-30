@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotDeletedException members"
 title: EsentRecordNotDeletedException members
 TOCTitle: EsentRecordNotDeletedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecordNotDeletedException

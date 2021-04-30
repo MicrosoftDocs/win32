@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchException members"
 title: EsentLogSectorSizeMismatchException members
 TOCTitle: EsentLogSectorSizeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException

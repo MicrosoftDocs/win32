@@ -51,7 +51,7 @@ Note that, in cases where a white level adjustment is not needed by the applicat
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 10, version 1809 (10.0; Build 17763) \[desktop apps \| UWP apps\] |
 | Header | d2d1effects\_2.h |

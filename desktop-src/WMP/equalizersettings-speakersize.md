@@ -48,7 +48,7 @@ This attribute is ignored if **enhancedAudio** is set to false.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

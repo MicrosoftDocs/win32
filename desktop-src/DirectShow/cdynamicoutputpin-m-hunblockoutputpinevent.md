@@ -1,5 +1,5 @@
 ---
-Description: Event that is signaled when the pin is not blocked.
+description: Event that is signaled when the pin is not blocked.
 ms.assetid: c05670e1-e9fe-4cb1-917f-6f75d25cde1b
 title: CDynamicOutputPin::m_hUnblockOutputPinEvent member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ HANDLE m_hUnblockOutputPinEvent;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

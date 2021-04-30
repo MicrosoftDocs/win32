@@ -1,5 +1,5 @@
 ---
-Description: Wilogutl.exe assists the analysis of log files from a Windows Installer installation, and it displays suggested solutions to errors that are found in a log file.
+description: Wilogutl.exe assists the analysis of log files from a Windows Installer installation, and it displays suggested solutions to errors that are found in a log file.
 ms.assetid: 09aa03ba-992f-47ab-999b-ebdfe85c1ea7
 title: Wilogutl.exe
 ms.topic: article

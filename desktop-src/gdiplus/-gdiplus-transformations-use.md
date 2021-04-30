@@ -1,5 +1,5 @@
 ---
-Description: Affine transformations include rotating, scaling, reflecting, shearing, and translating. In Windows GDI+, the Matrix class provides the foundation for performing affine transformations on vector drawings, images, and text.
+description: Affine transformations include rotating, scaling, reflecting, shearing, and translating. In Windows GDI+, the Matrix class provides the foundation for performing affine transformations on vector drawings, images, and text.
 ms.assetid: 4acf3d70-f119-4a5b-a20d-8adea453556f
 title: Transformations
 ms.topic: article

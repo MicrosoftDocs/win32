@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionInUseException members"
 title: EsentSessionInUseException members
 TOCTitle: EsentSessionInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionInUseException

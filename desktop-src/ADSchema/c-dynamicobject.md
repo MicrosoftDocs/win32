@@ -22,7 +22,7 @@ This class, if present in an entry, indicates that this entry has a limited life
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Dynamic-Object                       |
 | Ldap-Display-Name | dynamicObject                        |
@@ -47,7 +47,7 @@ This class, if present in an entry, indicates that this entry has a limited life
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 3                                                                                            |
@@ -174,7 +174,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                 |
+| Entry | Value |
 |-----------------------------|---------------------------------|
 | System-Only                 | False                           |
 | Object-Category             | 3                               |
@@ -284,7 +284,7 @@ This class contains the following attributes for ADAM:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 3                                                                                            |
@@ -414,7 +414,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 3                                                                                            |
@@ -555,7 +555,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 3                                                                                            |
@@ -703,7 +703,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 3                                                                                            |

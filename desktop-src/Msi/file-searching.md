@@ -1,5 +1,5 @@
 ---
-Description: During installation, there is often the need to search for a specific file.
+description: During installation, there is often the need to search for a specific file.
 ms.assetid: cfcd7cdb-7547-45f4-bf11-c9f0edc4f7bf
 title: File Searching
 ms.topic: article

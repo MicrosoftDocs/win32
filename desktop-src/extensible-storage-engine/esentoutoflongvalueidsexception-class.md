@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfLongValueIDsException class"
 title: EsentOutOfLongValueIDsException class
 TOCTitle: EsentOutOfLongValueIDsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfLongValueIDsException

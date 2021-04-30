@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNoChunkException members"
 title: EsentColumnNoChunkException members
 TOCTitle: EsentColumnNoChunkException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnNoChunkException

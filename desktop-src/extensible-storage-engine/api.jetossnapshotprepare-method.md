@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetOSSnapshotPrepare method"
 title: Api.JetOSSnapshotPrepare method 
 TOCTitle: 'JetOSSnapshotPrepare method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOSSnapshotPrepare(Microsoft.Isam.Esent.Interop.JET_OSSNAPID@,Microsoft.Isam.Esent.Interop.SnapshotPrepareGrbit)

@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used with fonts and text.
+description: The following structures are used with fonts and text.
 ms.assetid: 93726d5c-d4ed-4681-bf45-cb899f195b5d
 title: Font and Text Structures
 ms.topic: article

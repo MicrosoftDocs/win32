@@ -1,5 +1,5 @@
 ---
-Description: This section contains an alphabetic list of the TUISPI line device functions.
+description: This section contains an alphabetic list of the TUISPI line device functions.
 ms.assetid: 6da27dd4-abe6-4a0d-90b0-0d0ee4f0c2db
 title: TUISPI Line Device Functions
 ms.topic: article

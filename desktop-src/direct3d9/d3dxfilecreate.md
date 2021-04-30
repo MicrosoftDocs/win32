@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of an ID3DXFile object.
+description: Creates an instance of an ID3DXFile object.
 ms.assetid: c086cb66-b1dc-4180-b966-e9a3b1f36f22
 title: D3DXFileCreate function (D3DX9Xof.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ After using this function, use [**RegisterTemplates**](id3dxfile--registertempla
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

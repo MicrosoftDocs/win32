@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.IsUtc property"
 title: JET_BKLOGTIME.IsUtc property 
 TOCTitle: 'IsUtc property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.IsUtc

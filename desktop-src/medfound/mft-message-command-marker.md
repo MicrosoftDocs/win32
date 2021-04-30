@@ -1,5 +1,5 @@
 ---
-Description: Marks a point in the stream. This message applies only to Asynchronous MFTs.
+description: Marks a point in the stream. This message applies only to Asynchronous MFTs.
 ms.assetid: eae1d066-64af-45e2-b8bb-eddf9147ad8b
 title: MFT_MESSAGE_COMMAND_MARKER (Mftransform.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ Asynchronous MFTs must respond to this message as described. Synchronous MFTs sh
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                  |

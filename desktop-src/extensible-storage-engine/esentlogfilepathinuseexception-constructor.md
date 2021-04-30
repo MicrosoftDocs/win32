@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFilePathInUseException constructor"
 title: EsentLogFilePathInUseException constructor 
 TOCTitle: 'EsentLogFilePathInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogFilePathInUseException.#ctor

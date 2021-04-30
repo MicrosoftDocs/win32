@@ -1,5 +1,5 @@
 ---
-Description: Specifies the method to use for motion matching.
+description: Specifies the method to use for motion matching.
 ms.assetid: 75bbc189-3092-4813-9f45-54e8e48b05cd
 title: MFPKEY_MOTIONMATCHMETHOD Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The sum of absolute differences (SAD) is a faster but less accurate method than 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

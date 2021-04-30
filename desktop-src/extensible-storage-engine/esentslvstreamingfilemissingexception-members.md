@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileMissingException members"
 title: EsentSLVStreamingFileMissingException members
 TOCTitle: EsentSLVStreamingFileMissingException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileMissingException

@@ -1,5 +1,5 @@
 ---
-Description: An SWbemObjectSet object is a collection of SWbemObject objects. For more information, see Accessing a Collection. This object cannot be created by the VBScript CreateObject call.
+description: An SWbemObjectSet object is a collection of SWbemObject objects. For more information, see Accessing a Collection. This object cannot be created by the VBScript CreateObject call.
 ms.assetid: 00f5317e-eb8e-42f9-bada-963e11aadda4
 ms.tgt_platform: multiple
 title: SWbemObjectSet object (Wbemdisp.h)
@@ -164,7 +164,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

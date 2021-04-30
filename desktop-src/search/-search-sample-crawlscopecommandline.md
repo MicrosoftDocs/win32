@@ -1,5 +1,5 @@
 ---
-Description: The CrawlScopeCommandLine code sample demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
+description: The CrawlScopeCommandLine code sample demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
 ms.assetid: 8c82fe18-8676-43d2-a3da-027a733ee0a4
 title: CrawlScopeCommandLine
 ms.topic: article

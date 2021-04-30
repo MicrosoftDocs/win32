@@ -1,5 +1,5 @@
 ---
-Description: If an application does not want any interference by outside events for a session from TAPI or the service provider, it should secure the call.
+description: If an application does not want any interference by outside events for a session from TAPI or the service provider, it should secure the call.
 ms.assetid: 0a3be209-e3ff-4177-abb2-ad0facbdf569
 title: Secure a Session
 ms.topic: article

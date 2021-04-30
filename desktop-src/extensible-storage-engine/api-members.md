@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api members"
 title: Api members
 TOCTitle: Api members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Api

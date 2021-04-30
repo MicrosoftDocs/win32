@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Api class"
 title: Windows7Api class (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Api class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api

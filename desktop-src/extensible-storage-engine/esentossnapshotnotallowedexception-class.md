@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotNotAllowedException class"
 title: EsentOSSnapshotNotAllowedException class
 TOCTitle: EsentOSSnapshotNotAllowedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException

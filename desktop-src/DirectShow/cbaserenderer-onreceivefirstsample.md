@@ -1,5 +1,5 @@
 ---
-Description: The OnReceiveFirstSample method is called when the filter receives a sample while paused.
+description: The OnReceiveFirstSample method is called when the filter receives a sample while paused.
 ms.assetid: 5bd481bf-a62d-4d3c-b875-b94298d12730
 title: CBaseRenderer.OnReceiveFirstSample method (Renbase.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Seeking the graph while paused also causes this method to be called.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

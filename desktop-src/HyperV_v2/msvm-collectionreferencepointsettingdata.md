@@ -1,5 +1,5 @@
 ---
-Description: Provides additional information to be used with the CreateReferencePoint method of the Msvm\_CollectionReferencePointService class.
+description: Provides additional information to be used with the CreateReferencePoint method of the Msvm\_CollectionReferencePointService class.
 ms.assetid: abf7953a-e10e-4dab-962f-a7dde5126fbe
 title: Msvm_CollectionReferencePointSettingData class
 ms.topic: reference
@@ -92,7 +92,7 @@ The reference point indicates a point in time when the virtual system was in app
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

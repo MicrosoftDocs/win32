@@ -1,5 +1,5 @@
 ---
-Description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+description: The Next method gets the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: bd94f592-ac6f-48b7-8190-352a5e18f224
 title: IEnumParticipant::Next method (Confpriv.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ TAPI calls the [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The Feature Table defines the logical tree structure of features and contains the columns shown in the following table.
+description: The Feature Table defines the logical tree structure of features and contains the columns shown in the following table.
 ms.assetid: 1faee1d5-6e39-43ea-bf92-a0b3986a13a1
 title: Feature Table
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Shared resource constants.
+description: Shared resource constants.
 ms.assetid: 91FD9AAC-D13F-499E-BC17-73F5D5E2FE91
 title: DXGI_SHARED_RESOURCE_RW (Dxgi1\_2.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ Shared resource constants.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dxgi1\_2.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The Set method signals the event.
+description: The Set method signals the event.
 ms.assetid: dfcb1601-aa65-47f5-ae3c-f13fcd7b1398
 title: CAMEvent.Set method (Wxutil.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ The behavior depends on whether the object is an auto-reset event or a manual-re
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

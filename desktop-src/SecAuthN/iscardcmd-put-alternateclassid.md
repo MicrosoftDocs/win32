@@ -1,5 +1,5 @@
 ---
-Description: Specifies a new alternate class identifier in the application protocol data unit (APDU).
+description: Specifies a new alternate class identifier in the application protocol data unit (APDU).
 ms.assetid: 45a49699-41ce-439c-b896-e663a290b188
 title: ISCardCmd::put_AlternateClassId method (Scarddat.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

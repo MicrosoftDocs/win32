@@ -1,5 +1,5 @@
 ---
-Description: Contains network statistics for the network source.
+description: Contains network statistics for the network source.
 ms.assetid: 1948481b-febd-434b-a5dc-faef592ea0ed
 title: MFNETSOURCE_STATISTICS Property (Mfidl.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The constant MFNETSOURCE\_STATISTICS defines a GUID that is used in conjunction 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

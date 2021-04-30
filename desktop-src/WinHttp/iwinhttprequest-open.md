@@ -1,5 +1,5 @@
 ---
-Description: Opens an HTTP connection to an HTTP resource.
+description: Opens an HTTP connection to an HTTP resource.
 ms.assetid: 5207e873-44c0-4eeb-9db8-d8b69432070c
 title: IWinHttpRequest::Open method
 ms.topic: reference
@@ -204,7 +204,7 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

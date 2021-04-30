@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.dwMinorVersion property"
 title: JET_DBINFOMISC.dwMinorVersion property 
 TOCTitle: 'dwMinorVersion property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.dwMinorVersion

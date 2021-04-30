@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustBeSeparateLongValueException constructor"
 title: EsentMustBeSeparateLongValueException constructor 
 TOCTitle: 'EsentMustBeSeparateLongValueException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMustBeSeparateLongValueException.#ctor

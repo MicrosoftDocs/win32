@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackNotResolvedException properties"
 title: EsentCallbackNotResolvedException properties
 TOCTitle: EsentCallbackNotResolvedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCallbackNotResolvedException

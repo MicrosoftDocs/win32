@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDoesNotFitException members"
 title: EsentColumnDoesNotFitException members
 TOCTitle: EsentColumnDoesNotFitException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnDoesNotFitException

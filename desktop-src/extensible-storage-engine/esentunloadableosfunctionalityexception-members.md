@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnloadableOSFunctionalityException members"
 title: EsentUnloadableOSFunctionalityException members
 TOCTitle: EsentUnloadableOSFunctionalityException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException

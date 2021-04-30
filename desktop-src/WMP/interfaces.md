@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# WMP SDK Interfaces
 
 This section documents the COM interfaces exposed by the Windows Media Player ActiveX control and the Windows Media Player Mobile ActiveX control.
 

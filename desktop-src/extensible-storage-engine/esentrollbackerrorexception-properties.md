@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRollbackErrorException properties"
 title: EsentRollbackErrorException properties
 TOCTitle: EsentRollbackErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRollbackErrorException

@@ -1,6 +1,6 @@
 ---
 title: TemplateListType Complex Type
-description: Defines a list of templates that specify the data to include with the events.
+description: Defines a list of templates that specify the data to include with the events. | TemplateListType Complex Type
 ms.assetid: 7f676746-6773-4ae2-8330-60d432c29e3a
 keywords:
 - TemplateListType complex type EventLog
@@ -45,7 +45,7 @@ Defines a list of templates that specify the data to include with the events.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

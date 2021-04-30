@@ -3,6 +3,7 @@ Description: The KNOWNFOLDERID constants represent GUIDs that identify standard 
 ms.assetid: f2c08ade-3083-44e4-82b0-dde45f0e3094
 title: KNOWNFOLDERID (Knownfolders.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 
@@ -4901,7 +4902,7 @@ Note that some paths have changed for Windows Vista.
 ## Requirements
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Knownfolders.h</dt> </dl> |
 

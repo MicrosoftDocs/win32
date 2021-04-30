@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Creating Databases"
 title: Creating Databases
 TOCTitle: Creating Databases
 ms:assetid: d221144d-f777-4f8a-80ca-2ebdb77108dc

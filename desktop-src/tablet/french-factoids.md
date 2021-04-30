@@ -1,5 +1,5 @@
 ---
-Description: The following table lists formats that are available for each factoid used in French.
+description: The following table lists formats that are available for each factoid used in French.
 ms.assetid: c4fef6b9-b770-4e2d-a8f2-634206dccb2e
 title: French Factoids
 ms.topic: article

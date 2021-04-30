@@ -1,12 +1,12 @@
 ---
-Description: Just as an application requires a display device context (DC) before it can begin drawing in the client area of a window, it needs a printer DC before it can begin sending output to a printer.
+description: Just as an application requires a display device context (DC) before it can begin drawing in the client area of a window, it needs a printer DC before it can begin sending output to a printer.
 ms.assetid: 5bdcec28-e28d-402d-8d80-e8aa5ecb4e74
 title: Printer Device Contexts (Documents and Printing)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Printer Device Contexts
+# Printer Device Contexts (Documents and Printing)
 
 Just as an application requires a display device context (DC) before it can begin drawing in the client area of a window, it needs a printer DC before it can begin sending output to a printer. A printer DC is similar to a display DC in that it is an internal data structure that defines a set of graphic objects and their associated attributes and specifies the graphic modes that affect output. The graphic objects include a pen for line drawing, a brush for painting and filling, and a font for text output.
 

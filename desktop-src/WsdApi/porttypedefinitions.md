@@ -1,5 +1,5 @@
 ---
-Description: Generates C constants for port types.
+description: Generates C constants for port types.
 ms.assetid: 6ad0d163-df51-48b6-aad7-a4b018688872
 title: portTypeDefinitions element
 ms.topic: reference
@@ -66,7 +66,7 @@ This element is generally used in C source files to provide the port type consta
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

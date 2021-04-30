@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Timing
+# Timing (Windows Multimedia)
 
 As part of debugging an application, you can obtain information about the amount of time required to complete repetitive DrawDib operations. The [**DrawDibTime**](/windows/desktop/api/Vfw/nf-vfw-drawdibtime) function returns timing information for the following operations:
 

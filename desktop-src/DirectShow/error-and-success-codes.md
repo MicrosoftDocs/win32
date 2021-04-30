@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the HRESULT return codes that are defined for DirectShow.
+description: This topic lists the HRESULT return codes that are defined for DirectShow.
 ms.assetid: 369c2bd1-9c11-4524-b999-6a3b73c45261
 title: DirectShow Error and Success Codes (Vfwmsgs.h)
 ms.topic: reference
@@ -193,7 +193,7 @@ In addition to the values listed previously, DirectShow Editing Services defines
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Vfwmsgs.h</dt> </dl> |
 

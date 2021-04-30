@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST.columnidcRecord property"
 title: JET_OBJECTLIST.columnidcRecord property 
 TOCTitle: 'columnidcRecord property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTLIST.columnidcRecord

@@ -1,5 +1,5 @@
 ---
-Description: The GetMuted method retrieves the object's muted state.
+description: The GetMuted method retrieves the object's muted state.
 ms.assetid: e901af1f-1137-4708-a98b-c9f83edc5ab9
 title: IAMTimelineObj::GetMuted method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If an object's parent is muted, the object is muted regardless of its muted stat
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

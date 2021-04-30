@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SystemResource class represents an entity managed by BIOS, or an operating system that is available for use by software and logical devices.
+description: The CIM\_SystemResource class represents an entity managed by BIOS, or an operating system that is available for use by software and logical devices.
 ms.assetid: f232c940-532d-4723-8e1e-09f983664b84
 ms.tgt_platform: multiple
 title: CIM_SystemResource class
@@ -250,7 +250,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

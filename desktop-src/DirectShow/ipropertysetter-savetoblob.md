@@ -1,5 +1,5 @@
 ---
-Description: The SaveToBlob method saves the property data to a persistence format.
+description: The SaveToBlob method saves the property data to a persistence format.
 ms.assetid: 48201192-abda-484e-bdb3-442aca52b2bf
 title: IPropertySetter::SaveToBlob method (Qedit.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ All property names and values are truncated to 40 characters in length. For this
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

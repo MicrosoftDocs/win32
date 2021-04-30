@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table.ToString method"
 title: Table.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Table.ToString

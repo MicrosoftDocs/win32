@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullKeyDisallowedException constructor"
 title: EsentNullKeyDisallowedException constructor 
 TOCTitle: 'EsentNullKeyDisallowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException.#ctor

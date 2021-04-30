@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetBackupInstance method"
 title: Api.JetBackupInstance method 
 TOCTitle: 'JetBackupInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetBackupInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String,Microsoft.Isam.Esent.Interop.BackupGrbit,Microsoft.Isam.Esent.Interop.JET_PFNSTATUS)

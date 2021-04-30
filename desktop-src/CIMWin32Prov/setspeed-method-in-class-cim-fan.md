@@ -1,5 +1,5 @@
 ---
-Description: The SetSpeed method requests that the fan speed be set to the value specified in the method's input parameter.
+description: The SetSpeed method requests that the fan speed be set to the value specified in the method's input parameter.
 ms.assetid: 7dd1cd57-66c5-4b50-9a73-31caf0b824e6
 ms.tgt_platform: multiple
 title: SetSpeed method of the CIM_Fan class
@@ -63,7 +63,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

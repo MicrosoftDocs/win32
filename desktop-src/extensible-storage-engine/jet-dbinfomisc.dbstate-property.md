@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.dbstate property"
 title: JET_DBINFOMISC.dbstate property 
 TOCTitle: 'dbstate property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.dbstate

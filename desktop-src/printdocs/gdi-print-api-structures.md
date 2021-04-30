@@ -1,5 +1,5 @@
 ---
-Description: GDI Print API Structures
+description: GDI Print API Structures
 ms.assetid: 7753a54d-5136-4e46-a5ba-024bcfb961dc
 title: GDI Print API Structures
 ms.topic: article

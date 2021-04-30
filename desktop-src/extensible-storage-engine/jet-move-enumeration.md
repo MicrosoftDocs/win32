@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_Move enumeration"
 title: JET_Move enumeration
 TOCTitle: JET_Move enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_Move

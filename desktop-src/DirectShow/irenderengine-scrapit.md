@@ -1,5 +1,5 @@
 ---
-Description: The ScrapIt method discards the render engine's filter graph and all associated objects.
+description: The ScrapIt method discards the render engine's filter graph and all associated objects.
 ms.assetid: b7470947-a661-4c08-8786-9298e5322e58
 title: IRenderEngine::ScrapIt method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Returns one of the following **HRESULT** values:
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

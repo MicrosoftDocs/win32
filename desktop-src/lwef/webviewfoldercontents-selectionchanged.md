@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.SelectionChanged event (Shldisp.h)
-description: Occurs when the selection state of any item or items in the view has changed.
+description: WebViewFolderContents.SelectionChanged event - Occurs when the selection state of any item or items in the view has changed.
 ms.assetid: 46dfceec-aa81-4950-81e5-526a6e621271
 keywords:
 - SelectionChanged event Legacy Windows Environment Features
@@ -77,7 +77,7 @@ The following example shows the proper usage of this event for JScript embedded 
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

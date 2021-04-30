@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO.Equals method (JET_INSTANCE_INFO)"
 title: JET_INSTANCE_INFO.Equals method (JET_INSTANCE_INFO)
 TOCTitle: Equals method (JET_INSTANCE_INFO)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.Equals(Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO)

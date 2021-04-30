@@ -1,5 +1,5 @@
 ---
-Description: The TakePicture method of the Item object causes a digital camera device to take a picture and returns an Item object that represents the resulting image. This method applies only to digital camera devices.
+description: The TakePicture method of the Item object causes a digital camera device to take a picture and returns an Item object that represents the resulting image. This method applies only to digital camera devices.
 ms.assetid: d181048e-21ef-4fcc-a50a-5ba44bbde72e
 title: Item.TakePicture method (Wiavideo.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ An [**Item**](-wia-item.md) object that represents the image that this method cr
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

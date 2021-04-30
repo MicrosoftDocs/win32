@@ -1,5 +1,5 @@
 ---
-Description: Represents an error in a pipeline stage.
+description: Represents an error in a pipeline stage.
 MS-HAID: vspixengine.PipeLineStageError
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: SDK Samples That Use the Core Audio APIs
+description: SDK Samples That Use the Core Audio APIs
 ms.assetid: 4460df28-a77d-4bf5-9dee-5fb69ba2ded6
 title: SDK Samples That Use the Core Audio APIs
 ms.topic: article

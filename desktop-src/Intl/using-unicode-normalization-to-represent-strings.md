@@ -1,5 +1,5 @@
 ---
-Description: Applications can use Unicode to represent strings in multiple forms.
+description: Applications can use Unicode to represent strings in multiple forms.
 ms.assetid: 027c9ef5-4012-4d1c-b78c-a4d3f1ccbf35
 title: Using Unicode Normalization to Represent Strings
 ms.topic: article

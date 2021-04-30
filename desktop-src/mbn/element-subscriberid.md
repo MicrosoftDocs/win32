@@ -1,5 +1,5 @@
 ---
-Description: SubscriberID
+description: SubscriberID
 MS-HAID: WWAN\_profile\_v4.element\_SubscriberID
 MSHAttr:
 - PreferredSiteName:MSDN

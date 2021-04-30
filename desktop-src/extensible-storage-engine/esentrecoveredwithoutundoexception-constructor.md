@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoException constructor"
 title: EsentRecoveredWithoutUndoException constructor 
 TOCTitle: 'EsentRecoveredWithoutUndoException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException.#ctor

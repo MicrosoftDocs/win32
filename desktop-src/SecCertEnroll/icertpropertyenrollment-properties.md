@@ -1,5 +1,5 @@
 ---
-Description: The ICertPropertyEnrollment interface exposes the following properties.
+description: The ICertPropertyEnrollment interface exposes the following properties.
 ms.assetid: 240971B7-F4DE-48FD-9313-5B7FAFAE927B
 title: ICertPropertyEnrollment Properties
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The LINE\_PROXYSTATUS message is sent when the available proxies change on a line that the application currently has open.
+description: The LINE\_PROXYSTATUS message is sent when the available proxies change on a line that the application currently has open.
 ms.assetid: e20d4b48-a72a-4a83-ae04-a608791a1a3a
 title: LINE_PROXYSTATUS message (Tapi.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ Reserved. Set to zero.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

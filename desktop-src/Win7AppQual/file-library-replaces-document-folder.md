@@ -1,5 +1,5 @@
 ---
-Description: .
+description: File Library Replaces Document Folder
 ms.assetid: 80b97bfc-4212-4401-a4a9-d96e2f39be60
 title: File Library Replaces Document Folder
 ms.topic: article

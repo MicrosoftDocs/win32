@@ -1,5 +1,5 @@
 ---
-Description: Sent immediately before the IME generates the composition string as a result of a keystroke. A window receives this message through its WindowProc function.
+description: Sent immediately before the IME generates the composition string as a result of a keystroke. A window receives this message through its WindowProc function.
 ms.assetid: 2740d009-8685-4f70-9b01-67b71f4ddcbd
 title: WM_IME_STARTCOMPOSITION message (Winuser.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ If an application has created an IME window, it should pass this message to that
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

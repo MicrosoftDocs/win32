@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareElementVersionCheck class exposes the following methods.
+description: The CIM\_SoftwareElementVersionCheck class exposes the following methods.
 ms.assetid: BEAB9093-6188-4BA7-8654-DBEA709E0E5F
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementVersionCheck Methods

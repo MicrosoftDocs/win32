@@ -22,7 +22,7 @@ This is an attribute on service account (computer or user account) objects. It c
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Allowed-To-Delegate-To                |
 | Ldap-Display-Name | msDS-AllowedToDelegateTo                    |
@@ -47,7 +47,7 @@ This is an attribute on service account (computer or user account) objects. It c
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -68,7 +68,7 @@ This is an attribute on service account (computer or user account) objects. It c
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -89,7 +89,7 @@ This is an attribute on service account (computer or user account) objects. It c
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -110,7 +110,7 @@ This is an attribute on service account (computer or user account) objects. It c
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -131,7 +131,7 @@ This is an attribute on service account (computer or user account) objects. It c
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

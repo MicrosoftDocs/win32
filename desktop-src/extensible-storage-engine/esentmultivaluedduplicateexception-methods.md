@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateException methods"
 title: EsentMultiValuedDuplicateException methods
 TOCTitle: EsentMultiValuedDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateException

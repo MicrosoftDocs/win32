@@ -1,5 +1,5 @@
 ---
-Description: Makes a file (EF or DF) that was previously made not valid by using the Invalidate method, accessible by the application.
+description: Makes a file (EF or DF) that was previously made not valid by using the Invalidate method, accessible by the application.
 ms.assetid: 1906fcc5-ae76-4950-b2eb-e5ce1882637f
 title: ISCardFileAccess::Rehabilitate method
 ms.topic: reference
@@ -79,7 +79,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

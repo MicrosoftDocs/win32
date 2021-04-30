@@ -1,5 +1,5 @@
 ---
-Description: Handle to the module instance.
+description: Handle to the module instance.
 ms.assetid: ad889ebe-2bd8-4456-9517-9e2909697a02
 title: CBaseWindow::m_hInstance member (Winutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The DLL entry point function sets a global variable with a handle to the module 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

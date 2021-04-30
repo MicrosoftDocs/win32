@@ -1,6 +1,6 @@
 ---
 title: glGetTexEnvfv function (Gl.h)
-description: The glGetTexEnvfv and glGetTexEnviv functions return texture environment parameters.
+description: The glGetTexEnvfv and glGetTexEnviv functions return texture environment parameters. | glGetTexEnvfv function (Gl.h)
 ms.assetid: aa037494-e227-48f1-8d5e-9f82073dc2ea
 keywords:
 - glGetTexEnvfv function OpenGL
@@ -98,7 +98,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

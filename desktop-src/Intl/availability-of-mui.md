@@ -1,5 +1,5 @@
 ---
-Description: Availability of MUI
+description: Availability of MUI
 ms.assetid: 850c6369-2d49-4f1f-9a26-308a1f101b5a
 title: Availability of MUI
 ms.topic: article

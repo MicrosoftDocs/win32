@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentApiException constructor"
 title: EsentApiException constructor 
 TOCTitle: 'EsentApiException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentApiException.#ctor

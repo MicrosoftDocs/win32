@@ -1,5 +1,5 @@
 ---
-Description: Show sample XML profiles for various wireless configurations.
+description: Show sample XML profiles for various wireless configurations.
 ms.assetid: fa4ad793-3211-4949-9b90-21779a19803f
 title: Wireless Profile Samples
 ms.topic: article

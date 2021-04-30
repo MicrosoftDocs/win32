@@ -1,5 +1,5 @@
 ---
-Description: A string indicating the manufacturer of the flash used to take the picture. Can be blank or not present.
+description: A string indicating the manufacturer of the flash used to take the picture. Can be blank or not present.
 ms.assetid: f95042dc-abc5-4851-9703-5f79dc7edb2f
 title: System.Photo.FlashManufacturer
 ms.topic: article

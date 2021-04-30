@@ -1,5 +1,5 @@
 ---
-Description: The LINEANSWERMODE\_ bit-flag constants describe how an existing active call on a line device is affected by answering another offering call on the same line.
+description: The LINEANSWERMODE\_ bit-flag constants describe how an existing active call on a line device is affected by answering another offering call on the same line.
 ms.assetid: 35f63d92-970f-4fb8-aba9-179fc7de70f4
 title: LINEANSWERMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ If a call comes in (is offered) at the time another call is already active, the 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Enables task completion.
+description: Enables task completion.
 ms.assetid: 323343D6-FC4A-4A5F-B065-DD72B6077F99
 title: TaskCompletionClient interface
 ms.topic: reference
@@ -50,7 +50,7 @@ This API is deprecated and may not be available in future versions of Windows. A
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                           |

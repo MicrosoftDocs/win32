@@ -22,7 +22,7 @@ One key recovery agent (KRA) object instance is created for each installed Cert 
 
 
 
-|                   |                                                                                                                                                                              |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-Key-Recovery-Agent                                                                                                                                                    |
 | Ldap-Display-Name | msPKI-Key-Recovery-Agent                                                                                                                                                     |
@@ -46,7 +46,7 @@ One key recovery agent (KRA) object instance is created for each installed Cert 
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -316,7 +316,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -592,7 +592,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -934,7 +934,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -1286,7 +1286,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

@@ -1,5 +1,5 @@
 ---
-Description: Tiles all of the windows on the desktop vertically. This method has the same effect as right-clicking the taskbar and selecting Tile Windows Vertically.
+description: Tiles all of the windows on the desktop vertically. This method has the same effect as right-clicking the taskbar and selecting Tile Windows Vertically.
 ms.assetid: 7d0f6dbe-b5a6-431b-954f-7ef2c62c68ea
 title: Shell.TileVertically method (Shldisp.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

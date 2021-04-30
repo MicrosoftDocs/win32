@@ -1,5 +1,5 @@
 ---
-Description: For an installation package, the Revision Number Summary property contains the package code for the installer package.
+description: For an installation package, the Revision Number Summary property contains the package code for the installer package.
 ms.assetid: 79702b44-846a-4672-8e22-9b6e3f4b4678
 title: Revision Number Summary property
 ms.topic: reference
@@ -26,7 +26,7 @@ This summary property is required.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

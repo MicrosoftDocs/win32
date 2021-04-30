@@ -1,5 +1,5 @@
 ---
-Description: WSPEventSelect behaves exactly like WSPAsyncSelect except that, rather than cause a Windows message to be sent upon the occurrence of any nominated FD\_XXX network event (for example, FD\_READ, FD\_WRITE, etc.), a designated event object is set.
+description: WSPEventSelect behaves exactly like WSPAsyncSelect except that, rather than cause a Windows message to be sent upon the occurrence of any nominated FD\_XXX network event (for example, FD\_READ, FD\_WRITE, etc.), a designated event object is set.
 ms.assetid: 28f6eb78-1bb8-4eda-aac5-017975890502
 title: Event Object Signaling
 ms.topic: article

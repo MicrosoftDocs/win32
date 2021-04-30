@@ -1,5 +1,5 @@
 ---
-Description: Division Assignment operator.
+description: Division Assignment operator.
 ms.assetid: 59dee8a1-48c5-4748-8eca-1d0939e90fe0
 title: operator /= operators
 ms.topic: reference

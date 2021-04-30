@@ -1,5 +1,5 @@
 ---
-Description: Wi-Fi Direct Services Service Name.
+description: Wi-Fi Direct Services Service Name.
 ms.assetid: e367b682-f2b9-4341-aac7-165ab055bd1e
 title: System.Devices.WiFiDirectServices.ServiceName
 ms.topic: article

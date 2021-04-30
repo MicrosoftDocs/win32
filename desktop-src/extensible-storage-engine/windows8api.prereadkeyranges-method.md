@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.PrereadKeyRanges method"
 title: Windows8Api.PrereadKeyRanges method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'PrereadKeyRanges method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.PrereadKeyRanges(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[][],System.Int32[],System.Byte[][],System.Int32[],System.Int32,System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.JET_COLUMNID[],Microsoft.Isam.Esent.Interop.Windows8.PrereadIndexRangesGrbit)

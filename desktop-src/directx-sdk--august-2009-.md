@@ -1,5 +1,5 @@
 ---
-Description: Starting with Windows 8, the DirectX SDK is included as part of the Windows SDK.
+description: Starting with Windows 8, the DirectX SDK is included as part of the Windows SDK.
 ms.assetid: d8765da9-e7cf-47e8-8bc3-4b29162da41b
 title: Where is the DirectX SDK?
 ms.topic: article
@@ -12,7 +12,7 @@ Starting with Windows 8, the DirectX SDK is included as part of the Windows SDK
 
 We originally created the DirectX SDK as a high-performance platform for game development on top of Windows. As DirectX technologies matured, they became relevant to a broader range of applications. Today, the availability of Direct3D hardware in computers drives even traditional desktop applications to use graphics hardware acceleration. In parallel, DirectX technologies are more integrated with Windows. DirectX is now a fundamental part of Windows.
 
-Because the Windows SDK is the primary developer SDK for Windows, DirectX is now included in it. You can now use the Windows SDK to build great games for Windows. To download the Windows 8 SDK, see [Windows SDK and emulator archive](https://developer.microsoft.com/windows/downloads/sdk-archive).
+Because the Windows SDK is the primary developer SDK for Windows, DirectX is now included in it. You can now use the Windows SDK to build great games for Windows. To download the Windows 8.x SDK or Windows 10 SDK, see [Windows SDK and emulator archive](https://developer.microsoft.com/windows/downloads/sdk-archive).
 
 The following technologies and tools, formerly part of the DirectX SDK, are now part of the Windows SDK.
 
@@ -33,7 +33,7 @@ The following technologies and tools, formerly part of the DirectX SDK, are now 
 <td>The headers and libraries for <a href="/windows/desktop/direct3d">Direct3D</a> and other Windows graphics APIs, like <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a>, are available in the Windows SDK. <br/>
 <blockquote>
 [!Note]<br />
-D3DX is only available for download in previous versions of the DirectX SDK. The D3DCSX DirectCompute utility library is available in the Windows SDK.
+The deprecated D3DX9/D3DX10/D3DX11 utility libraries are available via <a href="https://www.nuget.org/packages/Microsoft.DXSDK.D3DX">NuGet</a>, but there are also a number of <a href="https://walbourn.github.io/living-without-d3dx/">open source alternatives</a>. The D3DCSX DirectCompute utility library and redistributable DLL is available in the Windows SDK. D3DX12 is available on <a href="https://github.com/microsoft/DirectX-Headers">GitHub</a>.
 </blockquote>
 <br/></td>
 </tr>
@@ -42,29 +42,35 @@ D3DX is only available for download in previous versions of the DirectX SDK. The
 <td>The <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> compiler is a tool in the appropriate architecture subdirectory under the bin folder in the Windows SDK.<br/>
 <blockquote>
 [!Note]<br />
-The D3DCompiler API is available in the Windows SDK.
+The D3DCompiler API and redistributable DLL is available in the Windows SDK.
 </blockquote>
+<br/><br/>For DirectX 12 development, use the DXCompiler in the Windows SDK and hosted on [GitHub](https://github.com/Microsoft/DirectXShaderCompiler).
 <br/></td>
 </tr>
 <tr class="odd">
 <td><span id="PIX_for_"></span><span id="pix_for_"></span><span id="PIX_FOR_"></span>PIX for Windows<br/></td>
-<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This new feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> debugging. For more info about this new feature, see <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015">Debugging DirectX Graphics</a>.<br/></td>
+<td>A replacement for the PIX for Windows tool is now a feature in Microsoft Visual Studio, called Visual Studio Graphics Debugger. This feature has greatly improved usability, support for Windows 8, and Direct3D 11.1, and integration with traditional Microsoft Visual Studio features such as call stacks and debugging windows for <a href="/windows/desktop/direct3dhlsl/dx-graphics-hlsl">HLSL</a> debugging. For more info about this new feature, see <a href="/visualstudio/debugger/visual-studio-graphics-diagnostics?view=vs-2015">Debugging DirectX Graphics</a>.<br/><br/>For DirectX 12 development, see the latest generation of <a href="https://devblogs.microsoft.com/pix/">PIX on Windows</a><br/></td>
 </tr>
 <tr class="even">
 <td><span id="XAudio2_for_"></span><span id="xaudio2_for_"></span><span id="XAUDIO2_FOR_"></span><a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> for Windows<br/></td>
-<td>The <a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> API is now a system component in Windows 8. The headers and libraries for XAudio2 are available in the Windows SDK.<br/></td>
+<td>The <a href="/windows/desktop/xaudio2/xaudio2-apis-portal">XAudio2</a> API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XAudio2 are available in the Windows SDK. For Windows 7 support, see <a href="/windows/win32/xaudio2/xaudio2-redistributable">XAudio2Redist</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="XInput_for_"></span><span id="xinput_for_"></span><span id="XINPUT_FOR_"></span><a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> for Windows<br/></td>
-<td>The <a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> API is now a system component in Windows 8. The headers and libraries for XInput are available in the Windows SDK.<br/></td>
+<td>The <a href="/windows/desktop/xinput/xinput-game-controller-apis-portal">XInput</a> 1.4 API is now a system component in Windows 8.x and Windows 10. The headers and libraries for XInput are available in the Windows SDK.<br/>
+<blockquote>
+[!Note]<br />
+Legacy XInput 9.1.0 is also available as part of Windows 7 or later.
+</blockquote>
+<br/></td>
 </tr>
 <tr class="even">
 <td><span id="XNAMATH"></span><span id="xnamath"></span>XNAMATH<br/></td>
-<td>The most recent version of XNAMATH, which is updated for Windows 8, is now <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a>. The headers for DirectXMath are available in the Windows SDK.<br/></td>
+<td>The most recent version of XNAMATH, which is updated for new instruction sets as well as ARM/ARM64, is now <a href="/windows/desktop/dxmath/directxmath-portal">DirectXMath</a>. The headers for DirectXMath are available in the Windows SDK and on <a href="https://github.com/Microsoft/DirectXMath">GitHub</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="DirectX_Control_Panel_and_DirectX_Capabilities_Viewer"></span><span id="directx_control_panel_and_directx_capabilities_viewer"></span><span id="DIRECTX_CONTROL_PANEL_AND_DIRECTX_CAPABILITIES_VIEWER"></span>DirectX Control Panel and DirectX Capabilities Viewer<br/></td>
-<td>The DirectX Control Panel and DirectX Capabilities Viewer utilities are included in the appropriate architecture subdirectory under the bin folder in the Windows SDK.<br/></td>
+<td>The DirectX Control Panel and DirectX Capabilities Viewer utilities are included in the appropriate architecture subdirectory under the bin folder in the Windows SDK. DirectX Capabilities Viewer is also available on <a href="https://github.com/microsoft/DxCapsViewer">GitHub</a>.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="XACT"></span><span id="xact"></span>XACT<br/></td>
@@ -77,11 +83,11 @@ The D3DCompiler API is available in the Windows SDK.
 </tr>
 <tr class="even">
 <td><span id="Samples"></span><span id="samples"></span><span id="SAMPLES"></span>Samples<br/></td>
-<td>You can find sample applications that highlight DirectX technologies on Windows in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">DirectX samples</a> repo, and in the <a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample">Code Gallery archive</a>. Most samples for older versions of Direct3D are available only for download in previous versions of the DirectX SDK, although a number of them are online as well. For more info about these samples, see <a href="https://blogs.msdn.microsoft.com/chuckw/2013/09/20/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>.<br/></td>
+<td>You can find sample applications that highlight DirectX 12 technologies on Windows in the <a href="https://github.com/Microsoft/DirectX-Graphics-Samples">DirectX samples</a> repo. Most samples for older versions of Direct3D are also available online. For more info about these samples, see <a href="https://walbourn.github.io/directx-sdk-samples-catalog/">DirectX SDK Samples Catalog</a>.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="Managed_DirectX_1.1"></span><span id="managed_directx_1.1"></span><span id="MANAGED_DIRECTX_1.1"></span>Managed DirectX 1.1<br/></td>
-<td>The .NET DirectX assemblies are deprecated and are not recommended for use by new applications. There are a number of alternatives available. See <a href="https://walbourn.github.io/">DirectX and .NET</a>. <br/></td>
+<td>The .NET DirectX assemblies are deprecated and are not recommended for use by new applications. There are a number of alternatives available. See <a href="https://walbourn.github.io/directx-and-net/">DirectX and .NET</a>. <br/></td>
 </tr>
 </tbody>
 </table>
@@ -90,7 +96,7 @@ The D3DCompiler API is available in the Windows SDK.
 
  
 
-For access to historical versions of these DirectX SDK tools and technologies, download previous versions of the DirectX SDK from the [Microsoft Download Center](https://www.microsoft.com/download/en/details.aspx?id=6812). We shipped the last version of the DirectX SDK in June 2010.
+The legacy DirectX SDK is available for download from [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkId=226640) if required, but use for new projects is not recommended.
 
 > [!Note]  
 > The DirectX SDK fails to install if you have a certain version of the Visual C++ 2010 Redistributable Package already installed. For more info about and a solution to fix this issue, see ["S1023" error when you install the DirectX SDK (June 2010)](https://support.microsoft.com/kb/2728613).
@@ -143,7 +149,7 @@ These steps also apply to your own projects that are dependent on the DirectX SD
     2.  Wherever "d3dx9.h", "d3dx10.h", or "d3dx11.h" are included in your project, be sure to explicitly include "d3d9.h", "d3d10.h" and "dxgi.h", or "d3d11.h" and "dxgi.h" first to ensure you are picking up the newer version. You can disable **warning C4005** if needed; however, this warning indicates you are using the older version of these headers.
     3.  Remove all references to DXGIType.h in your project. This header doesn't exist in the Windows SDK, and the DirectX SDK version conflicts with the new winerror.h.
     4.  All D3DX DLLs are installed onto your development computer by the DirectX SDK installation. Ensure that the necessary D3DX dependencies are redistributed with any sample or with your application if it is moved to another machine.
-    5.  Be aware that replacement technologies for current uses of D3DX11 include [DirectXTex](https://github.com/Microsoft/DirectXTex) and [DirectXTK](https://blogs.msdn.microsoft.com/chuckw/2012/03/02/directxtk/). D3DXMath is replaced by [DirectXMath](./dxmath/directxmath-portal.md).
+    5.  Be aware that replacement technologies for current uses of D3DX11 include [DirectXTex](https://github.com/Microsoft/DirectXTex), [DirectXTK](https://github.com/Microsoft/DirectXTK), [DirectXMesh](https://github.com/Microsoft/DirectXMesh), and [UVAtlas](https://github.com/Microsoft/UVAtlas). D3DXMath is replaced by [DirectXMath](./dxmath/directxmath-portal.md).
 
 6.  Ensure that you are using the new version of the HLSL shader compiler by observing the following conditions:
 
@@ -197,18 +203,11 @@ These steps also apply to your own projects that are dependent on the DirectX SD
 **Games for Windows and the DirectX SDK**
 </dt> <dt>
 
-[Where is the DirectX SDK (2013 Edition)?](https://blogs.msdn.microsoft.com/chuckw/2013/07/01/where-is-the-directx-sdk-2013-edition/)
+[Where is the DirectX SDK (2021 Edition)?](https://walbourn.github.io/where-is-the-directx-sdk-2021-edition/)
 </dt> <dt>
 
-[Where is the DirectX SDK?](https://blogs.msdn.microsoft.com/chuckw/2012/03/22/where-is-the-directx-sdk/)
+[DirectX SDKs of a certain age](https://walbourn.github.io/directx-sdks-of-a-certain-age/)
 </dt> <dt>
 
-[DirectX SDKs of a certain age](https://blogs.msdn.microsoft.com/chuckw?m=20128)
-</dt> <dt>
-
-[Living without D3DX](https://blogs.msdn.microsoft.com/chuckw/2013/08/20/living-without-d3dx/)
-</dt> </dl>
-
- 
-
- 
+[Living without D3DX](https://walbourn.github.io/living-without-d3dx/)
+</dt> </dl> 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsFailureException members"
 title: EsentRfsFailureException members
 TOCTitle: EsentRfsFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRfsFailureException

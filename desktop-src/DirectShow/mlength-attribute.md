@@ -1,5 +1,5 @@
 ---
-Description: The mlength attribute specifies the duration of a source file. This value must be the actual duration, or rendering errors may occur.
+description: The mlength attribute specifies the duration of a source file. This value must be the actual duration, or rendering errors may occur.
 ms.assetid: f33ce85c-df61-4248-8dea-677162fa1a07
 title: mlength Attribute
 ms.topic: reference

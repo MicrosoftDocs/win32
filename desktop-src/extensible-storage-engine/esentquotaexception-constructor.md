@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentQuotaException constructor"
 title: EsentQuotaException constructor 
 TOCTitle: 'EsentQuotaException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentQuotaException.#ctor

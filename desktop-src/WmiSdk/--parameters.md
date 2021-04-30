@@ -1,5 +1,5 @@
 ---
-Description: Defines the input and output parameters for methods.
+description: Defines the input and output parameters for methods.
 ms.assetid: d973feb5-27c4-4d8e-bf1b-0a455afa4375
 ms.tgt_platform: multiple
 title: '__PARAMETERS class'
@@ -54,7 +54,7 @@ After the method is finished executing, another **\_\_PARAMETERS** class instanc
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

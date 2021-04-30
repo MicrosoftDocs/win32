@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileNotFoundException properties"
 title: EsentSLVFileNotFoundException properties
 TOCTitle: EsentSLVFileNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileNotFoundException

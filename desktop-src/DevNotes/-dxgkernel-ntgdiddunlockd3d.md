@@ -1,5 +1,5 @@
 ---
-Description: Used to release a lock held on a specified area of buffer memory.
+description: Used to release a lock held on a specified area of buffer memory.
 ms.assetid: ec06829b-2b3a-45db-9ecd-d4c7cf67b8ae
 title: NtGdiDdUnlockD3D function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [**DD\_UNLOCKDATA**](/windows/win32/api/ddrawint/ns-ddrawint-dd_unl
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

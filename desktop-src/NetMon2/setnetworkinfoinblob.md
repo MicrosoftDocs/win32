@@ -1,5 +1,5 @@
 ---
-Description: The SetNetworkInfoInBlob function fills in the NETWORKINFO structure in the BLOB.
+description: The SetNetworkInfoInBlob function fills in the NETWORKINFO structure in the BLOB.
 ms.assetid: 1a511c26-2fa7-4fe4-a5a9-23188c59bc34
 title: SetNetworkInfoInBlob function (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

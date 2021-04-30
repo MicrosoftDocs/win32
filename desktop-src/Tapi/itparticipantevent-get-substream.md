@@ -1,5 +1,5 @@
 ---
-Description: The get\_SubStream gets a pointer to an array of ITSubStream interfaces representing the substreams involved in the event.
+description: The get\_SubStream gets a pointer to an array of ITSubStream interfaces representing the substreams involved in the event.
 ms.assetid: 0af9097a-2481-4543-bb3d-35ccd352e992
 title: ITParticipantEvent::get_SubStream method (Confpriv.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

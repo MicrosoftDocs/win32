@@ -22,7 +22,7 @@ The range of time, in 100-nanosecond intervals, in which the system increments t
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Lock-Out-Observation-Window          |
 | Ldap-Display-Name | lockOutObservationWindow             |
@@ -48,7 +48,7 @@ The range of time, in 100-nanosecond intervals, in which the system increments t
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -69,7 +69,7 @@ The range of time, in 100-nanosecond intervals, in which the system increments t
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -90,7 +90,7 @@ The range of time, in 100-nanosecond intervals, in which the system increments t
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -111,7 +111,7 @@ The range of time, in 100-nanosecond intervals, in which the system increments t
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -132,7 +132,7 @@ The range of time, in 100-nanosecond intervals, in which the system increments t
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -153,7 +153,7 @@ The range of time, in 100-nanosecond intervals, in which the system increments t
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |

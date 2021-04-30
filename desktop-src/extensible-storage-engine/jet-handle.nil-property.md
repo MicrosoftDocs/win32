@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE.Nil property"
 title: JET_HANDLE.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_HANDLE.Nil

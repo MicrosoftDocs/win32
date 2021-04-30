@@ -59,7 +59,7 @@ This structure is used as a member of the [**DRM\_COPY\_OPL**](drmdrm-copy-opl.m
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

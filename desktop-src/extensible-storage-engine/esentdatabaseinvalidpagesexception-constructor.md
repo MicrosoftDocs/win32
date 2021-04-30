@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPagesException constructor"
 title: EsentDatabaseInvalidPagesException constructor 
 TOCTitle: 'EsentDatabaseInvalidPagesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException.#ctor

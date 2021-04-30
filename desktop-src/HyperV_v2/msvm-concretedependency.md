@@ -1,5 +1,5 @@
 ---
-Description: Defines the association between an installed Ethernet switch extension and an Ethernet switch extension.
+description: Defines the association between an installed Ethernet switch extension and an Ethernet switch extension.
 ms.assetid: 306658ed-03a4-49fa-8704-f4b83a4bdd4f
 title: Msvm_ConcreteDependency class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_EthernetSwitchExtension**](msvm-ether
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

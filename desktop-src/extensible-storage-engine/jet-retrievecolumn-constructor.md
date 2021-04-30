@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN constructor"
 title: JET_RETRIEVECOLUMN constructor 
 TOCTitle: 'JET_RETRIEVECOLUMN constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.#ctor

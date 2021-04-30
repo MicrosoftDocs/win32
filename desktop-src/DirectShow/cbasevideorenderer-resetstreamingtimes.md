@@ -1,5 +1,5 @@
 ---
-Description: The ResetStreamingTimes method resets all times that control the streaming.
+description: The ResetStreamingTimes method resets all times that control the streaming.
 ms.assetid: 8a596760-a45a-4486-bb91-aab10bbf927f
 title: CBaseVideoRenderer.ResetStreamingTimes method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The times are set so that frames will not be initially dropped and so that the f
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

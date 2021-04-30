@@ -1,5 +1,5 @@
 ---
-Description: Contains the name of a wireless LAN profile.
+description: Contains the name of a wireless LAN profile.
 ms.assetid: b8977183-7b5d-4c79-9065-ade85ed45716
 title: name (WLANProfile) Element
 ms.topic: reference
@@ -42,7 +42,7 @@ To view sample profiles that use the **name** element, see [Wireless Profile Sam
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

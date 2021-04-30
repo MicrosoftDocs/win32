@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE structure"
 title: JET_HANDLE structure
 TOCTitle: JET_HANDLE structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_HANDLE

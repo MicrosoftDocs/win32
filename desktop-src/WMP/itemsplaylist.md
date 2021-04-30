@@ -1,6 +1,6 @@
 ---
 title: ITEMSPLAYLIST
-description: This is a predefined PLAYLIST element with the following default values.
+description: This is a predefined PLAYLIST element with the following default values. | ITEMSPLAYLIST
 ms.assetid: 0621885c-04e3-4de7-a4cc-2eb4e94de53c
 keywords:
 - ITEMSPLAYLIST Windows Media Player
@@ -35,7 +35,7 @@ This will create a simple **PLAYLIST** that displays the items in a playlist wit
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

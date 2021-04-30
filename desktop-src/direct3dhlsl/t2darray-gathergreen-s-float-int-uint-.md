@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherGreen(S,float,int,uint) function
-description: Samples a texture and returns the green component along with status about the operation.
+description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2DArray::GatherGreen(S,float,int,uint) function
 ms.assetid: 90BEB8B3-F851-469B-B55A-E51CB8463CC8
 keywords:
 - GatherGreen function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherGreen(S,float,int,uint) function
+# Texture2DArray::GatherGreen(S,float,int,uint) function
 
-Samples a texture and returns the green component along with status about the operation.
+Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 

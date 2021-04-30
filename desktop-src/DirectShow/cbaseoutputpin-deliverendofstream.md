@@ -1,5 +1,5 @@
 ---
-Description: The DeliverEndOfStream method delivers an end-of-stream notification to the connected input pin.
+description: The DeliverEndOfStream method delivers an end-of-stream notification to the connected input pin.
 ms.assetid: 5b564675-a1e0-4010-b35d-28315c262bcc
 title: CBaseOutputPin.DeliverEndOfStream method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This method calls the [**IPin::EndOfStream**](/windows/desktop/api/Strmif/nf-str
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

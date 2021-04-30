@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RealizesAggregatePExtent association represents the relationship in which the CIM\_AggregatePExtent class is realized on a physical media.
+description: The CIM\_RealizesAggregatePExtent association represents the relationship in which the CIM\_AggregatePExtent class is realized on a physical media.
 ms.assetid: 420dde1d-daa8-4cd3-b3fd-c2aefdc1e217
 ms.tgt_platform: multiple
 title: CIM_RealizesAggregatePExtent class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

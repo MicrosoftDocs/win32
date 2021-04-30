@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.szTableName property"
 title: JET_TABLECREATE.szTableName property 
 TOCTitle: 'szTableName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.szTableName

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the SetSize method.
+description: Proxy function for the SetSize method.
 ms.assetid: 28b4967f-4c8a-475c-8f86-c19e5d424a26
 title: IWICBitmapFrameEncode_SetSize_Proxy function
 ms.topic: reference
@@ -76,7 +76,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

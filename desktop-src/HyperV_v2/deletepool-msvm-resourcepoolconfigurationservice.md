@@ -1,5 +1,5 @@
 ---
-Description: Deletes a resource pool.
+description: Deletes a resource pool.
 ms.assetid: bc3111a4-9687-49ec-890e-190358230c53
 title: DeletePool method of the Msvm_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -119,7 +119,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

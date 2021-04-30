@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageSizeMismatchException methods"
 title: EsentPageSizeMismatchException methods
 TOCTitle: EsentPageSizeMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException

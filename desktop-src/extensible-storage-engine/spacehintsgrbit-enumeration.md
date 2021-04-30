@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SpaceHintsGrbit enumeration"
 title: SpaceHintsGrbit enumeration
 TOCTitle: SpaceHintsGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SpaceHintsGrbit

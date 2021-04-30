@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException class"
 title: EsentResourceException class
 TOCTitle: EsentResourceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentResourceException

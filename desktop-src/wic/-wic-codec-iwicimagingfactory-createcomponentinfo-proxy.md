@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateComponentInfo method.
+description: Proxy function for the CreateComponentInfo method.
 ms.assetid: 7d3b791a-d65e-4b90-8050-373a949e6d9c
 title: IWICImagingFactory_CreateComponentInfo_Proxy function
 ms.topic: reference
@@ -74,7 +74,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

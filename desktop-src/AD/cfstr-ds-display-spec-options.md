@@ -47,7 +47,7 @@ The **CFSTR\_DSDISPLAYSPECOPTIONS** clipboard format is identical to the **CFSTR
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                        |

@@ -1,5 +1,5 @@
 ---
-Description: The buffering attribute specifies the number of frames to render in advance during preview.
+description: The buffering attribute specifies the number of frames to render in advance during preview.
 ms.assetid: c00fd24d-5c3c-44cf-93dd-9750f614d2af
 title: buffering Attribute (Wmp.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ The value must be a number greater than 1. The default value is 30.
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

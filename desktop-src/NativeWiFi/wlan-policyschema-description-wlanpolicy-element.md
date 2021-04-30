@@ -1,5 +1,5 @@
 ---
-Description: Contains the description of a wireless LAN policy.
+description: Contains the description of a wireless LAN policy.
 ms.assetid: eaee5ff7-cef3-4bd2-bd60-2713d25894f5
 title: description (WLANPolicy) Element
 ms.topic: reference
@@ -30,7 +30,7 @@ The **description** element is defined by the [**WLANPolicy**](wlan-policyschema
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

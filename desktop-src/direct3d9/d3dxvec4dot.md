@@ -1,5 +1,5 @@
 ---
-Description: Determines the dot product of two 4D vectors.
+description: Determines the dot product of two 4D vectors.
 ms.assetid: 565dede8-6cc8-4313-9480-2f252cac94f2
 title: D3DXVec4Dot function (D3dx9math.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The dot product.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

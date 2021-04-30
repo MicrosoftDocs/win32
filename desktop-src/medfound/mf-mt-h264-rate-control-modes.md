@@ -1,5 +1,5 @@
 ---
-Description: Specifies the rate-control mode for an H.264 video stream.
+description: Specifies the rate-control mode for an H.264 video stream.
 ms.assetid: EA8EFEFA-9292-4D7B-BF5D-DE5239BB1D2C
 title: MF_MT_H264_RATE_CONTROL_MODES attribute (Mfapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This attribute applies to media types for H.264 streams transmitted over USB. Th
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

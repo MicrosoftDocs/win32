@@ -1,6 +1,6 @@
 ---
 title: Rich Edit Functions
-description: .
+description: Rich Edit Functions
 ms.assetid: 5e913cb6-d561-447f-b33e-9160a8f46cda
 ms.topic: article
 ms.date: 05/31/2018

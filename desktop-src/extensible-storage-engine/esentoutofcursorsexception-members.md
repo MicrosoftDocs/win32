@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfCursorsException members"
 title: EsentOutOfCursorsException members
 TOCTitle: EsentOutOfCursorsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfCursorsException

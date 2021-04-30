@@ -1,5 +1,5 @@
 ---
-Description: Using the MPEG-2 Splitter
+description: Using the MPEG-2 Splitter
 ms.assetid: a08e079c-41be-475a-9e88-ee46d17fe938
 title: Using the MPEG-2 Splitter
 ms.topic: article

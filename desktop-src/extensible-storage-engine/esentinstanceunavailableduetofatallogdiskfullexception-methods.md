@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableDueToFatalLogDiskFullException methods"
 title: EsentInstanceUnavailableDueToFatalLogDiskFullException methods
 TOCTitle: EsentInstanceUnavailableDueToFatalLogDiskFullException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException

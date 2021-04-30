@@ -1,5 +1,5 @@
 ---
-Description: The AspectRatio property retrieves the aspect ratio of the current video stream as authored on the disc.
+description: The AspectRatio property retrieves the aspect ratio of the current video stream as authored on the disc.
 ms.assetid: c341538e-0b33-4173-a5ca-56b3f7305022
 title: AspectRatio Property
 ms.topic: reference

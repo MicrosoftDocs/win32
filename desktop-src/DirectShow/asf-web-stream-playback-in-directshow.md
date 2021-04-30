@@ -1,5 +1,5 @@
 ---
-Description: ASF Web Stream Playback in DirectShow
+description: ASF Web Stream Playback in DirectShow
 ms.assetid: c7818c62-24af-4eac-84b8-f76be4ca6c09
 title: ASF Web Stream Playback in DirectShow
 ms.topic: article

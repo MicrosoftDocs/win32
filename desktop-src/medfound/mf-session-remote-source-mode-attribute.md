@@ -1,5 +1,5 @@
 ---
-Description: Specifies that the media source will be created in a remote process.
+description: Specifies that the media source will be created in a remote process.
 ms.assetid: 3a2f9ff5-1780-40f3-b36b-3a7cccb47d05
 title: MF_SESSION_REMOTE_SOURCE_MODE attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: Sets up shared memory communication for the tablet context.
+description: Sets up shared memory communication for the tablet context.
 ms.assetid: 63e6b271-d89a-4c91-9a15-9e41dcdfa363
 title: ITabletContextP::UseNamedSharedMemoryCommunications method
 ms.topic: reference
@@ -131,7 +131,7 @@ In each definition, the %d section is replaced with the process ID, and the %u s
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | None supported<br/>                                                              |

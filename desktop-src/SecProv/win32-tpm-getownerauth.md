@@ -1,5 +1,5 @@
 ---
-Description: Gets the owner authorization information for a TPM if one is available in the registry.
+description: Gets the owner authorization information for a TPM if one is available in the registry.
 ms.assetid: 3E2C28C8-4154-4B1B-9C47-AEDFD5622979
 title: Win32_Tpm::GetOwnerAuth method
 ms.topic: reference
@@ -67,7 +67,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |

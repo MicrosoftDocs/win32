@@ -1,5 +1,5 @@
 ---
-Description: The CAMSchedule class implements a scheduler for reference clocks.
+description: The CAMSchedule class implements a scheduler for reference clocks.
 ms.assetid: 67aacffb-b781-4323-8973-355a76821401
 title: CAMSchedule class (Dsschedule.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ In step 2, either the event is signaled, or the wait times out. If the event is 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dsschedule.h (include Streams.h)</dt> </dl>                                                                                |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: A file pointer is a 64-bit offset value that specifies the next byte to be read or the location to receive the next byte written.
+description: A file pointer is a 64-bit offset value that specifies the next byte to be read or the location to receive the next byte written.
 ms.assetid: 1e8bc657-affa-4a17-8435-c93de5075a1d
 title: File Pointers
 ms.topic: article

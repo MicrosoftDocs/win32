@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesKeyTooSmallException members"
 title: EsentIndexTuplesKeyTooSmallException members
 TOCTitle: EsentIndexTuplesKeyTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesKeyTooSmallException

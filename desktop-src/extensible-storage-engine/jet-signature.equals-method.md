@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE.Equals method"
 title: JET_SIGNATURE.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_SIGNATURE.Equals

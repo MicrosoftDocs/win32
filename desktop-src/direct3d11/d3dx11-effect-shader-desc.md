@@ -150,7 +150,7 @@ D3DX11\_EFFECT\_SHADER\_DESC is used with [**ID3DX11EffectShaderVariable::GetSha
 
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx11effect.h</dt> </dl> |
 

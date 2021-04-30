@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Media Samples
+# Media Samples (Windows Media Format 11 SDK)
 
 A media sample, or sample, is a block of digital media data. A sample is the basic unit that is manipulated by the reading and writing objects of the Windows Media Format SDK. The contents of an individual sample are dictated by the media type associated with the sample. For video, each sample represents a single frame. For audio, the amount of data in an individual sample is set in the profile used to create the ASF file.
 

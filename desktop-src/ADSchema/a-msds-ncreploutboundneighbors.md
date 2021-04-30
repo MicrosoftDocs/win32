@@ -22,7 +22,7 @@ Replication partners for this partition. This server sends replication data to t
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-NC-Repl-Outbound-Neighbors            |
 | Ldap-Display-Name | msDS-NCReplOutboundNeighbors                |
@@ -48,7 +48,7 @@ Replication partners for this partition. This server sends replication data to t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ Replication partners for this partition. This server sends replication data to t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ Replication partners for this partition. This server sends replication data to t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ Replication partners for this partition. This server sends replication data to t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ Replication partners for this partition. This server sends replication data to t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ Replication partners for this partition. This server sends replication data to t
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

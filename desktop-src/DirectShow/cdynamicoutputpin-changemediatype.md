@@ -1,5 +1,5 @@
 ---
-Description: The ChangeMediaType method dynamically changes the media type for the connection.
+description: The ChangeMediaType method dynamically changes the media type for the connection.
 ms.assetid: 38efdfdc-f636-4cad-b8d3-8c63a277644e
 title: CDynamicOutputPin.ChangeMediaType method (Amfilter.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ On the other hand, if the downstream pin does not support **IPinConnection**, or
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Some applications store their items in databases or custom file types.
+description: Some applications store their items in databases or custom file types.
 ms.assetid: 0e2b7b4b-ae87-4092-b924-6191cdf42c9b
 title: Understanding Protocol Handlers
 ms.topic: article

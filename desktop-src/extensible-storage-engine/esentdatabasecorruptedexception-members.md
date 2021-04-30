@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseCorruptedException members"
 title: EsentDatabaseCorruptedException members
 TOCTitle: EsentDatabaseCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedException

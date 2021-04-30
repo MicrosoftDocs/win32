@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of graphics log summary information.
+description: A callback function used to notify the host of graphics log summary information.
 MS-HAID: vspixengine.ISummaryCallback\_ResultCallback\_DWORD\_SummaryItem\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

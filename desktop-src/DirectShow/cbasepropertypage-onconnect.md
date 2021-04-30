@@ -1,5 +1,5 @@
 ---
-Description: The OnConnect method provides an IUnknown pointer to the object associated with the property page.
+description: The OnConnect method provides an IUnknown pointer to the object associated with the property page.
 ms.assetid: 74cae8e1-5347-4e3d-ba5f-6a4efec2ddae
 title: CBasePropertyPage.OnConnect method (Cprop.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ HRESULT CMyProp::OnConnect(IUnknown *pUnk)
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

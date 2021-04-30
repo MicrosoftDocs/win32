@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultPrinter WMI class method sets the default system printer for the user calling the method.
+description: The SetDefaultPrinter WMI class method sets the default system printer for the user calling the method.
 ms.assetid: 7e896961-363d-4b8b-9d22-bbfc9681e97b
 ms.tgt_platform: multiple
 title: SetDefaultPrinter method of the Win32_Printer class
@@ -65,7 +65,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

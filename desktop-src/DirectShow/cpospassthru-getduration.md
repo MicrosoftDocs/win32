@@ -1,5 +1,5 @@
 ---
-Description: The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeeking::GetDuration method.
+description: CPosPassThru.GetDuration method - The GetDuration method retrieves the duration of the stream. This method implements the IMediaSeeking::GetDuration method.
 ms.assetid: 0552e7bb-4d7e-40a8-a8ad-89ae6fff8ccb
 title: CPosPassThru.GetDuration method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

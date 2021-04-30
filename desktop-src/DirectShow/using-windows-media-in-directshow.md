@@ -1,5 +1,5 @@
 ---
-Description: Using Windows Media in DirectShow
+description: Using Windows Media in DirectShow
 ms.assetid: 2fae0504-d1da-413a-80dd-de7818f506ef
 title: Using Windows Media in DirectShow
 ms.topic: article

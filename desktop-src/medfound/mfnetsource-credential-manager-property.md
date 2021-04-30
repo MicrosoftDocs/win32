@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the IMFNetCredentialManager interface.
+description: Contains a pointer to the IMFNetCredentialManager interface.
 ms.assetid: c0826956-9df1-40ec-8ad1-9e0dca34d847
 title: MFNETSOURCE_CREDENTIAL_MANAGER property (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The constant **MFNETSOURCE\_CREDENTIAL\_MANAGER** defines the **GUID** for the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

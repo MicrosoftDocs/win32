@@ -1,7 +1,7 @@
-- name: "Desktop Win32 Apps"
+- name: "Desktop Win32 apps"
   href: ./index.yml
   items: 
-  - name: "Get Started"
+  - name: "Get started"
     items: 
     - name: "Overview"
       href: ./desktop-programming.md
@@ -145,6 +145,8 @@
           href: ./devlic/developer-licensing-portal.md
         - name: "Restart Manager"
           href: ./rstmgr/restart-manager-portal.md
+        - name: "Update Orchestrator"
+          href: ./UpdateOrchestrator/index.md
         - name: "Windows Installer"
           href: ./msi/windows-installer-portal.md
       - name: "Audio and Video"
@@ -341,6 +343,8 @@
           href: ./wic/-wic-lh.md
         - name: "Windows Mixed Reality"
           href: ./mixedreality/mixed-reality-portal.md
+        - name: "Windows Color System"
+          href: ./wcs/windows-color-system.md
       - name: "Networking and Internet"
         items: 
         - name: "Overview"
@@ -608,3 +612,5 @@
       href: ./winrt/reference.md
     - name: "Windows Certification"
       href: ./win_cert/windows-certification-portal.md
+  - name: "Desktop Win32 code samples"
+    href: ./desktop-win32-code-samples.md

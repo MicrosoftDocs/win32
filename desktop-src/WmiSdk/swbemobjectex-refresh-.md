@@ -1,5 +1,5 @@
 ---
-Description: Updates the data for objects that have data supplied by a performance provider, such as the Performance Counter Classes. You can obtain updated data more quickly and without a call to SWbemServices.Get\_.
+description: Updates the data for objects that have data supplied by a performance provider, such as the Performance Counter Classes. You can obtain updated data more quickly and without a call to SWbemServices.Get\_.
 ms.assetid: 6aeaa336-fb98-4eda-b746-fc958198d8ae
 ms.tgt_platform: multiple
 title: SWbemObjectEx.Refresh_ method (Wbemdisp.h)
@@ -131,7 +131,7 @@ next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

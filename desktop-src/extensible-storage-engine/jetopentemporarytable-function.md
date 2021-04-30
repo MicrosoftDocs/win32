@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenTemporaryTable Function"
 title: JetOpenTemporaryTable Function
 TOCTitle: JetOpenTemporaryTable Function
 ms:assetid: feacd0b8-2298-4ec6-aa59-0fede08474bc

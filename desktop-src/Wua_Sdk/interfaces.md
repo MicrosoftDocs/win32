@@ -1,12 +1,12 @@
 ---
-Description: The following table identifies the interfaces that are used to access Windows Update Agent (WUA).
+description: The following table identifies the interfaces that are used to access Windows Update Agent (WUA).
 ms.assetid: 1ba2b296-cb27-45fd-8c87-430d30322f1f
 title: Interfaces (Windows Update Agent)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (Windows Update Agent)
 
 The following table identifies the interfaces that are used to access Windows Update Agent (WUA).
 

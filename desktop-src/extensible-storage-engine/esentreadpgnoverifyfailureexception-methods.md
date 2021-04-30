@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadPgnoVerifyFailureException methods"
 title: EsentReadPgnoVerifyFailureException methods
 TOCTitle: EsentReadPgnoVerifyFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException

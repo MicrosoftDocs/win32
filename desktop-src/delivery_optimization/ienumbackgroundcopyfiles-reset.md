@@ -1,6 +1,6 @@
 ---
 title: IEnumBackgroundCopyFiles Reset method (Deliveryoptimization.h)
-description: Resets the enumeration sequence to the beginning.
+description: IEnumBackgroundCopyFiles::Reset method - Resets the enumeration sequence to the beginning.
 ms.assetid: 6A303069-105C-4053-A8C5-2ECF60E789DE
 keywords:
 - Reset method
@@ -44,7 +44,7 @@ This method returns **S_OK** on success or one of the standard COM **HRESULT** v
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |

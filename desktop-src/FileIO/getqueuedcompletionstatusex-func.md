@@ -1,5 +1,5 @@
 ---
-Description: Retrieves multiple completion port entries simultaneously.
+description: Retrieves multiple completion port entries simultaneously.
 ms.assetid: 3996c02c-562c-4697-a091-e241ad54b239
 title: GetQueuedCompletionStatusEx function (IoAPI.h)
 ms.topic: reference
@@ -138,7 +138,7 @@ In Windows 8 and Windows Server 2012, this function is supported by the followin
 
 
 
-|                                     |                                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                                                                                                                                                                                             |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance class"
 title: Instance class
 TOCTitle: Instance class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Instance

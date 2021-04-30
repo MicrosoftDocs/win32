@@ -1,5 +1,5 @@
 ---
-Description: Device Association Endpoint Service's Parent Container Id.
+description: Device Association Endpoint Service's Parent Container Id.
 ms.assetid: 90f9487c-9d47-489b-b3b5-ccb1f01c66d0
 title: System.Devices.AepService.ContainerId
 ms.topic: article

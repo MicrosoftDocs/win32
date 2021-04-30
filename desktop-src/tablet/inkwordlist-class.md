@@ -1,5 +1,5 @@
 ---
-Description: Represents a list of words that can be used to improve the recognition result.
+description: Represents a list of words that can be used to improve the recognition result.
 ms.assetid: d189fd13-ec69-45dc-8be4-fea48f337636
 title: InkWordList class (Msinkaut.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This object can be instantiated by calling the [**CoCreateInstance**](/windows/d
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

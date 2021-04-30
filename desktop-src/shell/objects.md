@@ -1,5 +1,5 @@
 ---
-Description: This section describes the Windows objects implemented by the Shell.
+description: This section describes the Windows objects implemented by the Shell.
 title: Shell Objects for Scripting and Microsoft Visual Basic
 ms.topic: article
 ms.date: 05/31/2018

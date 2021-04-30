@@ -1,5 +1,5 @@
 ---
-Description: Loads a string resource.
+description: Loads a string resource.
 ms.assetid: b6606f7a-6fc7-4772-9971-7a7e8c145e6c
 title: '_LoadString function'
 ms.topic: reference
@@ -44,7 +44,7 @@ int _LoadString(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 

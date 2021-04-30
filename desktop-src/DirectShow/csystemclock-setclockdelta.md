@@ -1,5 +1,5 @@
 ---
-Description: The SetClockDelta method adjusts the clock time. This method implements the IAMClockAdjust::SetClockDelta method.
+description: The SetClockDelta method adjusts the clock time. This method implements the IAMClockAdjust::SetClockDelta method.
 ms.assetid: 2bb9266f-3866-4b2e-92a8-cde31a501047
 title: CSystemClock.SetClockDelta method (Sysclock.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The time values returned by [**IReferenceClock::GetTime**](/windows/desktop/api/
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | CSystemClock Class<br/>                                                                                                                                                              |
 | Header<br/>  | <dl> <dt>Sysclock.h (include Streams.h)</dt> </dl>                                                                                  |

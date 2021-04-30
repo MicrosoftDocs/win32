@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# EC\_WMT\_INDEX\_EVENT
+# EC_WMT_INDEX_EVENT (Windows Media Format 11 SDK)
 
 Sent by the Windows Media Format SDK when an application uses the ASF Writer to index Windows Media Video files.
 

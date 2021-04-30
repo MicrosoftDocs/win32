@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CEnumMediaTypes.CEnumMediaTypes constructor - Constructor method.
 ms.assetid: fae2e05c-3f7b-4511-9b9d-5a37ea03f851
 title: CEnumMediaTypes.CEnumMediaTypes constructor (Amfilter.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If *pEnumMediaTypes* is **NULL**, this method initializes the enumerator to the 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

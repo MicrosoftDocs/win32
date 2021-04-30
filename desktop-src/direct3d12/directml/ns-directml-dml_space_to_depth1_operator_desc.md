@@ -45,10 +45,10 @@ api_name:
 # DML_SPACE_TO_DEPTH1_OPERATOR_DESC structure (directml.h)
 Rearranges blocks of spatial data into depth. The operator outputs a copy of the input tensor where values from the height and width dimensions are moved to the depth dimension.
 
-This is the inverse transformation of [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](/windows/win32/direct3d12/directml/ns-directml-dml_depth_to_space1_operator_desc).
+This is the inverse transformation of [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md).
 
 > [!IMPORTANT]
-> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Also see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+> This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later. Also see [DirectML version history](../dml-version-history.md).
 
 ## Syntax
 ```cpp
@@ -87,9 +87,9 @@ The width and height of the Blocks that are moved.
 
 `Order`
 
-Type: **[DML_DEPTH_SPACE_ORDER](/windows/win32/direct3d12/directml/ne-directml-dml_depth_space_order)**
+Type: **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**
 
-See [DML_DEPTH_SPACE_ORDER](/windows/win32/direct3d12/directml/ne-directml-dml_depth_space_order).
+See [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).
 
 ## Examples
 
@@ -162,7 +162,7 @@ OutputTensor: (Sizes:{1, 8, 2, 3}, DataType:UINT32)
 
 
 ## Remarks
-When the *Order* parameter is set to [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](/windows/win32/direct3d12/directml/ne-directml-dml_depth_space_order), this operator is equivalent to [DML_SPACE_TO_DEPTH_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_space_to_depth_operator_desc).
+When the *Order* parameter is set to [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), this operator is equivalent to [DML_SPACE_TO_DEPTH_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_space_to_depth_operator_desc).
 
 ## Availability
 This operator was introduced in `DML_FEATURE_LEVEL_2_1`.

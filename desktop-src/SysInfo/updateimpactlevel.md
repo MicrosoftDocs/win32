@@ -1,5 +1,5 @@
 ---
-Description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
+description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
 ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640
 title: UpdateImpactLevel enumeration
 ms.topic: reference
@@ -73,7 +73,7 @@ When [**GetOSUpdateAssessment**](/windows/desktop/api/waasapi/nf-waasapi-iwaasas
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                   |

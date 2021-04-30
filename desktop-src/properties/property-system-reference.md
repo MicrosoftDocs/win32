@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Property System Reference
 ms.assetid: 8f2df462-c22d-4059-8599-4eefd24560f1
 title: Property System Reference
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CMsgThread class is a worker-thread class that queues requests to the queuing thread for completion asynchronously.
+description: The CMsgThread class is a worker-thread class that queues requests to the queuing thread for completion asynchronously.
 ms.assetid: 57e50abf-c90d-4c8f-afd8-25f29b6a0376
 title: CMsgThread class
 ms.topic: reference

@@ -1,12 +1,12 @@
 ---
-Description: Two-pass encoding can be used for constant bit rate (CBR) and for variable bit rate (VBR) encoding with some of the Windows Media codecs.
+description: Two-pass encoding can be used for constant bit rate (CBR) and for variable bit rate (VBR) encoding with some of the Windows Media codecs.
 ms.assetid: eec5085c-9441-496a-8127-cf5d2686d917
 title: Using Two-Pass Encoding (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Two-Pass Encoding
+# Using Two-Pass Encoding (Microsoft Media Foundation)
 
 Two-pass encoding can be used for constant bit rate (CBR) and for variable bit rate (VBR) encoding with some of the Windows Media codecs. You can find the maximum number of encoding passes supported by a codec by retrieving the [MFPKEY\_PASSESRECOMMENDED](mfpkey-passesrecommendedproperty.md) property. None of the codecs supports more than two passes. Configure the DMO to use two passes by setting the [MFPKEY\_PASSESUSED](mfpkey-passesusedproperty.md) property to 2.
 

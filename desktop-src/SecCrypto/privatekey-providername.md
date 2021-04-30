@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the cryptographic service provider (CSP).
+description: Retrieves the name of the cryptographic service provider (CSP).
 ms.assetid: b06d2839-0eaa-4f3f-99f7-d77e001fe4ea
 title: PrivateKey.ProviderName property
 ms.topic: reference
@@ -38,7 +38,7 @@ A string that contains the name of the CSP.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

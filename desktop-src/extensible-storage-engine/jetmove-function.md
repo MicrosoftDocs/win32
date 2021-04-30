@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetMove Function"
 title: JetMove Function
 TOCTitle: JetMove Function
 ms:assetid: ded3cd21-8586-4d90-9efc-61213132d201

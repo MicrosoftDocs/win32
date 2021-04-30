@@ -1,5 +1,5 @@
 ---
-Description: XAudio2 is initialized for audio playback by creating an instance of the XAudio2 engine, and creating a mastering voice.
+description: XAudio2 is initialized for audio playback by creating an instance of the XAudio2 engine, and creating a mastering voice.
 ms.assetid: 4db2e7fc-0a87-0344-a07c-3abf2b21af32
 title: 'How to: Initialize XAudio2'
 ms.topic: article
@@ -12,23 +12,33 @@ XAudio2 is initialized for audio playback by creating an instance of the XAudio2
 
 **To initialize XAudio2**
 
-1.  Use the [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) function to create an instance of the XAudio2 engine.
+1.  Make sure you have initialized COM. For a Windows Store app, this is done as part of initializing the Windows Runtime. Otherwise, use [**CoInitializeEx**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex).
 
     ```
-    IXAudio2* pXAudio2 = NULL;
     HRESULT hr;
+    hr = CoInitializeEx( nullptr, COINIT_MULTITHREADED );
+    if (FAILED(hr))
+        return hr;
+    ```
+
+
+
+2.  Use the [**XAudio2Create**](/windows/desktop/api/xaudio2/nf-xaudio2-xaudio2create) function to create an instance of the XAudio2 engine.
+
+    ```
+    IXAudio2* pXAudio2 = nullptr;
     if ( FAILED(hr = XAudio2Create( &pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
         return hr;
     ```
 
     
 
-2.  Use the [**CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) method to create a mastering voice.
+3.  Use the [**CreateMasteringVoice**](/windows/win32/api/xaudio2/nf-xaudio2-ixaudio2-createmasteringvoice) method to create a mastering voice.
 
     The mastering voices encapsulates an audio device. It is the ultimate destination for all audio that passes through an audio graph.
 
     ```
-    IXAudio2MasteringVoice* pMasterVoice = NULL;
+    IXAudio2MasteringVoice* pMasterVoice = nullptr;
     if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice ) ) )
         return hr;
     ```
@@ -46,7 +56,7 @@ HRESULT hr;
 if ( FAILED(hr = XAudio2Create( &XAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
     throw Platform::Exception::CreateException(hr);
 
-IXAudio2MasteringVoice* pMasterVoice = NULL;
+IXAudio2MasteringVoice* pMasterVoice = nullptr;
 if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice ) ) )
     return hr;
 ```
@@ -54,7 +64,7 @@ if ( FAILED(hr = pXAudio2->CreateMasteringVoice( &pMasterVoice ) ) )
 
 
 > [!Note]  
-> Ensure that all smart pointers to XAUDIO2 objects are fully released before you release the [**IXAudio2**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2) object.
+> Ensure that all XAUDIO2 child objects are fully released before you release the [**IXAudio2**](/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2) object.
 
  
 

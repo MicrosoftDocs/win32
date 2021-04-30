@@ -1,5 +1,5 @@
 ---
-Description: The IWbemUnsecuredApartment interface exposes the following methods.
+description: The IWbemUnsecuredApartment interface exposes the following methods.
 ms.assetid: EE71EA69-30B3-4D98-AECA-512C147B150C
 ms.tgt_platform: multiple
 title: IWbemUnsecuredApartment Methods

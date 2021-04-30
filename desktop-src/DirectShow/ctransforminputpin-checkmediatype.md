@@ -1,5 +1,5 @@
 ---
-Description: The CheckMediaType method determines if the pin accepts a specific media type.
+description: CTransformInputPin.CheckMediaType method - The CheckMediaType method determines if the pin accepts a specific media type.
 ms.assetid: e09a4a3e-ac39-4d0e-9e8c-3e8f18057d0d
 title: CTransformInputPin.CheckMediaType method (Transfrm.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ If the filter's output pin is connected, this method also calls the filter's [**
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

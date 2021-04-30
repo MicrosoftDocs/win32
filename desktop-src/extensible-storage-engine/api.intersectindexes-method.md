@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.IntersectIndexes method"
 title: Api.IntersectIndexes method 
 TOCTitle: 'IntersectIndexes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.IntersectIndexes(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID[])

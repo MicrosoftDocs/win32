@@ -1,5 +1,5 @@
 ---
-Description: The IWbemProviderInit interface exposes the following methods.
+description: The IWbemProviderInit interface exposes the following methods.
 ms.assetid: 5BE99C81-4C2C-427A-9C5C-43A7CF8C63F3
 ms.tgt_platform: multiple
 title: IWbemProviderInit Methods

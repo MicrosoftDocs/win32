@@ -1,5 +1,5 @@
 ---
-Description: The following topics identify solutions to common tasks for developing applications that utilize the Distributed Routing Table (DRT) API.
+description: The following topics identify solutions to common tasks for developing applications that utilize the Distributed Routing Table (DRT) API.
 ms.assetid: 7c2d3aca-9e05-44b7-a57b-51a34e9caae2
 title: Using the Distributed Routing Table API
 ms.topic: article

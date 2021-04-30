@@ -1,5 +1,5 @@
 ---
-Description: Extends the FolderItems object. It supports one additional method.
+description: Extends the FolderItems object. It supports one additional method.
 title: FolderItems2 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -53,7 +53,7 @@ The **FolderItems2** object has these methods.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

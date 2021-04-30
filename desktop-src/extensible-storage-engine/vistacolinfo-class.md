@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaColInfo class"
 title: VistaColInfo class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaColInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaColInfo

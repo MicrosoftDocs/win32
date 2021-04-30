@@ -1,5 +1,5 @@
 ---
-Description: Set the mesh's attribute data.
+description: Set the mesh's attribute data.
 ms.assetid: bcf7b1b3-b923-400a-8d12-5094f3844d8f
 title: ID3DX10Mesh::SetAttributeData method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

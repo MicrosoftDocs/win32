@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for file operation end events. The following syntax is simplified from MOF code.
+description: This class is the event type class for file operation end events. The following syntax is simplified from MOF code.
 ms.assetid: 3925d5bf-f412-4248-a61f-e667efa9debd
 title: FileIo_OpEnd class
 ms.topic: reference
@@ -103,7 +103,7 @@ Return value from the operation.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

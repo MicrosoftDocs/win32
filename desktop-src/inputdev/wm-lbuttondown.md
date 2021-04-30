@@ -13,6 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -112,7 +113,7 @@ To detect that the ALT key was pressed, check whether [**GetKeyState**](/windows
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

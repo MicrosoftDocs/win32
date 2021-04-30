@@ -1,5 +1,5 @@
 ---
-Description: The SaveBookmark method saves the current disc position and state of the MSWebDVD object so the user can return to the same place later.
+description: The SaveBookmark method saves the current disc position and state of the MSWebDVD object so the user can return to the same place later.
 ms.assetid: 975687c5-f93e-4473-b23b-63e0ae6bbb5d
 title: SaveBookmark Method (Segment.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ A bookmark is a snapshot of the DVD Navigator's current state. This includes inf
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

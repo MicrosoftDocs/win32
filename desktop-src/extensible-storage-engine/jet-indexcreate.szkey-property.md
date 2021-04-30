@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.szKey property"
 title: JET_INDEXCREATE.szKey property 
 TOCTitle: 'szKey property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.szKey

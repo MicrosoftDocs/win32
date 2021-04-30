@@ -21,28 +21,28 @@ Texture2D type ([as it exists in Shader Model 4](dx-graphics-hlsl-to-type.md)) p
 
 
 
-| Method                                                                  | Description                                                                                |
-|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [**Gather**](texture2d-gather.md)                                      | Samples a texture and returns all components.                                              |
-| [**GatherRed**](texture2d-gatherred.md)                                | Samples a texture and returns the red component.                                           |
-| [**GatherGreen**](texture2d-gathergreen.md)                            | Samples a texture and returns the green component.                                         |
-| [**GatherBlue**](texture2d-gatherblue.md)                              | Samples a texture and returns the blue component.                                          |
-| [**GatherAlpha**](texture2d-gatheralpha.md)                            | Samples a texture and returns the alpha component.                                         |
-| [**GatherCmp**](texture2d-gathercmp.md)                                | Samples and compares a texture and returns all components.                                 |
-| [**GatherCmpRed**](texture2d-gathercmpred.md)                          | Samples and compares a texture and returns the red component.                              |
-| [**GatherCmpGreen**](texture2d-gathercmpgreen.md)                      | Samples and compares a texture and returns the green component.                            |
-| [**GatherCmpBlue**](texture2d-gathercmpblue.md)                        | Samples and compares a texture and returns the blue component.                             |
-| [**GatherCmpAlpha**](texture2d-gathercmpalpha.md)                      | Samples and compares a texture and returns the alpha component.                            |
-| [**GetDimensions**](sm5-object-texture2d-getdimensions.md)             | Gets the resource dimensions.                                                              |
-| [**Load**](texture2d-load.md)                                          | Reads texture data.                                                                        |
-| [**mips.Operator\[\]\[\]**](sm5-object-texture2d-mipsoperatorindex.md) | Gets a read-only resource variable.                                                        |
-| [**Operator\[\]**](sm5-object-texture2d-operatorindex.md)              | Gets a read-only resource variable.                                                        |
-| [**Sample**](texture-sample-overload.md)                               | Samples a texture.                                                                         |
-| [**SampleBias**](texture2d-samplebias.md)                              | Samples a texture, after applying the bias value to the mipmap level.                      |
-| [**SampleCmp**](texture2d-samplecmp.md)                                | Samples a texture, using a comparison value to reject samples.                             |
-| [**SampleCmpLevelZero**](texture2d-samplecmplevelzero.md)              | Samples a texture (mipmap level 0 only), using a comparison value to reject samples.       |
-| [**SampleGrad**](texture2d-samplegrad.md)                              | Samples a texture using a gradient to influence the way the sample location is calculated. |
-| [**SampleLevel**](texture2d-samplelevel.md)                            | Samples a texture on the specified mipmap level.                                           |
+| Method                                                                 | Description                                                                                                                                        |
+|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**Gather**](texture2d-gather.md)                                      | Returns the four texel values that would be used in a bi-linear filtering operation.                                                                |
+| [**GatherRed**](texture2d-gatherred.md)                                | Returns the red components of the four texel values that would be used in a bi-linear filtering operation.                                          |
+| [**GatherGreen**](texture2d-gathergreen.md)                            | Returns the green components of the four texel values that would be used in a bi-linear filtering operation.                                        |
+| [**GatherBlue**](texture2d-gatherblue.md)                              | Returns the blue components of the four texel values that would be used in a bi-linear filtering operation.                                         |
+| [**GatherAlpha**](texture2d-gatheralpha.md)                            | Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation.                                        |
+| [**GatherCmp**](texture2d-gathercmp.md)                                | For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value.                      |
+| [**GatherCmpRed**](texture2d-gathercmpred.md)                          | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value.   |
+| [**GatherCmpGreen**](texture2d-gathercmpgreen.md)                      | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value. |
+| [**GatherCmpBlue**](texture2d-gathercmpblue.md)                        | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value.  |
+| [**GatherCmpAlpha**](texture2d-gathercmpalpha.md)                      | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value. |
+| [**GetDimensions**](sm5-object-texture2d-getdimensions.md)             | Gets the resource dimensions.                                                                                                                       |
+| [**Load**](texture2d-load.md)                                          | Reads texture data.                                                                                                                                 |
+| [**mips.Operator\[\]\[\]**](sm5-object-texture2d-mipsoperatorindex.md) | Gets a read-only resource variable.                                                                                                                 |
+| [**Operator\[\]**](sm5-object-texture2d-operatorindex.md)              | Gets a read-only resource variable.                                                                                                                 |
+| [**Sample**](texture-sample-overload.md)                               | Samples a texture.                                                                                                                                  |
+| [**SampleBias**](texture2d-samplebias.md)                              | Samples a texture, after applying the bias value to the mipmap level.                                                                               |
+| [**SampleCmp**](texture2d-samplecmp.md)                                | Samples a texture, using a comparison value to reject samples.                                                                                      |
+| [**SampleCmpLevelZero**](texture2d-samplecmplevelzero.md)              | Samples a texture (mipmap level 0 only), using a comparison value to reject samples.                                                                |
+| [**SampleGrad**](texture2d-samplegrad.md)                              | Samples a texture using a gradient to influence the way the sample location is calculated.                                                          |
+| [**SampleLevel**](texture2d-samplelevel.md)                            | Samples a texture on the specified mipmap level.                                                                                                    |
 
 
 

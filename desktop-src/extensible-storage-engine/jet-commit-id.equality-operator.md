@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID.Equality operator"
 title: JET_COMMIT_ID.Equality operator  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.op_Equality(Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID,Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID)

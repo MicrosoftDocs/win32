@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Configuration object allows the grouping of parameter sets (defined in CIM\_Setting objects) and dependencies for one or more managed system elements.
+description: The CIM\_Configuration object allows the grouping of parameter sets (defined in CIM\_Setting objects) and dependencies for one or more managed system elements.
 ms.assetid: f597fe78-be50-4d31-b1eb-d219acaf1751
 ms.tgt_platform: multiple
 title: CIM_Configuration class
@@ -109,7 +109,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

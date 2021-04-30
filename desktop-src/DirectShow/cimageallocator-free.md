@@ -1,5 +1,5 @@
 ---
-Description: The Free method releases all of the buffer memory. This method implements the pure virtual CBaseAllocator::Free method.
+description: The Free method releases all of the buffer memory. This method implements the pure virtual CBaseAllocator::Free method.
 ms.assetid: fbfaa75b-00d7-4f81-a013-5b15bba96834
 title: CImageAllocator.Free method (Winutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the object has changed since it was last saved to its current stream.
+description: Indicates whether the object has changed since it was last saved to its current stream.
 ms.assetid: 69840be6-062e-4505-8381-ea04e822c660
 title: CPersistStream.IsDirty method (Pstream.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This member function implements the **IPersistStream::IsDirty** method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

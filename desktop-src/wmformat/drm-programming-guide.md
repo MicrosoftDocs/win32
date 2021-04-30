@@ -23,7 +23,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Guide
+# Microsoft Windows Media DRM Client Programming Guide
 
 This guide provides information about using the features of the Windows Media DRM Client Extended APIs in your applications. The following sections explain, in detail, the steps involved in implementing DRM features.
 

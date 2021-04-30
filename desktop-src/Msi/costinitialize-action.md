@@ -1,5 +1,5 @@
 ---
-Description: The CostInitialize action initiates the installation costing process.
+description: The CostInitialize action initiates the installation costing process.
 ms.assetid: be9a8382-c892-44ae-8b59-c665b5cca2d2
 title: CostInitialize Action
 ms.topic: article

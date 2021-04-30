@@ -22,7 +22,7 @@ This attribute contains the list of SIDs due to a transitive group membership ex
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Token-Groups-No-GC-Acceptable        |
 | Ldap-Display-Name | tokenGroupsNoGCAcceptable            |
@@ -48,7 +48,7 @@ This attribute contains the list of SIDs due to a transitive group membership ex
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -69,7 +69,7 @@ This attribute contains the list of SIDs due to a transitive group membership ex
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -90,7 +90,7 @@ This attribute contains the list of SIDs due to a transitive group membership ex
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -111,7 +111,7 @@ This attribute contains the list of SIDs due to a transitive group membership ex
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -132,7 +132,7 @@ This attribute contains the list of SIDs due to a transitive group membership ex
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -153,7 +153,7 @@ This attribute contains the list of SIDs due to a transitive group membership ex
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

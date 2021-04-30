@@ -1,5 +1,5 @@
 ---
-Description: The IAzRole interface exposes the following methods.
+description: The IAzRole interface exposes the following methods.
 ms.assetid: 2BE5D590-5B33-4BE4-B6EE-CD732CCCE160
 title: IAzRole Methods
 ms.topic: reference

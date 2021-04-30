@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INDEXLIST properties"
 title: JET_INDEXLIST properties
 TOCTitle: JET_INDEXLIST properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_INDEXLIST

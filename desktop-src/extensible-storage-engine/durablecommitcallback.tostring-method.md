@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback.ToString method"
 title: DurableCommitCallback.ToString method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback.ToString

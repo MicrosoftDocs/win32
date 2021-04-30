@@ -1,5 +1,5 @@
 ---
-Description: The CreateBlob function creates an empty BLOB.
+description: The CreateBlob function creates an empty BLOB.
 ms.assetid: fa31855b-af85-4ab5-b434-e54111731d8f
 title: CreateBlob function (Netmon.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

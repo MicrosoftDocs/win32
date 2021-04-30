@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseAlreadyRunningMaintenanceException members"
 title: EsentDatabaseAlreadyRunningMaintenanceException members
 TOCTitle: EsentDatabaseAlreadyRunningMaintenanceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyRunningMaintenanceException

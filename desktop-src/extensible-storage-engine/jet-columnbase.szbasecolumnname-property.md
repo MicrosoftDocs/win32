@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE.szBaseColumnName property"
 title: JET_COLUMNBASE.szBaseColumnName property 
 TOCTitle: 'szBaseColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.szBaseColumnName

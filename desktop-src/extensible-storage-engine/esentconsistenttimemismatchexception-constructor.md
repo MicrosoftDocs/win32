@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentConsistentTimeMismatchException constructor"
 title: EsentConsistentTimeMismatchException constructor 
 TOCTitle: 'EsentConsistentTimeMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException.#ctor

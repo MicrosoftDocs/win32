@@ -1,5 +1,5 @@
 ---
-Description: You can enable the auto-done feature for any method exposed by a component for which COM+ JIT activation is enabled. If JIT activation is disabled, auto-done is unavailable.
+description: You can enable the auto-done feature for any method exposed by a component for which COM+ JIT activation is enabled. If JIT activation is disabled, auto-done is unavailable.
 ms.assetid: d699b85c-441f-4ea6-8d03-d1fa9a8a357f
 title: Enabling Auto-Done for a Method
 ms.topic: article

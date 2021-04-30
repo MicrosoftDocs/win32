@@ -1,5 +1,5 @@
 ---
-Description: Requests a list of events that cause a change in the specified pixel, render target / UAV, and frame.
+description: Requests a list of events that cause a change in the specified pixel, render target / UAV, and frame.
 MS-HAID: vspixengine.IPixelHistoryRequest2\_RequestIntersections\_DWORD\_Point2D\_DWORD\_IPixelHistoryCallback2\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

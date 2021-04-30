@@ -1,5 +1,5 @@
 ---
-Description: This section provides an overview of XAudio2 streaming.
+description: This section provides an overview of XAudio2 streaming.
 ms.assetid: 778a5ffa-8c24-d97d-a53c-88b30887eb4b
 title: Streaming Audio Data
 ms.topic: article

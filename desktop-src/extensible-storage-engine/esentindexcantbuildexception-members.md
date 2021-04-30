@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexCantBuildException members"
 title: EsentIndexCantBuildException members
 TOCTitle: EsentIndexCantBuildException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException

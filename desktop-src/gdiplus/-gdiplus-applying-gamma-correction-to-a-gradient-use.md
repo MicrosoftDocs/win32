@@ -1,5 +1,5 @@
 ---
-Description: You can enable gamma correction for a gradient brush by passing TRUE to the PathGradientBrush::SetGammaCorrection method of that brush.
+description: You can enable gamma correction for a gradient brush by passing TRUE to the PathGradientBrush::SetGammaCorrection method of that brush.
 ms.assetid: 47472e41-f469-44f4-8b39-cf3982b79f9e
 title: Applying Gamma Correction to a Gradient
 ms.topic: article

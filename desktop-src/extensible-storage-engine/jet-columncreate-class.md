@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE class"
 title: JET_COLUMNCREATE class
 TOCTitle: JET_COLUMNCREATE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE

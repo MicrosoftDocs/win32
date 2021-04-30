@@ -1,5 +1,5 @@
 ---
-Description: If the client and host cannot see each other on the network, then a generic host and client can be substituted for the custom host and client to help troubleshoot the issue.
+description: If the client and host cannot see each other on the network, then a generic host and client can be substituted for the custom host and client to help troubleshoot the issue.
 ms.assetid: e82ce911-b2a7-4a57-a2f0-9aca6b74478f
 title: Using a Generic Host and Client for UDP WS-Discovery
 ms.topic: article

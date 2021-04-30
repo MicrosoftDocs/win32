@@ -1,5 +1,5 @@
 ---
-Description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from memory without compiling it.
+description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from memory without compiling it.
 ms.assetid: 099bc010-1269-4833-8a96-a7c78ed48206
 title: D3DX10PreprocessShaderFromMemory function (D3DX10.h)
 ms.topic: reference
@@ -129,7 +129,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

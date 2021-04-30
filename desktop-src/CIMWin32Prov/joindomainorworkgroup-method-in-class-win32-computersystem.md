@@ -1,5 +1,5 @@
 ---
-Description: Joins a computer system to a domain or workgroup.
+description: Joins a computer system to a domain or workgroup.
 ms.assetid: b9421f04-9b56-4413-af5c-12dffeb6f0c8
 ms.tgt_platform: multiple
 title: JoinDomainOrWorkgroup method of the Win32_ComputerSystem class
@@ -436,7 +436,7 @@ ReturnValue = objComputer.JoinDomainOrWorkGroup(strDomain, _
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The SetPrinterData function sets the configuration data for a printer or print server.
+description: The SetPrinterData function sets the configuration data for a printer or print server.
 ms.assetid: 16072de9-98fb-4ada-8216-180b64cf44c8
 title: SetPrinterData function (Winspool.h)
 ms.topic: reference
@@ -173,7 +173,7 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

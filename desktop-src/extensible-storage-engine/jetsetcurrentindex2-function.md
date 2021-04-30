@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetCurrentIndex2 Function"
 title: JetSetCurrentIndex2 Function
 TOCTitle: JetSetCurrentIndex2 Function
 ms:assetid: da94465e-bd35-45c2-9ccc-1d2e8c34aa9a

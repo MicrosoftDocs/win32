@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the CharacterRange class. For a complete class listing, see CharacterRange Class.
+description: This topic lists the constructors of the CharacterRange class. For a complete class listing, see CharacterRange Class.
 ms.assetid: 71ca7e98-71f7-4355-886f-0edf9a3981c9
 title: CharacterRange.CharacterRange constructors (Gdiplustypes.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the constructors of the [**CharacterRange**](/windows/win32/api
 
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplustypes.h</dt> </dl> |
 

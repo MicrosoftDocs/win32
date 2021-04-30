@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasePatchFileMismatchException members"
 title: EsentDatabasePatchFileMismatchException members
 TOCTitle: EsentDatabasePatchFileMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabasePatchFileMismatchException

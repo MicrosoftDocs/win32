@@ -1,5 +1,5 @@
 ---
-Description: Explains how to establish a security context that protects communications between a client and server.
+description: Explains how to establish a security context that protects communications between a client and server.
 ms.assetid: eb1eadb2-14b2-4265-994a-dcea4208e650
 title: Creating an Schannel Security Context
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDefaultValueTooBigException constructor"
 title: EsentDefaultValueTooBigException constructor 
 TOCTitle: 'EsentDefaultValueTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException.#ctor

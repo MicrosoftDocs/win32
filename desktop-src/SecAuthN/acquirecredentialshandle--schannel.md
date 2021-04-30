@@ -1,5 +1,5 @@
 ---
-Description: Acquires a handle to preexisting credentials of a security principal that is using Schannel.
+description: Acquires a handle to preexisting credentials of a security principal that is using Schannel.
 ms.assetid: 0f006670-a1e5-47ed-baf5-ed55bd42b468
 title: AcquireCredentialsHandle (Schannel) function (Sspi.h)
 ms.topic: reference
@@ -167,7 +167,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

@@ -1,5 +1,5 @@
 ---
-Description: The PlayBackwards event is sent when the PlayBackwards command has been enabled or disabled.
+description: The PlayBackwards event is sent when the PlayBackwards command has been enabled or disabled.
 ms.assetid: '35e1deaf-7ca0-4bf5-a0ac-5e02f5edb646'
 title: PlayBackwards
 ms.topic: article

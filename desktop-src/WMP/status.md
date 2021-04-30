@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Status
+# Status (Windows Media Player SDK)
 
 You may want to use a status display in your skin. If so, the status element must be defined in the skin definition file. As an alternative, you may also display this information by using the Status attribute in the Text element.
 

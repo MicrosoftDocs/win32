@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_NetworkAdapter class is deprecated. Use the MSFT\_NetAdapter class instead. The Win32\_NetworkAdapterWMI class represents a network adapter of a computer running a Windows operating system.
+description: The Win32\_NetworkAdapter class is deprecated. Use the MSFT\_NetAdapter class instead. The Win32\_NetworkAdapterWMI class represents a network adapter of a computer running a Windows operating system.
 ms.assetid: f79cb2a1-a249-479d-a495-37a44fdea995
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapter class
@@ -1987,7 +1987,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

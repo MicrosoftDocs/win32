@@ -1,5 +1,5 @@
 ---
-Description: The SetTargetRect method sets the target rectangle.
+description: The SetTargetRect method sets the target rectangle.
 ms.assetid: 033f8bae-e63d-4be0-8dd0-715cc1229392
 title: CDrawImage.SetTargetRect method (Winutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Before calling this method, validate the rectangle given in *pTargetRect*, relat
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

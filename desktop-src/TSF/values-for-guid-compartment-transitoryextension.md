@@ -47,7 +47,7 @@ This value starts the transitory extension with the popup UI at the IP or the se
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

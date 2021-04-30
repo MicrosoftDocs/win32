@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the heartbeat service, which is responsible for monitoring the state of a virtual machine by reporting a heartbeat at regular intervals.
+description: Represents the state of the heartbeat service, which is responsible for monitoring the state of a virtual machine by reporting a heartbeat at regular intervals.
 ms.assetid: 72DB3CD9-B083-4483-BCCD-DC8C140DDBF4
 title: Msvm_HeartbeatComponent class
 ms.topic: reference
@@ -921,7 +921,7 @@ GetAppHealthStatus(
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

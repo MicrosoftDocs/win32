@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Conversions members"
 title: Conversions members
 TOCTitle: Conversions members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Conversions

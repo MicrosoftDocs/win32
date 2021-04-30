@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PWM Structures"
 ms.assetid: 992E3913-C1C4-48C1-A550-475CF44AB065
 title: PWM Structures
 ms.topic: article

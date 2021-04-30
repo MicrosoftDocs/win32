@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDbtimeValuesException class"
 title: EsentOutOfDbtimeValuesException class
 TOCTitle: EsentOutOfDbtimeValuesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException

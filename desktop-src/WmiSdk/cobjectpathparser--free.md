@@ -1,5 +1,5 @@
 ---
-Description: An overloaded method that releases the memory that contains the path.
+description: An overloaded method that releases the memory that contains the path.
 audience: developer
 ms.assetid: 9164d7b2-15b8-4b73-ab8c-68ed45692ea0
 ms.tgt_platform: multiple
@@ -29,7 +29,7 @@ An overloaded method that releases the memory that contains the path.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |

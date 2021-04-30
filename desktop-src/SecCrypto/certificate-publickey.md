@@ -1,5 +1,5 @@
 ---
-Description: The PublicKey method returns the public key object for a Certificate object.
+description: The PublicKey method returns the public key object for a Certificate object.
 ms.assetid: 9a7ea6d5-365e-4360-ab50-2bafcfaecaa0
 title: Certificate.PublicKey method
 ms.topic: reference
@@ -38,7 +38,7 @@ This method has no parameters.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

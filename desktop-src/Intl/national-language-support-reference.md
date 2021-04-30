@@ -1,5 +1,5 @@
 ---
-Description: National Language Support Reference
+description: National Language Support Reference
 ms.assetid: 84947601-f92e-4141-8ff5-0ddb8346d407
 title: National Language Support Reference
 ms.topic: article

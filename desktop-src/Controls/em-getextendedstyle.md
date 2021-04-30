@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 10/19/2018
 ---
 
-# TVM\_GETEXTENDEDSTYLE message
+# EM_GETEXTENDEDSTYLE message (Commctrl.h)
 
 Retrieves the extended style for a tree-view control. Send this message explicitly or by using the [**Edit\_GetExtendedStyle**](/windows/desktop/api/Commctrl/nf-commctrl-edit_getextendedstyle) macro.
 
@@ -42,7 +42,7 @@ The extended styles for an edit control have nothing to do with the extended sty
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1809 \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                  |

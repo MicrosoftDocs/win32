@@ -1,5 +1,5 @@
 ---
-Description: The UILevel property of the Installer object is a read-write property that indicates the type of user interface to be used when opening and processing subsequent packages within the current process space.
+description: The UILevel property of the Installer object is a read-write property that indicates the type of user interface to be used when opening and processing subsequent packages within the current process space.
 ms.assetid: c89545b5-aeb7-4b05-94b0-d6e2a237152e
 title: Installer.UILevel property
 ms.topic: reference
@@ -59,7 +59,7 @@ See also, [Determining UI Level from a Custom Action](determining-ui-level-from-
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

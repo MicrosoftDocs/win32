@@ -1,5 +1,5 @@
 ---
-Description: Two types of track terminals are defined Recording Track Terminal and Playback Track Terminal which respectively belong to and are managed by File Recording Terminal and File Playback Terminal.
+description: Two types of track terminals are defined Recording Track Terminal and Playback Track Terminal which respectively belong to and are managed by File Recording Terminal and File Playback Terminal.
 ms.assetid: 2c5c485e-d46f-4bfe-8651-5ed021b23b66
 title: Track Terminals
 ms.topic: article

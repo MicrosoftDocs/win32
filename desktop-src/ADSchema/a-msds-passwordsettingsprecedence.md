@@ -22,7 +22,7 @@ Password settings precedence.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Password-Settings-Precedence   |
 | Ldap-Display-Name | msDS-PasswordSettingsPrecedence      |
@@ -45,7 +45,7 @@ Password settings precedence.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -66,7 +66,7 @@ Password settings precedence.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -87,7 +87,7 @@ Password settings precedence.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |

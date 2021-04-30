@@ -1,5 +1,5 @@
 ---
-Description: The get\_WindowStyle method retrieves the standard window styles.
+description: The get\_WindowStyle method retrieves the standard window styles.
 ms.assetid: 5c204814-5c7c-47e2-95dd-86455ed77cc7
 title: CBaseControlWindow.get_WindowStyle method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function returns the standard window styles, such as WS\_CHILD and W
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

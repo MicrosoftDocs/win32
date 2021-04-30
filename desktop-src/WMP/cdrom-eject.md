@@ -1,6 +1,6 @@
 ---
 title: Cdrom.eject method
-description: The eject method ejects the CD or DVD from the drive.
+description: The eject method ejects the CD or DVD from the drive. | Cdrom.eject method
 ms.assetid: f43c7f10-7de2-488c-833a-ecd3ac21744b
 keywords:
 - eject method Windows Media Player
@@ -66,7 +66,7 @@ The following example creates an HTML button element that uses *Cdrom*.**eject**
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

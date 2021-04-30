@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageNotInitializedException methods"
 title: EsentPageNotInitializedException methods
 TOCTitle: EsentPageNotInitializedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageNotInitializedException

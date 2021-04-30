@@ -1,5 +1,5 @@
 ---
-Description: Gets the speaker configuration for the audio channels in the audio bit stream.
+description: Gets the speaker configuration for the audio channels in the audio bit stream.
 ms.assetid: ec13bb55-47af-4d79-9560-d297bce8e236
 title: AVAudioChannelConfig property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The number of channels includes the low frequency effect (LFE) channel, if prese
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

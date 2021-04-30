@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo methods"
 title: ColumnInfo methods
 TOCTitle: ColumnInfo methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnInfo

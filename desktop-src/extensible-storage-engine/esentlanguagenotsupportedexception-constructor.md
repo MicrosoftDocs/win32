@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLanguageNotSupportedException constructor"
 title: EsentLanguageNotSupportedException constructor 
 TOCTitle: 'EsentLanguageNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLanguageNotSupportedException.#ctor

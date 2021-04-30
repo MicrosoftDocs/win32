@@ -1,5 +1,5 @@
 ---
-Description: Attaches the ISCard object to an open and configured smart card handle.
+description: Attaches the ISCard object to an open and configured smart card handle.
 ms.assetid: e735d33d-a337-404e-a760-4cf8f19d172a
 title: ISCard::AttachByHandle method (Scardmgr.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

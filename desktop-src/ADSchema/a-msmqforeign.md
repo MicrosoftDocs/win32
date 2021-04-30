@@ -22,7 +22,7 @@ Indicates whether this computer is a foreign MSMQ computer.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | MSMQ-Foreign                         |
 | Ldap-Display-Name | mSMQForeign                          |
@@ -48,7 +48,7 @@ Indicates whether this computer is a foreign MSMQ computer.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -69,7 +69,7 @@ Indicates whether this computer is a foreign MSMQ computer.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -90,7 +90,7 @@ Indicates whether this computer is a foreign MSMQ computer.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -111,7 +111,7 @@ Indicates whether this computer is a foreign MSMQ computer.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -132,7 +132,7 @@ Indicates whether this computer is a foreign MSMQ computer.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -153,7 +153,7 @@ Indicates whether this computer is a foreign MSMQ computer.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

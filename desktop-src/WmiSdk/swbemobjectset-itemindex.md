@@ -1,5 +1,5 @@
 ---
-Description: Returns the SWbemObject associated with the specified index into the collection.
+description: Returns the SWbemObject associated with the specified index into the collection.
 ms.assetid: 75830f78-0489-4fae-bf9c-2eee8526232e
 ms.tgt_platform: multiple
 title: SWbemObjectSet.ItemIndex method (Wbemdisp.h)
@@ -157,7 +157,7 @@ Win32_AutochkSetting.SettingID="Windows Server 2008
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

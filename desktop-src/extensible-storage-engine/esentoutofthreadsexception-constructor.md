@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfThreadsException constructor"
 title: EsentOutOfThreadsException constructor 
 TOCTitle: 'EsentOutOfThreadsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfThreadsException.#ctor

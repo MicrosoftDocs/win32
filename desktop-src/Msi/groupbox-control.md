@@ -1,5 +1,5 @@
 ---
-Description: The GroupBox control displays a rectangle, possibly with caption text, that serves to group other controls together on the dialog box.
+description: The GroupBox control displays a rectangle, possibly with caption text, that serves to group other controls together on the dialog box.
 ms.assetid: e1cdcf71-876f-4115-96a4-95d8a0f61a9b
 title: GroupBox Control (Windows Installer)
 ms.topic: article

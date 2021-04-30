@@ -18,23 +18,23 @@ The Channel Layer provides an abstraction of the transport channel as well as me
 
 A [message](message.md) is an object that encapsulates network data — specifically, data that is transmitted or received over a network. The message structure is defined by SOAP, with a discrete set of headers and a message body. The headers are placed in a memory buffer, and the message body is read or written using a stream API.
 
-![](images/messageenvelope.png)
+![Diagram showing the header and body of a message.](images/messageenvelope.png)
 
 Although the data model of a message is always the XML data model, the actual wire format is flexible. Before a message is transmitted, it is encoded using a particular encoding (such as Text, Binary, or MTOM). See [**WS\_ENCODING**](/windows/desktop/api/WebServices/ne-webservices-ws_encoding) for more information on encodings.
 
-![](images/messageandencodings.png)
+![Diagram showing several message encoding formats.](images/messageandencodings.png)
 
 ## Channel
 
 A [channel](channel.md) is an object used to send and receive messages on a network between two or more endpoints.
 
-Channels have associated data that describes how to [address](endpoint-address.md) the message when it is sent. Sending a message on a channel is like placing it in a chute — the channel inlcludes the information where the message should go and how to get it there.
+Channels have associated data that describes how to [address](endpoint-address.md) the message when it is sent. Sending a message on a channel is like placing it in a chute — the channel includes the information where the message should go and how to get it there.
 
-![](images/channelsaschute.png)
+![Diagram showing channels for messages.](images/channelsaschute.png)
 
 Channels are categorized into [**channel types**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_type). A channel type specifies which direction messages can flow. The channel type also identifies whether the channel is sessionful, or sessionless. A session is defined as an abstract way of correlating messages between two or more parties. An example of a sessionful channel is a TCP channel, which uses the TCP connection as the concrete session implementation. An example of a sessionless channel is UDP, which does not have an underlying session mechanism. Although HTTP does have underlying TCP connections, this fact is not directly exposed through this API and therefore HTTP is also considered a sessionless channel.
 
-![](images/channeltypes.png)
+![Diagram showing sessionful and sessionless channel types.](images/channeltypes.png)
 
 Although channel types describe the direction and session information for a channel, they do not specify how the channel is implemented. What protocol should the channel use? How hard should the channel try to deliver the message? What kind of security is used? Is it singlecast or multicast? These settings are referred to as the "binding" of the channel. The binding consists of the following:
 
@@ -42,13 +42,13 @@ Although channel types describe the direction and session information for a chan
 -   A [**WS\_SECURITY\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_security_description), which specifies how to secure the channel.
 -   A set [**WS\_CHANNEL\_PROPERTY**](/windows/desktop/api/WebServices/ns-webservices-ws_channel_property)s, which specify additional optional settings. See [**WS\_CHANNEL\_PROPERTY\_ID**](/windows/desktop/api/WebServices/ne-webservices-ws_channel_property_id) for the list of properties.
 
-![](images/channelsandbindings.png)
+![Diagram showing a list of channel properties.](images/channelsandbindings.png)
 
 ## Listener
 
 To start communicating, the client creates a Channel object. But how does the service get its Channel object? It does so by creating a [Listener](listener.md). Creating a listener requires the same binding information that is necessary to create a channel. Once a Listener has been created, the application can Accept Channels from the Listener. Since the application may fall behind in accepting channels, listeners typically keep a queue of channels that are ready to accept (up to some quota).
 
-![](images/channelaccept.png)
+![Diagram showing channels in the Listener queue.](images/channelaccept.png)
 
 ## Initiating Communication (client)
 

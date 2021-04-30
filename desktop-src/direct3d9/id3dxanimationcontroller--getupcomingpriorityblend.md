@@ -1,5 +1,5 @@
 ---
-Description: Returns an event handle to the next priority blend event scheduled to occur after a specified event.
+description: Returns an event handle to the next priority blend event scheduled to occur after a specified event.
 ms.assetid: 64fa6fca-dc4a-4534-ab8e-b11b3c7ed23c
 title: ID3DXAnimationController::GetUpcomingPriorityBlend method (D3dx9anim.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ This method can be used iteratively to locate a desired priority blend event by 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

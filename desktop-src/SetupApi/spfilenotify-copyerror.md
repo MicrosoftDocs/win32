@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_COPYERROR notification is sent to the callback routine if an error occurs during a file copy operation.
+description: The SPFILENOTIFY\_COPYERROR notification is sent to the callback routine if an error occurs during a file copy operation.
 ms.assetid: d6096954-c6a5-44d4-a358-c1320c50730a
 title: SPFILENOTIFY_COPYERROR message (Setupapi.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The callback should return one of the following values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Represents the possible handwriting recognition word matches for IContextNode objects.
+description: Represents the possible handwriting recognition word matches for IContextNode objects.
 ms.assetid: a497c140-6166-4309-af0f-851af09015c6
 title: IAnalysisAlternate interface (IACom.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ This interface is equivalent to [System.Windows.Ink.AnalysisCore.AnalysisAlterna
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

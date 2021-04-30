@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_InfraredDevice WMI class represents the capabilities and management of an infrared device.
+description: The Win32\_InfraredDevice WMI class represents the capabilities and management of an infrared device.
 ms.assetid: f129e7ce-4d50-44d0-877c-968f4865b781
 ms.tgt_platform: multiple
 title: Win32_InfraredDevice class
@@ -1574,7 +1574,7 @@ The **Win32\_InfraredDevice** class is derived from [**CIM\_InfraredController**
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

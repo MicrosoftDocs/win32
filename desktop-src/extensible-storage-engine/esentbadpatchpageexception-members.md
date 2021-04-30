@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPatchPageException members"
 title: EsentBadPatchPageException members
 TOCTitle: EsentBadPatchPageException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadPatchPageException

@@ -1,7 +1,9 @@
 ---
-Description: 'Provides information to the IQueryAssociations interface methods.'
+description: 'Provides information to the IQueryAssociations interface methods.'
 ms.assetid: 'e67d0282-9090-43e6-aedf-bb1fc0443221'
 title: ASSOCF enumeration
+ms.topic: reference
+ms.date: 05/31/2018
 ---
 
 # ASSOCF enumeration
@@ -49,7 +51,7 @@ Identifies the value of the *pwszAssoc* parameter of [**IQueryAssociations::Init
 
  <span id="ASSOCF_OPEN_BYEXENAME"></span><span id="assocf_open_byexename"></span>**ASSOCF\_OPEN\_BYEXENAME** 
 
-Identical to [****ASSOCF\_INIT\_BYEXENAME****](ASSOCF_str.htm.md).
+Identical to **ASSOCF\_INIT\_BYEXENAME**.
 
  <span id="ASSOCF_INIT_DEFAULTTOSTAR"></span><span id="assocf_init_defaulttostar"></span>**ASSOCF\_INIT\_DEFAULTTOSTAR** 
 
@@ -105,7 +107,7 @@ Specifies that the BaseClass value should be ignored.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 2000 Professional, Windows XP \[desktop apps only\]               |
 | Minimum supported server | Windows 2000 Server \[desktop apps only\]                                 |

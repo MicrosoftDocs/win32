@@ -1,5 +1,5 @@
 ---
-Description: Begins the process of canceling a pending asynchronous search.
+description: Begins the process of canceling a pending asynchronous search.
 title: IShellFolderSearchable::CancelAsyncSearch method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -77,7 +77,7 @@ When the search is actually canceled, [**RunEnd**](ishellfoldersearchablecallbac
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

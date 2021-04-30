@@ -1,5 +1,5 @@
 ---
-Description: The ICertPropertyArchivedKeyHash interface exposes the following properties.
+description: The ICertPropertyArchivedKeyHash interface exposes the following properties.
 ms.assetid: F5A628DE-CC75-4462-A8EB-D79C6DA40739
 title: ICertPropertyArchivedKeyHash Properties
 ms.topic: reference

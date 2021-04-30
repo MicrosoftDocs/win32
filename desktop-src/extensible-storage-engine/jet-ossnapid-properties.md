@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_OSSNAPID properties"
 title: JET_OSSNAPID properties
 TOCTitle: JET_OSSNAPID properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_OSSNAPID

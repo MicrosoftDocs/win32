@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used in dynamic linking.
+description: The following functions are used in dynamic linking.
 ms.assetid: 29e50bd5-1712-407f-bcb3-50a0a22ab8b5
 title: Dynamic-Link Library Functions
 ms.topic: article

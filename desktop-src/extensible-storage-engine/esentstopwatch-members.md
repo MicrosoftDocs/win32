@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch members"
 title: EsentStopwatch members
 TOCTitle: EsentStopwatch members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStopwatch

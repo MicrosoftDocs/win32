@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SetColumnGrbit enumeration"
 title: SetColumnGrbit enumeration
 TOCTitle: SetColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SetColumnGrbit

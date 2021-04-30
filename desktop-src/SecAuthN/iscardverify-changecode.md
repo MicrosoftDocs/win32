@@ -1,5 +1,5 @@
 ---
-Description: Replaces the current CHV (card holder verification) code with new CHV code.
+description: Replaces the current CHV (card holder verification) code with new CHV code.
 ms.assetid: 8d47d842-67e8-4948-a63b-49bcfc8a69a1
 title: ISCardVerify::ChangeCode method
 ms.topic: reference
@@ -105,7 +105,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

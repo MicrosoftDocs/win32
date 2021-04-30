@@ -1,5 +1,5 @@
 ---
-Description: A Mobile Broadband v2 Profile is comprised of the following elements.
+description: A Mobile Broadband v2 Profile is comprised of the following elements.
 ms.assetid: 5B4A278C-C35E-496E-A5B8-6C98124689FB
 title: Mobile Broadband Profile Schema v2 Elements
 ms.topic: reference

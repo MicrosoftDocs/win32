@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDatabaseSpaceException properties"
 title: EsentOutOfDatabaseSpaceException properties
 TOCTitle: EsentOutOfDatabaseSpaceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfDatabaseSpaceException

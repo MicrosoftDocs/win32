@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets 2 extends the functionality of Windows Sockets 1.1 in a number of areas. The following table summarizes some of the major feature changes.
+description: Windows Sockets 2 extends the functionality of Windows Sockets 1.1 in a number of areas. The following table summarizes some of the major feature changes.
 ms.assetid: 26bfb614-5700-44d3-b4fb-1002d757d15e
 title: Winsock Programming Considerations
 ms.topic: article

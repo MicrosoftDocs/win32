@@ -1,6 +1,6 @@
 ---
 title: Player.MediaCollectionAttributeStringRemoved event
-description: The MediaCollectionAttributeStringRemoved event occurs when an attribute value is removed from the library.
+description: The MediaCollectionAttributeStringRemoved event occurs when an attribute value is removed from the library. | Player.MediaCollectionAttributeStringRemoved event
 ms.assetid: f1253996-10d1-42fa-89f9-1e52ca830aea
 keywords:
 - MediaCollectionAttributeStringRemoved event Windows Media Player
@@ -68,7 +68,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

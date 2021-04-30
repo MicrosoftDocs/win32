@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS members"
 title: JET_LS members
 TOCTitle: JET_LS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_LS

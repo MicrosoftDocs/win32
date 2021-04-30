@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Signer objects.
+description: Represents a collection of Signer objects.
 ms.assetid: '72e86acd-eb87-4eff-bd4e-327630ebbfc4'
 title: Signers object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Signers object
 
-\[The **Signers** object is available for use in the operating systems specified in the Requirements section. Instead, use a collection of CmsSigner objects. For more information, see the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Signers** object is available for use in the operating systems specified in the Requirements section. Instead, use a collection of CmsSigner objects. For more information, see the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Signers** object represents a collection of [**Signer**](signer.md) objects.
 
@@ -59,7 +59,7 @@ The **Signers** object cannot be created.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

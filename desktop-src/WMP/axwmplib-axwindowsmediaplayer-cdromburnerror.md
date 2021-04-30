@@ -57,7 +57,7 @@ To capture media specific errors, handle the AxWMPLib.\_WMPOCXEvents\_CdromBurnM
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11<br/>                                                                                         |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

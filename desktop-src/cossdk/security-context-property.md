@@ -1,5 +1,5 @@
 ---
-Description: Security Context Property
+description: Security Context Property
 ms.assetid: 7ffae145-be13-4a2c-beb1-eaa1d11ad9a7
 title: Security Context Property
 ms.topic: article

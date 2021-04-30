@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the next item from the queue.
+description: Retrieves the next item from the queue.
 ms.assetid: 406ae640-5903-427d-91f9-8b01beb1aaa7
 title: CQueue.GetQueueObject method (Wxutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method blocks until an item is available on the queue.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

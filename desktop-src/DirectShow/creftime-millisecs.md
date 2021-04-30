@@ -1,5 +1,5 @@
 ---
-Description: The Millisecs method converts the reference time to milliseconds.
+description: The Millisecs method converts the reference time to milliseconds.
 ms.assetid: 06c35984-ac01-45fb-8b2e-2a9767412010
 title: CRefTime.Millisecs method (Reftime.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the reference time in milliseconds.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Reftime.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

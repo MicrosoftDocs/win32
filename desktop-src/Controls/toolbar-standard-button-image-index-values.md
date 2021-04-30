@@ -118,9 +118,9 @@ Each of the following headings contains an image list of the large icons, an ima
 
 **IDB\_HIST\_LARGE\_COLOR and IDB\_HIST\_SMALL\_COLOR:**
 
-![illustration showing the large icons that correspond to the values in the following table](images/tb-stdhistimages.png)
+![Screenshot that shows the large HIST icons.](images/tb-stdhistimages.png)
 
-![illustration showing the small icons that correspond to the values in the following table](images/tb-stdsmallhistimages.png)
+![Screenshot that shows the small HIST icons.](images/tb-stdsmallhistimages.png)
 
 
 
@@ -138,9 +138,9 @@ Each of the following headings contains an image list of the large icons, an ima
 
 **IDB\_STD\_LARGE\_COLOR and IDB\_STD\_SMALL\_COLOR:**
 
-![illustration showing the large icons that correspond to the values in the following table](images/tb-stdimages.png)
+![Screenshot that shows the large S T D icons.](images/tb-stdimages.png)
 
-![illustration showing the small icons that correspond to the values in the following table](images/tb-stdsmallimages.png)
+![Screenshot that shows the small S T D icons.](images/tb-stdsmallimages.png)
 
 
 
@@ -168,9 +168,9 @@ Each of the following headings contains an image list of the large icons, an ima
 
 **IDB\_VIEW\_LARGE\_COLOR and IDB\_VIEW\_SMALL\_COLOR:**
 
-![illustration showing the large icons that correspond to the values in the following table](images/tb-stdviewimages.png)
+![Screenshot that shows the large VIEW icons.](images/tb-stdviewimages.png)
 
-![illustration showing the small icons that correspond to the values in the following table](images/tb-stdsmallviewimages.png)
+![Screenshot that shows the small VIEW icons.](images/tb-stdsmallviewimages.png)
 
 
 
@@ -197,7 +197,7 @@ Each of the following headings contains an image list of the large icons, an ima
 
 
 
-|                   |                                                                                       |
+| Define                  | Value                                                                                      |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

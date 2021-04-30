@@ -1,5 +1,5 @@
 ---
-Description: Gets the sprite transform.
+description: Gets the sprite transform.
 ms.assetid: d91f2776-ee87-42b3-998b-fccea178cee2
 title: ID3DXSprite::GetTransform method (D3dx9core.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

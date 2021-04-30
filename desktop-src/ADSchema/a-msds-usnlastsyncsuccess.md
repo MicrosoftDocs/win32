@@ -22,7 +22,7 @@ The USN at which the last successful replication synchronization occurred.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-USN-Last-Sync-Success          |
 | Ldap-Display-Name | msDS-USNLastSyncSuccess              |
@@ -44,7 +44,7 @@ The USN at which the last successful replication synchronization occurred.
 
 
 
-|                        |                                                                                                                                  |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                               |
@@ -65,7 +65,7 @@ The USN at which the last successful replication synchronization occurred.
 
 
 
-|                        |                                                                                                                                  |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                               |
 | MAPI-Id                | \-                                                                                                                               |

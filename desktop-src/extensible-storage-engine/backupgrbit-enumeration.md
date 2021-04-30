@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BackupGrbit enumeration"
 title: BackupGrbit enumeration
 TOCTitle: BackupGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.BackupGrbit

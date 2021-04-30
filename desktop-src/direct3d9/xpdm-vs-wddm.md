@@ -1,5 +1,5 @@
 ---
-Description: The Direct3D 9 API operates on either the Windows XP display driver model (XPDM) or the Windows Vista display driver model (WDDM), depending on the operating system installed.
+description: The Direct3D 9 API operates on either the Windows XP display driver model (XPDM) or the Windows Vista display driver model (WDDM), depending on the operating system installed.
 ms.assetid: b552c822-aa01-4f1d-a0a6-1411ab006e7b
 title: XPDM vs. WDDM
 ms.topic: article

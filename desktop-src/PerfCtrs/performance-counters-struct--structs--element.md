@@ -1,5 +1,5 @@
 ---
-Description: Identifies a structure that contains the values of the counters in the parent counter set.
+description: Identifies a structure that contains the values of the counters in the parent counter set.
 ms.assetid: f232e9bb-0c65-4197-929a-b1b67340ef85
 title: struct (structs) Element
 ms.topic: reference
@@ -27,7 +27,7 @@ The **struct** element is defined by the [**structs**](performance-counters-stru
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

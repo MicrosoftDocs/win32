@@ -1,6 +1,6 @@
 ---
 title: MediaCollection.add method
-description: The add method adds a new media item or playlist to the library.
+description: The add method adds a new media item or playlist to the library. | MediaCollection.add method
 ms.assetid: '8adf93d1-368b-4916-937f-342901a1592b'
 keywords:
 - add method Windows Media Player
@@ -81,7 +81,7 @@ Player.mediaCollection.add("C:\\WMSDK\\WMPSDK\\docs\\samples\\media\\house.wma")
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

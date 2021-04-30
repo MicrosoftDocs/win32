@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BoolColumnValue constructor"
 title: BoolColumnValue constructor 
 TOCTitle: 'BoolColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.BoolColumnValue.#ctor

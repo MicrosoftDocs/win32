@@ -1,5 +1,5 @@
 ---
-Description: The HWConfig\_CPU class is the event type class for CPU configuration events. The following syntax is simplified from MOF code.
+description: The HWConfig\_CPU class is the event type class for CPU configuration events. The following syntax is simplified from MOF code.
 ms.assetid: a94714c6-009c-4300-a0a0-b7b3ce94f91e
 title: HWConfig_CPU class
 ms.topic: reference
@@ -153,7 +153,7 @@ Size of a swap page, in bytes.
 
 
 
-|                                     |                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                   |

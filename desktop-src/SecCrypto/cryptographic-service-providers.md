@@ -1,5 +1,5 @@
 ---
-Description: Important  This API is deprecated.
+description: Important  This API is deprecated.
 ms.assetid: 4e6eb2df-a917-4533-b9f1-8da39598d0b8
 title: Cryptographic Service Providers
 ms.topic: article

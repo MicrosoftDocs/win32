@@ -1,5 +1,5 @@
 ---
-Description: The graph is dropping samples, for quality control.
+description: The graph is dropping samples, for quality control.
 ms.assetid: a21fe766-58a5-4851-a282-883374287e18
 title: EC_QUALITY_CHANGE (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ A filter sends this event if it drops samples in response to a quality control m
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

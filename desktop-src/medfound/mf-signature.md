@@ -1,5 +1,5 @@
 ---
-Description: Contains a global revocation list (GRL) signature.
+description: Contains a global revocation list (GRL) signature.
 ms.assetid: 388a901c-6202-41cf-9c3d-f29d8ccca76b
 title: MF_SIGNATURE structure
 ms.topic: reference
@@ -64,7 +64,7 @@ This structure is not declared in an SDK header. To use this structure, add the 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,6 +1,6 @@
 ---
 title: Logon-Workstation attribute
-description: This attribute is not used.
+description: This attribute is not used. | Logon-Workstation attribute
 ms.assetid: a4f43f60-5897-4d45-8d47-54dfe3b11c76
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ This attribute is not used. See the [**User-Workstations**](a-userworkstations.m
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Logon-Workstation                                     |
 | Ldap-Display-Name | logonWorkstation                                      |
@@ -48,7 +48,7 @@ This attribute is not used. See the [**User-Workstations**](a-userworkstations.m
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ This attribute is not used. See the [**User-Workstations**](a-userworkstations.m
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ This attribute is not used. See the [**User-Workstations**](a-userworkstations.m
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ This attribute is not used. See the [**User-Workstations**](a-userworkstations.m
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ This attribute is not used. See the [**User-Workstations**](a-userworkstations.m
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ This attribute is not used. See the [**User-Workstations**](a-userworkstations.m
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

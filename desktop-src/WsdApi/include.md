@@ -1,5 +1,5 @@
 ---
-Description: Includes the contents of a macro or file in the generated output.
+description: Includes the contents of a macro or file in the generated output.
 ms.assetid: 450ccfa6-b189-4557-bcb9-4aa29ac2356e
 title: include element
 ms.topic: reference
@@ -61,7 +61,7 @@ The following XML shows how to include the **DoNotModify** macro. This XML can b
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

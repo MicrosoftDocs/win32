@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetOpenFileInstance method"
 title: Api.JetOpenFileInstance method 
 TOCTitle: 'JetOpenFileInstance method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOpenFileInstance(Microsoft.Isam.Esent.Interop.JET_INSTANCE,System.String,Microsoft.Isam.Esent.Interop.JET_HANDLE@,System.Int64@,System.Int64@)

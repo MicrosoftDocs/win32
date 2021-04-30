@@ -1,5 +1,5 @@
 ---
-Description: The CBasePropertyPage class is an abstract class for implementing a property page. Use this class if you are writing a filter (or other object) that supports property pages.
+description: The CBasePropertyPage class is an abstract class for implementing a property page. Use this class if you are writing a filter (or other object) that supports property pages.
 ms.assetid: 80e77827-ed2f-426e-aa6f-c2aa90031751
 title: CBasePropertyPage class (Cprop.h)
 ms.topic: reference
@@ -115,7 +115,7 @@ For an extended example of how to use this class to create a property page, see 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

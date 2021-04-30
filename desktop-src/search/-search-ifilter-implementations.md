@@ -1,5 +1,5 @@
 ---
-Description: Microsoft supplies several standard filters with Windows Search. Clients call these filter handlers (which are implementations of the IFilter interface) to extract text and properties from a document.
+description: Microsoft supplies several standard filters with Windows Search. Clients call these filter handlers (which are implementations of the IFilter interface) to extract text and properties from a document.
 ms.assetid: e19ae220-5c59-482e-8b02-00889600c4d6
 title: Filter Handlers that Ship with Windows
 ms.topic: article

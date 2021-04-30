@@ -1,5 +1,5 @@
 ---
-Description: The SourceListClearMediaDisk method of the Product object removes a specified disk from the set of registered disks for a product. Accepts Diskid as a parameter. This method calls MsiSourceListClearMediaDisk.
+description: The SourceListClearMediaDisk method of the Product object removes a specified disk from the set of registered disks for a product. Accepts Diskid as a parameter. This method calls MsiSourceListClearMediaDisk.
 ms.assetid: 7eec644e-5127-4c17-a8bd-6b0eb091c8aa
 title: Product.SourceListClearMediaDisk method
 ms.topic: reference
@@ -49,7 +49,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

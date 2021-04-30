@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFragmentationException constructor (String, JET_err)"
 title: EsentFragmentationException constructor (String, JET_err)
 TOCTitle: EsentFragmentationException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFragmentationException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.signLog property"
 title: JET_DBINFOMISC.signLog property 
 TOCTitle: 'signLog property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.signLog

@@ -1,5 +1,5 @@
 ---
-Description: The file input and output (I/O) functions ( CreateFile, CloseHandle, ReadFile, ReadFileEx, WriteFile, and WriteFileEx) provide the basic interface for opening and closing a communications resource handle and for performing read and write operations.
+description: The file input and output (I/O) functions ( CreateFile, CloseHandle, ReadFile, ReadFileEx, WriteFile, and WriteFileEx) provide the basic interface for opening and closing a communications resource handle and for performing read and write operations.
 ms.assetid: c0b748bf-9992-4c6f-a51f-f8a182c28245
 title: About Communications Resources
 ms.topic: article

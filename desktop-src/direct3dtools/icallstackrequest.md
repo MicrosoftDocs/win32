@@ -1,5 +1,5 @@
 ---
-Description: Request for callstack data.
+description: Request for callstack data.
 MS-HAID: vspixengine.ICallStackRequest
 MSHAttr:
 - PreferredSiteName:MSDN

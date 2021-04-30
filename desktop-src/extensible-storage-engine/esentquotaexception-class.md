@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQuotaException class"
 title: EsentQuotaException class
 TOCTitle: EsentQuotaException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentQuotaException

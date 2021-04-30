@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Conversions.CompareOptionsFromLCMapFlags method"
 title: Conversions.CompareOptionsFromLCMapFlags method 
 TOCTitle: 'CompareOptionsFromLCMapFlags method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Conversions.CompareOptionsFromLCMapFlags(System.UInt32)

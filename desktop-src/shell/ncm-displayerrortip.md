@@ -1,5 +1,5 @@
 ---
-Description: Displays an error message in the balloon tip associated with the network address control.
+description: Displays an error message in the balloon tip associated with the network address control.
 title: NCM_DISPLAYERRORTIP message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -55,7 +55,7 @@ Send this message to display an error message when an address typed into the con
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

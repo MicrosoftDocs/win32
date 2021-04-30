@@ -1,6 +1,6 @@
 ---
 title: ms-RADIUS-SavedFramedIpv6Prefix attribute
-description: Indicates an IPv6 prefix (and corresponding route) to be configured for the user.
+description: Indicates an IPv6 prefix (and corresponding route) to be configured for the user. | ms-RADIUS-SavedFramedIpv6Prefix attribute
 ms.assetid: 0d4e819b-3702-4aac-833f-e65c76b6fb68
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Indicates an IPv6 prefix (and corresponding route) to be configured for the user
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-RADIUS-SavedFramedIpv6Prefix      |
 | Ldap-Display-Name | msRADIUS-SavedFramedIpv6Prefix       |
@@ -45,7 +45,7 @@ Indicates an IPv6 prefix (and corresponding route) to be configured for the user
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Indicates an IPv6 prefix (and corresponding route) to be configured for the user
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Indicates an IPv6 prefix (and corresponding route) to be configured for the user
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

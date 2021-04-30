@@ -1,5 +1,5 @@
 ---
-Description: Removes an extended property from the collection.
+description: Removes an extended property from the collection.
 ms.assetid: 0329a158-758d-4e73-95a5-bab7307e7d70
 title: ExtendedProperties.Remove method
 ms.topic: reference
@@ -99,7 +99,7 @@ This method does not return a value.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

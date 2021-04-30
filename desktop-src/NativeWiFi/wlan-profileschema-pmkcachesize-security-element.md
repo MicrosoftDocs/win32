@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of entries in the PMK cache on the client.
+description: Specifies the number of entries in the PMK cache on the client.
 ms.assetid: 3a53f7fd-7f12-43d3-94e6-a11bec389a34
 title: PMKCacheSize (security) Element
 ms.topic: reference
@@ -47,7 +47,7 @@ The element is defined by the [**security**](wlan-profileschema-security-msm-ele
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

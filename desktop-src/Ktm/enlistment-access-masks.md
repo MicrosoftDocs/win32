@@ -1,5 +1,5 @@
 ---
-Description: KTM defines the following enlistment access masks to be used when opening enlistments.
+description: KTM defines the following enlistment access masks to be used when opening enlistments.
 ms.assetid: 93773eb7-141a-49f3-9306-ffbda2f4ab9f
 title: Enlistment Access Masks (WinNT.h)
 ms.topic: reference
@@ -141,7 +141,7 @@ This value sets all valid bits for an enlistment access value.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                     |

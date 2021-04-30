@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_BKINFO properties"
 title: JET_BKINFO properties
 TOCTitle: JET_BKINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_BKINFO

@@ -1,5 +1,5 @@
 ---
-Description: The GetAllocator method retrieves the memory allocator proposed by this pin. This method implements the IMemInputPin::GetAllocator method.
+description: CBaseInputPin.GetAllocator method - The GetAllocator method retrieves the memory allocator proposed by this pin. This method implements the IMemInputPin::GetAllocator method.
 ms.assetid: 07bc77f8-a877-4403-b424-20bda715a818
 title: CBaseInputPin.GetAllocator method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ If the method succeeds, the **IMemAllocator** interface has an outstanding refer
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Deployment Image Servicing and Management (DISM)
 ms.assetid: bbfee966-121b-4b53-9e3e-08a747559da0
 title: Deployment Image Servicing and Management (DISM)
 ms.topic: article

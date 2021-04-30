@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCCallbackUnexpectedErrorException members"
 title: EsentDTCCallbackUnexpectedErrorException members
 TOCTitle: EsentDTCCallbackUnexpectedErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException

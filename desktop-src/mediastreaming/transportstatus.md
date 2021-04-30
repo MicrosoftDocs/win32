@@ -70,7 +70,7 @@ The device s previous status to the current transport status.
 
 
 
-|                |                                                                                                                                                |
+| Requirement | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | IDL<br/> | <dl> <dt>Windows.Media.Streaming.idl (reference Windows.Media.Streaming.idl)</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordFormatConversionFailedException properties"
 title: EsentRecordFormatConversionFailedException properties
 TOCTitle: EsentRecordFormatConversionFailedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException

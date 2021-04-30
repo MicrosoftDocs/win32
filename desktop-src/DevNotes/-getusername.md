@@ -1,5 +1,5 @@
 ---
-Description: Gets the user name.
+description: Gets the user name.
 ms.assetid: 1373fc9d-ab1c-49b9-8b82-de2e99c4821c
 title: '_GetUserName function'
 ms.topic: reference
@@ -44,7 +44,7 @@ BOOL _GetUserName(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 

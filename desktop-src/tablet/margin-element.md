@@ -1,5 +1,5 @@
 ---
-Description: Defines the margin lines drawn on the page.
+description: Defines the margin lines drawn on the page.
 ms.assetid: c3047706-affd-4feb-9d48-cfb4c7dd6fa0
 title: Margin Element
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Represents an IDE controller.
+description: Represents an IDE controller.
 ms.assetid: DFD4D90E-CA91-42B3-AC88-9E9D26089C36
 title: Msvm_IDEController class
 ms.topic: reference
@@ -750,7 +750,7 @@ Access to the **Msvm\_IDEController** class might be restricted by UAC Filtering
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

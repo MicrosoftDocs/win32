@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCountryException constructor"
 title: EsentInvalidCountryException constructor 
 TOCTitle: 'EsentInvalidCountryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidCountryException.#ctor

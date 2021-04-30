@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Grbits.KeepDbAttachedAtEndOfRecovery field"
 title: Windows8Grbits.KeepDbAttachedAtEndOfRecovery field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: KeepDbAttachedAtEndOfRecovery field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits.KeepDbAttachedAtEndOfRecovery

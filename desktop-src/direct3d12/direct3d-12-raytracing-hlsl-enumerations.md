@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Raytracing HLSL Enumerations
+# Direct3D 12 Raytracing HLSL Enumerations
 
 The following HLSL enumerations support the Direct3D 12 raytracing pipeline.
 

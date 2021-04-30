@@ -1,5 +1,5 @@
 ---
-Description: The LINEADDRESSMODE\_ bit-flag constants describe various ways of identifying an address on a line device.
+description: The LINEADDRESSMODE\_ bit-flag constants describe various ways of identifying an address on a line device.
 ms.assetid: f0f132a0-2e8e-478f-909b-c100aa360daa
 title: LINEADDRESSMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ This constant is used to select an address on a line on which to originate a cal
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

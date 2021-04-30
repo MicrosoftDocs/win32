@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of the key/value pair exchange service.
+description: Represents the configured state of the key/value pair exchange service.
 ms.assetid: B7ED1091-E49A-4C38-9794-E074E6B9EF48
 title: Msvm_KvpExchangeComponentSettingData class
 ms.topic: reference
@@ -505,7 +505,7 @@ Access to the **Msvm\_KvpExchangeComponentSettingData** class might be restricte
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

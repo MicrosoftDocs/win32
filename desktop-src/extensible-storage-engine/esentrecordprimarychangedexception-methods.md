@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordPrimaryChangedException methods"
 title: EsentRecordPrimaryChangedException methods
 TOCTitle: EsentRecordPrimaryChangedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordPrimaryChangedException

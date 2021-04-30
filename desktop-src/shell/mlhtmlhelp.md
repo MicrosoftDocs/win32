@@ -1,5 +1,5 @@
 ---
-Description: Displays a help window that corresponds to the current UI language setting.
+description: Displays a help window that corresponds to the current UI language setting.
 title: MLHtmlHelp function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -137,7 +137,7 @@ HWND hwnd = HtmlHelp(GetDesktopWindow(),
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

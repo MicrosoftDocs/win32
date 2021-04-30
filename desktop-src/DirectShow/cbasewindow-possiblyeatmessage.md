@@ -1,5 +1,5 @@
 ---
-Description: The PossiblyEatMessage method enables a derived class to forward messages to another window.
+description: The PossiblyEatMessage method enables a derived class to forward messages to another window.
 ms.assetid: d8775182-44ed-4df2-b4b8-1fdf289e2c1a
 title: CBaseWindow.PossiblyEatMessage method (Winutil.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Before the [**CBaseWindow::OnReceiveMessage**](cbasewindow-onreceivemessage.md) 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

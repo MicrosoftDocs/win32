@@ -1,5 +1,5 @@
 ---
-Description: The SetWaiting method increments the count of waiting threads.
+description: The SetWaiting method increments the count of waiting threads.
 ms.assetid: 4aec6177-fb32-44be-a58e-41a4f4aaf4f2
 title: CBaseAllocator.SetWaiting method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method increments the [**CBaseAllocator::m\_lWaiting**](cbaseallocator-m-lw
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the y-coordinate of the upper-left corner of the minimum display aperture.
+description: Specifies the y-coordinate of the upper-left corner of the minimum display aperture.
 ms.assetid: 51a7a157-6808-42c6-8567-a15af9324b79
 title: MFPKEY_RESIZE_MINAPY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The value is a fixed-point real number. The integer portion of the number is sto
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

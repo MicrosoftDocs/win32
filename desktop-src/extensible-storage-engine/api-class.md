@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api class"
 title: Api class
 TOCTitle: Api class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Api

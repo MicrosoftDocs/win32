@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONVERT constructor"
 title: JET_CONVERT constructor 
 TOCTitle: 'JET_CONVERT constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_CONVERT.#ctor

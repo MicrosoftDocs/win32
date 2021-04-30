@@ -1,5 +1,5 @@
 ---
-Description: The following diagram shows the path taken by the texture coordinates from their source, through processing, and to the rasterizer.
+description: The following diagram shows the path taken by the texture coordinates from their source, through processing, and to the rasterizer.
 ms.assetid: a6126946-8f75-4b3a-b017-d1014e917e9c
 title: Texture Coordinate Processing (Direct3D 9)
 ms.topic: article

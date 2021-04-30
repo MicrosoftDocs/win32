@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaColtyp class"
 title: VistaColtyp class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaColtyp class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp

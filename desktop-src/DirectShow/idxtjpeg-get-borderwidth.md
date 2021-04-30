@@ -1,5 +1,5 @@
 ---
-Description: The get\_BorderWidth method retrieves the width of the solid border along the edges of the wipe pattern.
+description: The get\_BorderWidth method retrieves the width of the solid border along the edges of the wipe pattern.
 ms.assetid: 85c62524-5936-475e-a73b-7a3c926bb5f0
 title: IDxtJpeg::get_BorderWidth method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CimMofDeserializer class"
 title: CimMofDeserializer class (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer class (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: T:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer

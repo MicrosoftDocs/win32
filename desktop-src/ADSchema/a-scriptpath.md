@@ -22,7 +22,7 @@ This attribute specifies the path for the user's logon script. The string can be
 
 
 
-|                   |                                                                        |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------|
 | CN                | Script-Path                                                            |
 | Ldap-Display-Name | scriptPath                                                             |
@@ -48,7 +48,7 @@ This attribute specifies the path for the user's logon script. The string can be
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ This attribute specifies the path for the user's logon script. The string can be
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ This attribute specifies the path for the user's logon script. The string can be
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ This attribute specifies the path for the user's logon script. The string can be
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ This attribute specifies the path for the user's logon script. The string can be
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ This attribute specifies the path for the user's logon script. The string can be
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

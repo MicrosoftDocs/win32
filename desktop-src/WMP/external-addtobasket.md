@@ -1,6 +1,6 @@
 ---
 title: External.addToBasket method
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.addToBasket method
 ms.assetid: c0dc8cd7-b924-47b8-b36c-caff8f1f892f
 keywords:
 - addToBasket method Windows Media Player
@@ -79,7 +79,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

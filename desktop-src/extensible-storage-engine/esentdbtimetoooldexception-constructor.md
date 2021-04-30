@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooOldException constructor"
 title: EsentDbTimeTooOldException constructor 
 TOCTitle: 'EsentDbTimeTooOldException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException.#ctor

@@ -3,6 +3,7 @@ Description: Privileges determine the type of system operations that a user acco
 ms.assetid: 973796a6-bc2e-4e64-92db-5e17b9c25460
 title: Privilege Constants (Winnt.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 
@@ -220,7 +221,7 @@ Privilege constants are defined as strings in Winnt.h. For example, the SE\_AUDI
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

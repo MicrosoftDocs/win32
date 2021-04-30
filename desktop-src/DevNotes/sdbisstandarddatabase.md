@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the specified database is one of the standard databases (Sysmain, Apphelp, Drvmain, or Msimain).
+description: Determines whether the specified database is one of the standard databases (Sysmain, Apphelp, Drvmain, or Msimain).
 ms.assetid: 7d7e3ca7-535e-40b3-b635-299eff8abea5
 title: SdbIsStandardDatabase function
 ms.topic: reference
@@ -49,7 +49,7 @@ The function returns **TRUE** if the GUID represents a standard database or **FA
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

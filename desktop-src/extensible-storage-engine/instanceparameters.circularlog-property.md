@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.CircularLog property"
 title: InstanceParameters.CircularLog property 
 TOCTitle: 'CircularLog property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CircularLog

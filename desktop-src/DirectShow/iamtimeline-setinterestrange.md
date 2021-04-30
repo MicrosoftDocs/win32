@@ -1,5 +1,5 @@
 ---
-Description: Not implemented.
+description: IAMTimeline::SetInterestRange method - Not implemented.
 ms.assetid: b803ba33-d698-449f-a540-3981c4f0826a
 title: IAMTimeline::SetInterestRange method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

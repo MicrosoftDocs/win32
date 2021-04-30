@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.cPageReferenced property"
 title: JET_THREADSTATS.cPageReferenced property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cPageReferenced property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.cPageReferenced

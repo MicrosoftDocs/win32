@@ -22,7 +22,7 @@ For a central access rule, this attribute defines the permission that is applyin
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Authz-Effective-Security-Policy          |
 | Ldap-Display-Name | msAuthz-EffectiveSecurityPolicy             |
@@ -43,7 +43,7 @@ For a central access rule, this attribute defines the permission that is applyin
 
 
 
-|                        |                                                                                |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |

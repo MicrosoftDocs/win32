@@ -22,7 +22,7 @@ Backlink to TDO Ingress rules link on object.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-TDO-Ingress-BL                    |
 | Ldap-Display-Name | msDS-TDOIngressBL                       |
@@ -43,7 +43,7 @@ Backlink to TDO Ingress rules link on object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2191                            |
 | MAPI-Id                | \-                              |

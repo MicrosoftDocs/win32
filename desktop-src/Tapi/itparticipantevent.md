@@ -1,5 +1,5 @@
 ---
-Description: The ITParticipantEvent interface contains methods that retrieve the description of participant events.
+description: The ITParticipantEvent interface contains methods that retrieve the description of participant events.
 ms.assetid: 1199ec91-ee06-4e6c-8d8f-1585a3da3db0
 title: ITParticipantEvent interface (Confpriv.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The **ITParticipantEvent** interface has these methods.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

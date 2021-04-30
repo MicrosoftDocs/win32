@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the item is a shortcut.
+description: Indicates whether the item is a shortcut.
 ms.assetid: f3400f0b-5c7f-4d41-a162-1c35014082ac
 title: FolderItem.IsLink property (Shldisp.h)
 ms.topic: reference
@@ -141,7 +141,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

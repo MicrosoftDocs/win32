@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException constructor (String, JET_err)"
 title: EsentResourceException constructor (String, JET_err)
 TOCTitle: EsentResourceException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResourceException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)

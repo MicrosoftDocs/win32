@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaTime method retrieves the time stamps on the current sample.
+description: CPosPassThru.GetMediaTime method - The GetMediaTime method retrieves the time stamps on the current sample.
 ms.assetid: 36f3b6d3-b884-4168-94f3-f334a5056c7d
 title: CPosPassThru.GetMediaTime method (Ctlutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Override this method if your filter caches the time stamps on the samples it rec
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

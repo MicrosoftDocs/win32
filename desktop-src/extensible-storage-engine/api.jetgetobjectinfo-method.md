@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetGetObjectInfo method"
 title: Api.JetGetObjectInfo method 
 TOCTitle: 'JetGetObjectInfo method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetGetObjectInfo

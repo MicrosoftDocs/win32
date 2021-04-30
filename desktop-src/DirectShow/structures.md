@@ -1,5 +1,5 @@
 ---
-Description: Structures
+description: Structures
 ms.assetid: '74f999c8-2602-42b0-97e4-2c626013fab3'
 title: DirectShow structures
 ms.topic: article

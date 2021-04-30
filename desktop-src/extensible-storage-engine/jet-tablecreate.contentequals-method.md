@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.ContentEquals method"
 title: JET_TABLECREATE.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ContentEquals(Microsoft.Isam.Esent.Interop.JET_TABLECREATE)

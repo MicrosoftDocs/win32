@@ -1,5 +1,5 @@
 ---
-Description: This structure contains information about a slot on a device.
+description: This structure contains information about a slot on a device.
 ms.assetid: 37475351-DE0F-4B80-B26B-1482FBCC16CD
 title: STORAGE_HW_FIRMWARE_SLOT_INFO structure (Winioctl.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ The revision of the firmware on this slot.
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                        |

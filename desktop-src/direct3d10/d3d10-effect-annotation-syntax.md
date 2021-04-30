@@ -1,5 +1,5 @@
 ---
-Description: An annotation is a user-defined piece of information, declared with the following syntax.
+description: An annotation is a user-defined piece of information, declared with the following syntax.
 ms.assetid: 9178e61e-05a4-441c-a9f1-e05e23ab48a5
 title: Annotation Syntax (Direct3D 10)
 ms.topic: reference

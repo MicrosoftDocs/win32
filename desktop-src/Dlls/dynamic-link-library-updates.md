@@ -1,5 +1,5 @@
 ---
-Description: It is sometimes necessary to replace a DLL with a newer version.
+description: It is sometimes necessary to replace a DLL with a newer version.
 ms.assetid: 82349a33-dc2c-4309-b0fc-890f230e3f2c
 title: Dynamic-Link Library Updates
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Flags used by the IWiaDevMgr::GetImageDlg, IWiaDevMgr2::GetImageDlg, IWiaItem::DeviceDlg, and IWiaItem2::DeviceDlg methods to control the dialog box operation.
+description: Flags used by the IWiaDevMgr::GetImageDlg, IWiaDevMgr2::GetImageDlg, IWiaItem::DeviceDlg, and IWiaItem2::DeviceDlg methods to control the dialog box operation.
 ms.assetid: 468a3c9e-64f8-456d-aad9-fa7c6876fbe6
 title: WiaFlag (Wiadef.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Flags used by the [**IWiaDevMgr::GetImageDlg**](/windows/desktop/api/wia_xp/nf-w
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

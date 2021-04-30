@@ -1,5 +1,5 @@
 ---
-Description: Starts a job to create a root ResourcePool. The ResourcePool will be scoped to the same System as this Service.
+description: Starts a job to create a root ResourcePool. The ResourcePool will be scoped to the same System as this Service.
 ms.assetid: 357880dc-125a-452c-89f5-44cd17684436
 title: CreateResourcePool method of the CIM_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -122,7 +122,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

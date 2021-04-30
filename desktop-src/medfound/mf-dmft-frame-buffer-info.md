@@ -1,5 +1,5 @@
 ---
-Description: Contains information about system-allocated frame buffers sent to the device driver.
+description: Contains information about system-allocated frame buffers sent to the device driver.
 ms.assetid: 78485F2A-A512-4FAC-8845-D2B7D7D8DCDE
 title: MF_DMFT_FRAME_BUFFER_INFO attribute (Mftransform.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Contains information about system-allocated frame buffers sent to the device dri
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mftransform.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the location to be searched for an Active Directory certificate store.
+description: Indicates the location to be searched for an Active Directory certificate store.
 ms.assetid: 56b9695e-7ab9-405b-9cae-d78c43071186
 title: CAPICOM_ACTIVE_DIRECTORY_SEARCH_LOCATION enumeration (Capicom.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ This enumeration type is used by the following property:
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Cloaking
+# Cloaking (COM)
 
 Cloaking is a COM security capability that determines what identity the client projects toward the server during impersonation. When cloaking is set, the intermediate server masks its own identity and presents the client's identity to the server that it calls on the client's behalf. Basically; the client identity that is seen by the server is the identity associated with the proxy. The proxy's identity is determined by several factors, one of which is the type of cloaking that is set (if any). Cloaking is not supported by the Schannel security provider.
 
@@ -50,7 +50,7 @@ To summarize, the identity of the client is a function of the cloaking flag set,
 
 The following flowchart illustrates how the proxy identity is determined in different situations.
 
-![](images/9e8409b7-8475-4824-bdff-cf6b09c139c5.png)
+![Diagram that shows the flow for determining the proxy identity.](images/9e8409b7-8475-4824-bdff-cf6b09c139c5.png)
 
 ## Setting Cloaking
 
@@ -82,15 +82,15 @@ For example, suppose Process A calls B, and B calls C. B has set cloaking and A 
 
 In the following illustration, Process A calls B, calls C, calls D when cloaking is not set. As a result, each intermediate process sees the identity of the process that called it.
 
-![](images/0d2eb6cf-97d6-4c4e-b97e-abad854b1120.png)
+![Diagram that shows the process when cloaking is not set.](images/0d2eb6cf-97d6-4c4e-b97e-abad854b1120.png)
 
 With static cloaking, the server sees the proxy identity that was set during the first call from the client to the server. The following figure shows an example of the proxy identity being set during a call from B to C. On a subsequent call, Process D sees B's identity when static cloaking is set by B and C.
 
-![](images/520938e0-c4a6-4ac1-937d-02baf2007a27.png)
+![Diagram that shows the process for static cloaking.](images/520938e0-c4a6-4ac1-937d-02baf2007a27.png)
 
 With dynamic cloaking, the identity of the caller during impersonation is based on the current thread token, if there is one. The following illustration shows the situation where B and C set dynamic cloaking and D sees the identity of A, despite an earlier call from B to C.
 
-![](images/d0848465-82f3-4d5a-851e-566d7800ada0.png)
+![Diagram that shows the process for dynamic cloaking.](images/d0848465-82f3-4d5a-851e-566d7800ada0.png)
 
 ## Related topics
 

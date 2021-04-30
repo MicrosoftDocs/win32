@@ -1,5 +1,5 @@
 ---
-Description: Setting the Graph Clock
+description: Setting the Graph Clock
 ms.assetid: 23deab26-6c9a-4f94-b750-11c9b1a14ce3
 title: Setting the Graph Clock
 ms.topic: article

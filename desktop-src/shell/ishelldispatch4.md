@@ -1,5 +1,5 @@
 ---
-Description: Extends the IShellDispatch3 object.
+description: Extends the IShellDispatch3 object.
 title: IShellDispatch4 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -65,7 +65,7 @@ For a discussion of Windows services, see the [Services](../services/services.md
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

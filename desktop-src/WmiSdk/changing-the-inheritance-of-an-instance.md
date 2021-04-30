@@ -1,5 +1,5 @@
 ---
-Description: You may find a situation where an instance that was created as a child of one parent class must change parent classes and become the child of a different parent class.
+description: You may find a situation where an instance that was created as a child of one parent class must change parent classes and become the child of a different parent class.
 ms.assetid: 6d0fd456-81ab-4665-bb88-f9fb29fbbd39
 ms.tgt_platform: multiple
 title: Changing the Inheritance of an Instance

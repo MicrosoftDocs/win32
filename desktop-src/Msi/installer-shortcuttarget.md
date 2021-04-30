@@ -1,5 +1,5 @@
 ---
-Description: The ShortcutTarget property of the Installer object examines a shortcut and returns its product, feature name, and component if available.
+description: The ShortcutTarget property of the Installer object examines a shortcut and returns its product, feature name, and component if available.
 ms.assetid: fd7a1d34-3013-4419-af92-0a0162c93494
 title: Installer.ShortcutTarget property
 ms.topic: reference
@@ -46,7 +46,7 @@ ShortcutTarget returns a [**Record object**](record-object.md) that contains thr
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

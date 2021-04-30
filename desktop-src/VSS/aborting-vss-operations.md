@@ -1,5 +1,5 @@
 ---
-Description: 'Abort events can be generated during a backup operation in any of the following cases:'
+description: 'Abort events can be generated during a backup operation in any of the following cases:'
 ms.assetid: c2e39cdd-0ff8-4030-9bec-9e003b4d9520
 title: Aborting VSS Operations
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The stretchmode attribute specifies how to stretch an image that does not match the output dimensions.
+description: The stretchmode attribute specifies how to stretch an image that does not match the output dimensions.
 ms.assetid: 9a26bb8b-2b1c-424a-ae30-e175c60c76a1
 title: stretchmode Attribute
 ms.topic: reference

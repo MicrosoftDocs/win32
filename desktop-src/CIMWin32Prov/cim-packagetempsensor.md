@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackageTempSensor association represents the relationship in which a temperature sensor is often installed in a package, such as a chassis or a rack, to monitor the package's environment.
+description: The CIM\_PackageTempSensor association represents the relationship in which a temperature sensor is often installed in a package, such as a chassis or a rack, to monitor the package's environment.
 ms.assetid: 79f2c4d1-5e1a-4c5f-9ef4-0c8bc3926a13
 ms.tgt_platform: multiple
 title: CIM_PackageTempSensor class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the applications contained within each partition.
+description: Specifies the applications contained within each partition.
 ms.assetid: '264a35fd-ba71-4ae9-908a-24a72167c26b'
 title: Partitions collection
 ms.topic: reference
@@ -52,7 +52,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                  |
+| Entry | Value |
 |----------------|--------------------------------------------------|
 | Description    | Determines whether this partition is changeable. |
 | Access         | ReadWrite                                        |
@@ -68,7 +68,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                   |
+| Entry | Value |
 |----------------|---------------------------------------------------|
 | Description    | Determines whether this partition can be deleted. |
 | Access         | ReadWrite                                         |
@@ -84,7 +84,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                     |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------|
 | Description    | This property represents the description identifying the partition. |
 | Access         | ReadWrite                                                           |
@@ -100,7 +100,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                    |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A GUID representing the partition. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                          |
@@ -116,7 +116,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                        |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Represents the partition name. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadWrite                                                                                                                                                                                                                              |

@@ -1,5 +1,5 @@
 ---
-Description: Simulates a key sequence using scan codes.
+description: Simulates a key sequence using scan codes.
 ms.assetid: F67D2FBA-3CE0-4135-9043-FAB59381DE3C
 title: TypeScancodes method of the Msvm_Keyboard class
 ms.topic: reference
@@ -98,7 +98,7 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

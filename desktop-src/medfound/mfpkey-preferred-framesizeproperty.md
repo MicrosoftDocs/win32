@@ -1,5 +1,5 @@
 ---
-Description: Specifies the preferred number of samples per frame.
+description: Specifies the preferred number of samples per frame.
 ms.assetid: ad629dbd-49d8-43d0-95a8-03f2043e397e
 title: MFPKEY_PREFERRED_FRAMESIZE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ To specifiy a preferred frame size, set the following properties.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

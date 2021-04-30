@@ -1,5 +1,5 @@
 ---
-Description: The Properties\_ property of the SWbemLastError object returns an SWbemPropertySet object that is a collection of the WMI properties for the current class or instance. This property is read-only.
+description: The Properties\_ property of the SWbemLastError object returns an SWbemPropertySet object that is a collection of the WMI properties for the current class or instance. This property is read-only.
 ms.assetid: 46ffadd0-82e3-4ace-85a6-a7cb4bc2f982
 ms.tgt_platform: multiple
 title: SWbemLastError.Properties_ property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemLastError.Properties_ As Object
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

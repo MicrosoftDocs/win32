@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageBoundaryException methods"
 title: EsentPageBoundaryException methods
 TOCTitle: EsentPageBoundaryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException

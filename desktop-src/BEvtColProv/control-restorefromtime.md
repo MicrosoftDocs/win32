@@ -1,5 +1,5 @@
 ---
-Description: Restore the active configuration of the collector from a backup file, selected by a timestamp.
+description: Restore the active configuration of the collector from a backup file, selected by a timestamp.
 ms.assetid: 3ee4156b-c68f-4c44-b9be-dd86e8f4b340
 ms.tgt_platform: multiple
 title: RestoreFromTime method of the Control class
@@ -198,7 +198,7 @@ Success
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

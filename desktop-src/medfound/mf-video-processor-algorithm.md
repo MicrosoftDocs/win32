@@ -1,5 +1,5 @@
 ---
-Description: Sets the algorithm used by the video processor.
+description: Sets the algorithm used by the video processor.
 ms.assetid: 68AA3D7A-787F-4F0A-A6C6-A1C7E5D99719
 title: MF_VIDEO_PROCESSOR_ALGORITHM attribute (Mfidl.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The value of this attribute is an [**MF\_VIDEO\_PROCESSOR\_ALGORITHM\_TYPE**](mf
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                              |

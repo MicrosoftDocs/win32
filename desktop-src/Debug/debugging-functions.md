@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with debugging.
+description: The following functions are used with debugging.
 ms.assetid: 95a838a2-f138-4682-b733-3f363b6c4a4b
 title: Debugging Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Xor methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
+description: This topic lists the Xor methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 ms.assetid: ce16113d-9ddc-4e17-bdda-f78d9c17f07f
 title: Region.Xor methods
 ms.date: 07/02/2019

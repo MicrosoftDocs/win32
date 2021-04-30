@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FloatColumnValue methods"
 title: FloatColumnValue methods
 TOCTitle: FloatColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.FloatColumnValue

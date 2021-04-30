@@ -1,7 +1,7 @@
 ---
 title: Rebar Sample
 ms.assetid: f26c0819-523d-42a5-be2f-3cd75748b4a6
-description: 
+description: "Learn more about: Rebar Sample"
 ms.topic: article
 ms.date: 05/31/2018
 ---

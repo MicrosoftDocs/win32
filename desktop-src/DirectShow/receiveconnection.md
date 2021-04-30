@@ -1,5 +1,5 @@
 ---
-Description: ReceiveConnection
+description: ReceiveConnection
 ms.assetid: '90a6a09a-95e1-4adf-8e0b-269f971aaa67'
 title: ReceiveConnection
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A new segment has started.
+description: A new segment has started.
 ms.assetid: 9742436a-e233-4641-a0d5-aa240cde5f28
 title: EC_SEGMENT_STARTED (Dshow.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ By default, filters do not send [**EC\_END\_OF\_SEGMENT**](ec-end-of-segment.md)
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

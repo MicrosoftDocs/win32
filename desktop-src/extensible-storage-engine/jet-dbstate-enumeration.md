@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_dbstate enumeration"
 title: JET_dbstate enumeration
 TOCTitle: JET_dbstate enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_dbstate

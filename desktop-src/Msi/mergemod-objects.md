@@ -1,5 +1,5 @@
 ---
-Description: The following table lists the Mergemod objects and interfaces.
+description: The following table lists the Mergemod objects and interfaces.
 ms.assetid: 7f242681-f8f3-494b-bdf7-eb35ab69fd6f
 title: Mergemod Objects
 ms.topic: article

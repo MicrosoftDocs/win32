@@ -1,5 +1,5 @@
 ---
-Description: A rating system that uses integer values between 1 and 99. This is the rating system used by the Windows Vista Shell.
+description: A rating system that uses integer values between 1 and 99. This is the rating system used by the Windows Vista Shell.
 ms.assetid: a6288d29-1ef3-4da1-bd30-577336ab6817
 title: System.Rating
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInDistributedTransactionException properties"
 title: EsentNotInDistributedTransactionException properties
 TOCTitle: EsentNotInDistributedTransactionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException

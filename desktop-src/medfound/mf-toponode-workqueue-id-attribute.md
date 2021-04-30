@@ -1,5 +1,5 @@
 ---
-Description: Specifies a work queue for a topology branch.
+description: Specifies a work queue for a topology branch.
 ms.assetid: 5bc7e2db-cfd2-4b94-b4d6-fe2b9ea9daf8
 title: MF_TOPONODE_WORKQUEUE_ID attribute (Mfidl.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

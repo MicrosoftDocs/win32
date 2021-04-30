@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Api class"
 title: Server2003Api class (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Api class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api

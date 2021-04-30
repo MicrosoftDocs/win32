@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileStaleException constructor"
 title: EsentSLVFileStaleException constructor 
 TOCTitle: 'EsentSLVFileStaleException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException.#ctor

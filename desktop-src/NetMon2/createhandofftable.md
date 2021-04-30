@@ -1,5 +1,5 @@
 ---
-Description: The CreateHandoffTable function creates a handoff table that includes the handoff set information stored in the INI file of the parser.
+description: The CreateHandoffTable function creates a handoff table that includes the handoff set information stored in the INI file of the parser.
 ms.assetid: 6dbca2fa-33fb-48e8-b663-be59aec6264b
 title: CreateHandoffTable function (Netmon.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ Notice that the parser application never accesses the **HANDOFFTABLE** structure
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -22,7 +22,7 @@ Reference to a replica set member's computer object.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Frs-Computer-Reference                  |
 | Ldap-Display-Name | frsComputerReference                    |
@@ -48,7 +48,7 @@ Reference to a replica set member's computer object.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | 102                                              |
 | MAPI-Id                | \-                                               |
@@ -69,7 +69,7 @@ Reference to a replica set member's computer object.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | 102                                              |
 | MAPI-Id                | \-                                               |
@@ -90,7 +90,7 @@ Reference to a replica set member's computer object.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | 102                                              |
 | MAPI-Id                | \-                                               |
@@ -111,7 +111,7 @@ Reference to a replica set member's computer object.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | 102                                              |
 | MAPI-Id                | \-                                               |
@@ -132,7 +132,7 @@ Reference to a replica set member's computer object.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | 102                                              |
 | MAPI-Id                | \-                                               |
@@ -153,7 +153,7 @@ Reference to a replica set member's computer object.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | 102                                              |
 | MAPI-Id                | \-                                               |

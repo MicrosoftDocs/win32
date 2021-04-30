@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRestoreOfNonBackupDatabaseException methods"
 title: EsentRestoreOfNonBackupDatabaseException methods
 TOCTitle: EsentRestoreOfNonBackupDatabaseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException

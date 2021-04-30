@@ -1,5 +1,5 @@
 ---
-Description: Helper object to pass seek commands upstream.
+description: CTransformOutputPin::m_pPosition member - Helper object to pass seek commands upstream.
 ms.assetid: 2ca9bae7-a133-4e09-8aa7-1c4601ec5db0
 title: CTransformOutputPin::m_pPosition member (Transfrm.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ When the pin is first queried for the [**IMediaPosition**](/windows/desktop/api/
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

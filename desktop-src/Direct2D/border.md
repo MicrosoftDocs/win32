@@ -24,9 +24,9 @@ The examples here show the output of the border effect using each mode. The outp
 
 | Before                                                    |
 |-----------------------------------------------------------|
-| ![the image before the effect.](images/border-before.jpg) |
+| ![Screenshot that shows the image before the effect.](images/border-before.jpg) |
 | After                                                     |
-| ![the image after the transform.](images/10-border.png)   |
+| ![Screenshot that shows the image after the transform.](images/10-border.png)   |
 
 
 
@@ -38,9 +38,9 @@ The examples here show the output of the border effect using each mode. The outp
 
 | Before                                                        |
 |---------------------------------------------------------------|
-| ![the image before the effect.](images/border-before.jpg)     |
+| ![Screenshot that shows the image before the effect for a clamp.](images/border-before.jpg)     |
 | After                                                         |
-| ![the image after the transform.](images/10-border-clamp.png) |
+| ![Screenshot that shows the image after the transform for a clamp.](images/10-border-clamp.png) |
 
 
 
@@ -52,9 +52,9 @@ The examples here show the output of the border effect using each mode. The outp
 
 | Before                                                       |
 |--------------------------------------------------------------|
-| ![the image before the effect.](images/border-before.jpg)    |
+| ![Screenshot that shows the image before the effect for a wrap.](images/border-before.jpg)    |
 | After                                                        |
-| ![the image after the transform.](images/10-border-wrap.png) |
+| ![Screenshot that shows the image after the transform for a wrap.](images/10-border-wrap.png) |
 
 
 
@@ -111,7 +111,7 @@ The output bitmap size is infinite for all inputs, except a 0 sized input image.
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

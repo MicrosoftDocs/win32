@@ -1,5 +1,5 @@
 ---
-Description: Raised by the Media Session when the IMFMediaSession::ClearTopologies method completes asynchronously.
+description: Raised by the Media Session when the IMFMediaSession::ClearTopologies method completes asynchronously.
 ms.assetid: 2017d13b-8dc2-48f9-a21e-7b826e174edf
 title: MESessionTopologiesCleared event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

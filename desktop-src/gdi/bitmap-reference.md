@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used with bitmaps:'
+description: 'The following elements are used with bitmaps:'
 ms.assetid: 7ce14d8c-b86c-4111-8d96-f45d3a6e21d1
 title: Bitmap Reference
 ms.topic: article

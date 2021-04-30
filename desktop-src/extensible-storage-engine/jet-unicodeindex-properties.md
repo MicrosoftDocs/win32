@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_UNICODEINDEX properties"
 title: JET_UNICODEINDEX properties
 TOCTitle: JET_UNICODEINDEX properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX

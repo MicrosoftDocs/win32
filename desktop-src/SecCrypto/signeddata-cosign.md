@@ -1,5 +1,5 @@
 ---
-Description: Creates a digital signature on previously signed content.
+description: Creates a digital signature on previously signed content.
 ms.assetid: c0a3de75-afba-45ba-b701-2729f4495eda
 title: SignedData.CoSign method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # SignedData.CoSign method
 
-\[The **CoSign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](/dotnet/api/system.security.cryptography.pkcs.signedcms?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **CoSign** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**SignedCms Class**](/dotnet/api/system.security.cryptography.pkcs.signedcms?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **CoSign** method creates a [*digital signature*](../secgloss/d-gly.md) on previously signed content.
 
@@ -90,7 +90,7 @@ The following results apply to the *Signer* parameter value:
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

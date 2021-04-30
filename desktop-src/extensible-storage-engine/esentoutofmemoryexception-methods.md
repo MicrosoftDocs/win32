@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfMemoryException methods"
 title: EsentOutOfMemoryException methods
 TOCTitle: EsentOutOfMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException

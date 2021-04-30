@@ -1,5 +1,5 @@
 ---
-Description: Create a device object.
+description: Create a device object.
 ms.assetid: 5b9b00de-c744-43c7-b383-1d3358c80741
 title: ID3DX10DataProcessor::CreateDeviceObject method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

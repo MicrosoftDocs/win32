@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooNewException class"
 title: EsentDbTimeTooNewException class
 TOCTitle: EsentDbTimeTooNewException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException

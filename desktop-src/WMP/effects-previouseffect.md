@@ -39,7 +39,7 @@ This method displays the previous visualization in the authoring order. If the c
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

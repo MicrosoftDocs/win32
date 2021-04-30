@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate a column in the Descriptor heap viewer.
+description: An enum used to indicate a column in the Descriptor heap viewer.
 MS-HAID: vspixengine.DESCRIPTOR\_HEAP\_COLUMNS
 MSHAttr:
 - PreferredSiteName:MSDN

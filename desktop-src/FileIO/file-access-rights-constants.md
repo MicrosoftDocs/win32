@@ -1,5 +1,5 @@
 ---
-Description: Lists the access rights that are specific to files and directories.
+description: Lists the access rights that are specific to files and directories.
 ms.assetid: c534e853-b61f-414d-befe-8d3c4bf08d22
 title: File Access Rights Constants (WinNT.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The valid access rights for files and directories include the **DELETE**, **READ
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

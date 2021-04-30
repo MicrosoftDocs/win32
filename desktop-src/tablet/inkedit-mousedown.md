@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user presses a mouse button while the mouse is over the InkEdit control.
+description: Occurs when the user presses a mouse button while the mouse is over the InkEdit control.
 ms.assetid: 8985fee5-7b63-46ab-b229-046e2f0ee004
 title: InkEdit.MouseDown event (Inked.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

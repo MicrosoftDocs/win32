@@ -1,5 +1,5 @@
 ---
-Description: The Stop method stops the filter.
+description: The Stop method stops the filter.
 ms.assetid: 80eac207-5db3-4b06-bbae-eca72e37d09d
 title: CBaseRenderer.Stop method (Renbase.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ This method overrides the [**CBaseFilter::Stop**](cbasefilter-stop.md) method. I
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

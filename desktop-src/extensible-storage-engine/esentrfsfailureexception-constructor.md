@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsFailureException constructor"
 title: EsentRfsFailureException constructor 
 TOCTitle: 'EsentRfsFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRfsFailureException.#ctor

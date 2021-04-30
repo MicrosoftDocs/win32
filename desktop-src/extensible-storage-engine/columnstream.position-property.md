@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.Position property"
 title: ColumnStream.Position property 
 TOCTitle: 'Position property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.Position

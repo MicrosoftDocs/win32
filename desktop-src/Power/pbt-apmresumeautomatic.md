@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications that the system is resuming from sleep or hibernation. This event is delivered every time the system resumes and does not indicate whether a user is present.
+description: Notifies applications that the system is resuming from sleep or hibernation. This event is delivered every time the system resumes and does not indicate whether a user is present.
 ms.assetid: cd331f79-b64d-479e-aea8-5118ccc87224
 title: PBT_APMRESUMEAUTOMATIC event (WinUser.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ If the system detects any user activity after broadcasting PBT\_APMRESUMEAUTOMAT
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

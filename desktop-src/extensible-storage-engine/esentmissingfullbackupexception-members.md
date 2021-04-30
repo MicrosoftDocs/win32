@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFullBackupException members"
 title: EsentMissingFullBackupException members
 TOCTitle: EsentMissingFullBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingFullBackupException

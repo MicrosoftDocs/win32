@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyKeysException members"
 title: EsentTooManyKeysException members
 TOCTitle: EsentTooManyKeysException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyKeysException

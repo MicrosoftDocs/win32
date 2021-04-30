@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: ESE Handles"
 title: ESE Handles
 TOCTitle: ESE Handles
 ms:assetid: 969ae14f-3548-431d-a19d-5df92891441d

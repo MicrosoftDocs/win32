@@ -1,5 +1,5 @@
 ---
-Description: File Writer Filter
+description: File Writer Filter
 ms.assetid: 2bfbea8a-679f-4656-9ff3-fdf34aa0eb26
 title: File Writer Filter
 ms.topic: article
@@ -19,7 +19,7 @@ The file writer filter uses the input stream's time stamps as file offsets and p
 
 
 
-|                                          |                                                                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSinkFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesinkfilter), [**IFileSinkFilter2**](/windows/desktop/api/Strmif/nn-strmif-ifilesinkfilter2), **IPersistStream** |
 | Input Pin Media Types                    | MEDIATYPE\_Stream, MEDIASUBTYPE\_NULL                                                                                                                                                              |

@@ -1,6 +1,6 @@
 ---
 title: ms-DNS-NSEC3-Current-Salt attribute
-description: An attribute that defines the current NSEC3 salt string being used to sign the DNS zone.
+description: An attribute that defines the current NSEC3 salt string being used to sign the DNS zone. | ms-DNS-NSEC3-Current-Salt attribute
 ms.assetid: 22859ec1-621b-4789-b9d6-c5e8c1f81b83
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ An attribute that defines the current NSEC3 salt string being used to sign the D
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DNS-NSEC3-Current-Salt                   |
 | Ldap-Display-Name | msDNS-NSEC3CurrentSalt                      |
@@ -43,7 +43,7 @@ An attribute that defines the current NSEC3 salt string being used to sign the D
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

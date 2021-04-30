@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits class"
 title: VistaGrbits class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaGrbits class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits

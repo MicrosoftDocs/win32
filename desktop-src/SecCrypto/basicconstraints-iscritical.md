@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the basic constraint extension is marked critical.
+description: Retrieves a Boolean value that indicates whether the basic constraint extension is marked critical.
 ms.assetid: 4e84ea58-397b-491c-bdab-b5b4d46e070e
 title: BasicConstraints.IsCritical property
 ms.topic: reference
@@ -40,7 +40,7 @@ If **true**, the basic constraint extension is marked critical.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

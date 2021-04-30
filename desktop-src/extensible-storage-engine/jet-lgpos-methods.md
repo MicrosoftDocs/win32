@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS methods"
 title: JET_LGPOS methods
 TOCTitle: JET_LGPOS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_LGPOS

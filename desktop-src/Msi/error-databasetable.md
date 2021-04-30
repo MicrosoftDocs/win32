@@ -1,5 +1,5 @@
 ---
-Description: The read-only DatabaseTable property of the Error object returns the name of the table in the database that caused the error.
+description: The read-only DatabaseTable property of the Error object returns the name of the table in the database that caused the error.
 ms.assetid: 38ff45ca-4bd6-43f3-88ad-db4077daeb77
 title: Error.DatabaseTable property (Mergemod.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ See [**get\_DatabaseTable**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-g
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

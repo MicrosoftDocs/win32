@@ -1,5 +1,5 @@
 ---
-Description: Each of the following constructors initializes a new CHString object with the specified data.
+description: Each of the following constructors initializes a new CHString object with the specified data.
 audience: developer
 ms.assetid: d49e1600-d5d4-4c44-81c5-1b8c53b768de
 ms.tgt_platform: multiple
@@ -34,7 +34,7 @@ Each of the following constructors initializes a new [**CHString**](chstring.md)
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |

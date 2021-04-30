@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Subtract method"
 title: JET_THREADSTATS.Subtract method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Subtract method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Subtract(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS,Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)

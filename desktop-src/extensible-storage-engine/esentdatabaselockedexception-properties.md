@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLockedException properties"
 title: EsentDatabaseLockedException properties
 TOCTitle: EsentDatabaseLockedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLockedException

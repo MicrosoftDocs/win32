@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO.ToString method"
 title: JET_OBJECTINFO.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.ToString

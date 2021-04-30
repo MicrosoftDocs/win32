@@ -1,5 +1,5 @@
 ---
-Description: Loads the given matrix into the current matrix.
+description: ID3DXMATRIXStack::LoadMatrix method (D3DX10.h) - Loads the given matrix into the current matrix.
 ms.assetid: b898f344-db90-48e0-b457-0eb8d7b31dca
 title: ID3DXMATRIXStack::LoadMatrix method (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::LoadMatrix method
+# ID3DXMATRIXStack::LoadMatrix method (D3DX10.h)
 
 Loads the given matrix into the current matrix.
 
@@ -58,7 +58,7 @@ Note that this method does not add an item to the stack; rather, it replaces the
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

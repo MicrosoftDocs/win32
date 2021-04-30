@@ -1,10 +1,10 @@
 ---
-Description: ModemDMConfigProfile\/Context (v4)
+description: ModemDMConfigProfile\/Context (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_Context
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: Context
+title: Context (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: 8f463f14-95b3-4364-b1b1-549a32291959

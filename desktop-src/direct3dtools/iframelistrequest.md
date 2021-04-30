@@ -1,5 +1,5 @@
 ---
-Description: Request for the list of frames with their event id and frame number.
+description: Request for the list of frames with their event id and frame number.
 MS-HAID: vspixengine.IFrameListRequest
 MSHAttr:
 - PreferredSiteName:MSDN

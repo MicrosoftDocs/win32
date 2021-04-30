@@ -86,7 +86,7 @@ Validators must return S\_OK if the [**SoHRequest**](/windows/win32/api/naptypes
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                               |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

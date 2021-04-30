@@ -1,5 +1,5 @@
 ---
-Description: An enum used to send responses from the capture engine to Graphics Diagnostics.
+description: An enum used to send responses from the capture engine to Graphics Diagnostics.
 MS-HAID: vspixengine.PixPipeResponse
 MSHAttr:
 - PreferredSiteName:MSDN

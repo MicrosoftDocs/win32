@@ -1,5 +1,5 @@
 ---
-Description: As with all important operations under VSS, incremental and differential backups require close cooperation between requesters and writers.
+description: As with all important operations under VSS, incremental and differential backups require close cooperation between requesters and writers.
 ms.assetid: 3cf5dd1f-dc58-42bc-925f-fee7d34053c5
 title: Writer Role in Backing Up Complex Stores
 ms.topic: article

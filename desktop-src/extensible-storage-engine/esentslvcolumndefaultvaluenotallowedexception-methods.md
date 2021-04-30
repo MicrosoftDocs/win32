@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnDefaultValueNotAllowedException methods"
 title: EsentSLVColumnDefaultValueNotAllowedException methods
 TOCTitle: EsentSLVColumnDefaultValueNotAllowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVColumnDefaultValueNotAllowedException

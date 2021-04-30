@@ -1,5 +1,5 @@
 ---
-Description: BoundingOrientedBox Fields
+description: BoundingOrientedBox Fields
 ms.assetid: 8d69080d-bbe7-4c62-a334-bb1e543a3c0b
 title: BoundingOrientedBox Fields
 ms.topic: reference

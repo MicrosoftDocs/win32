@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_StorageError class represents blocks of media or memory space that are mapped out-of-use due to errors. The key of the class is the StartingAddress property of the bytes in error.
+description: The CIM\_StorageError class represents blocks of media or memory space that are mapped out-of-use due to errors. The key of the class is the StartingAddress property of the bytes in error.
 ms.assetid: e786aa39-4718-416b-b659-bf4b8d3e2851
 ms.tgt_platform: multiple
 title: CIM_StorageError class
@@ -167,7 +167,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

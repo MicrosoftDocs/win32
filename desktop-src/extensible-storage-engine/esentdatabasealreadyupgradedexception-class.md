@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseAlreadyUpgradedException class"
 title: EsentDatabaseAlreadyUpgradedException class
 TOCTitle: EsentDatabaseAlreadyUpgradedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseAlreadyUpgradedException

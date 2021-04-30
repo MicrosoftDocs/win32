@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO.DeepClone method"
 title: JET_SETINFO.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SETINFO.DeepClone

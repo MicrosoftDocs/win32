@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_HANDLE operators"
 title: JET_HANDLE operators
 TOCTitle: JET_HANDLE operators
 ms:assetid: 5d3fcd9b-50a0-dfff-a38e-a6bfe82cf496

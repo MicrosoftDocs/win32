@@ -1,5 +1,5 @@
 ---
-Description: Contains information about custom buttons to be added to the File Manager toolbar. The buttons are provided by a File Manager extension DLL.
+description: Contains information about custom buttons to be added to the File Manager toolbar. The buttons are provided by a File Manager extension DLL.
 title: FMS_TOOLBARLOAD structure (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -119,7 +119,7 @@ A handle to a bitmap that File Manager will use to obtain and display button ima
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

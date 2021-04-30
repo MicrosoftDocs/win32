@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether to connect to a hidden network.
+description: Indicates whether to connect to a hidden network.
 ms.assetid: 31b859e9-adc7-49e2-91d9-4fb63a35addb
 title: nonBroadcast (SSIDConfig) Element
 ms.topic: reference
@@ -41,7 +41,7 @@ To view a sample profile that uses the **nonBroadcast** element, see [Non-Broadc
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

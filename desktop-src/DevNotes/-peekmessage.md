@@ -1,5 +1,5 @@
 ---
-Description: Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
+description: Dispatches incoming sent messages, checks the thread message queue for a posted message, and retrieves the message (if any exist).
 ms.assetid: 6b20f354-413d-4197-8b49-e6f965121865
 title: '_PeekMessage function'
 ms.topic: reference
@@ -44,7 +44,7 @@ BOOL _PeekMessage(
 
 
 
-|                |                                                                                                                                                             |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msmdun80.dll; </dt> <dt>Sqlunirl.dll</dt> </dl> |
 

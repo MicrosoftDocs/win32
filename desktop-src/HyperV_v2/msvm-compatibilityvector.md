@@ -1,5 +1,5 @@
 ---
-Description: References the compatibility info for a virtual machine (VM) (when run on a VM computer system) or a host (when run on a host computer system).
+description: References the compatibility info for a virtual machine (VM) (when run on a VM computer system) or a host (when run on a host computer system).
 ms.assetid: A3DB75BF-91C8-444E-B273-25DF8A5BFA7B
 title: Msvm_CompatibilityVector class
 ms.topic: reference
@@ -221,7 +221,7 @@ SCVMM needs to do these steps to determine whether a VM is compatible with a hos
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

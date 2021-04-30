@@ -1,5 +1,5 @@
 ---
-Description: Clones a mesh using a declarator.
+description: Clones a mesh using a declarator.
 ms.assetid: 47e0329a-ea85-478d-af8b-cf85d2a779f6
 title: ID3DXBaseMesh::CloneMesh method (D3DX9Mesh.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

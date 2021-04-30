@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileSystemCorruptionException constructor"
 title: EsentFileSystemCorruptionException constructor 
 TOCTitle: 'EsentFileSystemCorruptionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: The AutoReconnect property of the SWbemRefresher object is a Boolean value that indicates whether the refresher automatically reconnects to a remote provider if the connection is broken.
+description: The AutoReconnect property of the SWbemRefresher object is a Boolean value that indicates whether the refresher automatically reconnects to a remote provider if the connection is broken.
 ms.assetid: 3be24128-8a35-44b0-befd-8b8937eff1b7
 ms.tgt_platform: multiple
 title: SWbemRefresher.AutoReconnect property (Wbemdisp.h)
@@ -45,7 +45,7 @@ Modifying this property affects only objects in the refresher that are backed by
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -75,7 +75,7 @@ The license issuer can specify other protection systems to which the encrypted c
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wmdrmsdk.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>Wmdrmsdk.lib</dt> </dl> |

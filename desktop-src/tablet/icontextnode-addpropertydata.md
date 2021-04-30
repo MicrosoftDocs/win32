@@ -1,5 +1,5 @@
 ---
-Description: Adds a piece of application-specific data.
+description: Adds a piece of application-specific data.
 ms.assetid: 86ba37ac-8e65-4397-8ed1-37463152bebd
 title: IContextNode::AddPropertyData method (IACom.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The ink analyzer may delete the node as part of ink analysis, unless the context
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

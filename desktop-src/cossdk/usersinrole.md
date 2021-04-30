@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each user in the role to which the collection is related.
+description: UsersInRole collection - Contains an object for each user in the role to which the collection is related.
 ms.assetid: e7d9e5e8-1927-42b2-bdd5-0c49a562c31f
 title: UsersInRole collection
 ms.topic: reference
@@ -46,7 +46,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                       |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The user name. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                             |

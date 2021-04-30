@@ -1,5 +1,5 @@
 ---
-Description: Msidb.exe uses MsiDatabaseImport and MsiDatabaseExport to import and export database tables and streams.
+description: Msidb.exe uses MsiDatabaseImport and MsiDatabaseExport to import and export database tables and streams.
 ms.assetid: 2eee535f-e7f6-4e1a-9667-df4b8067b132
 title: Msidb.exe
 ms.topic: article

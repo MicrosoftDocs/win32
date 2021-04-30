@@ -22,7 +22,7 @@ This attribute represents the name of the plug-in that handles the orchestration
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-TS-Endpoint-Plugin                       |
 | Ldap-Display-Name | msTSEndpointPlugin                          |
@@ -44,7 +44,7 @@ This attribute represents the name of the plug-in that handles the orchestration
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -65,7 +65,7 @@ This attribute represents the name of the plug-in that handles the orchestration
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer can search for a specific file or directory during an installation. File or directory searches are used to determine whether a user has already installed a version of an application.
+description: Windows Installer can search for a specific file or directory during an installation. File or directory searches are used to determine whether a user has already installed a version of an application.
 ms.assetid: a78ca652-c730-4231-80f2-60cf0bad5b02
 title: Searching for Existing Applications, Files, Registry Entries or .ini File Entries
 ms.topic: article

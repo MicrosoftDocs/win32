@@ -1,5 +1,5 @@
 ---
-Description: The following tables list formats that are available for each factoid used in Chinese (Simplified).
+description: The following tables list formats that are available for each factoid used in Chinese (Simplified).
 ms.assetid: dfcefe69-dacf-4a55-a2fb-7a039fa737e7
 title: Chinese (Simplified) Factoids
 ms.topic: article

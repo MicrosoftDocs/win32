@@ -1,5 +1,5 @@
 ---
-Description: Working with DVD Text Strings
+description: Working with DVD Text Strings
 ms.assetid: 6d415ebb-5cd0-4631-9404-f2ebabef2476
 title: Working with DVD Text Strings
 ms.topic: article

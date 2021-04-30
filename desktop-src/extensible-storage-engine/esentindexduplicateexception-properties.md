@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexDuplicateException properties"
 title: EsentIndexDuplicateException properties
 TOCTitle: EsentIndexDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexDuplicateException

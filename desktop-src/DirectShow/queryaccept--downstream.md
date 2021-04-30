@@ -1,5 +1,5 @@
 ---
-Description: QueryAccept (Downstream)
+description: QueryAccept (Downstream)
 ms.assetid: 3ca30f62-c320-40ea-9bf5-022abad912c4
 title: QueryAccept (Downstream)
 ms.topic: article

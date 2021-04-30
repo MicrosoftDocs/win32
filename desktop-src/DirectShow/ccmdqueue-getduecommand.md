@@ -1,5 +1,5 @@
 ---
-Description: The GetDueCommand method retrieves a pointer to the next command that is due.
+description: The GetDueCommand method retrieves a pointer to the next command that is due.
 ms.assetid: f23434a6-ad2c-4b64-90b1-2f486a16e7e6
 title: CCmdQueue.GetDueCommand method (Winutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This member function blocks until a pending command is due. The member function 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

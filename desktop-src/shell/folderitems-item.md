@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the FolderItem object for a specified item in the collection.
+description: Retrieves the FolderItem object for a specified item in the collection.
 ms.assetid: 164f823d-12d9-4950-a881-63837c53760d
 title: FolderItems.Item method (Shldisp.h)
 ms.topic: reference
@@ -159,7 +159,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

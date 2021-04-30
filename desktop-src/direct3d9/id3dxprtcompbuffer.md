@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXPRTCompBuffer interface stores a compressed version of a ID3DXPRTBuffer buffer, for use with principal component analysis (PCA).
+description: The ID3DXPRTCompBuffer interface stores a compressed version of a ID3DXPRTBuffer buffer, for use with principal component analysis (PCA).
 ms.assetid: 97f8576c-24d5-4f60-923b-4d8d94382fe9
 title: ID3DXPRTCompBuffer interface (D3DX9Mesh.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ typedef interface ID3DXPRTCompBuffer *LPD3DXPRTCOMPBUFFER;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

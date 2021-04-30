@@ -52,7 +52,7 @@ A window receives this message through its [**WindowProc**](/previous-versions/w
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

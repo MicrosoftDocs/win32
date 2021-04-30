@@ -1,5 +1,5 @@
 ---
-Description: Input Method Manager Constants
+description: Input Method Manager Constants
 ms.assetid: 19c15148-7258-44da-aed3-41def992afb3
 title: Input Method Manager Constants
 ms.topic: article

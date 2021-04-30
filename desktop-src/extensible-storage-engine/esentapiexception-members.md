@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentApiException members"
 title: EsentApiException members
 TOCTitle: EsentApiException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentApiException

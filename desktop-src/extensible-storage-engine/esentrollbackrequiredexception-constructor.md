@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRollbackRequiredException constructor"
 title: EsentRollbackRequiredException constructor 
 TOCTitle: 'EsentRollbackRequiredException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRollbackRequiredException.#ctor

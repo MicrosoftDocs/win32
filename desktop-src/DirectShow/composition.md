@@ -1,5 +1,5 @@
 ---
-Description: Composition
+description: Composition
 ms.assetid: b5f607b2-9cca-4eef-9c63-d2015bd10469
 title: Composition
 ms.topic: article

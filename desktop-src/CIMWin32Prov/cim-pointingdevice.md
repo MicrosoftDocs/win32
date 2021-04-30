@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PointingDevice class represents a device that points to regions on the display. Any device that manipulates a pointer, or points to regions on a visual display, is a member of this class. For example, a mouse, stylus, touch pad, or tablet.
+description: The CIM\_PointingDevice class represents a device that points to regions on the display. Any device that manipulates a pointer, or points to regions on a visual display, is a member of this class. For example, a mouse, stylus, touch pad, or tablet.
 ms.assetid: b093134a-534a-4680-8fce-d96baff26139
 ms.tgt_platform: multiple
 title: CIM_PointingDevice class (CIMWin32 WMI Providers)
@@ -40,7 +40,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_PointingDevice class
+# CIM_PointingDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_PointingDevice** class represents a device that points to regions on the display. Any device that manipulates a pointer, or points to regions on a visual display, is a member of this class. For example, a mouse, stylus, touch pad, or tablet.
 
@@ -1363,7 +1363,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

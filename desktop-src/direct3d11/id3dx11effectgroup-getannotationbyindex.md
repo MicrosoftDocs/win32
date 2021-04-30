@@ -1,6 +1,6 @@
 ---
 title: ID3DX11EffectGroup GetAnnotationByIndex method (D3dx11effect.h)
-description: Get an annotation by index.
+description: Get an annotation by index. | ID3DX11EffectGroup GetAnnotationByIndex method (D3dx11effect.h)
 ms.assetid: 9d3a54b1-384b-4ed4-96a3-09d6bacafda1
 keywords:
 - GetAnnotationByIndex method Direct3D 11
@@ -64,7 +64,7 @@ Pointer to an [**ID3DX11EffectVariable**](id3dx11effectvariable.md) interface.
 
 
 
-|                    |                                                                                                                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx11effect.h</dt> </dl>                                                    |
 | Library<br/> | <dl> <dt>N/A (An Effects 11 library is available online as shared source.)</dt> </dl> |

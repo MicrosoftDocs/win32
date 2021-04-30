@@ -1,5 +1,5 @@
 ---
-Description: Determines if the current user can start and stop the named service.
+description: Shell.CanStartStopService method - Determines if the current user can start and stop the named service.
 ms.assetid: 1428F529-61F6-4113-A553-2C0D617FD859
 title: Shell.CanStartStopService method (Shldisp.h)
 ms.topic: reference
@@ -116,7 +116,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

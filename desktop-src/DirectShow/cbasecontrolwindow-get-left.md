@@ -1,5 +1,5 @@
 ---
-Description: The get\_Left method retrieves the current left window coordinate.
+description: The get\_Left method retrieves the current left window coordinate.
 ms.assetid: 9ee71bd3-1ff5-4574-8dcd-5ba6490d9785
 title: CBaseControlWindow.get_Left method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Setting the left or top coordinates moves the window left and up, respectively; 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

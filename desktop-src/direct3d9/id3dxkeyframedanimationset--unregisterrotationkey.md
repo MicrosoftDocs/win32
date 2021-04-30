@@ -1,5 +1,5 @@
 ---
-Description: Removes the rotation data at the specified key frame.
+description: Removes the rotation data at the specified key frame.
 ms.assetid: 8e95d684-fa22-4eba-a721-e7551e8f393b
 title: ID3DXKeyframedAnimationSet::UnregisterRotationKey method (D3dx9anim.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This method is slow and should not be used after an animation has begun to play.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

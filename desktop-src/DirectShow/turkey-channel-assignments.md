@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the frequency tables used for analog TV tuning for Turkey.
+description: This topic lists the frequency tables used for analog TV tuning for Turkey.
 ms.assetid: 840dbd02-a500-47fe-b8ce-5ed2e902b4a6
 title: Turkey Channel Assignments
 ms.topic: article

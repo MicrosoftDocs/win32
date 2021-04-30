@@ -1,5 +1,5 @@
 ---
-Description: MSDVDAdm Object
+description: MSDVDAdm Object
 ms.assetid: 753d2820-4d47-4e07-9f54-9b996e55f0b6
 title: MSDVDAdm Object
 ms.topic: article

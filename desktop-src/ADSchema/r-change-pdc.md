@@ -21,7 +21,7 @@ Extended right needed to change the primary domain controller (PDC) emulator FSM
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Change-PDC                           |
 | Display-Name | Change PDC                           |
@@ -42,7 +42,7 @@ Extended right needed to change the primary domain controller (PDC) emulator FSM
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 34                                           |
@@ -53,7 +53,7 @@ Extended right needed to change the primary domain controller (PDC) emulator FSM
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 34                                           |
@@ -64,7 +64,7 @@ Extended right needed to change the primary domain controller (PDC) emulator FSM
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 34                                           |
@@ -75,7 +75,7 @@ Extended right needed to change the primary domain controller (PDC) emulator FSM
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 34                                           |
@@ -86,7 +86,7 @@ Extended right needed to change the primary domain controller (PDC) emulator FSM
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 34                                           |
@@ -97,7 +97,7 @@ Extended right needed to change the primary domain controller (PDC) emulator FSM
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 34                                           |

@@ -1,5 +1,5 @@
 ---
-Description: 'DirectShow: Appendix'
+description: 'DirectShow: Appendix'
 ms.assetid: 94cfa199-5be7-4dc2-a78e-a9d1313a26ad
 title: 'DirectShow: Appendix'
 ms.topic: article

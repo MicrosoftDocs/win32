@@ -1,5 +1,5 @@
 ---
-Description: Represents a color value with alpha, which is used for transparency.
+description: DXGI_RGBA structure - Represents a color value with alpha, which is used for transparency.
 ms.assetid: 5F9DDDC1-644E-4DA2-8E3D-F157789809E7
 title: DXGI_RGBA structure (DXGItype.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ You can use **DXGI\_RGBA** with [**IDXGISwapChain1::SetBackgroundColor**](/windo
 
 
 
-|                                     |                                                                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 and Platform Update for Windows 7 \[desktop apps \| UWP apps\]<br/>                        |
 | Minimum supported server<br/> | Windows Server 2012 and Platform Update for Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/> |

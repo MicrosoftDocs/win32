@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the current selection of text in the InkEdit control has changed or the insertion point has moved.
+description: Occurs when the current selection of text in the InkEdit control has changed or the insertion point has moved.
 ms.assetid: 14ddffe7-bdfe-4a35-82c7-b3401b5b720c
 title: InkEdit.SelChange event (Inked.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ You can use the **SelChange** event to check the various properties that give in
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

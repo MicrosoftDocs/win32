@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTooBigException constructor"
 title: EsentKeyTooBigException constructor 
 TOCTitle: 'EsentKeyTooBigException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyTooBigException.#ctor

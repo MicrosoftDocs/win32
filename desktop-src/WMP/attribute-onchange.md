@@ -40,7 +40,7 @@ When a skin attribute changes value, an event occurs that can be handled by an e
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

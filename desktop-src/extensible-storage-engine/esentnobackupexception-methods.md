@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupException methods"
 title: EsentNoBackupException methods
 TOCTitle: EsentNoBackupException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoBackupException

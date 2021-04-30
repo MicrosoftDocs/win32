@@ -1,5 +1,5 @@
 ---
-Description: Creates a universal buffer of bytes mapped into an IStream (IByteBuffer) object.
+description: Creates a universal buffer of bytes mapped into an IStream (IByteBuffer) object.
 ms.assetid: 8015c7e8-2cbb-4ba8-9bd0-2f84751840f1
 title: ISCardTypeConv::CreateByteBuffer method (Scarddat.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ To create an Automation SAFEARRAY of unsigned characters (bytes), call [**Create
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The SendRepaint method sends a repaint event to the filter graph manager.
+description: The SendRepaint method sends a repaint event to the filter graph manager.
 ms.assetid: 78e5c46c-ca5d-4c5d-9dfc-992ce6b150ad
 title: CBaseRenderer.SendRepaint method (Renbase.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ Depending on the state of the graph, the EC\_REPAINT event can cause the upstrea
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

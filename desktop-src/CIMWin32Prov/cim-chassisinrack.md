@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ChassisInRack association represents the &\#0034;containing&\#0034; relationship between a rack and a chassis that it contains.
+description: The CIM\_ChassisInRack association represents the &\#0034;containing&\#0034; relationship between a rack and a chassis that it contains.
 ms.assetid: 1c8a5058-58fe-42e0-b337-7e1a05120789
 ms.tgt_platform: multiple
 title: CIM_ChassisInRack class
@@ -131,7 +131,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

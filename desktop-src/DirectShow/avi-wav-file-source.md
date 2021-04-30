@@ -1,5 +1,5 @@
 ---
-Description: AVI/WAV File Source
+description: AVI/WAV File Source
 ms.assetid: b8abf5d8-ba7f-441d-beef-9f85859318d5
 title: AVI/WAV File Source
 ms.topic: article

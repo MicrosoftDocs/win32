@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the length of the public key in bits.
+description: Retrieves the length of the public key in bits.
 ms.assetid: 02cb631a-5a5d-4d16-bdad-55263a0a53b3
 title: PublicKey.Length property
 ms.topic: reference
@@ -38,7 +38,7 @@ The length of the public key in bits.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

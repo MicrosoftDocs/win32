@@ -22,7 +22,7 @@ An attribute used to define whether or not the DNS zone is signed with NSEC3.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-Sign-With-NSEC3               |
 | Ldap-Display-Name | msDNS-SignWithNSEC3                  |
@@ -43,7 +43,7 @@ An attribute used to define whether or not the DNS zone is signed with NSEC3.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

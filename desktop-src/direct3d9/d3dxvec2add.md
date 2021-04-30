@@ -1,5 +1,5 @@
 ---
-Description: Adds two 2D vectors.
+description: Adds two 2D vectors.
 ms.assetid: 82b2fdf6-1b1f-4768-8c0b-ac8faa77d7ed
 title: D3DXVec2Add function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

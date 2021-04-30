@@ -1,5 +1,5 @@
 ---
-Description: Represent categories and subcategories of audit-policy events.
+description: Represent categories and subcategories of audit-policy events.
 ms.assetid: e3b12139-947d-4922-91fd-f9833c069011
 title: Auditing Constants (Ntsecapi.h)
 ms.topic: reference
@@ -191,7 +191,7 @@ The following constants represent subcategories of audit-policy events. These co
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

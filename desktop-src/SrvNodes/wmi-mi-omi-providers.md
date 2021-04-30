@@ -1,5 +1,5 @@
 ---
-Description: Windows Management Infrastructure (WMI), Management Instrumentation (MI) and Open Management Infrastructure (OMI) all use Management Object Format (MOF) files to describe the information made available through their respective providers.
+description: Windows Management Infrastructure (WMI), Management Instrumentation (MI) and Open Management Infrastructure (OMI) all use Management Object Format (MOF) files to describe the information made available through their respective providers.
 ms.assetid: 5ec3c6a2-df23-446d-a4da-b8e207eeb6f6
 title: WMI/MI/OMI Providers
 ms.topic: article

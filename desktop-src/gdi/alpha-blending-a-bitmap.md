@@ -1,5 +1,5 @@
 ---
-Description: Alpha Blending a Bitmap
+description: Alpha Blending a Bitmap
 ms.assetid: 01ed3e2e-cfb3-42c9-9030-b64f9db088f1
 title: Alpha Blending a Bitmap
 ms.topic: article

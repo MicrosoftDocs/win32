@@ -1,5 +1,5 @@
 ---
-Description: The put\_NetworkType method sets the network type.
+description: The put\_NetworkType method sets the network type.
 ms.assetid: 747e3133-d103-44dc-b119-5a4cb4ed7f18
 title: ITConnection::put_NetworkType method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-olea
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: OpenXPS is the Open XML Paper Specification format for documents, and it’s based on the European Carton Makers Association (ECMA) standard specification.
+description: OpenXPS is the Open XML Paper Specification format for documents, and it’s based on the European Carton Makers Association (ECMA) standard specification.
 ms.assetid: 52FB5B3F-BEBF-4851-8BE9-5DC7AE535313
 title: App Support for OpenXPS Printing
 ms.topic: article

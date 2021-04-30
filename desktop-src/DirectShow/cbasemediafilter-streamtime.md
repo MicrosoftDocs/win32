@@ -1,5 +1,5 @@
 ---
-Description: The StreamTime method retrieves the current stream time.
+description: CBaseMediaFilter.StreamTime method - The StreamTime method retrieves the current stream time.
 ms.assetid: 2e1ff6f1-9815-4ee6-97e8-a5ab5f472b27
 title: CBaseMediaFilter.StreamTime method (Amfilter.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Stream time is defined as the current reference time (as given by the reference 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

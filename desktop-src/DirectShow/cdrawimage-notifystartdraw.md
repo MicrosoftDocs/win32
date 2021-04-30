@@ -1,5 +1,5 @@
 ---
-Description: The NotifyStartDraw method is not supported.
+description: The NotifyStartDraw method is not supported.
 ms.assetid: 4f09ad65-5dc2-484b-8f15-af8e17b04b92
 title: CDrawImage.NotifyStartDraw method (Winutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ In earlier versions of the base-class library, this method supported performance
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

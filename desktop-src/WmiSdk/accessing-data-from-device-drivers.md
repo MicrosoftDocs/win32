@@ -1,5 +1,5 @@
 ---
-Description: The Windows Driver Model (WDM) provider grants access to the classes, instances, methods, and events of hardware drivers that conform to the WDM model.
+description: The Windows Driver Model (WDM) provider grants access to the classes, instances, methods, and events of hardware drivers that conform to the WDM model.
 ms.assetid: 8686a613-0e53-4e6e-b193-7839abfb70de
 ms.tgt_platform: multiple
 title: Accessing Data from Device Drivers

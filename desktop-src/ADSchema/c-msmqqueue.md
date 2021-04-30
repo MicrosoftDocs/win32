@@ -22,7 +22,7 @@ MSMQ users create queues (by MMC or by MSMQ API) according to their requirements
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | MSMQ-Queue                           |
 | Ldap-Display-Name | mSMQQueue                            |
@@ -48,7 +48,7 @@ MSMQ users create queues (by MMC or by MSMQ API) according to their requirements
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -183,7 +183,7 @@ This class contains the following extended rights for Windows 2000 Server:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -338,7 +338,7 @@ This class contains the following extended rights for Windows Server 2003:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -496,7 +496,7 @@ This class contains the following extended rights for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -665,7 +665,7 @@ This class contains the following extended rights for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -841,7 +841,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

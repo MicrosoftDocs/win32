@@ -21,28 +21,28 @@ Texture2DArray type ([as it exists in Shader Model 4](dx-graphics-hlsl-to-type.m
 
 
 
-| Method                                                                       | Description                                                                                |
-|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| [**Gather**](texture2darray-gather.md)                                      | Samples a texture and returns all components.                                              |
-| [**GatherRed**](texture2darray-gatherred.md)                                | Samples a texture and returns the red component.                                           |
-| [**GatherGreen**](texture2darray-gathergreen.md)                            | Samples a texture and returns the green component.                                         |
-| [**GatherBlue**](texture2darray-gatherblue.md)                              | Samples a texture and returns the blue component.                                          |
-| [**GatherAlpha**](texture2darray-gatheralpha.md)                            | Samples a texture and returns the alpha component.                                         |
-| [**GatherCmp**](texture2darray-gathercmp.md)                                | Samples and compares a texture and returns all components.                                 |
-| [**GatherCmpRed**](texture2darray-gathercmpred.md)                          | Samples and compares a texture and returns the red component.                              |
-| [**GatherCmpGreen**](texture2darray-gathercmpgreen.md)                      | Samples and compares a texture and returns the green component.                            |
-| [**GatherCmpBlue**](texture2darray-gathercmpblue.md)                        | Samples and compares a texture and returns the blue component.                             |
-| [**GatherCmpAlpha**](texture2darray-gathercmpalpha.md)                      | Samples and compares a texture and returns the alpha component.                            |
-| [**GetDimensions**](sm5-object-texture2darray-getdimensions.md)             | Gets the resource dimensions.                                                              |
-| [**Load**](texture2darray-load.md)                                          | Reads texture data.                                                                        |
-| [**mips.Operator\[\]\[\]**](sm5-object-texture2darray-mipsoperatorindex.md) | Gets a read-only resource variable.                                                        |
-| [**Operator\[\]**](sm5-object-texture2darray-operatorindex.md)              | Gets a read-only resource variable.                                                        |
-| [**Sample**](texture2darray-sample.md)                                      | Samples a texture.                                                                         |
-| [**SampleBias**](texture2darray-samplebias.md)                              | Samples a texture, after applying the bias value to the mipmap level.                      |
-| [**SampleCmp**](texture2darray-samplecmp.md)                                | Samples a texture, using a comparison value to reject samples.                             |
-| [**SampleCmpLevelZero**](texture2darray-samplecmplevelzero.md)              | Samples a texture (mipmap level 0 only), using a comparison value to reject samples.       |
-| [**SampleGrad**](texture2darray-samplegrad.md)                              | Samples a texture using a gradient to influence the way the sample location is calculated. |
-| [**SampleLevel**](texture2darray-samplelevel.md)                            | Samples a texture on the specified mipmap level.                                           |
+| Method                                                                      | Description                                                                                                                                         |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**Gather**](texture2darray-gather.md)                                      | Returns the four texel values that would be used in a bi-linear filtering operation.                                                                |
+| [**GatherRed**](texture2darray-gatherred.md)                                | Returns the red components of the four texel values that would be used in a bi-linear filtering operation.                                          |
+| [**GatherGreen**](texture2darray-gathergreen.md)                            | Returns the green components of the four texel values that would be used in a bi-linear filtering operation.                                        |
+| [**GatherBlue**](texture2darray-gatherblue.md)                              | Returns the blue components of the four texel values that would be used in a bi-linear filtering operation.                                         |
+| [**GatherAlpha**](texture2darray-gatheralpha.md)                            | Returns the alpha components of the four texel values that would be used in a bi-linear filtering operation.                                        |
+| [**GatherCmp**](texture2darray-gathercmp.md)                                | For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value.                      |
+| [**GatherCmpRed**](texture2darray-gathercmpred.md)                          | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their red component against a compare value.   |
+| [**GatherCmpGreen**](texture2darray-gathercmpgreen.md)                      | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value. |
+| [**GatherCmpBlue**](texture2darray-gathercmpblue.md)                        | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their blue component against a compare value.  |
+| [**GatherCmpAlpha**](texture2darray-gathercmpalpha.md)                      | For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their alpha component against a compare value. |
+| [**GetDimensions**](sm5-object-texture2darray-getdimensions.md)             | Gets the resource dimensions.                                                                                                                       |
+| [**Load**](texture2darray-load.md)                                          | Reads texture data.                                                                                                                                 |
+| [**mips.Operator\[\]\[\]**](sm5-object-texture2darray-mipsoperatorindex.md) | Gets a read-only resource variable.                                                                                                                 |
+| [**Operator\[\]**](sm5-object-texture2darray-operatorindex.md)              | Gets a read-only resource variable.                                                                                                                 |
+| [**Sample**](texture2darray-sample.md)                                      | Samples a texture.                                                                                                                                  |
+| [**SampleBias**](texture2darray-samplebias.md)                              | Samples a texture, after applying the bias value to the mipmap level.                                                                               |
+| [**SampleCmp**](texture2darray-samplecmp.md)                                | Samples a texture, using a comparison value to reject samples.                                                                                      |
+| [**SampleCmpLevelZero**](texture2darray-samplecmplevelzero.md)              | Samples a texture (mipmap level 0 only), using a comparison value to reject samples.                                                                |
+| [**SampleGrad**](texture2darray-samplegrad.md)                              | Samples a texture using a gradient to influence the way the sample location is calculated.                                                          |
+| [**SampleLevel**](texture2darray-samplelevel.md)                            | Samples a texture on the specified mipmap level.                                                                                                    |
 
 
 

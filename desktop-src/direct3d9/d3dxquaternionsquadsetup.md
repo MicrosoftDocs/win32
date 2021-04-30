@@ -1,5 +1,5 @@
 ---
-Description: Sets up control points for spherical quadrangle interpolation.
+description: D3DXQuaternionSquadSetup function (D3dx9math.h) - Sets up control points for spherical quadrangle interpolation.
 ms.assetid: f800d457-8546-49a1-800e-e5c27af96710
 title: D3DXQuaternionSquadSetup function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXQuaternionSquadSetup function
+# D3DXQuaternionSquadSetup function (D3dx9math.h)
 
 Sets up control points for spherical quadrangle interpolation.
 
@@ -179,7 +179,7 @@ D3DXQuaternionSquad(&Qt, &Q1, &A, &B, &C, time);
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

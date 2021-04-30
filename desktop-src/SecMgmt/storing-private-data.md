@@ -1,5 +1,5 @@
 ---
-Description: LSA Policy provides two functions that you can use to set and retrieve private data.
+description: LSA Policy provides two functions that you can use to set and retrieve private data.
 ms.assetid: 7b6e63d4-ce8f-4279-85d9-da6b2b589afa
 title: Storing Private Data
 ms.topic: article

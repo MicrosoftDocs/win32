@@ -1,5 +1,5 @@
 ---
-Description: The PerformanceAlignWindow method aligns the window position to DWORD boundaries, for maximum performance.
+description: The PerformanceAlignWindow method aligns the window position to DWORD boundaries, for maximum performance.
 ms.assetid: e28950bc-2510-45b9-9c9c-c2a9dbc3dc02
 title: CBaseWindow.PerformanceAlignWindow method (Winutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method aligns the left and top edges of the window to DWORD boundaries, whi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

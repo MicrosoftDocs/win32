@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasePatchFileMismatchException properties"
 title: EsentDatabasePatchFileMismatchException properties
 TOCTitle: EsentDatabasePatchFileMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabasePatchFileMismatchException

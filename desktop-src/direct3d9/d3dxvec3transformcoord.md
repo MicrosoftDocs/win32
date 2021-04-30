@@ -1,5 +1,5 @@
 ---
-Description: Transforms a 3D vector by a given matrix, projecting the result back into w = 1.
+description: D3DXVec3TransformCoord function (D3dx9math.h) - Transforms a 3D vector by a given matrix, projecting the result back into w = 1.
 ms.assetid: 4075b067-1e64-46c9-be73-5fa765c9cb9d
 title: D3DXVec3TransformCoord function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec3TransformCoord function
+# D3DXVec3TransformCoord function (D3dx9math.h)
 
 Transforms a 3D vector by a given matrix, projecting the result back into w = 1.
 
@@ -80,7 +80,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

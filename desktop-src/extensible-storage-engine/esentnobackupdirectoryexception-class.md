@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupDirectoryException class"
 title: EsentNoBackupDirectoryException class
 TOCTitle: EsentNoBackupDirectoryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentNoBackupDirectoryException

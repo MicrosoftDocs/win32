@@ -1,5 +1,5 @@
 ---
-Description: Provides state information for an existing virtual hard disk image.
+description: Provides state information for an existing virtual hard disk image.
 ms.assetid: b0177906-71dc-4be8-b351-97d7ef427acd
 title: Msvm_VirtualHardDiskState class
 ms.topic: reference
@@ -167,7 +167,7 @@ The timestamp of the virtual hard disk
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

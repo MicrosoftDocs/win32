@@ -1,5 +1,5 @@
 ---
-Description: The current maximum number of delta frames to drop.
+description: The current maximum number of delta frames to drop.
 ms.assetid: d14c594e-55ab-42c2-bdb0-6829f71d02dd
 title: CVideoTransformFilter::m_nWaitForKey member (Vtrans.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ int m_nWaitForKey;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Vtrans.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

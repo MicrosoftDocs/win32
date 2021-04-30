@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPartiallyAttachedDBException members"
 title: EsentPartiallyAttachedDBException members
 TOCTitle: EsentPartiallyAttachedDBException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPartiallyAttachedDBException

@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use different types of brushes in an XPS OM.
+description: This topic describes how to use different types of brushes in an XPS OM.
 ms.assetid: 392ca1d5-283e-4eed-ae21-6477c469014d
 title: XPS OM Brushes
 ms.topic: article

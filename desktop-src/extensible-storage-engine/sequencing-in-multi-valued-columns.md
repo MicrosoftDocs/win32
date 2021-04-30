@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Sequencing in Multi-Valued Columns"
 title: Sequencing in Multi-Valued Columns
 TOCTitle: Sequencing in Multi-Valued Columns
 ms:assetid: 825a1e51-6b18-4bcf-87f2-4223f302186c

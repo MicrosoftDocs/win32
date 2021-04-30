@@ -1,5 +1,5 @@
 ---
-Description: MSYUV is a YUV-to-RGB color space converter codec.
+description: MSYUV is a YUV-to-RGB color space converter codec.
 ms.assetid: 77b00937-ac63-4b23-b546-c0896b3c57ba
 title: MSYUV Color Space Converter Codec
 ms.topic: reference
@@ -27,7 +27,7 @@ The MSYUV Color Space Converter Codec is a Video Compression Manager (VCM) codec
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msyuv.dll</dt> </dl> |
 

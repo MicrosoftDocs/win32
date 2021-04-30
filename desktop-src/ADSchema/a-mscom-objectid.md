@@ -22,7 +22,7 @@ GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-COM-ObjectId                                       |
 | Ldap-Display-Name | msCOM-ObjectId                                        |
@@ -47,7 +47,7 @@ GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
@@ -68,7 +68,7 @@ GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
@@ -89,7 +89,7 @@ GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
@@ -110,7 +110,7 @@ GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
@@ -131,7 +131,7 @@ GUID used to identify a COM+ Partition or a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |

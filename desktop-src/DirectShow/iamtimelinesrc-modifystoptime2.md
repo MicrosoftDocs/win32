@@ -1,5 +1,5 @@
 ---
-Description: The ModifyStopTime2 method sets the stop time. This method is equivalent to IAMTimelineSrc::ModifyStopTime, but takes a REFTIME value.
+description: The ModifyStopTime2 method sets the stop time. This method is equivalent to IAMTimelineSrc::ModifyStopTime, but takes a REFTIME value.
 ms.assetid: 8bebda47-3e52-42a2-870c-acc14561fa25
 title: IAMTimelineSrc::ModifyStopTime2 method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Returns S\_OK if successful, or E\_INVALIDARG if the specified time is not valid
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

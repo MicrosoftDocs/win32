@@ -1,5 +1,5 @@
 ---
-Description: The display mode has changed.
+description: The display mode has changed.
 ms.assetid: 1f5b066b-6d5d-44bb-851a-424b2bd389c0
 title: EC_DISPLAY_CHANGED (Dshow.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ A custom presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

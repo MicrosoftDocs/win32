@@ -1,5 +1,5 @@
 ---
-Description: Registers custom templates.
+description: Registers custom templates.
 ms.assetid: e142a0f2-d0ef-4479-82cd-ba8d5059d1d2
 title: ID3DXFile::RegisterTemplates method (D3DX9Xof.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ This method calls the [**RegisterEnumTemplates**](id3dxfile--registerenumtemplat
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

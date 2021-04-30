@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONDITIONALCOLUMN constructor"
 title: JET_CONDITIONALCOLUMN constructor 
 TOCTitle: 'JET_CONDITIONALCOLUMN constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN.#ctor

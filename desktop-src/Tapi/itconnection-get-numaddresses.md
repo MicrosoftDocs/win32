@@ -1,5 +1,5 @@
 ---
-Description: The get\_NumAddresses method gets the number of addresses to be used for the session.
+description: The get\_NumAddresses method gets the number of addresses to be used for the session.
 ms.assetid: c3aef5df-02e9-4c7e-99aa-8e4043798bf4
 title: ITConnection::get_NumAddresses method (Sdpblb.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

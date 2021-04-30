@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property consisting of an array of Uint64 elements.
+description: Represents a PnP device property consisting of an array of Uint64 elements.
 ms.assetid: F0959F4A-D78F-438B-B680-C01832CBB5F4
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyUint64Array class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

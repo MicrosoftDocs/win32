@@ -28,7 +28,7 @@ The following constants are used by applications or UI frameworks to identify ho
 
 ## Requirements
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

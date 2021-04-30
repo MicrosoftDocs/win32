@@ -1,5 +1,5 @@
 ---
-Description: The \_\_try and \_\_finally keywords are used to construct a termination handler. The following example shows the structure of a termination handler.
+description: The \_\_try and \_\_finally keywords are used to construct a termination handler. The following example shows the structure of a termination handler.
 ms.assetid: fbaf8890-2516-4b60-be57-464f91f2a38a
 title: Termination-Handler Syntax
 ms.topic: article

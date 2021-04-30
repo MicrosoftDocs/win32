@@ -1,5 +1,5 @@
 ---
-Description: Contains a Message Authentication Code (MAC).
+description: Contains a Message Authentication Code (MAC).
 ms.assetid: be5515fd-1936-46b8-9fc8-8d1f87048c38
 title: D3D_OMAC structure (D3d9types.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ A byte array that contains the cryptographic MAC value of the message.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

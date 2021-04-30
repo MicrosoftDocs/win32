@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotSeparateIntrinsicLVException properties"
 title: EsentCannotSeparateIntrinsicLVException properties
 TOCTitle: EsentCannotSeparateIntrinsicLVException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException

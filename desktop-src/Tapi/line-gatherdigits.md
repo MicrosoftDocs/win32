@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_GATHERDIGITS message is sent when the current buffered digit-gathering request has terminated or is canceled. The digit buffer can be examined after this message has been received by the application.
+description: The TAPI LINE\_GATHERDIGITS message is sent when the current buffered digit-gathering request has terminated or is canceled. The digit buffer can be examined after this message has been received by the application.
 ms.assetid: 0d27904d-9743-44bf-a7bc-132459351e01
 title: LINE_GATHERDIGITS message (Tapi.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ If the service provider does not generate the timestamp (for example, if it was 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

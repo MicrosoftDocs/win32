@@ -1,5 +1,5 @@
 ---
-Description: Clouds, smoke, and vapor trails can all be created by an extension of the billboarding technique.
+description: Clouds, smoke, and vapor trails can all be created by an extension of the billboarding technique.
 ms.assetid: c5607327-de46-4241-a01a-4adfe0bbf6fb
 title: Clouds, Smoke, and Vapor Trails (Direct3D 9)
 ms.topic: article

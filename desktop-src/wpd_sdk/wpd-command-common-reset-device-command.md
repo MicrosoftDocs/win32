@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_COMMAND\_COMMON\_RESET\_DEVICE command resets the device. This does not mean reformatting; it is equivalent to turning the device off and on again.
+description: The WPD\_COMMAND\_COMMON\_RESET\_DEVICE command resets the device. This does not mean reformatting; it is equivalent to turning the device off and on again.
 ms.assetid: 7a630cc9-02ea-46be-9645-8a0306606139
 title: WPD_COMMAND_COMMON_RESET_DEVICE Command (PortableDevice.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Can only be called directly using [**IPortableDevice::SendCommand**](/windows/de
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

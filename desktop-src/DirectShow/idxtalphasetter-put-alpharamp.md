@@ -1,5 +1,5 @@
 ---
-Description: The put\_AlphaRamp method specifies the alpha ramp property. The alpha ramp is the percentage by which the alpha values in the original image are adjusted. For example, if the alpha ramp is 0.5, the alpha values in the image are reduced 50%.
+description: The put\_AlphaRamp method specifies the alpha ramp property. The alpha ramp is the percentage by which the alpha values in the original image are adjusted. For example, if the alpha ramp is 0.5, the alpha values in the image are reduced 50%.
 ms.assetid: 19ea5828-54fc-43a1-be7c-f6c12cf84648
 title: IDxtAlphaSetter::put_AlphaRamp method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If you set this property to a non-negative value, you must also disable the alph
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

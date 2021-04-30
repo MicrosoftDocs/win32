@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource constructor"
 title: EsentResource constructor 
 TOCTitle: 'EsentResource constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentResource.#ctor

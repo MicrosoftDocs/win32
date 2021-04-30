@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransTooDeepException class"
 title: EsentTransTooDeepException class
 TOCTitle: EsentTransTooDeepException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTransTooDeepException

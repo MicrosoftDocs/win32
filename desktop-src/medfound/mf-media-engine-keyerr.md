@@ -1,5 +1,5 @@
 ---
-Description: Defines media key error codes for the media engine.
+description: Defines media key error codes for the media engine.
 ms.assetid: F6E13260-74A2-40D0-A704-4E1CDB16B8D8
 title: MF_MEDIA_ENGINE_KEYERR enumeration
 ms.topic: reference
@@ -89,7 +89,7 @@ An error with the domain occurred.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

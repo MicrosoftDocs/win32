@@ -1,6 +1,6 @@
 ---
 title: RWByteAddressBuffer::Load2(uint) function
-description: Gets two values.
+description: Gets two values. | RWByteAddressBuffer::Load2(uint) function
 ms.assetid: a00396cb-e68d-479e-ab3f-4c52f2cfc3bc
 keywords:
 - Load2 function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load2(uint) function
+# RWByteAddressBuffer::Load2(uint) function
 
 Gets two values.
 

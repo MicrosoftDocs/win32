@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDeleteColumn Function"
 title: JetDeleteColumn Function
 TOCTitle: JetDeleteColumn Function
 ms:assetid: b2f4be8c-7ea9-4f66-925b-4e9c14d9d475
@@ -31,11 +32,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetDeleteColumn** function deletes a column from an ESE database table.
 
-    JET_ERR JET_API JetDeleteColumn(
-      __in          JET_SESID sesid,
-      __in          JET_TABLEID tableid,
-      __in          const tchar* szColumnName
-    );
+```cpp
+JET_ERR JET_API JetDeleteColumn(
+  __in          JET_SESID sesid,
+  __in          JET_TABLEID tableid,
+  __in          const tchar* szColumnName
+);
+```
 
 ### Parameters
 

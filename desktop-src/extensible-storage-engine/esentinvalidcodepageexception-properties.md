@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCodePageException properties"
 title: EsentInvalidCodePageException properties
 TOCTitle: EsentInvalidCodePageException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException

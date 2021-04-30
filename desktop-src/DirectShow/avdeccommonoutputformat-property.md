@@ -1,5 +1,5 @@
 ---
-Description: Specifies the output format for the decoder.
+description: Specifies the output format for the decoder.
 ms.assetid: fdccdbfa-2814-4d21-9a7f-4121b79718e6
 title: AVDecCommonOutputFormat property (Codecapi.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.CreatePathIfNotExist property"
 title: InstanceParameters.CreatePathIfNotExist property 
 TOCTitle: 'CreatePathIfNotExist property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CreatePathIfNotExist

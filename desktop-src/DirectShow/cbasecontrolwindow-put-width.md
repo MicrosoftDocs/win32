@@ -1,5 +1,5 @@
 ---
-Description: The put\_Width method sets the window width.
+description: The put\_Width method sets the window width.
 ms.assetid: eb5ad1c2-ba39-4c06-84d2-6708dc8796d8
 title: CBaseControlWindow.put_Width method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Setting the left or top coordinates moves the window left or up respectively; th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

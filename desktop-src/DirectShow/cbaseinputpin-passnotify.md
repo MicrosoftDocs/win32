@@ -1,5 +1,5 @@
 ---
-Description: The PassNotify method passes a quality-control message to the appropriate object.
+description: The PassNotify method passes a quality-control message to the appropriate object.
 ms.assetid: dbc9a4b7-a522-4fbf-8e3a-af50e11c1d80
 title: CBaseInputPin.PassNotify method (Amfilter.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Call this method if the filter does not handle quality-control messages. This me
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The FileVersion method of the Installer object returns the version string or language string of the path specified in Path using the format in which the installer expects to find them in the database.
+description: The FileVersion method of the Installer object returns the version string or language string of the path specified in Path using the format in which the installer expects to find them in the database.
 ms.assetid: 387cf269-5a7a-476b-811e-d576da1c752f
 title: Installer.FileVersion method
 ms.topic: reference
@@ -57,7 +57,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

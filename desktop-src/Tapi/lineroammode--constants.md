@@ -1,5 +1,5 @@
 ---
-Description: The LINEROAMMODE\_ bit-flag constants describe the roaming status of a line device.
+description: The LINEROAMMODE\_ bit-flag constants describe the roaming status of a line device.
 ms.assetid: af0eb263-8deb-44ab-8acb-00e4ff7930ab
 title: LINEROAMMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

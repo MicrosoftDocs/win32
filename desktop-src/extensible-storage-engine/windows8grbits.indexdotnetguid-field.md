@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Grbits.IndexDotNetGuid field"
 title: Windows8Grbits.IndexDotNetGuid field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: IndexDotNetGuid field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits.IndexDotNetGuid

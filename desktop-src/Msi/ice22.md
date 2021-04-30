@@ -1,5 +1,5 @@
 ---
-Description: ICE22 uses the FeatureComponents table to validate the mapping of features and components referenced in the PublishComponent table.
+description: ICE22 uses the FeatureComponents table to validate the mapping of features and components referenced in the PublishComponent table.
 ms.assetid: 1aa3e2e6-3f05-411e-829f-aeddbb53445d
 title: ICE22
 ms.topic: article

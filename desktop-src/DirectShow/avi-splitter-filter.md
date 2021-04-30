@@ -1,5 +1,5 @@
 ---
-Description: AVI Splitter Filter
+description: AVI Splitter Filter
 ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: AVI Splitter Filter
 ms.topic: article
@@ -12,7 +12,7 @@ The AVI Splitter Filter is used for playback of AVI files. It accepts data in AV
 
 
 
-|                                          |                                                                                                                                                                     |
+| Label | Value |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMMediaContent**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IPersistMediaPropertyBag**](/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag)                        |
 | Input Pin Media Types                    | MEDIATYPE\_Stream, MEDIASUBTYPE\_Avi                                                                                                                                |

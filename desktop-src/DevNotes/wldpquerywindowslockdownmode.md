@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current Windows secure mode. Windows can be in locked mode, unlocked normal mode, or trial mode.
+description: Retrieves the current Windows secure mode. Windows can be in locked mode, unlocked normal mode, or trial mode.
 ms.assetid: FD280818-C6DE-4CEA-A772-E239A8DB891F
 title: WldpQueryWindowsLockdownMode function (Wldp.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This method returns **S\_OK** if successful or a failure code otherwise.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                |

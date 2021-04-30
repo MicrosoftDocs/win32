@@ -1,5 +1,5 @@
 ---
-Description: The WMI command-line (WMIC) utility provides a command-line interface for WMI.
+description: The WMI command-line (WMIC) utility provides a command-line interface for WMI.
 ms.assetid: a0f5c1e2-9a4d-4c2b-b324-58ec01e67b6e
 ms.tgt_platform: multiple
 title: wmic
@@ -15,7 +15,7 @@ The WMI command-line (WMIC) utility provides a command-line interface for Window
 
 An alias is a friendly renaming of a class, property, or method that makes WMI easier to use and read. You can determine what aliases are available for WMIC through the **/?** command. You can also determine the aliases for a specific class using the **<className> /?** command. For more information, see [WMIC Aliases](/previous-versions/windows/it-pro/windows-server-2003/cc736307(v=ws.10)).
 
-## Switches
+## Switch
 
 A switch is a WMIC option you can set globally or optionally. For a list of available switches, see [WMIC Switches](/previous-versions/windows/it-pro/windows-server-2003/cc787035(v=ws.10)).
 
@@ -270,7 +270,7 @@ Example: **/USER:***JSMITH*
 <span id="_PASSWORD"></span><span id="_password"></span>/PASSWORD
 </dt> <dd>
 
-Password used by WMIC when accessing the /NPDE computers. The password is visible at the command line.
+Password used by WMIC when accessing the /NODE computers. The password is visible at the command line.
 
 Example: **/PASSWORD:***password*
 
@@ -362,7 +362,7 @@ The [Script for setting IP/Subnet/Gateway/DNS using wmic](https://Gallery.TechNe
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

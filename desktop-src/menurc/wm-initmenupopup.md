@@ -1,6 +1,6 @@
 ---
 title: WM_INITMENUPOPUP message (Winuser.h)
-description: Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
+description: WM_INITMENUPOPUP message - Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
 ms.assetid: 08ae1a78-5e68-488c-9b77-ee42044ca3ab
 keywords:
 - WM_INITMENUPOPUP message Menus and Other Resources
@@ -55,7 +55,7 @@ If an application processes this message, it should return zero.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

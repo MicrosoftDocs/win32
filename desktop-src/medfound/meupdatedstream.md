@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media source when it restarts or seeks a stream that is already active.
+description: Raised by a media source when it restarts or seeks a stream that is already active.
 ms.assetid: 2d91a267-e109-45f5-886b-11b883cc5509
 title: MEUpdatedStream event (Mfobjects.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ On the first call to [**Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasou
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

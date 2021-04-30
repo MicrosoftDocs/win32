@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempFileOpenErrorException properties"
 title: EsentTempFileOpenErrorException properties
 TOCTitle: EsentTempFileOpenErrorException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException

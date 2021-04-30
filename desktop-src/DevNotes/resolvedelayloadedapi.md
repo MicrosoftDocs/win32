@@ -1,5 +1,5 @@
 ---
-Description: Locates the target function of the specified import and replaces the function pointer in the import thunk with the target of the function implementation.
+description: Locates the target function of the specified import and replaces the function pointer in the import thunk with the target of the function implementation.
 ms.assetid: 4ab79b7c-81d1-40bf-a76b-217d93567e40
 title: ResolveDelayLoadedAPI function
 ms.topic: reference
@@ -93,7 +93,7 @@ The address of the import, or the failure stub for it.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>Kernel32.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Kernel32.dll</dt> </dl> |

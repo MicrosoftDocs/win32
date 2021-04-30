@@ -1,5 +1,5 @@
 ---
-Description: Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified rectangle.
+description: Restricts the area of the IAnalysisRegion to the portion of its area that does not intersect the specified rectangle.
 ms.assetid: a35b8bfc-a87a-4e9a-908f-2b13a128d222
 title: IAnalysisRegion::ExcludeRectangle method (IACom.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the two areas do not intersect, the [**IAnalysisRegion**](ianalysisregion.md)
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

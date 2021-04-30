@@ -22,7 +22,7 @@ Contains the forward link to the [**ms-DFSR-Member**](c-msdfsr-member.md) object
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DFSR-MemberReference                 |
 | Ldap-Display-Name | msDFSR-MemberReference                  |
@@ -46,7 +46,7 @@ Contains the forward link to the [**ms-DFSR-Member**](c-msdfsr-member.md) object
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
@@ -67,7 +67,7 @@ Contains the forward link to the [**ms-DFSR-Member**](c-msdfsr-member.md) object
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
@@ -88,7 +88,7 @@ Contains the forward link to the [**ms-DFSR-Member**](c-msdfsr-member.md) object
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | 2052                                                         |
 | MAPI-Id                | \-                                                           |
@@ -109,7 +109,7 @@ Contains the forward link to the [**ms-DFSR-Member**](c-msdfsr-member.md) object
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | 2052                                                         |
 | MAPI-Id                | \-                                                           |

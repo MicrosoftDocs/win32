@@ -1,5 +1,5 @@
 ---
-Description: The ListBox control is a regular list box that enables the user to make a single selection from a list of predetermined values.
+description: The ListBox control is a regular list box that enables the user to make a single selection from a list of predetermined values.
 ms.assetid: f2aace82-3b42-4790-a817-1b874a702938
 title: ListBox Control (Windows Installer)
 ms.topic: article

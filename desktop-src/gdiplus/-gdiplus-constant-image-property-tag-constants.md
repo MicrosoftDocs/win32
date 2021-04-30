@@ -1,5 +1,5 @@
 ---
-Description: Several image file formats enable you to store metadata along with an image.
+description: Several image file formats enable you to store metadata along with an image.
 ms.assetid: 1eba4b91-bbf4-4f82-b2d7-65f331a84859
 title: Image Property Tag Constants
 ms.topic: article

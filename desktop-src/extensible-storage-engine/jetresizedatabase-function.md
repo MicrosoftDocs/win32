@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetResizeDatabase Function"
 title: JetResizeDatabase Function
 TOCTitle: JetResizeDatabase Function
 ms:assetid: b6420de7-acff-480e-838b-f0e5acc29c65

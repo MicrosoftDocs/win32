@@ -1,5 +1,5 @@
 ---
-Description: Sets the threshold at which the encoder considers a video field redundant.
+description: Sets the threshold at which the encoder considers a video field redundant.
 ms.assetid: db6c2f0e-f451-4d2d-984f-b507083e8358
 title: AVEncVideoInverseTelecineThreshold property (Codecapi.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Set this property if the encoder is performing inverse telecine with an analog v
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

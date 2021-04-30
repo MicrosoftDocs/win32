@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenTablesAndCleanupTimedOutException members"
 title: EsentTooManyOpenTablesAndCleanupTimedOutException members
 TOCTitle: EsentTooManyOpenTablesAndCleanupTimedOutException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenTablesAndCleanupTimedOutException

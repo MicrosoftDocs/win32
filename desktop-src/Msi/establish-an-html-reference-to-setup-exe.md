@@ -1,5 +1,5 @@
 ---
-Description: The final step is to place a reference to the Setup.exe on the hypothetical MySetup webpage (MySetup.html) described in A URL Based Windows Installer Installation Example.
+description: The final step is to place a reference to the Setup.exe on the hypothetical MySetup webpage (MySetup.html) described in A URL Based Windows Installer Installation Example.
 ms.assetid: 1a040bd9-242b-4528-858a-2218099acbe3
 title: Establish an HTML Reference to Setup.exe
 ms.topic: article

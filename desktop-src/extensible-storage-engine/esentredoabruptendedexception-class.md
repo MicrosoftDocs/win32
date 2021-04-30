@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRedoAbruptEndedException class"
 title: EsentRedoAbruptEndedException class
 TOCTitle: EsentRedoAbruptEndedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException

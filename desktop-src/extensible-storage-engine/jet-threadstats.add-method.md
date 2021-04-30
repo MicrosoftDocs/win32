@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Add method"
 title: JET_THREADSTATS.Add method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Add method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Add(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS,Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)

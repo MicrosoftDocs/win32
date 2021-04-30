@@ -1,5 +1,5 @@
 ---
-Description: Version 2 of the Hyper-V WMI provider is all new for Windows 8 and Windows Server 2012.
+description: Version 2 of the Hyper-V WMI provider is all new for Windows 8 and Windows Server 2012.
 ms.assetid: A91ACF7A-AFE6-45B6-960C-C4AAA0083735
 title: Whats new in Hyper-V WMI provider
 ms.topic: article

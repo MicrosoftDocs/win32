@@ -98,7 +98,7 @@ For unbound SHAs which are registered with the system, the NAP system constructs
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |

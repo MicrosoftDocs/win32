@@ -1,5 +1,5 @@
 ---
-Description: To send data over a communication medium such as a phone line, the data must be serialized&\#8212; that is, converted into a string of ones and zeros that are transmitted serially over the line.
+description: To send data over a communication medium such as a phone line, the data must be serialized&\#8212; that is, converted into a string of ones and zeros that are transmitted serially over the line.
 ms.assetid: ef8982dc-bbbc-466a-9afe-dd0425c23f1d
 title: Encoded and Decoded Data
 ms.topic: article

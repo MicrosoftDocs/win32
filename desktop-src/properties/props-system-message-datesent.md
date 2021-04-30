@@ -1,5 +1,5 @@
 ---
-Description: The date and time a communication was sent.
+description: The date and time a communication was sent.
 ms.assetid: f8487ddb-0646-419d-921b-2333827a37fc
 title: System.Message.DateSent
 ms.topic: article

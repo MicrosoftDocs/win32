@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.DeepClone method"
 title: JET_INDEXCREATE.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.DeepClone

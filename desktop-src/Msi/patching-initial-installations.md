@@ -1,5 +1,5 @@
 ---
-Description: A Windows Installer Patch (MSP) can be applied when installing an application for the first time by using the PATCH property.
+description: A Windows Installer Patch (MSP) can be applied when installing an application for the first time by using the PATCH property.
 ms.assetid: 2c4b9d5a-34fb-4a0b-b530-30bf238468fd
 title: Patching Initial Installations
 ms.topic: article

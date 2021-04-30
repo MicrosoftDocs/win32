@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSnapIdException class"
 title: EsentOSSnapshotInvalidSnapIdException class
 TOCTitle: EsentOSSnapshotInvalidSnapIdException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException

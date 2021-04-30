@@ -1,5 +1,5 @@
 ---
-Description: Indicates the direction of sharpness processing applied by the camera when the photo was taken.
+description: Indicates the direction of sharpness processing applied by the camera when the photo was taken.
 ms.assetid: ee3dca97-a094-4de8-aacd-729abcef4965
 title: System.Photo.Sharpness
 ms.topic: article

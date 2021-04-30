@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCorruptedException members"
 title: EsentSPAvailExtCorruptedException members
 TOCTitle: EsentSPAvailExtCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCorruptedException

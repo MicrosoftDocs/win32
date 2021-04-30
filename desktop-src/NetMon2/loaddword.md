@@ -1,5 +1,5 @@
 ---
-Description: The LoadDWORD function is called by the monitor to set a DWORD variable with a value taken from an HTML configuration string variable.
+description: The LoadDWORD function is called by the monitor to set a DWORD variable with a value taken from an HTML configuration string variable.
 ms.assetid: 18a7beba-01f4-4f92-99bf-067f79f25db0
 title: LoadDWORD function (Netmon.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If the function is unsuccessful, the return value is **FALSE**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

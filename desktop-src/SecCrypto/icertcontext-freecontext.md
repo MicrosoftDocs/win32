@@ -1,5 +1,5 @@
 ---
-Description: Releases a PCCERT\_CONTEXT acquired through the CertContext property.
+description: Releases a PCCERT\_CONTEXT acquired through the CertContext property.
 ms.assetid: fcb9e885-d26c-4866-a35d-1c940bfe8162
 title: ICertContext::FreeContext method
 ms.topic: reference
@@ -56,7 +56,7 @@ This method does not release the PCCERT\_CONTEXT contained within a [**Certifica
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_COLUMNID operators"
 title: JET_COLUMNID operators
 TOCTitle: JET_COLUMNID operators
 ms:assetid: 6a862ce1-f8f9-ba17-c33b-4e7c541ab34e

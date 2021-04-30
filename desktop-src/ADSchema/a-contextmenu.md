@@ -22,7 +22,7 @@ The order number and GUID of the context menu to be used for an object.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Context-Menu                                |
 | Ldap-Display-Name | contextMenu                                 |
@@ -48,7 +48,7 @@ The order number and GUID of the context menu to be used for an object.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -69,7 +69,7 @@ The order number and GUID of the context menu to be used for an object.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -90,7 +90,7 @@ The order number and GUID of the context menu to be used for an object.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -111,7 +111,7 @@ The order number and GUID of the context menu to be used for an object.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -132,7 +132,7 @@ The order number and GUID of the context menu to be used for an object.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -153,7 +153,7 @@ The order number and GUID of the context menu to be used for an object.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |

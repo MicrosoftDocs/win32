@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Previewing Video
+# Previewing Video (Windows Multimedia)
 
 The following example uses the [**capPreviewRate**](/windows/desktop/api/Vfw/nf-vfw-cappreviewrate) macro to set the frame display rate for preview mode to 66 milliseconds per frame and then uses the [**capPreview**](/windows/desktop/api/Vfw/nf-vfw-cappreview) macro to place the capture window in preview mode.
 

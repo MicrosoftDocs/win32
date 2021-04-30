@@ -22,7 +22,7 @@ Diskless boot: A computer's on-board GUID. Corresponds to the computer's network
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Netboot-GUID                                          |
 | Ldap-Display-Name | netbootGUID                                           |
@@ -48,7 +48,7 @@ Diskless boot: A computer's on-board GUID. Corresponds to the computer's network
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -69,7 +69,7 @@ Diskless boot: A computer's on-board GUID. Corresponds to the computer's network
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -90,7 +90,7 @@ Diskless boot: A computer's on-board GUID. Corresponds to the computer's network
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -111,7 +111,7 @@ Diskless boot: A computer's on-board GUID. Corresponds to the computer's network
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -132,7 +132,7 @@ Diskless boot: A computer's on-board GUID. Corresponds to the computer's network
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |
@@ -153,7 +153,7 @@ Diskless boot: A computer's on-board GUID. Corresponds to the computer's network
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

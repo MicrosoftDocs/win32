@@ -1,5 +1,5 @@
 ---
-Description: Encapsulates a mesh object in a transformation frame hierarchy.
+description: Encapsulates a mesh object in a transformation frame hierarchy.
 ms.assetid: 50e98230-7dc3-468a-92c4-8165e8fe242b
 title: D3DXMESHCONTAINER structure (D3dx9anim.h)
 ms.topic: reference
@@ -137,7 +137,7 @@ An application can derive from this structure to add other data.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

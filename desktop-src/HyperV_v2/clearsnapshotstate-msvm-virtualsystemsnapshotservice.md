@@ -1,5 +1,5 @@
 ---
-Description: Clears save state from an existing snapshot.
+description: Clears save state from an existing snapshot.
 ms.assetid: abb0ed4a-7f89-4d32-93d2-7491d2f2aa83
 title: ClearSnapshotState method of the Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

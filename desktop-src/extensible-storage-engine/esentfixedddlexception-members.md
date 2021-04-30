@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedDDLException members"
 title: EsentFixedDDLException members
 TOCTitle: EsentFixedDDLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFixedDDLException

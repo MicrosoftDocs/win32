@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Index Parameters"
 title: Index Parameters
 TOCTitle: Index Parameters
 ms:assetid: df3dfbc7-71fb-4ae2-a94a-b00eaa1572ec

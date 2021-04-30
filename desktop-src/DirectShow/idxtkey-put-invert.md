@@ -1,5 +1,5 @@
 ---
-Description: The put\_Invert method specifies whether the key operation is inverted. This property applies to all key types except DXTKEY\_ALPHA.
+description: The put\_Invert method specifies whether the key operation is inverted. This property applies to all key types except DXTKEY\_ALPHA.
 ms.assetid: 06acdd9f-eb3a-49bd-961d-00966df2ccb4
 title: IDxtKey::put_Invert method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

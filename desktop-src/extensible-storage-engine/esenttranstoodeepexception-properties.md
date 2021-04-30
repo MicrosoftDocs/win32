@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransTooDeepException properties"
 title: EsentTransTooDeepException properties
 TOCTitle: EsentTransTooDeepException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTransTooDeepException

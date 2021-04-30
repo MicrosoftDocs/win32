@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDataSequenceException constructor"
 title: EsentInvalidLogDataSequenceException constructor 
 TOCTitle: 'EsentInvalidLogDataSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException.#ctor

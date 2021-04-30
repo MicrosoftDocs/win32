@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileNotFoundException constructor"
 title: EsentSLVFileNotFoundException constructor 
 TOCTitle: 'EsentSLVFileNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileNotFoundException.#ctor

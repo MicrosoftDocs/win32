@@ -1,12 +1,12 @@
 ---
-Description: The following functions are used to create, alter, or draw paths.
+description: The following functions are used to create, alter, or draw paths.
 ms.assetid: 68390601-1542-41dc-bea0-78f6c3318806
 title: Path Functions (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Path Functions
+# Path Functions (Windows GDI)
 
 The following functions are used to create, alter, or draw paths.
 

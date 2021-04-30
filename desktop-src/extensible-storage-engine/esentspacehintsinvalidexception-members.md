@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSpaceHintsInvalidException members"
 title: EsentSpaceHintsInvalidException members
 TOCTitle: EsentSpaceHintsInvalidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException

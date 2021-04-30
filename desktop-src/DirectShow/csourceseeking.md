@@ -1,5 +1,5 @@
 ---
-Description: The CSourceSeeking class is an abstract class for implementing seeking in source filters with one output pin.
+description: The CSourceSeeking class is an abstract class for implementing seeking in source filters with one output pin.
 ms.assetid: 46e711e1-78d4-4e83-9df1-06032edeba6a
 title: CSourceSeeking class (Ctlutil.h)
 ms.topic: reference
@@ -149,7 +149,7 @@ Also, make sure to check for the AM\_SEEKING\_ReturnTime flag in the [**IMediaSe
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

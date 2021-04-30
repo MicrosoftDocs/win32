@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesTextBinaryColumnsOnlyException constructor"
 title: EsentIndexTuplesTextBinaryColumnsOnlyException constructor 
 TOCTitle: 'EsentIndexTuplesTextBinaryColumnsOnlyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTextBinaryColumnsOnlyException.#ctor

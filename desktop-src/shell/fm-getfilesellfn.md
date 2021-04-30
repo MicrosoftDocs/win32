@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window). The selected file can have a long file name.
+description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window). The selected file can have a long file name.
 title: FM_GETFILESELLFN message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -61,7 +61,7 @@ An extension can use the [**FM\_GETSELCOUNTLFN**](fm-getselcountlfn.md) message 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

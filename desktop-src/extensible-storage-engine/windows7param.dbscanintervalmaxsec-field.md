@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.DbScanIntervalMaxSec field"
 title: Windows7Param.DbScanIntervalMaxSec field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: DbScanIntervalMaxSec field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.DbScanIntervalMaxSec

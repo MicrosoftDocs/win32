@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLanguageIdException properties"
 title: EsentInvalidLanguageIdException properties
 TOCTitle: EsentInvalidLanguageIdException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException

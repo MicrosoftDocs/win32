@@ -1,5 +1,5 @@
 ---
-Description: The Create method of the Wia object makes a connection to the specified Windows Image Acquisition (WIA) device, and returns an Item object that represents the device.
+description: The Create method of the Wia object makes a connection to the specified Windows Image Acquisition (WIA) device, and returns an Item object that represents the device.
 ms.assetid: c33c635a-159c-4ac3-8ad5-6f21a1986702
 title: Wia.Create method
 ms.topic: reference
@@ -129,7 +129,7 @@ Set objWia = objWia.Create(Nothing)
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

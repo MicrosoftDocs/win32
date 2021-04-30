@@ -1,5 +1,5 @@
 ---
-Description: Simulates a Cancel button click.
+description: Simulates a Cancel button click.
 title: WebWizardHost.Cancel method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ The client is responsible for responding to this method with the expected behavi
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

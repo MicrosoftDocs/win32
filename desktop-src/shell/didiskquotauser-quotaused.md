@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's current disk usage, in bytes.
+description: Gets the user's current disk usage, in bytes.
 title: DIDiskQuotaUser.QuotaUsed property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -48,7 +48,7 @@ The **Integer** value that is set to the amount of disk space currently in use. 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

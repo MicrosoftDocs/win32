@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RetrieveColumnGrbit enumeration"
 title: RetrieveColumnGrbit enumeration
 TOCTitle: RetrieveColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.RetrieveColumnGrbit

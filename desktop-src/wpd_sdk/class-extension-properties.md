@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following class extension properties.
+description: Windows Portable Devices supports the following class extension properties.
 ms.assetid: 9b8983ba-5824-495d-868f-fd22b98e1954
 title: Class Extension Properties (PortableDevice.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ Windows Portable Devices supports the following class extension properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

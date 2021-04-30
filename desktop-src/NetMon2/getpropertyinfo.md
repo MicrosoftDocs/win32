@@ -1,5 +1,5 @@
 ---
-Description: The GetPropertyInfo function returns a pointer to the property information of a given protocol.
+description: The GetPropertyInfo function returns a pointer to the property information of a given protocol.
 ms.assetid: f65166ba-1d94-4d65-b9d7-edb84ada0826
 title: GetPropertyInfo function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

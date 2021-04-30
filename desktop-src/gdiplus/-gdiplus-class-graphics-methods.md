@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the Graphics class. For a complete class listing, see Graphics Class.
+description: This topic lists the methods of the Graphics class. For a complete class listing, see Graphics Class.
 ms.assetid: 6d6b71fc-b8a0-4a1e-8f9b-384ae3f4cf1c
 title: Graphics Methods
 ms.topic: reference

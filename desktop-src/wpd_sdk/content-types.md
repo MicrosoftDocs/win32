@@ -1,5 +1,5 @@
 ---
-Description: Content Types
+description: Content Types
 ms.assetid: f1bbd10f-bfe8-4860-aa10-17d198dc50a3
 title: Content Types
 ms.topic: article

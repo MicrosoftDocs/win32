@@ -1,5 +1,5 @@
 ---
-Description: Frees a key, hash, or provider object.
+description: Frees a key, hash, or provider object.
 ms.assetid: 73fa0a08-4654-4515-bdb2-9951936b689a
 title: SslFreeObject function (Sslprovider.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

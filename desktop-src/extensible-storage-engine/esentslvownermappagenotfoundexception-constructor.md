@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapPageNotFoundException constructor"
 title: EsentSLVOwnerMapPageNotFoundException constructor 
 TOCTitle: 'EsentSLVOwnerMapPageNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapPageNotFoundException.#ctor

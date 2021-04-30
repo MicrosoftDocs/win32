@@ -1,5 +1,5 @@
 ---
-Description: The IInstallationProgressChangedCallbackArgs interface defines the following property.
+description: The IInstallationProgressChangedCallbackArgs interface defines the following property.
 ms.assetid: a6b5a404-58db-40a6-bc2a-d345a2ff7fcb
 title: IInstallationProgressChangedCallbackArgs Properties
 ms.topic: article

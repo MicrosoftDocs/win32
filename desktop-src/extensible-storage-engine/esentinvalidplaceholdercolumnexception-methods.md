@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPlaceholderColumnException methods"
 title: EsentInvalidPlaceholderColumnException methods
 TOCTitle: EsentInvalidPlaceholderColumnException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidPlaceholderColumnException

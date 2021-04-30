@@ -1,5 +1,5 @@
 ---
-Description: Returns the matrix transpose of a matrix.
+description: D3DXMatrixTranspose function (D3DX10Math.h) - Returns the matrix transpose of a matrix.
 ms.assetid: 934b17cc-39c4-425c-839b-69e080f0efd7
 title: D3DXMatrixTranspose function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixTranspose function
+# D3DXMatrixTranspose function (D3DX10Math.h)
 
 Returns the matrix transpose of a matrix.
 
@@ -68,7 +68,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

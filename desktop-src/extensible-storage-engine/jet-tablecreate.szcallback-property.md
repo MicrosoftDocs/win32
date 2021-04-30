@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.szCallback property"
 title: JET_TABLECREATE.szCallback property 
 TOCTitle: 'szCallback property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.szCallback

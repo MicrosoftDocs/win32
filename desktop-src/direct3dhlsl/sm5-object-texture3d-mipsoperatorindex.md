@@ -1,6 +1,6 @@
 ---
 title: Texture3D::mips.Operator    function
-description: Returns a read-only resource variable.
+description: Returns a read-only resource variable. | Texture3D::mips.Operator    function
 ms.assetid: d5f6cb3b-4163-44c2-8379-ac8a412b1aa6
 keywords:
 - mips.Operator function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# mips.Operator\[\]\[\] function
+# Texture3D::mips.Operator    function
 
 Returns a read-only resource variable.
 

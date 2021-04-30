@@ -1,5 +1,5 @@
 ---
-Description: While creating an ASF file, the ContentInfo object needs to know the characteristics of the media content so that the various header objects are populated with the correct values.
+description: While creating an ASF file, the ContentInfo object needs to know the characteristics of the media content so that the various header objects are populated with the correct values.
 ms.assetid: 30e3c10b-1310-4194-8b83-221dfe73b03c
 title: Setting Properties in the ContentInfo Object
 ms.topic: article

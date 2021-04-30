@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Touch
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 All Microsoft Windows applications should have a great touch experience. And creating such an experience is easier than you think.
 
@@ -117,7 +117,7 @@ Hover is a useful interaction because it allows users to get additional informat
 
 Unfortunately, hover isn't supported by touch technologies, so users can't hover when using a finger. The simple solution to this problem is to take full advantage of hover, but only in ways that are not required to perform an action. In practice, this usually means that the action can also be performed by clicking, but not necessarily in exactly the same way.
 
-![image](images/inter-touch-image13.png)
+![Screenshot that shows an example of the hover interaction next to an example of the clicking action.](images/inter-touch-image13.png)
 
 In this example, users can see today's date by either hovering or clicking.
 
@@ -251,7 +251,7 @@ Due to the large surface area of the fingertip, small controls that are too clos
 
 As a general rule, a control size of 23x23 pixels (13x13 DLUs) is a good minimum interactive control size for any input device. By contrast, the spin controls at 15x11 pixels are much too small to be used effectively with touch.
 
-![image](images/inter-touch-image14.png)
+![Screenshot that shows the width and height of up and down selection buttons, measuring 9 DLUs (15 pixels) wide by 5 DLUs (9 pixels) high.](images/inter-touch-image14.png)
 
 Keep in mind that the minimum size is really based on physical area, not layout metrics such as pixels or DLUs. Research indicates that the minimum target area for efficient, accurate interaction using a finger is 6x6 millimeters (mm). This area translates to layout metrics like this:
 
@@ -270,11 +270,11 @@ Furthermore, research shows that a minimum size of 10x10 mm (about 40x40 pixels)
 
 The goal isn't to have giant controls, just ones that are easily used with touch.
 
-![image](images/inter-touch-image15.png)
+![Screenshot that shows the Microsoft Word toolbar with the 'A B C Spelling & Grammar' button highlighted, with a 41 DLU height and 40 DLU width.](images/inter-touch-image15.png)
 
 In this example, Microsoft Word uses buttons larger than 10x10 mm for the most important commands.
 
-![image](images/inter-touch-image16.png)
+![Screenshot that shows the the Windows calculator.](images/inter-touch-image16.png)
 
 This version of Calculator uses buttons larger than 10x10 mm for its most frequently used commands.
 
@@ -284,7 +284,7 @@ There's no perfect size for touch targets. Different sizes work for different si
 
 
 
-|                                                                                  |                                                                                                                                                                                                                                                                                  |
+| Size guideline                                                                                 | Description                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![7x7 recommended minimum size](images/inter_touch_image10.jpeg)<br/>      | **7x7 mm: Recommended minimum size**<br/> 7x7 mm is a good minimum size if touching the wrong target can be corrected in one or two gestures or within five seconds. Padding between targets is just as important as target size.<br/>                               |
 | ![9x9 recommended size for accuracy](images/inter_touch_image11.jpeg)<br/> | **When accuracy matters**<br/> Close, delete, and other actions with severe consequences can't afford accidental taps. Use 9x9 mm targets if touching the wrong target requires more than two gestures, five seconds, or a major context change to correct.<br/>     |
@@ -298,13 +298,13 @@ There's no perfect size for touch targets. Different sizes work for different si
 
 -   **For common controls, use the recommended control sizes.** The recommended control sizing satisfies the 23x23 pixel (13x13 DLU) minimum size, except for check boxes and radio buttons (their text width compensates somewhat), spin controls (which aren't usable with touch, but are redundant), and splitters.
 
-    ![image](images/inter-touch-image17.png)
+    ![Screenshot that shows an example of common controls, including audio controls, a 'Browse the Internet now' button, and a File Explorer window.](images/inter-touch-image17.png)
 
     The recommended control sizes are easily touchable.
 
 -   **For command buttons used for the most important or frequently used commands, use a minimum size of 40x40 pixels (23x22 DLUs) whenever practical.** Doing so yields better speed and accuracy, and also feels more comfortable to users.
 
-    ![image](images/inter-touch-image18.png)
+    ![Screenshot that shows multiple sizes of an e-mail 'Send' button, with the smallest to largest sizes starting left to right.](images/inter-touch-image18.png)
 
     Whenever practical, use larger command buttons for important or frequently used commands.
 
@@ -314,15 +314,15 @@ There's no perfect size for touch targets. Different sizes work for different si
 
         Correct:
 
-        ![image](images/inter-touch-image19.png)
+        ![Screenshot that shows a toolbar with the correct target size.](images/inter-touch-image19.png)
 
         Incorrect:
 
-        ![image](images/inter-touch-image20.png)
+        ![Screenshot that shows a U I tree with an incorrectly-sized target area.](images/inter-touch-image20.png)
 
         Correct:
 
-        ![image](images/inter-touch-image21.png)
+        ![Screenshot that shows a U I tree with the correct size for the target area.](images/inter-touch-image21.png)
 
         In the correct examples, the click targets are larger than the statically visible UI elements.
 
@@ -330,13 +330,13 @@ There's no perfect size for touch targets. Different sizes work for different si
 
         For example, the progressive disclosure triangles used by the tree view control are only 6x9 pixels, but their functionality is redundant with their associated item labels.
 
-        ![image](images/inter-touch-image22.png)
+        ![Screenshot that shows a U I tree with redundant click targets.](images/inter-touch-image22.png)
 
         The tree view triangles are too small to be easily touchable, but they are redundant in functionality with their larger associated labels.
 
         Respect system metrics. Don't hardcode sizes. If necessary, users can change the system metrics or dpi to accommodate their needs. However, treat this as a last resort because users shouldn't normally have to adjust system settings to make UI usable.
 
-        ![image](images/inter-touch-image23.png)
+        ![Screenshot that shows a standard menu height on the left, and a larger menu height on the right.](images/inter-touch-image23.png)
 
         In this example, the system metric for menu height was changed.
 
@@ -346,7 +346,7 @@ Editing text is one of the most challenging interactions when using a finger. Us
 
 For example, an e-mail program could display UI at normal touchable size, but zoom the input UI to 150 percent to compose messages.
 
-![image](images/inter-touch-image24.png)
+![Screenshot that shows an e-mail U I.](images/inter-touch-image24.png)
 
 In this example, the input UI is zoomed to 150 percent.
 
@@ -362,11 +362,11 @@ The spacing between controls is a significant factor in making controls easily t
 
 Correct:
 
-![image](images/inter-touch-image25.png)
+![Screenshot that shows a standard example of vertical spacing between controls.](images/inter-touch-image25.png)
 
 Better:
 
-![image](images/inter-touch-image26.png)
+![Screenshot that shows an example of controls with more vertical spacing.](images/inter-touch-image26.png)
 
 In the better example, the extra spacing between the radio buttons makes them easier to differentiate.
 
@@ -376,7 +376,7 @@ There may be situations in which extra spacing would be desirable when using tou
 
 Consider that the current pointer location is the closest a target can be, making it trivial to acquire. Thus, context menus take full advantage of Fitts' law, as do the mini-toolbars used by Microsoft Office.
 
-![image](images/inter-touch-image27.png)
+![Screenshot that shows an example of a context menu and a mini-toolbar from Microsoft Office side-by-side.](images/inter-touch-image27.png)
 
 **Avoid placing small controls near the edge of the app or the display.** Small targets near edges can be difficult to touch (display bezels can interfere with edge gestures). To ensure that controls are easy to target when a window is maximized, either make them at least 23x23 pixels (13x13 DLUs) or place them away from the window edge.
 
@@ -428,6 +428,4 @@ Forgiveness is the ability to reverse or correct an undesired action easily. You
     Routine confirmations are acceptable for interactions that users often do accidentally using touch.
 
     Developers: You can distinguish between mouse events and touch events using the [**INPUT\_MESSAGE\_SOURCE**](/windows/win32/api/winuser/ns-winuser-input_message_source) API.
-
- 
 

@@ -1,5 +1,5 @@
 ---
-Description: Computes the source radiance resulting from subsurface scattering, using material properties set by ID3DXPRTEngine::SetMeshMaterials. This method can be used only for materials defined per-vertex in a mesh object.
+description: Computes the source radiance resulting from subsurface scattering, using material properties set by ID3DXPRTEngine::SetMeshMaterials. This method can be used only for materials defined per-vertex in a mesh object.
 ms.assetid: cdf0d9c1-70e3-44d5-b97a-0521e6739daf
 title: ID3DXPRTEngine::ComputeSS method (D3DX9Mesh.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ Call [**ID3DXPRTEngine::MultiplyAlbedo**](id3dxprtengine--multiplyalbedo.md) to 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

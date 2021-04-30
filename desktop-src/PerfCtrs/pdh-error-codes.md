@@ -1,5 +1,5 @@
 ---
-Description: All Performance Data Helper (PDH) functions return a value of type PDH\_STATUS.
+description: All Performance Data Helper (PDH) functions return a value of type PDH\_STATUS.
 ms.assetid: ea67d798-81db-44ad-b0fb-24e0c3be7388
 title: Performance Data Helper Error Codes
 ms.topic: article

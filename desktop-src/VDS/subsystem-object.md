@@ -1,5 +1,5 @@
 ---
-Description: Subsystem Object
+description: Subsystem Object
 ms.assetid: f605a5de-9256-4b43-8e12-3d78fd6cd9f1
 title: Subsystem Object
 ms.topic: article
@@ -16,7 +16,7 @@ A subsystem can contain any number of controllers and drives, and can surface (u
 
 The illustration that follows shows the physical devices contained in a subsystem (LUNs are not shown) and the relationships among them.
 
-![](images/vdssubsystem.png)
+![Diagram that shows a subsystem starting with 'Ports' on the left, moving to 'Controllers', and then a 'Bus' with 'Slots' leading to individual 'Drives'.](images/vdssubsystem.png)
 
 VDS applications use the [**IVdsHwProvider::QuerySubSystems**](/windows/desktop/api/Vds/nf-vds-ivdshwprovider-querysubsystems) method to query the subsystems that belong to a specific hardware provider. Callers can get a pointer to a specific subsystem by selecting the desired subsystem object from the enumeration that is returned by the **QuerySubSystems** method. With a subsystem object, you can set the subsystem status, create LUNs, replace drives, and query for controllers, drives, and LUNs.
 

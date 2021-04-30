@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMUSHORTN2.
+description: Constructors exposed by XMUSHORTN2.
 ms.assetid: 86782b41-06ac-41f3-bdf8-72d125789295
 title: XMUSHORTN2 constructors
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.cbPageSize property"
 title: JET_DBINFOMISC.cbPageSize property 
 TOCTitle: 'cbPageSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.cbPageSize

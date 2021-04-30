@@ -1,5 +1,5 @@
 ---
-Description: The following table contains error codes that are specific to Microsoft DirectX Media Objects (DMOs). These error codes are defined in the header file Mediaerr.h.
+description: The following table contains error codes that are specific to Microsoft DirectX Media Objects (DMOs). These error codes are defined in the header file Mediaerr.h.
 ms.assetid: 1ded5656-084d-4315-a414-aebf4a1820dc
 title: DMO Error Codes (Mediaerr.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ The following table contains error codes that are specific to Microsoft DirectX 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mediaerr.h</dt> </dl> |
 

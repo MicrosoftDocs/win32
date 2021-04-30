@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileSystemCorruptionException methods"
 title: EsentFileSystemCorruptionException methods
 TOCTitle: EsentFileSystemCorruptionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException

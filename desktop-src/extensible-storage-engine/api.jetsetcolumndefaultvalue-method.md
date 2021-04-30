@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetColumnDefaultValue method"
 title: Api.JetSetColumnDefaultValue method 
 TOCTitle: 'JetSetColumnDefaultValue method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetColumnDefaultValue(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.String,System.Byte[],System.Int32,Microsoft.Isam.Esent.Interop.SetColumnDefaultValueGrbit)

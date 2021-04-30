@@ -1,5 +1,5 @@
 ---
-Description: Sent to an extension DLL when the user selects the menu for the extension from the File Manager menu bar. The extension can use this notification to initialize menu items.
+description: Sent to an extension DLL when the user selects the menu for the extension from the File Manager menu bar. The extension can use this notification to initialize menu items.
 title: FMEVENT_INITMENU message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -55,7 +55,7 @@ An extension DLL receives this message only when the user selects the top-level 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

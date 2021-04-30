@@ -57,7 +57,7 @@ If the provider shutdown succeeds, the callback should return **ERROR\_SUCCESS**
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2008, Windows Server 2003 with SP2 \[desktop apps only\]<br/> |

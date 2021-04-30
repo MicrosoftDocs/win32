@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootStillOpenException members"
 title: EsentSLVRootStillOpenException members
 TOCTitle: EsentSLVRootStillOpenException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException

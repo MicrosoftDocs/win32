@@ -1,5 +1,5 @@
 ---
-Description: Reads the filter's data from the given stream.
+description: Reads the filter's data from the given stream.
 ms.assetid: 009f4812-8cc6-436a-9553-3a3161d5e992
 title: CPersistStream.ReadFromStream method (Pstream.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The default version reads nothing; it can be overridden to read data specific to
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Sent to an extension DLL when File Manager is loading the DLL.
+description: Sent to an extension DLL when File Manager is loading the DLL.
 ms.assetid: 9d673ab8-c468-4b46-b96e-1adfaa9f85fb
 title: FMEVENT_LOAD message (Wfext.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ An application should fill the **dwSize**, **szMenuName**, and **hMenu** members
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

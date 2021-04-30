@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyActiveUsersException properties"
 title: EsentTooManyActiveUsersException properties
 TOCTitle: EsentTooManyActiveUsersException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyActiveUsersException

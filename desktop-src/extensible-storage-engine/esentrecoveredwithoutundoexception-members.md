@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoException members"
 title: EsentRecoveredWithoutUndoException members
 TOCTitle: EsentRecoveredWithoutUndoException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException

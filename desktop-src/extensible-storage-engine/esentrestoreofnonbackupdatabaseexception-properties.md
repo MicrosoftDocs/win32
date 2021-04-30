@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRestoreOfNonBackupDatabaseException properties"
 title: EsentRestoreOfNonBackupDatabaseException properties
 TOCTitle: EsentRestoreOfNonBackupDatabaseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRestoreOfNonBackupDatabaseException

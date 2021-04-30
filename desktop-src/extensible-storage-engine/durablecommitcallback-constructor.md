@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback constructor"
 title: DurableCommitCallback constructor  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'DurableCommitCallback constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback.#ctor(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.Windows8.JET_PFNDURABLECOMMITCALLBACK)

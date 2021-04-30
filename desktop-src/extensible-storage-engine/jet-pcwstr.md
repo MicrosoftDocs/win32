@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PCWSTR"
 title: JET_PCWSTR
 TOCTitle: JET_PCWSTR
 ms:assetid: fef64bb9-c2e0-4cfb-8138-c98ae6f50952

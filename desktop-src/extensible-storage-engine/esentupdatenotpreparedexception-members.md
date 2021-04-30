@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateNotPreparedException members"
 title: EsentUpdateNotPreparedException members
 TOCTitle: EsentUpdateNotPreparedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUpdateNotPreparedException

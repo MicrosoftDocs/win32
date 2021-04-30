@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetIntersectIndexes Function"
 title: JetIntersectIndexes Function
 TOCTitle: JetIntersectIndexes Function
 ms:assetid: 6e111d10-6882-46ac-a70b-7896662d3b5d

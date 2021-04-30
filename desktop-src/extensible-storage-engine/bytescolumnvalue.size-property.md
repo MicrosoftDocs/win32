@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue.Size property"
 title: BytesColumnValue.Size property 
 TOCTitle: 'Size property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BytesColumnValue.Size

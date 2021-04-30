@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api methods"
 title: Api methods
 TOCTitle: Api methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Api

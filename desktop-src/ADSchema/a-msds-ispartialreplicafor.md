@@ -22,7 +22,7 @@ Backward link for [**hasPartialReplicaNCs**](a-haspartialreplicancs.md). Identif
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Is-Partial-Replica-For            |
 | Ldap-Display-Name | msDS-IsPartialReplicaFor                |
@@ -45,7 +45,7 @@ Backward link for [**hasPartialReplicaNCs**](a-haspartialreplicancs.md). Identif
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 75                              |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link for [**hasPartialReplicaNCs**](a-haspartialreplicancs.md). Identif
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 75                              |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link for [**hasPartialReplicaNCs**](a-haspartialreplicancs.md). Identif
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 75                              |
 | MAPI-Id                | \-                              |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetDatabaseSize Function"
 title: JetSetDatabaseSize Function
 TOCTitle: JetSetDatabaseSize Function
 ms:assetid: 4a87bf43-c8f7-4966-9f1f-68c16d1cb558

@@ -1,5 +1,5 @@
 ---
-Description: IShellDispatch.Suspend method
+description: IShellDispatch.Suspend method
 title: IShellDispatch.Suspend method
 ms.topic: reference
 ms.date: 05/31/2018

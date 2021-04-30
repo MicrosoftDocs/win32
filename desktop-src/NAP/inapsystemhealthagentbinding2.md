@@ -1,6 +1,6 @@
 ---
 title: INapSystemHealthAgentBinding2 interface (NapSystemHealthAgent.h)
-description: The SHAs use to communicate with the NapAgent.
+description: The SHAs use to communicate with the NapAgent. | INapSystemHealthAgentBinding2 interface (NapSystemHealthAgent.h)
 ms.assetid: 2b087d79-a738-42d6-a8f2-4698ab844446
 keywords:
 - INapSystemHealthAgentBinding2 interface NAP
@@ -59,7 +59,7 @@ All the APIs in this interface will return **RPC\_E\_DISCONNECTED** if the NapAg
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |

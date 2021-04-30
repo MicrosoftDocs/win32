@@ -1,5 +1,5 @@
 ---
-Description: RATApplicability
+description: RATApplicability
 MS-HAID: WWAN\_profile\_v4.element\_RATApplicability
 MSHAttr:
 - PreferredSiteName:MSDN

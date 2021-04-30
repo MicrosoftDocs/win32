@@ -1,5 +1,5 @@
 ---
-Description: 'You have two choices when compiling a MOF file: using the command-line utility or using a programmatic interface.'
+description: 'You have two choices when compiling a MOF file: using the command-line utility or using a programmatic interface.'
 ms.assetid: 1760f1bd-7027-4201-97a2-ca902f945b52
 ms.tgt_platform: multiple
 title: Running the MOF Compiler on a File

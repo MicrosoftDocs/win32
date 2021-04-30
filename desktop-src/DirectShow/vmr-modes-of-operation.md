@@ -1,5 +1,5 @@
 ---
-Description: VMR Modes of Operation
+description: VMR Modes of Operation
 ms.assetid: 98244af1-5934-4d1c-b9c3-7a414b065fe7
 title: VMR Modes of Operation
 ms.topic: article

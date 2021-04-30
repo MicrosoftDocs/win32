@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.columnid property"
 title: JET_SETCOLUMN.columnid property 
 TOCTitle: 'columnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.columnid

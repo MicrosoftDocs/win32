@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_S3DisplayController class - Requests a state change.
 ms.assetid: 49b8ea85-ae2e-49cc-9a7d-962681391991
 title: RequestStateChange method of the Msvm_S3DisplayController class
 ms.topic: reference
@@ -150,7 +150,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

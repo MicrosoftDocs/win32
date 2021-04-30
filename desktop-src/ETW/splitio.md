@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for split IO events. The following syntax is simplified from MOF code.
+description: This class is the parent class for split IO events. The following syntax is simplified from MOF code.
 ms.assetid: d65c5180-6f1a-45cc-bca8-eac13857d383
 title: SplitIo class
 ms.topic: reference
@@ -55,7 +55,7 @@ Split IO events indicate that the IO requests have been split into multiple disk
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

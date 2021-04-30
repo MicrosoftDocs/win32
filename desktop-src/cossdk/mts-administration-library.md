@@ -1,5 +1,5 @@
 ---
-Description: The MTS Administration Library shipped with the COM+ Administration interfaces provides backward compatibility with the MTS 2.0 Administration Library.
+description: The MTS Administration Library shipped with the COM+ Administration interfaces provides backward compatibility with the MTS 2.0 Administration Library.
 ms.assetid: 5eb9e68c-4f3b-4d57-bd51-704211d817fe
 title: MTS Administration Library
 ms.topic: article

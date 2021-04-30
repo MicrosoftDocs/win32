@@ -1,5 +1,5 @@
 ---
-Description: Set the range of an array to pass to the device.
+description: Set the range of an array to pass to the device.
 ms.assetid: 43f1c258-770c-4756-9033-e5667b379fe6
 title: ID3DXBaseEffect::SetArrayRange method (D3DX9Shader.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

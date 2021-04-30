@@ -1,5 +1,5 @@
 ---
-Description: The following table describes the major media types.
+description: The following table describes the major media types.
 ms.assetid: 718a07f6-e2e4-4670-b9cf-982b53abffd2
 title: Major Types (Dshow.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ The subtype GUID further defines the format. For some formats, the subtype GUID 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

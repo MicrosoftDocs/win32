@@ -1,5 +1,5 @@
 ---
-Description: A requester needs to have a well-defined understanding about the status of the writer that participates with it during shadow copy creation, and during backup and restore operations.
+description: A requester needs to have a well-defined understanding about the status of the writer that participates with it during shadow copy creation, and during backup and restore operations.
 ms.assetid: 676d5cff-bd28-43f0-a402-d184c96f0061
 title: Determining Writer Status
 ms.topic: article
@@ -31,9 +31,8 @@ A requester needs to have a well-defined understanding about the status of the w
 [**IVssBackupComponents::BackupComplete**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-backupcomplete)
 </dt> </dl>
 
-    During restore operations, a requester should query a writer after completion of these methods:
-
-    <dl> <dt>
+During restore operations, a requester should query a writer after completion of these methods:
+<dl> <dt>
 
 [**IVssBackupComponents::PreRestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore)
 </dt> <dt>

@@ -1,5 +1,5 @@
 ---
-Description: The video stabilization MFT is a Microsoft Media Foundation transform (MFT) that performs image stabilization on a video stream.
+description: The video stabilization MFT is a Microsoft Media Foundation transform (MFT) that performs image stabilization on a video stream.
 ms.assetid: BBC42190-08E4-4C3B-972A-FD30621A6CC1
 title: Video Stabilization MFT (Camerauicontrol.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Additionally, the video stabilization DSP supports instantiation using Windows R
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Camerauicontrol.h</dt> </dl> |
 

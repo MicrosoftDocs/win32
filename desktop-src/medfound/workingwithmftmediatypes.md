@@ -1,5 +1,5 @@
 ---
-Description: Working with MFT Media Types
+description: Working with MFT Media Types
 ms.assetid: 16c270ee-f246-4222-97e9-d8d0fe009155
 title: Working with MFT Media Types
 ms.topic: article

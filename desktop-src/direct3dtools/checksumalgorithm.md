@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate the checksum algorithm to be used.
+description: An enum used to indicate the checksum algorithm to be used.
 MS-HAID: vspixengine.CHECKSUMALGORITHM
 MSHAttr:
 - PreferredSiteName:MSDN

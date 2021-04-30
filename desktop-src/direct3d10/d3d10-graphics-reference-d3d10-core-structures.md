@@ -1,5 +1,5 @@
 ---
-Description: 'This section contains information about the following core structures:'
+description: 'This section contains information about the following core structures:'
 ms.assetid: 84769515-3f3b-4464-9620-7b806bf905b3
 title: Direct3D 10 core structures
 ms.topic: article

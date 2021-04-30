@@ -1,5 +1,5 @@
 ---
-Description: Lists the vector initialization functions.
+description: Lists the vector initialization functions.
 ms.assetid: 862a1a83-2371-9885-20d4-184aae52fd10
 title: Vector initialization functions
 ms.topic: reference

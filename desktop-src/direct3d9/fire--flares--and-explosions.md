@@ -1,5 +1,5 @@
 ---
-Description: You can use Microsoft Direct3D to simulate natural phenomena involving energy releases.
+description: You can use Microsoft Direct3D to simulate natural phenomena involving energy releases.
 ms.assetid: a16af13d-3a38-42b5-900b-ff58a0c917b2
 title: Fire, Flares, and Explosions (Direct3D 9)
 ms.topic: article

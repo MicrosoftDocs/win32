@@ -34,7 +34,7 @@ This attribute contains a list of well-known object containers by GUID and disti
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | Well-Known-Objects                              |
 | Ldap-Display-Name | wellKnownObjects                                |
@@ -61,7 +61,7 @@ This attribute contains a list of well-known object containers by GUID and disti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -82,7 +82,7 @@ This attribute contains a list of well-known object containers by GUID and disti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -103,7 +103,7 @@ This attribute contains a list of well-known object containers by GUID and disti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -124,7 +124,7 @@ This attribute contains a list of well-known object containers by GUID and disti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -145,7 +145,7 @@ This attribute contains a list of well-known object containers by GUID and disti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -166,7 +166,7 @@ This attribute contains a list of well-known object containers by GUID and disti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -187,7 +187,7 @@ This attribute contains a list of well-known object containers by GUID and disti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

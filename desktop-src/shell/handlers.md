@@ -1,5 +1,5 @@
 ---
-Description: The capabilities of the Shell can be extended with registry entries and .ini files.
+description: The capabilities of the Shell can be extended with registry entries and .ini files.
 ms.assetid: '74a81e4f-7357-4901-a118-ba44e8892f25'
 title: Creating Shell Extension Handlers
 ms.topic: article

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.JetSetSystemParameter method"
 title: Api.JetSetSystemParameter method 
 TOCTitle: 'JetSetSystemParameter method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.JetSetSystemParameter

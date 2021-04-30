@@ -1,5 +1,5 @@
 ---
-Description: A publisher configuration file globally redirects applications and assemblies having a dependence on one version of a side-by-side assembly to use another version of the same assembly.
+description: A publisher configuration file globally redirects applications and assemblies having a dependence on one version of a side-by-side assembly to use another version of the same assembly.
 ms.assetid: 9146c81e-8f43-4854-bbc4-1daaeb5fdda8
 title: Publisher Configuration
 ms.topic: article

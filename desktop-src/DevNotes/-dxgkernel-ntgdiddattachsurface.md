@@ -1,5 +1,5 @@
 ---
-Description: Attaches two kernel-mode surface representations.
+description: Attaches two kernel-mode surface representations.
 ms.assetid: f1b1859f-8b62-4385-9e8a-296086446fe7
 title: NtGdiDdAttachSurface function (Ntgdi.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ See the DirectDraw  software development kit (SDK) and Driver Development Kit (
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

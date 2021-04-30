@@ -21,7 +21,7 @@ Allows receiving messages from the Computer Journal queue.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Receive-computer-Journal        |
 | Display-Name | Receive Computer Journal             |
@@ -42,7 +42,7 @@ Allows receiving messages from the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 40                                                           |
@@ -53,7 +53,7 @@ Allows receiving messages from the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 40                                                           |
@@ -64,7 +64,7 @@ Allows receiving messages from the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 40                                                           |
@@ -75,7 +75,7 @@ Allows receiving messages from the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 40                                                           |
@@ -86,7 +86,7 @@ Allows receiving messages from the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 40                                                           |
@@ -97,7 +97,7 @@ Allows receiving messages from the Computer Journal queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 40                                                           |

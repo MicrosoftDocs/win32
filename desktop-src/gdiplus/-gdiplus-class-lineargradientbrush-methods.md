@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
+description: This topic lists the methods of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
 ms.assetid: fbbc4cca-6337-4429-b35f-ef9de951ea12
 title: LinearGradientBrush Methods
 ms.topic: reference

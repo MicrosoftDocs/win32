@@ -1,5 +1,5 @@
 ---
-Description: Identifies the name of the stream for the audio file.
+description: Identifies the name of the stream for the audio file.
 ms.assetid: 35d8c97c-4bdf-4b4c-89ed-1881ea5d09af
 title: System.Audio.StreamName
 ms.topic: article

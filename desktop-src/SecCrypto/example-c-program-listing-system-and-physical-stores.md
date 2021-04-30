@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the system certificate store locations, the system certificate stores, and the physical stores associated with each system store.
+description: Enumerates the system certificate store locations, the system certificate stores, and the physical stores associated with each system store.
 ms.assetid: bc4268ea-f657-4789-9d0a-6e5354508f86
 title: 'Example C Program: Listing System and Physical Stores'
 ms.topic: article

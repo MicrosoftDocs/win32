@@ -1,5 +1,5 @@
 ---
-Description: Contains a line within a Paragraph.
+description: Contains a line within a Paragraph.
 ms.assetid: 'a88a2bf7-034f-4141-9f1c-f1123bab4a67'
 title: Line Element (Windows.ui.xaml.shapes.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ None.
 
 
 
-|                   |                                                                                                     |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.ui.xaml.shapes.h</dt> </dl> |
 

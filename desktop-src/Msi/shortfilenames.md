@@ -1,5 +1,5 @@
 ---
-Description: Setting the SHORTFILENAMES property causes short file names to be used for the names of target files, rather than long file names. It does not affect the file names the installer looks for at the source.
+description: Setting the SHORTFILENAMES property causes short file names to be used for the names of target files, rather than long file names. It does not affect the file names the installer looks for at the source.
 ms.assetid: b330f9c3-3297-45cf-915c-5fbb291b8afb
 title: SHORTFILENAMES property
 ms.topic: reference
@@ -24,7 +24,7 @@ Applications can use the [**GetShortPathName**](/windows/win32/api/fileapi/nf-fi
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

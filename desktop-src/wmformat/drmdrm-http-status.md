@@ -17,7 +17,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DRM\_HTTP\_STATUS enumeration
+# DRM_HTTP_STATUS enumeration (Wmdrmsdk.h)
 
 The **DRM\_HTTP\_STATUS** enumeration type defines a range of HTTP states for a DRM request.
 
@@ -83,7 +83,7 @@ This enumeration is used by the [**WM\_INDIVIDUALIZE\_STATUS**](drmwm-individual
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

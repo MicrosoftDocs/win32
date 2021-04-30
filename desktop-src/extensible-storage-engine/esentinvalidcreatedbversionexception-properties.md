@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCreateDbVersionException properties"
 title: EsentInvalidCreateDbVersionException properties
 TOCTitle: EsentInvalidCreateDbVersionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidCreateDbVersionException

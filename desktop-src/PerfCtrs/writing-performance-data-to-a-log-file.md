@@ -1,5 +1,5 @@
 ---
-Description: The following example writes real time performance data to a log file.
+description: The following example writes real time performance data to a log file.
 ms.assetid: a1bc40ea-d928-495a-abc0-daf097202a12
 title: Writing Performance Data to a Log File
 ms.topic: article

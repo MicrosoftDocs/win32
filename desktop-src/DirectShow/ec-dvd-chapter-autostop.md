@@ -1,5 +1,5 @@
 ---
-Description: Indicates that DVD playback stopped as the result of a call to the IDvdControl2::PlayChaptersAutoStop method.
+description: Indicates that DVD playback stopped as the result of a call to the IDvdControl2::PlayChaptersAutoStop method.
 ms.assetid: ccafaf76-ec8c-4d67-9b29-565f3ed6593b
 title: EC_DVD_CHAPTER_AUTOSTOP (Dvdevcode.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ This event is raised in the title domain.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

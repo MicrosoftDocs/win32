@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Fonts and Text
+# Fonts and Text (OpenGL)
 
 Microsoft's implementation of OpenGL in Windows supports GDI graphics in a single-buffered OpenGL window. It does not support GDI graphics in a double-buffered OpenGL window. Thus, you can call only the standard GDI font and text functions to draw text in a single-buffered OpenGL window; you cannot call those functions to draw text in a double-buffered OpenGL window.
 

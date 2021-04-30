@@ -1,5 +1,5 @@
 ---
-Description: Length of the valid data in the buffer, in bytes. The value must be equal to or less than the size of the buffer, specified by the CMediaSample::m\_cbBuffer member variable.
+description: Length of the valid data in the buffer, in bytes. The value must be equal to or less than the size of the buffer, specified by the CMediaSample::m\_cbBuffer member variable.
 ms.assetid: 75610043-fe0b-4cd0-9fd6-292f25040d72
 title: CMediaSample::m_lActual member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ LONG m_lActual;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

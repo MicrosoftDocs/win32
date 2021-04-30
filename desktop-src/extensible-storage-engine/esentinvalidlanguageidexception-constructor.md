@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLanguageIdException constructor"
 title: EsentInvalidLanguageIdException constructor 
 TOCTitle: 'EsentInvalidLanguageIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLanguageIdException.#ctor

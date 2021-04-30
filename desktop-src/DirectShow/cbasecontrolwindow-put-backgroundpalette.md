@@ -1,5 +1,5 @@
 ---
-Description: The put\_BackgroundPalette method sets a flag to realize the palette in the background.
+description: The put\_BackgroundPalette method sets a flag to realize the palette in the background.
 ms.assetid: db420e75-e300-41fa-bae4-fb267cc99c7c
 title: CBaseControlWindow.put_BackgroundPalette method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ To play a video within another application or document, the application might wa
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

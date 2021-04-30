@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN.ToString method"
 title: JET_ENUMCOLUMN.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN.ToString

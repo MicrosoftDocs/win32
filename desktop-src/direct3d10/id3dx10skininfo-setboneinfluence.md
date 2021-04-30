@@ -1,5 +1,5 @@
 ---
-Description: Set the amount of influence a given bone has over a given vertex.
+description: Set the amount of influence a given bone has over a given vertex.
 ms.assetid: adbdc784-c6b4-4e10-85c8-5e0b794d946f
 title: ID3DX10SkinInfo::SetBoneInfluence method (D3DX10.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO Structure"
 title: JET_OBJECTINFO Structure
 TOCTitle: JET_OBJECTINFO Structure
 ms:assetid: 9d348ab3-d453-4316-9233-681f165e8ef1

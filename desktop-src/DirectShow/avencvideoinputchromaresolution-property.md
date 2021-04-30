@@ -1,5 +1,5 @@
 ---
-Description: Specifies the chroma resolution of the input video.
+description: Specifies the chroma resolution of the input video.
 ms.assetid: 1e405def-2958-4f4f-9c15-db186e0df52f
 title: AVEncVideoInputChromaResolution property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncVideoChromaResolution**](
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

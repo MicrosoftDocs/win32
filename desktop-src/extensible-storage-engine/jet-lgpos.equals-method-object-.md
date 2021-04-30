@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.Equals method (Object)"
 title: JET_LGPOS.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.Equals(System.Object)

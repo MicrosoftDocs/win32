@@ -1,5 +1,5 @@
 ---
-Description: Initializes the Aux\_klib library.
+description: Initializes the Aux\_klib library.
 ms.assetid: 516bb359-d3a3-415b-90af-09e544366a12
 title: AuxKlibInitialize function (Aux\_klib.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ The object library that implements this API can be downloaded from [here](https:
 
 
 
-|                            |                                                                                          |
+| Requirement | Value |
 |----------------------------|------------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Auxiliary API library version 1.0 or later<br/>                            |
 | Header<br/>          | <dl> <dt>Aux\_klib.h</dt> </dl>   |

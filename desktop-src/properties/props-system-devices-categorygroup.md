@@ -1,5 +1,5 @@
 ---
-Description: Plural of device category.
+description: Plural of device category.
 ms.assetid: a695adab-99f7-4660-a5a3-2b3ec619a0f8
 title: System.Devices.CategoryGroup
 ms.topic: article

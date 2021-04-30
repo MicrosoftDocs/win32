@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the decoder drops intra frames with missing reference frames.
+description: Specifies whether the decoder drops intra frames with missing reference frames.
 ms.assetid: 9007d5a8-f498-4394-a4e6-02a7616f3e2a
 title: AVDecVideoDropPicWithMissingRef property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the bitstream is corrupted, a frame might have missing reference frames. If t
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

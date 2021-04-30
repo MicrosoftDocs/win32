@@ -1,5 +1,5 @@
 ---
-Description: Control Panel items must be registered in order to appear in the Control Panel window.
+description: Control Panel items must be registered in order to appear in the Control Panel window.
 title: Registering Control Panel Items
 ms.topic: article
 ms.date: 05/31/2018

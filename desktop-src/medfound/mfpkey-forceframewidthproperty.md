@@ -1,5 +1,5 @@
 ---
-Description: Specifies an intermediate frame width for encoded video.
+description: Specifies an intermediate frame width for encoded video.
 ms.assetid: 805bd587-31af-49b8-b5ab-2dcf2a3f81c5
 title: MFPKEY_FORCEFRAMEWIDTH Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Valid frame dimensions on either axis are 2 to 8192 pixels. Frame dimensions mus
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

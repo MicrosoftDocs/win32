@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyMempoolEntriesException methods"
 title: EsentTooManyMempoolEntriesException methods
 TOCTitle: EsentTooManyMempoolEntriesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesException

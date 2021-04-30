@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentWriteConflictPrimaryIndexException methods"
 title: EsentWriteConflictPrimaryIndexException methods
 TOCTitle: EsentWriteConflictPrimaryIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException

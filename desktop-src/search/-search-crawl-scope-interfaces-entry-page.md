@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Crawl Scope Interfaces
 ms.assetid: 3e91974d-4868-4646-95fd-da6e63551973
 title: Crawl Scope Interfaces
 ms.topic: article

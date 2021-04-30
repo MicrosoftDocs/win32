@@ -1,5 +1,5 @@
 ---
-Description: Defines constants that describe transformation state values.
+description: Defines constants that describe transformation state values.
 ms.assetid: 53535d9f-246a-42cf-82a2-fb3cf6d4ebac
 title: D3DTRANSFORMSTATETYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -140,7 +140,7 @@ The transform states in the range 256 through 511 are reserved to store up to 25
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

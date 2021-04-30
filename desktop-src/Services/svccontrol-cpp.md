@@ -1,5 +1,5 @@
 ---
-Description: The following is a sample service control program.
+description: The following is a sample service control program.
 ms.assetid: 9d582ab9-028c-48a2-ba34-ab48a9a317ce
 title: SvcControl.cpp
 ms.topic: article

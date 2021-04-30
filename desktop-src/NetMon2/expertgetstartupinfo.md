@@ -1,5 +1,5 @@
 ---
-Description: The ExpertGetStartupInfo function retrieves the startup configuration information for the expert.
+description: The ExpertGetStartupInfo function retrieves the startup configuration information for the expert.
 ms.assetid: 15f080ed-50b7-40c6-b283-dbe416a2b0e9
 title: ExpertGetStartupInfo function (Netmon.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ The **ExpertGetStartupInfo** function is used if the expert must determine the s
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: PrereadKeysGrbit enumeration"
 title: PrereadKeysGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: PrereadKeysGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows7.PrereadKeysGrbit

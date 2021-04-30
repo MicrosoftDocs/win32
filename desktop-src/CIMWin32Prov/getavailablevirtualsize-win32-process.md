@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current size, in bytes, of the free virtual address space available to the process.
+description: Retrieves the current size, in bytes, of the free virtual address space available to the process.
 ms.assetid: 13b3b347-5db1-484f-bd1d-3a604eb6bc5b
 ms.tgt_platform: multiple
 title: GetAvailableVirtualSize method of the Win32_Process class
@@ -115,7 +115,7 @@ For values other than those listed, refer to the [System Error Codes](/windows/d
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                       |

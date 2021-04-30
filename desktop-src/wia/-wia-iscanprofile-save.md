@@ -1,5 +1,5 @@
 ---
-Description: Saves changes to a profile to disk.
+description: Saves changes to a profile to disk.
 ms.assetid: e844bd4c-93c3-44a3-b7d5-0beb71c9fa17
 title: IScanProfile::Save method (Scanprofile.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ In addition, if the category is WIA\_CATEGORY\_FEEDER, the WIA\_IPS\_PAGE\_SIZE 
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

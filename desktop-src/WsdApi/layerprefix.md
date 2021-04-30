@@ -1,5 +1,5 @@
 ---
-Description: Defines the prefix to use in the generated code to assure uniqueness of generated symbols.
+description: Defines the prefix to use in the generated code to assure uniqueness of generated symbols.
 ms.assetid: 50cb443a-15ae-4f8f-b5f7-b8708810a6c3
 title: layerPrefix element
 ms.topic: reference
@@ -44,7 +44,7 @@ WSDAPI uses the prefix "WSD".
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

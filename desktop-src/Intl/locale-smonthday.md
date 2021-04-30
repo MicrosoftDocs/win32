@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SMONTHDAY
+description: LOCALE\_SMONTHDAY
 ms.assetid: 24f548fd-20b6-4428-a840-900803399a5a
 title: LOCALE_SMONTHDAY
 ms.topic: article

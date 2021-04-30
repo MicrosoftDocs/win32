@@ -1,5 +1,5 @@
 ---
-Description: The StartService method places the service in the started state.
+description: The StartService method places the service in the started state.
 ms.assetid: 0f221db1-29ad-4071-98d3-6d06e4f5e026
 ms.tgt_platform: multiple
 title: StartService method of the Win32_PrinterDriver class
@@ -59,7 +59,7 @@ Request not supported.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

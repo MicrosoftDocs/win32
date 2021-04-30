@@ -1,5 +1,5 @@
 ---
-Description: The call center interfaces provide methods that queue and distribute calls within a call center.
+description: The call center interfaces provide methods that queue and distribute calls within a call center.
 ms.assetid: 0b9a455d-a614-4698-90ab-e81f020fad3e
 title: Call Center Controls Quick Reference
 ms.topic: article

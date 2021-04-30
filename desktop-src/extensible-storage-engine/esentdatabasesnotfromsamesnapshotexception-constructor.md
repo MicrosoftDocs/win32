@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasesNotFromSameSnapshotException constructor"
 title: EsentDatabasesNotFromSameSnapshotException constructor 
 TOCTitle: 'EsentDatabasesNotFromSameSnapshotException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabasesNotFromSameSnapshotException.#ctor

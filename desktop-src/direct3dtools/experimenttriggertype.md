@@ -1,5 +1,5 @@
 ---
-Description: .
+description: <span id="vspixengine.experimenttriggertype"></span>EXPERIMENTTRIGGERTYPE enumeration
 MS-HAID: vspixengine.EXPERIMENTTRIGGERTYPE
 MSHAttr:
 - PreferredSiteName:MSDN

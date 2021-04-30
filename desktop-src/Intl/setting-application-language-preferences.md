@@ -1,5 +1,5 @@
 ---
-Description: Setting Application Language Preferences
+description: Setting Application Language Preferences
 ms.assetid: 0b88f886-3742-4f86-b699-32f0614fa0a0
 title: Setting Application Language Preferences
 ms.topic: article

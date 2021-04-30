@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.LVChunkSizeMost field"
 title: Windows7Param.LVChunkSizeMost field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: LVChunkSizeMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.LVChunkSizeMost

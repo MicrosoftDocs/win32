@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows8Param fields"
 title: Windows8Param fields (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Param fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param

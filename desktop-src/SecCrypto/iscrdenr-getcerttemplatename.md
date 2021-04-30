@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the certificate template.
+description: Retrieves the name of the certificate template.
 ms.assetid: 26fd758a-b348-4efb-841b-c8f2ab88efea
 title: ISCrdEnr::getCertTemplateName method
 ms.topic: reference
@@ -81,7 +81,7 @@ If you do not set the certificate template name by calling [**ISCrdEnr::setCertT
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

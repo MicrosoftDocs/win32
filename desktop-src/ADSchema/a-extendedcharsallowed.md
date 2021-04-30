@@ -22,7 +22,7 @@ Indicates whether extended characters are allowed in the value of this attribute
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Extended-Chars-Allowed               |
 | Ldap-Display-Name | extendedCharsAllowed                 |
@@ -49,7 +49,7 @@ Indicates whether extended characters are allowed in the value of this attribute
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80A7                                                   |
@@ -70,7 +70,7 @@ Indicates whether extended characters are allowed in the value of this attribute
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80A7                                                   |
@@ -91,7 +91,7 @@ Indicates whether extended characters are allowed in the value of this attribute
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80A7                                                   |
@@ -112,7 +112,7 @@ Indicates whether extended characters are allowed in the value of this attribute
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80A7                                                   |
@@ -133,7 +133,7 @@ Indicates whether extended characters are allowed in the value of this attribute
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80A7                                                   |
@@ -154,7 +154,7 @@ Indicates whether extended characters are allowed in the value of this attribute
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80A7                                                   |
@@ -175,7 +175,7 @@ Indicates whether extended characters are allowed in the value of this attribute
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80A7                                                   |

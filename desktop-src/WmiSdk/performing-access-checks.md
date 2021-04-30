@@ -1,5 +1,5 @@
 ---
-Description: An access check determines whether a security descriptor grants a specified set of access rights to the client or thread identified by an access token.
+description: An access check determines whether a security descriptor grants a specified set of access rights to the client or thread identified by an access token.
 ms.assetid: d0259bb1-fd74-4440-ac2a-d6aa84a48d9b
 ms.tgt_platform: multiple
 title: Performing Access Checks

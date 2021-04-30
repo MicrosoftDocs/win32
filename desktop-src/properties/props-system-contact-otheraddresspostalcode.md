@@ -1,5 +1,5 @@
 ---
-Description: Other address postal code of the contact.
+description: Other address postal code of the contact.
 ms.assetid: 04dcee21-1f3b-4dee-95bf-d0df3a614094
 title: System.Contact.OtherAddressPostalCode
 ms.topic: article

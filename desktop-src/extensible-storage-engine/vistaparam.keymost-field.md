@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.KeyMost field"
 title: VistaParam.KeyMost field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: KeyMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.KeyMost

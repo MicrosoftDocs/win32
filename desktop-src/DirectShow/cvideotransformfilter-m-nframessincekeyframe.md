@@ -1,5 +1,5 @@
 ---
-Description: The number of frames that the filter has received since the last key frame.
+description: The number of frames that the filter has received since the last key frame.
 ms.assetid: 6320e8fe-606b-4ca3-aeb7-c583145c0b77
 title: CVideoTransformFilter::m_nFramesSinceKeyFrame member (Vtrans.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ int m_nFramesSinceKeyFrame;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Vtrans.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Defines swap effects.
+description: Defines swap effects.
 ms.assetid: 522a5f71-3ad9-4cfc-a899-e25b9b721b1b
 title: D3DSWAPEFFECT enumeration (D3D9Types.h)
 ms.topic: reference
@@ -109,7 +109,7 @@ An invisible window cannot receive user-mode events; furthermore, an invisible-f
 
 ## Requirements
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

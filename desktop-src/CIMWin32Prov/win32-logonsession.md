@@ -1,5 +1,5 @@
 ---
-Description: Describes the logon session or sessions associated with a user logged on to a computer system running Windows.
+description: Describes the logon session or sessions associated with a user logged on to a computer system running Windows.
 ms.assetid: d09a115b-95a3-47c7-a04d-c810d044ccc8
 ms.tgt_platform: multiple
 title: Win32_LogonSession class
@@ -469,7 +469,7 @@ $servers = gci servers.txt
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

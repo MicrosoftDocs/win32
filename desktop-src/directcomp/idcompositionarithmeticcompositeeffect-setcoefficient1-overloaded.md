@@ -33,7 +33,7 @@ Sets the first coefficient for the equation used to composite the two input imag
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dcomp.h</dt> </dl> |
 

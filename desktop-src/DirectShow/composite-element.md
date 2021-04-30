@@ -1,5 +1,5 @@
 ---
-Description: The composite element defines a composition, a container object for tracks and other nested compositions.
+description: The composite element defines a composition, a container object for tracks and other nested compositions.
 ms.assetid: 7551da3a-1da6-426a-ba9d-f715df53718f
 title: composite Element
 ms.topic: reference
@@ -23,7 +23,7 @@ The `composite` element defines a composition, a container object for tracks and
 
 
 
-|          |                                                                                                                         |
+| Label | Value |
 |----------|-------------------------------------------------------------------------------------------------------------------------|
 | Parent   | `composite`, [**group**](group-element.md)                                                                             |
 | Children | `composite`, [**effect**](effect-element.md), [**track**](track-element.md), [**transition**](transition-element.md) |

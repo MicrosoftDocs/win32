@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileIOException constructor"
 title: EsentSLVFileIOException constructor 
 TOCTitle: 'EsentSLVFileIOException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileIOException.#ctor

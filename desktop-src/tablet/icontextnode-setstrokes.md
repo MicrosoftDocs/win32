@@ -1,5 +1,5 @@
 ---
-Description: Associates the specified strokes with this IContextNode.
+description: Associates the specified strokes with this IContextNode.
 ms.assetid: 5ce8893a-da59-4cec-a349-d5ffc4f43905
 title: IContextNode::SetStrokes method (IACom.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ If any of the specified strokes are already associated with the [**IInkAnalyzer*
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

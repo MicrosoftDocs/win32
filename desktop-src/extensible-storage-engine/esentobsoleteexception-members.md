@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException members"
 title: EsentObsoleteException members
 TOCTitle: EsentObsoleteException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentObsoleteException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE members"
 title: JET_SIGNATURE members
 TOCTitle: JET_SIGNATURE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SIGNATURE

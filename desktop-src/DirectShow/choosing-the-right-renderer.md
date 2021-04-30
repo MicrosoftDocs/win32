@@ -1,5 +1,5 @@
 ---
-Description: Choosing the Right Video Renderer
+description: Choosing the Right Video Renderer
 ms.assetid: c57c4c68-ea1c-4198-94b4-e9b6e53bb625
 title: Choosing the Right Video Renderer
 ms.topic: article

@@ -22,7 +22,7 @@ Contains the phonetic given name or first name of the person.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Phonetic-First-Name                   |
 | Ldap-Display-Name | msDS-PhoneticFirstName                      |
@@ -45,7 +45,7 @@ Contains the phonetic given name or first name of the person.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |
@@ -66,7 +66,7 @@ Contains the phonetic given name or first name of the person.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |
@@ -87,7 +87,7 @@ Contains the phonetic given name or first name of the person.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |

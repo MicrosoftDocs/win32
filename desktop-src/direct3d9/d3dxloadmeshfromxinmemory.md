@@ -1,5 +1,5 @@
 ---
-Description: Loads a mesh from memory.
+description: Loads a mesh from memory.
 ms.assetid: bbaecc00-97ab-433c-b0c7-ac7837bfc3be
 title: D3DXLoadMeshFromXInMemory function (D3DX9Mesh.h)
 ms.topic: reference
@@ -142,7 +142,7 @@ The default texture name is also filled in, but is handled differently. The name
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

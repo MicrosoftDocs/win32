@@ -1,5 +1,5 @@
 ---
-Description: Compiles a shader from an effect that contains one or more functions.
+description: Compiles a shader from an effect that contains one or more functions.
 ms.assetid: f34a2975-dcd5-4917-9b11-ed40583272f9
 title: ID3DXEffectCompiler::CompileShader method (D3DX9Effect.h)
 ms.topic: reference
@@ -126,7 +126,7 @@ This method compiles a shader from a function that is written in a C-like langua
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidGrbitException members"
 title: EsentInvalidGrbitException members
 TOCTitle: EsentInvalidGrbitException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidGrbitException

@@ -1,5 +1,5 @@
 ---
-Description: Once an effect has been authored, the first step is to compile the code to check for syntax problems.
+description: Once an effect has been authored, the first step is to compile the code to check for syntax problems.
 ms.assetid: b8d8a0b7-b520-44e4-8691-6eb46202c092
 title: Compile an Effect (Direct3D 10)
 ms.topic: article

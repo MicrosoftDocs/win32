@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_EmulatedEthernetPort class - Requests a state change.
 ms.assetid: 3fbfa303-2fee-4c70-9bc1-1882821e9317
 title: RequestStateChange method of the Msvm_EmulatedEthernetPort class
 ms.topic: reference
@@ -150,7 +150,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

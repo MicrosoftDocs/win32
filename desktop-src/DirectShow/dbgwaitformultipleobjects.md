@@ -1,5 +1,5 @@
 ---
-Description: Waits for any (or all) of the specified objects to be signaled.
+description: Waits for any (or all) of the specified objects to be signaled.
 ms.assetid: e60c98b6-a4d2-40de-8297-727404e3c387
 title: DbgWaitForMultipleObjects function (Wxdebug.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Boolean value that specifies whether to wait for all of the objects. If **TRUE**
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

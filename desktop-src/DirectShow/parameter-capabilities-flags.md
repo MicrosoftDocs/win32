@@ -1,5 +1,5 @@
 ---
-Description: These flags specify which envelope curves are supported by a media parameter.
+description: These flags specify which envelope curves are supported by a media parameter.
 ms.assetid: 6f3b7666-d245-41fc-b6e4-9e1ed264dfdc
 title: Parameter Capabilities Flags (Medparam.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ These flags specify which envelope curves are supported by a media parameter.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Medparam.h</dt> </dl> |
 

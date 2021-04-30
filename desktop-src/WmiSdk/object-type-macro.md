@@ -1,5 +1,5 @@
 ---
-Description: The OBJECT-TYPE macro contains mandatory and optional clauses that describe the basic characteristics of a MIB object. The SNMP Provider converts an MIB to the corresponding parts of the OBJECT-TYPE macro.
+description: The OBJECT-TYPE macro contains mandatory and optional clauses that describe the basic characteristics of a MIB object. The SNMP Provider converts an MIB to the corresponding parts of the OBJECT-TYPE macro.
 ms.assetid: ad76a4fc-354e-4270-862c-062aa523bf7e
 ms.tgt_platform: multiple
 title: OBJECT-TYPE Macro

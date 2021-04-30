@@ -1,12 +1,12 @@
 ---
-Description: Forced Key Frame Insertion
+description: Forced Key Frame Insertion
 ms.assetid: 844e5a01-96db-4a69-9704-f0fdbfee3957
 title: Forced Key Frame Insertion (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Forced Key Frame Insertion
+# Forced Key Frame Insertion (Microsoft Media Foundation)
 
 When you configure a video encoder object, you can set a maximum interval for key frames in the encoded content. However, the codec will place key frames within that interval as dictated by the content; the key frame interval is not constant. For some applications, the key frame distance is very important. For example, a video editing application needs key frames at locations that are logical to an editor, like at scene breaks and shot transitions.
 

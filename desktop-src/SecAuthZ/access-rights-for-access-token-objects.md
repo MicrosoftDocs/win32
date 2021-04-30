@@ -1,5 +1,5 @@
 ---
-Description: An application cannot change the access control list of an object unless the application has the rights to do so.
+description: An application cannot change the access control list of an object unless the application has the rights to do so.
 ms.assetid: 5f710fd8-33de-47c0-a8b2-baf3008c4ed7
 title: Access Rights for Access-Token Objects
 ms.topic: article

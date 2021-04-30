@@ -1,5 +1,5 @@
 ---
-Description: The GetPriority method retrieves the group's priority.
+description: The GetPriority method retrieves the group's priority.
 ms.assetid: d698317f-ace6-40ed-b125-7e2427fb683b
 title: IAMTimelineGroup::GetPriority method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The IWiaErrorHandler interface provides methods to handle errors that may occur when an application requests image data, whether for preview or final bits.
+description: The IWiaErrorHandler interface provides methods to handle errors that may occur when an application requests image data, whether for preview or final bits.
 ms.assetid: 33d8ccc5-6856-4a54-b1f0-d015933d63ab
 title: IWiaErrorHandler interface (Wia.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ This interface is not designed to handle errors encountered outside of image dat
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

@@ -22,7 +22,7 @@ This attribute describes the suffixes of DNS host names used by servers in the f
 
 
 
-|                   |                                              |
+| Entry | Value |
 |-------------------|----------------------------------------------|
 | CN                | ms-DS-SPN-Suffixes                           |
 | Ldap-Display-Name | msDS-SPNSuffixes                             |
@@ -47,7 +47,7 @@ This attribute describes the suffixes of DNS host names used by servers in the f
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -68,7 +68,7 @@ This attribute describes the suffixes of DNS host names used by servers in the f
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -89,7 +89,7 @@ This attribute describes the suffixes of DNS host names used by servers in the f
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -110,7 +110,7 @@ This attribute describes the suffixes of DNS host names used by servers in the f
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -131,7 +131,7 @@ This attribute describes the suffixes of DNS host names used by servers in the f
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

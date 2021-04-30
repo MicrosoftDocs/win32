@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical shortcut file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.
+description: Copies the logical shortcut file or directory specified in the object path to the location specified by the FileName parameter. This method is an extended version of the Copy method.
 ms.assetid: 06b629bb-d35e-4bc2-b0e5-c6a981b6d968
 ms.tgt_platform: multiple
 title: CopyEx method of the Win32_ShortcutFile class
@@ -176,7 +176,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

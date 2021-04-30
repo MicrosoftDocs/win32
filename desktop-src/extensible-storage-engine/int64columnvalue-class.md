@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int64ColumnValue class"
 title: Int64ColumnValue class
 TOCTitle: Int64ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Int64ColumnValue

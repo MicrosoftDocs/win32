@@ -1,6 +1,6 @@
 ---
 title: Eap element (user property)
-description: Learn about the Eap element. This element captures the method type selected and method-specific configuration.
+description: Learn about the Eap element. This element captures the method type selected and method-specific configuration. | Eap element (user property)
 ms.assetid: 4adef133-1d18-444a-baa3-5419b8cbe298
 keywords:
 - Eap element EAPHost

@@ -1,5 +1,5 @@
 ---
-Description: The ConvertToMilliseconds function converts a reference time to milliseconds.
+description: The ConvertToMilliseconds function converts a reference time to milliseconds.
 ms.assetid: fae3baa4-9344-4197-b375-4abe2656e1b7
 title: ConvertToMilliseconds function (Refclock.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the reference time converted to milliseconds.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Refclock.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

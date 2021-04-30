@@ -1,5 +1,5 @@
 ---
-Description: Synchronization Center
+description: Synchronization Center
 title: Synchronization Center
 ms.topic: article
 ms.date: 05/31/2018

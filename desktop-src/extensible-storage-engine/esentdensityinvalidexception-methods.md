@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDensityInvalidException methods"
 title: EsentDensityInvalidException methods
 TOCTitle: EsentDensityInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDensityInvalidException

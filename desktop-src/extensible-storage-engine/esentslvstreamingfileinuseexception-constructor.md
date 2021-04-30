@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileInUseException constructor"
 title: EsentSLVStreamingFileInUseException constructor 
 TOCTitle: 'EsentSLVStreamingFileInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileInUseException.#ctor

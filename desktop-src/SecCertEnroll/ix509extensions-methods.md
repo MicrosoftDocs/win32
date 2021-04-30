@@ -1,5 +1,5 @@
 ---
-Description: The IX509Extensions interface exposes the following methods.
+description: The IX509Extensions interface exposes the following methods.
 ms.assetid: E2EC33BF-FEA0-4F10-A635-B04B32D2C1AD
 title: IX509Extensions Methods
 ms.topic: reference

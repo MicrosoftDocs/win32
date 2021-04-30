@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of the shutdown service.
+description: Represents the configured state of the shutdown service.
 ms.assetid: 434DE26A-E78A-403A-AFAB-2F9272426A16
 title: Msvm_ShutdownComponentSettingData class
 ms.topic: reference
@@ -449,7 +449,7 @@ Access to the **Msvm\_ShutdownComponentSettingData** class might be restricted b
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

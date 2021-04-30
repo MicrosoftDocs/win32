@@ -1,5 +1,5 @@
 ---
-Description: Transforms the BoundingBox.
+description: Transforms the BoundingBox.
 ms.assetid: a4a66746-64b0-490c-bfc0-31593ca7dc76
 title: BoundingBox.Transform methods
 ms.topic: reference

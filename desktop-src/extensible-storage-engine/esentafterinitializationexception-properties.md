@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAfterInitializationException properties"
 title: EsentAfterInitializationException properties
 TOCTitle: EsentAfterInitializationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentAfterInitializationException

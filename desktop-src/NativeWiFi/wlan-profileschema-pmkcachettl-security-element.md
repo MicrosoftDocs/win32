@@ -1,5 +1,5 @@
 ---
-Description: Indicates the length of time, in minutes, that a PMK cache will be kept.
+description: Indicates the length of time, in minutes, that a PMK cache will be kept.
 ms.assetid: d9e3b839-48f6-490c-ab83-067368cdcca2
 title: PMKCacheTTL (security) Element
 ms.topic: reference
@@ -47,7 +47,7 @@ The element is defined by the [**security**](wlan-profileschema-security-msm-ele
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

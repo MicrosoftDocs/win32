@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEntryPointNotFoundException class"
 title: EsentEntryPointNotFoundException class
 TOCTitle: EsentEntryPointNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException

@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Windows Touch Gestures
+# Windows Touch Gestures (Windows Touch Programming)
 
 This section describes the API used for handling Windows Touch gestures.
 

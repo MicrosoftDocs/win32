@@ -1,5 +1,5 @@
 ---
-Description: Features of the VMR
+description: Features of the VMR
 ms.assetid: a809045b-b60d-4092-bc4d-0e70e17d2913
 title: Features of the VMR
 ms.topic: article

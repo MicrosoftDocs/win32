@@ -1,5 +1,5 @@
 ---
-Description: The IAMTimelineEffectable interface provides methods for adding effects to a timeline object in DirectShow Editing Services (DES), and for manipulating the effects on an object.
+description: The IAMTimelineEffectable interface provides methods for adding effects to a timeline object in DirectShow Editing Services (DES), and for manipulating the effects on an object.
 ms.assetid: 70f2da64-e16a-4d4d-9522-042b5fa2855c
 title: IAMTimelineEffectable interface (Qedit.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ The **IAMTimelineEffectable** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

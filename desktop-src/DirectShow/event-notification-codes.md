@@ -1,5 +1,5 @@
 ---
-Description: Event Notification Codes
+description: Event Notification Codes
 ms.assetid: 339ffcd9-7724-4c92-b241-afbed81d9380
 title: Event Notification Codes
 ms.topic: article

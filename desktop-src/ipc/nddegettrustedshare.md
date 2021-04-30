@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the options associated with a DDE share that is in the server users list of trusted shares.
+description: Retrieves the options associated with a DDE share that is in the server users list of trusted shares.
 ms.assetid: e5f2b4f8-f922-4734-9fe3-8a74a7f5f619
 title: NDdeGetTrustedShare function (Nddeapi.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ The trusted share modify identifier reflects the version of the DDE share in the
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

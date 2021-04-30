@@ -1,6 +1,6 @@
 ---
 title: External.appColorButtonHoverFace (Type 1)
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.appColorButtonHoverFace (Type 1)
 ms.assetid: b13643ee-cb0f-4de1-9337-c7affa3e93d4
 keywords:
 - External.appColorButtonHoverFace (Type 1) Windows Media Player
@@ -42,7 +42,7 @@ Users can change the color of the Windows Media Player user interface. You can u
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/>                                        |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

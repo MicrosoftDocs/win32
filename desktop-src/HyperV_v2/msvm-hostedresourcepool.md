@@ -1,5 +1,5 @@
 ---
-Description: Represents a specialization of the system component association that establishes that the resource pool is defined in the context of the system.
+description: Represents a specialization of the system component association that establishes that the resource pool is defined in the context of the system.
 ms.assetid: 72b68687-2b5f-4fef-bdca-a5c0bbfa3564
 title: Msvm_HostedResourcePool class
 ms.topic: reference
@@ -82,7 +82,7 @@ The resource pool that is a component of the system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

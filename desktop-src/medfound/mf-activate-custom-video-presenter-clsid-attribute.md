@@ -1,5 +1,5 @@
 ---
-Description: CLSID of a custom video presenter for the enhanced video renderer (EVR) media sink.
+description: CLSID of a custom video presenter for the enhanced video renderer (EVR) media sink.
 ms.assetid: f035ee56-7582-45d3-bafe-dd9c821b6326
 title: MF_ACTIVATE_CUSTOM_VIDEO_PRESENTER_CLSID attribute (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

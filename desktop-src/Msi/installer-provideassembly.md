@@ -1,5 +1,5 @@
 ---
-Description: The ProvideAssembly method of the Installer object returns the installed path of an assembly.
+description: The ProvideAssembly method of the Installer object returns the installed path of an assembly.
 ms.assetid: c99b1934-3834-478b-ab1d-7e7583dba779
 title: Installer::ProvideAssembly method
 ms.topic: reference
@@ -129,7 +129,7 @@ MsgBox Installer.ProvideAssembly("Microsoft.MSXML2,publicKeyToken=""6bd6b9abf345
 
 
 
-|                    |                                                                                                                                                                                                                                                              |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 4.5 on Windows Server 2003 and Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |

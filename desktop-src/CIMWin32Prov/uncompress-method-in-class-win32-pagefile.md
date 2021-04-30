@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical paging file (or directory) specified in the object path.
+description: Uncompresses the logical paging file (or directory) specified in the object path.
 ms.assetid: 9bd98ba8-068e-49af-8dd4-e5ee987eb31d
 ms.tgt_platform: multiple
 title: Uncompress method of the Win32_PageFile class
@@ -136,7 +136,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

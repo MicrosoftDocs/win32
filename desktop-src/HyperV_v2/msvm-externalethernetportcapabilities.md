@@ -1,5 +1,5 @@
 ---
-Description: Describes the capabilities of the associated Msvm\_ExternalEthernetPort.
+description: Describes the capabilities of the associated Msvm\_ExternalEthernetPort.
 ms.assetid: 63731b62-b1c7-4dd9-b906-03225bbc3154
 title: Msvm_ExternalEthernetPortCapabilities class
 ms.topic: reference
@@ -139,7 +139,7 @@ An array of strings that indicates the possible reasons why IOV is not supported
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

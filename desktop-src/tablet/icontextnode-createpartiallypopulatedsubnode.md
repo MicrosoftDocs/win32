@@ -1,5 +1,5 @@
 ---
-Description: Creates a child IContextNode object that contains only information about type, identifier, and location.
+description: Creates a child IContextNode object that contains only information about type, identifier, and location.
 ms.assetid: 181028fb-f67c-4c90-bb09-94b68a887bd1
 title: IContextNode::CreatePartiallyPopulatedSubNode method (IACom.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ This method is used for data proxy as a way to create an [**IContextNode**](icon
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

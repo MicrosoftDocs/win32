@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaColtyp fields"
 title: VistaColtyp fields (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaColtyp fields
 ms:assetid: Fields.T:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp

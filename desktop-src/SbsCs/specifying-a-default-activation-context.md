@@ -1,5 +1,5 @@
 ---
-Description: Specifying a Default Activation Context
+description: Specifying a Default Activation Context
 ms.assetid: 4d9a8552-7098-458d-a592-45524871cce5
 title: Specifying a Default Activation Context
 ms.topic: article

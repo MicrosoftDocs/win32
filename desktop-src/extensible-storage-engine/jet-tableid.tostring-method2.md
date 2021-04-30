@@ -1,5 +1,6 @@
 ---
-title: JET_TABLEID.ToString method 
+description: "Learn more about: JET_TABLEID.ToString method"
+title: JET_TABLEID.ToString method
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_tableid.tostring(v=EXCHG.10)

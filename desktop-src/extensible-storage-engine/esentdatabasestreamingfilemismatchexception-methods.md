@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseStreamingFileMismatchException methods"
 title: EsentDatabaseStreamingFileMismatchException methods
 TOCTitle: EsentDatabaseStreamingFileMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseStreamingFileMismatchException

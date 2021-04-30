@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStreamingDataNotLoggedException constructor"
 title: EsentStreamingDataNotLoggedException constructor 
 TOCTitle: 'EsentStreamingDataNotLoggedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException.#ctor

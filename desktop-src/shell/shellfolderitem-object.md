@@ -1,5 +1,5 @@
 ---
-Description: Extends the FolderItem object. In addition to the properties and methods supported by FolderItem, ShellFolderItem has two additional methods.
+description: Extends the FolderItem object. In addition to the properties and methods supported by FolderItem, ShellFolderItem has two additional methods.
 title: ShellFolderItem object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -54,7 +54,7 @@ The **ShellFolderItem** object has these methods.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

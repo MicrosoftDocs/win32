@@ -1,5 +1,5 @@
 ---
-Description: DV Muxer Filter
+description: DV Muxer Filter
 ms.assetid: 4dd57202-f4de-40d9-b720-efaba8a60a7c
 title: DV Muxer Filter
 ms.topic: article
@@ -12,7 +12,7 @@ This filter combines a digital video (DV)—encoded video stream with one or two
 
 
 
-|                                          |                                                                                                                                        |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)                                                             |
 | Input Pin Media Types                    | **Video**: MEDIATYPE\_Video, MEDIASUBTYPE\_dvsd, FORMAT\_VideoInfo**Audio**: MEDIATYPE\_Audio, MEDIASUBTYPE\_PCM, FORMAT\_WaveFormatEx |

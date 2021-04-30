@@ -1,5 +1,5 @@
 ---
-Description: Transmit from Type-1 File
+description: Transmit from Type-1 File
 ms.assetid: 5be2248b-7917-4c1b-9ae7-29e06779eac6
 title: Transmit from Type-1 File
 ms.topic: article

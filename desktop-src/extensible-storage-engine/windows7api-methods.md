@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows7Api methods"
 title: Windows7Api methods (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Windows7Api methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api

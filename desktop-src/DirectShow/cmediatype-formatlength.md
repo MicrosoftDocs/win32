@@ -1,5 +1,5 @@
 ---
-Description: The FormatLength method retrieves the length of the format block.
+description: The FormatLength method retrieves the length of the format block.
 ms.assetid: f990bba9-2227-4746-a9e4-598aeba8b0b7
 title: CMediaType.FormatLength method (Mtype.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the **cbFormat** member.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

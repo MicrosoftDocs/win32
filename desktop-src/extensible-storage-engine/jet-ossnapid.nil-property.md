@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID.Nil property"
 title: JET_OSSNAPID.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.Nil

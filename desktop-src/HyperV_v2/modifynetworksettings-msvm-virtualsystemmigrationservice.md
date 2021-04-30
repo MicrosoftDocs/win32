@@ -1,5 +1,5 @@
 ---
-Description: Modifies migration network subnets of the virtual system migration service.
+description: Modifies migration network subnets of the virtual system migration service.
 ms.assetid: 54ea230a-cda9-4fff-8f79-88f2922b2b15
 title: ModifyNetworkSettings method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

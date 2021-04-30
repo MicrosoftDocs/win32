@@ -1,5 +1,5 @@
 ---
-Description: The information DC is used to retrieve default device data.
+description: The information DC is used to retrieve default device data.
 ms.assetid: 8fd05c17-e8c9-4747-9a66-ce7d958edeb9
 title: Information Device Contexts
 ms.topic: article

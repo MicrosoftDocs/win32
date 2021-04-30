@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a system event is available.
+description: Occurs when a system event is available.
 ms.assetid: 3d9e98f0-b11e-4a65-a544-9e1998a80d5f
 title: ITabletEventSink::SystemEvent method
 ms.topic: reference
@@ -104,7 +104,7 @@ The following list contains the valid values for the event parameter.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

@@ -1,5 +1,5 @@
 ---
-Description: Flag that indicates whether end-of-stream was reached.
+description: Flag that indicates whether end-of-stream was reached.
 ms.assetid: bd919aac-1e37-4693-85ab-f747bfce8994
 title: CBaseRenderer::m_bEOS member (Renbase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BOOL m_bEOS;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

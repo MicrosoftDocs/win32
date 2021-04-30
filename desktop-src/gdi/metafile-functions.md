@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with enhanced-format metafiles.
+description: The following functions are used with enhanced-format metafiles.
 ms.assetid: 93a17a8c-308b-4442-933e-fedc8b9a84b0
 title: Metafile Functions
 ms.topic: article

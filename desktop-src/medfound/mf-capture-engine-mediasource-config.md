@@ -1,5 +1,5 @@
 ---
-Description: Contains configuration properties for the capture source.
+description: Contains configuration properties for the capture source.
 ms.assetid: 9A21D21B-E77F-4C7C-B41F-361CEDA322E7
 title: MF_CAPTURE_ENGINE_MEDIASOURCE_CONFIG attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Currently, this attribute is ignored. In the future, it might be used to pass co
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Clones a mesh using a flexible vertex format (FVF) code.
+description: Clones a mesh using a flexible vertex format (FVF) code.
 ms.assetid: b7d23ea9-1a2f-46e3-bcb5-82040d2a1e12
 title: ID3DXBaseMesh::CloneMeshFVF method (D3DX9Mesh.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

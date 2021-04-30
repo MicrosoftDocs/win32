@@ -1,5 +1,5 @@
 ---
-Description: Is obsolete and should not be used.
+description: Is obsolete and should not be used.
 ms.assetid: cbe89779-403d-406e-af3c-d6530bf3008e
 title: ADDRESS structure (Netmon.h)
 ms.topic: reference
@@ -151,7 +151,7 @@ A set of flags that modify the address properties.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

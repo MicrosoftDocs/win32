@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN.ibData property"
 title: JET_RETRIEVECOLUMN.ibData property 
 TOCTitle: 'ibData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.ibData

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCloseException constructor"
 title: EsentFileCloseException constructor 
 TOCTitle: 'EsentFileCloseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileCloseException.#ctor

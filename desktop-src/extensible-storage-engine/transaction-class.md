@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction class"
 title: Transaction class
 TOCTitle: Transaction class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Transaction

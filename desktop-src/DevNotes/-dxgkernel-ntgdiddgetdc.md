@@ -1,5 +1,5 @@
 ---
-Description: Creates a device context (DC) for the specified surface.
+description: Creates a device context (DC) for the specified surface.
 ms.assetid: c2eaaed6-db19-4dab-ac12-6b4e7eeb58e4
 title: NtGdiDdGetDC function (Ntgdi.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Applications are advised to call [IDirectDrawSurface7::GetDC](/windows/win32/api
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

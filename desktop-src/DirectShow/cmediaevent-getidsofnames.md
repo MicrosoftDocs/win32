@@ -1,5 +1,5 @@
 ---
-Description: Maps a single member function and an optional set of parameters to a corresponding set of integer dispatch identifiers, which can be used upon subsequent calls to the CMediaEvent::Invoke member function.
+description: Maps a single member function and an optional set of parameters to a corresponding set of integer dispatch identifiers, which can be used upon subsequent calls to the CMediaEvent::Invoke member function.
 ms.assetid: 04e607e6-0b68-4371-aacf-01af308a56a3
 title: CMediaEvent.GetIDsOfNames method (Ctlutil.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ Returns one of the following values.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

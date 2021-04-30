@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOAbortException constructor"
 title: EsentFileIOAbortException constructor 
 TOCTitle: 'EsentFileIOAbortException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOAbortException.#ctor

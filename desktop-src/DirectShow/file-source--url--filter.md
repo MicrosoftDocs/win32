@@ -1,5 +1,5 @@
 ---
-Description: File Source (URL) Filter
+description: File Source (URL) Filter
 ms.assetid: 405fd6ea-aa17-4d11-8f07-067468cb090b
 title: File Source (URL) Filter
 ms.topic: article
@@ -12,7 +12,7 @@ The URL File Source filter is a generic asynchronous source filter that works wi
 
 
 
-|                                          |                                                                                                                                      |
+| Label | Value |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMOpenProgress**](/windows/desktop/api/Strmif/nn-strmif-iamopenprogress), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter)       |
 | Input Pin Media Types                    | Not applicable                                                                                                                       |

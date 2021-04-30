@@ -1,5 +1,5 @@
 ---
-Description: TAPI applications must gather and process a variety of session information to function properly. For example, an answer operation fails unless the session is in the &\#0034;offering&\#0034; state.
+description: TAPI applications must gather and process a variety of session information to function properly. For example, an answer operation fails unless the session is in the &\#0034;offering&\#0034; state.
 ms.assetid: 0d9ba91d-3455-4237-816f-3f0860dbfe5a
 title: Session Information
 ms.topic: article

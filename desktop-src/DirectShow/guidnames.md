@@ -1,5 +1,5 @@
 ---
-Description: GuidNames is a global array in the DirectShow base class library that contains strings representing the GUIDs defined in Uuids.h. This array is useful for generating debug output.
+description: GuidNames is a global array in the DirectShow base class library that contains strings representing the GUIDs defined in Uuids.h. This array is useful for generating debug output.
 ms.assetid: 6d72ad1e-588a-4a82-a1c1-e1e7b49df572
 title: GuidNames (Wxdebug.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the GUID is not matched, the string "Unknown GUID Name" is returned. Not all 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

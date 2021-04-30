@@ -1,5 +1,5 @@
 ---
-Description: Seeking
+description: Seeking
 ms.assetid: 'ceccb657-f1e1-4d59-920a-477a95b8a1a4'
 title: Seeking
 ms.topic: article
@@ -14,7 +14,7 @@ When a filter performs a seek operation, it flushes any pending data. The result
 
 The following diagram illustrates the sequence of events.
 
-![seeking](images/seeking.png)
+![sequence of events](images/seeking.png)
 
 If a parser filter has more than one output pin, it typically designates one of them to accept seek commands. The other pins reject or ignore any seek commands they receive. In this way, the parser keeps all of its streams synchronized. However, all output pins should implement [**IMediaSeeking::GetCapabilities**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-getcapabilities) and [**IMediaSeeking::CheckCapabilities**](/windows/desktop/api/Strmif/nf-strmif-imediaseeking-checkcapabilities) to return the filter's seeking capabilities. This ensures that the Filter Graph Manager returns the correct value to the application.
 

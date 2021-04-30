@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IContentEquatable<T>.ContentEquals method"
 title: IContentEquatable(T).ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.IContentEquatable`1.ContentEquals(`0)

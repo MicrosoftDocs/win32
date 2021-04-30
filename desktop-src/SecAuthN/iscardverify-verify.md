@@ -1,5 +1,5 @@
 ---
-Description: Requests a verification of the user.
+description: Requests a verification of the user.
 ms.assetid: e8b7155c-3444-4aa8-8a15-3b3624a44a77
 title: ISCardVerify::Verify method
 ms.topic: reference
@@ -91,7 +91,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

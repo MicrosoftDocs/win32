@@ -1,5 +1,5 @@
 ---
-Description: Enumerates all of the wireless LAN interfaces managed by the Wireless Zero Configuration service.
+description: Enumerates all of the wireless LAN interfaces managed by the Wireless Zero Configuration service.
 ms.assetid: ef8a6a3e-042a-4219-baed-a82bb3e983ae
 title: WZCEnumInterfaces function (Wzcsapi.h)
 ms.topic: reference
@@ -227,7 +227,7 @@ int wmain()
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

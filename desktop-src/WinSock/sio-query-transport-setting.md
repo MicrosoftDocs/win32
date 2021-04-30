@@ -1,5 +1,5 @@
 ---
-Description: Control code queries the transport settings on a socket.
+description: Control code queries the transport settings on a socket.
 ms.assetid: 3845BE07-A414-4118-96E8-8BEF1DEDB1D3
 title: SIO_QUERY_TRANSPORT_SETTING Control Code
 ms.topic: reference

@@ -22,7 +22,7 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 
 
-|                   |                                                                                   |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | CN                | User-Shared-Folder-Other                                                          |
 | Ldap-Display-Name | userSharedFolderOther                                                             |
@@ -48,7 +48,7 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ Specifies a UNC path to the user's additional shared documents folder. The path 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

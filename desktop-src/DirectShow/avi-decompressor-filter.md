@@ -1,5 +1,5 @@
 ---
-Description: AVI Decompressor Filter
+description: AVI Decompressor Filter
 ms.assetid: 6a9914db-483a-429c-9b26-9451578951c9
 title: AVI Decompressor Filter
 ms.topic: article
@@ -21,7 +21,7 @@ On its upstream pin the AVI Decompressor typically connects to the [AVI Splitter
 
 
 
-|                                          |                                                                                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                                                                                 |
 | Input Pin Media Types                    | Major type: MEDIATYPE\_VideoSubtype: Must correspond to the FOURCC code for the compression type. For more information, see [FOURCC Codes](fourcc-codes.md).<br/> Format type: FORMAT\_VideoInfo<br/> |

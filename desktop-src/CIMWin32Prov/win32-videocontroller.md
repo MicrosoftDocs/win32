@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management capacity of the video controller on a computer system running Windows.
+description: Represents the capabilities and management capacity of the video controller on a computer system running Windows.
 ms.assetid: 5c81994b-4a84-46ff-8689-09998dc66f91
 ms.tgt_platform: multiple
 title: Win32_VideoController class
@@ -2699,7 +2699,7 @@ foreach ($objItem in $colItems) {
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

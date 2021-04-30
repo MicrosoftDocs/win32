@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.GetTableNames method"
 title: Api.GetTableNames method 
 TOCTitle: 'GetTableNames method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetTableNames(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID)

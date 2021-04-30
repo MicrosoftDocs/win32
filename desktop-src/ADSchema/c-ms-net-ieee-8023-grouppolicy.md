@@ -21,7 +21,7 @@ This class represents an 802.3 wired network Group Policy object. This class con
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-net-ieee-8023-GroupPolicy         |
 | Ldap-Display-Name | ms-net-ieee-8023-GroupPolicy         |
@@ -43,7 +43,7 @@ This class represents an 802.3 wired network Group Policy object. This class con
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -185,7 +185,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |
@@ -334,7 +334,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

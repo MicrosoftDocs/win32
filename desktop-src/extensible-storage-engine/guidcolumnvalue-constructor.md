@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GuidColumnValue constructor"
 title: GuidColumnValue constructor 
 TOCTitle: 'GuidColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.GuidColumnValue.#ctor

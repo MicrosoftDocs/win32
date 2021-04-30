@@ -1,6 +1,6 @@
 ---
 title: TraceLogging
-description: .
+description: TraceLogging
 ms.assetid: c516424a-9eba-4b56-80de-8c713fd3461a
 ms.topic: article
 ms.date: 05/31/2018

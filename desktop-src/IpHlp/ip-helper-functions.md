@@ -1,5 +1,5 @@
 ---
-Description: The following functions retrieve and modify configuration settings for the TCP/IP transport on the local computer.
+description: The following functions retrieve and modify configuration settings for the TCP/IP transport on the local computer.
 ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
 title: IP Helper Functions
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseBufferDependenciesCorruptedException properties"
 title: EsentDatabaseBufferDependenciesCorruptedException properties
 TOCTitle: EsentDatabaseBufferDependenciesCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException

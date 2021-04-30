@@ -1,5 +1,5 @@
 ---
-Description: Unregistering a Filter
+description: Unregistering a Filter
 ms.assetid: 5459d172-7dfe-4786-bcf2-031e441e30a2
 title: Unregistering a Filter
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Security\_ property of the SWbemServices object is used to get or set the security settings for an SWbemServices object. This property is an SWbemSecurity object.
+description: The Security\_ property of the SWbemServices object is used to get or set the security settings for an SWbemServices object. This property is an SWbemSecurity object.
 ms.assetid: d8b1118b-b26d-4740-915e-484a83953b11
 ms.tgt_platform: multiple
 title: SWbemServices.Security_ property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemServices.Security_ As Object
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

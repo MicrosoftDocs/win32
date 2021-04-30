@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the token that was provided to the IMFMediaStream::RequestSample method.
+description: Contains a pointer to the token that was provided to the IMFMediaStream::RequestSample method.
 ms.assetid: 9403bb15-e912-4aa3-9af1-fef4a4f9b242
 title: MFSampleExtension_Token attribute (Mfapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

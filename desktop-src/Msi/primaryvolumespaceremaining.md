@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the PrimaryVolumeSpaceRemaining property to a string representing the total number of bytes remaining on the volume referenced by the PrimaryVolumePath property, if all currently selected features were installed.
+description: The installer sets the value of the PrimaryVolumeSpaceRemaining property to a string representing the total number of bytes remaining on the volume referenced by the PrimaryVolumePath property, if all currently selected features were installed.
 ms.assetid: 8a59d22f-b8a1-47bf-90f3-f8cadfae8ecd
 title: PrimaryVolumeSpaceRemaining property
 ms.topic: reference
@@ -18,7 +18,7 @@ Note if this value is to be displayed within a static [Text control](text-contro
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

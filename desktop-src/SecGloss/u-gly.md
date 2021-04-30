@@ -1,5 +1,5 @@
 ---
-Description: Contains definitions of security terms that begin with the letter U.
+description: Contains definitions of security terms that begin with the letter U.
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb
 title: U (Security Glossary)

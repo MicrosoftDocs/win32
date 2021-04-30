@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileInvalidTypeException constructor"
 title: EsentFileInvalidTypeException constructor 
 TOCTitle: 'EsentFileInvalidTypeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Changes the TPM owner authorization value.
+description: Changes the TPM owner authorization value.
 ms.assetid: ed280037-2360-4889-baba-cfa9e4fd473e
 title: ChangeOwnerAuth method of the Win32_Tpm class
 ms.topic: reference
@@ -85,7 +85,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseSignInUseException constructor"
 title: EsentDatabaseSignInUseException constructor 
 TOCTitle: 'EsentDatabaseSignInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseSignInUseException.#ctor

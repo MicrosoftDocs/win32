@@ -82,7 +82,7 @@ Note that the wheel inputs may be delivered even if the mouse cursor is located 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

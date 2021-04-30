@@ -1,5 +1,5 @@
 ---
-Description: A list of Public Land Mobile Network (PLMN) IDs.
+description: A list of Public Land Mobile Network (PLMN) IDs.
 ms.assetid: 2e5e23c0-e98f-48f8-97b8-c5f88c80c51e
 title: Network3GPP (Hotspot2) Element
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListTooBigException members"
 title: EsentSLVEAListTooBigException members
 TOCTitle: EsentSLVEAListTooBigException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException

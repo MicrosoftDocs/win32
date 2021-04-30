@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMakeBackupDirectoryFailException members"
 title: EsentMakeBackupDirectoryFailException members
 TOCTitle: EsentMakeBackupDirectoryFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException

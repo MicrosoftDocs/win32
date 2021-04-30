@@ -1,5 +1,5 @@
 ---
-Description: TV Audio Filter
+description: TV Audio Filter
 ms.assetid: 882e03d4-5574-4b0f-b965-63ff9dbb7852
 title: TV Audio Filter
 ms.topic: article
@@ -12,7 +12,7 @@ The TV Audio filter provides control of television audio decoding, stereo or mon
 
 
 
-|                                          |                                                                                                                                |
+| Label | Value |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMTVAudio**](/windows/desktop/api/Strmif/nn-strmif-iamtvaudio), **IPersistPropertyBag**, **ISpecifyPropertyPages**, [**IKsPropertySet**](ikspropertyset.md) |
 | Input Pin Media Types                    | MEDIATYPE\_AnalogAudio                                                                                                         |

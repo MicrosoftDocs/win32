@@ -22,7 +22,7 @@ Configuration for an optional DS feature.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Optional-Feature               |
 | Ldap-Display-Name | msDS-OptionalFeature                 |
@@ -43,7 +43,7 @@ Configuration for an optional DS feature.
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                                                             |
 | Object-Category             | 1                                                                                                                                |
@@ -193,7 +193,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                                  |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                                                             |
 | Object-Category             | 1                                                                                                                                |

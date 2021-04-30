@@ -1,5 +1,5 @@
 ---
-Description: Modifies the confirmation type, which controls what the IInkAnalyzer object can change about the IContextNode.
+description: Modifies the confirmation type, which controls what the IInkAnalyzer object can change about the IContextNode.
 ms.assetid: a506f27e-3909-453e-a2f3-10d4c04d78a4
 title: IContextNode::Confirm method (IACom.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Use **IContextNode::Confirm** when the user has confirmed analysis results and d
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

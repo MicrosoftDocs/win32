@@ -1,5 +1,5 @@
 ---
-Description: The KsQueryMediums method retrieves the mediums supported by a pin.
+description: The KsQueryMediums method retrieves the mediums supported by a pin.
 ms.assetid: 554bf968-6054-4f9d-95db-facf0444641f
 title: IKsPin::KsQueryMediums method (Ksproxy.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ HRESULT FindMatchingMedium(
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

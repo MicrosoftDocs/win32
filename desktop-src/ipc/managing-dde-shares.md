@@ -1,5 +1,5 @@
 ---
-Description: Network DDE provides functions that allow you to delete a share, get or set share information, or enumerate shares.
+description: Network DDE provides functions that allow you to delete a share, get or set share information, or enumerate shares.
 ms.assetid: d7924e93-75e4-4f94-b159-02408535170d
 title: Managing DDE Shares
 ms.topic: article
@@ -49,7 +49,6 @@ Network DDE provides functions that allow you to delete a share, get or set shar
 <tr class="even">
 <td>Change the DDE share name</td>
 <td>Delete the old share and create a new share.
-<p><img src="../common/wedge.gif.md" /><strong>To change the share name</strong><br/></p>
 <ol>
 <li>Retrieve the share information using <a href="nddesharegetinfo.md"><strong>NDdeShareGetInfo</strong></a>.</li>
 <li>Remove the share using <a href="nddesharedel.md"><strong>NDdeShareDel</strong></a>.</li>

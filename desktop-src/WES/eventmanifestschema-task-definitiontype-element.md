@@ -1,6 +1,6 @@
 ---
 title: task (DefinitionType) Element
-description: Defines a task-specific event that your provider can log.
+description: Defines a task-specific event that your provider can log. | task (DefinitionType) Element
 ms.assetid: 0e880720-1896-43cf-b702-cabca8ab1430
 keywords:
 - task element EventLog
@@ -33,7 +33,7 @@ The **task** element is defined by the [**DefinitionType**](eventmanifestschema-
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

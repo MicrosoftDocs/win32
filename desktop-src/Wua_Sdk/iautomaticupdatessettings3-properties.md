@@ -1,5 +1,5 @@
 ---
-Description: The IAutomaticUpdatesSettings3 interface defines the following properties.
+description: The IAutomaticUpdatesSettings3 interface defines the following properties.
 ms.assetid: d186fdcd-1184-4fd5-875b-b16c2041e2c3
 title: IAutomaticUpdatesSettings3 Properties
 ms.topic: article

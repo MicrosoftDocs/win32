@@ -1,5 +1,5 @@
 ---
-Description: Used for scenarios that require 802.1X authentication before Windows logon.
+description: Used for scenarios that require 802.1X authentication before Windows logon.
 ms.assetid: 76c8d416-3912-41b1-ac9d-3e6e86a76ceb
 title: Single Sign-On Profile Sample
 ms.topic: article

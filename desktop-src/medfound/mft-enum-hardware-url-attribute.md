@@ -1,5 +1,5 @@
 ---
-Description: Contains the symbolic link for a hardware-based Media Foundation transform (MFT).
+description: Contains the symbolic link for a hardware-based Media Foundation transform (MFT).
 ms.assetid: 7e153051-a167-4ff7-8178-b290d8a1345e
 title: MFT_ENUM_HARDWARE_URL_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

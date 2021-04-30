@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileStaleException members"
 title: EsentSLVFileStaleException members
 TOCTitle: EsentSLVFileStaleException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException

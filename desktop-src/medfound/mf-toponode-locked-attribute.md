@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the media types can be changed on this topology node.
+description: Specifies whether the media types can be changed on this topology node.
 ms.assetid: 8805ed63-1408-40bc-bb82-f3c51576dfa4
 title: MF_TOPONODE_LOCKED attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

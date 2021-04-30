@@ -1,5 +1,5 @@
 ---
-Description: The Peer Distribution API defines the following data types.
+description: The Peer Distribution API defines the following data types.
 ms.assetid: 5a378965-696c-4205-b9de-bdf93f00018f
 title: Peer Distribution API Data Types (Peerdist.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ typedef HANDLE PEERDIST_STREAM_HANDLE;
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Professional \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                               |

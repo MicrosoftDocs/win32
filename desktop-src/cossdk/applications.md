@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each COM+ application installed on the local computer. The properties exposed by these objects hold all settings made at the application level.
+description: Contains an object for each COM+ application installed on the local computer. The properties exposed by these objects hold all settings made at the application level.
 ms.assetid: c0c46592-5282-412d-8f54-67637be8218a
 title: Applications collection
 ms.topic: reference
@@ -104,7 +104,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                               |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates whether the application can use 3 GB of memory in its process. If this is not enabled, the application can use only 2 GB of memory. |
 | Access         | ReadWrite                                                                                                                                     |
@@ -120,7 +120,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                 |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates whether access checks are performed at only the process level or at both the process and component level. It is recommended that you use the constants in the enumeration and not the numeric values. |
 | Access         | ReadWrite                                                                                                                                                                                                       |
@@ -136,7 +136,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                     |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Local activation indicates that objects within the application run within a dedicated local server process (server application). In-process activation indicates that objects run in their creator's process (library application). |
 | Access         | ReadWrite                                                                                                                                                                                                                           |
@@ -152,7 +152,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                    |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------|
 | Description    | Indicates whether access checks are performed for the application when clients make calls into it. |
 | Access         | ReadWrite                                                                                          |
@@ -168,7 +168,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The full path to the application. This information is needed when you configure Side-by-Side (SxS) assemblies. Side-by-side (SxS) assemblies allow ASP applications to specify which version of an SxS-supported system DLL to use, such as MSVCRT, MSXML, COMCTL, GDIPLUS, and so on. For example, if your ASP application relies on MSVCRT version 2.0, you can ensure that your application still uses MSVCRT version 2.0 even after service packs are applied to the server. Any new version of MSVCRT is still installed on the computer, but version 2.0 remains and is used by your application. SxS-supported DLLs are stored in %WINDIR%\\WinSxS. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -191,7 +191,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                            |
+| Entry | Value |
 |----------------|------------------------------------------------------------|
 | Description    | Indicates whether the application is an application proxy. |
 | Access         | ReadOnly                                                   |
@@ -207,7 +207,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                                                                        |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A remote server name used when exporting the application proxy. It is this server name that the application proxy points to when it is installed on a client computer. |
 | Access         | ReadWrite                                                                                                                                                              |
@@ -223,7 +223,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                   |
+| Entry | Value |
 |----------------|---------------------------------------------------|
 | Description    | A GUID representing the application partition ID. |
 | Access         | ReadOnly                                          |
@@ -239,7 +239,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                                                                                                                                                                                                       |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Sets authentication level for calls, with values corresponding to the Remote Procedure Call (RPC) authentication settings. When COMAdminAuthenticationDefault is chosen, the setting in the DefaultAuthenticationLevel property within the [**LocalComputer**](localcomputer.md) collection is used. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                             |
@@ -260,7 +260,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                                                                                                                                         |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Determines what identity is presented when calls are impersonated.                                                                                                                                                                      |
 | Access         | ReadWrite                                                                                                                                                                                                                               |
@@ -276,7 +276,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                                                                               |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Determines whether changes to the application settings or those of its components are allowed, either programmatically or through the Component Services administration tool. |
 | Access         | ReadWrite                                                                                                                                                                     |
@@ -292,7 +292,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                            |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------|
 | Description    | A command-line string for use in debugging. The application can be launched in a debugger with the specified command line. |
 | Access         | ReadWrite                                                                                                                  |
@@ -308,7 +308,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                  |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------|
 | Description    | Specifies the maximum number of poolable applications that can run concurrently. |
 | Access         | ReadWrite                                                                        |
@@ -324,7 +324,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                               |
+| Entry | Value |
 |----------------|---------------------------------------------------------------|
 | Description    | Informational string to describe who created the application. |
 | Access         | ReadWrite                                                     |
@@ -340,7 +340,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                  |
+| Entry | Value |
 |----------------|------------------------------------------------------------------|
 | Description    | Determines whether the Compensating Resource Manager is enabled. |
 | Access         | ReadWrite                                                        |
@@ -356,7 +356,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                        |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | Description    | Name and path of file for keeping the log for the compensating resource manager (CRM). |
 | Access         | ReadWrite                                                                              |
@@ -372,7 +372,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                             |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Description    | Sets whether the application can be deleted, either programmatically or through the Component Services administration tool. |
 | Access         | ReadWrite                                                                                                                   |
@@ -388,7 +388,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                            |
+| Entry | Value |
 |----------------|----------------------------|
 | Description    | Describes the application. |
 | Access         | ReadWrite                  |
@@ -404,7 +404,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                       |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------|
 | Description    | Enables the dump of the state of a COM+ application at the time of failure to a designated directory. |
 | Access         | ReadWrite                                                                                             |
@@ -425,7 +425,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                                               |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Enables the dump of the state of a COM+ application when the application causes an unhandled exception and is terminated by the COM+ runtime. |
 | Access         | ReadWrite                                                                                                                                     |
@@ -441,7 +441,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                 |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------|
 | Description    | Enables the dump of the state of a COM+ application when the application fails. |
 | Access         | ReadWrite                                                                       |
@@ -457,7 +457,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                              |
+| Entry | Value |
 |----------------|--------------------------------------------------------------|
 | Description    | The path of the directory in which the dump files are saved. |
 | Access         | ReadWrite                                                    |
@@ -478,7 +478,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                           |
+| Entry | Value |
 |----------------|-----------------------------------------------------------|
 | Description    | Indicates whether events are enabled for the application. |
 | Access         | ReadWrite                                                 |
@@ -494,7 +494,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                                                                      |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A GUID representing the application. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                            |
@@ -510,7 +510,7 @@ For more information, see "Side-by-Side Assemblies" in [Changes in COM+ Services
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                    |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Sets the server process identity for the application. Specify a valid user account or "Interactive User" to have the application assume the identity of the current logged-on user. You can also specify the strings "nt authority\\localservice", "nt authority\\networkservice", and "nt authority\\system". The default password for these three accounts is "" (empty string). |
 | Access         |                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -530,7 +530,7 @@ The Password property should be set at the same time as Identity, prior to using
 
 
 
-|                |                                                                                                                                                               |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Sets impersonation level used for calls made to other applications.                                                                                           |
 | Access         | ReadWrite                                                                                                                                                     |
@@ -546,7 +546,7 @@ The Password property should be set at the same time as Identity, prior to using
 
 
 
-|                |                                                                                                                                           |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | If the COM+ application or component is disabled, IsEnabled is False. If the COM+ application or component is enabled, IsEnabled is True. |
 | Access         | ReadWrite                                                                                                                                 |
@@ -562,7 +562,7 @@ The Password property should be set at the same time as Identity, prior to using
 
 
 
-|                |                                      |
+| Entry | Value |
 |----------------|--------------------------------------|
 | Description    | Identifies COM+ system applications. |
 | Access         | ReadOnly                             |
@@ -578,7 +578,7 @@ The Password property should be set at the same time as Identity, prior to using
 
 
 
-|                |                                                                                  |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------|
 | Description    | Indicates the maximum number of files to be generated before overwriting occurs. |
 | Access         | ReadWrite                                                                        |
@@ -594,7 +594,7 @@ The Password property should be set at the same time as Identity, prior to using
 
 
 
-|                |                                                                                                                                                                                                                                      |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the application. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadWrite                                                                                                                                                                                                                            |
@@ -615,7 +615,7 @@ The Password property should be set at the same time as Identity, prior to using
 
 
 
-|                |                                                                            |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------|
 | Description    | Sets the password used by the server process to log on under the identity. |
 | Access         | WriteOnly                                                                  |
@@ -633,7 +633,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                         |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates under what circumstances queued requests to an application are authenticated.                                                 |
 | Access         | ReadWrite                                                                                                                               |
@@ -649,7 +649,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                                                                                                           |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates the maximum number of concurrent listener threads. The valid range for this property is 0 to 1000. For a newly created application, the setting is derived from the algorithm currently used for determining the default number of listener threads: 16 times the number of CPUs in the server. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                 |
@@ -670,7 +670,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                      |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates whether the queued components listener is enabled for the application. If enabled, the listener is launched when the application starts. This property takes effect only if QueuingEnabled is set to True. |
 | Access         | ReadWrite                                                                                                                                                                                                            |
@@ -686,7 +686,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                      |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | Description    | Indicates whether the COM+ Queued Components service is enabled for the application. |
 | Access         | ReadWrite                                                                            |
@@ -702,7 +702,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                      |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates the maximum number of activations of configured objects in the application to accept before recycling the process. The default number of activations is 0. |
 | Access         | ReadWrite                                                                                                                                                            |
@@ -718,7 +718,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates the maximum number of calls to allow configured objects in the application to accept before recycling the process. The default number of calls is 0. |
 | Access         | ReadWrite                                                                                                                                                      |
@@ -734,7 +734,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                                                                  |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates the amount of time (in minutes) to allow a recycled process to run before shutting it down. The countdown begins immediately after the process is recycled. The maximum expiration time-out is 1440 minutes (24 hours), and the default is 15 minutes. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                        |
@@ -750,7 +750,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                             |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates the maximum number of minutes to allow a process to run before recycling it. The maximum lifetime limit is 30240 minutes (21 days), and the default is 0 minutes. |
 | Access         | ReadWrite                                                                                                                                                                   |
@@ -766,7 +766,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                                                                        |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates the maximum amount of memory usage (in kilobytes) allowed a process before it's recycled. If the process memory usage exceeds the specified number for a period longer than one minute, the process is recycled. The default amount of memory usage is 0 KB. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                              |
@@ -782,7 +782,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                      |
+| Entry | Value |
 |----------------|------------------------------------------------------|
 | Description    | Indicates whether the application can be replicated. |
 | Access         | ReadWrite                                            |
@@ -798,7 +798,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                                                                                                          |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Enables a server process to continue if an application is idle. If set to True, the server process does not shut down when left idle. If set to False, the process shuts down according to the value set by the ShutdownAfter property. RunForever is not enabled for library (in-process) applications. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                |
@@ -814,7 +814,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                                                                                  |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The service name corresponding to the application configured to run as a service application. If this value is **NULL**, the application is not configured to run as a service. Otherwise, the configuration information for the service can be found by using the service name. |
 | Access         | ReadOnly                                                                                                                                                                                                                                                                         |
@@ -830,7 +830,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                                                                    |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Sets the delay before shutting down a server process after it becomes idle. Shutdown latency ranges from 0 to 1440 minutes (24 hours). If RunForever is set to True, this property is ignored. ShutdownAfter is not enabled for library (in-process) applications. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                          |
@@ -846,7 +846,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                      |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | Description    | Indicates whether this application is exposed for consumption via the SOAP protocol. |
 | Access         | ReadWrite                                                                            |
@@ -862,7 +862,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                              |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------|
 | Description    | The URL endpoint at which this application is exposed via the SOAP protocol. |
 | Access         | ReadWrite                                                                    |
@@ -878,7 +878,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                               |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------|
 | Description    | The email address at which this application is exposed via the SOAP protocol. |
 | Access         | ReadWrite                                                                     |
@@ -894,7 +894,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                      |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
 | Description    | The IIS virtual root directory in which the access scripts that expose the application via the SOAP protocol reside. |
 | Access         | ReadWrite                                                                                                            |
@@ -910,7 +910,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                       |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Determines the software restriction policy (SRP) for the application. If set to True, the SRPTrustLevel property for the application is used. If set to False, the software restriction policies from the local security settings are used. The local security settings are controlled through the Local Security Policy snap-in of the Microsoft Management Console. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                             |
@@ -926,7 +926,7 @@ Password should be set at the same time as Identity, prior to using [**SaveChang
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates the software restriction policy (SRP) trust level of the application. This property is used only if the SRPEnabled property is set to True. The SRP trust level refers to the level of trust that you are willing to give to an application. An Unrestricted SRP trust level corresponds to the SAFER\_LEVELID\_FULLYTRUSTED enum value, while a Disallowed SRP trust level corresponds to the SAFER\_LEVELID\_DISALLOWED enum value. The enumeration for the trust levels is defined in Winsafer.h. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |

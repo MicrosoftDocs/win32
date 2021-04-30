@@ -1,5 +1,5 @@
 ---
-Description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 6.
+description: Computes the product of two spherical harmonics functions (f and g). Both functions are of order N = 6.
 ms.assetid: 3b68b238-c1ae-4ab8-89ed-bdf815463143
 title: D3DXSHMultiply6 function (D3DX10Math.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ sum_i(y_i(s)*c_i)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

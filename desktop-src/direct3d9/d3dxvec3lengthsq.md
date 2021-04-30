@@ -1,5 +1,5 @@
 ---
-Description: Returns the square of the length of a 3D vector.
+description: Returns the square of the length of a 3D vector.
 ms.assetid: 25dc50cc-542b-4989-a858-9b37603393a0
 title: D3DXVec3LengthSq function (D3dx9math.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The vector's squared length.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

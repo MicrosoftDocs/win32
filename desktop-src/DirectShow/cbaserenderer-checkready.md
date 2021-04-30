@@ -1,5 +1,5 @@
 ---
-Description: The CheckReady method queries whether a state transition is complete.
+description: The CheckReady method queries whether a state transition is complete.
 ms.assetid: dfa669ed-a5ab-498e-9fc2-ff15d6ddbc13
 title: CBaseRenderer.CheckReady method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the state transition is complete, or **FALSE** if the filter
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

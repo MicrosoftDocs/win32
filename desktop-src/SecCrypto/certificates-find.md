@@ -1,5 +1,5 @@
 ---
-Description: Returns a Certificates object that contains all certificates that match the specified search criteria.
+description: Returns a Certificates object that contains all certificates that match the specified search criteria.
 ms.assetid: a2b8f4d4-dce3-467b-aaa0-a125056a1dd3
 title: ICertificates2::Find method
 ms.topic: reference
@@ -127,7 +127,7 @@ The following examples show possible search criteria for the different search cr
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

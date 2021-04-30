@@ -1,6 +1,6 @@
 ---
 title: tex3Dgrad
-description: Samples a 3D texture using a gradient to select the mip level.
+description: Samples a 3D texture using a gradient to select the mip level. | tex3Dgrad
 ms.assetid: 230c42cc-31b7-4f57-ade4-14f069094d46
 keywords:
 - tex3Dgrad HLSL

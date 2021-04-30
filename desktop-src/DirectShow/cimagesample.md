@@ -1,5 +1,5 @@
 ---
-Description: The CImageSample class implements a media sample that manages a GDI device-independent bitmap (DIB).
+description: The CImageSample class implements a media sample that manages a GDI device-independent bitmap (DIB).
 ms.assetid: 620ea791-458e-441e-8f0c-2184c44c742e
 title: CImageSample class (Winutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The `CImageSample` class implements a media sample that manages a GDI device-ind
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

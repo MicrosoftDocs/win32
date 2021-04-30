@@ -1,12 +1,12 @@
 ---
-Description: Reading ASF Files in DirectShow
+description: Reading ASF Files in DirectShow
 ms.assetid: bd57334b-22b3-40e2-8841-e5d2df196eef
 title: Reading ASF Files in DirectShow (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reading ASF Files in DirectShow
+# Reading ASF Files in DirectShow (DirectShow)
 
 This topic contains the following sections.
 

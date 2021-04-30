@@ -1,5 +1,5 @@
 ---
-Description: The following are the Distributed File System DFS structures
+description: The following are the Distributed File System DFS structures
 ms.assetid: f55ad3c0-0457-4d5a-a7d3-8eff744d573d
 title: Distributed File System Structures
 ms.topic: article

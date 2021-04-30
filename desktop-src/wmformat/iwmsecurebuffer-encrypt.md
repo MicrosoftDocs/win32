@@ -67,7 +67,7 @@ Use this method to encrypt data pointers so they can be sent across DLL boundari
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wmdrmsdk.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>Wmdrmsdk.lib</dt> </dl> |

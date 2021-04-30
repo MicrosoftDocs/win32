@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempPathInUseException methods"
 title: EsentTempPathInUseException methods
 TOCTitle: EsentTempPathInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTempPathInUseException

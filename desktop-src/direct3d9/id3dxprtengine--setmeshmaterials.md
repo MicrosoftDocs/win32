@@ -1,5 +1,5 @@
 ---
-Description: Sets mesh material properties in the 3D scene. Use this method to specify subsurface scattering parameters.
+description: Sets mesh material properties in the 3D scene. Use this method to specify subsurface scattering parameters.
 ms.assetid: 830d73be-bba6-454d-8476-341d291a5b2e
 title: ID3DXPRTEngine::SetMeshMaterials method (D3DX9Mesh.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

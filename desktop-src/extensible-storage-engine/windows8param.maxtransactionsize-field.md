@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Param.MaxTransactionSize field"
 title: Windows8Param.MaxTransactionSize field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: MaxTransactionSize field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.MaxTransactionSize

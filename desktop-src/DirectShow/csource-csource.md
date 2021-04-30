@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CSource.CSource constructor - Constructor method.
 ms.assetid: 94a92c1e-9768-4293-8290-a2b1938cd196
 title: CSource.CSource constructor (Source.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Class identifier of the filter.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

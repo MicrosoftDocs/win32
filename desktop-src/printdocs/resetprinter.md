@@ -1,5 +1,5 @@
 ---
-Description: The ResetPrinter function specifies the data type and device mode values to be used for printing documents submitted by the StartDocPrinter function. These values can be overridden by using the SetJob function after document printing has started.
+description: The ResetPrinter function specifies the data type and device mode values to be used for printing documents submitted by the StartDocPrinter function. These values can be overridden by using the SetJob function after document printing has started.
 ms.assetid: 9efc6629-dbb7-4320-90b9-07c66f0add47
 title: ResetPrinter function (Winspool.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

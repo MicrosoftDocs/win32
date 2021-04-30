@@ -1,5 +1,5 @@
 ---
-Description: Maximum duration of accelerated streaming, in milliseconds, when the network source uses UDP transport.
+description: Maximum duration of accelerated streaming, in milliseconds, when the network source uses UDP transport.
 ms.assetid: d5f3064a-b222-4f72-b889-cd88c14a239c
 title: MFNETSOURCE_MAXUDPACCELERATEDSTREAMINGDURATION property (Mfidl.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The default value of this property is 8,000 milliseconds.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

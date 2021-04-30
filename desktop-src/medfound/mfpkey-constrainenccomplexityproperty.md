@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the complexity of the audio encoding algorithm is constrained.
+description: Specifies whether the complexity of the audio encoding algorithm is constrained.
 ms.assetid: a50b840f-9fe8-4291-b93f-f09c241fe802
 title: MFPKEY_CONSTRAINENCOMPLEXITY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If you set this property to **VARIANT\_TRUE**, you must also specify a complexit
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.BaseNameLength field"
 title: SystemParameters.BaseNameLength field
 TOCTitle: BaseNameLength field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.BaseNameLength

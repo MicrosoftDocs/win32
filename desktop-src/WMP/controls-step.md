@@ -58,7 +58,7 @@ This method currently only supports the parameters 1 or -1, so you can only step
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later.<br/>                           |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Stops the service represented by the object derived from CIM\_Service.
+description: Stops the service represented by the object derived from CIM\_Service.
 ms.assetid: f9eedde7-8d71-40a2-b1e9-7ba97e634f64
 ms.tgt_platform: multiple
 title: StopService method of the CIM_Service class (Sdoias.h)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# StopService method of the CIM\_Service class
+# StopService method of the CIM_Service class (Sdoias.h)
 
 The **StopService** method stops the service represented by the object derived from [**CIM\_Service**](cim-service.md).
 
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

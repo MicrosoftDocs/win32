@@ -22,7 +22,7 @@ Specifies the Transformation Rules for Cross-Forest Claims Transformation.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Transformation-Rules                  |
 | Ldap-Display-Name | msDS-TransformationRules                    |
@@ -43,7 +43,7 @@ Specifies the Transformation Rules for Cross-Forest Claims Transformation.
 
 
 
-|                        |                                                                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                  |
 | MAPI-Id                | \-                                                                                                  |

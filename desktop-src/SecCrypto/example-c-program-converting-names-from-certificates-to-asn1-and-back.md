@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the certificates in a certificate store, displays the subject and user of each certificate, and converts the subject name from each certificate into its Abstract Syntax Notation One (ASN.1) encoded form, and then back in to its decoded form.
+description: Enumerates the certificates in a certificate store, displays the subject and user of each certificate, and converts the subject name from each certificate into its Abstract Syntax Notation One (ASN.1) encoded form, and then back in to its decoded form.
 ms.assetid: 8b4771da-0996-40fb-98ce-73efe8e3534f
 title: 'Example C Program: Converting Names from Certificates to ASN.1 and Back'
 ms.topic: article

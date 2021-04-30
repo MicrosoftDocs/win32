@@ -1,5 +1,5 @@
 ---
-Description: Represents a CIM\_ControlledBy relationship that indicates which devices are accessed through a SCSI controller and the access characteristics.
+description: Represents a CIM\_ControlledBy relationship that indicates which devices are accessed through a SCSI controller and the access characteristics.
 ms.assetid: a036dbf9-f9ce-4c85-9184-fefcbe4583ba
 ms.tgt_platform: multiple
 title: CIM_SCSIInterface class
@@ -242,7 +242,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

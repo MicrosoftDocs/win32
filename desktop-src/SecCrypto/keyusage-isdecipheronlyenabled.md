@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the decipherOnly bit is set.
+description: Retrieves a Boolean value that indicates whether the decipherOnly bit is set.
 ms.assetid: 69d8649d-c7bc-438b-afdd-6c9d2627cd72
 title: KeyUsage.IsDecipherOnlyEnabled property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the decipherOnly bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: WST Decoder Filter
+description: WST Decoder Filter
 ms.assetid: 2d33ae3f-565d-4e69-8fb0-117ff582a4d0
 title: WST Decoder Filter
 ms.topic: article
@@ -21,7 +21,7 @@ This filter can be added to the graph automatically by calling [**ICaptureGraphB
 
 
 
-|                                          |                                                               |
+| Label | Value |
 |------------------------------------------|---------------------------------------------------------------|
 | Filter Interfaces                        | ISpecifyPropertyPages, [**IAMWstDecoder**](/previous-versions/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder) |
 | Input Pin Media Types                    | MEDIATYPE\_VBI, MEDIASUBTYPE\_TELETEXT                        |

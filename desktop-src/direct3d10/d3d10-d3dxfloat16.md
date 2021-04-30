@@ -1,5 +1,5 @@
 ---
-Description: Describes a 16-bit floating point vector.
+description: D3DXFLOAT16 structure (D3DX10Math.h) - Describes a 16-bit floating point vector.
 ms.assetid: 2aaca07b-66eb-4845-9d22-692be02234ac
 title: D3DXFLOAT16 structure (D3DX10Math.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXFLOAT16 structure
+# D3DXFLOAT16 structure (D3DX10Math.h)
 
 Describes a 16-bit floating point vector.
 
@@ -49,7 +49,7 @@ The 16-bit data.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

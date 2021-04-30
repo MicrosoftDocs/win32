@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE members"
 title: JET_COLUMNCREATE members
 TOCTitle: JET_COLUMNCREATE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE

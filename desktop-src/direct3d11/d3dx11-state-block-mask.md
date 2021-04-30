@@ -570,7 +570,7 @@ A state-block mask indicates the device states that a pass or a technique change
 
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx11effect.h</dt> </dl> |
 

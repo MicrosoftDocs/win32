@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDiskFullException properties"
 title: EsentLogDiskFullException properties
 TOCTitle: EsentLogDiskFullException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException

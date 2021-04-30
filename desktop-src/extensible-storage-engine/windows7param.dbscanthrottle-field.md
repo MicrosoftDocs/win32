@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.DbScanThrottle field"
 title: Windows7Param.DbScanThrottle field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: DbScanThrottle field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.DbScanThrottle

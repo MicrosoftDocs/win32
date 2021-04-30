@@ -70,7 +70,7 @@ The caller is required to free the memory used by **pPropDesc**. For an example 
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Determines the cross-product of two 3D vectors.
+description: Determines the cross-product of two 3D vectors.
 ms.assetid: c9623f35-c8fc-4fbe-87b6-0e5bb8ebd5e8
 title: D3DXVec3Cross function (D3dx9math.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

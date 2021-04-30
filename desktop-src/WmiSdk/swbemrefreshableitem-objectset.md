@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefreshableItem.ObjectSet property represents the object set to be refreshed.
+description: The SWbemRefreshableItem.ObjectSet property represents the object set to be refreshed.
 ms.assetid: f52101b1-bb6e-4798-b20f-d6efd31cf7c1
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem.ObjectSet property (Wbemdisp.h)
@@ -46,7 +46,7 @@ This property is **NULL** unless [**SWbemRefreshableItem.IsSet**](swbemrefreshab
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

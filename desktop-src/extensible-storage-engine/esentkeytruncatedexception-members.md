@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTruncatedException members"
 title: EsentKeyTruncatedException members
 TOCTitle: EsentKeyTruncatedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ActsAsSpare association indicates which elements can be spares or replace other aggregated elements. A spare can operate in &\#0034;hot-standby&\#0034; mode as specified on an element-by-element basis.
+description: The CIM\_ActsAsSpare association indicates which elements can be spares or replace other aggregated elements. A spare can operate in &\#0034;hot-standby&\#0034; mode as specified on an element-by-element basis.
 ms.assetid: bed8c552-f782-4af9-9441-ff3268182c3b
 ms.tgt_platform: multiple
 title: CIM_ActsAsSpare class
@@ -103,7 +103,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

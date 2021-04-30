@@ -1,5 +1,5 @@
 ---
-Description: ICE90 posts a warning if it finds that a shortcut's directory has been specified as a public property.
+description: ICE90 posts a warning if it finds that a shortcut's directory has been specified as a public property.
 ms.assetid: 47565d9b-c3c2-4a5c-8f91-2b3912a63b47
 title: ICE90
 ms.topic: article

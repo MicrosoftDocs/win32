@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of buttons on the tablet stylus.
+description: Retrieves the number of buttons on the tablet stylus.
 ms.assetid: ae4ce670-769a-4f00-b728-285020f09934
 title: ITabletCursor::GetButtonCount method
 ms.topic: reference
@@ -61,7 +61,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

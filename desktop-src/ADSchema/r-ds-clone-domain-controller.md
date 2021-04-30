@@ -21,7 +21,7 @@ Allow a DC to create a clone of itself.
 
 
 
-|              |                                        |
+| Entry | Value |
 |--------------|----------------------------------------|
 | CN           | DS-Clone-Domain-Controller             |
 | Display-Name | Allow a DC to create a clone of itself |
@@ -37,7 +37,7 @@ Allow a DC to create a clone of itself.
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 80                                           |

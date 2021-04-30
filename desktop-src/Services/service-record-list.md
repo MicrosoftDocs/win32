@@ -1,5 +1,5 @@
 ---
-Description: As each service entry is read from the database of installed services, the SCM creates a service record for the service.
+description: As each service entry is read from the database of installed services, the SCM creates a service record for the service.
 ms.assetid: c0ee43e2-af9b-4578-9017-46a5ed50b938
 title: Service Record List
 ms.topic: article

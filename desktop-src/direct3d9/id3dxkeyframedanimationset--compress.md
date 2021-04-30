@@ -1,5 +1,5 @@
 ---
-Description: Transforms animations in an animation set into a compressed format and returns a pointer to the buffer that stores the compressed data.
+description: Transforms animations in an animation set into a compressed format and returns a pointer to the buffer that stores the compressed data.
 ms.assetid: b70b6dfb-545f-4309-ab72-9543c3c48fc4
 title: ID3DXKeyframedAnimationSet::Compress method (D3dx9anim.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

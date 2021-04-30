@@ -1,5 +1,5 @@
 ---
-Description: A value that defines the units for a depth value in a video frame.
+description: A value that defines the units for a depth value in a video frame.
 ms.assetid: 0D7238F3-C224-48BD-8654-B3182DFB244C
 title: MF_MT_DEPTH_VALUE_UNIT attribute (Mfapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Some depth cameras attach bitmask metadata for each pixel in addition to the dep
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                      |

@@ -1,5 +1,5 @@
 ---
-Description: Notifies the system that an appbar has been activated. An appbar should call this message in response to the WM\_ACTIVATE message.
+description: Notifies the system that an appbar has been activated. An appbar should call this message in response to the WM\_ACTIVATE message.
 ms.assetid: 16011302-7c2d-4c34-9953-51cceb96e4b3
 title: ABM_ACTIVATE message (Shellapi.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This message is ignored if the **hWnd** member of the structure pointed to by *p
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

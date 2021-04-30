@@ -22,7 +22,7 @@ Free text for notes on object.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Additional-Information                      |
 | Ldap-Display-Name | notes                                       |
@@ -48,7 +48,7 @@ Free text for notes on object.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -69,7 +69,7 @@ Free text for notes on object.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -90,7 +90,7 @@ Free text for notes on object.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -111,7 +111,7 @@ Free text for notes on object.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -132,7 +132,7 @@ Free text for notes on object.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -153,7 +153,7 @@ Free text for notes on object.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |

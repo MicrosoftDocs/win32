@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS structure"
 title: JET_THREADSTATS structure (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS

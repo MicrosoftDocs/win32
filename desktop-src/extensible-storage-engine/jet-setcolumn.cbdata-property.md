@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.cbData property"
 title: JET_SETCOLUMN.cbData property 
 TOCTitle: 'cbData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.cbData

@@ -3,6 +3,7 @@ Description: The following are the memory-protection options; you must specify o
 ms.assetid: 09839db7-2118-4a7d-a707-a08c92bd600c
 title: Memory Protection Constants (WinNT.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 
@@ -89,7 +90,7 @@ The following constants can only be used with the [**LoadEnclaveData**](/windows
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

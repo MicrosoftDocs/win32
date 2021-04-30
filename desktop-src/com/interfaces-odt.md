@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (OLE and Data Transfer)
 
 The following interfaces are used to implement compound documents and perform data transfer between applications.
 

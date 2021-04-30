@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.Flush method"
 title: ColumnStream.Flush method 
 TOCTitle: 'Flush method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.Flush

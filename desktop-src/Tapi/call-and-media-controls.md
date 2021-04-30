@@ -1,5 +1,5 @@
 ---
-Description: The following material provides a general review of the TAPI 3 call and media controls objects, interfaces, and methods for building end-user and server communications applications.
+description: The following material provides a general review of the TAPI 3 call and media controls objects, interfaces, and methods for building end-user and server communications applications.
 ms.assetid: '992b1f84-257a-4484-a2f8-bcd33916fb16'
 title: Call and Media Controls
 ms.topic: article

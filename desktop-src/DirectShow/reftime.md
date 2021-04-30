@@ -1,5 +1,5 @@
 ---
-Description: The REFTIME data type is used to express time in seconds.
+description: The REFTIME data type is used to express time in seconds.
 ms.assetid: '0c5eed92-9f98-49ed-aab0-5958ee574fe9'
 title: REFTIME (Strmif.h)
 ms.topic: article
@@ -21,7 +21,7 @@ typedef double REFTIME;
 
 
 
-|                   |                                                                                                       |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Strmif.h (include Dshow.h)</dt> </dl> |
 

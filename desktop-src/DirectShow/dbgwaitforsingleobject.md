@@ -1,5 +1,5 @@
 ---
-Description: Waits for an object to become signaled.
+description: Waits for an object to become signaled.
 ms.assetid: 5fbcccd9-9db7-4834-852a-86f28218e92e
 title: DbgWaitForSingleObject function (Wxdebug.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Handle to the object.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

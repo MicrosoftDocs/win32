@@ -1,5 +1,5 @@
 ---
-Description: Serves as a base class for all intrinsic events that relate to an instance.
+description: Serves as a base class for all intrinsic events that relate to an instance.
 ms.assetid: f6d2b6e5-0dca-4cb5-95a5-33b45cd76807
 ms.tgt_platform: multiple
 title: '__InstanceOperationEvent class'
@@ -131,7 +131,7 @@ The [Monitor process event](https://Gallery.TechNet.Microsoft.Com/94c7dc4c-813a-
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

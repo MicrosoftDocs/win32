@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooOldException members"
 title: EsentDbTimeTooOldException members
 TOCTitle: EsentDbTimeTooOldException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException

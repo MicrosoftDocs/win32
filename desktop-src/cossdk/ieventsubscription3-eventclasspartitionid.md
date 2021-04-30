@@ -1,5 +1,5 @@
 ---
-Description: The partition GUID of the event class object.
+description: The partition GUID of the event class object.
 ms.assetid: 154849ac-350c-4b2f-bb51-ac6973f0a8fa
 title: IEventSubscription3::EventClassPartitionID property
 ms.topic: reference
@@ -49,7 +49,7 @@ This method can return the standard return values E\_INVALIDARG, E\_OUTOFMEMORY,
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

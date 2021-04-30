@@ -1,5 +1,5 @@
 ---
-Description: It is highly recommended that your setup application include a user interface that acquires any necessary information from the user.
+description: It is highly recommended that your setup application include a user interface that acquires any necessary information from the user.
 ms.assetid: 410143a4-9357-43d6-bdb3-c2a4549fe644
 title: Gathering Setup Information from the User
 ms.topic: article

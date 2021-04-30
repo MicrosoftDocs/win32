@@ -1,5 +1,5 @@
 ---
-Description: Forwarding is the deflection of an incoming session to a different destination address.
+description: Forwarding is the deflection of an incoming session to a different destination address.
 ms.assetid: c70bf596-b2a4-46ec-9b1a-c9d948768b51
 title: Forward
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Converts a byte array defined as a SAFEARRAY into a universal buffer of bytes (IStream object).
+description: Converts a byte array defined as a SAFEARRAY into a universal buffer of bytes (IStream object).
 ms.assetid: faa07bb5-cfdb-4181-b86a-f82a9c6b251a
 title: ISCardTypeConv::ConvertSafeArrayToByteBuffer method (Scarddat.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ Memory allocated is moveable. Use the **IStream::Release** method to free the me
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

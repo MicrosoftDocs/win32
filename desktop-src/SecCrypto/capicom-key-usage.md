@@ -1,5 +1,5 @@
 ---
-Description: The CAPICOM\_KEY\_USAGE enumeration defines the ways in which a key can be used. Introduced in CAPICOM 2.0.
+description: The CAPICOM\_KEY\_USAGE enumeration defines the ways in which a key can be used. Introduced in CAPICOM 2.0.
 ms.assetid: 7143567b-5882-44a3-ae30-fb8965fb7997
 title: CAPICOM_KEY_USAGE enumeration (Capicom.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ The **CAPICOM\_KEY\_USAGE** enumeration defines the ways in which a key can be u
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

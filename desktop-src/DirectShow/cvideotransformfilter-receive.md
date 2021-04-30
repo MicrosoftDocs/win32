@@ -1,5 +1,5 @@
 ---
-Description: The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter. This method overrides the CTransformFilter::Receive method.
+description: The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter. This method overrides the CTransformFilter::Receive method.
 ms.assetid: 35e22a63-471e-4ca8-be3b-d84920cec7cb
 title: CVideoTransformFilter.Receive method (Vtrans.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Also, this method checks for format changes on the input or output sample, by ca
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Vtrans.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

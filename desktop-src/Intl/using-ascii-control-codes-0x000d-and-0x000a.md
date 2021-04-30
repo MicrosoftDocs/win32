@@ -1,5 +1,5 @@
 ---
-Description: The Unicode standard does not prescribe specific meanings for the control codes 0x000D (carriage return) and 0x000A (linefeed).
+description: The Unicode standard does not prescribe specific meanings for the control codes 0x000D (carriage return) and 0x000A (linefeed).
 ms.assetid: fb8b1a5c-79a4-45a0-b7a1-8217c370d13e
 title: Using ASCII Control Codes 0x000D and 0x000A
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each user in the role to which the collection is related.
+description: UsersInPartitionRole collection - Contains an object for each user in the role to which the collection is related.
 ms.assetid: c6aebf7a-04d1-4c7c-a015-bc6fb4841c4a
 title: UsersInPartitionRole collection
 ms.topic: reference
@@ -46,7 +46,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                       |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The user name. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                             |

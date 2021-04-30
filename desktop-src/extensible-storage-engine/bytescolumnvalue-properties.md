@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: BytesColumnValue properties"
 title: BytesColumnValue properties
 TOCTitle: BytesColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.BytesColumnValue

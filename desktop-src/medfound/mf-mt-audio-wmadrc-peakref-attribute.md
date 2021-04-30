@@ -1,5 +1,5 @@
 ---
-Description: Reference peak volume level of a Windows Media Audio file.
+description: Reference peak volume level of a Windows Media Audio file.
 ms.assetid: bb762f9c-cf08-4d32-991e-490eb7b1f579
 title: MF_MT_AUDIO_WMADRC_PEAKREF attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

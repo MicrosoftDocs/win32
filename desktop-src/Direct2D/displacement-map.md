@@ -112,7 +112,7 @@ Output Bitmap<sub>y</sub> Pixels=(Input Bitmap Size<sub>y</sub>(DIPs) + Scale)\*
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

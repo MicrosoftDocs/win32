@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileAccessDeniedException members"
 title: EsentFileAccessDeniedException members
 TOCTitle: EsentFileAccessDeniedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException

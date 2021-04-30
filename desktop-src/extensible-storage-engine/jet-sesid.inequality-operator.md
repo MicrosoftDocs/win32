@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID.Inequality operator"
 title: JET_SESID.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SESID.op_Inequality(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_SESID)

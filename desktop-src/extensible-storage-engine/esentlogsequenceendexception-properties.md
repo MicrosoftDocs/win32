@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndException properties"
 title: EsentLogSequenceEndException properties
 TOCTitle: EsentLogSequenceEndException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the image compression level.
+description: Indicates the image compression level.
 ms.assetid: 9a7f9afd-cd12-4a8e-b9c2-3ce59a676eb2
 title: System.Image.CompressedBitsPerPixel
 ms.topic: article

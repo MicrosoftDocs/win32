@@ -1,5 +1,5 @@
 ---
-Description: An alias to uint16\_t packed with a 16-bit floating-point number consisting of a sign bit, a 5-bit biased exponent, and a 10-bit mantissa.
+description: An alias to uint16\_t packed with a 16-bit floating-point number consisting of a sign bit, a 5-bit biased exponent, and a 10-bit mantissa.
 ms.assetid: E84E0EBA-5C34-41AA-84DB-7A65EBDCAD15
 title: HALF Data Type (DirectXPackedVector.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                                  |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXPackedVector.h</dt> </dl> |
 

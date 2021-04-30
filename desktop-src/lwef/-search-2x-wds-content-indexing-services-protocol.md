@@ -6319,7 +6319,7 @@ PropSpec (variable)
 
  
 
-**\_wid**: A 32-bit unsigned integer representing the document ID identifying the document for which a property should be fetched.
+**\_wid**: A 32-bit unsigned integer containing information about the document ID identifying the document for which a property should be fetched.
 
 **\_cbSoFar**: A 32-bit unsigned integer containing the number of bytes previously transferred for this property. MUST be set to 0x00000000 in the first message.
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents a shared resource which is encoded as a COM string.
+description: Represents a shared resource which is encoded as a COM string.
 MS-HAID: vspixengine.ResourcePair
 MSHAttr:
 - PreferredSiteName:MSDN

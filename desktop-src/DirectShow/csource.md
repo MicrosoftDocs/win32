@@ -1,5 +1,5 @@
 ---
-Description: The CSource class is a base class for implementing source filters. A filter derived from CSource contains one or more output pins derived from the CSourceStream class. Each output pin creates a worker thread that pushes media samples downstream.
+description: The CSource class is a base class for implementing source filters. A filter derived from CSource contains one or more output pins derived from the CSourceStream class. Each output pin creates a worker thread that pushes media samples downstream.
 ms.assetid: '25bd0334-4ad1-48ed-93f9-b36c13a280a3'
 title: CSource class (Source.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ CAutoLock lock(m_pFilter->pStateLock());
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

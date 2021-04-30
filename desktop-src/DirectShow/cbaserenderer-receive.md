@@ -1,5 +1,5 @@
 ---
-Description: The Receive method receives the next media sample in the stream.
+description: The Receive method receives the next media sample in the stream.
 ms.assetid: b340f76c-2305-444f-bc00-1ef5acdea329
 title: CBaseRenderer.Receive method (Renbase.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ In the base class, the **OnReceiveFirstSample** method does nothing. The derived
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

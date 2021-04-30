@@ -19,7 +19,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# License Revocation
+# License Revocation (Microsoft Windows Media DRM Client)
 
 License revocation refers to the removal of licenses from a local license store. A common scenario for license revocation occurs when a service provider, such as a music subscription service, must deactivate the service on a user's computer.
 
@@ -32,7 +32,7 @@ To remove licenses from the license store, do the following:
 3.  Remove the license from the local store using the [**IWMDRMLicenseManagement::ProcessLicenseRevocationResponse**](iwmdrmlicensemanagement-processlicenserevocationresponse.md) method, passing the LRB returned by license server.
 4.  Deallocate the buffer allocated by **CreateLicenseRevocationChallenge** by using the **CoTaskMemFree** function.
 
-For more information on how license revocation works or on how to write a revocation service, see [Implementing License Revocation](https://msdn.microsoft.com/library/default.asp?url=/library/wmrm10/htm/howlicenserevokationworks.asp).
+For more information on how license revocation works or on how to write a revocation service, see [Implementing License Revocation](/documentation/?url=%2flibrary%2fwmrm10%2fhtm%2fhowlicenserevokationworks.asp).
 
 ## Related topics
 
@@ -50,7 +50,3 @@ For more information on how license revocation works or on how to write a revoca
  
 
  
-
-
-
-

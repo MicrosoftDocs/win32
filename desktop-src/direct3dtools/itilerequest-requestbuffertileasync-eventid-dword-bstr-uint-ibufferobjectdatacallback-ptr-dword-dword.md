@@ -1,5 +1,5 @@
 ---
-Description: Requests to get the raw contents of a tile.
+description: Requests to get the raw contents of a tile.
 MS-HAID: vspixengine.ITileRequest_RequestBufferTileAsync_EventID_DWORD_BSTR_UINT_IBufferObjectDataCallback_ptr_DWORD_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

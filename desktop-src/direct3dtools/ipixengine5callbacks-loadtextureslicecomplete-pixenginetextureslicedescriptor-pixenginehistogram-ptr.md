@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host when a texture slice load has been completed.
+description: A callback function used to notify the host when a texture slice load has been completed.
 MS-HAID: vspixengine.IPixEngine5Callbacks\_LoadTextureSliceComplete\_PixEngineTextureSliceDescriptor\_PixEngineHistogram\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

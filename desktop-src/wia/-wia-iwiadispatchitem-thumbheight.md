@@ -1,5 +1,5 @@
 ---
-Description: The height, in pixels, of the thumbnail image. This property returns -1 if this item does not support thumbnails. Read-only.
+description: The height, in pixels, of the thumbnail image. This property returns -1 if this item does not support thumbnails. Read-only.
 ms.assetid: b9c4815e-42b8-49ab-b067-1fd79593cc5c
 title: Item.ThumbHeight property
 ms.topic: reference
@@ -38,7 +38,7 @@ Variable that receives the thumbnail height.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

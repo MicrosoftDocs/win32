@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetColumnDefaultValue Function"
 title: JetSetColumnDefaultValue Function
 TOCTitle: JetSetColumnDefaultValue Function
 ms:assetid: 74bfaf50-6c2e-4907-b931-d50ad314b552

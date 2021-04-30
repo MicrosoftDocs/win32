@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotNotAllowedException members"
 title: EsentOSSnapshotNotAllowedException members
 TOCTitle: EsentOSSnapshotNotAllowedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException

@@ -1,5 +1,5 @@
 ---
-Description: Sets the size and screen position of an appbar.
+description: Sets the size and screen position of an appbar.
 ms.assetid: b3c56278-b9a2-4e08-bf98-7b3e4c8bd082
 title: ABM_SETPOS message (Shellapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ This message causes the system to send the [**ABN\_POSCHANGED**](abn-poschanged.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: DMOEnum Sample
+description: DMOEnum Sample
 ms.assetid: afd7853e-b0ab-42f6-8c2e-c2b0b40d989b
 title: DMOEnum Sample
 ms.topic: article

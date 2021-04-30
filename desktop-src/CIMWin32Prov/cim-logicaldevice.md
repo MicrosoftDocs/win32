@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalDevice class represents a hardware entity that may or may not be realized in physical hardware.
+description: The CIM\_LogicalDevice class represents a hardware entity that may or may not be realized in physical hardware.
 ms.assetid: 4f3d38ff-8080-4b53-ae29-82b68558c550
 ms.tgt_platform: multiple
 title: CIM_LogicalDevice class (CIMWin32 WMI Providers)
@@ -35,7 +35,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_LogicalDevice class
+# CIM_LogicalDevice class (CIMWin32 WMI Providers)
 
 The **CIM\_LogicalDevice** class represents a hardware entity that may or may not be realized in physical hardware.
 
@@ -1043,7 +1043,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

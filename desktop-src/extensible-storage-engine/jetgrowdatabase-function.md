@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGrowDatabase Function"
 title: JetGrowDatabase Function
 TOCTitle: JetGrowDatabase Function
 ms:assetid: d9719991-6c80-4dcb-a1d6-f0c7de61f459

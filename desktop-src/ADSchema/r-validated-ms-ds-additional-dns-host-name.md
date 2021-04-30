@@ -21,7 +21,7 @@ Validated write to MS DS Additional DNS Host Name.
 
 
 
-|              |                                                   |
+| Entry | Value |
 |--------------|---------------------------------------------------|
 | CN           | Validated-MS-DS-Additional-DNS-Host-Name          |
 | Display-Name | Validated write to MS DS Additional DNS Host Name |
@@ -37,7 +37,7 @@ Validated write to MS DS Additional DNS Host Name.
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 82                                        |

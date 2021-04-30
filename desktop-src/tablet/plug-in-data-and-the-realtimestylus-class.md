@@ -1,5 +1,5 @@
 ---
-Description: Plug-ins for the RealTimeStylus class must implement the IStylusSyncPlugin or IStylusAsyncPlugin interface, or both.
+description: Plug-ins for the RealTimeStylus class must implement the IStylusSyncPlugin or IStylusAsyncPlugin interface, or both.
 ms.assetid: 827ac817-e0e6-4750-9d48-b939ccd5e679
 title: Plug-in Data and the RealTimeStylus Class
 ms.topic: article
@@ -196,7 +196,7 @@ In this diagram, the circles lettered "A" and "B" represent tablet pen data that
 
 The following diagram illustrates the addition of custom stylus data to the output queue with the *queue* parameter set to **OutputImmediate**.
 
-![illustration showing custom stylus data flow to the output queue](images/bcf45325-5557-47a2-af43-142c7684e482.gif)
+![Diagram that shows the custom stylus data flow to the output queue.](images/bcf45325-5557-47a2-af43-142c7684e482.gif)
 
 In this diagram, the circles lettered "A" and "B" represent tablet pen data that has already been added to the [**RealTimeStylus**](realtimestylus-class.md) object's output queue and that has not yet been sent to the asynchronous plug-in collection. The circle lettered "C" represents the tablet pen data that the **RealTimeStylus** object is currently processing. It is sent to the synchronous plug-in collection and placed on the output queue. The circles numbered "1", "2", and "3" represent custom stylus data that has been added to the output queue by the first, second, and third synchronous plug-ins respectively in response to the tablet pen data represented by "C". The plug-ins have added the custom stylus data with the *queue* parameter set to **OutputImmediate**. The empty circle represents the position in the output queue where future tablet pen data is added.
 

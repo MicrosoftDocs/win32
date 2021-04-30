@@ -1,5 +1,5 @@
 ---
-Description: An event viewer application uses the OpenEventLog function to open the event log for an event source.
+description: An event viewer application uses the OpenEventLog function to open the event log for an event source.
 ms.assetid: f10ea874-66a6-446a-a18a-0c008c2da64f
 title: Reading from the Event Log
 ms.topic: article

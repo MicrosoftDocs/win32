@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of IMFSourceBuffer objects in the list.
+description: Gets the number of IMFSourceBuffer objects in the list.
 ms.assetid: 551d2f40-85ad-45af-9191-9fb2b2c44913
 title: IMFSourceBufferList::GetLength method
 ms.topic: reference
@@ -40,7 +40,7 @@ The number of source buffers in the list.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

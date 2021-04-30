@@ -39,7 +39,7 @@ typedef enum _DODownloadPropertyEx
 ```
 ## Constants
 
-| | |
+| Requirement | Value |
 |-|-|
 | DODownloadPropertyEx_UpdateId | Reserved. Do not use. |
 | DODownloadPropertyEx_CorrelationVector | Optional. Sets a specific correlation vector for telemetry purposes. VARIANT type is VT_BSTR. |

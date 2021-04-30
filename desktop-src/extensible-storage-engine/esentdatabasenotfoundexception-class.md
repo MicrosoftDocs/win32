@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseNotFoundException class"
 title: EsentDatabaseNotFoundException class
 TOCTitle: EsentDatabaseNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseNotFoundException

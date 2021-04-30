@@ -38,7 +38,7 @@ If the current preset is the last one in the series of all available visualizati
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

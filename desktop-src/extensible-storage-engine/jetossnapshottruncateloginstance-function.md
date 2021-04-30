@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotTruncateLogInstance Function"
 title: JetOSSnapshotTruncateLogInstance Function
 TOCTitle: JetOSSnapshotTruncateLogInstance Function
 ms:assetid: ddc51957-5b89-4abf-9193-c34ef626a63e

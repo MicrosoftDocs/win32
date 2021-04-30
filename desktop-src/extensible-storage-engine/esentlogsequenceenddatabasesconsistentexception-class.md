@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndDatabasesConsistentException class"
 title: EsentLogSequenceEndDatabasesConsistentException class
 TOCTitle: EsentLogSequenceEndDatabasesConsistentException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException

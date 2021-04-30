@@ -1,5 +1,5 @@
 ---
-Description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer. This method overrides the CBaseAllocator::SetProperties method.
+description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer. This method overrides the CBaseAllocator::SetProperties method.
 ms.assetid: 8d419432-a9a7-44fb-b916-8dacd08eb6ec
 title: CImageAllocator.SetProperties method (Winutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method calls [**CImageAllocator::CheckSizes**](cimageallocator-checksizes.m
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The SrcAdd method adds a source to the track.
+description: The SrcAdd method adds a source to the track.
 ms.assetid: 71c62e92-02d6-4c6f-8121-2052d6cc832c
 title: IAMTimelineTrack::SrcAdd method (Qedit.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ Currently, DES cannot simultaneously render more than 75 sources that were compr
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

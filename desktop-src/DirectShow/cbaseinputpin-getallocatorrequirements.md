@@ -1,5 +1,5 @@
 ---
-Description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
+description: The GetAllocatorRequirements method retrieves the allocator properties requested by the input pin.
 ms.assetid: 81564924-6d5b-4b2a-b549-e3f358f18371
 title: CBaseInputPin.GetAllocatorRequirements method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Implementing this method is optional. If the filter has specific alignment or pr
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

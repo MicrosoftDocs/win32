@@ -9,11 +9,11 @@ ms.date: 10/20/2020
 # Tooltips and Infotips
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 A tooltip is a small pop-up window that labels the unlabeled control being pointed to, such as unlabeled toolbar controls or command buttons.
 
-![screen shot of print button with tooltip ](images/ctrl-tooltips-and-infotips-image1.png)
+![Screenshot that shows print button with the tooltip 'Print (Ctrl+P)' displayed.](images/ctrl-tooltips-and-infotips-image1.png)
 
 A typical tooltip for a toolbar button.
 
@@ -380,6 +380,4 @@ When referring to tips:
 -   In programming and other technical documentation, refer to the type of tip (tooltip or infotip). Everywhere else, simply call it a tip.
 -   The following variations are incorrect: tool tip, Tooltip, and ToolTip.
 -   To describe user interaction, use hover.
-
- 
 

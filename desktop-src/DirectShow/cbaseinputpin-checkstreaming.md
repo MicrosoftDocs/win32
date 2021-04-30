@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the pin can accept samples.
+description: Determines whether the pin can accept samples.
 ms.assetid: bc66ab4c-99de-4031-bdac-b1430f736e20
 title: CBaseInputPin.CheckStreaming method (Amfilter.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ The [**CBaseInputPin::Receive**](cbaseinputpin-receive.md) method calls this met
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

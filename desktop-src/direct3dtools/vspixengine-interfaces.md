@@ -1,5 +1,5 @@
 ---
-Description: The following interfaces are declared in vspixengine.h.
+description: The following interfaces are declared in vspixengine.h.
 MS-HAID: vspixengine.vspixengine\_interfaces
 MSHAttr:
 - PreferredSiteName:MSDN

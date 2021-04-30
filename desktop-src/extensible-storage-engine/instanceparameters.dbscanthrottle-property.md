@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.DbScanThrottle property"
 title: InstanceParameters.DbScanThrottle property 
 TOCTitle: 'DbScanThrottle property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.DbScanThrottle

@@ -1,5 +1,5 @@
 ---
-Description: Represents a forwarding service for network traffic. The service processes packets received protocol endpoints by discarding them, or sending the packets to other protocol endpoints.
+description: Represents a forwarding service for network traffic. The service processes packets received protocol endpoints by discarding them, or sending the packets to other protocol endpoints.
 ms.assetid: 366ae2bf-a436-4ad2-b212-39958a7fbc43
 title: CIM_ForwardingService class
 ms.topic: reference
@@ -222,7 +222,7 @@ The type of protocol to forward.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

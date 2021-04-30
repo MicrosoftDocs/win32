@@ -1,5 +1,5 @@
 ---
-Description: The get\_LoopbackMode method gets the multicast loopback mode.
+description: The get\_LoopbackMode method gets the multicast loopback mode.
 ms.assetid: 2499c108-f70b-4afe-aa2b-2376c95b84bd
 title: IMulticastControl::get_LoopbackMode method (Confpriv.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The system broadcasts the DBT\_QUERYCHANGECONFIG device event to request permission to change the current configuration (dock or undock). Any application can deny this request and cancel the change.
+description: The system broadcasts the DBT\_QUERYCHANGECONFIG device event to request permission to change the current configuration (dock or undock). Any application can deny this request and cancel the change.
 ms.assetid: 2e452ea7-e2bf-4500-952a-ee7d891533a0
 title: DBT_QUERYCHANGECONFIG event (Dbt.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ Return BROADCAST\_QUERY\_DENY to deny permission to change the configuration.
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                   |

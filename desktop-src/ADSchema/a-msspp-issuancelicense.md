@@ -22,7 +22,7 @@ Issuance license used during online/phone activation of the Active Directory for
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-SPP-Issuance-License                               |
 | Ldap-Display-Name | msSPP-IssuanceLicense                                 |
@@ -43,7 +43,7 @@ Issuance license used during online/phone activation of the Active Directory for
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

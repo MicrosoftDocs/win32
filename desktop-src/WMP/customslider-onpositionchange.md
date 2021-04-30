@@ -1,6 +1,6 @@
 ---
 title: CUSTOMSLIDER.onPositionChange
-description: The onPositionChange event handler handles an event that occurs when the position of the slider changes as a result of the user clicking or dragging.
+description: The onPositionChange event handler handles an event that occurs when the position of the slider changes as a result of the user clicking or dragging. | CUSTOMSLIDER.onPositionChange
 ms.assetid: d8fe99a2-69ff-4e75-8d7d-506bcb2f75bf
 keywords:
 - CUSTOMSLIDER.onPositionChange Windows Media Player
@@ -30,7 +30,7 @@ If the position of the custom slider changes as a result of the **value** attrib
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

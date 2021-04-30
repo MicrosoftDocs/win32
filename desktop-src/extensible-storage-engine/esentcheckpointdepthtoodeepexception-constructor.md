@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointDepthTooDeepException constructor"
 title: EsentCheckpointDepthTooDeepException constructor 
 TOCTitle: 'EsentCheckpointDepthTooDeepException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCheckpointDepthTooDeepException.#ctor

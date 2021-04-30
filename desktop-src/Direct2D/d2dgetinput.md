@@ -66,7 +66,7 @@ Also, refer to the remarks for [D2D\_PS\_ENTRY](d2d-ps-entry.md) for another exa
 
 
 
-|                   |                                                                                                    |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1effecthelpers.hlsli</dt> </dl> |
 | DLL<br/>    | <dl> <dt>D2d1.dll</dt> </dl>                |

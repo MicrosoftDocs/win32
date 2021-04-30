@@ -1,5 +1,5 @@
 ---
-Description: For an installation package, the Template Summary property indicates the platform and language versions that are compatible with this installation database.
+description: For an installation package, the Template Summary property indicates the platform and language versions that are compatible with this installation database.
 ms.assetid: a1015ddb-8d5c-40f7-97ac-4a1347644ae6
 title: Template Summary property
 ms.topic: reference
@@ -71,7 +71,7 @@ The following examples are not valid values for the **Template Summary** propert
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

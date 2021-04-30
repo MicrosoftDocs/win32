@@ -66,7 +66,7 @@ This function does not return a value.
 
 The **glTranslated** function produces the translation specified by (*x*, *y*, *z*). The translation vector is used to compute a 4x4 translation matrix:
 
-![](images/trans01.png)
+![Diagram showing the 4x4 translation matrix specified by x, y, z.](images/trans01.png)
 
 The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this translation matrix, with the product replacing the current matrix. That is, if M is the current matrix and T is the translation matrix, then M is replaced with M T.
 
@@ -86,7 +86,7 @@ The following functions retrieve information related to [**glTranslated**](gltra
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

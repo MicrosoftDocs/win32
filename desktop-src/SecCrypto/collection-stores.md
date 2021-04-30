@@ -1,5 +1,5 @@
 ---
-Description: As the number of certificates, certificate revocation lists (CRLs), and certificate trust list (CTLs) in a user's collection grows, the organization of those certificates becomes an issue.
+description: As the number of certificates, certificate revocation lists (CRLs), and certificate trust list (CTLs) in a user's collection grows, the organization of those certificates becomes an issue.
 ms.assetid: 13e7e077-e8be-4ba4-99e1-08421fd2452e
 title: Collection Stores
 ms.topic: article

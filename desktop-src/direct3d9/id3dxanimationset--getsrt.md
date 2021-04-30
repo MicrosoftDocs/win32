@@ -1,5 +1,5 @@
 ---
-Description: Gets the scale, rotation, and translation values of the animation set.
+description: Gets the scale, rotation, and translation values of the animation set.
 ms.assetid: 84fc56f3-15bf-4e27-ad06-57fab94f3a33
 title: ID3DXAnimationSet::GetSRT method (D3dx9anim.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ The return values of this method are implemented by an application programmer. I
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

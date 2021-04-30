@@ -1,5 +1,5 @@
 ---
-Description: Deletes a subkey and its values from an offline registry hive.
+description: Deletes a subkey and its values from an offline registry hive.
 ms.assetid: 651795d3-4328-4281-9a7f-ba75b4ec4da1
 title: ORDeleteKey function (Offreg.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ Only the [**ORCloseKey**](orclosekey.md) function may be called on a deleted key
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

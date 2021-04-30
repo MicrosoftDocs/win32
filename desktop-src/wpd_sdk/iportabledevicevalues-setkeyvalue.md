@@ -1,5 +1,5 @@
 ---
-Description: The SetKeyValue method adds a new REFPROPERTYKEY value (type VT\_UNKNOWN) or overwrites an existing one.
+description: The SetKeyValue method adds a new REFPROPERTYKEY value (type VT\_UNKNOWN) or overwrites an existing one.
 ms.assetid: 344c52ec-91b1-43f9-b16a-28c24971d805
 title: IPortableDeviceValues::SetKeyValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If an existing value has the same key that is specified by the *key* parameter, 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

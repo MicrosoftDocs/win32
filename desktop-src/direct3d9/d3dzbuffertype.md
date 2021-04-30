@@ -1,5 +1,5 @@
 ---
-Description: Defines constants that describe depth-buffer formats.
+description: Defines constants that describe depth-buffer formats.
 ms.assetid: 5e5ce48b-8859-43e0-a9b4-5972cf6bf781
 title: D3DZBUFFERTYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Members of this enumerated type are used with the D3DRS\_ZENABLE render state.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

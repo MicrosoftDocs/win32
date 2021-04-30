@@ -1,5 +1,5 @@
 ---
-Description: Represents a Microsoft-extended property.
+description: Represents a Microsoft-extended property.
 ms.assetid: 91375fd5-b3af-4ed4-961d-5cc1db1a14e3
 title: ExtendedProperty object
 ms.topic: reference
@@ -59,7 +59,7 @@ The **ExtendedProperty** object can be created, and it is not safe for scripting
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

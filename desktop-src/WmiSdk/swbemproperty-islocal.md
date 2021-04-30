@@ -1,5 +1,5 @@
 ---
-Description: The IsLocal property of the SWbemProperty object is a Boolean value that can be used to determine if this property is local. A value of FALSE indicates that this property has been inherited from another class. This property is read-only.
+description: The IsLocal property of the SWbemProperty object is a Boolean value that can be used to determine if this property is local. A value of FALSE indicates that this property has been inherited from another class. This property is read-only.
 ms.assetid: eda1f962-03b5-4322-bb06-c27aedf94be1
 ms.tgt_platform: multiple
 title: SWbemProperty.IsLocal property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemProperty.IsLocal As Boolean
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

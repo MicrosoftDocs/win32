@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIORetryException methods"
 title: EsentFileIORetryException methods
 TOCTitle: EsentFileIORetryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileIORetryException

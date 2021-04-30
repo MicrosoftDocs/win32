@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CALLBACK Callback Function"
 title: JET_CALLBACK Callback Function
 TOCTitle: JET_CALLBACK Callback Function
 ms:assetid: d15d4f84-8378-4b4b-9b8b-e89a56be5ead

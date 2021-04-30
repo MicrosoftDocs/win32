@@ -1,5 +1,5 @@
 ---
-Description: The IsUsingTimeFormat method determines whether a specified time format is the format currently in use. This method implements the IMediaSeeking::IsUsingTimeFormat method.
+description: The IsUsingTimeFormat method determines whether a specified time format is the format currently in use. This method implements the IMediaSeeking::IsUsingTimeFormat method.
 ms.assetid: e377bcf0-0518-42b2-8975-e4c345e3fed4
 title: CPosPassThru.IsUsingTimeFormat method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

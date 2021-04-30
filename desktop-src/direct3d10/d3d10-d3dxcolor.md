@@ -1,5 +1,5 @@
 ---
-Description: Describes color values.
+description: D3DXCOLOR structure (D3DX10Math.h) - Describes color values.
 ms.assetid: bb5e36c8-4f24-41b5-84e7-3034e497721d
 title: D3DXCOLOR structure (D3DX10Math.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXCOLOR structure
+# D3DXCOLOR structure (D3DX10Math.h)
 
 Describes color values.
 
@@ -85,7 +85,7 @@ Alpha component of the color.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

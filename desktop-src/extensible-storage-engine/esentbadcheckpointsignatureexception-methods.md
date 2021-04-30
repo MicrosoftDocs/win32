@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadCheckpointSignatureException methods"
 title: EsentBadCheckpointSignatureException methods
 TOCTitle: EsentBadCheckpointSignatureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException

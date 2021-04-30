@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PowerSupply class exposes the following methods.
+description: The CIM\_PowerSupply class exposes the following methods.
 ms.assetid: B4E229A0-D442-4A0A-B7FE-5B6A72DB4257
 ms.tgt_platform: multiple
 title: CIM_PowerSupply Methods

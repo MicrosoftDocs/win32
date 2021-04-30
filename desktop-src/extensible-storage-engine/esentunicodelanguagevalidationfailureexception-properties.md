@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeLanguageValidationFailureException properties"
 title: EsentUnicodeLanguageValidationFailureException properties
 TOCTitle: EsentUnicodeLanguageValidationFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUnicodeLanguageValidationFailureException

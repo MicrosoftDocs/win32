@@ -1,6 +1,6 @@
 ---
 title: NM_KEYDOWN (toolbar) notification code (Commctrl.h)
-description: Sent by a control when the control has the keyboard focus and the user presses a key. This notification code is sent in the form of a WM\_NOTIFY message.
+description: NM_KEYDOWN (toolbar) notification code - Sent by a control when the control has the keyboard focus and the user presses a key. This notification code is sent in the form of a WM\_NOTIFY message.
 ms.assetid: bdfcf9da-118b-4fe6-9a0a-6329eb9196ef
 keywords:
 - NM_KEYDOWN (toolbar) notification code Windows Controls
@@ -52,7 +52,7 @@ Currently, only the toolbar control sends this notification code.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPatchFileMissingException members"
 title: EsentPatchFileMissingException members
 TOCTitle: EsentPatchFileMissingException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPatchFileMissingException

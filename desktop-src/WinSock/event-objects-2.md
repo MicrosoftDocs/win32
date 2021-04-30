@@ -1,12 +1,12 @@
 ---
-Description: Introducing overlapped I/O requires a mechanism for applications to unambiguously associate send and receive requests with their subsequent completion indications.
+description: Introducing overlapped I/O requires a mechanism for applications to unambiguously associate send and receive requests with their subsequent completion indications.
 ms.assetid: '944d87bd-388f-420d-ac7d-69c4a28f8a5c'
 title: Event Objects (Windows Sockets 2)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Event Objects
+# Event Objects (Windows Sockets 2)
 
 Introducing overlapped I/O requires a mechanism for applications to unambiguously associate send and receive requests with their subsequent completion indications. In Windows Sockets 2, this is accomplished with event objects that are modeled after Windows events. Windows Sockets event objects are fairly simple constructs that can be created and closed, set and cleared, and waited upon and polled. Their prime utility is the ability of an application to block and wait until one or more event objects become set.
 

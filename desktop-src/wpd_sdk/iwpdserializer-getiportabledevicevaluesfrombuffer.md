@@ -1,5 +1,5 @@
 ---
-Description: The GetIPortableDeviceValuesFromBuffer method deserializes a byte array to an IPortableDeviceValues interface.
+description: The GetIPortableDeviceValuesFromBuffer method deserializes a byte array to an IPortableDeviceValues interface.
 ms.assetid: 93bea711-74d5-407a-a707-a3abe47bc2cd
 title: IWpdSerializer::GetIPortableDeviceValuesFromBuffer method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

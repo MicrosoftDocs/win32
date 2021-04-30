@@ -1,5 +1,5 @@
 ---
-Description: .
+description: <span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE enumeration
 MS-HAID: vspixengine.EXPERIMENTTYPE
 MSHAttr:
 - PreferredSiteName:MSDN

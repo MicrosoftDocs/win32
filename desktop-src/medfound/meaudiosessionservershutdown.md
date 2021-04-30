@@ -1,5 +1,5 @@
 ---
-Description: Raised by the audio renderer when the Windows audio server system is shut down. The audio renderer is now invalid.
+description: Raised by the audio renderer when the Windows audio server system is shut down. The audio renderer is now invalid.
 ms.assetid: 8e80903c-d6ce-4fa2-87db-552c7fba3c6a
 title: MEAudioSessionServerShutdown event (Mfobjects.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ The [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy) poi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

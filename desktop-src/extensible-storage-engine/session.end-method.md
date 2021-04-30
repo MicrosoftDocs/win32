@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session.End method"
 title: Session.End method 
 TOCTitle: 'End method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.End

@@ -1,5 +1,5 @@
 ---
-Description: The optional <property> element specifies the properties used by the location provider.
+description: The optional <property> element specifies the properties used by the location provider.
 ms.assetid: c1120dea-cb0b-4746-a5c1-4c83cda6dd7c
 title: property Element of locationProvider (Search Connector Schema)
 ms.topic: article
@@ -43,17 +43,6 @@ The optional <property> element specifies the properties used by the location pr
 
  
 
-## <property> Element Information
-
-
-
-| Parent Element                             | Child Elements |
-|--------------------------------------------|----------------|
-| property Element (Search Connector Schema) |                |
-
-
-
- 
 
 ## <property> Attributes
 

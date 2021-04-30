@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows HTTP Services (WinHTTP) supports Secure Sockets Layer (SSL) transactions including client certificates. This topic explains concepts involved in an SSL transaction and how they are handled using WinHTTP.
+description: Microsoft Windows HTTP Services (WinHTTP) supports Secure Sockets Layer (SSL) transactions including client certificates. This topic explains concepts involved in an SSL transaction and how they are handled using WinHTTP.
 ms.assetid: cb0a04f5-1026-4ad5-bb5b-c854064a5167
 title: SSL in WinHTTP
 ms.topic: article

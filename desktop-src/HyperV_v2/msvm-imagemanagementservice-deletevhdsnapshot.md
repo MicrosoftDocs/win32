@@ -1,5 +1,5 @@
 ---
-Description: Deletes a VHD Snapshot entry within a VHD Set file.
+description: Deletes a VHD Snapshot entry within a VHD Set file.
 ms.assetid: 37d55a5f-209d-42ce-8f69-8b494055e263
 title: DeleteVHDSnapshot method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -117,7 +117,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

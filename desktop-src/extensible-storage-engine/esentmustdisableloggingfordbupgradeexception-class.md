@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustDisableLoggingForDbUpgradeException class"
 title: EsentMustDisableLoggingForDbUpgradeException class
 TOCTitle: EsentMustDisableLoggingForDbUpgradeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentMustDisableLoggingForDbUpgradeException

@@ -1,5 +1,5 @@
 ---
-Description: The following are hints and tips to consider when writing an application for TAPI 3
+description: The following are hints and tips to consider when writing an application for TAPI 3
 ms.assetid: 55aae46a-af5c-4b6d-89fc-9063f078bcd6
 title: Hints and Tips
 ms.topic: article
@@ -46,8 +46,8 @@ The following are hints and tips to consider when writing an application for TAP
 
     Be aware that the following code example is provided, but is not a requirement.
 
-    ``` syntax
-#include <windows.h>
+    ```syntax
+    #include <windows.h>
 
     HRESULT
     STDMETHODCALLTYPE
@@ -73,8 +73,7 @@ The following are hints and tips to consider when writing an application for TAP
         // If (RetVal == 0 ) process error here.
 
         return S_OK;
-    }
-     
+    }     
     ```
 
 3.  Do not manipulate COM objects after calling [**CoUninitialize**](/windows/desktop/api/combaseapi/nf-combaseapi-couninitialize). The results are unpredictable and detrimental to a healthy application. Some examples in which this can happen are worker threads and C++ destructors that may execute after an application calls **CoUninitialize**.

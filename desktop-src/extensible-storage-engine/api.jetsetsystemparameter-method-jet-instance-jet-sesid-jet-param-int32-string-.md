@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, Int32, String)"
 title: Api.JetSetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, Int32, String)
 TOCTitle: JetSetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, Int32, String)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetSystemParameter(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_param,System.Int32,System.String)

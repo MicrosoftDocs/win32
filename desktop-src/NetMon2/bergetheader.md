@@ -1,5 +1,5 @@
 ---
-Description: The BERGetHeader function decodes a choice header.
+description: The BERGetHeader function decodes a choice header.
 ms.assetid: 2574a9b3-c28e-43d1-904f-d45888617584
 title: BERGetHeader function (Netmon.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If the function is unsuccessful, the return value is **FALSE**.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

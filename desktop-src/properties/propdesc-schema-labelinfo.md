@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the property's labels are displayed.
+description: Specifies how the property's labels are displayed.
 ms.assetid: 9317aff9-abdd-46c2-aaff-62861925713b
 title: labelInfo
 ms.topic: article

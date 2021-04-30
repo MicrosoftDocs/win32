@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrinterDriverDll association WMI class relates a local printer and its driver file.
+description: The Win32\_PrinterDriverDll association WMI class relates a local printer and its driver file.
 ms.assetid: decbd1de-8091-47f7-94a1-42862070b920
 ms.tgt_platform: multiple
 title: Win32_PrinterDriverDll class
@@ -90,7 +90,7 @@ The **Win32\_PrinterDriverDll** class is derived from [**CIM\_Dependency**](cim-
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

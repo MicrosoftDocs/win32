@@ -1,5 +1,5 @@
 ---
-Description: ASF ContentInfo Object
+description: ASF ContentInfo Object
 ms.assetid: 6b7f8b68-fe98-4aeb-9842-a80ac6235999
 title: ASF ContentInfo Object
 ms.topic: article

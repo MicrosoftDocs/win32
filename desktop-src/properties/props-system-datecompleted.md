@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.DateCompleted
 ms.assetid: 64be5d80-68d2-437b-8018-5812ce606a15
 title: System.DateCompleted
 ms.topic: article

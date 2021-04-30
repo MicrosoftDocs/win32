@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.cbtyp property"
 title: JET_TABLECREATE.cbtyp property 
 TOCTitle: 'cbtyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cbtyp

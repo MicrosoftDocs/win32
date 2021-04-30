@@ -1,5 +1,5 @@
 ---
-Description: Defines values for use with the FXREVERB\_PARAMETERS structure.
+description: Defines values for use with the FXREVERB\_PARAMETERS structure.
 ms.assetid: 668f0f24-2f77-6d0d-33ac-93f269bb50f0
 title: FXREVERB Constants (XAPOFX.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>XAPOFX.h</dt> </dl> |
 

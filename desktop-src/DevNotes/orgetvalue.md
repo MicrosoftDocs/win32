@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the type and data for the specified registry value in an offline registry hive.
+description: Retrieves the type and data for the specified registry value in an offline registry hive.
 ms.assetid: 83604743-cb59-42a1-9951-620ad5bd8de7
 title: ORGetValue function (Offreg.h)
 ms.topic: reference
@@ -111,7 +111,7 @@ An application typically calls the [**OREnumValue**](orenumvalue.md) function to
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

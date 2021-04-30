@@ -1,5 +1,5 @@
 ---
-Description: A numeric constant that specifies the maximum number of characters that some of the Microsoft cryptographic providers will use when obtaining the user ID.
+description: A numeric constant that specifies the maximum number of characters that some of the Microsoft cryptographic providers will use when obtaining the user ID.
 ms.assetid: cc15a166-9a0c-41ce-9cb1-ecdc922565c0
 title: MAXUIDLEN (Wincrypt.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ MAXUIDLEN is a numeric constant that specifies the maximum number of characters 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

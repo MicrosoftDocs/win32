@@ -1,5 +1,5 @@
 ---
-Description: The DOC\_INFO\_3 structure describes a document that will be printed.
+description: The DOC\_INFO\_3 structure describes a document that will be printed.
 ms.assetid: 6e7b6727-da04-4f67-af77-6b51c68a4eb3
 title: DOC_INFO_3 structure (Winspool.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ The DI\_MEMORYMAP\_WRITE setting in **DOC\_INFO\_3** is an optimization. This al
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

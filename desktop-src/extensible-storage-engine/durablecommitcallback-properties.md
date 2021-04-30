@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: DurableCommitCallback properties"
 title: DurableCommitCallback properties (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: DurableCommitCallback properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback

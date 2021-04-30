@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogWriteFailException methods"
 title: EsentLogWriteFailException methods
 TOCTitle: EsentLogWriteFailException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException

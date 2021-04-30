@@ -1,5 +1,5 @@
 ---
-Description: The identifier of the thread that last called the IPinFlowControl::Block method on this pin. This member variable is only valid while the pin is blocked.
+description: The identifier of the thread that last called the IPinFlowControl::Block method on this pin. This member variable is only valid while the pin is blocked.
 ms.assetid: 7f8429c5-7e58-49a1-9f36-01088379a193
 title: CDynamicOutputPin::m_dwBlockCallerThreadID member (Amfilter.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Before accessing this variable, hold the [**CDynamicOutputPin::m\_BlockStateLock
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

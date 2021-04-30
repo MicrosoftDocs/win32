@@ -1,12 +1,12 @@
 ---
-title: Structures
-description: .
+title: Structures (Visual Styles Reference)
+description: Structures
 ms.assetid: 11addbb0-b771-4f4b-93fc-94afd320d55b
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (Visual Styles Reference)
 
 -   [**BP\_ANIMATIONPARAMS**](/windows/desktop/api/Uxtheme/ns-uxtheme-bp_animationparams)
 -   [**BP\_PAINTPARAMS**](/windows/desktop/api/Uxtheme/ns-uxtheme-bp_paintparams)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableLockedException members"
 title: EsentTableLockedException members
 TOCTitle: EsentTableLockedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTableLockedException

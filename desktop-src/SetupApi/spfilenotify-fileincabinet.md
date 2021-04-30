@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_FILEINCABINET notification is sent to a callback routine by SetupIterateCabinet for each file found in the cabinet. The callback routine must return a value indicating whether to extract the file.
+description: The SPFILENOTIFY\_FILEINCABINET notification is sent to a callback routine by SetupIterateCabinet for each file found in the cabinet. The callback routine must return a value indicating whether to extract the file.
 ms.assetid: c6d89759-c0d4-4741-b992-43eaa0dc4f01
 title: SPFILENOTIFY_FILEINCABINET message (Setupapi.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If your callback routine returns FILEOP\_DOIT, the name to use for the extracted
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

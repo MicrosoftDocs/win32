@@ -1,5 +1,5 @@
 ---
-Description: A shared assembly is an assembly available for use by multiple applications on the computer.
+description: A shared assembly is an assembly available for use by multiple applications on the computer.
 ms.assetid: E42688E0-83D8-4C64-98A8-1BE82E4348FA
 title: About Shared Assemblies
 ms.topic: article

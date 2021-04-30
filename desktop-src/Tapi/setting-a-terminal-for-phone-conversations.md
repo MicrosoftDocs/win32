@@ -1,5 +1,5 @@
 ---
-Description: The users computer may have access to multiple devices that are selectable by the user and used to conduct interactive voice conversations.
+description: The users computer may have access to multiple devices that are selectable by the user and used to conduct interactive voice conversations.
 ms.assetid: cc7ad70a-157e-4db4-b5e4-00d25686a9dd
 title: Setting a Terminal for Phone Conversations
 ms.topic: article

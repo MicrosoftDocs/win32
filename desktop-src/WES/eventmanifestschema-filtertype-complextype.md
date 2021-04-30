@@ -73,7 +73,7 @@ Defines a data filter that a session uses to filter events based on event data.
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

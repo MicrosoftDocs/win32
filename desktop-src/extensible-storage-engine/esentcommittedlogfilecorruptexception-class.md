@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCommittedLogFileCorruptException class"
 title: EsentCommittedLogFileCorruptException class
 TOCTitle: EsentCommittedLogFileCorruptException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCommittedLogFileCorruptException

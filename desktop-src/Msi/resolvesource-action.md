@@ -1,5 +1,5 @@
 ---
-Description: The ResolveSource action determines the location of the source and sets the SourceDir property if the source has not been resolved yet.
+description: The ResolveSource action determines the location of the source and sets the SourceDir property if the source has not been resolved yet.
 ms.assetid: 6d6205a0-a870-4df2-922b-befea7e28a1a
 title: ResolveSource Action
 ms.topic: article

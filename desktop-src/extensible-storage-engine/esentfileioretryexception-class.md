@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIORetryException class"
 title: EsentFileIORetryException class
 TOCTitle: EsentFileIORetryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFileIORetryException

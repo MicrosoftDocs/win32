@@ -41,7 +41,7 @@ When you use **alphaBlend** with a **TEXT** element that does not have the **bac
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

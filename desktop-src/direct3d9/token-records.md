@@ -1,5 +1,5 @@
 ---
-Description: This section describes the format of the records for each of the record-bearing tokens. Information is divided into the following sections.
+description: This section describes the format of the records for each of the record-bearing tokens. Information is divided into the following sections.
 ms.assetid: 4fdd8339-f660-4389-878a-e7ab067d8508
 title: Token Records
 ms.topic: article

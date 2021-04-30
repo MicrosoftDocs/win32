@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Samples
+# WMP SDK Samples
 
 The Windows Media Player SDK includes a variety of samples that demonstrate many of the programming techniques described in this document.
 

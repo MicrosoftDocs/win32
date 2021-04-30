@@ -52,7 +52,7 @@ To receive an EN\_LOWFIRTF notification, specify the ENM\_LOWFIRTF flag in the m
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

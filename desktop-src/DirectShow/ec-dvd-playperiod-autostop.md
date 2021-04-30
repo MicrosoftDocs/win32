@@ -1,5 +1,5 @@
 ---
-Description: Indicates that the Navigator has finished playing the segment specified in a call to IDvdControl2::PlayPeriodInTitleAutoStop.
+description: Indicates that the Navigator has finished playing the segment specified in a call to IDvdControl2::PlayPeriodInTitleAutoStop.
 ms.assetid: 1716eabe-f106-436a-8a6a-ca43cee9341c
 title: EC_DVD_PLAYPERIOD_AUTOSTOP (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is also sent when playback is canceled before the Navigator finishes 
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

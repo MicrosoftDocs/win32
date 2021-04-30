@@ -1,5 +1,5 @@
 ---
-Description: The Insert method adds a CDeferredCommand object to the queue.
+description: The Insert method adds a CDeferredCommand object to the queue.
 ms.assetid: 41f9c30c-6267-435a-9089-eb34ae606896
 title: CCmdQueue.Insert method (Winutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns S\_OK in the default implementation.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

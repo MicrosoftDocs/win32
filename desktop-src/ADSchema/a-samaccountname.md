@@ -26,7 +26,7 @@ This attribute must be 20 characters or less to support earlier clients, and can
 
 
 
-|                   |                                                                                          |
+| Entry | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | CN                | SAM-Account-Name                                                                         |
 | Ldap-Display-Name | sAMAccountName                                                                           |
@@ -52,7 +52,7 @@ This attribute must be 20 characters or less to support earlier clients, and can
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -73,7 +73,7 @@ This attribute must be 20 characters or less to support earlier clients, and can
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -94,7 +94,7 @@ This attribute must be 20 characters or less to support earlier clients, and can
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -115,7 +115,7 @@ This attribute must be 20 characters or less to support earlier clients, and can
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -136,7 +136,7 @@ This attribute must be 20 characters or less to support earlier clients, and can
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -157,7 +157,7 @@ This attribute must be 20 characters or less to support earlier clients, and can
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

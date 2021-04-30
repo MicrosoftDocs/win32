@@ -1,5 +1,5 @@
 ---
-Description: The SelectNPPBlobFromTable function selects a NIC from a supplied NPP BLOB table.
+description: The SelectNPPBlobFromTable function selects a NIC from a supplied NPP BLOB table.
 ms.assetid: 7f8010ed-472a-49b2-8d97-92851b6c14cd
 title: SelectNPPBlobFromTable function (Netmon.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ To learn the various ways you can select NICs, see [Selecting a Network Interfac
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

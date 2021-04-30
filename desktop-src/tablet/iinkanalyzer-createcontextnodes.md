@@ -1,5 +1,5 @@
 ---
-Description: Creates an IContextNodes object.
+description: Creates an IContextNodes object.
 ms.assetid: d6d37595-307b-4cbc-9d48-ad10f8b272dd
 title: IInkAnalyzer::CreateContextNodes method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Use this method to create an empty [**IContextNodes**](icontextnodes.md) collect
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

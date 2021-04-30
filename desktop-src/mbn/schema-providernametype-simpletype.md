@@ -1,5 +1,5 @@
 ---
-Description: Defines a string type for the ProviderName element in the Mobile Broadband profile.
+description: Defines a string type for the ProviderName element in the Mobile Broadband profile.
 ms.assetid: 1644ded2-f931-4920-848d-e0405d8723e3
 title: providerNameType Simple Type
 ms.topic: reference
@@ -36,7 +36,7 @@ The **providerNameType** simple type defines a string type for the [**ProviderNa
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

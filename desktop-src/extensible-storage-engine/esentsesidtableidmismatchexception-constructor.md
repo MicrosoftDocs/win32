@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSesidTableIdMismatchException constructor"
 title: EsentSesidTableIdMismatchException constructor 
 TOCTitle: 'EsentSesidTableIdMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException.#ctor

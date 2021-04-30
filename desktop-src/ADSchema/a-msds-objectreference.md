@@ -22,7 +22,7 @@ A link to the object that uses the data stored in the object that contains this 
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Object-Reference                  |
 | Ldap-Display-Name | msDS-ObjectReference                    |
@@ -47,7 +47,7 @@ A link to the object that uses the data stored in the object that contains this 
 
 
 
-|                        |                                                                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 2038                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                     |
@@ -68,7 +68,7 @@ A link to the object that uses the data stored in the object that contains this 
 
 
 
-|                        |                                                                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 2038                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                     |
@@ -89,7 +89,7 @@ A link to the object that uses the data stored in the object that contains this 
 
 
 
-|                        |                                                                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 2038                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                     |
@@ -110,7 +110,7 @@ A link to the object that uses the data stored in the object that contains this 
 
 
 
-|                        |                                                                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 2038                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                     |
@@ -131,7 +131,7 @@ A link to the object that uses the data stored in the object that contains this 
 
 
 
-|                        |                                                                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | 2038                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                     |

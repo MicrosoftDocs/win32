@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDeleteBackupFileFailException members"
 title: EsentDeleteBackupFileFailException members
 TOCTitle: EsentDeleteBackupFileFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException

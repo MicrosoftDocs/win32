@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileIOException properties"
 title: EsentSLVFileIOException properties
 TOCTitle: EsentSLVFileIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileIOException

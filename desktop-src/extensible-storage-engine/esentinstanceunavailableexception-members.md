@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableException members"
 title: EsentInstanceUnavailableException members
 TOCTitle: EsentInstanceUnavailableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException

@@ -1,5 +1,5 @@
 ---
-Description: Requests to get information about what columns (fields) this object table request type supports.
+description: Requests to get information about what columns (fields) this object table request type supports.
 MS-HAID: vspixengine.IObjectTableRequest\_RequestSupportedColumnsAsync\_IObjectTableCallback\_ptr\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

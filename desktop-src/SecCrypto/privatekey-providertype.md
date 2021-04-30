@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a value of the CAPICOM\_PROV\_TYPE enumeration that specifies the type of provider.
+description: Retrieves a value of the CAPICOM\_PROV\_TYPE enumeration that specifies the type of provider.
 ms.assetid: bc6a579f-5532-45e3-97f4-adcde2cd29e5
 title: PrivateKey.ProviderType property
 ms.topic: reference
@@ -65,7 +65,7 @@ A value of the [**CAPICOM\_PROV\_TYPE**](capicom-prov-type.md) enumeration that 
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

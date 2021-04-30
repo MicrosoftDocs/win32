@@ -21,7 +21,7 @@ Extended right needed to change the domain naming FSMO role owner.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Change-Domain-Master                 |
 | Display-Name | Change Domain Master                 |
@@ -43,7 +43,7 @@ Extended right needed to change the domain naming FSMO role owner.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 36                                                            |
@@ -54,7 +54,7 @@ Extended right needed to change the domain naming FSMO role owner.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 36                                                            |
@@ -65,7 +65,7 @@ Extended right needed to change the domain naming FSMO role owner.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 36                                                            |
@@ -76,7 +76,7 @@ Extended right needed to change the domain naming FSMO role owner.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 36                                                            |
@@ -87,7 +87,7 @@ Extended right needed to change the domain naming FSMO role owner.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 36                                                            |
@@ -98,7 +98,7 @@ Extended right needed to change the domain naming FSMO role owner.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 36                                                            |
@@ -109,7 +109,7 @@ Extended right needed to change the domain naming FSMO role owner.
 
 
 
-|                         |                                                               |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------|
 | Applies-To              | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> |
 | Localization-Display-ID | 36                                                            |

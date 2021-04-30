@@ -89,7 +89,7 @@ This field is set when the resource is identified as part of the threat. It spec
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

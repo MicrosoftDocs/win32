@@ -1,5 +1,5 @@
 ---
-Description: Estimates the risk of executing unknown code when a handler is called on a given file. This risk is based on an understanding of the handler and the code content of the file.
+description: Estimates the risk of executing unknown code when a handler is called on a given file. This risk is based on an understanding of the handler and the code content of the file.
 title: EstimateFileRiskLevel function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -154,7 +154,7 @@ This function is not declared in a public header or included in a library file. 
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                           |

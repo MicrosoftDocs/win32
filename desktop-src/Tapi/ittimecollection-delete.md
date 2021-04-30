@@ -1,5 +1,5 @@
 ---
-Description: The Delete method deletes an ITTime component.
+description: The Delete method deletes an ITTime component.
 ms.assetid: 0445d659-7b83-4462-b199-511fd8270f32
 title: ITTimeCollection::Delete method (Sdpblb.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

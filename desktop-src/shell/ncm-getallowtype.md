@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the network address types that a specified network address control accepts.
+description: Retrieves the network address types that a specified network address control accepts.
 title: NCM_GETALLOWTYPE message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -57,7 +57,7 @@ Use this message for a network address control only. To instantiate, use the cla
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

@@ -21,7 +21,7 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 
 
-|              |                                           |
+| Entry | Value |
 |--------------|-------------------------------------------|
 | CN           | Validated-SPN                             |
 | Display-Name | Validated write to service principal name |
@@ -42,7 +42,7 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 14                                        |
@@ -53,7 +53,7 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 14                                        |
@@ -64,7 +64,7 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 14                                        |
@@ -75,7 +75,7 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 
 
-|                         |                                           |
+| Entry | Value |
 |-------------------------|-------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 14                                        |
@@ -86,7 +86,7 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 
 
-|                         |                                                                                                                            |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> |
 | Localization-Display-ID | 14                                                                                                                         |
@@ -97,7 +97,7 @@ Validated write permission to enable setting of the SPN attribute which is compl
 
 
 
-|                         |                                                                                                                            |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> |
 | Localization-Display-ID | 14                                                                                                                         |

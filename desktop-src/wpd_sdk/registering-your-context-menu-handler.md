@@ -1,5 +1,5 @@
 ---
-Description: Registering Your Context Menu Handler
+description: Registering Your Context Menu Handler
 ms.assetid: 0023004b-b6b3-486a-8b8c-8e63c5731206
 title: Registering Your Context Menu Handler
 ms.topic: article

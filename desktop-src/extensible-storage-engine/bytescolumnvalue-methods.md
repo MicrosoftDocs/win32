@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue methods"
 title: BytesColumnValue methods
 TOCTitle: BytesColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.BytesColumnValue

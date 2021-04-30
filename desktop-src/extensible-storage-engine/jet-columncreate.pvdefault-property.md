@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE.pvDefault property"
 title: JET_COLUMNCREATE.pvDefault property 
 TOCTitle: 'pvDefault property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.pvDefault

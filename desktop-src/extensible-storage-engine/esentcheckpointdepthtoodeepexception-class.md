@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointDepthTooDeepException class"
 title: EsentCheckpointDepthTooDeepException class
 TOCTitle: EsentCheckpointDepthTooDeepException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCheckpointDepthTooDeepException

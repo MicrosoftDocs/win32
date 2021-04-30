@@ -1,5 +1,5 @@
 ---
-Description: WMI service management classes are used to manage the WMI service itself and not the computer system or enterprise network. Managing WMI encompasses both configuring the WMI service and managing WMI operations.
+description: WMI service management classes are used to manage the WMI service itself and not the computer system or enterprise network. Managing WMI encompasses both configuring the WMI service and managing WMI operations.
 ms.assetid: EF58AC04-FE04-4D0C-A5F7-3491C885A0E4
 ms.tgt_platform: multiple
 title: WMI Service Management Classes

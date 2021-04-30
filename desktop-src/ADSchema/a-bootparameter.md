@@ -21,7 +21,7 @@ Provides data that is needed to start a diskless client.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | bootParameter                        |
 | Ldap-Display-Name | bootParameter                        |
@@ -45,7 +45,7 @@ Provides data that is needed to start a diskless client.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -66,7 +66,7 @@ Provides data that is needed to start a diskless client.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -87,7 +87,7 @@ Provides data that is needed to start a diskless client.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -108,7 +108,7 @@ Provides data that is needed to start a diskless client.
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |

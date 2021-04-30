@@ -1,5 +1,5 @@
 ---
-Description: Connects a switch port to the Fibre Channel endpoint to which the port is connected.
+description: Connects a switch port to the Fibre Channel endpoint to which the port is connected.
 ms.assetid: e2762e0c-2f78-4159-a67c-31213e311072
 title: Msvm_FcActiveConnection class
 ms.topic: reference
@@ -127,7 +127,7 @@ This property is inherited from [**CIM\_ActiveConnection**](/previous-versions//
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

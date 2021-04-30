@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateNotPreparedException constructor"
 title: EsentUpdateNotPreparedException constructor 
 TOCTitle: 'EsentUpdateNotPreparedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUpdateNotPreparedException.#ctor

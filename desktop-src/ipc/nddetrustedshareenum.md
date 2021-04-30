@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the names of all network DDE shares that are trusted in the context of the calling process.
+description: Retrieves the names of all network DDE shares that are trusted in the context of the calling process.
 ms.assetid: 8e2323a4-0c27-44e6-9598-08a3c1a88bd3
 title: NDdeTrustedShareEnum function (Nddeapi.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ If the function fails, the return value is an error code, which can be translate
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

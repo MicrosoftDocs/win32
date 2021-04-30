@@ -1,5 +1,5 @@
 ---
-Description: Contains a port number used for IP or IPX protocols.
+description: Contains a port number used for IP or IPX protocols.
 ms.assetid: 730f6ee6-7b7d-4e10-91ee-a4ba87aae5aa
 title: GENERIC_PORT union (Netmon.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ IPX port number filled in.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

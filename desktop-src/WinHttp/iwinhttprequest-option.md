@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves a Microsoft Windows HTTP Services (WinHTTP) option value.
+description: Sets or retrieves a Microsoft Windows HTTP Services (WinHTTP) option value.
 ms.assetid: 913573e6-fad3-42a5-bb5d-25a3d2ac9616
 title: IWinHttpRequest::Option property
 ms.topic: reference
@@ -239,7 +239,7 @@ WScript.Echo( 'Escape percents: '+
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

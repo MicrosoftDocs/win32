@@ -1,5 +1,5 @@
 ---
-Description: Handle to a semaphore, used by the thread to wait for samples.
+description: Handle to a semaphore, used by the thread to wait for samples.
 ms.assetid: c64a7221-6eea-459b-b306-e6d547a233b2
 title: COutputQueue::m_hSem member (Outputq.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ HANDLE m_hSem;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

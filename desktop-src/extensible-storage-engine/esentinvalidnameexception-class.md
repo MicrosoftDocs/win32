@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidNameException class"
 title: EsentInvalidNameException class
 TOCTitle: EsentInvalidNameException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidNameException

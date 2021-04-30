@@ -1,5 +1,5 @@
 ---
-Description: Specifies the ID of an encrypted sample.
+description: Specifies the ID of an encrypted sample.
 ms.assetid: 09B11406-DF7B-4541-998C-68306654BADC
 title: MFSampleExtension_Encryption_SampleID attribute (Mfapi.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ Specifies the ID of an encrypted sample.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

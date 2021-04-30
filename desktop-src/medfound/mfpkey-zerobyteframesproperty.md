@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of video frames that are skipped because they were duplicates of previous frames.
+description: Specifies the number of video frames that are skipped because they were duplicates of previous frames.
 ms.assetid: ef4aa5a0-3788-493e-b541-c3a24509d939
 title: MFPKEY_ZEROBYTEFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ You can get this value after you are finished passing samples.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

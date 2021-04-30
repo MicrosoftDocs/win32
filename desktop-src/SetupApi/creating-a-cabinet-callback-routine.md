@@ -1,5 +1,5 @@
 ---
-Description: Because the Setup API does not supply a default cabinet callback routine, you need to supply a routine. The callback routine that the SetupIterateCabinet function requires must have the same form as those pointed to by FileCallback.
+description: Because the Setup API does not supply a default cabinet callback routine, you need to supply a routine. The callback routine that the SetupIterateCabinet function requires must have the same form as those pointed to by FileCallback.
 ms.assetid: 45a2690e-1db6-4a09-a141-9e68ebc2a6d8
 title: Creating a Cabinet Callback Routine
 ms.topic: article

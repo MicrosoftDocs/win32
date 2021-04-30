@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DateTimeColumnValue.GetValueFromBytes method"
 title: DateTimeColumnValue.GetValueFromBytes method 
 TOCTitle: 'GetValueFromBytes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.DateTimeColumnValue.GetValueFromBytes(System.Byte[],System.Int32,System.Int32,System.Int32)

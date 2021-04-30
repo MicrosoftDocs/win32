@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue constructor"
 title: StringColumnValue constructor 
 TOCTitle: 'StringColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.StringColumnValue.#ctor

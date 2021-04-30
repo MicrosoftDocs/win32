@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DateTimeColumnValue constructor"
 title: DateTimeColumnValue constructor 
 TOCTitle: 'DateTimeColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.DateTimeColumnValue.#ctor

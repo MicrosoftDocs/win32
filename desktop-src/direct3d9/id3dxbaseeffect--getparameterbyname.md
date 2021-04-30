@@ -1,5 +1,5 @@
 ---
-Description: Gets the handle of a top-level parameter or a structure member parameter by looking up its name.
+description: Gets the handle of a top-level parameter or a structure member parameter by looking up its name.
 ms.assetid: fb03685e-e512-4293-80d7-6c2c0fc9ebfd
 title: ID3DXBaseEffect::GetParameterByName method (D3DX9Shader.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Returns the handle of the specified parameter, or **NULL** if the index was inva
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

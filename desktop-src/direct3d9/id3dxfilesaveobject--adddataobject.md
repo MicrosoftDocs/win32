@@ -1,5 +1,5 @@
 ---
-Description: Adds a data object as a child of the ID3DXFileSaveData object.
+description: Adds a data object as a child of the ID3DXFileSaveData object.
 ms.assetid: 710a1588-d766-4555-97a3-4b5a517ce805
 title: ID3DXFileSaveObject::AddDataObject method (D3DX9Xof.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ Save the created data to disk by using the [**ID3DXFileSaveObject::Save**](id3dx
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

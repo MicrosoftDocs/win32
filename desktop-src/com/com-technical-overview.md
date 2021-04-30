@@ -1,7 +1,7 @@
 ---
 title: COM Technical Overview
 ms.assetid: 519c87cc-b442-4187-af2a-124a1e4e8b49
-description: 
+description: "Learn more about: COM Technical Overview"
 keywords:
 - COM Technical Overview COM
 ms.topic: article
@@ -78,7 +78,7 @@ You obtain a new CLSID by using the [**CoCreateGuid**](/windows/desktop/api/comb
 
 All COM interfaces inherit from the [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) interface. The **IUnknown** interface contains the fundamental COM operations for polymorphism and instance lifetime management. The **IUnknown** interface has three member functions, named [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)), [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref), and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release). All COM objects are required to implement the **IUnknown** interface.
 
-The [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) member function provides polymorphism for COM. Call **QueryInterface** to determine at run time whether a COM object supports a particular interface. The COM object returns an interface pointer in the `ppvObject``out` parameter if it implements the requested interface, otherwise it returns `NULL`. The **QueryInterface** member function enables navigation among all of the interfaces that a COM object supports.
+The [**QueryInterface**](/windows/desktop/api/Unknwn/nf-unknwn-iunknown-queryinterface(q)) member function provides polymorphism for COM. Call **QueryInterface** to determine at run time whether a COM object supports a particular interface. The COM object returns an interface pointer in the `ppvObject` parameter if it implements the requested interface, otherwise it returns `NULL`. The **QueryInterface** member function enables navigation among all of the interfaces that a COM object supports.
 
 The lifetime of a COM object instance is controlled by its *reference count*. The [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) member functions [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref) and [**Release**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release) control the count. **AddRef** increments the count and **Release** decrements the count. When the reference count reaches zero, the **Release** member function may free the instance, because no callers are using it.
 

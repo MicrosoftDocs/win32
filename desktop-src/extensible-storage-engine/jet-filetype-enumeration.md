@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_filetype enumeration"
 title: JET_filetype enumeration
 TOCTitle: JET_filetype enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_filetype

@@ -1,5 +1,5 @@
 ---
-Description: Represents a port on the virtual Fibre Channel switch.
+description: Represents a port on the virtual Fibre Channel switch.
 ms.assetid: 6b4553b7-2717-4285-9e1a-e2ad22a60997
 title: Msvm_FcSwitchPort class
 ms.topic: reference
@@ -80,6 +80,9 @@ api_location:
 ---
 
 # Msvm\_FcSwitchPort class
+
+> [!NOTE]
+> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
 
 Represents a port on the virtual Fibre Channel switch.
 
@@ -1448,7 +1451,7 @@ In some circumstances, a logical port might be identifiable as a front end or ba
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

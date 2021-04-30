@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetStopService Function"
 title: JetStopService Function
 TOCTitle: JetStopService Function
 ms:assetid: 46aeb9ed-ee72-49cc-99e3-791a51a55b02

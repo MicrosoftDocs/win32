@@ -1,5 +1,5 @@
 ---
-Description: Sent when the user drops a file on the window of an application that has registered itself as a recipient of dropped files.
+description: Sent when the user drops a file on the window of an application that has registered itself as a recipient of dropped files.
 ms.assetid: 07dc2df7-4699-4e9c-b1a5-4ce877116268
 title: WM_DROPFILES message (Winuser.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ The HDROP handle is declared in Shellapi.h. You must include this header in your
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

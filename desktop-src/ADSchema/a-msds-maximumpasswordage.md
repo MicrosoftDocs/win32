@@ -22,7 +22,7 @@ Maximum age for user account passwords.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Maximum-Password-Age           |
 | Ldap-Display-Name | msDS-MaximumPasswordAge              |
@@ -45,7 +45,7 @@ Maximum age for user account passwords.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -66,7 +66,7 @@ Maximum age for user account passwords.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -87,7 +87,7 @@ Maximum age for user account passwords.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |

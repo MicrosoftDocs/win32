@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidNameException properties"
 title: EsentDatabaseInvalidNameException properties
 TOCTitle: EsentDatabaseInvalidNameException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException

@@ -1,6 +1,6 @@
 ---
 title: keywords (ProviderType) Element
-description: Defines a list of keywords that categorize events.
+description: Defines a list of keywords that categorize events. | keywords (ProviderType) Element
 ms.assetid: 709da870-b252-4598-a1f6-51c12fa7c6df
 keywords:
 - keywords element EventLog
@@ -31,7 +31,7 @@ The **keywords** element is defined by the [**ProviderType**](eventmanifestschem
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

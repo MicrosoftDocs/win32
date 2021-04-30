@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the shared key will be a network key or a pass phrase.
+description: Indicates whether the shared key will be a network key or a pass phrase.
 ms.assetid: 2cc909bb-7de6-492b-81ca-ddde93c17f63
 title: keyType (sharedKey) Element
 ms.topic: reference
@@ -49,7 +49,7 @@ To view sample profiles that use the **keyType** element, see [Non-Broadcast Pro
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

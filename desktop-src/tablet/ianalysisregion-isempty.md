@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a value indicating whether the IAnalysisRegion represents an empty region.
+description: Retrieves a value indicating whether the IAnalysisRegion represents an empty region.
 ms.assetid: 3a536b01-e7ee-4103-88c4-d83377ea9fdb
 title: IAnalysisRegion::IsEmpty method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadPgnoVerifyFailureException constructor"
 title: EsentReadPgnoVerifyFailureException constructor 
 TOCTitle: 'EsentReadPgnoVerifyFailureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException.#ctor

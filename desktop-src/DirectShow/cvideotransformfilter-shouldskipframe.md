@@ -1,5 +1,5 @@
 ---
-Description: The ShouldSkipFrame method determines whether the filter should drop a specified sample.
+description: The ShouldSkipFrame method determines whether the filter should drop a specified sample.
 ms.assetid: 49f86f7d-28b1-443e-a238-692da96d60fb
 title: CVideoTransformFilter.ShouldSkipFrame method (Vtrans.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Once the filter drops a frame, it continues to drop frames until it reaches the 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Vtrans.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

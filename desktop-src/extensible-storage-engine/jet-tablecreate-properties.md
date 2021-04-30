@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_TABLECREATE properties"
 title: JET_TABLECREATE properties
 TOCTitle: JET_TABLECREATE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_TABLECREATE

@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_INFO\_1 structure specifies general printer information.
+description: The PRINTER\_INFO\_1 structure specifies general printer information.
 ms.assetid: 0b0e2d0e-2625-4cab-a8f9-536185479443
 title: PRINTER_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ Pointer to a null-terminated string that contains additional data describing the
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

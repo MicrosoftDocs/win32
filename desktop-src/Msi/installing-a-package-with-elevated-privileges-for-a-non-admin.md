@@ -1,5 +1,5 @@
 ---
-Description: An administrator can use the following methods to enable a non-administrator user to install an application with elevated system privileges.
+description: An administrator can use the following methods to enable a non-administrator user to install an application with elevated system privileges.
 ms.assetid: 61b9297e-f45e-4f50-9001-9bae580e1bf4
 title: Installing a Package with Elevated Privileges for a Non-Admin
 ms.topic: article

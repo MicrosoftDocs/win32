@@ -1,5 +1,5 @@
 ---
-Description: Occurs when an application-specific gesture is recognized.
+description: InkCollector.Gesture event - Occurs when an application-specific gesture is recognized.
 ms.assetid: 5830f7f8-2870-4194-ab3e-b63b71e97063
 title: InkCollector.Gesture event (Msinkaut.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ For a list of specific application gestures, see the [**InkApplicationGesture**]
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

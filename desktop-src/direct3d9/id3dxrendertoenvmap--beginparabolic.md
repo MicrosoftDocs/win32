@@ -1,5 +1,5 @@
 ---
-Description: Initiate the rendering of a parabolic environment map.
+description: Initiate the rendering of a parabolic environment map.
 ms.assetid: 80456084-f5f5-4dfe-805a-7eaaf7f7cb2a
 title: ID3DXRenderToEnvMap::BeginParabolic method (D3dx9core.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ See [**ID3DXRenderToEnvMap::Face**](id3dxrendertoenvmap--face.md) to draw the fa
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

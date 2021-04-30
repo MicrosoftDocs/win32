@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemLoadOrderGroups association WMI class relates a computer system and a load order group.
+description: The Win32\_SystemLoadOrderGroups association WMI class relates a computer system and a load order group.
 ms.assetid: fb637300-0f70-465a-a72b-f0ab3f246790
 ms.tgt_platform: multiple
 title: Win32_SystemLoadOrderGroups class
@@ -87,7 +87,7 @@ The **Win32\_SystemLoadOrderGroups** class is derived from [**CIM\_SystemCompone
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Your application manipulates resources in order to render a scene.
+description: Your application manipulates resources in order to render a scene.
 ms.assetid: 4f0eea7d-b1e4-4d53-a136-f40df7a0fbb1
 title: Manipulating Resources (Direct3D 9)
 ms.topic: article

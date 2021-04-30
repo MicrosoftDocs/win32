@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file WiLstScr.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script demonstrates the Windows Installer script viewer.
+description: The VBScript file WiLstScr.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample script demonstrates the Windows Installer script viewer.
 ms.assetid: 18989c16-e0c8-4d11-b915-730951b6845b
 title: View Installer Script
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnSnapshotException members"
 title: EsentSoftRecoveryOnSnapshotException members
 TOCTitle: EsentSoftRecoveryOnSnapshotException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnSnapshotException

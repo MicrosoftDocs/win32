@@ -1,5 +1,5 @@
 ---
-Description: Some objects support only one handle at a time.
+description: Some objects support only one handle at a time.
 ms.assetid: 3eafd0e0-3923-4489-8a0a-63007dd3183a
 title: Handle Limitations
 ms.topic: article

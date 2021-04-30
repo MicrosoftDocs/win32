@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the Media Session attempts to modify the topology when the format of a stream changes.
+description: Specifies whether the Media Session attempts to modify the topology when the format of a stream changes.
 ms.assetid: 8272ded7-9d27-4652-877b-40fc76426ffc
 title: MF_TOPOLOGY_DYNAMIC_CHANGE_NOT_ALLOWED attribute (Mfidl.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

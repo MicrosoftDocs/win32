@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.ToString method"
 title: JET_TABLECREATE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.ToString

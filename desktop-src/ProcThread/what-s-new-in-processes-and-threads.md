@@ -1,5 +1,5 @@
 ---
-Description: Windows 7 and Windows Server 2008 R2 include the following new programming elements for processes and threads.
+description: Windows 7 and Windows Server 2008 R2 include the following new programming elements for processes and threads.
 ms.assetid: 69cd8713-b40c-4fec-a256-9c2ee3d73da5
 title: What's New in Processes and Threads
 ms.topic: article

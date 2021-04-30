@@ -1,6 +1,6 @@
 ---
 title: Security Functions
-Description: The network management security functions get and set security descriptors for DFS domain-based and stand-alone roots.
+description: The network management security functions get and set security descriptors for DFS domain-based and stand-alone roots.
 ms.assetid: 90860842-0f4d-49ad-b835-50305328a050
 ms.topic: article
 ms.date: 05/31/2018

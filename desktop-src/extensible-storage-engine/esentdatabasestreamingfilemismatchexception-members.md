@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseStreamingFileMismatchException members"
 title: EsentDatabaseStreamingFileMismatchException members
 TOCTitle: EsentDatabaseStreamingFileMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseStreamingFileMismatchException

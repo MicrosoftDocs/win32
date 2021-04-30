@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOFailException properties"
 title: EsentFileIOFailException properties
 TOCTitle: EsentFileIOFailException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileIOFailException

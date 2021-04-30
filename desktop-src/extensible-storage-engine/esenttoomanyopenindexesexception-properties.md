@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenIndexesException properties"
 title: EsentTooManyOpenIndexesException properties
 TOCTitle: EsentTooManyOpenIndexesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenIndexesException

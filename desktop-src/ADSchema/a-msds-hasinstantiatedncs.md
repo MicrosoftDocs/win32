@@ -22,7 +22,7 @@ DS replication state information, analogous to (and a superset of) the existing 
 
 
 
-|                   |                                                                                                                                                                                                             |
+| Entry | Value |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CN                | ms-DS-Has-Instantiated-NCs                                                                                                                                                                                  |
 | Ldap-Display-Name | msDS-HasInstantiatedNCs                                                                                                                                                                                     |
@@ -48,7 +48,7 @@ DS replication state information, analogous to (and a superset of) the existing 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2002                                     |
 | MAPI-Id                | \-                                       |
@@ -69,7 +69,7 @@ DS replication state information, analogous to (and a superset of) the existing 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2002                                     |
 | MAPI-Id                | \-                                       |
@@ -90,7 +90,7 @@ DS replication state information, analogous to (and a superset of) the existing 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2002                                     |
 | MAPI-Id                | \-                                       |
@@ -111,7 +111,7 @@ DS replication state information, analogous to (and a superset of) the existing 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2002                                     |
 | MAPI-Id                | \-                                       |
@@ -132,7 +132,7 @@ DS replication state information, analogous to (and a superset of) the existing 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2002                                     |
 | MAPI-Id                | \-                                       |
@@ -153,7 +153,7 @@ DS replication state information, analogous to (and a superset of) the existing 
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2002                                     |
 | MAPI-Id                | \-                                       |

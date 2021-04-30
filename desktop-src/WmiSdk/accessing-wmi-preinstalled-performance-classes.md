@@ -1,5 +1,5 @@
 ---
-Description: The WMI repository contains preinstalled performance classes for all the performance library objects.
+description: The WMI repository contains preinstalled performance classes for all the performance library objects.
 ms.assetid: 2158385f-d0dc-4102-84db-ce02d2b0ee53
 ms.tgt_platform: multiple
 title: Accessing WMI Preinstalled Performance Classes

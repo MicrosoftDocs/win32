@@ -1,5 +1,5 @@
 ---
-Description: Access the mesh's adjacency buffer.
+description: Access the mesh's adjacency buffer.
 ms.assetid: 42b13f14-4edf-4b56-9198-60a548855542
 title: ID3DX10Mesh::GetAdjacencyBuffer method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

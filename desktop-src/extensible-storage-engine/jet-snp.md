@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNP"
 title: JET_SNP
 TOCTitle: JET_SNP
 ms:assetid: 7f3d1cc5-7b27-454d-8dd1-584ab4b60ab0

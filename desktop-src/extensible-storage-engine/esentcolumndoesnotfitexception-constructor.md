@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDoesNotFitException constructor"
 title: EsentColumnDoesNotFitException constructor 
 TOCTitle: 'EsentColumnDoesNotFitException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnDoesNotFitException.#ctor

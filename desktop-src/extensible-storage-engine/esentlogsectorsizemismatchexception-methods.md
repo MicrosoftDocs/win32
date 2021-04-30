@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchException methods"
 title: EsentLogSectorSizeMismatchException methods
 TOCTitle: EsentLogSectorSizeMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationFailException properties"
 title: EsentUnicodeTranslationFailException properties
 TOCTitle: EsentUnicodeTranslationFailException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException

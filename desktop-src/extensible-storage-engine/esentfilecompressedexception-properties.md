@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCompressedException properties"
 title: EsentFileCompressedException properties
 TOCTitle: EsentFileCompressedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileCompressedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileInvalidPathException members"
 title: EsentSLVFileInvalidPathException members
 TOCTitle: EsentSLVFileInvalidPathException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVFileInvalidPathException

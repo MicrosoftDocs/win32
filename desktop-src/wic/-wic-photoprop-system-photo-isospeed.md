@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.ISOSpeed property.
+description: The photo metadata policy for the System.Photo.ISOSpeed property.
 ms.assetid: 22b5552c-41b1-4090-a827-b920dcbba5e9
 title: System.Photo.ISOSpeed Photo Metadata Policy
 ms.topic: article

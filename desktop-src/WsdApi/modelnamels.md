@@ -1,5 +1,5 @@
 ---
-Description: Specifies a localized version of the device name.
+description: Specifies a localized version of the device name.
 ms.assetid: 67ebbca0-bdb2-4a6e-98d8-3d8d1029884f
 title: modelNameLS element
 ms.topic: reference
@@ -47,7 +47,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset.
+description: Reset method of the Msvm_InternalEthernetPort class - Requests a reset.
 ms.assetid: 28e4d174-6cea-4c9c-be29-78d63493c9a3
 title: Reset method of the Msvm_InternalEthernetPort class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

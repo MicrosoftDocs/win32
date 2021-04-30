@@ -1,5 +1,5 @@
 ---
-Description: Configuring Codec DMOs
+description: Configuring Codec DMOs
 ms.assetid: 431b33f1-ceb0-4f1b-a9f2-72e88b63f973
 title: Configuring Codec DMOs
 ms.topic: article

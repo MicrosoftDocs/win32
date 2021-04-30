@@ -1,5 +1,5 @@
 ---
-Description: Associates a virtual system a snapshot of the virtual system.
+description: Associates a virtual system a snapshot of the virtual system.
 ms.assetid: f85f6914-dbb8-42c9-a732-11d48613c15c
 title: CIM_SnapshotOfVirtualSystem class
 ms.topic: reference
@@ -80,7 +80,7 @@ A reference to the settings data object that represents the snapshot of the virt
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

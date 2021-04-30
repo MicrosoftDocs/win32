@@ -1,5 +1,5 @@
 ---
-Description: The postal code.
+description: The postal code.
 ms.assetid: 91a137c0-70d8-4b3d-9872-035d633d1f7c
 title: LocationDisp.DispCivicAddressReport.PostalCode property
 ms.topic: reference
@@ -43,7 +43,7 @@ For an example of how to use this property, see [A Simple Civic Address Report E
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

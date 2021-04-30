@@ -1,5 +1,5 @@
 ---
-Description: Represents information about the debug symbol server.
+description: Represents information about the debug symbol server.
 MS-HAID: vspixengine.SymbolServerInfo
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Ambient light is surrounding light that radiates from all directions. For information about how Direct3D uses ambient light, see Mathematics of Lighting (Direct3D 9).
+description: Ambient light is surrounding light that radiates from all directions. For information about how Direct3D uses ambient light, see Mathematics of Lighting (Direct3D 9).
 ms.assetid: c5aa493e-09b8-433c-a21c-e39af795b3c9
 title: Ambient Lighting State (Direct3D 9)
 ms.topic: article

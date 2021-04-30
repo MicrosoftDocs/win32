@@ -1,5 +1,5 @@
 ---
-Description: Specifies the start time of the presentation.
+description: Specifies the start time of the presentation.
 ms.assetid: a2a64cac-0dc1-41b0-b59c-a477c7304ba1
 title: MF_TOPONODE_MEDIASTART attribute (Mfidl.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

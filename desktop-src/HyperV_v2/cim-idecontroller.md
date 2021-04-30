@@ -1,5 +1,5 @@
 ---
-Description: Describes the capabilities and management of an IDE controller.
+description: Describes the capabilities and management of an IDE controller.
 ms.assetid: c0290a91-4f2c-4759-af3b-8ba89dc723a9
 title: CIM_IDEController class
 ms.topic: reference
@@ -36,7 +36,7 @@ The **CIM\_IDEController** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

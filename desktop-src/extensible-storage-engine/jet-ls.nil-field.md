@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS.Nil field"
 title: JET_LS.Nil field
 TOCTitle: Nil field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.JET_LS.Nil

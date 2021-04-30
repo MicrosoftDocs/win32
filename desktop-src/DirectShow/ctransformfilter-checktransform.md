@@ -1,5 +1,5 @@
 ---
-Description: The CheckTransform method checks whether an input media type is compatible with an output media type.
+description: The CheckTransform method checks whether an input media type is compatible with an output media type.
 ms.assetid: 349145e5-c12d-41df-ae37-7846f8aaa423
 title: CTransformFilter.CheckTransform method (Transfrm.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ The derived class must implement this method. Return S\_OK if the filter can acc
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

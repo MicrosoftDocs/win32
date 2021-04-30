@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.Inequality operator"
 title: JET_RECSIZE.Inequality operator  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.op_Inequality(Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE,Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE)

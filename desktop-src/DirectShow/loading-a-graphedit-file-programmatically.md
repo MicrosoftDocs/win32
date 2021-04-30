@@ -1,5 +1,5 @@
 ---
-Description: Loading a GraphEdit File Programmatically
+description: Loading a GraphEdit File Programmatically
 ms.assetid: 0e1cff4e-43f8-4d0a-b7a7-b6d0278e9e4a
 title: Loading a GraphEdit File Programmatically
 ms.topic: article

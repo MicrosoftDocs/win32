@@ -1,5 +1,5 @@
 ---
-Description: The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
+description: IDelaydC::GetControlState method - The GetControlState method retrieves the state of the capture, which indicates if the capture is running or paused.
 ms.assetid: 21b7faaa-591f-4e15-b4e9-453ea690ab4a
 title: IDelaydC::GetControlState method (Netmon.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The methods used to start, pause, and, stop the capture are listed in the See Al
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

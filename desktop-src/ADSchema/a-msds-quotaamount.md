@@ -22,7 +22,7 @@ The assigned quota in terms of number of objects owned in the database.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Quota-Amount                   |
 | Ldap-Display-Name | msDS-QuotaAmount                     |
@@ -48,7 +48,7 @@ The assigned quota in terms of number of objects owned in the database.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -69,7 +69,7 @@ The assigned quota in terms of number of objects owned in the database.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -90,7 +90,7 @@ The assigned quota in terms of number of objects owned in the database.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -111,7 +111,7 @@ The assigned quota in terms of number of objects owned in the database.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -132,7 +132,7 @@ The assigned quota in terms of number of objects owned in the database.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -153,7 +153,7 @@ The assigned quota in terms of number of objects owned in the database.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

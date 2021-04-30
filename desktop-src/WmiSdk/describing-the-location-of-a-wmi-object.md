@@ -1,5 +1,5 @@
 ---
-Description: Conceptually similar to a Uniform Resource Locator (URL), a WMI object path is a string that uniquely identifies the namespace on a server, a class within a namespace, or instances of a class.
+description: Conceptually similar to a Uniform Resource Locator (URL), a WMI object path is a string that uniquely identifies the namespace on a server, a class within a namespace, or instances of a class.
 ms.assetid: 7a390541-609d-4b97-b91c-1a41d21ec17d
 ms.tgt_platform: multiple
 title: Describing the Location of a WMI Object

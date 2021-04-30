@@ -1,5 +1,5 @@
 ---
-Description: Microsoft introduced the data protection application programming interface (DPAPI) in Windows 2000.
+description: Microsoft introduced the data protection application programming interface (DPAPI) in Windows 2000.
 ms.assetid: 048DEA72-39E1-4129-A554-F7D08442C2D9
 title: CNG DPAPI
 ms.topic: article

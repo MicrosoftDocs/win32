@@ -1,5 +1,5 @@
 ---
-Description: Represents an object identifier (OID) that is used by several CAPICOM properties.
+description: Represents an object identifier (OID) that is used by several CAPICOM properties.
 ms.assetid: 'd9dc2a9a-920b-41e1-91fb-da1628df577d'
 title: OID object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # OID object
 
-\[The **OID** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **OID** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **OID** object represents an [*object identifier*](../secgloss/o-gly.md) (OID) that is used by several CAPICOM properties.
 
@@ -65,7 +65,7 @@ The following CAPICOM object properties return an **OID** object:
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

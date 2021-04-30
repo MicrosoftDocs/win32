@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.lGeneration property"
 title: JET_LGPOS.lGeneration property 
 TOCTitle: 'lGeneration property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.lGeneration

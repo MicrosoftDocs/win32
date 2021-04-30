@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDisableVersioningException class"
 title: EsentCannotDisableVersioningException class
 TOCTitle: EsentCannotDisableVersioningException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException

@@ -1,6 +1,6 @@
 ---
 title: Media Quality
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Media Quality
 ms.assetid: ed1e0d2d-ede6-4f1a-9b7e-ce4aab06d03d
 keywords:
 - Media Quality windows Media Format

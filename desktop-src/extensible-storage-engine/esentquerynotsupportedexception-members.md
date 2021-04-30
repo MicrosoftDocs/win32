@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQueryNotSupportedException members"
 title: EsentQueryNotSupportedException members
 TOCTitle: EsentQueryNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentQueryNotSupportedException

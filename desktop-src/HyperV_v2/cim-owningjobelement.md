@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a job and the managed element that created the job.
+description: Represents an association between a job and the managed element that created the job.
 ms.assetid: 08c33a81-0a3f-4545-9812-96a854a7509e
 title: CIM_OwningJobElement class
 ms.topic: reference
@@ -80,7 +80,7 @@ A reference to the managed element that created the job.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

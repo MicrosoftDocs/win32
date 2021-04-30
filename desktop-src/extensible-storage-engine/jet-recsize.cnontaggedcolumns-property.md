@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE.cNonTaggedColumns property"
 title: JET_RECSIZE.cNonTaggedColumns property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cNonTaggedColumns property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE.cNonTaggedColumns

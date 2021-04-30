@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.IsSnapshot property"
 title: JET_BKLOGTIME.IsSnapshot property 
 TOCTitle: 'IsSnapshot property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.IsSnapshot

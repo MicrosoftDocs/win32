@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNTSystemCallFailedException properties"
 title: EsentNTSystemCallFailedException properties
 TOCTitle: EsentNTSystemCallFailedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException

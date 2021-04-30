@@ -1,5 +1,5 @@
 ---
-Description: Returns a RecordList object that lists installed components.
+description: Returns a RecordList object that lists installed components.
 ms.assetid: a91656de-2ebc-45b5-86f8-b13f35c6a762
 title: Installer.ComponentsEx property
 ms.topic: reference
@@ -38,7 +38,7 @@ propVal = Installer.ComponentsEx
 
 
 
-|                    |                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                      |

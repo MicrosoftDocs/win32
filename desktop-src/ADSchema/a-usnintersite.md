@@ -22,7 +22,7 @@ The update sequence number (USN) for inter-site replication.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | USN-Intersite                        |
 | Ldap-Display-Name | USNIntersite                         |
@@ -49,7 +49,7 @@ The update sequence number (USN) for inter-site replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x817A                          |
@@ -70,7 +70,7 @@ The update sequence number (USN) for inter-site replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x817A                          |
@@ -91,7 +91,7 @@ The update sequence number (USN) for inter-site replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x817A                          |
@@ -112,7 +112,7 @@ The update sequence number (USN) for inter-site replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x817A                          |
@@ -133,7 +133,7 @@ The update sequence number (USN) for inter-site replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x817A                          |
@@ -154,7 +154,7 @@ The update sequence number (USN) for inter-site replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x817A                          |
@@ -175,7 +175,7 @@ The update sequence number (USN) for inter-site replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x817A                          |

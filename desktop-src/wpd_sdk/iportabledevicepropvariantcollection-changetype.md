@@ -1,5 +1,5 @@
 ---
-Description: The ChangeType method converts all items in the collection to the specified VARTYPE.
+description: The ChangeType method converts all items in the collection to the specified VARTYPE.
 ms.assetid: b01b6205-c900-4b2e-810f-426e1e71a008
 title: IPortableDevicePropVariantCollection::ChangeType method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If this method fails, the collection may be left in an intermediate state, with 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

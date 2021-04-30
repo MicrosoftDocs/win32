@@ -1,5 +1,5 @@
 ---
-Description: Provides access to context object properties that relate to transactions.
+description: Provides access to context object properties that relate to transactions.
 ms.assetid: 3b309153-be7d-444e-be23-777887f1ee95
 title: IContextTransactionInfo interface
 ms.topic: reference
@@ -52,7 +52,7 @@ The **IContextTransactionInfo** interface has these methods.
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |

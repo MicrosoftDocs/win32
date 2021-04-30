@@ -1,5 +1,5 @@
 ---
-Description: Dynamic Format Changes
+description: Dynamic Format Changes
 ms.assetid: ff60de5a-3edc-405d-aa02-8704b96d5e87
 title: Dynamic Format Changes
 ms.topic: article

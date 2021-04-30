@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationBufferTooSmallException properties"
 title: EsentUnicodeTranslationBufferTooSmallException properties
 TOCTitle: EsentUnicodeTranslationBufferTooSmallException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException

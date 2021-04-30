@@ -1,5 +1,5 @@
 ---
-Description: Contains data for memory pressure reporting.
+description: Contains data for memory pressure reporting.
 ms.assetid: bdf65d35-281f-4795-a2c1-0d4e91bfa7bc
 title: D3DMEMORYPRESSURE structure (D3d9types.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - d3d9types.h
 ---
 
-# D3DMEMORYPRESSURE structure
+# D3DMEMORYPRESSURE structure (D3d9types.h)
 
 Contains data for memory pressure reporting.
 
@@ -73,7 +73,7 @@ The overall efficiency of the memory allocations that were placed in nonoptimal 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

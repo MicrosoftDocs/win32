@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for UDP/IP events. The following syntax is simplified from MOF code.
+description: UdpIp_V1_TypeGroup1 class - This class is the event type class for UDP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: c0ef6679-3852-4992-9fc2-114620eae14e
 title: UdpIp_V1_TypeGroup1 class
 ms.topic: reference
@@ -153,7 +153,7 @@ Source port number.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

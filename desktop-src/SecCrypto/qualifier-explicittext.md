@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the content of the user notice.
+description: Retrieves the content of the user notice.
 ms.assetid: dcf73357-253d-4160-be4e-f826296f5eaa
 title: Qualifier.ExplicitText property
 ms.topic: reference
@@ -38,7 +38,7 @@ The content of the user notice.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

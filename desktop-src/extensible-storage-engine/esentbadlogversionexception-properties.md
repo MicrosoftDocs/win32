@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogVersionException properties"
 title: EsentBadLogVersionException properties
 TOCTitle: EsentBadLogVersionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException

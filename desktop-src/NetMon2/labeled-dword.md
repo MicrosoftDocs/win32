@@ -1,5 +1,5 @@
 ---
-Description: The LABELED\_DWORD structure defines a label that is displayed when a specific DWORD property value is detected.
+description: The LABELED\_DWORD structure defines a label that is displayed when a specific DWORD property value is detected.
 ms.assetid: 1aed3226-6d69-41b0-860b-4ffb5b905f1a
 title: LABELED_DWORD structure (Netmon.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The **lpLabeledDwordTable** member of the [SET](set.md) structure points to an a
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

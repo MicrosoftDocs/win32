@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileUnknownException class"
 title: EsentSLVFileUnknownException class
 TOCTitle: EsentSLVFileUnknownException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.EventLoggingLevel property"
 title: SystemParameters.EventLoggingLevel property 
 TOCTitle: 'EventLoggingLevel property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.EventLoggingLevel

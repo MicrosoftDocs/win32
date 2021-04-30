@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.EnableDBScanSerialization property"
 title: InstanceParameters.EnableDBScanSerialization property 
 TOCTitle: 'EnableDBScanSerialization property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EnableDBScanSerialization

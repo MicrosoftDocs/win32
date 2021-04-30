@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.tableid property"
 title: JET_OPENTEMPORARYTABLE.tableid property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'tableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.tableid

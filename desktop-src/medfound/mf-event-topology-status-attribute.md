@@ -1,5 +1,5 @@
 ---
-Description: Specifies the status of a topology during playback.
+description: Specifies the status of a topology during playback.
 ms.assetid: f7c93bad-1a64-45b0-ab5c-6edea4a1c0d1
 title: MF_EVENT_TOPOLOGY_STATUS attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

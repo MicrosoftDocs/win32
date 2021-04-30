@@ -1,5 +1,5 @@
 ---
-Description: The GetEffect method retrieves the effect at the specified priority level.
+description: The GetEffect method retrieves the effect at the specified priority level.
 ms.assetid: 8606c457-1c4d-4a20-b674-aaf82abeb451
 title: IAMTimelineEffectable::GetEffect method (Qedit.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ If the method returns S\_OK, the **IAMTimelineObj** interface that it returns ha
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

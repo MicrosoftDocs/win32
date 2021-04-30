@@ -1,5 +1,5 @@
 ---
-Description: Indicates the operating mode of the network.
+description: Indicates the operating mode of the network.
 ms.assetid: b71de38a-6373-4d96-90dd-a3ad4a7de074
 title: connectionType (WLANProfile) Element
 ms.topic: reference
@@ -47,7 +47,7 @@ To view sample profiles that use the **connectionType** element, see [Wireless P
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

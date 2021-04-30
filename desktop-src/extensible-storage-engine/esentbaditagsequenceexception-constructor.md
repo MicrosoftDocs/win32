@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadItagSequenceException constructor"
 title: EsentBadItagSequenceException constructor 
 TOCTitle: 'EsentBadItagSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadItagSequenceException.#ctor

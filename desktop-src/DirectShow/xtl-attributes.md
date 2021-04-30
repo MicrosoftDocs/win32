@@ -1,5 +1,5 @@
 ---
-Description: XTL Attributes
+description: XTL Attributes
 ms.assetid: 4113956f-164e-4ff2-ba22-3a5651d6adec
 title: XTL Attributes
 ms.topic: article

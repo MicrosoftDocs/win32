@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogBufferTooSmallException methods"
 title: EsentLogBufferTooSmallException methods
 TOCTitle: EsentLogBufferTooSmallException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogBufferTooSmallException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS.Value property"
 title: JET_LS.Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LS.Value

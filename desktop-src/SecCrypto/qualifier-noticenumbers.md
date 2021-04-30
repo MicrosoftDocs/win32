@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the collection of user notice numbers.
+description: Retrieves the collection of user notice numbers.
 ms.assetid: 5db38a53-e71b-4e80-9374-69b0c044fbc5
 title: Qualifier.NoticeNumbers property
 ms.topic: reference
@@ -38,7 +38,7 @@ The collection of user notice numbers.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Grbits.WaitAllLevel0Commit field"
 title: Server2003Grbits.WaitAllLevel0Commit field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: WaitAllLevel0Commit field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits.WaitAllLevel0Commit

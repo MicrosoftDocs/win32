@@ -22,7 +22,7 @@ The object category to use for the object if one is not specified.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Default-Object-Category                 |
 | Ldap-Display-Name | defaultObjectCategory                   |
@@ -49,7 +49,7 @@ The object category to use for the object if one is not specified.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -70,7 +70,7 @@ The object category to use for the object if one is not specified.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -91,7 +91,7 @@ The object category to use for the object if one is not specified.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -112,7 +112,7 @@ The object category to use for the object if one is not specified.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -133,7 +133,7 @@ The object category to use for the object if one is not specified.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -154,7 +154,7 @@ The object category to use for the object if one is not specified.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -175,7 +175,7 @@ The object category to use for the object if one is not specified.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.lgposMark property"
 title: JET_BKINFO.lgposMark property 
 TOCTitle: 'lgposMark property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.lgposMark

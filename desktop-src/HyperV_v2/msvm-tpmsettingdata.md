@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of the TPM device.
+description: Represents the configured state of the TPM device.
 ms.assetid: 948ccb47-3626-48f1-b18f-ef1d05978b21
 title: Msvm_TPMSettingData class
 ms.topic: reference
@@ -154,7 +154,7 @@ Qualifiers: [**Required**](/windows/desktop/WmiSdk/standard-qualifiers)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

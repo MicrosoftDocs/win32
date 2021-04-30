@@ -1,5 +1,5 @@
 ---
-Description: Register the scale, rotate, and translate (SRT) key frame data for an animation.
+description: Register the scale, rotate, and translate (SRT) key frame data for an animation.
 ms.assetid: 10e5b391-1529-4952-abbb-ef560a35d667
 title: ID3DXKeyframedAnimationSet::RegisterAnimationSRTKeys method (D3dx9anim.h)
 ms.topic: reference
@@ -124,7 +124,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

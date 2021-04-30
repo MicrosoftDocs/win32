@@ -1,5 +1,5 @@
 ---
-Description: The Clone method makes a copy of the enumerator with the same enumeration state. This method implements the IEnumPins::Clone method.
+description: The Clone method makes a copy of the enumerator with the same enumeration state. This method implements the IEnumPins::Clone method.
 ms.assetid: 6e44c970-b90a-4bdb-8c60-dd8f31516249
 title: CEnumPins.Clone method (Amfilter.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

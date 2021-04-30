@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIOException properties"
 title: EsentIOException properties
 TOCTitle: EsentIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIOException

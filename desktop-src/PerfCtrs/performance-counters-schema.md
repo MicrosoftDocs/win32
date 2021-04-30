@@ -1,5 +1,5 @@
 ---
-Description: Use an XML manifest to define the performance counters that your provider provides.
+description: Use an XML manifest to define the performance counters that your provider provides.
 ms.assetid: fa13d13a-f2e2-4732-8bf7-cb0a0f1d4ed7
 title: Performance Counters Schema
 ms.topic: article

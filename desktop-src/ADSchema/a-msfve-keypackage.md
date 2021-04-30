@@ -22,7 +22,7 @@ Contains a volume's BitLocker encryption key secured by the corresponding recove
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-FVE-KeyPackage                                     |
 | Ldap-Display-Name | msFVE-KeyPackage                                      |
@@ -45,7 +45,7 @@ Contains a volume's BitLocker encryption key secured by the corresponding recove
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -66,7 +66,7 @@ Contains a volume's BitLocker encryption key secured by the corresponding recove
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -87,7 +87,7 @@ Contains a volume's BitLocker encryption key secured by the corresponding recove
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |

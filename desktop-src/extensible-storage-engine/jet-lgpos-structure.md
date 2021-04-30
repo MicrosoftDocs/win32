@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS Structure"
 title: JET_LGPOS Structure
 TOCTitle: JET_LGPOS Structure
 ms:assetid: dbce1a60-b32b-40c1-a215-e93bb77cd8c1

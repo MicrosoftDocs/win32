@@ -1,5 +1,5 @@
 ---
-Description: The KSMULTIPLE\_ITEM structure describes the size and count of variable-length properties on kernel-mode pins.
+description: The KSMULTIPLE\_ITEM structure describes the size and count of variable-length properties on kernel-mode pins.
 ms.assetid: aedbf7bc-393d-4ab5-afcd-d8822b925f07
 title: KSMULTIPLE_ITEM structure (Ks.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Specifies the total number of items that follow this structure.
 
 
 
-|                   |                                                                                 |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ks.h</dt> </dl> |
 

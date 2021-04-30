@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment members"
 title: IndexSegment members
 TOCTitle: IndexSegment members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IndexSegment

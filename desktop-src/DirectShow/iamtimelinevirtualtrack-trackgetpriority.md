@@ -1,5 +1,5 @@
 ---
-Description: The TrackGetPriority method retrieves the object's priority level.
+description: The TrackGetPriority method retrieves the object's priority level.
 ms.assetid: f9a138e8-e9ad-4703-bdcc-c64aea4fbad0
 title: IAMTimelineVirtualTrack::TrackGetPriority method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

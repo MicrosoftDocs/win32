@@ -30,7 +30,7 @@ This attribute is a read/write **Number** (**long**) representing the distance i
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

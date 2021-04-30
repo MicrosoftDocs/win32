@@ -1,5 +1,5 @@
 ---
-Description: The optional <imageLink> element specifies a thumbnail for this search connector. This element has one mandatory child element and no attributes.
+description: The optional <imageLink> element specifies a thumbnail for this search connector. This element has one mandatory child element and no attributes.
 ms.assetid: 71078d83-72f4-41f9-b80c-7ba0139206fb
 title: imageLink Element (Search Connector Schema)
 ms.topic: article

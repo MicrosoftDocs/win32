@@ -1,5 +1,5 @@
 ---
-Description: The LINEDIALTONEMODE\_ bit-flag constants describe different types of dial tones. A special dial tone typically carries a special meaning (as with message waiting).
+description: The LINEDIALTONEMODE\_ bit-flag constants describe different types of dial tones. A special dial tone typically carries a special meaning (as with message waiting).
 ms.assetid: 0b040482-35cf-42e8-84bc-33002635b591
 title: LINEDIALTONEMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ The **LINEDIALTONEMODE\_constants** are used within the [**LINECALLSTATUS**](/wi
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

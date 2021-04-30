@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update members"
 title: Update members
 TOCTitle: Update members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Update

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemNetworkConnections association WMI class relates a network connection and the computer system on which it resides.
+description: The Win32\_SystemNetworkConnections association WMI class relates a network connection and the computer system on which it resides.
 ms.assetid: 7c47f653-74a9-4729-a72c-94930181f8c9
 ms.tgt_platform: multiple
 title: Win32_SystemNetworkConnections class
@@ -87,7 +87,7 @@ The **Win32\_SystemNetworkConnections** class is derived from [**CIM\_SystemComp
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCompressedException methods"
 title: EsentFileCompressedException methods
 TOCTitle: EsentFileCompressedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileCompressedException

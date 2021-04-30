@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupException class"
 title: EsentNoBackupException class
 TOCTitle: EsentNoBackupException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentNoBackupException

@@ -1,5 +1,5 @@
 ---
-Description: The GetDisplayDepth method retrieves the bit depth of the current display mode.
+description: The GetDisplayDepth method retrieves the bit depth of the current display mode.
 ms.assetid: 6d4ab847-dead-4d8c-8ce0-a60411c5ae73
 title: CImageDisplay.GetDisplayDepth method (Winutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the number of bits per pixel.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

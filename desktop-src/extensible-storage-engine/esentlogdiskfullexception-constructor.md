@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDiskFullException constructor"
 title: EsentLogDiskFullException constructor 
 TOCTitle: 'EsentLogDiskFullException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException.#ctor

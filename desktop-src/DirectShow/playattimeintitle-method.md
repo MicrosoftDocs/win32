@@ -1,5 +1,5 @@
 ---
-Description: The PlayAtTimeInTitle method starts playback at the specified time within the specified title.
+description: The PlayAtTimeInTitle method starts playback at the specified time within the specified title.
 ms.assetid: 82726885-8393-409b-b8a1-29a8e9e9ac65
 title: PlayAtTimeInTitle Method
 ms.topic: reference

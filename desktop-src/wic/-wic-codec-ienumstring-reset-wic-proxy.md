@@ -1,5 +1,5 @@
 ---
-Description: Windows Imaging Component (WIC) proxy function for IEnumString::Reset.
+description: Windows Imaging Component (WIC) proxy function for IEnumString::Reset.
 ms.assetid: 084a3de0-c6de-4ce2-ba78-5d1bacb56cb0
 title: IEnumString_Reset_WIC_Proxy function
 ms.topic: reference
@@ -80,7 +80,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

@@ -1,5 +1,5 @@
 ---
-Description: Returns an OIDs collection that represents the application policies used to create the Chain object.
+description: Returns an OIDs collection that represents the application policies used to create the Chain object.
 ms.assetid: dca0acbf-e369-4216-a4f6-44ed965011d0
 title: CertificateStatus.ApplicationPolicies method
 ms.topic: reference
@@ -46,7 +46,7 @@ Add application policy OIDs to the collection to specify the application policie
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

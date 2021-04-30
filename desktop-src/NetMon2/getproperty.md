@@ -1,5 +1,5 @@
 ---
-Description: The GetProperty function returns a handle to a given property.
+description: The GetProperty function returns a handle to a given property.
 ms.assetid: e77ca20a-55df-4d31-aa6d-2c00695f1d6e
 title: GetProperty function (Netmon.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ The **GetProperty** function can be used to obtain the property handle needed to
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenDatabasesException members"
 title: EsentTooManyOpenDatabasesException members
 TOCTitle: EsentTooManyOpenDatabasesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyOpenDatabasesException

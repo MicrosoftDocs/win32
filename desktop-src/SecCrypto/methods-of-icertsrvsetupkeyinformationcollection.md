@@ -1,5 +1,5 @@
 ---
-Description: Methods defined by the ICertSrvSetupKeyInformationCollection interface.
+description: Methods defined by the ICertSrvSetupKeyInformationCollection interface.
 ms.assetid: 5976034a-6ea3-49d7-8155-dbb199031df4
 title: Methods of ICertSrvSetupKeyInformationCollection
 ms.topic: article

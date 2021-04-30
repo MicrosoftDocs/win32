@@ -1,5 +1,5 @@
 ---
-Description: Sent to the CPlApplet function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
+description: Sent to the CPlApplet function of a Control Panel application to prompt it to perform global initialization, especially memory allocation.
 ms.assetid: 0e7e9b14-9f44-496e-a518-5d3ae92868c5
 title: CPL_INIT message (Cpl.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This message is sent immediately after the DLL containing the application is loa
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

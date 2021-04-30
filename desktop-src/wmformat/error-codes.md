@@ -26,7 +26,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Codes
+# Error Codes (Windows Media Format 11 SDK)
 
 Microsoft has defined the following error and success codes for use in the Windows Media Format SDK. These codes are a subset of a larger collection that can be viewed in the header files asferr.h (ASF codes) and nserror.h (other codes) that are included in the Windows Media Format SDK. Additional common error codes can be viewed in Winerror.h.
 

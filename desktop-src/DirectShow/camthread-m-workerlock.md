@@ -1,5 +1,5 @@
 ---
-Description: Critical section that locks data shared among threads.
+description: Critical section that locks data shared among threads.
 ms.assetid: 87966d7d-6677-462f-93bc-fedda7f0bdcf
 title: CAMThread::m_WorkerLock member (Wxutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CCritSec m_WorkerLock;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

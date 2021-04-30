@@ -1,5 +1,5 @@
 ---
-Description: Receiving a Response
+description: Receiving a Response
 ms.assetid: 48919608-a102-43e2-9ca0-80b17344b5eb
 title: Receiving a Response
 ms.topic: article

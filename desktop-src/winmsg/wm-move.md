@@ -1,5 +1,5 @@
 ---
-Description: Sent after a window has been moved.
+description: Sent after a window has been moved.
 ms.assetid: 552ddc26-fe63-449b-8c82-bb927a2c1c41
 title: WM_MOVE message (Winuser.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

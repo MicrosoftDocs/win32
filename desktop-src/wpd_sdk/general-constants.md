@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices defines the following constants.
+description: Windows Portable Devices defines the following constants.
 ms.assetid: ad7ad1d1-53da-41b7-a847-852ecfeaff20
 title: General Constants (PortableDevice.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ Windows Portable Devices defines the following constants.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

@@ -106,9 +106,9 @@ This function determines which mip slice, array slice, and plane slice correspon
 This function is declared as follows, with C++ templatized parameters for types **T**, **U**, and **V**:
 
 
-```
+```c++
 template <typename T, typename U, typename V>
-inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT ArraySize, _Out_ T&amp; MipSlice, _Out_ U&amp; ArraySlice, _Out_ V&amp; PlaneSlice )
+inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT ArraySize, _Out_ T& MipSlice, _Out_ U& ArraySlice, _Out_ V& PlaneSlice )
 {
     MipSlice = static_cast<T>(Subresource % MipLevels);
     ArraySlice = static_cast<U>((Subresource / MipLevels) % ArraySize);
@@ -122,7 +122,7 @@ inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT Ar
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |
@@ -132,13 +132,6 @@ inline void D3D12DecomposeSubresource( UINT Subresource, UINT MipLevels, UINT Ar
 
 ## See also
 
-<dl> <dt>
-
 [Helper Functions for D3D12](helper-functions-for-d3d12.md)
-</dt> <dt>
 
 [Subresources](subresources.md)
-</dt> </dl>
-
- 
-

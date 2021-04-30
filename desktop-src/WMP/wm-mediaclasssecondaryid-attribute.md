@@ -55,7 +55,7 @@ To determine whether you can change the value of this attribute, use the [Media.
 
 
 
-|                    |                                                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | The photo item is supported only in Windows Media Player 10 or later The radio item is supported only in Windows Media Player 9 Series All other items are supported in Windows Media Player 9 Series and later<br/> |
 

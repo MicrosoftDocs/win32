@@ -1,5 +1,5 @@
 ---
-Description: The RemoveFolders action removes any folders linked to components set to be removed or run from source. These folders are removed only if they are empty. If a folder is removed, it is unregistered with the appropriate component identifier.
+description: The RemoveFolders action removes any folders linked to components set to be removed or run from source. These folders are removed only if they are empty. If a folder is removed, it is unregistered with the appropriate component identifier.
 ms.assetid: 0f68458e-ae9a-4ca5-bc60-06d4de91e2e9
 title: RemoveFolders Action
 ms.topic: article

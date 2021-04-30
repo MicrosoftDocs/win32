@@ -1,5 +1,5 @@
 ---
-Description: The get\_KeyType method retrieves the type of key.
+description: The get\_KeyType method retrieves the type of key.
 ms.assetid: 902cbd46-529a-45d8-afa2-a8dd9439769a
 title: IDxtKey::get_KeyType method (Qedit.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

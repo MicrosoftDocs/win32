@@ -1,5 +1,5 @@
 ---
-Description: Navigates to the client-side wizard page that follows the page that hosts the server-side HTML pages, or finishes the wizard if there are no further client-side pages.
+description: Navigates to the client-side wizard page that follows the page that hosts the server-side HTML pages, or finishes the wizard if there are no further client-side pages.
 title: WebWizardHost.FinalNext method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ When the wizard is displaying the last server-side HTML page and the user clicks
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: Initials of the contact.
+description: Initials of the contact.
 ms.assetid: 84f85431-27cb-485a-8ced-53b708451714
 title: System.Contact.Initials
 ms.topic: article

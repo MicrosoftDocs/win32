@@ -1,5 +1,5 @@
 ---
-Description: A number of functions use the brush currently selected into a device context to perform bitmap operations.
+description: A number of functions use the brush currently selected into a device context to perform bitmap operations.
 ms.assetid: 98fb2fd5-9cf4-4016-9e30-ec724e77cebc
 title: Bitmaps as Brushes
 ms.topic: article

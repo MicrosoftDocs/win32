@@ -1,5 +1,5 @@
 ---
-Description: The following constants are provided by the DirectXMath Library.
+description: The following constants are provided by the DirectXMath Library.
 ms.assetid: a206fe22-12c8-ac2b-ee37-20cfff35841a
 title: DirectXMath Library constants
 ms.topic: reference

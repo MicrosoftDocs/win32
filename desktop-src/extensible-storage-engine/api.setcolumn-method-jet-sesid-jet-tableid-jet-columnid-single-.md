@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.SetColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, Single)"
 title: Api.SetColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, Single)
 TOCTitle: SetColumn method (JET_SESID, JET_TABLEID, JET_COLUMNID, Single)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.SetColumn(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_COLUMNID,System.Single)

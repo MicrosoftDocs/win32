@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: "Learn about the CMediaPosition.CMediaPosition (Ctlutil.h) constructor method. This method uses 'pName', 'pUnk', and 'phr' parameters."
 ms.assetid: 4074f513-d1e7-4311-8732-4d755e621e55
 title: CMediaPosition.CMediaPosition constructor (Ctlutil.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaPosition.CMediaPosition constructor
+# CMediaPosition.CMediaPosition constructor (Ctlutil.h) - pName, pUnk, phr parameters
 
 Constructor method.
 
@@ -62,14 +62,10 @@ Pointer to an **HRESULT** value.
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header | Ctlutil.h (include Streams.h) |
+| Library| Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a callback for pipeline stages data.
+description: <span id="vspixengine.ipipelinestagescallback2"></span>IPipeLineStagesCallback2 interface - Not used. Formerly a callback for pipeline stages data.
 MS-HAID: vspixengine.IPipeLineStagesCallback2
 MSHAttr:
 - PreferredSiteName:MSDN

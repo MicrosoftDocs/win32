@@ -48,7 +48,7 @@ Get an **IWMPLibraryServices** interface by casting the object returned from the
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

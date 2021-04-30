@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo class"
 title: ColumnInfo class
 TOCTitle: ColumnInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumnInfo

@@ -1,5 +1,5 @@
 ---
-Description: If this bit is set the dialog is originally created as visible, otherwise it is hidden.
+description: If this bit is set the dialog is originally created as visible, otherwise it is hidden.
 ms.assetid: a7aafa2f-18b1-4337-8bb2-c68d793c8c3c
 title: Visible Dialog Style Bit
 ms.topic: article

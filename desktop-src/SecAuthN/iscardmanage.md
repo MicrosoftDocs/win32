@@ -1,5 +1,5 @@
 ---
-Description: Used for attaching to a specific smart card or reader, for creating other optional interfaces to perform specific smart card functions, for locking a specific smart card for exclusive use, and for getting the status of a smart card or reader.
+description: Used for attaching to a specific smart card or reader, for creating other optional interfaces to perform specific smart card functions, for locking a specific smart card for exclusive use, and for getting the status of a smart card or reader.
 ms.assetid: 67077034-5bd0-4176-9dc7-774caba3d427
 title: ISCardManage interface
 ms.topic: reference
@@ -66,7 +66,7 @@ The **ISCardManage** interface has these methods.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

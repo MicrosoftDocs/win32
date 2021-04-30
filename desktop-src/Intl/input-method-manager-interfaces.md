@@ -1,5 +1,5 @@
 ---
-Description: This section describes the IMM interfaces.
+description: This section describes the IMM interfaces.
 ms.assetid: 25092F1D-0B54-4E5E-AC9E-F8F3A0181482
 title: Input Method Manager Interfaces
 ms.topic: article

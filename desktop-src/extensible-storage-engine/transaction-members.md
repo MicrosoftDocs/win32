@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction members"
 title: Transaction members
 TOCTitle: Transaction members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Transaction

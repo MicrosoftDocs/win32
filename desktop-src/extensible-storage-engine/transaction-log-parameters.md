@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Log Parameters"
 title: Transaction Log Parameters
 TOCTitle: Transaction Log Parameters
 ms:assetid: 41ade693-2bae-4c84-9339-a68a1b7c23e6

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentWriteConflictPrimaryIndexException constructor"
 title: EsentWriteConflictPrimaryIndexException constructor 
 TOCTitle: 'EsentWriteConflictPrimaryIndexException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException.#ctor

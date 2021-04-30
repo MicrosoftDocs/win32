@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapCorruptedException members"
 title: EsentSLVOwnerMapCorruptedException members
 TOCTitle: EsentSLVOwnerMapCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapCorruptedException

@@ -1,5 +1,5 @@
 ---
-Description: Determine whether a file system supports sparse files by calling the GetVolumeInformation function.
+description: Determine whether a file system supports sparse files by calling the GetVolumeInformation function.
 ms.assetid: a08f6bbc-c139-4396-8964-4aa63285f3f5
 title: Sparse File Operations
 ms.topic: article

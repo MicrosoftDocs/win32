@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Learn how to prevent memory leaks in Windows applications for Windows 7 and Windows Server 2008 R2 platforms.
 ms.assetid: c5dedcab-3e6f-433f-95de-d741321c683e
 title: Preventing Memory Leaks in Windows Applications
 ms.topic: article
@@ -30,7 +30,7 @@ Applications can allocate memory on their behalf by multiple means. Each type of
 
 Monitoring the resource consumption of your application over time is the first step in detecting and diagnosing memory leaks. Use Windows Task Manager and add the following columns: "Commit Size", "Handles", "User Objects", and "GDI Objects". This will allow you to establish a baseline for your application and monitor resource usage over time.
 
-![](images/preventingmemoryleaks-windowstaskmanager.gif)
+![Screenshot that shows the 'Processes' page in Windows Task Manager.](images/preventingmemoryleaks-windowstaskmanager.gif)
 
 The following Microsoft tools provide more-detailed information and can help to detect and diagnose leaks for the various allocation types in your application:
 

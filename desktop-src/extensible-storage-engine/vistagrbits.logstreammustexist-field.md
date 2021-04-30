@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.LogStreamMustExist field"
 title: VistaGrbits.LogStreamMustExist field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: LogStreamMustExist field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.LogStreamMustExist

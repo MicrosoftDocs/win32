@@ -1,5 +1,5 @@
 ---
-Description: Secure-at-source transforms must have a source located at the root of the source for the package.
+description: Secure-at-source transforms must have a source located at the root of the source for the package.
 ms.assetid: b5355053-9922-444f-a117-f6af461ef9e9
 title: Secure-At-Source Transforms
 ms.topic: article

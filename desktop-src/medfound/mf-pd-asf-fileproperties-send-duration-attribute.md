@@ -1,5 +1,5 @@
 ---
-Description: Specifies the time, in 100-nanosecond units, needed to send an Advanced Systems Format (ASF) file. A packets send time is the time when the packet should be delivered over the network. It is not the presentation time of the packet.
+description: Specifies the time, in 100-nanosecond units, needed to send an Advanced Systems Format (ASF) file. A packets send time is the time when the packet should be delivered over the network. It is not the presentation time of the packet.
 ms.assetid: 2bd427e2-106d-4997-86aa-fae221e429eb
 title: MF_PD_ASF_FILEPROPERTIES_SEND_DURATION attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

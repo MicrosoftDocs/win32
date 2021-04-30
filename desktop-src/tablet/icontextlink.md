@@ -1,5 +1,5 @@
 ---
-Description: Represents a relationship between two IContextNode objects.
+description: Represents a relationship between two IContextNode objects.
 ms.assetid: ee81d9d7-eba9-4b11-84d0-5a6ca0df7d92
 title: IContextLink interface (IACom.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The following is an example of a relationship represented by an **IContextLink**
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Using MFTrace, you can filter the trace results by specifying a list of keywords.
+description: Using MFTrace, you can filter the trace results by specifying a list of keywords.
 ms.assetid: e7c382cb-94ac-4f90-a3dd-32f94c538396
 title: MFTrace Keywords
 ms.topic: article

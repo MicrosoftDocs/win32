@@ -1,5 +1,5 @@
 ---
-Description: Group-of-pictures (GOP) start time code, for an MPEG-1 or MPEG-2 video media type.
+description: Group-of-pictures (GOP) start time code, for an MPEG-1 or MPEG-2 video media type.
 ms.assetid: 8313b83c-5a0a-4aaa-bdc8-58a987c329c7
 title: MF_MT_MPEG_START_TIME_CODE attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

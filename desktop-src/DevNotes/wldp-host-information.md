@@ -1,5 +1,5 @@
 ---
-Description: A structure identifying the host and source file to be evaluated.
+description: A structure identifying the host and source file to be evaluated.
 ms.assetid: 547EF59E-7DE5-45E4-948F-109547FAAEE7
 title: WLDP_HOST_INFORMATION structure (Wldp.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ In addition to the name, the caller can specify a handle to the file used for va
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                              |

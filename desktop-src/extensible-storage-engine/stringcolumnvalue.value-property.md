@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue.Value property"
 title: StringColumnValue.Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.StringColumnValue.Value

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDataSequenceException class"
 title: EsentInvalidLogDataSequenceException class
 TOCTitle: EsentInvalidLogDataSequenceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDataSequenceException

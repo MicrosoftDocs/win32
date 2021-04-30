@@ -1,5 +1,5 @@
 ---
-Description: The GetParams method retrieves the DISPPARAMS argument list to the method.
+description: The GetParams method retrieves the DISPPARAMS argument list to the method.
 ms.assetid: e32645ad-938b-4142-acc6-94ef573776c4
 title: CDeferredCommand.GetParams method (Ctlutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns a **DISPPARAMS** argument list.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

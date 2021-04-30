@@ -1,5 +1,5 @@
 ---
-Description: The Transform method transforms an input sample to produce an output sample.
+description: The Transform method transforms an input sample to produce an output sample.
 ms.assetid: 30ef8c0c-e834-481a-93ff-d06e6fa1ddeb
 title: CTransformFilter.Transform method (Transfrm.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ If the filter should not deliver this sample (for example, to support quality co
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

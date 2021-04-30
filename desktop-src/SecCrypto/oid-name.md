@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the CAPICOM-defined name for the identifier. This is the default property.
+description: Sets or retrieves the CAPICOM-defined name for the identifier. This is the default property.
 ms.assetid: 9a7c441d-e2c4-4c02-8910-b889f8a35e64
 title: OID.Name property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # OID.Name property
 
-\[The **Name** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Name** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Name** property sets or retrieves the CAPICOM-defined name for the identifier. This is the default property.
 
@@ -100,7 +100,7 @@ A value of the [**CAPICOM\_OID**](capicom-oid.md) enumeration that provides the 
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

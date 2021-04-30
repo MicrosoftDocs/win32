@@ -1,5 +1,5 @@
 ---
-Description: Collecting Partition Metrics
+description: Collecting Partition Metrics
 ms.assetid: 2dc35011-24fa-49df-9cf8-96db2de39efa
 title: Collecting Partition Metrics
 ms.topic: article

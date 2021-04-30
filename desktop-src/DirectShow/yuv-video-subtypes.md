@@ -1,5 +1,5 @@
 ---
-Description: 'YUV formats are categorized according to the following information:'
+description: 'YUV formats are categorized according to the following information:'
 ms.assetid: 452f017c-81ce-4be4-9962-4b9c1a9ce849
 title: YUV Video Subtypes (Dshow.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ For a description of theses YUV formats for video rendering on Windows, see [Rec
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

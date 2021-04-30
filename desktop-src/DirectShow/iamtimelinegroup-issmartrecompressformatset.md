@@ -1,5 +1,5 @@
 ---
-Description: The IsSmartRecompressFormatSet method determines whether a smart recompression format was set for the group.
+description: The IsSmartRecompressFormatSet method determines whether a smart recompression format was set for the group.
 ms.assetid: d2b7ecc7-2348-402d-8d96-e0922e06a685
 title: IAMTimelineGroup::IsSmartRecompressFormatSet method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

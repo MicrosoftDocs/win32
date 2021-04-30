@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the description of the render surface.
+description: Retrieves the description of the render surface.
 ms.assetid: 3c2612fa-540d-4d7a-9821-bf37fa3b6da4
 title: ID3DXRenderToEnvMap::GetDesc method (D3dx9core.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

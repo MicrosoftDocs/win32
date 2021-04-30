@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotFoundException constructor"
 title: EsentRecordNotFoundException constructor 
 TOCTitle: 'EsentRecordNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException.#ctor

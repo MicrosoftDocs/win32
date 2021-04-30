@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetSecondaryIndexBookmark method"
 title: Api.JetGetSecondaryIndexBookmark method 
 TOCTitle: 'JetGetSecondaryIndexBookmark method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetSecondaryIndexBookmark(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[],System.Int32,System.Int32@,System.Byte[],System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.GetSecondaryIndexBookmarkGrbit)

@@ -1,5 +1,5 @@
 ---
-Description: A generic base class for setting data classes representing components of a virtual system.
+description: A generic base class for setting data classes representing components of a virtual system.
 ms.assetid: a0c8f5e4-08e2-40c3-92c3-12d51f161871
 title: Msvm_SystemComponentSettingData class
 ms.topic: reference
@@ -38,7 +38,7 @@ The **Msvm\_SystemComponentSettingData** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,6 +1,6 @@
 ---
 title: External.OnColorChange Event (Type 1)
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.OnColorChange Event (Type 1)
 ms.assetid: 45e6ec4a-e680-4d50-8fb7-410f12383eef
 keywords:
 - External.OnColorChange Event (Type 1) Windows Media Player
@@ -45,7 +45,7 @@ Users can change the color of the Windows Media Player user interface. You can u
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

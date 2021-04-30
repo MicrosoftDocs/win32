@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical codec file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
+description: Uncompresses the logical codec file (or directory) specified in the object path. This method is an extended version of the Uncompress method.
 ms.assetid: 257c69fa-c4f7-48be-8317-55db4b01601b
 ms.tgt_platform: multiple
 title: UncompressEx method of the Win32_CodecFile class
@@ -161,7 +161,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

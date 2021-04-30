@@ -1,5 +1,5 @@
 ---
-Description: Overview of Graph Building
+description: Overview of Graph Building
 ms.assetid: 5753f06c-ecfd-48d7-a8e9-768b798e9279
 title: Overview of Graph Building
 ms.topic: article

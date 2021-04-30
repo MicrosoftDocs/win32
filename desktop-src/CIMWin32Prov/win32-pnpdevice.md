@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PnPDevice association WMI class relates a device (known to Configuration Manager as a PNPEntity) and the function it performs.
+description: The Win32\_PnPDevice association WMI class relates a device (known to Configuration Manager as a PNPEntity) and the function it performs.
 ms.assetid: 5163a423-60f2-416d-bf82-89517b499f93
 ms.tgt_platform: multiple
 title: Win32_PnPDevice class
@@ -83,7 +83,7 @@ Reference to the [**Win32\_PnPEntity**](win32-pnpentity.md) instance representin
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

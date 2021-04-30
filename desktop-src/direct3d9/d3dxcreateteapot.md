@@ -1,5 +1,5 @@
 ---
-Description: Uses a left-handed coordinate system to create a mesh containing a teapot.
+description: Uses a left-handed coordinate system to create a mesh containing a teapot.
 ms.assetid: c002d6d4-1829-4293-9a86-d8560d6ec0e9
 title: D3DXCreateTeapot function (D3dx9shape.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ This function creates a mesh with the D3DXMESH\_MANAGED creation option and [D3D
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9shape.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>    |

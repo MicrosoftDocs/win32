@@ -1,5 +1,5 @@
 ---
-Description: The SetTimeouts method specifies the individual time-out components of a send/receive operation, in milliseconds.
+description: The SetTimeouts method specifies the individual time-out components of a send/receive operation, in milliseconds.
 ms.assetid: c2b6c432-5f3b-4361-8026-1b843c6697ae
 title: IWinHttpRequest::SetTimeouts method
 ms.topic: reference
@@ -41,7 +41,7 @@ HRESULT SetTimeouts(
 *ResolveTimeout* \[in\]
 </dt> <dd>
 
-Time-out value applied when resolving a host name (such as www.microsoft.com) to an IP address (such as 192.168.131.199), in milliseconds. The default value is zero, meaning no time-out (infinite). If DNS timeout is specified using NAME\_RESOLUTION\_TIMEOUT, there is an overhead of one thread per request.
+Time-out value applied when resolving a host name (such as `www.microsoft.com`) to an IP address (such as 192.168.131.199), in milliseconds. The default value is zero, meaning no time-out (infinite). If DNS timeout is specified using NAME\_RESOLUTION\_TIMEOUT, there is an overhead of one thread per request.
 
 </dd> <dt>
 
@@ -203,7 +203,7 @@ WinHttpReq.Send();
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

@@ -1,7 +1,7 @@
 ---
-Description: 'Provides access to the current call's security context, which contains information about an object's callers.'
+description: "Provides access to the current call's security context, which contains information about an object's callers."
 ms.assetid: 'e8ac05fb-6665-4e57-b64e-82d9799d29d4'
-title: SecurityCallContext class (ComSvcs.h)
+title: 'SecurityCallContext class (ComSvcs.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -25,7 +25,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                      |
+| Requirement | Value |
 |------------|------------------------------------------------------|
 | Interfaces | [**ISecurityCallersColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll) |
 
@@ -47,7 +47,7 @@ To use this class from Microsoft Visual Basic, add a reference to the COM+ Servi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

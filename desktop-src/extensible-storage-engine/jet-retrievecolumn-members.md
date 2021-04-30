@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN members"
 title: JET_RETRIEVECOLUMN members
 TOCTitle: JET_RETRIEVECOLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN

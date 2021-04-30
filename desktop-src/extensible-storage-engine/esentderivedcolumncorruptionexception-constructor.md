@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDerivedColumnCorruptionException constructor"
 title: EsentDerivedColumnCorruptionException constructor 
 TOCTitle: 'EsentDerivedColumnCorruptionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException.#ctor

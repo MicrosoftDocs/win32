@@ -1,5 +1,5 @@
 ---
-Description: To move a directory to another location, along with the files and subdirectories contained within it, call the MoveFileEx, MoveFileWithProgress, or MoveFileTransacted function.
+description: To move a directory to another location, along with the files and subdirectories contained within it, call the MoveFileEx, MoveFileWithProgress, or MoveFileTransacted function.
 ms.assetid: ca56c109-d6a3-456e-956c-126ce4aee8ba
 title: Moving Directories
 ms.topic: article

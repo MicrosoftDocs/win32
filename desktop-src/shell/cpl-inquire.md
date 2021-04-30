@@ -1,5 +1,5 @@
 ---
-Description: Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
+description: CPL_INQUIRE message - Sent to the CPlApplet function of a Control Panel application to request information about a dialog box that the application supports.
 title: CPL_INQUIRE message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -56,7 +56,7 @@ The only applications that should use [**CPL\_NEWINQUIRE**](cpl-newinquire.md) a
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

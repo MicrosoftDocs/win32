@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used with time.
+description: The following structures are used with time.
 ms.assetid: ac5370e2-b401-46be-bf92-f1221ffa3e48
 title: Time Structures
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical paging file (or directory) specified in the object path (this method is an extended version of the Compress method).
+description: Compresses the logical paging file (or directory) specified in the object path (this method is an extended version of the Compress method).
 ms.assetid: ea99367b-4d5e-4cd2-aa89-d250d1161f8f
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_PageFile class
@@ -166,7 +166,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

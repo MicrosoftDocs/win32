@@ -1,5 +1,5 @@
 ---
-Description: The CGenericList class template that implements a type-specific list. For more information, see CBaseList.
+description: The CGenericList class template that implements a type-specific list. For more information, see CBaseList.
 ms.assetid: 69067530-3a7d-4731-8ac6-9d02dbba8440
 title: CGenericList class (Wxlist.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ typedef CGenericList<IUnknown> CBaseInterfaceList;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

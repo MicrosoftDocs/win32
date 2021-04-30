@@ -1,5 +1,5 @@
 ---
-Description: Sets the data field in the application protocol data unit (APDU).
+description: Sets the data field in the application protocol data unit (APDU).
 ms.assetid: 4508e00c-2b1d-4be5-b3a7-083b367a2158
 title: ISCardCmd::put_Data method (Scarddat.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

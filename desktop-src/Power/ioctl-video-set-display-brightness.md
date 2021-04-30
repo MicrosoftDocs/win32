@@ -1,5 +1,5 @@
 ---
-Description: Sets the current AC and DC backlight levels.
+description: Sets the current AC and DC backlight levels.
 ms.assetid: baa77811-046d-4a07-b3df-2a31fba2d9a7
 title: IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control code (Ntddvdeo.h)
 ms.topic: reference
@@ -128,7 +128,7 @@ Alternatively, you can define this control code as follows:
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP1 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 96b48917-1fbc-467f-b2b4-1a9673f1ee99
 title: PageBlackGenerationProcessingBlackInkLimit
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageBlackGenerationProcessingBlackInkLimit
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Application content labeled with the specified named color MUST appear on all color separations.
 
@@ -19,7 +19,7 @@ Application content labeled with the specified named color MUST appear on all co
 
 
 
-| Name                       |                                                            |
+| Name | Value |
 |----------------------------|------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                    |
 | Scoping Prefix <br/> | Page<br/>                                            |
@@ -83,7 +83,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

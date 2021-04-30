@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionSharingViolationException constructor"
 title: EsentSessionSharingViolationException constructor 
 TOCTitle: 'EsentSessionSharingViolationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionSharingViolationException.#ctor

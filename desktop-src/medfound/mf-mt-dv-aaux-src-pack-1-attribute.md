@@ -1,5 +1,5 @@
 ---
-Description: Audio auxiliary (AAUX) source pack for the second audio block in a digital video (DV) media type.
+description: Audio auxiliary (AAUX) source pack for the second audio block in a digital video (DV) media type.
 ms.assetid: c9d350bd-bf49-4c2c-a12f-3b5b475ac103
 title: MF_MT_DV_AAUX_SRC_PACK_1 attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

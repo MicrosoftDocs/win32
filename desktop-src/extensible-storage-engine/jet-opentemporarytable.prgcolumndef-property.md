@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE.prgcolumndef property"
 title: JET_OPENTEMPORARYTABLE.prgcolumndef property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'prgcolumndef property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE.prgcolumndef

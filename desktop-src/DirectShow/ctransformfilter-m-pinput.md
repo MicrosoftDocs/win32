@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the input pin.
+description: Pointer to the input pin.
 ms.assetid: 0806074e-a844-40eb-b488-c00ba93f4cac
 title: CTransformFilter::m_pInput member (Transfrm.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CTransformInputPin *m_pInput;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

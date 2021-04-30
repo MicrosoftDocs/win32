@@ -1,5 +1,5 @@
 ---
-Description: Specifies the vendor ID for a hardware-based Microsoft Media Foundation.
+description: Specifies the vendor ID for a hardware-based Microsoft Media Foundation.
 ms.assetid: AA31639F-EF70-4454-AC61-60755CAA684A
 title: MFT_ENUM_HARDWARE_VENDOR_ID_Attribute attribute
 ms.topic: reference
@@ -28,7 +28,7 @@ This attribute is informational and optional.
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                                |

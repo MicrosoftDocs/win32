@@ -1,5 +1,5 @@
 ---
-Description: Native Wifi methods use the following enumerations to set and report on events and states.
+description: Native Wifi methods use the following enumerations to set and report on events and states.
 ms.assetid: a73ce24b-24e9-40ad-9ce2-f3071fca9ffe
 title: Native Wifi Enumerations
 ms.topic: article

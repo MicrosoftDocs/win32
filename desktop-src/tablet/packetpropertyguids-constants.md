@@ -1,5 +1,5 @@
 ---
-Description: Defines values that specify the packet properties.
+description: Defines values that specify the packet properties.
 ms.assetid: 3e8495f6-0860-4ea8-a258-784eaade85c7
 title: PacketPropertyGuids Constants (Msinkaut.h)
 ms.topic: reference
@@ -166,7 +166,7 @@ This requires a 3D digitizer.
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: The GetSubObjectLoaded method determines whether the subobject pointer has been set.
+description: The GetSubObjectLoaded method determines whether the subobject pointer has been set.
 ms.assetid: 05b58435-eeca-4b52-9a53-ad7f81b5b35d
 title: IAMTimelineObj::GetSubObjectLoaded method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

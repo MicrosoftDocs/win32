@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether any user can create an all-user profile.
+description: Specifies whether any user can create an all-user profile.
 ms.assetid: b9bdfe85-b9d5-4dcc-a7f8-05cce9702ec3
 title: allowEveryoneToCreateAllUserProfiles (globalFlags) Element
 ms.topic: reference
@@ -34,7 +34,7 @@ The **allowEveryoneToCreateAllUserProfiles** element is defined by the [**global
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

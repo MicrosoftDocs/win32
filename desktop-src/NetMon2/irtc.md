@@ -1,5 +1,5 @@
 ---
-Description: The IRTC interface provides the methods used to connect the NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network.
+description: The IRTC interface provides the methods used to connect the NPP to the network, capture network traffic, retrieve statistics, and disconnect the NPP from the network.
 ms.assetid: 9252a9ba-2c3e-40b9-b8de-84ef5d4831a7
 title: IRTC interface (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ The **IRTC** interface has these methods.
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

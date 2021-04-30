@@ -1,5 +1,5 @@
 ---
-Description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
+description: Lets a transport application query the Credential Security Support Provider (CredSSP) security package for certain attributes of a security context.
 ms.assetid: 4956c4ab-b71e-4960-b750-f3a79b87baac
 title: QueryContextAttributes (CredSSP) function (Sspi.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ While the caller must allocate the *pBuffer* structure itself, the SSP allocates
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                   |

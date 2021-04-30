@@ -1,5 +1,5 @@
 ---
-Description: Deletes a given key protector for the volume.
+description: Deletes a given key protector for the volume.
 ms.assetid: fa6b89b0-83b6-4be2-8b7b-61b0501747d2
 title: DeleteKeyProtector method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -78,7 +78,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

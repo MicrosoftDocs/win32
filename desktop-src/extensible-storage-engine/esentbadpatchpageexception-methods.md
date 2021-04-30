@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPatchPageException methods"
 title: EsentBadPatchPageException methods
 TOCTitle: EsentBadPatchPageException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadPatchPageException

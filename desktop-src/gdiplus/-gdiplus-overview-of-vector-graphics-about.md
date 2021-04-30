@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ draws lines, rectangles, and other figures on a coordinate system.
+description: Windows GDI+ draws lines, rectangles, and other figures on a coordinate system.
 ms.assetid: a43bcb27-473b-4ca2-a937-2b54384ab86b
 title: Overview of Vector Graphics
 ms.topic: article

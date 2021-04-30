@@ -1,5 +1,5 @@
 ---
-Description: Represents the synthetic 3-D display controller that is assigned to a virtual machine.
+description: Represents the synthetic 3-D display controller that is assigned to a virtual machine.
 ms.assetid: 5679668B-7D0B-421C-92B6-8A320090DFF7
 title: Msvm_Synthetic3DDisplayController class
 ms.topic: reference
@@ -1042,7 +1042,7 @@ A string that describes the video processor/controller. This property is inherit
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

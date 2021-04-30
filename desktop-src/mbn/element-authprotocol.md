@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/...\/AuthProtocol (v4)
+description: MBNProfileExt\/...\/AuthProtocol (v4)
 MS-HAID: WWAN\_profile\_v4.element\_AuthProtocol
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_TCPIPPrinterPort&\#32;WMI class represents a TCP/IP service access point.
+description: The Win32\_TCPIPPrinterPort&\#32;WMI class represents a TCP/IP service access point.
 ms.assetid: b1be18b6-47de-461c-a90b-c7e0537130ef
 ms.tgt_platform: multiple
 title: Win32_TCPIPPrinterPort class
@@ -528,7 +528,7 @@ function Remove-PrinterAndPort{
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

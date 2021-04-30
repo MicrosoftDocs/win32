@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotDeletedException properties"
 title: EsentSLVPagesNotDeletedException properties
 TOCTitle: EsentSLVPagesNotDeletedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException

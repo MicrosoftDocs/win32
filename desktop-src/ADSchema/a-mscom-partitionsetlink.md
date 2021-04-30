@@ -22,7 +22,7 @@ A link used to associate a COM+ Partition with a COM+ PartitionSet object.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-COM-PartitionSetLink                 |
 | Ldap-Display-Name | msCOM-PartitionSetLink                  |
@@ -47,7 +47,7 @@ A link used to associate a COM+ Partition with a COM+ PartitionSet object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1041                            |
 | MAPI-Id                | \-                              |
@@ -68,7 +68,7 @@ A link used to associate a COM+ Partition with a COM+ PartitionSet object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1041                            |
 | MAPI-Id                | \-                              |
@@ -89,7 +89,7 @@ A link used to associate a COM+ Partition with a COM+ PartitionSet object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1041                            |
 | MAPI-Id                | \-                              |
@@ -110,7 +110,7 @@ A link used to associate a COM+ Partition with a COM+ PartitionSet object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1041                            |
 | MAPI-Id                | \-                              |
@@ -131,7 +131,7 @@ A link used to associate a COM+ Partition with a COM+ PartitionSet object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1041                            |
 | MAPI-Id                | \-                              |

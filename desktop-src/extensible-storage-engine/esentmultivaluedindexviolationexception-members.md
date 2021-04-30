@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedIndexViolationException members"
 title: EsentMultiValuedIndexViolationException members
 TOCTitle: EsentMultiValuedIndexViolationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedIndexViolationException

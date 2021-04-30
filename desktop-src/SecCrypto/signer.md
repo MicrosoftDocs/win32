@@ -1,5 +1,5 @@
 ---
-Description: Establishes the signer of a SignedData or SignedCode object.
+description: Establishes the signer of a SignedData or SignedCode object.
 ms.assetid: 'fca6489c-56cf-472f-ac0f-73ba531fa212'
 title: Signer object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Signer object
 
-\[The **Signer** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Signer** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Signer** object establishes the signer of a [**SignedData**](signeddata.md) or [**SignedCode**](signedcode.md) object. The [**Certificate**](certificate.md) of the **Signer** object must have an available private key that can be used to sign data.
 
@@ -69,7 +69,7 @@ The **Signer** object can be created, and it is safe for scripting. The ProgID f
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

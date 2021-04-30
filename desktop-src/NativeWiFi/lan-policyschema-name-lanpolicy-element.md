@@ -1,5 +1,5 @@
 ---
-Description: Contains the name of a wired LAN policy.
+description: Contains the name of a wired LAN policy.
 ms.assetid: 042be748-3337-4eb2-a75f-c85f7042bf13
 title: name (LANPolicy) Element
 ms.topic: reference
@@ -34,7 +34,7 @@ Names are not case-sensitive.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

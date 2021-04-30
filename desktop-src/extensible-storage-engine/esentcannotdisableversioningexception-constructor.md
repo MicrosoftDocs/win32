@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDisableVersioningException constructor"
 title: EsentCannotDisableVersioningException constructor 
 TOCTitle: 'EsentCannotDisableVersioningException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException.#ctor

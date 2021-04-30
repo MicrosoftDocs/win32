@@ -1,5 +1,5 @@
 ---
-Description: Use SasHostParameterValue Collection to define the collection of host application values, as well as their type and members, exposed to effects.
+description: Use SasHostParameterValue Collection to define the collection of host application values, as well as their type and members, exposed to effects.
 ms.assetid: 3fef353d-323a-4cc1-a8c9-2bf154754835
 title: Data Binding
 ms.topic: article

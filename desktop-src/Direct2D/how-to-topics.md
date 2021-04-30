@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How-to Topics
+# How-to Topics (Direct2D)
 
 The topics in this section provide examples that show how to accomplish a variety of tasks with Direct2D.
 

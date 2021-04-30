@@ -92,7 +92,7 @@ This effect works on straight and premultiplied alpha images. The effect outputs
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

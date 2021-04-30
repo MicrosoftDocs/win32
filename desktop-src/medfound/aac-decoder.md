@@ -1,5 +1,5 @@
 ---
-Description: 'The Microsoft Media Foundation AAC decoder is a Media Foundation Transform that decodes the following Advanced Audio Coding (AAC) and High Efficiency AAC (HE-AAC) profiles:'
+description: 'The Microsoft Media Foundation AAC decoder is a Media Foundation Transform that decodes the following Advanced Audio Coding (AAC) and High Efficiency AAC (HE-AAC) profiles:'
 ms.assetid: 036fb0ee-8165-41a3-b41a-2e9bf035a6a6
 title: AAC Decoder
 ms.topic: reference
@@ -322,7 +322,7 @@ If Platform Update Supplement for Windows Vista is installed, the AAC audio deco
 
 
 
-|                                     |                                                                                                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                                                                                                                  |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                                                                                                     |

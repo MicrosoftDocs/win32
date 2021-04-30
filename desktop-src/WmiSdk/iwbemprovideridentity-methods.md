@@ -1,5 +1,5 @@
 ---
-Description: The IWbemProviderIdentity interface exposes the following methods.
+description: The IWbemProviderIdentity interface exposes the following methods.
 ms.assetid: CF0894B3-377D-4330-ABED-E343AA0A3F16
 ms.tgt_platform: multiple
 title: IWbemProviderIdentity Methods

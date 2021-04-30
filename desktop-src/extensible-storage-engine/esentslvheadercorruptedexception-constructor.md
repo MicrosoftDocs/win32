@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderCorruptedException constructor"
 title: EsentSLVHeaderCorruptedException constructor 
 TOCTitle: 'EsentSLVHeaderCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVHeaderCorruptedException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: When a call is active in LINEBEARERMODE\_PASSTHROUGH, the service provider gives direct access to the attached hardware for control by the application.
+description: When a call is active in LINEBEARERMODE\_PASSTHROUGH, the service provider gives direct access to the attached hardware for control by the application.
 ms.assetid: 75e31241-c782-4d50-9590-cf68c0505add
 title: Passthrough Mode
 ms.topic: article

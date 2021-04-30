@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadPgnoVerifyFailureException class"
 title: EsentReadPgnoVerifyFailureException class
 TOCTitle: EsentReadPgnoVerifyFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException

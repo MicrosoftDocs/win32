@@ -1,5 +1,5 @@
 ---
-Description: If the client and host cannot exchange metadata, then a generic host and client can be substituted for the custom host and client to help troubleshoot the issue.
+description: If the client and host cannot exchange metadata, then a generic host and client can be substituted for the custom host and client to help troubleshoot the issue.
 ms.assetid: 7e5c8444-b3ee-4e9c-984f-13d54f2bbfc0
 title: Using a Generic Host and Client for HTTP Metadata Exchange
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTemplateTableException constructor"
 title: EsentCannotDeleteTemplateTableException constructor 
 TOCTitle: 'EsentCannotDeleteTemplateTableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException.#ctor

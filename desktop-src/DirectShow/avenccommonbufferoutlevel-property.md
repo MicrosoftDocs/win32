@@ -1,5 +1,5 @@
 ---
-Description: Specifies the final level of the encoding buffer, in bits, at the end of the encoding process. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
+description: Specifies the final level of the encoding buffer, in bits, at the end of the encoding process. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: d5bcdf54-061a-436b-8b1a-61ef7d7c90bf
 title: AVEncCommonBufferOutLevel property (Codecapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ For MPEG video, this property defines the video buffer verifier (VBV) fullness a
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

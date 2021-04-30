@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotLogDuringRecoveryRedoException constructor"
 title: EsentCannotLogDuringRecoveryRedoException constructor 
 TOCTitle: 'EsentCannotLogDuringRecoveryRedoException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotLogDuringRecoveryRedoException.#ctor

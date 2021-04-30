@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoDatabasesConsistentException methods"
 title: EsentRecoveredWithoutUndoDatabasesConsistentException methods
 TOCTitle: EsentRecoveredWithoutUndoDatabasesConsistentException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException

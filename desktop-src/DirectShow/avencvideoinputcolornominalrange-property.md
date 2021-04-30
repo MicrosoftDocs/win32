@@ -1,5 +1,5 @@
 ---
-Description: Specifies the nominal range for the input video.
+description: Specifies the nominal range for the input video.
 ms.assetid: 27a378ea-3a89-48d5-a11c-68df09818c9c
 title: AVEncVideoInputColorNominalRange property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncVideoColorNominalRange**]
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

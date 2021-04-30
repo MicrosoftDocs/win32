@@ -1,5 +1,5 @@
 ---
-Description: The SetPhoneNumbers method sets an array of phone numbers associated with a conference blob.
+description: The SetPhoneNumbers method sets an array of phone numbers associated with a conference blob.
 ms.assetid: 674c08df-7e91-4f19-9d65-4bc6e7af117b
 title: ITSdp::SetPhoneNumbers method (Sdpblb.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The lists that *Numbers* and *Names* point to are the same length.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

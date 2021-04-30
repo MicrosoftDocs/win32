@@ -1,5 +1,5 @@
 ---
-Description: The Remove method removes the CDeferredCommand object from the queue.
+description: The Remove method removes the CDeferredCommand object from the queue.
 ms.assetid: b3cff57d-9625-40db-b815-9529ac706f45
 title: CCmdQueue.Remove method (Winutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns VFW\_E\_NOT\_FOUND if the object is not found in the queue. Otherwise, r
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

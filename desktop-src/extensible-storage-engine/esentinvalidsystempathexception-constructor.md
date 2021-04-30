@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSystemPathException constructor"
 title: EsentInvalidSystemPathException constructor 
 TOCTitle: 'EsentInvalidSystemPathException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidSystemPathException.#ctor

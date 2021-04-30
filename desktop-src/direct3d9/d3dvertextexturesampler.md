@@ -1,5 +1,5 @@
 ---
-Description: Vertex texture sampler constants.
+description: Vertex texture sampler constants.
 ms.assetid: 1347c3d6-67f6-4cea-9a93-9fc754755b47
 title: D3DVERTEXTEXTURESAMPLER
 ms.topic: article
@@ -14,9 +14,8 @@ These constants identify the texture samplers used by vertex shaders.
 
 
 
-|                          |                    |
-|--------------------------|--------------------|
 | \#define                 | Description        |
+|--------------------------|--------------------|
 | D3DVERTEXTEXTURESAMPLER0 | (D3DDMAPSAMPLER+1) |
 | D3DVERTEXTEXTURESAMPLER1 | (D3DDMAPSAMPLER+2) |
 | D3DVERTEXTEXTURESAMPLER2 | (D3DDMAPSAMPLER+3) |
@@ -32,9 +31,8 @@ This is an internal constant used by the texture sampler in the tessellator.
 
 
 
-|                |                                                       |
-|----------------|-------------------------------------------------------|
 | \#define       | Description                                           |
+|----------------|-------------------------------------------------------|
 | D3DDMAPSAMPLER | 256, which is the maximum number of texture samplers. |
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the template extension is present.
+description: Retrieves a Boolean value that indicates whether the template extension is present.
 ms.assetid: cc7f9853-8212-470d-b372-43a4bbd517f7
 title: Template.IsPresent property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the template extension is present.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

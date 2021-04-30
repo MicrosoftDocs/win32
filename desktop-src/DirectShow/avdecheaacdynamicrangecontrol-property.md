@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables dynamic range control in an AAC decoder.
+description: Enables or disables dynamic range control in an AAC decoder.
 ms.assetid: b7cf092a-6bb8-454c-a78c-fb2334ac4820
 title: AVDecHEAACDynamicRangeControl property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVDecHEAACDynamicRangeControl*
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaType method sets the media type for the connection.
+description: CTransformOutputPin.SetMediaType method - The SetMediaType method sets the media type for the connection.
 ms.assetid: 1d6569c1-e27b-4e96-af5a-64a78b762afd
 title: CTransformOutputPin.SetMediaType method (Transfrm.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The pin must verify that the media type is acceptable before calling this method
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

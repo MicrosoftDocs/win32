@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfThreadsException methods"
 title: EsentOutOfThreadsException methods
 TOCTitle: EsentOutOfThreadsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfThreadsException

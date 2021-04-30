@@ -1,5 +1,5 @@
 ---
-Description: Raised by a stream sink when the sinks media type is no longer valid.
+description: Raised by a stream sink when the sinks media type is no longer valid.
 ms.assetid: 9eeb4262-1593-4c5f-9341-ebd328b586e7
 title: MEStreamSinkFormatChanged event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The **HRESULT** value retrieved by [**IMFMediaEvent::GetStatus**](/windows/deskt
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

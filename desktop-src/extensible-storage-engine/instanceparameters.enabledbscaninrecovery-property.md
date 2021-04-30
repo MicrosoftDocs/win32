@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.EnableDbScanInRecovery property"
 title: InstanceParameters.EnableDbScanInRecovery property 
 TOCTitle: 'EnableDbScanInRecovery property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EnableDbScanInRecovery

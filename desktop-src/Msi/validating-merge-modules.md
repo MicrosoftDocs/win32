@@ -1,5 +1,5 @@
 ---
-Description: Authors should run validation on every new, or newly modified, merge module before attempting to merge the module into an installation database for the first time.
+description: Authors should run validation on every new, or newly modified, merge module before attempting to merge the module into an installation database for the first time.
 ms.assetid: 8d6794af-403a-416e-8ace-1af3f193414b
 title: Validating Merge Modules
 ms.topic: article

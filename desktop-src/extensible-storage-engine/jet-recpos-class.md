@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS class"
 title: JET_RECPOS class
 TOCTitle: JET_RECPOS class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RECPOS

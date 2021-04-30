@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.ib property"
 title: JET_LGPOS.ib property 
 TOCTitle: 'ib property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.ib

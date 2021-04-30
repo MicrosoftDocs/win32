@@ -1,5 +1,5 @@
 ---
-Description: Writes the filter's data to the given stream.
+description: Writes the filter's data to the given stream.
 ms.assetid: 1b405050-6cfd-4b69-b449-f00a6ecfac6a
 title: CPersistStream.WriteToStream method (Pstream.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The default version writes nothing; it can be overridden to write data specific 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

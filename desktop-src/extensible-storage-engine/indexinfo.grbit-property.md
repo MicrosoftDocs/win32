@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.Grbit property"
 title: IndexInfo.Grbit property 
 TOCTitle: 'Grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.Grbit

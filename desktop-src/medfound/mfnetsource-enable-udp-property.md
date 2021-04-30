@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether User Datagram Protocol (UDP) transport is enabled in the network source.
+description: Specifies whether User Datagram Protocol (UDP) transport is enabled in the network source.
 ms.assetid: d46a59e6-8abc-484b-aecc-edf57ffff512
 title: MFNETSOURCE_ENABLE_UDP property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

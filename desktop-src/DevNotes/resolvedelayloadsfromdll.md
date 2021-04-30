@@ -1,5 +1,5 @@
 ---
-Description: Forwards the work in resolving delay-loaded imports from the parent binary to a target binary.
+description: Forwards the work in resolving delay-loaded imports from the parent binary to a target binary.
 ms.assetid: 65629d7b-36b0-426b-a20d-ec736b8461dc
 title: ResolveDelayLoadsFromDll function
 ms.topic: reference
@@ -69,7 +69,7 @@ The address of the delay-load descriptor, if it is found; otherwise, **NULL**.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>Kernel32.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>Kernel32.dll</dt> </dl> |

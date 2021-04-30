@@ -1,5 +1,5 @@
 ---
-Description: Windows Server Update Services
+description: Windows Server Update Services
 ms.assetid: 57631b10-4f2e-4a8e-a81d-858c8543fcc8
 title: Windows Server Update Services
 ms.topic: reference

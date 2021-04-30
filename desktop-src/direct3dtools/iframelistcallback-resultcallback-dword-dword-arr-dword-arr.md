@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of which frames were captured.
+description: A callback function used to notify the host of which frames were captured.
 MS-HAID: vspixengine.IFrameListCallback\_ResultCallback\_DWORD\_DWORD\_arr\_DWORD\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

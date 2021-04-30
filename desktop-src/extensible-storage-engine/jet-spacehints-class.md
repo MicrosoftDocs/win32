@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS class"
 title: JET_SPACEHINTS class
 TOCTitle: JET_SPACEHINTS class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS

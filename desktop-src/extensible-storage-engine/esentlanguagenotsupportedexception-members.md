@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLanguageNotSupportedException members"
 title: EsentLanguageNotSupportedException members
 TOCTitle: EsentLanguageNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLanguageNotSupportedException

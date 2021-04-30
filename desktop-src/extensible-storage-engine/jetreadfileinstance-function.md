@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetReadFileInstance Function"
 title: JetReadFileInstance Function
 TOCTitle: JetReadFileInstance Function
 ms:assetid: b17b4b43-86e5-4507-8a85-bbd5eac0aa3c

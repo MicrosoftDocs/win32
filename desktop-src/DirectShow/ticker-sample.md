@@ -1,5 +1,5 @@
 ---
-Description: Ticker Sample
+description: Ticker Sample
 ms.assetid: 1a3de957-70ea-4b9d-94a0-9b0a74f15d78
 title: Ticker Sample
 ms.topic: article

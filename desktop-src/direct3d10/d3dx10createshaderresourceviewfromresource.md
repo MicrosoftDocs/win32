@@ -1,5 +1,5 @@
 ---
-Description: Create a shader-resource view from a resource.
+description: Create a shader-resource view from a resource.
 ms.assetid: 207cda5f-5b7e-420a-988f-135cd2a04eb0
 title: D3DX10CreateShaderResourceViewFromResource function (D3DX10Tex.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |

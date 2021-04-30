@@ -1,5 +1,5 @@
 ---
-Description: Signals the beginning of every video object unit (VOBU), a video segment which is 0.4 to 1.0 seconds in length.
+description: Signals the beginning of every video object unit (VOBU), a video segment which is 0.4 to 1.0 seconds in length.
 ms.assetid: 1f2def2f-3a6b-458b-b564-09b6cf74543c
 title: EC_DVD_CURRENT_TIME (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in the title domain.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

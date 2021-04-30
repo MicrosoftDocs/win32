@@ -1,5 +1,5 @@
 ---
-Description: The orientation of the BoundingFrustum represented as a quaternion.
+description: The orientation of the BoundingFrustum represented as a quaternion.
 ms.assetid: 080ac6f5-aa1d-47ce-804a-f1beb113b769
 title: BoundingFrustum.Orientation (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXCollision.h</dt> </dl> |
 

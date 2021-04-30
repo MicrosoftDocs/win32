@@ -22,7 +22,7 @@ Specifies which port is used by the directory service to listen for LDAP request
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Port-LDAP                      |
 | Ldap-Display-Name | msDS-PortLDAP                        |
@@ -43,7 +43,7 @@ Specifies which port is used by the directory service to listen for LDAP request
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

@@ -22,7 +22,7 @@ Specifies the number of enrollment registration authority signatures that are re
 
 
 
-|                   |                                                                                                   |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-RA-Signature                                                                               |
 | Ldap-Display-Name | msPKI-RA-Signature                                                                                |
@@ -47,7 +47,7 @@ Specifies the number of enrollment registration authority signatures that are re
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -68,7 +68,7 @@ Specifies the number of enrollment registration authority signatures that are re
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -89,7 +89,7 @@ Specifies the number of enrollment registration authority signatures that are re
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -110,7 +110,7 @@ Specifies the number of enrollment registration authority signatures that are re
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -131,7 +131,7 @@ Specifies the number of enrollment registration authority signatures that are re
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

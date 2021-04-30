@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInconsistentException properties"
 title: EsentInconsistentException properties
 TOCTitle: EsentInconsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInconsistentException

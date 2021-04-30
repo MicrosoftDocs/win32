@@ -1,5 +1,5 @@
 ---
-Description: Loads a mesh from a DirectX .x file.
+description: Loads a mesh from a DirectX .x file.
 ms.assetid: cc43d2c4-3547-4431-b506-010cced26754
 title: D3DXLoadMeshFromX function (D3DX9Mesh.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ The default texture name is also filled in, but is handled differently. The name
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

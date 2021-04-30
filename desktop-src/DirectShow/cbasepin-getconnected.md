@@ -1,5 +1,5 @@
 ---
-Description: The GetConnected method retrieves the pin connected to this pin.
+description: The GetConnected method retrieves the pin connected to this pin.
 ms.assetid: 7b47aa8e-55a9-45f8-aa32-902fee037c72
 title: CBasePin.GetConnected method (Amfilter.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ This coding pattern is very convenient; but as the example shows, you must be ca
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

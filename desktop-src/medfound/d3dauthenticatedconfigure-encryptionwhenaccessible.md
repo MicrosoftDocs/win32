@@ -1,5 +1,5 @@
 ---
-Description: Sets the level of encryption that is performed before protected content becomes accessible to the CPU or bus.
+description: Sets the level of encryption that is performed before protected content becomes accessible to the CPU or bus.
 ms.assetid: 6de6c4a3-705a-4420-b9f4-8d4d442b23bf
 title: D3DAUTHENTICATEDCONFIGURE_ENCRYPTIONWHENACCESSIBLE (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Sets the level of encryption that is performed before protected content becomes 
 
 
 
-|              |                                                                                                                             |
+| Requirement | Value |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------|
 | Command GUID | **D3DAUTHENTICATEDCONFIGURE\_ENCRYPTIONWHENACCESSIBLE**                                                                     |
 | Input data   | [**D3DAUTHENTICATEDCHANNEL\_CONFIGUREUNCOMPRESSEDENCRYPTION**](d3dauthenticatedchannel-configureuncompressedencryption.md) |
@@ -41,7 +41,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

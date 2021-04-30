@@ -1,5 +1,5 @@
 ---
-Description: An enum used to indicate stages of progress in frame analysis.
+description: An enum used to indicate stages of progress in frame analysis.
 MS-HAID: vspixengine.OFFLINEANALYSISSTAGE
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.Recovery property"
 title: InstanceParameters.Recovery property 
 TOCTitle: 'Recovery property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.Recovery

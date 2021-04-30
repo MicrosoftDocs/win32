@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentForceDetachNotAllowedException class"
 title: EsentForceDetachNotAllowedException class
 TOCTitle: EsentForceDetachNotAllowedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentForceDetachNotAllowedException

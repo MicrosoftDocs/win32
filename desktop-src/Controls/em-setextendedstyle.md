@@ -50,7 +50,7 @@ The extended styles for an edit control have nothing to do with the extended sty
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1809 \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                  |

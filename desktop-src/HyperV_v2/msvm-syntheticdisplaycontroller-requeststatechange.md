@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_SyntheticDisplayController class - Requests a state change.
 ms.assetid: eb7f8acb-1e2d-472c-b50d-92f533c460d0
 title: RequestStateChange method of the Msvm_SyntheticDisplayController class
 ms.topic: reference
@@ -150,7 +150,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

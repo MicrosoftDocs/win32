@@ -1,12 +1,12 @@
 ---
-Description: Previewing Video
+description: Previewing Video
 ms.assetid: 9b401de1-910a-41f7-bf80-dda73ee4a204
 title: Previewing Video (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Previewing Video
+# Previewing Video (DirectShow)
 
 To build a video preview graph, call the [**ICaptureGraphBuilder2::RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) method as follows:
 

@@ -1,5 +1,5 @@
 ---
-Description: Throughout Direct3D and Window programming, objects on the screen are referred to in terms of bounding rectangles.
+description: Throughout Direct3D and Window programming, objects on the screen are referred to in terms of bounding rectangles.
 ms.assetid: 9e271652-1673-42ea-b1f4-31ac63c397c5
 title: Rectangles (Direct3D 9)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The DRIVER\_INFO\_5 structure contains printer driver information.
+description: The DRIVER\_INFO\_5 structure contains printer driver information.
 ms.assetid: 6fb63a9f-5227-46a3-97dc-8de1968e9d63
 title: DRIVER_INFO_5 structure (Winspool.h)
 ms.topic: reference
@@ -111,7 +111,7 @@ Number of times the driver file for this driver has been upgraded or downgraded 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

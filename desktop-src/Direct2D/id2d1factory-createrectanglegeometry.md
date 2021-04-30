@@ -24,8 +24,8 @@ Creates an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1fac
 
 | Method                                                                                                                                                            | Description                                                                      |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------|
-| [**CreateRectangleGeometry(D2D1\_RECT\_F\*,ID2D1RectangleGeometry\*\*)**](id2d1factory-createrectanglegeometry-ptr-d2d-rect-f-ptr-ptr-https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx) | Creates an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)). <br/> |
-| [**CreateRectangleGeometry(D2D1\_RECT\_F&,ID2D1RectangleGeometry\*\*)**](id2d1factory-createrectanglegeometry-ref-d2d-rect-f-ptr-ptr-https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx)  | Creates an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)). <br/> |
+| [**CreateRectangleGeometry(D2D1\_RECT\_F\*,ID2D1RectangleGeometry\*\*)**](https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx) | Creates an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)). <br/> |
+| [**CreateRectangleGeometry(D2D1\_RECT\_F&,ID2D1RectangleGeometry\*\*)**](https://msdn.microsoft.com/library/Dd371286(v=VS.85).aspx)  | Creates an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createrectanglegeometry(constd2d1_rect_f_id2d1rectanglegeometry)). <br/> |
 
 
 
@@ -33,7 +33,7 @@ Creates an [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1fac
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D2d1.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |

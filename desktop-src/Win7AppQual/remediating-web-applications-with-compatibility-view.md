@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Fixing Compatibility Issues in Web Applications by Using Compatibility View
 ms.assetid: ACAC2375-EA6C-4AA1-90B7-0BF237A51C02
 title: Fixing Compatibility Issues in Web Applications by Using Compatibility View
 ms.topic: article

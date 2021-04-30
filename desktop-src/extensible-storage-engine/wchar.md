@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WCHAR"
 title: WCHAR
 TOCTitle: WCHAR
 ms:assetid: 922431b3-bf9a-4aba-bc67-dd33d9aeaac0

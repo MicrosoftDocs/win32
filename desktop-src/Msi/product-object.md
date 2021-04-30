@@ -1,5 +1,5 @@
 ---
-Description: The Product object represents a unique instance of a product that is either advertised, installed or unknown.The object can be instantiated with the Product property as &\#0034;WindowsInstaller.Installer.Product(ProductCode, UserSid, Context)&\#0034;.
+description: The Product object represents a unique instance of a product that is either advertised, installed or unknown.The object can be instantiated with the Product property as &\#0034;WindowsInstaller.Installer.Product(ProductCode, UserSid, Context)&\#0034;.
 ms.assetid: 1fa89239-051a-4b3a-913a-12c7c093f35b
 title: Product object
 ms.topic: reference
@@ -74,7 +74,7 @@ The **Product** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

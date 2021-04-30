@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Performance Counters Complex Types"
 ms.assetid: b474e2b0-4491-4b0f-ab93-9e3080330d55
 title: Performance Counters Complex Types
 ms.topic: article

@@ -73,7 +73,7 @@ The URL specified in the **HREF** attribute becomes the base URL for any relativ
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

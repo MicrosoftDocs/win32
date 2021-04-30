@@ -1,5 +1,5 @@
 ---
-Description: The put\_Top method sets the top window coordinate.
+description: The put\_Top method sets the top window coordinate.
 ms.assetid: cd39807f-363d-4b5b-8279-9dfb992dca10
 title: CBaseControlWindow.put_Top method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

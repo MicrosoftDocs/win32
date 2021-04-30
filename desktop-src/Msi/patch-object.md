@@ -1,5 +1,5 @@
 ---
-Description: The Patch object represents a unique instance of a patch that has been registered or applied.The object can be instantiated with the Patch property as &\#0034;WindowsInstaller.Installer.Patch(PatchCode, ProductCode, UserSid, Context)&\#0034;.
+description: The Patch object represents a unique instance of a patch that has been registered or applied.The object can be instantiated with the Patch property as &\#0034;WindowsInstaller.Installer.Patch(PatchCode, ProductCode, UserSid, Context)&\#0034;.
 ms.assetid: c1283179-f2c8-42b8-a713-1c82e456f97c
 title: Patch object
 ms.topic: reference
@@ -73,7 +73,7 @@ The **Patch** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

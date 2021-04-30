@@ -1,5 +1,5 @@
 ---
-Description: Create an asynchronous-resource loader.
+description: Create an asynchronous-resource loader.
 ms.assetid: 1b3eb21c-4ba6-4910-b2f0-2ffa4ae50e47
 title: D3DX10CreateAsyncResourceLoader function (D3DX10Async.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

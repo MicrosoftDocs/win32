@@ -1,5 +1,5 @@
 ---
-Description: Exposes callback routines to monitor the search process.
+description: Exposes callback routines to monitor the search process.
 title: IShellFolderSearchableCallback interface
 ms.topic: reference
 ms.date: 05/31/2018
@@ -78,7 +78,7 @@ DECLARE_INTERFACE_IID_(IShellFolderSearchableCallback, IUnknown, "F98D8294-2BBC-
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

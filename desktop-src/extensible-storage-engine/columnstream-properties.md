@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream properties"
 title: ColumnStream properties
 TOCTitle: ColumnStream properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.ColumnStream

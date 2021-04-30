@@ -1,5 +1,5 @@
 ---
-Description: The NotReady method signals that a state transition is not yet complete.
+description: The NotReady method signals that a state transition is not yet complete.
 ms.assetid: 85529a22-5343-4c22-b282-31c0e7ff0f5f
 title: CBaseRenderer.NotReady method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method causes the [**CBaseRenderer::GetState**](cbaserenderer-getstate.md) 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

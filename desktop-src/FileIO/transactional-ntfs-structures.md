@@ -1,5 +1,5 @@
 ---
-Description: Transactional NTFS (TxF) structures.
+description: Transactional NTFS (TxF) structures.
 ms.assetid: 85b3cf8e-bff3-4693-b00e-64bf5d1f5065
 title: TxF Structures
 ms.topic: article

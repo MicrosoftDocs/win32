@@ -1,12 +1,12 @@
 ---
-Description: The following example demonstrates how to re-encode an image and its metadata to a new file of the same format.
+description: The following example demonstrates how to re-encode an image and its metadata to a new file of the same format.
 ms.assetid: a7cfaa6d-e17d-458a-ae63-72963615bef8
-title: 'How-to: Re-encode a JPEG Image with Metadata'
+title: 'How-to re-encode a JPEG image with metadata'
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How-to: Re-encode a JPEG Image with Metadata
+# How-to re-encode a JPEG image with metadata
 
 The following example demonstrates how to re-encode an image and its metadata to a new file of the same format. In addition, this example adds metadata to demonstrate a single-item expression used by a query writer.
 

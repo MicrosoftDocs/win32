@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetObjectInfo Function"
 title: JetGetObjectInfo Function
 TOCTitle: JetGetObjectInfo Function
 ms:assetid: 3e069c61-6dab-4b79-8bf2-7844d017598f

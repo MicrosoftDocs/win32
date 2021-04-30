@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of pixel history primitive operation information returned by the associated request.
+description: A callback that notifies the host of pixel history primitive operation information returned by the associated request.
 MS-HAID: vspixengine.IPixelHistoryCallback2\_PrimitivesCallback\_DWORD\_PixelHistoryOperation\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyAttachedDatabasesException properties"
 title: EsentTooManyAttachedDatabasesException properties
 TOCTitle: EsentTooManyAttachedDatabasesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyAttachedDatabasesException

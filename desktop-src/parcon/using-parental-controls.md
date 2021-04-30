@@ -1,5 +1,5 @@
 ---
-Description: Using Parental Controls
+description: Using Parental Controls
 ms.assetid: b9568fbc-721e-4d3b-8c80-b04e62e3bfdd
 title: Using Parental Controls
 ms.topic: article

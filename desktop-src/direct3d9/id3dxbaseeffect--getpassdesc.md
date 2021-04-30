@@ -1,5 +1,5 @@
 ---
-Description: Gets a pass description.
+description: Gets a pass description.
 ms.assetid: 44c65a82-bcf4-49f5-9312-8320e133bb2f
 title: ID3DXBaseEffect::GetPassDesc method (D3DX9Effect.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

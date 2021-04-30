@@ -24,7 +24,7 @@ An endpoint address consists of:
 
 When a message is addressed, the URL becomes the "To" header of the message. Any headers that are part of the endpoint address are also added to the message.
 
-![](images/endpointaddress.png)
+![Diagram showing endpoint address headers being added to a message.](images/endpointaddress.png)
 
 Channels automatically address any messages that are sent, using the [**WS\_ENDPOINT\_ADDRESS**](/windows/desktop/api/WebServices/ns-webservices-ws_endpoint_address) structure that was passed to the [**WsOpenChannel**](/windows/desktop/api/WebServices/nf-webservices-wsopenchannel). You can also use the [**WsAddressMessage**](/windows/desktop/api/WebServices/nf-webservices-wsaddressmessage) function to override this default behavior.
 

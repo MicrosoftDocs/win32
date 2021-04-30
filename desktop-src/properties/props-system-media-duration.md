@@ -1,5 +1,5 @@
 ---
-Description: Represents the actual play time of a media file and is measured in 100ns units, not milliseconds.
+description: Represents the actual play time of a media file and is measured in 100ns units, not milliseconds.
 ms.assetid: 5548f421-6475-4419-b677-5d9eb625a373
 title: System.Media.Duration
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Releases the handle to a cryptographic service provider (CSP) and optionally deletes the temporary container created by the GetCryptProvFromCert function.
+description: Releases the handle to a cryptographic service provider (CSP) and optionally deletes the temporary container created by the GetCryptProvFromCert function.
 ms.assetid: 4462eef2-7056-4e48-aa96-c46f29b701d6
 title: FreeCryptProvFromCert function
 ms.topic: reference
@@ -91,7 +91,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: You may store the customization transform in a storage of the Windows Installer package to guarantee that the transform is always available when the installation package is available.
+description: You may store the customization transform in a storage of the Windows Installer package to guarantee that the transform is always available when the installation package is available.
 ms.assetid: d4c022d2-a8c4-4b4e-8a6c-b14e1bc6effe
 title: Embedding Customization Transforms as Substorage
 ms.topic: article

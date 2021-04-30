@@ -1,5 +1,5 @@
 ---
-Description: The IsActivated method of the Win32\_Tpm class indicates whether the device is activated.
+description: The IsActivated method of the Win32\_Tpm class indicates whether the device is activated.
 ms.assetid: 862c386c-c5b5-44d2-89a5-3735b99bf8bc
 title: IsActivated method of the Win32_Tpm class
 ms.topic: reference
@@ -95,7 +95,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |

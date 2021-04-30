@@ -1,5 +1,5 @@
 ---
-Description: Finishes setting up a trace buffer with optional fields for sprintf-style traces.
+description: AsyncStringTrace function - Finishes setting up a trace buffer with optional fields for sprintf-style traces.
 ms.assetid: a5f3ecbe-d335-4fd0-99aa-4d5a748ca4e1
 title: AsyncStringTrace function
 ms.topic: reference
@@ -73,7 +73,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Exstrace.dll</dt> </dl> |
 

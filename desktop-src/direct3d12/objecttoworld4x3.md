@@ -1,5 +1,5 @@
 ---
-Description: A matrix for transforming from object-space to world-space.
+description: ObjectToWorld4x3 - A matrix for transforming from object-space to world-space.
 ms.assetid: 
 title: ObjectToWorld4x3
 ms.localizationpriority: low
@@ -14,7 +14,7 @@ api_type:
 - NA
 ---
 
-# ObjectToWorld3x4
+# ObjectToWorld4x3
 
 A matrix for transforming from object-space to world-space. Object-space refers to the space of the current bottom-level acceleration structure.
 

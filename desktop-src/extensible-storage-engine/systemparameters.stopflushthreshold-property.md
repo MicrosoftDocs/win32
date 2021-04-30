@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.StopFlushThreshold property"
 title: SystemParameters.StopFlushThreshold property 
 TOCTitle: 'StopFlushThreshold property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.StopFlushThreshold

@@ -1,5 +1,5 @@
 ---
-Description: Defines error codes that are returned by CAPICOM.
+description: Defines error codes that are returned by CAPICOM.
 ms.assetid: e72b8290-b482-4629-8b87-5a15677865a6
 title: CAPICOM_ERROR_CODE enumeration (Capicom.h)
 ms.topic: reference
@@ -345,7 +345,7 @@ The **CAPICOM\_ERROR\_CODE** enumeration type defines error codes that are retur
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

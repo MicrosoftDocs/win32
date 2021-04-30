@@ -1,5 +1,5 @@
 ---
-Description: The GetSubObject method retrieves the subobject associated with this object.
+description: The GetSubObject method retrieves the subobject associated with this object.
 ms.assetid: 478597d6-ae13-4fa9-a928-19893f378f1a
 title: IAMTimelineObj::GetSubObject method (Qedit.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If the value returned in *pVal* is not **NULL**, the **IUnknown** interface has 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: A communication point used to send and receive data between systems, computer interfaces, and logical networks.
+description: A communication point used to send and receive data between systems, computer interfaces, and logical networks.
 ms.assetid: e23ef66b-0bcb-400e-91ff-d6d687d3f0d2
 title: CIM_ProtocolEndpoint class
 ms.topic: reference
@@ -2250,7 +2250,7 @@ The date and time when the **EnabledState** property last changed. If **EnabledS
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

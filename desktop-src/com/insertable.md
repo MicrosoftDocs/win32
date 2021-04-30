@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Insertable
+# Insertable (CLSID Key)
 
 Indicates that objects of this class should appear in the **Insert Object** dialog box list box when used by COM container applications.
 

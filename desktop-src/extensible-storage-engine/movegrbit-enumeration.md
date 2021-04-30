@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: MoveGrbit enumeration"
 title: MoveGrbit enumeration
 TOCTitle: MoveGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.MoveGrbit

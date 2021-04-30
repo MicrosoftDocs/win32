@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.ToDateTime method"
 title: JET_BKLOGTIME.ToDateTime method 
 TOCTitle: 'ToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.ToDateTime

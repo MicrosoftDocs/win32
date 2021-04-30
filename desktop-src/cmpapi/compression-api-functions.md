@@ -1,5 +1,5 @@
 ---
-Description: The native Compression API includes the following functions.
+description: The native Compression API includes the following functions.
 ms.assetid: 6A617444-23E5-4920-8D6B-602BCCDCC9E0
 title: Compression API Functions
 ms.topic: article

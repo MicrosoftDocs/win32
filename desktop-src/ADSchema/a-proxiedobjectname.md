@@ -22,7 +22,7 @@ This attribute is used internally by Active Directory to help track interdomain 
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | Proxied-Object-Name                             |
 | Ldap-Display-Name | proxiedObjectName                               |
@@ -49,7 +49,7 @@ This attribute is used internally by Active Directory to help track interdomain 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ This attribute is used internally by Active Directory to help track interdomain 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ This attribute is used internally by Active Directory to help track interdomain 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ This attribute is used internally by Active Directory to help track interdomain 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ This attribute is used internally by Active Directory to help track interdomain 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ This attribute is used internally by Active Directory to help track interdomain 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ This attribute is used internally by Active Directory to help track interdomain 
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

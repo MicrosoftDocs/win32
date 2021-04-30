@@ -1,5 +1,5 @@
 ---
-Description: The VSS infrastructure requires VSS requesters, such as backup applications, to be able to function both as COM clients and as a server.
+description: The VSS infrastructure requires VSS requesters, such as backup applications, to be able to function both as COM clients and as a server.
 ms.assetid: b01145c6-76ba-4a81-bca6-59c4ca488dac
 title: Security Considerations for Requesters
 ms.topic: article

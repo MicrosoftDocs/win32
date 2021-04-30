@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host that new frames are available to be processed.
+description: A callback that notifies the host that new frames are available to be processed.
 MS-HAID: vspixengine.INewFramesCallback\_NewFramesAvailable
 MSHAttr:
 - PreferredSiteName:MSDN

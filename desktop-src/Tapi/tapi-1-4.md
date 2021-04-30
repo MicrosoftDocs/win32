@@ -1,5 +1,5 @@
 ---
-Description: TAPI 1.4 added a number of APIs, messages, constants, and structure elements to the 1.3 specification.
+description: TAPI 1.4 added a number of APIs, messages, constants, and structure elements to the 1.3 specification.
 ms.assetid: 293f732f-0288-46d1-b542-d948c6179158
 title: TAPI 1.4
 ms.topic: article

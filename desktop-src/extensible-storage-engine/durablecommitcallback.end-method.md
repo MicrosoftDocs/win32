@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback.End method"
 title: DurableCommitCallback.End method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'End method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback.End

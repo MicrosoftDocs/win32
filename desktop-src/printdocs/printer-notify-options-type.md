@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_NOTIFY\_OPTIONS\_TYPE structure specifies the set of printer or job information fields to be monitored by a printer change notification object.A call to the FindFirstPrinterChangeNotification function specifies a PRINTER\_NOTIFY\_OPTIONS structure, which contains an array of PRINTER\_NOTIFY\_OPTIONS\_TYPE structures.
+description: The PRINTER\_NOTIFY\_OPTIONS\_TYPE structure specifies the set of printer or job information fields to be monitored by a printer change notification object.A call to the FindFirstPrinterChangeNotification function specifies a PRINTER\_NOTIFY\_OPTIONS structure, which contains an array of PRINTER\_NOTIFY\_OPTIONS\_TYPE structures.
 ms.assetid: 1009f892-d3a8-4887-99b4-a35d1268eeb4
 title: PRINTER_NOTIFY_OPTIONS_TYPE structure (Winspool.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ A pointer to an array of values. Each element of the array specifies a job or pr
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

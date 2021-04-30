@@ -1,5 +1,5 @@
 ---
-Description: Posted to the window with the focus when the user chooses a new input language, either with the hotkey (specified in the Keyboard control panel application) or from the indicator on the system taskbar.
+description: Posted to the window with the focus when the user chooses a new input language, either with the hotkey (specified in the Keyboard control panel application) or from the indicator on the system taskbar.
 ms.assetid: db38c31c-6ae4-4401-82b8-7fd220c1678c
 title: WM_INPUTLANGCHANGEREQUEST message (Winuser.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ The language indicator is present on the taskbar only if you have installed more
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

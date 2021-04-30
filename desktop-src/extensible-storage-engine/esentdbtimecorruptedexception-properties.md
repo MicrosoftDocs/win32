@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeCorruptedException properties"
 title: EsentDbTimeCorruptedException properties
 TOCTitle: EsentDbTimeCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException

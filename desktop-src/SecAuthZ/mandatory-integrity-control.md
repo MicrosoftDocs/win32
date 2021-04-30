@@ -1,5 +1,5 @@
 ---
-Description: Provides a mechanism for controlling access to securable objects.
+description: Provides a mechanism for controlling access to securable objects.
 ms.assetid: 5923cb4c-f663-40d2-989a-07d71ac475db
 title: Mandatory Integrity Control
 ms.topic: article
@@ -12,7 +12,7 @@ Mandatory Integrity Control (MIC) provides a mechanism for controlling access to
 
 MIC uses integrity levels and mandatory policy to evaluate access. [*Security principals*](/windows/desktop/SecGloss/s-gly) and securable objects are assigned integrity levels that determine their levels of protection or access. For example, a principal with a low integrity level cannot write to an object with a medium integrity level, even if that object's DACL allows write access to the principal.
 
-Windows defines four integrity levels: low, medium, high, and system. Standard users receive medium, elevated users receive high. Processes you start and objects you create receive your integrity level (medium or high) or low if the executable file's level is low; system services receive system integrity. Objects that lack an integrity label are treated as medium by the operating system; this prevents low-integrity code from modifying unlabeled objects. Additionally, Windows ensures that processes running with a low integrity level cannot obtain access a process which is associated with an app container.
+Windows defines four integrity levels: low, medium, high, and system. Standard users receive medium, elevated users receive high. Processes you start and objects you create receive your integrity level (medium or high) or low if the executable file's level is low; system services receive system integrity. Objects that lack an integrity label are treated as medium by the operating system; this prevents low-integrity code from modifying unlabeled objects. Additionally, Windows ensures that processes running with a low integrity level cannot obtain access to a process which is associated with an app container.
 
 ## Integrity Labels
 

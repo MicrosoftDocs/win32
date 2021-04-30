@@ -1,5 +1,5 @@
 ---
-Description: Folder.Parent property
+description: Folder.Parent property
 title: Folder.Parent property
 ms.topic: reference
 ms.date: 05/31/2018

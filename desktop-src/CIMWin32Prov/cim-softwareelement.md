@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareElement class decomposes a CIM\_SoftwareFeature object into a set of individually manageable or deployable parts for a particular platform.
+description: The CIM\_SoftwareElement class decomposes a CIM\_SoftwareFeature object into a set of individually manageable or deployable parts for a particular platform.
 ms.assetid: b2418735-b738-411a-a620-acc31662f824
 ms.tgt_platform: multiple
 title: CIM_SoftwareElement class (CIMWin32 WMI Providers)
@@ -32,7 +32,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_SoftwareElement class
+# CIM_SoftwareElement class (CIMWin32 WMI Providers)
 
 The **CIM\_SoftwareElement** class decomposes a [**CIM\_SoftwareFeature**](cim-softwarefeature.md) object into a set of individually manageable or deployable parts for a particular platform. A software element's platform is uniquely identified by its underlying hardware architecture and operating system.
 
@@ -1005,7 +1005,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Internet schemes supported by WinHTTP.
+description: Internet schemes supported by WinHTTP.
 ms.assetid: 31e45879-807e-4dd5-9f99-94a46011e55e
 title: INTERNET_SCHEME (Winhttp.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ A SOCKS internet scheme. This scheme is only supported for use in [**WINHTTP\_PR
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>      |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>   |

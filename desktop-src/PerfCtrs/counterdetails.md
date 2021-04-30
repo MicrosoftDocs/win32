@@ -1,5 +1,5 @@
 ---
-Description: The CounterDetails table describes a specific counter on a particular computer.
+description: The CounterDetails table describes a specific counter on a particular computer.
 ms.assetid: e2a16a6e-8cd4-4fd3-adeb-461faed948e4
 title: CounterDetails
 ms.topic: article

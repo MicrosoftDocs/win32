@@ -1,5 +1,5 @@
 ---
-Description: Indicates the current status of a running expert.
+description: Indicates the current status of a running expert.
 ms.assetid: 49107459-599c-4710-8935-4b2c789081de
 title: EXPERTSTATUS structure (Netmon.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ Text that describes the expert status.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -22,7 +22,7 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFS-Link-Path-v2                         |
 | Ldap-Display-Name | msDFS-LinkPathv2                            |
@@ -45,7 +45,7 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
@@ -66,7 +66,7 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
@@ -87,7 +87,7 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |

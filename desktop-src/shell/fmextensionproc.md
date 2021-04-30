@@ -1,5 +1,5 @@
 ---
-Description: Specifies an application-defined callback function called by File Manager to communicate with a File Manager extension.
+description: Specifies an application-defined callback function called by File Manager to communicate with a File Manager extension.
 title: FMExtensionProc callback function (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -184,7 +184,7 @@ Returns a value dependent upon the *wMsg* parameter message.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

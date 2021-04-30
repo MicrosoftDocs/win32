@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskException members"
 title: EsentDiskException members
 TOCTitle: EsentDiskException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDiskException

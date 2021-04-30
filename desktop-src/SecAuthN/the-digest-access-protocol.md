@@ -1,5 +1,5 @@
 ---
-Description: The Digest Access Protocol
+description: The Digest Access Protocol
 ms.assetid: 7b2fd75e-dd0d-4a63-a84b-a64f08f883f2
 title: The Digest Access Protocol
 ms.topic: article

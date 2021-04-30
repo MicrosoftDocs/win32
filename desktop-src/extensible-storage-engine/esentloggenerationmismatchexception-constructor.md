@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogGenerationMismatchException constructor"
 title: EsentLogGenerationMismatchException constructor 
 TOCTitle: 'EsentLogGenerationMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException.#ctor

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_THREADSTATS operators"
 title: JET_THREADSTATS operators (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS operators
 ms:assetid: 008b884b-3d75-1c4e-15fb-f939e32bfdff

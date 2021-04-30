@@ -22,7 +22,7 @@ The name of a WMI Class object in an associated encoding (for example, Win32\_Co
 
 
 
-|                   |                                                                 |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------|
 | CN                | ms-WMI-Class                                                    |
 | Ldap-Display-Name | msWMI-Class                                                     |
@@ -47,7 +47,7 @@ The name of a WMI Class object in an associated encoding (for example, Win32\_Co
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -68,7 +68,7 @@ The name of a WMI Class object in an associated encoding (for example, Win32\_Co
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -89,7 +89,7 @@ The name of a WMI Class object in an associated encoding (for example, Win32\_Co
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -110,7 +110,7 @@ The name of a WMI Class object in an associated encoding (for example, Win32\_Co
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -131,7 +131,7 @@ The name of a WMI Class object in an associated encoding (for example, Win32\_Co
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

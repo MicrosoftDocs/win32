@@ -1,5 +1,5 @@
 ---
-Description: Multiplies each precomputed radiance transfer (PRT) vector by the per-vertex albedo.
+description: Multiplies each precomputed radiance transfer (PRT) vector by the per-vertex albedo.
 ms.assetid: 2b3e4b19-7778-4240-ac79-3237fda2ed96
 title: ID3DXPRTEngine::MultiplyAlbedo method (D3DX9Mesh.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ To include albedo in the rendered-light model, call this method after one of the
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

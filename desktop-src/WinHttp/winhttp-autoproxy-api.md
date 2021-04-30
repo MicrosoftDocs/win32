@@ -1,5 +1,5 @@
 ---
-Description: WinHTTP implements the WPAD protocol using the WinHttpGetProxyForUrl function along with two supporting utility functions, WinHttpDetectAutoProxyConfigUrl and WinHttpGetIEProxyConfigForCurrentUser.
+description: WinHTTP implements the WPAD protocol using the WinHttpGetProxyForUrl function along with two supporting utility functions, WinHttpDetectAutoProxyConfigUrl and WinHttpGetIEProxyConfigForCurrentUser.
 ms.assetid: d941e3c6-c1db-4de1-b640-4f582f86fc54
 title: WinHTTP AutoProxy Functions
 ms.topic: article

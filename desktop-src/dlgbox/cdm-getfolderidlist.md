@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # CDM\_GETFOLDERIDLIST message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/windows/win32/shell/common-file-dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Retrieves the address of the item identifier list corresponding to the folder that an Explorer-style **Open** or **Save As** dialog box currently has open. The dialog box must have been created with the **OFN\_EXPLORER** flag; otherwise, the message fails.
 
@@ -67,7 +67,7 @@ int CommDlg_OpenSave_GetFolderIDList(hwnd, lparam, wparam);
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

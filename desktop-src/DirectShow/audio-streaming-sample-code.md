@@ -1,5 +1,5 @@
 ---
-Description: Audio Streaming Sample Code
+description: Audio Streaming Sample Code
 ms.assetid: f3ba32c5-c3de-4f6b-bc89-f7860ca5f65b
 title: Audio Streaming Sample Code
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This section describes the individual property samples included in the Windows Software Development Kit (SDK) and, in most cases, downloadable from the MSDN Code Gallery.
+description: This section describes the individual property samples included in the Windows Software Development Kit (SDK) and, in most cases, downloadable from the MSDN Code Gallery.
 ms.assetid: 990fdc04-3712-4fbe-9531-839faedb9316
 title: Property System Code Samples
 ms.topic: article

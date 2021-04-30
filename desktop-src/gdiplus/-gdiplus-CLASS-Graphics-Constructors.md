@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the Graphics class. For a complete class listing, see Graphics Class.
+description: This topic lists the constructors of the Graphics class. For a complete class listing, see Graphics Class.
 ms.assetid: 76c4c444-cd6f-43ff-8ab7-96469d4505b9
 title: Graphics.Graphics constructors
 ms.date: 07/02/2019

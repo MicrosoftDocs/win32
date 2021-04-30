@@ -1,5 +1,5 @@
 ---
-Description: The Clear method clears the application protocol data unit (APDU) and reply APDU message buffers.
+description: The Clear method clears the application protocol data unit (APDU) and reply APDU message buffers.
 ms.assetid: 5fd3ebb9-b492-4668-9dd8-3ffbcfceb12c
 title: ISCardCmd::Clear method (Scarddat.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The put\_StopTime method sets the NTP (Network Time Protocol) ending time value. If the end time is zero, the session is not bounded.
+description: The put\_StopTime method sets the NTP (Network Time Protocol) ending time value. If the end time is zero, the session is not bounded.
 ms.assetid: 6f07054c-5fb2-4ee4-9025-3acf9b51ddbd
 title: ITTime::put_StopTime method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

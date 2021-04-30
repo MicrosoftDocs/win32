@@ -1,5 +1,5 @@
 ---
-Description: Assigns a nondefault disk quota to a new user.
+description: Assigns a nondefault disk quota to a new user.
 title: DiskQuotaControl.AddUser method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -69,7 +69,7 @@ If the user already exists, no new entry is created. The method returns the [**D
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

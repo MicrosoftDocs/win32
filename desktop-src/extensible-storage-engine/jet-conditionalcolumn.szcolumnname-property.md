@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONDITIONALCOLUMN.szColumnName property"
 title: JET_CONDITIONALCOLUMN.szColumnName property 
 TOCTitle: 'szColumnName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN.szColumnName

@@ -1,5 +1,5 @@
 ---
-Description: The GetTotalStatistics method retrieves the total statistics for the current capture.
+description: IStats::GetTotalStatistics method - The GetTotalStatistics method retrieves the total statistics for the current capture.
 ms.assetid: 494634f6-a9b3-4a50-8920-2387be9ba30f
 title: IStats::GetTotalStatistics method (Netmon.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ Network Monitor also stores [*conversation statistics*](c.md), which can be retr
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

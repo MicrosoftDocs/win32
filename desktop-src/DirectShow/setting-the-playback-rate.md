@@ -1,5 +1,5 @@
 ---
-Description: Setting the Playback Rate
+description: Setting the Playback Rate
 ms.assetid: 74ae45d3-4fea-491c-af1f-46768df41c5f
 title: Setting the Playback Rate
 ms.topic: article

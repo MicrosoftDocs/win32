@@ -1,5 +1,5 @@
 ---
-Description: The Volume Shadow Copy Service (VSS) API provides both COM and C++ interfaces to support the creation of requesters and writers.
+description: The Volume Shadow Copy Service (VSS) API provides both COM and C++ interfaces to support the creation of requesters and writers.
 ms.assetid: 3a0c60df-666c-4e33-a54c-7fa5ddbfde13
 title: Volume Shadow Copy API Interfaces
 ms.topic: article

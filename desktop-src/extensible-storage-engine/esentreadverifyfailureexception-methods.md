@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadVerifyFailureException methods"
 title: EsentReadVerifyFailureException methods
 TOCTitle: EsentReadVerifyFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentReadVerifyFailureException

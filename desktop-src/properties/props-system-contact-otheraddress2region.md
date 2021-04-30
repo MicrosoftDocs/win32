@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.OtherAddress2Region
 ms.assetid: 48651ed8-b624-454c-b5bd-14e725a49d35
 title: System.Contact.OtherAddress2Region
 ms.topic: article

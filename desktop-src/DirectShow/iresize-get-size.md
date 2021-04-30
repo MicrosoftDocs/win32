@@ -1,5 +1,5 @@
 ---
-Description: The get\_Size method returns the current output size and stretch mode.
+description: The get\_Size method returns the current output size and stretch mode.
 ms.assetid: 61c0e439-26ce-45fc-986a-0ffc17056a55
 title: IResize::get_Size method (Qedit.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ If the output type has not been set, the filter should return default values. Th
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | DirectX 9.0 or later<br/>                                                         |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

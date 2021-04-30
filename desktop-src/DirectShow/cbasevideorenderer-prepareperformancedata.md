@@ -1,5 +1,5 @@
 ---
-Description: The PreparePerformanceData method sets the m\_trLate and m\_trFrame values of the current frame.
+description: The PreparePerformanceData method sets the m\_trLate and m\_trFrame values of the current frame.
 ms.assetid: c4c5701b-eccd-4259-a1d1-7c5000f6b2df
 title: CBaseVideoRenderer.PreparePerformanceData method (Renbase.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ When the [**CBaseVideoRenderer::RecordFrameLateness**](cbasevideorenderer-record
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

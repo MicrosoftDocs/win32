@@ -1,5 +1,5 @@
 ---
-Description: Specifies the Surround downmix level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies the Surround downmix level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 4633f91b-2023-4d35-ba10-34818f0f632a
 title: AVEncDDSurroundDownMixLevel property (Codecapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

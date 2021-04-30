@@ -1,5 +1,5 @@
 ---
-Description: Adds a new enumerator to the SWbemRefresher object. This enumerator is for all the instances of the class that is specified in the strClass parameter.
+description: Adds a new enumerator to the SWbemRefresher object. This enumerator is for all the instances of the class that is specified in the strClass parameter.
 ms.assetid: 0fa22a47-4050-43ae-aad3-3a8ebbf5e9b2
 ms.tgt_platform: multiple
 title: SWbemRefresher.AddEnum method (Wbemdisp.h)
@@ -78,7 +78,7 @@ If the call is successful, an [**SWbemRefreshableItem**](swbemrefreshableitem.md
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

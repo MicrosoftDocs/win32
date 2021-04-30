@@ -1,5 +1,5 @@
 ---
-Description: The DocumentEvent function is an event handler for events associated with printing a document.
+description: The DocumentEvent function is an event handler for events associated with printing a document.
 ms.assetid: 1250116e-55c7-470f-97f6-36f27a31a841
 title: DocumentEvent function (Winspool.h)
 ms.topic: reference
@@ -227,7 +227,7 @@ If the escape code supplied in the *iEsc* parameter is DOCUMENTEVENT\_CREATEDCPR
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

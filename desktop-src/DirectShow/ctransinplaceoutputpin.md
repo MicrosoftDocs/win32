@@ -1,5 +1,5 @@
 ---
-Description: The CTransInPlaceOutputPin class implements an output pin that is used by the CTransInPlaceFilter class.
+description: The CTransInPlaceOutputPin class implements an output pin that is used by the CTransInPlaceFilter class.
 ms.assetid: 90d54807-85c1-43b9-8998-e1bcf7b54725
 title: CTransInPlaceOutputPin class (Transip.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Typically, you do not need to derive from this class. If you do, you must overri
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

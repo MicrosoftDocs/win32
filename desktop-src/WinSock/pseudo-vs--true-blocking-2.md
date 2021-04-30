@@ -1,5 +1,5 @@
 ---
-Description: Pseudoblocking pseudo blocking operations in Windows Sockets (Winsock).
+description: Pseudoblocking pseudo blocking operations in Windows Sockets (Winsock).
 ms.assetid: fa8f29f1-bb4f-4814-ab8a-52d3c83232bb
 title: Pseudo Blocking and True Blocking
 ms.topic: article

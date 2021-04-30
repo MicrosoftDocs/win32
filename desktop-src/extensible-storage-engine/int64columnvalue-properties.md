@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Int64ColumnValue properties"
 title: Int64ColumnValue properties
 TOCTitle: Int64ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Int64ColumnValue

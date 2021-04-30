@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteSystemTableException methods"
 title: EsentCannotDeleteSystemTableException methods
 TOCTitle: EsentCannotDeleteSystemTableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteSystemTableException

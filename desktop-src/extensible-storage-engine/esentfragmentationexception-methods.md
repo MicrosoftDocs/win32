@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFragmentationException methods"
 title: EsentFragmentationException methods
 TOCTitle: EsentFragmentationException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFragmentationException

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interface
+# Interface (RRAS)
 
 An interface is a logical connection to a network. Each interface is identified by a unique index. Multicast routing protocols (such as MOSPF) deal with all types of interfaces similarly.
 

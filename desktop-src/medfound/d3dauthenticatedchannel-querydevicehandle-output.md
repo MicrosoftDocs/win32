@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_DEVICEHANDLE query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_DEVICEHANDLE query.
 ms.assetid: f2e0ae6c-dc97-46f7-933f-6c14d83adf18
 title: D3DAUTHENTICATEDCHANNEL_QUERYDEVICEHANDLE_OUTPUT structure (D3d9types.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ A handle to the device.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

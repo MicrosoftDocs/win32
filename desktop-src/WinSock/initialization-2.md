@@ -1,5 +1,5 @@
 ---
-Description: The Ws2\_32.dll loads the service provider's interface DLL into the system by using the standard Microsoft Windows dynamic library loading mechanisms, and initializes it by calling WSPStartup.
+description: The Ws2\_32.dll loads the service provider's interface DLL into the system by using the standard Microsoft Windows dynamic library loading mechanisms, and initializes it by calling WSPStartup.
 ms.assetid: 6df28d93-8757-45b3-8f05-86381c3be64e
 title: Initialization
 ms.topic: article

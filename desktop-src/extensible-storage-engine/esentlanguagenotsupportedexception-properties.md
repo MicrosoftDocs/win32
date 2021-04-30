@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLanguageNotSupportedException properties"
 title: EsentLanguageNotSupportedException properties
 TOCTitle: EsentLanguageNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLanguageNotSupportedException

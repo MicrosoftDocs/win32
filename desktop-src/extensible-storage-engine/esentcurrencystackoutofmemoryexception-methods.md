@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCurrencyStackOutOfMemoryException methods"
 title: EsentCurrencyStackOutOfMemoryException methods
 TOCTitle: EsentCurrencyStackOutOfMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.cbSeparateLV property"
 title: JET_TABLECREATE.cbSeparateLV property 
 TOCTitle: 'cbSeparateLV property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cbSeparateLV

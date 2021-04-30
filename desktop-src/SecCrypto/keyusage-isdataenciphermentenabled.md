@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the dataEncipherment bit is set.
+description: Retrieves a Boolean value that indicates whether the dataEncipherment bit is set.
 ms.assetid: 9b29a76f-1494-4db3-a5d7-69fe631ca1dd
 title: KeyUsage.IsDataEnciphermentEnabled property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the dataEncipherment bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

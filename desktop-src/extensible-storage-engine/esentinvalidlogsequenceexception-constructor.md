@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogSequenceException constructor"
 title: EsentInvalidLogSequenceException constructor 
 TOCTitle: 'EsentInvalidLogSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLogSequenceException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Working with DMO Media Types
+description: Working with DMO Media Types
 ms.assetid: 1aaf7554-1a5f-439a-afb1-a031607e1a1e
 title: Working with DMO Media Types
 ms.topic: article

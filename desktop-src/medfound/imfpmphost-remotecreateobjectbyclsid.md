@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFPMPHost::CreateObjectByCLSID method.
+description: Remotable version of the IMFPMPHost::CreateObjectByCLSID method.
 ms.assetid: be96be6d-47de-4d2b-81fc-13079de33888
 title: RemoteCreateObjectByCLSID (Mfobjects.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

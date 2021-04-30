@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaType method is called when the media type is set on one of the filter's pins.
+description: The SetMediaType method is called when the media type is set on one of the filter's pins.
 ms.assetid: 3e505036-7fa6-42cf-a683-3a39a43d209d
 title: CTransformFilter.SetMediaType method (Transfrm.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The [**CTransformInputPin::SetMediaType**](ctransforminputpin-setmediatype.md) a
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

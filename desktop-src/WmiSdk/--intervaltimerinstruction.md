@@ -1,5 +1,5 @@
 ---
-Description: Generates events at intervals, similar to a WM\_TIMER message in Windows programming.
+description: Generates events at intervals, similar to a WM\_TIMER message in Windows programming.
 ms.assetid: 0895a743-a0dd-4833-a2bf-0196369e18b9
 ms.tgt_platform: multiple
 title: '__IntervalTimerInstruction class'
@@ -150,7 +150,7 @@ instance of __IntervalTimerInstruction
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

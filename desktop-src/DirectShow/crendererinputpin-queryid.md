@@ -1,5 +1,5 @@
 ---
-Description: The QueryId method retrieves the pin identifier. This method overrides the CBasePin::QueryId method.
+description: The QueryId method retrieves the pin identifier. This method overrides the CBasePin::QueryId method.
 ms.assetid: 9543234c-5349-49d0-b410-1c461ee4eabe
 title: CRendererInputPin.QueryId method (Renbase.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This method allocates the wide-character string "In" and assigns it to the *Id* 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

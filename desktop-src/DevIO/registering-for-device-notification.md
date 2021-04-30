@@ -4,7 +4,7 @@ description: Applications can use the RegisterDeviceNotification function to reg
 ms.date: 08/28/2020
 ms.assetid: f3a4477a-7b09-4943-8b06-f252f8f9fed8
 ms.topic: article
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ---
 
 # Registering for device notification

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the subject name from the signing certificate.
+description: Retrieves the subject name from the signing certificate.
 ms.assetid: e50b1e12-ec89-4d58-aa57-dc24aa2409ef
 title: ISCrdEnr::getSigningCertificateName method
 ms.topic: reference
@@ -83,7 +83,7 @@ The **getSigningCertificateName** method returns the subject name of the certifi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

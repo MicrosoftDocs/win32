@@ -1,5 +1,5 @@
 ---
-Description: Adds a Certificate object to the collection.
+description: Adds a Certificate object to the collection.
 ms.assetid: 0973018d-1e83-41b4-a250-7dd5be2fb664
 title: ICertificates2::Add method
 ms.topic: reference
@@ -52,7 +52,7 @@ This method does not return a value.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a request to start debugging a shader.
+description: Not used. Formerly a request to start debugging a shader.
 MS-HAID: vspixengine.IDebugShaderRequest
 MSHAttr:
 - PreferredSiteName:MSDN

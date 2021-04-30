@@ -1,5 +1,5 @@
 ---
-Description: Direct3D is a low-level API for drawing primitives with the rendering pipeline, or for performing parallel operations with the compute shader.
+description: Direct3D is a low-level API for drawing primitives with the rendering pipeline, or for performing parallel operations with the compute shader.
 ms.assetid: 193640FE-7E88-4BC4-B4CD-867169375F2B
 title: Direct3D
 ms.topic: article

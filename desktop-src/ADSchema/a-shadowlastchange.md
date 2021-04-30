@@ -21,7 +21,7 @@ Contains the last change of the shadow information.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | shadowLastChange                     |
 | Ldap-Display-Name | shadowLastChange                     |
@@ -45,7 +45,7 @@ Contains the last change of the shadow information.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -66,7 +66,7 @@ Contains the last change of the shadow information.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -87,7 +87,7 @@ Contains the last change of the shadow information.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -108,7 +108,7 @@ Contains the last change of the shadow information.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

@@ -1,5 +1,5 @@
 ---
-Description: The Winsock Transport SPI is similar to the Winsock API in that all of the basic socket functions appear.
+description: The Winsock Transport SPI is similar to the Winsock API in that all of the basic socket functions appear.
 ms.assetid: 37ef8a69-2aa0-4824-8ca9-4b84158086db
 title: Transport Mapping Between API and SPI Functions
 ms.topic: article

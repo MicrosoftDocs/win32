@@ -1,6 +1,6 @@
 ---
 title: g_wszWMVCBMax (Wmcodecdsp.h)
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | g_wszWMVCBMax (Wmcodecdsp.h)
 ms.assetid: 588d9907-daa9-4663-b593-669b73debe0b
 keywords:
 - g_wszWMVCBMax windows Media Format
@@ -24,7 +24,7 @@ For current documentation on Windows Media codecs and digital signal processors,
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |
 

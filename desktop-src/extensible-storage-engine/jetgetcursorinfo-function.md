@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetCursorInfo Function"
 title: JetGetCursorInfo Function
 TOCTitle: JetGetCursorInfo Function
 ms:assetid: e779fa5d-1d7e-46f1-80c9-f7c819279188

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException.Error property"
 title: EsentErrorException.Error property 
 TOCTitle: 'Error property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentErrorException.Error

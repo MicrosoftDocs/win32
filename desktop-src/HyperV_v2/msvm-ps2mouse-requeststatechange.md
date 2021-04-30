@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_Ps2Mouse class - Requests a state change.
 ms.assetid: a61c17a8-f89d-47aa-8c4f-46ccf478103e
 title: RequestStateChange method of the Msvm_Ps2Mouse class
 ms.topic: reference
@@ -152,7 +152,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

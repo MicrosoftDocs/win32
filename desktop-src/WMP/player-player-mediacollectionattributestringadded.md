@@ -1,6 +1,6 @@
 ---
 title: Player.MediaCollectionAttributeStringAdded event
-description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library.
+description: The MediaCollectionAttributeStringAdded event occurs when an attribute value is added to the library. | Player.MediaCollectionAttributeStringAdded event
 ms.assetid: 0a7fd61f-0429-4c1c-8790-d2f0e7f41d44
 keywords:
 - MediaCollectionAttributeStringAdded event Windows Media Player
@@ -68,7 +68,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaType method specifies the media type for the connection on the input pin of the Sample Grabber.
+description: The SetMediaType method specifies the media type for the connection on the input pin of the Sample Grabber.
 ms.assetid: 9568832f-6666-45c9-9421-485c877affb3
 title: ISampleGrabber::SetMediaType method (Qedit.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Now the Sample Grabber will check the subtype, and accept only RGB 24 video.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

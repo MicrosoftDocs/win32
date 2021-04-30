@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnRedundantException methods"
 title: EsentColumnRedundantException methods
 TOCTitle: EsentColumnRedundantException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnRedundantException

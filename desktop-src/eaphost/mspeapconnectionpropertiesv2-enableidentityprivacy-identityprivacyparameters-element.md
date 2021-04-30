@@ -1,6 +1,6 @@
 ---
 title: EnableIdentityPrivacy (IdentityPrivacyParameters) Element
-description: Indicates whether a user's true identity or an anonymous identity is sent.
+description: Indicates whether a user's true identity or an anonymous identity is sent. | EnableIdentityPrivacy (IdentityPrivacyParameters) Element
 ms.assetid: 7751e5fa-895e-47f7-99d9-aa7ef2451eb1
 keywords:
 - EnableIdentityPrivacy element EAPHost
@@ -35,7 +35,7 @@ The **EnableIdentityPrivacy** element is optional.
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

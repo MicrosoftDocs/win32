@@ -1,6 +1,6 @@
 ---
 title: Distributed File System Reference
-Description: The DFS API includes the following elements
+description: The DFS API includes the following elements
 ms.assetid: 42e7f84a-ce25-4cb4-95ae-2a6f90912e0a
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Grbits class"
 title: Windows8Grbits class (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Grbits class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits

@@ -1,5 +1,5 @@
 ---
-Description: When performing a VSS backup or restore, the Windows system state is defined as being a collection of several key operating system elements and their files. These elements should always be treated as a unit by backup and restore operations.
+description: When performing a VSS backup or restore, the Windows system state is defined as being a collection of several key operating system elements and their files. These elements should always be treated as a unit by backup and restore operations.
 ms.assetid: 48721358-8450-462f-8f99-23e207311041
 title: Backing Up and Restoring System State
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableException class"
 title: EsentInstanceUnavailableException class
 TOCTitle: EsentInstanceUnavailableException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the basic constraints extension is present. This is the default property.
+description: Retrieves a Boolean value that indicates whether the basic constraints extension is present. This is the default property.
 ms.assetid: 775b37fc-5015-4096-9e94-608f13a5ed14
 title: BasicConstraints.IsPresent property
 ms.topic: reference
@@ -40,7 +40,7 @@ If **true**, the basic constraints extension is present.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsFailureException methods"
 title: EsentRfsFailureException methods
 TOCTitle: EsentRfsFailureException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRfsFailureException

@@ -1,5 +1,5 @@
 ---
-Description: Provides the ability to preview the current World Wide Port Name (WWPN) without the WWPN being reserved.
+description: Provides the ability to preview the current World Wide Port Name (WWPN) without the WWPN being reserved.
 ms.assetid: 7fc02099-744e-4a56-ae4b-1f5fd6a1eb45
 title: GetCurrentWwpnFromGenerator method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -87,7 +87,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

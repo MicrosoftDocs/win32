@@ -1,5 +1,5 @@
 ---
-Description: Displays the Apps Search pane, which normally appears when you begin to type a search term from the Start screen.
+description: Displays the Apps Search pane, which normally appears when you begin to type a search term from the Start screen.
 title: IShellDispatch6.SearchCommand method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -64,7 +64,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |

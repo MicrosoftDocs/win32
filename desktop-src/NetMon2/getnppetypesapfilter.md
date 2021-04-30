@@ -1,5 +1,5 @@
 ---
-Description: The GetNPPEtypeSapFilter function retrieves the Etype/Sap filter from a given BLOB.
+description: The GetNPPEtypeSapFilter function retrieves the Etype/Sap filter from a given BLOB.
 ms.assetid: c4891eff-ab2d-43ff-8d2b-3aa299570c0a
 title: GetNPPEtypeSapFilter function (Netmon.h)
 ms.topic: reference
@@ -103,7 +103,7 @@ The Etype/Sap information is stored in the **Config** category of the NPP **Owne
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

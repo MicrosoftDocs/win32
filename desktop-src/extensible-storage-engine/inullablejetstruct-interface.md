@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: INullableJetStruct interface"
 title: INullableJetStruct interface
 TOCTitle: INullableJetStruct interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.INullableJetStruct

@@ -1,5 +1,5 @@
 ---
-Description: Provides functionality for getting the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
+description: Provides functionality for getting the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
 ms.assetid: 80078ed6-61cc-4fb9-8fd5-eda78cd5be30
 title: IMFDXGIDeviceManagerSource interface
 ms.topic: reference
@@ -43,7 +43,7 @@ The **IMFDXGIDeviceManagerSource** interface has these methods.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                       |

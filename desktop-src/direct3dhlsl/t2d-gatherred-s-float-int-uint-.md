@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherRed(S,float,int,uint) function
-description: Samples a texture and returns the red component along with status about the operation.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | Texture2D::GatherRed(S,float,int,uint) function
 ms.assetid: B49F738F-FB5C-4004-A3F3-D87C566DB597
 keywords:
 - GatherRed function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherRed(S,float,int,uint) function
+# Texture2D::GatherRed(S,float,int,uint) function
 
-Samples a texture and returns the red component along with status about the operation.
+Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 

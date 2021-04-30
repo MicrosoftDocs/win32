@@ -1,5 +1,5 @@
 ---
-Description: Describes possible machine architectures.
+description: Describes possible machine architectures.
 ms.assetid: 1E5E4F98-925B-424D-9B3D-BC6716FBF990
 title: Image File Machine Constants (Winnt.h)
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Image File Machine Constants
 
-Describes possible machine architectures. Used in [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a) and [**IsWow64GuestMachineSupported**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64guestmachinesupported).
+Describes possible machine architectures. Used in [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a), [**IsWow64GuestMachineSupported**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64guestmachinesupported) and [**IsWow64Process2**](/windows/win32/api/wow64apiset/nf-wow64apiset-iswow64process2).
 
 <dl> <dt>
 
@@ -447,7 +447,7 @@ CEE
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

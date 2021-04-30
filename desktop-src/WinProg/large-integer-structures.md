@@ -11,15 +11,12 @@ ms.date: 05/31/2018
 The following structures represent large integers:
 
 <dl>
-
-[**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)  
-[**ULARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-ularge_integer~r1)  
+  <dt>
+    
+  [**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1)
+  </dt>
+  <dt>
+  
+  [**ULARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-ularge_integer-r1)
+  </dt>
 </dl>
-
- 
-
- 
-
-
-
-

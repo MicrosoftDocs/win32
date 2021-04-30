@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_BITRATE\_TYPES enumeration type describes an audio files compression type.
+description: The WPD\_BITRATE\_TYPES enumeration type describes an audio files compression type.
 ms.assetid: 9905b189-00c5-469b-ae48-10c79b9ac903
 title: WPD_BITRATE_TYPES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Free format bit rate. This is a constant bit rate that is lower than the maximum
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

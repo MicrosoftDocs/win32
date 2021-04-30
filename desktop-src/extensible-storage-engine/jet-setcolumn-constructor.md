@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN constructor"
 title: JET_SETCOLUMN constructor 
 TOCTitle: 'JET_SETCOLUMN constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.#ctor

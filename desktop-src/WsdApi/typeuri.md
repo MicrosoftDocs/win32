@@ -1,5 +1,5 @@
 ---
-Description: Specifies a type to include from an XSD file.
+description: Specifies a type to include from an XSD file.
 ms.assetid: dd3894a8-1848-4ae0-ba6c-42ac4fe36ff3
 title: typeUri element
 ms.topic: reference
@@ -47,7 +47,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

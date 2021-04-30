@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS methods"
 title: JET_LS methods
 TOCTitle: JET_LS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_LS

@@ -1,12 +1,12 @@
 ---
-Description: Two example binary template definitions and an example of a binary data object follow.
+description: Two example binary template definitions and an example of a binary data object follow.
 ms.assetid: 'vs|directx_sdk|~\examples.htm'
 title: Examples (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Examples
+# Examples (Direct3D 9 Graphics)
 
 Two example binary template definitions and an example of a binary data object follow.
 

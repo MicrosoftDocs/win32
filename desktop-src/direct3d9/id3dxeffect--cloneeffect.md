@@ -1,5 +1,5 @@
 ---
-Description: Creates a copy of an effect.
+description: Creates a copy of an effect.
 ms.assetid: 6272bce0-b712-4a61-afe2-8f572993b03e
 title: ID3DXEffect::CloneEffect method (D3DX9Effect.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ To update shared and non-shared parameters in an active technique of a cloned ef
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

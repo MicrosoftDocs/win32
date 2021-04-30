@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetRetrieveColumns method"
 title: Api.JetRetrieveColumns method 
 TOCTitle: 'JetRetrieveColumns method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRetrieveColumns(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN[],System.Int32)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLCMapStringFlagsException properties"
 title: EsentInvalidLCMapStringFlagsException properties
 TOCTitle: EsentInvalidLCMapStringFlagsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidLCMapStringFlagsException

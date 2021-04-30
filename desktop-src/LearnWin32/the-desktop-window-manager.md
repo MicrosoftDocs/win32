@@ -1,6 +1,6 @@
 ---
 title: The Desktop Window Manager
-description: .
+description: The Desktop Window Manager
 ms.assetid: 79250d49-dad5-46c6-892d-b92dac14b417
 ms.topic: article
 ms.date: 05/31/2018

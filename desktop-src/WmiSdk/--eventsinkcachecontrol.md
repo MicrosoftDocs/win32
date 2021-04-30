@@ -1,5 +1,5 @@
 ---
-Description: Used to determine when WMI releases an event consumer providers IWbemUnboundObjectSink pointer.
+description: Used to determine when WMI releases an event consumer providers IWbemUnboundObjectSink pointer.
 ms.assetid: f7b14efc-a2f7-4e99-8ec8-5b5af0743139
 ms.tgt_platform: multiple
 title: __EventSinkCacheControl class
@@ -66,7 +66,7 @@ The **\_\_EventSinkCacheControl** class is derived from [**\_\_CacheControl**](-
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

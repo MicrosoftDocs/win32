@@ -1,5 +1,5 @@
 ---
-Description: Number of buffers to provide.
+description: Number of buffers to provide.
 ms.assetid: 73f87b14-4346-4909-bd1e-c4981cde403d
 title: CBaseAllocator::m_lCount member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ long m_lCount;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

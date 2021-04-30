@@ -1,5 +1,5 @@
 ---
-Description: The NotifyEndOfStream method posts an EC\_COMPLETE event to the filter graph manager.
+description: The NotifyEndOfStream method posts an EC\_COMPLETE event to the filter graph manager.
 ms.assetid: 9eec5b65-654d-4b2e-be39-93225a7674a5
 title: CBaseRenderer.NotifyEndOfStream method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidParameterException class"
 title: EsentInvalidParameterException class
 TOCTitle: EsentInvalidParameterException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException

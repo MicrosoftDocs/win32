@@ -1,5 +1,5 @@
 ---
-Description: Opens the specified shim database.
+description: Opens the specified shim database.
 ms.assetid: 148181d7-a20a-467c-984b-e32013960783
 title: SdbOpenDatabase function
 ms.topic: reference
@@ -57,7 +57,7 @@ The function returns a handle to the shim database.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

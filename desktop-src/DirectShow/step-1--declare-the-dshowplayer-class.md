@@ -1,5 +1,5 @@
 ---
-Description: This topic is step 1 of the tutorial Audio/Video Playback in DirectShow.
+description: This topic is step 1 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 3ccd201d-e60d-40bf-a602-6d42df03b36b
 title: 'Step 1: Declare the DShowPlayer Class'
 ms.topic: article

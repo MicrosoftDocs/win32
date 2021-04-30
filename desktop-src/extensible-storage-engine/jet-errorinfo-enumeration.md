@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ErrorInfo enumeration"
 title: JET_ErrorInfo enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_ErrorInfo enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JET_ErrorInfo

@@ -1,5 +1,5 @@
 ---
-Description: Searching for Assembly Files
+description: Searching for Assembly Files
 ms.assetid: 6e6c1104-5cde-4c07-9ee2-d87062675dac
 title: Searching for Assembly Files
 ms.topic: article

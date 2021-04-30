@@ -1,5 +1,5 @@
 ---
-Description: Stops the filter. This method implements the IMediaFilter::Stop method.
+description: Stops the filter. This method implements the IMediaFilter::Stop method.
 ms.assetid: e95537d6-b3ec-49a4-aa28-333d69eff3bb
 title: CTransformFilter.Stop method (Transfrm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ After this method decommits both allocators, it calls the [**StopStreaming**](ct
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The following sample code shows how to create Shell extensions for a custom protocol handler.
+description: The following sample code shows how to create Shell extensions for a custom protocol handler.
 ms.assetid: 4b65ced8-8dc9-43f6-bfe1-3703aea3459f
 title: 'Code Sample: Shell Extensions for Protocol Handlers'
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update class"
 title: Update class
 TOCTitle: Update class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Update

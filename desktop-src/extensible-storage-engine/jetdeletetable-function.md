@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDeleteTable Function"
 title: JetDeleteTable Function
 TOCTitle: JetDeleteTable Function
 ms:assetid: e8a4131f-a69b-41f3-94c6-a1607fc23c1f

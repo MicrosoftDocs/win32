@@ -1,5 +1,5 @@
 ---
-Description: Detaches the mounted storage image that is associated with this class.
+description: Detaches the mounted storage image that is associated with this class.
 ms.assetid: C3AB0EEE-71FE-4049-90AB-01F5D77E3B97
 title: DetachVirtualHardDisk method of the Msvm_MountedStorageImage class
 ms.topic: reference
@@ -102,7 +102,7 @@ public static void DetachVirtualHardDisk(string path)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The SplitAt method splits the object at the specified time.
+description: The SplitAt method splits the object at the specified time.
 ms.assetid: 37870c6f-a35e-4c08-8188-1c4c7b25ff88
 title: IAMTimelineSplittable::SplitAt method (Qedit.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ For a track, if the split time is later than everything in the track, the method
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The RealTimeStylus class enables you to interact with the data stream from the tablet pen. To interact with the data stream, add a RealTimeStylus object to your application, and add plug-ins to the RealTimeStylus object.
+description: The RealTimeStylus class enables you to interact with the data stream from the tablet pen. To interact with the data stream, add a RealTimeStylus object to your application, and add plug-ins to the RealTimeStylus object.
 ms.assetid: 4009aeac-d290-4ea5-a6f5-199010acc84d
 title: Working with the StylusInput APIs
 ms.topic: article

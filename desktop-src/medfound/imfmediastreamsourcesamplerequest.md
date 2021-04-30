@@ -1,5 +1,5 @@
 ---
-Description: Represents a request for a sample from a MediaStreamSource.
+description: Represents a request for a sample from a MediaStreamSource.
 ms.assetid: 43617cda-84b1-405f-8a20-be793413c186
 title: IMFMediaStreamSourceSampleRequest interface
 ms.topic: reference
@@ -47,7 +47,7 @@ The **IMFMediaStreamSourceSampleRequest** interface has these methods.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                       |

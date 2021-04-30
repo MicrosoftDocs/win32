@@ -1,5 +1,5 @@
 ---
-Description: Creates a thread.
+description: Creates a thread.
 ms.assetid: 40785522-dc6e-41af-8b27-9e8875a0dd84
 title: CMsgThread.CreateThread method (Msgthrd.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The thread will loop, blocking until a request is queued (through the [**CMsgThr
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Msgthrd.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

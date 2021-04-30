@@ -1,5 +1,5 @@
 ---
-Description: Represents information about pixel history.
+description: Represents information about pixel history.
 MS-HAID: vspixengine.PixelHistoryOperation
 MSHAttr:
 - PreferredSiteName:MSDN

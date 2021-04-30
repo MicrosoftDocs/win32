@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointCorruptException constructor"
 title: EsentCheckpointCorruptException constructor 
 TOCTitle: 'EsentCheckpointCorruptException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException.#ctor

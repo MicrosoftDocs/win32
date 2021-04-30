@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Telephony Application Programming Interface (TAPI) version 3.1 is a Component Object Model (COM)-based API that merges classic and IP telephony.
+description: The Microsoft Telephony Application Programming Interface (TAPI) version 3.1 is a Component Object Model (COM)-based API that merges classic and IP telephony.
 ms.assetid: 79c4d2c9-953e-4e68-98b7-6a0dd9a04e0b
 title: Telephony Application Programming Interface Version 3.1
 ms.topic: article

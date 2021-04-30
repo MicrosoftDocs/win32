@@ -1,5 +1,5 @@
 ---
-Description: Issuing Raw AV/C Commands
+description: Issuing Raw AV/C Commands
 ms.assetid: 18081652-962f-4605-84b7-1fa60f61ad05
 title: Issuing Raw AV/C Commands
 ms.topic: article

@@ -48,7 +48,7 @@ Gets the current text layout. For a list of possible text layout values, see [**
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IContextNode object for a specified globally unique identifier (GUID).
+description: Retrieves the IContextNode object for a specified globally unique identifier (GUID).
 ms.assetid: b8340666-98ab-4d8c-93c7-58ed05ef30d2
 title: IInkAnalyzer::FindNode method (IACom.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ If no such [**IContextNode**](icontextnode.md) object exists as a descendant of 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

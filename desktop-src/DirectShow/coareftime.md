@@ -1,5 +1,5 @@
 ---
-Description: The COARefTime class converts reference times between seconds and 100-nanosecond units.
+description: The COARefTime class converts reference times between seconds and 100-nanosecond units.
 ms.assetid: 724420fc-9252-468f-9516-174be0a82999
 title: COARefTime class (Ctlutil.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Filters can use the `COARefTime` class to convert between the two formats. This 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

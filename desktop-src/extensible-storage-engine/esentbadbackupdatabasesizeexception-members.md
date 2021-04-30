@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBackupDatabaseSizeException members"
 title: EsentBadBackupDatabaseSizeException members
 TOCTitle: EsentBadBackupDatabaseSizeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException

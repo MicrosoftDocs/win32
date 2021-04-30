@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileCorruptException class"
 title: EsentLogFileCorruptException class
 TOCTitle: EsentLogFileCorruptException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogFileCorruptException

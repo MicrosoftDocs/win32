@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_SerialController class - Requests a state change.
 ms.assetid: 0c7123fb-3ddc-4fd8-96a9-aea77fa987cb
 title: RequestStateChange method of the Msvm_SerialController class
 ms.topic: reference
@@ -150,7 +150,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1, version 1703<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

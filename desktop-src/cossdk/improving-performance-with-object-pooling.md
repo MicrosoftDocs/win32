@@ -1,5 +1,5 @@
 ---
-Description: Improving Performance with Object Pooling
+description: Improving Performance with Object Pooling
 ms.assetid: 7a8a38d8-6549-4686-a298-f3b427b380e3
 title: Improving Performance with Object Pooling
 ms.topic: article

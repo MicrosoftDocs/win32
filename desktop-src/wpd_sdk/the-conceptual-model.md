@@ -1,5 +1,5 @@
 ---
-Description: The Conceptual Model
+description: The Conceptual Model
 ms.assetid: f906466e-acdc-4d0f-bf27-c5a25dc56c01
 title: The Conceptual Model
 ms.topic: article

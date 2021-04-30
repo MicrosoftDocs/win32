@@ -1,5 +1,5 @@
 ---
-Description: One of the first steps in creating a permanent event consumer is to create the WMI class that describes the event consumer. Specifically, the permanent event consumer class defines the parameters of the action implemented by the physical consumer.
+description: One of the first steps in creating a permanent event consumer is to create the WMI class that describes the event consumer. Specifically, the permanent event consumer class defines the parameters of the action implemented by the physical consumer.
 ms.assetid: a5b6d0b9-8df1-47e3-bb3b-cc69db6d9c0e
 ms.tgt_platform: multiple
 title: Creating a New Permanent Event Consumer Class

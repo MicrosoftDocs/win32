@@ -1,5 +1,5 @@
 ---
-Description: Represents the properties of a sound device on a computer system running Windows.
+description: Represents the properties of a sound device on a computer system running Windows.
 ms.assetid: 5471ffe9-60a3-466f-a608-e6268ba73c2b
 ms.tgt_platform: multiple
 title: Win32_SoundDevice class
@@ -1279,7 +1279,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

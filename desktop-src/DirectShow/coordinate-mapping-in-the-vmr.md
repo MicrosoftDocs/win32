@@ -1,5 +1,5 @@
 ---
-Description: Coordinate Mapping in the VMR
+description: Coordinate Mapping in the VMR
 ms.assetid: f0821b90-51d1-4e77-8aed-04337a3dd623
 title: Coordinate Mapping in the VMR
 ms.topic: article

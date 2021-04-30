@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentIndexException members"
 title: EsentNoCurrentIndexException members
 TOCTitle: EsentNoCurrentIndexException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException

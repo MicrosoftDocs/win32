@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the video is monochrome (black and white) or contains color.
+description: Specifies whether the video is monochrome (black and white) or contains color.
 ms.assetid: 4f6257e0-3ca9-4d10-a207-cd9600502298
 title: AVEncVideoSourceIsBW property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is **VARIANT\_TRUE**, the video is monochrome. Otherwise, the video
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

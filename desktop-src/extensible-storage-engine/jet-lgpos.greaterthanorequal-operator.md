@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.GreaterThanOrEqual operator"
 title: JET_LGPOS.GreaterThanOrEqual operator 
 TOCTitle: 'GreaterThanOrEqual operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LGPOS.op_GreaterThanOrEqual(Microsoft.Isam.Esent.Interop.JET_LGPOS,Microsoft.Isam.Esent.Interop.JET_LGPOS)

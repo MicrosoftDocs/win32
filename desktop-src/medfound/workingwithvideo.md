@@ -1,12 +1,12 @@
 ---
-Description: Working with Video
+description: Working with Video
 ms.assetid: ef361c85-8f3b-4719-80f2-853c84ae7277
 title: Working with Video (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Working with Video
+# Working with Video (Microsoft Media Foundation)
 
 Although the individual video codecs have their own peculiarities, all use the same basic procedures. This section describes how to encode and decode video with the Windows Media Video codecs, and addresses the particular features of each. This section contains the following topics.
 

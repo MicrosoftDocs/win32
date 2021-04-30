@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDefragment2 Function"
 title: JetDefragment2 Function
 TOCTitle: JetDefragment2 Function
 ms:assetid: cfb190cf-8bd3-4479-a6a1-7c0c9e8c74ca
@@ -41,15 +42,17 @@ The resulting format of the data can be much more efficient but is not generally
 
 This operation is different from [JetCompact](./jetcompact-function.md) which makes a copy of a read-only database into a highly optimal form.
 
-    JET_ERR JET_API JetDefragment2(
-      __in          JET_SESID sesid,
-      __in          JET_DBID dbid,
-      __in          JET_PCSTR szTableName,
-      __out_opt     unsigned long* pcPasses,
-      __out_opt     unsigned long* pcSeconds,
-      __in          JET_CALLBACK callback,
-      __in          JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetDefragment2(
+  __in          JET_SESID sesid,
+  __in          JET_DBID dbid,
+  __in          JET_PCSTR szTableName,
+  __out_opt     unsigned long* pcPasses,
+  __out_opt     unsigned long* pcSeconds,
+  __in          JET_CALLBACK callback,
+  __in          JET_GRBIT grbit
+);
+```
 
 ### Parameters
 
@@ -63,7 +66,15 @@ The database to defragment.
 
 *szTableName*
 
-Unused parameter. Defragmentation is performed for the entire database described by the given database ID.
+Sometimes *szTableName* is required, and sometimes it is forbidden:
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | Must be `NULL`. |
+| `JET_bitDefragmentBTree` | Specifies the name of the table/BTree to defragment. |
+| *other* | Must be `NULL`. |
+ 
+Defragmentation is performed for the entire database described by the given database ID.
 
 *pcPasses*
 
@@ -80,6 +91,13 @@ When this parameter is set to NULL or if *pcSeconds* points to a negative value,
 *callback*
 
 Callback function that defragmentation calls regularly to report progress.
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | Must be `NULL`. |
+| `JET_bitDefragmentBTree` | Must be `NULL`. |
+| *other* | Optional.
+
 
 *grbit*
 
@@ -111,7 +129,11 @@ A group of bits specifying zero or more of the following options.
 </tr>
 <tr class="even">
 <td><p>JET_bitDefragmentBTree</p></td>
-<td><p>This option is used to defrag a B-Tree.</p></td>
+<td><p>This option is used to defrag a B-Tree, specified by szTableName.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_bitDefragmentBTreeBatch</p></td>
+<td><p>This option is used to call OLD2 on the entire database.</p></td>
 </tr>
 </tbody>
 </table>

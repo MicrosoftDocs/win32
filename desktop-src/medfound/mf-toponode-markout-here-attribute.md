@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the pipeline applies mark-out at this node. Mark-out is the point where a presentation ends. If pipeline components generate data past the mark-out point, the data is not rendered.
+description: Specifies whether the pipeline applies mark-out at this node. Mark-out is the point where a presentation ends. If pipeline components generate data past the mark-out point, the data is not rendered.
 ms.assetid: adf2361a-90c7-4650-a486-5c450a41ab54
 title: MF_TOPONODE_MARKOUT_HERE attribute (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

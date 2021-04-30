@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetComputeStats method"
 title: Api.JetComputeStats method 
 TOCTitle: 'JetComputeStats method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetComputeStats(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

@@ -1,5 +1,5 @@
 ---
-Description: Describes how to read an existing XPS document from a file into an XPS OM.
+description: Describes how to read an existing XPS document from a file into an XPS OM.
 ms.assetid: 92a8d19f-1c9e-4e02-a3d4-f2869ec871df
 title: Read an XPS Document into an XPS OM
 ms.topic: article

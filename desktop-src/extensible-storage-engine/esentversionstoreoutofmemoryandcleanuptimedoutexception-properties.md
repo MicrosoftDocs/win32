@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException properties"
 title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException properties
 TOCTitle: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryAndCleanupTimedOutException

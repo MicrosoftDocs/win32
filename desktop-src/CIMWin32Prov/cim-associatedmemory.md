@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AssociateMemory class associates installed or associated memory, such as cache memory with a logical device.
+description: The CIM\_AssociateMemory class associates installed or associated memory, such as cache memory with a logical device.
 ms.assetid: b108d0cc-9353-4940-a5f6-34bb93330a62
 ms.tgt_platform: multiple
 title: CIM_AssociatedMemory class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

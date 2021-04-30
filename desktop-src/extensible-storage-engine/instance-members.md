@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance members"
 title: Instance members
 TOCTitle: Instance members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Instance

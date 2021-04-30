@@ -1,5 +1,5 @@
 ---
-Description: Represents a Machine Check Architecture (MCA) memory error event. This class is available only in 64-bit Windows systems.
+description: Represents a Machine Check Architecture (MCA) memory error event. This class is available only in 64-bit Windows systems.
 ms.assetid: 0db1d526-e2c3-4e48-90c8-cbcd9121040e
 title: MSMCAEvent_MemoryError class
 ms.topic: reference
@@ -503,7 +503,7 @@ The **MSMCAEvent\_MemoryError** class is derived from [**WMIEvent**](wmievent.md
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

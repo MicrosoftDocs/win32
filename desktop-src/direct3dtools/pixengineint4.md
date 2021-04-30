@@ -1,5 +1,5 @@
 ---
-Description: Represents a 4D vector with signed integer coordinates.
+description: Represents a 4D vector with signed integer coordinates.
 MS-HAID: vspixengine.PixEngineInt4
 MSHAttr:
 - PreferredSiteName:MSDN

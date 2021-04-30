@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEntryPointNotFoundException members"
 title: EsentEntryPointNotFoundException members
 TOCTitle: EsentEntryPointNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException

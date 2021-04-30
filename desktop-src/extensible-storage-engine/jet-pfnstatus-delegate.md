@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PFNSTATUS delegate"
 title: JET_PFNSTATUS delegate
 TOCTitle: JET_PFNSTATUS delegate
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_PFNSTATUS

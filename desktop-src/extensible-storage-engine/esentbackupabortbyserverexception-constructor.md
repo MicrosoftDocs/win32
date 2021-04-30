@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupAbortByServerException constructor"
 title: EsentBackupAbortByServerException constructor 
 TOCTitle: 'EsentBackupAbortByServerException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: The IsAutoShowEnabled method retrieves information about whether the video window automatically appears when the rendering filter pauses or runs.
+description: The IsAutoShowEnabled method retrieves information about whether the video window automatically appears when the rendering filter pauses or runs.
 ms.assetid: 769e3023-a515-4b80-a979-2e4fa9612e65
 title: CBaseControlWindow.IsAutoShowEnabled method (Ctlutil.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This member function retrieves the **m\_bAutoShow** member setting and has the s
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

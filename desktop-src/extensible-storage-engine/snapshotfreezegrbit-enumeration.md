@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotFreezeGrbit enumeration"
 title: SnapshotFreezeGrbit enumeration
 TOCTitle: SnapshotFreezeGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SnapshotFreezeGrbit

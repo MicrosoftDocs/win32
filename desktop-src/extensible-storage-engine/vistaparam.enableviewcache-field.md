@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.EnableViewCache field"
 title: VistaParam.EnableViewCache field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: EnableViewCache field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.EnableViewCache

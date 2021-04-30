@@ -1,5 +1,5 @@
 ---
-Description: Callback to write a texture as a DDS file.
+description: Callback to write a texture as a DDS file.
 MS-HAID: vspixengine.ITextureCallback
 MSHAttr:
 - PreferredSiteName:MSDN

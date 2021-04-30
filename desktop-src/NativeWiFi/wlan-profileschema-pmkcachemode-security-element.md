@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether PMK caching will be used.
+description: Indicates whether PMK caching will be used.
 ms.assetid: 5650c893-6047-4e99-a2be-22722d6a809a
 title: PMKCacheMode (security) Element
 ms.topic: reference
@@ -45,7 +45,7 @@ The element is defined by the [**security**](wlan-profileschema-security-msm-ele
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

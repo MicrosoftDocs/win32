@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a connection to a printer.
+description: Represents information about a connection to a printer.
 ms.assetid: afac3f91-74eb-46f7-94b4-d37b2b8a32a4
 title: PRINTER_CONNECTION_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ A pointer to the name of the driver.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

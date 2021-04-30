@@ -1,5 +1,5 @@
 ---
-Description: The Qualifier object exposes the following properties.
+description: The Qualifier object exposes the following properties.
 ms.assetid: C705B936-1233-4E1C-8176-813D26F05883
 title: Qualifier Properties
 ms.topic: reference

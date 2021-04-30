@@ -22,7 +22,7 @@ The unique OID for the attribute or class.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | OM-Object-Class                                       |
 | Ldap-Display-Name | oMObjectClass                                         |
@@ -49,7 +49,7 @@ The unique OID for the attribute or class.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FD                                                   |
@@ -70,7 +70,7 @@ The unique OID for the attribute or class.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FD                                                   |
@@ -91,7 +91,7 @@ The unique OID for the attribute or class.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FD                                                   |
@@ -112,7 +112,7 @@ The unique OID for the attribute or class.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FD                                                   |
@@ -133,7 +133,7 @@ The unique OID for the attribute or class.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FD                                                   |
@@ -154,7 +154,7 @@ The unique OID for the attribute or class.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FD                                                   |
@@ -175,7 +175,7 @@ The unique OID for the attribute or class.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x80FD                                                   |

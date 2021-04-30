@@ -1,5 +1,5 @@
 ---
-Description: ICE97 verifies that two components do not isolate a shared component to the same directory.
+description: ICE97 verifies that two components do not isolate a shared component to the same directory.
 ms.assetid: 76eeb238-02a1-43c1-a3d7-5178e3c3eaee
 title: ICE97
 ms.topic: article

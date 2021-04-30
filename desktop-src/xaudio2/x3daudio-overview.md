@@ -1,5 +1,5 @@
 ---
-Description: X3DAudio is an API used with XAudio2 to position sound in 3D space to create the illusion of sound coming from a point in space relative to the position of the camera.
+description: X3DAudio is an API used with XAudio2 to position sound in 3D space to create the illusion of sound coming from a point in space relative to the position of the camera.
 ms.assetid: 1638e848-4186-5dea-18e8-5369eee544ae
 title: X3DAudio Overview
 ms.topic: article

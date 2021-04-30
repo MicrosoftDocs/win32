@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Audio Voice encoder is optimized for encoding the human voice at high compression ratios. This is the preferred encoder for streams consisting mostly of spoken words.
+description: The Windows Media Audio Voice encoder is optimized for encoding the human voice at high compression ratios. This is the preferred encoder for streams consisting mostly of spoken words.
 ms.assetid: b3cfa845-4fe1-405f-88e5-4555398639ef
 title: Windows Media Audio Voice Encoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Read/write.<br />
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

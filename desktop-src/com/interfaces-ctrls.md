@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Interfaces (Controls and Property Pages)
 
 The following interfaces are used to create standard COM objects and property pages.
 

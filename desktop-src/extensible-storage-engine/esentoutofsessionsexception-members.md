@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSessionsException members"
 title: EsentOutOfSessionsException members
 TOCTitle: EsentOutOfSessionsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException

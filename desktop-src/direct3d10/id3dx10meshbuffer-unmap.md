@@ -1,5 +1,5 @@
 ---
-Description: Unmap a buffer.
+description: Unmap a buffer.
 ms.assetid: 47f125cd-5c0a-4814-93c5-f2f11ce33ea6
 title: ID3DX10MeshBuffer::Unmap method (D3DX10.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

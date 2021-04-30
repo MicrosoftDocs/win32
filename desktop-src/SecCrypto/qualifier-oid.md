@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the object ID of the qualifier.
+description: Retrieves the object ID of the qualifier.
 ms.assetid: 58ec2af7-f085-43bc-8ea8-926cb840abe9
 title: Qualifier.OID property
 ms.topic: reference
@@ -38,7 +38,7 @@ An [**OID**](oid.md) object that identifies the qualifier.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: DMO Demo Sample
+description: DMO Demo Sample
 ms.assetid: b19f0ca0-65ca-4a3b-97e3-dbd1aafe77d9
 title: DMO Demo Sample
 ms.topic: article

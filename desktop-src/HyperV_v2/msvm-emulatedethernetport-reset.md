@@ -1,5 +1,5 @@
 ---
-Description: Resets the virtual device.
+description: Resets the virtual device.
 ms.assetid: e4eb3952-a58e-4acd-85df-205d6ed23133
 title: Reset method of the Msvm_EmulatedEthernetPort class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

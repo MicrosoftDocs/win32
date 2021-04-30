@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetEndSession method"
 title: Api.JetEndSession method 
 TOCTitle: 'JetEndSession method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetEndSession(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.EndSessionGrbit)

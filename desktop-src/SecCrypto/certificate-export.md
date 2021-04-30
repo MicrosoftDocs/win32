@@ -1,5 +1,5 @@
 ---
-Description: Copies a certificate to an encoded string.
+description: Copies a certificate to an encoded string.
 ms.assetid: bae7fb57-6b44-4aac-a635-b5b82de1f68d
 title: ICertificate2::Export method
 ms.topic: reference
@@ -65,7 +65,7 @@ A string that contains the exported certificate in the specified encoding form.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

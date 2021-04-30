@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.FlagColor
 ms.assetid: a0627f2e-9a4f-40d4-9698-281a1cf56673
 title: System.FlagColor
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Describes the primary drawing surface on a display controller.
+description: Describes the primary drawing surface on a display controller.
 ms.assetid: 280ABAD0-D91B-4683-9F12-32563D7FE6BF
 title: Msvm_VideoHead class
 ms.topic: reference
@@ -1041,7 +1041,7 @@ Access to the **Msvm\_VideoHead** class might be restricted by UAC Filtering. Fo
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

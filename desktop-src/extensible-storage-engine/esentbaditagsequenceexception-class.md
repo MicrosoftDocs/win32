@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadItagSequenceException class"
 title: EsentBadItagSequenceException class
 TOCTitle: EsentBadItagSequenceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadItagSequenceException

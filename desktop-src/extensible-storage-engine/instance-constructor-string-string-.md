@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance constructor (String, String)"
 title: Instance constructor (String, String)
 TOCTitle: Instance constructor (String, String)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.#ctor(System.String,System.String)

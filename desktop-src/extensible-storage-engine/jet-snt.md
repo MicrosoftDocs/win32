@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNT"
 title: JET_SNT
 TOCTitle: JET_SNT
 ms:assetid: 74ac5142-8102-4dd3-8f2a-786a7a2ac78f

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootNotSpecifiedException class"
 title: EsentSLVRootNotSpecifiedException class
 TOCTitle: EsentSLVRootNotSpecifiedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException

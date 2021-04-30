@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException.GetObjectData method"
 title: EsentErrorException.GetObjectData method 
 TOCTitle: 'GetObjectData method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentErrorException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)

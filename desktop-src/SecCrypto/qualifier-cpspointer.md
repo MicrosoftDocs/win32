@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the URI that points to a Certification Practice Statement (CPS) published by the certification authority (CA).
+description: Retrieves the URI that points to a Certification Practice Statement (CPS) published by the certification authority (CA).
 ms.assetid: fd030c1c-137c-4036-bf13-ae989a9703cc
 title: Qualifier.CPSPointer property
 ms.topic: reference
@@ -38,7 +38,7 @@ The URI that points to a CPS published by the CA.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

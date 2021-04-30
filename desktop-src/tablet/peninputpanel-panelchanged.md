@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object changes between layouts.
+description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Occurs when the PenInputPanel object changes between layouts.
 ms.assetid: 21d38406-7ed9-4741-a092-ed3a369dc0dc
 title: PenInputPanel.PanelChanged event (Msinkaut.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The **PanelChanged** event is not raised when the user changes between Lined and
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get mesh data from the specified event.
+description: An asynchronous request to get mesh data from the specified event.
 MS-HAID: vspixengine.IPipeLineStagesRequest3\_RequestMeshAsync\_EventID\_BSTR\_IPipeLineStagesCallback3\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

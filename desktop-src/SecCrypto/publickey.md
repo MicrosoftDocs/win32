@@ -1,5 +1,5 @@
 ---
-Description: The PublicKey object represents a public key in a Certificate object.
+description: The PublicKey object represents a public key in a Certificate object.
 title: PublicKey object
 ms.topic: reference
 ms.date: 05/31/2018
@@ -57,7 +57,7 @@ The **PublicKey** object is used by the [**Certificate.PublicKey**](certificate-
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

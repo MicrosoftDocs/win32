@@ -1,5 +1,5 @@
 ---
-Description: The guidelines in this topic are intended to help you write clear error messages that are easy to localize and useful for customers.
+description: The guidelines in this topic are intended to help you write clear error messages that are easy to localize and useful for customers.
 ms.assetid: 361833e4-b94f-4ef9-a8f5-adf543534a67
 title: Error Message Guidelines
 ms.topic: article

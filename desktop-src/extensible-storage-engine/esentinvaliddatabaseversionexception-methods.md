@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidDatabaseVersionException methods"
 title: EsentInvalidDatabaseVersionException methods
 TOCTitle: EsentInvalidDatabaseVersionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException

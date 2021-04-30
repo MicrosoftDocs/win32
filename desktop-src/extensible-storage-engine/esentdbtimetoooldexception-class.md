@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooOldException class"
 title: EsentDbTimeTooOldException class
 TOCTitle: EsentDbTimeTooOldException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException

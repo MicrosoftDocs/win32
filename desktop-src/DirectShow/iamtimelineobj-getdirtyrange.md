@@ -1,5 +1,5 @@
 ---
-Description: Not supported.
+description: IAMTimelineObj::GetDirtyRange method - Not supported.
 ms.assetid: 7f97b1c4-0508-45a5-a6fd-5dae17f0fa60
 title: IAMTimelineObj::GetDirtyRange method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

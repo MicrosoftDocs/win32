@@ -1,5 +1,5 @@
 ---
-Description: The following example demonstrates creating a session cryptographic key from the hash of a password as well as the use of the function CryptDeriveKey and related functions.
+description: The following example demonstrates creating a session cryptographic key from the hash of a password as well as the use of the function CryptDeriveKey and related functions.
 ms.assetid: f4748725-2a47-487c-b18c-7b27112d1090
 title: 'Example C Program: Deriving a Session Key from a Password'
 ms.topic: article

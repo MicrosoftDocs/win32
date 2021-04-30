@@ -21,7 +21,7 @@ This topic describes the elements that make up the AccChecker GUI.
 
 AccChecker starts with the default view of the **Verifications** tab:
 
-![](images/accchecker-verifications-tab.png)
+![Screenshot that shows the 'Verifications' tab in the U I Accessibility Checker.](images/accchecker-verifications-tab.png)
 
 The **Verifications** tab contains the following components.
 

@@ -1,5 +1,5 @@
 ---
-Description: The IAzBizRuleInterfaces interface exposes the following methods.
+description: The IAzBizRuleInterfaces interface exposes the following methods.
 ms.assetid: C4057FA6-79D0-4E39-851A-541FC71DEE03
 title: IAzBizRuleInterfaces Methods
 ms.topic: reference

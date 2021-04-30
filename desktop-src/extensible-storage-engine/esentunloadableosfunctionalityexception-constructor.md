@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnloadableOSFunctionalityException constructor"
 title: EsentUnloadableOSFunctionalityException constructor 
 TOCTitle: 'EsentUnloadableOSFunctionalityException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException.#ctor

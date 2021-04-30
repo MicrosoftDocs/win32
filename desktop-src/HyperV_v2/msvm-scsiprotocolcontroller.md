@@ -1,5 +1,5 @@
 ---
-Description: Represents a synthetic SCSI controller.
+description: Represents a synthetic SCSI controller.
 ms.assetid: 4ABAB4C8-F922-4AA3-8FEE-5F5AA969E8B4
 title: Msvm_SCSIProtocolController class
 ms.topic: reference
@@ -896,7 +896,7 @@ Access to the **Msvm\_SCSIProtocolController** class might be restricted by UAC 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

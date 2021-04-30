@@ -1,5 +1,5 @@
 ---
-title: Type (BaseEapParameters) Element
+title: Type (BaseEapParameters) Element - User properties
 description: Defines the placeholder element for the method type selected and method-specific credentials.
 ms.assetid: c9ff9a81-b9a5-41f8-b0f0-49561bca4ea0
 keywords:
@@ -16,7 +16,7 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
-# Type (BaseEapParameters) Element
+# Type (BaseEapParameters) Element for user properties
 
 The **Type (BaseEapParameters)** element defines the placeholder element for the method type selected and method-specific credentials.
 
@@ -32,7 +32,7 @@ The **Type** element is defined by the [**BaseEapParameters**](baseeapuserproper
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

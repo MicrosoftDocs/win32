@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupDirectoryException properties"
 title: EsentNoBackupDirectoryException properties
 TOCTitle: EsentNoBackupDirectoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoBackupDirectoryException

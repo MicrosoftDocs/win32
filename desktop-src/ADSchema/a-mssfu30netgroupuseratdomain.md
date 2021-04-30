@@ -22,7 +22,7 @@ Contains part of the netgroup map that represents computed strings, such as "use
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msSFU-30-Netgroup-User-At-Domain     |
 | Ldap-Display-Name | msSFU30NetgroupUserAtDomain          |
@@ -46,7 +46,7 @@ Contains part of the netgroup map that represents computed strings, such as "use
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -67,7 +67,7 @@ Contains part of the netgroup map that represents computed strings, such as "use
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -88,7 +88,7 @@ Contains part of the netgroup map that represents computed strings, such as "use
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -109,7 +109,7 @@ Contains part of the netgroup map that represents computed strings, such as "use
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |

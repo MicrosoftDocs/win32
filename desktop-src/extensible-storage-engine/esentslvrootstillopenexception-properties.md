@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootStillOpenException properties"
 title: EsentSLVRootStillOpenException properties
 TOCTitle: EsentSLVRootStillOpenException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException

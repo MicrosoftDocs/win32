@@ -1,12 +1,12 @@
 ---
-Description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 ms.assetid: 807a6b6a-cace-4f48-b3b3-61919a8eee32
 title: B (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# B
+# B (Windows Installer)
 
 [A](a-gly.md) B [C](c-gly.md) [D](d-gly.md) [E](e-gly.md) [F](f-gly.md) [G](g-gly.md) H [I](i-gly.md) J K L [M](m-gly.md) N [O](o-gly.md) [P](p-gly.md) [Q](q-gly.md) [R](r-gly.md) [S](s-gly.md) [T](t-gly.md) [U](u-gly.md) [V](v-gly.md) W X Y Z
 

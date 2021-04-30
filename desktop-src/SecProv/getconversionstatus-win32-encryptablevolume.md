@@ -1,5 +1,5 @@
 ---
-Description: Indicates the status of the encryption or decryption on the volume.
+description: Indicates the status of the encryption or decryption on the volume.
 ms.assetid: b292a380-1b4a-4dff-948b-6494ec3b400b
 title: GetConversionStatus method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -162,7 +162,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

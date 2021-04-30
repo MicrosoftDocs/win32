@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the Point class. For a complete class listing, see Point Class.
+description: This topic lists the constructors of the Point class. For a complete class listing, see Point Class.
 ms.assetid: 27952618-cf2d-4a85-b271-b3950c293ece
 title: Point.Point constructors
 ms.topic: reference

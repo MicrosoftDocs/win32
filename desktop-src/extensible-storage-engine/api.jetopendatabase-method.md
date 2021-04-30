@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetOpenDatabase method"
 title: Api.JetOpenDatabase method 
 TOCTitle: 'JetOpenDatabase method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetOpenDatabase(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,System.String,Microsoft.Isam.Esent.Interop.JET_DBID@,Microsoft.Isam.Esent.Interop.OpenDatabaseGrbit)

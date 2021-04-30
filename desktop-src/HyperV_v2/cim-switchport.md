@@ -1,5 +1,5 @@
 ---
-Description: Represents a switch port that sends and receives data frames.
+description: Represents a switch port that sends and receives data frames.
 ms.assetid: 015eed2a-1393-40ef-a190-832ab48766f9
 title: CIM_SwitchPort class
 ms.topic: reference
@@ -62,7 +62,7 @@ The numeric identifier of the switch port.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

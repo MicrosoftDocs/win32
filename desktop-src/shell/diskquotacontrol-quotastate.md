@@ -1,5 +1,5 @@
 ---
-Description: Sets or gets the state of the volume's disk quotas.
+description: Sets or gets the state of the volume's disk quotas.
 title: DiskQuotaControl.QuotaState property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -61,7 +61,7 @@ This property can be set to one of the following values.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

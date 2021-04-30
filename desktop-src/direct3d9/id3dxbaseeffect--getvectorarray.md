@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of vectors.
+description: Gets an array of vectors.
 ms.assetid: 75fe454c-75f7-4f03-acd2-dd9cbf94fb96
 title: ID3DXBaseEffect::GetVectorArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ If the destination vectors are larger than the source vectors, only the initial 
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadParentPageLinkException methods"
 title: EsentBadParentPageLinkException methods
 TOCTitle: EsentBadParentPageLinkException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadParentPageLinkException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyActiveUsersException methods"
 title: EsentTooManyActiveUsersException methods
 TOCTitle: EsentTooManyActiveUsersException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyActiveUsersException

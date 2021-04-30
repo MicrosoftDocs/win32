@@ -1,5 +1,5 @@
 ---
-Description: Rotates (relative to world coordinate space) around an arbitrary axis.
+description: ID3DXMATRIXStack::RotateYawPitchRoll method (D3DX10.h) - Rotates (relative to world coordinate space) around an arbitrary axis.
 ms.assetid: 35e237f6-40f2-4001-adb0-f489d61f64e7
 title: ID3DXMATRIXStack::RotateYawPitchRoll method (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::RotateYawPitchRoll method
+# ID3DXMATRIXStack::RotateYawPitchRoll method (D3DX10.h)
 
 Rotates (relative to world coordinate space) around an arbitrary axis.
 
@@ -89,7 +89,7 @@ Because the rotation is right-multiplied to the matrix stack, the rotation is re
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

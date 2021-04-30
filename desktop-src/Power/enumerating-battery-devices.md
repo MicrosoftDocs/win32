@@ -1,5 +1,5 @@
 ---
-Description: To enumerate the battery devices on a local computer, use the SetupDiGetClassDevs function.
+description: To enumerate the battery devices on a local computer, use the SetupDiGetClassDevs function.
 ms.assetid: 17e3c779-91ba-4901-9435-b73dedbf0b89
 title: Enumerating Battery Devices
 ms.topic: article

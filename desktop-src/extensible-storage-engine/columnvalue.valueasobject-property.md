@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.ValueAsObject property"
 title: ColumnValue.ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.ValueAsObject

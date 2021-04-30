@@ -1,5 +1,5 @@
 ---
-Description: Signs the specified file.
+description: Signs the specified file.
 ms.assetid: 5a59e663-057b-4380-aa14-536030e4051d
 title: SignerSign function
 ms.topic: reference
@@ -106,7 +106,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

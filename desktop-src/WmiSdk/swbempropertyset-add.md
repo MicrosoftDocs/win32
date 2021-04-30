@@ -1,5 +1,5 @@
 ---
-Description: The Add method of the SWbemPropertySet object adds an SWbemProperty object to the SWbemPropertySet collection. If a property with the same name already exists in the collection, its contents are replaced with the new definition.
+description: The Add method of the SWbemPropertySet object adds an SWbemProperty object to the SWbemPropertySet collection. If a property with the same name already exists in the collection, its contents are replaced with the new definition.
 ms.assetid: 52a5f964-3d53-441b-9a58-650afdc5b1b9
 ms.tgt_platform: multiple
 title: SWbemPropertySet.Add method (Wbemdisp.h)
@@ -121,7 +121,7 @@ For a code example that uses this method, see the [**SWbemPropertySet**](swbempr
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

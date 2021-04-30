@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: RetrieveKeyGrbit enumeration"
 title: RetrieveKeyGrbit enumeration
 TOCTitle: RetrieveKeyGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.RetrieveKeyGrbit

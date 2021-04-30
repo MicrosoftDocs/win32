@@ -1,5 +1,5 @@
 ---
-Description: The FormatText method of the Record object formats fields according to the template in field 0.
+description: The FormatText method of the Record object formats fields according to the template in field 0.
 ms.assetid: 89a98b88-bb74-458c-a2df-727a8084145b
 title: Record.FormatText method
 ms.topic: reference
@@ -52,7 +52,7 @@ Note in the case of [deferred execution custom actions](deferred-execution-custo
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

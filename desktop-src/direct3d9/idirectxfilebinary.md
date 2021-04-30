@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the IDirectXFileBinary interface to read and retrieve information about binary data. Deprecated.
+description: Applications use the methods of the IDirectXFileBinary interface to read and retrieve information about binary data. Deprecated.
 ms.assetid: 43b20ab3-67b2-4717-ad90-0bf4ddb3207e
 title: IDirectXFileBinary interface (DXFile.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ typedef interface IDirectXFileBinary *LPDIRECTXFILEBINARY;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

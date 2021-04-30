@@ -1,5 +1,5 @@
 ---
-Description: TAPI provides a number of functions for manipulating call handles, determining the relationship among lines, calls, and address, and so on.
+description: TAPI provides a number of functions for manipulating call handles, determining the relationship among lines, calls, and address, and so on.
 ms.assetid: 283fe5e9-689f-4b87-97a6-b345c22ec6a2
 title: Call Handle Manipulation
 ms.topic: article

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_OSSNAPID operators"
 title: JET_OSSNAPID operators
 TOCTitle: JET_OSSNAPID operators
 ms:assetid: 30e3519b-5ceb-150e-eaf2-d15c3133310b

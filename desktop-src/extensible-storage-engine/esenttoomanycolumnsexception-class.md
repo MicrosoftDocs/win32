@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyColumnsException class"
 title: EsentTooManyColumnsException class
 TOCTitle: EsentTooManyColumnsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyColumnsException

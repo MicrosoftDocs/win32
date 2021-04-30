@@ -1,5 +1,5 @@
 ---
-Description: Event that signals when a flush operation has finished.
+description: Event that signals when a flush operation has finished.
 ms.assetid: e2640fa1-03d1-4323-a9cb-698d130929f7
 title: COutputQueue::m_evFlushComplete member (Outputq.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CAMEvent m_evFlushComplete;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

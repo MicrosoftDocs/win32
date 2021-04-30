@@ -46,7 +46,7 @@ The following table contains the programmatic identifiers for the values of this
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Repl-Authentication-Mode       |
 | Ldap-Display-Name | msDS-ReplAuthenticationMode          |
@@ -67,7 +67,7 @@ The following table contains the programmatic identifiers for the values of this
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

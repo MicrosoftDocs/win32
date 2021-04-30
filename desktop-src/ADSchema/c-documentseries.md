@@ -21,7 +21,7 @@ The documentSeries object class is used to define an entry that represents a ser
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | documentSeries                       |
 | Ldap-Display-Name | documentSeries                       |
@@ -45,7 +45,7 @@ The documentSeries object class is used to define an entry that represents a ser
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -175,7 +175,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -308,7 +308,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -452,7 +452,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -603,7 +603,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |

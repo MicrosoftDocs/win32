@@ -1,5 +1,5 @@
 ---
-Description: Static string that contains the name of the window class.
+description: Static string that contains the name of the window class.
 ms.assetid: a1edf252-23d1-4ee2-96b0-643b80259f38
 title: CBaseWindow::m_pClassName member (Winutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ LPTSTR m_pClassName;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

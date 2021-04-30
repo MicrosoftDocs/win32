@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetTryPrereadIndexRanges method"
 title: Windows8Api.JetTryPrereadIndexRanges method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetTryPrereadIndexRanges method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetTryPrereadIndexRanges(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE[],System.Int32,System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.JET_COLUMNID[],Microsoft.Isam.Esent.Interop.Windows8.PrereadIndexRangesGrbit)

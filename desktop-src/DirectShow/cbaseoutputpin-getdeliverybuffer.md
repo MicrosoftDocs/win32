@@ -1,5 +1,5 @@
 ---
-Description: The GetDeliveryBuffer method retrieves a media sample that contains an empty buffer.
+description: The GetDeliveryBuffer method retrieves a media sample that contains an empty buffer.
 ms.assetid: 5a20c11b-50f8-443e-a4d5-6bcffde741d5
 title: CBaseOutputPin.GetDeliveryBuffer method (Amfilter.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ This method calls the **IMemAllocator::GetBuffer** method on the allocator, and 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

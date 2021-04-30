@@ -1,5 +1,5 @@
 ---
-Description: Microsoft Windows Search, based on the SQL-92 and SQL-99 standards, improves full-text document-based searches in document-management or knowledge-management applications.
+description: Microsoft Windows Search, based on the SQL-92 and SQL-99 standards, improves full-text document-based searches in document-management or knowledge-management applications.
 ms.assetid: 136af1ea-452a-491b-bec7-8c45fa01f87f
 title: SQL Extensions in Microsoft Windows Search
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The PutData method constructs an application protocol data unit (APDU) command that stores a single primitive data object or the set of data objects contained in a constructed data object, depending on the file selected.
+description: The PutData method constructs an application protocol data unit (APDU) command that stores a single primitive data object or the set of data objects contained in a constructed data object, depending on the file selected.
 ms.assetid: 6bad45fb-b202-4eb0-b2f4-fe0a6af64330
 title: ISCardISO7816::PutData method (Scardssp.h)
 ms.topic: reference
@@ -154,7 +154,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,12 +1,12 @@
 ---
-Description: Event trace consumers can process events from one or more providers.
+description: Event trace consumers can process events from one or more providers.
 ms.assetid: 039a9f66-228e-4258-9967-2b2cd7d31091
 title: Consuming Events (Event Tracing)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Consuming Events
+# Consuming Events (Event Tracing)
 
 Event trace consumers can process events from one or more providers. Consumers can process events from a log file or in real time. You can consume events in real time only if the controller specifies the real time logging mode for the session. For performance reasons, real-time processing is not recommended prior to Windows Vista.
 

@@ -936,6 +936,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/SecAuthN/tls-cipher-suites-in-windows-10-v21H1.md",
+      "redirect_url": "/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-server-2022",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/SecAuthZ/index.md",
       "redirect_url": "/windows/desktop/SecAuthZ/authorization-portal",
       "redirect_document_id": false
@@ -1213,6 +1218,11 @@
     {
       "source_path": "desktop-src/windowsribbon/windowsribbon-hol.md",
       "redirect_url": "/windows/desktop/windowsribbon/windowsribbon-samples-entry",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/windowsribbon/windowsribbon-element-dynamicui.md",
+      "redirect_url": "/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry",
       "redirect_document_id": false
     },
     {

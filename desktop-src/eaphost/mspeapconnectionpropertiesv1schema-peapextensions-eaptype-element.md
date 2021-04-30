@@ -1,6 +1,6 @@
 ---
 title: PeapExtensions (EapType) element (connection property)
-description: Learn about the PeapExtensions (EapType) element. This element enables future enhancements to the schema.
+description: Learn about the PeapExtensions (EapType) element. This element enables future enhancements to the schema. | PeapExtensions (EapType) element (connection property)
 ms.assetid: ced49bdc-7213-4a69-9feb-e62a513026b6
 keywords:
 - PeapExtensions element EAPHost

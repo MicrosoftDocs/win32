@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the locale name for the parent of the supplied locale.
+description: Retrieves the locale name for the parent of the supplied locale.
 ms.assetid: a8db8107-822c-4bbc-acb8-40b25d2b41c4
 title: DownlevelGetParentLocaleName function (Nlsdl.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ The required header file and DLL are part of the "Microsoft NLS Downlevel Data M
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

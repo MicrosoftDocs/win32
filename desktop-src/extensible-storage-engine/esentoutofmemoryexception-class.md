@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfMemoryException class"
 title: EsentOutOfMemoryException class
 TOCTitle: EsentOutOfMemoryException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException

@@ -1,5 +1,5 @@
 ---
-Description: The Media Engine supports the following configuration attributes.
+description: The Media Engine supports the following configuration attributes.
 ms.assetid: 08282D80-53F5-463F-B87F-522F72823E99
 title: Media Engine Attributes
 ms.topic: article

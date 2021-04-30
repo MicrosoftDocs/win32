@@ -24,6 +24,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -141,7 +142,7 @@ To use Comctl32.dll version 6, specify it in a manifest. For more information on
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winuser.h</dt> </dl> |
 

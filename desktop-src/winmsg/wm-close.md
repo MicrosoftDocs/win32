@@ -3,6 +3,7 @@ Description: Sent as a signal that a window or an application should terminate.
 ms.assetid: 19500baf-e0ad-4dfa-804f-6a6e0652cffb
 title: WM_CLOSE message (Winuser.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -80,7 +81,7 @@ By default, the [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defw
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

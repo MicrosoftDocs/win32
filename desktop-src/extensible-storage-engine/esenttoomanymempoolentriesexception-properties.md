@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyMempoolEntriesException properties"
 title: EsentTooManyMempoolEntriesException properties
 TOCTitle: EsentTooManyMempoolEntriesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyMempoolEntriesException

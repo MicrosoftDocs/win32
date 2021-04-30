@@ -1,6 +1,6 @@
 ---
 title: glGetTexGeniv function (Gl.h)
-description: The glGetTexGendv, glGetTexGenfv, and glGetTexGeniv functions return texture coordinate generation parameters.
+description: The glGetTexGendv, glGetTexGenfv, and glGetTexGeniv functions return texture coordinate generation parameters. | glGetTexGeniv function (Gl.h)
 ms.assetid: 62c481d1-4862-43bb-9319-5a282c4e47d3
 keywords:
 - glGetTexGeniv function OpenGL
@@ -97,7 +97,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

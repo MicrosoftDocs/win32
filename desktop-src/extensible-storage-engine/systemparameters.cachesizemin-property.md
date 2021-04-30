@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.CacheSizeMin property"
 title: SystemParameters.CacheSizeMin property 
 TOCTitle: 'CacheSizeMin property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.CacheSizeMin

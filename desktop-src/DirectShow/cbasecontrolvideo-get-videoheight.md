@@ -1,5 +1,5 @@
 ---
-Description: The get\_VideoHeight method retrieves the height of the native video.
+description: The get\_VideoHeight method retrieves the height of the native video.
 ms.assetid: f33ba789-f9c6-47f1-879b-241bfdc72010
 title: CBaseControlVideo.get_VideoHeight method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the [**IBasicVideo::get\_VideoHeight**](/windows
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

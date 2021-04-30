@@ -1,5 +1,5 @@
 ---
-Description: The IWbemObjectSinkEx interface exposes the following methods.
+description: The IWbemObjectSinkEx interface exposes the following methods.
 ms.assetid: C1468705-0350-468B-9606-5220BB15EAD0
 ms.tgt_platform: multiple
 title: IWbemObjectSinkEx Methods

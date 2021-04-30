@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidFilenameException properties"
 title: EsentInvalidFilenameException properties
 TOCTitle: EsentInvalidFilenameException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidFilenameException

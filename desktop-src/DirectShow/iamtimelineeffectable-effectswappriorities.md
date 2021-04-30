@@ -1,5 +1,5 @@
 ---
-Description: The EffectSwapPriorities method switches the priority levels of two effects.
+description: The EffectSwapPriorities method switches the priority levels of two effects.
 ms.assetid: ff5ab294-3963-4df7-9299-ee7c7165e72f
 title: IAMTimelineEffectable::EffectSwapPriorities method (Qedit.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

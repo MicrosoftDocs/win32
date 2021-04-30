@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the printers capabilities formatted in compliance with the XML Print Schema.
+description: Retrieves the printers capabilities formatted in compliance with the XML Print Schema.
 ms.assetid: 15219c19-b64c-4c51-9357-15a797557693
 title: GetPrintCapabilitiesThunk2 function
 ms.topic: reference
@@ -91,7 +91,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

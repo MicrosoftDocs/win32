@@ -1,5 +1,5 @@
 ---
-Description: Provides a connection to an existing printer on the network, and adds it to the list of available printers.
+description: Provides a connection to an existing printer on the network, and adds it to the list of available printers.
 ms.assetid: 44149051-4abf-4428-8999-355dd0b0ce69
 ms.tgt_platform: multiple
 title: AddPrinterConnection method of the Win32_Printer class
@@ -118,7 +118,7 @@ objPrinter.Put_()
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

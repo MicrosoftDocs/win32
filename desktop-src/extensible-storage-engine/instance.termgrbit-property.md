@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.TermGrbit property"
 title: Instance.TermGrbit property 
 TOCTitle: 'TermGrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Instance.TermGrbit

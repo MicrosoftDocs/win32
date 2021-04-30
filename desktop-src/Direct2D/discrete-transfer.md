@@ -99,7 +99,7 @@ Here is what the graph of discrete transfer function looks like if the inputs ar
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

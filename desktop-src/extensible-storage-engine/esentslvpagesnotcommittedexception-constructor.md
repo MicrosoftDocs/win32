@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotCommittedException constructor"
 title: EsentSLVPagesNotCommittedException constructor 
 TOCTitle: 'EsentSLVPagesNotCommittedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotCommittedException.#ctor

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GuidColumnValue class"
 title: GuidColumnValue class
 TOCTitle: GuidColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.GuidColumnValue

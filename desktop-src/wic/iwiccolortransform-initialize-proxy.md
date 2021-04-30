@@ -1,5 +1,5 @@
 ---
-Description: Initializes an IWICColorTransform with a IWICBitmapSource and transforms it from one IWICColorContext to another.
+description: Initializes an IWICColorTransform with a IWICBitmapSource and transforms it from one IWICColorContext to another.
 ms.assetid: 68C8EF36-DFFF-4FF3-BD9A-583508F9C2B1
 title: IWICColorTransform_Initialize_Proxy function
 ms.topic: reference
@@ -93,7 +93,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                |                                                                                                 |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>WindowsCodecsExt.dll</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Grbits.EnumerateIgnoreUserDefinedDefault field"
 title: Server2003Grbits.EnumerateIgnoreUserDefinedDefault field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: EnumerateIgnoreUserDefinedDefault field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Grbits.EnumerateIgnoreUserDefinedDefault

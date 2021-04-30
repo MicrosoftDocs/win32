@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue members"
 title: StringColumnValue members
 TOCTitle: StringColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.StringColumnValue

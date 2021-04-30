@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST.columnidcoltyp property"
 title: JET_INDEXLIST.columnidcoltyp property 
 TOCTitle: 'columnidcoltyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidcoltyp

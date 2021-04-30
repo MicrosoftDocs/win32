@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDecompressionFailedException members"
 title: EsentDecompressionFailedException members
 TOCTitle: EsentDecompressionFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException

@@ -1,5 +1,5 @@
 ---
-Description: Changes the type of the specified stroke.
+description: Changes the type of the specified stroke.
 ms.assetid: 1608fed1-cd6c-46c3-a35f-3d262279ec2e
 title: IInkAnalyzer::SetStrokeType method (IACom.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ If the specified stroke is not associated with the [**IInkAnalyzer**](iinkanalyz
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The put\_OffsetX method specifies the horizontal offset of the target rectangle.
+description: The put\_OffsetX method specifies the horizontal offset of the target rectangle.
 ms.assetid: 057919e1-d65f-487d-b5d7-1c43967ce66d
 title: IDxtCompositor::put_OffsetX method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

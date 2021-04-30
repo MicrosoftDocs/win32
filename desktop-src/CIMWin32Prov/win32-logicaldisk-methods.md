@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LogicalDisk class exposes the following methods.
+description: The Win32\_LogicalDisk class exposes the following methods.
 ms.assetid: B7761B9D-A1E0-48A8-A630-B21593A255F0
 ms.tgt_platform: multiple
 title: Win32_LogicalDisk Methods

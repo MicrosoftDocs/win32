@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME members"
 title: JET_LOGTIME members
 TOCTitle: JET_LOGTIME members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_LOGTIME

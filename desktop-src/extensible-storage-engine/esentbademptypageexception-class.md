@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadEmptyPageException class"
 title: EsentBadEmptyPageException class
 TOCTitle: EsentBadEmptyPageException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException

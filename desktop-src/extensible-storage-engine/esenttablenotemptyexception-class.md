@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableNotEmptyException class"
 title: EsentTableNotEmptyException class
 TOCTitle: EsentTableNotEmptyException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTableNotEmptyException

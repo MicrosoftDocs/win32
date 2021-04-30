@@ -1,5 +1,5 @@
 ---
-Description: Querying cluster information from the Hyper-V host to the guest.
+description: Querying cluster information from the Hyper-V host to the guest.
 ms.assetid: 28983984-a2af-4eab-8b1f-2f7d6a3d70ea
 title: QueryGuestClusterInformation method of the Msvm_VssService class
 ms.topic: reference
@@ -90,7 +90,7 @@ On success, returns a 0 (Complete with No Error), or 4096 (Job Started); otherwi
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

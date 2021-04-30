@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the HTTP response headers.
+description: Retrieves the HTTP response headers.
 ms.assetid: 3d59ee83-280c-4074-82e1-ded203fa1049
 title: IWinHttpRequest::GetResponseHeader method
 ms.topic: reference
@@ -189,7 +189,7 @@ WScript.Echo( WinHttpReq.GetResponseHeader("Date"));
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

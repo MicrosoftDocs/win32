@@ -1,5 +1,5 @@
 ---
-Description: API Layers (Direct3D 10)
+description: API Layers (Direct3D 10)
 ms.assetid: 19c81383-6ac7-49ea-98a3-bf761a32ab40
 title: API Layers (Direct3D 10)
 ms.topic: article

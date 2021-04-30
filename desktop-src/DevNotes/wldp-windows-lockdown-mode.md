@@ -1,5 +1,5 @@
 ---
-Description: Describes the secure modes (S modes) for a Windows device.
+description: Describes the secure modes (S modes) for a Windows device.
 ms.assetid: CE50AC56-0295-477C-93CB-ABAB92482A59
 title: WLDP_WINDOWS_LOCKDOWN_MODE enumeration (Wldp.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ The maximum enumeration value.
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wldp.h</dt> </dl> |
 

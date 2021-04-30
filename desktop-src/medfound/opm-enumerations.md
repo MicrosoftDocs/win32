@@ -1,5 +1,5 @@
 ---
-Description: Output Protection Manager (OPM) uses the following constants and enumeration types.
+description: Output Protection Manager (OPM) uses the following constants and enumeration types.
 ms.assetid: e72e0a5e-476d-41f0-9139-54c4c488053f
 title: OPM Enumerations
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: TaskType Complex Type
-description: Defines a component or subcomponent of an application.
+description: Defines a component or subcomponent of an application. | TaskType Complex Type
 ms.assetid: d117636d-6363-43b6-ac5a-52234ac7c729
 keywords:
 - TaskType complex type EventLog
@@ -111,7 +111,7 @@ The following example shows how to specify a task.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

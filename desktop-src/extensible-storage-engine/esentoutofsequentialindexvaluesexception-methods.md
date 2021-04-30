@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSequentialIndexValuesException methods"
 title: EsentOutOfSequentialIndexValuesException methods
 TOCTitle: EsentOutOfSequentialIndexValuesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException

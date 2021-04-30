@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_StorageJob class - Requests a state change.
 ms.assetid: 2960bc44-f2af-49c6-9c33-5d9e1ad8056c
 title: RequestStateChange method of the Msvm_StorageJob class
 ms.topic: reference
@@ -164,7 +164,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

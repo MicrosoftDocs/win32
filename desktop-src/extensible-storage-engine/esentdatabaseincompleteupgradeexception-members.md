@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIncompleteUpgradeException members"
 title: EsentDatabaseIncompleteUpgradeException members
 TOCTitle: EsentDatabaseIncompleteUpgradeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteUpgradeException

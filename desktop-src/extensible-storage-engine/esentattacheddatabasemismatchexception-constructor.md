@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAttachedDatabaseMismatchException constructor"
 title: EsentAttachedDatabaseMismatchException constructor 
 TOCTitle: 'EsentAttachedDatabaseMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException.#ctor

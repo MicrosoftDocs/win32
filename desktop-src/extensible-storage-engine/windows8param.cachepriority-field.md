@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Param.CachePriority field"
 title: Windows8Param.CachePriority field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: CachePriority field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Param.CachePriority

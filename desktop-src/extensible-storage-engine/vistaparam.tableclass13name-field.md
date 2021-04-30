@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.TableClass13Name field"
 title: VistaParam.TableClass13Name field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: TableClass13Name field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.TableClass13Name

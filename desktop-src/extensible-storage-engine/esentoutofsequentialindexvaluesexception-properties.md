@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSequentialIndexValuesException properties"
 title: EsentOutOfSequentialIndexValuesException properties
 TOCTitle: EsentOutOfSequentialIndexValuesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException

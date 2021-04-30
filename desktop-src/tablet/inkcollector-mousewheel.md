@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse wheel moves while the InkCollector or InkOverlay object has focus.
+description: InkCollector.MouseWheel event - Occurs when the mouse wheel moves while the InkCollector or InkOverlay object has focus.
 ms.assetid: 418cf67c-0ec0-49e3-a17f-9eaeb40bb602
 title: InkCollector.MouseWheel event (Msinkaut.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

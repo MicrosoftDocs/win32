@@ -1,5 +1,5 @@
 ---
-Description: Optional qualifiers address recurring situations not common to all CIM-compliant implementations, which are not required to interpret these qualifiers.
+description: Optional qualifiers address recurring situations not common to all CIM-compliant implementations, which are not required to interpret these qualifiers.
 ms.assetid: f31162d1-25e6-494a-bc7d-f66955b514a6
 ms.tgt_platform: multiple
 title: Optional Qualifiers
@@ -219,7 +219,7 @@ Note this qualifier cannot be overridden. It is unreasonable to permit a subclas
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

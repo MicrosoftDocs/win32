@@ -1,5 +1,5 @@
 ---
-Description: The ITQOSApplicationID interface exposes a method that allows an application to get the QOS identifier for the current call.
+description: The ITQOSApplicationID interface exposes a method that allows an application to get the QOS identifier for the current call.
 ms.assetid: 1df50b3a-bd16-4e9b-afca-b025bfe537a4
 title: ITQOSApplicationID interface (Ipmsp.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The **ITQOSApplicationID** interface has these methods.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

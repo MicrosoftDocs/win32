@@ -1,5 +1,5 @@
 ---
-Description: A network provider is a DLL that enables the Windows operating system to support a specific network protocol.
+description: A network provider is a DLL that enables the Windows operating system to support a specific network protocol.
 ms.assetid: 21dfa941-72fd-4f2c-8bc4-379ed6ca2a4c
 title: Implementing a Network Provider
 ms.topic: article

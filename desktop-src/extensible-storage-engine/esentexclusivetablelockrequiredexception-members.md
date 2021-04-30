@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExclusiveTableLockRequiredException members"
 title: EsentExclusiveTableLockRequiredException members
 TOCTitle: EsentExclusiveTableLockRequiredException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentExclusiveTableLockRequiredException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN methods"
 title: JET_SETCOLUMN methods
 TOCTitle: JET_SETCOLUMN methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN

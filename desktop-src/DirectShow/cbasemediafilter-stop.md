@@ -1,5 +1,5 @@
 ---
-Description: The Stop method stops the object. This method implements the IMediaFilter::Stop method.
+description: The Stop method stops the object. This method implements the IMediaFilter::Stop method.
 ms.assetid: 9282d90a-932c-4ba0-84f1-1de2c125bfbd
 title: CBaseMediaFilter.Stop method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ In the base class, this method sets the [**CBaseMediaFilter::m\_State**](cbaseme
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

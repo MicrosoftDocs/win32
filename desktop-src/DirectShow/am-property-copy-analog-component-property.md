@@ -1,5 +1,5 @@
 ---
-Description: Queries whether the video output is standard-definition, analog component video.
+description: Queries whether the video output is standard-definition, analog component video.
 ms.assetid: bd4fc5bc-c45d-4228-9759-6300fdfff6a0
 title: AM_PROPERTY_COPY_ANALOG_COMPONENT Property (Dvdmedia.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ Queries whether the video output is standard-definition, analog component video.
 
 
 
-|                   |                                       |
+| Label | Value |
 |-------------------|---------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_CopyProt             |
 | Property ID       | AM\_PROPERTY\_COPY\_ANALOG\_COMPONENT |
@@ -32,7 +32,7 @@ The value of the property is **TRUE** if the video output is analog component vi
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetTerm method"
 title: Api.JetTerm method 
 TOCTitle: 'JetTerm method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetTerm(Microsoft.Isam.Esent.Interop.JET_INSTANCE)

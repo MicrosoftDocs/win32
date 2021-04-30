@@ -1,5 +1,5 @@
 ---
-Description: Flag that indicates whether the quality has changed.
+description: Flag that indicates whether the quality has changed.
 ms.assetid: 9084ab1d-b6a0-4e87-a653-86e64c74b07f
 title: CTransformFilter::m_bQualityChanged member (Transfrm.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BOOL m_bQualityChanged;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

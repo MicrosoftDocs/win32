@@ -1,5 +1,5 @@
 ---
-Description: The following list gives descriptions of the property items supported by Windows GDI+.
+description: The following list gives descriptions of the property items supported by Windows GDI+.
 ms.assetid: fc95aa3f-8381-430d-8cbf-6d23816a738d
 title: Property Item Descriptions
 ms.topic: article
@@ -18,7 +18,7 @@ Version of the Global Positioning Systems (GPS) IFD, given as 2.0.0.0. This tag 
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x0000              |
 | Type  | PropertyTagTypeByte |
@@ -34,7 +34,7 @@ Null-terminated character string that specifies whether the latitude is north or
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x0001                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -50,7 +50,7 @@ Latitude. Latitude is expressed as three rational values giving the degrees, min
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0002                  |
 | Type  | PropertyTagTypeRational |
@@ -66,7 +66,7 @@ Null-terminated character string that specifies whether the longitude is east or
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x0003                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -82,7 +82,7 @@ Longitude. Longitude is expressed as three rational values giving the degrees, m
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0004                  |
 | Type  | PropertyTagTypeRational |
@@ -98,7 +98,7 @@ Reference altitude, in meters.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x0005              |
 | Type  | PropertyTagTypeByte |
@@ -114,7 +114,7 @@ Altitude, in meters, based on the reference altitude specified by PropertyTagGps
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0006                  |
 | Type  | PropertyTagTypeRational |
@@ -130,7 +130,7 @@ Time as Coordinated Universal Time (UTC). The value is expressed as three ration
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0007                  |
 | Type  | PropertyTagTypeRational |
@@ -146,7 +146,7 @@ Null-terminated character string that specifies the GPS satellites used for meas
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x0008                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -162,7 +162,7 @@ Null-terminated character string that specifies the status of the GPS receiver w
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x0009                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -178,7 +178,7 @@ Null-terminated character string that specifies the GPS measurement mode. `2` sp
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x000A                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -194,7 +194,7 @@ GPS DOP (data degree of precision). An HDOP value is written during 2-D measurem
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x000B                  |
 | Type  | PropertyTagTypeRational |
@@ -210,7 +210,7 @@ Null-terminated character string that specifies the unit used to express the GPS
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x000C                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -226,7 +226,7 @@ Speed of the GPS receiver movement.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x000D                  |
 | Type  | PropertyTagTypeRational |
@@ -242,7 +242,7 @@ Null-terminated character string that specifies the reference for giving the dir
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x000E                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -258,7 +258,7 @@ Direction of GPS receiver movement. The range of values is from 0.00 to 359.99.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x000F                  |
 | Type  | PropertyTagTypeRational |
@@ -274,7 +274,7 @@ Null-terminated character string that specifies the reference for the direction 
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x0010                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -290,7 +290,7 @@ Direction of the image when it was captured. The range of values is from 0.00 to
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0011                  |
 | Type  | PropertyTagTypeRational |
@@ -306,7 +306,7 @@ Null-terminated character string that specifies geodetic survey data used by the
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x0012                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -322,7 +322,7 @@ Null-terminated character string that specifies whether the latitude of the dest
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x0013                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -338,7 +338,7 @@ Latitude of the destination point. The latitude is expressed as three rational v
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0014                  |
 | Type  | PropertyTagTypeRational |
@@ -354,7 +354,7 @@ Null-terminated character string that specifies whether the longitude of the des
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x0015                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -370,7 +370,7 @@ Longitude of the destination point. The longitude is expressed as three rational
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0016                  |
 | Type  | PropertyTagTypeRational |
@@ -386,7 +386,7 @@ Null-terminated character string that specifies the reference used for giving th
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x0017                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -402,7 +402,7 @@ Bearing to the destination point. The range of values is from 0.00 to 359.99.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0018                  |
 | Type  | PropertyTagTypeRational |
@@ -418,7 +418,7 @@ Null-terminated character string that specifies the unit used to express the dis
 
 
 
-|       |                                            |
+| Property info | Value |
 |-------|--------------------------------------------|
 | Tag   | 0x0019                                     |
 | Type  | PropertyTagTypeASCII                       |
@@ -434,7 +434,7 @@ Distance to the destination point.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x001A                  |
 | Type  | PropertyTagTypeRational |
@@ -450,7 +450,7 @@ Type of data in a subfile.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x00FE              |
 | Type  | PropertyTagTypeLong |
@@ -466,7 +466,7 @@ Type of data in a subfile.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x00FF               |
 | Type  | PropertyTagTypeShort |
@@ -482,7 +482,7 @@ Number of pixels per row.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0100                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -498,7 +498,7 @@ Number of pixel rows.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0101                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -514,7 +514,7 @@ Number of bits per color component. See also [PropertyTagSamplesPerPixel](#prope
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0102                                   |
 | Type  | PropertyTagTypeShort                     |
@@ -530,7 +530,7 @@ Compression scheme used for the image data.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0103               |
 | Type  | PropertyTagTypeShort |
@@ -546,7 +546,7 @@ How pixel data will be interpreted.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0106               |
 | Type  | PropertyTagTypeShort |
@@ -562,7 +562,7 @@ Technique used to convert from gray pixels to black and white pixels.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0107               |
 | Type  | PropertyTagTypeShort |
@@ -578,7 +578,7 @@ Width of the dithering or halftoning matrix.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0108               |
 | Type  | PropertyTagTypeShort |
@@ -594,7 +594,7 @@ Height of the dithering or halftoning matrix.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0109               |
 | Type  | PropertyTagTypeShort |
@@ -610,7 +610,7 @@ Logical order of bits in a byte.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x010A               |
 | Type  | PropertyTagTypeShort |
@@ -626,7 +626,7 @@ Null-terminated character string that specifies the name of the document from wh
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x010D                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -642,7 +642,7 @@ Null-terminated character string that specifies the title of the image.
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x010E                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -658,7 +658,7 @@ Null-terminated character string that specifies the manufacturer of the equipmen
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x010F                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -674,7 +674,7 @@ Null-terminated character string that specifies the model name or model number o
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x0110                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -690,7 +690,7 @@ For each strip, the byte offset of that strip. See also [PropertyTagRowsPerStrip
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0111                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -730,7 +730,7 @@ Number of color components per pixel.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0115               |
 | Type  | PropertyTagTypeShort |
@@ -746,7 +746,7 @@ Number of rows per strip. See also [PropertyTagStripBytesCount](#propertytagstri
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0116                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -762,7 +762,7 @@ For each strip, the total number of bytes in that strip.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0117                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -778,7 +778,7 @@ For each color component, the minimum value assigned to that component. See also
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0118                                   |
 | Type  | PropertyTagTypeShort                     |
@@ -794,7 +794,7 @@ For each color component, the maximum value assigned to that component. See also
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0119                                   |
 | Type  | PropertyTagTypeShort                     |
@@ -810,7 +810,7 @@ Number of pixels per unit in the image width (x) direction. The unit is specifie
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x011A                  |
 | Type  | PropertyTagTypeRational |
@@ -826,7 +826,7 @@ Number of pixels per unit in the image height (y) direction. The unit is specifi
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x011B                  |
 | Type  | PropertyTagTypeRational |
@@ -842,7 +842,7 @@ Whether pixel components are recorded in chunky or planar format.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x011C               |
 | Type  | PropertyTagTypeShort |
@@ -858,7 +858,7 @@ Null-terminated character string that specifies the name of the page from which 
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x011D                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -874,7 +874,7 @@ Offset from the left side of the page to the left side of the image. The unit of
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x011E                  |
 | Type  | PropertyTagTypeRational |
@@ -890,7 +890,7 @@ Offset from the top of the page to the top of the image. The unit of measure is 
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x011F                  |
 | Type  | PropertyTagTypeRational |
@@ -906,7 +906,7 @@ For each string of contiguous unused bytes, the byte offset of that string.
 
 
 
-|      |                     |
+| Property info | Value |
 |------|---------------------|
 | Tag  | 0x0120              |
 | Type | PropertyTagTypeLong |
@@ -921,7 +921,7 @@ For each string of contiguous unused bytes, the number of bytes in that string.
 
 
 
-|       |                                               |
+| Property info | Value |
 |-------|-----------------------------------------------|
 | Tag   | 0x0121                                        |
 | Type  | PropertyTagTypeLong                           |
@@ -937,7 +937,7 @@ Precision of the number specified by PropertyTagGrayResponseCurve. 1 specifies t
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0122               |
 | Type  | PropertyTagTypeShort |
@@ -953,7 +953,7 @@ For each possible pixel value in a grayscale image, the optical density of that 
 
 
 
-|       |                                 |
+| Property info | Value |
 |-------|---------------------------------|
 | Tag   | 0x0123                          |
 | Type  | PropertyTagTypeShort            |
@@ -969,7 +969,7 @@ Set of flags that relate to T4 encoding.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x0124              |
 | Type  | PropertyTagTypeLong |
@@ -985,7 +985,7 @@ Set of flags that relate to T6 encoding.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x0125              |
 | Type  | PropertyTagTypeLong |
@@ -1025,7 +1025,7 @@ Page number of the page from which the image was scanned.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0129               |
 | Type  | PropertyTagTypeShort |
@@ -1041,7 +1041,7 @@ Tables that specify transfer functions for the image.
 
 
 
-|       |                                                      |
+| Property info | Value |
 |-------|------------------------------------------------------|
 | Tag   | 0x012D                                               |
 | Type  | PropertyTagTypeShort                                 |
@@ -1057,7 +1057,7 @@ Null-terminated character string that specifies the name and version of the soft
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x0131                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -1073,7 +1073,7 @@ Date and time the image was created.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0132               |
 | Type  | PropertyTagTypeASCII |
@@ -1089,7 +1089,7 @@ Null-terminated character string that specifies the name of the person who creat
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x013B                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -1105,7 +1105,7 @@ Null-terminated character string that specifies the computer and/or operating sy
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x013C                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -1121,7 +1121,7 @@ Type of prediction scheme that was applied to the image data before the encoding
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x013D               |
 | Type  | PropertyTagTypeShort |
@@ -1137,7 +1137,7 @@ Chromaticity of the white point of the image.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x013E                  |
 | Type  | PropertyTagTypeRational |
@@ -1153,7 +1153,7 @@ For each of the three primary colors in the image, the chromaticity of that colo
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x013F                  |
 | Type  | PropertyTagTypeRational |
@@ -1169,7 +1169,7 @@ Color palette (lookup table) for a palette-indexed image.
 
 
 
-|       |                                                 |
+| Property info | Value |
 |-------|-------------------------------------------------|
 | Tag   | 0x0140                                          |
 | Type  | PropertyTagTypeShort                            |
@@ -1185,7 +1185,7 @@ Information used by the halftone function
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0141               |
 | Type  | PropertyTagTypeShort |
@@ -1201,7 +1201,7 @@ Number of pixel columns in each tile.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0142                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -1217,7 +1217,7 @@ Number of pixel rows in each tile.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0143                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -1233,7 +1233,7 @@ For each tile, the byte offset of that tile.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x0144              |
 | Type  | PropertyTagTypeLong |
@@ -1249,7 +1249,7 @@ For each tile, the number of bytes in that tile.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0145                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -1265,7 +1265,7 @@ Set of inks used in a separated image.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x014C               |
 | Type  | PropertyTagTypeShort |
@@ -1281,7 +1281,7 @@ Sequence of concatenated, null-terminated, character strings that specify the na
 
 
 
-|       |                                                                        |
+| Property info | Value |
 |-------|------------------------------------------------------------------------|
 | Tag   | 0x014D                                                                 |
 | Type  | PropertyTagTypeASCII                                                   |
@@ -1297,7 +1297,7 @@ Number of inks.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x014E               |
 | Type  | PropertyTagTypeShort |
@@ -1313,7 +1313,7 @@ Color component values that correspond to a 0 percent dot and a 100 percent dot.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x0150                                      |
 | Type  | PropertyTagTypeByte or PropertyTagTypeShort |
@@ -1329,7 +1329,7 @@ Null-terminated character string that describes the intended printing environmen
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x0151                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -1345,7 +1345,7 @@ Number of extra color components. For example, one extra component might hold an
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0152               |
 | Type  | PropertyTagTypeShort |
@@ -1361,7 +1361,7 @@ For each color component, the numerical format (unsigned, signed, floating point
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0153                                   |
 | Type  | PropertyTagTypeShort                     |
@@ -1377,7 +1377,7 @@ For each color component, the minimum value of that component. See also [Propert
 
 
 
-|       |                                                     |
+| Property info | Value |
 |-------|-----------------------------------------------------|
 | Tag   | 0x0154                                              |
 | Type  | The type that best matches the pixel component data |
@@ -1393,7 +1393,7 @@ For each color component, the maximum value of that component. See also [Propert
 
 
 
-|       |                                                     |
+| Property info | Value |
 |-------|-----------------------------------------------------|
 | Tag   | 0x0155                                              |
 | Type  | The type that best matches the pixel component data |
@@ -1409,7 +1409,7 @@ Table of values that extends the range of the transfer function.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0156               |
 | Type  | PropertyTagTypeShort |
@@ -1425,7 +1425,7 @@ JPEG compression process.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0200               |
 | Type  | PropertyTagTypeShort |
@@ -1441,7 +1441,7 @@ Offset to the start of a JPEG bitstream.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x0201              |
 | Type  | PropertyTagTypeLong |
@@ -1457,7 +1457,7 @@ Length, in bytes, of the JPEG bitstream.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x0202              |
 | Type  | PropertyTagTypeLong |
@@ -1473,7 +1473,7 @@ Length of the restart interval.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0203               |
 | Type  | PropertyTagTypeShort |
@@ -1489,7 +1489,7 @@ For each color component, a lossless predictor-selection value for that componen
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0205                                   |
 | Type  | PropertyTagTypeShort                     |
@@ -1505,7 +1505,7 @@ For each color component, a point transformation value for that component. See a
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0206                                   |
 | Type  | PropertyTagTypeShort                     |
@@ -1521,7 +1521,7 @@ For each color component, the offset to the quantization table for that componen
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0207                                   |
 | Type  | PropertyTagTypeLong                      |
@@ -1537,7 +1537,7 @@ For each color component, the offset to the DC Huffman table (or lossless Huffma
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0208                                   |
 | Type  | PropertyTagTypeLong                      |
@@ -1553,7 +1553,7 @@ For each color component, the offset to the AC Huffman table for that component.
 
 
 
-|       |                                          |
+| Property info | Value |
 |-------|------------------------------------------|
 | Tag   | 0x0209                                   |
 | Type  | PropertyTagTypeLong                      |
@@ -1569,7 +1569,7 @@ Coefficients for transformation from RGB to YCbCr image data.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0211                  |
 | Type  | PropertyTagTypeRational |
@@ -1585,7 +1585,7 @@ Sampling ratio of chrominance components in relation to the luminance component.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0212               |
 | Type  | PropertyTagTypeShort |
@@ -1601,7 +1601,7 @@ Position of chrominance components in relation to the luminance component.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x0213               |
 | Type  | PropertyTagTypeShort |
@@ -1617,7 +1617,7 @@ Reference black point value and reference white point value.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0214                  |
 | Type  | PropertyTagTypeRational |
@@ -1633,7 +1633,7 @@ Gamma value attached to the image. The gamma value is stored as a rational numbe
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x0301                  |
 | Type  | PropertyTagTypeRational |
@@ -1649,7 +1649,7 @@ Null-terminated character string that identifies an ICC profile.
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x0302                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -1694,7 +1694,7 @@ Null-terminated character string that specifies the title of the image.
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x0320                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -1806,7 +1806,7 @@ Sequence of one-byte Boolean values that specify printing options.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5005               |
 | Type  | PropertyTagTypeASCII |
@@ -1822,7 +1822,7 @@ Print flags version.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5006               |
 | Type  | PropertyTagTypeShort |
@@ -1838,7 +1838,7 @@ Print flags center crop marks.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5007              |
 | Type  | PropertyTagTypeByte |
@@ -1854,7 +1854,7 @@ Print flags bleed width.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5008              |
 | Type  | PropertyTagTypeLong |
@@ -1870,7 +1870,7 @@ Print flags bleed width scale.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5009               |
 | Type  | PropertyTagTypeShort |
@@ -1886,7 +1886,7 @@ Ink's screen frequency, in lines per inch.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x500A                  |
 | Type  | PropertyTagTypeRational |
@@ -1926,7 +1926,7 @@ Angle for screen.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x500C                  |
 | Type  | PropertyTagTypeRational |
@@ -1966,7 +1966,7 @@ Miscellaneous halftone information.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x500E              |
 | Type  | PropertyTagTypeLong |
@@ -2006,7 +2006,7 @@ Private tag used by the Adobe Photoshop format. Not for public use.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5010               |
 | Type  | PropertyTagTypeShort |
@@ -2022,7 +2022,7 @@ Block of information about grids and guides.
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0x5011                   |
 | Type  | PropertyTagTypeUndefined |
@@ -2062,7 +2062,7 @@ Width, in pixels, of the thumbnail image.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5013              |
 | Type  | PropertyTagTypeLong |
@@ -2078,7 +2078,7 @@ Height, in pixels, of the thumbnail image.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5014              |
 | Type  | PropertyTagTypeLong |
@@ -2094,7 +2094,7 @@ bits per pixel (BPP) for the thumbnail image.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5015               |
 | Type  | PropertyTagTypeShort |
@@ -2110,7 +2110,7 @@ Number of color planes for the thumbnail image.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5016               |
 | Type  | PropertyTagTypeShort |
@@ -2126,7 +2126,7 @@ Byte offset between rows of pixel data.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5017              |
 | Type  | PropertyTagTypeLong |
@@ -2142,7 +2142,7 @@ Total size, in bytes, of the thumbnail image.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5018              |
 | Type  | PropertyTagTypeLong |
@@ -2158,7 +2158,7 @@ Compressed size, in bytes, of the thumbnail image.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5019              |
 | Type  | PropertyTagTypeLong |
@@ -2174,7 +2174,7 @@ Table of values that specify color transfer functions.
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0x501A                   |
 | Type  | PropertyTagTypeUndefined |
@@ -2190,7 +2190,7 @@ Raw thumbnail bits in JPEG or RGB format. Depends on PropertyTagThumbnailFormat.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x501B              |
 | Type  | PropertyTagTypeByte |
@@ -2206,7 +2206,7 @@ Number of pixels per row in the thumbnail image.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x5020                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -2222,7 +2222,7 @@ Number of pixel rows in the thumbnail image.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x5021                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -2238,7 +2238,7 @@ Number of bits per color component in the thumbnail image. See also [PropertyTag
 
 
 
-|       |                                                                 |
+| Property info | Value |
 |-------|-----------------------------------------------------------------|
 | Tag   | 0x5022                                                          |
 | Type  | PropertyTagTypeShort                                            |
@@ -2254,7 +2254,7 @@ Compression scheme used for thumbnail image data.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5023               |
 | Type  | PropertyTagTypeShort |
@@ -2270,7 +2270,7 @@ How thumbnail pixel data will be interpreted.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5024               |
 | Type  | PropertyTagTypeShort |
@@ -2286,7 +2286,7 @@ Null-terminated character string that specifies the title of the image.
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x5025                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -2302,7 +2302,7 @@ Null-terminated character string that specifies the manufacturer of the equipmen
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x5026                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -2318,7 +2318,7 @@ Null-terminated character string that specifies the model name or model number o
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x5027                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -2334,7 +2334,7 @@ For each strip in the thumbnail image, the byte offset of that strip. See also [
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x5028                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -2350,7 +2350,7 @@ Thumbnail image orientation in terms of rows and columns. See also [PropertyTagO
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5029               |
 | Type  | PropertyTagTypeShort |
@@ -2366,7 +2366,7 @@ Number of color components per pixel in the thumbnail image.
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x502A               |
 | Type  | PropertyTagTypeShort |
@@ -2382,7 +2382,7 @@ Number of rows per strip in the thumbnail image. See also [PropertyTagThumbnailS
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x502B                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -2398,7 +2398,7 @@ For each thumbnail image strip, the total number of bytes in that strip.
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0x502C                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -2414,7 +2414,7 @@ Thumbnail resolution in the width direction. The resolution unit is given in [Pr
 
 
 
-|     |        |
+| Property info | Value |
 |-----|--------|
 | Tag | 0x502D |
 
@@ -2428,7 +2428,7 @@ Thumbnail resolution in the height direction. The resolution unit is given in [P
 
 
 
-|     |        |
+| Property info | Value |
 |-----|--------|
 | Tag | 0x502E |
 
@@ -2442,7 +2442,7 @@ Whether pixel components in the thumbnail image are recorded in chunky or planar
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x502F               |
 | Type  | PropertyTagTypeShort |
@@ -2458,7 +2458,7 @@ Unit of measure for the horizontal resolution and the vertical resolution of the
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5030               |
 | Type  | PropertyTagTypeShort |
@@ -2474,7 +2474,7 @@ Tables that specify transfer functions for the thumbnail image. See also [Proper
 
 
 
-|       |                                                      |
+| Property info | Value |
 |-------|------------------------------------------------------|
 | Tag   | 0x5031                                               |
 | Type  | PropertyTagTypeShort                                 |
@@ -2490,7 +2490,7 @@ Null-terminated character string that specifies the name and version of the soft
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x5032                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -2506,7 +2506,7 @@ Date and time the thumbnail image was created. See also [PropertyTagDateTime](#p
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5033               |
 | Type  | PropertyTagTypeASCII |
@@ -2522,7 +2522,7 @@ Null-terminated character string that specifies the name of the person who creat
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x5034                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -2538,7 +2538,7 @@ Chromaticity of the white point of the thumbnail image. See also [PropertyTagWhi
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x5035                  |
 | Type  | PropertyTagTypeRational |
@@ -2554,7 +2554,7 @@ For each of the three primary colors in the thumbnail image, the chromaticity of
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x5036                  |
 | Type  | PropertyTagTypeRational |
@@ -2570,7 +2570,7 @@ Coefficients for transformation from RGB to YCbCr data for the thumbnail image. 
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x5037                  |
 | Type  | PropertyTagTypeRational |
@@ -2586,7 +2586,7 @@ Sampling ratio of chrominance components in relation to the luminance component 
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5038               |
 | Type  | PropertyTagTypeShort |
@@ -2602,7 +2602,7 @@ Position of chrominance components in relation to the luminance component for th
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5039               |
 | Type  | PropertyTagTypeShort |
@@ -2618,7 +2618,7 @@ Reference black point value and reference white point value for the thumbnail im
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x503A                  |
 | Type  | PropertyTagTypeRational |
@@ -2634,7 +2634,7 @@ Null-terminated character string that contains copyright information for the thu
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x503B                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -2650,7 +2650,7 @@ Luminance table. The luminance table and the chrominance table are used to contr
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5090               |
 | Type  | PropertyTagTypeShort |
@@ -2666,7 +2666,7 @@ Chrominance table. The luminance table and the chrominance table are used to con
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5091               |
 | Type  | PropertyTagTypeShort |
@@ -2682,7 +2682,7 @@ Time delay, in hundredths of a second, between two frames in an animated GIF ima
 
 
 
-|       |                               |
+| Property info | Value |
 |-------|-------------------------------|
 | Tag   | 0x5100                        |
 | Type  | PropertyTagTypeLong           |
@@ -2698,7 +2698,7 @@ For an animated GIF image, the number of times to display the animation. A value
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x5101               |
 | Type  | PropertyTagTypeShort |
@@ -2714,7 +2714,7 @@ Color palette for an indexed bitmap in a GIF image.
 
 
 
-|       |                               |
+| Property info | Value |
 |-------|-------------------------------|
 | Tag   | 0x5102                        |
 | Type  | PropertyTagTypeByte           |
@@ -2730,7 +2730,7 @@ Index of the background color in the palette of a GIF image.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5103              |
 | Type  | PropertyTagTypeByte |
@@ -2746,7 +2746,7 @@ Index of the transparent color in the palette of a GIF image.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5104              |
 | Type  | PropertyTagTypeByte |
@@ -2786,7 +2786,7 @@ Pixels per unit in the x direction.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5111              |
 | Type  | PropertyTagTypeLong |
@@ -2802,7 +2802,7 @@ Pixels per unit in the y direction.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x5112              |
 | Type  | PropertyTagTypeLong |
@@ -2818,7 +2818,7 @@ Palette histogram.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x5113                  |
 | Type  | PropertyTagTypeByte     |
@@ -2834,7 +2834,7 @@ Null-terminated character string that contains copyright information.
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x8298                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -2850,7 +2850,7 @@ Exposure time, measured in seconds.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x829A                  |
 | Type  | PropertyTagTypeRational |
@@ -2866,7 +2866,7 @@ F number.
 
 
 
-|       |          |
+| Property info | Value |
 |-------|----------|
 | Tag   | 0x829D   |
 | Type  | RATIONAL |
@@ -2882,7 +2882,7 @@ Private tag used by GDI+. Not for public use. GDI+ uses this tag to locate Exif-
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x8769              |
 | Type  | PropertyTagTypeLong |
@@ -2898,7 +2898,7 @@ ICC profile embedded in the image.
 
 
 
-|       |                       |
+| Property info | Value |
 |-------|-----------------------|
 | Tag   | 0x8773                |
 | Type  | PropertyTagTypeByte   |
@@ -2942,7 +2942,7 @@ Null-terminated character string that specifies the spectral sensitivity of each
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x8824                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -2958,7 +2958,7 @@ Offset to a block of GPS property items. Property items whose tags have the pref
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0x8825              |
 | Type  | PropertyTagTypeLong |
@@ -2974,7 +2974,7 @@ ISO speed and ISO latitude of the camera or input device as specified in ISO 122
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x8827               |
 | Type  | PropertyTagTypeShort |
@@ -2990,7 +2990,7 @@ Optoelectronic conversion function (OECF) specified in ISO 14524. The OECF is th
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0x8828                   |
 | Type  | PropertyTagTypeUndefined |
@@ -3006,7 +3006,7 @@ Version of the EXIF standard supported. Nonexistence of this field is taken to m
 
 
 
-|         |                          |
+| Property info | Value |
 |---------|--------------------------|
 | Tag     | 0x9000                   |
 | Type    | PropertyTagTypeUndefined |
@@ -3023,7 +3023,7 @@ Date and time when the original image data was generated. For a DSC, the date an
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x9003               |
 | Type  | PropertyTagTypeASCII |
@@ -3041,7 +3041,7 @@ The format is YYYY:MM:DD HH:MM:SS with time shown in 24-hour format and the date
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0x9004               |
 | Type  | PropertyTagTypeASCII |
@@ -3087,7 +3087,7 @@ Information specific to compressed data. The compression mode used for a compres
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x9102                  |
 | Type  | PropertyTagTypeRational |
@@ -3103,7 +3103,7 @@ Shutter speed. The unit is the Additive System of Photographic Exposure (APEX) v
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0x9201                   |
 | Type  | PropertyTagTypeSRational |
@@ -3119,7 +3119,7 @@ Lens aperture. The unit is the APEX value.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x9202                  |
 | Type  | PropertyTagTypeRational |
@@ -3135,7 +3135,7 @@ Brightness value. The unit is the APEX value. Ordinarily it is given in the rang
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0x9203                   |
 | Type  | PropertyTagTypeSRational |
@@ -3151,7 +3151,7 @@ Exposure bias. The unit is the APEX value. Ordinarily it is given in the range -
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0x9204                   |
 | Type  | PropertyTagTypeSRational |
@@ -3167,7 +3167,7 @@ Smallest F number of the lens. The unit is the APEX value. Ordinarily it is give
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x9205                  |
 | Type  | PropertyTagTypeRational |
@@ -3183,7 +3183,7 @@ Distance to the subject, measured in meters.
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x9206                  |
 | Type  | PropertyTagTypeRational |
@@ -3283,7 +3283,7 @@ Actual focal length, in millimeters, of the lens. Conversion is not made to the 
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0x920A                  |
 | Type  | PropertyTagTypeRational |
@@ -3299,7 +3299,7 @@ Note tag. A tag used by manufacturers of EXIF writers to record information. The
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0x927C                   |
 | Type  | PropertyTagTypeUndefined |
@@ -3315,7 +3315,7 @@ Comment tag. A tag used by EXIF users to write keywords or comments about the im
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0x9286                   |
 | Type  | PropertyTagTypeUndefined |
@@ -3333,7 +3333,7 @@ Null-terminated character string that specifies a fraction of a second for the P
 
 
 
-|       |                                                    |
+| Property info | Value |
 |-------|----------------------------------------------------|
 | Tag   | 0x9290                                             |
 | Type  | PropertyTagTypeASCII                               |
@@ -3349,7 +3349,7 @@ Null-terminated character string that specifies a fraction of a second for the P
 
 
 
-|      |                                                    |
+| Property info | Value |
 |------|----------------------------------------------------|
 | Tag  | 0x9291                                             |
 | Type | PropertyTagTypeASCII                               |
@@ -3365,7 +3365,7 @@ Null-terminated character string that specifies a fraction of a second for the P
 
 
 
-|      |                                                    |
+| Property info | Value |
 |------|----------------------------------------------------|
 | Tag  | 0x9292                                             |
 | Type | ASCII                                              |
@@ -3433,7 +3433,7 @@ Information specific to compressed data. When a compressed file is recorded, the
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0xA002                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -3449,7 +3449,7 @@ Information specific to compressed data. When a compressed file is recorded, the
 
 
 
-|       |                                             |
+| Property info | Value |
 |-------|---------------------------------------------|
 | Tag   | 0xA003                                      |
 | Type  | PropertyTagTypeShort or PropertyTagTypeLong |
@@ -3465,7 +3465,7 @@ The name of an audio file related to the image data. The only relational informa
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0xA004               |
 | Type  | PropertyTagTypeASCII |
@@ -3481,7 +3481,7 @@ Offset to a block of property items that contain interoperability information.
 
 
 
-|       |                     |
+| Property info | Value |
 |-------|---------------------|
 | Tag   | 0xA005              |
 | Type  | PropertyTagTypeLong |
@@ -3497,7 +3497,7 @@ Strobe energy, in Beam Candle Power Seconds (BCPS), at the time the image was ca
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0xA20B                  |
 | Type  | PropertyTagTypeRational |
@@ -3513,7 +3513,7 @@ Camera or input device spatial frequency table and SFR values in the image width
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0xA20C                   |
 | Type  | PropertyTagTypeUndefined |
@@ -3529,7 +3529,7 @@ Number of pixels in the image width (x) direction per unit on the camera focal p
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0xA20E                  |
 | Type  | PropertyTagTypeRational |
@@ -3545,7 +3545,7 @@ Number of pixels in the image height (y) direction per unit on the camera focal 
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0xA20F                  |
 | Type  | PropertyTagTypeRational |
@@ -3585,7 +3585,7 @@ Location of the main subject in the scene. The value of this tag represents the 
 
 
 
-|       |                      |
+| Property info | Value |
 |-------|----------------------|
 | Tag   | 0xA214               |
 | Type  | PropertyTagTypeShort |
@@ -3601,7 +3601,7 @@ Exposure index selected on the camera or input device at the time the image was 
 
 
 
-|       |                         |
+| Property info | Value |
 |-------|-------------------------|
 | Tag   | 0xA215                  |
 | Type  | PropertyTagTypeRational |
@@ -3641,7 +3641,7 @@ The image source. If a DSC recorded the image, the value of this tag is 3.
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0xA300                   |
 | Type  | PropertyTagTypeUndefined |
@@ -3657,7 +3657,7 @@ The type of scene. If a DSC recorded the image, the value of this tag must be se
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0xA301                   |
 | Type  | PropertyTagTypeUndefined |
@@ -3673,7 +3673,7 @@ The color filter array (CFA) geometric pattern of the image sensor when a one-ch
 
 
 
-|       |                          |
+| Property info | Value |
 |-------|--------------------------|
 | Tag   | 0xA302                   |
 | Type  | PropertyTagTypeUndefined |

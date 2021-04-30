@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the OpenProcessToken and GetTokenInformation functions to get the group memberships in an access token.
+description: The following example uses the OpenProcessToken and GetTokenInformation functions to get the group memberships in an access token.
 ms.assetid: f895dfef-75ad-419c-95d0-6480bdf9c769
 title: Searching for a SID in an Access Token in C++
 ms.topic: article

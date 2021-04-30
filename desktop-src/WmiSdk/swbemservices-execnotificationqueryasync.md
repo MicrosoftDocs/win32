@@ -1,5 +1,5 @@
 ---
-Description: Executes a query to receive events.
+description: Executes a query to receive events.
 ms.assetid: 0b0e8313-4ffd-4d4a-8965-d2c6743e7573
 ms.tgt_platform: multiple
 title: SWbemServices.ExecNotificationQueryAsync method (Wbemdisp.h)
@@ -210,7 +210,7 @@ End Sub
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

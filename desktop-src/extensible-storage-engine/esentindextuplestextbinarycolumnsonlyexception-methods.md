@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesTextBinaryColumnsOnlyException methods"
 title: EsentIndexTuplesTextBinaryColumnsOnlyException methods
 TOCTitle: EsentIndexTuplesTextBinaryColumnsOnlyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTextBinaryColumnsOnlyException

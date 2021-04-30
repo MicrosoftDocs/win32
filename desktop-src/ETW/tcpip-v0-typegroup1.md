@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for TCP/IP events. The following syntax is simplified from MOF code.
+description: TcpIp_V0_TypeGroup1 class - This class is the event type class for TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: 007f0744-8b74-4c57-85bc-f6bdb20bffa7
 title: TcpIp_V0_TypeGroup1 class
 ms.topic: reference
@@ -153,7 +153,7 @@ Source port number.
 
 
 
-|                                     |                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                   |

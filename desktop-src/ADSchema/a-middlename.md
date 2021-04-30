@@ -22,7 +22,7 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Other-Name                                  |
 | Ldap-Display-Name | middleName                                  |
@@ -48,7 +48,7 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -69,7 +69,7 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -90,7 +90,7 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -111,7 +111,7 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -132,7 +132,7 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -153,7 +153,7 @@ Additional names for a user. For example, middle name, patronymic, matronymic, o
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

@@ -1,5 +1,5 @@
 ---
-Description: The Set method sets a property identified by a property set GUID and a property ID.
+description: The Set method sets a property identified by a property set GUID and a property ID.
 ms.assetid: 78f506dc-7fb4-446d-863e-cffee9da5280
 title: IKsPropertySet::Set method (Ksproxy.h)
 ms.topic: reference
@@ -111,7 +111,7 @@ You must include Ks.h before Ksproxy.h.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

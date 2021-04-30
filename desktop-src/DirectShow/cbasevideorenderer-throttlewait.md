@@ -1,5 +1,5 @@
 ---
-Description: The ThrottleWait method inserts a wait period after each frame.
+description: The ThrottleWait method inserts a wait period after each frame.
 ms.assetid: 69306093-f5db-4170-b30f-e33cfa448e9f
 title: CBaseVideoRenderer.ThrottleWait method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This member function waits for a time period obtained from the **m\_trThrottle**
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

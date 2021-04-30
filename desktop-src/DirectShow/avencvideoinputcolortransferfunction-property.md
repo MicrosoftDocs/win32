@@ -1,5 +1,5 @@
 ---
-Description: Specifies the conversion function from RGB to R'G'B' for input video.
+description: Specifies the conversion function from RGB to R'G'B' for input video.
 ms.assetid: ccfdeb65-6188-4fea-bbef-2510271fbf1e
 title: AVEncVideoInputColorTransferFunction property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncVideoColorTransferFunctio
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

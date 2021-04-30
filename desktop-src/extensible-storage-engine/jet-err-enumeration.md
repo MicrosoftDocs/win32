@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_err enumeration"
 title: JET_err enumeration
 TOCTitle: JET_err enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_err

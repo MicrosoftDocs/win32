@@ -1,5 +1,5 @@
 ---
-Description: Specifies the actual quality level for quality based (1-pass) variable-bit-rate (VBR) encoding.
+description: Specifies the actual quality level for quality based (1-pass) variable-bit-rate (VBR) encoding.
 ms.assetid: e45d583a-323b-4394-9df3-949a3f713708
 title: MFPKEY_VBRQUALITY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ For audio encoder objects, the quality modes are provided in the [**WAVEFORMATEX
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

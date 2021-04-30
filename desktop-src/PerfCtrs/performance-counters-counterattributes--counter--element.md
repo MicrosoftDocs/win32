@@ -1,5 +1,5 @@
 ---
-Description: Identifies a list of attributes that describes how the counter should be displayed.
+description: Identifies a list of attributes that describes how the counter should be displayed.
 ms.assetid: d0935ce8-8182-4c83-97d9-0b44182934e0
 title: counterAttributes (counter) Element
 ms.topic: reference
@@ -27,7 +27,7 @@ The **counterAttributes** element is defined by the [**counter**](performance-co
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

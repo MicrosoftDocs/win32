@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
+description: This topic provides information about the native HD Photo codec available through the Windows Imaging Component (WIC).
 ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: HD Photo Format Overview
 ms.topic: article
@@ -65,159 +65,32 @@ WIC-enabled codecs differ at the encoding option level. Encoder options reflect 
 
 The HD Photo codec uses both basic WIC options and provides several HD Photo specific encoding options. The following table lists the encoder options supported by the native HD Photo codec.
 
-
-
 Basic WIC Encoder Options
 
-Property Name
-
-VARTYPE
-
-Value Range
-
-Default Value
-
-[ImageQuality](#imagequality-option)
-
-VT\_R4
-
-0 - 1.0
-
-0.9
-
-[Lossless](#lossless-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**FALSE**
-
-[BitmapTransform](#bitmaptransform-option)
-
-VT\_UI1
-
-[**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions)
-
-[**WICBitmapTransformRotate0**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions)
+| Property Name | VARTYPE | Value Range | Default Value |
+|---------------|---------|-------------|---------------|
+| [ImageQuality](#imagequality-option) | VT\_R4 | 0 - 1.0 | 0.9 |
+| [Lossless](#lossless-option) | VT\_BOOL | **TRUE**, **FALSE** | **FALSE** |
+| [BitmapTransform](#bitmaptransform-option) | VT\_UI1 | [**WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) |   [**WICBitmapTransformRotate0**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions) |
 
 HD Photo Specific Encoder Options
 
-Property Name
+| Property Name | VARTYPE | Value Range | Default Value |
+|---------------|---------|-------------|---------------|
+| [UseCodecOptions](#usecodecoptions-option) | VT\_BOOL | **TRUE**, **FALSE** | **FALSE** |
+| [Quality](#quality-option) | VT\_UI1 | 1 - 255 | 10 |
+| [Overlap](#overlap-option) | VT\_UI1 | 0 - 2 | 1 |
+| [Subsampling](#subsampling-option) | VT\_UI1 | 0 - 3 | 3 if ImageQuality > 0.8; otherwise 1; |
+| [HorizontalTileSlices](#horizontaltileslices-verticaltileslices-options) | VT\_UI2 | 0 - 4095 | (image width – 1) >> 8 |
+| [VerticalTileSlices](#horizontaltileslices-verticaltileslices-options) | VT\_UI2 | 0 - 4095 | (image height – 1) >> 8 |
+| [FrequencyOrder](#frequencyorder-option) | VT\_BOOL | **TRUE**, **FALSE** | **TRUE** |
+| [InterleavedAlpha](#interleavedalpha-option) | VT\_BOOL | **TRUE**, **FALSE** | **FALSE** |
+| [AlphaQuality](#alphaquality-option) | VT\_UI1 | 1 - 255 | 1 |
+| [CompressedDomainTranscode](#compresseddomaintranscode-option) | VT\_BOOL | **TRUE**, **FALSE** | **TRUE** |
+| [ImageDataDiscard](#imagedatadiscard-option) | VT\_UI1 | 0 - 3 | 0 |
+| [AlphaDataDiscard](#alphadatadiscard-option) | VT\_UI1 | 0 - 4 | Not Used. |
+| [IgnoreOverlap](#ignoreoverlap-option) | VT\_BOOL | **TRUE**, **FALSE** | **FALSE** |
 
-VARTYPE
-
-Value Range
-
-Default Value
-
-[UseCodecOptions](#usecodecoptions-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**FALSE**
-
-[Quality](#quality-option)
-
-VT\_UI1
-
-1 - 255
-
-10
-
-[Overlap](#overlap-option)
-
-VT\_UI1
-
-0 - 2
-
-1
-
-[Subsampling](#subsampling-option)
-
-VT\_UI1
-
-0 - 3
-
-3 if ImageQuality > 0.8; otherwise 1;
-
-[HorizontalTileSlices](#horizontaltileslices-verticaltileslices-options)
-
-VT\_UI2
-
-0 - 4095
-
-(image width – 1) >> 8
-
-[VerticalTileSlices](#horizontaltileslices-verticaltileslices-options)
-
-VT\_UI2
-
-0 - 4095
-
-(image height – 1) >> 8
-
-[FrequencyOrder](#frequencyorder-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**TRUE**
-
-[InterleavedAlpha](#interleavedalpha-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**FALSE**
-
-[AlphaQuality](#alphaquality-option)
-
-VT\_UI1
-
-1 - 255
-
-1
-
-[CompressedDomainTranscode](#compresseddomaintranscode-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**TRUE**
-
-[ImageDataDiscard](#imagedatadiscard-option)
-
-VT\_UI1
-
-0 - 3
-
-0
-
-[AlphaDataDiscard](#alphadatadiscard-option)
-
-VT\_UI1
-
-0 - 4
-
-Not Used.
-
-[IgnoreOverlap](#ignoreoverlap-option)
-
-VT\_BOOL
-
-**TRUE**, **FALSE**
-
-**FALSE**
-
-
-
- 
 
 If an encoder option is present in the [**IPropertyBag2**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) option list that the codec does not support, it is ignored.
 

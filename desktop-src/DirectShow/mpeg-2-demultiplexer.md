@@ -1,5 +1,5 @@
 ---
-Description: This filter demultiplexes MPEG-2 transport and program streams that are delivered in push-mode.
+description: This filter demultiplexes MPEG-2 transport and program streams that are delivered in push-mode.
 ms.assetid: 99bfc55d-6519-4e85-98ce-cad27bd71ffb
 title: MPEG-2 Demultiplexer
 ms.topic: reference
@@ -95,7 +95,7 @@ To output audio and video elementary streams, the demux must receive the PCR and
 
 
 
-|                                     |                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>       |

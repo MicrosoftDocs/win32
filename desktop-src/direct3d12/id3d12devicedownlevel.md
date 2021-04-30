@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 08/29/2019
 ---
 
-# ID3D12CommandQueueDownlevel interface
+# ID3D12DeviceDownlevel interface
 
 This interface can be accessed via **QueryInterface** off of a [Direct3D 12 device](/windows/desktop/api/d3d12/nn-d3d12-id3d12device) when using [Direct3D 12 on Windows 7](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/). It provides a Windows-7-specific memory statistics query.
 
@@ -30,7 +30,7 @@ The **ID3D12DeviceDownlevel** interface has these methods.
 
 ## Requirements
 
-|        |                  |
+| Requirement | Value |
 |--------|------------------|
 | Header | d3d12downlevel.h |
 | DLL    | D3D12.dll (Windows 7 only) |

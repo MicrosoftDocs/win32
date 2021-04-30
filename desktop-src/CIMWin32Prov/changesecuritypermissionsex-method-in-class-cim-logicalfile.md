@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
+description: Changes the security permissions for the logical file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
 ms.assetid: 29155533-0898-4f8f-af08-f3ea46c8c1d3
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the CIM_LogicalFile class
@@ -262,7 +262,7 @@ This method is currently not implemented by WMI. To use this method, you must im
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

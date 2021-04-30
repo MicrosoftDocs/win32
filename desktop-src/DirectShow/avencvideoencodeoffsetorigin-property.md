@@ -1,5 +1,5 @@
 ---
-Description: Specifies the left and top corners of the clipping rectangle, if the video is cropped.
+description: Specifies the left and top corners of the clipping rectangle, if the video is cropped.
 ms.assetid: 8ce8b3b8-dd91-41e1-a4ba-b0c2d9d0edd2
 title: AVEncVideoEncodeOffsetOrigin property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ Applications can set this property to crop the input video. Use the [**AVEncVide
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

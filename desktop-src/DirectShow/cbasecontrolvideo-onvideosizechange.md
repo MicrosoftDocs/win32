@@ -1,5 +1,5 @@
 ---
-Description: Passes an EC\_VIDEO\_SIZE\_CHANGED message to the filter graph manager.
+description: Passes an EC\_VIDEO\_SIZE\_CHANGED message to the filter graph manager.
 ms.assetid: 39cb4f30-c12d-49bd-8d8a-70bf686b680d
 title: CBaseControlVideo.OnVideoSizeChange method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ A video renderer should call this member function each time the video size is ch
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCodePageException methods"
 title: EsentInvalidCodePageException methods
 TOCTitle: EsentInvalidCodePageException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException

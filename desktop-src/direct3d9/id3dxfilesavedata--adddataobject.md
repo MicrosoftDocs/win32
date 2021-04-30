@@ -1,5 +1,5 @@
 ---
-Description: Adds a data object as a child of the ID3DXFileSaveData file data node.
+description: Adds a data object as a child of the ID3DXFileSaveData file data node.
 ms.assetid: 47faad99-3ee8-4ca8-b8d7-413d4cd5b090
 title: ID3DXFileSaveData::AddDataObject method (D3DX9Xof.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

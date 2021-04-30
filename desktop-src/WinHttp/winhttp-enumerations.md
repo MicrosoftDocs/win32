@@ -1,5 +1,5 @@
 ---
-Description: This topic identifies the enumerations that WinHTTP uses.
+description: This topic identifies the enumerations that WinHTTP uses.
 ms.assetid: 1527bea2-ec72-4532-9725-0310db68b876
 title: WinHTTP Enumerations
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Used to define private messages for use by private window classes, usually of the form OCM\_\_BASE+x, where x is an integer value.
+description: Used to define private messages for use by private window classes, usually of the form OCM\_\_BASE+x, where x is an integer value.
 ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: OCM__BASE (Olectl.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Message numbers in the fifth range (greater than 0xFFFF) are reserved by the sys
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

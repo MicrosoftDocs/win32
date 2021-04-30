@@ -1,5 +1,5 @@
 ---
-Description: Using WDDM Capture in DirectShow
+description: Using WDDM Capture in DirectShow
 ms.assetid: 57ee86b0-50bc-4992-94d4-f290f83d2afc
 title: Using WDDM Capture in DirectShow
 ms.topic: article

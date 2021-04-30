@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPatchPageException properties"
 title: EsentBadPatchPageException properties
 TOCTitle: EsentBadPatchPageException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBadPatchPageException

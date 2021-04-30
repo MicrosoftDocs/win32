@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInitializedException members"
 title: EsentNotInitializedException members
 TOCTitle: EsentNotInitializedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNotInitializedException

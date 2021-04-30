@@ -1,5 +1,5 @@
 ---
-Description: The code page bitfields are used in the FONTSIGNATURE and LOCALESIGNATURE structures.Note  All locales do not support code pages.
+description: The code page bitfields are used in the FONTSIGNATURE and LOCALESIGNATURE structures.Note  All locales do not support code pages.
 ms.assetid: 830b1a88-cb0c-4719-b857-4cc2cd67dd5d
 title: Code Page Bitfields
 ms.topic: article

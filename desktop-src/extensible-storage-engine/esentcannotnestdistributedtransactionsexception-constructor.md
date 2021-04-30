@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDistributedTransactionsException constructor"
 title: EsentCannotNestDistributedTransactionsException constructor 
 TOCTitle: 'EsentCannotNestDistributedTransactionsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException.#ctor

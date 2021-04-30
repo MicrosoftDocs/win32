@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a cursor enters the physical detection range (proximity) of the tablet context.
+description: InkPicture.CursorInRange event - Occurs when a cursor enters the physical detection range (proximity) of the tablet context.
 ms.assetid: e921e175-a2cf-45e6-bb81-dc82e384d3b1
 title: InkPicture.CursorInRange event (Msinkaut.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The **CursorInRange** event is fired even when in select or erase mode, not just
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

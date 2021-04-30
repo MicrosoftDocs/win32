@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBackupDatabaseSizeException class"
 title: EsentBadBackupDatabaseSizeException class
 TOCTitle: EsentBadBackupDatabaseSizeException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException

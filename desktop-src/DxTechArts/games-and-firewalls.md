@@ -189,37 +189,37 @@ An alternate method of using the Firewall APIs is to add the function calls to a
     2.  Click on the InstallScript file (usually setup.rul) to open it in the editor
     3.  Paste the following code into the InstallScript file:
 
-        ``` syntax
-#include "ifx.h"
+    ``` syntax
+    #include "ifx.h"
 
-        prototype BOOL FirewallInstallHelper.AddApplicationToExceptionListW( WSTRING, WSTRING );
-        prototype BOOL FirewallInstallHelper.RemoveApplicationFromExceptionListW( WSTRING );
+    prototype BOOL FirewallInstallHelper.AddApplicationToExceptionListW( WSTRING, WSTRING );
+    prototype BOOL FirewallInstallHelper.RemoveApplicationFromExceptionListW( WSTRING );
 
-        function OnMoved()
-            WSTRING path[256];
-        begin
-            // The DLL has been installed into the TARGETDIR
-            if !MAINTENANCE then // TRUE when installing
-                UseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
-                path = TARGETDIR ^ "TODO: change to relative path to executable from install directory";
-                FirewallInstallHelper.AddApplicationToExceptionListW( path, "TODO: change to friendly app name" );
-                UnUseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
-            endif;
-        end;
-              
+    function OnMoved()
+        WSTRING path[256];
+    begin
+        // The DLL has been installed into the TARGETDIR
+        if !MAINTENANCE then // TRUE when installing
+            UseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
+            path = TARGETDIR ^ "TODO: change to relative path to executable from install directory";
+            FirewallInstallHelper.AddApplicationToExceptionListW( path, "TODO: change to friendly app name" );
+            UnUseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
+        endif;
+    end;
+          
 
-        function OnMoving()
-            WSTRING path[256];
-        begin
-            // The DLL is about to be removed from TARGETDIR
-            if MAINTENANCE && UNINST != "" then // TRUE when uninstalling
-                UseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
-                path = TARGETDIR ^ "TODO: change to relative path to executable from install directory";
-                FirewallInstallHelper.RemoveApplicationFromExceptionListW( path );
-                UnUseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
-            endif;
-        end;
-        ```
+    function OnMoving()
+        WSTRING path[256];
+    begin
+        // The DLL is about to be removed from TARGETDIR
+        if MAINTENANCE && UNINST != "" then // TRUE when uninstalling
+            UseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
+            path = TARGETDIR ^ "TODO: change to relative path to executable from install directory";
+            FirewallInstallHelper.RemoveApplicationFromExceptionListW( path );
+            UnUseDLL( TARGETDIR ^ "FirewallInstallHelper.dll" );
+        endif;
+    end;
+    ```
 
     4.  Change the TODO comments with the application name that will be shown in the Firewall Exception List and the path to the game executable relative to the installation directory.
 

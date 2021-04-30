@@ -1,5 +1,5 @@
 ---
-Description: Image file formats supported by D3DXCreatexxx and D3DX10Savexxx functions.
+description: Image file formats supported by D3DXCreatexxx and D3DX10Savexxx functions.
 ms.assetid: 39602f3c-5c91-4667-96d0-c3bdba712d88
 title: D3DX10_IMAGE_FILE_FORMAT enumeration (D3DX10Tex.h)
 ms.topic: reference
@@ -109,7 +109,7 @@ D3DX10 makes use of the Windows Imaging Component to implement the majority of t
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

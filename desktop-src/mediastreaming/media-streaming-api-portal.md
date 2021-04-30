@@ -1,6 +1,6 @@
 ---
 title: Windows Media Streaming API
-description: .
+description: Windows Media Streaming API
 ms.assetid: 24b2824b-59ea-4479-80c3-f4515285edfa
 ms.topic: article
 ms.date: 05/31/2018

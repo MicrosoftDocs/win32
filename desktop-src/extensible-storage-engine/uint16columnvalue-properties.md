@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: UInt16ColumnValue properties"
 title: UInt16ColumnValue properties
 TOCTitle: UInt16ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.UInt16ColumnValue

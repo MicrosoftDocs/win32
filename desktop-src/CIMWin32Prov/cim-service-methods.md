@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Service class exposes the following methods.
+description: The CIM\_Service class exposes the following methods.
 ms.assetid: A95156CB-A65D-4C27-B741-568600F62BA1
 ms.tgt_platform: multiple
 title: CIM_Service Methods

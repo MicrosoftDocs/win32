@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageBoundaryException constructor"
 title: EsentPageBoundaryException constructor 
 TOCTitle: 'EsentPageBoundaryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPageBoundaryException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Used to represent registry entries that control private key caching by Microsoft software-based CSPs.
+description: Used to represent registry entries that control private key caching by Microsoft software-based CSPs.
 ms.assetid: 67909072-72fe-4777-ae52-a7b9047c9dd5
 title: Private Key Caching Constants (Wincrypt.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ The differences between the **szKEY\_CACHE\_SECONDS** and the **szPRIV\_KEY\_CAC
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

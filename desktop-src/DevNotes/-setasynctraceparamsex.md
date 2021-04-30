@@ -1,5 +1,5 @@
 ---
-Description: Finishes setting up a trace buffer with optional fields for sprintf-style traces.
+description: SetAsyncTraceParamsEx function - Finishes setting up a trace buffer with optional fields for sprintf-style traces.
 ms.assetid: 6c23e61c-0285-47ba-b614-b73bd001d552
 title: SetAsyncTraceParamsEx function
 ms.topic: reference
@@ -108,7 +108,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Exstrace.dll</dt> </dl> |
 

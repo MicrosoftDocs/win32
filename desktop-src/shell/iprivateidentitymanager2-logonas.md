@@ -1,5 +1,5 @@
 ---
-Description: IPrivateIdentityManager2::LogonAs method
+description: IPrivateIdentityManager2::LogonAs method
 title: IPrivateIdentityManager2::LogonAs method
 ms.topic: reference
 ms.date: 05/31/2018

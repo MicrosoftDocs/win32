@@ -59,7 +59,7 @@ This structure is used as a parameter for the [**IWMDRMNetTransmitter::GetLeafLi
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

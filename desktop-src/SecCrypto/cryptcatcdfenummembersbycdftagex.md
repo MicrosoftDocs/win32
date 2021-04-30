@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the individual file members in the CatalogFiles section of a catalog definition file (CDF).
+description: Enumerates the individual file members in the CatalogFiles section of a catalog definition file (CDF).
 ms.assetid: 38e17ef2-65dc-45f8-a484-8eedcf4ce3e3
 title: CryptCATCDFEnumMembersByCDFTagEx function
 ms.topic: reference
@@ -131,7 +131,7 @@ The following example shows the correct sequence of assignments for the *pwszPre
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

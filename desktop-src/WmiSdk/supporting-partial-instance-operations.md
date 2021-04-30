@@ -1,5 +1,5 @@
 ---
-Description: A provider is not required to support any partial-instance operations. However, a provider must either support all the semantics of a partial-instance operation, process a complete instance, or return WBEM\_E\_UNSUPPORTED\_PARAMETER.
+description: A provider is not required to support any partial-instance operations. However, a provider must either support all the semantics of a partial-instance operation, process a complete instance, or return WBEM\_E\_UNSUPPORTED\_PARAMETER.
 ms.assetid: bc498655-ad6d-44f5-912d-9b7ee95825ec
 ms.tgt_platform: multiple
 title: Supporting Partial-Instance Operations

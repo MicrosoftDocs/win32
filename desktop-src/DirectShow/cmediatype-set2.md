@@ -1,7 +1,7 @@
 ---
-Description: The Set method sets the media type from another media type.
+description: The Set method sets the media type from another media type.
 ms.assetid: b3cf65c2-48db-4ee0-9a74-c1652f017eed
-title: CMediaType.Set method (Mtype.h)
+title: CMediaType.Set method (Mtype.h) - mtype [ref] parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaType.Set method
+# CMediaType.Set method (Mtype.h)
 
 The `Set` method sets the media type from another media type.
 
@@ -56,7 +56,7 @@ This method copies the entire media type from *mtype*.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

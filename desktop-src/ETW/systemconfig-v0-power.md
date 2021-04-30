@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for power configuration events. The following syntax is simplified from MOF code.
+description: SystemConfig_V0_Power class - This class is the event type class for power configuration events. The following syntax is simplified from MOF code.
 ms.assetid: b3391435-dac0-4c48-b788-eb4d4a7aa635
 title: SystemConfig_V0_Power class
 ms.topic: reference
@@ -189,7 +189,7 @@ True indicates the system supports sleep state S5.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.ToString method"
 title: JET_UNICODEINDEX.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.ToString

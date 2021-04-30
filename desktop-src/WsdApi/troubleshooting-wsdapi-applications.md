@@ -1,5 +1,5 @@
 ---
-Description: Lists the diagnostic procedures to use when troubleshooting WSDAPI applications.
+description: Lists the diagnostic procedures to use when troubleshooting WSDAPI applications.
 ms.assetid: befe4234-8d3a-4fc5-9a7d-faca94964af6
 title: Troubleshooting Other WSDAPI Applications
 ms.topic: article

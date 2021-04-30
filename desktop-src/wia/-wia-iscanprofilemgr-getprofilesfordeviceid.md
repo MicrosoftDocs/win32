@@ -1,5 +1,5 @@
 ---
-Description: Gets all the scan profiles associated with a device.
+description: Gets all the scan profiles associated with a device.
 ms.assetid: 2e509f01-9c5e-4d17-8888-b08b6b4b9fa9
 title: IScanProfileMgr::GetProfilesforDeviceID method (Scanprofilemgr.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ If the total number of profiles associated with the device is smaller than the v
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

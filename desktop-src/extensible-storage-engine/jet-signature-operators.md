@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SIGNATURE operators"
 title: JET_SIGNATURE operators
 TOCTitle: JET_SIGNATURE operators
 ms:assetid: 8d99c598-1c79-00ba-5a3e-d18a90d0ba5c

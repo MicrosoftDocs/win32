@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOBeyondEOFException constructor"
 title: EsentFileIOBeyondEOFException constructor 
 TOCTitle: 'EsentFileIOBeyondEOFException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException.#ctor

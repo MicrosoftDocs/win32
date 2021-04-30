@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareElementVersionCheck class represents a type of software element that must exist in the environment.
+description: The CIM\_SoftwareElementVersionCheck class represents a type of software element that must exist in the environment.
 ms.assetid: a1c0f0d5-2586-499c-bd82-bbb107570d81
 ms.tgt_platform: multiple
 title: CIM_SoftwareElementVersionCheck class
@@ -1450,7 +1450,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

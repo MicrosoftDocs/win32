@@ -1,5 +1,5 @@
 ---
-Description: Removes a single Certificate object from the collection.
+description: Removes a single Certificate object from the collection.
 ms.assetid: dff82825-1a7d-4c1a-94e2-7f9d1281ecf2
 title: ICertificates2::Remove method
 ms.topic: reference
@@ -64,7 +64,7 @@ This method does not return a value.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Locks or releases the media.
+description: LockMedia method of the Msvm_DVDDrive class - Locks or releases the media.
 ms.assetid: 924bc20a-901b-4618-be49-eaacf80c9465
 title: LockMedia method of the Msvm_DVDDrive class
 ms.topic: reference
@@ -57,7 +57,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

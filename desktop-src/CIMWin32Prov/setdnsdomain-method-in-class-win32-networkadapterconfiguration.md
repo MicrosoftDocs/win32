@@ -1,5 +1,5 @@
 ---
-Description: The SetDNSDomain WMI class method allows for the setting of the DNS domain.
+description: The SetDNSDomain WMI class method allows for the setting of the DNS domain.
 ms.assetid: a531133e-1b7c-4d85-979d-63bf4f7c9bed
 ms.tgt_platform: multiple
 title: SetDNSDomain method of the Win32_NetworkAdapterConfiguration class
@@ -417,7 +417,7 @@ The [Enable DHCP Settings on a Computer](https://Gallery.TechNet.Microsoft.Com/4
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

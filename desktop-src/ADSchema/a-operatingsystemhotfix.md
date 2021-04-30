@@ -22,7 +22,7 @@ The hotfix level of the operating system.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Operating-System-Hotfix                     |
 | Ldap-Display-Name | operatingSystemHotfix                       |
@@ -48,7 +48,7 @@ The hotfix level of the operating system.
 
 
 
-|                        |                                                                                          |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                       |
 | MAPI-Id                | \-                                                                                       |
@@ -69,7 +69,7 @@ The hotfix level of the operating system.
 
 
 
-|                        |                                                                                          |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                       |
 | MAPI-Id                | \-                                                                                       |
@@ -90,7 +90,7 @@ The hotfix level of the operating system.
 
 
 
-|                        |                                                                                          |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                       |
 | MAPI-Id                | \-                                                                                       |
@@ -111,7 +111,7 @@ The hotfix level of the operating system.
 
 
 
-|                        |                                                                                          |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                       |
 | MAPI-Id                | \-                                                                                       |
@@ -132,7 +132,7 @@ The hotfix level of the operating system.
 
 
 
-|                        |                                                                                          |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                       |
 | MAPI-Id                | \-                                                                                       |
@@ -153,7 +153,7 @@ The hotfix level of the operating system.
 
 
 
-|                        |                                                                                          |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                       |
 | MAPI-Id                | \-                                                                                       |

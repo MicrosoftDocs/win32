@@ -22,7 +22,7 @@ For a claim type object, this attribute points to the attribute that will be use
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Claim-Attribute-Source            |
 | Ldap-Display-Name | msDS-ClaimAttributeSource               |
@@ -43,7 +43,7 @@ For a claim type object, this attribute points to the attribute that will be use
 
 
 
-|                        |                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------|
 | Link-Id                | \-                                                      |
 | MAPI-Id                | \-                                                      |

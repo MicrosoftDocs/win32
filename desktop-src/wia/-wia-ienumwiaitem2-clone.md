@@ -1,5 +1,5 @@
 ---
-Description: Creates an additional instance of the IEnumWiaItem2 interface and sends back a pointer to it.
+description: Creates an additional instance of the IEnumWiaItem2 interface and sends back a pointer to it.
 ms.assetid: 0d36d555-d0d9-4a1c-ac54-de611850449c
 title: IEnumWiaItem2::Clone method (Wia.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unkn
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

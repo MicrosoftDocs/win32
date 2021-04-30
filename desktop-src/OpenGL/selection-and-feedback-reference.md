@@ -1,6 +1,6 @@
 ---
-title: Selection and Feedback Reference
-description: Selection and Feedback Reference
+title: Selection and feedback reference
+description: Selection and feedback reference
 ms.assetid: 971d22d6-5cbd-4323-9283-02c43ca89164
 keywords:
 - OpenGL,selection reference
@@ -11,13 +11,13 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Selection and Feedback Reference
+# Selection and feedback reference
 
-## Selection and Feedback
+## Selection and feedback
 
 -   [**glRenderMode**](glrendermode.md)
 
-## Selection
+## Selection reference
 
 -   [**glInitNames**](glinitnames.md)
 -   [**glLoadName**](glloadname.md)
@@ -26,15 +26,8 @@ ms.date: 05/31/2018
 -   [**glSelectBuffer**](glselectbuffer.md)
 -   [**gluPickMatrix**](glupickmatrix.md)
 
-## Feedback
+## Feedback reference
 
 -   [**glFeedbackBuffer**](glfeedbackbuffer.md)
 -   [**glPassThrough**](glpassthrough.md)
-
- 
-
- 
-
-
-
-
+-   

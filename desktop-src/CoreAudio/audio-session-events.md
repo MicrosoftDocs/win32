@@ -1,5 +1,5 @@
 ---
-Description: Audio Session Events
+description: Audio Session Events
 ms.assetid: 6943b405-0807-412b-a149-fc3a8ece1b48
 title: Audio Session Events
 ms.topic: article

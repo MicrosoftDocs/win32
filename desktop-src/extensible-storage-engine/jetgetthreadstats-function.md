@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetThreadStats Function"
 title: JetGetThreadStats Function
 TOCTitle: JetGetThreadStats Function
 ms:assetid: 1b8df8cd-fc61-44fe-a15c-a166f7097c32

@@ -1,5 +1,5 @@
 ---
-Description: The EffectGetCount method retrieves the number of effects on this object.
+description: The EffectGetCount method retrieves the number of effects on this object.
 ms.assetid: 6cf3b5b1-f38f-4ee1-8567-3c55f4f89cbb
 title: IAMTimelineEffectable::EffectGetCount method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

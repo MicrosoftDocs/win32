@@ -1,5 +1,5 @@
 ---
-Description: The GetTransAtTime method retrieves the transition nearest to the specified time, according to the specified boundary conditions.
+description: The GetTransAtTime method retrieves the transition nearest to the specified time, according to the specified boundary conditions.
 ms.assetid: 33b3686b-5a9d-4eb2-bd40-4d6f569e7d89
 title: IAMTimelineTransable::GetTransAtTime method (Qedit.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ If the method returns S\_OK, the **IAMTimelineObj** interface that it returns ha
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

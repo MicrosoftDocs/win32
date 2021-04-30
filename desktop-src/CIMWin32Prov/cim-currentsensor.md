@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CurrentSensor class exists for backward compatibility to earlier CIM schema definitions.
+description: The CIM\_CurrentSensor class exists for backward compatibility to earlier CIM schema definitions.
 ms.assetid: d1835b09-4286-4586-92ec-f5f77791aea6
 ms.tgt_platform: multiple
 title: CIM_CurrentSensor class
@@ -1486,7 +1486,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

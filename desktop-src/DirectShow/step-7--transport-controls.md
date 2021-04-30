@@ -1,5 +1,5 @@
 ---
-Description: This topic is step 7 of the tutorial Audio/Video Playback in DirectShow.
+description: This topic is step 7 of the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 2e542a2d-fc71-41d5-9abd-0dfa70719c0f
 title: 'Step 7: Transport Controls'
 ms.topic: article

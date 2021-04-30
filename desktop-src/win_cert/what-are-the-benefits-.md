@@ -1,7 +1,7 @@
 ---
 title: Benefits of Windows certification
 ms.assetid: F6476A58-F74D-4914-A234-635484D7DAAB
-description: 
+description: "Learn more about: Benefits of Windows certification"
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

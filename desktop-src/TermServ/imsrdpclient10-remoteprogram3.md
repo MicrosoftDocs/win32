@@ -45,7 +45,7 @@ Returns an [**ITSRemoteProgram3**](itsremoteprogram3.md) interface pointer.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                         |

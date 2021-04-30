@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesTooManyColumnsException properties"
 title: EsentIndexTuplesTooManyColumnsException properties
 TOCTitle: EsentIndexTuplesTooManyColumnsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTooManyColumnsException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE structure"
 title: JET_SIGNATURE structure
 TOCTitle: JET_SIGNATURE structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SIGNATURE

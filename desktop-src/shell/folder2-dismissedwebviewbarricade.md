@@ -1,5 +1,5 @@
 ---
-Description: Called in response to the web view barricade being dismissed by the user.
+description: Called in response to the web view barricade being dismissed by the user.
 ms.assetid: 170893b6-c947-45b1-b717-a93a0b083bda
 title: Folder2.DismissedWebViewBarricade method (Shldisp.h)
 ms.topic: reference
@@ -115,7 +115,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

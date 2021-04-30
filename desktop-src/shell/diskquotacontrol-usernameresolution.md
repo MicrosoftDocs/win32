@@ -1,5 +1,5 @@
 ---
-Description: Sets or gets a value that controls how user security identifier (SID) are resolved to user names.
+description: Sets or gets a value that controls how user security identifier (SID) are resolved to user names.
 title: DiskQuotaControl.UserNameResolution property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -65,7 +65,7 @@ This property affects the enumeration of [**DIDiskQuotaUser**](didiskquotauser-o
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

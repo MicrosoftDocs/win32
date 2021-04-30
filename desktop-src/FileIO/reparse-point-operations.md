@@ -1,5 +1,5 @@
 ---
-Description: Describes the reparse point operations that you can perform by using DeviceIoControl.
+description: Describes the reparse point operations that you can perform by using DeviceIoControl.
 ms.assetid: c7279203-2443-401e-b541-038954094266
 title: Reparse Point Operations
 ms.topic: article

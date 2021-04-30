@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentWriteConflictPrimaryIndexException members"
 title: EsentWriteConflictPrimaryIndexException members
 TOCTitle: EsentWriteConflictPrimaryIndexException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException

@@ -1,5 +1,5 @@
 ---
-Description: Request for offline analysis data.
+description: Request for offline analysis data.
 MS-HAID: vspixengine.IOfflineAnalysisRequest
 MSHAttr:
 - PreferredSiteName:MSDN

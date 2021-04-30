@@ -1,5 +1,5 @@
 ---
-Description: Gets the sample rate of the audio bit stream, in samples per seconds.
+description: Gets the sample rate of the audio bit stream, in samples per seconds.
 ms.assetid: 9819d6bb-751b-4b47-aa2d-23d7f86c1d3d
 title: AVAudioSampleRate property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The set of possible values depends on the decoder implementation and the audio b
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

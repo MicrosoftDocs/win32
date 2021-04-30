@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.TempDirectory property"
 title: InstanceParameters.TempDirectory property 
 TOCTitle: 'TempDirectory property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.TempDirectory

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoDatabasesConsistentException properties"
 title: EsentRecoveredWithoutUndoDatabasesConsistentException properties
 TOCTitle: EsentRecoveredWithoutUndoDatabasesConsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException

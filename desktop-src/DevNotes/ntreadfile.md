@@ -1,5 +1,5 @@
 ---
-Description: Reads data from an open file.
+description: Reads data from an open file.
 ms.assetid: 7EA2FE38-20DA-43E1-A764-66A81725D1EA
 title: NtReadFile function (Wdm.h)
 ms.topic: reference
@@ -161,7 +161,7 @@ Callers of **NtReadFile** must be running at IRQL = PASSIVE\_LEVEL and [with spe
 
 
 
-|                                     |                                                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                    |

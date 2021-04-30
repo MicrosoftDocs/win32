@@ -22,7 +22,7 @@ This attribute determines the file server share. It is used in conjunction with 
 
 
 
-|                   |                                                                                                                                 |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | CN                | ms-IIS-FTP-Root                                                                                                                 |
 | Ldap-Display-Name | msIIS-FTPRoot                                                                                                                   |
@@ -47,7 +47,7 @@ This attribute determines the file server share. It is used in conjunction with 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ This attribute determines the file server share. It is used in conjunction with 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ This attribute determines the file server share. It is used in conjunction with 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ This attribute determines the file server share. It is used in conjunction with 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ This attribute determines the file server share. It is used in conjunction with 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

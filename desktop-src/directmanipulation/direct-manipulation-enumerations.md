@@ -1,5 +1,5 @@
 ---
-Description: The topics contained in this section provide the reference specifications for Direct Manipulation enumerations.
+description: The topics contained in this section provide the reference specifications for Direct Manipulation enumerations.
 ms.assetid: D116798F-E381-46D4-8271-8BD8CADC9D27
 title: Direct Manipulation Enumerations
 ms.topic: article

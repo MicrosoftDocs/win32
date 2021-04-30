@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Hooks"
 ms.assetid: f0ca9e41-a9f7-435f-a601-f0959adcb514
 title: Using Hooks
 ms.topic: article

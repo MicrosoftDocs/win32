@@ -1,5 +1,5 @@
 ---
-Description: Instructs an IME window to specify the logical font to use for displaying intermediate characters in the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+description: Instructs an IME window to specify the logical font to use for displaying intermediate characters in the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 17b222e7-bf57-4cdd-8475-d9a8be03ab7f
 title: IMC_SETCOMPOSITIONFONT command (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ When processing this command, the IME window changes the current selected font i
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

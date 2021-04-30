@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer can repair, replace, and verify files contained in an application. A partial or complete application reinstallation might be required if any files or registry entries associated with any feature are missing or corrupt.
+description: Windows Installer can repair, replace, and verify files contained in an application. A partial or complete application reinstallation might be required if any files or registry entries associated with any feature are missing or corrupt.
 ms.assetid: fab23ab9-f1ab-4743-b883-cffc29b0124b
 title: Reinstalling a Feature or Application
 ms.topic: article

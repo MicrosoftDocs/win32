@@ -22,7 +22,7 @@ List of operations linked to Az-Task.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Operations-For-Az-Task            |
 | Ldap-Display-Name | msDS-OperationsForAzTask                |
@@ -47,7 +47,7 @@ List of operations linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2018                                              |
 | MAPI-Id                | \-                                                |
@@ -68,7 +68,7 @@ List of operations linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2018                                              |
 | MAPI-Id                | \-                                                |
@@ -89,7 +89,7 @@ List of operations linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2018                                              |
 | MAPI-Id                | \-                                                |
@@ -110,7 +110,7 @@ List of operations linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2018                                              |
 | MAPI-Id                | \-                                                |
@@ -131,7 +131,7 @@ List of operations linked to Az-Task.
 
 
 
-|                        |                                                   |
+| Entry | Value |
 |------------------------|---------------------------------------------------|
 | Link-Id                | 2018                                              |
 | MAPI-Id                | \-                                                |

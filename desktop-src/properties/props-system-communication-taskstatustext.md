@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly form of System.Communication.TaskStatus. This value is not intended to be parsed programmatically.
+description: The user-friendly form of System.Communication.TaskStatus. This value is not intended to be parsed programmatically.
 ms.assetid: 33e4062e-55bb-438d-8636-670210b75647
 title: System.Communication.TaskStatusText
 ms.topic: article

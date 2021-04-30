@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.HasValue property"
 title: JET_BKINFO.HasValue property 
 TOCTitle: 'HasValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.HasValue

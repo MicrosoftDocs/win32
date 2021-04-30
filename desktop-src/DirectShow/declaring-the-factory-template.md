@@ -1,5 +1,5 @@
 ---
-Description: Declaring the Factory Template
+description: Declaring the Factory Template
 ms.assetid: 3060c167-ea23-4061-b32a-16e750f55e6f
 title: Declaring the Factory Template
 ms.topic: article

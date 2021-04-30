@@ -1,6 +1,6 @@
 ---
-title: AcceptServerName (PeapExtensionsType) Element
-description: Indicates whether the server name is validated against the name string specified in the ServerNames (ServerValidationParameters) element.
+title: AcceptServerName (PeapExtensionsType) Element (EAPHost)
+description: Indicates whether the server name is validated against the name string specified in the ServerNames (ServerValidationParameters) element. | AcceptServerName (PeapExtensionsType) Element
 ms.assetid: 95173b57-8100-44e4-98f0-4f2a3deabce7
 keywords:
 - element EAPHost
@@ -16,6 +16,8 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
+
+# AcceptServerName (PeapExtensionsType) Element (EAPHost)
 
 The **AcceptServerName (PeapExtensionsType)** element indicates whether the server name is validated against the name string specified in the [**ServerNames (ServerValidationParameters)**](mspeapconnectionpropertiesv1schema-servernames-servervalidationparameters-element.md) element.
 
@@ -36,7 +38,7 @@ The **AcceptServerName** element is optional.
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: The PrepareRender method is called before the filter renders a sample.
+description: The PrepareRender method is called before the filter renders a sample.
 ms.assetid: 0b137da9-eac0-469f-b457-719a36569c82
 title: CBaseRenderer.PrepareRender method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The filter calls this method before it calls the [**CBaseRenderer::OnReceiveFirs
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

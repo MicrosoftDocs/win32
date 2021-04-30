@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value that indicates whether an IContextNode object is partially populated or fully populated.
+description: Retrieves the value that indicates whether an IContextNode object is partially populated or fully populated.
 ms.assetid: 13ac3fb2-7baa-48d7-bf8e-f36b4031fbc4
 title: IContextNode::GetPartiallyPopulated method (IACom.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Use this method when your application maintains its own data structure, which is
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

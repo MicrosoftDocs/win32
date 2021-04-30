@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment.IsASCII property"
 title: IndexSegment.IsASCII property 
 TOCTitle: 'IsASCII property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexSegment.IsASCII

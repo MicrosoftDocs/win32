@@ -1,5 +1,5 @@
 ---
-Description: Authorization Manager provides a flexible framework for integrating role-based access control into applications. It enables administrators who use those applications to provide access through assigned user roles that relate to job functions.
+description: Authorization Manager provides a flexible framework for integrating role-based access control into applications. It enables administrators who use those applications to provide access through assigned user roles that relate to job functions.
 ms.assetid: c6d37b2e-b149-43e2-8155-cb2f669e421c
 title: Authorization Manager Model
 ms.topic: article

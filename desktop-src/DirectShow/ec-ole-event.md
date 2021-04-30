@@ -1,5 +1,5 @@
 ---
-Description: A filter is passing a text string to the application.
+description: A filter is passing a text string to the application.
 ms.assetid: 477c6456-c96c-4d3d-b877-2a426510de29
 title: EC_OLE_EVENT (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ By convention, the first parameter contains type information (for example, "Text
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

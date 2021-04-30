@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.Equals method (JET_BKLOGTIME)"
 title: JET_BKLOGTIME.Equals method (JET_BKLOGTIME)
 TOCTitle: Equals method (JET_BKLOGTIME)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.Equals(Microsoft.Isam.Esent.Interop.JET_BKLOGTIME)

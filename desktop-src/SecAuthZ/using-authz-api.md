@@ -1,5 +1,5 @@
 ---
-Description: Authz API allows applications to perform customizable access checks with better performance and more simplified development than Low-level Access Control.
+description: Authz API allows applications to perform customizable access checks with better performance and more simplified development than Low-level Access Control.
 ms.assetid: 83df96ff-f3d6-43f8-88b2-6387914b3503
 title: Using Authz API
 ms.topic: article

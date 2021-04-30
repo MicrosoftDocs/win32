@@ -1,5 +1,5 @@
 ---
-Description: The Apply method applies the current property page values to the object associated with the property page. This method implements the IPropertyPage::Apply method.
+description: The Apply method applies the current property page values to the object associated with the property page. This method implements the IPropertyPage::Apply method.
 ms.assetid: 9fe759d1-2b46-4489-b7b8-b5a35330091d
 title: CBasePropertyPage.Apply method (Cprop.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ If the [**CBasePropertyPage::m\_bDirty**](cbasepropertypage-m-bdirty.md) flag is
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

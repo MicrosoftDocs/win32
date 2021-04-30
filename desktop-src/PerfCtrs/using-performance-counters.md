@@ -1,5 +1,5 @@
 ---
-Description: To consume counter data, see Consuming Counter Data.
+description: To consume counter data, see Consuming Counter Data.
 ms.assetid: fff8bc4a-3d7a-4d70-ba03-347f9f063c84
 title: Using Performance Counters
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DirectoryContainsFile class represents an association between a directory and files contained within that directory.
+description: The CIM\_DirectoryContainsFile class represents an association between a directory and files contained within that directory.
 ms.assetid: e05ec86e-c3cf-4589-9815-83850e0c84ed
 ms.tgt_platform: multiple
 title: CIM_DirectoryContainsFile class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

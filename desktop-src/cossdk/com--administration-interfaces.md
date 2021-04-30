@@ -1,5 +1,5 @@
 ---
-Description: The following are the COM+ administration interfaces.
+description: The following are the COM+ administration interfaces.
 ms.assetid: 0e04cd6f-1f8b-4bdf-92b0-5baddeb361b5
 title: COM+ Administration Interfaces
 ms.topic: article

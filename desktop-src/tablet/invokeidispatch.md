@@ -1,5 +1,5 @@
 ---
-Description: Invokes helper functionality for the IDispatch interface.
+description: Invokes helper functionality for the IDispatch interface.
 ms.assetid: ccef47af-d9dd-48c3-93d3-ee997dacf7a8
 title: InvokeIDispatch function
 ms.topic: reference
@@ -86,7 +86,7 @@ If the method succeeds, it returns S\_OK. If it fails, possible return codes inc
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | None supported<br/>                                                             |

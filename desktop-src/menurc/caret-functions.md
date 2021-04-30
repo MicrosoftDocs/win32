@@ -1,6 +1,6 @@
 ---
 title: Caret Functions
-description: .
+description: Caret Functions
 ms.assetid: 26d5dfcb-f932-463b-b643-eec780cb4027
 ms.topic: article
 ms.date: 05/31/2018

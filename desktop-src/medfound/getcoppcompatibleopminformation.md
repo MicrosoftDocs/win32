@@ -1,5 +1,5 @@
 ---
-Description: Sends a Certified Output Protection Protocol (COPP) status request to a protected output object.
+description: Sends a Certified Output Protection Protocol (COPP) status request to a protected output object.
 ms.assetid: 24300591-c0c0-48a2-99d3-be98c0c1492a
 title: GetCOPPCompatibleOPMInformation function
 ms.topic: reference
@@ -78,7 +78,7 @@ This function has no associated import library. To call this function, you must 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

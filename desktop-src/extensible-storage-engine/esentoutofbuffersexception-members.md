@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfBuffersException members"
 title: EsentOutOfBuffersException members
 TOCTitle: EsentOutOfBuffersException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException

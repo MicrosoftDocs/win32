@@ -1,5 +1,5 @@
 ---
-Description: Contains an array of BLOBs.
+description: Contains an array of BLOBs.
 ms.assetid: e87f493b-f160-4316-b369-75d20c735213
 title: BLOB_TABLE structure (Netmon.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Handle to the BLOB array.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

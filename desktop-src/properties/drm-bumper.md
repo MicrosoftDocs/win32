@@ -1,5 +1,5 @@
 ---
-Description: DRM
+description: DRM
 ms.assetid: c131cf72-8b01-4430-94d2-13b7f2a32aff
 title: DRM
 ms.topic: article

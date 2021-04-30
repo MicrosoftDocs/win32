@@ -1,5 +1,5 @@
 ---
-Description: All pointers that the Peer Infrastructure functions return must be freed by using PeerGraphFreeData or PeerFreeData.
+description: All pointers that the Peer Infrastructure functions return must be freed by using PeerGraphFreeData or PeerFreeData.
 ms.assetid: c7669404-2550-4f0d-908e-540d9a34008f
 title: Freeing Peer Data
 ms.topic: article

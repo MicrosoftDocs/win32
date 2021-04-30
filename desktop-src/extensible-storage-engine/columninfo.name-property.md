@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.Name property"
 title: ColumnInfo.Name property 
 TOCTitle: 'Name property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Name

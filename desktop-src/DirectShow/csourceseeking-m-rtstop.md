@@ -1,5 +1,5 @@
 ---
-Description: Stop time. By default, the value is set to a very large number. The derived class can reset the value in its constructor, or when the filter is initialized.
+description: Stop time. By default, the value is set to a very large number. The derived class can reset the value in its constructor, or when the filter is initialized.
 ms.assetid: 1fddcf84-fd9a-4dad-892c-1b0abbb0ca55
 title: CSourceSeeking::m_rtStop member (Ctlutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Hold the **m\_pLock** critical section before accessing this variable.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

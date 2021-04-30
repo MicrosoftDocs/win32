@@ -1,5 +1,5 @@
 ---
-Description: Description of identifying a window by its function for the Tablet PC.
+description: Description of identifying a window by its function for the Tablet PC.
 ms.assetid: 513e0c9d-4c9e-4e7c-8314-bd7603489e89
 title: Identifying a Window by Its Function
 ms.topic: article

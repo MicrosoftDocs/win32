@@ -1,5 +1,5 @@
 ---
-Description: Requests to cache offline analysis report of the specified frames.
+description: Requests to cache offline analysis report of the specified frames.
 MS-HAID: vspixengine.IOfflineAnalysisCacheRequest\_RequestOfflineAnalysisReportAvailabilityAsync\_DWORD\_DWORD\_arr\_IOfflineAnalysisCacheCallback\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

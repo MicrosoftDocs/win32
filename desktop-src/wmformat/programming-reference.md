@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Reference
+# Windows Media Format SDK Programming Reference
 
 The Microsoft® Windows Media® Format Software Development Kit (SDK) supports a range of objects, interfaces, independent functions, structures, enumeration types, attributes, and so on. The following sections document these in detail.
 

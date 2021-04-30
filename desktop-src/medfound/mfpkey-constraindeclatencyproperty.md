@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder is constrained by a maximum decoder latency requirement.
+description: Specifies whether the encoder is constrained by a maximum decoder latency requirement.
 ms.assetid: 054e445e-fc71-4d4f-9e9f-f5ff71f0b4ee
 title: MFPKEY_CONSTRAINDECLATENCY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ If you leave this property at its default value of **VARIANT\_FALSE**, the encod
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: INullableJetStruct.HasValue property"
 title: INullableJetStruct.HasValue property 
 TOCTitle: 'HasValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.INullableJetStruct.HasValue

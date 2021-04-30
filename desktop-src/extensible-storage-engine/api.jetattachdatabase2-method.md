@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetAttachDatabase2 method"
 title: Api.JetAttachDatabase2 method 
 TOCTitle: 'JetAttachDatabase2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetAttachDatabase2(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,System.Int32,Microsoft.Isam.Esent.Interop.AttachDatabaseGrbit)

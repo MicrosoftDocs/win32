@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.MaxTemporaryTables property"
 title: InstanceParameters.MaxTemporaryTables property 
 TOCTitle: 'MaxTemporaryTables property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxTemporaryTables

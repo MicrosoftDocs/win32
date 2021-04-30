@@ -1,5 +1,5 @@
 ---
-Description: The number of times the network source tries to reconnect to the server and resume streaming if the connection is lost.
+description: The number of times the network source tries to reconnect to the server and resume streaming if the connection is lost.
 ms.assetid: 185e15c6-910b-4e27-9087-cfe30a174194
 title: MFNETSOURCE_AUTORECONNECTLIMIT property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

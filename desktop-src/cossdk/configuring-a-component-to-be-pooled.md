@@ -1,5 +1,5 @@
 ---
-Description: You can configure a component to be pooled only when it is correctly written to support being pooled. For details of these requirements, see Requirements for Poolable Objects.
+description: You can configure a component to be pooled only when it is correctly written to support being pooled. For details of these requirements, see Requirements for Poolable Objects.
 ms.assetid: ffd812cc-811e-4f2a-8736-d1cb22d5abb7
 title: Configuring a Component to Be Pooled
 ms.topic: article

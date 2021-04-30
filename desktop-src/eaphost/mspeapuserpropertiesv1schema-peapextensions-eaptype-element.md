@@ -1,6 +1,6 @@
 ---
 title: PeapExtensions (EapType) element (user properties)
-description: Learn about the PeapExtensions (EapType) element. This element enables future enhancements to the schema.
+description: Learn about the PeapExtensions (EapType) element. This element enables future enhancements to the schema. | PeapExtensions (EapType) element (user properties)
 ms.assetid: f04d1361-c88e-4415-9a81-d1195b14de05
 keywords:
 - PeapExtensions element EAPHost

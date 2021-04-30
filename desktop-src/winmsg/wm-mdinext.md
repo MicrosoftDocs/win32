@@ -1,5 +1,5 @@
 ---
-Description: An application sends the WM\_MDINEXT message to a multiple-document interface (MDI) client window to activate the next or previous child window.
+description: An application sends the WM\_MDINEXT message to a multiple-document interface (MDI) client window to activate the next or previous child window.
 ms.assetid: a4822b99-330a-4094-bad9-b9a5923e02a8
 title: WM_MDINEXT message (Winuser.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ If an MDI client window receives any message that changes the activation of its 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo.IndexSegments property"
 title: IndexInfo.IndexSegments property 
 TOCTitle: 'IndexSegments property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.IndexInfo.IndexSegments

@@ -1,5 +1,5 @@
 ---
-Description: The SetSink method sets an external quality manager. This method implements the IQualityControl::SetSink method.
+description: The SetSink method sets an external quality manager. This method implements the IQualityControl::SetSink method.
 ms.assetid: 714e6839-954e-4231-824d-72a45f270f59
 title: CBasePin.SetSink method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Call this method to redirect quality-control messages to an external quality man
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

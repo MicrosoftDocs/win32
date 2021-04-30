@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CCritSec.CCritSec constructor - Constructor method.
 ms.assetid: e8e9138a-6c39-41de-a7f8-d9e9c4fe5ab6
 title: CCritSec.CCritSec constructor (Wxutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This method calls the [**InitializeCriticalSection**](/windows/desktop/api/synch
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

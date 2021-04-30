@@ -1,5 +1,5 @@
 ---
-Description: Suffix attached to the contact's name.
+description: Suffix attached to the contact's name.
 ms.assetid: b3a6eda1-ae0e-48f0-968e-930ee0c06971
 title: System.Contact.Suffix
 ms.topic: article

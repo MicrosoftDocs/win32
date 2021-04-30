@@ -1,5 +1,5 @@
 ---
-Description: A logical element that represents a unit of work to execute, such as a script or a print job. A job is distinct from a process because a job can be scheduled or queued, and its execution is not limited to a single system.
+description: A logical element that represents a unit of work to execute, such as a script or a print job. A job is distinct from a process because a job can be scheduled or queued, and its execution is not limited to a single system.
 ms.assetid: 35e35c3f-617b-429b-b68f-fa0c0c330e92
 title: CIM_Job class (Hyper-V management)
 ms.topic: reference
@@ -36,7 +36,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Job class
+# CIM_Job class (Hyper-V management)
 
 A logical element that represents a unit of work to execute, such as a script or a print job. A job is distinct from a process because a job can be scheduled or queued, and its execution is not limited to a single system.
 
@@ -725,7 +725,7 @@ The time after which the job becomes invalid or should be stopped. The time can 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

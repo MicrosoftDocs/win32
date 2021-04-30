@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type boolean.
+description: Represents a PnP device property of type boolean.
 ms.assetid: 19681413-712C-4A09-9BEF-8CFEC5D81801
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertyBoolean class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

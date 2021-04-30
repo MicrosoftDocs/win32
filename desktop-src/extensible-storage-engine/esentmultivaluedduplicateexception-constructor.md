@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateException constructor"
 title: EsentMultiValuedDuplicateException constructor 
 TOCTitle: 'EsentMultiValuedDuplicateException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateException.#ctor

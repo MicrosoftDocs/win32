@@ -1,5 +1,5 @@
 ---
-Description: COM+ Service Application Concepts
+description: COM+ Service Application Concepts
 ms.assetid: d6b1cf4a-ca39-4d50-a33d-aa639937ef9e
 title: COM+ Service Application Concepts
 ms.topic: article

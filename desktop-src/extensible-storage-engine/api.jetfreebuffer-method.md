@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetFreeBuffer method"
 title: Api.JetFreeBuffer method 
 TOCTitle: 'JetFreeBuffer method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetFreeBuffer(System.IntPtr)

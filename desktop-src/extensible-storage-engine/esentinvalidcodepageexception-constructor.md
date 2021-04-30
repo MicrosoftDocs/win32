@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCodePageException constructor"
 title: EsentInvalidCodePageException constructor 
 TOCTitle: 'EsentInvalidCodePageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException.#ctor

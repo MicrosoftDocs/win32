@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesInvalidLimitsException members"
 title: EsentIndexTuplesInvalidLimitsException members
 TOCTitle: EsentIndexTuplesInvalidLimitsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesInvalidLimitsException

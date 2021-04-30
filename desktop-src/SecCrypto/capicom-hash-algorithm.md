@@ -1,5 +1,5 @@
 ---
-Description: The CAPICOM\_HASH\_ALGORITHM enumeration defines a hash algorithm.
+description: The CAPICOM\_HASH\_ALGORITHM enumeration defines a hash algorithm.
 ms.assetid: 5373b6cc-944a-4d83-ac71-59edcb2af94e
 title: CAPICOM_HASH_ALGORITHM enumeration (Capicom.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The **CAPICOM\_HASH\_ALGORITHM** enumeration is used by the [**HashedData.Algori
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

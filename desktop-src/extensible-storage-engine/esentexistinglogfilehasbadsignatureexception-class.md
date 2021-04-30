@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExistingLogFileHasBadSignatureException class"
 title: EsentExistingLogFileHasBadSignatureException class
 TOCTitle: EsentExistingLogFileHasBadSignatureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileHasBadSignatureException

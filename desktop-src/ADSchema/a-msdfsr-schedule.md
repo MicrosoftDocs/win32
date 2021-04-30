@@ -22,7 +22,7 @@ Contains the replication schedule for the Distributed File System (DFS) Replicat
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DFSR-Schedule                                      |
 | Ldap-Display-Name | msDFSR-Schedule                                       |
@@ -46,7 +46,7 @@ Contains the replication schedule for the Distributed File System (DFS) Replicat
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -67,7 +67,7 @@ Contains the replication schedule for the Distributed File System (DFS) Replicat
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -88,7 +88,7 @@ Contains the replication schedule for the Distributed File System (DFS) Replicat
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
@@ -109,7 +109,7 @@ Contains the replication schedule for the Distributed File System (DFS) Replicat
 
 
 
-|                        |                                                                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Because the Winsock DLL itself is no longer supplied by each individual stack vendor, it is not possible for a stack vendor to offer extended functionality by adding entry points to the Winsock DLL.
+description: Because the Winsock DLL itself is no longer supplied by each individual stack vendor, it is not possible for a stack vendor to offer extended functionality by adding entry points to the Winsock DLL.
 ms.assetid: 5c71532a-c565-4f65-ab36-ca0e23190718
 title: Function Extension Mechanism in the SPI
 ms.topic: article

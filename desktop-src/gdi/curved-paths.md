@@ -1,5 +1,5 @@
 ---
-Description: Curved Paths
+description: Curved Paths
 ms.assetid: 1ee9e6c6-5f8d-4727-b5f9-4b179c5371f1
 title: Curved Paths
 ms.topic: article

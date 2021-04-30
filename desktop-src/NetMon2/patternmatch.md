@@ -1,5 +1,5 @@
 ---
-Description: The PATTERNMATCH structure defines pattern elements used to evaluate a frame.
+description: The PATTERNMATCH structure defines pattern elements used to evaluate a frame.
 ms.assetid: 3ad27197-92da-49e5-bb0e-daf54de6c54c
 title: PATTERNMATCH structure (Netmon.h)
 ms.topic: reference
@@ -115,7 +115,7 @@ A capture filter can contain up to four **PATTERNMATCH** structures.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

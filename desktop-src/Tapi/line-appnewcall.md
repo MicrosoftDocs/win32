@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_APPNEWCALL message is sent to inform an application when a new call handle has been spontaneously created on its behalf .
+description: The TAPI LINE\_APPNEWCALL message is sent to inform an application when a new call handle has been spontaneously created on its behalf .
 ms.assetid: 0c263025-e719-453e-91c4-a9f2d9321db3
 title: LINE_APPNEWCALL message (Tapi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Older applications (that negotiated an API version earlier than 2.0) are sent on
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

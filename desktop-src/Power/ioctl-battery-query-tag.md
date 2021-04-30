@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the batterys current tag.
+description: Retrieves the batterys current tag.
 ms.assetid: 0bbe59ba-e037-47ce-a54a-6500ea7c9bc5
 title: IOCTL_BATTERY_QUERY_TAG control code (Poclass.h)
 ms.topic: reference
@@ -129,7 +129,7 @@ For an example, see [Enumerating Battery Devices](enumerating-battery-devices.md
 
 
 
-|                                     |                                                                                                                                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |

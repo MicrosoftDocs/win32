@@ -1,5 +1,5 @@
 ---
-Description: You can obtain or modify registry data by using the WMI StdRegProv class and its methods.
+description: You can obtain or modify registry data by using the WMI StdRegProv class and its methods.
 ms.assetid: 7cba9dcb-741b-4118-9769-8830c6dc0752
 ms.tgt_platform: multiple
 title: Obtaining Registry Data

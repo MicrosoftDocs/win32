@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the private key belongs to a machine key set.
+description: Returns a Boolean value that indicates whether the private key belongs to a machine key set.
 ms.assetid: ea13ba68-30ae-4aa4-b490-29fd4542c621
 title: PrivateKey.IsMachineKeyset method
 ms.topic: reference
@@ -46,7 +46,7 @@ The return value of this method is dependent on the [*cryptographic service prov
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: An attachment snap-in extension provides an interface that users can use to change service-specific configuration settings.
+description: An attachment snap-in extension provides an interface that users can use to change service-specific configuration settings.
 ms.assetid: 6f2dc372-dee4-4793-b943-395c0587ed5e
 title: Creating an Attachment Snap-in Extension
 ms.topic: article

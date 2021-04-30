@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithErrorsException members"
 title: EsentRecoveredWithErrorsException members
 TOCTitle: EsentRecoveredWithErrorsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException

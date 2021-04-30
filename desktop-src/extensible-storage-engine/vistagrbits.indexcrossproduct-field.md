@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.IndexCrossProduct field"
 title: VistaGrbits.IndexCrossProduct field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: IndexCrossProduct field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.IndexCrossProduct

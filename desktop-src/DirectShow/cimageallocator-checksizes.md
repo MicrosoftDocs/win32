@@ -1,5 +1,5 @@
 ---
-Description: The CheckSizes method checks allocator properties against the current media type.
+description: The CheckSizes method checks allocator properties against the current media type.
 ms.assetid: 040b4ed0-c1cc-4995-a0f8-86efa493f84b
 title: CImageAllocator.CheckSizes method (Winutil.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ When the method returns, if the return value is S\_OK, the **cbBuffer** member o
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

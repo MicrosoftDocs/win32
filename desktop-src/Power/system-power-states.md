@@ -1,5 +1,5 @@
 ---
-Description: To the user, the system appears to be either on or off.
+description: To the user, the system appears to be either on or off.
 ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: System Power States
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Ready method signals that a state transition is complete.
+description: The Ready method signals that a state transition is complete.
 ms.assetid: 01328281-cf25-43fd-9f9c-e55fccbac217
 title: CBaseRenderer.Ready method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method causes the [**CBaseRenderer::GetState**](cbaserenderer-getstate.md) 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

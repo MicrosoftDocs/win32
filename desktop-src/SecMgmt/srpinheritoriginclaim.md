@@ -1,5 +1,5 @@
 ---
-Description: This function takes the origin attribute if present from the origin token and sets them on a duplicate of the inheriting token, and returns the duplicate token.
+description: This function takes the origin attribute if present from the origin token and sets them on a duplicate of the inheriting token, and returns the duplicate token.
 ms.assetid: ED1FAEA1-0665-49FA-BD8B-232254B4C883
 title: srpInheritOriginClaim function
 ms.topic: reference
@@ -67,7 +67,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                  |

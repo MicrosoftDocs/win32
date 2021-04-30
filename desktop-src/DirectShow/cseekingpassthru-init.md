@@ -1,5 +1,5 @@
 ---
-Description: The Init method initializes the object.
+description: The Init method initializes the object.
 ms.assetid: a919adfa-0ffb-4241-b709-ad0e8d55476a
 title: CSeekingPassThru.Init method (Seekpt.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ If the value of *bSupportRendering* is **TRUE**, this method creates an instance
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Seekpt.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

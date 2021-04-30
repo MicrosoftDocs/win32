@@ -1,5 +1,5 @@
 ---
-Description: Contains two arbitrary status strings.
+description: Contains two arbitrary status strings.
 ms.assetid: fe29ee63-35ac-4145-a793-9bd7964f62af
 title: EC_STATUS (Dshow.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ None.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseSignInUseException class"
 title: EsentDatabaseSignInUseException class
 TOCTitle: EsentDatabaseSignInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseSignInUseException

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the codec should attempt to detect noisy frame edges and remove them.
+description: Specifies whether the codec should attempt to detect noisy frame edges and remove them.
 ms.assetid: fdb4f3a8-1447-4e1e-a208-0f9b717f7626
 title: MFPKEY_NOISEEDGEREMOVAL Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ If the codec is set to remove noisy edges, it duplicates lines adjacent to the n
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

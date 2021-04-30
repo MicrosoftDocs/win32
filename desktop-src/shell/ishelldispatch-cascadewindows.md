@@ -1,5 +1,5 @@
 ---
-Description: Cascades all of the windows on the desktop. This method has the same effect as right-clicking the taskbar and selecting Cascade windows.
+description: Cascades all of the windows on the desktop. This method has the same effect as right-clicking the taskbar and selecting Cascade windows.
 ms.assetid: 6A957D70-D6A3-4485-8DF3-7FD2C6DEFF78
 title: IShellDispatch.CascadeWindows method (Shldisp.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

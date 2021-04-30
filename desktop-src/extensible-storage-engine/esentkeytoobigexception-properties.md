@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTooBigException properties"
 title: EsentKeyTooBigException properties
 TOCTitle: EsentKeyTooBigException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyTooBigException

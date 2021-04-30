@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSCallbackNotSpecifiedException constructor"
 title: EsentLSCallbackNotSpecifiedException constructor 
 TOCTitle: 'EsentLSCallbackNotSpecifiedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLSCallbackNotSpecifiedException.#ctor

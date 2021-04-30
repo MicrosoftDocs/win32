@@ -1,5 +1,5 @@
 ---
-Description: The LSA stores local security policy information in a set of objects. Your application can query or edit the local security policy by accessing these objects.
+description: The LSA stores local security policy information in a set of objects. Your application can query or edit the local security policy by accessing these objects.
 ms.assetid: c8ed5cd8-55cf-43e7-92a3-9bd17a1147a9
 title: LSA Policy Objects
 ms.topic: article

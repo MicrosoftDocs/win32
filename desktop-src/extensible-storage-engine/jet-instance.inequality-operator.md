@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE.Inequality operator"
 title: JET_INSTANCE.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INSTANCE.op_Inequality(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_INSTANCE)

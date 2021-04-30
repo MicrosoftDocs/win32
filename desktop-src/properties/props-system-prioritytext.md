@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly form of System.Priority. This value is not intended to be parsed programmatically.
+description: The user-friendly form of System.Priority. This value is not intended to be parsed programmatically.
 ms.assetid: 781c4b28-de40-459d-993c-8177ed64b8e5
 title: System.PriorityText
 ms.topic: article

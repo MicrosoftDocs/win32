@@ -115,7 +115,7 @@ The results returned by the **QueryActionAllowed** method are aggregated from ze
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wmdrmsdk.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>Wmdrmsdk.lib</dt> </dl> |

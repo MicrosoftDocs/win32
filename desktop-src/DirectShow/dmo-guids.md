@@ -1,5 +1,5 @@
 ---
-Description: The following table lists the globally unique identifiers (GUIDs) defined for Microsoft DirectX Media Object (DMO) categories. These GUIDs are defined in the header file Dmoreg.h and exported by the Dmoguids.lib library.
+description: The following table lists the globally unique identifiers (GUIDs) defined for Microsoft DirectX Media Object (DMO) categories. These GUIDs are defined in the header file Dmoreg.h and exported by the Dmoguids.lib library.
 ms.assetid: d67debd0-8ecb-41ab-bc6c-b27cba97c65a
 title: DMO GUIDs (Dmoreg.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ To enumerate the DMOs registered in a category, pass the corresponding GUID to t
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dmoreg.h</dt> </dl> |
 

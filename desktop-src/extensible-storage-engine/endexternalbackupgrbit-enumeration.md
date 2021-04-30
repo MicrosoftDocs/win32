@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EndExternalBackupGrbit enumeration"
 title: EndExternalBackupGrbit enumeration
 TOCTitle: EndExternalBackupGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EndExternalBackupGrbit

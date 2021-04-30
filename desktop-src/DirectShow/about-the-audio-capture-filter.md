@@ -1,5 +1,5 @@
 ---
-Description: About the Audio Capture Filter
+description: About the Audio Capture Filter
 ms.assetid: ff345670-5a75-40d3-a228-8bc22aa76708
 title: About the Audio Capture Filter
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Not supported.
+description: IAMTimelineObj::GetGroupIBelongTo method - Not supported.
 ms.assetid: a6242c1d-cf9a-4c96-9cfd-d32199ae74b8
 title: IAMTimelineObj::GetGroupIBelongTo method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

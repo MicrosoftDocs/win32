@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadBackupDatabaseSizeException constructor"
 title: EsentBadBackupDatabaseSizeException constructor 
 TOCTitle: 'EsentBadBackupDatabaseSizeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadBackupDatabaseSizeException.#ctor

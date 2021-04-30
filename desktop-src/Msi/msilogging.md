@@ -1,5 +1,5 @@
 ---
-Description: The MsiLogging property sets the default logging mode for the Windows Installer package.
+description: The MsiLogging property sets the default logging mode for the Windows Installer package.
 ms.assetid: f5ae389e-bc27-465d-886b-4f4f41d49118
 title: MsiLogging property
 ms.topic: reference
@@ -52,7 +52,7 @@ If the **MsiLogging** property has been set in the [Property table](property-tab
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 4.5 on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

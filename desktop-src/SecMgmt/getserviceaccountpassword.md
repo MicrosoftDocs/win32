@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the service account password.
+description: Retrieves the service account password.
 ms.assetid: B3D3842F-ACEB-4979-B336-BA3D0143044C
 title: GetServiceAccountPassword function (Secpkg.h)
 ms.topic: reference
@@ -127,7 +127,7 @@ The **GetServiceAccountPassword** function can be called in the following scenar
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                |

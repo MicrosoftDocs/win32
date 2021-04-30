@@ -1,5 +1,5 @@
 ---
-Description: The OnRenderEnd method is called after a sample is rendered.
+description: The OnRenderEnd method is called after a sample is rendered.
 ms.assetid: c9b3a3b2-a5c0-4a08-9e55-53c27a4d1032
 title: CBaseRenderer.OnRenderEnd method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The [**CBaseRenderer::Render**](cbaserenderer-render.md) method calls this metho
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

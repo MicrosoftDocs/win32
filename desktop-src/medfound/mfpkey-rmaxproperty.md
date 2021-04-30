@@ -1,5 +1,5 @@
 ---
-Description: Specifies the peak bit rate, in bits per second, used for constrained 2-pass variable-bit-rate (VBR) playback.
+description: Specifies the peak bit rate, in bits per second, used for constrained 2-pass variable-bit-rate (VBR) playback.
 ms.assetid: 51f161d2-f832-48d5-8f16-861e2a98a7f7
 title: MFPKEY_RMAX Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ Typically, this value is two to three times greater than the value of [MFPKEY\_R
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

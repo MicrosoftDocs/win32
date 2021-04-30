@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeNormalizationNotSupportedException constructor"
 title: EsentUnicodeNormalizationNotSupportedException constructor 
 TOCTitle: 'EsentUnicodeNormalizationNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnicodeNormalizationNotSupportedException.#ctor

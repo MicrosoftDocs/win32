@@ -1,5 +1,5 @@
 ---
-Description: The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter. This method implements the IPin::EndOfStream method.
+description: The EndOfStream method notifies the pin that no additional data is expected, until a new run command is issued to the filter. This method implements the IPin::EndOfStream method.
 ms.assetid: 915beab4-2fc3-4acd-bb30-c0851df058db
 title: CRenderedInputPin.EndOfStream method (Amextra.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Also, if the filter processes **Receive** calls asynchronously, the pin should w
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amextra.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

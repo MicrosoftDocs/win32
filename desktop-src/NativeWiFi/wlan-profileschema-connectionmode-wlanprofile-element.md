@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether connection to a wireless LAN should be automatic or initiated by user.
+description: Indicates whether connection to a wireless LAN should be automatic or initiated by user.
 ms.assetid: 0fad8392-3053-494b-9b30-1db85408a437
 title: connectionMode (WLANProfile) Element
 ms.topic: reference
@@ -64,7 +64,7 @@ To view sample profiles that use the **connectionMode** element, see [Wireless P
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

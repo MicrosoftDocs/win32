@@ -1,5 +1,5 @@
 ---
-Description: Resets the health state for all applications in a virtual machine.
+description: Resets the health state for all applications in a virtual machine.
 ms.assetid: DB0B2FB3-87EB-44B2-9C4E-849BCE594E89
 title: IVmApplicationHealthMonitor::ResetAllApplicationState method
 ms.topic: reference
@@ -44,7 +44,7 @@ To use this programming element, the Windows 8 integration components must be in
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                      |

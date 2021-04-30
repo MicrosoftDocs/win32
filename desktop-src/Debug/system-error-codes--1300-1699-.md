@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 1300-1699 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 1300-1699 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 7b04a2ba-7bf9-4bff-93c8-cbb0060e069d
 title: System Error Codes (1300-1699) (WinError.h)
 ms.topic: reference
@@ -3035,7 +3035,7 @@ The app that you are trying to run is not supported on this version of Windows.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

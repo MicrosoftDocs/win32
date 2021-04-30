@@ -1,5 +1,5 @@
 ---
-Description: Specifies the amount of content, in milliseconds, that can fit into the model buffer.
+description: Specifies the amount of content, in milliseconds, that can fit into the model buffer.
 ms.assetid: da959bef-1e87-4638-9a77-4135c31a3d27
 title: MFPKEY_VIDEOWINDOW Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The buffer window is one of the "leaky bucket" model parameters used in the code
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

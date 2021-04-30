@@ -1,5 +1,5 @@
 ---
-Description: Registers property providers in WMI.
+description: Registers property providers in WMI.
 ms.assetid: 24792884-3fb9-4974-83d5-1c5fc1fa72a1
 ms.tgt_platform: multiple
 title: '__PropertyProviderRegistration class'
@@ -130,7 +130,7 @@ The **\_\_PropertyProviderRegistration** class is derived from [**\_\_ProviderRe
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

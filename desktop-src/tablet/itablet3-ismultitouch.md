@@ -1,5 +1,5 @@
 ---
-Description: Determines whether an input device supports multitouch.
+description: Determines whether an input device supports multitouch.
 ms.assetid: 4fef7060-2235-4bee-a37b-40d827732b30
 title: ITablet3::IsMultiTouch method
 ms.topic: reference
@@ -65,7 +65,7 @@ spITablet3->get_IsMultiTouch(&b);
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Brushes
+# Brushes (Direct2D)
 
 The topics in this section describe how to use Direct2D brushes, objects you use to paint fills and outlines.
 

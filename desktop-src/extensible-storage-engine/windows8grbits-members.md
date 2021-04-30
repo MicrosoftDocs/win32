@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Windows8Grbits members"
 title: Windows8Grbits members (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: Windows8Grbits members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits

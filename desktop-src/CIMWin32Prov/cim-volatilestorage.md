@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VolatileStorage class represents the capabilities and management of volatile storage.
+description: The CIM\_VolatileStorage class represents the capabilities and management of volatile storage.
 ms.assetid: c2f7e11e-d7e4-4709-be55-1c94a0b14010
 ms.tgt_platform: multiple
 title: CIM_VolatileStorage class
@@ -1828,7 +1828,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySplitsException constructor"
 title: EsentTooManySplitsException constructor 
 TOCTitle: 'EsentTooManySplitsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManySplitsException.#ctor

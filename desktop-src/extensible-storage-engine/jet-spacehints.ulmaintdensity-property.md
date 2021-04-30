@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.ulMaintDensity property"
 title: JET_SPACEHINTS.ulMaintDensity property 
 TOCTitle: 'ulMaintDensity property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.ulMaintDensity

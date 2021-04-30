@@ -1,5 +1,5 @@
 ---
-Description: Class identifier (CLSID) of the object.
+description: Class identifier (CLSID) of the object.
 ms.assetid: d4816dad-c6cc-419e-8e9b-43edb4bf9928
 title: CBaseMediaFilter::m_clsid member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CLSID m_clsid;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

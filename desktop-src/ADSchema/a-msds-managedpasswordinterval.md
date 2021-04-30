@@ -22,7 +22,7 @@ This attribute is used to retrieve the number of days before a managed password 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-ManagedPasswordInterval        |
 | Ldap-Display-Name | msDS-ManagedPasswordInterval         |
@@ -43,7 +43,7 @@ This attribute is used to retrieve the number of days before a managed password 
 
 
 
-|                        |                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |

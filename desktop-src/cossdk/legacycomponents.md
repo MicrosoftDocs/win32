@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each unconfigured component in the Applications collection. Unconfigured components cannot make use of COM+ services. The properties exposed by these objects hold settings made at the component level.
+description: Contains an object for each unconfigured component in the Applications collection. Unconfigured components cannot make use of COM+ services. The properties exposed by these objects hold settings made at the component level.
 ms.assetid: 87f3b93f-71aa-4187-88d2-889c13d8bd06
 title: LegacyComponents collection
 ms.topic: reference
@@ -67,7 +67,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                 |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------|
 | Description    | Specifies the user accounts that are allowed or denied access to the component. |
 | Access         | ReadWrite                                                                       |
@@ -83,7 +83,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                  |
+| Entry | Value |
 |----------------|------------------------------------------------------------------|
 | Description    | Specifies whether to run the server on the data storage machine. |
 | Access         | ReadWrite                                                        |
@@ -99,7 +99,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                     |
+| Entry | Value |
 |----------------|---------------------|
 | Description    | The application ID. |
 | Access         | ReadOnly            |
@@ -115,7 +115,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                              |
+| Entry | Value |
 |----------------|------------------------------|
 | Description    | The name of the application. |
 | Access         | ReadOnly                     |
@@ -131,7 +131,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                                       |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Sets authentication level for calls, with values corresponding to the Remote Procedure Call (RPC) authentication settings. When COMAdminAuthenticationDefault is chosen, the setting in the DefaultAuthenticationLevel property within the [**LocalComputer**](localcomputer.md) collection is used. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                             |
@@ -152,7 +152,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                       |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Represents the binary bitness type of the component. On systems that use 64-bit Windows, this property distinguishes between 64-bit components and 32-bit components. |
 | Access         | ReadOnly                                                                                                                                                              |
@@ -168,7 +168,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                        |
+| Entry | Value |
 |----------------|------------------------|
 | Description    | The name of the class. |
 | Access         | ReadOnly               |
@@ -184,7 +184,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                           |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A GUID for the component. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                  |
@@ -200,7 +200,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                            |
+| Entry | Value |
 |----------------|------------------------------------------------------------|
 | Description    | Specifies the full path to a surragate server application. |
 | Access         | ReadWrite                                                  |
@@ -216,7 +216,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                    |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------|
 | Description    | Specifies the full path to a 32-bit in-process custom handler DLL. |
 | Access         | ReadWrite                                                          |
@@ -232,7 +232,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                            |
+| Entry | Value |
 |----------------|------------------------------------------------------------|
 | Description    | Specifies the full path to a 32-bit in-process server DLL. |
 | Access         | ReadWrite                                                  |
@@ -248,7 +248,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                           |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | If the COM+ application or component is disabled, IsEnabled is False. If the COM+ application or component is enabled, IsEnabled is True. |
 | Access         | ReadWrite                                                                                                                                 |
@@ -264,7 +264,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                        |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | Description    | Specifies user accounts that are allowed or denied permission to start this component. |
 | Access         | ReadWrite                                                                              |
@@ -280,7 +280,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                             |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Specifies the full path to a 32-bit local server application. To help protect system security, use quoted strings in the path to indicate where the executable filename ends and the arguments begin. For example, "\\"C:\\Program Files\\Company Files\\Application.exe\\" param1 param2". |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                   |
@@ -296,7 +296,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                     |
+| Entry | Value |
 |----------------|-----------------------------------------------------|
 | Description    | Specifies the full path to the service application. |
 | Access         | ReadWrite                                           |
@@ -312,7 +312,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Sets the password used by the server process to log on under the specified RunAs identity. Password should be set at the same time as the RunAs identity, prior to using [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges), because the password and identity are validated before being saved. If the password and identity get out of sync, the component cannot be launched until they are reset by an administrator. |
 | Access         | WriteOnly                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -328,7 +328,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                      |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A name identifying the component. This property is returned when the Name property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                             |
@@ -344,7 +344,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                       |
+| Entry | Value |
 |----------------|---------------------------------------|
 | Description    | Specifies the remote server computer. |
 | Access         | ReadWrite                             |
@@ -360,7 +360,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Specifies the user under whose identity the component will run. Password should be set at the same time as the RunAs identity, prior to using [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges), because the password and identity are validated before being saved. If the password and identity get out of sync, the component cannot be launched until they are reset by an administrator. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -376,7 +376,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                           |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------|
 | Description    | Specifies the parameters passed to the application when invoked as a service application. |
 | Access         | ReadWrite                                                                                 |
@@ -392,7 +392,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates the software restriction policy (SRP) trust level of the component. The SRP trust level refers to the level of trust that you are willing to give to a component. An Unrestricted SRP trust level corresponds to the SAFER\_LEVELID\_FULLYTRUSTED enum value, while a Disallowed SRP trust level corresponds to the SAFER\_LEVELID\_DISALLOWED enum value. The enumeration for the trust levels is defined in Winsafer.h. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -410,7 +410,7 @@ A component that you are willing to trust with Unrestricted access should have t
 
 
 
-|                |                                                                                                                                                                                     |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Determines how instances of the component are assigned to threads for method execution. Values correspond to COM threading models.                                                  |
 | Access         | ReadOnly                                                                                                                                                                            |

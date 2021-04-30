@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.SetColumns method"
 title: Api.SetColumns method 
 TOCTitle: 'SetColumns method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.SetColumns(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.ColumnValue[])

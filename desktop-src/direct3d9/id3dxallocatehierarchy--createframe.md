@@ -1,5 +1,5 @@
 ---
-Description: Requests allocation of a frame object.
+description: Requests allocation of a frame object.
 ms.assetid: 977e40d6-bf49-44b6-ac95-88e7f778ea50
 title: ID3DXAllocateHierarchy::CreateFrame method (D3dx9anim.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The return values of this method are implemented by an application programmer. I
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

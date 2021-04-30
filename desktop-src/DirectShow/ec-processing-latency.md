@@ -1,5 +1,5 @@
 ---
-Description: Indicates the amount of time that a component is taking to process each sample.
+description: Indicates the amount of time that a component is taking to process each sample.
 ms.assetid: 84f81ee1-76d8-46fb-86ef-2500f8f4ef36
 title: EC_PROCESSING_LATENCY (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ A presenter for the [**Enhanced Video Renderer**](enhanced-video-renderer-filter
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

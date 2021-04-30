@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableException constructor"
 title: EsentInstanceUnavailableException constructor 
 TOCTitle: 'EsentInstanceUnavailableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException.#ctor

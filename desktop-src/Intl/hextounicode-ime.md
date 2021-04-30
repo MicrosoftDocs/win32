@@ -1,5 +1,5 @@
 ---
-Description: Rich Edit 3.0 supports the HexToUnicode IME, which allows a user to convert between hexadecimal and Unicode characters by using hot keys in one of two ways.
+description: Rich Edit 3.0 supports the HexToUnicode IME, which allows a user to convert between hexadecimal and Unicode characters by using hot keys in one of two ways.
 ms.assetid: 4b8c4de4-9c1c-459c-a640-367e86a9b9cc
 title: HexToUnicode IME
 ms.topic: article

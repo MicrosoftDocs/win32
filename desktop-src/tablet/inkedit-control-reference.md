@@ -1,5 +1,5 @@
 ---
-Description: The InkEdit control enables you to collect ink, recognize ink, and display ink as text.
+description: The InkEdit control enables you to collect ink, recognize ink, and display ink as text.
 ms.assetid: 52761cb2-4433-4824-ba19-fe597de2faf0
 title: InkEdit Control Reference
 ms.topic: article

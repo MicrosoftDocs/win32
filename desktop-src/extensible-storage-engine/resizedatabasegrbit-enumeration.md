@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ResizeDatabaseGrbit enumeration"
 title: ResizeDatabaseGrbit enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: ResizeDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.ResizeDatabaseGrbit

@@ -1,5 +1,5 @@
 ---
-Description: This section explains how to perform the following tasks associated with window procedures.
+description: This section explains how to perform the following tasks associated with window procedures.
 ms.assetid: acc68991-4689-44dc-8547-a7b6153b0f62
 title: Using Window Procedures
 ms.topic: article

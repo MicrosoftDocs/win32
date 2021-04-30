@@ -1,5 +1,5 @@
 ---
-Description: Represents a device that can interpret a sequence of instructions on a computer running on a Windows operating system.
+description: Represents a device that can interpret a sequence of instructions on a computer running on a Windows operating system.
 ms.assetid: 26f3c7bf-c56a-4cf3-98d4-92ab05b8d244
 ms.tgt_platform: multiple
 title: Win32_Processor class
@@ -1207,7 +1207,7 @@ End If
 
 ## Requirements
 
-|                          |                                  |
+| Requirement | Value |
 |--------------------------|----------------------------------|
 | Minimum supported client | Windows Vista                    |
 | Minimum supported server | Windows Server 2008              |

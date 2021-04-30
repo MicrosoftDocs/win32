@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.ColumnsFixedMost field"
 title: SystemParameters.ColumnsFixedMost field
 TOCTitle: ColumnsFixedMost field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.SystemParameters.ColumnsFixedMost

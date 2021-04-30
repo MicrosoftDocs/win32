@@ -1,5 +1,5 @@
 ---
-Description: The Wia object is the entry point for all Windows Image Acquisition (WIA) scripting functionality.
+description: The Wia object is the entry point for all Windows Image Acquisition (WIA) scripting functionality.
 ms.assetid: 1905e344-32cc-41ec-885f-bfabd8edd419
 title: Wia object
 ms.topic: reference
@@ -103,7 +103,7 @@ This collection is 0-based.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

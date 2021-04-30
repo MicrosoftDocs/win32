@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyAttachedDatabasesException members"
 title: EsentTooManyAttachedDatabasesException members
 TOCTitle: EsentTooManyAttachedDatabasesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyAttachedDatabasesException

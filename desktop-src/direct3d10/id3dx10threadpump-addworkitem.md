@@ -1,5 +1,5 @@
 ---
-Description: Add a work item to the thread pump.
+description: Add a work item to the thread pump.
 ms.assetid: f07789dc-a3d5-4bad-9768-527e701271b8
 title: ID3DX10ThreadPump::AddWorkItem method (D3DX10.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

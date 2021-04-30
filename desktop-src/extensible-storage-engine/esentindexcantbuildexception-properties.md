@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexCantBuildException properties"
 title: EsentIndexCantBuildException properties
 TOCTitle: EsentIndexCantBuildException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexCantBuildException

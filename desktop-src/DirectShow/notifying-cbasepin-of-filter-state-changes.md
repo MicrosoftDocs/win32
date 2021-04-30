@@ -1,5 +1,5 @@
 ---
-Description: Notifying CBasePin of Filter State Changes
+description: Notifying CBasePin of Filter State Changes
 ms.assetid: 521ba95b-1f2d-4ad0-ab9b-4f1e3343a2d3
 title: Notifying CBasePin of Filter State Changes
 ms.topic: article

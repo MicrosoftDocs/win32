@@ -1,5 +1,5 @@
 ---
-Description: A hash of a text or other string of bytes is an associated, statistically unique, fixed-length value.
+description: A hash of a text or other string of bytes is an associated, statistically unique, fixed-length value.
 ms.assetid: e54d5a3b-cae1-47dd-a565-7bf1ccef7f52
 title: Data Hashes
 ms.topic: article

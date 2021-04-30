@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetDatabaseInfo Function"
 title: JetGetDatabaseInfo Function
 TOCTitle: JetGetDatabaseInfo Function
 ms:assetid: bd3f92d0-7e98-4aa6-87c5-1c2760cbd1b5

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseBufferDependenciesCorruptedException constructor"
 title: EsentDatabaseBufferDependenciesCorruptedException constructor 
 TOCTitle: 'EsentDatabaseBufferDependenciesCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException.#ctor

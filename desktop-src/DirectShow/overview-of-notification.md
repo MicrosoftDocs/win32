@@ -1,5 +1,5 @@
 ---
-Description: Overview of Event Notification
+description: Overview of Event Notification
 ms.assetid: c8b960db-fb8b-4c32-99c3-9d83432574cc
 title: Overview of Event Notification
 ms.topic: article

@@ -217,9 +217,9 @@ The formal definition of the search filter is as follows (from [RFC 2254](https:
 
 
 
-The token <attr> is a string that represents an AttributeType. The token <value> is a string that represents an AttributeValue whose format is defined by the underlying directory service.
+The token &lt;attr&gt; is a string that represents an AttributeType. The token &lt;value&gt; is a string that represents an AttributeValue whose format is defined by the underlying directory service.
 
-If a <value> must contain the asterisk (\*), left parenthesis ((), or right parenthesis ()) character, the character should be preceded by the backslash escape character (\).
+If a &lt;value&gt; must contain the asterisk (\*), left parenthesis ((), or right parenthesis ()) character, the character should be preceded by the backslash escape character (\\).
 
 ## Special Characters
 
@@ -245,7 +245,7 @@ If any of the following special characters must appear in the search filter as l
 
  
 
-In addition, arbitrary binary data may be represented by using the escape sequence syntax by encoding each byte of binary data with the backslash (\) followed by two hexadecimal digits. For example, the four-byte value 0x00000004 is encoded as \\00\\00\\00\\04 in a filter string.
+In addition, arbitrary binary data may be represented by using the escape sequence syntax by encoding each byte of binary data with the backslash (\\) followed by two hexadecimal digits. For example, the four-byte value 0x00000004 is encoded as \\00\\00\\00\\04 in a filter string.
 
 ## Related topics
 

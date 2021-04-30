@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ConditionalColumnGrbit enumeration"
 title: ConditionalColumnGrbit enumeration
 TOCTitle: ConditionalColumnGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ConditionalColumnGrbit

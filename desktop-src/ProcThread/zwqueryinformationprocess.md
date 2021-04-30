@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about the specified process.
+description: Retrieves information about the specified process.
 ms.assetid: c36c023f-7f9a-4ba5-a41f-f2f755a24eb6
 title: ZwQueryInformationProcess function
 ms.topic: reference
@@ -231,7 +231,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

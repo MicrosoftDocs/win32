@@ -1,6 +1,6 @@
 ---
 title: stringTable (LocalizationType) Element
-description: Defines a list of localized strings that you can reference in your manifest.
+description: Defines a list of localized strings that you can reference in your manifest. | stringTable (LocalizationType) Element
 ms.assetid: 00144c76-c8de-448a-9884-2c95c4b73f53
 keywords:
 - stringTable element EventLog
@@ -31,7 +31,7 @@ The **stringTable** element is defined by the [**LocalizationType**](eventmanife
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

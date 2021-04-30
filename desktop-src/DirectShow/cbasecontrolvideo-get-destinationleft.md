@@ -1,5 +1,5 @@
 ---
-Description: The get\_DestinationLeft method retrieves the left coordinate of the current destination rectangle.
+description: The get\_DestinationLeft method retrieves the left coordinate of the current destination rectangle.
 ms.assetid: f1c6d784-7ec3-4d44-a3fb-c1e3b988e392
 title: CBaseControlVideo.get_DestinationLeft method (Ctlutil.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Creates a copy of the IAnalysisRegion.
+description: Creates a copy of the IAnalysisRegion.
 ms.assetid: eb94e1ce-7801-409d-9ae6-e7db0a9b861f
 title: IAnalysisRegion::Clone method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This method is eqivalent to theSystem.Windows.Ink.AnalysisCore.AnalysisRegionBas
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

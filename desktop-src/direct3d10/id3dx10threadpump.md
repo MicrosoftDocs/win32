@@ -1,5 +1,5 @@
 ---
-Description: Used to execute tasks asynchronously, and created with D3DX10CreateThreadPump.
+description: Used to execute tasks asynchronously, and created with D3DX10CreateThreadPump.
 ms.assetid: 8d03c94a-9b64-464c-b0f4-4e5f5a00503f
 title: ID3DX10ThreadPump interface (D3DX10.h)
 ms.topic: reference
@@ -125,7 +125,7 @@ APIs that take a thread pump as a parameter.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

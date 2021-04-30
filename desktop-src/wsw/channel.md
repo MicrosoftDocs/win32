@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Channel
+# Channel (Windows Web Services)
 
 Channels encapsulate a communication context between two or more parties and are used to send and receive messages.
 

@@ -1,5 +1,5 @@
 ---
-Description: Shows the relationship between those function parameters that point to structures or arrays and their initialized data.
+description: Shows the relationship between those function parameters that point to structures or arrays and their initialized data.
 ms.assetid: 89caf4d3-727f-472b-9a09-e81b4ff4d127
 title: Procedure for Signing Data
 ms.topic: article

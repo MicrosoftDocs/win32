@@ -1,5 +1,5 @@
 ---
-Description: Provides data for an app suspending event.
+description: Provides data for an app suspending event.
 ms.assetid: 2590AFAA-679C-49F1-804F-D429BB971727
 title: ISuspendingEventArgs interface (Windows.ApplicationModel.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This object is accessed when you implement event handlers like [**SuspendingEven
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSesidException class"
 title: EsentInvalidSesidException class
 TOCTitle: EsentInvalidSesidException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException

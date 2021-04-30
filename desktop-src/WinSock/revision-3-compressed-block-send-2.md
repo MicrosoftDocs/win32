@@ -1,5 +1,5 @@
 ---
-Description: In this version of the application, a compressed block send of the data is used. This change results in significant performance improvement.
+description: In this version of the application, a compressed block send of the data is used. This change results in significant performance improvement.
 ms.assetid: 3f0a129b-5b67-4334-a0aa-cd80ee7018b9
 title: 'Revision Three: Compressed Block Send'
 ms.topic: article

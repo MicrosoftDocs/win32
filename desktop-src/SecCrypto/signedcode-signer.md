@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the signer of the signed executable file.
+description: Retrieves the signer of the signed executable file.
 ms.assetid: aafa7006-b47c-4f4e-a5c4-bd96d297f939
 title: SignedCode.Signer property
 ms.topic: reference
@@ -38,7 +38,7 @@ A [**Signer**](signer.md) object that provides access to the signer of the signe
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

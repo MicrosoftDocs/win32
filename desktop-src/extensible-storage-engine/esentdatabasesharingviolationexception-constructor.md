@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseSharingViolationException constructor"
 title: EsentDatabaseSharingViolationException constructor 
 TOCTitle: 'EsentDatabaseSharingViolationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseSharingViolationException.#ctor

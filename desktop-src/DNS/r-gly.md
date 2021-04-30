@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# R
+# R (DNS)
 
 A B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O [P](p-gly.md) Q R [S](s-gly.md) T U V W X Y [Z](z-gly.md)
 

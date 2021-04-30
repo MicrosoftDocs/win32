@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.Inequality operator"
 title: JET_BKINFO.Inequality operator 
 TOCTitle: 'Inequality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKINFO.op_Inequality(Microsoft.Isam.Esent.Interop.JET_BKINFO,Microsoft.Isam.Esent.Interop.JET_BKINFO)

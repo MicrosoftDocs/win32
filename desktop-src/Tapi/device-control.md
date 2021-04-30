@@ -1,12 +1,12 @@
 ---
-Description: Device control at the end-user or server application level requires a relatively small set of basic information.
+description: Device control at the end-user or server application level requires a relatively small set of basic information.
 ms.assetid: 9c787656-93ef-4e0b-9516-8822ae49a83a
 title: Device Control (Telephony API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Device Control
+# Device Control (Telephony API)
 
 Device control at the end-user or server application level requires a relatively small set of basic information. The service provider abstraction layer performs detailed device control. The service providers report required device information to an application through TAPI.
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP.szDatabaseName property"
 title: JET_RSTMAP.szDatabaseName property 
 TOCTitle: 'szDatabaseName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTMAP.szDatabaseName

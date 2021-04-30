@@ -1,5 +1,5 @@
 ---
-Description: Specifies the starting minute number in the group of pictures (GOP) header.
+description: Specifies the starting minute number in the group of pictures (GOP) header.
 ms.assetid: 75c0d63c-3ff1-4ba1-9323-55f4ae06fe0f
 title: AVEncVideoHeaderMinutes property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The valid range of this property is 0 to 59, inclusive.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

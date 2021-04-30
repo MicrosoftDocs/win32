@@ -1,5 +1,5 @@
 ---
-Description: Specifies the MIME type of the content.
+description: Specifies the MIME type of the content.
 ms.assetid: bbcfb3e6-a86a-4621-b8d9-92ace60e8c10
 title: MF_PD_MIME_TYPE attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

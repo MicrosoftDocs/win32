@@ -1,5 +1,5 @@
 ---
-Description: Gets the ID3DXFile interface of the object that created this ID3DXFileSaveObject object.
+description: Gets the ID3DXFile interface of the object that created this ID3DXFileSaveObject object.
 ms.assetid: 79249d17-cae3-43d9-9ccb-fa804b02a353
 title: ID3DXFileSaveObject::GetFile method (D3DX9Xof.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

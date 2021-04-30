@@ -1,5 +1,5 @@
 ---
-Description: Represents the virtual LAN (VLAN) setting data.
+description: Represents the virtual LAN (VLAN) setting data.
 ms.assetid: c3a49021-5256-4751-a5a5-81bf1c6d6e6d
 title: Msvm_EthernetSwitchPortVlanSettingData class
 ms.topic: reference
@@ -317,7 +317,7 @@ Specifies the trunk VLAN identifier bitmap in trunk mode.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

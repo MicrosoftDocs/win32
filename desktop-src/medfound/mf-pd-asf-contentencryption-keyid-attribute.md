@@ -1,5 +1,5 @@
 ---
-Description: Specifies the key identifier for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the Key ID field of the Content Encryption Header, defined in the ASF specification.
+description: Specifies the key identifier for an encrypted Advanced Systems Format (ASF) file. This attribute corresponds to the Key ID field of the Content Encryption Header, defined in the ASF specification.
 ms.assetid: ebadd156-28f4-499c-a182-f48a35ecbefb
 title: MF_PD_ASF_CONTENTENCRYPTION_KEYID attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

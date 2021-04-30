@@ -1,5 +1,5 @@
 ---
-Description: The ProvideQualifiedComponent method of the Installer object returns the full component path and performs any necessary installation. If necessary, this method prompts for the source and increments the usage count for the feature.
+description: The ProvideQualifiedComponent method of the Installer object returns the full component path and performs any necessary installation. If necessary, this method prompts for the source and increments the usage count for the feature.
 ms.assetid: 4f9a5094-1556-4d86-8b51-c8c3ce1cbed4
 title: Installer.ProvideQualifiedComponent method
 ms.topic: reference
@@ -79,7 +79,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

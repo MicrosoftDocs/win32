@@ -1,5 +1,5 @@
 ---
-Description: The Clear method frees, and then removes, all items from the collection. The collection is considered empty after calling this method.
+description: The Clear method frees, and then removes, all items from the collection. The collection is considered empty after calling this method.
 ms.assetid: f4b46713-8224-443a-99cc-13fa75e59e5d
 title: IPortableDevicePropVariantCollection::Clear method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ After calling **Clear**, the collection is considered type-less, meaning that th
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

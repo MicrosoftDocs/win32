@@ -1,5 +1,5 @@
 ---
-Description: The GetSyncSource method retrieves the reference clock that the object is using. This method implements the IMediaFilter::GetSyncSource method.
+description: The GetSyncSource method retrieves the reference clock that the object is using. This method implements the IMediaFilter::GetSyncSource method.
 ms.assetid: 7e74d6ce-cd34-4345-8ff9-174e0acb243a
 title: CBaseMediaFilter.GetSyncSource method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ If the object is not using a reference clock, *\*pClock* is set to **NULL**. Whe
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

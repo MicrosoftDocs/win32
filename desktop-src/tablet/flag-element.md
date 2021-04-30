@@ -1,5 +1,5 @@
 ---
-Description: Contains a base64 encoded bitmap of a flag associated with section of a Journal note.
+description: Contains a base64 encoded bitmap of a flag associated with section of a Journal note.
 ms.assetid: 612f8814-ab3c-4a3e-9791-525788d4cc72
 title: Flag Element
 ms.topic: reference

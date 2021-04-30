@@ -1,5 +1,5 @@
 ---
-Description: The IDownloadProgressChangedCallback interface defines the following method.
+description: The IDownloadProgressChangedCallback interface defines the following method.
 ms.assetid: 309bf471-0d15-49bf-a76c-1327fdb1615a
 title: IDownloadProgressChangedCallback Methods
 ms.topic: reference

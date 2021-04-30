@@ -1,5 +1,5 @@
 ---
-Description: Control code enables or disables the per-connection setting of the TCP keep-alive option which specifies the TCP keep-alive timeout and interval.
+description: Control code enables or disables the per-connection setting of the TCP keep-alive option which specifies the TCP keep-alive timeout and interval.
 ms.assetid: c02e8ad5-bfad-489f-83bf-39b53fd68bde
 title: SIO_KEEPALIVE_VALS Control Code
 ms.topic: reference

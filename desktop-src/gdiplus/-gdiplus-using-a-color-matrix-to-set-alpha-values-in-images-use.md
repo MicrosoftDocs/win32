@@ -1,5 +1,5 @@
 ---
-Description: The Bitmap class (which inherits from the Image class) and the ImageAttributes class provide functionality for getting and setting pixel values.
+description: The Bitmap class (which inherits from the Image class) and the ImageAttributes class provide functionality for getting and setting pixel values.
 ms.assetid: e3d67431-6098-4b2a-8910-5695a8473216
 title: Using a Color Matrix to Set Alpha Values in Images
 ms.topic: article

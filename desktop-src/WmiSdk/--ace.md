@@ -1,5 +1,5 @@
 ---
-Description: Represents an access control entry (ACE).
+description: Represents an access control entry (ACE).
 ms.assetid: 47daffd0-b9db-4367-b0b8-654a2da30fed
 ms.tgt_platform: multiple
 title: '__ACE class'
@@ -155,7 +155,7 @@ This class provides the properties that are inherited by the [**Win32\_ACE**](/p
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

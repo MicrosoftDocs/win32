@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.EnableAdvanced field"
 title: VistaParam.EnableAdvanced field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: EnableAdvanced field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.EnableAdvanced

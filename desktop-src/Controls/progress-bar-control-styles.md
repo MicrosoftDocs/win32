@@ -74,7 +74,7 @@ You can set progress bar styles, in the same way as other common controls, with 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

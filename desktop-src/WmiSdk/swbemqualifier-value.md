@@ -1,5 +1,5 @@
 ---
-Description: The Value property of the SWbemQualifier object contains the variant value of this qualifier. This is the default property of this object.
+description: The Value property of the SWbemQualifier object contains the variant value of this qualifier. This is the default property of this object.
 ms.assetid: a2f481fc-8231-4bc0-a9fc-9e622f11c925
 ms.tgt_platform: multiple
 title: SWbemQualifier.Value property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemQualifier.Value As Variant
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

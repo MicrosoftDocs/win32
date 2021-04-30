@@ -1,5 +1,5 @@
 ---
-Description: Session or call state indicates the current status of a session, such as &\#0034;offering&\#0034; or &\#0034;connected.&\#0034; Proper handling of state information is vital to the proper functioning of most TAPI applications.
+description: Session or call state indicates the current status of a session, such as &\#0034;offering&\#0034; or &\#0034;connected.&\#0034; Proper handling of state information is vital to the proper functioning of most TAPI applications.
 ms.assetid: a6a49b77-4e9b-4f23-bfe6-26f26549b18f
 title: State
 ms.topic: article

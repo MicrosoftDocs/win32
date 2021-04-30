@@ -1,5 +1,5 @@
 ---
-Description: Defines a blocked network.
+description: Defines a blocked network.
 ms.assetid: ccf24d45-cae0-4eb7-951a-004a5f71e04a
 title: network (blockList) Element
 ms.topic: reference
@@ -30,7 +30,7 @@ The **network** element is defined by the [**blockList**](wlan-policyschema-bloc
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

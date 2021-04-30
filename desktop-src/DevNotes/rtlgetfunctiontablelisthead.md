@@ -1,5 +1,5 @@
 ---
-Description: Enables a debugger to examine dynamic function table information.
+description: Enables a debugger to examine dynamic function table information.
 ms.assetid: 32fd0dfd-ca7c-45e4-9d59-2b3318d7e13d
 title: RtlGetFunctionTableListHead function
 ms.topic: reference
@@ -46,7 +46,7 @@ Note that the Windows Driver Kit (WDK) header file Ntdef.h is required for some 
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

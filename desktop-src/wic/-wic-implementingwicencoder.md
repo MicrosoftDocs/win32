@@ -1,5 +1,5 @@
 ---
-Description: Implementing a WIC-Enabled Encoder
+description: Implementing a WIC-Enabled Encoder
 ms.assetid: 9c1a4fa4-30b9-445f-8aee-46711355ace7
 title: Implementing a WIC-Enabled Encoder
 ms.topic: article

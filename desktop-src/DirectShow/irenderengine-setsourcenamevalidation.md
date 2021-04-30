@@ -1,5 +1,5 @@
 ---
-Description: The SetSourceNameValidation method specifies how the render engine validates file names.
+description: The SetSourceNameValidation method specifies how the render engine validates file names.
 ms.assetid: b33904cd-ed7d-41b5-9ebf-50983ec9f7b3
 title: IRenderEngine::SetSourceNameValidation method (Qedit.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ Currently, this method does not validate dynamically loaded sources. See [**IRen
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

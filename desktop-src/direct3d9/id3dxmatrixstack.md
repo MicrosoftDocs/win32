@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the ID3DXMATRIXStack interface to manipulate a matrix stack.
+description: ID3DXMATRIXStack interface - Applications use the methods of the ID3DXMATRIXStack interface to manipulate a matrix stack.
 ms.assetid: 4d382d39-a9da-4a3b-b7b6-d6890357d467
 title: ID3DXMATRIXStack interface (D3dx9math.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ typedef interface ID3DXMATRIXStack *LPD3DXMATRIXSTACK;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

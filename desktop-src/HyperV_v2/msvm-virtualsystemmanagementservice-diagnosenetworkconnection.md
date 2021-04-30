@@ -1,5 +1,5 @@
 ---
-Description: Diagnoses the network connectivity of a VM in a Windows Network Virtualization Environment.
+description: Diagnoses the network connectivity of a VM in a Windows Network Virtualization Environment.
 ms.assetid: c18f48bf-1f57-4a23-a495-462afad42750
 title: DiagnoseNetworkConnection method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -102,7 +102,7 @@ Returns a 0 or 4096 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

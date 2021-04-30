@@ -1,5 +1,5 @@
 ---
-Description: File Source (Async) Filter
+description: File Source (Async) Filter
 ms.assetid: 0cf6e7ab-b1fe-42f9-b682-c5484ef48c71
 title: File Source (Async) Filter
 ms.topic: article
@@ -14,7 +14,7 @@ To download media files from the web through HTTP, use the [File Source (URL)](f
 
 
 
-|                                          |                                                                                                                                      |
+| Label | Value |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter)                                                   |
 | Input Pin Media Types                    | Not applicable                                                                                                                       |

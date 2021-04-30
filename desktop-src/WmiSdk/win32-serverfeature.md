@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ServerFeature class represents the features installed on a computer running Windows Server.
+description: The Win32\_ServerFeature class represents the features installed on a computer running Windows Server.
 ms.assetid: fe3bb95c-7f69-47b5-9c3d-771cdc3ed9ca
 ms.tgt_platform: multiple
 title: Win32_ServerFeature class
@@ -3230,7 +3230,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                     |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

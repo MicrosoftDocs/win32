@@ -1,5 +1,5 @@
 ---
-Description: The ThreadProc method retrieves samples from the queue and delivers them to the input pin.
+description: The ThreadProc method retrieves samples from the queue and delivers them to the input pin.
 ms.assetid: e5da0a12-c722-4d08-bf84-5e3aa60b64a9
 title: COutputQueue.ThreadProc method (Outputq.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The thread terminates when the [**COutputQueue::m\_bTerminate**](coutputqueue-m-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

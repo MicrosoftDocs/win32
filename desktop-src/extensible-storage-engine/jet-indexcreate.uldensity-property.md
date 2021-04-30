@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.ulDensity property"
 title: JET_INDEXCREATE.ulDensity property 
 TOCTitle: 'ulDensity property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.ulDensity

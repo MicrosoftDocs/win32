@@ -1,5 +1,5 @@
 ---
-Description: Called when a Shell window's registration is revoked.
+description: Called when a Shell window's registration is revoked.
 title: DShellWindowsEvents.WindowRevoked method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -65,7 +65,7 @@ A window is granted a cookie when it is registered as a Shell window. For more i
 
 
 
-|                    |                                                                                                                          |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Product<br/> | Internet Explorer 5<br/>                                                                                           |
 | DLL<br/>     | <dl> <dt>Shdocvw.dll (version 5.00.2014.0216 or later)</dt> </dl> |

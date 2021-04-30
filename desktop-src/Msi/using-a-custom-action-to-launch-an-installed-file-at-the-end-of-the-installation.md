@@ -1,5 +1,5 @@
 ---
-Description: The following example illustrates how to launch an HTML file at the end of an installation.
+description: The following example illustrates how to launch an HTML file at the end of an installation.
 ms.assetid: 6b082559-bcfa-4098-b072-27ee78092833
 title: Using a Custom Action to Launch an Installed File at the End of the Installation
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The get\_Top method retrieves the top window coordinate.
+description: The get\_Top method retrieves the top window coordinate.
 ms.assetid: 1e7910bd-e38e-4586-9dd6-701f69c0f6e7
 title: CBaseControlWindow.get_Top method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

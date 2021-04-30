@@ -1,5 +1,5 @@
 ---
-Description: The LSA provides functions that administrators can use to query and set global policy information for the local computer and the domain.
+description: The LSA provides functions that administrators can use to query and set global policy information for the local computer and the domain.
 ms.assetid: bbe27d16-0a6b-435a-ae80-5e983047b511
 title: Managing Policy Information
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a new stylus is added to the system.
+description: Occurs when a new stylus is added to the system.
 ms.assetid: bd0f0d2a-c0d9-48fc-bc90-f63f038639f3
 title: ITabletEventSink::CursorNew method
 ms.topic: reference
@@ -69,7 +69,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

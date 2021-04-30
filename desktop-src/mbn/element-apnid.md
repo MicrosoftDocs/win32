@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/ApnID (v4)
+description: MBNProfileExt\/ApnID (v4)
 MS-HAID: WWAN\_profile\_v4.element\_ApnID
 MSHAttr:
 - PreferredSiteName:MSDN

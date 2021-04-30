@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupDirectoryNotEmptyException members"
 title: EsentBackupDirectoryNotEmptyException members
 TOCTitle: EsentBackupDirectoryNotEmptyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException

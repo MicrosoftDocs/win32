@@ -1,5 +1,5 @@
 ---
-Description: Blends two colors.
+description: Blends two colors.
 ms.assetid: deff70c7-2359-48b2-ab40-8c418acf5a07
 title: D3DXColorModulate function (D3dx9math.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ pOut->r = pC1->r * pC2->r;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

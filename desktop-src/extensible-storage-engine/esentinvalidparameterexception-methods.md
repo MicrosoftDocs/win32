@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidParameterException methods"
 title: EsentInvalidParameterException methods
 TOCTitle: EsentInvalidParameterException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException

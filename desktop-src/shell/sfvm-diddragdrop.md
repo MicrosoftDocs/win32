@@ -1,5 +1,5 @@
 ---
-Description: SFVM\_DIDDRAGDROP may be altered or unavailable.
+description: SFVM\_DIDDRAGDROP may be altered or unavailable.
 ms.assetid: 5d37cf61-d8a7-4afa-9159-fea13d2b1d59
 title: SFVM_DIDDRAGDROP message (Shlobj.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ A pointer to the [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobje
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

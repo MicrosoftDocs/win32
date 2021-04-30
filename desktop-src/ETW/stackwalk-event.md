@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for stack tracing events.
+description: This class is the event type class for stack tracing events.
 ms.assetid: 05117bd6-a39c-42f3-8aed-c6f758f946c6
 title: StackWalk_Event class
 ms.topic: reference
@@ -139,7 +139,7 @@ Note that the class does not show all of the **Stack*n*** properties that exist 
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

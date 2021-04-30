@@ -1,5 +1,5 @@
 ---
-Description: The UpdateEndpointProxySettings structure defines the proxy settings used when requesting a token.
+description: The UpdateEndpointProxySettings structure defines the proxy settings used when requesting a token.
 ms.assetid: 24AA8843-D4EE-4F17-8B96-63ED25B365D2
 title: UpdateEndpointProxySettings structure (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ WUA does not use this data if **szProxyAddr** is empty.
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                        |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                              |

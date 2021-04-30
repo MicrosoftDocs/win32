@@ -1,5 +1,5 @@
 ---
-Description: Describes WMI SNMP provider errors 1011 through 1020.
+description: Describes WMI SNMP provider errors 1011 through 1020.
 ms.assetid: 5151a110-1532-48cc-832a-2cee21853b6b
 ms.tgt_platform: multiple
 title: Errors 1011 through 1020

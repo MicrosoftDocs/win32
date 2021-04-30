@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRestoreInProgressException properties"
 title: EsentRestoreInProgressException properties
 TOCTitle: EsentRestoreInProgressException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRestoreInProgressException

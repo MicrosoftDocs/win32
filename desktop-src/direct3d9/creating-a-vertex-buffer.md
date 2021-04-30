@@ -1,5 +1,5 @@
 ---
-Description: You create a vertex buffer object by calling the IDirect3DDevice9::CreateVertexBuffer method, which accepts five parameters.
+description: You create a vertex buffer object by calling the IDirect3DDevice9::CreateVertexBuffer method, which accepts five parameters.
 ms.assetid: 95116ef5-af88-47e7-abf7-1ade9735e2a7
 title: Creating a Vertex Buffer (Direct3D 9)
 ms.topic: article

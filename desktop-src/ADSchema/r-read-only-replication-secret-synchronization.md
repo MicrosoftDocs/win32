@@ -19,7 +19,7 @@ ms.date: 05/31/2018
 
 
 
-|              |                                              |
+| Entry | Value |
 |--------------|----------------------------------------------|
 | CN           | Read-Only-Replication-Secret-Synchronization |
 | Display-Name | Read Only Replication Secret Synchronization |
@@ -37,7 +37,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 73                                                                                                                               |
@@ -48,7 +48,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 73                                                                                                                               |
@@ -59,7 +59,7 @@ ms.date: 05/31/2018
 
 
 
-|                         |                                                                                                                                  |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> [**Configuration**](c-configuration.md)<br/> [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 73                                                                                                                               |

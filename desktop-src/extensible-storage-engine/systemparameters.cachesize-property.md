@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.CacheSize property"
 title: SystemParameters.CacheSize property 
 TOCTitle: 'CacheSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.CacheSize

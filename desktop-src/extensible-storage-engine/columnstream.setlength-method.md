@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.SetLength method"
 title: ColumnStream.SetLength method 
 TOCTitle: 'SetLength method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.SetLength(System.Int64)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.TruncateDone field"
 title: VistaGrbits.TruncateDone field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: TruncateDone field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.TruncateDone

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.signDb property"
 title: JET_DBINFOMISC.signDb property 
 TOCTitle: 'signDb property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.signDb

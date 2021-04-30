@@ -1,5 +1,5 @@
 ---
-Description: Reconstructs a pointer to an item identifier list (PIDL) from one hierarchical representation of the Shell folder into a different representation.
+description: Reconstructs a pointer to an item identifier list (PIDL) from one hierarchical representation of the Shell folder into a different representation.
 title: IShellFolderViewType::TranslateViewPidl method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -87,7 +87,7 @@ When finished, you should free the returned PIDL with [**ILFree**](/windows/desk
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

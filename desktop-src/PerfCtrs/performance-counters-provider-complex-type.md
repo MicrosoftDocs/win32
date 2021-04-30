@@ -1,5 +1,5 @@
 ---
-Description: Defines a provider and the counters that it provides.
+description: Defines a provider and the counters that it provides.
 ms.assetid: 85299b01-5679-40f8-8aec-5c2ff8d7cfc8
 title: provider Complex Type
 ms.topic: reference
@@ -241,7 +241,7 @@ Defines a provider and the counters that it provides.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

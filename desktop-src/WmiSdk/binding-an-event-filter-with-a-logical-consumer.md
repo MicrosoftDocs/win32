@@ -1,5 +1,5 @@
 ---
-Description: After you create the logical event consumer and the event filter you must link them, which registers the logical consumer to receive notification about the events specified by the filter.
+description: After you create the logical event consumer and the event filter you must link them, which registers the logical consumer to receive notification about the events specified by the filter.
 ms.assetid: 2fc3d781-2b93-4e9e-90a1-1b975ab40a01
 ms.tgt_platform: multiple
 title: Binding an Event Filter with a Logical Consumer

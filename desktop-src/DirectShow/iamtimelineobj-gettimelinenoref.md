@@ -1,5 +1,5 @@
 ---
-Description: Not supported.
+description: IAMTimelineObj::GetTimelineNoRef method - Not supported.
 ms.assetid: be7721e4-ba43-47c1-b955-e97afc5caac4
 title: IAMTimelineObj::GetTimelineNoRef method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

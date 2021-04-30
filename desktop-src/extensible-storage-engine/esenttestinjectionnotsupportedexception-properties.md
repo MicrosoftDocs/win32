@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTestInjectionNotSupportedException properties"
 title: EsentTestInjectionNotSupportedException properties
 TOCTitle: EsentTestInjectionNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException

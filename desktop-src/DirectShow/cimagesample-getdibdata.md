@@ -1,5 +1,5 @@
 ---
-Description: The GetDIBData method retrieves information about the GDI device-independent bitmap (DIB) that this object is managing.
+description: The GetDIBData method retrieves information about the GDI device-independent bitmap (DIB) that this object is managing.
 ms.assetid: ec337336-69ec-47ff-a522-42c0388f9bc0
 title: CImageSample.GetDIBData method (Winutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The caller must initialize the **DIBDATA** structure before calling this method;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

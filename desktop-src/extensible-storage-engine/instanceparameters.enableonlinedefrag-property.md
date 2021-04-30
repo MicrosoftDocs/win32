@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.EnableOnlineDefrag property"
 title: InstanceParameters.EnableOnlineDefrag property 
 TOCTitle: 'EnableOnlineDefrag property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EnableOnlineDefrag

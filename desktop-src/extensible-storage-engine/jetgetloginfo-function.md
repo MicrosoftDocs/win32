@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetLogInfo Function"
 title: JetGetLogInfo Function
 TOCTitle: JetGetLogInfo Function
 ms:assetid: a9d14830-d731-4d47-bdc2-c0660a08678e

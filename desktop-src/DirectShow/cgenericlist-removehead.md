@@ -1,5 +1,5 @@
 ---
-Description: The RemoveHead method removes the first item in the list.
+description: The RemoveHead method removes the first item in the list.
 ms.assetid: 95902028-d2c2-4c16-9ca6-ef57174a9292
 title: CGenericList.RemoveHead method (Wxlist.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method deletes the list node, but not the item that the node contains.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Connects a switch port to the LAN endpoint to which the port is connected.
+description: Connects a switch port to the LAN endpoint to which the port is connected.
 ms.assetid: 963EC004-6A67-4F75-BD93-1BCD17F32490
 title: Msvm_ActiveConnection class
 ms.topic: reference
@@ -135,7 +135,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

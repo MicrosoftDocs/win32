@@ -1,5 +1,5 @@
 ---
-Description: Adds a sprite to the list of batched sprites.
+description: Adds a sprite to the list of batched sprites.
 ms.assetid: 8f5c43a2-68dd-44a9-be2f-f76d9fa2d900
 title: ID3DXSprite::Draw method (D3dx9core.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ To scale, rotate, or translate a sprite, call [**ID3DXSprite::SetTransform**](id
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

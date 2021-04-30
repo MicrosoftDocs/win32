@@ -1,5 +1,5 @@
 ---
-Description: Media Parameters
+description: Media Parameters
 ms.assetid: 48b2bc2e-897d-4aa9-8a50-c2855a17dca5
 title: Media Parameters
 ms.topic: article

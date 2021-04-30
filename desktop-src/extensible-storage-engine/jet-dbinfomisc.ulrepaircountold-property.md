@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.ulRepairCountOld property"
 title: JET_DBINFOMISC.ulRepairCountOld property 
 TOCTitle: 'ulRepairCountOld property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulRepairCountOld

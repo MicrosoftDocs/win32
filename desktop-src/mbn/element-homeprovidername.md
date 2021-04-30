@@ -1,5 +1,5 @@
 ---
-Description: HomeProviderName
+description: HomeProviderName
 MS-HAID: WWAN\_profile\_v4.element\_HomeProviderName
 MSHAttr:
 - PreferredSiteName:MSDN

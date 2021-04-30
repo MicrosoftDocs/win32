@@ -1,5 +1,5 @@
 ---
-Description: Online help can come in a variety of forms, from detailed conceptual information to quick definitions. This topic contains the following sections.
+description: Online help can come in a variety of forms, from detailed conceptual information to quick definitions. This topic contains the following sections.
 title: Handling Online Help
 ms.topic: article
 ms.date: 05/31/2018

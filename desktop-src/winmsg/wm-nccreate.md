@@ -1,5 +1,5 @@
 ---
-Description: Sent prior to the WM\_CREATE message when a window is first created.
+description: Sent prior to the WM\_CREATE message when a window is first created.
 ms.assetid: 5dd0eda3-83a6-4077-a7a3-e371c9413b0f
 title: WM_NCCREATE message (Winuser.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ If an application processes this message, it should return **TRUE** to continue 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

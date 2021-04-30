@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.IsInTransaction property"
 title: Transaction.IsInTransaction property 
 TOCTitle: 'IsInTransaction property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Transaction.IsInTransaction

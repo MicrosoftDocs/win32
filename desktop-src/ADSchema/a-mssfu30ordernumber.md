@@ -22,7 +22,7 @@ Contains a value that is used by NIS to check if the map has changed. Every time
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | msSFU-30-Order-Number                       |
 | Ldap-Display-Name | msSFU30OrderNumber                          |
@@ -46,7 +46,7 @@ Contains a value that is used by NIS to check if the map has changed. Every time
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -67,7 +67,7 @@ Contains a value that is used by NIS to check if the map has changed. Every time
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -88,7 +88,7 @@ Contains a value that is used by NIS to check if the map has changed. Every time
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -109,7 +109,7 @@ Contains a value that is used by NIS to check if the map has changed. Every time
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

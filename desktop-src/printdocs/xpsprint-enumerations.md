@@ -1,5 +1,5 @@
 ---
-Description: XPS Print API Enumerations
+description: XPS Print API Enumerations
 ms.assetid: 1cb26594-6a15-4f36-b83a-f1c4418619d3
 title: XPS Print API Enumerations
 ms.topic: article

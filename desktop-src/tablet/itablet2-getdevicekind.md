@@ -1,5 +1,5 @@
 ---
-Description: Returns the type of hardware device the tablet object represents such as mouse, pen or touch.
+description: Returns the type of hardware device the tablet object represents such as mouse, pen or touch.
 ms.assetid: 693cb45f-958d-42e2-a3ee-a7cfcc72e5c3
 title: ITablet2::GetDeviceKind method
 ms.topic: reference
@@ -65,7 +65,7 @@ This interface and method were introduced in Windows Vista.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

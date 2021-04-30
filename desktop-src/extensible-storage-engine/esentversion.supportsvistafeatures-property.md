@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion.SupportsVistaFeatures property"
 title: EsentVersion.SupportsVistaFeatures property 
 TOCTitle: 'SupportsVistaFeatures property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsVistaFeatures

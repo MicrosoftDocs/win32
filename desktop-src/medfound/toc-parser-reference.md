@@ -1,5 +1,5 @@
 ---
-Description: Table of Contents Parser Reference
+description: Table of Contents Parser Reference
 ms.assetid: 90a8d690-e9be-4657-aa02-1a78400e3f83
 title: Table of Contents Parser Reference
 ms.topic: article

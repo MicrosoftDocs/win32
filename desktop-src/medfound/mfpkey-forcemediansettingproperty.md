@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the codec should use median filtering during encoding.
+description: Specifies whether the codec should use median filtering during encoding.
 ms.assetid: adfca033-4679-4f36-a802-6dd5df7100c8
 title: MFPKEY_FORCEMEDIANSETTING Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ By default, the codec uses internal logic to determine whether median filtering 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

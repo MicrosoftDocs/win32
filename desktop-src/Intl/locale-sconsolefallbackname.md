@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SCONSOLEFALLBACKNAME
+description: LOCALE\_SCONSOLEFALLBACKNAME
 ms.assetid: 36465a1c-085f-4f80-ad3d-5be6eaefe943
 title: LOCALE_SCONSOLEFALLBACKNAME
 ms.topic: article

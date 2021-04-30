@@ -1,5 +1,5 @@
 ---
-Description: Generates mipmap chain using a particular texture filter.
+description: Generates mipmap chain using a particular texture filter.
 ms.assetid: 19e651dd-dc34-405b-8769-00d91c097a1f
 title: D3DX10FilterTexture function (D3DX10Tex.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Device Association Endpoint Service's Parent AEP Id.
+description: Device Association Endpoint Service's Parent AEP Id.
 ms.assetid: 244331c9-fc42-43b8-a473-99cf651105f2
 title: System.Devices.AepService.AepId
 ms.topic: article

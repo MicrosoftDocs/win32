@@ -56,7 +56,7 @@ DPI_AWARENESS_CONTEXT_UNAWARE_GDISCALED was introduced in the October 2018 updat
 
 ## Requirements
 
-|  | |
+| Requirement | Value |
 |----|-----------|
 | Minimum supported client<br/> | Windows 10, version 1607 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported <br/>  |

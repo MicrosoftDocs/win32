@@ -1,5 +1,5 @@
 ---
-Description: Identifies the query type.
+description: Identifies the query type.
 ms.assetid: 575c4e71-3cab-4123-a2a5-d23b53e87111
 title: D3DQUERYTYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -167,7 +167,7 @@ Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemory
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

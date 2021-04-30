@@ -1,6 +1,6 @@
 ---
 title: IVMHostInfo MMX property (VPCCOMInterfaces.h)
-description: Determines whether the processor supports the MMX instruction set.
+description: Determines whether the processor supports the MMX instruction set. | IVMHostInfo MMX property (VPCCOMInterfaces.h)
 ms.assetid: 2f556289-c752-4af2-a6d0-abb6e717e609
 keywords:
 - MMX property Virtual PC
@@ -58,7 +58,7 @@ HRESULT get_MMX(
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | None supported<br/>                                                                     |

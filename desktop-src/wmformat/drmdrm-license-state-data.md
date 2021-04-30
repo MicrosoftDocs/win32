@@ -17,7 +17,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# DRM\_LICENSE\_STATE\_DATA structure
+# DRM_LICENSE_STATE_DATA structure (Wmdrmsdk.h)
 
 The **DRM\_LICENSE\_STATE\_DATA** structure contains information about the license restrictions for a DRM right.
 
@@ -117,7 +117,7 @@ In some cases, users may have been issued more than one license for a file. For 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

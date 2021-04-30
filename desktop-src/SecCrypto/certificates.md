@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Certificate objects.
+description: Certificates object - Represents a collection of Certificate objects.
 ms.assetid: '82011c49-38fb-4261-8fb3-b76859da8a9e'
 title: Certificates object
 ms.topic: reference
@@ -89,7 +89,7 @@ The **Certificates** object can be created, and it is safe for scripting. The Pr
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

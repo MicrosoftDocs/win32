@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexNotFoundException class"
 title: EsentIndexNotFoundException class
 TOCTitle: EsentIndexNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentIndexNotFoundException

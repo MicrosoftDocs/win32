@@ -1,5 +1,5 @@
 ---
-Description: 'The system provides three categories of objects: user, graphics device interface (GDI), and kernel.'
+description: 'The system provides three categories of objects: user, graphics device interface (GDI), and kernel.'
 ms.assetid: 6f9817f2-c965-4205-b6fd-45dbf1bffab9
 title: Object Categories
 ms.topic: article

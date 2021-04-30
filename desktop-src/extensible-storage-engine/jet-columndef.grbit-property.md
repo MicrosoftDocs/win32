@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF.grbit property"
 title: JET_COLUMNDEF.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.grbit

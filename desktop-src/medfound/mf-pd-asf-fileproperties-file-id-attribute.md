@@ -1,5 +1,5 @@
 ---
-Description: Specifies the file identifier of an Advanced Systems Format (ASF) file.
+description: Specifies the file identifier of an Advanced Systems Format (ASF) file.
 ms.assetid: 096c2e1a-7fd7-49ab-aa24-7d7c779d9e79
 title: MF_PD_ASF_FILEPROPERTIES_FILE_ID attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

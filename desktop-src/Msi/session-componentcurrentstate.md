@@ -1,5 +1,5 @@
 ---
-Description: The ComponentCurrentState property of the Session object is a read-only property that returns the current installed state of the designated component. For state values, see the ComponentRequestState property.
+description: The ComponentCurrentState property of the Session object is a read-only property that returns the current installed state of the designated component. For state values, see the ComponentRequestState property.
 ms.assetid: c8343e90-8867-462d-9844-e547341a590c
 title: Session.ComponentCurrentState property
 ms.topic: reference
@@ -42,7 +42,7 @@ If the property fails, you can obtain extended error information by using the [*
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

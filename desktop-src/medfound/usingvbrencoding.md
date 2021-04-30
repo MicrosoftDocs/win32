@@ -1,12 +1,12 @@
 ---
-Description: This section describes how to configure VBR streams.
+description: This section describes how to configure VBR streams.
 ms.assetid: 9dd3ff5b-4c7c-41a8-b1b9-7ea380175193
 title: Using VBR Encoding (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using VBR Encoding
+# Using VBR Encoding (Microsoft Media Foundation)
 
 As detailed in the [Encoding Methods](encodingmethods.md) topic, variable bit rate (VBR) encoding is used to improve the consistency of content quality. You configure VBR streams in the same way that you encode constant bit rate (CBR) streams, except for the buffer parameters (bit rate and buffer window). This section describes how to configure VBR streams.
 

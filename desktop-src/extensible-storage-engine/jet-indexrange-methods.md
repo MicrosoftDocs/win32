@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE methods"
 title: JET_INDEXRANGE methods
 TOCTitle: JET_INDEXRANGE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE

@@ -1,5 +1,5 @@
 ---
-Description: Searches for the specified executable.
+description: Searches for the specified executable.
 ms.assetid: 32c6b054-7e47-4427-bdfe-6b5066db4ac3
 title: SdbGetMatchingExe function
 ms.topic: reference
@@ -93,7 +93,7 @@ When you have finished with the returned [**TAGREF**](tagref.md), free it using 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

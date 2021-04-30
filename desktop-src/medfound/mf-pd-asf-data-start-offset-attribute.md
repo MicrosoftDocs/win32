@@ -1,5 +1,5 @@
 ---
-Description: Specifies the offset, in bytes, from the start of an Advanced Systems Format (ASF) file to the start of the first data packet.
+description: Specifies the offset, in bytes, from the start of an Advanced Systems Format (ASF) file to the start of the first data packet.
 ms.assetid: 5145d952-19d9-4bf8-9046-0b5d28f5e641
 title: MF_PD_ASF_DATA_START_OFFSET attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

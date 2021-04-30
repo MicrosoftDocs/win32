@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.ProcessFriendlyName property"
 title: SystemParameters.ProcessFriendlyName property 
 TOCTitle: 'ProcessFriendlyName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ProcessFriendlyName

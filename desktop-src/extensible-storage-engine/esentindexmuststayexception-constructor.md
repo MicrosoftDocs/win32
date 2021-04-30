@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexMustStayException constructor"
 title: EsentIndexMustStayException constructor 
 TOCTitle: 'EsentIndexMustStayException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexMustStayException.#ctor

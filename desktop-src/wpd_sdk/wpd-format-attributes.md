@@ -1,5 +1,5 @@
 ---
-Description: For Windows 7, Windows Portable Devices supports the following attributes for formats on a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetFormatAttributes method.
+description: For Windows 7, Windows Portable Devices supports the following attributes for formats on a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetFormatAttributes method.
 ms.assetid: 53282e01-54da-4adf-8a09-2086d6398275
 title: Format Attributes (PortableDevice.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ For Windows 7, Windows Portable Devices supports the following attributes for fo
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

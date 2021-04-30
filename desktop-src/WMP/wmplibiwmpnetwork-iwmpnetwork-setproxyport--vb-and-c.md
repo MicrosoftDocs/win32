@@ -1,6 +1,6 @@
 ---
 title: IWMPNetwork setProxyPort method
-description: The setProxyPort method specifies the proxy port to use.
+description: The setProxyPort method specifies the proxy port to use. | IWMPNetwork setProxyPort method
 ms.assetid: df4b33f6-52b5-437f-ade2-0d08ca2878a9
 keywords:
 - setProxyPort method Windows Media Player
@@ -131,7 +131,7 @@ End Sub
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Represents the replication-specific settings for a virtual machine.
+description: Represents the replication-specific settings for a virtual machine.
 ms.assetid: f6f6a413-a949-4aca-930b-37e39bdc1fdb
 title: Msvm_ReplicationSettingData class
 ms.topic: reference
@@ -767,7 +767,7 @@ Specifies the type of virtual machine the setting data represents. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

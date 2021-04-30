@@ -1,5 +1,5 @@
 ---
-Description: Exposes methods and properties for a region that represents an area of a document.
+description: Exposes methods and properties for a region that represents an area of a document.
 ms.assetid: ee823a9e-a144-4394-847e-abf390fb839a
 title: IAnalysisRegion interface (IACom.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ This interface is equivalent to the System.Windows.Ink.AnalysisCore.AnalysisRegi
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

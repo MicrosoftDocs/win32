@@ -1,5 +1,5 @@
 ---
-Description: For Windows 7, Windows Portable Devices supports the following attributes for methods of a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetMethodAttributes method.
+description: For Windows 7, Windows Portable Devices supports the following attributes for methods of a device service. These attributes are returned by the IPortableDeviceServiceCapabilities::GetMethodAttributes method.
 ms.assetid: b920e037-7737-4a18-b4f1-5c59e0a857dd
 title: Method Attributes (PortableDevice.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ For Windows 7, Windows Portable Devices supports the following attributes for me
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

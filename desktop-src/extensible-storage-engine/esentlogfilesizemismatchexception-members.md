@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileSizeMismatchException members"
 title: EsentLogFileSizeMismatchException members
 TOCTitle: EsentLogFileSizeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchException

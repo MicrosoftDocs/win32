@@ -1,5 +1,5 @@
 ---
-Description: The GetStartStop method retrieves the object's start and stop times, relative to the object's parent.
+description: The GetStartStop method retrieves the object's start and stop times, relative to the object's parent.
 ms.assetid: de77e332-85ba-48bf-ae37-f198ce7c3a73
 title: IAMTimelineObj::GetStartStop method (Qedit.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ To determine the start and stop times in the rendered project, pass the values r
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

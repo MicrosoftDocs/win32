@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RECORDLIST properties"
 title: JET_RECORDLIST properties
 TOCTitle: JET_RECORDLIST properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_RECORDLIST

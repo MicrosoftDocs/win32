@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the InkCollector Class detects a cursor button that is down.
+description: InkPicture.CursorButtonDown event - Occurs when the InkCollector Class detects a cursor button that is down.
 ms.assetid: 9ee2c19e-8a44-428b-a4c1-3c7250dcdeda
 title: InkPicture.CursorButtonDown event (Msinkaut.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEv
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

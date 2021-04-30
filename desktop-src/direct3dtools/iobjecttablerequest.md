@@ -1,5 +1,5 @@
 ---
-Description: Request for object table data.
+description: Request for object table data.
 MS-HAID: vspixengine.IObjectTableRequest
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG.Equals method (Object)"
 title: JET_SNPROG.Equals method (Object)
 TOCTitle: Equals method (Object)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SNPROG.Equals(System.Object)

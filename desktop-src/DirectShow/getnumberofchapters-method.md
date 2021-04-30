@@ -1,5 +1,5 @@
 ---
-Description: The GetNumberOfChapters method retrieves the number of chapters in the specified title.
+description: The GetNumberOfChapters method retrieves the number of chapters in the specified title.
 ms.assetid: d1291f6d-9296-486f-adad-d8819a4e54d6
 title: GetNumberOfChapters Method
 ms.topic: reference

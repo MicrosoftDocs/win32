@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseNotFoundException members"
 title: EsentDatabaseNotFoundException members
 TOCTitle: EsentDatabaseNotFoundException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseNotFoundException

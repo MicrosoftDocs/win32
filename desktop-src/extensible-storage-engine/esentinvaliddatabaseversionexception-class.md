@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidDatabaseVersionException class"
 title: EsentInvalidDatabaseVersionException class
 TOCTitle: EsentInvalidDatabaseVersionException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException

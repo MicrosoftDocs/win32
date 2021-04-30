@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a service access point and the logical device that implements it.
+description: Msvm_EthernetDeviceSAPImplementation class - Represents an association between a service access point and the logical device that implements it.
 ms.assetid: C0DDB199-AD97-4DD7-8056-BD6BD0CECFA8
 title: Msvm_EthernetDeviceSAPImplementation class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_LANEndpoint**](msvm-lanendpoint.md) c
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: In Windows Installer versions 1.0 and 1.1 the Path property is always the empty string. Future versions may use this value to return the path to the file or directory that could not be created.
+description: In Windows Installer versions 1.0 and 1.1 the Path property is always the empty string. Future versions may use this value to return the path to the file or directory that could not be created.
 ms.assetid: b79dd347-acda-47d7-aa3b-c0f9a6ca1d3b
 title: Error.Path property (Mergemod.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ See [**get\_Path**](/windows/win32/api/mergemod/nf-mergemod-imsmerror-get_path) 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEntryPointNotFoundException methods"
 title: EsentEntryPointNotFoundException methods
 TOCTitle: EsentEntryPointNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException

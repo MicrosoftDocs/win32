@@ -1,5 +1,5 @@
 ---
-Description: A conditional access control entry (ACE) allows an access condition to be evaluated when an access check is performed. The security descriptor definition language (SDDL) provides syntax for defining conditional ACEs in a string format.
+description: A conditional access control entry (ACE) allows an access condition to be evaluated when an access check is performed. The security descriptor definition language (SDDL) provides syntax for defining conditional ACEs in a string format.
 ms.assetid: cdc3629d-c4d8-4910-8838-3bdb601f7064
 title: Security Descriptor Definition Language for Conditional ACEs
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyBoundaryException constructor"
 title: EsentKeyBoundaryException constructor 
 TOCTitle: 'EsentKeyBoundaryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyBoundaryException.#ctor

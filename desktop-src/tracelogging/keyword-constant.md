@@ -37,7 +37,7 @@ The value of the keyword that will be used in the activity s start and stop even
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                          |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                 |

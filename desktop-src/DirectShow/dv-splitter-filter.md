@@ -1,5 +1,5 @@
 ---
-Description: DV Splitter Filter
+description: DV Splitter Filter
 ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: DV Splitter Filter
 ms.topic: article
@@ -12,7 +12,7 @@ This filter splits an interleaved digital video (DV) stream into its component v
 
 
 
-|                                          |                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IDVSplitter**](/windows/desktop/api/Strmif/nn-strmif-idvsplitter)                                                                             |
 | Input Pin Media Types                    | MEDIATYPE\_Interleaved, MEDIASUBTYPE\_dvsd, FORMAT\_DvInfo                                                                                         |

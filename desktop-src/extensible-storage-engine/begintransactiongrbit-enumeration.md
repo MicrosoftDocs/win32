@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BeginTransactionGrbit enumeration"
 title: BeginTransactionGrbit enumeration
 TOCTitle: BeginTransactionGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.BeginTransactionGrbit

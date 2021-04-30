@@ -21,7 +21,7 @@ The organizationalStatus attribute type specifies a category by which a person i
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | organizationalStatus                        |
 | Ldap-Display-Name | organizationalStatus                        |
@@ -46,7 +46,7 @@ The organizationalStatus attribute type specifies a category by which a person i
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -67,7 +67,7 @@ The organizationalStatus attribute type specifies a category by which a person i
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -88,7 +88,7 @@ The organizationalStatus attribute type specifies a category by which a person i
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -109,7 +109,7 @@ The organizationalStatus attribute type specifies a category by which a person i
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -130,7 +130,7 @@ The organizationalStatus attribute type specifies a category by which a person i
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

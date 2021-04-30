@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_NetworkProtocol&\#8194;WMI class represents a protocol and its network characteristics on a Win32 computer system.
+description: The Win32\_NetworkProtocol&\#8194;WMI class represents a protocol and its network characteristics on a Win32 computer system.
 ms.assetid: c864a694-d507-4629-91c5-bd26ccf397f7
 ms.tgt_platform: multiple
 title: Win32_NetworkProtocol class
@@ -203,7 +203,7 @@ Access type: Read-only
 Qualifiers: [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32\_API\|Windows Sockets Structures\|PROTOCOL\_INFO\|iMaxSockAddr"), [**units**](../wmisdk/standard-qualifiers.md) ("characters")
 </dt> </dl>
 
-Maximum length of a socket address supported by the protocol. Socket addresses may be items such as a URL (www.microsoft.com) or an IP address (130.215.24.1).
+Maximum length of a socket address supported by the protocol. Socket addresses may be items such as a URL (`www.microsoft.com`) or an IP address (`130.215.24.1`).
 
 </dd> <dt>
 
@@ -607,7 +607,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

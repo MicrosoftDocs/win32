@@ -1,5 +1,5 @@
 ---
-Description: Step 3.
+description: Step 3.
 ms.assetid: b2b5dafc-d38d-4ec3-a390-55229495b4f9
 title: Step 3. Support Media Type Negotiation
 ms.topic: article

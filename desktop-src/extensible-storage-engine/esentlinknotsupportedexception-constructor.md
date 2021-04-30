@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLinkNotSupportedException constructor"
 title: EsentLinkNotSupportedException constructor 
 TOCTitle: 'EsentLinkNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLinkNotSupportedException.#ctor

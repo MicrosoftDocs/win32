@@ -1,6 +1,6 @@
 ---
 title: glGetPixelMapusv function (Gl.h)
-description: The glGetPixelMapfv, glGetPixelMapuiv, and glGetPixelMapusv functions return the specified pixel map.
+description: The glGetPixelMapfv, glGetPixelMapuiv, and glGetPixelMapusv functions return the specified pixel map. | glGetPixelMapusv function (Gl.h)
 ms.assetid: 68b71f9b-5666-4183-aeb8-4c9f09bc5d9c
 keywords:
 - glGetPixelMapusv function OpenGL
@@ -105,7 +105,7 @@ The following functions retrieve information related to **glGetPixelMap**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

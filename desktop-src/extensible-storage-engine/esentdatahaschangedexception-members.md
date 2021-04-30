@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataHasChangedException members"
 title: EsentDataHasChangedException members
 TOCTitle: EsentDataHasChangedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDataHasChangedException

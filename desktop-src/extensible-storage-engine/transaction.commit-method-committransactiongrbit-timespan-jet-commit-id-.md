@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.Commit method (CommitTransactionGrbit, TimeSpan, JET_COMMIT_ID)"
 title: Transaction.Commit method (CommitTransactionGrbit, TimeSpan, JET_COMMIT_ID)
 TOCTitle: Commit method (CommitTransactionGrbit, TimeSpan, JET_COMMIT_ID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Commit(Microsoft.Isam.Esent.Interop.CommitTransactionGrbit,System.TimeSpan,Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID@)

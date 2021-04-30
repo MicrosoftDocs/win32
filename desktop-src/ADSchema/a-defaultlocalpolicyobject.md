@@ -22,7 +22,7 @@ A reference to a Policy object that defines the local policy for the host object
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Default-Local-Policy-Object             |
 | Ldap-Display-Name | defaultLocalPolicyObject                |
@@ -48,7 +48,7 @@ A reference to a Policy object that defines the local policy for the host object
 
 
 
-|                        |                                                                                                                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
@@ -69,7 +69,7 @@ A reference to a Policy object that defines the local policy for the host object
 
 
 
-|                        |                                                                                                                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
@@ -90,7 +90,7 @@ A reference to a Policy object that defines the local policy for the host object
 
 
 
-|                        |                                                                                                                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
@@ -111,7 +111,7 @@ A reference to a Policy object that defines the local policy for the host object
 
 
 
-|                        |                                                                                                                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
@@ -132,7 +132,7 @@ A reference to a Policy object that defines the local policy for the host object
 
 
 
-|                        |                                                                                                                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |
@@ -153,7 +153,7 @@ A reference to a Policy object that defines the local policy for the host object
 
 
 
-|                        |                                                                                                                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                        |
 | MAPI-Id                | \-                                                                                                                                        |

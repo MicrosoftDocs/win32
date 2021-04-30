@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: DateTimeColumnValue properties"
 title: DateTimeColumnValue properties
 TOCTitle: DateTimeColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.DateTimeColumnValue

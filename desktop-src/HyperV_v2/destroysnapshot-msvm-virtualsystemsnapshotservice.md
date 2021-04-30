@@ -1,5 +1,5 @@
 ---
-Description: Destroys an existing virtual machine snapshot.
+description: Destroys an existing virtual machine snapshot.
 ms.assetid: 84752bb3-cae1-4a93-89bc-e735c058feda
 title: DestroySnapshot method of the Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -92,7 +92,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

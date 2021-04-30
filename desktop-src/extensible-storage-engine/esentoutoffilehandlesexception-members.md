@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfFileHandlesException members"
 title: EsentOutOfFileHandlesException members
 TOCTitle: EsentOutOfFileHandlesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfFileHandlesException

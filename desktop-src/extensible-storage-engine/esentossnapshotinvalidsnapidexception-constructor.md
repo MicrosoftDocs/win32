@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSnapIdException constructor"
 title: EsentOSSnapshotInvalidSnapIdException constructor 
 TOCTitle: 'EsentOSSnapshotInvalidSnapIdException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSnapIdException.#ctor

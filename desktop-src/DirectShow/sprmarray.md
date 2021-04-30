@@ -1,5 +1,5 @@
 ---
-Description: The SPRMARRAY data type contains an array of DVD system parameter register (SPRM) values.
+description: The SPRMARRAY data type contains an array of DVD system parameter register (SPRM) values.
 ms.assetid: 5c285f6e-2921-4684-bc42-762fc80a5e6b
 title: SPRMARRAY (Strmif.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ typedef DVD_REGISTER SPRMARRAY [24];
 
 
 
-|                   |                                                                                                       |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Strmif.h (include Dshow.h)</dt> </dl> |
 

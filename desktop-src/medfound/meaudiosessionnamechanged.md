@@ -1,5 +1,5 @@
 ---
-Description: Raised by the audio renderer when the audio session display name changes.
+description: Raised by the audio renderer when the audio session display name changes.
 ms.assetid: d180b145-88e1-4f85-b001-b76140ca39d8
 title: MEAudioSessionNameChanged event (Mfobjects.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ To get the new display name, call [**IMFAudioPolicy::GetDisplayName**](/windows/
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

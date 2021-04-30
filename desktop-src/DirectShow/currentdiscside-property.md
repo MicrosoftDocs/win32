@@ -1,5 +1,5 @@
 ---
-Description: The CurrentDiscSide property retrieves the current side of the disc.
+description: The CurrentDiscSide property retrieves the current side of the disc.
 ms.assetid: a5210a58-bbb0-41fa-b546-1597ca0186e4
 title: CurrentDiscSide Property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Diagram of the WMI scripting objects and their relationships.
+description: Diagram of the WMI scripting objects and their relationships.
 ms.assetid: 7a2671c1-ed83-4219-bf25-d3daff0c69e3
 ms.tgt_platform: multiple
 title: Scripting API Object Model

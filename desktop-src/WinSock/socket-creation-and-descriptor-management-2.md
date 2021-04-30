@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe aspects of creating new sockets and the allocation of socket descriptors.Descriptor AllocationSocket Attribute Flags and ModesClosing Sockets
+description: The following sections describe aspects of creating new sockets and the allocation of socket descriptors.Descriptor AllocationSocket Attribute Flags and ModesClosing Sockets
 ms.assetid: 121f9ec6-4f27-4d0b-ad94-c729ef7fc408
 title: Socket Creation and Descriptor Management
 ms.topic: article

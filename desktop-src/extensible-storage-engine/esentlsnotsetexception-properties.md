@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSNotSetException properties"
 title: EsentLSNotSetException properties
 TOCTitle: EsentLSNotSetException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLSNotSetException

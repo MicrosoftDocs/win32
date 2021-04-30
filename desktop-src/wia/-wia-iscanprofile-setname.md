@@ -1,5 +1,5 @@
 ---
-Description: Sets the friendly name of the profile.
+description: Sets the friendly name of the profile.
 ms.assetid: a0a2de8b-ab7b-49a8-b513-32af0052975f
 title: IScanProfile::SetName method (Scanprofile.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ If two applications create scan profile objects from the same XML file, and each
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

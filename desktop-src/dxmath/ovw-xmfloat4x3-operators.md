@@ -1,5 +1,5 @@
 ---
-Description: The XMFLOAT4X3 structure exposes the following operators.
+description: The XMFLOAT4X3 structure exposes the following operators.
 ms.assetid: bcf2420c-cd66-4a50-9222-d74039867871
 title: XMFLOAT4X3 Operators
 ms.topic: reference

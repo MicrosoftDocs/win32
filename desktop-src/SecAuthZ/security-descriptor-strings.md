@@ -1,5 +1,5 @@
 ---
-Description: A valid functional security descriptor contains security information in binary format.
+description: A valid functional security descriptor contains security information in binary format.
 ms.assetid: 8f802652-b2bf-45cf-8186-1ac31eef1fe1
 title: Security Descriptor Strings
 ms.topic: article

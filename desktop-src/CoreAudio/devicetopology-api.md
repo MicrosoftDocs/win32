@@ -1,12 +1,15 @@
 ---
-Description: DeviceTopology API
+description: DeviceTopology API
 ms.assetid: 051311ef-dd29-4014-bb9c-4cdccf7ce7de
 title: DeviceTopology API
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: project-verbatim
 ---
 
 # DeviceTopology API
+
+See the [Microsoft high quality voice capture DMO sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/audio/aecmicarray).
 
 The DeviceTopology API provides client applications with the ability to traverse the functional hardware topologies of audio rendering and capture devices. Through the interfaces and methods in the DeviceTopology API, clients can discover the functional subunits (for example, volume control) that lie along the data paths that lead to and from [audio endpoint devices](audio-endpoint-devices.md). Clients can traverse the internal topologies of both audio adapter devices and audio endpoint devices and step across the connections that link one device to another. For more information, see [Device Topologies](device-topologies.md).
 

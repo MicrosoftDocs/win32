@@ -1,5 +1,5 @@
 ---
-Description: Notifies the callback object that one of its toolbar or menu commands has been invoked by the user. Used by IShellFolderViewCB::MessageSFVCB.
+description: Notifies the callback object that one of its toolbar or menu commands has been invoked by the user. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 6b9e4a4d-ec45-489c-bbff-d123d5756b75
 title: SFVM_INVOKECOMMAND message (Shlobj.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ This message serves essentially the same function as a [**WM\_COMMAND**](../menu
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

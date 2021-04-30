@@ -1,5 +1,5 @@
 ---
-Description: The ResetEndOfStream method resets the end-of-stream flags.
+description: The ResetEndOfStream method resets the end-of-stream flags.
 ms.assetid: 80f6d49b-a825-4c3c-b693-7b1d9298f541
 title: CBaseRenderer.ResetEndOfStream method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method clears the previous end-of-stream condition. At that point, the filt
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

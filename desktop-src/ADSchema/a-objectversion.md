@@ -22,7 +22,7 @@ This can be used to store a version number for the object.
 
 
 
-|                   |                                                                |
+| Entry | Value |
 |-------------------|----------------------------------------------------------------|
 | CN                | Object-Version                                                 |
 | Ldap-Display-Name | objectVersion                                                  |
@@ -49,7 +49,7 @@ This can be used to store a version number for the object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80F7                          |
@@ -70,7 +70,7 @@ This can be used to store a version number for the object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80F7                          |
@@ -91,7 +91,7 @@ This can be used to store a version number for the object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80F7                          |
@@ -112,7 +112,7 @@ This can be used to store a version number for the object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80F7                          |
@@ -133,7 +133,7 @@ This can be used to store a version number for the object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80F7                          |
@@ -154,7 +154,7 @@ This can be used to store a version number for the object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80F7                          |
@@ -175,7 +175,7 @@ This can be used to store a version number for the object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80F7                          |

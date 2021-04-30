@@ -1,5 +1,5 @@
 ---
-Description: The color capabilities of devices, such as displays and printers, can range from monochrome to thousands of colors.
+description: The color capabilities of devices, such as displays and printers, can range from monochrome to thousands of colors.
 ms.assetid: 3d71c24c-77f4-4344-91c3-439052402fae
 title: Color Basics
 ms.topic: article

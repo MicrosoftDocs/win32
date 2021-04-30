@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointCorruptException class"
 title: EsentCheckpointCorruptException class
 TOCTitle: EsentCheckpointCorruptException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException

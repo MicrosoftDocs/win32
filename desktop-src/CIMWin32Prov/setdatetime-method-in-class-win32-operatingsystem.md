@@ -1,5 +1,5 @@
 ---
-Description: The SetDateTime&\#8194;WMI class method sets the current system time on the computer.
+description: The SetDateTime&\#8194;WMI class method sets the current system time on the computer.
 ms.assetid: b9b86a52-c3d7-489d-8632-b297970dbeac
 ms.tgt_platform: multiple
 title: SetDateTime method of the Win32_OperatingSystem class
@@ -64,7 +64,7 @@ The calling process must have the SE\_SYSTEMTIME\_NAME privilege.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

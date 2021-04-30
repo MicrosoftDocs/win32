@@ -1,5 +1,5 @@
 ---
-Description: The AutoLogger event tracing session records events that occur early in the operating system boot process.
+description: The AutoLogger event tracing session records events that occur early in the operating system boot process.
 ms.assetid: df5a79f4-abbf-4b83-afc3-cbd14b166067
 title: Configuring and Starting an AutoLogger Session
 ms.topic: article

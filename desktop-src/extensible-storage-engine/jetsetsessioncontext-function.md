@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetSessionContext Function"
 title: JetSetSessionContext Function
 TOCTitle: JetSetSessionContext Function
 ms:assetid: e44efadf-a5c7-408a-ad68-56646b6ea650

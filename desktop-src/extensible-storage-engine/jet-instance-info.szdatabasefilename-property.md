@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO.szDatabaseFileName property"
 title: JET_INSTANCE_INFO.szDatabaseFileName property 
 TOCTitle: 'szDatabaseFileName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.szDatabaseFileName

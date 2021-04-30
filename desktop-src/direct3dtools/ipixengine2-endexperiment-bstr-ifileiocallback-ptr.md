@@ -1,5 +1,5 @@
 ---
-Description: Ends the experiement and completes the graphics log.
+description: Ends the experiement and completes the graphics log.
 MS-HAID: vspixengine.IPixEngine2\_EndExperiment\_BSTR\_IFileIOCallback\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

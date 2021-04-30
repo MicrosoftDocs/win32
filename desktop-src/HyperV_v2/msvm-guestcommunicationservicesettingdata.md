@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings of the guest communication service.
+description: Represents the settings of the guest communication service.
 ms.assetid: c36d3002-d43e-4284-b765-2795c941f023
 title: Msvm_GuestCommunicationServiceSettingData class
 ms.topic: reference
@@ -111,7 +111,7 @@ The GUID of the service.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

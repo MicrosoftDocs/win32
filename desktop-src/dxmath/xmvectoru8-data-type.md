@@ -1,5 +1,5 @@
 ---
-Description: An opaque, portable type to support the use of C/C++ initializer syntax to load uint8\_t values into an instance of XMVECTOR type.
+description: An opaque, portable type to support the use of C/C++ initializer syntax to load uint8\_t values into an instance of XMVECTOR type.
 ms.assetid: ab73ac2c-f178-1bb9-910d-9eef5fc6f5df
 title: XMVECTORU8 Data Type (DirectXMath.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXMath.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when the selected IME needs the converted string from the application. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.
+description: Notifies an application when the selected IME needs the converted string from the application. The application receives this command through the WM\_IME\_REQUEST message with parameters set as shown below.
 ms.assetid: 1a007bed-15e5-4400-9d2f-32e37e1765d2
 title: IMR_DOCUMENTFEED notification code (Imm.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ With the **IMR\_DOCUMENTFEED** command, the IME can refresh its cached strings a
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

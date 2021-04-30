@@ -22,7 +22,7 @@ Default string setting for a set of string parameter objects.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-WMI-stringDefault                        |
 | Ldap-Display-Name | msWMI-StringDefault                         |
@@ -47,7 +47,7 @@ Default string setting for a set of string parameter objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -68,7 +68,7 @@ Default string setting for a set of string parameter objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -89,7 +89,7 @@ Default string setting for a set of string parameter objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -110,7 +110,7 @@ Default string setting for a set of string parameter objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -131,7 +131,7 @@ Default string setting for a set of string parameter objects.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

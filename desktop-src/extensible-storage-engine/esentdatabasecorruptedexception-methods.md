@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseCorruptedException methods"
 title: EsentDatabaseCorruptedException methods
 TOCTitle: EsentDatabaseCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedException

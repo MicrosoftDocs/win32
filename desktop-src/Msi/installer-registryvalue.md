@@ -1,5 +1,5 @@
 ---
-Description: The RegistryValue method of the Installer object reads information about a specified registry key of value.
+description: The RegistryValue method of the Installer object reads information about a specified registry key of value.
 ms.assetid: 63c258f9-8649-419d-9f79-3681f9f97302
 title: Installer.RegistryValue method
 ms.topic: reference
@@ -96,7 +96,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

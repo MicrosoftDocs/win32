@@ -1,5 +1,5 @@
 ---
-Description: All service providers must implement Basic Telephony functions.
+description: All service providers must implement Basic Telephony functions.
 ms.assetid: 4250f3a0-a66a-4a6e-8566-d71be7463179
 title: TSPI Basic Telephony Functions
 ms.topic: article

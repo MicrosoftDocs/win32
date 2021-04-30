@@ -1,5 +1,5 @@
 ---
-Description: Sets a texture.
+description: Sets a texture.
 ms.assetid: edf5bf61-508a-4417-bdf8-c36e6ba7ab30
 title: ID3DXBaseEffect::SetTexture method (D3DX9Shader.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

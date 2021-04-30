@@ -1,5 +1,5 @@
 ---
-Description: Defines the transition style between values of a mesh animation.
+description: Defines the transition style between values of a mesh animation.
 ms.assetid: 4416ef28-ba6b-47ca-be7d-831daad619e5
 title: D3DXTRANSITION_TYPE enumeration (D3dx9anim.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ Therefore:
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9anim.h</dt> </dl> |
 

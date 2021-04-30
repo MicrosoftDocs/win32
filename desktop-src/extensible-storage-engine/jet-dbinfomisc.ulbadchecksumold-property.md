@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.ulBadChecksumOld property"
 title: JET_DBINFOMISC.ulBadChecksumOld property 
 TOCTitle: 'ulBadChecksumOld property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.ulBadChecksumOld

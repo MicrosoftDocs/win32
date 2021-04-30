@@ -1,5 +1,5 @@
 ---
-Description: The TSPI LINE\_CALLDEVSPECIFICFEATURE message is sent to the LINEEVENT callback function to notify TAPI about device-specific events occurring on a line or address.
+description: The TSPI LINE\_CALLDEVSPECIFICFEATURE message is sent to the LINEEVENT callback function to notify TAPI about device-specific events occurring on a line or address.
 ms.assetid: bf470f5b-f7e5-4f98-9b60-12da599ebf26
 title: LINE_CALLDEVSPECIFICFEATURE message (Tspi.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ There is no directly corresponding message at the TAPI level, although this mess
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tspi.h</dt> </dl> |

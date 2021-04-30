@@ -1,5 +1,5 @@
 ---
-Description: In addition to device information properties, Windows Image Acquisition (WIA) devices have property values stored in the registry that applications read and write.
+description: In addition to device information properties, Windows Image Acquisition (WIA) devices have property values stored in the registry that applications read and write.
 ms.assetid: 9948318b-7171-45fa-b46f-48f9357fdb32
 title: Common Device Property Constants (Wiadef.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The prefix "WIA\_DPA\_" indicates a Device Property for All devices and is the n
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: The user SID for the component.
+description: The user SID for the component.
 ms.assetid: ac06a696-53c6-45b1-9ad1-1aa35564ce77
 title: Client.UserSID property
 ms.topic: reference
@@ -29,7 +29,7 @@ The user SID for the component. This property calls the [**MsiEnumClientsEx**](/
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

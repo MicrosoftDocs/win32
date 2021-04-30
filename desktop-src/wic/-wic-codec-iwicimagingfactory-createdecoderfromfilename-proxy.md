@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateDecoderFromFilename method.
+description: Proxy function for the CreateDecoderFromFilename method.
 ms.assetid: 12c60899-0fe0-47d0-9026-48c74df328ef
 title: IWICImagingFactory_CreateDecoderFromFilename_Proxy function
 ms.topic: reference
@@ -106,7 +106,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

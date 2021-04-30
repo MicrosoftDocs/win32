@@ -1,5 +1,5 @@
 ---
-Description: The NTFS file system associates an unsigned 64-bit identifier with each change journal.
+description: The NTFS file system associates an unsigned 64-bit identifier with each change journal.
 ms.assetid: 5ae79460-b69a-4901-a417-1d5358dcba29
 title: Using the Change Journal Identifier
 ms.topic: article

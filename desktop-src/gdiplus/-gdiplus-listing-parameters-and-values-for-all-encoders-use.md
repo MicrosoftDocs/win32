@@ -1,5 +1,5 @@
 ---
-Description: The following console application lists all the parameters supported by the various encoders installed on the computer.
+description: The following console application lists all the parameters supported by the various encoders installed on the computer.
 ms.assetid: c80ad013-0b92-461f-8714-4b6d0cb6de0d
 title: Listing Parameters and Values for All Encoders
 ms.topic: article

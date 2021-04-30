@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoAttachmentsFailedIncrementalReseedException constructor"
 title: EsentNoAttachmentsFailedIncrementalReseedException constructor 
 TOCTitle: 'EsentNoAttachmentsFailedIncrementalReseedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException.#ctor

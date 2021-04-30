@@ -1,5 +1,5 @@
 ---
-Description: Asynchronously passes resources to the engine, such as strings for error messages.
+description: Asynchronously passes resources to the engine, such as strings for error messages.
 MS-HAID: vspixengine.IPixEngine7\_InitEngineAsync\_ResourcePair\_arr\_UINT\_IVersionCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

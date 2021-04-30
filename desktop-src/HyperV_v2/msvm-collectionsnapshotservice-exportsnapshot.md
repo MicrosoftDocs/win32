@@ -1,5 +1,5 @@
 ---
-Description: Exports a snapshot collection of virtual computer systems to a file. The snapshot collection, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
+description: Exports a snapshot collection of virtual computer systems to a file. The snapshot collection, its associated configuration settings, and its associated resource settings will be preserved in the resulting file.
 ms.assetid: 61fbc81c-c3e8-4058-b11a-4ed69481207c
 title: ExportSnapshot method of the Msvm_CollectionSnapshotService class
 ms.topic: reference
@@ -73,7 +73,7 @@ If this method is executed synchronously, it returns 0 if it succeeds. If this m
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

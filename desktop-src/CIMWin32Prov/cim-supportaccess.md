@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SupportAccess class defines how to obtain assistance for a product.
+description: The CIM\_SupportAccess class defines how to obtain assistance for a product.
 ms.assetid: f42a793f-d71e-498e-9c6b-581aa029a0dd
 ms.tgt_platform: multiple
 title: CIM_SupportAccess class
@@ -214,7 +214,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

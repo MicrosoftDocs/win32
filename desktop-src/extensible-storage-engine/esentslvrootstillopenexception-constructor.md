@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootStillOpenException constructor"
 title: EsentSLVRootStillOpenException constructor 
 TOCTitle: 'EsentSLVRootStillOpenException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException.#ctor

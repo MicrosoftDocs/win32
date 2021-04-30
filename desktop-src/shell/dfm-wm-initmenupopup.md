@@ -1,5 +1,5 @@
 ---
-Description: Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
+description: DFM_WM_INITMENUPOPUP message - Sent when a drop-down menu or submenu is about to become active. This allows an application to modify the menu before it is displayed, without changing the entire menu.
 title: DFM_WM_INITMENUPOPUP message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -61,7 +61,7 @@ If an application processes this message, it should return zero.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

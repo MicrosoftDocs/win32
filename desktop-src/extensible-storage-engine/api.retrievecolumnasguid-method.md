@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnAsGuid method"
 title: Api.RetrieveColumnAsGuid method 
 TOCTitle: 'RetrieveColumnAsGuid method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsGuid

@@ -1,5 +1,5 @@
 ---
-Description: Finds a user's entry, by name, in the volume's quota file.
+description: Finds a user's entry, by name, in the volume's quota file.
 title: DiskQuotaControl.FindUser method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -83,7 +83,7 @@ End Function
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

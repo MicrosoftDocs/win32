@@ -1,6 +1,6 @@
 ---
 title: High DPI Reference
-description: .
+description: High DPI Reference
 ms.assetid: 07A2D45E-721C-4DA8-82A5-38B2FB94BC6D
 ms.topic: article
 ms.date: 05/31/2018

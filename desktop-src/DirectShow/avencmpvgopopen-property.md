@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder produces open groups of pictures (GOPs) or closed GOPs. This property applies to MPEG video encoders.
+description: Specifies whether the encoder produces open groups of pictures (GOPs) or closed GOPs. This property applies to MPEG video encoders.
 ms.assetid: 424751cd-65d2-4cab-9f7b-cad50c09c767
 title: AVEncMPVGOPOpen property (Codecapi.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ An open GOP contains delta frames that reference frames from the previous GOP. A
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

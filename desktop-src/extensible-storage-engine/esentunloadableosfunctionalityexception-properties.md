@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnloadableOSFunctionalityException properties"
 title: EsentUnloadableOSFunctionalityException properties
 TOCTitle: EsentUnloadableOSFunctionalityException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException

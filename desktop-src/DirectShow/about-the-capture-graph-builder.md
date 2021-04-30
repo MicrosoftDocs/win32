@@ -1,5 +1,5 @@
 ---
-Description: About the Capture Graph Builder
+description: About the Capture Graph Builder
 ms.assetid: 9399a06e-7305-41e8-aefe-3d158052a8ed
 title: About the Capture Graph Builder
 ms.topic: article

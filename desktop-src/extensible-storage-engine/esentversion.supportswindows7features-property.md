@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion.SupportsWindows7Features property"
 title: EsentVersion.SupportsWindows7Features property 
 TOCTitle: 'SupportsWindows7Features property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsWindows7Features

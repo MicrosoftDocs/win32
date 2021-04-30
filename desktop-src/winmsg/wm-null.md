@@ -1,5 +1,5 @@
 ---
-Description: Performs no operation. An application sends the WM\_NULL message if it wants to post a message that the recipient window will ignore.
+description: Performs no operation. An application sends the WM\_NULL message if it wants to post a message that the recipient window will ignore.
 ms.assetid: edbcfba6-7b79-4d53-84e3-2e4227e17369
 title: WM_NULL message (Winuser.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ As another example, an application can check if a window is responding to messag
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

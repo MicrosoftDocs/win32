@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySortsException members"
 title: EsentTooManySortsException members
 TOCTitle: EsentTooManySortsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException

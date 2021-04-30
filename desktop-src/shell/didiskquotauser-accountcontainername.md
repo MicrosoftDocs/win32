@@ -1,5 +1,5 @@
 ---
-Description: Gets the name of the user's account container.
+description: Gets the name of the user's account container.
 title: DIDiskQuotaUser.AccountContainerName property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -52,7 +52,7 @@ For accounts without directory services information, this property contains the 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

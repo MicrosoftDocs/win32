@@ -1,5 +1,5 @@
 ---
-Description: Anonymous pipe operations, including pipe creation, writing to a pipe, pipe handles.
+description: Anonymous pipe operations, including pipe creation, writing to a pipe, pipe handles.
 ms.assetid: df81471c-1072-4456-a877-304e76ade4bd
 title: Anonymous Pipe Operations
 ms.topic: article

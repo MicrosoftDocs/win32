@@ -22,7 +22,7 @@ Recycle time of the object in the local DIT.
 
 
 
-|                   |                                                               |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------|
 | CN                | ms-DS-local-Effective-Recycle-Time                            |
 | Ldap-Display-Name | msDS-LocalEffectiveRecycleTime                                |
@@ -44,7 +44,7 @@ Recycle time of the object in the local DIT.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -65,7 +65,7 @@ Recycle time of the object in the local DIT.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

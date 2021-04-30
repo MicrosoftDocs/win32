@@ -1,5 +1,5 @@
 ---
-Description: Set the MSIENFORCEUPGRADECOMPONENTRULES property to 1 on the command line or in the Property table to apply the upgrade component rules during small updates and minor upgrades of a particular product.
+description: Set the MSIENFORCEUPGRADECOMPONENTRULES property to 1 on the command line or in the Property table to apply the upgrade component rules during small updates and minor upgrades of a particular product.
 ms.assetid: 0c8424c7-ab9b-4a09-aaa8-6a3f44c2789f
 title: MSIENFORCEUPGRADECOMPONENTRULES property
 ms.topic: reference
@@ -30,7 +30,7 @@ When the property or policy is set to 1, [small updates](small-updates.md) and [
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

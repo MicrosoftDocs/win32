@@ -1,5 +1,5 @@
 ---
-Description: Rendering a Project
+description: Rendering a Project
 ms.assetid: e4751329-3533-47a4-8390-766512021923
 title: Rendering a Project
 ms.topic: article

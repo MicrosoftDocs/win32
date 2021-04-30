@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempFileOpenErrorException constructor"
 title: EsentTempFileOpenErrorException constructor 
 TOCTitle: 'EsentTempFileOpenErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException.#ctor

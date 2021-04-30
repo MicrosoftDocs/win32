@@ -1,5 +1,5 @@
 ---
-Description: 'The recognizer handles:'
+description: 'The recognizer handles:'
 ms.assetid: d7c694a2-0da6-4172-b434-2b0f94e1b649
 title: Recognizer Reference
 ms.topic: article

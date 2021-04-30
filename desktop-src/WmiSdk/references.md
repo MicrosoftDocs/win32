@@ -1,5 +1,5 @@
 ---
-Description: The MOF ref key word describes an object path and maps to a VT\_BSTR Automation type.
+description: The MOF ref key word describes an object path and maps to a VT\_BSTR Automation type.
 ms.assetid: 9da25435-4ccc-4251-a4be-37239156e320
 ms.tgt_platform: multiple
 title: References (WMI)
@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# References
+# References (WMI)
 
 The MOF **ref** key word describes an object path and maps to a VT\_BSTR Automation type. The object path can be either a full path to a server and namespace, or a relative path to another object in the same namespace. You can use a **ref** key word to link two or more classes together. WMI supports two types of object paths, which use to define general or specific paths within WMI.
 

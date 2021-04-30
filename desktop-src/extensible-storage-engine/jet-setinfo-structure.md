@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO Structure"
 title: JET_SETINFO Structure
 TOCTitle: JET_SETINFO Structure
 ms:assetid: cbc41175-e48f-46b0-aeb1-1120fa2cd981
@@ -26,11 +27,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_SETINFO** structure contains optional input parameters for [JetSetColumn](./jetsetcolumn-function.md). A **NULL** pointer can be passed where a pointer to this structure would otherwise be passed. The meaning of passing a **NULL** is the same as passing **JET_SETINFO** with **cbStruct** set to sizeof(JET_SETINFO), **ibLongValue** set to 0 (zero) and **itagSequence** set to 1.
 
-    typedef struct {
-      unsigned long cbStruct;
-      unsigned long ibLongValue;
-      unsigned long itagSequence;
-    } JET_SETINFO;
+```cpp
+typedef struct {
+  unsigned long cbStruct;
+  unsigned long ibLongValue;
+  unsigned long itagSequence;
+} JET_SETINFO;
+```
 
 ### Members
 

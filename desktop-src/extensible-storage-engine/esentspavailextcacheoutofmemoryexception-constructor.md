@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfMemoryException constructor"
 title: EsentSPAvailExtCacheOutOfMemoryException constructor 
 TOCTitle: 'EsentSPAvailExtCacheOutOfMemoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfMemoryException.#ctor

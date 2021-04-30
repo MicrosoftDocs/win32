@@ -1,5 +1,5 @@
 ---
-Description: The IAMErrorLog interface provides a callback method for error logging in DirectShow Editing Services (DES).DES does not implement this interface.
+description: The IAMErrorLog interface provides a callback method for error logging in DirectShow Editing Services (DES).DES does not implement this interface.
 ms.assetid: d5366072-2de7-437c-b198-cbc4d8623c45
 title: IAMErrorLog interface (Qedit.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ The **IAMErrorLog** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

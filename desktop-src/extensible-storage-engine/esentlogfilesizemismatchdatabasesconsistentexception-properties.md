@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileSizeMismatchDatabasesConsistentException properties"
 title: EsentLogFileSizeMismatchDatabasesConsistentException properties
 TOCTitle: EsentLogFileSizeMismatchDatabasesConsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchDatabasesConsistentException

@@ -1,5 +1,5 @@
 ---
-Description: When adding support for IPv6, you must ensure that your application defines properly sized data structures.
+description: When adding support for IPv6, you must ensure that your application defines properly sized data structures.
 ms.assetid: 2bf353e2-38d5-462c-9e6c-65886b617215
 title: Changing Data Structures for IPv6 Winsock Appications
 ms.topic: article

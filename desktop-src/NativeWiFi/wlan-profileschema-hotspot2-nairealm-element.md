@@ -1,5 +1,5 @@
 ---
-Description: A list of Network Access Identifier (NAI) Realm identifiers.
+description: A list of Network Access Identifier (NAI) Realm identifiers.
 ms.assetid: e77802ee-4017-4f04-ae71-5d6d0de8fcf3
 title: NAIRealm (Hotspot2) Element
 ms.topic: reference

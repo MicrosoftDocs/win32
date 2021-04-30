@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentClientRequestToStopJetServiceException constructor"
 title: EsentClientRequestToStopJetServiceException constructor 
 TOCTitle: 'EsentClientRequestToStopJetServiceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentClientRequestToStopJetServiceException.#ctor

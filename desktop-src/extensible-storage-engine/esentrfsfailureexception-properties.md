@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRfsFailureException properties"
 title: EsentRfsFailureException properties
 TOCTitle: EsentRfsFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRfsFailureException

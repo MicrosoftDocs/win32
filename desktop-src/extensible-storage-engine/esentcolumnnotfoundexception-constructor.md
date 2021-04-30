@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotFoundException constructor"
 title: EsentColumnNotFoundException constructor 
 TOCTitle: 'EsentColumnNotFoundException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Options for saving and creating effects.
+description: Options for saving and creating effects.
 ms.assetid: df24a132-665e-4eb7-992b-d7a6144257f5
 title: D3DXFX
 ms.topic: article
@@ -71,9 +71,8 @@ The constants in the following table are not defined by default and must be defi
 
 
 
-|                                |                                                                                                                                                                                                                                      |
-|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Effect Preprocessor \#define's | Description                                                                                                                                                                                                                          |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DXFX\_LARGEADDRESS\_HANDLE   | Define this value before including d3dx9.h so that your application fails to compile when attempting to pass strings into D3DXHANDLE parameters. This will aid in making sure that valid information is being passed to the runtime. |
 | Effect Linker Flags            | Description                                                                                                                                                                                                                          |
 | LARGE\_ADDRESS\_AWARE          | Setting the linker flag LARGE\_ADDRESS\_AWARE = 1 will will allow the application to allocate resources past the 2GB address limit when needed.                                                                                      |

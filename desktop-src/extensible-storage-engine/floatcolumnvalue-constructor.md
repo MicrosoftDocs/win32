@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: FloatColumnValue constructor"
 title: FloatColumnValue constructor 
 TOCTitle: 'FloatColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.FloatColumnValue.#ctor

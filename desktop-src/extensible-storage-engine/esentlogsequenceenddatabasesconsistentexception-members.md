@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndDatabasesConsistentException members"
 title: EsentLogSequenceEndDatabasesConsistentException members
 TOCTitle: EsentLogSequenceEndDatabasesConsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException

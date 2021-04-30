@@ -1,5 +1,5 @@
 ---
-Description: The ReleaseFormat method releases the structure associated with the format.
+description: The ReleaseFormat method releases the structure associated with the format.
 ms.assetid: 67181773-5a04-4e20-9814-b004d3b549f5
 title: ITFormatControl::ReleaseFormat method (Ipmsp.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

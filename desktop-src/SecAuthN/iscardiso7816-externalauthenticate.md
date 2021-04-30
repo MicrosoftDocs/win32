@@ -1,5 +1,5 @@
 ---
-Description: Constructs an application protocol data unit (APDU) command that conditionally updates security status, verifying the identity of the computer when the smart card does not trust it.
+description: Constructs an application protocol data unit (APDU) command that conditionally updates security status, verifying the identity of the computer when the smart card does not trust it.
 ms.assetid: 6db063d5-48a7-4c8b-ae84-cbcf34edc79d
 title: ISCardISO7816::ExternalAuthenticate method (Scardssp.h)
 ms.topic: reference
@@ -118,7 +118,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Required Interfaces
+# Required Interfaces (Windows Media Player SDK)
 
 Windows Media Player renders audio and video by using one of the following pipelines.
 

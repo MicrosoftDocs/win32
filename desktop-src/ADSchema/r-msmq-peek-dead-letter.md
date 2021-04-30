@@ -21,7 +21,7 @@ Allows peeking at messages in the Dead Letter queue.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Peek-Dead-Letter                |
 | Display-Name | Peek Dead Letter                     |
@@ -42,7 +42,7 @@ Allows peeking at messages in the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 39                                                           |
@@ -53,7 +53,7 @@ Allows peeking at messages in the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 39                                                           |
@@ -64,7 +64,7 @@ Allows peeking at messages in the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 39                                                           |
@@ -75,7 +75,7 @@ Allows peeking at messages in the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 39                                                           |
@@ -86,7 +86,7 @@ Allows peeking at messages in the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 39                                                           |
@@ -97,7 +97,7 @@ Allows peeking at messages in the Dead Letter queue.
 
 
 
-|                         |                                                              |
+| Entry | Value |
 |-------------------------|--------------------------------------------------------------|
 | Applies-To              | [**MSMQ-Configuration**](c-msmqconfiguration.md)<br/> |
 | Localization-Display-ID | 39                                                           |

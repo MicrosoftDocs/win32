@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: ad30df59-0051-4471-8c0e-3207bcc7bfbe
 title: JobErrorSheet
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobErrorSheet
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Describes the error sheet output. The entire job will have a single error sheet. The error sheet should be output on the default PageMediaSize and using the default PageMediaType. The error sheet should to be isolated from the remainder of the job. This means that any finishing or processing options (such as JobDuplex, JobStaple, or JobBinding) should not include the error sheet. The error sheet should occur as the final sheet of the job.
 
@@ -20,7 +20,7 @@ Describes the error sheet output. The entire job will have a single error sheet.
 
 
 
-| Name                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Name | Value |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Scoping Prefix <br/> | Job<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -81,7 +81,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:JobErrorSheet">
@@ -115,7 +115,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

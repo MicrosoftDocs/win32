@@ -1,5 +1,5 @@
 ---
-Description: Registers the provider and initializes the counter sets.
+description: Registers the provider and initializes the counter sets.
 ms.assetid: edcf8df3-0f6d-4849-b41d-270509499b8e
 title: CounterInitialize function
 ms.topic: reference
@@ -88,7 +88,7 @@ Context information to pass to your memory allocation and free routines. Can be 
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

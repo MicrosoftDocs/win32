@@ -1,5 +1,5 @@
 ---
-Description: Access the mesh's creation flags.
+description: Access the mesh's creation flags.
 ms.assetid: df21aa5d-d8c4-43ee-8b22-ca1ee75ecf64
 title: ID3DX10Mesh::GetFlags method (D3DX10.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The creation flags passed into the *options* parameter of [**D3DX10CreateMesh**]
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

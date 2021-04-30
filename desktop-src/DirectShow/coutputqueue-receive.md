@@ -1,5 +1,5 @@
 ---
-Description: The Receive method delivers a media sample to the input pin.
+description: The Receive method delivers a media sample to the input pin.
 ms.assetid: a8ee0988-8955-48d0-be1b-24eea72d560d
 title: COutputQueue.Receive method (Outputq.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ This method calls the [**COutputQueue::ReceiveMultiple**](coutputqueue-receivemu
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

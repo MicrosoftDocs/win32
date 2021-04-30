@@ -1,5 +1,5 @@
 ---
-Description: Description
+description: Description (Mobile Broadband) - Description
 MS-HAID: WWAN\_profile\_v4.element\_Description
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -19,7 +19,7 @@ topic_type:
 
 ---
 
-# <span id="WWAN_profile_v4.element_Description"></span>Description
+# Description (Mobile Broadband)
 
 A description of the profile.
 

@@ -1,12 +1,12 @@
 ---
-Description: D3DX supplies the following shader functions.
+description: D3DX supplies the following shader functions.
 ms.assetid: 541e8988-db05-4e25-84f1-c6799f31e442
 title: Shader Functions (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Functions
+# Shader Functions (Direct3D 9 Graphics)
 
 D3DX supplies the following shader functions.
 

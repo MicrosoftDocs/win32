@@ -1,5 +1,5 @@
 ---
-Description: Defines values for use with the FXMASTERINGLIMITER\_PARAMETERS structure.
+description: Defines values for use with the FXMASTERINGLIMITER\_PARAMETERS structure.
 ms.assetid: 30e6ae97-0aa9-b8d5-ace3-47d98e889875
 title: FXMASTERINGLIMIT Constants (XAPOFX.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>XAPOFX.h</dt> </dl> |
 

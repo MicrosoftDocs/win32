@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.MoveBeforeFirst method"
 title: Api.MoveBeforeFirst method 
 TOCTitle: 'MoveBeforeFirst method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MoveBeforeFirst(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

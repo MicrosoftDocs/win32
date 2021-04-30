@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the node address (Nad) used by the smart card in the reply message.
+description: Retrieves the node address (Nad) used by the smart card in the reply message.
 ms.assetid: bf4f281c-d378-4abd-8f2e-e23c2f4e87a4
 title: ISCardCmd::get_ReplyNad method (Scarddat.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

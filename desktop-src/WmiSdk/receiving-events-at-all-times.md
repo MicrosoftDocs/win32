@@ -1,5 +1,5 @@
 ---
-Description: You may want to write an application that can react to events at any time.
+description: You may want to write an application that can react to events at any time.
 ms.assetid: 475dca47-b1e5-4362-ab00-9ab9383e92f9
 ms.tgt_platform: multiple
 title: Receiving Events at All Times

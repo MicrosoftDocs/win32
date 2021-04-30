@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedDDLException constructor"
 title: EsentFixedDDLException constructor 
 TOCTitle: 'EsentFixedDDLException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFixedDDLException.#ctor

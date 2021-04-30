@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Media.Producer
 ms.assetid: 9cc672b2-75ea-4733-aaa3-0c4fd5afb4f6
 title: System.Media.Producer
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The WSALookupServiceBegin query uses SVCID\_INET\_HOSTNAMEBYADDR as the service class GUID.
+description: The WSALookupServiceBegin query uses SVCID\_INET\_HOSTNAMEBYADDR as the service class GUID.
 ms.assetid: 6fd54708-dbd0-4402-8eb8-9cdc42cd56ad
 title: gethostbyaddr Function in the SPI
 ms.topic: article

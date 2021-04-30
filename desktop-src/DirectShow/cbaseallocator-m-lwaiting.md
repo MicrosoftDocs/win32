@@ -1,5 +1,5 @@
 ---
-Description: Count of threads waiting for samples.
+description: Count of threads waiting for samples.
 ms.assetid: 0b383fbf-f3d4-4dcf-b33c-74b9595a3e11
 title: CBaseAllocator::m_lWaiting member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ long m_lWaiting;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

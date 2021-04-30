@@ -73,7 +73,7 @@ DO returns BG_ERROR_CONTEXT_REMOTE_FILE if the job hit a HTTP 403 error, BG_ERRO
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                                       |

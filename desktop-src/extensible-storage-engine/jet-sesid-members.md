@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID members"
 title: JET_SESID members
 TOCTitle: JET_SESID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SESID

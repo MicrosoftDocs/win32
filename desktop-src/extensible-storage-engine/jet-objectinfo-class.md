@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO class"
 title: JET_OBJECTINFO class
 TOCTitle: JET_OBJECTINFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO

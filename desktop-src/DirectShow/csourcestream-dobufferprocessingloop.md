@@ -1,5 +1,5 @@
 ---
-Description: The DoBufferProcessingLoop method generates media data and delivers it to the downstream input pin.
+description: The DoBufferProcessingLoop method generates media data and delivers it to the downstream input pin.
 ms.assetid: a8dce761-eed6-402d-9115-e21822d7a853
 title: CSourceStream.DoBufferProcessingLoop method (Source.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ The `DoBufferProcessingLoop` method handles the end-of-stream notification. If a
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

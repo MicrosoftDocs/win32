@@ -1,5 +1,5 @@
 ---
-Description: Determines the product of the computed translation matrix determined by the given factors (x, y, and z) and the current matrix.
+description: ID3DXMATRIXStack::TranslateLocal method (D3DX10.h) - Determines the product of the computed translation matrix determined by the given factors (x, y, and z) and the current matrix.
 ms.assetid: 96399801-dd80-4e9a-a5c3-c5d41eb9368a
 title: ID3DXMATRIXStack::TranslateLocal method (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::TranslateLocal method
+# ID3DXMATRIXStack::TranslateLocal method (D3DX10.h)
 
 Determines the product of the computed translation matrix determined by the given factors (x, y, and z) and the current matrix.
 
@@ -87,7 +87,7 @@ m_stack[m_currentPos] = tmp * m_stack[m_currentPos];
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

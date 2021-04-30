@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# AppID
+# AppID (AppID Key)
 
 Identifies the AppID GUID that corresponds to the named executable.
 

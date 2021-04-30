@@ -1,5 +1,5 @@
 ---
-Description: Signals that a media source is attempting to reconnect to the server.
+description: Signals that a media source is attempting to reconnect to the server.
 ms.assetid: c5975279-c710-4046-9152-d1e1c62eb785
 title: MEReconnectStart event (Mfobjects.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

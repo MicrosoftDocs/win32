@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCMissingCallbackOnRecoveryException members"
 title: EsentDTCMissingCallbackOnRecoveryException members
 TOCTitle: EsentDTCMissingCallbackOnRecoveryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackOnRecoveryException

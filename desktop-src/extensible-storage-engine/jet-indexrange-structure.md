@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE Structure"
 title: JET_INDEXRANGE Structure
 TOCTitle: JET_INDEXRANGE Structure
 ms:assetid: 8e437f7d-1e21-4a0b-a5a5-1c78235a4f80

@@ -1,5 +1,5 @@
 ---
-Description: A requester can break a shadow copy set by using the IVssBackupComponents::BreakSnapshotSet or IVssBackupComponentsEx2::BreakSnapshotSetEx method.
+description: A requester can break a shadow copy set by using the IVssBackupComponents::BreakSnapshotSet or IVssBackupComponentsEx2::BreakSnapshotSetEx method.
 ms.assetid: fb796b2f-b6fb-48ee-8d42-36f88cb165aa
 title: Breaking Shadow Copies
 ms.topic: article

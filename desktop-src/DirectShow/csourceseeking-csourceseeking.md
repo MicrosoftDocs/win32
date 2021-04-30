@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CSourceSeeking.CSourceSeeking constructor - Constructor method.
 ms.assetid: a51d90c9-4046-42dc-b7cf-51b904c5f57a
 title: CSourceSeeking.CSourceSeeking constructor (Ctlutil.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Pointer to a [**CCritSec**](ccritsec.md) object. In your derived class, declare 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotNotAllowedException constructor"
 title: EsentOSSnapshotNotAllowedException constructor 
 TOCTitle: 'EsentOSSnapshotNotAllowedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException.#ctor

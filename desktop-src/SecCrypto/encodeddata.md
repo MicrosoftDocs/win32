@@ -1,5 +1,5 @@
 ---
-Description: Represents a block of ASN.1 encoded data.
+description: Represents a block of ASN.1 encoded data.
 ms.assetid: af7acc5f-da0a-4235-8496-05db94664ea5
 title: EncodedData object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # EncodedData object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**AsnEncodedData Class**](/dotnet/api/system.security.cryptography.asnencodeddata?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**AsnEncodedData Class**](/dotnet/api/system.security.cryptography.asnencodeddata?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **EncodedData** object represents a block of ASN.1 encoded data.
 
@@ -82,7 +82,7 @@ The following CAPICOM object properties return an **EncodedData** object:
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

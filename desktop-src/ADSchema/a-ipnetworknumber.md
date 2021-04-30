@@ -21,7 +21,7 @@ Contains an IP network number in dotted decimal notation, omitting the leading z
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ipNetworkNumber                      |
 | Ldap-Display-Name | ipNetworkNumber                      |
@@ -45,7 +45,7 @@ Contains an IP network number in dotted decimal notation, omitting the leading z
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -66,7 +66,7 @@ Contains an IP network number in dotted decimal notation, omitting the leading z
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -87,7 +87,7 @@ Contains an IP network number in dotted decimal notation, omitting the leading z
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -108,7 +108,7 @@ Contains an IP network number in dotted decimal notation, omitting the leading z
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |

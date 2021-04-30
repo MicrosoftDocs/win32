@@ -1,5 +1,5 @@
 ---
-Description: An association between a virtual system and the setting data of the snapshot which is the parent to the virtual system.
+description: An association between a virtual system and the setting data of the snapshot which is the parent to the virtual system.
 ms.assetid: d11e00e0-a163-49ea-b8ef-e3909a7dc83f
 ms.tgt_platform: multiple
 title: CIM_PreviousSettingData class
@@ -87,7 +87,7 @@ The computer system that was the target of the application.
 
 
 
-|                      |                        |
+| Requirement | Value |
 |----------------------|------------------------|
 | Namespace<br/> | Root\\CIMV2<br/> |
 

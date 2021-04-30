@@ -1,5 +1,5 @@
 ---
-Description: Navigation topic for Windows Sockets (Winsock) socket IOCTLs.
+description: Navigation topic for Windows Sockets (Winsock) socket IOCTLs.
 ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: Winsock IOCTLs (Winsock2.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ Applies a transport setting to a socket. The transport setting being applied is 
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket.
 
-If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) passed has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to apply real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041) to receive background network notifications in a Windows Store app.
+If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) passed has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to apply real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) to receive background network notifications in a Windows Store app.
 
 For more detailed information, see the [**SIO\_APPLY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)) reference. **SIO\_APPLY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 
@@ -321,7 +321,7 @@ Queries the transport settings on a socket. The transport setting being queried 
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket.
 
-If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) structure with the current status.
+If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) structure with the current status.
 
 For more detailed information, see the [**SIO\_QUERY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)) reference. **SIO\_QUERY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 
@@ -469,6 +469,14 @@ For more detailed information, see the [**SIO\_SET\_COMPATIBILITY\_MODE**](/prev
 ### SIO\_SET\_GROUP\_QOS (opcode setting: I, T==1)
 
 Reserved.
+
+### SIO_SET_PRIORITY_HINT (opcode setting: I, T==3)
+
+Provides a hint to the underlying transport protocol to treat the traffic on this socket with a specific priority. The *lpvInBuffer* must point to a variable of type **PRIORITY_HINT** with *cbInBuffer* set to sizeof(PRIORITY_HINT). The *lpvOutBuffer* and *cbOutBuffer* parameters must be **NULL** and 0, respectively. The Microsoft Windows TCP implementation supports this IOCTL starting with Windows 10, version 1809 (10.0; Build 17763) and later as follows: when the requested priority value is set to **IoPriorityHintVeryLow**, TCP uses a modified version of the LEDBAT algorithm (defined in RFC 6817) for controlling the outbound traffic rate on the socket. The inbound traffic is not affected by this IOCTL. LEDBAT is a scavenger algorithm, and its goal is to keep latency low and prevent any adverse effect on normal-priority traffic by getting out of the way when normal-priority traffic is present.
+
+Also see [RFC 6817](https://tools.ietf.org/html/rfc6817).
+
+**SIO_SET_PRIORITY_HINT** is supported on Windows 10, version 1809 (10.0; Build 17763) and later.
 
 ### SIO\_SET\_QOS (opcode setting: I, T==1)
 

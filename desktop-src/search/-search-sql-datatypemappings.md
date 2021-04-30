@@ -1,5 +1,5 @@
 ---
-Description: The following table lists the mappings between variant data types and OLE DB data types.
+description: The following table lists the mappings between variant data types and OLE DB data types.
 ms.assetid: 213458bf-b847-4ced-8a92-686b4eee6d07
 title: Data Type Mappings
 ms.topic: article

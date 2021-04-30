@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of cursor objects associated with the tablet.
+description: Returns the number of cursor objects associated with the tablet.
 ms.assetid: 7aa5802c-1255-41a4-b1fa-23e5f56c0b80
 title: ITablet::GetCursorCount method
 ms.topic: reference
@@ -61,7 +61,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

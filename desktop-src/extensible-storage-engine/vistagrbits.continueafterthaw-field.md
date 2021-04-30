@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.ContinueAfterThaw field"
 title: VistaGrbits.ContinueAfterThaw field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: ContinueAfterThaw field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.ContinueAfterThaw

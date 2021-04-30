@@ -1,5 +1,5 @@
 ---
-Description: The CheckVideoType method checks whether a specified VIDEOINFO format is compatible with the display format.
+description: The CheckVideoType method checks whether a specified VIDEOINFO format is compatible with the display format.
 ms.assetid: a8593c7d-bde0-4c44-b450-10c129dd0007
 title: CImageDisplay.CheckVideoType method (Winutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method returns S\_OK if the proposed type can be displayed easily under the
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

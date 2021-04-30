@@ -1,5 +1,5 @@
 ---
-Description: IUserIdentityManager::EnumIdentities is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IUserIdentityManager::EnumIdentities is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 8111fbcd-dc4d-45cb-83e0-3c2cd7c4df27
 title: IUserIdentityManager::EnumIdentities method (Msident.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ This method is useful for iteration over the list of identities on the system. T
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream class"
 title: ColumnStream class
 TOCTitle: ColumnStream class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumnStream

@@ -1,5 +1,5 @@
 ---
-Description: Configuration Overview
+description: Configuration Overview
 ms.assetid: 5cdc21a1-ff55-4c36-8106-b045256778ce
 title: Configuration Overview
 ms.topic: article

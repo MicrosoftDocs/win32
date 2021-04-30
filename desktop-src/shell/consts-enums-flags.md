@@ -1,5 +1,5 @@
 ---
-Description: This section describes the Windows Shell constants, enumerations, and flags.
+description: This section describes the Windows Shell constants, enumerations, and flags.
 title: Shell Constants, Enumerations, and Flags
 ms.topic: article
 ms.date: 05/31/2018
@@ -175,7 +175,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <tr class="even">
 <td><a href="csidl.md"><strong>CSIDL</strong></a><br/></td>
 <td><blockquote>
-<p>[!Note]As of Windows Vista, these values have been replaced by <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> values. See that topic for a list of the new constants and their corresponding CSIDL values. For convenience, corresponding <strong>KNOWNFOLDERID</strong> values are also noted here for each CSIDL value.</p>
+<p><b>Note: </b>As of Windows Vista, these values have been replaced by <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> values. See that topic for a list of the new constants and their corresponding CSIDL values. For convenience, corresponding <strong>KNOWNFOLDERID</strong> values are also noted here for each CSIDL value.</p>
 <p>The CSIDL system is supported under Windows Vista for compatibility reasons. However, new development should use <a href="knownfolderid.md"><strong>KNOWNFOLDERID</strong></a> values rather than CSIDL values.<br/></p>
 </blockquote>
 <br/> CSIDL (constant special item ID list) values provide a unique system-independent way to identify special folders used frequently by applications, but which may not have the same name or location on any given system. For example, the system folder may be &quot;C:\Windows&quot; on one system and &quot;C:\Winnt&quot; on another. These constants are defined in Shlobj.h.<br/></td>
@@ -460,7 +460,7 @@ This section describes the Windows Shell constants, enumerations, and flags.
 <td><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-_shgdnf"><strong>SHGDNF</strong></a><br/></td>
 <td>Defines the values used with the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof"><strong>IShellFolder::GetDisplayNameOf</strong></a> and <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-setnameof"><strong>IShellFolder::SetNameOf</strong></a> methods to specify the type of file or folder names used by those methods. <br/>
 <blockquote>
-[!Note]<br />
+<b>Note:</b><br />
 Prior to Windows 7, these values were packaged as the SHGNO enumeration.
 </blockquote>
 <br/></td>

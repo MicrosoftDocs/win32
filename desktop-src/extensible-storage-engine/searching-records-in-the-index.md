@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Searching Records in the Index"
 title: Searching Records in the Index
 TOCTitle: Searching Records in the Index
 ms:assetid: 9141b1d6-81b6-49ad-a5d4-2409fe0d511a

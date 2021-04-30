@@ -80,13 +80,13 @@ The Microsoft Agent Character Editor enables you to define seven basic mouth pos
 
 | Mouth Position | Sample Image                       | Representation                                                                                                                     |
 |----------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| Closed         | ![](images/g07ci01.gif)<br/> | Normal mouth closed shape. Also used for phonemes such as "m" as in "mom," "b" as in "bob," "f" as in "fife."<br/>           |
-| Open-wide 1    | ![](images/g07ci02.gif)<br/> | Mouth is slightly open, at full width. Used for phonemes such as "g" as in "gag," "l" as in "lull," "ear" as in "hear."<br/> |
-| Open-wide 2    | ![](images/g07ci03.gif)<br/> | Mouth is partially open, at full width. Used for phonemes such as "n" as in "nun," "d" as in "dad," "t" as in "tot."<br/>    |
-| Open-wide 3    | ![](images/g07ci04.gif)<br/> | Mouth is open, at full width. Used for phonemes such as "u" as in "hut," "ea" as in "head," "ur" as in "hurt."<br/>          |
-| Open-wide 4    | ![](images/g07ci05.gif)<br/> | Mouth is completely open, at full width. Used for phonemes such as "a" as in "hat," "ow" as in "how."<br/>                   |
-| Open-medium    | ![](images/g07ci06.gif)<br/> | Mouth is open at half width. Used for phonemes such as "oy" as in "ahoy," "o" as in "hot."<br/>                              |
-| Open-narrow    | ![](images/g07ci07.gif)<br/> | Mouth is open at narrow width. Used for phonemes such as "o" as in "hoop", "o" as in "hope," "w" as in "wet."<br/>           |
+| Closed         | :::image type="icon" source="images/g07ci01.gif":::<br/> | Normal mouth closed shape. Also used for phonemes such as "m" as in "mom," "b" as in "bob," "f" as in "fife."<br/>           |
+| Open-wide 1    | :::image type="icon" source="images/g07ci02.gif":::<br/> | Mouth is slightly open, at full width. Used for phonemes such as "g" as in "gag," "l" as in "lull," "ear" as in "hear."<br/> |
+| Open-wide 2    | :::image type="icon" source="images/g07ci03.gif":::<br/> | Mouth is partially open, at full width. Used for phonemes such as "n" as in "nun," "d" as in "dad," "t" as in "tot."<br/>    |
+| Open-wide 3    | :::image type="icon" source="images/g07ci04.gif":::<br/> | Mouth is open, at full width. Used for phonemes such as "u" as in "hut," "ea" as in "head," "ur" as in "hurt."<br/>          |
+| Open-wide 4    | :::image type="icon" source="images/g07ci05.gif":::<br/> | Mouth is completely open, at full width. Used for phonemes such as "a" as in "hat," "ow" as in "how."<br/>                   |
+| Open-medium    | :::image type="icon" source="images/g07ci06.gif":::<br/> | Mouth is open at half width. Used for phonemes such as "oy" as in "ahoy," "o" as in "hot."<br/>                              |
+| Open-narrow    | :::image type="icon" source="images/g07ci07.gif":::<br/> | Mouth is open at narrow width. Used for phonemes such as "o" as in "hoop", "o" as in "hope," "w" as in "wet."<br/>           |
 
 
 

@@ -6,10 +6,10 @@ ms.topic: article
 ms.date: 10/20/2020
 ---
 
-# Controls
+# Controls (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Controls are UI elements that your users interact with on your app's main window area. See visual examples of controls in Windows-based, desktop apps and get links to guidelines for each control.
 
@@ -41,8 +41,6 @@ Controls are UI elements that your users interact with on your app's main window
 | ![treeview](images/controls-image22.png)<br/> [Tree views](ctrl-tree-views.md) allow users to view and interact with a hierarchically arranged collection of objects, using either single selection or multiple selection.<br/>                                                                                                                                        |
 
 
-
- 
 
  
 

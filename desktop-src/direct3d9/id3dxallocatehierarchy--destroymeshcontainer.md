@@ -1,5 +1,5 @@
 ---
-Description: Requests deallocation of a mesh container object.
+description: Requests deallocation of a mesh container object.
 ms.assetid: 7a976ba8-6972-4857-b0a9-4ea7a88dc8ac
 title: ID3DXAllocateHierarchy::DestroyMeshContainer method (D3dx9anim.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The return values of this method are implemented by an application programmer. I
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

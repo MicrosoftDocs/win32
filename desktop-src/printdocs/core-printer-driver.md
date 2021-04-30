@@ -1,5 +1,5 @@
 ---
-Description: Represents a printer driver on which other printer drivers depend.
+description: Represents a printer driver on which other printer drivers depend.
 ms.assetid: b03f9ac1-7ad2-4aee-b496-e1ee15ba7d38
 title: CORE_PRINTER_DRIVER structure (Winspool.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ This structure can represent a manufacturer's base driver on which the drivers f
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

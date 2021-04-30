@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Samples
+# Samples (Microsoft Active Accessibility)
 
 This section provides details about the code samples that support the Microsoft Active Accessibility documentation.
 

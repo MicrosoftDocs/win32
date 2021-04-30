@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullInvalidException properties"
 title: EsentNullInvalidException properties
 TOCTitle: EsentNullInvalidException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNullInvalidException

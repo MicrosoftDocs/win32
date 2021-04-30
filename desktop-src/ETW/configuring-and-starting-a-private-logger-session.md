@@ -1,5 +1,5 @@
 ---
-Description: A private event tracing session is a user-mode event tracing session that runs in the same process as its event trace providers&\#8212;the private session and the providers that it enables must all be in the same process.
+description: A private event tracing session is a user-mode event tracing session that runs in the same process as its event trace providers&\#8212;the private session and the providers that it enables must all be in the same process.
 ms.assetid: fb6a3899-194e-4cb7-b9e5-a7ff85fb7891
 title: Configuring and Starting a Private Logger Session
 ms.topic: article

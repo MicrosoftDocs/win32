@@ -1,5 +1,5 @@
 ---
-Description: The IWbemObjectTextSrc interface exposes the following methods.
+description: The IWbemObjectTextSrc interface exposes the following methods.
 ms.assetid: B998252F-050A-49E3-AB56-B3B9F22122FC
 ms.tgt_platform: multiple
 title: IWbemObjectTextSrc Methods

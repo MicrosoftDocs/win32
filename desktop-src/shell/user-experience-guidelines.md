@@ -1,5 +1,5 @@
 ---
-Description: The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings.
+description: The primary responsibility of any Control Panel item is to display a window that allows the user to view and manipulate settings.
 title: User Experience Guidelines
 ms.topic: article
 ms.date: 09/24/2020

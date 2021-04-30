@@ -1,6 +1,6 @@
 ---
 title: Progress Bar Messages
-description: .
+description: Progress Bar Messages
 ms.assetid: 69ee0958-5913-4e3b-a5d4-f590aee3797b
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INullableJetStruct members"
 title: INullableJetStruct members
 TOCTitle: INullableJetStruct members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.INullableJetStruct

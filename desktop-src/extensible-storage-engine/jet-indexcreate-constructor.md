@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE constructor"
 title: JET_INDEXCREATE constructor 
 TOCTitle: 'JET_INDEXCREATE constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.#ctor

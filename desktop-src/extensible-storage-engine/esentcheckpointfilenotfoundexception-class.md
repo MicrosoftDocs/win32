@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointFileNotFoundException class"
 title: EsentCheckpointFileNotFoundException class
 TOCTitle: EsentCheckpointFileNotFoundException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException

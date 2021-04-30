@@ -1,5 +1,5 @@
 ---
-Description: The name of the PatBlt function (an abbreviation for pattern block transfer) implies that this function simply replicates the brush (or pattern) until it fills a specified rectangle.
+description: The name of the PatBlt function (an abbreviation for pattern block transfer) implies that this function simply replicates the brush (or pattern) until it fills a specified rectangle.
 ms.assetid: 601e1e79-a328-4e63-958a-ca26129e03f8
 title: Pattern Block Transfer
 ms.topic: article

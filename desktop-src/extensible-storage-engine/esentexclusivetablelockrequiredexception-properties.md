@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExclusiveTableLockRequiredException properties"
 title: EsentExclusiveTableLockRequiredException properties
 TOCTitle: EsentExclusiveTableLockRequiredException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentExclusiveTableLockRequiredException

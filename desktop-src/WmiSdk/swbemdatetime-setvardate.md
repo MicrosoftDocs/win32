@@ -1,5 +1,5 @@
 ---
-Description: Converts a date in the VT\_DATE format to the CIM datetime format.
+description: Converts a date in the VT\_DATE format to the CIM datetime format.
 ms.assetid: 24c39d44-22ac-44ac-9e05-72a5b666ab19
 ms.tgt_platform: multiple
 title: SWbemDateTime.SetVarDate method (Wbemdisp.h)
@@ -88,7 +88,7 @@ The [Convert Date to WMI Date-Time Format](https://Gallery.TechNet.Microsoft.Com
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Error Codes
+# Error Codes (Windows Media Device Manager 11 SDK)
 
 Windows Media Device Manager methods can return a variety of error codes. Some of these are specific to the Windows Media Device Manager, while others are defined by other SDKs or porting kits used to build a device and bubbled up to the Windows Media Device Manager methods. This section describes the various error codes that can be returned by Windows Media technologies, organized by origin.
 

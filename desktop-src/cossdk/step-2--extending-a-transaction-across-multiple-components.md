@@ -1,5 +1,5 @@
 ---
-Description: 'Step 2: Extending a Transaction Across Multiple Components'
+description: 'Step 2: Extending a Transaction Across Multiple Components'
 ms.assetid: 20a30e87-e209-45ae-bf1b-722568758c47
 title: 'Step 2: Extending a Transaction Across Multiple Components'
 ms.topic: article
@@ -23,7 +23,7 @@ In keeping with the COM+ programming model, `UpdateAuthorAddress` calls another 
 
 Unlike its caller, `ValidateAuthorAddress` does not require a transaction, but it can still participate in its caller's transaction. In this step, its transaction attribute value is set to **Supported**, as shown in the following illustration, which extends the existing transaction to the new object.
 
-![](images/f58acb34-55db-40a4-8c48-f51ad024ff7e.png)
+![Diagram that shows the extending the existing transaction to the new object.](images/f58acb34-55db-40a4-8c48-f51ad024ff7e.png)
 
 The **Supported** attribute value extends (or flows) an existing transaction only when the caller is transactional. When `UpdateAuthorAddress` calls `ValidateAuthorAddress`, COM+ first looks at the caller's context to see whether it is transactional. COM+ then looks at the service attributes that are set on `ValidateAuthorAddress` and assigns the new object the same transaction identifier that is assigned to the caller object. To better understand this process, see [Context Activation](context-activation.md).
 

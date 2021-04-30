@@ -1,6 +1,6 @@
 ---
 title: IMsRdpDeviceCollection DeviceCount property
-description: Retrieves the count of objects in the collection.
+description: Retrieves the count of objects in the collection. | IMsRdpDeviceCollection DeviceCount property
 ms.assetid: dc44f3b8-52c4-4e5f-a633-ea7555fd01dd
 ms.tgt_platform: multiple
 keywords:
@@ -49,7 +49,7 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                            |

@@ -1,5 +1,5 @@
 ---
-Description: The CRendererPosPassThru class handles seek commands for renderer filters, by passing them upstream to the next filter.
+description: The CRendererPosPassThru class handles seek commands for renderer filters, by passing them upstream to the next filter.
 ms.assetid: 7b532177-939c-4cb7-a6fa-c0133f65c768
 title: CRendererPosPassThru class (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ For an example of how to use this class, refer to the [**CBaseRenderer**](cbaser
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

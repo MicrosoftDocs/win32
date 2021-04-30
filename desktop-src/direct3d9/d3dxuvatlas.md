@@ -1,5 +1,5 @@
 ---
-Description: Defines options for performing geodesic distance calculations, when fitting a texture to a curved surface. Use this flag to choose between high quality versus fast calculations when computing a texture atlas.
+description: Defines options for performing geodesic distance calculations, when fitting a texture to a curved surface. Use this flag to choose between high quality versus fast calculations when computing a texture atlas.
 ms.assetid: 76649c57-e5ae-4e0d-a7ab-f56385a327c2
 title: D3DXUVATLAS enumeration (D3dx9mesh.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Provides better quality charts, but requires more time and memory than fast.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

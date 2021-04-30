@@ -56,7 +56,7 @@ Use the [**EM\_FILELINEINDEX**](em-lineindex.md) message to retrieve a character
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, 1809 \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2019 \[desktop apps only\]<br/>                                                     |

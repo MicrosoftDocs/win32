@@ -1,5 +1,5 @@
 ---
-Description: A structure that describes a single color value.
+description: A structure that describes a single color value.
 ms.assetid: 710f3ef1-bbc3-416d-9faf-aa4a716007c2
 title: XPS_COLOR (Xpsobjectmodel.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The structure's format depends on the value of *colorType*.
 
 
 
-|                                     |                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps \| UWP apps\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps \| UWP apps\]<br/> |

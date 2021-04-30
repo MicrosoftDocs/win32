@@ -1,12 +1,12 @@
 ---
-Description: .
+description: Introduction (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.assetid: 6BB5AABC-6281-4575-8189-477C57DF4F4F
 title: Introduction (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Introduction
+# Introduction (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 
 Around the world, many companies are adopting Windows 7 because of its enterprise features and abilities. IT departments are also changing how they approach their long-term platform needs to support a modern desktop. The Windows 7 operating system helps lower the total cost of ownership by helping users stay productive anywhere, enhances security and control, and simplifies desktop management across the organization. Windows 7 also includes a standards-based modern browser, Windows Internet Explorer 8, which provides improved security and enhanced browsing capabilities. These two platforms increase IT efficiency and enhance an organization’s agility and security.
 

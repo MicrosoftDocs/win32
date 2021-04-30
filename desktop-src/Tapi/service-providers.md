@@ -1,5 +1,5 @@
 ---
-Description: Service providers implement detailed telephony device controls. A telephony service provider (TSP) provides call controls and a media service provider, if it exists, provides control over the media stream.
+description: Service providers implement detailed telephony device controls. A telephony service provider (TSP) provides call controls and a media service provider, if it exists, provides control over the media stream.
 ms.assetid: eb63d55e-4a2b-4bc0-8001-99772f418d72
 title: Service Providers
 ms.topic: article

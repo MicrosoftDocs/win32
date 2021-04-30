@@ -1,5 +1,5 @@
 ---
-Description: The ComponentInfo object represents additional details about a component that may be obtained via a call from MsiGetComponentPathEx.
+description: The ComponentInfo object represents additional details about a component that may be obtained via a call from MsiGetComponentPathEx.
 ms.assetid: 9b0ad0a1-c49f-4b14-817b-0cfc9b228d77
 title: ComponentInfo object
 ms.topic: reference
@@ -47,7 +47,7 @@ The **ComponentInfo** object has these properties.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Call the AccessCheck method of the IAzClientContext interface to check if the client has access to one or more operations.
+description: Call the AccessCheck method of the IAzClientContext interface to check if the client has access to one or more operations.
 ms.assetid: 7c8a63c5-2eab-4414-9a3d-c99a92b67a62
 title: Verifying Client Access to a Requested Resource in C++
 ms.topic: article

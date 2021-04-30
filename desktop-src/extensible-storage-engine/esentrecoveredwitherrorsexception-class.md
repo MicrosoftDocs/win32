@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithErrorsException class"
 title: EsentRecoveredWithErrorsException class
 TOCTitle: EsentRecoveredWithErrorsException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException

@@ -1,5 +1,5 @@
 ---
-Description: Flag indicating whether a decommit operation is in progress.
+description: Flag indicating whether a decommit operation is in progress.
 ms.assetid: aa008be1-8faa-4dc1-9641-37dcc59ce6c7
 title: CBaseAllocator::m_bDecommitInProgress member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BOOL m_bDecommitInProgress;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptDuringHardRestoreException class"
 title: EsentLogCorruptDuringHardRestoreException class
 TOCTitle: EsentLogCorruptDuringHardRestoreException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRestoreException

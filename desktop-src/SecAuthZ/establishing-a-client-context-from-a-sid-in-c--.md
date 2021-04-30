@@ -1,5 +1,5 @@
 ---
-Description: Identify a user, group, or computer account. Use SIDs to check access rights to resources.
+description: Identify a user, group, or computer account. Use SIDs to check access rights to resources.
 ms.assetid: e36d42b2-9bdd-4dd9-9c62-1b7c78239ffe
 title: Establishing a Client Context from a SID in C++
 ms.topic: article

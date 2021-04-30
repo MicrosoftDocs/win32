@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the port to which the Windows Image Acquisition (WIA) hardware device is connected.
+description: Retrieves the port to which the Windows Image Acquisition (WIA) hardware device is connected.
 ms.assetid: 74e3dd07-3034-4f03-8643-3844fd4ead0c
 title: DeviceInfo.Port property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the port.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Describes how to use the Microsoft Error Lookup Tool to find text explanations of hexadecimal error codes in Windows.
+description: Describes how to use the Microsoft Error Lookup Tool to find text explanations of hexadecimal error codes in Windows.
 title: The Microsoft Error Lookup Tool
 ms.topic: article
 ms.date: 12/4/2019

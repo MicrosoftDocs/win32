@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesSecondaryIndexOnlyException members"
 title: EsentIndexTuplesSecondaryIndexOnlyException members
 TOCTitle: EsentIndexTuplesSecondaryIndexOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesSecondaryIndexOnlyException

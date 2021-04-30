@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO.pfnStatus property"
 title: JET_RSTINFO.pfnStatus property 
 TOCTitle: 'pfnStatus property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTINFO.pfnStatus

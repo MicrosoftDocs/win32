@@ -1,5 +1,5 @@
 ---
-Description: The RenderOutputPins method creates the previewing portion of the filter graph.
+description: The RenderOutputPins method creates the previewing portion of the filter graph.
 ms.assetid: 66bcb698-cd85-4c22-bfef-2e51973958f1
 title: IRenderEngine::RenderOutputPins method (Qedit.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ If the pin is from a video group, this method creates a video window. The callin
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

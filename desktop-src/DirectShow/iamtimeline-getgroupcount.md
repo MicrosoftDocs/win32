@@ -1,5 +1,5 @@
 ---
-Description: The GetGroupCount method retrieves the number of groups that are contained in the timeline.
+description: The GetGroupCount method retrieves the number of groups that are contained in the timeline.
 ms.assetid: 24351e03-3132-4363-8171-eae517fb770a
 title: IAMTimeline::GetGroupCount method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

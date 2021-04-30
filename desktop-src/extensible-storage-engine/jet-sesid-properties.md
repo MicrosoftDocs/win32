@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SESID properties"
 title: JET_SESID properties
 TOCTitle: JET_SESID properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_SESID

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentGivenLogFileIsNotContiguousException methods"
 title: EsentGivenLogFileIsNotContiguousException methods
 TOCTitle: EsentGivenLogFileIsNotContiguousException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException

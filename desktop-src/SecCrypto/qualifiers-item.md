@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a qualifier based on a specified index.
+description: Retrieves a qualifier based on a specified index.
 ms.assetid: 4d54358d-99de-4a1c-b843-41006f47a279
 title: Qualifiers.Item property
 ms.topic: reference
@@ -40,7 +40,7 @@ A [**Qualifier**](qualifier.md) object that represents the indexed qualifier of 
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

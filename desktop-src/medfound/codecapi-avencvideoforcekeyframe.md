@@ -1,5 +1,5 @@
 ---
-Description: Forces the encoder to code the next frame as a key frame.
+description: Forces the encoder to code the next frame as a key frame.
 ms.assetid: 1E252967-6C28-4DA3-9E64-BD276E475753
 title: CODECAPI_AVEncVideoForceKeyFrame property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This property is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-h
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

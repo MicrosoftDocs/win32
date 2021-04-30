@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO Structure"
 title: JET_INSTANCE_INFO Structure
 TOCTitle: JET_INSTANCE_INFO Structure
 ms:assetid: 8cdd2e48-f1bb-465b-aefc-ffe441bf88a1

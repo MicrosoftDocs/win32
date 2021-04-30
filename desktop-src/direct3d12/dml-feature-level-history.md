@@ -8,7 +8,34 @@ ms.date: 11/05/2020
 
 # DirectML feature level history
 
-For general DirectML version history, see [DirectML version history](/windows/win32/direct3d12/dml-version-history).
+For general DirectML version history, see [DirectML version history](./dml-version-history.md).
+
+## DML_FEATURE_LEVEL_3_1
+
+Introduced in DirectML version 1.5.0.
+
+Added support for the following operators.
+
+* [DML_OPERATOR_ELEMENT_WISE_ATAN_YX](/windows/win32/api/directml/ne-directml-dml_operator_type)
+* **DML_OPERATOR_ELEMENT_WISE_CLIP_GRAD**
+* **DML_OPERATOR_ELEMENT_WISE_DIFFERENCE_SQUARE**
+* **DML_OPERATOR_LOCAL_RESPONSE_NORMALIZATION_GRAD**
+* **DML_OPERATOR_CUMULATIVE_PRODUCT**
+* **DML_OPERATOR_BATCH_NORMALIZATION_GRAD**
+
+The maximum number of supported dimensions for the following operators has increased from 4 to 8.
+
+* **DML_OPERATOR_BATCH_NORMALIZATION**
+* **DML_OPERATOR_CAST**
+* **DML_OPERATOR_JOIN**
+* **DML_OPERATOR_LP_NORMALIZATION**
+* **DML_OPERATOR_MEAN_VARIANCE_NORMALIZATION1**
+* **DML_OPERATOR_PADDING**
+* **DML_OPERATOR_ACTIVATION_RELU_GRAD**
+* **DML_OPERATOR_SLICE_GRAD**
+* **DML_OPERATOR_TILE**
+* **DML_OPERATOR_TOP_K**
+* **DML_OPERATOR_TOP_K1**
 
 ## DML_FEATURE_LEVEL_3_0
 
@@ -39,7 +66,7 @@ Added support for the following operators.
 
 Added the following enhancements.
 
-* The maximum number of tensor dimensions has been increased from 5 to 8. See [DML_TENSOR_DIMENSION_COUNT_MAX1](/windows/win32/direct3d12/direct3d-directml-constants).
+* The maximum number of tensor dimensions has been increased from 5 to 8. See [DML_TENSOR_DIMENSION_COUNT_MAX1](./direct3d-directml-constants.md).
 * Additional support for integer datatypes has been added to the following operators.
   * **DML_OPERATOR_ELEMENT_WISE_POW**
   * **DML_OPERATOR_ELEMENT_WISE_CONSTANT_POW**
@@ -60,8 +87,8 @@ Introduced in DirectML version 1.2.0.
 
 Added the following APIs.
 
-* [IDMLDevice1 interface](/windows/win32/direct3d12/directml/nn-directml-idmldevice1)
-* Operator graph support (see [IDMLDevice1::CompileGraph](/windows/win32/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
+* [IDMLDevice1 interface](./directml/nn-directml-idmldevice1.md)
+* Operator graph support (see [IDMLDevice1::CompileGraph](./directml/nf-directml-idmldevice1-compilegraph.md)
 
 Added support for the following operators.
 
@@ -134,7 +161,7 @@ Added the following enhancements.
 Introduced in DirectML version 1.1.0.
 
 Added the following APIs.
-* [DMLCreateDevice1 function](/windows/win32/direct3d12/directml/nf-directml-dmlcreatedevice1)
+* [DMLCreateDevice1 function](./directml/nf-directml-dmlcreatedevice1.md)
 * [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
 * Feature level queries (see [DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels))
 
@@ -162,7 +189,7 @@ Added support for the following operators.
 
 Added the following enhancements.
 
-* When binding an input resource for dispatch of an [IDMLOperatorInitializer](/windows/win32/api/directml/nn-directml-idmloperatorinitializer), it's now legal to provide a resource with [D3D12_HEAP_TYPE_CUSTOM](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) (in addition to **D3D12_HEAP_TYPE_DEFAULT**), as long as appropriate heap properties are also set. See [Binding in DirectML](/windows/win32/direct3d12/dml-binding).
+* When binding an input resource for dispatch of an [IDMLOperatorInitializer](/windows/win32/api/directml/nn-directml-idmloperatorinitializer), it's now legal to provide a resource with [D3D12_HEAP_TYPE_CUSTOM](/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type) (in addition to **D3D12_HEAP_TYPE_DEFAULT**), as long as appropriate heap properties are also set. See [Binding in DirectML](./dml-binding.md).
 * The following logical boolean operators now support **UINT8** output tensors, in addition to the existing support for **UINT32**.
   * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_AND**
   * **DML_OPERATOR_ELEMENT_WISE_LOGICAL_EQUALS**
@@ -177,9 +204,9 @@ Added the following enhancements.
 
 The feature level in which DirectML was introduced.
 
-## -see-also
+## See also
 
-[DirectML version history](/windows/win32/direct3d12/dml-version-history)
-[DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
-[DMLCreateDevice1 function](/windows/win32/direct3d12/directml/nf-directml-dmlcreatedevice1)
-[DML_FEATURE_QUERY_FEATURE_LEVELS structure](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)
+* [DirectML version history](./dml-version-history.md)
+* [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
+* [DMLCreateDevice1 function](./directml/nf-directml-dmlcreatedevice1.md)
+* [DML_FEATURE_QUERY_FEATURE_LEVELS structure](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)

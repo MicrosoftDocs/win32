@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get specified information about a single specified frame.
+description: An asynchronous request to get specified information about a single specified frame.
 MS-HAID: vspixengine.IFrameEventsRequest\_RequestAsync\_DWORD\_DWORD\_DWORD\_arr\_IFrameEventsCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

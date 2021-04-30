@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInitializedException constructor"
 title: EsentNotInitializedException constructor 
 TOCTitle: 'EsentNotInitializedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNotInitializedException.#ctor

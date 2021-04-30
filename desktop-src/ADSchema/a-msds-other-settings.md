@@ -22,7 +22,7 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Other-Settings                        |
 | Ldap-Display-Name | msDS-Other-Settings                         |
@@ -48,7 +48,7 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -69,7 +69,7 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -90,7 +90,7 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -111,7 +111,7 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -132,7 +132,7 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -153,7 +153,7 @@ This multiple-valued attribute is used to store any configurable setting for the
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

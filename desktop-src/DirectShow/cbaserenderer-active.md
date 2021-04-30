@@ -1,5 +1,5 @@
 ---
-Description: The Active method is called when the state is switched to paused or running.
+description: The Active method is called when the state is switched to paused or running.
 ms.assetid: 2913bc81-572d-4ee1-a1b6-9e1638e04c9d
 title: CBaseRenderer.Active method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The input pin calls this method from its own [**CRendererInputPin::Active**](cre
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

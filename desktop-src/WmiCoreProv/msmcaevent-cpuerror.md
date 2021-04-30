@@ -1,5 +1,5 @@
 ---
-Description: Represents a CPU error event. This class is available only in 64-bit Windows systems.
+description: Represents a CPU error event. This class is available only in 64-bit Windows systems.
 ms.assetid: 4ee4aa51-a965-4569-b53c-0ba21bf42752
 title: MSMCAEvent_CPUError class
 ms.topic: reference
@@ -234,7 +234,7 @@ The **MSMCAEvent\_CPUError** class is derived from [**WMIEvent**](wmievent.md).
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

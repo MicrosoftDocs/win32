@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the Direct3D device associated with the render surface.
+description: Retrieves the Direct3D device associated with the render surface.
 ms.assetid: 579cf7da-b8e0-4d9f-93b8-b1f47c3d5654
 title: ID3DXRenderToSurface::GetDevice method (D3dx9core.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

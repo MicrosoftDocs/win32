@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a queued CMsg object containing a request.
+description: Retrieves a queued CMsg object containing a request.
 ms.assetid: 65b76121-c21c-4525-8dde-138783a4964e
 title: CMsgThread.GetThreadMsg method (Msgthrd.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function is called from the worker thread's private [**ThreadProc**]
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Msgthrd.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

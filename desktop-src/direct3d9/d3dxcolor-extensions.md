@@ -1,5 +1,5 @@
 ---
-Description: Supplies the following operator overloads and type casts for D3DXCOLOR structures.
+description: Supplies the following operator overloads and type casts for D3DXCOLOR structures.
 ms.assetid: 89780c6f-c78b-4ebe-876a-6dbc37b598ef
 title: D3DXCOLOR Extensions (D3dx9math.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

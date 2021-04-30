@@ -1,5 +1,5 @@
 ---
-Description: ICE12 validates the CustomAction, Directory, AdminExecuteSequence, AdminUISequence, AdvtExecuteSequence, InstallExecuteSequence, and InstallUISequence tables of the Windows Installer database.
+description: ICE12 validates the CustomAction, Directory, AdminExecuteSequence, AdminUISequence, AdvtExecuteSequence, InstallExecuteSequence, and InstallUISequence tables of the Windows Installer database.
 ms.assetid: c1576aff-ff05-49be-8679-a8bfd01977f5
 title: ICE12
 ms.topic: article

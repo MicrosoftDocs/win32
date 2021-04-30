@@ -1,6 +1,6 @@
 ---
 title: Player.PlaylistCollectionPlaylistAdded event
-description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection.
+description: The PlaylistCollectionPlaylistAdded event occurs when a playlist is added to the playlist collection. | Player.PlaylistCollectionPlaylistAdded event
 ms.assetid: 07acb5e6-d832-4f0b-a6bb-2b7ba27c368d
 keywords:
 - PlaylistCollectionPlaylistAdded event Windows Media Player
@@ -60,7 +60,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

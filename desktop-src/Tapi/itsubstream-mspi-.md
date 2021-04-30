@@ -1,5 +1,5 @@
 ---
-Description: The ITSubStream interface is available if an MSP is associated with the call and it implements substreams.
+description: The ITSubStream interface is available if an MSP is associated with the call and it implements substreams.
 ms.assetid: 24aa41b1-756f-47b0-9818-ceb309ce8cb3
 title: ITSubStream (MSPI)
 ms.topic: article

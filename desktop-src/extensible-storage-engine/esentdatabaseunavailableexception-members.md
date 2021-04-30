@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseUnavailableException members"
 title: EsentDatabaseUnavailableException members
 TOCTitle: EsentDatabaseUnavailableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException

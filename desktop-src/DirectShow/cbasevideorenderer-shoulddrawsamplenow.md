@@ -1,5 +1,5 @@
 ---
-Description: The ShouldDrawSampleNow method determines if the video should be drawn without setting a timer advise link with the clock.
+description: The ShouldDrawSampleNow method determines if the video should be drawn without setting a timer advise link with the clock.
 ms.assetid: 2cbefc66-0d99-4559-b210-3163cd413dbf
 title: CBaseVideoRenderer.ShouldDrawSampleNow method (Renbase.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ This member function overrides [**CBaseRenderer::ShouldDrawSampleNow**](cbaseren
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

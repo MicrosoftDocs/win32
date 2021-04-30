@@ -1,5 +1,5 @@
 ---
-Description: The end of a segment was reached.
+description: The end of a segment was reached.
 ms.assetid: 07f141b1-2e96-49e2-9cf7-581690e245b5
 title: EC_END_OF_SEGMENT (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ This event code supports seamless looping. When a call to the [**IMediaSeeking::
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Remote Desktop Services
+# Remote Desktop Services (Remote Desktop Services)
 
 ## Purpose
 

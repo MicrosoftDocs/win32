@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransReadOnlyException methods"
 title: EsentTransReadOnlyException methods
 TOCTitle: EsentTransReadOnlyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException

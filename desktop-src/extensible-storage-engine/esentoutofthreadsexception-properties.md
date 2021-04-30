@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfThreadsException properties"
 title: EsentOutOfThreadsException properties
 TOCTitle: EsentOutOfThreadsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfThreadsException

@@ -1,5 +1,5 @@
 ---
-Description: A pattern (or custom) brush is created from an application-defined bitmap or device-independent bitmap (DIB). The following rectangles were painted by using different pattern brushes.
+description: A pattern (or custom) brush is created from an application-defined bitmap or device-independent bitmap (DIB). The following rectangles were painted by using different pattern brushes.
 ms.assetid: 0de89a6f-d9c7-4f33-8088-c24a48a3ceee
 title: Pattern Brush
 ms.topic: article

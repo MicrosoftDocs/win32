@@ -1,5 +1,5 @@
 ---
-Description: The PRINTPROCESSOR\_CAPS\_1 structure is the format for the printer capability information that is returned by the GetPrinterData function in the buffer specified by the pData variable.
+description: The PRINTPROCESSOR\_CAPS\_1 structure is the format for the printer capability information that is returned by the GetPrinterData function in the buffer specified by the pData variable.
 ms.assetid: 43c568ff-ccc9-4873-b159-ede09b4a7e51
 title: PRINTPROCESSOR_CAPS_1 structure (Winspool.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ The spooler calls a print processor's [**GetPrintProcessorCapabilities**](/windo
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

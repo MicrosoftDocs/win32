@@ -1,5 +1,5 @@
 ---
-Description: Generate an attribute buffer from the data in the mesh's attribute table. An attribute buffer is another format for storing the data in the attribute table. Both the attribute buffer and the attribute table are internal data structures in the mesh.
+description: Generate an attribute buffer from the data in the mesh's attribute table. An attribute buffer is another format for storing the data in the attribute table. Both the attribute buffer and the attribute table are internal data structures in the mesh.
 ms.assetid: e5e240af-4bf9-4123-9820-9c9680de62b1
 title: ID3DX10Mesh::GenerateAttributeBufferFromTable method (D3DX10.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

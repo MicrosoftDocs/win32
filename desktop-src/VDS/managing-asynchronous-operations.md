@@ -1,5 +1,5 @@
 ---
-Description: Managing Asynchronous Operations
+description: Managing Asynchronous Operations
 ms.assetid: e5136e15-3ae1-4e0a-ae97-fcf16203b21d
 title: Managing Asynchronous Operations
 ms.topic: article

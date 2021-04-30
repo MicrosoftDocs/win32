@@ -1,5 +1,5 @@
 ---
-Description: Handling Format Changes from the Video Renderer
+description: Handling Format Changes from the Video Renderer
 ms.assetid: ac7d7b1c-3c9a-4693-87ea-0a10a8ab915c
 title: Handling Format Changes from the Video Renderer
 ms.topic: article

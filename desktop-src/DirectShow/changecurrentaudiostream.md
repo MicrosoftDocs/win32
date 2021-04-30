@@ -1,5 +1,5 @@
 ---
-Description: The ChangeCurrentAudioStream event is sent when the disc enables or disables changing the audio stream.
+description: The ChangeCurrentAudioStream event is sent when the disc enables or disables changing the audio stream.
 ms.assetid: b3a146e7-cfc6-4fb2-92af-598bf695e816
 title: ChangeCurrentAudioStream (Segment.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ Specifies whether the operation is enabled or disabled as a Boolean.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

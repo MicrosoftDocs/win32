@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGotoBookmark Function"
 title: JetGotoBookmark Function
 TOCTitle: JetGotoBookmark Function
 ms:assetid: a9a0aa43-834a-4eec-b47f-8e74d35aa972

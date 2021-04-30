@@ -1,5 +1,5 @@
 ---
-Description: The llMulDiv function implements the formula ((a\*b)+rnd)/c where each term is a 64-bit value.
+description: The llMulDiv function implements the formula ((a\*b)+rnd)/c where each term is a 64-bit value.
 ms.assetid: cd5073b9-27c7-42ee-8487-2d4ea29f77d4
 title: llMulDiv function (Wxutil.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ Rounding on the division is toward zero. Division by zero is counted as an overf
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

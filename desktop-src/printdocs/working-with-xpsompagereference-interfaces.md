@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use the interfaces that provide access to page references in an XPS OM.
+description: This topic describes how to use the interfaces that provide access to page references in an XPS OM.
 ms.assetid: bb227536-3b29-4221-b2d5-bab5e9d91448
 title: Working with IXpsOMPageReference Interfaces
 ms.topic: article

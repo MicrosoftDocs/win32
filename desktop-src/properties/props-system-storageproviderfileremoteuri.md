@@ -1,5 +1,5 @@
 ---
-Description: The storage provider's remote Uri for this file.
+description: The storage provider's remote Uri for this file.
 ms.assetid: fbc06a83-230d-448d-8379-8933dcacd8ee
 title: System.StorageProviderFileRemoteUri
 ms.topic: article

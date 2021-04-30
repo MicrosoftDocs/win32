@@ -1,5 +1,5 @@
 ---
-Description: Sent one time to a window after it enters the moving or sizing modal loop.
+description: Sent one time to a window after it enters the moving or sizing modal loop.
 ms.assetid: fe09db71-2c79-47f2-b575-516e960915d4
 title: WM_ENTERSIZEMOVE message (Winuser.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ An application should return zero if it processes this message.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

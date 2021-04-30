@@ -1,5 +1,5 @@
 ---
-Description: This section explains how to create a custom dictionary for handwriting recognition.
+description: This section explains how to create a custom dictionary for handwriting recognition.
 ms.assetid: 83abf534-740c-44a3-bbd4-babb54f2930e
 title: Creating Custom Dictionaries for Handwriting Recognition in Windows 7 and Windows Server 2008 R2
 ms.topic: article

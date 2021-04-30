@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXConstantTable interface is used to access the constant table. This table contains the variables that are used by high-level language shaders and effects.
+description: The ID3DXConstantTable interface is used to access the constant table. This table contains the variables that are used by high-level language shaders and effects.
 ms.assetid: 5d412c77-3d35-4913-86e5-8efa0549a2bb
 title: ID3DXConstantTable interface (D3DX9Shader.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ typedef interface ID3DXConstantTable *LPD3DXCONSTANTTABLE;
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

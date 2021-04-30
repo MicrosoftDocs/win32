@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataHasChangedException properties"
 title: EsentDataHasChangedException properties
 TOCTitle: EsentDataHasChangedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDataHasChangedException

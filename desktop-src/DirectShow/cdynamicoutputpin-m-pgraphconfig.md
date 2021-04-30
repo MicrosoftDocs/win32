@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the IGraphConfig interface for performing dynamic reconnections.
+description: Pointer to the IGraphConfig interface for performing dynamic reconnections.
 ms.assetid: 44098541-e58e-4a42-974e-592e9a41814f
 title: CDynamicOutputPin::m_pGraphConfig member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ IGraphConfig *m_pGraphConfig;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

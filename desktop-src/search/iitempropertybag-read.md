@@ -1,5 +1,5 @@
 ---
-Description: Causes one or more properties to be read from the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
+description: Causes one or more properties to be read from the property bag. The IItemPropertyBag interface is supported only on Windows XP and Windows Server 2003, and should no longer be used.
 ms.assetid: 78a63ef0-1b79-4b07-9121-a6fbd1116c4b
 title: IItemPropertyBag::Read method
 ms.topic: reference
@@ -78,7 +78,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

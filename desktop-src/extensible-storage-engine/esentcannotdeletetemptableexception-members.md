@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTempTableException members"
 title: EsentCannotDeleteTempTableException members
 TOCTitle: EsentCannotDeleteTempTableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTempTableException

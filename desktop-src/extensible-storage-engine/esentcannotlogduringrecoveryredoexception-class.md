@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotLogDuringRecoveryRedoException class"
 title: EsentCannotLogDuringRecoveryRedoException class
 TOCTitle: EsentCannotLogDuringRecoveryRedoException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotLogDuringRecoveryRedoException

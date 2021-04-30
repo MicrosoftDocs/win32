@@ -1,5 +1,5 @@
 ---
-Description: The FixTimes2 method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent group's frame rate setting. This method is equivalent to IAMTimelineObj::FixTimes, but takes REFTIME values.
+description: The FixTimes2 method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent group's frame rate setting. This method is equivalent to IAMTimelineObj::FixTimes, but takes REFTIME values.
 ms.assetid: bdb3d999-2c91-4108-9286-c6e1f3362c09
 title: IAMTimelineObj::FixTimes2 method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ Returns S\_OK if successful, or E\_NOTINTREE if the object is not part of a grou
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

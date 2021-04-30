@@ -1,5 +1,5 @@
 ---
-Description: This property is used to send rate changes to the decoder. The data type for this property is an AM\_SimpleRateChange structure, which gives the new playback rate and the presentation time when the new rate takes effect.
+description: This property is used to send rate changes to the decoder. The data type for this property is an AM\_SimpleRateChange structure, which gives the new playback rate and the presentation time when the new rate takes effect.
 ms.assetid: d6ade463-82c7-46be-8d9a-e372ddbd7a4b
 title: AM_RATE_SimpleRateChange Property (Dvdmedia.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ This property is used to send rate changes to the decoder. The data type for thi
 
 
 
-|                   |                                                     |
+| Label | Value |
 |-------------------|-----------------------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange                       |
 | Property ID       | AM\_RATE\_SimpleRateChange                          |
@@ -26,7 +26,7 @@ This property is used to send rate changes to the decoder. The data type for thi
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

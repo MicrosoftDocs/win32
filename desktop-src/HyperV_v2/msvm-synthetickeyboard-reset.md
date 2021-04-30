@@ -1,5 +1,5 @@
 ---
-Description: Resets the virtual keyboard.
+description: Reset method of the Msvm_SyntheticKeyboard class - Resets the virtual keyboard.
 ms.assetid: 2a943dd8-3b94-4b20-8786-7f9d8b0aeaa6
 title: Reset method of the Msvm_SyntheticKeyboard class
 ms.topic: reference
@@ -48,7 +48,7 @@ On success, returns 0; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

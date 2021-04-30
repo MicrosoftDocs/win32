@@ -1,5 +1,5 @@
 ---
-Description: The MakeIdentityPalette method attempts to make an &\#0034;identity palette,&\#0034; defined as one that maps directly to the palette selected in the display device.
+description: The MakeIdentityPalette method attempts to make an &\#0034;identity palette,&\#0034; defined as one that maps directly to the palette selected in the display device.
 ms.assetid: 08a0cf67-f43f-44c0-bfb3-6527fd434ea4
 title: CImagePalette.MakeIdentityPalette method (Winutil.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ The [**CImagePalette::MakePalette**](cimagepalette-makepalette.md) method calls 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

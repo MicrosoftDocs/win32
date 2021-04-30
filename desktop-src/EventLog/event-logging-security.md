@@ -1,5 +1,5 @@
 ---
-Description: The Security log is designed for use by the system. However, users can read and clear the Security log if they have been granted the SE\_SECURITY\_NAME privilege (the &\#0034;manage auditing and security log&\#0034; user right). For more information, see Privileges.
+description: The Security log is designed for use by the system. However, users can read and clear the Security log if they have been granted the SE\_SECURITY\_NAME privilege (the &\#0034;manage auditing and security log&\#0034; user right). For more information, see Privileges.
 ms.assetid: 861be39a-012e-473b-a2d3-2a8c7ba3adaa
 title: Event Logging Security
 ms.topic: article

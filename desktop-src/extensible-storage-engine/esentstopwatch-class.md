@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch class"
 title: EsentStopwatch class
 TOCTitle: EsentStopwatch class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentStopwatch

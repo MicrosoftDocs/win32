@@ -1,5 +1,5 @@
 ---
-Description: Creates and returns a new ShellWindows object that is a copy of this ShellWindows object.
+description: Creates and returns a new ShellWindows object that is a copy of this ShellWindows object.
 title: ShellWindows._NewEnum method (Exdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -110,7 +110,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: Errors are represented by negative values and cannot be combined.
+description: D3DX10_ERR enumeration - Errors are represented by negative values and cannot be combined.
 ms.assetid: 4149ce6d-e87a-4003-b123-5555c6b3b086
 title: D3DX10_ERR enumeration (D3DX10.h)
 ms.topic: reference
@@ -126,7 +126,7 @@ enum _D3DXERR {
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

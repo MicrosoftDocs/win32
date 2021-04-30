@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationBufferTooSmallException members"
 title: EsentUnicodeTranslationBufferTooSmallException members
 TOCTitle: EsentUnicodeTranslationBufferTooSmallException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException

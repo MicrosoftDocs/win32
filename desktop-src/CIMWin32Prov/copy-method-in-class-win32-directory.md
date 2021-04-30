@@ -1,5 +1,5 @@
 ---
-Description: Copies the logical directory entry file or directory specified in the object path to the location specified by the input parameter.
+description: Copies the logical directory entry file or directory specified in the object path to the location specified by the input parameter.
 ms.assetid: 038e23d7-71db-4db6-8fb1-e84e972510c9
 ms.tgt_platform: multiple
 title: Copy method of the Win32_Directory class
@@ -175,7 +175,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

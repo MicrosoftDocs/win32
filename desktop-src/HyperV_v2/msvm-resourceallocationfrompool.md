@@ -1,5 +1,5 @@
 ---
-Description: Associates an instance of a resource allocation with the resource pool from which it is allocated.
+description: Associates an instance of a resource allocation with the resource pool from which it is allocated.
 ms.assetid: A2B3996D-7886-4B5F-BC89-EFDC1A48249B
 title: Msvm_ResourceAllocationFromPool class
 ms.topic: reference
@@ -83,7 +83,7 @@ Access to the **Msvm\_ResourceAllocationFromPool** class might be restricted by 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

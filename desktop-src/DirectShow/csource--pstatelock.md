@@ -1,5 +1,5 @@
 ---
-Description: The pStateLock method retrieves a pointer to the filter's critical section object.
+description: The pStateLock method retrieves a pointer to the filter's critical section object.
 ms.assetid: 10a2e74b-a5aa-4d68-958e-d86f4b78037e
 title: CSource.pStateLock method (Source.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Returns a pointer to the [**CSource::m\_cStateLock**](csource-m-cstatelock.md) m
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

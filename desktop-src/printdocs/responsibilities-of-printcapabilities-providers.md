@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 92e9bce1-d58e-40a4-9721-832d7c3bc2b2
 title: Responsibilities of PrintCapabilities Providers
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Responsibilities of PrintCapabilities Providers
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 PrintCapabilities providers must support a minimum set of capabilities, which are implied by the PrintTicket/PrintCapabilities Provider Interface. These capabilities are listed here.
 
@@ -38,7 +38,7 @@ In addition to the foregoing requirements, the PrintCapabilities document must c
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

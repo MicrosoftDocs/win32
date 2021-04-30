@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionWriteConflictException properties"
 title: EsentSessionWriteConflictException properties
 TOCTitle: EsentSessionWriteConflictException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException

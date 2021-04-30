@@ -1,6 +1,6 @@
 ---
 title: Property Sheet Messages
-description: .
+description: Property Sheet Messages
 ms.assetid: 816dfb75-fcb1-40f9-9977-3f17022f212c
 ms.topic: article
 ms.date: 05/31/2018

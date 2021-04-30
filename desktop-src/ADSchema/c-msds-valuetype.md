@@ -22,7 +22,7 @@ An value type object holds value type information for a resource property.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Value-Type                     |
 | Ldap-Display-Name | msDS-ValueType                       |
@@ -42,7 +42,7 @@ An value type object holds value type information for a resource property.
 
 
 
-|                             |                                                                                                                |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                          |
 | Object-Category             | 1                                                                                                              |

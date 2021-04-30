@@ -1,5 +1,5 @@
 ---
-Description: Disables features.
+description: Disables features.
 ms.assetid: 2ea2dcfb-84e6-4f83-9afd-c3050b53f37c
 title: pSetupSetGlobalFlags function
 ms.topic: reference
@@ -66,7 +66,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 

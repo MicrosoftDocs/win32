@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.Equality operator"
 title: JET_BKLOGTIME.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.op_Equality(Microsoft.Isam.Esent.Interop.JET_BKLOGTIME,Microsoft.Isam.Esent.Interop.JET_BKLOGTIME)

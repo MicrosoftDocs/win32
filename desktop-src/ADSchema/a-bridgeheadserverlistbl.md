@@ -22,7 +22,7 @@ The list of servers that are bridgeheads for replication.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Bridgehead-Server-List-BL               |
 | Ldap-Display-Name | bridgeheadServerListBL                  |
@@ -49,7 +49,7 @@ The list of servers that are bridgeheads for replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 99                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ The list of servers that are bridgeheads for replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 99                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ The list of servers that are bridgeheads for replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 99                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ The list of servers that are bridgeheads for replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 99                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ The list of servers that are bridgeheads for replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 99                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ The list of servers that are bridgeheads for replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 99                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ The list of servers that are bridgeheads for replication.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 99                              |
 | MAPI-Id                | \-                              |

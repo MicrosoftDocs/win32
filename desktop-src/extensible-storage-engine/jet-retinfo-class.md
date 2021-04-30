@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETINFO class"
 title: JET_RETINFO class
 TOCTitle: JET_RETINFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RETINFO

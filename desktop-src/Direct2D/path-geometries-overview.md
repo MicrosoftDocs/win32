@@ -46,7 +46,7 @@ The following illustration shows a complex drawing with lines, arcs, and Bezier 
 
 The example first creates a path geometry for the left mountain as shown in the following illustration.
 
-![illustration of a polygon that shows a mountain](images/path-geo-leftmnt.png)
+![Shows a complex drawing of a polygon that shows a mountain.](images/path-geo-leftmnt.png)
 
 To create the left mountain, the example calls the [**ID2D1Factory::CreatePathGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createpathgeometry) method to create an [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry).
 

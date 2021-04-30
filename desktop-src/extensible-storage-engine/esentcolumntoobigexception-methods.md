@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnTooBigException methods"
 title: EsentColumnTooBigException methods
 TOCTitle: EsentColumnTooBigException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnTooBigException

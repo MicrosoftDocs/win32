@@ -1,5 +1,5 @@
 ---
-Description: With Windows Installer, a configurable bootstrap executable (Setup.exe) and configuration tool (Msistuff.exe) is included in the Windows SDK Components for Windows Installer Developers.
+description: With Windows Installer, a configurable bootstrap executable (Setup.exe) and configuration tool (Msistuff.exe) is included in the Windows SDK Components for Windows Installer Developers.
 ms.assetid: 478340b4-5ee8-4ae6-b2d4-f53afbf098d9
 title: Internet Download Bootstrapping
 ms.topic: article
@@ -44,8 +44,8 @@ For example, the following ISETUPPROPNAME\_BASEURL and ISETUPPROPNAME\_DATABASE 
 
 | Actual package location                                                                            | Resource values                                                                                                                               |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| https[]()://www.blueyonderairlines.com/Products/Product1/product1.msi                                   | ISETUPPROPNAME\_BASEURL = https[]()://www.blueyonderairlines.com/Products/Product1 ISETUPPROPNAME\_DATABASE = product1.msi<br/>              |
-| https[]()://www.blueyonderairlines.com/Products/Product1/product1.msi                                   | ISETUPPROPNAME\_BASEURL = https[]()://www.blueyonderairlines.com/Products/Product1 ISETUPPROPNAME\_DATABASE = ../Products1/product1.msi<br/> |
+| https:\//www.blueyonderairlines.com/Products/Product1/product1.msi                                   | ISETUPPROPNAME\_BASEURL = https:\//www.blueyonderairlines.com/Products/Product1 ISETUPPROPNAME\_DATABASE = product1.msi<br/>              |
+| https:\//www.blueyonderairlines.com/Products/Product1/product1.msi                                   | ISETUPPROPNAME\_BASEURL = https:\//www.blueyonderairlines.com/Products/Product1 ISETUPPROPNAME\_DATABASE = ../Products1/product1.msi<br/> |
 | e:\\product1.msi                                                                                   | Omit ISETUPPROPNAME\_BASEURL. ISETUPPROPNAME\_DATABASE = product1.msi<br/>                                                              |
 | e:\\setup\\product1.msi (The currently running location of Setup.exe is e:\\setup.exe.)<br/> | Omit ISETUPPROPNAME\_BASEURL. ISETUPPROPNAME\_DATABASE = Setup\\product1.msi<br/>                                                       |
 

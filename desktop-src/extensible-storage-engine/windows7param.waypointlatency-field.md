@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.WaypointLatency field"
 title: Windows7Param.WaypointLatency field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: WaypointLatency field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.WaypointLatency

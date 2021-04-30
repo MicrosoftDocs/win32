@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableDuplicateException members"
 title: EsentTableDuplicateException members
 TOCTitle: EsentTableDuplicateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTableDuplicateException

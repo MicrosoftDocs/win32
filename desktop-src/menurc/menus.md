@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Menus
+# Menus (Menus and Other Resources)
 
 This section describes menus and explains how to use them.
 

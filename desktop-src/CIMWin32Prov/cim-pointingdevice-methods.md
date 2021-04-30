@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PointingDevice class exposes the following methods.
+description: The CIM\_PointingDevice class exposes the following methods.
 ms.assetid: A5110325-7D2E-4458-8C69-E1164E8562B0
 ms.tgt_platform: multiple
 title: CIM_PointingDevice Methods

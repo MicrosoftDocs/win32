@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_LIGHT category contains sensors that provide information about characteristics of light.
+description: The SENSOR\_CATEGORY\_LIGHT category contains sensors that provide information about characteristics of light.
 ms.assetid: 0327bda5-f1d7-476d-9f0f-f4d60a6a106f
 title: SENSOR_CATEGORY_LIGHT (Sensors.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This category includes the following platform-defined data fields.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

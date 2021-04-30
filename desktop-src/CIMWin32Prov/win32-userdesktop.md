@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_UserDesktop association WMI class relates a user account and desktop settings that are specific to it.
+description: The Win32\_UserDesktop association WMI class relates a user account and desktop settings that are specific to it.
 ms.assetid: 5ea83ad6-bd0a-4c16-85b2-e3e61ef05903
 ms.tgt_platform: multiple
 title: Win32_UserDesktop class
@@ -87,7 +87,7 @@ The **Win32\_UserDesktop** class is derived from [**CIM\_ElementSetting**](cim-e
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

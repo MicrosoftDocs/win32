@@ -1,5 +1,5 @@
 ---
-Description: DV Video Decoder Filter
+description: DV Video Decoder Filter
 ms.assetid: aa47010e-8510-475d-836a-cb63deeb3a7b
 title: DV Video Decoder Filter
 ms.topic: article

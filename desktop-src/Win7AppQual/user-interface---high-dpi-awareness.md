@@ -1,5 +1,5 @@
 ---
-Description: .
+description: User Interface - High DPI Awareness
 ms.assetid: 5b753340-366c-44b3-87e9-19c580f1c5d5
 title: User Interface - High DPI Awareness
 ms.topic: article

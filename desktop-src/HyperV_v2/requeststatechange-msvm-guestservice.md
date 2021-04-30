@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the guest service be changed to the specified value.
+description: Requests that the state of the guest service be changed to the specified value.
 ms.assetid: F2853BB3-4074-431C-9E10-26AA0757FE99
 title: Msvm_GuestService::RequestStateChange method
 ms.topic: reference
@@ -157,7 +157,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

@@ -1,5 +1,5 @@
 ---
-Description: The IWPCProviderConfig interface exposes the following methods.
+description: The IWPCProviderConfig interface exposes the following methods.
 ms.assetid: 4370095A-DFF4-4D87-AEC3-3875E295847D
 title: IWPCProviderConfig Methods
 ms.topic: reference

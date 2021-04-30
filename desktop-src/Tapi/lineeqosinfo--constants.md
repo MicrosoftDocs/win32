@@ -1,5 +1,5 @@
 ---
-Description: These constants are used by a TSP to identify the result of a QoS (Quality of Service) request.
+description: These constants are used by a TSP to identify the result of a QoS (Quality of Service) request.
 ms.assetid: 617ddbf4-212f-4990-93c2-f38f04b035ab
 title: LINEEQOSINFO_ Constants (Tspi.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Unspecified QoS error.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tspi.h</dt> </dl> |

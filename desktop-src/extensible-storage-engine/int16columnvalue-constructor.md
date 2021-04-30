@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int16ColumnValue constructor"
 title: Int16ColumnValue constructor 
 TOCTitle: 'Int16ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Int16ColumnValue.#ctor

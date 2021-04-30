@@ -72,7 +72,7 @@ The **querySet** element specifies which media items should be selected from the
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

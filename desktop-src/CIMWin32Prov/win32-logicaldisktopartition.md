@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LogicalDiskToPartition association WMI class relates a logical disk drive and the disk partition it resides on.
+description: The Win32\_LogicalDiskToPartition association WMI class relates a logical disk drive and the disk partition it resides on.
 ms.assetid: 41161d57-d392-4acc-a22a-10be75aa14a6
 ms.tgt_platform: multiple
 title: Win32_LogicalDiskToPartition class
@@ -449,7 +449,7 @@ BOOL wmi_close()
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

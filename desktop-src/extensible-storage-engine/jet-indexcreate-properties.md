@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INDEXCREATE properties"
 title: JET_INDEXCREATE properties
 TOCTitle: JET_INDEXCREATE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE

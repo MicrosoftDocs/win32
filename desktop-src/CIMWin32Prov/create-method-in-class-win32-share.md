@@ -1,5 +1,5 @@
 ---
-Description: Initiates sharing for a server resource.
+description: Initiates sharing for a server resource.
 ms.assetid: 36530e1b-9109-4a6c-bba9-d9358101f5e2
 ms.tgt_platform: multiple
 title: Create method of the Win32_Share class
@@ -305,7 +305,7 @@ catch (SystemException e)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

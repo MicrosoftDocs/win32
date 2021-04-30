@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidNameException members"
 title: EsentDatabaseInvalidNameException members
 TOCTitle: EsentDatabaseInvalidNameException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException

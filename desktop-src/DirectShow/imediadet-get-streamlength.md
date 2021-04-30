@@ -1,5 +1,5 @@
 ---
-Description: The get\_StreamLength method retrieves the duration of the current stream.
+description: The get\_StreamLength method retrieves the duration of the current stream.
 ms.assetid: b3c13abe-cd56-4960-9862-bda47a0e87ed
 title: IMediaDet::get_StreamLength method (Qedit.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If the media detector is in bitmap grab mode, this method returns E\_INVALIDARG.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

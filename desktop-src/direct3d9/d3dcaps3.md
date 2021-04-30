@@ -1,5 +1,5 @@
 ---
-Description: Driver capability flags.
+description: Driver capability flags.
 ms.assetid: d9cd7388-3413-472d-aacb-0b8c9c60031a
 title: D3DCAPS3
 ms.topic: article

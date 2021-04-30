@@ -1,5 +1,5 @@
 ---
-Description: Major type GUID for a media type.
+description: Major type GUID for a media type.
 ms.assetid: b88b5fcf-8025-4638-930d-9fc5cf0ec8a3
 title: MF_MT_MAJOR_TYPE attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

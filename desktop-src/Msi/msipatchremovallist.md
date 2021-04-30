@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the value of the MsiPatchRemovalList property to a list of patches that are being removed during the installation.
+description: The installer sets the value of the MsiPatchRemovalList property to a list of patches that are being removed during the installation.
 ms.assetid: 6e0b391a-d840-4f01-af12-4708ce6c9ce8
 title: MsiPatchRemovalList property
 ms.topic: reference
@@ -22,7 +22,7 @@ For more information about removing patches, see [Removing Patches](removing-pat
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

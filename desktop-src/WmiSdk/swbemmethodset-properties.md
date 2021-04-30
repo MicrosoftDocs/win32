@@ -1,5 +1,5 @@
 ---
-Description: The SWbemMethodSet object exposes the following properties.
+description: The SWbemMethodSet object exposes the following properties.
 ms.assetid: C364C896-7D27-4381-A4FC-83EF8E4AAB33
 ms.tgt_platform: multiple
 title: SWbemMethodSet Properties

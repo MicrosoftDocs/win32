@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInUseException class"
 title: EsentColumnInUseException class
 TOCTitle: EsentColumnInUseException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnInUseException

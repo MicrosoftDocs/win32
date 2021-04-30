@@ -1,5 +1,5 @@
 ---
-Description: The GetUserData method retrieves the application-defined persistent data.
+description: The GetUserData method retrieves the application-defined persistent data.
 ms.assetid: dd2cdb37-9c4f-4356-a35f-2d42b7588da6
 title: IAMTimelineObj::GetUserData method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: If the generic host and client can see each other on the network but the actual host and client cannot, it is likely that the problem is in the messages sent between the endpoints over the network.
+description: If the generic host and client can see each other on the network but the actual host and client cannot, it is likely that the problem is in the messages sent between the endpoints over the network.
 ms.assetid: 1b0943fb-076e-4feb-9a4f-36a06bdd19ae
 title: Using WSD Debug Client to Verify Multicast Traffic
 ms.topic: article
@@ -31,7 +31,7 @@ Always verify that [Probe](probe-message.md) messages are being multicast. Optio
 
 Messages must be triggered in order to be sent as described in step 3 above. The WSD Debug Client displays the raw SOAP message as output. Because all messages printed by WSD Debug Client in multicast mode are received over a multicast socket, the message destination address is not displayed.
 
-The following sample WSD Debug Client output shows a Probe message. The <wsa:Action> element identifies the message as a Probe message. Inspect the <wsa:Action> field to verify that the received message was a Probe message.
+The following sample WSD Debug Client output shows a Probe message. The \<wsa:Action> element identifies the message as a Probe message. Inspect the \<wsa:Action> field to verify that the received message was a Probe message.
 
 ``` syntax
 UDP message at 05/08/07 10:06:55 from soap.udp://[127.0.0.1:49334]
@@ -46,7 +46,7 @@ ap:Header><soap:Body><wsd:Probe><wsd:Types>wsdp:Device</wsd:Types></wsd:Probe></
 soap:Body></soap:Envelope>
 ```
 
-The following sample WSD Debug Client output shows a Hello message. The <wsa:Action> element identifies the message as a Hello message.
+The following sample WSD Debug Client output shows a Hello message. The \<wsa:Action> element identifies the message as a Hello message.
 
 ``` syntax
 UDP message at 05/08/07 10:10:49 from soap.udp://[[::1]:49343]

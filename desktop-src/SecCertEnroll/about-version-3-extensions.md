@@ -1,5 +1,5 @@
 ---
-Description: An X.509 version 3 certificate contains the fields defined in version 1 and version 2 and adds certificate extensions. The ASN.1 syntax of certificate extensions is shown in the following example.
+description: An X.509 version 3 certificate contains the fields defined in version 1 and version 2 and adds certificate extensions. The ASN.1 syntax of certificate extensions is shown in the following example.
 ms.assetid: ca8df7a4-caa4-4fe7-81a8-8fce372454f4
 title: Version 3 Extensions
 ms.topic: article

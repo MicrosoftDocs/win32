@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotUpdatableException constructor"
 title: EsentColumnNotUpdatableException constructor 
 TOCTitle: 'EsentColumnNotUpdatableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException.#ctor

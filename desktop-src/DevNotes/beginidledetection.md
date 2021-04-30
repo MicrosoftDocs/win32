@@ -1,5 +1,5 @@
 ---
-Description: Begins monitoring inactivity.
+description: Begins monitoring inactivity.
 ms.assetid: fed5e4ae-2c2b-4b00-9230-b71aec9335c8
 title: BeginIdleDetection function
 ms.topic: reference
@@ -78,7 +78,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msidle.dll</dt> </dl> |
 

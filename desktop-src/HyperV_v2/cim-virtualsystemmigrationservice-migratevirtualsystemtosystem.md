@@ -1,5 +1,5 @@
 ---
-Description: Method to move, migrate or relocate a virtual system to a target system.
+description: Method to move, migrate or relocate a virtual system to a target system.
 ms.assetid: 210d31f1-093f-4fd5-afd7-5f028b4cb343
 title: MigrateVirtualSystemToSystem method of the CIM_VirtualSystemMigrationService class
 ms.topic: reference
@@ -119,7 +119,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

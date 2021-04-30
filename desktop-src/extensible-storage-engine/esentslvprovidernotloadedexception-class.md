@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVProviderNotLoadedException class"
 title: EsentSLVProviderNotLoadedException class
 TOCTitle: EsentSLVProviderNotLoadedException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException

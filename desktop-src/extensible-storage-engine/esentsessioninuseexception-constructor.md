@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionInUseException constructor"
 title: EsentSessionInUseException constructor 
 TOCTitle: 'EsentSessionInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionInUseException.#ctor

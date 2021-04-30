@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexInUseException members"
 title: EsentIndexInUseException members
 TOCTitle: EsentIndexInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexInUseException

@@ -1,5 +1,5 @@
 ---
-Description: Indicates the number of times the file has been played.
+description: Indicates the number of times the file has been played.
 ms.assetid: c46fea02-5ca7-4b15-816a-7e2aeac0ad30
 title: System.DRM.PlayCount
 ms.topic: article

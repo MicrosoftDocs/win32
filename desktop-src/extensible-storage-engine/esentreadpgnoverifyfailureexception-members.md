@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadPgnoVerifyFailureException members"
 title: EsentReadPgnoVerifyFailureException members
 TOCTitle: EsentReadPgnoVerifyFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException

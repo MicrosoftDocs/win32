@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the audio decoder should deliver high-resolution output.
+description: Specifies whether the audio decoder should deliver high-resolution output.
 ms.assetid: a96bd78f-982c-43fa-b2d3-8caba4aa84b6
 title: MFPKEY_WMADEC_HIRESOUTPUT Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Many players (including Windows Media Player 9 Series and later) set this value 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

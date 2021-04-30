@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder should enable real-time S/PDIF encoding.
+description: Specifies whether the encoder should enable real-time S/PDIF encoding.
 ms.assetid: 36ac925b-d68b-4c39-9033-2c0a058125b5
 title: MFPKEY_WMAENC_RTSPDIF Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

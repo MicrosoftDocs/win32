@@ -1,5 +1,5 @@
 ---
-Description: The Result property retrieves a value that indicates whether the certificate is valid. This is the default property.
+description: The Result property retrieves a value that indicates whether the certificate is valid. This is the default property.
 ms.assetid: b1edfbde-9d54-4e9c-ba9b-33e4c354c23f
 title: CertificateStatus.Result property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the certificate is valid. The certificate's validity is checked usi
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

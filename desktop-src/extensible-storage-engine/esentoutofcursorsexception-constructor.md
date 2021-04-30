@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfCursorsException constructor"
 title: EsentOutOfCursorsException constructor 
 TOCTitle: 'EsentOutOfCursorsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfCursorsException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Debugging in DirectShow
+description: Debugging in DirectShow
 ms.assetid: 5ee5865a-ab2a-41f4-ae91-a998fa1df7af
 title: Debugging in DirectShow
 ms.topic: article

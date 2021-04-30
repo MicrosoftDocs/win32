@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.GetColumnDictionary method"
 title: Api.GetColumnDictionary method 
 TOCTitle: 'GetColumnDictionary method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.GetColumnDictionary(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)

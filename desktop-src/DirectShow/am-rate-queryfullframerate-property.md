@@ -1,5 +1,5 @@
 ---
-Description: This property queries the decoder for the maximum full-frame rate that the decoder supports. The data type for this property is an AM\_QueryRate structure.
+description: This property queries the decoder for the maximum full-frame rate that the decoder supports. The data type for this property is an AM\_QueryRate structure.
 ms.assetid: 98808ed4-6d34-437b-9729-9cc805bc81f0
 title: AM_RATE_QueryFullFrameRate Property (Dvdmedia.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ This property is defined for version 1.1 of this property set; see [**AM\_RATE\_
 
 
 
-|                   |                                       |
+| Label | Value |
 |-------------------|---------------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange         |
 | Property ID       | AM\_RATE\_QueryFullFrameRate Property |
@@ -32,7 +32,7 @@ If the playback rate exceeds the decoder's maximum rate, the source filter sends
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

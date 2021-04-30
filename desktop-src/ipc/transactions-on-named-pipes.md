@@ -1,5 +1,5 @@
 ---
-Description: A named pipe transaction is a client/server communication that combines a write operation and a read operation into a single network operation. Transactions improve the performance of network communications between a client and a remote server.
+description: A named pipe transaction is a client/server communication that combines a write operation and a read operation into a single network operation. Transactions improve the performance of network communications between a client and a remote server.
 ms.assetid: aedce207-7dea-4670-b6dd-0c61b3f6f690
 title: Transactions on Named Pipes
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: About Digital Video in DirectShow
+description: About Digital Video in DirectShow
 ms.assetid: 0570bf7c-c38d-4ada-9593-27b9be117893
 title: About Digital Video in DirectShow
 ms.topic: article

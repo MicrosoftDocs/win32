@@ -1,5 +1,5 @@
 ---
-Description: Sets the constants to the default values declared in the shader.
+description: Sets the constants to the default values declared in the shader.
 ms.assetid: d7c18197-56b0-4951-9795-408856e85ad7
 title: ID3DXTextureShader::SetDefaults method (D3DX9Shader.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

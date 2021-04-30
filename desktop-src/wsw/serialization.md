@@ -19,7 +19,7 @@ Serialization is the process of writing values in C data structures (structures,
 
 Both processes rely on a description of the mapping between the C data structures and the XML.
 
-![](images/xmlmapping.png)
+![Diagram showing how serialization and deserialization rely on a description of the mapping between the C data structures and the XML.](images/xmlmapping.png)
 
 To serialize a value, the application calls [**WsWriteElement**](/windows/desktop/api/WebServices/nf-webservices-wswriteelement), [**WsWriteAttribute**](/windows/desktop/api/WebServices/nf-webservices-wswriteattribute) or [**WsWriteType**](/windows/desktop/api/WebServices/nf-webservices-wswritetype).
 

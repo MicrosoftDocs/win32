@@ -1,5 +1,5 @@
 ---
-Description: Sets information about a specific callback in the animation set.
+description: Sets information about a specific callback in the animation set.
 ms.assetid: 899f3a85-c878-4eeb-8bda-fc4e9083bd1f
 title: ID3DXKeyframedAnimationSet::SetCallbackKey method (D3dx9anim.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

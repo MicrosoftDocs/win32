@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of the current physical scan line.
+description: Returns the number of the current physical scan line.
 ms.assetid: 159d5ea0-25b8-4c2d-9cd4-cf4ee0ca0561
 title: NtGdiDdGetScanLine function (Ntgdi.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Pointer to a [**DD\_GETSCANLINEDATA**](/windows/win32/api/ddrawint/ns-ddrawint-d
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

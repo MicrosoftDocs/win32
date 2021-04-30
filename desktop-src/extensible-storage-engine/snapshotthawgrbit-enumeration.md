@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotThawGrbit enumeration"
 title: SnapshotThawGrbit enumeration
 TOCTitle: SnapshotThawGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SnapshotThawGrbit

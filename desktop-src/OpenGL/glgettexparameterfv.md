@@ -1,6 +1,6 @@
 ---
 title: glGetTexParameterfv function (Gl.h)
-description: The glGetTexParameterfv and glGetTexParameteriv functions return texture parameter values.
+description: The glGetTexParameterfv and glGetTexParameteriv functions return texture parameter values. | glGetTexParameterfv function (Gl.h)
 ms.assetid: 616292ea-222c-4efe-bb69-3058d9c99910
 keywords:
 - glGetTexParameterfv function OpenGL
@@ -101,7 +101,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

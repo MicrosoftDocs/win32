@@ -1,5 +1,5 @@
 ---
-Description: Setting this per-user system policy specifies the order in which the installer searches three types of sources.
+description: Setting this per-user system policy specifies the order in which the installer searches three types of sources.
 ms.assetid: c16a5cbb-d530-4932-944b-af68d0a4018c
 title: SearchOrder
 ms.topic: article

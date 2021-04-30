@@ -1,5 +1,5 @@
 ---
-Description: Signals a serious error. Any Media Foundation component can send this event at any time. Call IMFMediaEvent::GetStatus to get the error code of the operation that failed.
+description: Signals a serious error. Any Media Foundation component can send this event at any time. Call IMFMediaEvent::GetStatus to get the error code of the operation that failed.
 ms.assetid: bff80041-77d8-43b1-a410-9cefaf45eb2c
 title: MEError event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ If a recoverable error occurs during streaming, send the [MENonFatalError](menon
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

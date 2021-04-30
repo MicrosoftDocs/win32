@@ -1,5 +1,5 @@
 ---
-Description: Defines the supported blend mode.
+description: Defines the supported blend mode.
 ms.assetid: 60ff384c-15a0-4c6f-9e2c-59fdea76b7a1
 title: D3DBLEND enumeration (D3D9Types.h)
 ms.topic: reference
@@ -220,7 +220,7 @@ These new blending modes are only used for text rendering on the first render ta
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

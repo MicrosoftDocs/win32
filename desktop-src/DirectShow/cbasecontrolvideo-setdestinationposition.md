@@ -1,5 +1,5 @@
 ---
-Description: The SetDestinationPosition method sets the destination rectangle for the video.
+description: The SetDestinationPosition method sets the destination rectangle for the video.
 ms.assetid: 397e90ea-7535-4cac-9f47-7a93737b1e3a
 title: CBaseControlVideo.SetDestinationPosition method (Ctlutil.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

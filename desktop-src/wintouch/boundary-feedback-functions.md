@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Functions
+# Functions (Boundary Feedback)
 
 This section describes the boundary feedback functions.
 

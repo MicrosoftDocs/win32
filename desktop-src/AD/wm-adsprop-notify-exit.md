@@ -69,7 +69,7 @@ The notification object will delete itself in response to this message. When thi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                       |

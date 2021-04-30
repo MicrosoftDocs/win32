@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInDistributedTransactionException methods"
 title: EsentNotInDistributedTransactionException methods
 TOCTitle: EsentNotInDistributedTransactionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException

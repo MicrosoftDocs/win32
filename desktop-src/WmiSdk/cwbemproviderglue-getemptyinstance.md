@@ -1,5 +1,5 @@
 ---
-Description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class.
+description: The GetEmptyInstance method retrieves a single unpopulated instance of the specified class.
 audience: developer
 ms.assetid: 2873b466-3782-4d63-a777-5b25e3fb7615
 ms.tgt_platform: multiple
@@ -29,7 +29,7 @@ The **GetEmptyInstance** method retrieves a single unpopulated instance of the s
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |

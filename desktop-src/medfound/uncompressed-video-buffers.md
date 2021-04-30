@@ -1,5 +1,5 @@
 ---
-Description: Uncompressed Video Buffers
+description: Uncompressed Video Buffers
 ms.assetid: be5ec8a8-2d0b-401b-9d05-fdb87ad8c864
 title: Uncompressed Video Buffers
 ms.topic: article

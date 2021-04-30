@@ -1,5 +1,5 @@
 ---
-Description: Thread Environment Block (Debugging Notes)
+description: Thread Environment Block (Debugging Notes)
 ms.assetid: 5040CB82-D32F-4C44-8C03-30238D5B897A
 title: Thread Environment Block (Debugging Notes)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Links to documentation for the IAzTask interoperability wrapper methods and properties.
+description: Links to documentation for the IAzTask interoperability wrapper methods and properties.
 ms.assetid: 15691d42-f1bd-4bd1-9a01-e482a2c74e20
 title: Microsoft.Interop.Security.AzRoles.IAzTask interface
 ms.topic: reference
@@ -147,7 +147,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzTask** interface has these propertie
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

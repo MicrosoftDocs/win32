@@ -1,5 +1,5 @@
 ---
-Description: A cipher suite is a set of cryptographic algorithms.
+description: A cipher suite is a set of cryptographic algorithms.
 ms.assetid: 513e5e73-12f8-4b64-86e4-179518c3582d
 title: Cipher Suites in TLS/SSL (Schannel SSP)
 ms.topic: article
@@ -24,9 +24,11 @@ Developers specify these elements by using [**ALG\_ID**](/windows/desktop/SecCry
 
 In earlier versions of Windows, TLS cipher suites and elliptical curves were configured by using a single string:
 
-![](images/tls-cipher-suite.png)
+![Diagram that shows a single string for a Cipher Suite.](images/tls-cipher-suite.png)
 
 Different Windows versions support different TLS cipher suites and priority order. See the corresponding Windows version for the default order in which they are chosen by the Microsoft Schannel Provider.
+
+**Windows Server 2022:** For information about supported cipher suites, see [TLS Cipher Suites in Windows Server 2022](tls-cipher-suites-in-windows-server-2022.md)
 
 **Windows 10, version 1903:** For information about supported cipher suites, see [TLS Cipher Suites in Windows 10 v1903](tls-cipher-suites-in-windows-10-v1903.md)
 
@@ -65,8 +67,6 @@ Different Windows versions support different TLS cipher suites and priority orde
 
 > [!Note]  
 > Prior to Windows 10, cipher suite strings were appended with the elliptic curve to determine the curve priority. Windows 10 supports an elliptic curve priority order setting so the elliptic curve suffix is not required and is overridden by the new elliptic curve priority order, when provided, to allow organizations to use group policy to configure different versions of Windows with the same cipher suites.
-
- 
 
  
 

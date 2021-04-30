@@ -1,5 +1,5 @@
 ---
-Description: The WaitForResponse method waits for an asynchronous Send method to complete, with optional time-out value, in seconds.
+description: The WaitForResponse method waits for an asynchronous Send method to complete, with optional time-out value, in seconds.
 ms.assetid: 33265710-ecdc-4eae-8822-161dffbd03fc
 title: IWinHttpRequest::WaitForResponse method
 ms.topic: reference
@@ -198,7 +198,7 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

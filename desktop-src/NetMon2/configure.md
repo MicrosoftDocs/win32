@@ -1,5 +1,5 @@
 ---
-Description: Configures the expert within the expert DLL.
+description: Configures the expert within the expert DLL.
 ms.assetid: 3906569d-9ad4-4c03-9637-f4a57697b227
 title: Configure callback function (Netmon.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ The beginning of the [**EXPERTCONFIG**](expertconfig.md) data structure includes
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

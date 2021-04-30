@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings ScaleBitmapCachesByBPP property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings ScaleBitmapCachesByBPP property
 ms.assetid: 1da3d634-6322-4546-92cf-5607dc74d400
 ms.tgt_platform: multiple
 keywords:
@@ -89,7 +89,7 @@ Returns **S\_FALSE**.
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

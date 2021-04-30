@@ -22,7 +22,7 @@ This attribute contains the class type, such as abstract, auxiliary, or structur
 
 
 
-|                   |                                                                                 |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------|
 | CN                | Object-Class-Category                                                           |
 | Ldap-Display-Name | objectClassCategory                                                             |
@@ -49,7 +49,7 @@ This attribute contains the class type, such as abstract, auxiliary, or structur
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x80F6                                           |
@@ -70,7 +70,7 @@ This attribute contains the class type, such as abstract, auxiliary, or structur
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x80F6                                           |
@@ -91,7 +91,7 @@ This attribute contains the class type, such as abstract, auxiliary, or structur
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x80F6                                           |
@@ -112,7 +112,7 @@ This attribute contains the class type, such as abstract, auxiliary, or structur
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x80F6                                           |
@@ -133,7 +133,7 @@ This attribute contains the class type, such as abstract, auxiliary, or structur
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x80F6                                           |
@@ -154,7 +154,7 @@ This attribute contains the class type, such as abstract, auxiliary, or structur
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x80F6                                           |
@@ -175,7 +175,7 @@ This attribute contains the class type, such as abstract, auxiliary, or structur
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | 0x80F6                                           |

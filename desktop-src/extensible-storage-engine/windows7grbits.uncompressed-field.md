@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.Uncompressed field"
 title: Windows7Grbits.Uncompressed field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: Uncompressed field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.Uncompressed

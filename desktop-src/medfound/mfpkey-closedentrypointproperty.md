@@ -1,5 +1,5 @@
 ---
-Description: Specifies the encoding pattern for the encoder to use at the beginning of a group of pictures.
+description: Specifies the encoding pattern for the encoder to use at the beginning of a group of pictures.
 ms.assetid: 0744fdd5-8bff-47a9-ae97-90637d91ff37
 title: MFPKEY_CLOSEDENTRYPOINT Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ If you set this property to **VARIANT\_TRUE**, the encoding pattern is BBIBBP. I
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

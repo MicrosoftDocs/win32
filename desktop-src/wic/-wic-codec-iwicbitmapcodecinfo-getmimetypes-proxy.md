@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetMimeTypes method.
+description: Proxy function for the GetMimeTypes method.
 ms.assetid: 9d05624f-da08-4475-933b-faa12bec9012
 title: IWICBitmapCodecInfo_GetMimeTypes_Proxy function
 ms.topic: reference
@@ -86,7 +86,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

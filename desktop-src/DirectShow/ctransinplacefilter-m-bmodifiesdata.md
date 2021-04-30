@@ -1,5 +1,5 @@
 ---
-Description: The m\_bModifiesData member variable indicates whether the filter modifies the sample data that is receives. The value is set in the CTransInPlaceFilter constructor, but defaults to TRUE.
+description: The m\_bModifiesData member variable indicates whether the filter modifies the sample data that is receives. The value is set in the CTransInPlaceFilter constructor, but defaults to TRUE.
 ms.assetid: 8ccdba46-315f-4519-b363-6870d1217f98
 title: CTransInPlaceFilter::m_bModifiesData member (Transip.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This variable affects how the filter negotiates the allocator. If the value is *
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfSyncException members"
 title: EsentSPAvailExtCacheOutOfSyncException members
 TOCTitle: EsentSPAvailExtCacheOutOfSyncException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException

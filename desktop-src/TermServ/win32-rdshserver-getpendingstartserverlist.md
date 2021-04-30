@@ -61,7 +61,7 @@ The list of servers is reset after every call, so that the next call will not ge
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                              |

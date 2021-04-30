@@ -1,5 +1,5 @@
 ---
-Description: The SetPreviewMode method sets the preview mode for the group.
+description: The SetPreviewMode method sets the preview mode for the group.
 ms.assetid: 40b7e9ac-30b3-454e-82ac-10ac99f1b86f
 title: IAMTimelineGroup::SetPreviewMode method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ In preview mode, frames are dropped during slow effects or transitions to keep t
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

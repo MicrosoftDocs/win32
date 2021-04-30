@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Table type conversions"
 title: Table type conversions
 TOCTitle: Table type conversions
 ms:assetid: 24cee894-5c11-d5d5-7929-fd1eb7ab19ea

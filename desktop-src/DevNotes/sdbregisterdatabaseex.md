@@ -1,5 +1,5 @@
 ---
-Description: Registers the specified database.
+description: Registers the specified database.
 ms.assetid: 65eceb1a-9ce1-4b97-98d7-731932797794
 title: SdbRegisterDatabaseEx function
 ms.topic: reference
@@ -69,7 +69,7 @@ A database must be registered before you can use any other SDB functions.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

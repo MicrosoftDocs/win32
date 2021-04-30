@@ -1,5 +1,5 @@
 ---
-Description: Represents an instance of an extension component bound to a virtual Ethernet switch.
+description: Represents an instance of an extension component bound to a virtual Ethernet switch.
 ms.assetid: 5b3e26e3-4cb9-47c9-865e-2f3232bbfc8e
 title: Msvm_EthernetSwitchExtension class
 ms.topic: reference
@@ -611,7 +611,7 @@ The version of the extension in a format of "*major*.*minor*", for example "2.0"
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

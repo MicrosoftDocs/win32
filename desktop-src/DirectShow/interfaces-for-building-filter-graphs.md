@@ -1,5 +1,5 @@
 ---
-Description: Interfaces for Building Filter Graphs
+description: Interfaces for Building Filter Graphs
 ms.assetid: 18d5217a-7f4e-49e9-ac14-2f4ba229e065
 title: Interfaces for Building Filter Graphs
 ms.topic: article

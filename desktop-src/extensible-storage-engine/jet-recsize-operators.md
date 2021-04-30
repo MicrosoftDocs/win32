@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_RECSIZE operators"
 title: JET_RECSIZE operators (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_RECSIZE operators
 ms:assetid: 56c98252-155c-d738-f75d-65d35d5be50d

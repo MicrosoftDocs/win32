@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO.objtyp property"
 title: JET_OBJECTINFO.objtyp property 
 TOCTitle: 'objtyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.objtyp

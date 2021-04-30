@@ -1,5 +1,5 @@
 ---
-Description: Returns the identity quaternion.
+description: Returns the identity quaternion.
 ms.assetid: 8088897b-5755-4ea0-afef-bd49d1921f5c
 title: D3DXQuaternionIdentity function (D3dx9math.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

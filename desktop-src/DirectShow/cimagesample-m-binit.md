@@ -1,5 +1,5 @@
 ---
-Description: The m\_bInit member variable indicates whether the CImageSample object has been initialized. If so, the value if TRUE. Otherwise, it is FALSE.
+description: The m\_bInit member variable indicates whether the CImageSample object has been initialized. If so, the value if TRUE. Otherwise, it is FALSE.
 ms.assetid: bd508622-356e-46fe-98aa-c001c7742383
 title: CImageSample::m_bInit member (Winutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BOOL m_bInit;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

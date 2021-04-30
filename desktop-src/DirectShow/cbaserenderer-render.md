@@ -1,5 +1,5 @@
 ---
-Description: The Render method renders a sample.
+description: The Render method renders a sample.
 ms.assetid: 82b47777-2900-4821-ab79-1856da432832
 title: CBaseRenderer.Render method (Renbase.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Immediately before calling **DoRenderSample**, this method calls the [**CBaseRen
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

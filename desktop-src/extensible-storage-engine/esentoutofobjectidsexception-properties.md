@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfObjectIDsException properties"
 title: EsentOutOfObjectIDsException properties
 TOCTitle: EsentOutOfObjectIDsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfObjectIDsException

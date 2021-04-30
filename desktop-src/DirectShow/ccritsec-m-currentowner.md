@@ -1,5 +1,5 @@
 ---
-Description: Thread identifier of the owning thread.
+description: Thread identifier of the owning thread.
 ms.assetid: 495598db-a0c9-473b-8184-121a1939b55a
 title: CCritSec::m_currentOwner member (Wxutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This member variable is defined only in the debug version of the base class. The
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

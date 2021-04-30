@@ -22,7 +22,7 @@ Terminal Services Profile Path specifies a roaming or mandatory profile path to 
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-TS-Profile-Path                          |
 | Ldap-Display-Name | msTSProfilePath                             |
@@ -45,7 +45,7 @@ Terminal Services Profile Path specifies a roaming or mandatory profile path to 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services Profile Path specifies a roaming or mandatory profile path to 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services Profile Path specifies a roaming or mandatory profile path to 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

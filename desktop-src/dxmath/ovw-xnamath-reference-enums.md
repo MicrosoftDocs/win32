@@ -1,5 +1,5 @@
 ---
-Description: This section contains information about the DirectXMath enumerations.
+description: This section contains information about the DirectXMath enumerations.
 ms.assetid: 6e05b011-8bf6-3f91-aa4c-6655906b6b8a
 title: DirectXMath enumerations
 ms.topic: reference

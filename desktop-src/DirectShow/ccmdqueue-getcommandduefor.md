@@ -1,5 +1,5 @@
 ---
-Description: The GetCommandDueFor method retrieves a deferred command that is scheduled at a specified time.
+description: The GetCommandDueFor method retrieves a deferred command that is scheduled at a specified time.
 ms.assetid: f8a2f9ae-f359-4429-aca5-021b6fe2aa93
 title: CCmdQueue.GetCommandDueFor method (Winutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This member function takes a stream time and returns the deferred command schedu
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

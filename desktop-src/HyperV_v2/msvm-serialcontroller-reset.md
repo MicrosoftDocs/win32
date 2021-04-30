@@ -1,5 +1,5 @@
 ---
-Description: Resets the device.
+description: Resets the device.
 ms.assetid: 4ac8ee27-0629-45aa-80ee-f308c044d7fc
 title: Reset method of the Msvm_SerialController class
 ms.topic: reference
@@ -48,7 +48,7 @@ Returns 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1, version 1703<br/>                                                                    |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

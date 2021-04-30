@@ -1,5 +1,5 @@
 ---
-Description: Note  Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the D3DCompile API. Compile a shader or an effect from a resource.
+description: Note  Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the D3DCompile API. Compile a shader or an effect from a resource.
 ms.assetid: d291e47d-e04f-4e2d-9d05-9aef8e4fcf7e
 title: D3DX10CompileFromResource function (D3DX10Async.h)
 ms.topic: reference
@@ -178,7 +178,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

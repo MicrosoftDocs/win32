@@ -21,7 +21,7 @@ Contains the distinguished name of the secretary for an account.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | secretary                               |
 | Ldap-Display-Name | secretary                               |
@@ -46,7 +46,7 @@ Contains the distinguished name of the secretary for an account.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -67,7 +67,7 @@ Contains the distinguished name of the secretary for an account.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -88,7 +88,7 @@ Contains the distinguished name of the secretary for an account.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -109,7 +109,7 @@ Contains the distinguished name of the secretary for an account.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |
@@ -130,7 +130,7 @@ Contains the distinguished name of the secretary for an account.
 
 
 
-|                        |                                                                                                                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                         |
 | MAPI-Id                | \-                                                                                                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications that the system has resumed operation.
+description: Notifies applications that the system has resumed operation.
 ms.assetid: f2997905-26c9-4884-ae79-64df5ce6bc55
 title: PBT_APMRESUMECRITICAL event (WinUser.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ Because a critical suspension occurs without prior notification, resources and d
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

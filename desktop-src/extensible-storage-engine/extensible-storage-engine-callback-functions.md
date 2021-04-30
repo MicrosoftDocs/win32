@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Callback Functions"
 title: Extensible Storage Engine Callback Functions
 TOCTitle: Extensible Storage Engine Callback Functions
 ms:assetid: ebac3637-3786-429e-96a4-9c61fdfebc59

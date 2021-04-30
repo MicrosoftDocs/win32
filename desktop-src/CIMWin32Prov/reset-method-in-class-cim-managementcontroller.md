@@ -1,5 +1,5 @@
 ---
-Description: The Reset method of the CIM\_ManagementController class requests a reset of the logical device.
+description: The Reset method of the CIM\_ManagementController class requests a reset of the logical device.
 ms.assetid: 45f36ce0-6b36-4660-b841-d359e9a56ad0
 ms.tgt_platform: multiple
 title: Reset method of the CIM_ManagementController class
@@ -52,7 +52,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

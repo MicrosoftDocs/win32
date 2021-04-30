@@ -1,5 +1,5 @@
 ---
-Description: The Send method sends an HTTP request to an HTTP server.
+description: The Send method sends an HTTP request to an HTTP server.
 ms.assetid: 4f30d6b7-d1c3-43f1-9829-260b7c84518f
 title: IWinHttpRequest::Send method
 ms.topic: reference
@@ -184,7 +184,7 @@ WinHttpReq.Send("Post data");
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

@@ -1,5 +1,5 @@
 ---
-Description: Represents the definition of a metric that is derived from another metric value. A CIM\_AggregationMetricDefinition object should be associated with the CIM\_ManagedElement objects to which it applies.
+description: Represents the definition of a metric that is derived from another metric value. A CIM\_AggregationMetricDefinition object should be associated with the CIM\_ManagedElement objects to which it applies.
 ms.assetid: 0059bfd6-ecf3-41f0-be6b-0ce46dfbbb18
 title: CIM_AggregationMetricDefinition class
 ms.topic: reference
@@ -171,7 +171,7 @@ the metric reports the modal value of the underlying metric values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

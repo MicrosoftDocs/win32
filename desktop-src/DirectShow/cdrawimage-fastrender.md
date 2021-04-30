@@ -1,5 +1,5 @@
 ---
-Description: The FastRender method draws the video image using the BitBlt or StretchBlt functions.
+description: The FastRender method draws the video image using the BitBlt or StretchBlt functions.
 ms.assetid: 8bbc96ce-393f-46fb-bf90-61d3ce0ef0d6
 title: CDrawImage.FastRender method (Winutil.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If the filter does not own the allocator, the **DrawImage** method uses [**CDraw
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

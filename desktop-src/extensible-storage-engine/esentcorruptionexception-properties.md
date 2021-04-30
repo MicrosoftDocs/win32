@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCorruptionException properties"
 title: EsentCorruptionException properties
 TOCTitle: EsentCorruptionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCorruptionException

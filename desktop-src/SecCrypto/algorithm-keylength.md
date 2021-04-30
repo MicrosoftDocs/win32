@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the length of the key.
+description: Sets or retrieves the length of the key.
 ms.assetid: c0176d2d-c000-4529-af45-1cc9060ca56a
 title: Algorithm.KeyLength property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Algorithm.KeyLength property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**AlgorithmIdentifier Class**](/dotnet/api/system.security.cryptography.pkcs.algorithmidentifier?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**AlgorithmIdentifier Class**](/dotnet/api/system.security.cryptography.pkcs.algorithmidentifier?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **KeyLength** property sets or retrieves the length of the key.
 
@@ -59,7 +59,7 @@ When DES and 3DES encryption algorithms are used, the key lengths are standard a
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

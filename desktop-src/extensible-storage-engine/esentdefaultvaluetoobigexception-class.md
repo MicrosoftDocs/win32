@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDefaultValueTooBigException class"
 title: EsentDefaultValueTooBigException class
 TOCTitle: EsentDefaultValueTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException

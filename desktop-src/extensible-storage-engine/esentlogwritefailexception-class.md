@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogWriteFailException class"
 title: EsentLogWriteFailException class
 TOCTitle: EsentLogWriteFailException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogWriteFailException

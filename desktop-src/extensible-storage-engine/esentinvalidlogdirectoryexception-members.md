@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDirectoryException members"
 title: EsentInvalidLogDirectoryException members
 TOCTitle: EsentInvalidLogDirectoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDirectoryException

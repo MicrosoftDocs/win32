@@ -1,5 +1,5 @@
 ---
-Description: The GetDialogSize function retrieves the size of a resource dialog box.
+description: The GetDialogSize function retrieves the size of a resource dialog box.
 ms.assetid: b6c42f96-0381-493a-9503-f3bd4c6a8e1e
 title: GetDialogSize function (Wxutil.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ This function creates a temporary instance of the dialog box. To avoid having th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Requests that the Device capture its current configuration, setup and/or state information in a backing store.
+description: Requests that the Device capture its current configuration, setup and/or state information in a backing store.
 ms.assetid: e47aea90-06f9-441c-bb30-aa742b49ce72
 title: SaveProperties method of the CIM_LogicalDevice class
 ms.topic: reference
@@ -40,7 +40,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

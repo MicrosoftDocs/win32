@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST.columnidCp property"
 title: JET_INDEXLIST.columnidCp property 
 TOCTitle: 'columnidCp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidCp

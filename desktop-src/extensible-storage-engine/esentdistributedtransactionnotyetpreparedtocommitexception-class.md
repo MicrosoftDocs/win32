@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDistributedTransactionNotYetPreparedToCommitException class"
 title: EsentDistributedTransactionNotYetPreparedToCommitException class
 TOCTitle: EsentDistributedTransactionNotYetPreparedToCommitException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDistributedTransactionNotYetPreparedToCommitException

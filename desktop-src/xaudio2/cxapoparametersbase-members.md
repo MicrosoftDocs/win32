@@ -1,5 +1,5 @@
 ---
-Description: Shows the members of the CXAPOParametersBase class.
+description: Shows the members of the CXAPOParametersBase class.
 ms.assetid: C2113358-07DE-426E-AF26-BD8ED9902192
 title: CXAPOParametersBase Members
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDefaultValueTooBigException methods"
 title: EsentDefaultValueTooBigException methods
 TOCTitle: EsentDefaultValueTooBigException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDefaultValueTooBigException

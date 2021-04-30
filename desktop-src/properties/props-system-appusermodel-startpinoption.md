@@ -1,5 +1,5 @@
 ---
-Description: Set this property on a shortcut to (1) prevent an application from being automatically pinned to Start screen upon installation; or(2) indicate that an item is programmatically added to launcher via user action (which implies automatically pin to Start and delete on unpin).
+description: Set this property on a shortcut to (1) prevent an application from being automatically pinned to Start screen upon installation; or(2) indicate that an item is programmatically added to launcher via user action (which implies automatically pin to Start and delete on unpin).
 ms.assetid: 247ad0a6-ce65-45f1-a0d5-51ad135000aa
 title: System.AppUserModel.StartPinOption
 ms.topic: article

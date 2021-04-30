@@ -1,5 +1,5 @@
 ---
-Description: The IncrementTypeVersion method increments the version number on the set of preferred media types.
+description: The IncrementTypeVersion method increments the version number on the set of preferred media types.
 ms.assetid: 30cad0ae-58e7-47f6-94ee-75e24ce0a7e9
 title: CBasePin.IncrementTypeVersion method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method increments the [**CBasePin::m\_TypeVersion**](cbasepin-m-typeversion
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

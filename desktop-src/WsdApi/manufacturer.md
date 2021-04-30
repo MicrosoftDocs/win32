@@ -1,5 +1,5 @@
 ---
-Description: Specifies the name of the manufacturer.
+description: Specifies the name of the manufacturer.
 ms.assetid: 7d73a4fe-6fd1-4d99-80fb-9aa5ddcdca12
 title: manufacturer element
 ms.topic: reference
@@ -38,7 +38,7 @@ There are no child elements.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

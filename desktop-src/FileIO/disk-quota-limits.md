@@ -1,5 +1,5 @@
 ---
-Description: Describes two types of disk quota limits and how disk quota limits are measured.
+description: Describes two types of disk quota limits and how disk quota limits are measured.
 ms.assetid: 6595d5e0-eb97-437e-abd2-3a04faefde7d
 title: Disk Quota Limits
 ms.topic: article

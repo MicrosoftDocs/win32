@@ -1,5 +1,5 @@
 ---
-Description: A business rule allows an application to use logic at run time to qualify permissions granted to the client.
+description: A business rule allows an application to use logic at run time to qualify permissions granted to the client.
 ms.assetid: 2220d533-87f5-41a6-a688-a3307f0853fa
 title: Business Rules
 ms.topic: article

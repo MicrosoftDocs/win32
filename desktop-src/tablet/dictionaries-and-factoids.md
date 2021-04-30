@@ -1,5 +1,5 @@
 ---
-Description: A dictionary is an internal lexicon that a recognizer uses to determine word matches and alternates. A factoid increases recognition accuracy by selecting a specific context for a particular field.
+description: A dictionary is an internal lexicon that a recognizer uses to determine word matches and alternates. A factoid increases recognition accuracy by selecting a specific context for a particular field.
 ms.assetid: 9e90182b-5069-4895-9ef3-b6677705eb0b
 title: Dictionaries and Factoids
 ms.topic: article

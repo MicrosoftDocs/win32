@@ -1,5 +1,5 @@
 ---
-Description: When using the RegisterDlls INF directive to self-register DLLs, callers of SetupInstallFromInfSection may receive notifications on each file as it is registered or unregistered.
+description: SPFILENOTIFY_STARTREGISTRATION message - When using the RegisterDlls INF directive to self-register DLLs, callers of SetupInstallFromInfSection may receive notifications on each file as it is registered or unregistered.
 ms.assetid: 0faf277c-7805-478f-9cec-0dd7b6acdb0e
 title: SPFILENOTIFY_STARTREGISTRATION message (Setupapi.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ After receiving notification, the callback function may return one of the follow
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

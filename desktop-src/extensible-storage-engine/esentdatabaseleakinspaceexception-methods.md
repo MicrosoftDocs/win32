@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLeakInSpaceException methods"
 title: EsentDatabaseLeakInSpaceException methods
 TOCTitle: EsentDatabaseLeakInSpaceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLeakInSpaceException

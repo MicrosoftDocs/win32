@@ -1,5 +1,5 @@
 ---
-Description: Returns an Secure Sockets Layer protocol (SSL) session key or public ephemeral key into a serialized BLOB.
+description: Returns an Secure Sockets Layer protocol (SSL) session key or public ephemeral key into a serialized BLOB.
 ms.assetid: c978e6ac-a535-4625-8598-4aa16484dcad
 title: SslExportKey function (Sslprovider.h)
 ms.topic: reference
@@ -139,7 +139,7 @@ When exporting the public portion of an ephemeral key the BLOB type must be the 
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

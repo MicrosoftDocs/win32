@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDs support Direct3D 11 Video APIs.
+description: The following GUIDs support Direct3D 11 Video APIs.
 ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: Direct3D 11 Video GUIDs (D3d11.h)
 ms.topic: article
@@ -61,7 +61,7 @@ Setting this GUID in the **guidConfigBitstreamEncryption** member of the [**D3D1
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotReservedException members"
 title: EsentSLVPagesNotReservedException members
 TOCTitle: EsentSLVPagesNotReservedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotReservedException

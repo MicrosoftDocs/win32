@@ -1,5 +1,5 @@
 ---
-Description: Service providers can expose each resource on the PBX as a line device and possibly an associated phone device.
+description: Service providers can expose each resource on the PBX as a line device and possibly an associated phone device.
 ms.assetid: 25394b19-bf75-4adc-b07d-41bc781931b6
 title: Modeling of a Call Center
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.ContentEquals method"
 title: JET_SPACEHINTS.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.ContentEquals(Microsoft.Isam.Esent.Interop.JET_SPACEHINTS)

@@ -21,7 +21,7 @@ Property set containing user attributes that describe user web related informati
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Web-Information                      |
 | Display-Name | Web Information                      |
@@ -43,7 +43,7 @@ Property set containing user attributes that describe user web related informati
 
 
 
-|                         |                                                                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/>                    |
 | Localization-Display-ID | 24                                                                                           |
@@ -55,7 +55,7 @@ Property set containing user attributes that describe user web related informati
 
 
 
-|                         |                                                                                                                               |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 24                                                                                                                            |
@@ -67,7 +67,7 @@ Property set containing user attributes that describe user web related informati
 
 
 
-|                         |                                                                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------------------------------------------------------|
 | Applies-To              | \-                                                                                           |
 | Localization-Display-ID | 24                                                                                           |
@@ -79,7 +79,7 @@ Property set containing user attributes that describe user web related informati
 
 
 
-|                         |                                                                                                                               |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 24                                                                                                                            |
@@ -91,7 +91,7 @@ Property set containing user attributes that describe user web related informati
 
 
 
-|                         |                                                                                                                               |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 24                                                                                                                            |
@@ -103,7 +103,7 @@ Property set containing user attributes that describe user web related informati
 
 
 
-|                         |                                                                                                                               |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 24                                                                                                                            |
@@ -115,7 +115,7 @@ Property set containing user attributes that describe user web related informati
 
 
 
-|                         |                                                                                                                               |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 24                                                                                                                            |

@@ -1,5 +1,5 @@
 ---
-Description: Obsolete. Use AMovieSetupRegisterFilter2 instead.
+description: Obsolete. Use AMovieSetupRegisterFilter2 instead.
 ms.assetid: 42278829-d09e-46c7-8f1a-fa4572f7cc00
 title: AMovieSetupRegisterFilter function (Dllsetup.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dllsetup.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

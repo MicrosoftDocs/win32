@@ -1,5 +1,5 @@
 ---
-Description: Specifies the device conformance template that you want to use for video encoding.
+description: Specifies the device conformance template that you want to use for video encoding.
 ms.assetid: cd2c068a-dbbc-42c5-bc92-bbb73f0259d1
 title: MFPKEY_DECODERCOMPLEXITYREQUESTED Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ This property must be one of the following values.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

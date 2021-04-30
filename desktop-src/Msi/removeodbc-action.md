@@ -1,5 +1,5 @@
 ---
-Description: The RemoveODBC action removes the data sources, translators, and drivers listed for removal during the installation.
+description: The RemoveODBC action removes the data sources, translators, and drivers listed for removal during the installation.
 ms.assetid: 548984fd-e4f7-4db8-a625-87b4a0a4bdb2
 title: RemoveODBC Action
 ms.topic: article

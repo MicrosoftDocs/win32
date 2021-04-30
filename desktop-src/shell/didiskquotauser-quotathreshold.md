@@ -1,5 +1,5 @@
 ---
-Description: Sets or gets the user's warning threshold, in bytes.
+description: Sets or gets the user's warning threshold, in bytes.
 ms.assetid: 5289d472-d591-4604-91f9-252dd4a1b62b
 title: DIDiskQuotaUser.QuotaThreshold property
 ms.topic: reference
@@ -39,7 +39,7 @@ An **Integer** value that specifies or receives the user's warning threshold. If
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

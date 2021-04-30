@@ -1,5 +1,5 @@
 ---
-Description: Creates a kernel-mode surface object that represents the user-mode surface object referenced by puSurfaceLocal.
+description: Creates a kernel-mode surface object that represents the user-mode surface object referenced by puSurfaceLocal.
 ms.assetid: 1b2886a8-279b-4bec-9fb8-b88a68ded25b
 title: NtGdiDdCreateSurfaceObject function (Ntgdi.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ Applications are advised to use the DirectDraw and [Direct3D](../direct3d10/d3d1
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

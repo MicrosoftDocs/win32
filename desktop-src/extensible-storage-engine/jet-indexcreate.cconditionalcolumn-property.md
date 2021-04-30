@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.cConditionalColumn property"
 title: JET_INDEXCREATE.cConditionalColumn property 
 TOCTitle: 'cConditionalColumn property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.cConditionalColumn

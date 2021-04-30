@@ -1,5 +1,5 @@
 ---
-Description: Receives IShellWindows window registration events.
+description: Receives IShellWindows window registration events.
 ms.assetid: c340296d-f8eb-43a1-809d-912ea7412fe2
 title: DShellWindowsEvents object (Exdisp.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Use **DShellWindowsEvents** to monitor when a Shell window is registered or revo
 
 
 
-|                    |                                                                                                                          |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Product<br/> | Internet Explorer 5<br/>                                                                                           |
 | Header<br/>  | <dl> <dt>Exdisp.h</dt> </dl>                                      |

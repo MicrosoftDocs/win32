@@ -1,5 +1,5 @@
 ---
-Description: Loads a mesh from an ID3DXFileData object.
+description: Loads a mesh from an ID3DXFileData object.
 ms.assetid: 3fcf6a91-fcd4-46da-8278-13bda8af8274
 title: D3DXLoadMeshFromXof function (D3DX9Mesh.h)
 ms.topic: reference
@@ -130,7 +130,7 @@ The default texture name is also filled in, but is handled differently. The name
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

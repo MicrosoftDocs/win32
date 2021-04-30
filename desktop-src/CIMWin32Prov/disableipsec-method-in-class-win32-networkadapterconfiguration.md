@@ -1,5 +1,5 @@
 ---
-Description: The DisableIPSec WMI class method is used to disable Internet Protocol security (IPsec) on this TCP/IP-enabled network adapter.
+description: The DisableIPSec WMI class method is used to disable Internet Protocol security (IPsec) on this TCP/IP-enabled network adapter.
 ms.assetid: 6fff2721-1ee2-42b4-bbf9-fd36b97318e3
 ms.tgt_platform: multiple
 title: DisableIPSec method of the Win32_NetworkAdapterConfiguration class
@@ -417,7 +417,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

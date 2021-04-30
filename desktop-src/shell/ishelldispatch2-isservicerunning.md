@@ -1,5 +1,5 @@
 ---
-Description: Returns a value that indicates whether a particular service is running.
+description: IShellDispatch2.IsServiceRunning method - Returns a value that indicates whether a particular service is running.
 ms.assetid: 91f3fba1-7aa5-423a-bc37-49db230c79db
 title: IShellDispatch2.IsServiceRunning method (Shldisp.h)
 ms.topic: reference
@@ -118,7 +118,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

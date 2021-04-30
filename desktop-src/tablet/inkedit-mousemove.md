@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user moves the mouse while the mouse is over the InkEdit control.
+description: Occurs when the user moves the mouse while the mouse is over the InkEdit control.
 ms.assetid: 6ccaf2eb-acec-4dfd-9ec7-c78aca043900
 title: InkEdit.MouseMove event (Inked.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

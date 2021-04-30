@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Encoding
+# Encoding (Windows Web Services)
 
 Encoding is a transform between XML and a linear wire format. Decoding is the reverse transform.
 

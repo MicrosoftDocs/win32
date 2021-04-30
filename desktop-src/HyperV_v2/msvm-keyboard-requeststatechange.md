@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the element be changed.
+description: Requests that the state of the element be changed.
 ms.assetid: D1742588-D932-4FE1-8D2A-E410BEE371FF
 title: RequestStateChange method of the Msvm_Keyboard class
 ms.topic: reference
@@ -184,7 +184,7 @@ The maximum amount of time that the client expects the transition to the new sta
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

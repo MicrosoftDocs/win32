@@ -1,5 +1,5 @@
 ---
-Description: The CLSID of the name space extension for an item, the object that implements IShellFolder for this item.
+description: The CLSID of the name space extension for an item, the object that implements IShellFolder for this item.
 ms.assetid: 8937f625-d649-40fb-bc8a-5d1103095efa
 title: System.NamespaceCLSID
 ms.topic: article

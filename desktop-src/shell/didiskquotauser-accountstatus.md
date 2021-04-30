@@ -1,5 +1,5 @@
 ---
-Description: Gets the status of the user's account.
+description: Gets the status of the user's account.
 title: DIDiskQuotaUser.AccountStatus property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -63,7 +63,7 @@ This property can take one of the following values.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

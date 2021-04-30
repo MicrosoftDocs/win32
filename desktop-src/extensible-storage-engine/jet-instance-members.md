@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE members"
 title: JET_INSTANCE members
 TOCTitle: JET_INSTANCE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INSTANCE

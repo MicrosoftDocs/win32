@@ -1,5 +1,5 @@
 ---
-Description: A decorated symbol name includes characters that distinguish how a public symbol has been declared.
+description: A decorated symbol name includes characters that distinguish how a public symbol has been declared.
 ms.assetid: f02fa21d-3fe9-4838-a938-3136c34bc0e8
 title: Decorated Symbol Names
 ms.topic: article

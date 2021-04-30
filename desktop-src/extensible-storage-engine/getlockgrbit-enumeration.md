@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: GetLockGrbit enumeration"
 title: GetLockGrbit enumeration
 TOCTitle: GetLockGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.GetLockGrbit

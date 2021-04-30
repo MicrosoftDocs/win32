@@ -21,7 +21,7 @@ Used to distinguish between objects when a distinguished name has been reused. T
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | x500uniqueIdentifier                                  |
 | Ldap-Display-Name | x500uniqueIdentifier                                  |
@@ -46,7 +46,7 @@ Used to distinguish between objects when a distinguished name has been reused. T
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -67,7 +67,7 @@ Used to distinguish between objects when a distinguished name has been reused. T
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -88,7 +88,7 @@ Used to distinguish between objects when a distinguished name has been reused. T
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -109,7 +109,7 @@ Used to distinguish between objects when a distinguished name has been reused. T
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
@@ -130,7 +130,7 @@ Used to distinguish between objects when a distinguished name has been reused. T
 
 
 
-|                        |                                                                                       |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |

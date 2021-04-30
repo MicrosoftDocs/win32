@@ -1,5 +1,5 @@
 ---
-Description: The StringList object is a collection of strings. The client must verify that the StringList object exists and is not empty before referencing its properties.
+description: The StringList object is a collection of strings. The client must verify that the StringList object exists and is not empty before referencing its properties.
 ms.assetid: 7021320a-d01a-43e8-90a5-6105a11a4613
 title: StringList object
 ms.topic: reference
@@ -44,7 +44,7 @@ The **StringList** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

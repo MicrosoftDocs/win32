@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains a line of paragraph.
+description: Defines the type that contains a line of paragraph.
 ms.assetid: '0c864ca9-7f09-4fea-9490-4e07d82bcf6e'
 title: LineType Complex Type
 ms.topic: reference
@@ -26,7 +26,7 @@ Defines the type that contains a line of paragraph.
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

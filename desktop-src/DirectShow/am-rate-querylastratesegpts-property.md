@@ -1,5 +1,5 @@
 ---
-Description: This property queries the decoder for the start time of the rate change that was queued most recently, regardless of its position in the rate-change queue.
+description: This property queries the decoder for the start time of the rate change that was queued most recently, regardless of its position in the rate-change queue.
 ms.assetid: 3c7006e7-48fd-4df8-b446-8ee2b024278b
 title: AM_RATE_QueryLastRateSegPTS Property (Dvdmedia.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ This property is defined for version 1.1 of this property set; see [**AM\_RATE\_
 
 
 
-|                   |                               |
+| Label | Value |
 |-------------------|-------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange |
 | Property ID       | AM\_RATE\_QueryLastRateSegPTS |
@@ -32,7 +32,7 @@ The source filter can use this property to synchronize rate changes across sever
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The DoRealisePalette method realizes the window's current palette.
+description: The DoRealisePalette method realizes the window's current palette.
 ms.assetid: dd023c81-0cd0-48c6-bc63-5891f2a4acf7
 title: CBaseWindow.DoRealisePalette method (Winutil.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The [**CBaseWindow::OnPaletteChange**](cbasewindow-onpalettechange.md) method ca
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

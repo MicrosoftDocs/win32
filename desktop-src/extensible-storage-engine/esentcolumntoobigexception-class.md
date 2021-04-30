@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnTooBigException class"
 title: EsentColumnTooBigException class
 TOCTitle: EsentColumnTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentColumnTooBigException

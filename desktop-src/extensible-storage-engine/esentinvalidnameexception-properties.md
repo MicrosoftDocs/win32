@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidNameException properties"
 title: EsentInvalidNameException properties
 TOCTitle: EsentInvalidNameException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidNameException

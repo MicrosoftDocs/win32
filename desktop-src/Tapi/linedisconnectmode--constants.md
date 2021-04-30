@@ -1,5 +1,5 @@
 ---
-Description: The LINEDISCONNECTMODE\_ bit-flag constants describe different reasons for a remote disconnect request. A disconnect mode is available as call status to the application after the call state transitions to disconnected.
+description: The LINEDISCONNECTMODE\_ bit-flag constants describe different reasons for a remote disconnect request. A disconnect mode is available as call status to the application after the call state transitions to disconnected.
 ms.assetid: 1b26f13c-b0bf-4d2c-8514-f0c376e36bcd
 title: LINEDISCONNECTMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ The destination address is invalid.
 
 The call could not be connected because calls from the origination address are not being accepted at the destination address. This differs from LINEDISCONNECTMODE\_REJECT in that blocking is implemented in the network (a passive reject) while a rejection is implemented in the destination equipment (an active reject). The blocking can be due to a specific exclusion of the origination address, or because the destination accepts calls from only a selected set of origination address (closed user group). (TAPI versions 2.0 and later)
 
-LINEDISCONNECTMODE\_BLOCKED is appropriate as a blacklisted response. For example, a modem has received an answer, gone more than six seconds without detecting Ringback, failed to connect a defined number of times, determines that the phone number is not valid to call, and issues a 'blacklisted' response.
+LINEDISCONNECTMODE\_BLOCKED is appropriate as a blocklisted response. For example, a modem has received an answer, gone more than six seconds without detecting Ringback, failed to connect a defined number of times, determines that the phone number is not valid to call, and issues a 'blocklisted' response.
 
 
 </dt> </dl> </dd> <dt>
@@ -228,7 +228,7 @@ For backward compatibility, it is the responsibility of the service provider to 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

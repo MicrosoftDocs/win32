@@ -1,5 +1,5 @@
 ---
-Description: Defines position, texture, and color information about a sprite.
+description: Defines position, texture, and color information about a sprite.
 ms.assetid: 4b8d1ed1-75d5-418c-b809-410c6a44d425
 title: D3DX10_SPRITE structure (D3DX10.h)
 ms.topic: reference
@@ -109,7 +109,7 @@ The index of the texture. If pTexture does not represent a texture array, then t
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10.h</dt> </dl> |
 

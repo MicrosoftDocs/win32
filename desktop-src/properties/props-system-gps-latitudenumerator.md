@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_GPS\_Latitude.
+description: The numerator of PKEY\_GPS\_Latitude.
 ms.assetid: 2f70a640-7093-49c2-9f2c-99af870ecaf7
 title: System.GPS.LatitudeNumerator
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average bit rate, in bits per second, of an encoded stream.
+description: Specifies the average bit rate, in bits per second, of an encoded stream.
 ms.assetid: 8ed6bfa8-5515-430d-8a50-ad9668dc3aea
 title: MFPKEY_STAT_RAVG Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ To determine the average bit rate of an encoded stream, read this property at th
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

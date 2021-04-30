@@ -1,5 +1,5 @@
 ---
-Description: Shows how to encode and decode a countersigned message. This example uses the MyHandleError example function. Code for the MyHandleError function and other auxiliary functions is also listed under General Purpose Functions.
+description: Shows how to encode and decode a countersigned message. This example uses the MyHandleError example function. Code for the MyHandleError function and other auxiliary functions is also listed under General Purpose Functions.
 ms.assetid: 12930d4d-2ea5-4d95-b9cf-4f0dd351ce05
 title: 'Example C Program: Encoding and Decoding a Countersigned Message'
 ms.topic: article

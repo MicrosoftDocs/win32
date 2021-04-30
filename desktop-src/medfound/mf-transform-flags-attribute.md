@@ -1,5 +1,5 @@
 ---
-Description: Contains flags for a Media Foundation transform (MFT) activation object.
+description: Contains flags for a Media Foundation transform (MFT) activation object.
 ms.assetid: de377132-19b0-4c8c-882e-193c31420739
 title: MF_TRANSFORM_FLAGS_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This attribute is set on the [**IMFActivate**](/windows/desktop/api/mfobjects/nn
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

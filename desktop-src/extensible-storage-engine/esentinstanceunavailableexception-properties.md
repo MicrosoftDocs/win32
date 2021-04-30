@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableException properties"
 title: EsentInstanceUnavailableException properties
 TOCTitle: EsentInstanceUnavailableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException

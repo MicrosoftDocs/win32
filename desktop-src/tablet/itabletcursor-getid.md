@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the stylus identifier.
+description: Retrieves the stylus identifier.
 ms.assetid: 27320a2f-1e4a-4d7d-a1f8-5244f4a03415
 title: ITabletCursor::GetId method
 ms.topic: reference
@@ -65,7 +65,7 @@ CURSOR\_ID is defined as a DWORD.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

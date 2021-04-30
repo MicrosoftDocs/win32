@@ -1,5 +1,5 @@
 ---
-Description: Live Sources
+description: Live Sources
 ms.assetid: 571fe5e5-9616-463b-837c-f8dbb8adf1be
 title: Live Sources
 ms.topic: article

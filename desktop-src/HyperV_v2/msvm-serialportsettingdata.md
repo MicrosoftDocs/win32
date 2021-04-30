@@ -1,5 +1,5 @@
 ---
-Description: Describes the setting data for a virtual serial port.
+description: Describes the setting data for a virtual serial port.
 ms.assetid: 8b257bbf-495a-4eef-86a1-70e31e4a85a5
 title: Msvm_SerialPortSettingData class
 ms.topic: reference
@@ -61,7 +61,7 @@ Access type: Read/write
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

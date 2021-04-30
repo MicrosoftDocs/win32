@@ -1,5 +1,5 @@
 ---
-Description: Represents a diskette drive.
+description: Represents a diskette drive.
 ms.assetid: 8f382f91-9cff-4dcd-bf04-314a2986acbe
 title: CIM_DisketteDrive class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DisketteDrive class
+# CIM_DisketteDrive class (Hyper-V management)
 
 Represents a diskette drive.
 
@@ -36,7 +36,7 @@ The **CIM\_DisketteDrive** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

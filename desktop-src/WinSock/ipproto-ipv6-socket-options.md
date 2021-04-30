@@ -1,5 +1,5 @@
 ---
-Description: The following tables describe IPPROTO\_IPV6 socket options that apply to sockets created for the IPv6 address family (AF\_INET6). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
+description: The following tables describe IPPROTO\_IPV6 socket options that apply to sockets created for the IPv6 address family (AF\_INET6). See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
 ms.assetid: 65f8f7a4-757b-43a3-9d47-b115754c89d6
 title: IPPROTO_IPV6 socket options
 ms.topic: article
@@ -19,10 +19,14 @@ Some socket options require more explanation than these tables can convey; such 
 | Option | get | set | Optval type | Description |
 |-|-|-|-|-|
 | IP\_ORIGINAL\_ARRIVAL\_IF | yes | yes | DWORD (boolean) | Indicates if the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function should return optional control data containing the original arrival interface where the packet was received for datagram sockets. This option is used with IPv6 transition technologies (6to4, ISATAP, and Teredo tunnels, for example) that provide address assignment and host-to-host automatic tunneling for unicast IPv6 traffic when IPv6 hosts must traverse IP4 networks to reach other IPv6 networks. IPv6 packets are sent tunneled as IPv4 packets. This option allows the original IPv4 interface where the packet was received to be returned in the [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) structure.  |
+| IPV6_ADD_IFLIST | | yes | DWORD (IF_INDEX) | Adds an interface index to the IFLIST associated with the **IP_IFLIST** option. |
 | IPV6\_ADD\_MEMBERSHIP | | yes | [**ipv6\_mreq**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-ipv6_mreq) | Join the socket to the supplied multicast group on the specified interface.  This option is only valid on datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). |
+| IPV6_DEL_IFLIST | | yes | DWORD (IF_INDEX) | Removes an interface index from the IFLIST associated with the **IP_IFLIST** option. Entries can be removed only by the application, so be aware that entries might go stale once an interface is removed. |
 | IPV6\_DROP\_MEMBERSHIP | | yes | [**ipv6\_mreq**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-ipv6_mreq) | Leave the supplied multicast group from the given interface.  This option is only valid on datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). |
+| IPV6_GET_IFLIST | yes | | DWORD[] (IF_INDEX[]) | Gets the current IFLIST associated with the **IP_IFLIST** option. Returns error if **IP_IFLIST** is not enabled. |
 | IPV6\_HDRINCL | yes | yes | DWORD(boolean) | Indicates the application provides the IPv6 header on all outgoing data. If the *optval* parameter is set to **1** on the call to [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt), the option is enabled. If *optval* is set to **0**, the option is disabled. The default value is disabled. This option is only valid for datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). A TCP/IP service provider that supports SOCK\_RAW should also support IPV6\_HDRINCL. |
 | IPV6\_HOPLIMIT | yes | yes | DWORD (boolean) | Indicates that hop (TTL) information should be returned in the [**LPFN_WSARECVMSG (WSARecvMsg)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) function. If *optval* is set to **1** on the call to [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt), the option is enabled. If set to **0**, the option is disabled.  This option is only valid for datagram and raw sockets (the socket type must be SOCK\_DGRAM or SOCK\_RAW). |
+| IPV6_IFLIST | yes | yes | DWORD (boolean) | Gets or sets the **IP_IFLIST** state of the socket. When this option is set to true, Datagram reception is restricted to interfaces that are in the IFLIST. Datagrams received on any other interfaces are ignored. IFLIST starts empty. Use **IP_ADD_IFLIST** and **IP_DEL_IFLIST** to edit the IFLIST. |
 | IPV6\_JOIN\_GROUP | | yes | [**ipv6\_mreq**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-ipv6_mreq) | Same as IPV6\_ADD\_MEMBERSHIP |
 | IPV6\_LEAVE\_GROUP | | yes | [**ipv6\_mreq**](/windows/desktop/api/Ws2ipdef/ns-ws2ipdef-ipv6_mreq) | Same as IPV6\_DROP\_MEMBERSHIP |
 | IPV6\_MTU | yes | | DWORD | Gets the system's estimate of the path MTU. Socket must be connected. |
@@ -44,10 +48,14 @@ Some socket options require more explanation than these tables can convey; such 
 | Option | Windows 8 | Windows Server 2012 | Windows 7 | Windows Server 2008 | Windows Vista |
 |-|-|-|-|-|-|
 | IP\_ORIGINAL\_ARRIVAL\_IF | x | x | x | | |
+| IPV6_ADD_IFLIST | Starting with Windows 10, version 1803 | | | | | |
 | IPV6\_ADD\_MEMBERSHIP | x | x | x | x | x |
+| IPV6_DEL_IFLIST | Starting with Windows 10, version 1803 | | | | | |
 | IPV6\_DROP\_MEMBERSHIP | x | x | x | x | x |
+| IPV6_GET_IFLIST | Starting with Windows 10, version 1803 | | | | | |
 | IPV6\_HDRINCL | x | x | x | x | x |
 | IPV6\_HOPLIMIT | x | x | x | x | x |
+| IPV6_IFLIST | Starting with Windows 10, version 1803 | | | | | |
 | IPV6\_JOIN\_GROUP | x | x | x | x | x |
 | IPV6\_LEAVE\_GROUP | x | x | x | x | x |
 | IPV6\_MULTICAST\_HOPS | x | x | x | x | x |
@@ -65,10 +73,14 @@ Some socket options require more explanation than these tables can convey; such 
 | Option | Windows Server 2003 | Windows XP |
 |-|-|-|
 | IP\_ORIGINAL\_ARRIVAL\_IF | | |
+| IPV6_ADD_IFLIST | | |
 | IPV6\_ADD\_MEMBERSHIP | x | x |
+| IPV6_DEL_IFLIST | | |
 | IPV6\_DROP\_MEMBERSHIP | x | x |
+| IPV6_GET_IFLIST | | |
 | IPV6\_HDRINCL  x | x |
 | IPV6\_HOPLIMIT  x | x |
+| IPV6_IFLIST | | |
 | IPV6\_JOIN\_GROUP | x | x |
 | IPV6\_LEAVE\_GROUP | x | x |
 | IPV6\_MULTICAST\_HOPS | x | x |
@@ -89,6 +101,6 @@ The IP\_ORIGINAL\_ARRIVAL\_IF socket option is supported on Windows Server 2008
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Header | <dl> <dt>Ws2def.h (include Winsock2.h); </dt> <dt>Winsock2.h on Windows Server 2003 and Windows XP</dt> </dl> |

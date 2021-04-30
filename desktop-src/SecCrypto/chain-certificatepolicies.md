@@ -1,5 +1,5 @@
 ---
-Description: Returns an OIDs collection that represents the certificate policy OIDs valid for the chain.
+description: Returns an OIDs collection that represents the certificate policy OIDs valid for the chain.
 ms.assetid: 18200003-f4f1-4cf3-af9a-bc223151ff68
 title: IChain2::CertificatePolicies method
 ms.topic: reference
@@ -39,7 +39,7 @@ This method has no parameters.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

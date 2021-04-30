@@ -1,5 +1,6 @@
 ---
-title: Update.Save method 
+description: "Learn more about: Update.Save method"
+title: Update.Save method
 TOCTitle: 'Save method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.Save
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.update.save(v=EXCHG.10)

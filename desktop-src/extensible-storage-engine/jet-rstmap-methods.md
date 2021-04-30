@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP methods"
 title: JET_RSTMAP methods
 TOCTitle: JET_RSTMAP methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_RSTMAP

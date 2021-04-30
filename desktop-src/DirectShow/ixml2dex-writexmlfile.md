@@ -1,5 +1,5 @@
 ---
-Description: The WriteXMLFile method translates a timeline to XML and writes the XML data to a file.
+description: The WriteXMLFile method translates a timeline to XML and writes the XML data to a file.
 ms.assetid: 0a269e3d-6ca3-401e-bc22-6b4e8aacdbc9
 title: IXml2Dex::WriteXMLFile method (Qedit.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ This method generates an XML file that represents all the components in the time
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Internet Explorer 4.0 or later<br/>                                               |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

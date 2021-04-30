@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySortsException methods"
 title: EsentTooManySortsException methods
 TOCTitle: EsentTooManySortsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException

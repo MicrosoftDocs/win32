@@ -1,5 +1,5 @@
 ---
-Description: The put\_StopTime method sets the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaPosition::put\_StopTime method.
+description: The put\_StopTime method sets the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaPosition::put\_StopTime method.
 ms.assetid: 0a344cad-df93-47f1-8c7f-5d5ef775b850
 title: CPosPassThru.put_StopTime method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

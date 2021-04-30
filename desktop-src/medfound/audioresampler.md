@@ -1,7 +1,7 @@
 ---
-Description: The Audio Resampler performs one or both of the following actions on an audio stream.Change the sampling rate.Change the number of channels.
+description: The Audio Resampler performs one or both of the following actions on an audio stream.Change the sampling rate.Change the number of channels.
 ms.assetid: bee755c4-0585-40fb-aa4d-4e964f5144a3
-title: Audio Resampler DSP (Wmcodecdsp.h)
+title: 'Audio Resampler DSP (Wmcodecdsp.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 ---
@@ -193,7 +193,7 @@ You can specify the output quality of the Audio Resampler DSP by calling [**IWMR
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                       |

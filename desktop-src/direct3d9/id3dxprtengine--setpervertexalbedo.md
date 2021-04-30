@@ -1,5 +1,5 @@
 ---
-Description: Sets an albedo value for each mesh vertex, overwriting previous albedo values.
+description: Sets an albedo value for each mesh vertex, overwriting previous albedo values.
 ms.assetid: 5220dfe3-8d41-480c-a850-b9aad3d2bb2f
 title: ID3DXPRTEngine::SetPerVertexAlbedo method (D3DX9Mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a global Shell setting.
+description: IShellDispatch4.GetSetting method - Retrieves a global Shell setting.
 ms.assetid: b9b1542c-8e25-4966-b3df-13bfbd9b28aa
 title: IShellDispatch4.GetSetting method (Shldisp.h)
 ms.topic: reference
@@ -426,7 +426,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

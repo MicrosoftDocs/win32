@@ -1,5 +1,5 @@
 ---
-Description: Alllows the Enhanced Video Renderer (EVR) to mix the video within a rectangle that is smaller than the output rectangle, and then scale the result.
+description: Alllows the Enhanced Video Renderer (EVR) to mix the video within a rectangle that is smaller than the output rectangle, and then scale the result.
 ms.assetid: 7e3b8fe1-959b-4391-a715-5d5a7a7dda39
 title: EVRConfig_AllowScaling attribute (Uuids.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from strmiids.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

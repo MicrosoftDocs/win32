@@ -1,5 +1,5 @@
 ---
-Description: The DestroyBlob function frees all memory associated with the BLOB and then destroys the BLOB.
+description: The DestroyBlob function frees all memory associated with the BLOB and then destroys the BLOB.
 ms.assetid: 46cde0b7-1b59-426e-b19b-3c73af3d461a
 title: DestroyBlob function (Netmon.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

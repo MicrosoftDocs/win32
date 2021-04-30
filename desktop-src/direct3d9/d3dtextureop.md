@@ -1,5 +1,5 @@
 ---
-Description: Defines per-stage texture-blending operations.
+description: Defines per-stage texture-blending operations.
 ms.assetid: 7bfdcb15-c3c3-4e7e-b924-6ecfa350e2f3
 title: D3DTEXTUREOP enumeration (D3D9Types.h)
 ms.topic: reference
@@ -307,7 +307,7 @@ In the above formulas, S<sub>RGBA</sub> is the RGBA color produced by a texture 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

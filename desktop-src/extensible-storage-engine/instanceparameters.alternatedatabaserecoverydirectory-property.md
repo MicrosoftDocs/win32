@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.AlternateDatabaseRecoveryDirectory property"
 title: InstanceParameters.AlternateDatabaseRecoveryDirectory property 
 TOCTitle: 'AlternateDatabaseRecoveryDirectory property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.AlternateDatabaseRecoveryDirectory

@@ -1,5 +1,5 @@
 ---
-Description: When an opertion returns SUCCESS, the function has successfully progressed to a point that is defined by the API on a function by function basis.
+description: When an opertion returns SUCCESS, the function has successfully progressed to a point that is defined by the API on a function by function basis.
 ms.assetid: e4077d77-dee1-4f1a-a6ee-20ca2f92a1ec
 title: The Meaning of SUCCESS
 ms.topic: article

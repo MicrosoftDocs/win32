@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSCallbackNotSpecifiedException properties"
 title: EsentLSCallbackNotSpecifiedException properties
 TOCTitle: EsentLSCallbackNotSpecifiedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLSCallbackNotSpecifiedException

@@ -22,7 +22,7 @@ Contains the display names of groups to which this user belongs.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | msSFU-30-Posix-Member-Of                |
 | Ldap-Display-Name | msSFU30PosixMemberOf                    |
@@ -46,7 +46,7 @@ Contains the display names of groups to which this user belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2031                            |
 | MAPI-Id                | \-                              |
@@ -67,7 +67,7 @@ Contains the display names of groups to which this user belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2031                            |
 | MAPI-Id                | \-                              |
@@ -88,7 +88,7 @@ Contains the display names of groups to which this user belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2031                            |
 | MAPI-Id                | \-                              |
@@ -109,7 +109,7 @@ Contains the display names of groups to which this user belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2031                            |
 | MAPI-Id                | \-                              |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyDuplicateException methods"
 title: EsentKeyDuplicateException methods
 TOCTitle: EsentKeyDuplicateException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentKeyDuplicateException

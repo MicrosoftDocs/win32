@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.ContentEquals method"
 title: JET_UNICODEINDEX.ContentEquals method 
 TOCTitle: 'ContentEquals method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.ContentEquals(Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX)

@@ -1,5 +1,5 @@
 ---
-Description: 'Windows GDI+ uses three coordinate spaces: world, page, and device.'
+description: 'Windows GDI+ uses three coordinate spaces: world, page, and device.'
 ms.assetid: eb20f5e9-25f5-4f27-8ea5-83f6819425ed
 title: Types of Coordinate Systems
 ms.topic: article
@@ -58,7 +58,8 @@ myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 
 
 
-> [!Note] If you don't specify a pen width when you construct your pen, the previous example will draw a line that is one inch wide. You can specify the pen width in the second argument to the [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) constructor:
+> [!Note]
+> If you don't specify a pen width when you construct your pen, the previous example will draw a line that is one inch wide. You can specify the pen width in the second argument to the [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) constructor:
 > <br/><br/>
 > `Pen myPen(Color(255, 0, 0, 0), 1/myGraphics.GetDpiX())`.
 

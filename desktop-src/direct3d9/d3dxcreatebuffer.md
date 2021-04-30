@@ -1,5 +1,5 @@
 ---
-Description: Creates a buffer object.
+description: Creates a buffer object.
 ms.assetid: 6f44fe84-3e0b-4fb8-821a-c997944fed37
 title: D3DXCreateBuffer function (D3DX9Mesh.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

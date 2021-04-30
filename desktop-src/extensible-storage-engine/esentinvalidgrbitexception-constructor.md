@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidGrbitException constructor"
 title: EsentInvalidGrbitException constructor 
 TOCTitle: 'EsentInvalidGrbitException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidGrbitException.#ctor

@@ -1,5 +1,5 @@
 ---
-Description: Vertices in the camera space are computed by transforming the object vertices with the world view matrix.
+description: Vertices in the camera space are computed by transforming the object vertices with the world view matrix.
 ms.assetid: 889dd0d8-1933-4901-9bbc-06c3caa26d3e
 title: Camera Space Transformations (Direct3D 9)
 ms.topic: article

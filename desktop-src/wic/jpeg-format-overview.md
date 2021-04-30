@@ -1,5 +1,5 @@
 ---
-Description: This topic provides information about the native JPEG codec available through the Windows Imaging Component (WIC).
+description: This topic provides information about the native JPEG codec available through the Windows Imaging Component (WIC).
 ms.assetid: 9DCBCE9B-965B-4C18-992C-EFFFF32FCE5E
 title: JPEG Format Overview
 ms.topic: article

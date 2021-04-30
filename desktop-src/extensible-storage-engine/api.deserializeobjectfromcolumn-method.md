@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.DeserializeObjectFromColumn method"
 title: Api.DeserializeObjectFromColumn method 
 TOCTitle: 'DeserializeObjectFromColumn method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.DeserializeObjectFromColumn

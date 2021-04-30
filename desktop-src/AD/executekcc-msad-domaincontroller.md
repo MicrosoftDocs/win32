@@ -83,7 +83,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

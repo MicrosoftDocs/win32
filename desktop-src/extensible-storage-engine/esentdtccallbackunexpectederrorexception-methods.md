@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCCallbackUnexpectedErrorException methods"
 title: EsentDTCCallbackUnexpectedErrorException methods
 TOCTitle: EsentDTCCallbackUnexpectedErrorException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDTCCallbackUnexpectedErrorException

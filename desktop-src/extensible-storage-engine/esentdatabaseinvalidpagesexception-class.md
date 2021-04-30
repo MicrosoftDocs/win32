@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPagesException class"
 title: EsentDatabaseInvalidPagesException class
 TOCTitle: EsentDatabaseInvalidPagesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNID.CompareTo method"
 title: JET_COLUMNID.CompareTo method 
 TOCTitle: 'CompareTo method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_COLUMNID.CompareTo(Microsoft.Isam.Esent.Interop.JET_COLUMNID)

@@ -1,5 +1,5 @@
 ---
-Description: A distance from the reported location, in meters. Combined with the reported location as the origin, this radius describes the circle in which the actual location is probably located.
+description: A distance from the reported location, in meters. Combined with the reported location as the origin, this radius describes the circle in which the actual location is probably located.
 ms.assetid: a9565bd5-d1e0-45f8-abeb-3191b16480fa
 title: LocationDisp.DispLatLongReport.ErrorRadius property
 ms.topic: reference
@@ -43,7 +43,7 @@ For an example of how to use this property, see [A Simple LatLong Report Example
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

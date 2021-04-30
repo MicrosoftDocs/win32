@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of the time synchronization service.
+description: Represents the configured state of the time synchronization service.
 ms.assetid: AACEDE11-3F5B-42AB-A16F-0474FA98D3FD
 title: Msvm_TimeSyncComponentSettingData class
 ms.topic: reference
@@ -453,7 +453,7 @@ Access to the **Msvm\_TimeSyncComponentSettingData** class might be restricted b
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

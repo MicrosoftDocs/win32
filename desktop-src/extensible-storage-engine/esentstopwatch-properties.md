@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentStopwatch properties"
 title: EsentStopwatch properties
 TOCTitle: EsentStopwatch properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentStopwatch

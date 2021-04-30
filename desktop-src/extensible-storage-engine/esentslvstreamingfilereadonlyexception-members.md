@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileReadOnlyException members"
 title: EsentSLVStreamingFileReadOnlyException members
 TOCTitle: EsentSLVStreamingFileReadOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException

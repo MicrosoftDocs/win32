@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentContainerNotEmptyException methods"
 title: EsentContainerNotEmptyException methods
 TOCTitle: EsentContainerNotEmptyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException

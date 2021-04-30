@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used with embedded Microsoft OpenType fonts.
+description: The following functions are used with embedded Microsoft OpenType fonts.
 ms.assetid: 8f47d7a5-db45-4a41-8af2-9fc6b373a531
 title: Font Embedding Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information.
+description: Contains a single object that corresponds to the computer whose catalog you are accessing. This object holds computer level settings information.
 ms.assetid: 75f14cad-9cd5-44a6-9afa-2c8ad1e87027
 title: LocalComputer collection
 ms.topic: reference
@@ -68,7 +68,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                            |
+| Entry | Value |
 |----------------|------------------------------------------------------------|
 | Description    | Remote server name used by application proxies by default. |
 | Access         | ReadWrite                                                  |
@@ -84,7 +84,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                     |
+| Entry | Value |
 |----------------|-----------------------------------------------------|
 | Description    | Indicates whether COM Internet Services is enabled. |
 | Access         | ReadWrite                                           |
@@ -100,7 +100,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                             |
+| Entry | Value |
 |----------------|---------------------------------------------|
 | Description    | Set to True to enable DCOM on the computer. |
 | Access         | ReadWrite                                   |
@@ -116,7 +116,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                          |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Authentication level used by applications that have Authentication set to Default. Values correspond to the Remote Procedure Call (RPC) authentication settings.                                                                                         |
 | Access         | ReadWrite                                                                                                                                                                                                                                                |
@@ -137,7 +137,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                               |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Impersonation level to allow if one is not set.                                                                                                               |
 | Access         | ReadWrite                                                                                                                                                     |
@@ -158,7 +158,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                     |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------|
 | Description    | Determines whether the default type of port provided should be Internet (True) or intranet (False). |
 | Access         | ReadWrite                                                                                           |
@@ -174,7 +174,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                |
+| Entry | Value |
 |----------------|--------------------------------|
 | Description    | A description of the computer. |
 | Access         | ReadWrite                      |
@@ -190,7 +190,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                        |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | Description    | Indicates whether the user of the partition mappings is checked into the domain store. |
 | Access         | ReadWrite                                                                              |
@@ -206,7 +206,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                       |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------|
 | Description    | Determines whether the ports listed in the Ports property are to be used for Internet (True) or for intranet (False). |
 | Access         | ReadWrite                                                                                                             |
@@ -222,7 +222,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                                     |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Set to True if the computer is a router for the component load balancing (CLB) service. This property can be set to True only if the component load balancing service is currently installed on the computer; otherwise, it errors with COMADMIN\_E\_REQUIRES\_DIFFERENT\_PLATFORM. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                           |
@@ -240,7 +240,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                     |
+| Entry | Value |
 |----------------|-------------------------------------|
 | Description    | The CLSID of the object to balance. |
 | Access         | ReadWrite                           |
@@ -256,7 +256,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                       |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | Description    | Indicates whether the user of the partition mappings is checked into the local store. |
 | Access         | ReadWrite                                                                             |
@@ -272,7 +272,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                                                                                                                                        |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name of the computer. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) or [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                              |
@@ -288,7 +288,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The operating system installed on the local computer.                                                                                                                                                                                                                                                                                                                                                                                                |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -304,7 +304,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                         |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Indicates whether COM+ partitions can be used on the local computer. If this property is False, any attempt to use COM+ partitions results in an error. |
 | Access         | ReadWrite                                                                                                                                               |
@@ -320,7 +320,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                         |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A string describing ports that are for either Internet or intranet use, depending on the InternetPortsListed property; for example, "500-599: 600-800". |
 | Access         | ReadWrite                                                                                                                                               |
@@ -336,7 +336,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                     |
+| Entry | Value |
 |----------------|-------------------------------------|
 | Description    | Enables use of resource dispensers. |
 | Access         | ReadWrite                           |
@@ -352,7 +352,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                       |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Controls whether the RPC IIS proxy is enabled. The RPC IIS proxy is used in conjunction with IIS to forward calls to the RPC mechanism from IIS and is one of the core pieces of COM Internet Services, which is enabled by setting CISEnabled to True. For more information on RPCProxyEnabled, see [HTTP RPC Security](/windows/desktop/Rpc/rpc-over-http-security). |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                             |
@@ -368,7 +368,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                                           |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Enforces in DCOM computers that cross-process calls to [**IUnknown::AddRef**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref) and [**IUnknown::Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) methods are secured. |
 | Access         | ReadWrite                                                                                                                                                                 |
@@ -384,7 +384,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                         |
+| Entry | Value |
 |----------------|---------------------------------------------------------|
 | Description    | Set to True if security tracking is enabled on objects. |
 | Access         | ReadWrite                                               |
@@ -400,7 +400,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Determines how the software restriction policy (SRP) handles activate-as-activator connections. If set to True, the SRP trust level that is configured for the server object is compared with the SRP trust level of the client object and the higher (more stringent) trust level is used to run the server object. If set to False, the server object runs with the SRP trust level of the client object, regardless of the SRP trust level with which the server is configured. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -416,7 +416,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Entry | Value |
 |----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Determines how the software restriction policy (SRP) handles attempted connections to existing processes. If set to False, attempts to connect to running objects are not checked for appropriate SRP trust levels. If set to True, the running object must have an equal or higher (more stringent) SRP trust level than the client object. For example, a client object with an Unrestricted SRP trust level cannot connect to a running object with a Disallowed SRP trust level. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -432,7 +432,7 @@ If this property is set to True, the CLB server is configured and starts at star
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Should be set to a sufficient value in seconds if you are doing numerous operations within a transaction. The default time-out period is 60 seconds, and the maximum time-out period is 3600 seconds (1 hour). Setting this property to 0 disables transaction time-outs. This property can be overridden by individual components by using the ComponentTransactionTimeout property of the [**Components**](components.md) collection. |
 | Access         | ReadWrite                                                                                                                                                                                                                                                                                                                                                                                                                                |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.logtimeRepair property"
 title: JET_DBINFOMISC.logtimeRepair property 
 TOCTitle: 'logtimeRepair property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.logtimeRepair

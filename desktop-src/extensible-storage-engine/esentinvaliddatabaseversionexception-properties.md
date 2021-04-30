@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidDatabaseVersionException properties"
 title: EsentInvalidDatabaseVersionException properties
 TOCTitle: EsentInvalidDatabaseVersionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException

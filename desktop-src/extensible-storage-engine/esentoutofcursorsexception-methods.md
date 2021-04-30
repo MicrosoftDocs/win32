@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfCursorsException methods"
 title: EsentOutOfCursorsException methods
 TOCTitle: EsentOutOfCursorsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfCursorsException

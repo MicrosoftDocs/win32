@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_AutochkSetting WMI class represents the settings for the autocheck operation of a disk.
+description: The Win32\_AutochkSetting WMI class represents the settings for the autocheck operation of a disk.
 ms.assetid: 637f4d5d-f2f0-4fe0-bbde-7804156979b7
 ms.tgt_platform: multiple
 title: Win32_AutochkSetting class
@@ -124,7 +124,7 @@ The **Win32\_AutochkSetting** class is derived from [**CIM\_Setting**](cim-setti
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

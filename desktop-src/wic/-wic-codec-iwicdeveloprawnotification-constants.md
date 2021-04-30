@@ -1,5 +1,5 @@
 ---
-Description: Flags used to by IWICDevelopRawNotificationCallback to indicate which members have changed.
+description: Flags used to by IWICDevelopRawNotificationCallback to indicate which members have changed.
 ms.assetid: 4e94b4f4-abd9-4395-87ec-a08e49a2cf88
 title: IWICDevelopRawNotificationCallback Constants (Wincodec.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Flags used to by [**IWICDevelopRawNotificationCallback**](/windows/desktop/api/W
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

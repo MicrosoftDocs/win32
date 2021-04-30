@@ -22,7 +22,7 @@ This attribute determines the minimum time period, in hours, that a user's ticke
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Min-Ticket-Age                       |
 | Ldap-Display-Name | minTicketAge                         |
@@ -48,7 +48,7 @@ This attribute determines the minimum time period, in hours, that a user's ticke
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -69,7 +69,7 @@ This attribute determines the minimum time period, in hours, that a user's ticke
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -90,7 +90,7 @@ This attribute determines the minimum time period, in hours, that a user's ticke
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -111,7 +111,7 @@ This attribute determines the minimum time period, in hours, that a user's ticke
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -132,7 +132,7 @@ This attribute determines the minimum time period, in hours, that a user's ticke
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |
@@ -153,7 +153,7 @@ This attribute determines the minimum time period, in hours, that a user's ticke
 
 
 
-|                        |                                                    |
+| Entry | Value |
 |------------------------|----------------------------------------------------|
 | Link-Id                | \-                                                 |
 | MAPI-Id                | \-                                                 |

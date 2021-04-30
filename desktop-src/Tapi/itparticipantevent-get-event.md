@@ -1,5 +1,5 @@
 ---
-Description: The get\_Event method gets a PARTICIPANT\_EVENT descriptor of the type of event that has occurred.
+description: The get\_Event method gets a PARTICIPANT\_EVENT descriptor of the type of event that has occurred.
 ms.assetid: 6b5e6358-2ba6-48b5-8d55-bc896fbb9962
 title: ITParticipantEvent::get_Event method (Confpriv.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

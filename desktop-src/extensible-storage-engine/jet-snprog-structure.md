@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG Structure"
 title: JET_SNPROG Structure
 TOCTitle: JET_SNPROG Structure
 ms:assetid: 8b4224e4-ad4d-440f-8915-8eb43b0885f0

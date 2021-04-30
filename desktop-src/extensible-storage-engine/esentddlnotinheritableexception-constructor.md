@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDDLNotInheritableException constructor"
 title: EsentDDLNotInheritableException constructor 
 TOCTitle: 'EsentDDLNotInheritableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDDLNotInheritableException.#ctor

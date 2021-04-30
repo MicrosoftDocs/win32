@@ -1,5 +1,5 @@
 ---
-Description: Windows Management Instrumentation (WMI) can create the sink to receive asynchronous callbacks for a client application in a separate process.
+description: Windows Management Instrumentation (WMI) can create the sink to receive asynchronous callbacks for a client application in a separate process.
 ms.assetid: 3d3111ac-7d83-48d6-94e4-36cb46a506fa
 ms.tgt_platform: multiple
 title: Lowering the Security for a Sink in a Separate Process

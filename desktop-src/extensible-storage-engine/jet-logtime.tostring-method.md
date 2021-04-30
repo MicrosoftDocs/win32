@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME.ToString method"
 title: JET_LOGTIME.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LOGTIME.ToString

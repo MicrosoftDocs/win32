@@ -1,5 +1,5 @@
 ---
-Description: Naming mailslots and putting messages into mailslots.
+description: Naming mailslots and putting messages into mailslots.
 ms.assetid: 1ef522a4-9786-427c-a18a-ae1f0a05cc50
 title: Mailslot Names
 ms.topic: article

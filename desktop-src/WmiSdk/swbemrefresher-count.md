@@ -1,5 +1,5 @@
 ---
-Description: The Count property of the SWbemRefresher object contains the number of items in an SWbemRefresher collection. This property is read-only.SWbemRefresher collection.
+description: The Count property of the SWbemRefresher object contains the number of items in an SWbemRefresher collection. This property is read-only.SWbemRefresher collection.
 ms.assetid: 189c853b-dcf0-4bf7-821e-e12f94fcd1f3
 ms.tgt_platform: multiple
 title: SWbemRefresher.Count property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemRefresher.Count As Integer
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

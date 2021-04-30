@@ -1,5 +1,5 @@
 ---
-Description: The EnableStatic WMI class method enables static TCP/IP addressing for the target network adapter. As a result, DHCP for this network adapter is disabled.
+description: The EnableStatic WMI class method enables static TCP/IP addressing for the target network adapter. As a result, DHCP for this network adapter is disabled.
 ms.assetid: d0076424-58c0-4cfe-b55b-44c0f2620388
 ms.tgt_platform: multiple
 title: EnableStatic method of the Win32_NetworkAdapterConfiguration class
@@ -500,7 +500,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

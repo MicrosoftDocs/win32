@@ -1,5 +1,5 @@
 ---
-Description: Width and height of a video frame, in pixels.
+description: Width and height of a video frame, in pixels.
 ms.assetid: 9f10a972-406f-47ef-b71c-86ed771c9a9a
 title: MF_MT_FRAME_SIZE attribute (Mfapi.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ inline HRESULT GetFrameSize(IMFMediaType *pType, UINT32 *pWidth, UINT32 *pHeight
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder uses RD-based sub-pixel MV search.
+description: Specifies whether the encoder uses RD-based sub-pixel MV search.
 ms.assetid: 1359c001-d0a1-4b7d-b142-1e85e6a0b570
 title: MFPKEY_RDSUBPIXELSEARCH Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ g\_wszWMVCRDSubpixelSearch
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

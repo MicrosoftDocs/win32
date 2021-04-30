@@ -1,5 +1,5 @@
 ---
-Description: Provides access to the policy information of an extension.
+description: Provides access to the policy information of an extension.
 ms.assetid: 03d627b3-2d44-4637-97a4-85cdcaf3e4d3
 title: PolicyInformation object
 ms.topic: reference
@@ -57,7 +57,7 @@ The **PolicyInformation** object cannot be created.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

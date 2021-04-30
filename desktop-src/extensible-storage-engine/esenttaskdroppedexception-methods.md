@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTaskDroppedException methods"
 title: EsentTaskDroppedException methods
 TOCTitle: EsentTaskDroppedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTaskDroppedException

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempPathInUseException constructor"
 title: EsentTempPathInUseException constructor 
 TOCTitle: 'EsentTempPathInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTempPathInUseException.#ctor

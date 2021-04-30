@@ -1,5 +1,5 @@
 ---
-Description: The CAutoUsingOutputPin class obtains and releases access to a CDynamicOutputPin object.
+description: The CAutoUsingOutputPin class obtains and releases access to a CDynamicOutputPin object.
 ms.assetid: 4ded5d18-4b14-4574-ad1f-73b886a51fac
 title: CAutoUsingOutputPin class (Amfilter.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ HRESULT hr = S_OK;  // Important! Initialize to S_OK.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The WriteXML method translates a timeline to an XML string.
+description: The WriteXML method translates a timeline to an XML string.
 ms.assetid: 1039c6fc-b2ba-4052-90b6-b7468b94c071
 title: IXml2Dex::WriteXML method (Qedit.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The method allocates memory for the string. The application must call **SysFreeS
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Internet Explorer 4.0 or later<br/>                                               |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

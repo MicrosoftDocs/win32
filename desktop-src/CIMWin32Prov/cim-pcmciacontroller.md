@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PCMCIAController class represents the capabilities and management of a Personal Computer Memory Card International Association (PCMCIA) controller.
+description: The CIM\_PCMCIAController class represents the capabilities and management of a Personal Computer Memory Card International Association (PCMCIA) controller.
 ms.assetid: 341cbc6c-dd25-4dea-bcce-cd4e3f4d5324
 ms.tgt_platform: multiple
 title: CIM_PCMCIAController class
@@ -1635,7 +1635,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

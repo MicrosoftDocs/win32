@@ -1,5 +1,5 @@
 ---
-Description: Specifies an application-defined callback function called by File Manager when the user chooses the Undelete command from the File menu.
+description: Specifies an application-defined callback function called by File Manager when the user chooses the Undelete command from the File menu.
 title: FM_UNDELETE_PROC function pointer (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -85,7 +85,7 @@ Returns one of the following values.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

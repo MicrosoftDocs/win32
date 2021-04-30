@@ -1,5 +1,5 @@
 ---
-Description: The GetBuffer method retrieves a media sample that contains a buffer. This method implements the IMemAllocator::GetBuffer method.
+description: The GetBuffer method retrieves a media sample that contains a buffer. This method implements the IMemAllocator::GetBuffer method.
 ms.assetid: 81694b9c-b325-47c8-94e4-f54d1329a684
 title: CBaseAllocator.GetBuffer method (Amfilter.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ If the method needs to wait on a sample, it increments the count of waiting obje
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

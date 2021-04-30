@@ -1,5 +1,5 @@
 ---
-Description: Subtracts two color values to create a new color value.
+description: Subtracts two color values to create a new color value.
 ms.assetid: c21f8402-c1c2-4909-896f-2872ef518537
 title: D3DXColorSubtract function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

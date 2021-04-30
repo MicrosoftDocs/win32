@@ -1,6 +1,6 @@
 ---
 title: External.templateBeingDisplayedInLocalLibrary
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.templateBeingDisplayedInLocalLibrary
 ms.assetid: a1399c20-804b-4413-be9d-bcf160d75d29
 keywords:
 - External.templateBeingDisplayedInLocalLibrary Windows Media Player
@@ -45,7 +45,7 @@ A discovery page that represents a radio feed should inspect the **templateBeing
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11<br/>                                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

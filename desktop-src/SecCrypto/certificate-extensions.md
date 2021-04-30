@@ -1,5 +1,5 @@
 ---
-Description: Returns a collection of the extensions associated with the certificate.
+description: Returns a collection of the extensions associated with the certificate.
 ms.assetid: 07793061-6f94-4467-bb01-aa65db657658
 title: ICertificate2::Extensions method
 ms.topic: reference
@@ -43,7 +43,7 @@ An [**Extensions**](extensions.md) object that represents all of the extensions 
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

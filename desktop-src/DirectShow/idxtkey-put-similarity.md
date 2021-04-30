@@ -1,5 +1,5 @@
 ---
-Description: The put\_Similarity method specifies the range of color data that becomes transparent. At higher values, a wider range of similar colors is transparent. This property applies only when the key type is DXTKEY\_RGB or DXTKEY\_NONRED.
+description: The put\_Similarity method specifies the range of color data that becomes transparent. At higher values, a wider range of similar colors is transparent. This property applies only when the key type is DXTKEY\_RGB or DXTKEY\_NONRED.
 ms.assetid: f033b226-f36d-4288-b17e-e173546caee1
 title: IDxtKey::put_Similarity method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

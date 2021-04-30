@@ -1,5 +1,5 @@
 ---
-Description: In order to take advantage of the IPv6 enabled functions, IT administrators must define within their WPAD script, a function called FindProxyForURLEx (url, host) which will replace the legacy FindProxyForUrl (url, host) function.
+description: In order to take advantage of the IPv6 enabled functions, IT administrators must define within their WPAD script, a function called FindProxyForURLEx (url, host) which will replace the legacy FindProxyForUrl (url, host) function.
 ms.assetid: e531a66d-5c50-4065-a12a-783fd4d1d310
 title: IPv6-Aware Proxy Helper API Definitions
 ms.topic: article

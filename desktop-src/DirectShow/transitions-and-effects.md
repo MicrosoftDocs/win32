@@ -1,5 +1,5 @@
 ---
-Description: Transitions and Effects
+description: Transitions and Effects
 ms.assetid: 2925c315-4488-4961-a8f7-77a9ac571b70
 title: Transitions and Effects
 ms.topic: article

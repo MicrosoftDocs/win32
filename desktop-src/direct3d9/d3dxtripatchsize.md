@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of the triangle patch.
+description: Gets the size of the triangle patch.
 ms.assetid: 3bfbed4c-59af-43eb-a462-478e89cfe9ae
 title: D3DXTriPatchSize function (D3DX9Mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

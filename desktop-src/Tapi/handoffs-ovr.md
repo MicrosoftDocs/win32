@@ -1,5 +1,5 @@
 ---
-Description: When an application has owner privilege for a communications session, the application may choose to hand off ownership to another application.
+description: When an application has owner privilege for a communications session, the application may choose to hand off ownership to another application.
 ms.assetid: d6d188c9-9cbd-45af-93f0-b78850374919
 title: Handoffs
 ms.topic: article

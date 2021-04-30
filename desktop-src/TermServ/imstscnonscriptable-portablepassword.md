@@ -1,6 +1,6 @@
 ---
 title: IMsTscNonScriptable PortablePassword property
-description: This property is no longer available for use.
+description: This property is no longer available for use. | IMsTscNonScriptable PortablePassword property
 ms.assetid: 8d831ed3-1f4a-41a9-b283-507c5d9eea22
 ms.tgt_platform: multiple
 keywords:
@@ -82,7 +82,7 @@ Returns **E\_NOTIMPL**.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | None supported<br/>                                                              |

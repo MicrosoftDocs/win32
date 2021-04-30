@@ -1,5 +1,5 @@
 ---
-Description: Provides a list of scripts used in the specified Unicode string.
+description: Provides a list of scripts used in the specified Unicode string.
 ms.assetid: 3ad23613-8d0c-432a-b352-637c373a0980
 title: DownlevelGetStringScripts function (Idndl.h)
 ms.topic: reference
@@ -210,7 +210,7 @@ The required header file and DLL are part of the ["Microsoft Internationalized D
 
 
 
-|                                     |                                                                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                        |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSessionsException methods"
 title: EsentOutOfSessionsException methods
 TOCTitle: EsentOutOfSessionsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException

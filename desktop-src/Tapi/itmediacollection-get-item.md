@@ -1,5 +1,5 @@
 ---
-Description: The get\_Item method gets an ITMedia pointer corresponding to the specified index.
+description: The get\_Item method gets an ITMedia pointer corresponding to the specified index.
 ms.assetid: ad218357-82c8-4fcb-b71b-ba17564a5ca5
 title: ITMediaCollection::get_Item method (Sdpblb.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Most C and C++ lists are 0-based, but this index is 1-based for Visual Basic com
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

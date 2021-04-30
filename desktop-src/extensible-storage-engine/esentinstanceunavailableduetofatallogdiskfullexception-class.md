@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableDueToFatalLogDiskFullException class"
 title: EsentInstanceUnavailableDueToFatalLogDiskFullException class
 TOCTitle: EsentInstanceUnavailableDueToFatalLogDiskFullException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException

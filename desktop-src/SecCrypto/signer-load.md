@@ -1,5 +1,5 @@
 ---
-Description: Loads a signing certificate from a specified .pfx file.
+description: Loads a signing certificate from a specified .pfx file.
 ms.assetid: 98963354-c237-40d0-9235-8318728e2c8e
 title: Signer.Load method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Signer.Load method
 
-\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Load** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsSigner Class**](/dotnet/api/system.security.cryptography.pkcs.cmssigner?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Load** method loads a signing certificate from a specified .pfx file.
 
@@ -65,7 +65,7 @@ This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

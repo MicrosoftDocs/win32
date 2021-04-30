@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFilePathInUseException members"
 title: EsentLogFilePathInUseException members
 TOCTitle: EsentLogFilePathInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogFilePathInUseException

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentUsageException constructor"
 title: EsentUsageException constructor 
 TOCTitle: 'EsentUsageException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentUsageException.#ctor

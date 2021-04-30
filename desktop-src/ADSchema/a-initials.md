@@ -22,7 +22,7 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Initials                                    |
 | Ldap-Display-Name | initials                                    |
@@ -48,7 +48,7 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | 0x3A0A                                                             |
@@ -69,7 +69,7 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
@@ -90,7 +90,7 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
@@ -111,7 +111,7 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
@@ -132,7 +132,7 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |
@@ -153,7 +153,7 @@ Contains the initials for parts of the user's full name. This may be used as the
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | 0x3A0A                                                                                                                 |

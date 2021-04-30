@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of scan profiles for the device.
+description: Gets the number of scan profiles for the device.
 ms.assetid: fb1f8884-28ef-460e-a8c4-b9608cc89dc6
 title: IScanProfileMgr::GetNumProfilesforDeviceID method (Scanprofilemgr.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

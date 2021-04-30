@@ -1,5 +1,5 @@
 ---
-Description: To aid the support of ink in applications, there are two objects, both of which can be embedded and are supported by any OLE container, the text ink object (tInk) and the sketch ink object (sInk).
+description: To aid the support of ink in applications, there are two objects, both of which can be embedded and are supported by any OLE container, the text ink object (tInk) and the sketch ink object (sInk).
 ms.assetid: 0202e91c-c7a0-4e7b-a1c6-a2f58c11c0be
 title: Working with the Text Ink Object
 ms.topic: article

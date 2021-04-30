@@ -1,5 +1,5 @@
 ---
-Description: ICE64 checks that new directories in the user profile are removed correctly in roaming scenarios.
+description: ICE64 checks that new directories in the user profile are removed correctly in roaming scenarios.
 ms.assetid: d878bf4a-33c4-4c68-bd74-b7884d6680a5
 title: ICE64
 ms.topic: article

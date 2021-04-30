@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedDDLException class"
 title: EsentFixedDDLException class
 TOCTitle: EsentFixedDDLException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentFixedDDLException

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_NetworkAdapter class exposes the following methods.
+description: The CIM\_NetworkAdapter class exposes the following methods.
 ms.assetid: C36E9588-6309-4650-A878-7D397C4B24C5
 ms.tgt_platform: multiple
 title: CIM_NetworkAdapter Methods

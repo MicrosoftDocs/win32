@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.CanSeek property"
 title: ColumnStream.CanSeek property 
 TOCTitle: 'CanSeek property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnStream.CanSeek

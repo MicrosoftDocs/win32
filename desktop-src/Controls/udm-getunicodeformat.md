@@ -1,6 +1,6 @@
 ---
 title: UDM_GETUNICODEFORMAT message (Commctrl.h)
-description: Retrieves the Unicode character format flag for the control.
+description: UDM_GETUNICODEFORMAT message - Retrieves the Unicode character format flag for the control.
 ms.assetid: 8c09d37b-95a2-49cd-b578-919f9c39fa8b
 keywords:
 - UDM_GETUNICODEFORMAT message Windows Controls
@@ -42,7 +42,7 @@ See the remarks for [**CCM\_GETUNICODEFORMAT**](ccm-getunicodeformat.md) for a d
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

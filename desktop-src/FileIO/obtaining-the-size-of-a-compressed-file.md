@@ -1,5 +1,5 @@
 ---
-Description: To obtain the compressed size of a file use the GetCompressedFileSize function.
+description: To obtain the compressed size of a file use the GetCompressedFileSize function.
 ms.assetid: c6bfd221-f125-48b4-b38b-822a23639c40
 title: Obtaining the Size of a Compressed File
 ms.topic: article

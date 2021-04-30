@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for image load in page file events. The following syntax is simplified from MOF code.
+description: This class is the event type class for image load in page file events. The following syntax is simplified from MOF code.
 ms.assetid: 7d2f08e8-ec1f-4630-922a-548b55eadfda
 title: PageFault_ImageLoadBacked class
 ms.topic: reference
@@ -121,7 +121,7 @@ The event is logged during an image section creation (for example, a DLL load) w
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder produces dummy frame entries in the bit stream for duplicate frames.
+description: Specifies whether the encoder produces dummy frame entries in the bit stream for duplicate frames.
 ms.assetid: dc09cecb-98c0-40bb-9e5d-f4661bf98522
 title: MFPKEY_PRODUCEDUMMYFRAMES Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ Dummy frames can be important in applications where frame numbers are persisted.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

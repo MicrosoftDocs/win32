@@ -1,5 +1,5 @@
 ---
-Description: The read-only Components property returns a StringList object enumerating the set of installed components for all products.
+description: The read-only Components property returns a StringList object enumerating the set of installed components for all products.
 ms.assetid: 'c84e4329-428a-440a-bd65-097588a86932'
 title: Installer.Components property
 ms.topic: reference
@@ -40,7 +40,7 @@ To enumerate the components, an application can iterate through the [**StringLis
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

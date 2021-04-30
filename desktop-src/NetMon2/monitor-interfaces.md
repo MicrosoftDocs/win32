@@ -1,5 +1,5 @@
 ---
-Description: The following COM interfaces are used to develop monitors.
+description: The following COM interfaces are used to develop monitors.
 ms.assetid: 619991f5-1db1-400a-bf18-d4a6dd6999a8
 title: Monitor Interfaces
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: D3DX_FLOAT4_to_R8G8B8A8_UNORM function
-description: Unpacks DXGI\_FORMAT\_R8G8B8A8\_UNORM shader data to an XMFLOAT4.
+description: Unpacks DXGI\_FORMAT\_R8G8B8A8\_UNORM shader data to an XMFLOAT4. | D3DX_FLOAT4_to_R8G8B8A8_UNORM function
 ms.assetid: c589c1e5-24ee-4fd7-b18d-5ede52f9f05d
 keywords:
 - D3DX_FLOAT4_to_R8G8B8A8_UNORM function HLSL
@@ -47,7 +47,7 @@ The unpacked shader data.
 
 
 
-|                   |                                                                                                        |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX\_DXGIFormatConvert.inl</dt> </dl> |
 

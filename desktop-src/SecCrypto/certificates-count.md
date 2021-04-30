@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of Certificate objects in the collection.
+description: Retrieves the number of Certificate objects in the collection.
 ms.assetid: 95931721-3b0c-4915-805f-039d1d5510fa
 title: Certificates.Count property
 ms.topic: reference
@@ -42,7 +42,7 @@ CAPICOM only supports a single certificate for the [*smart card*](../secgloss/s-
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DateTimeColumnValue class"
 title: DateTimeColumnValue class
 TOCTitle: DateTimeColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.DateTimeColumnValue

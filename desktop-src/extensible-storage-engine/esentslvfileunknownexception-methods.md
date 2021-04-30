@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileUnknownException methods"
 title: EsentSLVFileUnknownException methods
 TOCTitle: EsentSLVFileUnknownException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileUnknownException

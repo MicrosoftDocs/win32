@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE methods"
 title: JET_COLUMNBASE methods
 TOCTitle: JET_COLUMNBASE methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE

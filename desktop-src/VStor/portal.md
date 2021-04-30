@@ -1,5 +1,5 @@
 ---
-Description: Encapsulate the hard disk into a single file for use by the operating system as a virtual disk. Virtual disks can function as boot disks and can host native file systems (NTFS, FAT, exFAT, and UDFS) while supporting standard disk and file operations.
+description: Encapsulate the hard disk into a single file for use by the operating system as a virtual disk. Virtual disks can function as boot disks and can host native file systems (NTFS, FAT, exFAT, and UDFS) while supporting standard disk and file operations.
 MS-HAID: vhd.portal
 MSHAttr:
 - PreferredSiteName:MSDN

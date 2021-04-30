@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the response entity body as an IStream.
+description: Retrieves the response entity body as an IStream.
 ms.assetid: e12a9338-5e0c-4672-bbc6-31375b872e94
 title: IWinHttpRequest::ResponseStream property
 ms.topic: reference
@@ -282,7 +282,7 @@ int main(int argc, char* argv[])
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

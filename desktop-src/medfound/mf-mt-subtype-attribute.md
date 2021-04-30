@@ -1,5 +1,5 @@
 ---
-Description: Subtype GUID for a media type.
+description: Subtype GUID for a media type.
 ms.assetid: 8e600943-92f1-4936-8c00-842fc7f4cb57
 title: MF_MT_SUBTYPE attribute (Mfapi.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

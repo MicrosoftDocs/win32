@@ -1,5 +1,5 @@
 ---
-Description: Size of each buffer.
+description: Size of each buffer.
 ms.assetid: 2f3b6409-6858-4975-98b8-c0c29cb14b90
 title: CBaseAllocator::m_lSize member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ long m_lSize;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

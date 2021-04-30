@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a buffer contains the start of an Advanced Systems Format (ASF) packet.
+description: Specifies whether a buffer contains the start of an Advanced Systems Format (ASF) packet.
 ms.assetid: eca3f9b7-6051-4654-8016-a9c679519bc7
 title: MFASFSPLITTER_PACKET_BOUNDARY attribute (Wmcontainer.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Note that the standard implementations of the [**IMFMediaBuffer**](/windows/desk
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

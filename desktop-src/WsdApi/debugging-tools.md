@@ -1,5 +1,5 @@
 ---
-Description: A debugging toolset built on Web Services on Devices API (WSDAPI) is available in the Windows SDK and the Windows Driver Kit (WDK).
+description: A debugging toolset built on Web Services on Devices API (WSDAPI) is available in the Windows SDK and the Windows Driver Kit (WDK).
 ms.assetid: bd7efa8b-4f12-4b19-a7df-fa34c6a3444a
 title: Debugging Tools
 ms.topic: article

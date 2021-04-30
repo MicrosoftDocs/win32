@@ -1,5 +1,5 @@
 ---
-Description: This topic contains information about writing a protocol parser, and includes examples of the export functions that the parser DLL must implement.
+description: This topic contains information about writing a protocol parser, and includes examples of the export functions that the parser DLL must implement.
 ms.assetid: 0be87b33-aab0-4986-8a86-914e0a7b8f2d
 title: Writing a Protocol Parser
 ms.topic: article

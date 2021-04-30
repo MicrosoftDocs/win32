@@ -1,5 +1,5 @@
 ---
-Description: Causes a breakpoint exception, and logs the specified string using the DbgLog macro. Ignored in retail builds.
+description: Causes a breakpoint exception, and logs the specified string using the DbgLog macro. Ignored in retail builds.
 ms.assetid: 475810db-692b-4727-9ef1-ece74e9618d0
 title: KDbgBreak macro (Wxdebug.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Unlike the [**DbgBreak**](dbgbreak.md) macro, this macro does not display a mess
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

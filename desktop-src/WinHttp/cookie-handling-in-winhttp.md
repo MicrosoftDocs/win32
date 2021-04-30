@@ -1,5 +1,5 @@
 ---
-Description: Cookie Handling in WinHTTP
+description: Cookie Handling in WinHTTP
 ms.assetid: ef0f0847-05f6-4477-8e48-e0bea66314ab
 title: Cookie Handling in WinHTTP
 ms.topic: article

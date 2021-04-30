@@ -1,5 +1,5 @@
 ---
-Description: This section contains the references for the TAPI constants.
+description: This section contains the references for the TAPI constants.
 ms.assetid: 844a69f8-fe8d-43c8-984f-e73e37dfdda5
 title: TAPI Constants
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSettingsException constructor"
 title: EsentInvalidSettingsException constructor 
 TOCTitle: 'EsentInvalidSettingsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidSettingsException.#ctor
