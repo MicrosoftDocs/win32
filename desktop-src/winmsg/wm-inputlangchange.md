@@ -74,10 +74,9 @@ case WM_INPUTLANGCHANGE:
 
 **Reference**
 
-[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
-
-[**WM\_INPUTLANGCHANGEREQUEST**](wm-inputlangchangerequest.md)
+- [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+- [**WM\_INPUTLANGCHANGEREQUEST**](wm-inputlangchangerequest.md)
 
 **Conceptual**
 
-[Windows](windows.md) 
+- [Windows](windows.md) 
