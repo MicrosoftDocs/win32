@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shldisp.h
 ms.assetid: 44a6411c-bcbc-4ef6-b5dc-7bdb4d482c6a
-api_name: 
- - IShellDispatch5.WindowSwitcher
-api_type: 
- - COM
-api_location: 
- - Shldisp.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

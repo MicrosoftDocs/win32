@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: d3c0ccf8-0f83-42f7-9d6f-1fb293da6364
-api_name: 
- - ShellLinkObject
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

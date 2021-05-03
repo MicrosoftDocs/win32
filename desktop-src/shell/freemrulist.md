@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Comctl32.dll
 ms.assetid: 51db9352-7188-4fb7-9c92-1d9579cd7250
-api_name: 
- - FreeMRUList
-api_type: 
- - DllExport
-api_location: 
- - Comctl32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

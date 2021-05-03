@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shdocvw.dll
 ms.assetid: 92e8653f-7f41-4e0b-97e5-429fddc51951
-api_name: 
- - DShellWindowsEvents.WindowRevoked
-api_type: 
- - COM
-api_location: 
- - Shdocvw.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

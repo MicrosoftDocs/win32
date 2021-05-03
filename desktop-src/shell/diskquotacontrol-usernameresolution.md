@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: dc936421-e66d-4762-912a-c586f9cdace4
-api_name: 
- - DiskQuotaControl.UserNameResolution
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

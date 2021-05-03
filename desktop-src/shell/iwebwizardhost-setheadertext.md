@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shldisp.h
 ms.assetid: e627de44-9929-4e08-9fd9-ca22743f434a
-api_name: 
- - WebWizardHost.SetHeaderText
-api_type: 
- - COM
-api_location: 
- - Shldisp.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

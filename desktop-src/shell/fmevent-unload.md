@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 15ffcd46-602f-4ad0-9c58-0b8056b9cac4
-api_name: 
- - FMEVENT_UNLOAD
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
