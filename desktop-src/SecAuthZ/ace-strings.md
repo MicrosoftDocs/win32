@@ -42,16 +42,15 @@ A string that indicates the value of the **AceType** member of the [**ACE\_HEADE
 | "AL"            | SDDL\_ALARM                             | SYSTEM\_ALARM\_ACE\_TYPE                                                                                                                                           |
 | "OU"            | SDDL\_OBJECT\_AUDIT                     | SYSTEM\_AUDIT\_OBJECT\_ACE\_TYPE                                                                                                                                   |
 | "OL"            | SDDL\_OBJECT\_ALARM                     | SYSTEM\_ALARM\_OBJECT\_ACE\_TYPE                                                                                                                                   |
-| "ML"            | SDDL\_MANDATORY\_LABEL                  | SYSTEM\_MANDATORY\_LABEL\_ACE\_TYPE                                                                                                                                |
-| "XA"            | SDDL\_CALLBACK\_ACCESS\_ALLOWED         | ACCESS\_ALLOWED\_CALLBACK\_ACE\_TYPE**Windows Vista and Windows Server 2003:** Not available.<br/>                                                           |
-| "XD"            | SDDL\_CALLBACK\_ACCESS\_DENIED          | ACCESS\_DENIED\_CALLBACK\_ACE\_TYPE**Windows Vista and Windows Server 2003:** Not available.<br/>                                                            |
-| "RA"            | SDDL\_RESOURCE\_ATTRIBUTE               | SYSTEM\_RESOURCE\_ATTRIBUTE\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/> |
-| "SP"            | SDDL\_SCOPED\_POLICY\_ID                | SYSTEM\_SCOPED\_POLICY\_ID\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>  |
-| "XU"            | SDDL\_CALLBACK\_AUDIT                   | SYSTEM\_AUDIT\_CALLBACK\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>     |
-| "ZA"            | SDDL\_CALLBACK\_OBJECT\_ACCESS\_ALLOWED | ACCESS\_ALLOWED\_CALLBACK\_ACE\_TYPE**Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>   |
-
-
-
+| "ML"            | SDDL\_MANDATORY\_LABEL                  | SYSTEM\_MANDATORY\_LABEL\_ACE\_TYPE **Windows Server 2003:** Not available.                                                                                        |
+| "XA"            | SDDL\_CALLBACK\_ACCESS\_ALLOWED         | ACCESS\_ALLOWED\_CALLBACK\_ACE\_TYPE **Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.                                                |
+| "XD"            | SDDL\_CALLBACK\_ACCESS\_DENIED          | ACCESS\_DENIED\_CALLBACK\_ACE\_TYPE **Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.                                                 |
+| "RA"            | SDDL\_RESOURCE\_ATTRIBUTE               | SYSTEM\_RESOURCE\_ATTRIBUTE\_ACE\_TYPE **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/> |
+| "SP"            | SDDL\_SCOPED\_POLICY\_ID                | SYSTEM\_SCOPED\_POLICY\_ID\_ACE\_TYPE **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>  |
+| "XU"            | SDDL\_CALLBACK\_AUDIT                   | SYSTEM\_AUDIT\_CALLBACK\_ACE\_TYPE **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>     |
+| "ZA"            | SDDL\_CALLBACK\_OBJECT\_ACCESS\_ALLOWED | ACCESS\_ALLOWED\_CALLBACK\_ACE\_TYPE **Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available.<br/>   |
+| "TL"            | SDDL\_PROCESS\_TRUST\_LABEL             | SYSTEM\_PROCESS\_TRUST\_LABEL\_ACE\_TYPE **Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
+| "FL"            | SDDL\_ACCESS\_FILTER                    | SYSTEM\_ACCESS\_FILTER\_ACE\_TYPE **Windows Server 2016, Windows 10 Version 1607, Windows 10 Version 1511, Windows 10 Version 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
  
 
 > [!Note]  
@@ -77,9 +76,8 @@ A string that indicates the value of the **AceFlags** member of the [**ACE\_HEAD
 | "ID"             | SDDL\_INHERITED          | INHERITED\_ACE                |
 | "SA"             | SDDL\_AUDIT\_SUCCESS     | SUCCESSFUL\_ACCESS\_ACE\_FLAG |
 | "FA"             | SDDL\_AUDIT\_FAILURE     | FAILED\_ACCESS\_ACE\_FLAG     |
-
-
-
+| "TP"             | SDDL\_TRUST\_PROTECTED\_FILTER | TRUST\_PROTECTED\_FILTER\_ACE\_FLAG **Windows Server 2016, Windows 10 Version 1607, Windows 10 Version 1511, Windows 10 Version 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
+| "CR"             | SDDL\_CRITICAL           | CRITICAL\_ACE\_FLAG **Windows Server Version 1803, Windows 10 Version 1803, Windows Server Version 1709, Windows 10 Version 1709, Windows 10 Version 1703, Windows Server 2016, Windows 10 Version 1607, Windows 10 Version 1511, Windows 10 Version 1507, Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
  
 
 </dd> <dt>
@@ -147,9 +145,9 @@ A string that indicates the [access rights](access-rights-and-access-masks.md) c
 
 | Access rights string | Constant in Sddl.h | Access right value |
 |----------------------|--------------------|--------------------|
-| "NR"                 | SDDL\_NO\_READ\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_READ\_UP |
-| "NW"                 | SDDL\_NO\_WRITE\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_WRITE\_UP |
-| "NX"                 | SDDL\_NO\_EXECUTE\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_EXECUTE\_UP |
+| "NR"                 | SDDL\_NO\_READ\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_READ\_UP **Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
+| "NW"                 | SDDL\_NO\_WRITE\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_WRITE\_UP **Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
+| "NX"                 | SDDL\_NO\_EXECUTE\_UP | SYSTEM\_MANDATORY\_LABEL\_NO\_EXECUTE\_UP **Windows Server 2008, Windows Vista and Windows Server 2003:** Not available. |
 </dd> <dt>
 
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**object\_guid**
