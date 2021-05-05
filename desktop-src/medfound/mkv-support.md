@@ -30,50 +30,78 @@ MKV files that contain video and audio tracks encoded with the codecs listed in 
 ## Supported MKV codecs
 
 Matroska ID: V_MPEG4/ISO/AVC
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFVideoFormat_H264
 - Description: H.264 video
 - FourCC or WAV identifiers: H264
+
 Matroska ID: V_MPEG2
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFVideoFormat_MPEG2
 - Description: MPEG-2 video
+
 Matroska ID: V_MPEG1
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFVideoFormat_MPG1
 - Description: MPEG-1 video
 - FourCC or WAV identifiers: MPG1
+
 Matroska ID: V_MPEG4/MS/V3
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFVideoFormat_MP43
 - Description: Microsoft MPEG 4 codec version 3
 - FourCC or WAV identifiers: MP43
+
 Matroska ID: V_MPEG4/ISO/ASP
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFVideoFormat_MP4V
 - Description: MPEG-4 part 2 video
 - FourCC or WAV identifiers: MP4V
+
 Matroska ID: V_MS/VFW/FOURCC
+
 - Description: Maps to several codecs usually supported in the AVI format that are available on the console.
+
 Matroska ID: A_AAC
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFAudioFormat_AAC
 - Description: Advanced Audio Coding (AAC)
 - FourCC or WAV identifiers: WAVE_FORMAT_MPEG_HEAAC
+
 Matroska ID: A_AC3
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFAudioFormat_Dolby_AC3
+
+MFAudioFormat_Dolby_AC3
+
 - Description: Dolby Digital (AC-3)
+
 Matroska ID: A_MPEG/L3
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFAudioFormat_MP3
 - Description: MPEG Audio Layer-3 (MP3)
 - FourCC or WAV identifiers: WAVE_FORMAT_MPEGLAYER3
+
 Matroska ID: A_MPEG/L1
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFAudioFormat_MPEG
 - Description: MPEG-1 audio payload
 - FourCC or WAV identifiers: WAVE_FORMAT_MPEG
+
 Matroska ID: A_PCM/INT/BIG
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFAudioFormat_PCM
 - Description: Uncompressed PCM audio
 - FourCC or WAV identifiers: WAVE_FORMAT_PCM
+
 Matroska ID: A_PCM/INT/LIT
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFAudioFormat_PCM
 - Description: Uncompressed PCM audio
 - FourCC or WAV identifiers: WAVE_FORMAT_PCM
+
 Matroska ID: A_PCM/FLOAT/IEEE
+
 - MSFT Media Foundation MF_MT_SUBTYPE: MFAudioFormat_Float
 - Description: Uncompressed IEEE floating-point audio
 - FourCC or WAV identifiers: WAVE_FORMAT_IEEE_FLOAT
