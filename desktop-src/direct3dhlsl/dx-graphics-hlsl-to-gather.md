@@ -79,7 +79,7 @@ Gets the four samples (red component only) that would be used for bilinear inter
 </tr>
 <tr class="even">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Offset</em></p></td>
-<td><p>[in] An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling. The texture offsets need to be static. The argument type is dependent on the texture-object type. For more info, see <a href="dx-graphics-hlsl-to-sample.md">Applying texture coordinate offsets</a>.</p>
+<td><p>[in] An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling. The argument type is dependent on the texture-object type. For pre-Shader Model 5.0 shaders, the texture offsets need to be immediate integers between -8 and 7.</p>
 
 <table>
 <thead>
