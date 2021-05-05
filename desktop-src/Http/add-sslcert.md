@@ -40,28 +40,28 @@ add sslcert [ipport=]IP Address:port
 
 <dl> <dt>
 
-<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ipport=\]***IP Address:port*
+<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ipport=IP Address:port\]**
 </dt> <dd>
 
 Specifies the IP address and port for the binding.
 
 </dd> <dt>
 
-<span id="_certhash__string"></span><span id="_CERTHASH__STRING"></span>**\[certhash=\]***string*
+<span id="_certhash__string"></span><span id="_CERTHASH__STRING"></span>**\[certhash=string\]**
 </dt> <dd>
 
 Specifies the SHA hash of the certificate. This hash is 20 bytes long and specified as a hexadecimal string.
 
 </dd> <dt>
 
-<span id="_appid__GUID"></span><span id="_appid__guid"></span><span id="_APPID__GUID"></span>**\[appid=\]***GUID*
+<span id="_appid__GUID"></span><span id="_appid__guid"></span><span id="_APPID__GUID"></span>**\[appid=GUID\]**
 </dt> <dd>
 
 Specifies the GUID to identify the owning application.
 
 </dd> <dt>
 
-<span id="_certstorename__string"></span><span id="_CERTSTORENAME__STRING"></span>**\[certstorename=\]***string*
+<span id="_certstorename__string"></span><span id="_CERTSTORENAME__STRING"></span>**\[certstorename=string\]**
 </dt> <dd>
 
 Specifies the store name for the certificate. Defaults to MY. Certificate must be stored in the local computer context.
@@ -89,28 +89,28 @@ Turns on or turns off usage check. Default is enabled.
 
 </dd> <dt>
 
-<span id="_revocationfreshnesstime__u-int"></span><span id="_REVOCATIONFRESHNESSTIME__U-INT"></span>**\[revocationfreshnesstime=\]***u-int*
+<span id="_revocationfreshnesstime__u-int"></span><span id="_REVOCATIONFRESHNESSTIME__U-INT"></span>**\[revocationfreshnesstime=u-int\]**
 </dt> <dd>
 
 Specifies the time interval to check for an updated certificate revocation list (CRL). If this value is 0, then the new CRL is updated only if the previous one expires (in seconds).
 
 </dd> <dt>
 
-<span id="_urlretrievaltimeout__u-int"></span><span id="_URLRETRIEVALTIMEOUT__U-INT"></span>**\[urlretrievaltimeout=\]***u-int*
+<span id="_urlretrievaltimeout__u-int"></span><span id="_URLRETRIEVALTIMEOUT__U-INT"></span>**\[urlretrievaltimeout=u-int\]**
 </dt> <dd>
 
 Specifies the timeout interval on attempts to retrieve the certificate revocation list for the remote URL (in milliseconds).
 
 </dd> <dt>
 
-<span id="_sslctlidentifier__string"></span><span id="_SSLCTLIDENTIFIER__STRING"></span>**\[sslctlidentifier=\]***string*
+<span id="_sslctlidentifier__string"></span><span id="_SSLCTLIDENTIFIER__STRING"></span>**\[sslctlidentifier=string\]**
 </dt> <dd>
 
 Lists the certificate issuers that can be trusted. This list can be a subset of the certificate issuers that are trusted by the computer.
 
 </dd> <dt>
 
-<span id="_sslctlstorename__string"></span><span id="_SSLCTLSTORENAME__STRING"></span>**\[sslctlstorename=\]***string*
+<span id="_sslctlstorename__string"></span><span id="_SSLCTLSTORENAME__STRING"></span>**\[sslctlstorename=string\]**
 </dt> <dd>
 
 Specifies the store name under LOCAL\_MACHINE where SslCtlIdentifier is stored.
