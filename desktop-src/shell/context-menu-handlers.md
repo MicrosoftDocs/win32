@@ -8,12 +8,10 @@ ms.date: 05/31/2018
 
 # Creating Shortcut Menu Handlers
 
-Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
+Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be impelmented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
 
 > [!Note]  
-> There are special considerations for 64-bit Windows when registering handlers that work in the context of 32-bit applications: when Shell verbs are invoked in the context of a 32-bit application, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
-
- 
+> There are special considerations for 64-bit based versions of Windows when registering handlers that work in the context of 32-bit applications: when invoked in the context of an application of different bitness, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
 
 This topic is organized as follows:
 
@@ -40,7 +38,6 @@ This topic is organized as follows:
 Applications are generally responsible for providing localized display strings for the verbs they define. However, to provide a degree of language independence, the system defines a standard set of commonly used verbs called canonical verbs. A canonical verb is never displayed to the user, and can be used with any UI language. The system uses the canonical name to automatically generate a properly localized display string. For instance, the open verb's display string is set to **Open** on an English system, and to the German equivalent on a German system.
 
 
-
 | Canonical verb | Description                                                          |
 |----------------|----------------------------------------------------------------------|
 | Open           | Opens the file or folder.                                            |
@@ -50,14 +47,8 @@ Applications are generally responsible for providing localized display strings f
 | Explore        | Opens Windows Explorer with the folder selected.                     |
 | Properties     | Opens the object's property sheet.                                   |
 
-
-
- 
-
 > [!Note]  
 > The **Printto** verb is also canonical, but it is never displayed. Its inclusion enables the user to print a file by dragging it to a printer object.
-
- 
 
 Shortcut menu handlers can provide their own canonical verbs through [**IContextMenu::GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) with **GCS\_VERBW**, or **GCS\_VERBA**. The system will use the canonical verbs as the second parameter (*lpOperation*) passed to [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea), and is the [**CMINVOKECOMMANDINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo).**lpVerb** member passed to the [**IContextMenu::InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) method.
 
