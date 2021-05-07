@@ -85,7 +85,7 @@ Data type: **uint32**
 Access type: Read-only
 </dt> </dl>
 
-Video output technology connection type. Valid values are documented in the [D3DKMDT\_VIDEO\_OUTPUT\_TECHNOLOGY](https://msdn.microsoft.com/library/ms794498.aspx) (<--fix this please) enumeration.
+Video output technology connection type. Valid values are documented in the [D3DKMDT\_VIDEO\_OUTPUT\_TECHNOLOGY](/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology) enumeration.
 
 </dd> </dl>
 
