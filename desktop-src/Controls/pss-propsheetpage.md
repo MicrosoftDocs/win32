@@ -127,7 +127,7 @@ Pointer to the dialog box procedure for the page. Because the pages are created 
 
 Type: [LPARAM](../winprog/windows-data-types.md)
 
-When the page is created, a copy of the page's **PROPSHEETPAGE** structure is passed to the dialog box procedure with a [WM_INITDIALOG](/windows/win32/dlgbox/wm-initdialog) message. The *lParam* member is provided to allow you to pass application-specific information to the dialog box procedure. It has no effect on the page itself.
+When the page is created, a copy of the page's **PROPSHEETPAGE** structure is passed to the dialog box procedure with a [WM_INITDIALOG](../dlgbox/wm-initdialog.md) message. The *lParam* member is provided to allow you to pass application-specific information to the dialog box procedure. It has no effect on the page itself.
 
 *pfnCallback* 
 

@@ -136,7 +136,7 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
 
 ### Example 3. Axis direction
 
-Setting the *AxisDirection* to [**DML_AXIS_DIRECTION_DECREASING**](/windows/win32/direct3d12/directml/ne-directml-dml_axis_direction) has the effect of reversing the traversal order of elements when computing the running tally.
+Setting the *AxisDirection* to [**DML_AXIS_DIRECTION_DECREASING**](./ne-directml-dml_axis_direction.md) has the effect of reversing the traversal order of elements when computing the running tally.
 
 ```
 Axis: 3

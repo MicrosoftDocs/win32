@@ -134,7 +134,7 @@ To achieve the **abcabcabc....** memory layout, use a descriptor table without u
 
 ## Resource aliasing
 
-The resource ranges specified in the HLSL shaders are logical ranges. They are be bound to concrete heap ranges at runtime via the root signature mechanism. Normally, a logical range maps to a heap range that does not overlap with other heap ranges. However, the root signature mechanism makes it possible to alias (overlap) heap ranges of compatible types. For example, `tex2` and `tex3` ranges from the above example may be mapped to the same (or overlapping) heap range, which has the effect of aliasing textures in the HLSL program. If such aliasing is desired, the shader must be compiled with D3D10\_SHADER\_RESOURCES\_MAY\_ALIAS option, which is set by using the */res\_may\_alias* option for the [Effect-Compiler Tool](/windows/win32/direct3dtools/fxc) (FXC). The option makes the compiler produce correct code by preventing certain load/store optimizations under the assumption that resources may alias.
+The resource ranges specified in the HLSL shaders are logical ranges. They are be bound to concrete heap ranges at runtime via the root signature mechanism. Normally, a logical range maps to a heap range that does not overlap with other heap ranges. However, the root signature mechanism makes it possible to alias (overlap) heap ranges of compatible types. For example, `tex2` and `tex3` ranges from the above example may be mapped to the same (or overlapping) heap range, which has the effect of aliasing textures in the HLSL program. If such aliasing is desired, the shader must be compiled with D3D10\_SHADER\_RESOURCES\_MAY\_ALIAS option, which is set by using the */res\_may\_alias* option for the [Effect-Compiler Tool](../direct3dtools/fxc.md) (FXC). The option makes the compiler produce correct code by preventing certain load/store optimizations under the assumption that resources may alias.
 
 ## Divergence and derivatives
 
@@ -311,11 +311,11 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 ## Related topics
 
 * [Dynamic Indexing using HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
-* [Effect-Compiler Tool](/windows/win32/direct3dtools/fxc)
-* [HLSL Shader Model 5.1 Features for Direct3D 12](/windows/win32/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
+* [Effect-Compiler Tool](../direct3dtools/fxc.md)
+* [HLSL Shader Model 5.1 Features for Direct3D 12](../direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12.md)
 * [Rasterizer Ordered Views](rasterizer-order-views.md)
 * [Resource Binding](resource-binding.md)
 * [Root Signatures](root-signatures.md)
-* [Shader Model 5.1](/windows/win32/direct3dhlsl/shader-model-5-1)
+* [Shader Model 5.1](../direct3dhlsl/shader-model-5-1.md)
 * [Shader Specified Stencil Reference Value](shader-specified-stencil-reference-value.md)
 * [Specifying Root Signatures in HLSL](specifying-root-signatures-in-hlsl.md)

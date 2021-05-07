@@ -20,7 +20,7 @@ ms.date: 05/31/2018
 
 # FILEOKSTRING message
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/windows/win32/shell/common-file-dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](../shell/common-file-dialog.md). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 An **Open** or **Save As** dialog box sends the **FILEOKSTRING** registered message to your hook procedure, [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc), when the user specifies a file name and clicks the **OK** button. The hook procedure can accept the file name and allow the dialog box to close, or reject the file name and force the dialog box to remain open.
 
@@ -93,6 +93,4 @@ The hook procedure must specify the **FILEOKSTRING** constant in a call to the [
 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

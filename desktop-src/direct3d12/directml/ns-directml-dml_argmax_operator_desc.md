@@ -83,13 +83,13 @@ The tensor to write the results to. Each output element is the result of an *arg
 
 `AxisCount`
 
-Type: **[UINT](/windows/win32/winprog/windows-data-types)**
+Type: **[UINT](../../winprog/windows-data-types.md)**
 
 The number of axes to reduce. This field determines the size of the *Axes* array.
 
 `Axes`
 
-Type: \_Field_size\_(AxisCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***
+Type: \_Field_size\_(AxisCount) **const [UINT](../../winprog/windows-data-types.md)\***
 
 The axes along which to reduce. Values must be in the range `[0, InputTensor.DimensionCount - 1]`.
 

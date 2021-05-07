@@ -88,31 +88,31 @@ An output tensor containing the backpropagated gradients.
 
 `CrossChannel`
 
-Type: **[BOOL](/windows/win32/winprog/windows-data-types)**
+Type: **[BOOL](../../winprog/windows-data-types.md)**
 
 **TRUE** if the LRN layer sums across channels; **FALSE** if the LRN layer sums across spatial dimensions.
 
 `LocalSize`
 
-Type: **[UINT](/windows/win32/winprog/windows-data-types)**
+Type: **[UINT](../../winprog/windows-data-types.md)**
 
 The maximum number of elements to sum over per dimension (the local region is clipped so that all elements are within bounds). If *CrossChannel* is **TRUE**, then this is the width and height of the local region. If *CrossChannel* is **FALSE**, then this is the number of elements in the local region. This value must be at least 1.
 
 `Alpha`
 
-Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
+Type: **[FLOAT](../../winprog/windows-data-types.md)**
 
 The value of the scaling parameter. We recommend a value of 0.0001 as default.
 
 `Beta`
 
-Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
+Type: **[FLOAT](../../winprog/windows-data-types.md)**
 
 The value of the exponent. We recommend a value of 0.75 as default.
 
 `Bias`
 
-Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
+Type: **[FLOAT](../../winprog/windows-data-types.md)**
 
 The value of bias. We recommend a value of 1 as default.
 

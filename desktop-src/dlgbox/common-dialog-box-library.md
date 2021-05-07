@@ -28,7 +28,7 @@ The Common Dialog Box Library contains a set of dialog boxes for performing comm
 This section describes the common dialog boxes which include the **Open** and **Save As** file dialog boxes; the **Find** and **Replace** editing dialog boxes; the **Print**, **Print Setup**, **Print Property Sheet**, and **Page Setup** printing dialog boxes; and the **Color** and **Font** dialog boxes.
 
 > [!Note]  
-> Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/windows/win32/shell/common-file-dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.
+> Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](../shell/common-file-dialog.md). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.
 
  
 
@@ -166,8 +166,6 @@ This section describes the common dialog boxes which include the **Open** and **
 | [**PRINTPAGERANGE**](/windows/win32/api/commdlg/ns-commdlg-printpagerange)      | Specifies a range of pages in a print job. A print job can have more than one page range. This information is supplied in the [**PRINTDLGEX**](/windows/win32/api/commdlg/ns-commdlg-printdlgexa) structure when calling the [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) function.<br/>                                                                                                                                                                                                               |
 
 
-
- 
 
  
 
