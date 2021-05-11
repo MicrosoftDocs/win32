@@ -61,7 +61,7 @@ You can use the registry to define one or more extended verbs. The associated co
 
 ## Programmatic Access Only
 
-These verbs are never displayed in a context menu. These can be accessed using [**ShellExecute**](desktop-src/shell/context-menu-handlers.md), specifying the **lpVerb** parameter. To define a verb as programmatic access only, add an "ProgrammaticAccessOnly" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
+These verbs are never displayed in a context menu. These can be accessed by using [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) and specifying the **lpVerb** field of the *pExecInfo* parameter (a [SHELLEXECUTEINFO](/windows/win32/api/shellapi/ns-shellapi-shellexecuteinfoa) object). To define a verb as programmatic access only, add an "ProgrammaticAccessOnly" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 
 You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while also pressing the SHIFT key. To define a verb as extended, add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 
