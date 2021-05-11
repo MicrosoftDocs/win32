@@ -17,6 +17,7 @@ This topic is organized as follows:
 
 -   [Canonical Verbs](#canonical-verbs)
 -   [Extended Verbs](#extended-verbs)
+-   [Programmatic Access Only Verbs](#programmaticaccessonly-verbs)
 -   [Customizing a Shortcut Menu Using Static Verbs](#customizing-a-shortcut-menu-using-static-verbs)
     -   [Activating Your Handler Using the IDropTarget Interface](#activating-your-handler-using-the-idroptarget-interface)
     -   [Specifying the Position and Order of Static Verbs](#specifying-the-position-and-order-of-static-verbs)
@@ -55,6 +56,12 @@ Shortcut menu handlers can provide their own canonical verbs through [**IContext
 ## Extended Verbs
 
 When the user right-clicks an object, the shortcut menu displays the default verbs. You might want to add and support commands on some shortcut menus that are not displayed on every shortcut menu. For example, you could have commands that are not commonly used or that are intended for experienced users. For this reason, you can also define one or more extended verbs. These verbs are similar to normal verbs, but are distinguished from normal verbs by the way they are registered. To have access to extended verbs, the user must right-click an object while pressing the SHIFT key. When the user does so, the extended verbs are displayed in addition to the default verbs.
+
+You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while also pressing the SHIFT key. To define a verb as extended, add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
+
+## Programmatic Access Only
+
+These verbs are never displayed in a context menu. These can be accessed using [**ShellExecute**], specifying the **lpVerb** parameter. To define a verb as programmatic access only, add an "ProgrammaticAccessOnly" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 
 You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while also pressing the SHIFT key. To define a verb as extended, add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 
