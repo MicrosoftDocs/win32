@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 1610d91e-87c3-4ba5-9147-1595eddb2c3a
-api_name: 
- - ShellFolderView.PopupItemMenu
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

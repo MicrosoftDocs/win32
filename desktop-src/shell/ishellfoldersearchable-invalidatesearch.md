@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 6985a299-8547-4db4-99f9-d46dafe4789b
-api_name: 
- - IShellFolderSearchable.InvalidateSearch
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

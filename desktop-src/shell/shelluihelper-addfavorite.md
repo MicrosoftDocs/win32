@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: b30e776e-642c-4599-b83f-ef15bc0b23d2
-api_name: 
- - ShellUIHelper.AddFavorite
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

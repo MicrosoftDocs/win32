@@ -12,14 +12,6 @@ api_type:
 - COM
 api_location: 
 ms.assetid: d8fb8fa5-452b-45fd-b015-d9bf3d0c642e
-api_name: 
- - IACLCustomMRU.AddMRUString
-api_type: 
- - COM
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

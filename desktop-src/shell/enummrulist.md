@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Comctl32.dll
 ms.assetid: 630e5f27-96bf-4e88-b01a-127b301cc051
-api_name: 
- - EnumMRUListW
- - EnumMRUListW
-api_type: 
- - DllExport
-api_location: 
- - Comctl32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

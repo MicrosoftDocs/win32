@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shsvcs.dll
 ms.assetid: ff0ad023-42ea-4c74-adae-af55527b6ac3
-api_name: 
- - CreateHardwareEventMoniker
-api_type: 
- - DllExport
-api_location: 
- - Shsvcs.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

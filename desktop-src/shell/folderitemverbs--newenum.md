@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 63cfc56c-4e6f-4e69-9fce-f625d550023b
-api_name: 
- - FolderItemVerbs._NewEnum
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

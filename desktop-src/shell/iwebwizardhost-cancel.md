@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shldisp.h
 ms.assetid: ea53c8ad-d6dd-4ff7-92e4-681d807a3d98
-api_name: 
- - WebWizardHost.Cancel
-api_type: 
- - COM
-api_location: 
- - Shldisp.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: b0766ecf-6e22-4481-a6a7-df873a277bc2
-api_name: 
- - DiskQuotaControl.QuotaState
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
