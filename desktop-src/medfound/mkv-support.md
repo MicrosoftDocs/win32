@@ -74,7 +74,7 @@ Matroska ID: V_MPEG4/ISO/SP
 - Description: MPEG4 ISO simple profile (DivX4)
 - FourCC or WAV identifiers: MP4V
 
-Matroska ID: V_MPEG4/ISO/A
+Matroska ID: V_MPEG4/ISO/AP
 
 - MSFT Media Foundation MF_MT_SUBTYPE: MFVideoFormat_MP4V
 - Description: MPEG4 ISO advanced simple profile (DivX5, XviD, FFMPEG)
