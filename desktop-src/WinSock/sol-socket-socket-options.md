@@ -3,7 +3,7 @@ description: The following tables describe SOL\_SOCKET socket options. See the g
 ms.assetid: 0cd0056e-0c33-4f6e-9f70-5417f8f8da4b
 title: SOL_SOCKET Socket Options (Winsock2.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/12/2021
 ---
 
 # SOL\_SOCKET Socket Options
@@ -19,7 +19,8 @@ Some socket options require more explanation than these tables can convey; such 
 
  
 
-<dl> <dt><span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>**SOL\_SOCKET Socket Options**</dt> <dd> <dl> <dt> 
+<span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>
+**SOL\_SOCKET Socket Options**
 
 | Option                                                   | Get | Set | Optval type                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |----------------------------------------------------------|-----|-----|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -69,13 +70,11 @@ Some socket options require more explanation than these tables can convey; such 
 | SO\_TYPE                                                 | yes |     | DWORD                                            | Returns the socket type for the given socket (SOCK\_STREAM or SOCK\_DGRAM, for example).                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | SO\_UPDATE\_ACCEPT\_CONTEXT                              |     | yes | DWORD (boolean)                                  | This option is used with the [**AcceptEx**](/windows/win32/api/mswsock/nf-mswsock-acceptex) function. This option updates the properties of the socket which are inherited from the listening socket. This option should be set if the [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername), [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname), [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt), or [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) functions are to be used on the accepted socket.                                                                                                                             |
 | SO\_UPDATE\_CONNECT\_CONTEXT                             |     | yes | DWORD (boolean)                                  | This option is used with the [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex), [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist), and [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) functions. This option updates the properties of the socket after the connection is established. This option should be set if the [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername), [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname), [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt), [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt), or [**shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown) functions are to be used on the connected socket. |
-| SO\_USELOOPBACK                                          | yes | yes | DWORD (boolean)                                  | Use the local loopback address when sending data from this socket. This option should only be used when all data sent will also be received locally. This option is not supported by the Windows TCP/IP provider. If this option is used on Windows Vista and later, the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) and [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) functions fail with WSAEINVAL. On earlier versions of Windows, these functions fail with WSAENOPROTOOPT.<br/>                                                                    |
+| SO\_USELOOPBACK                                          | yes | yes | DWORD (boolean)                                  | Use the local loopback address when sending data from this socket. This option should only be used when all data sent will also be received locally. This option is not supported by the Windows TCP/IP provider. If this option is used on Windows Vista and later, the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) and [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) functions fail with WSAEINVAL. On earlier versions of Windows, these functions fail with WSAENOPROTOOPT.                                                                    |
 
 
-
- 
-
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>**Windows Support for SOL\_SOCKET Options**</dt> <dd> <dl> <dt> 
+<span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>
+**Windows Support for SOL_SOCKET Options**
 
 | Option                                          | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/ME |
 |-------------------------------------------------|------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
@@ -127,12 +126,6 @@ Some socket options require more explanation than these tables can convey; such 
 | SO\_UPDATE\_CONNECT\_CONTEXT                    | x          | x         | x                   | x             | x                   | x          |              |             |               |
 | SO\_USELOOPBACK                                 |            |           |                     |               |                     |            |              |             |               |
 
-
-
- 
-
-
-</dt> </dl> </dd> </dl>
 
 ## Remarks
 
