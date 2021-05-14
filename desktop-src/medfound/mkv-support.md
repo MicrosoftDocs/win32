@@ -27,7 +27,7 @@ MKV files that contain video and audio tracks encoded with the codecs listed in 
 
 ## Supported MKV codecs
 
-### Video
+### Video codec support for MKV
 
 Matroska ID: V_MPEG4/ISO/AVC
 
@@ -111,7 +111,7 @@ Matroska ID: V_AV1
 - Description: AOMedia Video 1
 - FourCC or WAV identifiers: AV01
 
-# Audio
+### Audio codec support for MKV
 
 Matroska ID: A_AAC
 
@@ -214,7 +214,7 @@ Matroska ID: A_MS/ACM
 - MSFT Media Foundation MF_MT_SUBTYPE: Maps to several WAVE_FORMAT audio types defined in mmreg.h
 
 
-# Subtitles
+### Subtitles codec support for MKV
 
 Matroska ID: S_TEXT/ASCII
 
