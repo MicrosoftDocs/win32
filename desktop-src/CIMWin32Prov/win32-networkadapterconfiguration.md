@@ -79,7 +79,7 @@ api_location:
 
 # Win32\_NetworkAdapterConfiguration class
 
-The **Win32\_NetworkAdapterConfiguration** [WMI class](../wmisdk/retrieving-a-class.md)represents the attributes and behaviors of a network adapter. This class includes extra properties and methods that support the management of the TCP/IP protocol that are independent from the network adapter.
+The **Win32\_NetworkAdapterConfiguration** [WMI class](../wmisdk/retrieving-a-class.md) represents the attributes and behaviors of a network adapter. This class includes extra properties and methods that support the management of the TCP/IP protocol that are independent from the network adapter.
 
 The following syntax is simplified from Managed Object Format (MOF) code and includes all of the inherited properties. Properties are listed in alphabetic order, not MOF order.
 
