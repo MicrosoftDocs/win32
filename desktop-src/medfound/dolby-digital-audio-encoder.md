@@ -1,5 +1,5 @@
 ---
-description: The Dolby audio decoder is a Media Foundation transform (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3.
+description: The Dolby audio encoder is a Media Foundation transform (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3.
 ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: Dolby Digital Audio Encoder
 ms.topic: reference
