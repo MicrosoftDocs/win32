@@ -72,7 +72,7 @@ This function does not return a value.
 
 ## Remarks
 
-The **gluOrtho2D** function sets up a two-dimensional orthographic viewing region. This is equivalent to calling [**glOrtho**](glortho.md) with near =  1 and far = 1.
+The **gluOrtho2D** function sets up a two-dimensional orthographic viewing region. This is equivalent to calling [**glOrtho**](glortho.md) with zNear = -1 and zFar = 1.
 
 ## Requirements
 
