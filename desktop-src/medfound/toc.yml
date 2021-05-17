@@ -2537,6 +2537,8 @@
           href: mf-capture-engine-use-audio-device-only.md
         - name: "MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY Attribute"
           href: mf-capture-engine-use-video-device-only.md
+        - name: "MF_CAPTURE_METADATA_FRAME_BACKGROUND_MASK"
+          href: mf-capture-metadata-frame-background-mask.md
         - name: "MF_CAPTURE_METADATA_FRAME_ILLUMINATION"
           href: mf-capture-metadata-frame-illumination.md
         - name: "MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH"
