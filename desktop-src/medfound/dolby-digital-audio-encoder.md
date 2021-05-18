@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Dolby Digital Audio Encoder
 
-The Dolby audio decoder is a [Media Foundation transform](media-foundation-transforms.md) (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3. The encoder does not support multi-channel input, such as the 5.1 channel configuration.
+The Dolby audio encoder is a [Media Foundation transform](media-foundation-transforms.md) (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3. The encoder does not support multi-channel input, such as the 5.1 channel configuration.
 
 > [!IMPORTANT]
 > For versions of Windows prior to Windows 8, the Microsoft implementation of the Dolby Digital technology is restricted under terms of the Dolby Digital licensing program to use by Microsoft applications.
@@ -19,7 +19,7 @@ For more information about Dolby Digital audio, refer to Advanced Television Sys
 
 ## Class Identifier
 
-The class identifier (CLSID) of the Dolby audio decoder is **CLSID\_CMSDolbyDigitalEncMFT**, defined in the header file wmcodecdsp.h.
+The class identifier (CLSID) of the Dolby audio encoder is **CLSID\_CMSDolbyDigitalEncMFT**, defined in the header file wmcodecdsp.h.
 
 ## Output Types
 
