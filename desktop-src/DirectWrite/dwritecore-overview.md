@@ -10,7 +10,7 @@ ms.date: 04/22/2021
 
 # DWriteCore overview
 
-DWriteCore is the [Project Reunion](/windows/apps/project-reunion/) implementation of [DirectWrite](./direct-write-portal.md) (DirectWrite is the DirectX API for high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support). DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform.
+DWriteCore is the [Project Reunion](/windows/apps/project-reunion/) implementation of [DirectWrite](./direct-write-portal.md) (DirectWrite is the DirectX API for high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layout support). DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 10, version 1809 (10.0; Build 17763), and opens the door for you to use it cross-platform.
 
 This introductory topic describes what DWriteCore is, and shows how to install it into your dev environment and program with it.
 
@@ -20,9 +20,9 @@ This introductory topic describes what DWriteCore is, and shows how to install i
 
 Due to the long lifespan of DirectWrite, however, advances in development have tended to leave older versions of Windows behind. In addition, DirectWrite's status as the premier text rendering technology is limited only to Windows, leaving cross-platform applications to either write their own text-rendering stack, or to rely on 3rd-party solutions.
 
-DWriteCore solves the fundamental problems of version feature orphaning and cross-platform compatibility by removing the library from the system, and targeting all possible supported endpoints. To that end, we've integrated DWriteCore into Project Reunion with a public API that's supported on all Windows endpoints down to Windows 8, and opens the door for you to use it cross-platform.
+DWriteCore solves the fundamental problems of version feature orphaning and cross-platform compatibility by removing the library from the system, and targeting all possible supported endpoints. To that end, we've integrated DWriteCore into Project Reunion.
 
-The primary value that DWriteCore gives you, as a developer, in Project Reunion is that it provides access to all current DirectWrite features all the way down-level to Windows 8. All features of DWriteCore will function the same on all down-level versions; in other words, all current features will work on Windows 8, 8.1, and all versions of Windows 10, without any disparity regarding which features might work on which versions.
+The primary value that DWriteCore gives you, as a developer, in Project Reunion is that it provides access to many (and eventually all) DirectWrite features. All features of DWriteCore will function the same on all down-level versions without any disparity regarding which features might work on which versions.
 
 ## The DWriteCore demo app&mdash;DWriteCoreGallery
 
@@ -78,7 +78,7 @@ A banner feature is color fonts. Color fonts enable you to render your fonts wit
 
 The work on cleanup of the font cache, and the in-memory font loader, allow for faster loading of fonts, and memory improvements.
 
-With these features, you can immediately begin to harness some of DirectWrite's modern core functionality&mdash;such as variable fonts&mdash;down-level to Windows 8. Variable fonts are one of the most important features for DirectWrite customers; they were introduced in Windows 10, version 1709 (Fall Creators Update), so accessing them in previous versions is a significant benefit to you as a developer.
+With these features, you can immediately begin to harness some of DirectWrite's modern core functionality&mdash;such as variable fonts. Variable fonts are one of the most important features for DirectWrite customers; they were introduced in Windows 10, version 1709 (Fall Creators Update), so accessing them in previous versions is a significant benefit to you as a developer.
 
 ## Our invitation to you as a DirectWrite developer
 
