@@ -92,10 +92,10 @@ zaxis = normal(Eye - At)
 xaxis = normal(cross(Up, zaxis))
 yaxis = cross(zaxis, xaxis)
     
- xaxis.x           yaxis.x           zaxis.x          0
- xaxis.y           yaxis.y           zaxis.y          0
- xaxis.z           yaxis.z           zaxis.z          0
- dot(xaxis, eye)   dot(yaxis, eye)   dot(zaxis, eye)  1
+ xaxis.x            yaxis.x            zaxis.x           0
+ xaxis.y            yaxis.y            zaxis.y           0
+ xaxis.z            yaxis.z            zaxis.z           0
+ -dot(xaxis, eye)   -dot(yaxis, eye)   -dot(zaxis, eye)  1
 ```
 
 
