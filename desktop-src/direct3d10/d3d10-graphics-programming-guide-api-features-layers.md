@@ -57,9 +57,10 @@ A Direct3D 10 application can control a device synchronization using device func
 
 
 
-|                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> Unlike Direct3D 9, the Direct3D 10 API defaults to fully thread-safe.<br/> |
+
+Differences between Direct3D 9 and Direct3D 10:
+
+- Unlike Direct3D 9, the Direct3D 10 API defaults to fully thread-safe.
 
 
 

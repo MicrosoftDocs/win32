@@ -132,9 +132,8 @@ The example below shows how to create a root signature with the following format
 
 
 
-|                        |                                                |                                              |
-|------------------------|------------------------------------------------|----------------------------------------------|
-| **RootParameterIndex** | **Contents**                                   |                                              |
+| RootParameterIndex                       | Contents                                               | Values                                             |
+|------------------------|------------------------------------------------|----------------------------------------------|                                              
 | \[0\]                  | Root constants: { b2 }                         | (1 CBV)                                      |
 | \[1\]                  | Descriptor table: { t2-t7, u0-u3 }             | (6 SRVs + 4 UAVs)                            |
 | \[2\]                  | Root CBV: { b0 }                               | (1 CBV, static data)                         |

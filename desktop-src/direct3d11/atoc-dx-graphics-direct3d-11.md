@@ -16,12 +16,12 @@ For more information, see [Direct3D 11 Features](direct3d-11-features.md).
 
 
 
-|                                   |                                                                                                   |
+|                                   | Supported                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------|
-| Supported runtime environments    | <dl> <dt>Windows/C++</dt> </dl>            |
-| Recommended programming languages | C/C++                                                                                             |
-| Minimum supported Client          | <dl> <dt>Windows 7</dt> </dl>              |
-| Minimum supported Server          | <dl> <dt>Windows Server 2008 R2</dt> </dl> |
+| **Supported runtime environments**    | Windows/C++            |
+| **Recommended programming languages** | C/C++                                                                                             |
+| **Minimum supported client**          | Windows 7             |
+| **Minimum supported server**          | Windows Server 2008 R2 |
 
  
 
