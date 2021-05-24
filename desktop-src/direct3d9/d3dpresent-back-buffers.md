@@ -25,7 +25,7 @@ Specifies the number of back buffers that can be used by the device.
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9.h     |
 | Minimum operating system | Windows 98 |

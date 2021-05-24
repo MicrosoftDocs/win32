@@ -38,7 +38,7 @@ These constants are used by the D3DPSHADERCAPS2\_0 member of [**D3DCAPS9**](/win
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

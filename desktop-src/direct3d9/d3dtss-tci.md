@@ -30,7 +30,7 @@ These constants are used by D3DTSS\_TEXCOORDINDEX.
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

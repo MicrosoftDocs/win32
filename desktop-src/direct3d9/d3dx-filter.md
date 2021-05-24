@@ -45,7 +45,7 @@ Reference each method to check for information about how D3DX\_DEFAULT filter is
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3dx9tex.h |
 | Minimum operating system | Windows 98 |

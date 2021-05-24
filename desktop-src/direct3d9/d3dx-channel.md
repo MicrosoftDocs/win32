@@ -1,5 +1,5 @@
 ---
-description: The following flags are used to specify which channels in a texture to operate on.
+description: Learn about the flags that are used to specify which channels in a texture to operate on, like D3DX\_CHANNEL\_RED.
 ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
 ms.topic: article
@@ -28,7 +28,7 @@ The following flags are used to specify which channels in a texture to operate o
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3dx9tex.h |
 | Minimum operating system | Windows 98 |

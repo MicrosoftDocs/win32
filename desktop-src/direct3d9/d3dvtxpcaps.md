@@ -1,5 +1,5 @@
 ---
-description: A combination of one or more flags that control the device create behavior.
+description: Learn about a combination of one or more flags that control the device create behavior.
 ms.assetid: 2d3e548f-8559-4a36-b814-6d598bead1d0
 title: D3DVTXPCAPS
 ms.topic: article
@@ -31,7 +31,7 @@ A combination of one or more flags that control the device create behavior.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

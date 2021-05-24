@@ -151,11 +151,9 @@ Measure the cache hit-rate performance for textures and indexed vertices.
 
 Efficiency of memory allocation contained in a [**D3DMEMORYPRESSURE**](d3dmemorypressure.md) structure.
 
+Differences between Direct3D 9 and Direct3D 9Ex:
 
-
-|                                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DQUERYTYPE\_MEMORYPRESSURE is only available in Direct3D9Ex running on Windows 7 (or more current operating system).<br/> |
+- D3DQUERYTYPE\_MEMORYPRESSURE is only available in Direct3D9Ex running on Windows 7 (or more current operating system).
 
 
 

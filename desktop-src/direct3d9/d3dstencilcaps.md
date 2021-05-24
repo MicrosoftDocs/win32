@@ -36,7 +36,7 @@ These constants are used by the StencilCaps member of [**D3DCAPS9**](/windows/de
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

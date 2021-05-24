@@ -32,7 +32,7 @@ Use [**CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevi
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

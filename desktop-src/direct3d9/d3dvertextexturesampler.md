@@ -43,7 +43,7 @@ This is an internal constant used by the texture sampler in the tessellator.
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

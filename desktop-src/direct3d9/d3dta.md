@@ -60,7 +60,7 @@ An argument flag may be combined with one of the following modifier flags.
 
 
 
-|                          |             |
+|   Requirement                       |  Value           |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |
