@@ -136,7 +136,7 @@ These constants are used by the PrimitiveMiscCaps member of [**D3DCAPS9**](/wind
 
 
 
-|                          |            |
+| Requirement                         |  Value          |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

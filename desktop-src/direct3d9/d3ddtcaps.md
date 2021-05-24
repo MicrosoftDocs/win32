@@ -35,7 +35,7 @@ These constants are used by the DeclTypes member of [**D3DCAPS9**](/windows/desk
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

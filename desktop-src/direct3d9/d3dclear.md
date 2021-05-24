@@ -26,7 +26,7 @@ These flags identify a surface to reset when calling [**Clear**](/windows/win32/
 
 
 
-|                          |             |
+| Requirement                         |  Value           |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

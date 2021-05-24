@@ -82,7 +82,7 @@ These constants are used by the D3CAPS3 member of [**D3DCAPS9**](/windows/deskto
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

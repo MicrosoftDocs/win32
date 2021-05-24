@@ -29,7 +29,7 @@ A combination of zero or more locking options that describe the type of lock to 
 
 
 
-|                          |             |
+|  Requirement                        | Value            |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

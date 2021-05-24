@@ -24,7 +24,7 @@ Specifies the primary display adapter.
 
 
 
-|                          |            |
+|   Requirement            | Value      |
 |--------------------------|------------|
 | Header                   | d3d9.h     |
 | Minimum operating system | Windows 98 |

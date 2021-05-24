@@ -161,11 +161,9 @@ Inverted constant color-blending factor used by the frame-buffer blender. This b
 
 Blend factor is (PSOutColor\[1\]<sub>r</sub>, PSOutColor\[1\]<sub>g</sub>, PSOutColor\[1\]<sub>b</sub>, not used). See [Render Target Blending](#render-target-blending).
 
+Differences between Direct3D 9 and Direct3D 9Ex:
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> This flag is available in Direct3D 9Ex only.<br/> |
+- This flag is available in Direct3D 9Ex only.
 
 
 
@@ -179,10 +177,9 @@ Blend factor is (PSOutColor\[1\]<sub>r</sub>, PSOutColor\[1\]<sub>g</sub>, PSOut
 Blend factor is (1 - PSOutColor\[1\]<sub>r</sub>, 1 - PSOutColor\[1\]<sub>g</sub>, 1 - PSOutColor\[1\]<sub>b</sub>, not used)). See [Render Target Blending](#render-target-blending).
 
 
+Differences between Direct3D 9 and Direct3D 9Ex:
 
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> This flag is available in Direct3D 9Ex only.<br/> |
+- This flag is available in Direct3D 9Ex only.
 
 
 

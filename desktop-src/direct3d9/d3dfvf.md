@@ -193,7 +193,7 @@ dwFVF = ( D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_DIFFUSE |
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

@@ -25,7 +25,7 @@ Specifies the maximum dimensions of texture convolution filters.
 
 
 
-|                          |             |
+| Requirement                         |  Value           |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system |             |

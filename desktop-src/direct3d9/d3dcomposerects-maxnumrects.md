@@ -24,7 +24,7 @@ Specifies the maximum number of rectangles used in composing glyphs in [**Compos
 
 
 
-|                          |             |
+|  Requirement             |  Value           |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system |             |

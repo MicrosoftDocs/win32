@@ -177,9 +177,8 @@ Used to determine the Windows Hardware Quality Labs (WHQL) validation level for 
 
 
 
-|       |                                               |
+| Bits  |  Description                                             |
 |-------|-----------------------------------------------|
-| Bits  |                                               |
 | 31-16 | The year, a decimal number from 1999 upwards. |
 | 15-8  | The month, a decimal number from 1 to 12.     |
 | 7-0   | The day, a decimal number from 1 to 31.       |
@@ -192,7 +191,7 @@ The following values are also used.
 
 
 
-|     |                                                       |
+| Value    |  Description                                                     |
 |-----|-------------------------------------------------------|
 | 0   | Not certified.                                        |
 | 1   | WHQL validated, but no date information is available. |

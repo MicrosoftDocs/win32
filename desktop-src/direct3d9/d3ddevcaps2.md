@@ -30,7 +30,7 @@ D3DDEVCAPS2 driver capability flags.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

@@ -107,9 +107,8 @@ Resources can be promoted from the COMMON state based on the following table:
 
 
 
-| State flag                    | Promotable State                             |                                      |
+| State flag                    | Buffers and Simultaneous-Access Textures                             | Non-Simultaneous-Access Textures                                     |
 |-------------------------------|----------------------------------------------|--------------------------------------|
-|                               | **Buffers and Simultaneous-Access Textures** | **Non-Simultaneous-Access Textures** |
 | VERTEX\_AND\_CONSTANT\_BUFFER | Yes                                          | No                                   |
 | INDEX\_BUFFER                 | Yes                                          | No                                   |
 | RENDER\_TARGET                | Yes                                          | No                                   |
