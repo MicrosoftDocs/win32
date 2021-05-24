@@ -17,15 +17,7 @@ Computes absolute value.
 
 ## Syntax
 
-
-
-|              |
-|--------------|
-| abs dst, src |
-
-
-
- 
+**abs dst, src**
 
 where
 
@@ -60,7 +52,7 @@ dest.w = abs(src.w)
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Minimum operating system | Windows 98 |
 

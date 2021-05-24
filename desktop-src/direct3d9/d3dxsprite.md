@@ -32,7 +32,7 @@ The following flags are used to specify sprite rendering options to the flags pa
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3dx9core.h |
 | Minimum operating system | Windows 98  |

@@ -18,7 +18,7 @@ This documentation set contains information about programming with DXGI.
 
 
 
-|                                   |                                                                                                |
+| Requirement                                  | Value                                                                                               |
 |-----------------------------------|------------------------------------------------------------------------------------------------|
 | Supported runtime environments    | <dl> <dt>Windows/C++</dt> </dl>         |
 | Recommended programming languages | C/C++                                                                                          |

@@ -10,11 +10,8 @@ ms.date: 05/31/2018
 
 ## SDK Version
 
-
-
-|                     |
+|  \#define                   |
 |---------------------|
-| \#define            |
 | D3D\_SDK\_VERSION   |
 | D3D9b\_SDK\_VERSION |
 
@@ -48,7 +45,7 @@ These \#defines are declared in d3d9types.h.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Minimum operating system | Windows 98 |
 

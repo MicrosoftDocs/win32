@@ -44,7 +44,7 @@ Be sure to specify the [**Windows Data Types**](../winprog/windows-data-types.md
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3dx9tex.h |
 | Import Library           | d3dx9.lib  |

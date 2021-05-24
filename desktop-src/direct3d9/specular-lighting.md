@@ -14,13 +14,9 @@ The default lighting state does not calculate specular highlights. To enable spe
 
 ## Specular Lighting Equation
 
-Specular Lighting is described by the following equation.
+Specular Lighting is described by the following equation:
 
-
-
-|                                                                             |
-|-----------------------------------------------------------------------------|
-| Specular Lighting = Cₛ \* sum\[Lₛ \* (N · H)<sup>P</sup> \* Atten \* Spot\] |
+**Specular Lighting = Cₛ \* sum\[Lₛ \* (N · H)<sup>P</sup> \* Atten \* Spot\]**
 
 
 
@@ -70,11 +66,7 @@ Specular components are clamped to be from 0 to 255, after all lights are proces
 
 The halfway vector (H) exists midway between two vectors: the vector from an object vertex to the light source, and the vector from an object vertex to the camera position. Direct3D provides two ways to compute the halfway vector. When D3DRS\_LOCALVIEWER is set to **TRUE**, the system calculates the halfway vector using the position of the camera and the position of the vertex, along with the light's direction vector. The following formula illustrates this.
 
-
-
-|                                           |
-|-------------------------------------------|
-| H = norm(norm(Cₚ - Vₚ) + L<sub>dir</sub>) |
+**H = norm(norm(Cₚ - Vₚ) + L<sub>dir</sub>)**
 
 
 
@@ -94,11 +86,7 @@ The halfway vector (H) exists midway between two vectors: the vector from an obj
 
 Determining the halfway vector in this manner can be computationally intensive. As an alternative, setting D3DRS\_LOCALVIEWER = **FALSE** instructs the system to act as though the viewpoint is infinitely distant on the z-axis. This is reflected in the following formula.
 
-
-
-|                                     |
-|-------------------------------------|
-| H = norm((0,0,1) + L<sub>dir</sub>) |
+**H = norm((0,0,1) + L<sub>dir</sub>)**
 
 
 

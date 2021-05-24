@@ -96,7 +96,7 @@ If you're an old hand with C++ on Windows platforms, things may look a little di
 | [**Type system (C++/CX)**](/cpp/cppcx/type-system-c-cx?view=vs-2019) | Reference content for the types that are supported by C++/CX. |
 | [**Namespaces (C++/CX)**](/cpp/cppcx/namespaces-reference-c-cx?view=vs-2019) | Reference content for the namespaces that contain C++-specific types that can be used in Windows Store apps. |
 
-| | |
+| Topic | Description |
 |-|-|
 | [Asynchronous programming (DirectX and C++)](/previous-versions/windows/apps/hh994919(v=win.10)) | Learn about asynchronous and multithreaded programming for DirectX apps and games. |
 | [Asynchronous programming in C++](/previous-versions/windows/apps/hh780559(v=win.10)) | Describes the basic ways to use the task class to consume Windows Runtime asynchronous methods. |
@@ -105,7 +105,7 @@ If you're an old hand with C++ on Windows platforms, things may look a little di
 
 ## Additional useful libraries for Windows C++ programming
 
-| | |
+| Topic | Description |
 |-|-|
 | [C++ Standard Template Library](https://msdn.microsoft.com/library/c191tb28(v=VS.71).aspx) | Windows Runtime types play well with Standard Template Library types. Most C++ Windows Store apps use Standard Template Library collections and algorithms, except at the ABI boundary. |
 | [Parallel Patterns Library](/previous-versions/visualstudio/visual-studio-2010/dd492418(v=vs.100)) | PPL provides algorithms and types that simplify task parallelism and data parallelism on the CPU.  |

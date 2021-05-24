@@ -17,20 +17,12 @@ Computes absolute value.
 
 ## Syntax
 
-
-
-|              |
-|--------------|
-| abs dst, src |
-
-
-
- 
+**abs dst, src**
 
 where
 
--   dst is the destination register.
--   src is a source register.
+- dst is the destination register.
+- src is a source register.
 
 ## Remarks
 

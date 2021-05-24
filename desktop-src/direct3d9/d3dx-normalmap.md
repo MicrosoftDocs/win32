@@ -28,7 +28,7 @@ Normal maps generation constants.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3dx9tex.h |
 | Minimum operating system | Windows 98 |
