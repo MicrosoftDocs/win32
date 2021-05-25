@@ -14,9 +14,8 @@ The WpdServiceApiSample application includes code that demonstrates how an appli
 
 
 
-|                                                                      |                                                                                              |
+| Interface | Description    |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Interface                                                            | Description                                                                                  |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | Retrieves the **IPortableDeviceContent2** interface to access the supported service methods. |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | Provides access to the content-specific methods.                                             |
 | [**IPortableDeviceProperties**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties)       | Retrieves the object property values.                                                        |
@@ -33,9 +32,8 @@ This method retrieves the following four properties for the specified contact ob
 
 
 
-|                              |                                                                                                                                                                                                                  |                                 |                                     |
-|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-------------------------------------|
 | Property                     | Description                                                                                                                                                                                                      | Device Services PROPERTYKEY     | Equivalent WPD\_PROPERTYKEY         |
+|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-------------------------------------|
 | Parent-object identifier     | A string that specifies the identifier for the given object's parent.                                                                                                                                            | PKEY\_GenericObj\_ParentID      | WPD\_OBJECT\_PARENT\_ID             |
 | Object name                  | A string that specifies the name of the given object                                                                                                                                                             | PKEY\_GenericObj\_Name          | WPD\_OBJECT\_NAME                   |
 | Persistent unique identifier | A string that specifies a unique identifier for the given object. This identifier is persistent across sessions, unlike the object identifier. For services, this needs to be a string-representation of a GUID. | PKEY\_GenericObj\_PersistentUID | WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID |

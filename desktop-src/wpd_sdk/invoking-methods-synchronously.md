@@ -12,9 +12,8 @@ The WpdServicesApiSample application includes code that demonstrates how an appl
 
 
 
-|                                                                        |                                                                                                                                                                         |
+| Interface    | Description    |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Interface                                                              | Description                                                                                                                                                             |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | Used to retrieve the **IPortableDeviceServiceMethods** interface to invoke methods on a given service.                                                                  |
 | [**IPortableDeviceServiceMethods**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods) | Used to invoke a service method.                                                                                                                                        |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                 | Used to hold the outgoing method parameters, and the incoming method results. This can be **NULL** if the method does not require any parameters or return any results. |
