@@ -101,7 +101,7 @@ Please fill out and send one form for each store and each locale to the Windows 
 
 
 
-|                | User Name | Password |
+|  Account       | User Name | Password |
 |----------------|-----------|----------|
 | Test Account 1 |           |          |
 | Test Account 2 |           |          |
