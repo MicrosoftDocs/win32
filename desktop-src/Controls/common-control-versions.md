@@ -62,7 +62,7 @@ Ongoing enhancements to common controls have resulted in the need to extend many
 
 
 
-|                               |                                                                                              |
+|    Structure Size Constant                           |     Definition                                                                                         |
 |-------------------------------|----------------------------------------------------------------------------------------------|
 | HDITEM\_V1\_SIZE              | The size of the [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) structure in version 4.0.                           |
 | IMAGELISTDRAWPARAMS\_V3\_SIZE | The size of the [**IMAGELISTDRAWPARAMS**](/windows/win32/api/commctrl/ns-commctrl-imagelistdrawparams) structure in version 5.9. |

@@ -13,7 +13,7 @@ In the example provider component, an example of the ADs namespace object class 
 
 
 
-|                                          |                                                                       |
+|       Method                                   |          Description                                            |
 |------------------------------------------|-----------------------------------------------------------------------|
 | **CSampleDSNamespaceCF::CreateInstance** | Create an instance of the class factory for the ADs namespace object. |
 
