@@ -41,9 +41,9 @@ The file is never opened from any store but the leftmost store. If the file is f
 
 ## Types of Symbol Stores
 
-The following table displays examples of the supported symbol store types..
+The following table displays examples of the supported symbol store types.
 
-|                            |                                                                                                                                                                                                                                                                                                                                                           |
+|  Symbol store type       |  Description |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \\\\server\\share          | A fully qualified UNC path to a share on a remote server.                                                                                                                                                                                                                                                                                                 |
 | c:\\LocalCache             | A path to a directory on the client computer.                                                                                                                                                                                                                                                                                                             |

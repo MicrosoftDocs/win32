@@ -30,7 +30,7 @@ The number of unreleased interfaces allocated by this DLL.
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | Error Level | Warning |
 
