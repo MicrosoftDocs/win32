@@ -91,13 +91,13 @@ An output tensor containing the backpropagated gradients. Typically this tensor 
 
 `Min`
 
-Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
+Type: **[FLOAT](../../winprog/windows-data-types.md)**
 
 The minimum value. If x is at or below this value, then the gradient result is 0.
 
 `Max`
 
-Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
+Type: **[FLOAT](../../winprog/windows-data-types.md)**
 
 The maximum value. If x is at or above this value, then the gradient result is 0.
 

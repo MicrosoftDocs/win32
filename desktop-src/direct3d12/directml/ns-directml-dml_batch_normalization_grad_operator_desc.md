@@ -160,7 +160,7 @@ The `sum` is computed across any dimensions that need to be broadcast (see the e
 
 `Epsilon`
 
-Type: **[FLOAT](/windows/win32/winprog/windows-data-types)**
+Type: **[FLOAT](../../winprog/windows-data-types.md)**
 
 A small value added to the variance to avoid zero.
 

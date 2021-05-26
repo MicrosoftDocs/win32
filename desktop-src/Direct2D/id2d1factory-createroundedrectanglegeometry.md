@@ -24,8 +24,8 @@ Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/deskto
 
 | Method                                                                                                                                                                                                     | Description                                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| [**CreateRoundedRectangleGeometry(D2D1\_ROUNDED\_RECT&,ID2D1RoundedRectangleGeometry\*\*)**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx)  | Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
-| [**CreateRoundedRectangleGeometry(D2D1\_ROUNDED\_RECT\*,ID2D1RoundedRectangleGeometry\*\*)**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx) | Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
+| [**CreateRoundedRectangleGeometry(D2D1\_ROUNDED\_RECT&,ID2D1RoundedRectangleGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85))  | Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
+| [**CreateRoundedRectangleGeometry(D2D1\_ROUNDED\_RECT\*,ID2D1RoundedRectangleGeometry\*\*)**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)) | Creates an [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)). <br/> |
 
 
 
