@@ -62,6 +62,14 @@ Video HDR8.
 
 </dt> </dl> </dd> </dl>
 
+<span id="KSCAMERAPROFILE_CompressedCamera"></span><span id="kscameraprofile_compressedcamera"></span><span id="KSCAMERAPROFILE_COMPRESSEDCAMERA"></span>**KSCAMERAPROFILE\_CompressedCamera**
+</dt> <dd> <dl> <dt>
+
+The profile supports compressed camera streams to enable saving compressed streams directly to a compressed format without incurring the cost of decompressing and then recompressing the stream.
+
+
+</dt> </dl> </dd> </dl>
+
 ## Requirements
 
 
