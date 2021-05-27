@@ -23,7 +23,7 @@ The codec formats enumerated depend upon the current codec enumeration settings,
 
 
 
-|                  | Constant bit rate (CBR) stream | 2-pass CBR stream | Quality-based variable bit rate (VBR) stream | Bit-rate-based VBR stream (constrained or unconstrained) |
+|    &nbsp;    | Constant bit rate (CBR) stream | 2-pass CBR stream | Quality-based variable bit rate (VBR) stream | Bit-rate-based VBR stream (constrained or unconstrained) |
 |------------------|--------------------------------|-------------------|----------------------------------------------|----------------------------------------------------------|
 | g\_wszVBREnabled | FALSE                          | FALSE             | TRUE                                         | TRUE                                                     |
 | g\_wszNumPasses  | 1                              | 2                 | 1                                            | 2                                                        |

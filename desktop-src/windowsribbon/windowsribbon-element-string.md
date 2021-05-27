@@ -130,12 +130,8 @@ The following example demonstrates the markup for a [**Command.LabelTitle**](win
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+- Minimum supported system: Windows 7 
+- Can be empty: No
 
 
 

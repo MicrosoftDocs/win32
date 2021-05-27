@@ -15,7 +15,7 @@ You can subscribe to the abstract base class [**MSFT\_ProviderEvent**](/previous
 
 
 
-|                                                                                                 |                                                                                 |
+| Event                                                                                                | Description                                                                                |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [**MSFT\_WmiProviderEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiproviderevent)                               | Parent class for all consumer provider events.                                  |
 | [**MSFT\_WmiConsumerProviderLoaded**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiconsumerproviderloaded)             | Defines the successful activation of the event consumer provider COM object.    |

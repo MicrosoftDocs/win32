@@ -522,6 +522,6 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## Requirements
 
-|||
+|&nbsp;|&nbsp;|
 |-|-|
 | Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Mstcpip.h; </dt> <dt>Mswsock.h; </dt> <dt>Mswsockdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Mswsock.h); </dt> <dt>Ws2def.h on Windows Vista, Windows Server 2008 and Windows 7 (include Winsock2.h); </dt> <dt>Ws2ipdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Ws2tcpip.h)</dt> </dl> |

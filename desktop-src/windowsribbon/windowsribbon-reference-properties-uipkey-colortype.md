@@ -28,7 +28,7 @@ The property value is from the [**UI\_SWATCHCOLORTYPE**](/windows/desktop/api/ui
 
 
 
-|                                |                                                                                                                                                                                 |
+|    Property                            |    Description                                                                                                                                                                             |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | UI\_SWATCHCOLORTYPE\_NOCOLOR   | Application should treat the color setting as transparent. Typically used in conjunction with the **No color** color setting.                                                   |
 | UI\_SWATCHCOLORTYPE\_AUTOMATIC | Application should query [GetSysColor(COLOR\_WINDOWTEXT)](/windows/win32/api/winuser/nf-winuser-getsyscolor). Typically used in conjunction with the **Automatic** color setting. |
