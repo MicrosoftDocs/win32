@@ -36,7 +36,7 @@ A transform specifies how to map the points of an object from one coordinate spa
 
 
 
-|                 |                 |     |
+|    &nbsp;       |       &nbsp;    |  &nbsp; |
 |-----------------|-----------------|-----|
 | M11Default: 1.0 | M12Default: 0.0 | 0.0 |
 | M21Default: 0.0 | M22Default: 1.0 | 0.0 |
@@ -52,7 +52,7 @@ Because Direct2D supports only affine (linear) transformations, its transformati
 
 
 
-|                 |                 |
+|    &nbsp;       |       &nbsp;    | 
 |-----------------|-----------------|
 | M11Default: 1.0 | M12Default: 0.0 |
 | M21Default: 0.0 | M22Default: 1.0 |

@@ -1,6 +1,6 @@
 ---
-title: MDM Registration Error Values (MDMRegistration.h)
-description: The following error values are with MDM Registration.
+title: MDM registration error values (MDMRegistration.h)
+description: The following error values are with MDM registration.
 ms.assetid: 1f42ed5e-e221-47ec-a019-ed06c05d55d0
 topic_type:
 - apiref
@@ -70,9 +70,9 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# MDM Registration Error Values
+# MDM registration error values
 
-The following error values are with MDM Registration.
+The following error values are with MDM registration.
 
 <dl> <dt>
 
@@ -933,8 +933,6 @@ Mobile Device Management (MDM) is not configured.
 </dt> </dl> </dd> </dl>
 
 ## Requirements
-
-
 
 | Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|

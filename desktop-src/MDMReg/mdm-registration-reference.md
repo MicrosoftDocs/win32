@@ -1,12 +1,12 @@
 ---
-title: MDM Registration Reference
+title: MDM registration reference
 description: The following programming elements are used with MDM Registration.
 ms.assetid: 1fd87643-435a-45f3-bb20-d5b8bca8a3d7
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# MDM Registration Reference
+# MDM registration reference
 
 The following programming elements are used with MDM Registration.
 
@@ -14,21 +14,21 @@ The following programming elements are used with MDM Registration.
 
 <dl> <dt>
 
-[**MDM Registration Error Values**](mdm-registration-constants.md)
+[**MDM registration error values**](mdm-registration-constants.md)
 </dt> <dd>
 
 The following error values are with MDM Registration.
 
 </dd> <dt>
 
-[MDM Registration Functions](mdm-registration-functions.md)
+[MDM registration functions](mdm-registration-functions.md)
 </dt> <dd>
 
 The following functions are used by MDM Registration.
 
 </dd> <dt>
 
-[MDM Registration Structures](mdm-registration-structures.md)
+[MDM registration structures](mdm-registration-structures.md)
 </dt> <dd>
 
 The following structures are used by MDM Registration.
@@ -39,7 +39,7 @@ The following structures are used by MDM Registration.
 
 <dl> <dt>
 
-[Mobile Device Management Registration](mobile-device-management-registration-portal.md)
+[Mobile Device Management registration](mobile-device-management-registration-portal.md)
 </dt> </dl>
 
  

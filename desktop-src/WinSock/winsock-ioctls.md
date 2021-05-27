@@ -240,6 +240,19 @@ A sender may not call **SIO\_GET\_QOS** until the socket is connected.
 
 A receiver may call **SIO\_GET\_QOS** as soon as it is bound.
 
+### SIO_GET_TX_TIMESTAMP
+
+A socket IOCTL used to get timestamps for transmitted (TX) packets. Valid only for datagram sockets.
+
+The **SIO_GET_TX_TIMESTAMP** control code removes a transmit timestamp from a socket's transmit timestamp queue. Enable timestamp reception first by using the [**SIO_TIMESTAMPING**](#sio_timestamping) socket IOCTL. Then retrieve tx timestamps by ID by calling the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) (or [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))) function with the following parameters.
+
+For **SIO_GET_TX_TIMESTAMP**, the input is a **UINT32** timestamp ID, and the output is a **UINT64** timestamp value. On success, the tx timestamp is available, and is returned. If no transmit timestamps are available, then [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns **WSAEWOULDBLOCK**.
+
+> [!NOTE]
+> TX timestamps are not supported when doing a coalesced send via **UDP_SEND_MSG_SIZE**.
+
+Also see [Winsock timestamping](/windows/win32/winsock/winsock-timestamping).
+
 ### SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE (opcode setting: V, T==0)
 
 Notifies an application when the ideal send backlog (ISB) value changes for the underlying connection.
@@ -488,6 +501,12 @@ Controls the initial (SYN / SYN+ACK) retransmission characteristics of a TCP soc
 
 For more detailed information, see the [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) reference. [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) is supported on Windows 8, Windows Server 2012, and later.
 
+### SIO_TIMESTAMPING
+
+A socket IOCTL used to configure reception of socket transmit/receive timestamps. Valid only for datagram sockets. The input type for **SIO_TIMESTAMPING** is the [**TIMESTAMPING_CONFIG**](/windows/win32/api/mstcpip/ns-mstcpip-timestamping_config) structure.
+
+Also see [Winsock timestamping](/windows/win32/winsock/winsock-timestamping).
+
 ### SIO\_TRANSLATE\_HANDLE (opcode setting: I, O, T==1)
 
 To obtain a corresponding handle for socket *s* that is valid in the context of a companion interface (for example, TH\_NETDEV and TH\_TAPI). A manifest constant identifying the companion interface along with any other needed parameters are specified in the input buffer. The corresponding handle will be available in the output buffer upon completion of this function. Refer to the appropriate section in [Winsock Annexes](winsock-annexes.md) for details specific to a particular companion interface. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support this IOCTL for the specified companion interface. This IOCTL retrieves the handle associated using **SIO\_TRANSLATE\_HANDLE**.
@@ -522,6 +541,6 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## Requirements
 
-|&nbsp;|&nbsp;|
+|Requirement|Value|
 |-|-|
 | Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Mstcpip.h; </dt> <dt>Mswsock.h; </dt> <dt>Mswsockdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Mswsock.h); </dt> <dt>Ws2def.h on Windows Vista, Windows Server 2008 and Windows 7 (include Winsock2.h); </dt> <dt>Ws2ipdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Ws2tcpip.h)</dt> </dl> |

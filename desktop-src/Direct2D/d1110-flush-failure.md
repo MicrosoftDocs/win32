@@ -44,7 +44,7 @@ The second tag value. See [**SetTags**](/windows/win32/api/d2d1/nf-d2d1-id2d1ren
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | Error Level | Warning |
 

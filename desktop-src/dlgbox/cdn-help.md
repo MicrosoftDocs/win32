@@ -18,7 +18,7 @@ ms.date: 05/31/2018
 
 # CDN\_HELP notification code
 
-\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/windows/win32/shell/common-file-dialog). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
+\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](../shell/common-file-dialog.md). We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]
 
 Sent by an Explorer-style **Open** or **Save As** dialog box when the user clicks the **Help** button.
 
@@ -97,6 +97,4 @@ The system sends this notification only if the dialog box was created using the 
 
 [Common Dialog Box Library](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

@@ -114,7 +114,7 @@ The number of axes. This field determines the size of the *Axes* array.
 
 `Axes`
 
-Type: \_Field\_size\_(AxisCount) **const [UINT](/windows/win32/winprog/windows-data-types)\*** 
+Type: \_Field\_size\_(AxisCount) **const [UINT](../../winprog/windows-data-types.md)\*** 
 
 The axes along which to calculate the Mean and Variance.
 

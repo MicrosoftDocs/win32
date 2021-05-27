@@ -108,25 +108,25 @@ The number of elements in the *Strides*, *WindowSize*, *StartPadding*, and *EndP
 
 `Strides`
 
-Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***
+Type: \_Field_size\_(DimensionCount) **const [UINT](../../winprog/windows-data-types.md)\***
 
 See *Strides* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `WindowSize`
 
-Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***
+Type: \_Field_size\_(DimensionCount) **const [UINT](../../winprog/windows-data-types.md)\***
 
 See *WindowSize* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `StartPadding`
 
-Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***
+Type: \_Field_size\_(DimensionCount) **const [UINT](../../winprog/windows-data-types.md)\***
 
 See *StartPadding* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `EndPadding`
 
-Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***
+Type: \_Field_size\_(DimensionCount) **const [UINT](../../winprog/windows-data-types.md)\***
 
 See *EndPadding* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 

@@ -886,6 +886,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/ProcThread/getprocessdefaultcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessdefaultcpusetmasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/getthreadselectedcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/setprocessdefaultcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/setthreadselectedcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusets",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/ProjFS/index.md",
       "redirect_url": "/windows/desktop/projfs/projected-file-system",
       "redirect_document_id": false

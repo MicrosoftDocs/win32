@@ -215,7 +215,7 @@ A set of string keys that are used with the [**IBindCtx::RegisterObjectParam**](
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="STR_PROPERTYBAG_PARAM"></span><span id="str_propertybag_param"></span><dl> <dt><strong>STR_PROPERTYBAG_PARAM</strong></dt> </dl></td>
-<td style="text-align: left;"><strong>Introduced in Windows 8</strong>. Specify this bind context to indicate that the bind context parameter is a property bag (<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)"><strong>IPropertyBag</strong></a>) used to pass VARIANT values in the bind context. See the Remarks section for further details.<br/></td>
+<td style="text-align: left;"><strong>Introduced in Windows 8</strong>. Specify this bind context to indicate that the bind context parameter is a property bag (<a href="/windows/win32/api/oaidl/nn-oaidl-ipropertybag"><strong>IPropertyBag</strong></a>) used to pass VARIANT values in the bind context. See the Remarks section for further details.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_SKIP_BINDING_CLSID"></span><span id="str_skip_binding_clsid"></span><dl> <dt><strong>STR_SKIP_BINDING_CLSID</strong></dt> </dl></td>
