@@ -34,8 +34,7 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
     hr = D2D1CreateFactory(D2D1_FACTORY_TYPE_SINGLE_THREADED, &m_pD2DFactory);
 
     if (SUCCEEDED(hr))
-    {
-        
+    {        
         // Create a DirectWrite factory.
         hr = DWriteCreateFactory(
             DWRITE_FACTORY_TYPE_SHARED,
@@ -61,10 +60,8 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
     {
         // Center the text horizontally and vertically.
         m_pTextFormat->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
-
+        
         m_pTextFormat->SetParagraphAlignment(DWRITE_PARAGRAPH_ALIGNMENT_CENTER);
-       
-
     }
 
     return hr;
