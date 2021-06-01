@@ -721,6 +721,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/ics/index.md",
+      "redirect_url": "/windows/win32/ics/firewall-dynamic-keywords",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/imapi/index.md",
       "redirect_url": "/windows/desktop/imapi/portal",
       "redirect_document_id": false
