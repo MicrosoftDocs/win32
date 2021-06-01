@@ -292,6 +292,16 @@ Alternatively, you can percent encode before calling WinHttp.
 
 <dt>
 
+<span id="WINHTTP_OPTION_EXPIRE_CONNECTION"></span><span id="winhttp_option_expire_connection"></span>**WINHTTP\_OPTION\_EXPIRE\_CONNECTION**
+</dt> <dd> <dl> <dt>
+
+
+
+This option can only be set on a request handle which is still active (sending or receiving). Setting this option will tell WinHttp to stop serving requests on the connection associated with the request handle passed in. The connection will be closed after the request handle this option is called with is completed. This option does not take any parameters.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_EXTENDED_ERROR"></span><span id="winhttp_option_extended_error"></span>**WINHTTP\_OPTION\_EXTENDED\_ERROR**
 </dt> <dd> <dl> <dt>
 
@@ -1008,6 +1018,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL<br/>**DWORD** | X | X | \- | X | Windows 10 Version 1607 |
 | WINHTTP\_OPTION\_ENABLETRACING<br/>**DWORD** | \- | \- | X | X | \- |
 | WINHTTP\_OPTION\_ENCODE\_EXTRA<br/>**BOOL** | X | X | \- | X | Windows 10 Version 1803 |
+| WINHTTP\_OPTION\_EXPIRE\_CONNECTION<br/>N/A | \- | X | \- | X | \- |
 | WINHTTP\_OPTION\_EXTENDED\_ERROR<br/>**DWORD** | X | X | X | \- | \- |
 | WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS<br/>[**WINHTTP\_CREDS**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS<br/>[**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
