@@ -16,7 +16,7 @@ This topic describes what's new in [DirectWrite](direct-write-portal.md) for var
 
 ## Windows 10 May 2019 Update
 
-No features nor APIs were added nor updated for Windows 10, version 1903 (10.0; Build 18362)&mdash;also known as Windows 10 May 2019 Update.
+No features or APIs were added nor updated for Windows 10, version 1903 (10.0; Build 18362)&mdash;also known as Windows 10 May 2019 Update.
 
 ## Windows 10 October 2018 Update
 
