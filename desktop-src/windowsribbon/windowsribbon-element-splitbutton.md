@@ -206,8 +206,8 @@ This section of code shows the **SplitButton** control declarations.
 
 ## Element information
 
-- Minimum supported system: Windows 7 
-- Can be empty: No
+- **Minimum supported system**: Windows 7 
+- **Can be empty**: No
 
 
 

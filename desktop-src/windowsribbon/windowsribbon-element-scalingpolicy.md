@@ -139,8 +139,8 @@ The **ScalingPolicy** manifest in this example specifies a [**ScalingPolicy.Idea
 
 ## Element information
 
-- Minimum supported system: Windows 7 
-- Can be empty: No
+- **Minimum supported system**: Windows 7 
+- **Can be empty**: No
 
 
 
