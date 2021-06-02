@@ -42519,6 +42519,16 @@
       "source_path": "desktop-src/search/-search-new-for-win7.md",
       "redirect_url": "/windows/win32/search/-search-3x-wds-overview",
       "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/SecAuthN/iccgdomainauthcredentials-getpasswordcredentials.md",
+      "redirect_url": "/windows/win32/api/ccgplugins/nf-ccgplugins-iccgdomainauthcredentials-getpasswordcredentials",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/SecAuthN/-iccgdomainauthcredentials.md",
+      "redirect_url": "/windows/win32/api/ccgplugins/nn-ccgplugins-iccgdomainauthcredentials",
+      "redirect_document_id": false
 }
   ]
 }
