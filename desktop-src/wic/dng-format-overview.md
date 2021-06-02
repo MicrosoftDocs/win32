@@ -21,7 +21,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                                      |
+|     Component          |  Description                                         |
 |------------------------|------------------------------------------------------|
 | Formal Name(s)         | Digital Negative (DNG)                               |
 | File Name Extension(s) | .dng                                                 |

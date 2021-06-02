@@ -28,7 +28,7 @@ The following flowchart illustrates the steps required in using the Compatibilit
 
 
 
-|                                            |          |                                                                                            |          |                                                     |          |                                                                             |
+| &nbsp;    | &nbsp;  |  &nbsp;   | &nbsp;  | &nbsp; | &nbsp;  |  &nbsp;  |
 |--------------------------------------------|----------|--------------------------------------------------------------------------------------------|----------|-----------------------------------------------------|----------|-----------------------------------------------------------------------------|
 | Create a new compatibility database (.sdb) | **>** | Select the application and then select the compatibility fixes to apply to the application | **>** | Test the application with the new compatibility fix | **>** | Save the compatibility database and then deploy the fix to your corporation |
 

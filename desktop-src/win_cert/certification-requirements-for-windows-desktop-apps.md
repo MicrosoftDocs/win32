@@ -200,9 +200,8 @@ Thank you again for joining in our commitment to delivering great customer exper
 
 
 
-|               |         |                                        |                                                                                  |
-|---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
 | Date          | Version | Revision description                   | Link to document                                                                 |
+|---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
 | Dec 20, 2011  | 1.0     | Initial draft of document for Preview. |                                                                                  |
 | Jan 26, 2012  | 1.1     | Update to section \#2.                 | [1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md)     |
 | May 31, 2012  | 1.2     | Added summary test results             | [1.2](archive--certification-requirements-for-windows-desktop-apps-v1-2.md)     |
