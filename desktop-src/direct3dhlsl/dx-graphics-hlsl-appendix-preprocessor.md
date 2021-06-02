@@ -32,7 +32,7 @@ The HLSL preprocessor recognizes the following directives:
 -   [\#pragma](dx-graphics-hlsl-appendix-pre-pragma.md)
 -   [\#undef](dx-graphics-hlsl-appendix-pre-undef.md)
 
-The number sign (\#) must be the first nonwhite-space character on the line containing the directive; white-space characters can appear between the number sign and the first letter of the directive. Some directives include arguments or values. Any text that follows a directive (except an argument or value that is part of the directive) must be preceded by the single-line comment delimiter (//) or enclosed in comment delimiters (/\* \*/). Lines containing preprocessor directives can be continued by immediately preceding the end-of-line marker with a backslash (\).
+The number sign (\#) must be the first nonwhite-space character on the line containing the directive; white-space characters can appear between the number sign and the first letter of the directive. Some directives include arguments or values. Any text that follows a directive (except an argument or value that is part of the directive) must be preceded by the single-line comment delimiter (//) or enclosed in comment delimiters (/\* \*/). Lines containing preprocessor directives can be continued by immediately preceding the end-of-line marker with a backslash (\\).
 
 Preprocessor directives can appear anywhere in a source file, but they apply only to the remainder of the source file.
 
