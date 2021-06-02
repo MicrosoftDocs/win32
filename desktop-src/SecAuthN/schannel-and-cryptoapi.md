@@ -1,5 +1,5 @@
 ---
-Description: Schannel uses CryptoAPI for cryptographic operations such as storing public/private keys.
+description: Schannel uses CryptoAPI for cryptographic operations such as storing public/private keys.
 ms.assetid: 5ad9a171-5f69-4035-aac5-ae8d27d0abfb
 title: Schannel and CryptoAPI
 ms.topic: article

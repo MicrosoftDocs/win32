@@ -1,5 +1,5 @@
 ---
-Description: Associates a power supply with a voltage sensor that monitors its input voltage.
+description: Associates a power supply with a voltage sensor that monitors its input voltage.
 ms.assetid: 4164320e-8362-4ce2-9949-f14669278bd8
 ms.tgt_platform: multiple
 title: CIM_AssociatedSupplyVoltageSensor class
@@ -152,7 +152,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

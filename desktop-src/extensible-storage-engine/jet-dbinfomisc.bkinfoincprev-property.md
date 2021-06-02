@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.bkinfoIncPrev property"
 title: JET_DBINFOMISC.bkinfoIncPrev property 
 TOCTitle: 'bkinfoIncPrev property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.bkinfoIncPrev
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_DBINFOMISC.bkinfoIncPrev property
 
-Gets information about the last successful incremental backup. This value is reset when [bkinfoFullPrev](hh577635\(v=exchg.10\).md) is set.
+Gets information about the last successful incremental backup. This value is reset when [bkinfoFullPrev](./jet-dbinfomisc.bkinfofullprev-property.md) is set.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_BKINFO bkinfoIncPrev { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_BKINFO](hh577892\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_BKINFO](./jet-bkinfo-structure2.md)  
 
 ## See also
 
 #### Reference
 
-[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](./jet-dbinfomisc-class.md)
 
-[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](./jet-dbinfomisc-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

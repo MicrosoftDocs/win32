@@ -1,5 +1,5 @@
 ---
-Description: The scheduler maintains a queue of executable threads for each priority level.
+description: The scheduler maintains a queue of executable threads for each priority level.
 ms.assetid: 82463d71-9cef-4608-b997-25dc9c1e1c0a
 title: Context Switches
 ms.topic: article

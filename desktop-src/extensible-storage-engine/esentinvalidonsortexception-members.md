@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOnSortException members"
 title: EsentInvalidOnSortException members
 TOCTitle: EsentInvalidOnSortException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidOnSortException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidOnSort exceptions.
 
-The [EsentInvalidOnSortException](dn319570\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidOnSortException](./esentinvalidonsortexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidOnSortException class](dn319570\(v=exchg.10\).md)
+[EsentInvalidOnSortException class](./esentinvalidonsortexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

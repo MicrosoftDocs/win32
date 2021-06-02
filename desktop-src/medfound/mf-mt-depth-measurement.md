@@ -1,5 +1,5 @@
 ---
-Description: A value that defines the measurement system for a depth value in a video frame.
+description: A value that defines the measurement system for a depth value in a video frame.
 ms.assetid: 7BFA846B-E614-4117-A196-298E065CB7F8
 title: MF_MT_DEPTH_MEASUREMENT attribute (Mfapi.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ Some depth cameras attach bitmask metadata for each pixel in addition to the dep
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server, version 1709 \[desktop apps only\]<br/>                      |

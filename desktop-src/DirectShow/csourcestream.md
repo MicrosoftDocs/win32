@@ -1,5 +1,5 @@
 ---
-Description: The CSourceStream class provides an output pin for the CSource filter class.
+description: The CSourceStream class provides an output pin for the CSource filter class.
 ms.assetid: 5ccfb129-93e2-4773-9398-5f59f2914ba7
 title: CSourceStream class (Source.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ These do nothing in the base class, but the derived class can override them.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

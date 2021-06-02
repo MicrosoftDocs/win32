@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical directory entry file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method and is inherited from CIM\_LogicalFile).
+description: Changes the security permissions for the logical directory entry file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method and is inherited from CIM\_LogicalFile).
 ms.assetid: 5c1f66ba-9aa1-47ca-8fcf-7663782544cd
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the CIM_Directory class
@@ -269,7 +269,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

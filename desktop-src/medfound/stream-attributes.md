@@ -1,5 +1,5 @@
 ---
-Description: Stream Attributes
+description: Stream Attributes
 ms.assetid: '83b64ad8-2552-41d1-bc61-20361831020b'
 title: Stream Attributes
 ms.topic: article

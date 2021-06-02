@@ -1,5 +1,5 @@
 ---
-Description: The SourceListForceResolution method clears the last used source property.
+description: The SourceListForceResolution method clears the last used source property.
 ms.assetid: 9ecfdf6e-4fed-46fc-8956-85d20cbe5327
 title: Patch.SourceListForceResolution method
 ms.topic: reference
@@ -40,7 +40,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

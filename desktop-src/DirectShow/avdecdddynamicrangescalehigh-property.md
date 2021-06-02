@@ -1,5 +1,5 @@
 ---
-Description: Specifies the high-level cut when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
+description: Specifies the high-level cut when the decoder performs dynamic range control on a Dolby AC-3 audio stream.
 ms.assetid: 8771a5f9-878b-43fd-8eaa-0bfc276194aa
 title: AVDecDDDynamicRangeScaleHigh property (Codecapi.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This property applies only when the value of the [**AVDecDDOperationalMode**](av
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

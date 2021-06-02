@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Backup and Restore Parameters"
 title: Backup and Restore Parameters
 TOCTitle: Backup and Restore Parameters
 ms:assetid: 432aff79-8766-428a-9a14-530f575308d0
@@ -88,7 +89,7 @@ The full path to each database is persisted in the transaction logs at run time.
 *JET_paramCleanupMismatchedLogFiles*  
 77  
 
-This parameter controls the outcome of [JetInit](gg294068\(v=exchg.10\).md) when the database engine is configured to start using transaction log files on disk that are of a different size than what is configured. Normally, [JetInit](gg294068\(v=exchg.10\).md) will successfully recover the databases but will fail with JET_errLogFileSizeMismatchDatabasesConsistent to indicate that the log file size is misconfigured. However, when this parameter is set to true then the database engine will silently delete all the old log files, start a new set of transaction log files using the configured log file size, and return JET_errSuccess.
+This parameter controls the outcome of [JetInit](./jetinit-function.md) when the database engine is configured to start using transaction log files on disk that are of a different size than what is configured. Normally, [JetInit](./jetinit-function.md) will successfully recover the databases but will fail with JET_errLogFileSizeMismatchDatabasesConsistent to indicate that the log file size is misconfigured. However, when this parameter is set to true then the database engine will silently delete all the old log files, start a new set of transaction log files using the configured log file size, and return JET_errSuccess.
 
 This parameter is useful when the application wishes to transparently change its transaction log file size yet still work transparently in upgrade and restore scenarios.
 
@@ -149,7 +150,7 @@ This parameter is useful when the application wishes to transparently change its
 *JET_paramDeleteOutOfRangeLogs*  
 52  
 
-When this parameter is true, then any transaction log files found on disk that are not part of the current sequence of log files will be deleted by [JetInit](gg294068\(v=exchg.10\).md). This may be used to automatically clean up extraneous log files after a restore operation.
+When this parameter is true, then any transaction log files found on disk that are not part of the current sequence of log files will be deleted by [JetInit](./jetinit-function.md). This may be used to automatically clean up extraneous log files after a restore operation.
 
 **Windows XP:**  Introduced in Windows XP.
 
@@ -210,7 +211,7 @@ When this parameter is true, then any transaction log files found on disk that a
 *JET_paramOSSnapshotTimeout*  
 82  
 
-This parameter configures the amount of time allowed between a call to [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md) and [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) before a timeout occurs. Please see [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md) and [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) for more information. The timeout is in milliseconds.
+This parameter configures the amount of time allowed between a call to [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md) and [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) before a timeout occurs. Please see [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md) and [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) for more information. The timeout is in milliseconds.
 
 <table>
 <colgroup>
@@ -352,8 +353,7 @@ When this parameter is true then every page in a database that is undergoing a s
 
 ### See Also
 
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  
-[JetOSSnapshotThaw](gg269229\(v=exchg.10\).md)
-
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)  
+[JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)  
+[JetOSSnapshotThaw](./jetossnapshotthaw-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: Allows an application to enable or disable the return of packet information by the WSARecvMsg function on an IPv4 socket.
+description: Allows an application to enable or disable the return of packet information by the WSARecvMsg function on an IPv4 socket.
 ms.assetid: C6246899-0220-4F88-B43B-CED1B1FF7DC3
 title: IP_PKTINFO socket option (Ws2ipdef.h)
 ms.topic: reference
@@ -127,7 +127,7 @@ Note that the *Ws2ipdef.h* header file is automatically included in *Ws2tcpip.h*
 
 
 
-|                                     |                                                                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                       |

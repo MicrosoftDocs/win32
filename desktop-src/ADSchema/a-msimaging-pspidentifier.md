@@ -22,7 +22,7 @@ Schema Attribute that contains the unique identifier for this Post Scan Process.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-Imaging-PSP-Identifier                             |
 | Ldap-Display-Name | msImaging-PSPIdentifier                               |
@@ -44,7 +44,7 @@ Schema Attribute that contains the unique identifier for this Post Scan Process.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
@@ -65,7 +65,7 @@ Schema Attribute that contains the unique identifier for this Post Scan Process.
 
 
 
-|                        |                                                                              |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |

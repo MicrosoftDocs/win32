@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+description: InkOverlay.SelectionResizing event - Occurs when the size of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 7fe0249c-c43d-498b-9029-cf5969201d96
 title: InkOverlay.SelectionResizing event (Msinkaut.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

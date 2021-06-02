@@ -1,5 +1,5 @@
 ---
-Description: The VirtualFree function decommits and releases pages according to the following rules.
+description: The VirtualFree function decommits and releases pages according to the following rules.
 ms.assetid: 8fbd7960-f3f0-4326-ad1d-12b636c0039e
 title: Freeing Virtual Memory
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represent options available when displaying a pop-up menu.
+description: Represent options available when displaying a pop-up menu.
 title: MP_POPUPFLAGS constants (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -62,7 +62,7 @@ These constants are defined in the Shobjidl.h file beginning in Windows XP Serv
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

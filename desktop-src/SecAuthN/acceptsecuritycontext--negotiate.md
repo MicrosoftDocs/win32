@@ -1,5 +1,5 @@
 ---
-Description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client that is using Negotiate.
+description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client that is using Negotiate.
 ms.assetid: aaec6fee-df6b-4033-8ece-73ecd1799653
 title: AcceptSecurityContext (Negotiate) function (Sspi.h)
 ms.topic: reference
@@ -164,7 +164,7 @@ After the [*security context*](../secgloss/s-gly.md) has been established, the s
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

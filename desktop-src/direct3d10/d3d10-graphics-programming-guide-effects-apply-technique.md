@@ -1,5 +1,5 @@
 ---
-Description: With the constants, textures, and shader state declared and initialized, the only thing left to do is to set the effect state in the device.
+description: With the constants, textures, and shader state declared and initialized, the only thing left to do is to set the effect state in the device.
 ms.assetid: b6c88fa1-53d4-40dc-803d-5d1cdfe4777b
 title: Apply a Technique (Direct3D 10)
 ms.topic: article

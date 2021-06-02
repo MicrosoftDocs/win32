@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSesidTableIdMismatchException properties"
 title: EsentSesidTableIdMismatchException properties
 TOCTitle: EsentSesidTableIdMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSesidTableIdMismatchException](dn350621\(v=exchg.10\).md) type exposes the following members.
+The [EsentSesidTableIdMismatchException](./esentsesidtableidmismatchexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSesidTableIdMismatchException class](dn350621\(v=exchg.10\).md)
+[EsentSesidTableIdMismatchException class](./esentsesidtableidmismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

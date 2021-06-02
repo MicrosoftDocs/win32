@@ -1,5 +1,5 @@
 ---
-Description: An application sends the WM\_MDIDESTROY message to a multiple-document interface (MDI) client window to close an MDI child window.
+description: An application sends the WM\_MDIDESTROY message to a multiple-document interface (MDI) client window to close an MDI child window.
 ms.assetid: b415393d-a5c2-4b70-af18-0dc7b3939a47
 title: WM_MDIDESTROY message (Winuser.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If an MDI client window receives a message that changes the activation of its ch
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

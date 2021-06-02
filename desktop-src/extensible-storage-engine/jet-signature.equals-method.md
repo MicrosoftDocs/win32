@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE.Equals method"
 title: JET_SIGNATURE.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_SIGNATURE.Equals
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_SIGNATURE structure](hh564644\(v=exchg.10\).md)
+[JET_SIGNATURE structure](./jet-signature-structure2.md)
 
-[JET_SIGNATURE members](hh565455\(v=exchg.10\).md)
+[JET_SIGNATURE members](./jet-signature-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Implementation of converting from a text ink object (tInk) to ink.
+description: Implementation of converting from a text ink object (tInk) to ink.
 ms.assetid: 9365da4c-3667-49f0-838f-f099d28dab44
 title: Converting a Text Ink Object to Ink
 ms.topic: article

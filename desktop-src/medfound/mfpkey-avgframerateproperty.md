@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average frame rate of video content, in frames per second.
+description: Specifies the average frame rate of video content, in frames per second.
 ms.assetid: 59a7cb76-77f2-4698-831a-8777aa982d3f
 title: MFPKEY_AVGFRAMERATE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ VT\_R8
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

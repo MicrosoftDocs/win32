@@ -1,5 +1,5 @@
 ---
-Description: The following is information that can help you start writing Telephony Application Programming Interface (TAPI) applications or adding features to existing applications.
+description: The following is information that can help you start writing Telephony Application Programming Interface (TAPI) applications or adding features to existing applications.
 ms.assetid: 4f0710ee-500d-49ff-bc70-923dd7afb1f7
 title: TAPI Quick Start
 ms.topic: article

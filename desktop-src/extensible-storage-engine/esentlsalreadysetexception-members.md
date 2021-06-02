@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLSAlreadySetException members"
 title: EsentLSAlreadySetException members
 TOCTitle: EsentLSAlreadySetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLSAlreadySetException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LSAlreadySet exceptions.
 
-The [EsentLSAlreadySetException](dn334614\(v=exchg.10\).md) type exposes the following members.
+The [EsentLSAlreadySetException](./esentlsalreadysetexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLSAlreadySetException class](dn334614\(v=exchg.10\).md)
+[EsentLSAlreadySetException class](./esentlsalreadysetexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

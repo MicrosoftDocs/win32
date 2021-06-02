@@ -1,5 +1,5 @@
 ---
-Description: A resource is an area in memory that can be accessed by the Direct3D pipeline.
+description: A resource is an area in memory that can be accessed by the Direct3D pipeline.
 ms.assetid: 24859fbc-b5e1-4963-baf8-4f083f41f39a
 title: Resources (Direct3D 10)
 ms.topic: article

@@ -22,7 +22,7 @@ For compatibility with pre-Windows 2000 Server servers. A computer running Windo
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Server-Role                          |
 | Ldap-Display-Name | serverRole                           |
@@ -48,7 +48,7 @@ For compatibility with pre-Windows 2000 Server servers. A computer running Windo
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -69,7 +69,7 @@ For compatibility with pre-Windows 2000 Server servers. A computer running Windo
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -90,7 +90,7 @@ For compatibility with pre-Windows 2000 Server servers. A computer running Windo
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -111,7 +111,7 @@ For compatibility with pre-Windows 2000 Server servers. A computer running Windo
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -132,7 +132,7 @@ For compatibility with pre-Windows 2000 Server servers. A computer running Windo
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -153,7 +153,7 @@ For compatibility with pre-Windows 2000 Server servers. A computer running Windo
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |

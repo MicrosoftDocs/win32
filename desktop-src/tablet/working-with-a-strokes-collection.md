@@ -1,5 +1,5 @@
 ---
-Description: The Strokes collection that the Divider object analyzes is kept in the Strokes property of the Divider object.
+description: The Strokes collection that the Divider object analyzes is kept in the Strokes property of the Divider object.
 ms.assetid: c2def964-6f2d-4b79-bfbf-a6719baf3c13
 title: Working with a Strokes Collection
 ms.topic: article

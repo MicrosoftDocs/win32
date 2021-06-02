@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices (WPD) supports the following properties of command parameters.
+description: Windows Portable Devices (WPD) supports the following properties of command parameters.
 ms.assetid: 03eff101-5c36-48ea-9dcd-2c4ee29a2ac6
 title: Command Parameters (PortableDevice.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ Windows Portable Devices (WPD) supports the following properties of command para
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

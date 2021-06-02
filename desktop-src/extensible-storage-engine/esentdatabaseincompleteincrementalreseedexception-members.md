@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIncompleteIncrementalReseedException members"
 title: EsentDatabaseIncompleteIncrementalReseedException members
 TOCTitle: EsentDatabaseIncompleteIncrementalReseedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteIncrementalReseedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseIncompleteIncrementalReseed exceptions.
 
-The [EsentDatabaseIncompleteIncrementalReseedException](dn334412\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseIncompleteIncrementalReseedException](./esentdatabaseincompleteincrementalreseedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseIncompleteIncrementalReseedException class](dn334412\(v=exchg.10\).md)
+[EsentDatabaseIncompleteIncrementalReseedException class](./esentdatabaseincompleteincrementalreseedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

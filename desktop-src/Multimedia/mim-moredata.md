@@ -40,7 +40,7 @@ Specifies the MIDI message that was received. The message is packed into a**DWOR
 
 
 
-|           |                 |                                                     |
+| Requirement | Value |
 |-----------|-----------------|-----------------------------------------------------|
 | High word | High-order byte | Not used.                                           |
 |           | Low-order byte  | Contains a second byte of MIDI data (when needed).  |
@@ -80,7 +80,7 @@ This message is not sent when a MIDI system-exclusive message is received.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

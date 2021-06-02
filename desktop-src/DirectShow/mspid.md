@@ -1,5 +1,5 @@
 ---
-Description: Note  This API is deprecated. New applications should not use it. The MSPID data type identifies the purpose of a media steam.
+description: Note  This API is deprecated. New applications should not use it. The MSPID data type identifies the purpose of a media steam.
 ms.assetid: 83a84eb7-a72c-4ca7-b152-8cc81a5bfdaf
 title: MSPID (Mmstream.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The **REFMSPID** type defines a reference to an **MSPID**.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mmstream.h</dt> </dl> |
 

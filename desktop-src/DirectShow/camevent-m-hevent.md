@@ -1,5 +1,5 @@
 ---
-Description: Event handle.
+description: Event handle.
 ms.assetid: e68df736-c17e-4b08-a161-b6d9a7ead22b
 title: CAMEvent::m_hEvent member (Wxutil.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ HANDLE m_hEvent;
 
 
 
-|                   |                                                                                                         |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl> |
 

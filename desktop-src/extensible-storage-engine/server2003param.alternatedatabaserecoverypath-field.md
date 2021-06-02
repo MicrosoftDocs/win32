@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Param.AlternateDatabaseRecoveryPath field"
 title: Server2003Param.AlternateDatabaseRecoveryPath field (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: AlternateDatabaseRecoveryPath field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Server2003.Server2003Param.AlternateDatabaseRecoveryPath
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 The full path to each database is persisted in the transaction logs at run time. Ordinarily, these databases must remain at the original location for transaction replay to function correctly. This parameter can be used to force crash recovery or a restore operation to look for the databases referenced in the transaction log in the specified folder.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](./microsoft.isam.esent.interop.server2003-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_param AlternateDatabaseRecoveryPath
 
 #### Reference
 
-[Server2003Param class](dn335279\(v=exchg.10\).md)
+[Server2003Param class](./server2003param-class.md)
 
-[Server2003Param members](dn335280\(v=exchg.10\).md)
+[Server2003Param members](./server2003param-members.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

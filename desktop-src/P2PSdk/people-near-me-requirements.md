@@ -1,5 +1,5 @@
 ---
-Description: People Near Me Requirements
+description: People Near Me Requirements
 ms.assetid: c7ab73fc-56a6-4b6c-820a-3f8e4a97cfaf
 title: People Near Me Requirements
 ms.topic: article

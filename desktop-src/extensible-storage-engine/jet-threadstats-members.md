@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS members"
 title: JET_THREADSTATS members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_THREADSTATS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS
@@ -15,7 +16,7 @@ Include inherited members
 
 Contains cumulative statistics on the work performed by the database engine on the current thread. This information is returned via JetGetThreadStats.
 
-The [JET_THREADSTATS](hh578565\(v=exchg.10\).md) type exposes the following members.
+The [JET_THREADSTATS](./jet-threadstats-structure2.md) type exposes the following members.
 
 ## Properties
 
@@ -177,6 +178,6 @@ Top
 
 #### Reference
 
-[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](./jet-threadstats-structure2.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

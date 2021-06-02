@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Event Log Parameters"
 title: Event Log Parameters
 TOCTitle: Event Log Parameters
 ms:assetid: c660f555-2627-4d25-8f1c-8c1dc8a3a381
@@ -344,6 +345,5 @@ When this parameter is true, informational event log messages that would ordinar
 
 ### See Also
 
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)

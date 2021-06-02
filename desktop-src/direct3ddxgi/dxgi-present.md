@@ -1,5 +1,5 @@
 ---
-Description: The DXGI\_PRESENT constants specify options for presenting frames to the output.
+description: The DXGI\_PRESENT constants specify options for presenting frames to the output.
 ms.assetid: 1ddf8643-ea3e-4c9f-8439-c245942f7333
 title: DXGI_PRESENT (DXGI.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ If you use the DXGI\_PRESENT\_STEREO\_TEMPORARY\_MONO flag when you present a st
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXGI.h</dt> </dl> |
 

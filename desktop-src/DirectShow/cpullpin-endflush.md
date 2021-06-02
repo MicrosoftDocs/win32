@@ -1,5 +1,5 @@
 ---
-Description: The EndFlush method informs the owning filter to end a flush operation. The derived class must implement this method.
+description: The EndFlush method informs the owning filter to end a flush operation. The derived class must implement this method.
 ms.assetid: 5b178b09-019c-4b5b-9794-5176b5402e1c
 title: CPullPin.EndFlush method (Pullpin.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This design enables the filter to seek the stream simply by calling **Seek** on 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h</dt> </dl>                                                                                                       |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Defines the primitives supported by Direct3D.
+description: Defines the primitives supported by Direct3D.
 ms.assetid: 89e697f9-02b9-4ae1-9e86-6178da0cb008
 title: D3DPRIMITIVETYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ Using [Triangle Strips](triangle-strips.md) or [Triangle Fans (Direct3D 9)](tria
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

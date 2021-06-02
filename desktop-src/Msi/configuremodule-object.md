@@ -1,5 +1,5 @@
 ---
-Description: The ConfigureModule object is an interface implemented by the client.
+description: The ConfigureModule object is an interface implemented by the client.
 ms.assetid: f6240837-7685-4bfe-8a2f-b4428014702a
 title: ConfigureModule object (Mergemod.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ interface **IMsmConfigureModule : IDispatch**
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

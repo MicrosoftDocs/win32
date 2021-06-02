@@ -1,5 +1,5 @@
 ---
-Description: Application User Model IDs (AppUserModelIDs) are used extensively by the taskbar in Windows 7 and later systems to associate processes, files, and windows with a particular application.
+description: Application User Model IDs (AppUserModelIDs) are used extensively by the taskbar in Windows 7 and later systems to associate processes, files, and windows with a particular application.
 ms.assetid: ebce2d99-6f20-4545-9f12-d79cd8d0828f
 title: Application User Model IDs (AppUserModelIDs)
 ms.topic: article

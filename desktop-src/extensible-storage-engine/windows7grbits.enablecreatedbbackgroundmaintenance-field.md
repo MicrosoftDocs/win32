@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Grbits.EnableCreateDbBackgroundMaintenance field"
 title: Windows7Grbits.EnableCreateDbBackgroundMaintenance field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: EnableCreateDbBackgroundMaintenance field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Grbits.EnableCreateDbBackgroundMaintenance
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 The database engine will initiate automatic background database maintenance upon database creation.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const CreateDatabaseGrbit EnableCreateDbBackgroundMaintenance
 
 #### Reference
 
-[Windows7Grbits class](dn335303\(v=exchg.10\).md)
+[Windows7Grbits class](./windows7grbits-class.md)
 
-[Windows7Grbits members](dn335418\(v=exchg.10\).md)
+[Windows7Grbits members](./windows7grbits-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

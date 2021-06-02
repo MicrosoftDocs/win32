@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEnumerateColumns Function"
 title: JetEnumerateColumns Function
 TOCTitle: JetEnumerateColumns Function
 ms:assetid: 8413d056-cdb1-420e-9dd3-7280ad510165
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetEnumerateColumns Function
 
-The **JetEnumerateColumns** function efficiently retrieves a set of columns and their values from the current record of a cursor or the copy buffer of that cursor. The columns and values retrieved can be restricted by a list of column IDs, *itagSequence* numbers, and other characteristics. This column retrieval API is unique in that it returns information in dynamically allocated memory that is obtained using a user-provided [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback. This new flexibility permits the efficient retrieval of column data with specific characteristics (such as size and multiplicity) that are unknown to the caller. This eliminates the need for the use of the discovery modes of [JetRetrieveColumn](gg269198\(v=exchg.10\).md) to determine those characteristics in order to setup a final call to [JetRetrieveColumn](gg269198\(v=exchg.10\).md) that will successfully retrieve the desired data.
+The **JetEnumerateColumns** function efficiently retrieves a set of columns and their values from the current record of a cursor or the copy buffer of that cursor. The columns and values retrieved can be restricted by a list of column IDs, *itagSequence* numbers, and other characteristics. This column retrieval API is unique in that it returns information in dynamically allocated memory that is obtained using a user-provided [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback. This new flexibility permits the efficient retrieval of column data with specific characteristics (such as size and multiplicity) that are unknown to the caller. This eliminates the need for the use of the discovery modes of [JetRetrieveColumn](./jetretrievecolumn-function.md) to determine those characteristics in order to setup a final call to [JetRetrieveColumn](./jetretrievecolumn-function.md) that will successfully retrieve the desired data.
 
 **Windows XP:  JetEnumerateColumns** is introduced in Windows XP.
 
@@ -148,7 +149,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -275,14 +276,14 @@ If **JetEnumerateColumns** returns data in its output parameters then the caller
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)  
-[JET_ENUMCOLUMN](gg294138\(v=exchg.10\).md)  
-[JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
-[JET_PFNREALLOC](gg269237\(v=exchg.10\).md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_ENUMCOLUMNID](./jet-enumcolumnid-structure.md)  
+[JET_ENUMCOLUMN](./jet-enumcolumn-structure.md)  
+[JET_ENUMCOLUMNVALUE](./jet-enumcolumnvalue-structure.md)  
+[JET_PFNREALLOC](./jet-pfnrealloc-callback-function.md)  
 [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019)  
-[JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
-[JetRetrieveColumns](gg294135\(v=exchg.10\).md)
+[JetRetrieveColumn](./jetretrievecolumn-function.md)  
+[JetRetrieveColumns](./jetretrievecolumns-function.md)

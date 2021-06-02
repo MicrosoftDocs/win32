@@ -1,5 +1,5 @@
 ---
-Description: The stop attribute specifies the stop time of an object, relative to the parent object.
+description: The stop attribute specifies the stop time of an object, relative to the parent object.
 ms.assetid: '1bda3472-abda-4672-9b82-311163e56fe0'
 title: stop Attribute
 ms.topic: article

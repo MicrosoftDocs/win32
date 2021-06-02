@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the setting data associated with a virtual hard disk file.
+description: Retrieves the setting data associated with a virtual hard disk file.
 ms.assetid: b82c018e-8d23-4615-99c1-3b622a8f41da
 title: GetVirtualHardDiskSettingData method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -153,7 +153,7 @@ public static void GetVirtualHardDiskSettingData(string vhdPath)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

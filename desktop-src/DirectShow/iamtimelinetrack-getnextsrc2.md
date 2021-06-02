@@ -1,5 +1,5 @@
 ---
-Description: The GetNextSrc2 method searches the track for the next source that appears at the specified time or later. This method is equivalent to IAMTimelineTrack::GetNextSrc, but takes a REFTIME value.
+description: The GetNextSrc2 method searches the track for the next source that appears at the specified time or later. This method is equivalent to IAMTimelineTrack::GetNextSrc, but takes a REFTIME value.
 ms.assetid: f3f7b000-ec73-4ae9-802b-a9bc6f1840b3
 title: IAMTimelineTrack::GetNextSrc2 method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ Returns S\_OK if the method retrieves a source, or S\_FALSE otherwise.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Creates a data object. Deprecated.
+description: Creates a data object. Deprecated.
 ms.assetid: bb0ef2cf-db76-40f6-968f-3599c58459a7
 title: IDirectXFileSaveObject::CreateDataObject method (DXFile.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ If you need to save optional data, use the [**IDirectXFileData::AddDataObject**]
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

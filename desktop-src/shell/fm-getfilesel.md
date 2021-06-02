@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window).
+description: Sent by a File Manager extension to retrieve information about a selected file from the active File Manager window (either the directory window or the Search Results window).
 title: FM_GETFILESEL message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: c2b4aac6-165b-4eba-b012-ee7a20481cd3
-api_name: 
- - FM_GETFILESEL
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -59,7 +50,7 @@ An extension can use the [**FM\_GETSELCOUNT**](fm-getselcount.md) message to ret
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

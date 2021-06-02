@@ -1,5 +1,5 @@
 ---
-Description: Represents and association between a view, and an instance that represents the normalized view of a managed resource.
+description: Represents and association between a view, and an instance that represents the normalized view of a managed resource.
 ms.assetid: 9c6eb3d5-7366-4954-9e64-12f889c64114
 title: CIM_ElementView class
 ms.topic: reference
@@ -80,7 +80,7 @@ The view that represents a de-normalized or aggregate view of the managed resour
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The Sample Grabber filter provides a way to retrieve samples as they pass through the filter graph.
+description: The Sample Grabber filter provides a way to retrieve samples as they pass through the filter graph.
 ms.assetid: 3c2fb52f-2b44-449a-ae96-3cf35a0a401d
 title: Sample Grabber Filter (Qedit.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If you want to retrieve samples without rendering the data, connect the Sample G
 
 
 
-|                                          |                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**ISampleGrabber**](isamplegrabber.md)                                                                       |
 | Input pin media types                    | Any media type.                                                                                                                                    |
@@ -63,7 +63,7 @@ As a result, the Sample Grabber will not connect to the Video Mixing Renderer (V
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

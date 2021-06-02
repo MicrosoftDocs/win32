@@ -1,5 +1,5 @@
 ---
-Description: The GetCurrentSample method is not implemented.
+description: The GetCurrentSample method is not implemented.
 ms.assetid: 0c903498-3c1d-4e95-a797-ca8cfded25f2
 title: ISampleGrabber::GetCurrentSample method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Returns E\_NOTIMPL.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

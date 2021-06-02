@@ -22,7 +22,7 @@ The display table for an address entry.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Address-Entry-Display-Table                           |
 | Ldap-Display-Name | addressEntryDisplayTable                              |
@@ -48,7 +48,7 @@ The display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8017                                                   |
@@ -69,7 +69,7 @@ The display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8017                                                   |
@@ -90,7 +90,7 @@ The display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8017                                                   |
@@ -111,7 +111,7 @@ The display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8017                                                   |
@@ -132,7 +132,7 @@ The display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8017                                                   |
@@ -153,7 +153,7 @@ The display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8017                                                   |

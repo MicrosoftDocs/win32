@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a video media type requires the enforcement of copy protection.
+description: Specifies whether a video media type requires the enforcement of copy protection.
 ms.assetid: fb12ba38-a4f4-44fe-bf31-e731c56bb145
 title: MF_MT_DRM_FLAGS attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

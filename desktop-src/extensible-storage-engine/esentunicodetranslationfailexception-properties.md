@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationFailException properties"
 title: EsentUnicodeTranslationFailException properties
 TOCTitle: EsentUnicodeTranslationFailException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationFailException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentUnicodeTranslationFailException](dn350826\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnicodeTranslationFailException](./esentunicodetranslationfailexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentUnicodeTranslationFailException class](dn350826\(v=exchg.10\).md)
+[EsentUnicodeTranslationFailException class](./esentunicodetranslationfailexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

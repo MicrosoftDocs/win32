@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO Structure"
 title: JET_INSTANCE_INFO Structure
 TOCTitle: JET_INSTANCE_INFO Structure
 ms:assetid: 8cdd2e48-f1bb-465b-aefc-ffe441bf88a1
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_INSTANCE_INFO Structure
 
-The **JET_INSTANCE_INFO** structure receives information about running database instances when used with the [JetGetInstanceInfo](gg294149\(v=exchg.10\).md) and [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md) functions.
+The **JET_INSTANCE_INFO** structure receives information about running database instances when used with the [JetGetInstanceInfo](./jetgetinstanceinfo-function.md) and [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md) functions.
 
 ```cpp
     typedef struct _JET_INSTANCE_INFO {
@@ -41,7 +42,7 @@ The **JET_INSTANCE_INFO** structure receives information about running database 
 
 **hInstanceId**
 
-The [JET_INSTANCE](gg294048\(v=exchg.10\).md) of the given instance.
+The [JET_INSTANCE](./jet-instance.md) of the given instance.
 
 **szInstanceName**
 
@@ -99,8 +100,7 @@ For a given **JET_INSTANCE_INFO** structure, the array of strings that is return
 
 ### See Also
 
-[JET_API_PTR](gg269209\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetGetInstanceInfo](gg294149\(v=exchg.10\).md)  
-[JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)
-
+[JET_API_PTR](./jet-api-ptr.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetGetInstanceInfo](./jetgetinstanceinfo-function.md)  
+[JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the complexity profile of the encoded content.
+description: Specifies the complexity profile of the encoded content.
 ms.assetid: 2e238d31-98b2-4c79-96b0-9e6949010a73
 title: MFPKEY_DECODERCOMPLEXITYPROFILE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ For video content, you can request a profile level by setting [MFPKEY\_DECODERCO
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

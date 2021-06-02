@@ -1,5 +1,5 @@
 ---
-Description: The StructuredQuerySample code sample demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+description: The StructuredQuerySample code sample demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 ms.assetid: 9bb56d80-670e-4b2b-bf3f-40d0a75a89b6
 title: StructuredQuerySample
 ms.topic: article

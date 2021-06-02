@@ -1,5 +1,5 @@
 ---
-Description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers.'
+description: 'Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) separates cryptographic providers from key storage providers.'
 ms.assetid: ce29bc97-049e-4c82-979f-4c805a318ba0
 title: CNG Cryptographic Algorithm Providers
 ms.topic: article
@@ -22,7 +22,7 @@ Unlike Cryptography API (CryptoAPI), Cryptography API: Next Generation (CNG) sep
 
 | Name                                   | Supported modes                                                                                                                                                                                                 | Key size in bits (Default/Min/Max) |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| Advanced Encryption Standard (AES)     | ECB, CBC, CFB8, CFB128, GCM, CCM, GMAC, CMAC, AES Key Wrap, XTS<br/> **Windows 8:** Support for the CFB128 and CMAC modes begins.<br/> **Windows 10:** Support for XTS-AES moode begins.<br/> | 128/192/256                        |
+| Advanced Encryption Standard (AES)     | ECB, CBC, CFB8, CFB128, GCM, CCM, GMAC, CMAC, AES Key Wrap, XTS<br/> **Windows 8:** Support for the CFB128 and CMAC modes begins.<br/> **Windows 10:** Support for XTS-AES mode begins.<br/> | 128/192/256                        |
 | Data Encryption Standard (DES)         | ECB, CBC, CFB8, CFB64<br/> **Windows 8:** Support for the CFB64 mode begins.<br/>                                                                                                                   | 56/56/56                           |
 | Data Encryption Standard XORed(DESX)   | ECB, CBC, CFB8, CFB64 <br/> **Windows 8:** Support for the CFB64 mode begins.<br/>                                                                                                                  | 192/192/192                        |
 | Triple Data Encryption Standard (3DES) | ECB, CBC, CFB8, CFB64 <br/> **Windows 8:** Support for the CFB64 mode begins.<br/>                                                                                                                  | 112/168                            |

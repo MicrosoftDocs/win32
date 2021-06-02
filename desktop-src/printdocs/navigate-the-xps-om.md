@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to navigate an XPS OM and to access different parts of the in-memory document.
+description: This topic describes how to navigate an XPS OM and to access different parts of the in-memory document.
 ms.assetid: 90b726aa-29da-4cfb-9c69-f471c2acb678
 title: Navigate the XPS OM
 ms.topic: article
@@ -248,7 +248,7 @@ The following code example assumes the existence of an initialized XPS OM, and *
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

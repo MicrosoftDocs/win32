@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Extensible Storage Engine Files"
 title: Extensible Storage Engine Files
 TOCTitle: Extensible Storage Engine Files
 ms:assetid: b89a8f78-f2c4-4cbf-a000-a95c34589033
@@ -217,21 +218,21 @@ Windows Server 2016 and later (server)
 
 Transaction log files contain operations on database files. They contain enough information to bring a database to a logically consistent state after an unexpected process termination or system shutdown.
 
-The names of the log files are dependent on a three-letter base name, which can be set with [JET_paramBaseName](gg269235\(v=exchg.10\).md). The examples below use a base name of "edb", because that is the default base name. The extension for the transaction log files will be either .log or .jtx depending upon whether the JET_bitESE98FileNames is set in the JET_paramLegacyFileNames parameter. For more information, see [Extensible Storage Engine System Parameters](gg294139\(v=exchg.10\).md).
+The names of the log files are dependent on a three-letter base name, which can be set with [JET_paramBaseName](./transaction-log-parameters.md). The examples below use a base name of "edb", because that is the default base name. The extension for the transaction log files will be either .log or .jtx depending upon whether the JET_bitESE98FileNames is set in the JET_paramLegacyFileNames parameter. For more information, see [Extensible Storage Engine System Parameters](./extensible-storage-engine-system-parameters.md).
 
 Transaction log files are named \<base\>\<generation-number\>.log, beginning with 1. The log generation number is in hexadecimal format. For example, edb00001.log is the first log, and edb000ff.log is the 255th log. The log files have five hexadecimal digits in the log file name, until the 1048576th log file, at which point the log files start being named in an 11.3 format (for example, edb00100000.log). \<base\>.log is always the log file that is currently being used. If the database engine is not active, the generation of edb.log can be identified using the following command: **esentutl.exe -ml edb.log**.
 
-Although transaction log files have the .LOG extension commonly associated with text files, transaction log files are in a binary format and should never be edited by a user.Database operations are written to the log first. The data can be written to the database file later; possibly immediately, potentially much later. In the event of unexpected process or system termination, the operations are still present in the log files, and incomplete transactions can be rolled back. The act of replaying transaction log files is called *soft recovery*, and it is done automatically when [JetInit](gg294068\(v=exchg.10\).md) or [JetInit2](gg294065\(v=exchg.10\).md) is called. Soft recovery can also be performed manually with the "-r" option of the Esentutl.exe program. The act of replaying transaction log files on a database that is restored from a backup is called *hard recovery*.
+Although transaction log files have the .LOG extension commonly associated with text files, transaction log files are in a binary format and should never be edited by a user.Database operations are written to the log first. The data can be written to the database file later; possibly immediately, potentially much later. In the event of unexpected process or system termination, the operations are still present in the log files, and incomplete transactions can be rolled back. The act of replaying transaction log files is called *soft recovery*, and it is done automatically when [JetInit](./jetinit-function.md) or [JetInit2](./jetinit2-function.md) is called. Soft recovery can also be performed manually with the "-r" option of the Esentutl.exe program. The act of replaying transaction log files on a database that is restored from a backup is called *hard recovery*.
 
-Log files are of a fixed size, customizable with [JET_paramLogFileSize](gg269235\(v=exchg.10\).md). When the current log file (that is, edb.log) gets filled, it gets renamed to \<base\>\<generation-number\>.log, and a new transaction log file is needed in the transaction log stream.
+Log files are of a fixed size, customizable with [JET_paramLogFileSize](./transaction-log-parameters.md). When the current log file (that is, edb.log) gets filled, it gets renamed to \<base\>\<generation-number\>.log, and a new transaction log file is needed in the transaction log stream.
 
-Each database instance has a single log file sequence associated with it. Windows XP introduced [JetCreateInstance](gg269354\(v=exchg.10\).md), allowing multiple transaction log file sequences to be used by a single process. Multiple transaction log file sequences cannot exist in the same directory, however.
+Each database instance has a single log file sequence associated with it. Windows XP introduced [JetCreateInstance](./jetcreateinstance-function.md), allowing multiple transaction log file sequences to be used by a single process. Multiple transaction log file sequences cannot exist in the same directory, however.
 
 Transaction log files should almost never be manually manipulated, renamed, moved, or deleted because data corruption can result.
 
-Transaction log files will be deleted by the database engine during a full backup (see [JetBackup](gg294058\(v=exchg.10\).md), [JetTruncateLog](gg269263\(v=exchg.10\).md), [JetTruncateLogInstance](gg269352\(v=exchg.10\).md)), or during normal operations, if circular logging is enabled.
+Transaction log files will be deleted by the database engine during a full backup (see [JetBackup](./jetbackup-function.md), [JetTruncateLog](./jettruncatelog-function.md), [JetTruncateLogInstance](./jettruncateloginstance-function.md)), or during normal operations, if circular logging is enabled.
 
-After a transaction log file is filled up, the database engine needs to create a new log file. Circular logging is a means by which log files can be automatically cleaned up by the database engine when they are no longer required for crash recovery. This process is an alternative to removing log files as a by-product of performing a backup. Circular logging can be controlled with the [JET_paramCircularLog](gg269235\(v=exchg.10\).md) system parameter. Transaction log files should not be deleted using any other method.
+After a transaction log file is filled up, the database engine needs to create a new log file. Circular logging is a means by which log files can be automatically cleaned up by the database engine when they are no longer required for crash recovery. This process is an alternative to removing log files as a by-product of performing a backup. Circular logging can be controlled with the [JET_paramCircularLog](./transaction-log-parameters.md) system parameter. Transaction log files should not be deleted using any other method.
 
 ### Temporary Transaction Log Files
 
@@ -255,7 +256,7 @@ Because the reserved transaction log files are created in anticipation of need f
 
 ### Checkpoint Files
 
-The checkpoint file stores the checkpoint for a particular transaction log file sequence. The checkpoint file is named \<base\>.chk or \<base\>.jcp, depending upon whether the JET_bitESE98FileNames is set in the JET_paramLegacyFileNames parameter, and its location is given by [JET_paramSystemPath](gg269235\(v=exchg.10\).md).
+The checkpoint file stores the checkpoint for a particular transaction log file sequence. The checkpoint file is named \<base\>.chk or \<base\>.jcp, depending upon whether the JET_bitESE98FileNames is set in the JET_paramLegacyFileNames parameter, and its location is given by [JET_paramSystemPath](./transaction-log-parameters.md).
 
 Database operations are first written to the log files and then cached in memory. At some later point, the operations get written to the database file, but for performance reasons, the order in which operations are written to the database file might not match the order in which they were originally logged. Operations written to the transaction log file will be in one of two states:
 
@@ -277,9 +278,9 @@ Since all the operations in the log files prior to the checkpoint are represente
 
 ### Database Files
 
-The database file contains the schema for all of the tables in the database, the records for all of the tables in the database, and the indexes over the tables. Its location is given using [JetCreateDatabase](gg269212\(v=exchg.10\).md), [JetCreateDatabase2](gg269208\(v=exchg.10\).md), [JetAttachDatabase](gg294074\(v=exchg.10\).md), or [JetAttachDatabase2](gg269322\(v=exchg.10\).md).
+The database file contains the schema for all of the tables in the database, the records for all of the tables in the database, and the indexes over the tables. Its location is given using [JetCreateDatabase](./jetcreatedatabase-function.md), [JetCreateDatabase2](./jetcreatedatabase2-function.md), [JetAttachDatabase](./jetattachdatabase-function.md), or [JetAttachDatabase2](./jetattachdatabase2-function.md).
 
-A database is cleanly shut down only after a successful call to [JetTerm](gg269298\(v=exchg.10\).md) or [JetTerm2](gg269223\(v=exchg.10\).md).
+A database is cleanly shut down only after a successful call to [JetTerm](./jetterm-function.md) or [JetTerm2](./jetterm2-function.md).
 
 The Esentutl.exe program can detect whether a database is shut down cleanly with the "-mh" option. For example, "esentutl.exe -mh sample.edb" will read the database header of a database named sample.edb, and print out the state of sample.edb. It may print out "State: Clean Shutdown" or "State: Dirty Shutdown".
 
@@ -295,9 +296,9 @@ Multiple databases can be associated with a single transaction log file sequence
 
 The temporary database is used as a backing store for temptables and it is also used when creating indices.
 
-The name and location is configured with [JET_paramTempPath](gg294140\(v=exchg.10\).md).
+The name and location is configured with [JET_paramTempPath](./temporary-database-parameters.md).
 
-Temptables are created with [JetOpenTempTable](gg269211\(v=exchg.10\).md), [JetOpenTempTable2](gg269302\(v=exchg.10\).md), [JetOpenTempTable3](gg269255\(v=exchg.10\).md), [JetOpenTemporaryTable](gg294144\(v=exchg.10\).md). They are also created by some API calls and used to return schema information (such as [JetGetIndexInfo](gg294084\(v=exchg.10\).md)).
+Temptables are created with [JetOpenTempTable](./jetopentemptable-function.md), [JetOpenTempTable2](./jetopentemptable2-function.md), [JetOpenTempTable3](./jetopentemptable3-function.md), [JetOpenTemporaryTable](./jetopentemporarytable-function.md). They are also created by some API calls and used to return schema information (such as [JetGetIndexInfo](./jetgetindexinfo-function.md)).
 
 ## Flush Map Files
 
@@ -311,21 +312,20 @@ This enhancement introduces two requirements for how database files must be name
 
   - 2\. A database must not have a .jfm extension.
 
-When you manually copy or move a database file, its corresponding flush map file should also be, respectively, copied or moved to the same destination directory. If a flush map file is not present at the time of a new database attachment (via [JetAttachDatabase](gg294074\(v=exchg.10\).md), a new one will be created and re-populated on-demand as pages are read in from the database. Mixing mismatching database and flush map files is handled by ESE, and forces the mismatched flush map to be deleted and re-created from scratch.
+When you manually copy or move a database file, its corresponding flush map file should also be, respectively, copied or moved to the same destination directory. If a flush map file is not present at the time of a new database attachment (via [JetAttachDatabase](./jetattachdatabase-function.md), a new one will be created and re-populated on-demand as pages are read in from the database. Mixing mismatching database and flush map files is handled by ESE, and forces the mismatched flush map to be deleted and re-created from scratch.
 
 The size of a flush map file is directly proportional to its associated database file and approximately equal to (all sizes in bytes, result must be rounded up to the next multiple of 8,192):
 
-    8,192 + ((<database file size> / <database page size>) / 4)
+`8,192 + ((<database file size> / <database page size>) / 4)`
 
 For example: for a 1.5GB database using a 32KB page size, the approximate size of the flush map is 24,576 bytes (or 24KB).
 
-The flush map file needs to be refreshed as database pages are flushed. If transactional logging is enabled (for example, [JET_paramRecovery](gg269235\(v=exchg.10\).md) set to "on", the default), refreshing the flush map is performed as the client application makes modifications to the database. On average, the entire flush map is written to the non-volatile media once for every 20% of [JET_paramCheckpointDepthMax](gg269293\(v=exchg.10\).md) -worth (in bytes) of transactional logs generated. The number of write operations depends on how distributed throughout the database the modifications are. But it is at most, approximately (all sizes in bytes):
+The flush map file needs to be refreshed as database pages are flushed. If transactional logging is enabled (for example, [JET_paramRecovery](./transaction-log-parameters.md) set to "on", the default), refreshing the flush map is performed as the client application makes modifications to the database. On average, the entire flush map is written to the non-volatile media once for every 20% of [JET_paramCheckpointDepthMax](./database-cache-parameters.md) -worth (in bytes) of transactional logs generated. The number of write operations depends on how distributed throughout the database the modifications are. But it is at most, approximately (all sizes in bytes):
 
-    <flush map file size> / JET_paramMaxCoalesceWriteSize
+`<flush map file size> / JET_paramMaxCoalesceWriteSize`
 
-If transactional logging is disabled (for example, [JET_paramRecovery](gg269235\(v=exchg.10\).md) set to "off"), the flush map gets refreshed only once when the database is explicitly detached cleanly (via [JetDetachDatabase](gg269266\(v=exchg.10\).md), or implicitly detached cleanly by terminating its associated ESE instance (via any of the [JetTerm](gg269298\(v=exchg.10\).md) functions, as long as [JET_bitTermDirty](gg269223\(v=exchg.10\).md) is not passed).
+If transactional logging is disabled (for example, [JET_paramRecovery](./transaction-log-parameters.md) set to "off"), the flush map gets refreshed only once when the database is explicitly detached cleanly (via [JetDetachDatabase](./jetdetachdatabase-function.md), or implicitly detached cleanly by terminating its associated ESE instance (via any of the [JetTerm](./jetterm-function.md) functions, as long as [JET_bitTermDirty](./jetterm2-function.md) is not passed).
 
-1 A lost write (or lost flush) is defined as a write operation that returns successfully from the operating system to the ESE database engine but the actual data never gets persisted to the database file in the non-volatile media. It is usually caused by a malfunctioning or misconfigured storage stack (software or hardware). Client applications may receive a [JET_errReadLostFlushVerifyFailure](gg269297\(v=exchg.10\).md) error from ESE functions that require reading data from the database if the data is located in a region that underwent a lost write event.
+1 A lost write (or lost flush) is defined as a write operation that returns successfully from the operating system to the ESE database engine but the actual data never gets persisted to the database file in the non-volatile media. It is usually caused by a malfunctioning or misconfigured storage stack (software or hardware). Client applications may receive a [JET_errReadLostFlushVerifyFailure](./extensible-storage-engine-error-codes.md) error from ESE functions that require reading data from the database if the data is located in a region that underwent a lost write event.
 
 2 The ability to detect lost writes within a process's lifetime has been present since Windows 8 (client) and Windows Server 2012 (server).
-

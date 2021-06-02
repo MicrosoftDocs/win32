@@ -1,5 +1,5 @@
 ---
-Description: Describes the synthetic 3-D GPU service.
+description: Describes the synthetic 3-D GPU service.
 ms.assetid: 'fe3d6105-3def-453a-ad81-97cd0bb4613f'
 title: Msvm_Synthetic3DService class
 ms.topic: reference
@@ -625,7 +625,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

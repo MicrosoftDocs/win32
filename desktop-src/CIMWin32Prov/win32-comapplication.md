@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_COMApplication abstract WMI class represents a Component Object Model (COM) application. In this context, a COM application is a logical grouping of COM classes.
+description: The Win32\_COMApplication abstract WMI class represents a Component Object Model (COM) application. In this context, a COM application is a logical grouping of COM classes.
 ms.assetid: a70939e2-5812-4ade-aa75-819c8d4b9173
 ms.tgt_platform: multiple
 title: Win32_COMApplication class
@@ -241,7 +241,7 @@ The **Win32\_COMApplication** class is derived from [**CIM\_LogicalElement**](ci
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

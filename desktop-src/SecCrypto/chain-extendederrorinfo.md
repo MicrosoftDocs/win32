@@ -1,5 +1,5 @@
 ---
-Description: Returns a string that contains additional error information about the indexed entry.
+description: Returns a string that contains additional error information about the indexed entry.
 ms.assetid: 4f0d5289-c414-4e2b-b612-be8ce1d98b12
 title: IChain2::ExtendedErrorInfo method
 ms.topic: reference
@@ -54,7 +54,7 @@ A string that contains the extended error information.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

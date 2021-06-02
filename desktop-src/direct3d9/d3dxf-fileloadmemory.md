@@ -1,5 +1,5 @@
 ---
-Description: Identifies memory data.
+description: Identifies memory data.
 ms.assetid: 0ec0597f-d83a-4c1e-b993-30f0bbd64e6b
 title: D3DXF_FILELOADMEMORY structure (D3dx9xof.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ This structure identifies data to be loaded from memory when an application uses
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9xof.h</dt> </dl> |
 

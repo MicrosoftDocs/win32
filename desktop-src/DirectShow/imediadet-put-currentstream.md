@@ -1,5 +1,5 @@
 ---
-Description: The put\_CurrentStream method specifies the stream number for the media detector to use.
+description: The put\_CurrentStream method specifies the stream number for the media detector to use.
 ms.assetid: 01fb7ccf-9b45-434c-b574-f3027d85ea8a
 title: IMediaDet::put_CurrentStream method (Qedit.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If the media detector is in bitmap grab mode, this method returns E\_INVALIDARG.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

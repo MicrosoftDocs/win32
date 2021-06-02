@@ -1,5 +1,5 @@
 ---
-Description: Attributes that can be retrieved on an item (file or folder) or set of items.
+description: Attributes that can be retrieved on an item (file or folder) or set of items.
 ms.assetid: 4cb85995-cdc8-4474-8c4d-c783ac91c759
 title: SFGAO (Shobjidl.h)
 ms.topic: reference
@@ -178,7 +178,7 @@ Opening a stream for an item is generally a slow operation at all times. SFGAO_I
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

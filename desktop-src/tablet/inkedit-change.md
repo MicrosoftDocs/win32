@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the content of the InkEdit control changes.
+description: Occurs when the content of the InkEdit control changes.
 ms.assetid: 6c65fcca-c84a-414c-a4e5-c5fdffb13e51
 title: InkEdit.Change event (Inked.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ This event method is defined in the **\_IInkEditEvents** interface. The **\_IInk
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Resumes the encryption or decryption of a volume.
+description: Resumes the encryption or decryption of a volume.
 ms.assetid: e37f3e32-5510-431e-9782-11908e65300d
 title: ResumeConversion method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -66,7 +66,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

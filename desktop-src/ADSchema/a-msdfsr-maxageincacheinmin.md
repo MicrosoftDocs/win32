@@ -22,7 +22,7 @@ Maximum time, in minutes, to keep files in full form.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-MaxAgeInCacheInMin           |
 | Ldap-Display-Name | msDFSR-MaxAgeInCacheInMin            |
@@ -45,7 +45,7 @@ Maximum time, in minutes, to keep files in full form.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -66,7 +66,7 @@ Maximum time, in minutes, to keep files in full form.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -87,7 +87,7 @@ Maximum time, in minutes, to keep files in full form.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

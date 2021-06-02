@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.MinDataForXpress property"
 title: SystemParameters.MinDataForXpress property 
 TOCTitle: 'MinDataForXpress property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.MinDataForXpress
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the smallest amount of data that should be compressed with xpress compression.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,8 +63,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

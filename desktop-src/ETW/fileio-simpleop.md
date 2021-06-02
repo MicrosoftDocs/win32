@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for simple file operation events. The following syntax is simplified from MOF code.
+description: This class is the event type class for simple file operation events. The following syntax is simplified from MOF code.
 ms.assetid: 5b6374e0-b39a-4d5a-acbd-25b410f1ba52
 title: FileIo_SimpleOp class
 ms.topic: reference
@@ -121,7 +121,7 @@ The Cleanup event is logged when the last handle to the file is closed. The Clos
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

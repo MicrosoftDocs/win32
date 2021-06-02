@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of this file data object.
+description: Retrieves the name of this file data object.
 ms.assetid: 182529cb-144c-4ed8-94bf-6688598e9ea7
 title: ID3DXFileData::GetName method (D3DX9Xof.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ For this method to succeed, either szName or *puiSize* must be non-**NULL**.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Xof.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

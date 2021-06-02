@@ -6,10 +6,10 @@ ms.topic: reference
 ms.date: 10/20/2020
 ---
 
-# Commands
+# Commands (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Commands are actions users can take while using your app. Learn the guidelines for adding commands to your app's menus, ribbons, and toolbars.
 
@@ -28,10 +28,4 @@ Commands are actions users can take while using your app. Learn the guidelines f
  
 
  
-
- 
-
-
-
-
 

@@ -1,5 +1,5 @@
 ---
-Description: Copies files from the Hyper-V host to the virtual machine.
+description: Copies files from the Hyper-V host to the virtual machine.
 ms.assetid: 76667557-13B2-4286-BC6B-E32FADE62A7A
 title: Msvm_GuestFileService::CopyFilesToGuest method
 ms.topic: reference
@@ -116,7 +116,7 @@ On success, returns 0; otherwise, returns an error value.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

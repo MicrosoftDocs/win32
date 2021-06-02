@@ -38,7 +38,7 @@ Custom Draw values, for example, are specified in the **dwItemSpec** member of t
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

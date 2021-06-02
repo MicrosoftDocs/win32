@@ -1,5 +1,5 @@
 ---
-Description: The following enumerations are supported by the Certificate Enrollment API.
+description: The following enumerations are supported by the Certificate Enrollment API.
 ms.assetid: 8514fb89-1cf5-4e09-997c-17984efc4e03
 title: CertEnroll Enumerations
 ms.topic: article

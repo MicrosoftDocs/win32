@@ -1,5 +1,5 @@
 ---
-Description: The DbgDumpObjectRegister function displays information about active objects. Ignored in retail builds.
+description: The DbgDumpObjectRegister function displays information about active objects. Ignored in retail builds.
 ms.assetid: 362d9912-662c-4a72-95b4-01f3d808e299
 title: DbgDumpObjectRegister function (Wxdebug.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This function generates several LOG\_MEMORY messages. At logging level 1, the fu
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

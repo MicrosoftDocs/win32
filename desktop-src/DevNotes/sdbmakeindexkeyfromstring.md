@@ -1,5 +1,5 @@
 ---
-Description: Creates a key from a string.
+description: Creates a key from a string.
 ms.assetid: 107138b9-96f0-4144-a4bc-7115b6deab60
 title: SdbMakeIndexKeyFromString function
 ms.topic: reference
@@ -53,7 +53,7 @@ The standard index key is the first eight characters of the string, converted to
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

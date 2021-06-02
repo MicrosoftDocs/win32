@@ -22,7 +22,7 @@ Unicode String Attribute, gives the list of Windows NT 4.0 Replication Domain Co
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Domain-Replica                              |
 | Ldap-Display-Name | domainReplica                               |
@@ -48,7 +48,7 @@ Unicode String Attribute, gives the list of Windows NT 4.0 Replication Domain Co
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -69,7 +69,7 @@ Unicode String Attribute, gives the list of Windows NT 4.0 Replication Domain Co
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -90,7 +90,7 @@ Unicode String Attribute, gives the list of Windows NT 4.0 Replication Domain Co
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -111,7 +111,7 @@ Unicode String Attribute, gives the list of Windows NT 4.0 Replication Domain Co
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -132,7 +132,7 @@ Unicode String Attribute, gives the list of Windows NT 4.0 Replication Domain Co
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |
@@ -153,7 +153,7 @@ Unicode String Attribute, gives the list of Windows NT 4.0 Replication Domain Co
 
 
 
-|                        |                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------|
 | Link-Id                | \-                                                    |
 | MAPI-Id                | \-                                                    |

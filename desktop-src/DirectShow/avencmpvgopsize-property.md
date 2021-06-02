@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum number of pictures from one group-of-pictures (GOP) header to the next GOP header.
+description: Specifies the maximum number of pictures from one group-of-pictures (GOP) header to the next GOP header.
 ms.assetid: 90433df4-5a96-4bc2-a780-93306abcb0a4
 title: AVEncMPVGOPSize property (Codecapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ GOP size 0 is encoder dependent and encoders can choose different GOP sizes base
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

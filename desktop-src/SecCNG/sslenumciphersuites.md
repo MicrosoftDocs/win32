@@ -1,5 +1,5 @@
 ---
-Description: Enumerates the cipher suites supported by a Secure Sockets Layer protocol (SSL) protocol provider.
+description: Enumerates the cipher suites supported by a Secure Sockets Layer protocol (SSL) protocol provider.
 ms.assetid: c12bc422-71c9-44f4-abf7-76902b19d3bd
 title: SslEnumCipherSuites function (Sslprovider.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ To enumerate all cipher suites supported by the SSL provider, call the **SslEnum
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

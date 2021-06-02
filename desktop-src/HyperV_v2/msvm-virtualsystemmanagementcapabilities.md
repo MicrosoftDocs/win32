@@ -1,5 +1,5 @@
 ---
-Description: Describes the capabilities of the associated Msvm\_VirtualSystemManagementService.
+description: Describes the capabilities of the associated Msvm\_VirtualSystemManagementService.
 ms.assetid: 3a167b06-bddd-4bac-95c0-ecf14e01eec0
 title: Msvm_VirtualSystemManagementCapabilities class
 ms.topic: reference
@@ -692,7 +692,7 @@ An array of strings each designating a type of virtual system that the implement
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

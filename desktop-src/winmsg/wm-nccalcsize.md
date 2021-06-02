@@ -1,5 +1,5 @@
 ---
-Description: Sent when the size and position of a window's client area must be calculated. By processing this message, an application can control the content of the window's client area when the size or position of the window changes.
+description: Sent when the size and position of a window's client area must be calculated. By processing this message, an application can control the content of the window's client area when the size or position of the window changes.
 ms.assetid: d2d5825e-02a5-44b8-8615-55b7259d24ba
 title: WM_NCCALCSIZE message (Winuser.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ Starting with Windows Vista, removing the standard frame by simply returning 0 w
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Mapping DirectX Video Acceleration to IAMVideoAccelerator
+description: Mapping DirectX Video Acceleration to IAMVideoAccelerator
 ms.assetid: 5afb1021-85b9-42ae-ae85-f4e114194e70
 title: Mapping DirectX Video Acceleration to IAMVideoAccelerator
 ms.topic: article

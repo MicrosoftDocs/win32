@@ -1,5 +1,5 @@
 ---
-Description: Displays a dialog box for selecting certificates and returns a collection of those certificates selected.
+description: Displays a dialog box for selecting certificates and returns a collection of those certificates selected.
 ms.assetid: dbf49a4b-6da1-4819-afcd-46db89a00fce
 title: ICertificates2::Select method
 ms.topic: reference
@@ -72,7 +72,7 @@ A [**Certificates**](certificates.md) object that contains the certificates sele
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

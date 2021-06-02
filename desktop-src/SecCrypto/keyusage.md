@@ -1,5 +1,5 @@
 ---
-Description: Provides read-only access to key usage properties of a certificate.
+description: Provides read-only access to key usage properties of a certificate.
 ms.assetid: '8b8e9076-1a4f-4383-ac4b-1322d52949f0'
 title: KeyUsage object
 ms.topic: reference
@@ -59,7 +59,7 @@ The **KeyUsage** object cannot be created.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management of a fibre channel (FC) port device.
+description: Represents the capabilities and management of a fibre channel (FC) port device.
 ms.assetid: 32a11971-9e18-410d-a3cd-4921a7e986f0
 title: CIM_FCPort class
 ms.topic: reference
@@ -22,6 +22,9 @@ api_location:
 
 # CIM\_FCPort class
 
+> [!NOTE]
+> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
+
 Represents the capabilities and management of a fibre channel (FC) port device.
 
 ## Syntax
@@ -39,6 +42,9 @@ class CIM_FCPort : CIM_NetworkPort
 ```
 
 ## Members
+
+> [!NOTE]
+> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
 
 The **CIM\_FCPort** class has these types of members:
 
@@ -734,7 +740,7 @@ The FC-4 protocols that are supported by the fibre channel.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

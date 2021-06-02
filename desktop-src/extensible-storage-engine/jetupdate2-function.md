@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetUpdate2 Function"
 title: JetUpdate2 Function
 TOCTitle: JetUpdate2 Function
 ms:assetid: 125f372c-9c4c-4be8-b0df-bbf53d79e90b
@@ -27,11 +28,11 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetUpdate2 Function
 
-The **JetUpdate2** function performs an update operation including inserting a new row into a table or updating an existing row. This function contains a list of *grbit* options that can be set while performing an update. Deleting a table row is performed by calling [JetDelete](gg269315\(v=exchg.10\).md).
+The **JetUpdate2** function performs an update operation including inserting a new row into a table or updating an existing row. This function contains a list of *grbit* options that can be set while performing an update. Deleting a table row is performed by calling [JetDelete](./jetdelete-function.md).
 
 **Windows Server 2003:  JetUpdate2** is introduced in Windows Server 2003.
 
-**JetUpdate2** is the final step in performing an insert or an update. The update is begun by calling [JetPrepareUpdate](gg269339\(v=exchg.10\).md) and then by calling [JetSetColumn](gg294137\(v=exchg.10\).md) or [JetSetColumns](gg294050\(v=exchg.10\).md) one or more times to set the record state. Finally, **JetUpdate2** is called to complete the update operation. Indexes are updated only by [JetUpdate](gg269288\(v=exchg.10\).md) or **JetUpdate2**, and not during [JetSetColumn](gg294137\(v=exchg.10\).md) or [JetSetColumns](gg294050\(v=exchg.10\).md).
+**JetUpdate2** is the final step in performing an insert or an update. The update is begun by calling [JetPrepareUpdate](./jetprepareupdate-function.md) and then by calling [JetSetColumn](./jetsetcolumn-function.md) or [JetSetColumns](./jetsetcolumns-function.md) one or more times to set the record state. Finally, **JetUpdate2** is called to complete the update operation. Indexes are updated only by [JetUpdate](./jetupdate-function.md) or **JetUpdate2**, and not during [JetSetColumn](./jetsetcolumn-function.md) or [JetSetColumns](./jetsetcolumns-function.md).
 
 ```cpp
     JET_ERR JET_API JetUpdate2(
@@ -92,7 +93,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -190,9 +191,9 @@ On failure, no changes of any kind are made to the database. Before insert and b
 
 #### Remarks
 
-Record size limitations are enforced by [JetSetColumn](gg294137\(v=exchg.10\).md), and not in general by [JetUpdate](gg269288\(v=exchg.10\).md). The only exception is when the JET_bitUpdateCheckESE97Compatibility compatibility flag is being used. In this case, the whole record is checked since an individual [JetSetColumn](gg294137\(v=exchg.10\).md) operation that exceeded the limit may be compensated by a subsequent call to [JetSetColumn](gg294137\(v=exchg.10\).md).
+Record size limitations are enforced by [JetSetColumn](./jetsetcolumn-function.md), and not in general by [JetUpdate](./jetupdate-function.md). The only exception is when the JET_bitUpdateCheckESE97Compatibility compatibility flag is being used. In this case, the whole record is checked since an individual [JetSetColumn](./jetsetcolumn-function.md) operation that exceeded the limit may be compensated by a subsequent call to [JetSetColumn](./jetsetcolumn-function.md).
 
-See the Remarks section in [JetUpdate](gg269288\(v=exchg.10\).md) for more information.
+See the Remarks section in [JetUpdate](./jetupdate-function.md) for more information.
 
 #### Requirements
 
@@ -228,14 +229,13 @@ See the Remarks section in [JetUpdate](gg269288\(v=exchg.10\).md) for more infor
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetDelete](gg269315\(v=exchg.10\).md)  
-[JetPrepareUpdate](gg269339\(v=exchg.10\).md)  
-[JetRegisterCallback](gg269175\(v=exchg.10\).md)  
-[JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
-[JetRetrieveColumns](gg294135\(v=exchg.10\).md)  
-[JetSetColumn](gg294137\(v=exchg.10\).md)  
-[JetSetColumns](gg294050\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetDelete](./jetdelete-function.md)  
+[JetPrepareUpdate](./jetprepareupdate-function.md)  
+[JetRegisterCallback](./jetregistercallback-function.md)  
+[JetRetrieveColumn](./jetretrievecolumn-function.md)  
+[JetRetrieveColumns](./jetretrievecolumns-function.md)  
+[JetSetColumn](./jetsetcolumn-function.md)  
+[JetSetColumns](./jetsetcolumns-function.md)

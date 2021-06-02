@@ -1,5 +1,5 @@
 ---
-Description: Defines whether the current tessellation mode is discrete or continuous.
+description: Defines whether the current tessellation mode is discrete or continuous.
 ms.assetid: d8055a25-6a8e-4018-a993-762f6f0e0cd3
 title: D3DPATCHEDGESTYLE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Note that continuous tessellation produces a completely different tessellation p
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

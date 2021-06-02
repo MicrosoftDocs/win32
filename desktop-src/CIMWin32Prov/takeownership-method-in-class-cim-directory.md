@@ -1,5 +1,5 @@
 ---
-Description: The TakeOwnerShip method obtains ownership of the logical file specified in the object path.
+description: TakeOwnerShip method of the CIM_Directory class - The TakeOwnerShip method obtains ownership of the logical file specified in the object path.
 ms.assetid: 053647d0-3ba0-4cd4-a84a-a1a96ef7151c
 ms.tgt_platform: multiple
 title: TakeOwnerShip method of the CIM_Directory class
@@ -172,7 +172,7 @@ wscript.echo objOutParams.ReturnValue
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

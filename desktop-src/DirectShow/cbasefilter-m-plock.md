@@ -1,5 +1,5 @@
 ---
-Description: Pointer to a critical section that is used to serialize state changes.
+description: Pointer to a critical section that is used to serialize state changes.
 ms.assetid: 4fecd9a6-54df-49d7-bf2f-5dcaef919ad7
 title: CBaseFilter::m_pLock member (Amfilter.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Do not hold this critical section during streaming operations (that is, when del
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

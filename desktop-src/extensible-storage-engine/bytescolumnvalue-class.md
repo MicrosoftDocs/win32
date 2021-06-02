@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue class"
 title: BytesColumnValue class
 TOCTitle: BytesColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.BytesColumnValue
@@ -33,10 +34,10 @@ A byte array column value.
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
-  [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
+  [Microsoft.Isam.Esent.Interop.ColumnValue](./columnvalue-class.md)  
     Microsoft.Isam.Esent.Interop.BytesColumnValue  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,6 +62,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[BytesColumnValue members](dn334118\(v=exchg.10\).md)
+[BytesColumnValue members](./bytescolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

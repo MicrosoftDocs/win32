@@ -1,5 +1,5 @@
 ---
-Description: The HelpLocation property returns the value from the HelpLocation column of the ModuleConfiguration table.
+description: The HelpLocation property returns the value from the HelpLocation column of the ModuleConfiguration table.
 ms.assetid: fe011188-c831-4fbd-b2dd-1ad4c08451ed
 title: ConfigurableItem.HelpLocation property (Mergemod.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ See [**get\_HelpLocation**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfig
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

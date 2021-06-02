@@ -1,5 +1,5 @@
 ---
-Description: The CreateInstance method creates a new instance of this object.
+description: The CreateInstance method creates a new instance of this object.
 ms.assetid: 5c62f781-0f22-4d8f-8517-272405dd07c5
 title: CSystemClock.CreateInstance method (Sysclock.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The class factory calls this method to create the object.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Sysclock.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to write a custom video renderer for DirectShow.
+description: This topic describes how to write a custom video renderer for DirectShow.
 ms.assetid: abba5113-125f-4dac-b566-99c0d9b5978c
 title: Alternative Video Renderers
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PFNSTATUS Callback Function"
 title: JET_PFNSTATUS Callback Function
 TOCTitle: JET_PFNSTATUS Callback Function
 ms:assetid: 8b0cf5bf-a4ee-4d8f-8dd7-556c35cd269d
@@ -39,23 +40,23 @@ The **JET_PFNSTATUS** callback function receives information about the progress 
 
 *sesid*
 
-The session of type [JET_SESID](gg269253\(v=exchg.10\).md) with which the long-running function was called.
+The session of type [JET_SESID](./jet-sesid.md) with which the long-running function was called.
 
 *snp*
 
-The type of operation as specified in [JET_SNP](gg269311\(v=exchg.10\).md). Types of operations include repair, compact, restore, backup, update, scrub, and update the record format.
+The type of operation as specified in [JET_SNP](./jet-snp.md). Types of operations include repair, compact, restore, backup, update, scrub, and update the record format.
 
 *snt*
 
-The status of an operation. Status types include beginning, in progress, completion, or failure. The status will be specified with the third parameter of type [JET_SNT](gg269294\(v=exchg.10\).md).
+The status of an operation. Status types include beginning, in progress, completion, or failure. The status will be specified with the third parameter of type [JET_SNT](./jet-snt.md).
 
 *pv*
 
-An optional pointer to a structure of type [JET_SNPROG](gg269328\(v=exchg.10\).md).
+An optional pointer to a structure of type [JET_SNPROG](./jet-snprog-structure.md).
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the [Extensible Storage Engine error codes](gg269297\(v=exchg.10\).md). For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the [Extensible Storage Engine error codes](./extensible-storage-engine-error-codes.md). For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 On success, the operation that issued the callback can proceed normally. In some cases, the callback might return a warning that influences that operation.
 
@@ -91,10 +92,9 @@ This callback function will be used in a progress notification in which the stru
 
 ### See Also
 
-[Extensible Storage Engine error codes](gg269297\(v=exchg.10\).md)  
-[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_SNP](gg269311\(v=exchg.10\).md)  
-[JET_SNPROG](gg269328\(v=exchg.10\).md)  
-[JET_SNT](gg269294\(v=exchg.10\).md)
-
+[Extensible Storage Engine error codes](./extensible-storage-engine-error-codes.md)  
+[Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_SNP](./jet-snp.md)  
+[JET_SNPROG](./jet-snprog-structure.md)  
+[JET_SNT](./jet-snt.md)

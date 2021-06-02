@@ -1,5 +1,5 @@
 ---
-Description: Returns the preferred type of authentication token for the endpoint of the service.
+description: Returns the preferred type of authentication token for the endpoint of the service.
 ms.assetid: DF60C49A-89FE-4EEB-8E82-C2C43F2D2F2A
 title: IUpdateEndpointAuthProvider::GetPreferredEndpointTokenType method (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ When this method is returned, WUA chooses a token type from the preferred types 
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>                |

@@ -1,5 +1,5 @@
 ---
-Description: Requests a size and screen position for an appbar.
+description: Requests a size and screen position for an appbar.
 ms.assetid: 061a30fb-a68a-464e-ad8c-0bda672b57d9
 title: ABM_QUERYPOS message (Shellapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ An appbar should send this message before sending the [**ABM\_SETPOS**](abm-setp
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

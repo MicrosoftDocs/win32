@@ -1,5 +1,5 @@
 ---
-Description: Implements the Digest Access protocol, a lightweight authentication protocol for use with Hypertext Transfer Protocol or Simple Authentication Security Layer.
+description: Implements the Digest Access protocol, a lightweight authentication protocol for use with Hypertext Transfer Protocol or Simple Authentication Security Layer.
 ms.assetid: '0b7d67c9-00ac-4b04-bf8e-97aaf1020108'
 title: Microsoft Digest SSP
 ms.topic: article

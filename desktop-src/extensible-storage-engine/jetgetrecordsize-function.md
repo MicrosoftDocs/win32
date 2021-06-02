@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetRecordSize Function"
 title: JetGetRecordSize Function
 TOCTitle: JetGetRecordSize Function
 ms:assetid: a28567ed-c732-4509-9f8d-6f8104f62a86
@@ -52,7 +53,7 @@ Identifies the table or cursor that will be used for the API call. The cursor mu
 
 *precsize*
 
-A pointer to an output buffer for the [JET_RECSIZE](gg294072\(v=exchg.10\).md) structure.
+A pointer to an output buffer for the [JET_RECSIZE](./jet-recsize-structure.md) structure.
 
 *grbit*
 
@@ -88,7 +89,7 @@ This is one or more of the following values.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -154,7 +155,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-The size of the key accumulated in the **cbOverhead** field of [JET_RECSIZE](gg294072\(v=exchg.10\).md), is affected by JET_bitRecordSizeInCopyBuffer. If this bit is specified, the key size accumulated in the **cbOverhead** field is the full key size. If this bit is not used, then the key size accumulated will not include any size saved due to key prefix compression.
+The size of the key accumulated in the **cbOverhead** field of [JET_RECSIZE](./jet-recsize-structure.md), is affected by JET_bitRecordSizeInCopyBuffer. If this bit is specified, the key size accumulated in the **cbOverhead** field is the full key size. If this bit is not used, then the key size accumulated will not include any size saved due to key prefix compression.
 
 #### Requirements
 
@@ -190,9 +191,8 @@ The size of the key accumulated in the **cbOverhead** field of [JET_RECSIZE](gg2
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_RECSIZE](gg294072\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_RECSIZE](./jet-recsize-structure.md)  
+[JET_TABLEID](./jet-tableid.md)

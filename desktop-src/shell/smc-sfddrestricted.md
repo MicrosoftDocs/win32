@@ -1,5 +1,5 @@
 ---
-Description: Requests whether it is acceptable to drop a data object on the item specified by the accompanying SMDATA structure.
+description: Requests whether it is acceptable to drop a data object on the item specified by the accompanying SMDATA structure.
 ms.assetid: 777bbc7e-6b0f-4627-9d92-4aa8209082ca
 title: SMC_SFDDRESTRICTED message (Shobjidl.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ This notification is received by the [**IShellMenuCallback::CallbackSM**](/windo
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

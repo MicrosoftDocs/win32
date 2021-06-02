@@ -1,5 +1,5 @@
 ---
-Description: Sets the display brightness of a computer monitor.
+description: Sets the display brightness of a computer monitor.
 ms.assetid: 900cf5fd-6888-4f0b-8e0b-01eeaaeeeb8f
 title: WmiSetBrightness method of the WmiMonitorBrightnessMethods class
 ms.topic: reference
@@ -73,7 +73,7 @@ $myMonitor.wmisetbrightness($delay, $brightness)
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

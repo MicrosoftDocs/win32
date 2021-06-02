@@ -75,7 +75,7 @@ This structure is used by the [**IWMDRMEncryptScatter::InitEncryptScatter**](iwm
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

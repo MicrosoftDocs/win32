@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCMissingCallbackOnRecoveryException members"
 title: EsentDTCMissingCallbackOnRecoveryException members
 TOCTitle: EsentDTCMissingCallbackOnRecoveryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackOnRecoveryException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DTCMissingCallbackOnRecovery exceptions.
 
-The [EsentDTCMissingCallbackOnRecoveryException](dn274310\(v=exchg.10\).md) type exposes the following members.
+The [EsentDTCMissingCallbackOnRecoveryException](./esentdtcmissingcallbackonrecoveryexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDTCMissingCallbackOnRecoveryException class](dn274310\(v=exchg.10\).md)
+[EsentDTCMissingCallbackOnRecoveryException class](./esentdtcmissingcallbackonrecoveryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the file is protected under Digital Rights Management (DRM).
+description: Indicates whether the file is protected under Digital Rights Management (DRM).
 ms.assetid: 50b3ada0-bdf7-4c61-8cfc-17fbb4a7d1e6
 title: System.DRM.IsProtected
 ms.topic: article

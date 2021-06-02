@@ -1,5 +1,5 @@
 ---
-Description: A shader that is used to implement custom intersection primitives for rays intersecting an associated bounding volume (bounding box).    
+description: A shader that is used to implement custom intersection primitives for rays intersecting an associated bounding volume (bounding box).
 ms.assetid: 
 title: Intersection Shader
 ms.localizationpriority: low

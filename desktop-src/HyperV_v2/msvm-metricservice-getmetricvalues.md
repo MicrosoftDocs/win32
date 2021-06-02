@@ -1,5 +1,5 @@
 ---
-Description: Gets metric values.
+description: Gets metric values.
 ms.assetid: 71c614ef-a005-45aa-9999-a19dc9f9c0df
 title: GetMetricValues method of the Msvm_MetricService class
 ms.topic: reference
@@ -118,7 +118,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

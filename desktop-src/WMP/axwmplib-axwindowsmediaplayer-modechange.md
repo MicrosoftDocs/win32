@@ -1,6 +1,6 @@
 ---
 title: ModeChange Event of the AxWindowsMediaPlayer Object
-description: The ModeChange event occurs when a mode of Windows Media Player is changed.
+description: The ModeChange event occurs when a mode of Windows Media Player is changed. | ModeChange Event of the AxWindowsMediaPlayer Object
 ms.assetid: 56308425-dce5-4691-8970-c0807744abef
 keywords:
 - ModeChange Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -68,7 +68,7 @@ The following table shows the possible values for the modeName property.
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

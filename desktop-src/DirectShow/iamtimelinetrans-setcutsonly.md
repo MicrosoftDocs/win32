@@ -1,5 +1,5 @@
 ---
-Description: The SetCutsOnly method specifies whether the transition is rendered as a cut. If so, the transition occurs instantly at the cut point. If a transition takes a long time to render, you might want to preview it as a cut to speed preview.
+description: The SetCutsOnly method specifies whether the transition is rendered as a cut. If so, the transition occurs instantly at the cut point. If a transition takes a long time to render, you might want to preview it as a cut to speed preview.
 ms.assetid: 9ccff624-e37b-422e-9cb2-c472e6c8b2bb
 title: IAMTimelineTrans::SetCutsOnly method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Rendering a transition as a cut is not compatible with swapping the inputs. (See
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

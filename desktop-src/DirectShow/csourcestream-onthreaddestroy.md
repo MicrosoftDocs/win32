@@ -1,5 +1,5 @@
 ---
-Description: The OnThreadDestroy method is called when the streaming thread is about to exit.
+description: The OnThreadDestroy method is called when the streaming thread is about to exit.
 ms.assetid: a484b6d2-bce6-4a42-9176-2a6ce374e28b
 title: CSourceStream.OnThreadDestroy method (Source.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The thread procedure, [**CSourceStream::ThreadProc**](csourcestream-threadproc.m
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

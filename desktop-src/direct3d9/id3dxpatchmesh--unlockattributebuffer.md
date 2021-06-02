@@ -1,5 +1,5 @@
 ---
-Description: Unlock the attribute buffer.
+description: Unlock the attribute buffer.
 ms.assetid: 4077ad15-9753-4031-81e7-c04e4267a0c9
 title: ID3DXPatchMesh::UnlockAttributeBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The attribute buffer is usually locked, written to, and then unlocked for readin
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

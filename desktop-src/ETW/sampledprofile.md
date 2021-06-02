@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for sampled profile events. The following syntax is simplified from MOF code.
+description: This class is the event type class for sampled profile events. The following syntax is simplified from MOF code.
 ms.assetid: 75ea1e5e-2554-40bb-aa9d-c6d4942c5801
 title: SampledProfile class
 ms.topic: reference
@@ -103,7 +103,7 @@ These events provide a sampled execution profile. The event records what was bei
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

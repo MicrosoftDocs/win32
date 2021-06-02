@@ -1,5 +1,5 @@
 ---
-Description: Volume Plex Object
+description: Volume Plex Object
 ms.assetid: 9e770bfc-2bcb-45f0-a7fc-ba526349839e
 title: Volume Plex Object
 ms.topic: article
@@ -14,7 +14,7 @@ A volume plex object models a volume plex that is contained by a volume. Only a 
 
 There are two ways to create a volume with multiple plexes. You can use the [**IVdsPack::CreateVolume**](/windows/desktop/api/Vds/nf-vds-ivdspack-createvolume) method to create the mirrored volume directly, or use the [**IVdsVolume::AddPlex**](/windows/desktop/api/Vds/nf-vds-ivdsvolume-addplex) method to add one volume to another volume. The volumes (and the underlying disks) must be in the same pack. The following illustration shows an example of adding one volume (B) as a plex to another volume (A), and the resulting multiplexed volume (A). The data on volume A remains intact, while the data on volume B becomes a mirrored copy of the data on volume A.
 
-![](images/vdsplex.png)
+![Diagram that shows two single plexes, one with simple volume A and one with simple volume B, equal to multiple plexes with mirrored volume A.](images/vdsplex.png)
 
 You can query for volume plexes by invoking the [**IVdsVolume::QueryPlexes**](/windows/desktop/api/Vds/nf-vds-ivdsvolume-queryplexes) method. You can get a pointer to a specific volume plex by selecting the desired plex object from the enumeration that is returned by **QueryPlexes**. With the exception of the last plex, existing plexes can be broken or removed. Use the [**IVdsVolume::BreakPlex**](/windows/desktop/api/Vds/nf-vds-ivdsvolume-breakplex) to split a plex from a volume and convert the broken plex object into a volume object. Use the [**IVdsVolume::RemovePlex**](/windows/desktop/api/Vds/nf-vds-ivdsvolume-removeplex) to delete the plex altogether. You can attempt to repair a fault-tolerant plex by calling the [**IVdsVolumePlex::Repair**](/windows/desktop/api/Vds/nf-vds-ivdsvolumeplex-repair) method, which moves bad members to good disks.
 

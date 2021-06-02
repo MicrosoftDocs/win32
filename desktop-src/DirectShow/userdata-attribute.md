@@ -1,5 +1,5 @@
 ---
-Description: The userdata attribute specifies application-defined persistent data for an object.
+description: The userdata attribute specifies application-defined persistent data for an object.
 ms.assetid: 7f1390be-93d4-440f-8b46-57a6a3e0e2a1
 title: userdata Attribute
 ms.topic: reference

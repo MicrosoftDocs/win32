@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a stream on a video capture source is a still-image stream.
+description: Specifies whether a stream on a video capture source is a still-image stream.
 ms.assetid: 52251A45-3603-41C7-A869-7F6319BD337F
 title: MF_DEVICESTREAM_IMAGE_STREAM attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ To get this attribute, do the following:
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

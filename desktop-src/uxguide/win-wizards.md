@@ -9,15 +9,15 @@ ms.date: 10/20/2020
 # Wizards
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Despite that wonderful, whimsical name, wizards are not really a special form of user interface, and they have only a particular range of utility.
 
 Wizards are used to perform multi-step tasks.
 
-![screen shot of add printer wizard ](images/win-wizards-image1.png)
+![Screenshot that shows the 'Add Printer' wizard with 'What type of printer do you want to install?' prompt.](images/win-wizards-image1.png)
 
-![screen shot of add printer wizard ](images/win-wizards-image2.png)
+![Screenshot that shows the 'Add Printer' wizard when searching for available printers.](images/win-wizards-image2.png)
 
 ![screen shot of add printer wizard ](images/win-wizards-image3.png)
 
@@ -119,7 +119,7 @@ This wizard page is well-designed for end users because it reduces a potentially
 
 **Correct:**
 
-![screen shot of sql server setup wizard ](images/win-wizards-image8.png)
+![Screenshot that shows the 'SQL Server Setup' wizard 'Feature Selection' page.](images/win-wizards-image8.png)
 
 In the setup wizard for Microsoft SQL Server 2008, page design is busier and the numerous choices require more thought, but the target audience is database administrators who expect tight control of feature selection.
 
@@ -401,7 +401,3 @@ The edited version of this wizard page provides a task-oriented main instruction
  
 
  
-
-
-
-

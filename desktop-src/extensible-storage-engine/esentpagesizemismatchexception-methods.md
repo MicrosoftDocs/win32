@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPageSizeMismatchException methods"
 title: EsentPageSizeMismatchException methods
 TOCTitle: EsentPageSizeMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentPageSizeMismatchException](dn319780\(v=exchg.10\).md) type exposes the following members.
+The [EsentPageSizeMismatchException](./esentpagesizemismatchexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentPageSizeMismatchException class](dn319780\(v=exchg.10\).md)
+[EsentPageSizeMismatchException class](./esentpagesizemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileSystemCorruptionException members"
 title: EsentFileSystemCorruptionException members
 TOCTitle: EsentFileSystemCorruptionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileSystemCorruptionException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.FileSystemCorruption exceptions.
 
-The [EsentFileSystemCorruptionException](dn274381\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileSystemCorruptionException](./esentfilesystemcorruptionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentFileSystemCorruptionException class](dn274381\(v=exchg.10\).md)
+[EsentFileSystemCorruptionException class](./esentfilesystemcorruptionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

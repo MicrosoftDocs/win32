@@ -34,7 +34,7 @@ This attribute is useful in determining the type of element that fired an event 
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

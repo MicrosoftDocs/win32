@@ -1,5 +1,5 @@
 ---
-Description: You can use the AddAsString method of the SWbemPrivilegeSet object to add a privilege to an SWbemPrivilegeSet collection using a privilege string.
+description: You can use the AddAsString method of the SWbemPrivilegeSet object to add a privilege to an SWbemPrivilegeSet collection using a privilege string.
 ms.assetid: 729ed4e3-2c5c-4bb4-acc6-cf9ad0d5eaf1
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet.AddAsString method (Wbemdisp.h)
@@ -98,7 +98,7 @@ A code example using this method is also described in the [**SWbemPrivilegeSet**
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

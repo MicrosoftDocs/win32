@@ -1,5 +1,5 @@
 ---
-Description: Stops the service.
+description: StartService method of the Msvm_CollectionManagementService class - Stops the service.
 ms.assetid: 0f9a015d-b895-496a-a4c6-2737c0742746
 title: StartService method of the Msvm_CollectionManagementService class
 ms.topic: reference
@@ -48,7 +48,7 @@ Returns 0 if successful; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

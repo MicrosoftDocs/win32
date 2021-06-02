@@ -1,5 +1,5 @@
 ---
-Description: Step 4.
+description: Step 4.
 ms.assetid: ed71f26b-0812-4be8-96a4-b9f5dde45540
 title: Step 4. Create the Property Page
 ms.topic: article

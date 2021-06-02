@@ -1,5 +1,5 @@
 ---
-Description: Verifies that the calling process has write access to a memory block. If not, the macro calls the DbgBreak macro.
+description: Verifies that the calling process has write access to a memory block. If not, the macro calls the DbgBreak macro.
 ms.assetid: efbb5ca6-0289-487d-b55a-f85b38d0515a
 title: ValidateWritePtr macro (Wxdebug.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ This macro is ignored unless DEBUG, \_DEBUG, or VFWROBUST is defined when the Di
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

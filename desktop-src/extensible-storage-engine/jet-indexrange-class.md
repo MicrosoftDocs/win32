@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE class"
 title: JET_INDEXRANGE class
 TOCTitle: JET_INDEXRANGE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE
@@ -35,7 +36,7 @@ Identifies an index range when it is used with the JetIntersectIndexes function.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_INDEXRANGE  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,6 +62,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_INDEXRANGE members](dn335176\(v=exchg.10\).md)
+[JET_INDEXRANGE members](./jet-indexrange-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

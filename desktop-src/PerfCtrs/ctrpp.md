@@ -1,5 +1,5 @@
 ---
-Description: The CTRPP tool is a pre-processor that parses and validates your counters manifest.
+description: The CTRPP tool is a pre-processor that parses and validates your counters manifest.
 ms.assetid: 3939f6a1-0a94-429d-a71e-b37f045fea13
 title: CTRPP
 ms.topic: reference
@@ -52,7 +52,7 @@ The string resources should be handled as follows:
 
 - The developer edits the provider manifest (`.man`) file to set the `applicationIdentity` attribute of the provider to the name of a provider binary (.DLL, .SYS, or .EXE) that will contain the string resources for the provider and will be installed as part of the provider component.
 - The CTRPP tool reads the provider manifest and generates an `.rc` file.
-- The [RC (resource compiler)](/windows/win32/menurc/resource-compiler) tool compiles the data from the CTRPP-generated `.rc` file to generate a `.res` file containing the binary resources. This can be done either by directly compiling the CTRPP-generated `.rc` file OR by compiling another `.rc` file that includes the CTRPP-generated `.rc` file via an `#include` directive.
+- The [RC (resource compiler)](../menurc/resource-compiler.md) tool compiles the data from the CTRPP-generated `.rc` file to generate a `.res` file containing the binary resources. This can be done either by directly compiling the CTRPP-generated `.rc` file OR by compiling another `.rc` file that includes the CTRPP-generated `.rc` file via an `#include` directive.
 - The linker embeds the data from the RC-generated `.res` file into the provider binary.
 - During installation, the provider binary is copied onto the user's system and the provider manifest is registered using the [lodctr tool](/windows-server/administration/windows-commands/lodctr). The lodctr tool converts the `applicationIdentity` attribute of the provider manifest into a full path and records the full path to the provider binary in the registry.
   - If the provider binary is in the same directory as the manifest, use: `lodctr.exe /m:"C:\full\manifest\path\manifest.man"`. lodctr will combine the specified manifest path with the manifest's `applicationIdentity` attribute to form the full path.

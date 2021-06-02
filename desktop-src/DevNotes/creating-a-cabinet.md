@@ -1,5 +1,5 @@
 ---
-Description: The following syntax illustrates the creation of a cabinet.
+description: The following syntax illustrates the creation of a cabinet.
 ms.assetid: a16c332d-5afc-46ad-992b-324ed5e70683
 title: Creating a Cabinet
 ms.topic: article

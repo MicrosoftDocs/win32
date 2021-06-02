@@ -14,7 +14,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# WM/WMShadowFileSourceFileType
+# WM/WMShadowFileSourceFileType (Windows Media Format 11 SDK)
 
 The **WM/WMShadowFileSourceFileType** contains the file type of the original file that the ASF file is derived from.
 

@@ -1,5 +1,5 @@
 ---
-Description: Allows the Enhanced Video Renderer (EVR) to improve performance by using bob deinterlacing.
+description: Allows the Enhanced Video Renderer (EVR) to improve performance by using bob deinterlacing.
 ms.assetid: e145e862-b987-4962-a94b-f8370bbcd5ac
 title: EVRConfig_AllowDropToBob attribute (Uuids.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from strmiids.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

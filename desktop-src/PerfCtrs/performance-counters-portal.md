@@ -1,5 +1,5 @@
 ---
-Description: Monitors counter data provided by the system or network or device and used by programs to identify performance bottlenecks and fine tune performance. Manages performance counters from performance monitoring applications.
+description: Monitors counter data provided by the system or network or device and used by programs to identify performance bottlenecks and fine tune performance. Manages performance counters from performance monitoring applications.
 ms.assetid: 9dcb7e84-a7d6-43b5-8fe9-4e33d683c74c
 title: Performance Counters
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Shell Reference
 title: Shell Reference
 ms.topic: article
 ms.date: 05/31/2018

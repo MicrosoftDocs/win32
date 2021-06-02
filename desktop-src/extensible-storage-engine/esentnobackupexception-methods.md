@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoBackupException methods"
 title: EsentNoBackupException methods
 TOCTitle: EsentNoBackupException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentNoBackupException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNoBackupException](dn334724\(v=exchg.10\).md) type exposes the following members.
+The [EsentNoBackupException](./esentnobackupexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentNoBackupException class](dn334724\(v=exchg.10\).md)
+[EsentNoBackupException class](./esentnobackupexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

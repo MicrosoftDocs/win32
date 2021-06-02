@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Music.DiscNumber
 ms.assetid: dfe19c2c-b07e-4752-94c5-b770a14250e0
 title: System.Music.DiscNumber
 ms.topic: article

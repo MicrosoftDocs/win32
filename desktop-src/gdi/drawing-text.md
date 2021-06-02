@@ -1,12 +1,12 @@
 ---
-Description: Drawing Text
+description: Drawing Text
 ms.assetid: 8a06f659-4e08-4738-b7a9-956b599c1344
 title: Drawing Text (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Drawing Text
+# Drawing Text (Windows GDI)
 
 After an application selects the appropriate font, sets the required text-formatting options, and computes the necessary character width and height values for a string of text, it can begin drawing characters and symbols by calling any of the text-output functions:
 

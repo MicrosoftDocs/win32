@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootStillOpenException members"
 title: EsentSLVRootStillOpenException members
 TOCTitle: EsentSLVRootStillOpenException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVRootStillOpenException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVRootStillOpenException](dn350749\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVRootStillOpenException](./esentslvrootstillopenexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +161,6 @@ Top
 
 #### Reference
 
-[EsentSLVRootStillOpenException class](dn350749\(v=exchg.10\).md)
+[EsentSLVRootStillOpenException class](./esentslvrootstillopenexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

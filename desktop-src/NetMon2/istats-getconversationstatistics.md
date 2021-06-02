@@ -1,5 +1,5 @@
 ---
-Description: Retrieves session and station information about the current capture.
+description: Retrieves session and station information about the current capture.
 ms.assetid: 7fc436fc-b569-402d-a1ea-c1bb65de8a9e
 title: IStats::GetConversationStatistics method (Netmon.h)
 ms.topic: reference
@@ -103,7 +103,7 @@ To start a capture, call the [**IStats::Start**](istats-start.md) method. To ret
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

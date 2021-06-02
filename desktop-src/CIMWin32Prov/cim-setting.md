@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Setting class represents configuration-related and operational parameters for one or more managed system elements.
+description: The CIM\_Setting class represents configuration-related and operational parameters for one or more managed system elements.
 ms.assetid: 57c46b00-96c4-4df1-82ad-01f7b4f75ced
 ms.tgt_platform: multiple
 title: CIM_Setting class (CIMWin32 WMI Providers)
@@ -19,7 +19,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Setting class
+# CIM_Setting class (CIMWin32 WMI Providers)
 
 The **CIM\_Setting** class represents configuration-related and operational parameters for one or more managed system elements. A managed system element can have multiple setting objects associated with it. The current operational values for an element's parameters are reflected by properties in the element itself or by properties in its associations. These properties do not have to be the same values present in the setting object. For example, a modem may have a setting baud rate of 56 kilobytes per second, but be operating at 19.2 kilobytes per second.
 
@@ -109,7 +109,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The ValidateSourceNames method validates source names in the timeline, using the media locator. Optionally, this method also updates any source object for which it locates a file.
+description: The ValidateSourceNames method validates source names in the timeline, using the media locator. Optionally, this method also updates any source object for which it locates a file.
 ms.assetid: 8f4b9ff0-f283-4bcb-83f4-92410cead7db
 title: IAMTimeline::ValidateSourceNames method (Qedit.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ Using the *pOverride* parameter, you can supply your own custom implementation o
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

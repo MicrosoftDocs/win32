@@ -1,5 +1,5 @@
 ---
-Description: Callback to return source file info from a callstack.
+description: Callback to return source file info from a callstack.
 MS-HAID: vspixengine.ISourceFileInfoCallback
 MSHAttr:
 - PreferredSiteName:MSDN

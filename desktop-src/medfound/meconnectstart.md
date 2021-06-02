@@ -1,5 +1,5 @@
 ---
-Description: Raised by the network source when it starts opening a URL.
+description: Raised by the network source when it starts opening a URL.
 ms.assetid: 0844ac10-cc5b-4e7f-92df-3a5901c72148
 title: MEConnectStart event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The network source sends this event directly to the application through the appl
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

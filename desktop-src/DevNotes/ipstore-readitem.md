@@ -1,5 +1,5 @@
 ---
-Description: Reads the specified data item from protected storage.
+description: Reads the specified data item from protected storage.
 ms.assetid: e565a0ea-5d8e-4706-a176-2305a95f0d67
 title: IPStore::ReadItem method (Pstore.h)
 ms.topic: reference
@@ -136,7 +136,7 @@ If **ReadItem** completes successfully, the application is responsible for freei
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The StopUsingOutputPin method releases access to the pin after a streaming operation.
+description: The StopUsingOutputPin method releases access to the pin after a streaming operation.
 ms.assetid: f0dbf2c0-1f1b-41bc-84d2-dc9f37bf725e
 title: CDynamicOutputPin.StopUsingOutputPin method
 ms.topic: reference

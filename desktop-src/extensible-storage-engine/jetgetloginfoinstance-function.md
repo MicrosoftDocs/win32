@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetLogInfoInstance Function"
 title: JetGetLogInfoInstance Function
 TOCTitle: JetGetLogInfoInstance Function
 ms:assetid: 505500b1-2827-43f1-a0fe-5e84e00b0260
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetLogInfoInstance Function
 
-The **JetGetLogInfoInstance** function is used during a backup initiated by [JetBeginExternalBackup](gg269292\(v=exchg.10\).md) to query an instance for the names of database patch files and transaction log files that should become part of the backup file set. These files may subsequently be opened using [JetOpenFile](gg269249\(v=exchg.10\).md) and read using [JetReadFile](gg269257\(v=exchg.10\).md).
+The **JetGetLogInfoInstance** function is used during a backup initiated by [JetBeginExternalBackup](./jetbeginexternalbackup-function.md) to query an instance for the names of database patch files and transaction log files that should become part of the backup file set. These files may subsequently be opened using [JetOpenFile](./jetopenfile-function.md) and read using [JetReadFile](./jetreadfile-function.md).
 
 **Windows XP:  JetGetLogInfoInstance** is introduced in Windows XP.
 
@@ -68,7 +69,7 @@ Receives the actual amount of string data received in the output buffer.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -176,12 +177,11 @@ It is important to note that this API does not return an error or warning if the
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET_LOGINFO](gg294063\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetOpenFile](gg269249\(v=exchg.10\).md)  
-[JetReadFile](gg269257\(v=exchg.10\).md)  
-[JetStopBackup](gg294067\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JET_LOGINFO](./jet-loginfo-structure.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetOpenFile](./jetopenfile-function.md)  
+[JetReadFile](./jetreadfile-function.md)  
+[JetStopBackup](./jetstopbackup-function.md)  
+[JetStopService](./jetstopservice-function.md)

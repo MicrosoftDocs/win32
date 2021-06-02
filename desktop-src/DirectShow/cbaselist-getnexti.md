@@ -1,5 +1,5 @@
 ---
-Description: The GetNextI method retrieves the item at the specified position, and advances the position.
+description: The GetNextI method retrieves the item at the specified position, and advances the position.
 ms.assetid: 3ec217ec-b0f9-4ff4-bdb7-ac204df99010
 title: CBaseList.GetNextI method (Wxlist.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method advances the position indicator to the next position. If the positio
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

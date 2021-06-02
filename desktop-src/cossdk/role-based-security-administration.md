@@ -1,5 +1,5 @@
 ---
-Description: Role-Based Security Administration
+description: Role-Based Security Administration
 ms.assetid: 7247758e-f486-4ce2-afca-f0d10fffe626
 title: Role-Based Security Administration
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The DVDAdm.DefaultAudioLCID property sets or retrieves the registry setting for the user-specified default LCID for the audio stream.
+description: The DVDAdm.DefaultAudioLCID property sets or retrieves the registry setting for the user-specified default LCID for the audio stream.
 ms.assetid: ed347a5e-d4cc-42f1-8b75-0a0a2ca40476
 title: DefaultAudioLCID Property
 ms.topic: reference

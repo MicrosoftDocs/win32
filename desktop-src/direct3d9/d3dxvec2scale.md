@@ -1,5 +1,5 @@
 ---
-Description: Scales a 2D vector.
+description: Scales a 2D vector.
 ms.assetid: 1887bc48-3766-42d7-840b-1e29d78db4ce
 title: D3DXVec2Scale function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

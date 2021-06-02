@@ -1,5 +1,5 @@
 ---
-Description: Exports the reference point of the virtual system.
+description: Exports the reference point of the virtual system.
 ms.assetid: e4d80404-6b1b-4153-9ab2-aebab18c331a
 title: ExportReferencePoint method of the Msvm_VirtualSystemReferencePointService class
 ms.topic: reference
@@ -114,7 +114,7 @@ On success, returns a 0 (Complete with No Error), or 4096 (Job Started); otherwi
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

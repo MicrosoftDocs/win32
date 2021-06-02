@@ -1,12 +1,12 @@
 ---
-Description: RPC NDR Engine
+description: RPC NDR Engine
 ms.assetid: FD6365A9-6EC2-407D-B397-09A91BF02379
 title: RPC NDR Engine (Developer Notes)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# RPC NDR Engine
+# RPC NDR Engine (Developer Notes)
 
 ## In this section
 

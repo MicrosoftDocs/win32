@@ -1,5 +1,5 @@
 ---
-Description: Active Directory objects can be used to locate resources in a computer network domain, such as users, security policies, printers, distributed components, and other resources.
+description: Active Directory objects can be used to locate resources in a computer network domain, such as users, security policies, printers, distributed components, and other resources.
 ms.assetid: 96f89537-9419-495e-819c-fd07ba546620
 ms.tgt_platform: multiple
 title: Creating and Updating Active Directory Objects

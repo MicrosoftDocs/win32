@@ -1,5 +1,5 @@
 ---
-Description: There are a variety of functions for obtaining information about processes.
+description: There are a variety of functions for obtaining information about processes.
 ms.assetid: f9ec6aa5-15ad-47e6-b5f8-8ac4daaf178f
 title: Obtaining Additional Process Information
 ms.topic: article

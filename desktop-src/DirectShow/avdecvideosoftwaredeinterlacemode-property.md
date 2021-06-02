@@ -1,5 +1,5 @@
 ---
-Description: Specifies the decoder's software deinterlace mode.
+description: Specifies the decoder's software deinterlace mode.
 ms.assetid: 254f003f-b3fd-40ab-a472-6bae93f11326
 title: AVDecVideoSoftwareDeinterlaceMode property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVDecVideoSoftwareDeinterlaceM
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

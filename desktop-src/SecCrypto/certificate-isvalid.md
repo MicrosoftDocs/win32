@@ -1,5 +1,5 @@
 ---
-Description: Builds a certificate verification chain for a certificate and returns a CertificateStatus object that contains the validity status of the certificate.
+description: Builds a certificate verification chain for a certificate and returns a CertificateStatus object that contains the validity status of the certificate.
 ms.assetid: 4463e4ac-60a5-4845-93b3-35d2f83bd86e
 title: ICertificate2::IsValid method
 ms.topic: reference
@@ -40,7 +40,7 @@ This method has no parameters.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

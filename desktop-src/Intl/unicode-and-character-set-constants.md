@@ -1,5 +1,5 @@
 ---
-Description: Unicode and Character Set Constants
+description: Unicode and Character Set Constants
 ms.assetid: 647c9e14-f134-4300-bf17-6f6321db6477
 title: Unicode and Character Set Constants
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Frees the specified file attribute data.
+description: Frees the specified file attribute data.
 ms.assetid: c1a4dcf8-614f-49a5-a923-8d7d610e6406
 title: SdbFreeFileAttributes function
 ms.topic: reference
@@ -49,7 +49,7 @@ The function returns **TRUE** on success or **FALSE** on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

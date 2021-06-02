@@ -1,5 +1,5 @@
 ---
-Description: Specifies the time needed to play an Advanced Systems Format (ASF) file, in 100-nanosecond units.
+description: Specifies the time needed to play an Advanced Systems Format (ASF) file, in 100-nanosecond units.
 ms.assetid: 3d36808b-aa13-4205-ad92-97e951ee827e
 title: MF_PD_ASF_FILEPROPERTIES_PLAY_DURATION attribute (Wmcontainer.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ HRESULT GetPlayDuration(
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

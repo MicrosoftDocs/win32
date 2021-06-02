@@ -1,5 +1,5 @@
 ---
-Description: The PORT\_INFO\_3 structure specifies the status value of a printer port.
+description: The PORT\_INFO\_3 structure specifies the status value of a printer port.
 ms.assetid: 0939353f-284b-4dbb-89a2-04918c934430
 title: PORT_INFO_3 structure (Winspool.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ When you set a printer port status value with the severity value PORT\_STATUS\_T
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set a transform.
+description: A callback function that must be implemented by a user to set a transform.
 ms.assetid: 5d886554-ddb6-4b8a-a7fd-453e94b9516f
 title: ID3DXEffectStateManager::SetTransform method (D3DX9Effect.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

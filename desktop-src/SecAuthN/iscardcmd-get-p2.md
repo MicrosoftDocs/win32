@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the second parameter (P2) byte from the application protocol data unit (APDU).
+description: Retrieves the second parameter (P2) byte from the application protocol data unit (APDU).
 ms.assetid: c719786f-0f50-472e-a92e-a64c333fc255
 title: ISCardCmd::get_P2 method (Scarddat.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

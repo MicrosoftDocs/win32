@@ -152,7 +152,7 @@ The associated scripting method is [**WSMan.EnumerationFlagHierarchyDeepBaseProp
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |

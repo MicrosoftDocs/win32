@@ -1,5 +1,5 @@
 ---
-Description: Not supported.
+description: IAMTimelineVirtualTrack::SetTrackDirty method - Not supported.
 ms.assetid: 3fd88af0-2565-4498-a239-5d181af6eb3b
 title: IAMTimelineVirtualTrack::SetTrackDirty method
 ms.topic: reference

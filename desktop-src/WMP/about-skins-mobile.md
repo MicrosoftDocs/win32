@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# About Skins
+# About Skins (Mobile)
 
 A skin is a customized user interface to Windows Media Player. You can create your own buttons to start and stop playback of digital media, add sliders to change volume and playback position in the media item, and provide the user with text information such as the name of a song. Best of all, you can add your own artwork or use existing art to create a unique appearance for your skin.
 

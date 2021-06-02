@@ -1,5 +1,5 @@
 ---
-Description: Specifies the CLSID of a post-processing plug-in for a video capture device.
+description: Specifies the CLSID of a post-processing plug-in for a video capture device.
 ms.assetid: 8F626FAA-C7B8-4DBA-BD65-7CE97CBF3A86
 title: MF_DEVICESTREAM_EXTENSION_PLUGIN_CLSID attribute (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ To create the plug-in, call [**CoCreateInstance**](/windows/win32/api/combaseapi
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

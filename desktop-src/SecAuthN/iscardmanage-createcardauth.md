@@ -1,5 +1,5 @@
 ---
-Description: Creates an ISCardAuth interface.
+description: Creates an ISCardAuth interface.
 ms.assetid: a091e361-416e-45c9-8077-617b16db654c
 title: ISCardManage::CreateCardAuth method
 ms.topic: reference
@@ -69,7 +69,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

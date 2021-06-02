@@ -1,5 +1,5 @@
 ---
-Description: Object Type GUIDs
+description: Object Type GUIDs
 ms.assetid: 8e7c5cca-144e-4e33-bffc-52161ae16f3f
 title: Object Type GUIDs
 ms.topic: article

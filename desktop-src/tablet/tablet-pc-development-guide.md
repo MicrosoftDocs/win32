@@ -1,5 +1,5 @@
 ---
-Description: The Tablet PC is a fully functional personal computer geared for pen-enabled, handwriting-enabled, and speech-enabled applications.
+description: The Tablet PC is a fully functional personal computer geared for pen-enabled, handwriting-enabled, and speech-enabled applications.
 ms.assetid: f0fc7ab9-7653-45c5-be06-a628c6c3e526
 title: Tablet PC
 ms.topic: article

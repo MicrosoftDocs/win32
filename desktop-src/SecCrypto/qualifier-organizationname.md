@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the organization associated with the qualifier.
+description: Retrieves the name of the organization associated with the qualifier.
 ms.assetid: 4ceb2c0f-903d-4fcd-8446-abf3175fe8e0
 title: Qualifier.OrganizationName property
 ms.topic: reference
@@ -38,7 +38,7 @@ The name of the organization associated with the qualifier.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

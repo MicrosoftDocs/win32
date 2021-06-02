@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoException members"
 title: EsentRecoveredWithoutUndoException members
 TOCTitle: EsentRecoveredWithoutUndoException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RecoveredWithoutUndo exceptions.
 
-The [EsentRecoveredWithoutUndoException](dn350537\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecoveredWithoutUndoException](./esentrecoveredwithoutundoexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRecoveredWithoutUndoException class](dn350537\(v=exchg.10\).md)
+[EsentRecoveredWithoutUndoException class](./esentrecoveredwithoutundoexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

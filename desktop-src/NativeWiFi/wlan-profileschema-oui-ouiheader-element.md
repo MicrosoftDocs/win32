@@ -1,5 +1,5 @@
 ---
-Description: Contains a 3 byte hexBinary that identifies the IHV.
+description: Contains a 3 byte hexBinary that identifies the IHV.
 ms.assetid: 0b2e73fb-df3a-48c4-b38d-970c37de46eb
 title: OUI (OUIHeader) Element
 ms.topic: reference
@@ -40,7 +40,7 @@ The element is defined by the [**OUIHeader**](wlan-profileschema-ouiheader-ihv-e
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

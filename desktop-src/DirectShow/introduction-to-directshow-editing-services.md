@@ -1,5 +1,5 @@
 ---
-Description: Introduction to DirectShow Editing Services
+description: Introduction to DirectShow Editing Services
 ms.assetid: 247c4ba9-53c1-46ed-83ef-a454351920e3
 title: Introduction to DirectShow Editing Services
 ms.topic: article

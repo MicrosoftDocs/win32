@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a variety of information for the battery.
+description: Retrieves a variety of information for the battery.
 ms.assetid: 4cc89b89-ab33-47c2-8327-9627cbd1595e
 title: IOCTL_BATTERY_QUERY_INFORMATION control code (Poclass.h)
 ms.topic: reference
@@ -152,7 +152,7 @@ For an example, see [Enumerating Battery Devices](enumerating-battery-devices.md
 
 
 
-|                                     |                                                                                                                                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |

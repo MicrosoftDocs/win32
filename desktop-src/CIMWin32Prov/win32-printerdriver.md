@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrinterDriver WMI class represents the drivers for a Win32\_Printer instance.
+description: The Win32\_PrinterDriver WMI class represents the drivers for a Win32\_Printer instance.
 ms.assetid: baf48bbf-60a3-4d9b-93b7-c1b22518a9c1
 ms.tgt_platform: multiple
 title: Win32_PrinterDriver class
@@ -626,7 +626,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

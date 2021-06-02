@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the error.
+description: GetError method of the Msvm_StorageJob class - Retrieves the error.
 ms.assetid: 785b83c4-06f4-46b5-81f7-35c6fce16c92
 title: GetError method of the Msvm_StorageJob class
 ms.topic: reference
@@ -87,7 +87,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

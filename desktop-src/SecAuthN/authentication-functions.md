@@ -1,5 +1,5 @@
 ---
-Description: Lists the functions used in authentication APIs.
+description: Lists the functions used in authentication APIs.
 ms.assetid: 946ab34a-f52a-4720-8516-cdcae2883d9b
 title: Authentication Functions
 ms.topic: article

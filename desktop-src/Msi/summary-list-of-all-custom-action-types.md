@@ -1,5 +1,5 @@
 ---
-Description: The following table identifies the basic types of custom actions and shows the values that are in the Type, Source, and Target fields of the CustomAction table for each type.
+description: The following table identifies the basic types of custom actions and shows the values that are in the Type, Source, and Target fields of the CustomAction table for each type.
 ms.assetid: 8713451e-c0e7-4bec-bfb6-dfe4125d5a44
 title: Custom Action Types
 ms.topic: article

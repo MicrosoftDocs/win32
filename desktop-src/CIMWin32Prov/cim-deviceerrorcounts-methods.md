@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DeviceErrorCounts class exposes the following methods.
+description: The CIM\_DeviceErrorCounts class exposes the following methods.
 ms.assetid: 688073C9-7A15-49B9-BDB6-C71B6B53C79E
 ms.tgt_platform: multiple
 title: CIM_DeviceErrorCounts Methods

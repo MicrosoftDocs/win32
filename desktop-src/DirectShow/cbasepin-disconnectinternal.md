@@ -1,5 +1,5 @@
 ---
-Description: The DisconnectInternal method breaks the current pin connection.
+description: The DisconnectInternal method breaks the current pin connection.
 ms.assetid: 070301ad-d079-4ad3-abdf-d5de88872e52
 title: CBasePin.DisconnectInternal method (Amfilter.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The [**CBasePin::Disconnect**](cbasepin-disconnect.md) method delegates the disc
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

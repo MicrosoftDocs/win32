@@ -1,5 +1,5 @@
 ---
-Description: Mobile Broadband Profile Schema v4.
+description: Mobile Broadband Profile Schema v4.
 MS-HAID: WWAN\_profile\_v4.Schema\_Root
 MSHAttr:
 - PreferredSiteName:MSDN

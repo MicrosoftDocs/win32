@@ -1,5 +1,5 @@
 ---
-Description: Returns the explicit CPU Set assignment of the specified thread, if any assignment was set using the SetThreadSelectedCpuSets API. If no explicit assignment is set, RequiredIdCount is set to 0 and the function returns TRUE.
+description: Returns the explicit CPU Set assignment of the specified thread, if any assignment was set using the SetThreadSelectedCpuSets API. If no explicit assignment is set, RequiredIdCount is set to 0 and the function returns TRUE.
 ms.assetid: 9ACF72F8-A64C-4FFF-B340-C920E80238CA
 title: GetThreadSelectedCpuSets function (Processthreadapi.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ This API returns TRUE on success. If the buffer is not large enough, the **GetLa
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps \| UWP apps\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps \| UWP apps\]<br/>                                   |

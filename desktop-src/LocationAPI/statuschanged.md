@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the operational status of a report changes.
+description: Occurs when the operational status of a report changes.
 ms.assetid: f0c4e678-1666-4f99-89de-85879eacd0ac
 title: StatusChanged event
 ms.topic: reference
@@ -72,7 +72,7 @@ For an example of how to use this event, see [Listening for LatLong Report Event
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

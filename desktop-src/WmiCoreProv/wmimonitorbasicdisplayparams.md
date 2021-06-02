@@ -1,5 +1,5 @@
 ---
-Description: Represents the basic display features of a computer monitor.
+description: Represents the basic display features of a computer monitor.
 ms.assetid: 08405e7f-7824-4e44-9f37-da9bb5619cd6
 title: WmiMonitorBasicDisplayParams class
 ms.topic: reference
@@ -166,7 +166,7 @@ Video input type.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

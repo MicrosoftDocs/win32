@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIOException members"
 title: EsentTooManyIOException members
 TOCTitle: EsentTooManyIOException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyIOException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TooManyIO exceptions.
 
-The [EsentTooManyIOException](dn335003\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyIOException](./esenttoomanyioexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTooManyIOException class](dn335003\(v=exchg.10\).md)
+[EsentTooManyIOException class](./esenttoomanyioexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

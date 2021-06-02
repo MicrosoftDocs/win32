@@ -1,5 +1,5 @@
 ---
-Description: The domain name for the device's Home Network Provider, identifying the operator of the network.
+description: The domain name for the device's Home Network Provider, identifying the operator of the network.
 ms.assetid: 7676e1d8-a414-401f-989c-9f60068b92d8
 title: DomainName (Hotspot2) Element
 ms.topic: reference

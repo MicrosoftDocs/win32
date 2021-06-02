@@ -1,5 +1,5 @@
 ---
-Description: An Installer object must be initially created to load the automation support that is required for COM to access the installer functions. This object provides wrappers to create the top-level objects and access their methods.
+description: An Installer object must be initially created to load the automation support that is required for COM to access the installer functions. This object provides wrappers to create the top-level objects and access their methods.
 ms.assetid: fefc3e39-073e-4869-86b7-27d20a3b337b
 title: Installer object
 ms.topic: reference
@@ -120,7 +120,7 @@ The **Installer** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

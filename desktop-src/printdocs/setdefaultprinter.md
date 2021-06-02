@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultPrinter function sets the printer name of the default printer for the current user on the local computer.
+description: The SetDefaultPrinter function sets the printer name of the default printer for the current user on the local computer.
 ms.assetid: 55eec548-577f-422b-80e3-8b23aa4d2159
 title: SetDefaultPrinter function (Winspool.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ When using this method, you must specify a valid printer, driver, and port. If t
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

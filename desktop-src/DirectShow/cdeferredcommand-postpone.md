@@ -1,5 +1,5 @@
 ---
-Description: The Postpone method specifies a new presentation time for a previously queued command.
+description: The Postpone method specifies a new presentation time for a previously queued command.
 ms.assetid: 6201eb18-8180-445c-8d29-980511748fe4
 title: CDeferredCommand.Postpone method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the [**IDeferredCommand::Postpone**](/windows/de
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

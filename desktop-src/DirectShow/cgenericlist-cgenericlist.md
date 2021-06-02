@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: "Learn about the constructor method for CGenericList.CGenericList (Wxlist.h). This method uses 'pName' and 'iItems' parameters."
 ms.assetid: 2258ecd6-7594-4ff8-961b-9e5e1ae9ff82
 title: CGenericList.CGenericList constructor (Wxlist.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.CGenericList constructor
+# CGenericList.CGenericList constructor (Wxlist.h) - pName, iItems parameters
 
 Constructor method.
 
@@ -74,14 +74,10 @@ For efficiency, the `CGenericList` class maintains a cache of list nodes. If you
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header | Wxlist.h (include Streams.h) |
+| Library| Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

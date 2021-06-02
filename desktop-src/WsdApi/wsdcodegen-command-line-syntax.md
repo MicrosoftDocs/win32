@@ -1,5 +1,5 @@
 ---
-Description: 'WsdCodeGen has two functions: generating configuration files and generating source code for WSDAPI client and host applications.'
+description: 'WsdCodeGen has two functions: generating configuration files and generating source code for WSDAPI client and host applications.'
 ms.assetid: 75f5071c-040b-4e65-a80e-e1fea63535b0
 title: WsdCodeGen Command Line Syntax
 ms.topic: article
@@ -127,7 +127,7 @@ The name of the configuration file to process before generating code.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

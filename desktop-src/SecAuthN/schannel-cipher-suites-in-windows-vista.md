@@ -1,5 +1,5 @@
 ---
-Description: A set of cryptographic algorithms. Schannel protocols use algorithms from a cipher suite to create keys and encrypt information.
+description: A set of cryptographic algorithms. Schannel protocols use algorithms from a cipher suite to create keys and encrypt information.
 ms.assetid: 380452e2-a9c8-4380-a3bf-9c7942a0c0c2
 title: TLS Cipher Suites in Windows Vista
 ms.topic: article
@@ -33,30 +33,30 @@ Schannel supports the following cipher suites. The suites are listed in the defa
 
 | Cipher suite                                                 | FIPS mode enabled | Exchange              | Encryption      | Hash            | Protocols                   |
 |--------------------------------------------------------------|-------------------|-----------------------|-----------------|-----------------|-----------------------------|
-| TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA<br/>                | Yes<br/>    | RSA<br/>        | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_RSA\_WITH\_AES\_256\_CBC\_SHA<br/>                | Yes<br/>    | RSA<br/>        | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_RSA\_WITH\_RC4\_128\_SHA<br/>                     | No<br/>     | RSA<br/>        | RC4<br/>  | SHA1<br/> | TLS 1.0, SSL 3.0<br/> |
-| TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA<br/>               | Yes<br/>    | RSA<br/>        | 3DES<br/> | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P256<br/> | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P384<br/> | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P521<br/> | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P256<br/> | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P384<br/> | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P521<br/> | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P256<br/>   | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P384<br/>   | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P521<br/>   | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P256<br/>   | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P384<br/>   | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P521<br/>   | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_DHE\_DSS\_WITH\_AES\_128\_CBC\_SHA<br/>           | Yes<br/>    | DH<br/>         | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_DHE\_DSS\_WITH\_AES\_256\_CBC\_SHA<br/>           | Yes<br/>    | DH<br/>         | AES<br/>  | SHA1<br/> | TLS 1.0<br/>          |
-| TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA<br/>          | Yes<br/>    | DH<br/>         | 3DES<br/> | SHA1<br/> | TLS 1.0, SSL 3.0<br/> |
-| TLS\_RSA\_WITH\_RC4\_128\_MD5<br/>                     | No<br/>     | RSA<br/>        | RC4<br/>  | MD5<br/>  | TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_AES\_128\_CBC\_SHA<br/>                | Yes<br/>    | RSA<br/>        | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_RSA\_WITH\_AES\_256\_CBC\_SHA<br/>                | Yes<br/>    | RSA<br/>        | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_RSA\_WITH\_RC4\_128\_SHA<br/>                     | No<br/>     | RSA<br/>        | RC4<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA<br/>               | Yes<br/>    | RSA<br/>        | 3DES<br/> | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P256<br/> | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P384<br/> | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_128\_CBC\_SHA\_P521<br/> | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P256<br/> | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P384<br/> | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_ECDSA\_WITH\_AES\_256\_CBC\_SHA\_P521<br/> | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P256<br/>   | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P384<br/>   | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_128\_CBC\_SHA\_P521<br/>   | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P256<br/>   | Yes<br/>    | ECDH\_P256<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P384<br/>   | Yes<br/>    | ECDH\_P384<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_ECDHE\_RSA\_WITH\_AES\_256\_CBC\_SHA\_P521<br/>   | Yes<br/>    | ECDH\_P521<br/> | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_DHE\_DSS\_WITH\_AES\_128\_CBC\_SHA<br/>           | Yes<br/>    | DH<br/>         | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_DHE\_DSS\_WITH\_AES\_256\_CBC\_SHA<br/>           | Yes<br/>    | DH<br/>         | AES<br/>  | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0<br/>          |
+| TLS\_DHE\_DSS\_WITH\_3DES\_EDE\_CBC\_SHA<br/>          | Yes<br/>    | DH<br/>         | 3DES<br/> | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_RC4\_128\_MD5<br/>                     | No<br/>     | RSA<br/>        | RC4<br/>  | MD5<br/>  | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 | SSL\_CK\_RC4\_128\_WITH\_MD5<br/>                      | No<br/>     | RSA<br/>        | RC4<br/>  | MD5<br/>  | SSL 2.0<br/>          |
 | SSL\_CK\_DES\_192\_EDE3\_CBC\_WITH\_MD5<br/>           | No<br/>     | RSA<br/>        | 3DES<br/> | MD5<br/>  | SSL 2.0<br/>          |
-| TLS\_RSA\_WITH\_NULL\_MD5<br/>                         | No<br/>     | RSA<br/>        |                 | MD5<br/>  | TLS 1.0, SSL 3.0<br/> |
-| TLS\_RSA\_WITH\_NULL\_SHA<br/>                         | No<br/>     | RSA<br/>        |                 | SHA1<br/> | TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_NULL\_MD5<br/>                         | No<br/>     | RSA<br/>        |                 | MD5<br/>  | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
+| TLS\_RSA\_WITH\_NULL\_SHA<br/>                         | No<br/>     | RSA<br/>        |                 | SHA1<br/> | TLS 1.2, TLS 1.1, TLS 1.0, SSL 3.0<br/> |
 
 
 

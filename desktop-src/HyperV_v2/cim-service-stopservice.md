@@ -1,5 +1,5 @@
 ---
-Description: Paces the service in the stopped state.
+description: Paces the service in the stopped state.
 ms.assetid: d7469643-bccc-4f55-b2fc-d2bc2e392d84
 title: StopService method of the CIM_Service class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# StopService method of the CIM\_Service class
+# StopService method of the CIM_Service class (Hyper-V management)
 
 Paces the service in the stopped state.
 
@@ -46,7 +46,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

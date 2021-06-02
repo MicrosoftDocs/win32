@@ -1,6 +1,6 @@
 ---
 title: DFS Server Target Prioritization
-Description: DFS Server Target Prioritization is a feature available in Microsoft Windows Server 2003 with Service Pack 1 (SP1) and later operating systems.
+description: DFS Server Target Prioritization is a feature available in Microsoft Windows Server 2003 with Service Pack 1 (SP1) and later operating systems.
 ms.assetid: 0aacebf7-49cc-4287-a5c4-0d25a416d227
 ms.topic: article
 ms.date: 05/31/2018

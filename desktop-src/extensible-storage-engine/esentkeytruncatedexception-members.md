@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTruncatedException members"
 title: EsentKeyTruncatedException members
 TOCTitle: EsentKeyTruncatedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.KeyTruncated exceptions.
 
-The [EsentKeyTruncatedException](dn334565\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyTruncatedException](./esentkeytruncatedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentKeyTruncatedException class](dn334565\(v=exchg.10\).md)
+[EsentKeyTruncatedException class](./esentkeytruncatedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

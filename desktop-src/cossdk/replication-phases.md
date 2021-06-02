@@ -1,5 +1,5 @@
 ---
-Description: COMREPL does its work in three phases.
+description: COMREPL does its work in three phases.
 ms.assetid: e9ba8db6-ff6f-4e49-b91b-465e3fa77f27
 title: Replication Phases
 ms.topic: article

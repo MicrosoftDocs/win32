@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBackupInstance Function"
 title: JetBackupInstance Function
 TOCTitle: JetBackupInstance Function
 ms:assetid: 82486441-5037-440b-8632-038e953ad870
@@ -86,11 +87,11 @@ A group of bits specifying zero or more of the following options.
 
 *pfnStatus*
 
-Pointer to the [JET_PFNSTATUS](gg269326\(v=exchg.10\).md) callback function, which provides notification information about the progress of the backup operation.
+Pointer to the [JET_PFNSTATUS](./jet-pfnstatus-callback-function.md) callback function, which provides notification information about the progress of the backup operation.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -192,7 +193,7 @@ The different steps of the backup will have Event Log entries generated includin
 
 Incremental backup are possible only after a full backup was taken. Also, incremental backups are possible only if circular logging is turned off. It is recommended that the backup directory should not contain other files then the one involved in the backup or added by a previous successful backup.
 
-The backup directory should exist unless the parameter *JET_paramCreatePathIfNotExist* is set for the instance. For information, see [System Parameters](gg294139\(v=exchg.10\).md).
+The backup directory should exist unless the parameter *JET_paramCreatePathIfNotExist* is set for the instance. For information, see [System Parameters](./extensible-storage-engine-system-parameters.md).
 
 The backup will do checksum verification on all the used database pages and starting with Windows Server 2003, on the log files as well. This gives an opportunity to estimate the health of the database even for pages which are not read during normal operations. If any such corruption will be encountered, the backup will fail.
 
@@ -238,13 +239,12 @@ It is strongly recommended that the backup should not be used for other purposed
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JetRestore](gg294093\(v=exchg.10\).md)  
-[JetRestore2](gg269313\(v=exchg.10\).md)  
-[JetRestoreInstance](gg269306\(v=exchg.10\).md)  
-[JetStopServiceInstance](gg294108\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)  
+[JetRestore](./jetrestore-function.md)  
+[JetRestore2](./jetrestore2-function.md)  
+[JetRestoreInstance](./jetrestoreinstance-function.md)  
+[JetStopServiceInstance](./jetstopserviceinstance-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

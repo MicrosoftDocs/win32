@@ -1,5 +1,5 @@
 ---
-Description: The side-by-side assembly API uses the following enumerations.
+description: The side-by-side assembly API uses the following enumerations.
 ms.assetid: e35ca5c8-74bc-4c79-9813-24ff3b4ea631
 title: Side-by-Side Assembly Structures
 ms.topic: article

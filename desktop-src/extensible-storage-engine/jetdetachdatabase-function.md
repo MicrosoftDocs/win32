@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDetachDatabase Function"
 title: JetDetachDatabase Function
 TOCTitle: JetDetachDatabase Function
 ms:assetid: 629f19e5-99f3-425a-b6ba-de18daec7efe
@@ -50,7 +51,7 @@ The name of the database to detach. If *szFilename* is **NULL** or an empty stri
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -90,9 +91,9 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-If an attached database was opened (with [JetAttachDatabase](gg294074\(v=exchg.10\).md)), it must be closed with [JetCloseDatabase](gg294123\(v=exchg.10\).md) prior to detaching.
+If an attached database was opened (with [JetAttachDatabase](./jetattachdatabase-function.md)), it must be closed with [JetCloseDatabase](./jetclosedatabase-function.md) prior to detaching.
 
-Windows 2000 only: Databases which have not been detached prior to calling [JetTerm](gg269298\(v=exchg.10\).md) will automatically be re-attached when [JetInit](gg294068\(v=exchg.10\).md) is next called.
+Windows 2000 only: Databases which have not been detached prior to calling [JetTerm](./jetterm-function.md) will automatically be re-attached when [JetInit](./jetinit-function.md) is next called.
 
 #### Requirements
 
@@ -132,14 +133,13 @@ Windows 2000 only: Databases which have not been detached prior to calling [Jet
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetAttachDatabase2](gg269322\(v=exchg.10\).md)  
-[JetCreateDatabase](gg269212\(v=exchg.10\).md)  
-[JetCreateDatabase2](gg269208\(v=exchg.10\).md)  
-[JetCloseDatabase](gg294123\(v=exchg.10\).md)  
-[JetTerm](gg269298\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetAttachDatabase2](./jetattachdatabase2-function.md)  
+[JetCreateDatabase](./jetcreatedatabase-function.md)  
+[JetCreateDatabase2](./jetcreatedatabase2-function.md)  
+[JetCloseDatabase](./jetclosedatabase-function.md)  
+[JetTerm](./jetterm-function.md)

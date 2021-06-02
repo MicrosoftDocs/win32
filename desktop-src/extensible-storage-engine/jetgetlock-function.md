@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetLock Function"
 title: JetGetLock Function
 TOCTitle: JetGetLock Function
 ms:assetid: cebf0789-3d31-4ae8-9b23-dcf5e34e98fc
@@ -29,11 +30,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetGetLock** function provides a means to explicitly reserve the ability to update a row, write lock, or to explicitly prevent a row from being updated by any other session, read lock. Normally, row write locks are acquired implicitly as a result of updating rows. Read locks are usually not required because of record versioning. However, in some cases a transaction may desire to explicitly lock a row to enforce serialization, or to ensure that a subsequent operation will succeed by virtue that required locks have already been taken.
 
-    JET_ERR JET_API JetGetLock(
-      __in          JET_SESID sesid,
-      __in          JET_TABLEID tableid,
-      __in          JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetGetLock(
+  __in          JET_SESID sesid,
+  __in          JET_TABLEID tableid,
+  __in          JET_GRBIT grbit
+);
+```
 
 ### Parameters
 
@@ -75,7 +78,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -197,10 +200,9 @@ Record level versioning will ensure that each transaction when executed concurre
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetPrepareUpdate](gg269339\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[JetUpdate](gg269288\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetPrepareUpdate](./jetprepareupdate-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[JetUpdate](./jetupdate-function.md)

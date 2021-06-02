@@ -1,5 +1,5 @@
 ---
-Description: The AddForm function adds a form to the list of available forms that can be selected for the specified printer.
+description: The AddForm function adds a form to the list of available forms that can be selected for the specified printer.
 ms.assetid: 17b59019-f93a-4b57-86fb-91c61aecbac4
 title: AddForm function (Winspool.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ If *pForm* points to a [**FORM\_INFO\_2**](form-info-2.md), then **AddForm** wil
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

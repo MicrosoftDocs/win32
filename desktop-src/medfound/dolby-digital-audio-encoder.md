@@ -1,5 +1,5 @@
 ---
-Description: The Dolby audio decoder is a Media Foundation transform (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3.
+description: The Dolby audio encoder is a Media Foundation transform (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3.
 ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: Dolby Digital Audio Encoder
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Dolby Digital Audio Encoder
 
-The Dolby audio decoder is a [Media Foundation transform](media-foundation-transforms.md) (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3. The encoder does not support multi-channel input, such as the 5.1 channel configuration.
+The Dolby audio encoder is a [Media Foundation transform](media-foundation-transforms.md) (MFT) that encodes mono or stereo audio to Dolby Digital, also called Dolby AC-3. The encoder does not support multi-channel input, such as the 5.1 channel configuration.
 
 > [!IMPORTANT]
 > For versions of Windows prior to Windows 8, the Microsoft implementation of the Dolby Digital technology is restricted under terms of the Dolby Digital licensing program to use by Microsoft applications.
@@ -19,7 +19,7 @@ For more information about Dolby Digital audio, refer to Advanced Television Sys
 
 ## Class Identifier
 
-The class identifier (CLSID) of the Dolby audio decoder is **CLSID\_CMSDolbyDigitalEncMFT**, defined in the header file wmcodecdsp.h.
+The class identifier (CLSID) of the Dolby audio encoder is **CLSID\_CMSDolbyDigitalEncMFT**, defined in the header file wmcodecdsp.h.
 
 ## Output Types
 
@@ -231,7 +231,7 @@ Input media type:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                       |
 | Minimum supported server<br/> | None supported<br/>                                                               |

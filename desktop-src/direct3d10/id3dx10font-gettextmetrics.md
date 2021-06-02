@@ -1,5 +1,5 @@
 ---
-Description: Retrieve font characteristics.
+description: Retrieve font characteristics.
 ms.assetid: ef7e0d18-492b-476b-945a-bfc0232a939a
 title: ID3DX10Font::GetTextMetrics method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Nonzero if the function is successful; otherwise 0.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

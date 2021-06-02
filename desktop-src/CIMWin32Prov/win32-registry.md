@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Registry&\#8194;WMI class represents the system registry on a computer system running Windows.
+description: The Win32\_Registry&\#8194;WMI class represents the system registry on a computer system running Windows.
 ms.assetid: 4a6cd7d7-2845-434d-b024-d6dbb77371ea
 ms.tgt_platform: multiple
 title: Win32_Registry class
@@ -295,7 +295,7 @@ The **Win32\_Registry** class is derived from [**CIM\_LogicalElement**](cim-logi
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The Directory table specifies the layout of an installation.
+description: The Directory table specifies the layout of an installation.
 ms.assetid: 3f2e1cc2-6b36-4615-86e6-e78485edd2f7
 title: Using the Directory Table
 ms.topic: article

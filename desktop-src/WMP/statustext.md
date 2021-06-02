@@ -1,6 +1,6 @@
 ---
 title: STATUSTEXT
-description: This is a predefined TEXT element with the following default values.
+description: This is a predefined TEXT element with the following default values. | STATUSTEXT
 ms.assetid: cb87b34b-bbb7-4bd1-a117-03768f6c5d7e
 keywords:
 - STATUSTEXT Windows Media Player
@@ -32,7 +32,7 @@ This will create a **TEXT** element that will display the playback status. All p
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

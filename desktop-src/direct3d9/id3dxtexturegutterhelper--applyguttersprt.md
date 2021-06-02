@@ -1,5 +1,5 @@
 ---
-Description: Applies gutters to an ID3DXPRTBuffer buffer object.
+description: Applies gutters to an ID3DXPRTBuffer buffer object.
 ms.assetid: db09aa50-3175-4588-8433-dad6bd37cf0c
 title: ID3DXTextureGutterHelper::ApplyGuttersPRT method (D3DX9Mesh.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The width and height of the texture must be the same as those returned by [**ID3
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

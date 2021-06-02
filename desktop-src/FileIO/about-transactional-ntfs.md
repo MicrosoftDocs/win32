@@ -1,5 +1,5 @@
 ---
-Description: Transactional NTFS (TxF) integrates transactions into the NTFS file system, which makes it easier for application developers and administrators to gracefully handle errors and preserve data integrity.
+description: Transactional NTFS (TxF) integrates transactions into the NTFS file system, which makes it easier for application developers and administrators to gracefully handle errors and preserve data integrity.
 ms.assetid: 52341315-0412-4a87-aca0-9adea7aae62f
 title: About Transactional NTFS
 ms.topic: article

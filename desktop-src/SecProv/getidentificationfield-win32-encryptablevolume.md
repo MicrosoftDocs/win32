@@ -1,5 +1,5 @@
 ---
-Description: Returns the identifier string available in the volume's metadata.
+description: Returns the identifier string available in the volume's metadata.
 ms.assetid: 0573cbcd-6fb1-4648-bb06-4433796f6bb5
 title: GetIdentificationField method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -65,7 +65,7 @@ This method returns one of the following codes or another error code if it fails
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

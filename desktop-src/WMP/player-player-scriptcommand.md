@@ -1,6 +1,6 @@
 ---
 title: Player.ScriptCommand event
-description: The ScriptCommand event occurs when a synchronized command or URL is received.
+description: The ScriptCommand event occurs when a synchronized command or URL is received. | Player.ScriptCommand event
 ms.assetid: d3aec4e2-1b0e-414e-8113-0af4fcd37e3b
 keywords:
 - ScriptCommand event Windows Media Player
@@ -111,7 +111,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

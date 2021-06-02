@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ToDirectoryAction association identifies the target directory for the file action.
+description: The CIM\_ToDirectoryAction association identifies the target directory for the file action.
 ms.assetid: f4dcd99c-4da8-447d-b6f7-7e3da63ca9c4
 ms.tgt_platform: multiple
 title: CIM_ToDirectoryAction class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Describes the type of media protection.
+description: Describes the type of media protection.
 ms.assetid: 160ca781-843f-4e80-916f-60a3fa6d7eba
 title: System.Media.ProtectionType
 ms.topic: article

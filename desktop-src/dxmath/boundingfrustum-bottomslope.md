@@ -1,5 +1,5 @@
 ---
-Description: The slope of the bottom of the BoundingFrustum.
+description: The slope of the bottom of the BoundingFrustum.
 ms.assetid: bb5b0e27-efe2-4f78-ab7d-752fcf9ff2e8
 title: BoundingFrustum.BottomSlope (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXCollision.h</dt> </dl> |
 

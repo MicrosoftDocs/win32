@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value of a named property for a Secure Sockets Layer protocol (SSL) provider key object.
+description: Retrieves the value of a named property for a Secure Sockets Layer protocol (SSL) provider key object.
 ms.assetid: 01a7e82a-3888-4f96-85a2-e07811f1895e
 title: SslGetKeyProperty function (Sslprovider.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The Commit method of the Database object finalizes the persistent form of the database.
+description: The Commit method of the Database object finalizes the persistent form of the database.
 ms.assetid: 39253ccd-08f1-4a6f-87cb-3678ae5221a4
 title: Database.Commit method
 ms.topic: reference
@@ -44,7 +44,7 @@ If the method fails, you can obtain extended error information by using the [**L
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

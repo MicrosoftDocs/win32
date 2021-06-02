@@ -1,5 +1,5 @@
 ---
-Description: During a restore operation, the requester can use the IVssBackupComponents::SetRestoreState method to define the type of restore operation in progress.
+description: During a restore operation, the requester can use the IVssBackupComponents::SetRestoreState method to define the type of restore operation in progress.
 ms.assetid: f6bf1979-7604-450f-8988-2a17da6b82d7
 title: VSS Restore State
 ms.topic: article

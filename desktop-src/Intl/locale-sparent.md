@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SPARENT
+description: LOCALE\_SPARENT
 ms.assetid: 3fa0bc36-7577-4b5a-b557-8ac42e8594a8
 title: LOCALE_SPARENT
 ms.topic: article

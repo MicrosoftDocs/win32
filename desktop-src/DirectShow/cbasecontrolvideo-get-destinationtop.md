@@ -1,5 +1,5 @@
 ---
-Description: The get\_DestinationTop method retrieves the top coordinate of the current destination rectangle.
+description: The get\_DestinationTop method retrieves the top coordinate of the current destination rectangle.
 ms.assetid: 8d5c1361-18db-4ea1-a507-781397189630
 title: CBaseControlVideo.get_DestinationTop method (Ctlutil.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Wide-character string containing the name of the filter.
+description: Wide-character string containing the name of the filter.
 ms.assetid: 7d41990f-aba2-4ea9-9d83-50a99cd0a648
 title: CFactoryTemplate::m_Name member (Combase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ const WCHAR *m_Name;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

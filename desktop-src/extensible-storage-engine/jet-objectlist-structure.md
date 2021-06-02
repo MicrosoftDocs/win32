@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTLIST Structure"
 title: JET_OBJECTLIST Structure
 TOCTitle: JET_OBJECTLIST Structure
 ms:assetid: 95f12f2a-13da-48d4-a254-fc0cb718b17d
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_OBJECTLIST Structure
 
-The **JET_OBJECTLIST** structure traverses a temporary table that was created with [JetGetObjectInfo](gg269232\(v=exchg.10\).md). Each row in the temporary table describes an object in the database.
+The **JET_OBJECTLIST** structure traverses a temporary table that was created with [JetGetObjectInfo](./jetgetobjectinfo-function.md). Each row in the temporary table describes an object in the database.
 
 ```cpp
     typedef struct {
@@ -61,19 +62,19 @@ The number of records in the temporary table that was created.
 
 The column identifier of the name of the type of container.
 
-The only containers that are currently supported are tables. This column is a [JET_coltypText](gg269213\(v=exchg.10\).md).
+The only containers that are currently supported are tables. This column is a [JET_coltypText](./jet-coltyp.md).
 
 **columnidobjectname**
 
 The column identifier of the name of the object.
 
-This column is a [JET_coltypText](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypText](./jet-coltyp.md).
 
 **columnidobjtyp**
 
 The column identifier of the type of the object. The only containers that are currently supported are tables, so this field will be JET_objtypTable.
 
-This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](./jet-coltyp.md).
 
 **columniddtCreate**
 
@@ -85,33 +86,33 @@ Obsolete. Do not use.
 
 **columnidgrbit**
 
-The column identifier of the **grbits** that are applicable to the object. For a list of applicable **grbits**, see [JET_TABLECREATE](gg294146\(v=exchg.10\).md).
+The column identifier of the **grbits** that are applicable to the object. For a list of applicable **grbits**, see [JET_TABLECREATE](./jet-tablecreate-structure.md).
 
-This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](./jet-coltyp.md).
 
 **columnidflags**
 
-The column identifier of the flags that are applicable to the object. For a list of applicable flags, see [JET_OBJECTINFO](gg269353\(v=exchg.10\).md).
+The column identifier of the flags that are applicable to the object. For a list of applicable flags, see [JET_OBJECTINFO](./jet-objectinfo-structure.md).
 
-This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](./jet-coltyp.md).
 
 **columnidcRecord**
 
 The column identifier of the number of records that are present in the table that is named in **columnidobjectname**.
 
-This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](./jet-coltyp.md).
 
 **columnidcPage**
 
 The column identifier of the number of pages the object uses.
 
-This column is a [JET_coltypLong](gg269213\(v=exchg.10\).md).
+This column is a [JET_coltypLong](./jet-coltyp.md).
 
 ### Remarks
 
 Each row in the temporary table corresponds to an object in the database.
 
-When the temporary table is created with the *InfoLevel* parameter in the [JetGetObjectInfo](gg269232\(v=exchg.10\).md) function set to JET_ObjInfoListNoStats, the columns identified by **columnidcRecord** and **columnidcPage** will not contain meaningful information.
+When the temporary table is created with the *InfoLevel* parameter in the [JetGetObjectInfo](./jetgetobjectinfo-function.md) function set to JET_ObjInfoListNoStats, the columns identified by **columnidcRecord** and **columnidcPage** will not contain meaningful information.
 
 Currently, only information about tables will be in the temporary table.
 
@@ -141,13 +142,12 @@ Currently, only information about tables will be in the temporary table.
 
 ### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET_TABLECREATE](gg294146\(v=exchg.10\).md)  
-[JetGetObjectInfo](gg269232\(v=exchg.10\).md)
-
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_OBJECTINFO](./jet-objectinfo-structure.md)  
+[JET_TABLECREATE](./jet-tablecreate-structure.md)  
+[JetGetObjectInfo](./jetgetobjectinfo-function.md)

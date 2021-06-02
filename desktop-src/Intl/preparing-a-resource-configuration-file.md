@@ -1,5 +1,5 @@
 ---
-Description: Preparing a Resource Configuration File
+description: Preparing a Resource Configuration File
 ms.assetid: 292b57ea-1c7e-49b6-876c-4ad307a2ec43
 title: Preparing a Resource Configuration File
 ms.topic: article

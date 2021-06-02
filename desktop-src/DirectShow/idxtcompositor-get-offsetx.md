@@ -1,5 +1,5 @@
 ---
-Description: The get\_OffsetX method retrieves the horizontal offset of the target rectangle.
+description: The get\_OffsetX method retrieves the horizontal offset of the target rectangle.
 ms.assetid: a9d8c81b-f978-4b47-9c7f-12cee7c2c40d
 title: IDxtCompositor::get_OffsetX method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

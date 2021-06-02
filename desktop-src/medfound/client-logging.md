@@ -1,12 +1,12 @@
 ---
-Description: Client Logging
+description: Client Logging
 ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Client Logging (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Client Logging
+# Client Logging (Microsoft Media Foundation)
 
 The network source supports client logging, which provides a way for the media server to track the activity of the clients that connect to it. Client logs enable a server to record connection, rendering, and streaming statistics. These logs can be used by content providers in various scenarios, such as, to trace media server usage and generate billing, or to deliver suitable-quality content depending on the speed of the client's network.
 
@@ -18,7 +18,7 @@ If the content is stored in a temporary local cache file on the computer that is
 
 The client sends streaming log data to the server to indicate how the client received the content, but not how it was rendered. The client can send the streaming log long before the client finishes rendering the content.
 
-This topic does not provide information about all the log fields. For a complete reference, see [Windows Media Log Data Structure](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84).
+This topic does not provide information about all the log fields. For a complete reference, see [Windows Media Log Data Structure](/openspecs/windows_protocols/ms-wmlog/42c620eb-0d77-4350-b070-bcd1e182fe84).
 
 ## Configuring Log Fields
 
@@ -200,9 +200,4 @@ The following list describes some of the network statistics identifiers defined 
 </dt> </dl>
 
  
-
- 
-
-
-
 

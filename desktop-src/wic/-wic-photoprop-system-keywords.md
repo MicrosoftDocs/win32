@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Keywords property.
+description: The photo metadata policy for the System.Keywords property.
 ms.assetid: bc9de56f-444c-45a2-9822-fba2fe618d38
 title: System.Keywords Photo Metadata Policy
 ms.topic: article

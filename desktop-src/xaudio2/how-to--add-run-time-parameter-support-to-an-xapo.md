@@ -1,5 +1,5 @@
 ---
-Description: You can add run-time parameter support to an XAPO by implementing the IXAPOParameters interface. Run-time parameter support allows an XAPO to change its behavior based on the parameters passed to it at run time.
+description: You can add run-time parameter support to an XAPO by implementing the IXAPOParameters interface. Run-time parameter support allows an XAPO to change its behavior based on the parameters passed to it at run time.
 ms.assetid: 13f974ec-fcf5-1749-e69d-88de79b7d82b
 title: 'How to: Add Run-time Parameter Support to an XAPO'
 ms.topic: article

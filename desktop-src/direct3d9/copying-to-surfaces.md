@@ -1,5 +1,5 @@
 ---
-Description: When using IDirect3DDevice9::UpdateSurface, pass a rectangle on the source surface, or use NULL to specify the entire surface.
+description: When using IDirect3DDevice9::UpdateSurface, pass a rectangle on the source surface, or use NULL to specify the entire surface.
 ms.assetid: 2219d037-8480-4c36-b04e-0c23406a2e7e
 title: Copying to Surfaces (Direct3D 9)
 ms.topic: article

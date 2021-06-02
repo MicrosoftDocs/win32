@@ -1,5 +1,5 @@
 ---
-Description: A path is one of the objects associated with a device context (DC). However, unlike the default objects (the pen, the brush, and the font) that are part of any new DC, there is no default path. For more information about DCs, see Device Contexts.
+description: A path is one of the objects associated with a device context (DC). However, unlike the default objects (the pen, the brush, and the font) that are part of any new DC, there is no default path. For more information about DCs, see Device Contexts.
 ms.assetid: 67fdff34-6585-45c7-8627-91d126faad8c
 title: About Paths
 ms.topic: article

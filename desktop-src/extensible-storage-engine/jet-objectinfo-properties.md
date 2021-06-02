@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_OBJECTINFO properties"
 title: JET_OBJECTINFO properties
 TOCTitle: JET_OBJECTINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_OBJECTINFO](dn335219\(v=exchg.10\).md) type exposes the following members.
+The [JET_OBJECTINFO](./jet-objectinfo-class.md) type exposes the following members.
 
 ## Properties
 
@@ -61,7 +62,6 @@ Top
 
 #### Reference
 
-[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](./jet-objectinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

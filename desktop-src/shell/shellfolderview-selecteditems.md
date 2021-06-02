@@ -1,5 +1,5 @@
 ---
-Description: Gets a FolderItems object that represents all of the selected items in the view.
+description: ShellFolderView.SelectedItems method - Gets a FolderItems object that represents all of the selected items in the view.
 title: ShellFolderView.SelectedItems method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 1ee3bf2e-f9c9-47d9-a0f2-efedd69770c5
-api_name: 
- - ShellFolderView.SelectedItems
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -106,7 +97,7 @@ The following example shows the proper use of this method in JScript embedded in
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

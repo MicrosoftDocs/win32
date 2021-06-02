@@ -1,5 +1,5 @@
 ---
-Description: The width attribute specifies the width of the output video, in pixels.
+description: The width attribute specifies the width of the output video, in pixels.
 ms.assetid: 3fcc28d8-b7ef-474b-8594-b31422974998
 title: width Attribute
 ms.topic: reference

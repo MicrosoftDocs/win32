@@ -1,5 +1,5 @@
 ---
-Description: Propagate state changes that occur inside of an active pass to the device before rendering.
+description: Propagate state changes that occur inside of an active pass to the device before rendering.
 ms.assetid: 3a779b63-c106-4a81-afeb-82bd6e556de4
 title: ID3DXEffect::CommitChanges method (D3DX9Effect.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This is slightly different for any shared parameters in a cloned effect. When a 
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

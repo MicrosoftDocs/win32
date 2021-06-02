@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginTransaction3 Function"
 title: JetBeginTransaction3 Function
 TOCTitle: JetBeginTransaction3 Function
 ms:assetid: 7f8ed059-0b97-46fa-9925-e46cdcbee6ea
@@ -74,7 +75,7 @@ A group of bits that that specifies zero or more of the call option values liste
 
 ### Return value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -131,7 +132,7 @@ On failure, the transactional state of the session will remain unchanged. No cha
 
 #### Remarks
 
-For more information about how transactions work, see [JetBeginTransaction](gg294083\(v=exchg.10\).md).
+For more information about how transactions work, see [JetBeginTransaction](./jetbegintransaction-function.md).
 
 #### Requirements
 
@@ -167,14 +168,13 @@ For more information about how transactions work, see [JetBeginTransaction](gg29
 
 #### See also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetBeginTransaction](gg294083\(v=exchg.10\).md)  
-[JetCommitTransaction](gg269191\(v=exchg.10\).md)  
-[JetGetSystemParameter](gg269291\(v=exchg.10\).md)  
-[JetResetSessionContext](gg269250\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSetSessionContext](gg294124\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetBeginTransaction](./jetbegintransaction-function.md)  
+[JetCommitTransaction](./jetcommittransaction-function.md)  
+[JetGetSystemParameter](./jetgetsystemparameter-function.md)  
+[JetResetSessionContext](./jetresetsessioncontext-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSetSessionContext](./jetsetsessioncontext-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

@@ -1,5 +1,5 @@
 ---
-Description: MPEG-2 Demultiplexer Media Types
+description: MPEG-2 Demultiplexer Media Types
 ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: MPEG-2 Demultiplexer Media Types
 ms.topic: article
@@ -72,7 +72,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 
 
 
-|                  |                                          |
+| Label | Value |
 |------------------|------------------------------------------|
 | Major type       | **MEDIATYPE\_Video**                     |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_VIDEO**           |
@@ -87,7 +87,7 @@ The MPEG-2 Demultiplexer does not validate output types; the downstream filter i
 
 
 
-|                  |                                      |
+| Label | Value |
 |------------------|--------------------------------------|
 | Major type       | **MEDIATYPE\_Audio**                 |
 | Subtype          | **MEDIASUBTYPE\_MPEG2\_AUDIO**       |

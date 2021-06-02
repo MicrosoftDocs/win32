@@ -22,7 +22,7 @@ This attribute is used for access checks to determine if a requestor has permiss
 
 
 
-|                   |                                                     |
+| Entry | Value |
 |-------------------|-----------------------------------------------------|
 | CN                | ms-DS-GroupMSAMembership                            |
 | Ldap-Display-Name | msDS-GroupMSAMembership                             |
@@ -43,7 +43,7 @@ This attribute is used for access checks to determine if a requestor has permiss
 
 
 
-|                        |                                                                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                          |
 | MAPI-Id                | \-                                                                                          |

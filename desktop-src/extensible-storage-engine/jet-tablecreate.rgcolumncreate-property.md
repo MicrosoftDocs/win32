@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.rgcolumncreate property"
 title: JET_TABLECREATE.rgcolumncreate property 
 TOCTitle: 'rgcolumncreate property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.rgcolumncreate
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_TABLECREATE.rgcolumncreate property
 
-Gets or sets an array of column creation info, of type [JET_COLUMNCREATE](dn335028\(v=exchg.10\).md).
+Gets or sets an array of column creation info, of type [JET_COLUMNCREATE](./jet-columncreate-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,9 +64,8 @@ Type: \[\]
 
 #### Reference
 
-[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](./jet-tablecreate-class.md)
 
-[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](./jet-tablecreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an enumerator that will return one pointer to an item identifier list (PIDL) for every extended view.
+description: Retrieves an enumerator that will return one pointer to an item identifier list (PIDL) for every extended view.
 title: IShellFolderViewType::EnumViews method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: e44cd774-1d16-4faa-b5ca-fcaf2740cdca
-api_name: 
- - IShellFolderViewType.EnumViews
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -77,7 +68,7 @@ Views are represented to the user as hidden folders off the root directory (repr
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

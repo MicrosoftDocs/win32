@@ -33,7 +33,7 @@ Updates the last segment in this ink object with new control points.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D2d1\_3.h</dt> </dl> |
 

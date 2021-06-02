@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseCorruptedNoRepairException methods"
 title: EsentDatabaseCorruptedNoRepairException methods
 TOCTitle: EsentDatabaseCorruptedNoRepairException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedNoRepairException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseCorruptedNoRepairException](dn334384\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseCorruptedNoRepairException](./esentdatabasecorruptednorepairexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseCorruptedNoRepairException class](dn334384\(v=exchg.10\).md)
+[EsentDatabaseCorruptedNoRepairException class](./esentdatabasecorruptednorepairexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

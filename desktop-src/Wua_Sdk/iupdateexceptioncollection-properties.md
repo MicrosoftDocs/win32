@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateExceptionCollection interface defines the following properties.
+description: The IUpdateExceptionCollection interface defines the following properties.
 ms.assetid: 829b9a3a-433c-4cb8-8c30-c19638f54958
 title: IUpdateExceptionCollection Properties
 ms.topic: article

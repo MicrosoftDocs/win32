@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_WMIElementSetting association WMI class relates a service running in the Windows system and the WMI settings it can use.
+description: The Win32\_WMIElementSetting association WMI class relates a service running in the Windows system and the WMI settings it can use.
 ms.assetid: 00e9f882-5f54-4042-a916-2f90ed9a37c0
 ms.tgt_platform: multiple
 title: Win32_WMIElementSetting class
@@ -87,7 +87,7 @@ The **Win32\_WMIElementSetting** class is derived from [**CIM\_ElementSetting**]
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotUpdatableException methods"
 title: EsentColumnNotUpdatableException methods
 TOCTitle: EsentColumnNotUpdatableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnNotUpdatableException](dn334291\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnNotUpdatableException](./esentcolumnnotupdatableexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentColumnNotUpdatableException class](dn334291\(v=exchg.10\).md)
+[EsentColumnNotUpdatableException class](./esentcolumnnotupdatableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

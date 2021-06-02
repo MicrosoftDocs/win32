@@ -1,6 +1,6 @@
 ---
 title: glDisableClientState function (Gl.h)
-description: The glEnableClientState and glDisableClientState functions enable and disable arrays respectively.
+description: The glEnableClientState and glDisableClientState functions enable and disable arrays respectively. | glDisableClientState function (Gl.h)
 ms.assetid: b3316519-00ed-45f8-9c4b-2e04c483751e
 keywords:
 - glDisableClientState function OpenGL
@@ -88,7 +88,7 @@ Calling [**glEnableClientState**](glenableclientstate.md) and **glDisableClientS
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

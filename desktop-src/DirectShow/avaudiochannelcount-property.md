@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of channels in the audio bit stream.
+description: Gets the number of channels in the audio bit stream.
 ms.assetid: e395ce9c-3f11-41e9-8c8c-48c17b217ebc
 title: AVAudioChannelCount property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The number of channels includes the low frequency effect (LFE) channel, if prese
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

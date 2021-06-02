@@ -1,5 +1,5 @@
 ---
-Description: Transforms an array (x, y, z, 1) by a given matrix, and projects the result back into w = 1.
+description: D3DXVec3TransformCoordArray function (D3dx9math.h) - Transforms an array (x, y, z, 1) by a given matrix, and projects the result back into w = 1.
 ms.assetid: f1595861-d8cb-4787-8078-b9ba6f76507e
 title: D3DXVec3TransformCoordArray function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec3TransformCoordArray function
+# D3DXVec3TransformCoordArray function (D3dx9math.h)
 
 Transforms an array (x, y, z, 1) by a given matrix, and projects the result back into w = 1.
 
@@ -110,7 +110,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

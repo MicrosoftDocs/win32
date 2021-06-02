@@ -1,5 +1,5 @@
 ---
-Description: The PlayAtTime event is sent when the PlayAtTime command has been enabled or disabled.
+description: The PlayAtTime event is sent when the PlayAtTime command has been enabled or disabled.
 ms.assetid: '61197baa-1500-4581-8d09-fd299724d046'
 title: PlayAtTime
 ms.topic: article

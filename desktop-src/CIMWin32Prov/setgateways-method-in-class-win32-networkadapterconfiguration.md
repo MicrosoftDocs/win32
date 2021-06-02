@@ -1,5 +1,5 @@
 ---
-Description: The SetGateways &\#32; WMI class method specifies a list of gateways for routing packets to a subnet that is different from the subnet that the network adapter is connected to.
+description: The SetGateways &\#32; WMI class method specifies a list of gateways for routing packets to a subnet that is different from the subnet that the network adapter is connected to.
 ms.assetid: 240f7aff-7a07-4e0d-af30-7bcabb68c736
 ms.tgt_platform: multiple
 title: SetGateways method of the Win32_NetworkAdapterConfiguration class
@@ -351,7 +351,7 @@ The [Static IP and then join to a domain](https://Gallery.TechNet.Microsoft.Com/
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

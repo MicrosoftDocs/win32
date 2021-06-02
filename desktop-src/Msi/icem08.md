@@ -1,5 +1,5 @@
 ---
-Description: ICEM08 ensures that a module does not exclude another module that it depends on.
+description: ICEM08 ensures that a module does not exclude another module that it depends on.
 ms.assetid: 56d115b4-7410-4db2-a9af-bc6716f3358d
 title: ICEM08
 ms.topic: article

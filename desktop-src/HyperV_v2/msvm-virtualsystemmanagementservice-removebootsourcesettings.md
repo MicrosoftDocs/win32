@@ -1,5 +1,5 @@
 ---
-Description: Removes virtual resource settings from a virtual system configuration.
+description: RemoveBootSourceSettings method of the Msvm_VirtualSystemManagementService class - Removes virtual resource settings from a virtual system configuration.
 ms.assetid: 0deb7719-e605-4ba5-9bb2-037d0cafee24
 title: RemoveBootSourceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -91,7 +91,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

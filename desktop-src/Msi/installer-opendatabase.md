@@ -1,5 +1,5 @@
 ---
-Description: The OpenDatabase method of the Installer object opens an existing database or creates a new one, returning a Database object. It generates an error if the Database object cannot be successfully created and opened.
+description: The OpenDatabase method of the Installer object opens an existing database or creates a new one, returning a Database object. It generates an error if the Database object cannot be successfully created and opened.
 ms.assetid: a77b3954-db27-41a0-8f8b-2654766bde6a
 title: Installer.OpenDatabase method
 ms.topic: reference
@@ -67,7 +67,7 @@ A parameter from the following list or a string that contains the path name of t
 
 ## Return value
 
-This method does not return a value.
+A [**Database**](database-object.md) object that represents the existing or new installer database that was opened.
 
 ## Remarks
 
@@ -85,7 +85,7 @@ If the method fails, you can obtain extended error information by using the [**L
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

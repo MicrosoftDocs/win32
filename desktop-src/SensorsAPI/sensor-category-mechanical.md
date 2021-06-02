@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_MECHANICAL category contains sensors that provide information related to mechanical devices and measurements.
+description: The SENSOR\_CATEGORY\_MECHANICAL category contains sensors that provide information related to mechanical devices and measurements.
 ms.assetid: d1243303-d26c-45ce-b97b-d554daeeb462
 title: SENSOR_CATEGORY_MECHANICAL (Sensors.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ This category includes the following platform-defined data fields.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

@@ -22,7 +22,7 @@ Backlink attribute for msDS-IsPrimaryComputer.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Is-Primary-Computer-For           |
 | Ldap-Display-Name | msDS-IsPrimaryComputerFor               |
@@ -43,7 +43,7 @@ Backlink attribute for msDS-IsPrimaryComputer.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2187                            |
 | MAPI-Id                | \-                              |

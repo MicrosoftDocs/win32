@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction Log Parameters"
 title: Transaction Log Parameters
 TOCTitle: Transaction Log Parameters
 ms:assetid: 41ade693-2bae-4c84-9339-a68a1b7c23e6
@@ -156,9 +157,9 @@ When circular logging is on, only transaction log files that are younger than th
 *JET_paramCommitDefault*  
 16  
 
-This parameter controls the default action taken when the outermost transaction is committed on a session. Any valid option that can be passed to [JetCommitTransaction](gg269191\(v=exchg.10\).md) can also be made to be the default for all sessions in an instance and/or for a specific session. See [JetCommitTransaction](gg269191\(v=exchg.10\).md) for more details on these options.
+This parameter controls the default action taken when the outermost transaction is committed on a session. Any valid option that can be passed to [JetCommitTransaction](./jetcommittransaction-function.md) can also be made to be the default for all sessions in an instance and/or for a specific session. See [JetCommitTransaction](./jetcommittransaction-function.md) for more details on these options.
 
-This parameter has an impact on the reliability and performance of transactions. Please see [JetCommitTransaction](gg269191\(v=exchg.10\).md) for more details.
+This parameter has an impact on the reliability and performance of transactions. Please see [JetCommitTransaction](./jetcommittransaction-function.md) for more details.
 
 <table>
 <colgroup>
@@ -279,7 +280,7 @@ When this parameter is true and the transaction log files pointed to by the log 
 *JET_paramIgnoreLogVersion*  
 47  
 
-If this parameter is true then the database engine will not validate the transaction log file version number during [JetInit](gg294068\(v=exchg.10\).md).
+If this parameter is true then the database engine will not validate the transaction log file version number during [JetInit](./jetinit-function.md).
 
 **Windows XP:**  As of Windows XP, this parameter is obsolete and does not affect the operation of the database engine.
 
@@ -663,7 +664,7 @@ This parameter will configure the size of the transaction log files. Each transa
 
 This parameter has an impact on reliability. If the setting is too small then the maximum number of log files (1048575) will be reached much faster. When this happens, the instance must be shutdown cleanly, the existing log files must be deleted, and the instance must be restarted. This action will not only reduce the availability of the application but it will also invalidate any previous backups of the application's database.
 
-This parameter has an impact on performance. If the setting is very large then [JetInit](gg294068\(v=exchg.10\).md) will be slow because the database engine must read the youngest log file (at a minimum) when it initializes. If the setting is very large then it will also take longer to switch between log files. If the setting is very small then more log files will need to be created for a given number of updates which will add more overhead.
+This parameter has an impact on performance. If the setting is very large then [JetInit](./jetinit-function.md) will be slow because the database engine must read the youngest log file (at a minimum) when it initializes. If the setting is very large then it will also take longer to switch between log files. If the setting is very small then more log files will need to be created for a given number of updates which will add more overhead.
 
 <table>
 <colgroup>
@@ -784,7 +785,7 @@ This parameter attempts to optimize the flush of the log buffer caused by a dura
 *JET_paramRecovery*  
 34  
 
-This parameter is the master switch that controls crash recovery for an instance. If this parameter is set to "On" then ARIES style recovery will be used to bring all databases in the instance to a consistent state in the event of a process or machine crash. If this parameter is set to "Off" then all databases in the instance will be managed without the benefit of crash recovery. That is to say, that if the instance is not shut down cleanly using [JetTerm](gg269298\(v=exchg.10\).md) prior to the process exiting or machine shutdown then the contents of all databases in that instance will be corrupted.
+This parameter is the master switch that controls crash recovery for an instance. If this parameter is set to "On" then ARIES style recovery will be used to bring all databases in the instance to a consistent state in the event of a process or machine crash. If this parameter is set to "Off" then all databases in the instance will be managed without the benefit of crash recovery. That is to say, that if the instance is not shut down cleanly using [JetTerm](./jetterm-function.md) prior to the process exiting or machine shutdown then the contents of all databases in that instance will be corrupted.
 
 Disabling recovery is useful in special circumstances where it is known that the contents of a database are not useful in the event of a crash. Recovery should be enabled for all other cases.
 
@@ -967,7 +968,7 @@ This parameter attempts to optimize the flush of the log buffer caused by a dura
 *JET_paramLegacyFileNames*  
 136  
 
-This parameter is used to specify the file naming compatibility features to maintain with the Windows Server 2003 and previous file naming scheme. For more information about the different files and their naming see [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md).
+This parameter is used to specify the file naming compatibility features to maintain with the Windows Server 2003 and previous file naming scheme. For more information about the different files and their naming see [Extensible Storage Engine Files](./extensible-storage-engine-files.md).
 
 The JET_bitESE98FileNames ensures the file extension used on the transaction log files and the checkpoint file are the same as that used in Windows Server 2003. Note if upgrading from Windows Server 2003, this bit still need not be specified, as the engine will automatically upgrade the file extensions if JET_paramCircularLog is set to **true**, or maintain the older log extension if JET_paramCircularLog is **false**.
 
@@ -1053,9 +1054,8 @@ The JET_bitESE98FileNames ensures the file extension used on the transaction log
 
 ## See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JetCommitTransaction](gg269191\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JetTerm](gg269298\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JetCommitTransaction](./jetcommittransaction-function.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)  
+[JetTerm](./jetterm-function.md)

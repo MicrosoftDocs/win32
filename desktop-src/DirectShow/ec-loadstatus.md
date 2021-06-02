@@ -1,5 +1,5 @@
 ---
-Description: Notifies the application of progress when opening a network file.
+description: Notifies the application of progress when opening a network file.
 ms.assetid: 022b87e5-76af-4253-9485-97140f294938
 title: EC_LOADSTATUS (Dshow.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The [WM ASF Reader](wm-asf-reader-filter.md) filter and the legacy [Windows Medi
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_LANGMISMATCH notification is sent to the callback routine if the language of the file to be copied does not match the language of an existing target file.
+description: The SPFILENOTIFY\_LANGMISMATCH notification is sent to the callback routine if the language of the file to be copied does not match the language of an existing target file.
 ms.assetid: dff3969e-5847-4ad5-b7d4-237144bbe8e6
 title: SPFILENOTIFY_LANGMISMATCH message (Setupapi.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The callback routine should return one of the following values.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

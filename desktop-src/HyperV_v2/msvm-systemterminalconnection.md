@@ -1,5 +1,5 @@
 ---
-Description: Associates a virtual machine with a terminal connection.
+description: Associates a virtual machine with a terminal connection.
 ms.assetid: 31979FB8-3870-44D9-9720-AD99237C5268
 title: Msvm_SystemTerminalConnection class
 ms.topic: reference
@@ -86,7 +86,7 @@ Access to the **Msvm\_SystemTerminalConnection** class might be restricted by UA
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

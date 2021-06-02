@@ -21,7 +21,7 @@ Extended right needed to change the schema master FSMO role owner.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Change-Schema-Master                 |
 | Display-Name | Change Schema Master                 |
@@ -43,7 +43,7 @@ Extended right needed to change the schema master FSMO role owner.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 28                              |
@@ -54,7 +54,7 @@ Extended right needed to change the schema master FSMO role owner.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 28                              |
@@ -65,7 +65,7 @@ Extended right needed to change the schema master FSMO role owner.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 28                              |
@@ -76,7 +76,7 @@ Extended right needed to change the schema master FSMO role owner.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 28                              |
@@ -87,7 +87,7 @@ Extended right needed to change the schema master FSMO role owner.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 28                              |
@@ -98,7 +98,7 @@ Extended right needed to change the schema master FSMO role owner.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 28                              |
@@ -109,7 +109,7 @@ Extended right needed to change the schema master FSMO role owner.
 
 
 
-|                         |                                 |
+| Entry | Value |
 |-------------------------|---------------------------------|
 | Applies-To              | [**DMD**](c-dmd.md)<br/> |
 | Localization-Display-ID | 28                              |

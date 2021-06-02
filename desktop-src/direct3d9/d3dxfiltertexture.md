@@ -1,5 +1,5 @@
 ---
-Description: Filters mipmap levels of a texture.
+description: Filters mipmap levels of a texture.
 ms.assetid: bfeae9b0-9480-4a26-a225-4a34780546ce
 title: D3DXFilterTexture function (D3dx9tex.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ There is only one texture filtering function, but two macros that call this meth
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

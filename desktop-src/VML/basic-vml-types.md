@@ -1,6 +1,6 @@
 ---
 title: Basic VML Types
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Migrate web pages and applications that rely on VML to SVG or other widely supported standards.
 ms.assetid: 07c17e7b-5ac4-4a8d-a468-559307408d5b
 keywords:
 - Vector Markup Language (VML),basic types
@@ -369,67 +369,67 @@ The definition of a color value must not refer to itself, either directly or ind
 
 Color names and sRGB values
 
-![](images/black.gif)
+![Example of black color.](images/black.gif)
 
 Black = "\#000000"
 
-![](images/green.gif)
+![Example of green color.](images/green.gif)
 
 Green = "\#008000"
 
-![](images/silver.gif)
+![Example of silver color.](images/silver.gif)
 
 Silver = "\#C0C0C0"
 
-![](images/lime.gif)
+![Example of lime color.](images/lime.gif)
 
 Lime = "\#00FF00"
 
-![](images/gray.gif)
+![Example of gray color.](images/gray.gif)
 
 Gray = "\#808080"
 
-![](images/olive.gif)
+![Example of olive color.](images/olive.gif)
 
 Olive = "\#808000"
 
-![](images/white.gif)
+![Example of white color.](images/white.gif)
 
 White = "\#FFFFFF"
 
-![](images/yellow.gif)
+![Example of ywllow color.](images/yellow.gif)
 
 Yellow = "\#FFFF00"
 
-![](images/maroon.gif)
+![Example of maroon color.](images/maroon.gif)
 
 Maroon = "\#800000"
 
-![](images/navy.gif)
+![Example of navy color.](images/navy.gif)
 
 Navy = "\#000080"
 
-![](images/red.gif)
+![Example of red color.](images/red.gif)
 
 Red = "\#FF0000"
 
-![](images/blue.gif)
+![Example of blue color.](images/blue.gif)
 
 Blue = "\#0000FF"
 
-![](images/purple.gif)
+![Example of purple color.](images/purple.gif)
 
 Purple = "\#800080"
 
-![](images/teal.gif)
+![Example of teal color.](images/teal.gif)
 
 Teal = "\#008080"
 
-![](images/fuchsia.gif)
+![Example of fuchsia color.](images/fuchsia.gif)
 
 Fuchsia = "\#FF00FF"
 
-![](images/aqua.gif)
+![Example of aqua color.](images/aqua.gif)
 
 Aqua = "\#00FFFF"
 

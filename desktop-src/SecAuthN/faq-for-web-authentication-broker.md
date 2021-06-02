@@ -1,5 +1,5 @@
 ---
-Description: Frequently asked questions for Web Authentication Broker.
+description: Frequently asked questions for Web Authentication Broker.
 ms.assetid: 49ACB2E3-CF57-4D8E-9670-E7C18A06F76A
 title: FAQ for Web Authentication Broker
 ms.topic: article

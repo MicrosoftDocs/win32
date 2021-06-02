@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentUsageException constructor"
 title: EsentUsageException constructor 
 TOCTitle: 'EsentUsageException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentUsageException.#ctor
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentUsageException class](dn350849\(v=exchg.10\).md)
+[EsentUsageException class](./esentusageexception-class.md)
 
-[EsentUsageException members](dn350859\(v=exchg.10\).md)
+[EsentUsageException members](./esentusageexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

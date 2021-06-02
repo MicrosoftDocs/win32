@@ -1,5 +1,5 @@
 ---
-Description: The Sequence method of the Session object opens a query on the specified table, ordering the actions by the numbers in the Sequence column.
+description: The Sequence method of the Session object opens a query on the specified table, ordering the actions by the numbers in the Sequence column.
 ms.assetid: cde735b0-0b97-4c4f-adfc-f0321aafb012
 title: Session.Sequence method
 ms.topic: reference
@@ -55,7 +55,7 @@ An action sequence containing actions that update the system, such as the [Insta
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

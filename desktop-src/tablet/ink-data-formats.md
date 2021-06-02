@@ -1,5 +1,5 @@
 ---
-Description: 'There are a number of formats in which ink data can be stored, including:'
+description: 'There are a number of formats in which ink data can be stored, including:'
 ms.assetid: b08fba71-46cb-4419-9da5-a33a5b9a5ec0
 title: Ink Data Formats
 ms.topic: article

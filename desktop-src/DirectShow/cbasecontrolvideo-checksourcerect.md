@@ -1,5 +1,5 @@
 ---
-Description: Determines if a source rectangle is valid.
+description: Determines if a source rectangle is valid.
 ms.assetid: 3fef107b-6f4c-4fab-91d3-6ab72dcc32be
 title: CBaseControlVideo.CheckSourceRect method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function checks that the source rectangle requested does not exceed 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

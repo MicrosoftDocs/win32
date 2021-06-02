@@ -1,5 +1,5 @@
 ---
-Description: Semantics map a parameter to vertex or pixel shader registers. They can also be optional descriptive strings attached to non-register parameters.
+description: Semantics map a parameter to vertex or pixel shader registers. They can also be optional descriptive strings attached to non-register parameters.
 ms.assetid: 547a6ff3-be24-4299-9119-6719ad09b4ef
 title: D3DXSEMANTIC structure (D3dx9shader.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Semantics are required for vertex and pixel shader, input and output registers.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

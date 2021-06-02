@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetTerm2 method"
 title: Api.JetTerm2 method 
 TOCTitle: 'JetTerm2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetTerm2(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.TermGrbit)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetTerm2 method
 
-Terminate an instance that was created with [JetInit(JET_INSTANCE)](dn292210\(v=exchg.10\).md) or [JetCreateInstance(JET_INSTANCE, String)](dn292122\(v=exchg.10\).md).
+Terminate an instance that was created with [JetInit(JET_INSTANCE)](./api.jetinit-method.md) or [JetCreateInstance(JET_INSTANCE, String)](./api.jetcreateinstance-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,14 +57,14 @@ public static void JetTerm2(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)  
     
     The instance to terminate.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.TermGrbit](hh577872\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.TermGrbit](./termgrbit-enumeration.md)  
     
     Termination options.
 
@@ -71,9 +72,8 @@ public static void JetTerm2(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

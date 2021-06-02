@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentIOException constructor"
 title: EsentIOException constructor 
 TOCTitle: 'EsentIOException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentIOException.#ctor
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentIOException class](dn319595\(v=exchg.10\).md)
+[EsentIOException class](./esentioexception-class.md)
 
-[EsentIOException members](dn334537\(v=exchg.10\).md)
+[EsentIOException members](./esentioexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

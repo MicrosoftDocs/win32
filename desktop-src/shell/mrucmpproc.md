@@ -1,5 +1,5 @@
 ---
-Description: Used to determine whether an item is present in a most recently used (MRU) list.
+description: Used to determine whether an item is present in a most recently used (MRU) list.
 title: MRUCMPPROC callback function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,16 +14,6 @@ api_type:
 - UserDefined
 api_location: 
 ms.assetid: 00f31d6b-2a96-4abd-9647-24a6e66aa22f
-api_name: 
- - MRUCMPPROC
- - MRUCMPPROCA
- - MRUCMPPROCW
-api_type: 
- - UserDefined
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -79,7 +69,7 @@ This function can be optionally specified for use in the [**MRUINFO**](mruinfo.m
 
 
 
-|                                     |                                                                 |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>      |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>            |

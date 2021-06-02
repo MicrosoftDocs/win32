@@ -1,5 +1,5 @@
 ---
-Description: Specifies the video compression format.
+description: Specifies the video compression format.
 ms.assetid: fdd3fce9-f507-4581-bd68-74a854581200
 title: System.Video.Compression
 ms.topic: article

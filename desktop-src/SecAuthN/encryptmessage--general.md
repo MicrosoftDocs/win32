@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a message to provide privacy.
+description: Encrypts a message to provide privacy.
 ms.assetid: 2e09f262-9c3e-4db2-9285-017f5e1810c7
 title: EncryptMessage (General) function (Sspi.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]                                                            |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\]                                                   |

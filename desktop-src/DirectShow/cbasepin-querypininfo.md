@@ -1,5 +1,5 @@
 ---
-Description: The QueryPinInfo method retrieves information about the pin. This method implements the IPin::QueryPinInfo method.
+description: The QueryPinInfo method retrieves information about the pin. This method implements the IPin::QueryPinInfo method.
 ms.assetid: 9de41f61-9f03-4594-a320-2f7f0ed734fd
 title: CBasePin.QueryPinInfo method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ When the method returns, if the **pFilter** member of the PIN\_INFO structure is
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

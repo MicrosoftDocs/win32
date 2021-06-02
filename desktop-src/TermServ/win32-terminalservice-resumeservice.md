@@ -1,6 +1,6 @@
 ---
 title: ResumeService method of the Win32_Service class (Remote Desktop Services)
-description: Attempts to place the referenced service in the resumed state.
+description: ResumeService method of the Win32_Service class (Remote Desktop Services) - Attempts to place the referenced service in the resumed state.
 ms.assetid: AA020A0A-E69C-44AB-B259-A73460728770
 ms.tgt_platform: multiple
 keywords:
@@ -19,7 +19,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# ResumeService method of the Win32\_Service class
+# ResumeService method of the Win32_Service class (Remote Desktop Services)
 
 The **ResumeService** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method attempts to place the referenced service in the resumed state.
 
@@ -236,7 +236,7 @@ The [Resume AutoStart Services that are Paused](https://Gallery.TechNet.Microsof
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

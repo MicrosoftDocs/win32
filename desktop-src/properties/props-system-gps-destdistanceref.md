@@ -1,5 +1,5 @@
 ---
-Description: Indicates the unit used to express the distance to the destination (for example, kilometers, miles, knots).
+description: Indicates the unit used to express the distance to the destination (for example, kilometers, miles, knots).
 ms.assetid: 2251b8ae-635f-450d-a037-a7f893c1f3d9
 title: System.GPS.DestDistanceRef
 ms.topic: article

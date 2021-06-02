@@ -1,5 +1,5 @@
 ---
-Description: Audio auxiliary (AAUX) source control pack for the first audio block in a digital video (DV) media type.
+description: Audio auxiliary (AAUX) source control pack for the first audio block in a digital video (DV) media type.
 ms.assetid: 483b5a5e-d385-4730-91dc-2e4dcca73ead
 title: MF_MT_DV_AAUX_CTRL_PACK_0 attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

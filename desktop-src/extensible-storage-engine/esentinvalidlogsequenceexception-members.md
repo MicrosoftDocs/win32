@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogSequenceException members"
 title: EsentInvalidLogSequenceException members
 TOCTitle: EsentInvalidLogSequenceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogSequenceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidLogSequence exceptions.
 
-The [EsentInvalidLogSequenceException](dn319554\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLogSequenceException](./esentinvalidlogsequenceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLogSequenceException class](dn319554\(v=exchg.10\).md)
+[EsentInvalidLogSequenceException class](./esentinvalidlogsequenceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

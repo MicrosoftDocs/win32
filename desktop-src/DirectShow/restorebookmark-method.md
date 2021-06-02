@@ -1,5 +1,5 @@
 ---
-Description: The RestoreBookmark method moves the MSWebDVD object to the point on the disc as specified in the current bookmark, with all audio, video, and subpicture settings restored.
+description: The RestoreBookmark method moves the MSWebDVD object to the point on the disc as specified in the current bookmark, with all audio, video, and subpicture settings restored.
 ms.assetid: 41623395-e891-4e0a-8a1a-1a000b9fd537
 title: RestoreBookmark Method (Segment.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ No return value.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileAlreadyExistsException constructor"
 title: EsentSLVStreamingFileAlreadyExistsException constructor 
 TOCTitle: 'EsentSLVStreamingFileAlreadyExistsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileAlreadyExistsException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVStreamingFileAlreadyExistsException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVStreamingFileAlreadyExistsException()
 
 #### Reference
 
-[EsentSLVStreamingFileAlreadyExistsException class](dn334850\(v=exchg.10\).md)
+[EsentSLVStreamingFileAlreadyExistsException class](./esentslvstreamingfilealreadyexistsexception-class.md)
 
-[EsentSLVStreamingFileAlreadyExistsException members](dn350761\(v=exchg.10\).md)
+[EsentSLVStreamingFileAlreadyExistsException members](./esentslvstreamingfilealreadyexistsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: A Common Information Model (CIM) association class that establishes relationships between a system and the managed system elements of which it is composed.
+description: A Common Information Model (CIM) association class that establishes relationships between a system and the managed system elements of which it is composed.
 ms.assetid: 11ad6dc1-a09a-4bab-bb1d-2131a8fdb812
 ms.tgt_platform: multiple
 title: CIM_SystemComponent class (CIMWin32 WMI Providers)
@@ -18,7 +18,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_SystemComponent class
+# CIM_SystemComponent class (CIMWin32 WMI Providers)
 
 The **CIM\_SystemComponent** class is a Common Information Model (CIM) association class that establishes relationships between a system and the managed system elements of which it is composed.
 
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

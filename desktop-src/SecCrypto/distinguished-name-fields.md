@@ -1,5 +1,5 @@
 ---
-Description: Contains information that should uniquely identify the individual making the request.
+description: Contains information that should uniquely identify the individual making the request.
 ms.assetid: f0cc0e1b-370e-4548-97fe-8f6a4005540b
 title: Distinguished Name Fields
 ms.topic: article

@@ -72,7 +72,7 @@ There are three preset formats available for displaying the date and one for dis
 
 
 
-|                                                                                                       |                                                            |
+|   Format                                                                                                    |   Description                                                         |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [**DTS\_LONGDATEFORMAT**](date-and-time-picker-control-styles.md)                 | The display will look like: "Friday, April 19, 1996".      |
 | [**DTS\_SHORTDATEFORMAT**](date-and-time-picker-control-styles.md)               | The display will look like: "4/19/96".                     |

@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a particular.
+description: Represents information about a particular.
 MS-HAID: vspixengine.PixelHistoryIntersection
 MSHAttr:
 - PreferredSiteName:MSDN

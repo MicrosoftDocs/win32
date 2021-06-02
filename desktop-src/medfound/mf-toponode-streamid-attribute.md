@@ -1,5 +1,5 @@
 ---
-Description: The stream identifier of the stream sink associated with this topology node.
+description: The stream identifier of the stream sink associated with this topology node.
 ms.assetid: 0b8060ab-1463-45c2-8277-d15122561248
 title: MF_TOPONODE_STREAMID attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

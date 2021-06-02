@@ -1,5 +1,5 @@
 ---
-Description: Formats time as a time string for a specified locale.
+description: Formats time as a time string for a specified locale.
 ms.assetid: 048b209c-f757-4b65-9ce7-282a5c21021f
 title: GetTimeFormatWrapW function
 ms.topic: reference
@@ -219,7 +219,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

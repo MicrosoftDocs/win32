@@ -77,7 +77,7 @@ When the showFrame mode is active, the Player must access the track content to r
 
 
 
-|                    |                                                                                                                                                               |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | For loop and shuffle modes, Windows Media Player version 7.0 or later. For autoRewind and showFrame modes, Windows Media Player 9 Series or later.<br/> |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl>                                                                            |

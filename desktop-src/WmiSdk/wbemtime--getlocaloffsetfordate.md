@@ -1,5 +1,5 @@
 ---
-Description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &\#8211;) between GMT and local time for the time supplied in the argument.
+description: The GetLocalOffsetForDate method returns the offset in minutes (+ or &\#8211;) between GMT and local time for the time supplied in the argument.
 audience: developer
 ms.assetid: 15cc5f45-604c-4335-bcd3-92d62dc15420
 ms.tgt_platform: multiple
@@ -31,7 +31,7 @@ The **GetLocalOffsetForDate** method returns the offset in minutes (+ or �) be
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |

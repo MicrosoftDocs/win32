@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Event Logging Constants"
 title: Event Logging Constants
 TOCTitle: Event Logging Constants
 ms:assetid: d24603a9-a9be-4700-bc20-4e3f0661e741
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## Event Logging Constants
 
-The following constants indicate the detail level for event log messages for the [JET_ParamEventLoggingLevel](gg294086\(v=exchg.10\).md) system parameter.
+The following constants indicate the detail level for event log messages for the [JET_ParamEventLoggingLevel](./event-log-parameters.md) system parameter.
 
 <table>
 <colgroup>
@@ -78,5 +79,4 @@ The following constants indicate the detail level for event log messages for the
 
 ### See Also
 
-[Event Log Parameters](gg294086\(v=exchg.10\).md)
-
+[Event Log Parameters](./event-log-parameters.md)

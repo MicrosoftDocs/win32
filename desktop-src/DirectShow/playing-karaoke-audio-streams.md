@@ -1,5 +1,5 @@
 ---
-Description: Playing Karaoke Audio Streams
+description: Playing Karaoke Audio Streams
 ms.assetid: 1a8d0f42-35b8-4743-9ae7-619b99936f76
 title: Playing Karaoke Audio Streams
 ms.topic: article

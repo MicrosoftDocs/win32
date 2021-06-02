@@ -1,5 +1,5 @@
 ---
-Description: Gets all the scan profiles available for the user in the system that your application is running under.
+description: Gets all the scan profiles available for the user in the system that your application is running under.
 ms.assetid: 9787079e-283c-4f6d-b97c-cfc1349ada30
 title: IScanProfileMgr::GetProfiles method (Scanprofilemgr.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If the total number of profiles available for the user is smaller than the value
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

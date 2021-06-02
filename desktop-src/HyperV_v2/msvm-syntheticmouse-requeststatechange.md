@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_SyntheticMouse class - Requests a state change.
 ms.assetid: 6c29dc19-0e5a-48cc-ae4a-f7cf127678b2
 title: RequestStateChange method of the Msvm_SyntheticMouse class
 ms.topic: reference
@@ -152,7 +152,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

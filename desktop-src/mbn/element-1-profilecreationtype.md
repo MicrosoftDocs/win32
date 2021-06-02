@@ -1,5 +1,5 @@
 ---
-Description: ProfileCreationType (in ModemDMConfigProfile)
+description: ProfileCreationType (in ModemDMConfigProfile)
 MS-HAID: WWAN\_profile\_v4.element\_1\_ProfileCreationType
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -43,7 +43,7 @@ This parameter is not used.
 *lParam* 
 </dt> <dd>
 
-A pointer to a [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1) structure. The **rgbResult** member of this structure contains the RGB color value of the selected color.
+A pointer to a [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1) structure. The **rgbResult** member of this structure contains the RGB color value of the selected color.
 
 </dd> </dl>
 
@@ -61,7 +61,7 @@ The hook procedure must specify the **COLOROKSTRING** constant in a call to the 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |
@@ -77,7 +77,7 @@ The hook procedure must specify the **COLOROKSTRING** constant in a call to the 
 **Reference**
 </dt> <dt>
 
-[**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1)
+[**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1)
 </dt> <dt>
 
 [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP members"
 title: JET_RSTMAP members
 TOCTitle: JET_RSTMAP members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RSTMAP
@@ -15,7 +16,7 @@ Include inherited members
 
 Enables the remapping of database file paths that are stored in the transaction logs during recovery.
 
-The [JET_RSTMAP](dn351048\(v=exchg.10\).md) type exposes the following members.
+The [JET_RSTMAP](./jet-rstmap-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_RSTMAP class](dn351048\(v=exchg.10\).md)
+[JET_RSTMAP class](./jet-rstmap-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

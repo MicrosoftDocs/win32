@@ -1,5 +1,5 @@
 ---
-Description: Before you begin to develop a Microsoft Windows HTTP Services (WinHTTP) application, you must first decide whether to use the C/C++ API or the COM interface.
+description: Before you begin to develop a Microsoft Windows HTTP Services (WinHTTP) application, you must first decide whether to use the C/C++ API or the COM interface.
 ms.assetid: 451ad247-962f-4af1-bb21-0aed4ef5f93c
 title: Choosing a WinHTTP Interface
 ms.topic: article

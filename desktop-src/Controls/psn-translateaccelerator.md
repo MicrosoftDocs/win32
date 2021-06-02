@@ -52,7 +52,7 @@ To set the return value, the dialog box procedure for the page must use the [**S
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

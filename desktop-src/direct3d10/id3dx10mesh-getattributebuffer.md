@@ -1,5 +1,5 @@
 ---
-Description: Access the mesh's attribute buffer.
+description: Access the mesh's attribute buffer.
 ms.assetid: 01ebb592-1e0d-4d93-b3f5-ad5f1e0225d0
 title: ID3DX10Mesh::GetAttributeBuffer method (D3DX10.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

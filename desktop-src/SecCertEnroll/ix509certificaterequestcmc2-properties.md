@@ -1,5 +1,5 @@
 ---
-Description: The IX509CertificateRequestCmc2 interface exposes the following properties.
+description: The IX509CertificateRequestCmc2 interface exposes the following properties.
 ms.assetid: F6B548ED-E7E5-448C-9B13-0E28A53AD278
 title: IX509CertificateRequestCmc2 Properties
 ms.topic: reference

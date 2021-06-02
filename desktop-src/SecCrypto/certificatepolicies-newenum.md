@@ -1,5 +1,5 @@
 ---
-Description: The \_NewEnum property of CertificatePolicies retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection.
+description: The \_NewEnum property of CertificatePolicies retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection.
 ms.assetid: 631a11c8-4442-493e-9406-bc63f79db548
 title: CertificatePolicies._NewEnum property
 ms.topic: reference
@@ -42,7 +42,7 @@ This property is automatically used internally when you use the `For Each In` co
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

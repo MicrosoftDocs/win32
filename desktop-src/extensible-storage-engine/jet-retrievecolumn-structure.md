@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN Structure"
 title: JET_RETRIEVECOLUMN Structure
 TOCTitle: JET_RETRIEVECOLUMN Structure
 ms:assetid: 8e23bed5-5279-4733-b787-a073a0e8d5a5
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_RETRIEVECOLUMN Structure
 
-The **JET_RETRIEVECOLUMN** structure contains input and output parameters for [JetRetrieveColumns](gg294135\(v=exchg.10\).md). Fields in the structure describe what column value to retrieve, how to retrieve it, and where to save results.
+The **JET_RETRIEVECOLUMN** structure contains input and output parameters for [JetRetrieveColumns](./jetretrievecolumns-function.md). Fields in the structure describe what column value to retrieve, how to retrieve it, and where to save results.
 
 ```cpp
     typedef struct {
@@ -112,15 +113,15 @@ A group of bits that contain the options for column retrieval, which include zer
 
 **ibLongValue**
 
-The offset to the first byte to be retrieved from a column of type [JET_coltypLongBinary](gg269213\(v=exchg.10\).md) or [JET_coltypLongText](gg269213\(v=exchg.10\).md).
+The offset to the first byte to be retrieved from a column of type [JET_coltypLongBinary](./jet-coltyp.md) or [JET_coltypLongText](./jet-coltyp.md).
 
 **itagSequence**
 
-The sequence number of the values that are contained in a multi-valued column. **itagSequence** here in the **JET_RETRIEVECOLUMN** can be 0. If the **itagSequence** is 0 then the number of instances of a multi-valued column are returned instead of any column data. An **itagSequence** value of 0 cannot be used in calls to [JetRetrieveColumn](gg269198\(v=exchg.10\).md).
+The sequence number of the values that are contained in a multi-valued column. **itagSequence** here in the **JET_RETRIEVECOLUMN** can be 0. If the **itagSequence** is 0 then the number of instances of a multi-valued column are returned instead of any column data. An **itagSequence** value of 0 cannot be used in calls to [JetRetrieveColumn](./jetretrievecolumn-function.md).
 
 **columnidNextTagged**
 
-The **columnid** of the tagged, multi-valued, or sparse column when all tagged columns are retrieved by passing 0 as the **columnid** to [JetRetrieveColumn](gg269198\(v=exchg.10\).md).
+The **columnid** of the tagged, multi-valued, or sparse column when all tagged columns are retrieved by passing 0 as the **columnid** to [JetRetrieveColumn](./jetretrievecolumn-function.md).
 
 **err**
 
@@ -152,11 +153,10 @@ Error codes and warnings returned from the retrieval of the column.
 
 ### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
-[JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
-[JetRetrieveColumns](gg294135\(v=exchg.10\).md)
-
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_RETRIEVECOLUMN]()  
+[JetRetrieveColumn](./jetretrievecolumn-function.md)  
+[JetRetrieveColumns](./jetretrievecolumns-function.md)

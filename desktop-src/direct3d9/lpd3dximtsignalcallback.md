@@ -1,5 +1,5 @@
 ---
-Description: Function prototype used by D3DXComputeIMTFromSignal to describe a user-defined signal in an input mesh's u,v space. The function evaluates a procedural signal of dimension uSignalDimension at the provided u,v coordinate.
+description: Function prototype used by D3DXComputeIMTFromSignal to describe a user-defined signal in an input mesh's u,v space. The function evaluates a procedural signal of dimension uSignalDimension at the provided u,v coordinate.
 ms.assetid: 97b07dbc-6b84-46d2-acc7-db81d94538f7
 title: LPD3DXIMTSIGNALCALLBACK
 ms.topic: reference
@@ -46,7 +46,7 @@ Be sure to specify the [**Windows Data Types**](../winprog/windows-data-types.md
 
 
 
-|                |             |
+| Requirement               | Value            |
 |----------------|-------------|
 | Header         | d3dx9mesh.h |
 | Import Library | d3dx9.lib   |

@@ -46,7 +46,7 @@ This section lists the styles used when creating up-down controls.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: System-level event generated on a Parental Controls setting change.
+description: System-level event generated on a Parental Controls setting change.
 ms.assetid: 2540c3cc-96d0-4e01-a525-4da4a857cb58
 title: WPCEVENT_SYS_SETTINGCHANGE event (Wpcevent.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ An optional field.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | None supported<br/>                                                             |

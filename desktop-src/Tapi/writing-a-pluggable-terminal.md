@@ -1,5 +1,5 @@
 ---
-Description: Normally, a media service provider (MSP) implements terminal creation.
+description: Normally, a media service provider (MSP) implements terminal creation.
 ms.assetid: 203fccc0-aa5a-4ec3-97d3-546c36018d52
 title: Writing a Pluggable Terminal
 ms.topic: article

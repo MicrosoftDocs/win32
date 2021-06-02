@@ -1,5 +1,5 @@
 ---
-Description: Get the semantics for all shader output elements.
+description: Get the semantics for all shader output elements.
 ms.assetid: 1a3cdd5d-0ea7-48ae-a3f1-030e95b03a42
 title: D3DXGetShaderOutputSemantics function (D3DX9Shader.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

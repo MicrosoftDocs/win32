@@ -1,5 +1,5 @@
 ---
-Description: The IsUsingDefaultSource method determines if the renderer is using the default source window.
+description: The IsUsingDefaultSource method determines if the renderer is using the default source window.
 ms.assetid: f68d47e7-6602-4321-8e9e-373d354077a1
 title: CBaseControlVideo.IsUsingDefaultSource method (Ctlutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns S\_OK if the renderer is using the default source; otherwise, returns S\
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

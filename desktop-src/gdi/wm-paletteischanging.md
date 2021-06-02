@@ -1,5 +1,5 @@
 ---
-Description: The WM\_PALETTEISCHANGING message informs applications that an application is going to realize its logical palette.
+description: The WM\_PALETTEISCHANGING message informs applications that an application is going to realize its logical palette.
 ms.assetid: 64ec1042-0ab5-496f-9a88-2f293b412704
 title: WM_PALETTEISCHANGING message (Winuser.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ If the application either ignores or fails to process this message and a second 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

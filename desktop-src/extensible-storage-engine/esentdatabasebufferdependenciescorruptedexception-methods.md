@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseBufferDependenciesCorruptedException methods"
 title: EsentDatabaseBufferDependenciesCorruptedException methods
 TOCTitle: EsentDatabaseBufferDependenciesCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseBufferDependenciesCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseBufferDependenciesCorruptedException](dn334366\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseBufferDependenciesCorruptedException](./esentdatabasebufferdependenciescorruptedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseBufferDependenciesCorruptedException class](dn334366\(v=exchg.10\).md)
+[EsentDatabaseBufferDependenciesCorruptedException class](./esentdatabasebufferdependenciescorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

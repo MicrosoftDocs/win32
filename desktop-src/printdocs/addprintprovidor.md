@@ -1,5 +1,5 @@
 ---
-Description: The AddPrintProvidor function installs a local print provider and links the configuration, data, and provider files.
+description: The AddPrintProvidor function installs a local print provider and links the configuration, data, and provider files.
 ms.assetid: f34549c3-0474-48ba-9307-5b36f02dbe1c
 title: AddPrintProvidor function (Winspool.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ A provider added by **AddPrintProvidor** may be removed by calling [**DeletePrin
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

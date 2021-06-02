@@ -1,6 +1,6 @@
 ---
 title: GUIDType Simple Type (EventManifest Schema)
-description: Defines a globally unique identifier type, in Registry format.
+description: Defines a globally unique identifier type, in Registry format. | GUIDType Simple Type (EventManifest Schema)
 ms.assetid: c35fa54b-5a2e-46de-a1c7-fc408b00ee68
 keywords:
 - GUIDType simple type EventLog
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GUIDType Simple Type
+# GUIDType Simple Type (EventManifest Schema)
 
 Defines a globally unique identifier type, in Registry format.
 
@@ -43,7 +43,7 @@ The **GUIDType** simple type is a string that is restricted by the following pat
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

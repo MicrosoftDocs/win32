@@ -1,5 +1,5 @@
 ---
-Description: The ISCard interface exposes the following methods.
+description: The ISCard interface exposes the following methods.
 ms.assetid: D40EDB64-DA56-453B-9F68-B44BC284D2DB
 title: ISCard Methods
 ms.topic: reference

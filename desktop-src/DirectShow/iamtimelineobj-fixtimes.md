@@ -1,5 +1,5 @@
 ---
-Description: The FixTimes method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent group's frame rate setting.
+description: The FixTimes method rounds the specified start and stop times to the nearest frame boundaries, as defined by the parent group's frame rate setting.
 ms.assetid: 033ac221-7616-4c62-937e-c5585bc73a16
 title: IAMTimelineObj::FixTimes method (Qedit.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ Use this method to determine accurate start and stop times in the rendered proje
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

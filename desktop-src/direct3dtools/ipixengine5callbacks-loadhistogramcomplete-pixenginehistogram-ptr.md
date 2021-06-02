@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host when a histogram load has been completed.
+description: A callback function used to notify the host when a histogram load has been completed.
 MS-HAID: vspixengine.IPixEngine5Callbacks\_LoadHistogramComplete\_PixEngineHistogram\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

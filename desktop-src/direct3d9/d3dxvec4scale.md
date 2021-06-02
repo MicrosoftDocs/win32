@@ -1,5 +1,5 @@
 ---
-Description: Scales a 4D vector.
+description: Scales a 4D vector.
 ms.assetid: b185a9b9-f768-4b50-aa6c-667c71eac39a
 title: D3DXVec4Scale function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

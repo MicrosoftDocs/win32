@@ -1,5 +1,5 @@
 ---
-Description: For a 3D video format, specifies which view is the left view.
+description: For a 3D video format, specifies which view is the left view.
 ms.assetid: 4F33BF2D-EB32-46B6-B071-F9130D404201
 title: MF_MT_VIDEO_3D_FIRST_IS_LEFT attribute (Mfapi.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ By default, the first view is the left view, and the second view is the right vi
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

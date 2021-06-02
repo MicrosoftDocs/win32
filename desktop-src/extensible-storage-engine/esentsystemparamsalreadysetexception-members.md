@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSystemParamsAlreadySetException members"
 title: EsentSystemParamsAlreadySetException members
 TOCTitle: EsentSystemParamsAlreadySetException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSystemParamsAlreadySetException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.SystemParamsAlreadySet exceptions.
 
-The [EsentSystemParamsAlreadySetException](dn334938\(v=exchg.10\).md) type exposes the following members.
+The [EsentSystemParamsAlreadySetException](./esentsystemparamsalreadysetexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentSystemParamsAlreadySetException class](dn334938\(v=exchg.10\).md)
+[EsentSystemParamsAlreadySetException class](./esentsystemparamsalreadysetexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

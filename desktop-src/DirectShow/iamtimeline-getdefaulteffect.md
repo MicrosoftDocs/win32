@@ -1,5 +1,5 @@
 ---
-Description: The GetDefaultEffect method retrieves the default effect. If the render engine cannot render an effect, it substitutes the default effect.
+description: The GetDefaultEffect method retrieves the default effect. If the render engine cannot render an effect, it substitutes the default effect.
 ms.assetid: 27eec6e8-702f-4e56-8d81-aa0633b8ec68
 title: IAMTimeline::GetDefaultEffect method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

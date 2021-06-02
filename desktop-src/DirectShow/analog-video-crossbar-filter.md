@@ -1,5 +1,5 @@
 ---
-Description: Analog Video Crossbar Filter
+description: Analog Video Crossbar Filter
 ms.assetid: 668f6a8b-a4ed-4e4a-956c-a87f165225fa
 title: Analog Video Crossbar Filter
 ms.topic: article
@@ -18,7 +18,7 @@ For more information on wrapper filters and WDM streaming devices, see [How Hard
 
 
 
-|                                          |                                                                                                |
+| Label | Value |
 |------------------------------------------|------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMCrossbar**](/windows/desktop/api/Strmif/nn-strmif-iamcrossbar), ISpecifyPropertyPages, IPersistPropertyBag, IPersistStream |
 | Input Pin Media Types                    | MEDIATYPE\_AnalogAudio, MEDIATYPE\_AnalogVideo                                                 |

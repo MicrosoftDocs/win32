@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesTooManyColumnsException constructor"
 title: EsentIndexTuplesTooManyColumnsException constructor 
 TOCTitle: 'EsentIndexTuplesTooManyColumnsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIndexTuplesTooManyColumnsException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIndexTuplesTooManyColumnsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentIndexTuplesTooManyColumnsException()
 
 #### Reference
 
-[EsentIndexTuplesTooManyColumnsException class](dn319427\(v=exchg.10\).md)
+[EsentIndexTuplesTooManyColumnsException class](./esentindextuplestoomanycolumnsexception-class.md)
 
-[EsentIndexTuplesTooManyColumnsException members](dn319428\(v=exchg.10\).md)
+[EsentIndexTuplesTooManyColumnsException members](./esentindextuplestoomanycolumnsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Gets and sets certificate properties, and illustrates the following tasks and CryptoAPI functions.
+description: Gets and sets certificate properties, and illustrates the following tasks and CryptoAPI functions.
 ms.assetid: 4cc20a59-d8e9-4c9b-9438-21bccbbe4a64
 title: 'Example C Program: Getting and Setting Certificate Properties'
 ms.topic: article

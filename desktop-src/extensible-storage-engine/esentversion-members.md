@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentVersion members"
 title: EsentVersion members
 TOCTitle: EsentVersion members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersion
@@ -15,7 +16,7 @@ Include inherited members
 
 Gives information about the version of ESENT being used.
 
-The [EsentVersion](dn335007\(v=exchg.10\).md) type exposes the following members.
+The [EsentVersion](./esentversion-class.md) type exposes the following members.
 
 ## Properties
 
@@ -68,7 +69,6 @@ Top
 
 #### Reference
 
-[EsentVersion class](dn335007\(v=exchg.10\).md)
+[EsentVersion class](./esentversion-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

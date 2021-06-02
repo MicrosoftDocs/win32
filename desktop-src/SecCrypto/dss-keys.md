@@ -1,5 +1,5 @@
 ---
-Description: Explains how to generate, retrieve, verify, and export DSS keys and signatures.
+description: Explains how to generate, retrieve, verify, and export DSS keys and signatures.
 ms.assetid: d28fe531-af4b-4b5e-ab67-47ef70f8fa5b
 title: DSS Keys
 ms.topic: article

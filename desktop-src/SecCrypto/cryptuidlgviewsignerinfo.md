@@ -1,5 +1,5 @@
 ---
-Description: 'Displays a dialog box that contains the signer information for a signed message.'
+description: 'Displays a dialog box that contains the signer information for a signed message.'
 ms.assetid: 'e4552cbb-90f4-46f4-a271-3a91ccd5f806'
 title: CryptUIDlgViewSignerInfo function
 ms.topic: reference
@@ -52,7 +52,7 @@ Possible error codes returned from [**GetLastError**](/windows/win32/api/errhand
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                        |

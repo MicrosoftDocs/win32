@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyNotMadeException methods"
 title: EsentKeyNotMadeException methods
 TOCTitle: EsentKeyNotMadeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentKeyNotMadeException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentKeyNotMadeException](dn334554\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyNotMadeException](./esentkeynotmadeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentKeyNotMadeException class](dn334554\(v=exchg.10\).md)
+[EsentKeyNotMadeException class](./esentkeynotmadeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

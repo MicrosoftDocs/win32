@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_sesparam enumeration"
 title: JET_sesparam enumeration (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: JET_sesparam enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Windows8.JET_sesparam
@@ -36,7 +37,7 @@ ROBOTS: INDEX,FOLLOW
 
 ESENT session parameters.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -86,5 +87,4 @@ public enum JET_sesparam
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

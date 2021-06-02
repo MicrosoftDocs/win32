@@ -1,5 +1,5 @@
 ---
-Description: The following example transfers data from a counter log file created by the Performance tool to a comma separated format (.csv).
+description: The following example transfers data from a counter log file created by the Performance tool to a comma separated format (.csv).
 ms.assetid: 5adeda14-0312-45ce-af91-6888f3aa1c95
 title: Converting Data from a Binary-format Log File to a CSV-format Log File
 ms.topic: article

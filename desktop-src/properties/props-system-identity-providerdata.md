@@ -1,5 +1,5 @@
 ---
-Description: The provider's custom data for an identity.
+description: The provider's custom data for an identity.
 ms.assetid: 0372B9BC-A1FF-4856-860B-206E781DAC55
 title: System.Identity.ProviderData
 ms.topic: article

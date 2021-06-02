@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEntryPointNotFoundException methods"
 title: EsentEntryPointNotFoundException methods
 TOCTitle: EsentEntryPointNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentEntryPointNotFoundException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentEntryPointNotFoundException](dn274309\(v=exchg.10\).md) type exposes the following members.
+The [EsentEntryPointNotFoundException](./esententrypointnotfoundexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentEntryPointNotFoundException class](dn274309\(v=exchg.10\).md)
+[EsentEntryPointNotFoundException class](./esententrypointnotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

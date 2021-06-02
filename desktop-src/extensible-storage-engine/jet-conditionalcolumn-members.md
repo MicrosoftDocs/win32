@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONDITIONALCOLUMN members"
 title: JET_CONDITIONALCOLUMN members
 TOCTitle: JET_CONDITIONALCOLUMN members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_CONDITIONALCOLUMN
@@ -15,7 +16,7 @@ Include inherited members
 
 Defines how conditional indexing is performed for a given index. A conditional index contains an index entry for only those rows that match the specified condition. However, the conditional column is not part of the index's key, it only controls the presence of the index entry.
 
-The [JET_CONDITIONALCOLUMN](dn335053\(v=exchg.10\).md) type exposes the following members.
+The [JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_CONDITIONALCOLUMN class](dn335053\(v=exchg.10\).md)
+[JET_CONDITIONALCOLUMN class](./jet-conditionalcolumn-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

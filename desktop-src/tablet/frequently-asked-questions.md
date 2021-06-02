@@ -114,4 +114,4 @@ From the **Start** menu, select **Run**. Type in "msconfig" and press Enter. Sel
 ## Q. More FAQs and Other Resources
 
 - [Microsoft Developer Center](https://developer.microsoft.com)
-- [Core Tablet PC Reference](/windows/win32/tablet/core-reference---tablet-pc-com-library)
+- [Core Tablet PC Reference](./core-reference---tablet-pc-com-library.md)

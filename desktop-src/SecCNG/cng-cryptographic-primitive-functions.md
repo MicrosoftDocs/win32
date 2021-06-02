@@ -1,5 +1,5 @@
 ---
-Description: 'Cryptography API: Next Generation (CNG) defines the following functions that are used for performing cryptographic operations.'
+description: 'Cryptography API: Next Generation (CNG) defines the following functions that are used for performing cryptographic operations.'
 ms.assetid: 7200efb5-2893-476c-9ad0-ba49bce92387
 title: CNG Cryptographic Primitive Functions
 ms.topic: article

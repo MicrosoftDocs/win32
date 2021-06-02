@@ -1,5 +1,5 @@
 ---
-Description: The GetPositions method retrieves the current position and the stop position. This method implements the IMediaSeeking::GetPositions method.
+description: The GetPositions method retrieves the current position and the stop position. This method implements the IMediaSeeking::GetPositions method.
 ms.assetid: f577b052-669b-457d-beab-94f574fef08d
 title: CSourceSeeking.GetPositions method (Ctlutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ For the *pCurrent* parameter, this method returns the value of the [**CSourceSee
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The get\_\_NewEnum method returns an enumerator for the collection.
+description: ITMediaCollection::get__NewEnum method - The get\_\_NewEnum method returns an enumerator for the collection.
 ms.assetid: 22b1eb48-e1ef-4694-a1dc-b2de326989c8
 title: ITMediaCollection::get__NewEnum method (Sdpblb.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method is interchangeable with [**get\_EnumerationIf**](itmediacollection-g
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

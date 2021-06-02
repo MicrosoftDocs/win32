@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Access Control
+# Access Control (Windows Filtering Platform)
 
 In Windows Filtering Platform (WFP), the Base Filtering Engine (BFE) service implements the standard [Windows access control model](/windows/desktop/SecAuthZ/access-control-model) based on access tokens and security descriptors.
 
@@ -37,7 +37,7 @@ There are some access checks, such as for **Fwpm\*Add0**, **Fwpm\*CreateEnumHand
 
 BFE supports automatic inheritance of Discretionary Access Control List (DACL) access control entries (ACEs). BFE does not support System Access Control List (SACL) ACEs. Objects inherit ACEs from their container. Containers inherit ACEs from the filter engine. The propagation paths are shown in the diagram below.
 
-![](images/access-control.jpg)
+![Diagram that shows the ACE propagation paths, starting with 'Engine'.](images/access-control.jpg)
 
 For the standard object types, BFE enforces all the generic and standard access rights. In addition, WFP defines the following specific access rights.
 

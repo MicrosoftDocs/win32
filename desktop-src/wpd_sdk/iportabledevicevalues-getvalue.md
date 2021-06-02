@@ -1,5 +1,5 @@
 ---
-Description: The GetValue method retrieves a PROPVARIANT value specified by a key.
+description: The GetValue method retrieves a PROPVARIANT value specified by a key.
 ms.assetid: 927844f5-8f57-4596-ae0d-c67b8011ca87
 title: IPortableDeviceValues::GetValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ This method can be used to retrieve a value of any type from the collection. How
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

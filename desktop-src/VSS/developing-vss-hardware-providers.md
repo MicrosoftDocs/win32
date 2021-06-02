@@ -1,5 +1,5 @@
 ---
-Description: Hardware providers implement the IVssProviderCreateSnapshotSet and IVssHardwareSnapshotProvider interfaces.
+description: Hardware providers implement the IVssProviderCreateSnapshotSet and IVssHardwareSnapshotProvider interfaces.
 ms.assetid: 9f40f1d1-a63a-4edc-aa8d-b3998ecb2716
 title: Developing VSS Hardware Providers
 ms.topic: article

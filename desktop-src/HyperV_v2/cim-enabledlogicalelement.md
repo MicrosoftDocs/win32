@@ -1,5 +1,5 @@
 ---
-Description: Represents a logical element that can be enabled and disabled.
+description: Represents a logical element that can be enabled and disabled.
 ms.assetid: 52eed77e-f3f1-4489-8eff-a8ebebd5e1a8
 title: CIM_EnabledLogicalElement class
 ms.topic: reference
@@ -668,7 +668,7 @@ A value of **No Change** indicates that no transition is in progress. A value of
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

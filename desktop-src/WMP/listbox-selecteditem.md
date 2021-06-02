@@ -34,7 +34,7 @@ This property will select one line in the list box control. Any other selected l
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

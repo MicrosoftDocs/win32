@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each transient subscription. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
+description: Contains an object for each transient subscription. Transient subscriptions can be created on the fly for running object instances, and they vanish when the object is destroyed.
 ms.assetid: beee291c-e03f-4ee0-b1f2-99dcf113c46e
 title: TransientSubscriptions collection
 ms.topic: reference
@@ -61,7 +61,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                     |
+| Entry | Value |
 |----------------|-------------------------------------|
 | Description    | A description for the subscription. |
 | Access         | ReadWrite                           |
@@ -77,7 +77,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                          |
+| Entry | Value |
 |----------------|----------------------------------------------------------|
 | Description    | Indicates whether the subscription is presently enabled. |
 | Access         | ReadWrite                                                |
@@ -93,7 +93,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                    |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | When subscribing to an event class, used to represent the GUID of the partition ID containing the event class. When subscribing to event classes, the subscriber has the option to subscribe to an event class in the same or different partition. |
 | Access         | ReadWrite                                                                                                                                                                                                                                          |
@@ -109,7 +109,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                              |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------|
 | Description    | The CLSID for the event class. You can indicate an EventCLSID or a PublisherID but not both. |
 | Access         | WriteOnce                                                                                    |
@@ -125,7 +125,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                      |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------|
 | Description    | A string that indicates the filter criteria. Can be a CLSID for a [**PublisherFilter**](/windows/desktop/api/EventSys/nn-eventsys-ipublisherfilter) class. |
 | Access         | ReadWrite                                                                                                            |
@@ -141,7 +141,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                  |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Identifier for the subscription. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | WriteOnce                                                                                                                                                        |
@@ -157,7 +157,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                  |
+| Entry | Value |
 |----------------|----------------------------------|
 | Description    | IID for interface subscribed to. |
 | Access         | WriteOnce                        |
@@ -173,7 +173,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                              |
+| Entry | Value |
 |----------------|----------------------------------------------|
 | Description    | Method on the interface being subscribed to. |
 | Access         | ReadWrite                                    |
@@ -189,7 +189,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                        |
+| Entry | Value |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The name for the subscription. Extra spaces at the beginning and end of the string are stripped out. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadWrite                                                                                                                                                                                                                              |
@@ -205,7 +205,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                         |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------|
 | Description    | Indicates whether the subscription applies only for a given user, represented by the UserName property. |
 | Access         | ReadWrite                                                                                               |
@@ -221,7 +221,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                     |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------|
 | Description    | ID for the publisher. You can indicate an EventCLSID or a PublisherID but not both. |
 | Access         | WriteOnce                                                                           |
@@ -237,7 +237,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                          |
+| Entry | Value |
 |----------------|------------------------------------------|
 | Description    | A pointer to the subscriber's interface. |
 | Access         | ReadWrite                                |
@@ -253,7 +253,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                                                 |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | When subscribing to an event class in the same partition, used to represent the GUID of the partition ID of the subscriber. When subscribing to event classes, the subscriber has the option to subscribe to an event class in the same or different partition. |
 | Access         | WriteOnce                                                                                                                                                                                                                                                       |
@@ -269,7 +269,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                         |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------|
 | Description    | The name of user that the subscription applies to when PerUser is True. |
 | Access         | ReadWrite                                                               |

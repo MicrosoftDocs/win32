@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of the array that should be allocated before calling CreateOPMProtectedOutputs.
+description: Gets the size of the array that should be allocated before calling CreateOPMProtectedOutputs.
 ms.assetid: 65edce14-f225-4b7f-b953-32b085e1cabf
 title: GetSuggestedOPMProtectedOutputArraySize function
 ms.topic: reference
@@ -66,7 +66,7 @@ This function has no associated import library. To call this function, you must 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

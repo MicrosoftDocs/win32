@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to verify that a sensor can provide a particular set of data fields.
+description: This topic describes how to verify that a sensor can provide a particular set of data fields.
 ms.assetid: 918ba4a3-d2ac-47ee-ba29-f7ddf67ffbc5
 title: Checking for Supported Sensor Data Fields
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.ToString method"
 title: JET_INDEXCREATE.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.ToString
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ The structure as a string.
 
 #### Reference
 
-[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](./jet-indexcreate-class.md)
 
-[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](./jet-indexcreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

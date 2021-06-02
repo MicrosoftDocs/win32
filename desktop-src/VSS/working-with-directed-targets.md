@@ -1,5 +1,5 @@
 ---
-Description: The directed target mechanism allows writers to remap files at restore time.
+description: The directed target mechanism allows writers to remap files at restore time.
 ms.assetid: c0b4ab26-2bb6-4b0f-b837-01057983b49b
 title: Working with Directed Targets
 ms.topic: article

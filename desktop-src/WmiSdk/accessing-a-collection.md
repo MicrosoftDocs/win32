@@ -1,5 +1,5 @@
 ---
-Description: A collection is a standard automation concept that provides a uniform interface to a set of objects over which you can perform iteration.
+description: A collection is a standard automation concept that provides a uniform interface to a set of objects over which you can perform iteration.
 ms.assetid: c1ebe529-33cb-4158-923d-124d6328fc60
 ms.tgt_platform: multiple
 title: Accessing a WMI Collection

@@ -52,7 +52,7 @@ By default, the **Finish** button does not have a keyboard accelerator. You can 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

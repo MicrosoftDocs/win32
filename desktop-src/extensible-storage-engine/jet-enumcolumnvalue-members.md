@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNVALUE members"
 title: JET_ENUMCOLUMNVALUE members
 TOCTitle: JET_ENUMCOLUMNVALUE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE
@@ -13,9 +14,9 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-Enumerates the column values of a record using the JetEnumerateColumns function. [JetEnumerateColumns(JET_SESID, JET_TABLEID, Int32, \[\], Int32, \[\], JET_PFNREALLOC, IntPtr, Int32, EnumerateColumnsGrbit)](dn292148\(v=exchg.10\).md) returns an array of JET_ENUMCOLUMNVALUE structures. The array is returned in memory that was allocated using the callback that was supplied to that function.
+Enumerates the column values of a record using the JetEnumerateColumns function. [JetEnumerateColumns(JET_SESID, JET_TABLEID, Int32, \[\], Int32, \[\], JET_PFNREALLOC, IntPtr, Int32, EnumerateColumnsGrbit)](./api.jetenumeratecolumns-method.md) returns an array of JET_ENUMCOLUMNVALUE structures. The array is returned in memory that was allocated using the callback that was supplied to that function.
 
-The [JET_ENUMCOLUMNVALUE](dn335142\(v=exchg.10\).md) type exposes the following members.
+The [JET_ENUMCOLUMNVALUE](./jet-enumcolumnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE class](./jet-enumcolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

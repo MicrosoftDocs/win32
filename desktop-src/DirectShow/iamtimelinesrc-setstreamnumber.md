@@ -1,5 +1,5 @@
 ---
-Description: The SetStreamNumber method specifies which stream to read from the source file associated with this source object.
+description: The SetStreamNumber method specifies which stream to read from the source file associated with this source object.
 ms.assetid: d40d0889-3b28-4114-9dd2-529e380eaeb8
 title: IAMTimelineSrc::SetStreamNumber method (Qedit.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The stream number defaults to zero.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

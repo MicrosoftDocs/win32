@@ -1,5 +1,5 @@
 ---
-Description: The IWbemEventProviderQuerySink interface exposes the following methods.
+description: The IWbemEventProviderQuerySink interface exposes the following methods.
 ms.assetid: 1AEFDF45-95A4-4E13-AD4E-7D08BC74F066
 ms.tgt_platform: multiple
 title: IWbemEventProviderQuerySink Methods

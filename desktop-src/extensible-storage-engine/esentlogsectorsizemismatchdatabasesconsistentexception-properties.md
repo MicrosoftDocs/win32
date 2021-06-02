@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchDatabasesConsistentException properties"
 title: EsentLogSectorSizeMismatchDatabasesConsistentException properties
 TOCTitle: EsentLogSectorSizeMismatchDatabasesConsistentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchDatabasesConsistentException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogSectorSizeMismatchDatabasesConsistentException](dn334645\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogSectorSizeMismatchDatabasesConsistentException](./esentlogsectorsizemismatchdatabasesconsistentexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLogSectorSizeMismatchDatabasesConsistentException class](dn334645\(v=exchg.10\).md)
+[EsentLogSectorSizeMismatchDatabasesConsistentException class](./esentlogsectorsizemismatchdatabasesconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

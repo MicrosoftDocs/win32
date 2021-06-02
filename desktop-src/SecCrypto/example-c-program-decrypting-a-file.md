@@ -1,5 +1,5 @@
 ---
-Description: The following example shows the decryption of a file.
+description: The following example shows the decryption of a file.
 ms.assetid: be355b08-95c1-4ad3-bb05-6f646d5db5cd
 title: 'Example C Program: Decrypting a File'
 ms.topic: article
@@ -343,7 +343,7 @@ bool MyDecryptFile(
             goto Exit_MyDecryptFile;
         }
 
-        if(dwCount <= dwBlockLen)
+        if(dwCount < dwBlockLen)
         {
             fEOF = TRUE;
         }

@@ -1,5 +1,5 @@
 ---
-Description: The GetCount method retrieves the number of keys in this collection.
+description: The GetCount method retrieves the number of keys in this collection.
 ms.assetid: 963f514e-3e0f-4334-ac29-6de7cc8aa336
 title: IPortableDeviceKeyCollection::GetCount method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ For an example of how to use this method, see [Retrieving Supported Service Even
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

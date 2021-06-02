@@ -1,5 +1,5 @@
 ---
-Description: This section provides an overview of the Direct Manipulation threading model, how window messages are processed by Direct Manipulation, and how the state of a viewport changes as input is mapped to output motions.
+description: This section provides an overview of the Direct Manipulation threading model, how window messages are processed by Direct Manipulation, and how the state of a viewport changes as input is mapped to output motions.
 ms.assetid: 0818E34E-990E-4C36-9954-EF87EB226AF6
 title: Processing input with DirectManipulation
 ms.topic: article

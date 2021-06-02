@@ -1,5 +1,5 @@
 ---
-Description: If the MOF compiler cannot finish compiling a MOF file, the WMI repository may be left in an undefined state.
+description: If the MOF compiler cannot finish compiling a MOF file, the WMI repository may be left in an undefined state.
 ms.assetid: 13adc666-6588-4cfd-a5eb-17da93434468
 ms.tgt_platform: multiple
 title: Handling Errors with the MOF Compiler

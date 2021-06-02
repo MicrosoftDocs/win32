@@ -1,5 +1,5 @@
 ---
-Description: Indicates the end of the final phrase in a sequence of alternative phrases that a word breaker generates during index time.
+description: Indicates the end of the final phrase in a sequence of alternative phrases that a word breaker generates during index time.
 ms.assetid: 50E4E208-A290-42B7-9152-9472C01B20D5
 title: IWordSink::EndAltPhrase method (Search.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

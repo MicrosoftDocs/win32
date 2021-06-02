@@ -1,5 +1,5 @@
 ---
-Description: This article contains information about the management of thread references using functions from the Shell lightweight utility functions.
+description: This article contains information about the management of thread references using functions from the Shell lightweight utility functions.
 ms.assetid: d8d479fd-c45a-4dfa-b496-76abc7c09a42
 title: Managing Thread References
 ms.topic: article

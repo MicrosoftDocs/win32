@@ -1,5 +1,5 @@
 ---
-Description: The PreferredSubpictureStream property retrieves the preferred subpicture stream for the current viewing session.
+description: The PreferredSubpictureStream property retrieves the preferred subpicture stream for the current viewing session.
 ms.assetid: 9c15dc6f-c016-41bf-b03d-e8e5415215ae
 title: PreferredSubpictureStream Property
 ms.topic: reference

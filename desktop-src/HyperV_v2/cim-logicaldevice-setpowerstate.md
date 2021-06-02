@@ -1,5 +1,5 @@
 ---
-Description: Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
+description: Sets the power state of the Device. The use of this method has been deprecated. Instead, use the SetPowerState method in the associated PowerManagementService class.
 ms.assetid: 2f53a8bd-18a8-45aa-92ad-68a33b6a42ab
 title: SetPowerState method of the CIM_LogicalDevice class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# SetPowerState method of the CIM\_LogicalDevice class
+# SetPowerState method of the CIM_LogicalDevice class (Hyper-V management)
 
 Sets the power state of the Device. The use of this method has been deprecated. Instead, use the **SetPowerState** method in the associated **PowerManagementService** class.
 
@@ -99,7 +99,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

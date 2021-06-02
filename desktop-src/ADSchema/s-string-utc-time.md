@@ -1,6 +1,6 @@
 ---
 title: String(UTC-Time) syntax
-description: A time string format defined by ASN.1 standards.
+description: A time string format defined by ASN.1 standards. | String(UTC-Time) syntax
 ms.assetid: 0fd52c59-a940-4d61-a16b-cd1853f5c348
 ms.tgt_platform: multiple
 keywords:
@@ -21,7 +21,7 @@ A time string format defined by ASN.1 standards. For more information, see ISO 8
 
 
 
-|              |                                                                            |
+| Entry | Value |
 |--------------|----------------------------------------------------------------------------|
 | Name         | String(UTC-Time)                                                           |
 | Syntax ID    | 2.5.5.11                                                                   |

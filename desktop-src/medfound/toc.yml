@@ -345,6 +345,8 @@
         href: camera-encoder-h264-uvc-1-5.md
       - name: "How to Use H.264/AVC Remux"
         href: how-to-use-h-264-avc-remux-.md
+      - name: Matroska Media Container (MKV) support
+        href: mkv-support.md
     - name: "ASF Support in Media Foundation"
       href: asf-support-in-media-foundation.md
       items: 
@@ -2537,6 +2539,8 @@
           href: mf-capture-engine-use-audio-device-only.md
         - name: "MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY Attribute"
           href: mf-capture-engine-use-video-device-only.md
+        - name: "MF_CAPTURE_METADATA_DIGITALWINDOW"
+          href: mf-capture-metadata-digitalwindow.md
         - name: "MF_CAPTURE_METADATA_FRAME_ILLUMINATION"
           href: mf-capture-metadata-frame-illumination.md
         - name: "MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH"
@@ -3013,6 +3017,8 @@
           href: mf-readwrite-mmcss-priority.md
         - name: "MF_READWRITE_MMCSS_PRIORITY_AUDIO"
           href: mf-readwrite-mmcss-priority-audio.md
+        - name: "MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES"
+          href: mf-sa-d3d11-allocate-displayable-resources.md
         - name: "MF_SA_BUFFERS_PER_SAMPLE"
           href: mf-sa-buffers-per-sample.md
         - name: "MF_SA_D3D_AWARE"
@@ -3123,6 +3129,8 @@
           href: mf-topology-dxva-mode.md
         - name: "MF_TOPOLOGY_DYNAMIC_CHANGE_NOT_ALLOWED"
           href: mf-topology-dynamic-change-not-allowed.md
+        - name: "MF_TOPOLOGY_ENABLE_XVP_FOR_PLAYBACK"
+          href: mf-topology-enable-xvp-for-playback.md
         - name: "MF_TOPOLOGY_ENUMERATE_SOURCE_TYPES"
           href: mf-topology-enumerate-source-types.md
         - name: "MF_TOPOLOGY_HARDWARE_MODE"
@@ -8518,6 +8526,8 @@
         href: /windows/win32/api/wmcontainer/ns-wmcontainer-asf_index_identifier
       - name: "ASF_MUX_STATISTICS"
         href: /windows/desktop/api/wmcontainer/ns-wmcontainer-asf_mux_statistics
+      - name: "DigitalWindowSetting"
+        href: /windows/desktop/api/mfapi/ns-mfapi-digitalwindowsetting
       - name: "DEVICE_INFO"
         href: /windows/desktop/api/mfsharingengine/ns-mfsharingengine-device_info
       - name: "DXVA_PicEntry_HEVC"

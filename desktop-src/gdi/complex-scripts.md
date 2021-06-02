@@ -1,5 +1,5 @@
 ---
-Description: While the functions discussed in the preceding work well for many languages, they may not deal with the needs of complex scripts.
+description: While the functions discussed in the preceding work well for many languages, they may not deal with the needs of complex scripts.
 ms.assetid: a60b50c8-13e8-4c61-989f-187bb67cf929
 title: Complex Scripts
 ms.topic: article

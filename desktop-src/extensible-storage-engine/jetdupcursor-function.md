@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDupCursor Function"
 title: JetDupCursor Function
 TOCTitle: JetDupCursor Function
 ms:assetid: 154b7d2d-4656-46b3-873c-2e194a9059b4
@@ -58,7 +59,7 @@ Reserved for future use.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -116,9 +117,9 @@ On failure, no changes are made. The state of *tableid* is unchanged.
 
 The duplicated cursor does not have the entire cursor state copied. The location of the duplicated cursor, including the current index, is usually different from the given cursor. The duplicated cursor is always returned on the clustered index and on the first row in the table. If the table is empty, the duplicated cursor is not on any row.
 
-Tables opened with **JetDupCursor** should usually be closed with [JetCloseTable](gg294087\(v=exchg.10\).md). The exception to this rule happens when **JetDupCursor** is called in a transaction and the transaction is rolled back (with [JetRollback](gg269273\(v=exchg.10\).md)). When rolling back a transaction, the cursor is automatically closed. In this case, it is an error to close the table with [JetCloseTable](gg294087\(v=exchg.10\).md).
+Tables opened with **JetDupCursor** should usually be closed with [JetCloseTable](./jetclosetable-function.md). The exception to this rule happens when **JetDupCursor** is called in a transaction and the transaction is rolled back (with [JetRollback](./jetrollback-function.md)). When rolling back a transaction, the cursor is automatically closed. In this case, it is an error to close the table with [JetCloseTable](./jetclosetable-function.md).
 
-The number of tables that can be opened simultaneously is affected directly by [JET_paramMaxOpenTables](gg269201\(v=exchg.10\).md). See [System Parameters](gg294139\(v=exchg.10\).md) for details.
+The number of tables that can be opened simultaneously is affected directly by [JET_paramMaxOpenTables](./resource-parameters.md). See [System Parameters](./extensible-storage-engine-system-parameters.md) for details.
 
 #### Requirements
 
@@ -154,11 +155,10 @@ The number of tables that can be opened simultaneously is affected directly by [
 
 #### See Also
 
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

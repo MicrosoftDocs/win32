@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly form of System.Photo.ProgramMode. Not intended to be parsed programmatically.
+description: The user-friendly form of System.Photo.ProgramMode. Not intended to be parsed programmatically.
 ms.assetid: 27e5dc15-2dbb-46b9-ac5f-232574acf84f
 title: System.Photo.ProgramModeText
 ms.topic: article

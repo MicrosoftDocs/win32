@@ -1,5 +1,5 @@
 ---
-Description: Notifies you of a new item, as specified by the accompanying SMDATA structure.
+description: Notifies you of a new item, as specified by the accompanying SMDATA structure.
 title: SMC_NEWITEM message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -44,7 +44,7 @@ This notification is received by the [**IShellMenuCallback::CallbackSM**](/windo
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

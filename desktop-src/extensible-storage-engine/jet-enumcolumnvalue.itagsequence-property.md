@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNVALUE.itagSequence property"
 title: JET_ENUMCOLUMNVALUE.itagSequence property 
 TOCTitle: 'itagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNVALUE.itagSequence
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the column value (by one-based index) that was enumerated.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_ENUMCOLUMNVALUE class](dn335142\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE class](./jet-enumcolumnvalue-class.md)
 
-[JET_ENUMCOLUMNVALUE members](dn335094\(v=exchg.10\).md)
+[JET_ENUMCOLUMNVALUE members](./jet-enumcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

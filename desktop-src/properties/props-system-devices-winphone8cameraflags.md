@@ -1,5 +1,5 @@
 ---
-Description: Flags for a WP8 camera device.
+description: Flags for a WP8 camera device.
 ms.assetid: 82c24d0e-12c4-436b-8a1d-452819412954
 title: System.Devices.WinPhone8CameraFlags
 ms.topic: article

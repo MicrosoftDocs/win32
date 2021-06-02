@@ -1,5 +1,5 @@
 ---
-Description: Writes a full event to a session.
+description: Writes a full event to a session.
 title: EtwEventWriteFull
 ms.topic: reference
 ms.date: 05/31/2018

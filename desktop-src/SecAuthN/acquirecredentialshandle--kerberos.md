@@ -1,5 +1,5 @@
 ---
-Description: Acquires a handle to preexisting credentials of a security principal that is using Kerberos.
+description: Acquires a handle to preexisting credentials of a security principal that is using Kerberos.
 ms.assetid: 2612bbe9-856b-4a81-bffb-6c761035883d
 title: AcquireCredentialsHandle (Kerberos) function (Sspi.h)
 ms.topic: reference
@@ -158,7 +158,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

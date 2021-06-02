@@ -1,5 +1,5 @@
 ---
-Description: Defines a string type for service set identifiers (SSIDs).
+description: Defines a string type for service set identifiers (SSIDs).
 ms.assetid: c9e79a3d-7d5c-4320-ade2-40124de00920
 title: networkNameType Simple Type
 ms.topic: reference
@@ -37,7 +37,7 @@ The networkNameType simple type defines a string type for service set identifier
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

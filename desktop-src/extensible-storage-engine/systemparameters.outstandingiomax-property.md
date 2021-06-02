@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.OutstandingIOMax property"
 title: SystemParameters.OutstandingIOMax property 
 TOCTitle: 'OutstandingIOMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.OutstandingIOMax
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 This parameter controls how many database file I/Os can be queued per-disk in the host operating system at one time. A larger value for this parameter can significantly help the performance of a large database application.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,8 +63,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

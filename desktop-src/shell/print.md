@@ -1,5 +1,5 @@
 ---
-Description: The Shell API provides functions that you can use to manage networked printers. If a file has the print verb associated with it, you can use the ShellExecuteEx command to print it.
+description: The Shell API provides functions that you can use to manage networked printers. If a file has the print verb associated with it, you can use the ShellExecuteEx command to print it.
 ms.assetid: b94fca60-237a-43b1-a75a-faccf9dc63fb
 title: Managing Printers
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents a unit of work and is used to track the progress of asynchronous operations.
+description: Represents a unit of work and is used to track the progress of asynchronous operations.
 ms.assetid: '33c13880-92a4-4367-8f0b-ecdf38b2ff8e'
 title: Msvm_ConcreteJob class
 ms.topic: reference
@@ -1776,7 +1776,7 @@ Access to the **Msvm\_ConcreteJob** class might be restricted by UAC Filtering. 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

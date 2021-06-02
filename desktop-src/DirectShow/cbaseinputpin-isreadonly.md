@@ -1,5 +1,5 @@
 ---
-Description: Queries whether the allocator uses read-only media samples.
+description: Queries whether the allocator uses read-only media samples.
 ms.assetid: 2cb692da-f030-4265-afe4-b1608b51fd47
 title: CBaseInputPin.IsReadOnly method (Amfilter.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the value of the [**CBaseInputPin::m\_bReadOnly**](cbaseinputpin-m-bread
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

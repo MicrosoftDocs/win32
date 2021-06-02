@@ -1,5 +1,5 @@
 ---
-Description: Displays the Folder Sharing tab on the properties sheet for the specified folder.
+description: Displays the Folder Sharing tab on the properties sheet for the specified folder.
 ms.assetid: e622e4bb-eaf7-494f-b2a2-78ba1311a496
 title: ShowShareFolderUI function
 ms.topic: reference
@@ -68,7 +68,7 @@ This function has no associated .lib file. You must use [**LoadLibrary**](/windo
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

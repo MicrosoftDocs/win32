@@ -1,5 +1,5 @@
 ---
-Description: The GetRange method gets the range of valid values for a given stream quality property.
+description: The GetRange method gets the range of valid values for a given stream quality property.
 ms.assetid: 8c5e4652-1a40-4d7d-aa89-606e979dc03d
 title: ITStreamQualityControl::GetRange method (Ipmsp.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

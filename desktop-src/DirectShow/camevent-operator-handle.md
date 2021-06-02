@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the event handle. This operator is not supported as an L-value.
+description: Retrieves the event handle. This operator is not supported as an L-value.
 ms.assetid: 9000d6d1-bbca-44ac-8808-0b3b827086c5
 title: CAMEvent.operator HANDLE method (Wxutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the [**CAMEvent::m\_hEvent**](camevent-m-hevent.md) member variable.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

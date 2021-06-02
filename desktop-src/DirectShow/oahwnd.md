@@ -1,5 +1,5 @@
 ---
-Description: The OAHWND data type defines a window handle that can be used by OLE Automation clients, such as Microsoft Visual Basic 6.0.
+description: The OAHWND data type defines a window handle that can be used by OLE Automation clients, such as Microsoft Visual Basic 6.0.
 ms.assetid: 80194b19-9c24-48f5-aca6-6ab33bd88c90
 title: OAHWND (Control.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ typedef LONG_PTR OAHWND;
 
 
 
-|                   |                                                                                                        |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Control.h (include Dshow.h)</dt> </dl> |
 

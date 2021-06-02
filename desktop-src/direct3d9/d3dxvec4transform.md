@@ -1,5 +1,5 @@
 ---
-Description: Transforms a 4D vector by a given matrix.
+description: D3DXVec4Transform function (D3dx9math.h) - Transforms a 4D vector by a given matrix.
 ms.assetid: de93f138-7cf8-43cc-8255-c053c799aea8
 title: D3DXVec4Transform function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec4Transform function
+# D3DXVec4Transform function (D3dx9math.h)
 
 Transforms a 4D vector by a given matrix.
 
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

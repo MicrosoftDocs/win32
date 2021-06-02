@@ -36,7 +36,7 @@ Contains the name of the registry value.
 
 ### ulValueType
 
-Contains one of the values from [Registry Value Types](/windows/win32/sysinfo/registry-value-types).
+Contains one of the values from [Registry Value Types](../sysinfo/registry-value-types.md).
 
 ### cbValueData
 

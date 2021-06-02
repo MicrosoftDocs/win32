@@ -1,5 +1,5 @@
 ---
-Description: The InkPicture control provides the ability to place an image in an application and enable users to add ink on top of it.
+description: The InkPicture control provides the ability to place an image in an application and enable users to add ink on top of it.
 ms.assetid: e9fa6807-6e2a-44ec-9b8f-a560185e4367
 title: InkPicture Control Reference
 ms.topic: article

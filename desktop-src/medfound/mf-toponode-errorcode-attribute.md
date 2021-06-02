@@ -1,5 +1,5 @@
 ---
-Description: Contains the error code from the most recent connection failure for this toplogy node.
+description: Contains the error code from the most recent connection failure for this toplogy node.
 ms.assetid: fae90e06-0ae0-43a1-aaf2-7a2d1dabc79b
 title: MF_TOPONODE_ERRORCODE attribute (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

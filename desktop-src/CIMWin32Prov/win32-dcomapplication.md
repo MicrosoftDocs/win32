@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DCOMApplication WMI class represents the properties of a DCOM application.
+description: The Win32\_DCOMApplication WMI class represents the properties of a DCOM application.
 ms.assetid: 11856834-6774-4262-bac4-e0265d4ba7e3
 ms.tgt_platform: multiple
 title: Win32_DCOMApplication class
@@ -259,7 +259,7 @@ The **Win32\_DCOMApplication** class is derived from [**Win32\_COMApplication**]
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

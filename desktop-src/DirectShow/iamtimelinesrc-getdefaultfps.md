@@ -1,5 +1,5 @@
 ---
-Description: The GetDefaultFPS method retrieves the source object's default frame rate. The render engine uses this value if it cannot determine the frame rate from the original source.
+description: The GetDefaultFPS method retrieves the source object's default frame rate. The render engine uses this value if it cannot determine the frame rate from the original source.
 ms.assetid: c167cd85-e9bb-46ff-9b35-c88898a6c5a3
 title: IAMTimelineSrc::GetDefaultFPS method (Qedit.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ If the source is a GIF, do not set the frame rate. For animated GIFs, the GIF fi
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

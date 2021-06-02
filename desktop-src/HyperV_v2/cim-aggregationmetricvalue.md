@@ -1,5 +1,5 @@
 ---
-Description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
+description: Represents the instance value of a metric defined by an instance of CIM\_AggregationMetricDefinition.
 ms.assetid: 663ef18a-0238-416f-9682-8809b271b4fc
 title: CIM_AggregationMetricValue class
 ms.topic: reference
@@ -80,7 +80,7 @@ The time when the aggregation function was applied to determine the value of the
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Contains the object's Application object.
+description: ShellFolderView.Application property - Contains the object's Application object.
 ms.assetid: 305766b1-a19f-4743-a9e3-6837b3f8ffe0
 title: ShellFolderView.Application property (Shldisp.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ Use this property with the **Set** and **CreateObject** commands or with the **G
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

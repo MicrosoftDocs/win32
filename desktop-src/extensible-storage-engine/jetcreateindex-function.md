@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateIndex Function"
 title: JetCreateIndex Function
 TOCTitle: JetCreateIndex Function
 ms:assetid: d164e74a-7719-4587-9059-8fb18b365133
@@ -69,13 +70,13 @@ The index name must conform to the following guidelines:
 
 *grbit*
 
-A group of bits that contains the options to be used for a particular call. This parameter can include zero or more of the options found in the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
+A group of bits that contains the options to be used for a particular call. This parameter can include zero or more of the options found in the [JET_INDEXCREATE](./jet-indexcreate-structure.md) structure.
 
 *szKey*
 
 A pointer to a double null-terminated string of null-delimited tokens.
 
-For more information about this parameter, see the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
+For more information about this parameter, see the [JET_INDEXCREATE](./jet-indexcreate-structure.md) structure.
 
 *cbKey*
 
@@ -85,11 +86,11 @@ The length, in bytes, of the *szKey* parameter, including the two terminating nu
 
 The percentage density of the initial index B+ tree.
 
-For more information about this parameter, see the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure.
+For more information about this parameter, see the [JET_INDEXCREATE](./jet-indexcreate-structure.md) structure.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) data type with one of the return codes listed in the following table. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -111,13 +112,13 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with on
 </table>
 
 
-For a list of additional errors that can be returned by the **JetCreateIndex** function, see [JetCreateIndex2](gg269324\(v=exchg.10\).md).
+For a list of additional errors that can be returned by the **JetCreateIndex** function, see [JetCreateIndex2](./jetcreateindex2-function.md).
 
 #### Remarks
 
-Calling the **JetCreateIndex** function is identical to calling the [JetCreateIndex2](gg269324\(v=exchg.10\).md) function with a [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure containing the same settings as the parameters of **JetCreateIndex**, and a *cIndexCreate* parameter equal to 1. For the fields of the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure that do not have corresponding parameters in **JetCreateIndex**, a value of 0 is assumed.
+Calling the **JetCreateIndex** function is identical to calling the [JetCreateIndex2](./jetcreateindex2-function.md) function with a [JET_INDEXCREATE](./jet-indexcreate-structure.md) structure containing the same settings as the parameters of **JetCreateIndex**, and a *cIndexCreate* parameter equal to 1. For the fields of the [JET_INDEXCREATE](./jet-indexcreate-structure.md) structure that do not have corresponding parameters in **JetCreateIndex**, a value of 0 is assumed.
 
-Note that **JetCreateIndex** has been superseded by [JetCreateIndex2](gg269324\(v=exchg.10\).md).
+Note that **JetCreateIndex** has been superseded by [JetCreateIndex2](./jetcreateindex2-function.md).
 
 #### Requirements
 
@@ -157,12 +158,11 @@ Note that **JetCreateIndex** has been superseded by [JetCreateIndex2](gg269324\(
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JetCreateIndex2](gg269324\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JetCreateIndex2](./jetcreateindex2-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md)

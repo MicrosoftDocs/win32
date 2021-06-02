@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDisabledDueToRecoveryFailureException class"
 title: EsentLogDisabledDueToRecoveryFailureException class
 TOCTitle: EsentLogDisabledDueToRecoveryFailureException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException
@@ -34,13 +35,13 @@ Base class for JET_err.LogDisabledDueToRecoveryFailure exceptions.
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-        [Microsoft.Isam.Esent.Interop.EsentOperationException](dn319727\(v=exchg.10\).md)  
-          [Microsoft.Isam.Esent.Interop.EsentFatalException](dn274321\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+        [Microsoft.Isam.Esent.Interop.EsentOperationException](./esentoperationexception-class.md)  
+          [Microsoft.Isam.Esent.Interop.EsentFatalException](./esentfatalexception-class.md)  
             Microsoft.Isam.Esent.Interop.EsentLogDisabledDueToRecoveryFailureException  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -67,6 +68,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentLogDisabledDueToRecoveryFailureException members](dn334525\(v=exchg.10\).md)
+[EsentLogDisabledDueToRecoveryFailureException members](./esentlogdisabledduetorecoveryfailureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

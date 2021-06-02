@@ -1,5 +1,5 @@
 ---
-Description: Requests to start a shader debugging session for the specified pipeline stage, pixel/vertex if applicable, event, and frame.
+description: Requests to start a shader debugging session for the specified pipeline stage, pixel/vertex if applicable, event, and frame.
 MS-HAID: vspixengine.IDebugShaderRequest\_BeginDebugShader\_IPixErrorCallback\_ptr\_EventID\_DWORD\_DWORD\_Point2D\_PipeLineStages\_PixelHistoryOperation\_ptr\_DWORD\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

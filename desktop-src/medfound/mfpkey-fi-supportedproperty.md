@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the decoder supports frame interpolation.
+description: Specifies whether the decoder supports frame interpolation.
 ms.assetid: cc7fb83d-8423-4e0a-a520-b58d3345ef89
 title: MFPKEY_FI_SUPPORTED Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Specifies whether the decoder supports frame interpolation.
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

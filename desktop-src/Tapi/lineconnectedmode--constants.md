@@ -1,5 +1,5 @@
 ---
-Description: The LINECONNECTEDMODE\_ bit-flag constants describe different substates of a connected call.
+description: The LINECONNECTEDMODE\_ bit-flag constants describe different substates of a connected call.
 ms.assetid: d75a5989-3f4e-4e5d-90b1-4e450def017e
 title: LINECONNECTEDMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ Many operations that are valid in calls in the connected state can be impossible
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

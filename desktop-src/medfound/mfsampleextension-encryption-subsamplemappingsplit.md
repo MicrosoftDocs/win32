@@ -1,5 +1,5 @@
 ---
-Description: Sets the sub-sample mapping for the sample indicating the clear and encrypted bytes in the sample data.
+description: Sets the sub-sample mapping for the sample indicating the clear and encrypted bytes in the sample data.
 ms.assetid: E672F53D-2083-430B-90D2-A1DA482EF9E1
 title: MFSampleExtension_Encryption_SubSampleMappingSplit attribute (Mfapi.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ m_spSample->SetBlob( MFSampleExtension_Encryption_SubSampleMappingSplit,
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                     |

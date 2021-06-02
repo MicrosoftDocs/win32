@@ -1,5 +1,5 @@
 ---
-Description: 'Cryptography API: Next Generation (CNG) provides functions that query, add, remove, and prioritize the cipher suites that a provider supports. Changes made by using these functions take effect immediately and do not require restarting an active server.'
+description: 'Cryptography API: Next Generation (CNG) provides functions that query, add, remove, and prioritize the cipher suites that a provider supports. Changes made by using these functions take effect immediately and do not require restarting an active server.'
 ms.assetid: e919be5c-ac2c-446c-a422-971805b1f672
 title: Prioritizing Schannel Cipher Suites
 ms.topic: article
@@ -10,16 +10,17 @@ ms.date: 05/31/2018
 
 [Cryptography API: Next Generation](../seccng/cng-portal.md) (CNG) provides functions that query, add, remove, and prioritize the cipher suites that a provider supports. Changes made by using these functions take effect immediately and do not require restarting an active server.
 
-> [!Note]You can also modify the list of cipher suites by configuring the **SSL Cipher Suite Order** group policy settings using the Group Policy Object snap-in in Microsoft Management Console.
->
+> [!Note]
+> You can also modify the list of cipher suites by configuring the **SSL Cipher Suite Order** group policy settings using the Group Policy Object snap-in in Microsoft Management Console.
+> 
 > **To configure the **SSL Cipher Suite Order** group policy setting**
->
+> 
 > 1.  At a command prompt, enter **gpedit.msc**. The **Group Policy Object Editor** appears.
 > 2.  Expand **Computer Configuration**, **Administrative Templates**, **Network**, and then click **SSL Configuration Settings**.
 > 3.  Under **SSL Configuration Settings**, click the **SSL Cipher Suite Order** setting.
 > 4.  In the **SSL Cipher Suite Order** pane, scroll to the bottom of the pane.
 > 5.  Follow the instructions labeled **How to modify this setting**.
->
+> 
 > It is necessary to restart the computer after modifying this setting for the changes to take effect.
 
  

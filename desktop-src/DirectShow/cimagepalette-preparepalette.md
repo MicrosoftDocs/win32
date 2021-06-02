@@ -1,5 +1,5 @@
 ---
-Description: The PreparePalette method sets up a palette, based on a media type from the owning filter.
+description: The PreparePalette method sets up a palette, based on a media type from the owning filter.
 ms.assetid: cb012391-39ab-4ad1-aeb7-ec25010ac64a
 title: CImagePalette.PreparePalette method (Winutil.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ If the palette needs to be updated, this method performs the following actions:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

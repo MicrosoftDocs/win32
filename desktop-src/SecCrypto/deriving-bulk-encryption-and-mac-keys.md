@@ -1,5 +1,5 @@
 ---
-Description: Bulk encryption and MAC keys are derived from a master key but can include other sources depending on the protocol and cipher suite used.
+description: Bulk encryption and MAC keys are derived from a master key but can include other sources depending on the protocol and cipher suite used.
 ms.assetid: f78acb54-c32a-46a8-b465-855251069a57
 title: Deriving Bulk Encryption and MAC Keys
 ms.topic: article
@@ -16,8 +16,9 @@ The process of deriving bulk encryption and MAC keys is the same for both client
 2.  Because [*CryptoAPI*](../secgloss/c-gly.md) keys cannot be derived directly from other keys, a hash object is created from the master key using [**CryptCreateHash**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptcreatehash). This [*hash*](../secgloss/h-gly.md) is used to create the new keys.
 3.  The two bulk encryption keys and the two MAC keys are created from the "master hash" object using four calls to [**CryptDeriveKey**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptderivekey).
 
-> [!Note]When performing SSL reconnects, a protocol engine can perform the above procedure several times using the same master key. This enables the client and server to have multiple, often simultaneous connections, each using different [*Bulk encryption*](../secgloss/b-gly.md) and MAC keys without additional RSA or Diffie-Hellman operations.
->
+> [!Note]
+> When performing SSL reconnects, a protocol engine can perform the above procedure several times using the same master key. This enables the client and server to have multiple, often simultaneous connections, each using different [*Bulk encryption*](../secgloss/b-gly.md) and MAC keys without additional RSA or Diffie-Hellman operations.
+> 
 > All CSPs must use good thread-safe practices. Thread counts of several dozen are not unusual.
 
  

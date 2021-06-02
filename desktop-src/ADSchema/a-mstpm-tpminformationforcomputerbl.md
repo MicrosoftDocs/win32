@@ -22,7 +22,7 @@ This attribute links a TPM object to the Computer objects associated with it.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-TPM-Tpm-Information-For-Computer-BL  |
 | Ldap-Display-Name | msTPM-TpmInformationForComputerBL       |
@@ -43,7 +43,7 @@ This attribute links a TPM object to the Computer objects associated with it.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | 2183         |
 | MAPI-Id                | \-           |

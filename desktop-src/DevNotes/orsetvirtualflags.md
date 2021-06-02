@@ -1,5 +1,5 @@
 ---
-Description: Sets virtualization flags on the specified open registry key in an offline registry hive.
+description: Sets virtualization flags on the specified open registry key in an offline registry hive.
 ms.assetid: c625af35-8e14-4379-8d0a-6f5b65a1aebb
 title: ORSetVirtualFlags function (Offreg.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ For more information, see [Registry Virtualization](../sysinfo/registry-virtuali
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

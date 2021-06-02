@@ -1,5 +1,5 @@
 ---
-Description: Enumeration that describes the kind of network connection where a profile is applicable.
+description: Enumeration that describes the kind of network connection where a profile is applicable.
 MS-HAID: WWAN\_profile\_v4.simpleType\_iwlanApplicabilityType
 MSHAttr:
 - PreferredSiteName:MSDN

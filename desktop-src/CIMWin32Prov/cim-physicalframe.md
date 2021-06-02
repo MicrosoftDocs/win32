@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalFrame class is a parent class of rack, chassis, and other frame enclosures as they are defined in extension classes.
+description: The CIM\_PhysicalFrame class is a parent class of rack, chassis, and other frame enclosures as they are defined in extension classes.
 ms.assetid: 571c8ca2-1644-4060-8d89-d9625a591f86
 ms.tgt_platform: multiple
 title: CIM_PhysicalFrame class
@@ -827,7 +827,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

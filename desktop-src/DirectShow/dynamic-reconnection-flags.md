@@ -1,5 +1,5 @@
 ---
-Description: The following flags specify the level of dynamic reconnection to use during rendering.
+description: The following flags specify the level of dynamic reconnection to use during rendering.
 ms.assetid: 5e9d5f11-6716-4539-96fd-a0b37036555b
 title: Dynamic Reconnection Flags (Qedit.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ The following flags specify the level of dynamic reconnection to use during rend
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

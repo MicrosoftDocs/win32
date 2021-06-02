@@ -1,6 +1,6 @@
 ---
 title: Volume Tiled Resources (Direct3D 11 Graphics)
-description: Volume (3D) textures can be used as tiled resources, noting that tile resolution is three-dimensional.
+description: Learn how volume (3D) textures can be used as tiled resources. Note that tile resolution is three-dimensional.
 ms.assetid: B6BF22A2-EDA3-4765-B545-BF825043D4C4
 ms.topic: article
 ms.date: 05/31/2018
@@ -24,9 +24,8 @@ The typical resource dimensions used in tiling are 4 x 4 tiles for 2D textures, 
 
 
 
-|                             |                                     |
+| Bits/pixel (1 sample/pixel)                            | Tile dimensions (pixels, w x h x d)                                    |
 |-----------------------------|-------------------------------------|
-| Bits/pixel (1 sample/pixel) | Tile dimensions (pixels, w x h x d) |
 | 8                           | 64x32x32                            |
 | 16                          | 32x32x32                            |
 | 32                          | 32x32x16                            |

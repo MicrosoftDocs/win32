@@ -1,5 +1,5 @@
 ---
-Description: Performs a specified operation on a specified file.
+description: IShellDispatch2.ShellExecute method - Performs a specified operation on a specified file.
 ms.assetid: a55e804c-ed7c-4b22-b86f-8e5653976654
 title: IShellDispatch2.ShellExecute method (Shldisp.h)
 ms.topic: reference
@@ -165,7 +165,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

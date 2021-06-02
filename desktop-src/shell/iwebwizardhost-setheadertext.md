@@ -1,5 +1,5 @@
 ---
-Description: Sets the title and subtitle that appear in the wizard header. In general, the client will display the header above the HTML and below the title bar.
+description: Sets the title and subtitle that appear in the wizard header. In general, the client will display the header above the HTML and below the title bar.
 title: WebWizardHost.SetHeaderText method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shldisp.h
 ms.assetid: e627de44-9929-4e08-9fd9-ca22743f434a
-api_name: 
- - WebWizardHost.SetHeaderText
-api_type: 
- - COM
-api_location: 
- - Shldisp.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -67,7 +58,7 @@ String containing the subtitle.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

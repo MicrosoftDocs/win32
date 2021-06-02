@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidGrbitException properties"
 title: EsentInvalidGrbitException properties
 TOCTitle: EsentInvalidGrbitException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidGrbitException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidGrbitException](dn319518\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidGrbitException](./esentinvalidgrbitexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidGrbitException class](dn319518\(v=exchg.10\).md)
+[EsentInvalidGrbitException class](./esentinvalidgrbitexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

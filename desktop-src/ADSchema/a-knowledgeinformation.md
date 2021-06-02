@@ -22,7 +22,7 @@ Specifies a human-readable accumulated description of knowledge mastered by a sp
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Knowledge-Information                       |
 | Ldap-Display-Name | knowledgeInformation                        |
@@ -48,7 +48,7 @@ Specifies a human-readable accumulated description of knowledge mastered by a sp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C3                          |
@@ -69,7 +69,7 @@ Specifies a human-readable accumulated description of knowledge mastered by a sp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C3                          |
@@ -90,7 +90,7 @@ Specifies a human-readable accumulated description of knowledge mastered by a sp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C3                          |
@@ -111,7 +111,7 @@ Specifies a human-readable accumulated description of knowledge mastered by a sp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C3                          |
@@ -132,7 +132,7 @@ Specifies a human-readable accumulated description of knowledge mastered by a sp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C3                          |
@@ -153,7 +153,7 @@ Specifies a human-readable accumulated description of knowledge mastered by a sp
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x80C3                          |

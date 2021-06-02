@@ -1,5 +1,5 @@
 ---
-Description: Returns a RecordList object that gives the full path of a specified installed component.
+description: Returns a RecordList object that gives the full path of a specified installed component.
 ms.assetid: 0f4f9d21-f1cc-44fd-a22f-1b6f055fef9e
 title: Installer.ComponentPathEx property
 ms.topic: reference
@@ -38,7 +38,7 @@ propVal = Installer.ComponentPathEx
 
 
 
-|                    |                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                      |

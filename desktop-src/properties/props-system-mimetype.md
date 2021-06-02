@@ -1,5 +1,5 @@
 ---
-Description: The MIME type.
+description: The MIME type.
 ms.assetid: 9f8f42f8-af90-4f2d-a58c-f892139e86b7
 title: System.MIMEType
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents the logical connection point for a network adapter. When the LAN endpoint is connected to a switch port, the network adapter connected to the LAN endpoint has network connectivity.
+description: Represents the logical connection point for a network adapter. When the LAN endpoint is connected to a switch port, the network adapter connected to the LAN endpoint has network connectivity.
 ms.assetid: 68aad05e-64b5-44dc-ab5b-8f3051fa77ca
 title: Msvm_LANEndpoint class
 ms.topic: reference
@@ -1516,7 +1516,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

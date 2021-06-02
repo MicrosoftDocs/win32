@@ -1,5 +1,5 @@
 ---
-Description: The patch sequencing and applicability information that is returned by the MsiExtractPatchXMLData function or the ExtractPatchXMLData method is in the format of an XML blob that contains the elements and attributes that are identified in this topic.
+description: The patch sequencing and applicability information that is returned by the MsiExtractPatchXMLData function or the ExtractPatchXMLData method is in the format of an XML blob that contains the elements and attributes that are identified in this topic.
 ms.assetid: ea40ed1d-1ef9-44f3-8ae8-3d854e308a49
 title: Extracting Patch Information as XML
 ms.topic: article

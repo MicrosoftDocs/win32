@@ -1,5 +1,5 @@
 ---
-Description: Specifies the pixel aspect ratio of the decoded video stream.
+description: Specifies the pixel aspect ratio of the decoded video stream.
 ms.assetid: 07689d15-3e46-45f7-bdd5-ae51308ddbce
 title: AVDecVideoPixelAspectRatio property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The upper 16 bits of the value contain the width, and the lower 16 bits contain 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

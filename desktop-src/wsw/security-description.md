@@ -21,7 +21,7 @@ The basic model of channel security is that a channel is secured with one or mor
 
 Optional security settings that are specific to a security binding are specified as [security binding settings](security-binding-settings.md) in the security binding structure; however, channel-wide settings independent of security bindings are directly specified as [security channel settings](security-channel-settings.md) in the **properties** field of the security description itself.
 
-![](images/securitydescription.png)
+![Diagram showing the structure of a security description.](images/securitydescription.png)
 
 The following API elements are used with security descriptions.
 

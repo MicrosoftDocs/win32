@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Audio and Video codecs are a collection of objects that you can use to compress and decompress digital media data.
+description: The Windows Media Audio and Video codecs are a collection of objects that you can use to compress and decompress digital media data.
 ms.assetid: '74de2e75-b1ee-436d-8d78-efe366ab7aa6'
 title: Windows Media Codecs
 ms.topic: article

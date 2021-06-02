@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the display name for the identifier.
+description: Sets or retrieves the display name for the identifier.
 ms.assetid: 53f84d0d-c189-4fd2-a383-29fd0d22de08
 title: OID.FriendlyName property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # OID.FriendlyName property
 
-\[The **FriendlyName** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **FriendlyName** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **FriendlyName** property sets or retrieves the display name for the identifier.
 
@@ -42,7 +42,7 @@ If the **FriendlyName** property is set, the [**Value**](oid-value.md) property 
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

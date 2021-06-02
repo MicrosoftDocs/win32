@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the private key is protected.
+description: Returns a Boolean value that indicates whether the private key is protected.
 ms.assetid: 6a329581-0ff8-45fa-9997-5fcf043287cb
 title: PrivateKey.IsProtected method
 ms.topic: reference
@@ -46,7 +46,7 @@ The return value of this method is dependent on the [*cryptographic service prov
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

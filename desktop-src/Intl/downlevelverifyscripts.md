@@ -1,5 +1,5 @@
 ---
-Description: Compares two enumerated lists of scripts.
+description: Compares two enumerated lists of scripts.
 ms.assetid: 3500ce36-75e4-4d61-8449-a65c99532326
 title: DownlevelVerifyScripts function (Idndl.h)
 ms.topic: reference
@@ -126,7 +126,7 @@ The required header file and DLL are part of the ["Microsoft Internationalized D
 
 
 
-|                                     |                                                                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                  |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                         |

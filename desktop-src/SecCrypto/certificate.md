@@ -1,5 +1,5 @@
 ---
-Description: Represents a single digital certificate.
+description: Represents a single digital certificate.
 ms.assetid: 'da95312b-cc9f-44f0-9517-0b28c5fcfb61'
 title: Certificate object
 ms.topic: reference
@@ -106,7 +106,7 @@ The **Certificate** object can be created, and it is safe for scripting. The Pro
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

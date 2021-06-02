@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileStaleException properties"
 title: EsentSLVFileStaleException properties
 TOCTitle: EsentSLVFileStaleException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVFileStaleException](dn334783\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVFileStaleException](./esentslvfilestaleexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSLVFileStaleException class](dn334783\(v=exchg.10\).md)
+[EsentSLVFileStaleException class](./esentslvfilestaleexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,6 +1,6 @@
 ---
 title: RETURNBUTTON
-description: This is a predefined BUTTON with the following default values.
+description: This is a predefined BUTTON with the following default values. | RETURNBUTTON
 ms.assetid: c2c3886e-9089-4ec0-9e02-94b9a22f35ad
 keywords:
 - RETURNBUTTON Windows Media Player
@@ -32,7 +32,7 @@ This creates a **BUTTON** control that returns the Player to the media center. T
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

@@ -1,5 +1,5 @@
 ---
-Description: WMI supplies methods in the COM API and the scripting API to obtain information or manipulate objects in an enterprise system.
+description: WMI supplies methods in the COM API and the scripting API to obtain information or manipulate objects in an enterprise system.
 ms.assetid: 7a1eda93-014e-4067-b6d0-361a3d2fd1df
 ms.tgt_platform: multiple
 title: Calling a WMI Method

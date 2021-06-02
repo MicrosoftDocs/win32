@@ -1,5 +1,5 @@
 ---
-Description: Indicates which output is the primary output on a tee node.
+description: Indicates which output is the primary output on a tee node.
 ms.assetid: f7d98837-75da-48cc-8307-091be2d95392
 title: MF_TOPONODE_PRIMARYOUTPUT attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

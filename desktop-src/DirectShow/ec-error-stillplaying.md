@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous command to run the graph has failed.
+description: An asynchronous command to run the graph has failed.
 ms.assetid: 0bfcf4b4-b35a-4593-9956-8e1e8c9139cb
 title: EC_ERROR_STILLPLAYING (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ If the filter graph manager issues an asynchronous run command that fails, it se
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

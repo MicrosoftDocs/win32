@@ -1,5 +1,5 @@
 ---
-Description: The Timeline
+description: The Timeline
 ms.assetid: a3b8bff2-8593-483c-af49-a975ab2dc330
 title: The Timeline
 ms.topic: article

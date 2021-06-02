@@ -1,6 +1,6 @@
 ---
 title: COM Error Codes (WPN, MBN, P2P, Bluetooth) (Winerror.h)
-description: The following table provides a list of error codes used by COM-based APIs.
+description: The following table provides a list of error codes used by COM-based APIs. | COM Error Codes (WPN, MBN, P2P, Bluetooth) (Winerror.h)
 ms.assetid: 351E28F9-89E7-4F19-B72D-FFE12C95A6B3
 topic_type:
 - apiref
@@ -2265,7 +2265,7 @@ An error that lies in the reserved range has been received.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winerror.h</dt> </dl> |
 

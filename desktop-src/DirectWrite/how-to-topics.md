@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# How-to Topics
+# How-to Topics (DirectWrite)
 
 The following topics provide an overview of the [DirectWrite](direct-write-portal.md) API.
 

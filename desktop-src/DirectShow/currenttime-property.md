@@ -1,5 +1,5 @@
 ---
-Description: The CurrentTime property retrieves the current playback time.
+description: The CurrentTime property retrieves the current playback time.
 ms.assetid: 94f94eb1-49fa-4b8c-95a6-da307b0abd62
 title: CurrentTime Property
 ms.topic: reference

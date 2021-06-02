@@ -1,5 +1,5 @@
 ---
-Description: The EOS method updates the cached time stamps after an end-of-stream notification.
+description: The EOS method updates the cached time stamps after an end-of-stream notification.
 ms.assetid: 7fb2f964-ec15-47f5-902b-29b9b121e876
 title: CRendererPosPassThru.EOS method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The filter should call this method when it receives an end-of-stream notificatio
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

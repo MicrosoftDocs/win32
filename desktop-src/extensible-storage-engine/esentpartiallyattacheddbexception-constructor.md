@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPartiallyAttachedDBException constructor"
 title: EsentPartiallyAttachedDBException constructor 
 TOCTitle: 'EsentPartiallyAttachedDBException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPartiallyAttachedDBException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentPartiallyAttachedDBException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentPartiallyAttachedDBException()
 
 #### Reference
 
-[EsentPartiallyAttachedDBException class](dn319835\(v=exchg.10\).md)
+[EsentPartiallyAttachedDBException class](./esentpartiallyattacheddbexception-class.md)
 
-[EsentPartiallyAttachedDBException members](dn319788\(v=exchg.10\).md)
+[EsentPartiallyAttachedDBException members](./esentpartiallyattacheddbexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

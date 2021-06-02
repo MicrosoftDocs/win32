@@ -22,7 +22,7 @@ True if the publication allows anonymous subscribers to subscribe to it.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | MS-SQL-AllowAnonymousSubscription    |
 | Ldap-Display-Name | mS-SQL-AllowAnonymousSubscription    |
@@ -48,7 +48,7 @@ True if the publication allows anonymous subscribers to subscribe to it.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -69,7 +69,7 @@ True if the publication allows anonymous subscribers to subscribe to it.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -90,7 +90,7 @@ True if the publication allows anonymous subscribers to subscribe to it.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -111,7 +111,7 @@ True if the publication allows anonymous subscribers to subscribe to it.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -132,7 +132,7 @@ True if the publication allows anonymous subscribers to subscribe to it.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -153,7 +153,7 @@ True if the publication allows anonymous subscribers to subscribe to it.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

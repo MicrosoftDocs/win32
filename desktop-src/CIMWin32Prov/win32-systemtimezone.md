@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemTimeZone association WMI class relates a computer system and a time zone.
+description: The Win32\_SystemTimeZone association WMI class relates a computer system and a time zone.
 ms.assetid: 53c74a61-c91d-4daa-933e-4cc7b9583d98
 ms.tgt_platform: multiple
 title: Win32_SystemTimeZone class
@@ -87,7 +87,7 @@ The **Win32\_SystemTimeZone** class is derived from [**Win32\_SystemSetting**](w
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Defines a single object of a display filter.
+description: Defines a single object of a display filter.
 ms.assetid: 865b55f3-9294-43c5-b4dc-eb5128ce3a38
 title: FILTEROBJECT structure (Netmon.h)
 ms.topic: reference
@@ -231,7 +231,7 @@ Reserved.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

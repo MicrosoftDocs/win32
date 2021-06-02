@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateInstance2 Function"
 title: JetCreateInstance2 Function
 TOCTitle: JetCreateInstance2 Function
 ms:assetid: 1f894b19-fa15-4d89-a3d1-ee13b346f545
@@ -64,7 +65,7 @@ Reserved for future use. When this parameter is not present, its value is presum
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -108,21 +109,21 @@ On failure, an error representing the cause of failure will be returned and no i
 
 #### Remarks
 
-An instance must be initialized with a call to [JetInit](gg294068\(v=exchg.10\).md) before it can be used by anything other than [JetSetSystemParameter](gg294044\(v=exchg.10\).md).
+An instance must be initialized with a call to [JetInit](./jetinit-function.md) before it can be used by anything other than [JetSetSystemParameter](./jetsetsystemparameter-function.md).
 
-An instance is destroyed by a call to the [JetTerm](gg269298\(v=exchg.10\).md) function, even if that instance was never initialized using [JetInit](gg294068\(v=exchg.10\).md). The maximum number of instances that may be created at any one time is controlled by *JET_paramMaxInstances*, which can be configured by a call to [JetSetSystemParameter](gg294044\(v=exchg.10\).md). An instance is the unit of recoverability for the database engine. It controls the life cycle of all the files used to protect the integrity of the data in a set of database files. These files include the checkpoint file and the transaction log files.
+An instance is destroyed by a call to the [JetTerm](./jetterm-function.md) function, even if that instance was never initialized using [JetInit](./jetinit-function.md). The maximum number of instances that may be created at any one time is controlled by *JET_paramMaxInstances*, which can be configured by a call to [JetSetSystemParameter](./jetsetsystemparameter-function.md). An instance is the unit of recoverability for the database engine. It controls the life cycle of all the files used to protect the integrity of the data in a set of database files. These files include the checkpoint file and the transaction log files.
 
-If the function succeeds, the database engine will automatically be changed to multi-instance mode as a side effect of this call. If the application desires to allow only one instance in the process then [JetInit](gg294068\(v=exchg.10\).md) should be used to start the database engine in Windows 2000 compatibility mode.
+If the function succeeds, the database engine will automatically be changed to multi-instance mode as a side effect of this call. If the application desires to allow only one instance in the process then [JetInit](./jetinit-function.md) should be used to start the database engine in Windows 2000 compatibility mode.
 
-If present, the *szDisplayName* parameter will be used to identify the instance in places like Event Log or towards other callers like backup applications (through functions like [JetGetInstanceInfo](gg294149\(v=exchg.10\).md) or [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)). If the display name is not provided, the unique *szInstanceName* parameter will be used instead, if present, otherwise an empty string will be returned. If the engine did not have the running mode set, after this call, it will be set to multi-instance mode.
+If present, the *szDisplayName* parameter will be used to identify the instance in places like Event Log or towards other callers like backup applications (through functions like [JetGetInstanceInfo](./jetgetinstanceinfo-function.md) or [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)). If the display name is not provided, the unique *szInstanceName* parameter will be used instead, if present, otherwise an empty string will be returned. If the engine did not have the running mode set, after this call, it will be set to multi-instance mode.
 
 The typical start-up sequence for a process potentially running multiple Jet instances would be:
 
   - A call to **JetCreateInstance2** which will allocate and name the instance.
 
-  - Multiple calls to [JetSetSystemParameter](gg294044\(v=exchg.10\).md) for that instance in order to set different system parameters. Note that some system parameters need to be unique for each instance (like *JET_paramSystemPath* or *JET_paramLogFilePath*) so most likely, each of these will need to be set.
+  - Multiple calls to [JetSetSystemParameter](./jetsetsystemparameter-function.md) for that instance in order to set different system parameters. Note that some system parameters need to be unique for each instance (like *JET_paramSystemPath* or *JET_paramLogFilePath*) so most likely, each of these will need to be set.
 
-  - Start the instance using [JetInit](gg294068\(v=exchg.10\).md) or [JetInit2](gg294065\(v=exchg.10\).md). In order to terminate and/or free an instance, use [JetTerm](gg269298\(v=exchg.10\).md) or [JetTerm2](gg269223\(v=exchg.10\).md).
+  - Start the instance using [JetInit](./jetinit-function.md) or [JetInit2](./jetinit2-function.md). In order to terminate and/or free an instance, use [JetTerm](./jetterm-function.md) or [JetTerm2](./jetterm2-function.md).
 
 If this is the first instance to be started, there are a number of additional steps which will be executed during this call in order to make basic system initialization and configuration. A number of those steps might result in specific errors starting with JET_errOutOfMemory but others as well (see Return Values for more information).
 
@@ -164,15 +165,14 @@ If this is the first instance to be started, there are a number of additional st
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetEnableMultiInstance](gg294107\(v=exchg.10\).md)  
-[JetGetInstanceInfo](gg294149\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JetInit2](gg294065\(v=exchg.10\).md)  
-[JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[JetTerm](gg269298\(v=exchg.10\).md)  
-[JetTerm2](gg269223\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetEnableMultiInstance](./jetenablemultiinstance-function.md)  
+[JetGetInstanceInfo](./jetgetinstanceinfo-function.md)  
+[JetInit](./jetinit-function.md)  
+[JetInit2](./jetinit2-function.md)  
+[JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[JetTerm](./jetterm-function.md)  
+[JetTerm2](./jetterm2-function.md)

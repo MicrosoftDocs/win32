@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Share class represents a shared resource on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device. For more information about retrieving WMI classes, see Retrieving a Class.
+description: The Win32\_Share class represents a shared resource on a computer system running Windows. This may be a disk drive, printer, interprocess communication, or other sharable device. For more information about retrieving WMI classes, see Retrieving a Class.
 ms.assetid: 2d47b726-a0fe-47f3-9e96-d1d507655e56
 ms.tgt_platform: multiple
 title: Win32_Share class
@@ -456,7 +456,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

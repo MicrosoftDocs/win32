@@ -1,5 +1,5 @@
 ---
-Description: The digit mode describes the type, such as DTMF (Dial Tone Multifrequency). The values used are those from the TAPI 2 LINEDIGITMODE\_ Constants.
+description: The digit mode describes the type, such as DTMF (Dial Tone Multifrequency). The values used are those from the TAPI 2 LINEDIGITMODE\_ Constants.
 ms.assetid: 69663f27-10e6-4dc1-bcab-728c83648912
 title: TAPI_DIGITMODE_ Constants
 ms.topic: article

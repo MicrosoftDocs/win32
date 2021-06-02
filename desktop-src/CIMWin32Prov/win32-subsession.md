@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SubSession association defines relationships between sessions where one session is a part of or utilizes another session for example where a Terminal session uses a Logon Session.
+description: The Win32\_SubSession association defines relationships between sessions where one session is a part of or utilizes another session for example where a Terminal session uses a Logon Session.
 ms.assetid: 2269de22-b086-4f71-8b19-bc53e1c88dc7
 ms.tgt_platform: multiple
 title: Win32_SubSession class
@@ -83,7 +83,7 @@ A [**Win32\_Session**](win32-session.md) that describes the session that is the 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,6 +1,6 @@
 ---
 title: IWMPControls fastForward method
-description: The fastForward method starts fast play of the media item in the forward direction.
+description: The fastForward method starts fast play of the media item in the forward direction. | IWMPControls fastForward method
 ms.assetid: 44609d63-1d1a-489c-ac17-60b6d3ddc588
 keywords:
 - fastForward method Windows Media Player
@@ -101,7 +101,7 @@ End Sub
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

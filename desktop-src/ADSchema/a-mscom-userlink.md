@@ -22,7 +22,7 @@ A link used to associate a COM+ PartitionSet with a User object.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-COM-UserLink                         |
 | Ldap-Display-Name | msCOM-UserLink                          |
@@ -47,7 +47,7 @@ A link used to associate a COM+ PartitionSet with a User object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1049                            |
 | MAPI-Id                | \-                              |
@@ -68,7 +68,7 @@ A link used to associate a COM+ PartitionSet with a User object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1049                            |
 | MAPI-Id                | \-                              |
@@ -89,7 +89,7 @@ A link used to associate a COM+ PartitionSet with a User object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1049                            |
 | MAPI-Id                | \-                              |
@@ -110,7 +110,7 @@ A link used to associate a COM+ PartitionSet with a User object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1049                            |
 | MAPI-Id                | \-                              |
@@ -131,7 +131,7 @@ A link used to associate a COM+ PartitionSet with a User object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 1049                            |
 | MAPI-Id                | \-                              |

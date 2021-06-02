@@ -1,5 +1,5 @@
 ---
-Description: Playback rate. By default, the value is set to 1.0.
+description: Playback rate. By default, the value is set to 1.0.
 ms.assetid: 835ddbe8-2017-4a4a-8f10-b3f33a8215a7
 title: CSourceSeeking::m_dRateSeeking member (Ctlutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Hold the **m\_pLock** critical section before accessing this variable.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

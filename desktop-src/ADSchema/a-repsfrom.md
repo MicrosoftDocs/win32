@@ -22,7 +22,7 @@ Lists the servers from which the directory will accept changes for the defined n
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Reps-From                                             |
 | Ldap-Display-Name | repsFrom                                              |
@@ -49,7 +49,7 @@ Lists the servers from which the directory will accept changes for the defined n
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -70,7 +70,7 @@ Lists the servers from which the directory will accept changes for the defined n
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -91,7 +91,7 @@ Lists the servers from which the directory will accept changes for the defined n
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -112,7 +112,7 @@ Lists the servers from which the directory will accept changes for the defined n
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -133,7 +133,7 @@ Lists the servers from which the directory will accept changes for the defined n
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -154,7 +154,7 @@ Lists the servers from which the directory will accept changes for the defined n
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -175,7 +175,7 @@ Lists the servers from which the directory will accept changes for the defined n
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

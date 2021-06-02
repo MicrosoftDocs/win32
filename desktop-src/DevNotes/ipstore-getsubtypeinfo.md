@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information associated with a subtype.
+description: Retrieves information associated with a subtype.
 ms.assetid: 3daf5f37-9e7f-4ce1-bd35-d7e3c2ef5c28
 title: IPStore::GetSubtypeInfo method (Pstore.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ The return value is an **HRESULT** value. A value of PST\_E\_OK indicates the fu
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

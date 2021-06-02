@@ -1,5 +1,5 @@
 ---
-Description: The Delete method deletes the media corresponding to the specified index.
+description: The Delete method deletes the media corresponding to the specified index.
 ms.assetid: 5fcbd026-75a8-4db2-a701-e080dc222537
 title: ITMediaCollection::Delete method (Sdpblb.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Most C and C++ lists are 0-based, but this index is 1-based for Visual Basic com
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

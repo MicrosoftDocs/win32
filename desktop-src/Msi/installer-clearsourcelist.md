@@ -1,5 +1,5 @@
 ---
-Description: The ClearSourceList method of the Installer object removes all network sources from the source list.
+description: The ClearSourceList method of the Installer object removes all network sources from the source list.
 ms.assetid: a4e4beb2-a4d7-48e7-9c8d-dd1ae19fe92a
 title: Installer.ClearSourceList method
 ms.topic: reference
@@ -57,7 +57,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

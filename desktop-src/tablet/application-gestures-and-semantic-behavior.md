@@ -1,5 +1,5 @@
 ---
-Description: The application gestures are delivered as part of the Windows Vista SDK.
+description: The application gestures are delivered as part of the Windows Vista SDK.
 ms.assetid: eefe140d-8da6-4ba3-81c6-3cd0cf559605
 title: Application Gestures and Semantic Behavior
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The GetNPPTriggerFromBlob function retrieves the trigger from the given BLOB.
+description: The GetNPPTriggerFromBlob function retrieves the trigger from the given BLOB.
 ms.assetid: 48a27cf3-57b0-4241-a925-4209e0d384e2
 title: GetNPPTriggerFromBlob function (Netmon.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The trigger information is stored in the **Trigger** category of the BLOB.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Defines constant string values that are used to increase recognition accuracy by providing contextual information to the recognizer.
+description: Defines constant string values that are used to increase recognition accuracy by providing contextual information to the recognizer.
 ms.assetid: 247a1f7d-8205-4e4d-9cfc-daad9bd2191f
 title: Factoid Constants (Msinkaut.h)
 ms.topic: reference
@@ -257,7 +257,7 @@ Alternatively, you can set this property with the actual factoid string constant
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

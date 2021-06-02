@@ -1,5 +1,5 @@
 ---
-Description: This tutorial provides step-by-step instructions to use Windows Image Acquisition (WIA) in real-world applications.
+description: This tutorial provides step-by-step instructions to use Windows Image Acquisition (WIA) in real-world applications.
 ms.assetid: 157b72ef-7bb2-44aa-b5c9-40e5ff90f67d
 title: WIA Tutorial
 ms.topic: article

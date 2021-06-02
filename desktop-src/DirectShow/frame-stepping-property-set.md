@@ -1,5 +1,5 @@
 ---
-Description: Frame Stepping Property Set
+description: Frame Stepping Property Set
 ms.assetid: 01abe1fe-fc2f-44cb-9546-45a8d682a179
 title: Frame Stepping Property Set
 ms.topic: article
@@ -12,7 +12,7 @@ Decoders that implement frame-accurate seeking under Microsoft DirectShow must i
 
 
 
-|                   |                            |
+| Label | Value |
 |-------------------|----------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_FrameStep |
 

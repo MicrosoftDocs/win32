@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Memory Management Tracing Events"
 ms.assetid: D53BD414-F140-496E-884F-5A4EC4F0AAC4
 title: Memory Management Tracing Events
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The StartPagePrinter function notifies the spooler that a page is about to be printed on the specified printer.
+description: The StartPagePrinter function notifies the spooler that a page is about to be printed on the specified printer.
 ms.assetid: 8ac7c47b-b3a7-4642-bfb7-54e014139fbf
 title: StartPagePrinter function (Winspool.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ For a sample program that uses this function, see [How To: Print Using the GDI P
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: WMI supplies a set of troubleshooting classes that scripts and applications can use to get information about WMI internal state during WMI core and provider operations.
+description: WMI supplies a set of troubleshooting classes that scripts and applications can use to get information about WMI internal state during WMI core and provider operations.
 ms.assetid: 631e0cce-0e83-42e5-a381-e96b1f70d6f9
 ms.tgt_platform: multiple
 title: WMI Troubleshooting Classes

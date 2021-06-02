@@ -1,5 +1,5 @@
 ---
-Description: Represents a class creation event, which is a type of intrinsic event generated when a new class is added to the namespace.
+description: Represents a class creation event, which is a type of intrinsic event generated when a new class is added to the namespace.
 ms.assetid: a946a8eb-498c-4104-b80f-e520b0e62e36
 ms.tgt_platform: multiple
 title: '__ClassCreationEvent class'
@@ -97,7 +97,7 @@ The **\_\_ClassCreationEvent** class is derived from [**\_\_ClassOperationEvent*
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

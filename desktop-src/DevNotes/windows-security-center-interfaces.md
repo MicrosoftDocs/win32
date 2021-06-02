@@ -1,5 +1,5 @@
 ---
-Description: The following interfaces are available for use with Windows Security Center.
+description: The following interfaces are available for use with Windows Security Center.
 ms.assetid: 41C2F4BB-9979-478B-8BC9-9DC9FBF020F9
 title: Windows Security Center Interfaces
 ms.topic: article

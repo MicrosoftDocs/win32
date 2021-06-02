@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO members"
 title: JET_OBJECTINFO members
 TOCTitle: JET_OBJECTINFO members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO
@@ -15,7 +16,7 @@ Include inherited members
 
 The JET_OBJECTINFO structure holds information about an object. Tables are the only object types that are currently supported.
 
-The [JET_OBJECTINFO](dn335219\(v=exchg.10\).md) type exposes the following members.
+The [JET_OBJECTINFO](./jet-objectinfo-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -132,6 +133,6 @@ Top
 
 #### Reference
 
-[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](./jet-objectinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

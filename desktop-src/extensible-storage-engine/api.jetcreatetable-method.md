@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetCreateTable method"
 title: Api.JetCreateTable method 
 TOCTitle: 'JetCreateTable method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetCreateTable(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.Int32,System.Int32,Microsoft.Isam.Esent.Interop.JET_TABLEID@)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Create an empty table. The newly created table is opened exclusively.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,14 +70,14 @@ public static void JetCreateTable(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)  
     
     The database to create the table in.
 
@@ -104,7 +105,7 @@ public static void JetCreateTable(
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     Returns the tableid of the new table.
 
@@ -112,8 +113,8 @@ public static void JetCreateTable(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

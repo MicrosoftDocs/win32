@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.Name property"
 title: ColumnInfo.Name property 
 TOCTitle: 'Name property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Name
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the name of the column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[ColumnInfo class](dn334128\(v=exchg.10\).md)
+[ColumnInfo class](./columninfo-class.md)
 
-[ColumnInfo members](dn334181\(v=exchg.10\).md)
+[ColumnInfo members](./columninfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

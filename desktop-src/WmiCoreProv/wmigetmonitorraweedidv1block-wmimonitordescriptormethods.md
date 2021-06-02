@@ -1,5 +1,5 @@
 ---
-Description: Gets the raw data for a specified Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure that defines optimal settings for configuring a monitor.
+description: Gets the raw data for a specified Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) structure that defines optimal settings for configuring a monitor.
 ms.assetid: a787e66e-1b96-4dd5-8646-7aa2d281ac95
 title: WmiGetMonitorRawEEdidV1Block method of the WmiMonitorDescriptorMethods class
 ms.topic: reference
@@ -117,7 +117,7 @@ static void Main(string[] args)
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

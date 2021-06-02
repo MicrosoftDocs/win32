@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentClientRequestToStopJetServiceException members"
 title: EsentClientRequestToStopJetServiceException members
 TOCTitle: EsentClientRequestToStopJetServiceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentClientRequestToStopJetServiceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ClientRequestToStopJetService exceptions.
 
-The [EsentClientRequestToStopJetServiceException](dn274150\(v=exchg.10\).md) type exposes the following members.
+The [EsentClientRequestToStopJetServiceException](./esentclientrequesttostopjetserviceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentClientRequestToStopJetServiceException class](dn274150\(v=exchg.10\).md)
+[EsentClientRequestToStopJetServiceException class](./esentclientrequesttostopjetserviceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

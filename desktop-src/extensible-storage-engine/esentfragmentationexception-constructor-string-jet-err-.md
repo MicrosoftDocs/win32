@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFragmentationException constructor (String, JET_err)"
 title: EsentFragmentationException constructor (String, JET_err)
 TOCTitle: EsentFragmentationException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFragmentationException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFragmentationException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentFragmentationException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentFragmentationException(
 
 #### Reference
 
-[EsentFragmentationException class](dn350462\(v=exchg.10\).md)
+[EsentFragmentationException class](./esentfragmentationexception-class.md)
 
-[EsentFragmentationException members](dn350419\(v=exchg.10\).md)
+[EsentFragmentationException members](./esentfragmentationexception-members.md)
 
-[EsentFragmentationException overload](dn350466\(v=exchg.10\).md)
+[EsentFragmentationException overload](./esentfragmentationexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

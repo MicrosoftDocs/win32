@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC constructor"
 title: JET_ERRINFOBASIC constructor  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JET_ERRINFOBASIC constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the JET_ERRINFOBASIC class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public JET_ERRINFOBASIC()
 
 #### Reference
 
-[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](./jet-errinfobasic-class.md)
 
-[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](./jet-errinfobasic-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

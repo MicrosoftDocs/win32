@@ -23,7 +23,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Reference
+# Microsoft Windows Media DRM Client Programming Reference
 
 This reference includes information about the C++ programming elements supported by the Windows Media DRM Client Extended APIs. It is divided into the following sections.
 

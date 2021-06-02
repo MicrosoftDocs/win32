@@ -1,5 +1,5 @@
 ---
-Description: The suggested action sequences for a basic InstallExecuteSequence table in a Windows Installer database.
+description: The suggested action sequences for a basic InstallExecuteSequence table in a Windows Installer database.
 ms.assetid: 7f337f37-1528-4b7e-a628-f9d235510a6f
 title: Suggested InstallExecuteSequence
 ms.topic: article

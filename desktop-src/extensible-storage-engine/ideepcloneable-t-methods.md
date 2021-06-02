@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDeepCloneable<T> methods"
 title: IDeepCloneable(T) methods
 TOCTitle: IDeepCloneable(T) methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [IDeepCloneable\<T\>](hh565368\(v=exchg.10\).md) type exposes the following members.
+The [IDeepCloneable\<T\>](./ideepcloneable-t-interface.md) type exposes the following members.
 
 ## Methods
 
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[IDeepCloneable\<T\> interface](hh565368\(v=exchg.10\).md)
+[IDeepCloneable\<T\> interface](./ideepcloneable-t-interface.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

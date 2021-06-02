@@ -11,10 +11,13 @@ A sync engine is a service that syncs files, typically between a remote host and
 
 Windows 10 version 1709 (also called the Fall Creators Update) introduced the *cloud files API*. This API is a new platform that formalizes support for sync engines. The cloud files API provides support for sync engines in a way that offers many new benefits to developers and end users.
 
-The cloud files API contains the following native Win32 APIs and Universal Windows Platform (UWP) APIs:
+The cloud files API contains the following native Win32 APIs and Windows Runtime (WinRT) APIs:
 
 * [Cloud Filter API](cloud-filter-reference.md): This native Win32 API provides functionality at the boundary between the user mode and the file system. This API handles the creation and management of placeholder files and directories.
-* [Windows.Storage.Provider namespace](/uwp/api/windows.storage.provider): This WinRT API enables applications to configure and register a [cloud storage provider's sync root](../shell/integrate-cloud-storage.md) with the operating system.
+* [Windows.Storage.Provider namespace](/uwp/api/windows.storage.provider): This WinRT API enables applications to configure the cloud storage provider and register the sync root with the operating system.
+
+> [!NOTE]
+> The cloud files API does not currently support implementing cloud sync engines in UWP apps. Cloud sync engines must be implemented in desktop apps.
 
 ## Supported features
 
@@ -59,15 +62,12 @@ The following image demonstrates how the placeholder, full, and pinned full file
   * Additional verbs can be added to this section of the context menu using Desktop Bridge-compatible APIs.
 * User control of file hydration:
   * Users are always in control of file hydration, even when the files are not hydrated explicitly by the user. An interactive toast is shown for background hydration to alert the user and provide options. The following image demonstrates a toast notification for a hydrating file.
-      
     ![Example of an interactive toast shown for background file hydration](images/file-hydration-interactive-toast.png)
-
   * If a user blocks an app from hydrating files through an interactive toast, they can unblock the app in the **Automatic file downloads** page in **Settings**.
-    
     ![Screenshot of the automatic file downloads setting](images/allow-automatic-file-downloads-setting.png)
 * Hooking copy engine operations (supported in Windows 10 Insider Preview Build 19624 and later versions):
-  * [Cloud storage providers](../shell/integrate-cloud-storage.md) can register a shell copy hook for monitoring file operations within their sync root.
-  * The provider registers their copy hook by setting the **CopyHook** registry value under their sync root registry key to a the CLSID of their COM local server object. This local server object implements the [IStorageProviderCopyHook](/windows/win32/shell/nn-shobjidl-istorageprovidercopyhook) interface.
+  * Cloud storage providers can register a shell copy hook for monitoring file operations within their sync root.
+  * The provider registers their copy hook by setting the **CopyHook** registry value under their sync root registry key to a the CLSID of their COM local server object. This local server object implements the [IStorageProviderCopyHook](../shell/nn-shobjidl-istorageprovidercopyhook.md) interface.
 
 ### Desktop Bridge
 

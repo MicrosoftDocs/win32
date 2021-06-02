@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeCorruptedException members"
 title: EsentDbTimeCorruptedException members
 TOCTitle: EsentDbTimeCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DbTimeCorrupted exceptions.
 
-The [EsentDbTimeCorruptedException](dn274236\(v=exchg.10\).md) type exposes the following members.
+The [EsentDbTimeCorruptedException](./esentdbtimecorruptedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDbTimeCorruptedException class](dn274236\(v=exchg.10\).md)
+[EsentDbTimeCorruptedException class](./esentdbtimecorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

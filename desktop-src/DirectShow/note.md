@@ -1,5 +1,5 @@
 ---
-Description: The NOTE macro sends a string to the debug output location. Ignored in retail builds.
+description: The NOTE macro sends a string to the debug output location. Ignored in retail builds.
 ms.assetid: 8b85861a-b4d6-4cc6-9ac9-77d06f173869
 title: NOTE (Wxdebug.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ NOTE2("Width: %d, Height: %d", width, height);
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

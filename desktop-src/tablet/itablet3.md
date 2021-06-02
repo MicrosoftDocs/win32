@@ -1,5 +1,5 @@
 ---
-Description: The ITablet3 interface enables multitouch querying for input.
+description: The ITablet3 interface enables multitouch querying for input.
 ms.assetid: 949f2d83-7761-4d60-b8fe-5a9ac7567238
 title: ITablet3 interface
 ms.topic: reference
@@ -66,7 +66,7 @@ interface ITablet3 : IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

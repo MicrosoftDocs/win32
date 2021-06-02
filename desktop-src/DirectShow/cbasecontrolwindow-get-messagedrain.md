@@ -1,5 +1,5 @@
 ---
-Description: The get\_MessageDrain method retrieves the current message drain.
+description: The get\_MessageDrain method retrieves the current message drain.
 ms.assetid: d679e7f7-4628-479b-b722-843cdd91ffe6
 title: CBaseControlWindow.get_MessageDrain method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Messages sent to the video renderer filter can be posted to another window. The 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

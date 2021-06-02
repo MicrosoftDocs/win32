@@ -1,5 +1,5 @@
 ---
-Description: A video window is being activated or deactivated.
+description: A video window is being activated or deactivated.
 ms.assetid: 2e004899-bb2b-4127-b606-e2a979275836
 title: EC_ACTIVATE (Dshow.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ This event enables the filter graph manager to allocate resources that depend on
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

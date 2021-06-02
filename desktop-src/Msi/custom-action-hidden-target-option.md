@@ -1,5 +1,5 @@
 ---
-Description: Use the following option flags to specify that the installer not write the value entered into the Target field of the CustomAction table into the log. To set the option add the value in this table to the value in the Type field of the CustomAction table.
+description: Use the following option flags to specify that the installer not write the value entered into the Target field of the CustomAction table into the log. To set the option add the value in this table to the value in the Type field of the CustomAction table.
 ms.assetid: b0f99851-a774-4804-8c85-f94943c2d2b0
 title: Custom Action Hidden Target Option
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: This table contains the icon files. Each icon from the table is copied to a file as a part of product advertisement to be used for advertised shortcuts and OLE servers. See OLE Limitations on Streams.
+description: This table contains the icon files. Each icon from the table is copied to a file as a part of product advertisement to be used for advertised shortcuts and OLE servers. See OLE Limitations on Streams.
 ms.assetid: a59c552a-21c0-4dd4-9146-88a5f9a22962
 title: Icon Table
 ms.topic: article

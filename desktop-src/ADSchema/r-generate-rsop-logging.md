@@ -21,7 +21,7 @@ The user who has the rights on an OU or Domain will be able to generate logging 
 
 
 
-|              |                                            |
+| Entry | Value |
 |--------------|--------------------------------------------|
 | CN           | Generate-RSoP-Logging                      |
 | Display-Name | Generate Resultant Set of Policy (Logging) |
@@ -41,7 +41,7 @@ The user who has the rights on an OU or Domain will be able to generate logging 
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 58                                                                                                          |
@@ -52,7 +52,7 @@ The user who has the rights on an OU or Domain will be able to generate logging 
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 58                                                                                                          |
@@ -63,7 +63,7 @@ The user who has the rights on an OU or Domain will be able to generate logging 
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 58                                                                                                          |
@@ -74,7 +74,7 @@ The user who has the rights on an OU or Domain will be able to generate logging 
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 58                                                                                                          |
@@ -85,7 +85,7 @@ The user who has the rights on an OU or Domain will be able to generate logging 
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 58                                                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetMetadataQueryWriter method.
+description: IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy function - Proxy function for the GetMetadataQueryWriter method.
 ms.assetid: 64d2c6d8-f1dd-4397-8487-4d23c69aea82
 title: IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

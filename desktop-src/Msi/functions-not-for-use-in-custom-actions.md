@@ -1,5 +1,5 @@
 ---
-Description: The following Database Functions must never be called from a custom action.
+description: The following Database Functions must never be called from a custom action.
 ms.assetid: 55fdd82b-9f34-4c2c-a837-8a09f21f568a
 title: Functions Not for Use in Custom Actions
 ms.topic: article

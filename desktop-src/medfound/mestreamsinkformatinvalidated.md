@@ -1,5 +1,5 @@
 ---
-Description: Sent by a stream sink when the downstream format has become invalidated and it needs to be renegotiated.
+description: Sent by a stream sink when the downstream format has become invalidated and it needs to be renegotiated.
 ms.assetid: 732B3BDD-F394-430F-B895-AF18ED61114D
 title: MEStreamSinkFormatInvalidated event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Data that was queued to the sink, past the current playback position, should be 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                                           |

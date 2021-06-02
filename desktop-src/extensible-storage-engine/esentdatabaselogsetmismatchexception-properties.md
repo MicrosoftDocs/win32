@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLogSetMismatchException properties"
 title: EsentDatabaseLogSetMismatchException properties
 TOCTitle: EsentDatabaseLogSetMismatchException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseLogSetMismatchException](dn334359\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseLogSetMismatchException](./esentdatabaselogsetmismatchexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseLogSetMismatchException class](dn334359\(v=exchg.10\).md)
+[EsentDatabaseLogSetMismatchException class](./esentdatabaselogsetmismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

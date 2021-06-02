@@ -1,5 +1,5 @@
 ---
-Description: The NotifyMediaType method informs the object of the current media type.
+description: The NotifyMediaType method informs the object of the current media type.
 ms.assetid: 6fb708ff-e968-4867-baca-ebe2515c9fab
 title: CImageAllocator.NotifyMediaType method (Winutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The **CImageAllocator** object stores the *pMediaType* pointer in the **m\_pMedi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

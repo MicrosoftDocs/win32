@@ -1,5 +1,5 @@
 ---
-Description: Requests to indicate that the graphics log has new data inside of it.
+description: Requests to indicate that the graphics log has new data inside of it.
 MS-HAID: vspixengine.IPixEngine2\_OnNewDataAvailable\_BOOL\_BOOL\_INT64\_INT64\_INT32\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

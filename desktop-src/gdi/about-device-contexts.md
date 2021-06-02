@@ -1,5 +1,5 @@
 ---
-Description: Device independence is one of the chief features of Microsoft Windows.
+description: Device independence is one of the chief features of Microsoft Windows.
 ms.assetid: f2a4c4cf-55e9-4129-8067-256552af49d2
 title: About Device Contexts
 ms.topic: article

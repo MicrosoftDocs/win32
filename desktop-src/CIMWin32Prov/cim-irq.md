@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_IRQ class represents an Intel architecture interrupt request line (IRQ).
+description: The CIM\_IRQ class represents an Intel architecture interrupt request line (IRQ).
 ms.assetid: d72d4914-c57b-496d-a9fe-d8f5b522504c
 ms.tgt_platform: multiple
 title: CIM_IRQ class
@@ -493,7 +493,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

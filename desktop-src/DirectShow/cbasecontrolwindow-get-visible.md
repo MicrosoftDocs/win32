@@ -1,5 +1,5 @@
 ---
-Description: The get\_Visible method retrieves the current window visibility.
+description: The get\_Visible method retrieves the current window visibility.
 ms.assetid: 7e643569-1116-4562-be33-babd12a7e899
 title: CBaseControlWindow.get_Visible method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function returns  1 if the window has the WS\_VISIBLE style; 0 other
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

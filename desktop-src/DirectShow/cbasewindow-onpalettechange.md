@@ -1,5 +1,5 @@
 ---
-Description: The OnPaletteChange method handles palette-change messages.
+description: The OnPaletteChange method handles palette-change messages.
 ms.assetid: 2abae4f1-fbd0-4a32-8772-012fa96b6d6c
 title: CBaseWindow.OnPaletteChange method (Winutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method handles WM\_PALETTECHANGED and WM\_QUERYNEWPALETTE messages. It call
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

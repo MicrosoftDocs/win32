@@ -1,5 +1,5 @@
 ---
-Description: Mark of the app container. The zone identifier as determined by the file's last writer.
+description: Mark of the app container. The zone identifier as determined by the file's last writer.
 ms.assetid: 39f3dc07-8f13-4a76-a39a-7d7092f64378
 title: System.AppZoneIdentifier
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileSizeMismatchException members"
 title: EsentLogFileSizeMismatchException members
 TOCTitle: EsentLogFileSizeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogFileSizeMismatch exceptions.
 
-The [EsentLogFileSizeMismatchException](dn334627\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFileSizeMismatchException](./esentlogfilesizemismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogFileSizeMismatchException class](dn334627\(v=exchg.10\).md)
+[EsentLogFileSizeMismatchException class](./esentlogfilesizemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

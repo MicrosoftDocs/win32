@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Photo\_SubjectDistance.
+description: The denominator of PKEY\_Photo\_SubjectDistance.
 ms.assetid: 8ec59d52-f79f-40d1-9b02-671b866ccd8d
 title: System.Photo.SubjectDistanceDenominator
 ms.topic: article

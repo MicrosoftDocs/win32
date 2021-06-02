@@ -1,6 +1,6 @@
 ---
 title: Image Mastering API
-description: .
+description: Image Mastering API
 ms.assetid: 4902d3fb-3195-4909-ab64-28f8a77ba14c
 ms.topic: article
 ms.date: 05/31/2018

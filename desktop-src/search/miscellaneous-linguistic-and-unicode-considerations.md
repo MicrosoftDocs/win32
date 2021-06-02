@@ -1,5 +1,5 @@
 ---
-Description: This topic describes stemming considerations for agglutinative languages and Unicode surrogate pairs, and for using surrogate pairs to extend the Unicode character set to accommodate different character sets.
+description: This topic describes stemming considerations for agglutinative languages and Unicode surrogate pairs, and for using surrogate pairs to extend the Unicode character set to accommodate different character sets.
 ms.assetid: 7104b2da-2ece-46ce-b4ca-6c24dc4d6677
 title: Miscellaneous Linguistic and Unicode Considerations
 ms.topic: article

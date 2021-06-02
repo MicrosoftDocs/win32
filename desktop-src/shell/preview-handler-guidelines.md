@@ -1,5 +1,5 @@
 ---
-Description: When you provide a preview, the following guidelines should be followed.
+description: When you provide a preview, the following guidelines should be followed.
 title: Preview Handler Guidelines
 ms.topic: article
 ms.date: 05/31/2018

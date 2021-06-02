@@ -1,5 +1,5 @@
 ---
-Description: The LoadXML method loads property data expressed in Extensible Markup Language (XML).
+description: The LoadXML method loads property data expressed in Extensible Markup Language (XML).
 ms.assetid: cc67e7e0-a6e0-43d1-b35d-5d64caf24e6e
 title: IPropertySetter::LoadXML method (Qedit.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ To use this method, create an **IXMLDocument** object and use it to parse an XML
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

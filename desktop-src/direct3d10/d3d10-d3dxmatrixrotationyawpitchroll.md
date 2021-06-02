@@ -1,5 +1,5 @@
 ---
-Description: Builds a matrix with a specified yaw, pitch, and roll.
+description: D3DXMatrixRotationYawPitchRoll function (D3DX10Math.h) - Builds a matrix with a specified yaw, pitch, and roll.
 ms.assetid: a3ef2b57-275f-484a-88fc-aaa5e470717c
 title: D3DXMatrixRotationYawPitchRoll function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixRotationYawPitchRoll function
+# D3DXMatrixRotationYawPitchRoll function (D3DX10Math.h)
 
 Builds a matrix with a specified yaw, pitch, and roll.
 
@@ -92,7 +92,7 @@ The order of transformations is roll first, then pitch, then yaw. Relative to th
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

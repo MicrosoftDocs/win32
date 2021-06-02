@@ -1,5 +1,5 @@
 ---
-Description: The Seek method changes the seek pointer to a new location relative to the beginning of the buffer, to the end of the buffer, or to the current seek pointer.
+description: The Seek method changes the seek pointer to a new location relative to the beginning of the buffer, to the end of the buffer, or to the current seek pointer.
 ms.assetid: 3541f3dd-7b92-4f72-89b7-4e04e007aaa3
 title: IByteBuffer::Seek method (Scardssp.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

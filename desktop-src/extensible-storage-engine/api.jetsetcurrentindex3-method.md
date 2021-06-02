@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetCurrentIndex3 method"
 title: Api.JetSetCurrentIndex3 method 
 TOCTitle: 'JetSetCurrentIndex3 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetCurrentIndex3(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.String,Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit,System.Int32)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Set the current index of a cursor.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -66,14 +67,14 @@ public static void JetSetCurrentIndex3(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to set the index on.
 
@@ -87,7 +88,7 @@ public static void JetSetCurrentIndex3(
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit](hh558524\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.SetCurrentIndexGrbit](./setcurrentindexgrbit-enumeration.md)  
     
     Set index options.
 
@@ -96,14 +97,14 @@ public static void JetSetCurrentIndex3(
   - itagSequence  
     Type: [System.Int32](/dotnet/api/system.int32)  
     
-    Sequence number of the multi-valued column value which will be used to position the cursor on the new index. This parameter is only used in conjunction with [NoMove](hh558524\(v=exchg.10\).md). When this parameter is not present or is set to zero, its value is presumed to be 1.
+    Sequence number of the multi-valued column value which will be used to position the cursor on the new index. This parameter is only used in conjunction with [NoMove](./setcurrentindexgrbit-enumeration.md). When this parameter is not present or is set to zero, its value is presumed to be 1.
 
 ## See also
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

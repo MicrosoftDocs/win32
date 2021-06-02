@@ -1,5 +1,5 @@
 ---
-Description: IEnumUserIdentity::Next is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IEnumUserIdentity::Next is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 2c8dfe36-c1bb-49f8-8847-f355cfab2984
 title: IEnumUserIdentity::Next method (Msident.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The value of *celt* should not exceed the value returned by [**IEnumUserIdentity
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

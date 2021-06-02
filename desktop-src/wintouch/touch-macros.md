@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Macros
+# Macros (Windows Touch Input)
 
 The following macros are used for Windows Touch input.
 

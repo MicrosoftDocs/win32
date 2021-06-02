@@ -1,5 +1,5 @@
 ---
-Description: The C++ interface to Windows GDI+ contains about 40 classes, 50 enumerations, and 6 structures. There are also a few functions that are not members of any class.
+description: The C++ interface to Windows GDI+ contains about 40 classes, 50 enumerations, and 6 structures. There are also a few functions that are not members of any class.
 ms.assetid: 46051bfa-b842-4e4e-bda8-e9003b5b5da4
 title: The Structure of the Class-Based Interface
 ms.topic: article

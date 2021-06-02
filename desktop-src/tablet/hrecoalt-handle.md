@@ -1,5 +1,5 @@
 ---
-Description: The HRECOALT handle is obsolete.
+description: The HRECOALT handle is obsolete.
 ms.assetid: de3242f4-bce3-4139-9cb4-85eb33f375b1
 title: HRECOALT Handle (Recapis.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ These functions are obsolete and need not be implemented by custom application r
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                        |
 | Minimum supported server<br/> | None supported<br/>                                                            |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchException members"
 title: EsentLogSectorSizeMismatchException members
 TOCTitle: EsentLogSectorSizeMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogSectorSizeMismatch exceptions.
 
-The [EsentLogSectorSizeMismatchException](dn334646\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogSectorSizeMismatchException](./esentlogsectorsizemismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogSectorSizeMismatchException class](dn334646\(v=exchg.10\).md)
+[EsentLogSectorSizeMismatchException class](./esentlogsectorsizemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

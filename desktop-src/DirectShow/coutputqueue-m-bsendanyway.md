@@ -1,5 +1,5 @@
 ---
-Description: Flag to override batch processing. Setting this flag to TRUE overrides the COutputQueue::m\_bBatchExact flag and delivers all pending samples.
+description: Flag to override batch processing. Setting this flag to TRUE overrides the COutputQueue::m\_bBatchExact flag and delivers all pending samples.
 ms.assetid: 95ea6973-65c0-40c9-be22-c2a20a60b459
 title: COutputQueue::m_bSendAnyway member (Outputq.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ BOOL m_bSendAnyway;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

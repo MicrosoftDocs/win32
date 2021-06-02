@@ -1,5 +1,5 @@
 ---
-Description: Describes video content&\#8211;protection capabilities that a graphics driver can provide.
+description: Describes video content&\#8211;protection capabilities that a graphics driver can provide.
 ms.assetid: FD0625BB-484A-43E6-8931-DB635D4F017F
 title: GPU-Based Content Protection
 ms.topic: article

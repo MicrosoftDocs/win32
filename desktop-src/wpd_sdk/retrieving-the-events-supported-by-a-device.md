@@ -1,5 +1,5 @@
 ---
-Description: Retrieving the Events Supported by a Device
+description: Retrieving the Events Supported by a Device
 ms.assetid: 951b300f-03de-4a3d-9356-e3a7b5b17fdb
 title: Retrieving the Events Supported by a Device
 ms.topic: article

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_BKINFO operators"
 title: JET_BKINFO operators
 TOCTitle: JET_BKINFO operators
 ms:assetid: cb271c1b-2cef-aa6f-1676-2fb33a236ba4
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_BKINFO](hh577892\(v=exchg.10\).md) type exposes the following members.
+The [JET_BKINFO](./jet-bkinfo-structure2.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](./jet-bkinfo-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

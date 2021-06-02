@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property consisting of an array of Sint32 elements.
+description: Represents a PnP device property consisting of an array of Sint32 elements.
 ms.assetid: 8CA6421B-6AC7-4590-9142-4093AA7BE019
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint32Array class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

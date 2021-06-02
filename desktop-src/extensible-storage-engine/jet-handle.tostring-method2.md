@@ -1,5 +1,6 @@
 ---
-title: JET_HANDLE.ToString method 
+description: "Learn more about: JET_HANDLE.ToString method"
+title: JET_HANDLE.ToString method
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_HANDLE.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_handle.tostring(v=EXCHG.10)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the structure.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,10 +55,10 @@ The structure as a string.
 
 #### Reference
 
-[JET_HANDLE structure](hh558081\(v=exchg.10\).md)
+[JET_HANDLE structure](./jet-handle-structure.md)
 
-[JET_HANDLE members](hh557479\(v=exchg.10\).md)
+[JET_HANDLE members](./jet-handle-members.md)
 
-[ToString overload](hh557848\(v=exchg.10\).md)
+[ToString overload](./jet-handle.tostring-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

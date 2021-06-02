@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the unique private key container name.
+description: Retrieves the unique private key container name.
 ms.assetid: 2f1315b7-0b12-45d6-8dac-80331bd84ffd
 title: PrivateKey.UniqueContainerName property
 ms.topic: reference
@@ -38,7 +38,7 @@ A string that contains the unique private key container name.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

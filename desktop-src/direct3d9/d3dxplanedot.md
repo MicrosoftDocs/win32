@@ -1,5 +1,5 @@
 ---
-Description: Computes the dot product of a plane and a 4D vector.
+description: Computes the dot product of a plane and a 4D vector.
 ms.assetid: e6232ca8-52cc-472d-8bdb-4f8dfc520d4f
 title: D3DXPlaneDot function (D3dx9math.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Given a plane (a, b, c, d) and a 4D vector (x, y, z, w) the return value of this
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

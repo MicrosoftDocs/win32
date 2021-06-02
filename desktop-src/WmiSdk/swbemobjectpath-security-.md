@@ -1,5 +1,5 @@
 ---
-Description: The Security property of the SWbemObjectPath object is used to get or set the security components of an object path.
+description: The Security property of the SWbemObjectPath object is used to get or set the security components of an object path.
 ms.assetid: 26e5e990-3b78-41b6-83c4-ba0d8b0d2f00
 ms.tgt_platform: multiple
 title: SWbemObjectPath.Security_ property (Wbemdisp.h)
@@ -46,7 +46,7 @@ SWbemObjectPath.Security_ As Object
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

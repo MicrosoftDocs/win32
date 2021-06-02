@@ -1,5 +1,5 @@
 ---
-Description: The put\_WindowStyleEx method sets the extended window styles.
+description: The put\_WindowStyleEx method sets the extended window styles.
 ms.assetid: 3c5928fe-7cd3-4e1c-9a3f-fa6d7a73dbc3
 title: CBaseControlWindow.put_WindowStyleEx method (Ctlutil.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ With some exceptions (noted here), the acceptable flags are the same as those al
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

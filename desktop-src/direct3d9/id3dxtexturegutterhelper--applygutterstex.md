@@ -1,5 +1,5 @@
 ---
-Description: Applies gutters to an IDirect3DTexture9 texture object.
+description: Applies gutters to an IDirect3DTexture9 texture object.
 ms.assetid: e8f4a4cf-4d3b-419b-9486-08aa3bd3d8a4
 title: ID3DXTextureGutterHelper::ApplyGuttersTex method (D3DX9Mesh.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The width and height of the texture must be the same as those returned by [**ID3
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

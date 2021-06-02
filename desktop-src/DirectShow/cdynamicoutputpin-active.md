@@ -1,5 +1,5 @@
 ---
-Description: The Active method notifies the pin that the filter is now active.
+description: CDynamicOutputPin.Active method - The Active method notifies the pin that the filter is now active.
 ms.assetid: c2b8eb54-1bae-4f52-8324-dc70e3cac577
 title: CDynamicOutputPin.Active method (Amfilter.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This method overrides the [**CBaseOutputPin::Active**](cbaseoutputpin-active.md)
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

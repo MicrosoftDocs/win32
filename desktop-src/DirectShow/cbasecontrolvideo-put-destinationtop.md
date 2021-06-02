@@ -1,5 +1,5 @@
 ---
-Description: The put\_DestinationTop method sets the top coordinate of the destination rectangle.
+description: The put\_DestinationTop method sets the top coordinate of the destination rectangle.
 ms.assetid: d18996ac-85f2-4778-b0aa-1bc0c4d5f7d9
 title: CBaseControlVideo.put_DestinationTop method (Ctlutil.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

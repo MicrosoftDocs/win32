@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information about the currently loaded set of modules for the system.
+description: Retrieves information about the currently loaded set of modules for the system.
 ms.assetid: d3dc57e3-2c42-46cb-9af0-5f06bff60ad9
 title: AuxKlibQueryModuleInformation function (Aux\_klib.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ The object library that implements this API can be downloaded from [here](https:
 
 
 
-|                            |                                                                                          |
+| Requirement | Value |
 |----------------------------|------------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Auxiliary API library version 1.0 or later<br/>                            |
 | Header<br/>          | <dl> <dt>Aux\_klib.h</dt> </dl>   |

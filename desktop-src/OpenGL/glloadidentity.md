@@ -53,7 +53,7 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 The **glLoadIdentity** function replaces the current matrix with the identity matrix. It is semantically equivalent to calling [**glLoadMatrix**](glloadmatrix.md) with the following identity matrix.
 
-![](images/load01.png)
+![Diagram showing the identity matrix that glLoadIdentity calls.](images/load01.png)
 
 However, in some cases, it is more efficient.
 
@@ -71,7 +71,7 @@ The following functions retrieve information related to **glLoadIdentity**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

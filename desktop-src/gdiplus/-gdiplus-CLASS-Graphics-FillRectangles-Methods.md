@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the FillRectangles methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the FillRectangles methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: 705d1728-5742-4ed0-bea3-651b3ba40b40
 title: Graphics.FillRectangles methods (Gdiplusgraphics.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the FillRectangles methods of the [**Graphics**](/windows/win32
 
 
 
-|                   |                                                                                              |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplusgraphics.h</dt> </dl> |
 

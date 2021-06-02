@@ -1,5 +1,5 @@
 ---
-Description: Contains methods that obtain the raw content of Video Input Definition of Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) v.1.x standard 128-byte data blocks.
+description: Contains methods that obtain the raw content of Video Input Definition of Video Electronics Standard Association (VESA) Enhanced Extended Display Identification Data (E-EDID) v.1.x standard 128-byte data blocks.
 ms.assetid: 'c13d4ddd-d171-44d5-9e70-3a6f89ad55da'
 title: WmiMonitorDescriptorMethods class
 ms.topic: reference
@@ -91,7 +91,7 @@ Name of the specific monitor instance.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

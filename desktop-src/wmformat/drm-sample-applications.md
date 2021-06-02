@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Sample Applications
+# Microsoft Windows Media DRM Client Sample Applications
 
 The sample applications that use the Windows Media DRM Client Extended APIs are provided as projects for Microsoft Visual Studio 2005.
 

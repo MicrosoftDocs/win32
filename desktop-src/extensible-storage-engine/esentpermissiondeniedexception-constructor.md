@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPermissionDeniedException constructor"
 title: EsentPermissionDeniedException constructor 
 TOCTitle: 'EsentPermissionDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPermissionDeniedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentPermissionDeniedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentPermissionDeniedException()
 
 #### Reference
 
-[EsentPermissionDeniedException class](dn319785\(v=exchg.10\).md)
+[EsentPermissionDeniedException class](./esentpermissiondeniedexception-class.md)
 
-[EsentPermissionDeniedException members](dn319792\(v=exchg.10\).md)
+[EsentPermissionDeniedException members](./esentpermissiondeniedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

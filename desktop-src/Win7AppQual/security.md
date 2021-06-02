@@ -1,12 +1,12 @@
 ---
-Description: .
+description: Security (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.assetid: 87331C1D-F468-4CA4-92BD-D4E5D4E930BC
 title: Security (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Security
+# Security (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 
 Starting with Windows Internet Explorer 7, Windows Internet Explorer runs in a security context called *Protected Mode* when users run it on the Windows Vista operating system or a later version. This mode runs Internet Explorer in a lower-privilege setting than a standard user application so certain functionality is limited, especially ActiveX controls and certain types of plug-ins. For more information about Protected Mode in Internet Explorer and its impact on compatibility, see [Understanding and Working in Protected Mode Internet Explorer](/previous-versions/windows/internet-explorer/ie-developer/) in the MSDN Library.
 

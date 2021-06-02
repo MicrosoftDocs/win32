@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentEndingRestoreLogTooLowException members"
 title: EsentEndingRestoreLogTooLowException members
 TOCTitle: EsentEndingRestoreLogTooLowException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.EndingRestoreLogTooLow exceptions.
 
-The [EsentEndingRestoreLogTooLowException](dn274239\(v=exchg.10\).md) type exposes the following members.
+The [EsentEndingRestoreLogTooLowException](./esentendingrestorelogtoolowexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentEndingRestoreLogTooLowException class](dn274239\(v=exchg.10\).md)
+[EsentEndingRestoreLogTooLowException class](./esentendingrestorelogtoolowexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

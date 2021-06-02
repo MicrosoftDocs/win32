@@ -14,9 +14,10 @@ The output-merger (OM) stage generates the final rendered pixel color using a co
 
 
 
-|                                                                                                                                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10: Direct3D 9 implements alpha testing (using [alpha-testing state](/windows/desktop/direct3d9/alpha-testing-state)) to control whether a pixel is written to an output render target.<br/> Direct3D 10 and higher does not implement an alpha test (or alpha testing state). This can be controlled using a pixel shader or with depth/stencil functionality.<br/> |
+Differences between Direct3D 9 and Direct3D 10:
+
+- Direct3D 9 implements alpha testing (using [alpha-testing state](/windows/desktop/direct3d9/alpha-testing-state)) to control whether a pixel is written to an output render target.
+- Direct3D 10 and higher does not implement an alpha test (or alpha testing state). This can be controlled using a pixel shader or with depth/stencil functionality.
 
 
 
@@ -52,11 +53,10 @@ Fixed-function blend can be enabled independently for each render target. Howeve
 
 When you use sRGB render targets, the runtime converts the render target color into linear space before it performs blending. The runtime converts the final blended value back into sRGB space before it saves the value back to the render target.
 
+Differences between Direct3D 9 and Direct3D 10:
 
-
-|                                                                                                                                                                                                                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10: In Direct3D 9, fixed-function blending can be enabled independently for each render target.<br/> In Direct3D 10 and higher, there is one blend-state description; therefore, one blending value can be set for all render targets.<br/> |
+- In Direct3D 9, fixed-function blending can be enabled independently for each render target.
+- In Direct3D 10 and higher, there is one blend-state description; therefore, one blending value can be set for all render targets.
 
 
 

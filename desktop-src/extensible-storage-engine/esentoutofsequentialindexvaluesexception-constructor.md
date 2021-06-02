@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSequentialIndexValuesException constructor"
 title: EsentOutOfSequentialIndexValuesException constructor 
 TOCTitle: 'EsentOutOfSequentialIndexValuesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfSequentialIndexValuesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOutOfSequentialIndexValuesException()
 
 #### Reference
 
-[EsentOutOfSequentialIndexValuesException class](dn319807\(v=exchg.10\).md)
+[EsentOutOfSequentialIndexValuesException class](./esentoutofsequentialindexvaluesexception-class.md)
 
-[EsentOutOfSequentialIndexValuesException members](dn319753\(v=exchg.10\).md)
+[EsentOutOfSequentialIndexValuesException members](./esentoutofsequentialindexvaluesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

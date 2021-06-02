@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointDepthTooDeepException methods"
 title: EsentCheckpointDepthTooDeepException methods
 TOCTitle: EsentCheckpointDepthTooDeepException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCheckpointDepthTooDeepException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCheckpointDepthTooDeepException](dn274195\(v=exchg.10\).md) type exposes the following members.
+The [EsentCheckpointDepthTooDeepException](./esentcheckpointdepthtoodeepexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentCheckpointDepthTooDeepException class](dn274195\(v=exchg.10\).md)
+[EsentCheckpointDepthTooDeepException class](./esentcheckpointdepthtoodeepexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

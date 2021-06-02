@@ -1,5 +1,5 @@
 ---
-Description: Draw several instances of the same subset of a mesh.
+description: Draw several instances of the same subset of a mesh.
 ms.assetid: 2a17ecdb-c6f3-401c-b7ed-8a42fe159de0
 title: ID3DX10Mesh::DrawSubsetInstanced method (D3DX10.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ A mesh contains an attribute table. The attribute table can divide a mesh into s
 
 
 
-|            |                 |
+| Subset     | Faces           |
 |------------|-----------------|
 | AttribID 0 | Faces 0 ~ 50    |
 | AttribID 1 | Faces 51 ~ 125  |
@@ -107,7 +107,7 @@ The following code illustrates extracting the vertex and index buffers from the 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

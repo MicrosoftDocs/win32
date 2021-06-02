@@ -1,5 +1,5 @@
 ---
-Description: Creates a mesh object using a declarator.
+description: D3DX10CreateMesh function - Creates a mesh object using a declarator.
 ms.assetid: 50e09378-2935-4b18-8fc9-5e58eaadae44
 title: D3DX10CreateMesh function (D3DX10Mesh.h)
 ms.topic: reference
@@ -124,7 +124,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

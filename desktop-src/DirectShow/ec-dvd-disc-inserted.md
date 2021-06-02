@@ -1,5 +1,5 @@
 ---
-Description: Signals that a DVD disc was inserted into the drive.
+description: Signals that a DVD disc was inserted into the drive.
 ms.assetid: ce233c94-2eae-457c-919b-7c4d8334979a
 title: EC_DVD_DISC_INSERTED (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in all domains.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

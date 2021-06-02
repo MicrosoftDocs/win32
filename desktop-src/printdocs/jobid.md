@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 138a0ae5-160d-46f2-91ae-596d8892351a
 title: JobID
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # JobID
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Specifies a unique ID for the job.
 
@@ -20,7 +20,7 @@ Specifies a unique ID for the job.
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Property<br/> |
 | Scoping Prefix <br/> | Job<br/>      |
@@ -66,7 +66,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

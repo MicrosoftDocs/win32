@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a media sample is hardware protected.
+description: Specifies whether a media sample is hardware protected.
 ms.assetid: 01241090-E596-4D4C-92BE-E8D38394B8EE
 title: MFSampleExtension_Encryption_HardwareProtection attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ A value of 0 indicates that the sample is not hardware protected. A non-zero val
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                               |

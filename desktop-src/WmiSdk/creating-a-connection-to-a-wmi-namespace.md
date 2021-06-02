@@ -1,5 +1,5 @@
 ---
-Description: After you have set the standard calls to COM, you must then connect to WMI through a call to the IWbemLocator::ConnectServer method.
+description: After you have set the standard calls to COM, you must then connect to WMI through a call to the IWbemLocator::ConnectServer method.
 ms.assetid: f0b33ff0-47b0-4aea-ab0f-9220ae367f67
 ms.tgt_platform: multiple
 title: Creating a Connection to a WMI Namespace

@@ -27,7 +27,7 @@ This attribute stores the trust attributes for a trusted domain. Possible attrib
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Trust-Attributes                     |
 | Ldap-Display-Name | trustAttributes                      |
@@ -53,7 +53,7 @@ This attribute stores the trust attributes for a trusted domain. Possible attrib
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -74,7 +74,7 @@ This attribute stores the trust attributes for a trusted domain. Possible attrib
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -95,7 +95,7 @@ This attribute stores the trust attributes for a trusted domain. Possible attrib
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -116,7 +116,7 @@ This attribute stores the trust attributes for a trusted domain. Possible attrib
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -137,7 +137,7 @@ This attribute stores the trust attributes for a trusted domain. Possible attrib
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -158,7 +158,7 @@ This attribute stores the trust attributes for a trusted domain. Possible attrib
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |

@@ -23,7 +23,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# CIM\_Setting class
+# CIM_Setting class (Remote Desktop Services)
 
 Represents configuration-related and operational parameters for one or more managed system elements.
 
@@ -201,7 +201,7 @@ This property is inherited from [**CIM\_ManagedSystemElement**](cim-managedsyste
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateHistoryEntryCollection interface defines the following properties.
+description: The IUpdateHistoryEntryCollection interface defines the following properties.
 ms.assetid: 1e28979f-8cf5-43d8-a85c-0753b72c7337
 title: IUpdateHistoryEntryCollection Properties
 ms.topic: article

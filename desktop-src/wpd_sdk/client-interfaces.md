@@ -1,5 +1,5 @@
 ---
-Description: Client Interfaces
+description: Client Interfaces
 ms.assetid: fbe53f17-940a-485e-82b2-c11ae39b3300
 title: Client Interfaces
 ms.topic: article

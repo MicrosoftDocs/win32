@@ -22,7 +22,7 @@ For a security principal claim type, lists the type of store the issued claim is
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Claim-Source-Type                     |
 | Ldap-Display-Name | msDS-ClaimSourceType                        |
@@ -43,7 +43,7 @@ For a security principal claim type, lists the type of store the issued claim is
 
 
 
-|                        |                                                         |
+| Entry | Value |
 |------------------------|---------------------------------------------------------|
 | Link-Id                | \-                                                      |
 | MAPI-Id                | \-                                                      |

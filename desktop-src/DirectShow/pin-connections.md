@@ -1,5 +1,5 @@
 ---
-Description: Pin Connections
+description: Pin Connections
 ms.assetid: 1406ade4-77d8-49a7-8f36-cc49ff007a26
 title: Pin Connections
 ms.topic: article

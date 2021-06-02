@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackNotResolvedException constructor"
 title: EsentCallbackNotResolvedException constructor 
 TOCTitle: 'EsentCallbackNotResolvedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCallbackNotResolvedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCallbackNotResolvedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentCallbackNotResolvedException()
 
 #### Reference
 
-[EsentCallbackNotResolvedException class](dn274063\(v=exchg.10\).md)
+[EsentCallbackNotResolvedException class](./esentcallbacknotresolvedexception-class.md)
 
-[EsentCallbackNotResolvedException members](dn274065\(v=exchg.10\).md)
+[EsentCallbackNotResolvedException members](./esentcallbacknotresolvedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

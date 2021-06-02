@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of voice activity detection that the Voice Capture DSP performs.
+description: Specifies the type of voice activity detection that the Voice Capture DSP performs.
 ms.assetid: 59c8e348-8c08-4cf8-9c72-8d0f4fabc473
 title: MFPKEY_WMAAECMA_FEATR_VAD Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The default value of this property is 0 (disabled). Before setting this property
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

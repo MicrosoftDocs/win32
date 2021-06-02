@@ -1,5 +1,5 @@
 ---
-Description: Describes WMI SNMP provider errors 1001 through 1010.
+description: Describes WMI SNMP provider errors 1001 through 1010.
 ms.assetid: dbc0e062-6b2f-41b1-8d6a-ab2c37d2dd1f
 ms.tgt_platform: multiple
 title: Errors 1001 through 1010

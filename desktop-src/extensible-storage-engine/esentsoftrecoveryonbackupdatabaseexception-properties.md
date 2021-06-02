@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSoftRecoveryOnBackupDatabaseException properties"
 title: EsentSoftRecoveryOnBackupDatabaseException properties
 TOCTitle: EsentSoftRecoveryOnBackupDatabaseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSoftRecoveryOnBackupDatabaseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSoftRecoveryOnBackupDatabaseException](dn334788\(v=exchg.10\).md) type exposes the following members.
+The [EsentSoftRecoveryOnBackupDatabaseException](./esentsoftrecoveryonbackupdatabaseexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSoftRecoveryOnBackupDatabaseException class](dn334788\(v=exchg.10\).md)
+[EsentSoftRecoveryOnBackupDatabaseException class](./esentsoftrecoveryonbackupdatabaseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOUPGRADE Structure"
 title: JET_DBINFOUPGRADE Structure
 TOCTitle: JET_DBINFOUPGRADE Structure
 ms:assetid: dd8a881a-33b5-4314-8cfb-b1d75ad37b21
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_DBINFOUPGRADE Structure
 
-The **JET_DBINFOUPGRADE** structure holds information about the upgrade status of the database. This value is retrieved only if **JET_DBINFOUPGRADE** was passed to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md). This structure is not required for current operating system versions of the database engine.
+The **JET_DBINFOUPGRADE** structure holds information about the upgrade status of the database. This value is retrieved only if **JET_DBINFOUPGRADE** was passed to [JetGetDatabaseInfo](./jetgetdatabaseinfo-function.md) or [JetGetDatabaseFileInfo](./jetgetdatabasefileinfo-function.md). This structure is not required for current operating system versions of the database engine.
 
 ```cpp
     typedef struct {
@@ -84,7 +85,7 @@ The database is upgraded to the current database format.
 
 ### Remarks
 
-A **JET_DBINFOUPGRADE** structure is populated by a call to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md). If the function does not succeed, the contents of the structure are undefined.
+A **JET_DBINFOUPGRADE** structure is populated by a call to [JetGetDatabaseInfo](./jetgetdatabaseinfo-function.md) or [JetGetDatabaseFileInfo](./jetgetdatabasefileinfo-function.md). If the function does not succeed, the contents of the structure are undefined.
 
 ### Requirements
 
@@ -112,12 +113,11 @@ A **JET_DBINFOUPGRADE** structure is populated by a call to [JetGetDatabaseInfo]
 
 ### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
-[JetGetObjectInfo](gg269232\(v=exchg.10\).md)  
-[JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  
-[JetGetTableInfo](gg269177\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetIndexInfo](./jetgetindexinfo-function.md)  
+[JetGetObjectInfo](./jetgetobjectinfo-function.md)  
+[JetGetTableIndexInfo](./jetgettableindexinfo-function.md)  
+[JetGetTableInfo](./jetgettableinfo-function.md)

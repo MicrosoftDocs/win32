@@ -1,5 +1,5 @@
 ---
-Description: The CBaseRenderer class is a base class for implementing renderer filters.
+description: The CBaseRenderer class is a base class for implementing renderer filters.
 ms.assetid: 8d39d3bd-6162-402e-a4b3-0f35d3e29b96
 title: CBaseRenderer class (Renbase.h)
 ms.topic: reference
@@ -146,7 +146,7 @@ When the upstream filter calls the [**IPin::EndOfStream**](/windows/desktop/api/
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

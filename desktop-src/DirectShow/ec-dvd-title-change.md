@@ -1,5 +1,5 @@
 ---
-Description: Indicates when the current DVD title number changes.
+description: Indicates when the current DVD title number changes.
 ms.assetid: 9888f2ec-fc2d-4d6d-a03d-b381373337eb
 title: EC_DVD_TITLE_CHANGE (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in the title domain.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

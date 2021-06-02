@@ -1,5 +1,5 @@
 ---
-Description: The get\_SourceWidth method retrieves the width of the current source rectangle.
+description: The get\_SourceWidth method retrieves the width of the current source rectangle.
 ms.assetid: e8e27f8f-57e5-489c-aae7-86493677b380
 title: CBaseControlVideo.get_SourceWidth method (Ctlutil.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

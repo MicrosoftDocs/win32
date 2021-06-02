@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces the metadata query language for Windows Imaging Component (WIC).
+description: This topic introduces the metadata query language for Windows Imaging Component (WIC).
 ms.assetid: 5ffa0a69-b53d-4be3-b802-deaaa743e6bd
 title: Metadata Query Language Overview
 ms.topic: article
@@ -201,22 +201,22 @@ The following table is a formal definition of the WIC metadata query language. E
 
 | Symbol                   | Expression                                                                                                                                                                  |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <path>             | <name> \| '/' <property path>                                                                                                                                   |
-| <property path>    | <metadata item> \| <property path> '/' <property path>                                                                                                    |
-| <metadata item>    | <index name> \| <item name> \| <schema name> ':' <item name>                                                                                        |
-| <schema name>      | <item name>                                                                                                                                                           |
-| <item name>        | <metadata item> \| <indexed item><index>                                                                                                                  |
-| <indexed item>     | <item> \| <implied metadata><item>                                                                                                                        |
-| <implied metadata> | '<'<name>'>'                                                                                                                                                    |
-| <item>             | <name> \| <index> <data> \| <data>                                                                                                                  |
-| <data>             | '{' <data type> '=' <value> '}'                                                                                                                                 |
-| <index>            | '\[' <number> \| <star> '\]'                                                                                                                                    |
-| <data type>        | 'char' \| 'uchar' \| 'short' \| 'ushort' \| 'long' \| 'ulong' \| 'int' \| 'uint' \| 'longlong' \| 'ulonglong' \| 'float' \| 'double' \| 'str' \| 'wstr' \| 'guid' \| 'bool' |
-| <data value>       | <number> \| <name> \| <guid>                                                                                                                              |
-| <star>             | '\*'                                                                                                                                                                        |
-| <number>           | number                                                                                                                                                                      |
-| <name>             | string                                                                                                                                                                      |
-| <guid>             | guid                                                                                                                                                                        |
+| \<path>             | \<name> \| '/' \<property path>                                                                                                                                   |
+| \<property path>    | \<metadata item> \| \<property path> '/' \<property path>                                                                                                    |
+| \<metadata item>    | \<index name> \| \<item name> \| \<schema name> ':' \<item name>                                                                                        |
+| \<schema name>      | \<item name>                                                                                                                                                           |
+| \<item name>        | \<metadata item> \| <indexed item><index>                                                                                                                  |
+| \<indexed item>     | \<item> \| \<implied metadata>\<item>                                                                                                                        |
+| \<implied metadata> | '<'\<name>'>'                                                                                                                                                    |
+| \<item>             | \<name> \| \<index> \<data> \| \<data>                                                                                                                  |
+| \<data>             | '{' \<data type> '=' \<value> '}'                                                                                                                                 |
+| \<index>            | '\[' \<number> \| \<star> '\]'                                                                                                                                    |
+| \<data type>        | 'char' \| 'uchar' \| 'short' \| 'ushort' \| 'long' \| 'ulong' \| 'int' \| 'uint' \| 'longlong' \| 'ulonglong' \| 'float' \| 'double' \| 'str' \| 'wstr' \| 'guid' \| 'bool' |
+| \<data value>       | \<number> \| \<name> \| \<guid>                                                                                                                              |
+| \<star>             | '\*'                                                                                                                                                                        |
+| \<number>           | number                                                                                                                                                                      |
+| \<name>             | string                                                                                                                                                                      |
+| \<guid>             | guid                                                                                                                                                                        |
 
 
 

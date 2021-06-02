@@ -1,5 +1,5 @@
 ---
-Description: Aggregates the processor resources that may be allocated to a virtual machine.
+description: Aggregates the processor resources that may be allocated to a virtual machine.
 ms.assetid: '73424568-fa6c-4ed8-9640-a67a6d2829f0'
 title: Msvm_ProcessorPool class
 ms.topic: reference
@@ -571,7 +571,7 @@ Access to the **Msvm\_ProcessorPool** class might be restricted by UAC Filtering
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

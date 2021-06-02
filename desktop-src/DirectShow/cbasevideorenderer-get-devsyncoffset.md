@@ -1,5 +1,5 @@
 ---
-Description: The get\_DevSyncOffset method retrieves the standard deviation of the time in milliseconds between when each frame was due and when it was actually rendered, for all frames since streaming started.
+description: The get\_DevSyncOffset method retrieves the standard deviation of the time in milliseconds between when each frame was due and when it was actually rendered, for all frames since streaming started.
 ms.assetid: 86f60064-f913-4377-bad0-148a213171fc
 title: CBaseVideoRenderer.get_DevSyncOffset method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the [**IQualProp::get\_DevSyncOffset**](/previou
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

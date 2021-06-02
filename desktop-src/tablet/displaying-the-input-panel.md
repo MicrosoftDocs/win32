@@ -1,5 +1,5 @@
 ---
-Description: Overview of displaying the input panel.
+description: Overview of displaying the input panel.
 ms.assetid: 6301dde1-e46b-42a0-ae0b-ccd984e9199b
 title: Displaying the Input Panel
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CMediaEvent.CMediaEvent constructor - Constructor method.
 ms.assetid: 7f7a0a9f-e531-4e22-8601-b84ab088e9e7
 title: CMediaEvent.CMediaEvent constructor (Ctlutil.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Allocate the *pName* parameter in static memory. This name appears on the debugg
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

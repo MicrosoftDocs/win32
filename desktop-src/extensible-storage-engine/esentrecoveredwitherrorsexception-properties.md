@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithErrorsException properties"
 title: EsentRecoveredWithErrorsException properties
 TOCTitle: EsentRecoveredWithErrorsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithErrorsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecoveredWithErrorsException](dn319863\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecoveredWithErrorsException](./esentrecoveredwitherrorsexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRecoveredWithErrorsException class](dn319863\(v=exchg.10\).md)
+[EsentRecoveredWithErrorsException class](./esentrecoveredwitherrorsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

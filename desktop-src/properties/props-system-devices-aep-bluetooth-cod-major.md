@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth class of device major code.
+description: Bluetooth class of device major code.
 ms.assetid: ea72cfee-74db-442f-82ad-36742b94cb77
 title: System.Devices.Aep.Bluetooth.Cod.Major
 ms.topic: article

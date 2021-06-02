@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRedoAbruptEndedException members"
 title: EsentRedoAbruptEndedException members
 TOCTitle: EsentRedoAbruptEndedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRedoAbruptEndedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RedoAbruptEnded exceptions.
 
-The [EsentRedoAbruptEndedException](dn319858\(v=exchg.10\).md) type exposes the following members.
+The [EsentRedoAbruptEndedException](./esentredoabruptendedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRedoAbruptEndedException class](dn319858\(v=exchg.10\).md)
+[EsentRedoAbruptEndedException class](./esentredoabruptendedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

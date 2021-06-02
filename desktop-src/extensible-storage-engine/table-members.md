@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table members"
 title: Table members
 TOCTitle: Table members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Table
@@ -15,7 +16,7 @@ Include inherited members
 
 A class that encapsulates a JET_TABLEID in a disposable object. This opens an existing table. To create a table use the JetCreateTable method.
 
-The [Table](dn351163\(v=exchg.10\).md) type exposes the following members.
+The [Table](./table-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -179,6 +180,6 @@ Top
 
 #### Reference
 
-[Table class](dn351163\(v=exchg.10\).md)
+[Table class](./table-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

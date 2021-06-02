@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Animations and Transitions
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Strategic use of animations and transitions can make your program easier to understand, feel smoother, more natural, and of higher quality, and be more engaging. But the gratuitous use of animations and transitions can make your program distracting and even annoying.
 
@@ -21,7 +21,7 @@ Microsoft Windows uses a background flash animation to give feedback that the ob
 
 Transitions are animations used to keep users oriented during user interface (UI) state changes and object manipulations, and make those changes feel smooth instead of jarring. Good transitions feel natural, often giving the illusion that users are interacting with real-world objects.
 
-![screen shot of three sizes of weather gadgets ](images/vis-animations-image2.png)
+![Screenshot that shows three sizes of weather gadgets.](images/vis-animations-image2.png)
 
 Windows Desktop Gadgets use smooth transitions between their concise and details states.
 
@@ -516,13 +516,12 @@ Transitions have several usage patterns:
 
 
 
-|                           |                                      |
-|---------------------------|--------------------------------------|
-| **Transition**<br/> | **Meaning**<br/>               |
-| From left<br/>      | Move back in task flow<br/>    |
-| From right<br/>     | Move forward in task flow<br/> |
-| From top<br/>       | Move up task hierarchy<br/>    |
-| From bottom<br/>    | Move down task hierarchy<br/>  |
+    | Transition                          | Meaning                                     |
+    |---------------------------|--------------------------------------|
+    | From left<br/>      | Move back in task flow<br/>    |
+    | From right<br/>     | Move forward in task flow<br/> |
+    | From top<br/>       | Move up task hierarchy<br/>    |
+    | From bottom<br/>    | Move down task hierarchy<br/>  |
 
 
 
@@ -647,6 +646,4 @@ Examples:
 -   You'll know that an item needs your attention when its icon starts bouncing.
 -   First, select the photos that you would like to print (note that the photos are enlarged upon selection).
 -   Use a cross-fade transition to change an object's state seamlessly.
-
- 
 

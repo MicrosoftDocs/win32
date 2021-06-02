@@ -1,5 +1,5 @@
 ---
-Description: Contains a SYNTAX clause that defines the data and type for the MIB object.
+description: Contains a SYNTAX clause that defines the data and type for the MIB object.
 ms.assetid: 24c483c8-db50-492f-9c2e-72620395331a
 ms.tgt_platform: multiple
 title: SYNTAX Clause

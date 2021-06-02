@@ -1,5 +1,5 @@
 ---
-Description: Displays the Taskbar and Start Menu Properties dialog box. This method has the same effect as right-clicking the taskbar and selecting Properties.
+description: Shell.TrayProperties method - Displays the Taskbar and Start Menu Properties dialog box. This method has the same effect as right-clicking the taskbar and selecting Properties.
 ms.assetid: 0d82d847-9e6f-461e-b938-fe8fd49a636f
 title: Shell.TrayProperties method (Shldisp.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

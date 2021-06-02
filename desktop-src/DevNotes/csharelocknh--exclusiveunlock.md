@@ -1,5 +1,5 @@
 ---
-Description: Releases a lock acquired by using ExclusiveLock to shared mode.
+description: Releases a lock acquired by using ExclusiveLock to shared mode.
 ms.assetid: d38354f0-2eb3-4924-99b5-1331e587ce32
 title: CShareLockNH::ExclusiveUnlock method
 ms.topic: reference
@@ -46,7 +46,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                     |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Rwnh.dll</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Negotiating Allocators
+description: Negotiating Allocators
 ms.assetid: fe13477c-1a7b-4098-9d0f-c54783102bc9
 title: Negotiating Allocators
 ms.topic: article
@@ -32,7 +32,7 @@ In an **IAsyncReader** connection, allocator negotiation works as follows:
 2.  The output pin selects an allocator. It can use the one provided by the input pin, if any, or create its own.
 3.  The output pin returns the allocator as an outgoing parameter in the **RequestAllocator** method. The input pin should check the allocator properties.
 4.  The input pin is responsible for committing and decommitting the allocator.
-5.  At any time during the allocator negoriation process, either pin can fail the connection.
+5.  At any time during the allocator negotiation process, either pin can fail the connection.
 6.  If the output pin uses the input pin's allocator, it can use that allocator only to deliver samples to that input pin. The owning filter must not use the allocator to deliver samples to other pins.
 
 ## Related topics

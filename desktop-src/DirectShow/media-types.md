@@ -1,5 +1,5 @@
 ---
-Description: Media types (DirectShow)
+description: Media types (DirectShow)
 ms.assetid: 'c8efe9e6-7d1d-4ec2-ab1b-70ee0798a6a3'
 title: Media Types
 ms.topic: article

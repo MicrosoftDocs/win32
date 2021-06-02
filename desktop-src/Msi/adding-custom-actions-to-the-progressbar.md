@@ -1,5 +1,5 @@
 ---
-Description: Custom Actions can add time and progress information to a ProgressBar control. For more information about creating an action display dialog box having a ProgressBar, see Authoring a ProgressBar Control.
+description: Custom Actions can add time and progress information to a ProgressBar control. For more information about creating an action display dialog box having a ProgressBar, see Authoring a ProgressBar Control.
 ms.assetid: 101e6b59-3791-450c-9dc6-8930bd665a93
 title: Adding Custom Actions to the ProgressBar
 ms.topic: article

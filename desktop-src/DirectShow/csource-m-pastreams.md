@@ -1,5 +1,5 @@
 ---
-Description: Array of pins belonging to this filter.
+description: Array of pins belonging to this filter.
 ms.assetid: 98d334ce-c161-40bb-a73f-26ae9ba8b90c
 title: CSource::m_paStreams member (Source.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CSourceStream **m_paStreams;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

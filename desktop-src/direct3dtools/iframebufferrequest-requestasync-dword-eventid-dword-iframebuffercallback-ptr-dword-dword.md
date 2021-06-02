@@ -1,5 +1,5 @@
 ---
-Description: Requests framebuffer output of the specified render target, event, and frame.
+description: Requests framebuffer output of the specified render target, event, and frame.
 MS-HAID: vspixengine.IFrameBufferRequest\_RequestAsync\_DWORD\_EventID\_DWORD\_IFrameBufferCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

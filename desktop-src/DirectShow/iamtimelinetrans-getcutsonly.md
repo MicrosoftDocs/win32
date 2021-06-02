@@ -1,5 +1,5 @@
 ---
-Description: The GetCutsOnly method determines whether the transition is rendered as a cut. If so, the transition occurs instantaneously at the cut point.
+description: The GetCutsOnly method determines whether the transition is rendered as a cut. If so, the transition occurs instantaneously at the cut point.
 ms.assetid: d7959816-1152-4bc4-b3f8-bed69b450530
 title: IAMTimelineTrans::GetCutsOnly method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

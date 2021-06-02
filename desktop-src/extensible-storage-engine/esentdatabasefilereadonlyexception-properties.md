@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseFileReadOnlyException properties"
 title: EsentDatabaseFileReadOnlyException properties
 TOCTitle: EsentDatabaseFileReadOnlyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseFileReadOnlyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseFileReadOnlyException](dn334306\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseFileReadOnlyException](./esentdatabasefilereadonlyexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseFileReadOnlyException class](dn334306\(v=exchg.10\).md)
+[EsentDatabaseFileReadOnlyException class](./esentdatabasefilereadonlyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

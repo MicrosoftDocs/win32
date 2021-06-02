@@ -1,12 +1,12 @@
 ---
-Description: This section contains information about the structures included in the D3DX utility library.
+description: This section contains information about the structures included in the D3DX utility library.
 ms.assetid: eee684f1-2d79-444b-86cd-322bf53ab756
 title: D3DX Structures (Direct3D 9 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# D3DX Structures
+# D3DX Structures (Direct3D 9 Graphics)
 
 This section contains information about the structures included in the D3DX utility library.
 

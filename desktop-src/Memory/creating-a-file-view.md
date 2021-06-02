@@ -1,5 +1,5 @@
 ---
-Description: To map the data from a file to the virtual memory of a process, you must create a view of the file.
+description: To map the data from a file to the virtual memory of a process, you must create a view of the file.
 ms.assetid: b1ebd9a4-cde4-4c0c-80d2-5ccb655cd3a4
 title: Creating a File View
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_NEEDNEWCABINET notification is sent by SetupIterateCabinet to indicate that the current file continues in another cabinet.
+description: The SPFILENOTIFY\_NEEDNEWCABINET notification is sent by SetupIterateCabinet to indicate that the current file continues in another cabinet.
 ms.assetid: 01207429-11fb-4e2c-89ba-54321992e953
 title: SPFILENOTIFY_NEEDNEWCABINET message (Setupapi.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Your callback function should ensure that the cabinet is accessible before it re
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: The following C# sample retrieves and displays physical and virtual network information for the specified switch.
+description: The following C# sample retrieves and displays physical and virtual network information for the specified switch.
 ms.assetid: 679168E2-C79F-4A7A-8C04-A309315CA670
 title: Querying networking objects
 ms.topic: article

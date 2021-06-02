@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherBlue(S,float,int2,int2,int2,int2) function
-description: Samples a texture and returns the blue component.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation. | Texture2D::GatherBlue(S,float,int2,int2,int2,int2) function
 ms.assetid: 0FFD3D82-E849-4C19-BEBC-85B9CCA40CA0
 keywords:
 - GatherBlue function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # GatherBlue(S,float,int2,int2,int2,int2) function
 
-Samples a texture and returns the blue component.
+Returns the blue components of the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 

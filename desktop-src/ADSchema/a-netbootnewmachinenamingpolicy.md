@@ -22,7 +22,7 @@ Indicates the naming scheme which new client computer accounts will use.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | netboot-New-Machine-Naming-Policy           |
 | Ldap-Display-Name | netbootNewMachineNamingPolicy               |
@@ -48,7 +48,7 @@ Indicates the naming scheme which new client computer accounts will use.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -69,7 +69,7 @@ Indicates the naming scheme which new client computer accounts will use.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -90,7 +90,7 @@ Indicates the naming scheme which new client computer accounts will use.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -111,7 +111,7 @@ Indicates the naming scheme which new client computer accounts will use.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -132,7 +132,7 @@ Indicates the naming scheme which new client computer accounts will use.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -153,7 +153,7 @@ Indicates the naming scheme which new client computer accounts will use.
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |

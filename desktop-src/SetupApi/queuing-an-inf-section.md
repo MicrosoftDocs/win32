@@ -1,5 +1,5 @@
 ---
-Description: In addition to queuing file operations individually, you can also queue all the files listed in an INF section.
+description: In addition to queuing file operations individually, you can also queue all the files listed in an INF section.
 ms.assetid: 456e1a19-7e9b-40c8-9295-42bb8f740f58
 title: Queuing an INF Section
 ms.topic: article

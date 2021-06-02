@@ -1,5 +1,5 @@
 ---
-Description: The get\_OffsetY method retrieves the vertical offset of the target rectangle.
+description: The get\_OffsetY method retrieves the vertical offset of the target rectangle.
 ms.assetid: 78bb3565-7a98-4a64-a2f2-6c34edb47733
 title: IDxtCompositor::get_OffsetY method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

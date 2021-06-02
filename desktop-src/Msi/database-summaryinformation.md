@@ -1,5 +1,5 @@
 ---
-Description: The SummaryInformation property of the Database object returns a SummaryInfo object that can be used to examine, update, and add properties to the summary information stream.
+description: The SummaryInformation property of the Database object returns a SummaryInfo object that can be used to examine, update, and add properties to the summary information stream.
 ms.assetid: 6892a8c0-c99e-4dcb-b6cb-d470ffceab69
 title: Database.SummaryInformation property
 ms.topic: reference
@@ -44,7 +44,7 @@ If the property fails, you can obtain extended error information by using the [*
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

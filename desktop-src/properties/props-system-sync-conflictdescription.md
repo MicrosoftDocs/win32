@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Sync.ConflictDescription
 ms.assetid: a54f8cd9-fe6d-4ddc-bf00-261681cb6366
 title: System.Sync.ConflictDescription
 ms.topic: article

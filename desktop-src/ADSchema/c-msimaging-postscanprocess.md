@@ -22,7 +22,7 @@ Enterprise Scan Post Scan Process object.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Imaging-PostScanProcess           |
 | Ldap-Display-Name | msImaging-PostScanProcess            |
@@ -43,7 +43,7 @@ Enterprise Scan Post Scan Process object.
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |
@@ -192,7 +192,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |

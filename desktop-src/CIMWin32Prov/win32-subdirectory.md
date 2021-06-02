@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SubDirectory association WMI class relates a directory (folder) and one of its subdirectories (subfolders).
+description: The Win32\_SubDirectory association WMI class relates a directory (folder) and one of its subdirectories (subfolders).
 ms.assetid: f0565b7b-d593-468b-96b1-3922428c61e1
 ms.tgt_platform: multiple
 title: Win32_SubDirectory class
@@ -111,7 +111,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

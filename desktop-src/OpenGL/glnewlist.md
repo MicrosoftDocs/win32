@@ -1,6 +1,6 @@
 ---
 title: glNewList function (Gl.h)
-description: The glNewList and glEndList functions create or replace a display list.
+description: The glNewList and glEndList functions create or replace a display list. | glNewList function (Gl.h)
 ms.assetid: 9c6556d4-855f-4cba-94cc-27b5f1e4607a
 keywords:
 - glNewList function OpenGL
@@ -101,7 +101,7 @@ The following function retrieves information related to **glNewList**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

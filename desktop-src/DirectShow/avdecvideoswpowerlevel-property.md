@@ -1,5 +1,5 @@
 ---
-Description: Specifies the power-saving level of a video decoder.
+description: Specifies the power-saving level of a video decoder.
 ms.assetid: 7e2ff8be-b21f-4833-a165-0112d4220677
 title: AVDecVideoSWPowerLevel property (Codecapi.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ You can set this property during playback to change the pwoer-saving level.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

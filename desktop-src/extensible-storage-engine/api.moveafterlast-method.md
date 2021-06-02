@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.MoveAfterLast method"
 title: Api.MoveAfterLast method 
 TOCTitle: 'MoveAfterLast method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.MoveAfterLast(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Position the cursor after the last record in the table. A subsequent move previous will position the cursor on the last record.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,14 +57,14 @@ public static void MoveAfterLast(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The table to position.
 
@@ -71,9 +72,8 @@ public static void MoveAfterLast(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

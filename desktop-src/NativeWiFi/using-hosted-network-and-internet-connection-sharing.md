@@ -1,6 +1,6 @@
 ---
 title: Use Wireless Hosted Network, Internet Connection Sharing
-Description: Using Wireless Hosted Network and Internet Connection Sharing
+description: Using Wireless Hosted Network and Internet Connection Sharing
 ms.assetid: 56e86ef8-f759-4e56-a591-74e03430125a
 ms.topic: article
 ms.date: 05/31/2018

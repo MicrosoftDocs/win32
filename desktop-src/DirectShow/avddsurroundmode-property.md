@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the audio is encoded in Dolby Surround.
+description: Specifies whether the audio is encoded in Dolby Surround.
 ms.assetid: b33839c8-4829-4d90-94de-e461772d3e94
 title: AVDDSurroundMode property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVDDSurroundMode**](/windows/d
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

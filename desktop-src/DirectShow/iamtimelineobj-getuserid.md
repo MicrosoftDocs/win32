@@ -1,5 +1,5 @@
 ---
-Description: The GetUserID method retrieves the object's application-defined identifier.
+description: The GetUserID method retrieves the object's application-defined identifier.
 ms.assetid: 68a20dfa-990e-47de-ae02-1d3182b7f13f
 title: IAMTimelineObj::GetUserID method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

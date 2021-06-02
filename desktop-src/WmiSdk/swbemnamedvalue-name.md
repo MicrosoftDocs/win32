@@ -1,5 +1,5 @@
 ---
-Description: The Name property of the SWbemNamedValue object is a unique case-insensitive string that is used when getting an SWbemNamedValue item. This property is read-only.
+description: The Name property of the SWbemNamedValue object is a unique case-insensitive string that is used when getting an SWbemNamedValue item. This property is read-only.
 ms.assetid: c1e97326-b963-44e7-9af4-7fa6a7a3bf63
 ms.tgt_platform: multiple
 title: SWbemNamedValue.Name property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemNamedValue.Name As String
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

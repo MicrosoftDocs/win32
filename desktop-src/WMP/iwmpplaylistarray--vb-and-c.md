@@ -74,7 +74,7 @@ Get an **IWMPPlaylistArray** interface by using the following methods.
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

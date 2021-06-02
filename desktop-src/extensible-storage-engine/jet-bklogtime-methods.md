@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME methods"
 title: JET_BKLOGTIME methods
 TOCTitle: JET_BKLOGTIME methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_BKLOGTIME](hh557662\(v=exchg.10\).md) type exposes the following members.
+The [JET_BKLOGTIME](./jet-bklogtime-structure2.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[JET_BKLOGTIME structure](hh557662\(v=exchg.10\).md)
+[JET_BKLOGTIME structure](./jet-bklogtime-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

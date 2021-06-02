@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.TransferPosition
 ms.assetid: 6f613183-eb70-4b7e-bbea-2ebdeba96f65
 title: System.TransferPosition
 ms.topic: article

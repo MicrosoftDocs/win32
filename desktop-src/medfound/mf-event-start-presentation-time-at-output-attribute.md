@@ -1,5 +1,5 @@
 ---
-Description: The presentation time at which the media sinks will render the first sample of the new topology.
+description: The presentation time at which the media sinks will render the first sample of the new topology.
 ms.assetid: 02a8c542-b519-495e-9fb2-8db2f5384db7
 title: MF_EVENT_START_PRESENTATION_TIME_AT_OUTPUT attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: Creates and returns a new ShellWindows object that is a copy of this ShellWindows object.
+description: Creates and returns a new ShellWindows object that is a copy of this ShellWindows object.
 title: ShellWindows._NewEnum method (Exdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 85e84c13-62aa-4502-b642-ca55273a800d
-api_name: 
- - ShellWindows._NewEnum
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -110,7 +101,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: The NewSegment method delivers a new segment to the input pin.
+description: The NewSegment method delivers a new segment to the input pin.
 ms.assetid: 53189729-9f47-425e-9df6-faea01dd4482
 title: COutputQueue.NewSegment method (Outputq.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ If the object is not using a thread, it calls the [**COutputQueue::SendAnyway**]
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

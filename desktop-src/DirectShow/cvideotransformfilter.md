@@ -1,5 +1,5 @@
 ---
-Description: The CVideoTransformFilter class is designed primarily as a base class for AVI decompressor filters.
+description: The CVideoTransformFilter class is designed primarily as a base class for AVI decompressor filters.
 ms.assetid: 8eb87f9f-24b3-4dbe-a390-54db993d2724
 title: CVideoTransformFilter class
 ms.topic: reference

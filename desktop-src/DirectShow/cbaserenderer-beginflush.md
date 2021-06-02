@@ -1,5 +1,5 @@
 ---
-Description: The BeginFlush method begins a flush operation.
+description: CBaseRenderer.BeginFlush method - The BeginFlush method begins a flush operation.
 ms.assetid: dc652394-c24e-4cea-ac28-30a1e6de205f
 title: CBaseRenderer.BeginFlush method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The filter's input pin calls this method when it receives a call to the [**IPin:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

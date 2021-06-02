@@ -1,5 +1,5 @@
 ---
-Description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle.
+description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle.
 ms.assetid: 21d965d4-3c03-4e29-a70d-4538c5c366b0
 title: InitializeSecurityContext (General) function (Sspi.h)
 ms.topic: reference
@@ -276,7 +276,7 @@ When using the Schannel SSP, after a client application receives an authenticati
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

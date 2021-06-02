@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotFoundException properties"
 title: EsentColumnNotFoundException properties
 TOCTitle: EsentColumnNotFoundException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnNotFoundException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnNotFoundException](dn274196\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnNotFoundException](./esentcolumnnotfoundexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentColumnNotFoundException class](dn274196\(v=exchg.10\).md)
+[EsentColumnNotFoundException class](./esentcolumnnotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

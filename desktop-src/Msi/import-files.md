@@ -1,5 +1,5 @@
 ---
-Description: The VBScript file WiImport.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how to write a script to import tables into a Windows Installer database.
+description: The VBScript file WiImport.vbs is provided in the Windows SDK Components for Windows Installer Developers. This sample shows how to write a script to import tables into a Windows Installer database.
 ms.assetid: 37580bd6-30c7-4239-9717-223a381ba021
 title: Import Files
 ms.topic: article

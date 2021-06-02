@@ -1,12 +1,12 @@
 ---
-Description: This topic describes the types of window classes, how the system locates them, and the elements that define the default behavior of windows that belong to them.
+description: This topic describes the types of window classes, how the system locates them, and the elements that define the default behavior of windows that belong to them.
 ms.assetid: 'vs|winui|~\winui\windowsuserinterface\windowing\window_89windowclasse.htm'
 title: Window Classes (Windows and Messages)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Window Classes
+# Window Classes (Windows and Messages)
 
 This topic describes the types of window classes, how the system locates them, and the elements that define the default behavior of windows that belong to them.
 

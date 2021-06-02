@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Offset methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
+description: This topic lists the Offset methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 ms.assetid: edfc3c1a-4627-4acd-926b-1373893dbce2
 title: Rect.Offset methods
 ms.date: 07/02/2019

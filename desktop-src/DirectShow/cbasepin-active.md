@@ -1,5 +1,5 @@
 ---
-Description: The Active method notifies the pin that the filter is now active.
+description: CBasePin.Active method - The Active method notifies the pin that the filter is now active.
 ms.assetid: 1054f8cf-a5fb-4de6-abf2-c3740ce47787
 title: CBasePin.Active method (Amfilter.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The filter graph manager's internal state is not updated until after this member
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

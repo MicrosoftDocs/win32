@@ -1,5 +1,5 @@
 ---
-Description: Loads a texture slice and notifies the host asynchrnously when it completes.
+description: Loads a texture slice and notifies the host asynchrnously when it completes.
 MS-HAID: vspixengine.IPixEngine5\_LoadTextureSliceAsync\_UINT\_PixEngineTextureSliceIndex\_int\_BSTR\_IPixEngine5Callbacks\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

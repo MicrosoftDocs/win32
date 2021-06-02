@@ -1,5 +1,5 @@
 ---
-Description: The Concert feature file of the original product, MNP2000, contains an error in the Concert.txt file.
+description: The Concert feature file of the original product, MNP2000, contains an error in the Concert.txt file.
 ms.assetid: 4289bd0c-bdf3-4747-9287-94f737ce4f5c
 title: Planning a Small Update Patch
 ms.topic: article
@@ -40,11 +40,10 @@ The following File Table identifies the record from the Upgraded Image.
 
  
 
-> [!Note]The file must have the same key in the [File Tables](file-table.md) of both the target image and the updated image. The string values in the File column of both tables must be identical. Uppercase and lowercase must be identical also.
->
+> [!Note]
+> The file must have the same key in the [File Tables](file-table.md) of both the target image and the updated image. The string values in the File column of both tables must be identical. Uppercase and lowercase must be identical also.
+> 
 > Follow the guidelines described in [Creating a Patch Package](creating-a-patch-package.md). Do not author a package with [File Table](file-table.md) keys that differ only by case, because [Msimsp.exe](msimsp-exe.md) and [Patchwiz.dll](patchwiz-dll.md) call Makecab.exe, which is case-insensitive and patch generation fails.
-
- 
 
 [Continue](creating-a-patch-creation-properties-file.md)
 

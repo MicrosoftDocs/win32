@@ -1,5 +1,5 @@
 ---
-Description: IsProvisioningProfile
+description: IsProvisioningProfile
 MS-HAID: WWAN\_profile\_v4.element\_IsProvisioningProfile
 MSHAttr:
 - PreferredSiteName:MSDN

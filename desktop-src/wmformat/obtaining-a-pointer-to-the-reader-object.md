@@ -23,7 +23,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Obtaining a Pointer to the Reader Object
+# Obtaining a Pointer to the Reader Object (Windows Media Format 11 SDK)
 
 In certain cases, for example when determining which data unit extensions are set on a given stream, you may need to access the [Reader Object](reader-object.md) of the Windows Media Format SDK directly. The following function shows how to obtain the [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2) interface on the Reader Object itself:
 

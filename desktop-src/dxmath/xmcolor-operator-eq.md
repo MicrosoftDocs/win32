@@ -1,5 +1,5 @@
 ---
-Description: Assigns vector component data to the current instance of XMCOLOR.
+description: Assigns vector component data to the current instance of XMCOLOR.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmcolor.operator = '
 title: XMCOLOR operator = operators
 ms.topic: reference
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator = operators
+# XMCOLOR operator = operators
 
 Assigns vector component data to the current instance of [**XMCOLOR**](/windows/desktop/api/DirectXPackedVector/ns-directxpackedvector-xmcolor).
 

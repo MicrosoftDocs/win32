@@ -1,5 +1,5 @@
 ---
-Description: The following code example demonstrates how to create a call object, discover the streams associated with the call, select and create appropriate terminals, select the terminals onto the streams, and complete the connection.
+description: The following code example demonstrates how to create a call object, discover the streams associated with the call, select and create appropriate terminals, select the terminals onto the streams, and complete the connection.
 ms.assetid: 49815b18-a8ea-46e0-b2a4-3d7a82e727b0
 title: Make a Call
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents a device used to point to regions of a display.
+description: Represents a device used to point to regions of a display.
 ms.assetid: ffc675c3-29bd-4c54-8e54-8b6212daf66d
 title: CIM_PointingDevice class (Hyper-V management)
 ms.topic: reference
@@ -19,7 +19,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_PointingDevice class
+# CIM_PointingDevice class (Hyper-V management)
 
 Represents a device used to point to regions of a display.
 
@@ -208,7 +208,7 @@ The tracking resolution of the pointing device, in counts per inch.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

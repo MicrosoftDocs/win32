@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileAccessDeniedException constructor"
 title: EsentFileAccessDeniedException constructor 
 TOCTitle: 'EsentFileAccessDeniedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFileAccessDeniedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentFileAccessDeniedException()
 
 #### Reference
 
-[EsentFileAccessDeniedException class](dn274324\(v=exchg.10\).md)
+[EsentFileAccessDeniedException class](./esentfileaccessdeniedexception-class.md)
 
-[EsentFileAccessDeniedException members](dn274339\(v=exchg.10\).md)
+[EsentFileAccessDeniedException members](./esentfileaccessdeniedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

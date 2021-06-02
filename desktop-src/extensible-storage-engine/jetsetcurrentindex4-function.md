@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetCurrentIndex4 Function"
 title: JetSetCurrentIndex4 Function
 TOCTitle: JetSetCurrentIndex4 Function
 ms:assetid: 6076d02c-5701-4021-ba0a-da36bff166d1
@@ -54,7 +55,7 @@ The cursor to use for this call.
 
 *szIndexName*
 
-The name of the index to be selected for the cursor. If this parameter is NULL or an empty string then the clustered index will be selected. If a primary index is defined for the table then that index will be selected because it is the same as the clustered index. If no primary index is defined for the table then the sequential index will be selected. The sequential index has no index definition. See [JetCreateIndex](gg294099\(v=exchg.10\).md) for more information.
+The name of the index to be selected for the cursor. If this parameter is NULL or an empty string then the clustered index will be selected. If a primary index is defined for the table then that index will be selected because it is the same as the clustered index. If no primary index is defined for the table then the sequential index will be selected. The sequential index has no index definition. See [JetCreateIndex](./jetcreateindex-function.md) for more information.
 
 If *pindexid* is not NULL then the index name will be ignored and the index will be selected by its index ID.
 
@@ -109,7 +110,7 @@ When this parameter is not present or is set to zero, its value is presumed to b
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -197,7 +198,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 </table>
 
 
-On success, the current index of the cursor is set to the requested index. Index entries may now be sought using [JetSeek](gg294103\(v=exchg.10\).md) according to the index definition of the requested index. Index entries may also be enumerated using [JetMove](gg294117\(v=exchg.10\).md) in the order specified by that index definition. The current position of the cursor is either set to the first index entry on the index (JET_bitMoveFirst) or to a specific index entry that is related to the current position of the cursor on the old index (JET_bitNoMove). No change to the database state will occur.
+On success, the current index of the cursor is set to the requested index. Index entries may now be sought using [JetSeek](./jetseek-function.md) according to the index definition of the requested index. Index entries may also be enumerated using [JetMove](./jetmove-function.md) in the order specified by that index definition. The current position of the cursor is either set to the first index entry on the index (JET_bitMoveFirst) or to a specific index entry that is related to the current position of the cursor on the old index (JET_bitNoMove). No change to the database state will occur.
 
 On failure, the current index and current position of the cursor are in an undefined state. No change to the database state will occur.
 
@@ -243,16 +244,15 @@ If the index ID hint is stale then the API simply fails. There is no fallback to
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_INDEXID](gg269327\(v=exchg.10\).md)  
-[JetCreateIndex](gg294099\(v=exchg.10\).md)  
-[JetGetCurrentIndex](gg294041\(v=exchg.10\).md)  
-[JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
-[JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  
-[JetMove](gg294117\(v=exchg.10\).md)  
-[JetSeek](gg294103\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_INDEXID](./jet-indexid-structure.md)  
+[JetCreateIndex](./jetcreateindex-function.md)  
+[JetGetCurrentIndex](./jetgetcurrentindex-function.md)  
+[JetGetIndexInfo](./jetgetindexinfo-function.md)  
+[JetGetTableIndexInfo](./jetgettableindexinfo-function.md)  
+[JetMove](./jetmove-function.md)  
+[JetSeek](./jetseek-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)

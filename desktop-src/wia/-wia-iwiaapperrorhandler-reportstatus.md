@@ -1,5 +1,5 @@
 ---
-Description: Handles device status and error messages during image data transfers and displays the messages to the user.
+description: Handles device status and error messages during image data transfers and displays the messages to the user.
 ms.assetid: 8d3ba598-8649-4108-aebc-94f2bcb64ad8
 title: IWiaAppErrorHandler::ReportStatus method (Wia.h)
 ms.topic: reference
@@ -106,7 +106,7 @@ If *hrStatus* is SEVERITY\_ERROR, the error handler should display a modal dialo
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID.Nil property"
 title: JET_OSSNAPID.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.Nil
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a null JET_OSSNAPID.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,15 +53,14 @@ public static JET_OSSNAPID Nil { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](./jet-ossnapid-structure.md)  
 
 ## See also
 
 #### Reference
 
-[JET_OSSNAPID structure](hh558483\(v=exchg.10\).md)
+[JET_OSSNAPID structure](./jet-ossnapid-structure.md)
 
-[JET_OSSNAPID members](hh596352\(v=exchg.10\).md)
+[JET_OSSNAPID members](./jet-ossnapid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

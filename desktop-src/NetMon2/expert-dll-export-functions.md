@@ -1,5 +1,5 @@
 ---
-Description: The following functions are the entry points for expert DLLs and for calls from the operating system and Network Monitor.
+description: The following functions are the entry points for expert DLLs and for calls from the operating system and Network Monitor.
 ms.assetid: 1c0dcf6f-7f80-424b-9e6a-5a8b6a5b176f
 title: Expert DLL Export Functions
 ms.topic: article

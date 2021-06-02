@@ -1,5 +1,5 @@
 ---
-Description: The ComponentCosts property of the Session object returns a RecordList object enumerating the disk space per drive required to install a component.
+description: The ComponentCosts property of the Session object returns a RecordList object enumerating the disk space per drive required to install a component.
 ms.assetid: 9b1355f1-cc99-49d9-8187-07fba4804d1f
 title: Session.ComponentCosts property
 ms.topic: reference
@@ -56,7 +56,7 @@ ComponentCosts returns a [**RecordList object**](recordlist-object.md). Each rec
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

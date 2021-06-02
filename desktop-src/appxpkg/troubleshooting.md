@@ -8,6 +8,7 @@ manager: dcscontentpm
 ms.custom: 
 - CI 111497
 - CSSTroubleshooting
+- contperf-fy21q2
 ---
 
 # Troubleshooting packaging, deployment, and query of Windows apps
@@ -50,7 +51,7 @@ Get-Appxlog | Out-GridView
 
 ## Common error codes
 
-This table lists the most common error codes.
+This table lists some of the most common error codes. If you need further help with one of these errors, or if you're encountering an error code not in this list, see [additional help options](#get-additional-help).
 
 <table>
 <colgroup>
@@ -66,10 +67,20 @@ This table lists the most common error codes.
 </tr>
 </thead>
 <tbody>
+<tr class="even">
+<td><strong>E_FILENOTFOUND</strong></td>
+<td>0x80070002</td>
+<td>File or path is not found. This can occur during a COM  typelib validation requires that the path for the directory actually exist within your MSIX package.<br/></td>
+</tr>
 <tr class="odd">
 <td><strong>ERROR_BAD_FORMAT</strong></td>
 <td>0x8007000B</td>
 <td>The package isn't correctly formatted and needs to be re-built or re-signed.<br/> You may get this error if there is a mismatch between the signing certificate subject name and the AppxManifest.xml publisher name.<br/> See <a href="how-to-sign-a-package-using-signtool.md">How to sign an app package using SignTool</a>.<br/></td>
+</tr>
+<tr class="even">
+<td><strong>E_INVALIDARG</strong></td>
+<td>0x80070057</td>
+<td>One or more arguments are not valid. If you check the AppXDeployment-Server event log and see the following event: "While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect." <br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package. Please remove these characters from the manifest and try installing the package. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_OPEN_</strong><br/> <strong>PACKAGE_FAILED</strong><br/></td>
@@ -548,15 +559,10 @@ If the package contains \AppxMetadata\CodeIntegrity.cat, it must also contain \A
 <td>0x80080216</td>
 <td>The encryptionExclusionFileList file is invalid.<br/></td>
 </tr>
-<tr class="even">
-<td><strong>E_INVALIDARG</strong></td>
-<td>0x80070057</td>
-<td>One or more arguments are not valid If you check the AppXDeployment-Server event log and see the following event;  While installing the package, the system failed to register the windows.repositoryExtension extension due to the following error: The parameter is incorrect. <br/> You may get this error if the manifest elements DisplayName or Description contain characters disallowed by Windows firewall; namely  |  and  all , due to which Windows fails to create the AppContainer profile for the package. Please remove these characters from the manifest and try installing the package. <br/></td>
-</tr>
 </tbody>
 </table>
 
-## Applications don't start and their names are dimmed in Windows 10
+## Applications don't start and their names are dimmed
 
 On a Windows 10-based computer, you cannot start some applications, and the application names appear dimmed.
 
@@ -591,19 +597,21 @@ This issue occurs because the registry entry for the status value of application
 To fix this issue:
 
 1. Start Registry Editor, and then locate the **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList** subkey.
-
-1. To back up the subkey data, right-click **PackageList**, select **Export**, and then save the data as a registry file.
-1. For each of the applications that are listed in the Event ID 5960 log entries, follow these steps:  
+2. To back up the subkey data, right-click **PackageList**, select **Export**, and then save the data as a registry file.
+3. For each of the applications that are listed in the Event ID 5960 log entries, follow these steps:  
    1. Locate the **PackageStatus** entry.
-
-   1. Set the value of **PackageStatus** to zero (**0**).
+   2. Set the value of **PackageStatus** to zero (**0**).
    > [!NOTE]  
-   >- If there are no entries for the application under **PackageList**, then the issue has some other cause.
-   >- In the case of the example event in this article, the full subkey is as follows:
-   >    ```
-   >    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList\Microsoft.BingNews_8wekyb3d8bbwe!AppexNews\PackageStatus
-   >    ```
-1. Restart the computer.
+   > If there are no entries for the application under **PackageList**, then the issue has some other cause. In the case of the example event in this article, the full subkey is **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModel\StateChange\PackageList\Microsoft.BingNews_8wekyb3d8bbwe!AppexNews\PackageStatus**
+4. Restart the computer.
+
+## Get additional help
+
+If you need further help with resolving a problem you are experience when packaging, deploying, or querying a Windows app package (.msix/.appx) as a developer, refer to these additional developer support resources.
+
+- [Microsoft Q&A](/answers/topics/uwp.html?filter=all&sort=active) offers relevant and timely answers to your technical problems from a community of experts and Microsoft engineers.
+- For community assistance with development questions, there are our [forums](https://social.msdn.microsoft.com/Forums/newthread?category=windowsapps&forum=wpdevelop&prof=required), and [StackOverflow](https://stackoverflow.com/questions).
+- The [Windows developer support](https://developer.microsoft.com/windows/support) site explains other support options.
 
 ## Related topics
 

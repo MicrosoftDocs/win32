@@ -1,5 +1,5 @@
 ---
-Description: Describes the contents of an elementary stream within an MPEG-2 transport stream. This enumeration is used in the IMPEG2PIDMap interface, which is implemented on the output pins of the MPEG-2 Demultiplexer.
+description: Describes the contents of an elementary stream within an MPEG-2 transport stream. This enumeration is used in the IMPEG2PIDMap interface, which is implemented on the output pins of the MPEG-2 Demultiplexer.
 ms.assetid: 989ad56b-b5af-4811-889e-c79fcd3f7f01
 title: MEDIA_SAMPLE_CONTENT enumeration (Bdatypes.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Specifies gathered TS packet payloads, such as PES packets.
 
 
 
-|                   |                                                                                                            |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Bdatypes.h (include Bdaiface.h)</dt> </dl> |
 

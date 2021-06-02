@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the IContextNode objects of the specified type that contain the specified strokes.
+description: Retrieves all of the IContextNode objects of the specified type that contain the specified strokes.
 ms.assetid: c674a03b-841c-4a9c-8268-302bc4038934
 title: IInkAnalyzer::FindNodesOfTypeForStrokes method (IACom.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

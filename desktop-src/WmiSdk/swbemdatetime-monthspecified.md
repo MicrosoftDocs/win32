@@ -1,5 +1,5 @@
 ---
-Description: Boolean value that indicates whether the month component in the CIM datetime value contains an interval or a wildcard value.
+description: Boolean value that indicates whether the month component in the CIM datetime value contains an interval or a wildcard value.
 ms.assetid: 12dd94de-24be-4b13-bde5-2fc28be94efa
 ms.tgt_platform: multiple
 title: SWbemDateTime.MonthSpecified property (Wbemdisp.h)
@@ -46,7 +46,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The EKU object exposes the following properties.
+description: The EKU object exposes the following properties.
 ms.assetid: 042BFA33-E7EF-4CCD-B989-F484767749C6
 title: EKU Properties
 ms.topic: reference

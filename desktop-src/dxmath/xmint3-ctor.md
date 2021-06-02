@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMINT3.
+description: Constructors exposed by XMINT3.
 ms.assetid: 69eb08b8-a533-40cc-8efb-ccb9106e0e24
 title: XMINT3 constructors (Directxmath.h)
 ms.date: 07/02/2019
@@ -69,7 +69,7 @@ This constructor is only available under C++.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Directxmath.h</dt> </dl> |
 

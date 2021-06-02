@@ -1,5 +1,5 @@
 ---
-Description: The CompressEx method compresses the logical file (or directory) specified in the object path. This method is an extended version of the Compress method.
+description: The CompressEx method compresses the logical file (or directory) specified in the object path. This method is an extended version of the Compress method.
 ms.assetid: 7d119865-c246-4cb5-9de4-48a4c42efd90
 ms.tgt_platform: multiple
 title: CompressEx method of the CIM_LogicalFile class
@@ -196,7 +196,7 @@ This method is currently not implemented by WMI. To use this method, you must im
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

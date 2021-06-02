@@ -1,5 +1,5 @@
 ---
-Description: The ClearPendingSample method releases the current sample.
+description: The ClearPendingSample method releases the current sample.
 ms.assetid: 55cb8eed-3ae5-4f45-a87e-e6da8ada5cf5
 title: CBaseRenderer.ClearPendingSample method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns S\_OK.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

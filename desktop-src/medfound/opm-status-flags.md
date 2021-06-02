@@ -1,5 +1,5 @@
 ---
-Description: The flags in the following table specify the status of an Output Protection Manager (OPM) session.
+description: The flags in the following table specify the status of an Output Protection Manager (OPM) session.
 ms.assetid: d6d85fd4-e735-4610-93e0-bb2b1782f11b
 title: OPM Status Flags (Opmapi.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ Some of these constants are equivalent to values from the **COPP\_StatusFlags** 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

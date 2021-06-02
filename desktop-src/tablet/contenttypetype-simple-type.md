@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that defines valid values for the Type attribute of the Content element \[Journal Reader\].
+description: Defines the type that defines valid values for the Type attribute of the Content element \[Journal Reader\].
 ms.assetid: f38f7a7e-a517-4156-9c60-e1b6d35baa07
 title: ContentTypeType Simple Type
 ms.topic: reference
@@ -46,7 +46,7 @@ If the type is "Inert", then the content contained is a Journal page that is the
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Contains encoded binary data for an image in the Journal document, if present.
+description: Contains encoded binary data for an image in the Journal document, if present.
 ms.assetid: 'fbb86bef-68f7-4aad-8a98-1c68e79ea2de'
 title: Image Element
 ms.topic: article

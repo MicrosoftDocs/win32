@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS methods"
 title: JET_SPACEHINTS methods
 TOCTitle: JET_SPACEHINTS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_SPACEHINTS](dn351095\(v=exchg.10\).md) type exposes the following members.
+The [JET_SPACEHINTS](./jet-spacehints-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](./jet-spacehints-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

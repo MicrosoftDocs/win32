@@ -1,6 +1,6 @@
 ---
 title: glTexParameterf function (Gl.h)
-description: Sets texture parameters.
+description: Sets texture parameters. | glTexParameterf function (Gl.h)
 ms.assetid: 20b9f2d5-66e1-41cd-9571-8caa38ef033d
 keywords:
 - glTexParameterf function OpenGL
@@ -102,7 +102,7 @@ Suppose that texturing is enabled (by calling [**glEnable**](glenable.md) with a
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

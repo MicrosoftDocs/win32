@@ -1,5 +1,5 @@
 ---
-Description: This function retrieves the version of the offline registry library.
+description: This function retrieves the version of the offline registry library.
 ms.assetid: 625f088a-db5e-47ea-aa48-39b1c70cf15b
 title: ORGetVersion function (Offreg.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ This function does not return a value.
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

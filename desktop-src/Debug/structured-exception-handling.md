@@ -1,5 +1,5 @@
 ---
-Description: An exception is an event that occurs during the execution of a program, and requires the execution of code outside the normal flow of control.
+description: An exception is an event that occurs during the execution of a program, and requires the execution of code outside the normal flow of control.
 ms.assetid: '6b6326d8-6875-4146-a4e3-7873f4e400cb'
 title: Structured Exception Handling
 ms.topic: article

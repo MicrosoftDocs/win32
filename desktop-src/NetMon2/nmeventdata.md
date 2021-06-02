@@ -1,5 +1,5 @@
 ---
-Description: The NMEVENTDATA structure contains information about an event condition that is passed to Network Monitor to insert a line in the expert viewer.
+description: The NMEVENTDATA structure contains information about an event condition that is passed to Network Monitor to insert a line in the expert viewer.
 ms.assetid: 35cda410-d45a-4a51-91b7-8bd4a0c9957f
 title: NMEVENTDATA structure (Netmon.h)
 ms.topic: reference
@@ -160,7 +160,7 @@ Table of column structures that appears in the top pane of the Event Viewer.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the key specification.
+description: Retrieves the key specification.
 ms.assetid: 93c909cb-b1d1-4c2b-a66c-9d3f6dd9b340
 title: PrivateKey.KeySpec property
 ms.topic: reference
@@ -49,7 +49,7 @@ A value of the [**CAPICOM\_KEY\_SPEC**](capicom-key-spec.md) enumeration that in
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

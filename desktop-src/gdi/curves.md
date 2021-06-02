@@ -1,5 +1,5 @@
 ---
-Description: A regular curve is a set of highlighted pixels on a raster display (or dots on a printed page) that define the perimeter (or part of the perimeter) of a conic section.
+description: A regular curve is a set of highlighted pixels on a raster display (or dots on a printed page) that define the perimeter (or part of the perimeter) of a conic section.
 ms.assetid: 'b7a1b544-8b50-45ba-918c-17472c46c8b8'
 title: Curves
 ms.topic: article

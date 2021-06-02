@@ -1,5 +1,5 @@
 ---
-Description: Specifies the author-supplied fold-down coefficients for decoding multichannel audio for fewer channels than the encoded stream contains.
+description: Specifies the author-supplied fold-down coefficients for decoding multichannel audio for fewer channels than the encoded stream contains.
 ms.assetid: f6737c05-4b39-4209-9985-9402b28cf316
 title: MFPKEY_WMADEC_FOLDDOWN_MATRIX Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ If the [MFPKEY\_WMADEC\_SPKRCFG](mfpkey-wmadec-spkrcfgproperty.md) property is s
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

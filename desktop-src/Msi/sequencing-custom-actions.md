@@ -1,5 +1,5 @@
 ---
-Description: Custom actions are scheduled in sequence tables in the same way as standard actions.
+description: Custom actions are scheduled in sequence tables in the same way as standard actions.
 ms.assetid: 1aea75b1-a498-405e-9208-91672455496b
 title: Sequencing Custom Actions
 ms.topic: article

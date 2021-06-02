@@ -1,5 +1,5 @@
 ---
-Description: The get\_AutoShow method retrieves the current AutoShow state flag.
+description: The get\_AutoShow method retrieves the current AutoShow state flag.
 ms.assetid: b27651d1-3ac5-4a52-9549-b63bacda5dc8
 title: CBaseControlWindow.get_AutoShow method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This member function is meant to be called by external objects through the [**IV
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

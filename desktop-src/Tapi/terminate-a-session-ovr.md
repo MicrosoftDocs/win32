@@ -1,5 +1,5 @@
 ---
-Description: Session termination may originate with a user request, remote disconnection by the other party, or for application-specific reasons.
+description: Session termination may originate with a user request, remote disconnection by the other party, or for application-specific reasons.
 ms.assetid: 69ed2e2c-f1c7-4f69-86a0-3cfdd80e423d
 title: Terminate a Session
 ms.topic: article

@@ -27,7 +27,7 @@ Indicates whether Active Directory will store the password in the reversible enc
 
 
 
-|                   |                                            |
+| Entry | Value |
 |-------------------|--------------------------------------------|
 | CN                | ms-DS-User-Encrypted-Text-Password-Allowed |
 | Ldap-Display-Name | ms-DS-UserEncryptedTextPasswordAllowed     |
@@ -48,7 +48,7 @@ Indicates whether Active Directory will store the password in the reversible enc
 
 
 
-|                        |                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------|
 | Link-Id                | \-                                                                |
 | MAPI-Id                | \-                                                                |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeNormalizationNotSupportedException members"
 title: EsentUnicodeNormalizationNotSupportedException members
 TOCTitle: EsentUnicodeNormalizationNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentUnicodeNormalizationNotSupportedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.UnicodeNormalizationNotSupported exceptions.
 
-The [EsentUnicodeNormalizationNotSupportedException](dn350818\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnicodeNormalizationNotSupportedException](./esentunicodenormalizationnotsupportedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentUnicodeNormalizationNotSupportedException class](dn350818\(v=exchg.10\).md)
+[EsentUnicodeNormalizationNotSupportedException class](./esentunicodenormalizationnotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

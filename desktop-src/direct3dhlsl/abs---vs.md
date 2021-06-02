@@ -1,6 +1,6 @@
 ---
 title: abs - vs
-description: Computes absolute value.
+description: Computes absolute value. | abs - vs
 ms.assetid: d3b4cf06-dc87-4c71-aa2d-5ade4cf98caa
 ms.topic: reference
 ms.date: 05/31/2018
@@ -17,28 +17,19 @@ Computes absolute value.
 
 ## Syntax
 
-
-
-|              |
-|--------------|
-| abs dst, src |
-
-
-
- 
+**abs dst, src**
 
 where
 
--   dst is the destination register.
--   src is a source register.
+- dst is the destination register.
+- src is a source register.
 
 ## Remarks
 
 
 
-|                        |      |      |      |       |      |       |
-|------------------------|------|------|------|-------|------|-------|
 | Vertex shader versions | 1\_1 | 2\_0 | 2\_x | 2\_sw | 3\_0 | 3\_sw |
+|------------------------|------|------|------|-------|------|-------|
 | abs                    |      | x    | x    | x     | x    | x     |
 
 

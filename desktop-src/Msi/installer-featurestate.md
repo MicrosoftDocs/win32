@@ -1,5 +1,5 @@
 ---
-Description: The read-only FeatureState property returns the installed state of a feature.
+description: The read-only FeatureState property returns the installed state of a feature.
 ms.assetid: a3d30296-191e-4446-b5b1-a92f8991926a
 title: Installer.FeatureState property
 ms.topic: reference
@@ -60,7 +60,7 @@ The **FeatureState** property does not validate that the feature is accessible.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

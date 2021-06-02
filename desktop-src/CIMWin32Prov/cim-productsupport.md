@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProductSupport class represents an association between product and support access that conveys how support is obtained for the product.
+description: The CIM\_ProductSupport class represents an association between product and support access that conveys how support is obtained for the product.
 ms.assetid: 61c62556-0cf3-438c-b9c7-152505bf7ed6
 ms.tgt_platform: multiple
 title: CIM_ProductSupport class
@@ -88,7 +88,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONVERT class"
 title: JET_CONVERT class
 TOCTitle: JET_CONVERT class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_CONVERT
@@ -30,14 +31,14 @@ ROBOTS: INDEX,FOLLOW
 
 **NOTE: This API is now obsolete.**
 
-Conversion options for [JetCompact(JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)](dn292112\(v=exchg.10\).md). This feature was discontinued in Windows Server 2003.
+Conversion options for [JetCompact(JET_SESID, String, String, JET_PFNSTATUS, JET_CONVERT, CompactGrbit)](./api.jetcompact-method.md). This feature was discontinued in Windows Server 2003.
 
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_CONVERT  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_CONVERT members](dn335114\(v=exchg.10\).md)
+[JET_CONVERT members](./jet-convert-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Access control refers to security features that control who can access resources in the operating system. Applications call access control functions to set who can access specific resources or control access to resources provided by the application.
+description: Access control refers to security features that control who can access resources in the operating system. Applications call access control functions to set who can access specific resources or control access to resources provided by the application.
 ms.assetid: d9ce4ec5-5c09-4b33-93a1-39638a925986
 title: Access Control (Authorization)
 ms.topic: article

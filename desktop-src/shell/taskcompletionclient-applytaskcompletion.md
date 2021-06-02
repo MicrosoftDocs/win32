@@ -1,5 +1,5 @@
 ---
-Description: Begins the task completion.
+description: Begins the task completion.
 ms.assetid: 75C84DD9-D815-45C2-A28E-EAE437EAFF89
 title: TaskCompletionClient::ApplyTaskCompletion method
 ms.topic: reference
@@ -53,7 +53,7 @@ The only supported value for *ptcfCategory* is 0x08000000.
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                           |

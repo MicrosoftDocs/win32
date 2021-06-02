@@ -1,5 +1,5 @@
 ---
-Description: Contains a pointer to the stream attributes of the connected stream on a hardware-based Media Foundation transform (MFT).
+description: Contains a pointer to the stream attributes of the connected stream on a hardware-based Media Foundation transform (MFT).
 ms.assetid: 7e14a02e-4cbf-45aa-a6f5-2c53b2437127
 title: MFT_CONNECTED_STREAM_ATTRIBUTE attribute (Mftransform.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

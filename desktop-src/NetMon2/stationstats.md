@@ -1,5 +1,5 @@
 ---
-Description: The STATIONSTATS structure provides statistics about a specific station described by the current capture.
+description: The STATIONSTATS structure provides statistics about a specific station described by the current capture.
 ms.assetid: f85d53d6-f496-4242-875f-e173c76b046a
 title: STATIONSTATS structure (Netmon.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ Network Monitor stores session and station information in two associated arrays.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

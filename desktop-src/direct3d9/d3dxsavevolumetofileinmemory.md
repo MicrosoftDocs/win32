@@ -1,5 +1,5 @@
 ---
-Description: Saves a volume to a buffer. The method creates an ID3DXBuffer buffer to store the data, and returns that object.
+description: Saves a volume to a buffer. The method creates an ID3DXBuffer buffer to store the data, and returns that object.
 ms.assetid: 4887ff1f-7904-4764-b284-b2c8e037f806
 title: D3DXSaveVolumeToFileInMemory function (D3dx9tex.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

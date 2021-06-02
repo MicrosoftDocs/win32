@@ -1,6 +1,6 @@
 ---
 title: IWMPError clearErrorQueue method
-description: The clearErrorQueue method clears the errors from the error queue.
+description: The clearErrorQueue method clears the errors from the error queue. | IWMPError clearErrorQueue method
 ms.assetid: a8e8e666-56e4-4e75-9ed5-2714d272ce7c
 keywords:
 - clearErrorQueue method Windows Media Player
@@ -113,7 +113,7 @@ End Sub
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

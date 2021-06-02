@@ -1,5 +1,5 @@
 ---
-Description: DMO Media Types
+description: DMO Media Types
 ms.assetid: 40958e12-09c7-4ce5-aa4d-5ed8b1f40aa3
 title: DMO Media Types
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The following topics demonstrate how an application can use the symbol handler functions.
+description: The following topics demonstrate how an application can use the symbol handler functions.
 ms.assetid: 8674a3ab-a6a0-4c03-a0f1-8d5f19ad6f35
 title: Using DbgHelp
 ms.topic: article

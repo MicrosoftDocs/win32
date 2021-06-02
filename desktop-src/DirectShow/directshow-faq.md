@@ -1,5 +1,5 @@
 ---
-Description: DirectShow FAQ
+description: DirectShow FAQ
 ms.assetid: 198758b9-025a-44af-958c-9ddea8cbb12d
 title: DirectShow FAQ
 ms.topic: article

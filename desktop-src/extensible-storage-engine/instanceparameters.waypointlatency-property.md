@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.WaypointLatency property"
 title: InstanceParameters.WaypointLatency property 
 TOCTitle: 'WaypointLatency property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.WaypointLatency
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets a the number of logs that esent will defer database flushes for. This can be used to increase database recoverability if failures cause logfiles to be lost. Supported on Windows 7 and up. Ignored on Windows XP, Windows Server 2003, Windows Vista and Windows Server 2008.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

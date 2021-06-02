@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.PopupItemMenu method (Shldisp.h)
-description: Creates a shortcut menu for the specified item and returns the selected command string.
+description: WebViewFolderContents.PopupItemMenu method - Creates a shortcut menu for the specified item and returns the selected command string.
 ms.assetid: 3c07500c-2fe9-4976-a1a8-b128e75f9325
 keywords:
 - PopupItemMenu method Legacy Windows Environment Features
@@ -114,7 +114,7 @@ The following example shows the proper use of **PopupItemMenu** for JScript embe
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

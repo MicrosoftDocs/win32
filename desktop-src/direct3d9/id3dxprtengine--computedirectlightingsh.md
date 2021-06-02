@@ -1,5 +1,5 @@
 ---
-Description: Computes the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation.
+description: Computes the direct lighting contribution to 3D objects where the source radiance is represented by a spherical harmonic (SH) approximation.
 ms.assetid: 52d614cc-578a-4f2b-ba91-70d0c4371042
 title: ID3DXPRTEngine::ComputeDirectLightingSH method (D3DX9Mesh.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Call [**ID3DXPRTEngine::MultiplyAlbedo**](id3dxprtengine--multiplyalbedo.md) to 
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

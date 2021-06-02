@@ -1,5 +1,5 @@
 ---
-Description: Specifies the luma quantization matrix for intra macroblocks. This property applies to MPEG video encoders.
+description: Specifies the luma quantization matrix for intra macroblocks. This property applies to MPEG video encoders.
 ms.assetid: 65e6e276-1da7-47ee-b337-0ff64a9c4cff
 title: AVEncMPVQuantMatrixIntra property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a string that contains the 64 8-bit coefficients e
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

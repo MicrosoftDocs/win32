@@ -1,5 +1,5 @@
 ---
-Description: The OnSize method handles WM\_SIZE messages.
+description: The OnSize method handles WM\_SIZE messages.
 ms.assetid: 21d867a4-4321-478a-9beb-5d3053569369
 title: CBaseWindow.OnSize method (Winutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method stores the new width and height. To retrieve these values, call the 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

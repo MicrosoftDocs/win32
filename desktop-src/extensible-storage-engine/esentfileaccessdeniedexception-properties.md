@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileAccessDeniedException properties"
 title: EsentFileAccessDeniedException properties
 TOCTitle: EsentFileAccessDeniedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileAccessDeniedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileAccessDeniedException](dn274324\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileAccessDeniedException](./esentfileaccessdeniedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentFileAccessDeniedException class](dn274324\(v=exchg.10\).md)
+[EsentFileAccessDeniedException class](./esentfileaccessdeniedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

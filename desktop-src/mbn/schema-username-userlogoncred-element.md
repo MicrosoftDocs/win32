@@ -1,5 +1,5 @@
 ---
-Description: Specifies the user name for logon.
+description: Specifies the user name for logon.
 ms.assetid: a312de24-2a81-4fac-9c23-4e67e171e692
 title: UserName (UserLogonCred) Element
 ms.topic: reference
@@ -33,7 +33,7 @@ The **UserName** element is defined by the [**UserLogonCred**](schema-userlogonc
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

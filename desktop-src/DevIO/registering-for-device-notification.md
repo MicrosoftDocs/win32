@@ -4,7 +4,7 @@ description: Applications can use the RegisterDeviceNotification function to reg
 ms.date: 08/28/2020
 ms.assetid: f3a4477a-7b09-4943-8b06-f252f8f9fed8
 ms.topic: article
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ---
 
 # Registering for device notification
@@ -502,10 +502,10 @@ You can now build and run the project.
 
 The code example uses a window handle for device change notifications, and it contains a large amount of code just to manage the windowing infrastructure. An application intended to be installed as a Windows service would contain different infrastructure code.
 
-The application will receive the [**WM_DEVICECHANGE**](/windows/win32/devio/wm-devicechange) message whenever a USB device interface event notification is sent.
+The application will receive the [**WM_DEVICECHANGE**](./wm-devicechange.md) message whenever a USB device interface event notification is sent.
 
 The system broadcasts a set of default device change events to all applications and services. You don't need to register to receive those default events. For details, see the **Remarks** section in [**RegisterDeviceNotification**](/windows/win32/api/winuser/nf-winuser-registerdevicenotificationw).
 
 ## Related topics
 
-* [Device notifications](/windows/win32/devio/device-notifications)
+* [Device notifications](./device-notifications.md)

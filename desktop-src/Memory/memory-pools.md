@@ -1,5 +1,5 @@
 ---
-Description: 'The memory manager creates the following memory pools that the system uses to allocate memory: nonpaged pool and paged pool.'
+description: 'The memory manager creates the following memory pools that the system uses to allocate memory: nonpaged pool and paged pool.'
 ms.assetid: 68ee9c72-f3a3-4f1f-a827-ed4210a665e4
 title: Memory Pools
 ms.topic: article

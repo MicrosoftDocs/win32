@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Dispose method"
 title: Instance.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Instance.Dispose
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Instance members](dn350944\(v=exchg.10\).md)
+[Instance members](./instance-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCloseException methods"
 title: EsentFileCloseException methods
 TOCTitle: EsentFileCloseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFileCloseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileCloseException](dn274332\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileCloseException](./esentfilecloseexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentFileCloseException class](dn274332\(v=exchg.10\).md)
+[EsentFileCloseException class](./esentfilecloseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

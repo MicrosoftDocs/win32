@@ -1,5 +1,5 @@
 ---
-Description: The phoneClose function closes the specified phone device.
+description: The phoneClose function closes the specified phone device.
 ms.assetid: 7607d779-0715-48a3-a4f2-bcf07026d7c5
 title: Closing the Phone Device
 ms.topic: article

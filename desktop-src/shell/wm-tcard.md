@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application that has initiated a training card with Windows Help.
+description: Sent to an application that has initiated a training card with Windows Help.
 title: WM_TCARD message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -167,7 +167,7 @@ The return value is ignored; use zero.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

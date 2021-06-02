@@ -1,5 +1,5 @@
 ---
-Description: Decrements the references to the Secure Sockets Layer protocol (SSL) provider.
+description: Decrements the references to the Secure Sockets Layer protocol (SSL) provider.
 ms.assetid: 67bfa4b5-c02c-4a76-871d-93f3bf4e3602
 title: SslDecrementProviderReferenceCount function (Sslprovider.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

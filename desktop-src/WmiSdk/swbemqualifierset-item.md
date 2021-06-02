@@ -1,5 +1,5 @@
 ---
-Description: The Item method of the SWbemQualifierSet object returns a named SWbemQualifier object from the collection. This is the default method of this object.
+description: The Item method of the SWbemQualifierSet object returns a named SWbemQualifier object from the collection. This is the default method of this object.
 ms.assetid: 5ed3a336-c06f-446d-85d4-243daddc82a5
 ms.tgt_platform: multiple
 title: SWbemQualifierSet.Item method (Wbemdisp.h)
@@ -89,7 +89,7 @@ Specified qualifier does not exist.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

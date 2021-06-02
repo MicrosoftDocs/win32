@@ -1,5 +1,5 @@
 ---
-Description: The get\_Caption method retrieves the current window caption.
+description: The get\_Caption method retrieves the current window caption.
 ms.assetid: 51ce9cf8-0b2a-4459-b005-02dc45444fd8
 title: CBaseControlWindow.get_Caption method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Most top-level windows on a Windows-based desktop have a title (caption) associa
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

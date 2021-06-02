@@ -1,5 +1,5 @@
 ---
-Description: Create a data processor to be used with a thread pump.
+description: D3DX10CreateAsyncTextureInfoProcessor function - Create a data processor to be used with a thread pump.
 ms.assetid: e97b6aca-1839-48ea-8dab-b96a52ec2a68
 title: D3DX10CreateAsyncTextureInfoProcessor function (D3DX10Tex.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This API does creates a data-processor interface; [**D3DX10CreateAsyncTexturePro
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>  |

@@ -1,5 +1,5 @@
 ---
-Description: Indicates that moov will be written before mdat box in the generated file.
+description: Indicates that moov will be written before mdat box in the generated file.
 ms.assetid: 97B68B0A-8266-4FCF-8CD9-35890E1AC774
 title: MF_MPEG4SINK_MOOV_BEFORE_MDAT attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ This feature involves an additional file copying/remuxing.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

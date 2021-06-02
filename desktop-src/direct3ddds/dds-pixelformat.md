@@ -155,7 +155,7 @@ Note that there are non-standard variants of DDS files where **dwFlags** has DDP
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dds.h</dt> </dl> |
 

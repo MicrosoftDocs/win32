@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSQLLinkNotSupportedException members"
 title: EsentSQLLinkNotSupportedException members
 TOCTitle: EsentSQLLinkNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSQLLinkNotSupportedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.SQLLinkNotSupported exceptions.
 
-The [EsentSQLLinkNotSupportedException](dn334854\(v=exchg.10\).md) type exposes the following members.
+The [EsentSQLLinkNotSupportedException](./esentsqllinknotsupportedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentSQLLinkNotSupportedException class](dn334854\(v=exchg.10\).md)
+[EsentSQLLinkNotSupportedException class](./esentsqllinknotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

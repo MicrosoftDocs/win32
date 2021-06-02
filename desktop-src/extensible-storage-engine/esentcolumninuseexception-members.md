@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInUseException members"
 title: EsentColumnInUseException members
 TOCTitle: EsentColumnInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnInUseException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ColumnInUse exceptions.
 
-The [EsentColumnInUseException](dn274180\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnInUseException](./esentcolumninuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentColumnInUseException class](dn274180\(v=exchg.10\).md)
+[EsentColumnInUseException class](./esentcolumninuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

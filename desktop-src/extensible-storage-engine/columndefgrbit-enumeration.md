@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumndefGrbit enumeration"
 title: ColumndefGrbit enumeration
 TOCTitle: ColumndefGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.ColumndefGrbit
@@ -58,7 +59,7 @@ Options for the JET_COLUMNDEF structure.
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -160,6 +161,6 @@ public enum ColumndefGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)
 
-[ColumnCompressed](dn335304\(v=exchg.10\).md)
+[ColumnCompressed](./windows7grbits.columncompressed-field.md)

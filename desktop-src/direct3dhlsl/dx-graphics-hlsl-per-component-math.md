@@ -335,7 +335,7 @@ float4x4 worldMatrix = float4( {0,0,0,0}, {1,1,1,1}, {2,2,2,2}, {3,3,3,3} );
 float4x4 tempMatrix;
 
 tempMatrix._m00_m11 = worldMatrix._m00_m11; // write two components
-tempMatrix._m23_m00 = worldMatrix.m00_m11;
+tempMatrix._m23_m00 = worldMatrix._m00_m11;
 ```
 
 
@@ -345,7 +345,7 @@ Assignments cannot be written to the same component more than once. So the left 
 
 ```
 // cannot write to the same component more than once
-tempMatrix._m00_m00 = worldMatrix.m00_m11;
+tempMatrix._m00_m00 = worldMatrix._m00_m11;
 ```
 
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents the stream category.
+description: Represents the stream category.
 ms.assetid: 673FB138-574C-4A98-A88C-496F17B4E095
 title: MF_DEVICESTREAM_STREAM_CATEGORY attribute (Mfidl.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ This attribute represents the GUID that identifies the stream category defined i
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

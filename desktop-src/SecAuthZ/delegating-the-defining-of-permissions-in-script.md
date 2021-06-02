@@ -1,5 +1,5 @@
 ---
-Description: You can delegate the administration of the authorization policy stores that are stored in Active Directory.
+description: You can delegate the administration of the authorization policy stores that are stored in Active Directory.
 ms.assetid: a7b43dfe-f03e-4795-bbd3-746eb3449fd0
 title: Delegating the Defining of Permissions in Script
 ms.topic: article

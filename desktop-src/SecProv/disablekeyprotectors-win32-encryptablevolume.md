@@ -1,5 +1,5 @@
 ---
-Description: Disables or suspends all key protectors associated with this volume.
+description: Disables or suspends all key protectors associated with this volume.
 ms.assetid: 19eed858-a116-4ec8-937a-2eea7aadbdc6
 title: DisableKeyProtectors method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -74,7 +74,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

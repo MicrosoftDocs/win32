@@ -1,5 +1,5 @@
 ---
-Description: The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.
+description: CBaseOutputPin.EndFlush method - The EndFlush method ends a flush operation. This method implements the IPin::EndFlush method.
 ms.assetid: c5c76cf8-1ca1-4fef-8776-7f4dcca32939
 title: CBaseOutputPin.EndFlush method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method should only be called on input pins, so the **CBaseOutputPin** imple
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

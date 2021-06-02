@@ -1,5 +1,5 @@
 ---
-Description: A physical consumer is a COM object that implements the IWbemUnboundObjectSink interface.
+description: A physical consumer is a COM object that implements the IWbemUnboundObjectSink interface.
 ms.assetid: 497457dc-61ca-4527-89fd-2af0383de5e9
 ms.tgt_platform: multiple
 title: Implementing a Physical Consumer

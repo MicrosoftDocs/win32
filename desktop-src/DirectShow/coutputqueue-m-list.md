@@ -1,5 +1,5 @@
 ---
-Description: Media sample queue.
+description: Media sample queue.
 ms.assetid: 910f1c0c-2ce9-452f-a97b-aa424da9a93e
 title: COutputQueue::m_List member (Outputq.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ typedef CGenericList<IMediaSample> CSampleList;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

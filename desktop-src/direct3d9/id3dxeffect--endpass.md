@@ -1,5 +1,5 @@
 ---
-Description: End an active pass.
+description: End an active pass.
 ms.assetid: e20b3e0f-db9f-48e8-ab4e-761a5861f3ce
 title: ID3DXEffect::EndPass method (D3DX9Effect.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If the application changes any effect state using any of the [**Effect::Setx**](
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

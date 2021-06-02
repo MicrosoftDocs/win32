@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySortsException methods"
 title: EsentTooManySortsException methods
 TOCTitle: EsentTooManySortsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManySortsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManySortsException](dn350779\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManySortsException](./esenttoomanysortsexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTooManySortsException class](dn350779\(v=exchg.10\).md)
+[EsentTooManySortsException class](./esenttoomanysortsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

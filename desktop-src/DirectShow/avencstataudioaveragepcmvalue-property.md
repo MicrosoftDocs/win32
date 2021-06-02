@@ -1,5 +1,5 @@
 ---
-Description: Returns the average volume level of the audio content.
+description: Returns the average volume level of the audio content.
 ms.assetid: 371c2eb6-24dc-42f0-a525-2a7fcd7cb087
 title: AVEncStatAudioAveragePCMValue property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ This property is available after the encoding is completed.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

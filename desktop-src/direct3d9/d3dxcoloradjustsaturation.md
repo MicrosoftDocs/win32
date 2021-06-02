@@ -1,5 +1,5 @@
 ---
-Description: Adjusts the saturation value of a color.
+description: D3DXColorAdjustSaturation function (D3dx9math.h) - Adjusts the saturation value of a color.
 ms.assetid: 1f66c3b4-2f02-4993-80c6-c484180c2459
 title: D3DXColorAdjustSaturation function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXColorAdjustSaturation function
+# D3DXColorAdjustSaturation function (D3dx9math.h)
 
 Adjusts the saturation value of a color.
 
@@ -104,7 +104,7 @@ r = g = b = 0.2125*r + 0.7154*g + 0.0721*b
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

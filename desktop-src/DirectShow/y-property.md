@@ -1,5 +1,5 @@
 ---
-Description: The y property sets or retrieves the y position of the rectangle's upper-left corner.
+description: The y property sets or retrieves the y position of the rectangle's upper-left corner.
 ms.assetid: '7865d6c8-8375-44b3-b4e1-197a592dcf83'
 title: y Property
 ms.topic: article

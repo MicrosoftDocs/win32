@@ -1,5 +1,5 @@
 ---
-Description: Destroys a previously created kernel-mode Microsoft DirectDraw device object.
+description: Destroys a previously created kernel-mode Microsoft DirectDraw device object.
 ms.assetid: 0b2e1bae-8291-4fe4-9528-980680906e0a
 title: NtGdiDdDeleteDirectDrawObject function (Ntgdi.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Applications are advised to use the DirectDraw and [Direct3D](../direct3d10/d3d1
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

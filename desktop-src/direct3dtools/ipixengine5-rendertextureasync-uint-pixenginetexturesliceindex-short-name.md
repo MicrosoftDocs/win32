@@ -1,5 +1,5 @@
 ---
-Description: Renders a texture to a file and returns the result to the host asynchrnously.
+description: Renders a texture to a file and returns the result to the host asynchrnously.
 MS-HAID: vspixengine.IPixEngine5\_RenderTextureAsync\_UINT\_PixEngineTextureSliceIndex\_int\_float\_arr4\_float\_arr4\_BSTR\_UINT\_BSTR\_arr\_float\_arr\_UINT\_BSTR\_arr\_BOOL\_arr\_BSTR\_IPixEngine5Callbacks\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

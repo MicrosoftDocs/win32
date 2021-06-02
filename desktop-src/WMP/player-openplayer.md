@@ -1,6 +1,6 @@
 ---
 title: Player.openPlayer method
-description: The openPlayer method opens Windows Media Player using the specified URL.
+description: The openPlayer method opens Windows Media Player using the specified URL. | Player.openPlayer method
 ms.assetid: '9ddd63c9-f4a0-490a-8543-51ad0fa74a26'
 keywords:
 - openPlayer method Windows Media Player
@@ -60,7 +60,7 @@ If this method is called from a Windows Media PlayerActiveX control embedded in 
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

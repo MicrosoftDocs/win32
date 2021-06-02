@@ -1,5 +1,5 @@
 ---
-Description: Not used.
+description: <span id="vspixengine.iserverconnectioncallback"></span>IServerConnectionCallback interface - Not used.
 MS-HAID: vspixengine.IServerConnectionCallback
 MSHAttr:
 - PreferredSiteName:MSDN

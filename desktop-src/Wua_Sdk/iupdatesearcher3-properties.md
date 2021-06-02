@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateSearcher3 interface defines the following method
+description: The IUpdateSearcher3 interface defines the following method
 ms.assetid: 213aaf24-f94a-46cc-8fba-ce47bfca3199
 title: IUpdateSearcher3 Methods
 ms.topic: reference

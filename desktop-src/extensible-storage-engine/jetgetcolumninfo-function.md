@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetColumnInfo Function"
 title: JetGetColumnInfo Function
 TOCTitle: JetGetColumnInfo Function
 ms:assetid: 2db024e9-2784-4fb2-84b2-fef7ae518938
@@ -71,13 +72,13 @@ The size, in bytes, of the buffer that is passed in *pvResult*.
 
 *InfoLevel*
 
-The type of information to retrieve for the column that is specified by *szColumnName*. The format of the data stored in *pvResult* is dependent on this parameter. For the schema of the temporary table, see [JET_COLUMNLIST](gg269228\(v=exchg.10\).md).
+The type of information to retrieve for the column that is specified by *szColumnName*. The format of the data stored in *pvResult* is dependent on this parameter. For the schema of the temporary table, see [JET_COLUMNLIST](./jet-columnlist-structure.md).
 
 These *InfoLevels* are differentiated by:
 
   - JET_ColInfoListSortColumnid will sort the temporary table by *columnid*.
 
-  - JET_ColInfoListCompact will compact the output. For more information about the compact output, see [JET_COLUMNLIST](gg269228\(v=exchg.10\).md).
+  - JET_ColInfoListCompact will compact the output. For more information about the compact output, see [JET_COLUMNLIST](./jet-columnlist-structure.md).
 
 The following options are available for use with this parameter.
 
@@ -150,7 +151,7 @@ The following options are available for use with this parameter.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -199,13 +200,13 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-[JetGetTableColumnInfo](gg294061\(v=exchg.10\).md) and **JetGetColumnInfo** both retrieve information about a column. The difference between them is how the table is identified:
+[JetGetTableColumnInfo](./jetgettablecolumninfo-function.md) and **JetGetColumnInfo** both retrieve information about a column. The difference between them is how the table is identified:
 
-  - [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md) identifies a table by *tableid*.
+  - [JetGetTableColumnInfo](./jetgettablecolumninfo-function.md) identifies a table by *tableid*.
 
   - **JetGetColumnInfo** identifies a table by *dbid* and *szTableName* combination.
 
-When retrieving data with JET_ColInfoList, JET_ColInfoListSortColumnid, or JET_ColInfoListCompact, a temporary table will be opened. The temporary table contains data, and the [JET_COLUMNLIST](gg269228\(v=exchg.10\).md) structure contains sufficient information to traverse the temporary table. The temporary table must be closed with [JetCloseTable](gg294087\(v=exchg.10\).md).
+When retrieving data with JET_ColInfoList, JET_ColInfoListSortColumnid, or JET_ColInfoListCompact, a temporary table will be opened. The temporary table contains data, and the [JET_COLUMNLIST](./jet-columnlist-structure.md) structure contains sufficient information to traverse the temporary table. The temporary table must be closed with [JetCloseTable](./jetclosetable-function.md).
 
 #### Requirements
 
@@ -245,16 +246,15 @@ When retrieving data with JET_ColInfoList, JET_ColInfoListSortColumnid, or JET_C
 
 #### See Also
 
-[Error Handling Parameters](gg269173\(v=exchg.10\).md)  
-[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET_COLUMNBASE](gg269194\(v=exchg.10\).md)  
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_COLUMNLIST](gg269228\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetGetTableColumnInfo](gg294061\(v=exchg.10\).md)
-
+[Error Handling Parameters](./error-handling-parameters.md)  
+[Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)  
+[JET_COLUMNBASE](./jet-columnbase-structure.md)  
+[JET_COLUMNDEF](./jet-columndef-structure.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_COLUMNLIST](./jet-columnlist-structure.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetGetTableColumnInfo](./jetgettablecolumninfo-function.md)

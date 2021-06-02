@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 055e502d-631f-49d2-8577-65396373d478
 title: Representing Attributes as Feature/Option Constructs or as Parameters
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Representing Attributes as Feature/Option Constructs or as Parameters
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 The author of a PrintCapabilities document defines device attributes that make up the configuration. In the PrintCapabilities document, the author can choose to represent a device attribute either as a Feature/Option construct or as a parameter construct.
 
@@ -20,7 +20,7 @@ If a device attribute can be represented by a range of integers, parameter repre
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

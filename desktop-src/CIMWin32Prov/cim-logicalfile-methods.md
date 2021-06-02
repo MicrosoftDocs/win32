@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalFile class exposes the following methods.
+description: The CIM\_LogicalFile class exposes the following methods.
 ms.assetid: 0ACA0C89-BFA6-4B1F-98F1-FB6ACEE65905
 ms.tgt_platform: multiple
 title: CIM_LogicalFile Methods

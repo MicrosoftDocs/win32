@@ -1,5 +1,5 @@
 ---
-Description: When true, indicates that the ink can be re-analyzed. This element is false if the user has explicitly set the type of the ink by using the Convert Handwriting to Text or the Change Shape To features of Journal.
+description: When true, indicates that the ink can be re-analyzed. This element is false if the user has explicitly set the type of the ink by using the Convert Handwriting to Text or the Change Shape To features of Journal.
 ms.assetid: d1b9bd7f-e420-4290-a542-f1216b6ef203
 title: CanReClassify Element
 ms.topic: reference

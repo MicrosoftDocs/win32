@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for creating an IWICColorContext.
+description: Proxy function for creating an IWICColorContext.
 ms.assetid: 66348ef2-3056-4ec7-84ad-6e022e320a33
 title: WICCreateColorContext_Proxy function
 ms.topic: reference
@@ -64,7 +64,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

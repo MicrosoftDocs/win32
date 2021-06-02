@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_SnapshotCollection to the contained Msvm\_VirtualSystemSettingData objects.
+description: Associates the Msvm\_SnapshotCollection to the contained Msvm\_VirtualSystemSettingData objects.
 ms.assetid: 21005e8a-0bc6-4ea7-8f6f-d79803b43bc0
 title: Msvm_CollectedSnapshots class
 ms.topic: reference
@@ -82,7 +82,7 @@ An [**Msvm\_VirtualSystemSettingData**](msvm-virtualsystemsettingdata.md) contai
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

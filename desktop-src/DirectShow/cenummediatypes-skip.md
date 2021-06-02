@@ -1,5 +1,5 @@
 ---
-Description: The Skip method skips over a specified number of media types. This method implements the IEnumMediaTypes::Skip method.
+description: The Skip method skips over a specified number of media types. This method implements the IEnumMediaTypes::Skip method.
 ms.assetid: a01fb084-b227-4ca6-b5ca-c57d56e8b1aa
 title: CEnumMediaTypes.Skip method (Amfilter.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Returns one of the **HRESULT** values shown in the following table.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

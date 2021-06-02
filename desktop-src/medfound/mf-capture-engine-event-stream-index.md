@@ -1,5 +1,5 @@
 ---
-Description: Identifies which stream generated a capture event.
+description: Identifies which stream generated a capture event.
 ms.assetid: A15B334A-716A-467E-AEA5-C13710FFE109
 title: MF_CAPTURE_ENGINE_EVENT_STREAM_INDEX attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ This attribute appears on some events from the capture engine. To get this attri
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.PreferredVerPages property"
 title: InstanceParameters.PreferredVerPages property 
 TOCTitle: 'PreferredVerPages property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.PreferredVerPages
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the preferred number of version store pages reserved for this instance. If the size of the version store exceeds this threshold then any information that is only used for optional background tasks, such as reclaiming deleted space in the database, is instead sacrificed to preserve room for transactional information.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

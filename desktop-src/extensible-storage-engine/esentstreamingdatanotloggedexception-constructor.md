@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStreamingDataNotLoggedException constructor"
 title: EsentStreamingDataNotLoggedException constructor 
 TOCTitle: 'EsentStreamingDataNotLoggedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentStreamingDataNotLoggedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentStreamingDataNotLoggedException()
 
 #### Reference
 
-[EsentStreamingDataNotLoggedException class](dn334874\(v=exchg.10\).md)
+[EsentStreamingDataNotLoggedException class](./esentstreamingdatanotloggedexception-class.md)
 
-[EsentStreamingDataNotLoggedException members](dn334935\(v=exchg.10\).md)
+[EsentStreamingDataNotLoggedException members](./esentstreamingdatanotloggedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

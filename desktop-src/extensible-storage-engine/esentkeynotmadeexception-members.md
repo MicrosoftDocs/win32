@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyNotMadeException members"
 title: EsentKeyNotMadeException members
 TOCTitle: EsentKeyNotMadeException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentKeyNotMadeException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.KeyNotMade exceptions.
 
-The [EsentKeyNotMadeException](dn334554\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyNotMadeException](./esentkeynotmadeexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentKeyNotMadeException class](dn334554\(v=exchg.10\).md)
+[EsentKeyNotMadeException class](./esentkeynotmadeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

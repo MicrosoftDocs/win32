@@ -1,5 +1,5 @@
 ---
-Description: Defines texture filtering modes for a texture stage.
+description: Defines texture filtering modes for a texture stage.
 ms.assetid: 4e0420fa-ac76-4be4-90d7-944d8d5a5de1
 title: D3DTEXTUREFILTERTYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -88,11 +88,9 @@ A 4-sample Gaussian filter used as a texture magnification or minification filte
 
 Convolution filter for monochrome textures. See [D3DFMT\_A1](d3dformat.md).
 
+Differences between Direct3D 9 and Direct3D 9Ex:
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> This flag is available in Direct3D 9Ex only.<br/> |
+- This flag is available in Direct3D 9Ex only.
 
 
 
@@ -127,7 +125,7 @@ Not all valid filtering modes for a device will apply to volume maps. In general
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

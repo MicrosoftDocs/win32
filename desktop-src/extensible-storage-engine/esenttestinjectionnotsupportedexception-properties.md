@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTestInjectionNotSupportedException properties"
 title: EsentTestInjectionNotSupportedException properties
 TOCTitle: EsentTestInjectionNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTestInjectionNotSupportedException](dn334978\(v=exchg.10\).md) type exposes the following members.
+The [EsentTestInjectionNotSupportedException](./esenttestinjectionnotsupportedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentTestInjectionNotSupportedException class](dn334978\(v=exchg.10\).md)
+[EsentTestInjectionNotSupportedException class](./esenttestinjectionnotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

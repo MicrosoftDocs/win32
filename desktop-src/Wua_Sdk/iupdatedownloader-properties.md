@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateDownloader interface defines the following properties.
+description: The IUpdateDownloader interface defines the following properties.
 ms.assetid: b6a30356-f97d-408f-becd-a467e9f8e79f
 title: IUpdateDownloader Properties
 ms.topic: article

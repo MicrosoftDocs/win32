@@ -1,5 +1,5 @@
 ---
-Description: The SWbemLastError object exposes the following properties.
+description: The SWbemLastError object exposes the following properties.
 ms.assetid: 19CA64FE-EAA7-41C6-8502-8D7B321B6C8F
 ms.tgt_platform: multiple
 title: SWbemLastError Properties

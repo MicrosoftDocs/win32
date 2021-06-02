@@ -1,5 +1,5 @@
 ---
-Description: Contains a string representation of the item's type.
+description: Contains a string representation of the item's type.
 ms.assetid: e851d632-9562-4194-a24c-12e757227b5b
 title: FolderItem.Type property (Shldisp.h)
 ms.topic: reference
@@ -142,7 +142,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

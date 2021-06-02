@@ -1,5 +1,5 @@
 ---
-Description: Windows Management Instrumentation (WMI) has a new registry key to enable or disable the AutoRestore repository feature.
+description: Windows Management Instrumentation (WMI) has a new registry key to enable or disable the AutoRestore repository feature.
 ms.assetid: 6c93fc40-b5d8-42da-9d02-7fa04fce3f65
 ms.tgt_platform: multiple
 title: Registry Key for Repository Configuration

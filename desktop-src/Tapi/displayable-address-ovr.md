@@ -1,5 +1,5 @@
 ---
-Description: The displayable address is a string that presents the address in a form that is suitable for display in a user interface.
+description: The displayable address is a string that presents the address in a form that is suitable for display in a user interface.
 ms.assetid: 390e0500-b6b1-40ad-9ecc-d649ae6700bc
 title: Displayable Address
 ms.topic: article

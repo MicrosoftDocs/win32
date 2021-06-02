@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the automatic configuration service for wired networks requires the use of 802.1X for port authentication.
+description: Specifies whether the automatic configuration service for wired networks requires the use of 802.1X for port authentication.
 ms.assetid: fb01be74-46ad-4d8c-be4c-50ae05a0c33b
 title: OneXEnforced (security) Element
 ms.topic: reference
@@ -34,7 +34,7 @@ The **OneXEnforced** element is defined by the [**security**](lan-profileschema-
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Installing the Windows Region Change Support Components
+description: Installing the Windows Region Change Support Components
 ms.assetid: af0e5e19-f4de-4932-a42b-590a1131e0f6
 title: Installing the Windows Region Change Support Components
 ms.topic: article

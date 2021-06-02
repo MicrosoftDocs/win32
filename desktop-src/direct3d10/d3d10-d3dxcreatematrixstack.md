@@ -1,5 +1,5 @@
 ---
-Description: Create a matrix stack.
+description: Create a matrix stack.
 ms.assetid: df0f3564-0226-44b8-b22b-4dd27905c44c
 title: D3DXCreateMatrixStack function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXCreateMatrixStack function
+# D3DXCreateMatrixStack function (D3DX10Math.h)
 
 Create a matrix stack.
 
@@ -64,7 +64,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

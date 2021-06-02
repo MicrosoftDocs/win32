@@ -1,5 +1,5 @@
 ---
-Description: The maximum frame rate that is supported by a video capture device, in frames per second.
+description: The maximum frame rate that is supported by a video capture device, in frames per second.
 ms.assetid: 8e0c4996-9f78-424e-b012-502228b6a27a
 title: MF_MT_FRAME_RATE_RANGE_MAX attribute (Mfapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                     |

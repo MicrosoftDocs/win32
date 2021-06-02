@@ -1,5 +1,5 @@
 ---
-Description: Computes, at an arbitrary point not on a mesh, a transfer vector that maps source radiance (represented by a spherical harmonic (SH) approximation) to exit radiance.
+description: Computes, at an arbitrary point not on a mesh, a transfer vector that maps source radiance (represented by a spherical harmonic (SH) approximation) to exit radiance.
 ms.assetid: 44790465-440d-4426-b780-ed872fbf8efb
 title: ID3DXPRTEngine::ComputeSurfSamplesDirectSH method (D3DX9Mesh.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ Do not use a texture buffer when calling this method.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

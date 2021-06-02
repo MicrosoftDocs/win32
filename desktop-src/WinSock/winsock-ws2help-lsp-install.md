@@ -1,5 +1,5 @@
 ---
-Description: Winsock catalog change event for a layered service provider (LSP) installation operation.
+description: Winsock catalog change event for a layered service provider (LSP) installation operation.
 ms.assetid: 76A3D175-8CDC-486C-8341-D6314BCEC113
 title: WINSOCK_WS2HELP_LSP_INSTALL event
 ms.topic: reference
@@ -77,7 +77,7 @@ The **WINSOCK\_WS2HELP\_LSP\_INSTALL** event is traced for an LSP install operat
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

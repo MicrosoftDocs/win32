@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters class"
 title: InstanceParameters class
 TOCTitle: InstanceParameters class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.InstanceParameters
@@ -35,7 +36,7 @@ This class provides properties to set and get system parameters on an ESENT inst
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.InstanceParameters  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAccessDeniedException methods"
 title: EsentAccessDeniedException methods
 TOCTitle: EsentAccessDeniedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentAccessDeniedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentAccessDeniedException](dn273978\(v=exchg.10\).md) type exposes the following members.
+The [EsentAccessDeniedException](./esentaccessdeniedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentAccessDeniedException class](dn273978\(v=exchg.10\).md)
+[EsentAccessDeniedException class](./esentaccessdeniedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

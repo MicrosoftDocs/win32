@@ -22,7 +22,7 @@ Contains the minimum file size, in kilobytes, to which to apply RDC.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-RdcMinFileSizeInKb           |
 | Ldap-Display-Name | msDFSR-RdcMinFileSizeInKb            |
@@ -46,7 +46,7 @@ Contains the minimum file size, in kilobytes, to which to apply RDC.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -67,7 +67,7 @@ Contains the minimum file size, in kilobytes, to which to apply RDC.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -88,7 +88,7 @@ Contains the minimum file size, in kilobytes, to which to apply RDC.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -109,7 +109,7 @@ Contains the minimum file size, in kilobytes, to which to apply RDC.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

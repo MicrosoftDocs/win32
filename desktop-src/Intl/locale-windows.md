@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_WINDOWS
+description: LOCALE\_WINDOWS
 ms.assetid: 931ec33d-d1d0-4a6b-aa55-61db2631dd4f
 title: LOCALE_WINDOWS
 ms.topic: article

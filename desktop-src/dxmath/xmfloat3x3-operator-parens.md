@@ -1,5 +1,5 @@
 ---
-Description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT3X3.
+description: Accesses specific matrix elements referenced by row and column from the current instance of XMFLOAT3X3.
 ms.assetid: 19daf862-df81-40d7-b0c7-809015d7f7c8
 title: XMFLOAT3X3 operator () operators
 ms.topic: reference
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator () operators
+# XMFLOAT3X3 operator () operators
 
 Accesses specific matrix elements referenced by row and column from the current instance of `XMFLOAT3X3`.
 

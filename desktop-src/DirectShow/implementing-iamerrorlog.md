@@ -1,5 +1,5 @@
 ---
-Description: Implementing IAMErrorLog
+description: Implementing IAMErrorLog
 ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: Implementing IAMErrorLog
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_VideoController class represents the capabilities and management of the video controller.
+description: The CIM\_VideoController class represents the capabilities and management of the video controller.
 ms.assetid: 7cf6bf2a-62a5-46fa-8c8f-976604360461
 ms.tgt_platform: multiple
 title: CIM_VideoController class
@@ -1992,7 +1992,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

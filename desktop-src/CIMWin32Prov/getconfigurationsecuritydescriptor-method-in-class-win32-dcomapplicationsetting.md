@@ -1,5 +1,5 @@
 ---
-Description: Gets the security descriptor that controls who is allowed to configure a DCOM application.
+description: Gets the security descriptor that controls who is allowed to configure a DCOM application.
 ms.assetid: 2858a7a0-1e5b-47aa-9967-0f578c3c22c1
 ms.tgt_platform: multiple
 title: GetConfigurationSecurityDescriptor method of the Win32_DCOMApplicationSetting class
@@ -102,7 +102,7 @@ If the **SeSecurityPrivilege** is not granted or enabled when getting a security
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

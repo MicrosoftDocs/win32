@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api.RetrieveColumnAsInt16 method"
 title: Api.RetrieveColumnAsInt16 method 
 TOCTitle: 'RetrieveColumnAsInt16 method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Api.RetrieveColumnAsInt16
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

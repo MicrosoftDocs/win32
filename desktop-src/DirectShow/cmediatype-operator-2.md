@@ -1,7 +1,7 @@
 ---
-Description: This operator overloads the assignment operator to copy a media type.
+description: This operator overloads the assignment operator to copy a media type.
 ms.assetid: 5b94191d-b5e4-42b2-b0c5-8c2da2483c54
-title: CMediaType.CMediaType::operator= method (Mtype.h)
+title: CMediaType.CMediaType::operator= method (Mtype.h) - mtype parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CMediaType.CMediaType::operator= method
+# CMediaType.CMediaType::operator= method (Mtype.h)
 
 This operator overloads the assignment operator to copy a media type.
 
@@ -52,7 +52,7 @@ Returns a reference to the object.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

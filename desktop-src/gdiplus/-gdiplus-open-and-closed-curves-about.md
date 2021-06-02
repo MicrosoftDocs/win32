@@ -1,5 +1,5 @@
 ---
-Description: 'The following illustration shows two curves: one open and one closed.'
+description: 'The following illustration shows two curves: one open and one closed.'
 ms.assetid: e0fb8ba1-1783-4b36-93d8-f1242425d8bd
 title: Open and Closed Curves
 ms.topic: article

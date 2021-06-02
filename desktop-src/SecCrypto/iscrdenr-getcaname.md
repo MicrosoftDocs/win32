@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the name of the specified certification authority (CA) for a given certificate template.
+description: Retrieves the name of the specified certification authority (CA) for a given certificate template.
 ms.assetid: e921710a-7c74-4fda-91e1-fbad45889984
 title: ISCrdEnr::getCAName method
 ms.topic: reference
@@ -90,7 +90,7 @@ The default CA name is the first name in the available list of CAs.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the original device timestamp on the sample.
+description: Specifies the original device timestamp on the sample.
 ms.assetid: 93BB6E41-308E-4527-A04B-C685C818FEC4
 title: MFSampleExtension_DeviceReferenceSystemTime attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ This is the a device reference time stamp of media samples in 100ns resolution. 
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                        |

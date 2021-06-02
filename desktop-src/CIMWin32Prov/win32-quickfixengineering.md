@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_QuickFixEngineering&\#8194;WMI class represents a small system-wide update, commonly referred to as a quick-fix engineering (QFE) update, applied to the current operating system.
+description: The Win32\_QuickFixEngineering&\#8194;WMI class represents a small system-wide update, commonly referred to as a quick-fix engineering (QFE) update, applied to the current operating system.
 ms.assetid: 84aed428-7620-4f7a-941f-f9d683020d8a
 ms.tgt_platform: multiple
 title: Win32_QuickFixEngineering class
@@ -386,7 +386,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

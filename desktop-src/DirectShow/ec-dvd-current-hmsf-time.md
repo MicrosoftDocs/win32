@@ -1,5 +1,5 @@
 ---
-Description: Signals the current time, in DVD\_HMSF\_TIMECODE format, relative to the start of the title. This event is triggered at the beginning of every VOBU, which occurs every 0.4 to 1.0 seconds.
+description: Signals the current time, in DVD\_HMSF\_TIMECODE format, relative to the start of the title. This event is triggered at the beginning of every VOBU, which occurs every 0.4 to 1.0 seconds.
 ms.assetid: 7c81a09a-21f3-49b2-b90a-7cbc9c815bad
 title: EC_DVD_CURRENT_HMSF_TIME (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in the title domains.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

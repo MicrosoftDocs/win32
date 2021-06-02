@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETSYSPARAM Structure"
 title: JET_SETSYSPARAM Structure
 TOCTitle: JET_SETSYSPARAM Structure
 ms:assetid: 3c0fdd28-99bd-4026-b64b-6859ef9dc91b
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_SETSYSPARAM Structure
 
-An array of **JET_SETSYSPARAM** structures indicate a specific set of global system parameters that are set as an argument when using the [JetEnableMultiInstance](gg294107\(v=exchg.10\).md) function.
+An array of **JET_SETSYSPARAM** structures indicate a specific set of global system parameters that are set as an argument when using the [JetEnableMultiInstance](./jetenablemultiinstance-function.md) function.
 
 **Windows XP:** This structure is introduced in Windows XP.
 
@@ -43,7 +44,7 @@ An array of **JET_SETSYSPARAM** structures indicate a specific set of global sys
 
 The ID of the system parameter that will be set.
 
-See [Extensible Storage Engine System Parameters](gg294139\(v=exchg.10\).md) for a complete list of system parameters and their properties.
+See [Extensible Storage Engine System Parameters](./extensible-storage-engine-system-parameters.md) for a complete list of system parameters and their properties.
 
 **lParam**
 
@@ -55,7 +56,7 @@ The optional value to be set for the selected system parameter if that system pa
 
 **err**
 
-The error resulting from the call to [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with the previously specified parameters.
+The error resulting from the call to [JetSetSystemParameter](./jetsetsystemparameter-function.md) with the previously specified parameters.
 
 ### Requirements
 
@@ -87,9 +88,8 @@ The error resulting from the call to [JetSetSystemParameter](gg294044\(v=exchg.1
 
 ### See Also
 
-[Extensible Storage Engine System Parameters](gg294139\(v=exchg.10\).md)  
-[JET_API_PTR](gg269209\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JetEnableMultiInstance](gg294107\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)
-
+[Extensible Storage Engine System Parameters](./extensible-storage-engine-system-parameters.md)  
+[JET_API_PTR](./jet-api-ptr.md)  
+[JET_ERR](./jet-err.md)  
+[JetEnableMultiInstance](./jetenablemultiinstance-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: The GetClassWindowStyles method retrieves the window's class styles and window styles.
+description: The GetClassWindowStyles method retrieves the window's class styles and window styles.
 ms.assetid: 6eec7912-c654-4e4f-b6f1-ec94c7284575
 title: CBaseWindow.GetClassWindowStyles method (Winutil.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ The object uses the class style for the **lpszClassName** member of a WNDCLASS s
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

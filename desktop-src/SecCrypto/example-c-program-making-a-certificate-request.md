@@ -1,5 +1,5 @@
 ---
-Description: The following example demonstrates the procedure outlined in the previous section. This example creates a simple certificate request with one signer, a single relative distinguished name (RDN) attribute, and no general attributes.
+description: The following example demonstrates the procedure outlined in the previous section. This example creates a simple certificate request with one signer, a single relative distinguished name (RDN) attribute, and no general attributes.
 ms.assetid: bd3d0259-f0e8-460e-9f18-95d2492da3d8
 title: 'Example C Program: Making a Certificate Request'
 ms.topic: article

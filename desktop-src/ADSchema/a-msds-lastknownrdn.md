@@ -22,7 +22,7 @@ Contains the original RDN of a deleted object.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Last-Known-RDN                        |
 | Ldap-Display-Name | msDS-LastKnownRDN                           |
@@ -44,7 +44,7 @@ Contains the original RDN of a deleted object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -65,7 +65,7 @@ Contains the original RDN of a deleted object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

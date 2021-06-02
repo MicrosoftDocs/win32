@@ -22,7 +22,7 @@ Specifies the names of the certificate templates that are superseded by the curr
 
 
 
-|                   |                                                                                                   |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-Supersede-Templates                                                                        |
 | Ldap-Display-Name | msPKI-Supersede-Templates                                                                         |
@@ -47,7 +47,7 @@ Specifies the names of the certificate templates that are superseded by the curr
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -68,7 +68,7 @@ Specifies the names of the certificate templates that are superseded by the curr
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -89,7 +89,7 @@ Specifies the names of the certificate templates that are superseded by the curr
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -110,7 +110,7 @@ Specifies the names of the certificate templates that are superseded by the curr
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -131,7 +131,7 @@ Specifies the names of the certificate templates that are superseded by the curr
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

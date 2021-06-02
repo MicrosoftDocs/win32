@@ -1,5 +1,5 @@
 ---
-Description: Upgrades a volume from the Windows Vista format to the Windows 7 format.
+description: Upgrades a volume from the Windows Vista format to the Windows 7 format.
 ms.assetid: d6654e92-8176-471b-b8e5-815dd9512240
 title: UpgradeVolume method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -61,7 +61,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

@@ -1,12 +1,12 @@
 ---
-Description: This section contains reference information for the Microsoft Direct3D 12 video interfaces.
+description: This section contains reference information for the Microsoft Direct3D 12 video interfaces.
 ms.assetid: 
 title: Direct3D 12 Video Interfaces
 ms.topic: article
 ms.date: 06/03/2019
 ---
 
-# Direct3D 11 Video Interfaces
+# Direct3D 12 Video Interfaces
 
 This section contains reference information for the Microsoft Direct3D 12 video interfaces.
 

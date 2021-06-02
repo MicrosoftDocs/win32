@@ -1,5 +1,5 @@
 ---
-Description: The SnmpExtendedNotification class is the base class for any class mapped from the NOTIFICATION-TYPE macro to a CIM class by the SNMP Provider.
+description: The SnmpExtendedNotification class is the base class for any class mapped from the NOTIFICATION-TYPE macro to a CIM class by the SNMP Provider.
 ms.assetid: 207966c1-14cf-4a47-8176-0f58838cfa1e
 ms.tgt_platform: multiple
 title: SnmpExtendedNotification class
@@ -200,7 +200,7 @@ A [NOTIFICATION-TYPE](notification-type-macro.md) macro that contains references
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

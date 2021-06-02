@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the PCCERT\_CONTEXT of a certificate.
+description: Sets or retrieves the PCCERT\_CONTEXT of a certificate.
 ms.assetid: aedd219d-43fa-4722-9af4-36172d2c18b0
 title: ICertContext::CertContext property
 ms.topic: reference
@@ -55,7 +55,7 @@ If you set the **CertContext** property, the state of the entire [**Certificate*
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

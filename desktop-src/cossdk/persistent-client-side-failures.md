@@ -1,5 +1,5 @@
 ---
-Description: Persistent Client-Side Failures
+description: Persistent Client-Side Failures
 ms.assetid: f991db71-8319-414d-8a25-2d02bc7c8b51
 title: Persistent Client-Side Failures
 ms.topic: article

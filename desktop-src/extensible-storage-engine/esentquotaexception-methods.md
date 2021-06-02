@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQuotaException methods"
 title: EsentQuotaException methods
 TOCTitle: EsentQuotaException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentQuotaException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentQuotaException](dn319806\(v=exchg.10\).md) type exposes the following members.
+The [EsentQuotaException](./esentquotaexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentQuotaException class](dn319806\(v=exchg.10\).md)
+[EsentQuotaException class](./esentquotaexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

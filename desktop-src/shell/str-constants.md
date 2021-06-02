@@ -1,5 +1,5 @@
 ---
-Description: A set of string keys that are used with the IBindCtx::RegisterObjectParam method to specify a bind context.
+description: A set of string keys that are used with the IBindCtx::RegisterObjectParam method to specify a bind context.
 title: Bind Context String Keys (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -215,7 +215,7 @@ A set of string keys that are used with the [**IBindCtx::RegisterObjectParam**](
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="STR_PROPERTYBAG_PARAM"></span><span id="str_propertybag_param"></span><dl> <dt><strong>STR_PROPERTYBAG_PARAM</strong></dt> </dl></td>
-<td style="text-align: left;"><strong>Introduced in Windows 8</strong>. Specify this bind context to indicate that the bind context parameter is a property bag (<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)"><strong>IPropertyBag</strong></a>) used to pass VARIANT values in the bind context. See the Remarks section for further details.<br/></td>
+<td style="text-align: left;"><strong>Introduced in Windows 8</strong>. Specify this bind context to indicate that the bind context parameter is a property bag (<a href="/windows/win32/api/oaidl/nn-oaidl-ipropertybag"><strong>IPropertyBag</strong></a>) used to pass VARIANT values in the bind context. See the Remarks section for further details.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_SKIP_BINDING_CLSID"></span><span id="str_skip_binding_clsid"></span><dl> <dt><strong>STR_SKIP_BINDING_CLSID</strong></dt> </dl></td>
@@ -268,7 +268,7 @@ See the [Parsing With Parameters Sample](samples-parsingwithparameters.md) for a
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                 |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the types of synchronization frame that are supported for an H.264 video stream.
+description: Specifies the types of synchronization frame that are supported for an H.264 video stream.
 ms.assetid: A2E548F1-A5FA-4110-AD07-46BE9D7DC4A5
 title: MF_MT_H264_SUPPORTED_SYNC_FRAME_TYPES attribute (Mfapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ This attribute is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

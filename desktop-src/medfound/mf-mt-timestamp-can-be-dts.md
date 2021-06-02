@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.
+description: MF_MT_TIMESTAMP_CAN_BE_DTS attribute - Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.
 ms.assetid: 38E6AA56-EE38-48D5-92F1-F29ABB2C7A72
 title: MF_MT_TIMESTAMP_CAN_BE_DTS attribute (Mfapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies whether a decoder can use decode time stamps (DTS) when setting time s
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

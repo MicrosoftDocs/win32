@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVProviderNotLoadedException constructor"
 title: EsentSLVProviderNotLoadedException constructor 
 TOCTitle: 'EsentSLVProviderNotLoadedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVProviderNotLoadedException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVProviderNotLoadedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVProviderNotLoadedException()
 
 #### Reference
 
-[EsentSLVProviderNotLoadedException class](dn334827\(v=exchg.10\).md)
+[EsentSLVProviderNotLoadedException class](./esentslvprovidernotloadedexception-class.md)
 
-[EsentSLVProviderNotLoadedException members](dn350739\(v=exchg.10\).md)
+[EsentSLVProviderNotLoadedException members](./esentslvprovidernotloadedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -31,7 +31,7 @@ The Turbulence effect computes the sum of one or more octaves of the Perlin nois
 
 If you select the D2D1\_TURBULENCE\_NOISE\_FRACTAL\_SUM noise mode the effect uses this equation.
 
-![the turbulence function used to generate a bitmap.](images/turbulence-equation1.png)
+![Screenshot that shows the turbulence function used to generate a bitmap.](images/turbulence-equation1.png)
 
 If you select the D2D1\_TURBULENCE\_NOISE\_TURBULENCE noise mode the effect uses this equation.
 
@@ -132,7 +132,7 @@ This effect generates a logically infinite sized bitmap.
 
 
 
-|                          |                                                                                    |
+| Requirement | Value |
 |--------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |
 | Minimum supported server | Windows 8 and Platform Update for Windows 7 \[desktop apps \| Windows Store apps\] |

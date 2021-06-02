@@ -1,5 +1,5 @@
 ---
-Description: The get\_Name method gets the session name.
+description: The get\_Name method gets the session name.
 ms.assetid: 97b44a01-585b-434c-ad59-51c35e8a1ceb
 title: ITSdp::get_Name method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must use [**SysFreeString**](/windows/win32/api/oleauto/nf-oleau
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

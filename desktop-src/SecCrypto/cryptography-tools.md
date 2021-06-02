@@ -1,5 +1,5 @@
 ---
-Description: Cryptography tools provide command-line tools for code signing, signature verification, and other cryptography tasks.
+description: Cryptography tools provide command-line tools for code signing, signature verification, and other cryptography tasks.
 ms.assetid: 21adbcfb-fadd-4818-9dc5-23bfd526b525
 title: Cryptography Tools
 ms.topic: article

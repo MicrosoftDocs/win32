@@ -1,5 +1,5 @@
 ---
-Description: Removes a child IContextNode.
+description: Removes a child IContextNode.
 ms.assetid: ed1d7b35-f6ba-4eff-888d-5cc492f02832
 title: IContextNode::DeleteSubNode method (IACom.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ E\_INVALIDARG is returned if the *pContextNodeToDelete* parameter is not a child
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

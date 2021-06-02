@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE2 Structure"
 title: JET_RECSIZE2 Structure
 TOCTitle: JET_RECSIZE2 Structure
 ms:assetid: 02a13b5b-d904-49b2-baaa-c60328d70290
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_RECSIZE2 Structure
 
-The **JET_RECSIZE2** structure is used by [JetGetRecordSize2](gg269314\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESE record structure overhead space.
+The **JET_RECSIZE2** structure is used by [JetGetRecordSize2](./jetgetrecordsize2-function.md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESE record structure overhead space.
 
 **Windows 7:** The **JET_RECSIZE2** structure is introduced in the Windows 7 operating system.
 
@@ -130,5 +131,5 @@ The logical data in the record is (cbData+cbLongValueData) and the physical size
 
 ### See Also
 
-[JetGetRecordSize](gg294045\(v=exchg.10\).md)  
-[JetGetRecordSize2](gg269314\(v=exchg.10\).md)
+[JetGetRecordSize](./jetgetrecordsize-function.md)  
+[JetGetRecordSize2](./jetgetrecordsize2-function.md)

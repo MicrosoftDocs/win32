@@ -1,5 +1,5 @@
 ---
-Description: Timer algorithm counter types are based on the amount of increased use of the performance object over a sample period.
+description: Timer algorithm counter types are based on the amount of increased use of the performance object over a sample period.
 ms.assetid: 4ec49efc-2b0f-4205-8b58-fb121da32b4e
 ms.tgt_platform: multiple
 title: Timer Algorithm Counter Types

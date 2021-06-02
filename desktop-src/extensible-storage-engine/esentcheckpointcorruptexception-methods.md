@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointCorruptException methods"
 title: EsentCheckpointCorruptException methods
 TOCTitle: EsentCheckpointCorruptException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCheckpointCorruptException](dn274132\(v=exchg.10\).md) type exposes the following members.
+The [EsentCheckpointCorruptException](./esentcheckpointcorruptexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentCheckpointCorruptException class](dn274132\(v=exchg.10\).md)
+[EsentCheckpointCorruptException class](./esentcheckpointcorruptexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

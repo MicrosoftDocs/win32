@@ -1,5 +1,5 @@
 ---
-Description: This topic provides a procedure for performing track-controlled recording of audio streams.
+description: This topic provides a procedure for performing track-controlled recording of audio streams.
 ms.assetid: 57df081f-df41-4187-910b-939e3d82d7a0
 title: Track-Controlled Record
 ms.topic: article

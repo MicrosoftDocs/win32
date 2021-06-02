@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RebootAction class exposes the following methods.
+description: The CIM\_RebootAction class exposes the following methods.
 ms.assetid: A2ADB2F4-9E96-448F-9BAD-0DBB71EA72AE
 ms.tgt_platform: multiple
 title: CIM_RebootAction Methods

@@ -1,5 +1,5 @@
 ---
-Description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, reads some data, and cleans up.
+description: You can use the procedure and code examples in this topic to create a complete WMI client application that performs COM initialization, connects to WMI on the local computer, reads some data, and cleans up.
 ms.assetid: d80bcf9f-e57c-499f-b7b8-cf25678c5a82
 ms.tgt_platform: multiple
 title: 'Example: Creating a WMI Application'

@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application to provide commands and request information. A window receives this message through its WindowProc function.
+description: Sent to an application to provide commands and request information. A window receives this message through its WindowProc function.
 ms.assetid: c5e9f256-eed2-46cb-bb33-0e640a975f1f
 title: WM_IME_REQUEST message (Winuser.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Returns a command-specific value.
 
 
 
-|                                     |                                                                                                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                                                      |

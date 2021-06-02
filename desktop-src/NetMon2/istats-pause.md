@@ -1,5 +1,5 @@
 ---
-Description: The Pause method temporarily stops the current capture.
+description: The Pause method temporarily stops the current capture.
 ms.assetid: 43176e9e-1502-484c-a8af-4e7bbf5f6474
 title: IStats::Pause method (Netmon.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ To restart the capture call [IStats::Resume](istats-resume.md). To stop the capt
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

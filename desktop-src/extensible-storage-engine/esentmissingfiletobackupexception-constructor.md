@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFileToBackupException constructor"
 title: EsentMissingFileToBackupException constructor 
 TOCTitle: 'EsentMissingFileToBackupException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMissingFileToBackupException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMissingFileToBackupException()
 
 #### Reference
 
-[EsentMissingFileToBackupException class](dn334656\(v=exchg.10\).md)
+[EsentMissingFileToBackupException class](./esentmissingfiletobackupexception-class.md)
 
-[EsentMissingFileToBackupException members](dn334731\(v=exchg.10\).md)
+[EsentMissingFileToBackupException members](./esentmissingfiletobackupexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

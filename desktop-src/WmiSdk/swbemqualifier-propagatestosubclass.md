@@ -1,5 +1,5 @@
 ---
-Description: The PropagatesToSubClass property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to a subclass.
+description: The PropagatesToSubClass property of the SWbemQualifier object is a Boolean value that indicates if this qualifier can be propagated to a subclass.
 ms.assetid: d0c272fa-314c-4555-9fcf-6b7caf980f07
 ms.tgt_platform: multiple
 title: SWbemQualifier.PropagatesToSubClass property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemQualifier.PropagatesToSubClass
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

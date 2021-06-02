@@ -1,5 +1,5 @@
 ---
-Description: Enables static optimizations in the video pipeline.
+description: Enables static optimizations in the video pipeline.
 ms.assetid: 62fb3f0f-ab1f-4c61-8e7f-62908b947788
 title: MF_TOPOLOGY_STATIC_PLAYBACK_OPTIMIZATIONS attribute (Mfidl.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ done:
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

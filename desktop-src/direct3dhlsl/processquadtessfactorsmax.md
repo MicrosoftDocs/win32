@@ -1,6 +1,6 @@
 ---
 title: ProcessQuadTessFactorsMax function
-description: Generates the corrected tessellation factors for a quad patch.
+description: Generates the corrected tessellation factors for a quad patch. | ProcessQuadTessFactorsMax function
 ms.assetid: a0c91430-db25-49c9-bcc8-d2be1d0e6f6c
 keywords:
 - ProcessQuadTessFactorsMax function HLSL

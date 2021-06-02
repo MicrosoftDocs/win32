@@ -1,5 +1,5 @@
 ---
-Description: MJPEG Compressor Filter
+description: MJPEG Compressor Filter
 ms.assetid: de30a2c4-3e51-4f2b-b3f9-ed78e2d6512d
 title: MJPEG Compressor Filter
 ms.topic: article
@@ -12,7 +12,7 @@ This filter compresses an uncompressed video stream, using motion JPEG compressi
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), **IPersistStream**                                                                                                                                                                                             |
 | Input Pin Media Types                    | MEDIATYPE\_VIDEO, MEDIASUBTYPE\_NULL                                                                                                                                                                                                               |

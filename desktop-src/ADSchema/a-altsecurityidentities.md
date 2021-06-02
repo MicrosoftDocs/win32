@@ -22,7 +22,7 @@ Contains mappings for X.509 certificates or external Kerberos user accounts to t
 
 
 
-|                   |                                                     |
+| Entry | Value |
 |-------------------|-----------------------------------------------------|
 | CN                | Alt-Security-Identities                             |
 | Ldap-Display-Name | altSecurityIdentities                               |
@@ -48,7 +48,7 @@ Contains mappings for X.509 certificates or external Kerberos user accounts to t
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -69,7 +69,7 @@ Contains mappings for X.509 certificates or external Kerberos user accounts to t
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -90,7 +90,7 @@ Contains mappings for X.509 certificates or external Kerberos user accounts to t
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -111,7 +111,7 @@ Contains mappings for X.509 certificates or external Kerberos user accounts to t
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -132,7 +132,7 @@ Contains mappings for X.509 certificates or external Kerberos user accounts to t
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -153,7 +153,7 @@ Contains mappings for X.509 certificates or external Kerberos user accounts to t
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

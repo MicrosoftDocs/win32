@@ -90,7 +90,7 @@ Args[0].Type = D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INDEXED;
 
 D3D12_COMMAND_SIGNATURE_DESC ProgramDesc;
 ProgramDesc.ByteStride = 36;
-ProgramDesc.ArgumentCount = 1;
+ProgramDesc.NumArgumentDescs = 1;
 ProgramDesc.pArguments = Args;
 ```
 
@@ -132,7 +132,7 @@ Args[3].Type = D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INSTANCED;
 
 D3D12_COMMAND_SIGNATURE_DESC ProgramDesc;
 ProgramDesc.ByteStride = 40;
-ProgramDesc.ArgumentCount = 4;
+ProgramDesc.NumArgumentDescs = 4;
 ProgramDesc.pArguments = Args;
 ```
 

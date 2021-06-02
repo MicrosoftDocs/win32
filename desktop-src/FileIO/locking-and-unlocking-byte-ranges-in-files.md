@@ -1,5 +1,5 @@
 ---
-Description: Example code that shows byte range locking and unlocking by using the LockFileEx and UnlockFileEx functions.
+description: Example code that shows byte range locking and unlocking by using the LockFileEx and UnlockFileEx functions.
 ms.assetid: 9d54fe11-b1ad-4723-a42a-00bc6dc64072
 title: Locking and Unlocking Byte Ranges in Files
 ms.topic: article

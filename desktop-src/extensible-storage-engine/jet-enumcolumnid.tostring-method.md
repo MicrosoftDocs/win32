@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNID.ToString method"
 title: JET_ENUMCOLUMNID.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_ENUMCOLUMNID.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [JET_ENUMCOLUMNID](dn335139\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_ENUMCOLUMNID](./jet-enumcolumnid-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +53,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [JET_ENUMCOLUMNID](dn335139\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [JET_ENUMCOLUMNID](./jet-enumcolumnid-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_ENUMCOLUMNID class](dn335139\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID class](./jet-enumcolumnid-class.md)
 
-[JET_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID members](./jet-enumcolumnid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

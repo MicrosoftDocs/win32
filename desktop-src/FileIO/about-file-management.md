@@ -1,5 +1,5 @@
 ---
-Description: Information about file management.
+description: Information about file management.
 ms.assetid: cf4e69b9-86dd-43a4-9011-6209fc65f550
 title: About File Management
 ms.topic: article

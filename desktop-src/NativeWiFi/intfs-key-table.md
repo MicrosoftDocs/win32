@@ -1,5 +1,5 @@
 ---
-Description: Contains the table of key information for all wireless LAN interfaces managed by the Wireless Configuration Service.
+description: Contains the table of key information for all wireless LAN interfaces managed by the Wireless Configuration Service.
 ms.assetid: 5d5fe222-6ca1-4778-9f64-1c6a63467a6c
 title: INTFS_KEY_TABLE structure (Wzcsapi.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ Pointer to the [**INTF\_KEY\_ENTRY**](intf-key-entry.md) structure.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN constructor"
 title: JET_RETRIEVECOLUMN constructor 
 TOCTitle: 'JET_RETRIEVECOLUMN constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RETRIEVECOLUMN constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_RETRIEVECOLUMN()
 
 #### Reference
 
-[JET_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN class](./jet-retrievecolumn-class.md)
 
-[JET_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN members](./jet-retrievecolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

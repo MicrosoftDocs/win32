@@ -1,5 +1,5 @@
 ---
-Description: Describes WMI SNMP provider errors 1031 through 1040.
+description: Describes WMI SNMP provider errors 1031 through 1040.
 ms.assetid: 5fc519ac-ae05-4daf-a681-7935190f1d46
 ms.tgt_platform: multiple
 title: Errors 1031 through 1040

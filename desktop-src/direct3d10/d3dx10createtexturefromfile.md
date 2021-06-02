@@ -1,5 +1,5 @@
 ---
-Description: Create a texture resource from a file.
+description: Create a texture resource from a file.
 ms.assetid: 23edad1f-89bb-4b62-8c48-3be1cd0690d2
 title: D3DX10CreateTextureFromFile function (D3DX10.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ For a list of supported image formats see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

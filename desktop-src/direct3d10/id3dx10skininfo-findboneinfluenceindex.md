@@ -1,5 +1,5 @@
 ---
-Description: Find the index that indicates where a given vertex is in a given bone's list of influenced vertices.
+description: Find the index that indicates where a given vertex is in a given bone's list of influenced vertices.
 ms.assetid: 'vs|directx_sdk|~\id3dx10skininfo_findboneinfluenceindex.htm'
 title: ID3DX10SkinInfo::FindBoneInfluenceIndex method (D3DX10.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

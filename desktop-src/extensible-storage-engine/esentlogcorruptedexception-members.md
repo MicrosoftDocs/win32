@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptedException members"
 title: EsentLogCorruptedException members
 TOCTitle: EsentLogCorruptedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogCorrupted exceptions.
 
-The [EsentLogCorruptedException](dn334510\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogCorruptedException](./esentlogcorruptedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogCorruptedException class](dn334510\(v=exchg.10\).md)
+[EsentLogCorruptedException class](./esentlogcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

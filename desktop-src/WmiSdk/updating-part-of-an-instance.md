@@ -1,5 +1,5 @@
 ---
-Description: Occasionally, you may want to update only part of an instance.
+description: Occasionally, you may want to update only part of an instance.
 ms.assetid: c92bf8f9-9cac-4cf0-a45d-f60aee5a9ec2
 ms.tgt_platform: multiple
 title: Updating Part of an Instance
@@ -29,7 +29,7 @@ The following procedure describes how to request a partial-instance update using
 
     
 
-2.  Set up a hash table listing the names of the properties to be updated, and use this hash table in a call to [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1).
+2.  Set up a hash table listing the names of the properties to be updated, and use this hash table in a call to [Set-WmiInstance](/powershell/module/microsoft.powershell.management/set-wmiinstance?view=powershell-5.1&preserve-view=true).
 
     ```PowerShell
     $newDriveName = @{VolumeName = "OSDisk"}

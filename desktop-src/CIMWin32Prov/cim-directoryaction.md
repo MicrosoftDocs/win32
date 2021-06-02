@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DirectoryAction abstract class manages directories. Directory creation is handled by the CIM\_CreateDirectoryAction class and directory removal is handled by the CIM\_RemoveDirectoryAction class.
+description: The CIM\_DirectoryAction abstract class manages directories. Directory creation is handled by the CIM\_CreateDirectoryAction class and directory removal is handled by the CIM\_RemoveDirectoryAction class.
 ms.assetid: 3c1e7023-cf54-4321-a340-b8616300c4c0
 ms.tgt_platform: multiple
 title: CIM_DirectoryAction class
@@ -840,7 +840,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

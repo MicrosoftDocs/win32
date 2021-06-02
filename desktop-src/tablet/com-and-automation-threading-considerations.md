@@ -1,5 +1,5 @@
 ---
-Description: The following Tablet PC threading considerations are specific to when Component Object Model (COM) and Automation are used.
+description: The following Tablet PC threading considerations are specific to when Component Object Model (COM) and Automation are used.
 ms.assetid: cf8feba5-a391-4396-a5d8-1ef58df304a7
 title: COM and Automation Threading Considerations
 ms.topic: article

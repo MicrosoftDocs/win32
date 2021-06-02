@@ -1,5 +1,5 @@
 ---
-Description: The algorithm used to compress the image.
+description: The algorithm used to compress the image.
 ms.assetid: b355351d-b0b4-4f5d-a440-fc408a29e700
 title: System.Image.Compression
 ms.topic: article

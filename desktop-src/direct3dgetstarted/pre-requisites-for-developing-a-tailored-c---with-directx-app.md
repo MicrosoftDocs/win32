@@ -49,8 +49,8 @@ DirectX is the primary set of graphics APIs you'll use to develop Windows games.
 
 To get started with this tutorial, you need:
 
--   Windows 8.1
--   Microsoft Visual Studio 2013
+-   Windows 8.1 or greater
+-   Microsoft Visual Studio 2013 or greater
 
  
 

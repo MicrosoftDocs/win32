@@ -1,5 +1,5 @@
 ---
-Description: Represents a 3x3 matrix that, in turn, represents an affine transformation.
+description: Represents a 3x3 matrix that, in turn, represents an affine transformation.
 ms.assetid: 79abff2e-d1d3-4a32-9ac2-f46c1b21f742
 title: InkTransform class (Msinkaut.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The object stores only six of the nine numbers in a 3x3 matrix because all 3x3 m
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

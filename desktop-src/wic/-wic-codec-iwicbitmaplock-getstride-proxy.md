@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetStride method.
+description: Proxy function for the GetStride method.
 ms.assetid: 243439f3-2267-4632-b312-75c5ae5eddaa
 title: IWICBitmapLock_GetStride_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

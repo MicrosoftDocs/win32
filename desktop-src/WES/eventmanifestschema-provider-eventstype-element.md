@@ -1,6 +1,6 @@
 ---
 title: provider (EventsType) Element
-description: Defines a provider and the metadata that it uses to define its events.
+description: Defines a provider and the metadata that it uses to define its events. | provider (EventsType) Element
 ms.assetid: 607f077f-5ad4-4a32-b58a-23ba030bdbf7
 keywords:
 - provider element EventLog
@@ -31,7 +31,7 @@ The **provider** element is defined by the [**EventsType**](eventmanifestschema-
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

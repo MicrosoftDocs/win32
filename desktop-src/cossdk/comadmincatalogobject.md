@@ -1,5 +1,5 @@
 ---
-Description: Represents items in collections in the COM+ catalog. Use it to retrieve and modify properties exposed by an item in a collection.
+description: Represents items in collections in the COM+ catalog. Use it to retrieve and modify properties exposed by an item in a collection.
 ms.assetid: 1d7f248b-20ec-4b34-88ab-3c68bef72b5a
 title: COMAdminCatalogObject class (ComAdmin.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                          |
+| Requirement | Value |
 |------------|------------------------------------------|
 | Interfaces | [**ICatalogObject**](/windows/desktop/api/ComAdmin/nn-comadmin-icatalogobject) |
 
@@ -127,7 +127,7 @@ objAppCollection.SaveChanges
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentErrorException constructor"
 title: EsentErrorException constructor 
 TOCTitle: 'EsentErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentErrorException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -73,8 +74,8 @@ protected EsentErrorException(
 
 #### Reference
 
-[EsentErrorException class](dn274314\(v=exchg.10\).md)
+[EsentErrorException class](./esenterrorexception-class.md)
 
-[EsentErrorException members](dn274255\(v=exchg.10\).md)
+[EsentErrorException members](./esenterrorexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

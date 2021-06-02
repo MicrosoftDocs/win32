@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly form of System.Photo.Flash. Not intended to be parsed programmatically.
+description: The user-friendly form of System.Photo.Flash. Not intended to be parsed programmatically.
 ms.assetid: 192cab30-2fa0-4036-b9b4-544bea8e6ac1
 title: System.Photo.FlashText
 ms.topic: article

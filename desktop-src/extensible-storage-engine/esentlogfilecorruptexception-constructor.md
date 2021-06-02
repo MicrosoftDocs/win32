@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileCorruptException constructor"
 title: EsentLogFileCorruptException constructor 
 TOCTitle: 'EsentLogFileCorruptException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogFileCorruptException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogFileCorruptException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentLogFileCorruptException()
 
 #### Reference
 
-[EsentLogFileCorruptException class](dn334601\(v=exchg.10\).md)
+[EsentLogFileCorruptException class](./esentlogfilecorruptexception-class.md)
 
-[EsentLogFileCorruptException members](dn334542\(v=exchg.10\).md)
+[EsentLogFileCorruptException members](./esentlogfilecorruptexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

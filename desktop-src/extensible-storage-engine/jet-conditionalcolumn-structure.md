@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONDITIONALCOLUMN Structure"
 title: JET_CONDITIONALCOLUMN Structure
 TOCTitle: JET_CONDITIONALCOLUMN Structure
 ms:assetid: 2ca6b4ba-0dc4-47d5-b072-324e5a381d0d
@@ -104,6 +105,5 @@ A conditional index contains an index entry for only those rows that match the s
 
 ### See Also
 
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)
-
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)

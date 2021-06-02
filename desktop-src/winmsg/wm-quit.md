@@ -1,5 +1,5 @@
 ---
-Description: Indicates a request to terminate an application, and is generated when the application calls the PostQuitMessage function. This message causes the GetMessage function to return zero.
+description: Indicates a request to terminate an application, and is generated when the application calls the PostQuitMessage function. This message causes the GetMessage function to return zero.
 ms.assetid: a9bff5dc-cab8-4e08-838e-d92c87c265d6
 title: WM_QUIT message (Winuser.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ Do not post the **WM\_QUIT** message using the [**PostMessage**](/windows/win32/
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

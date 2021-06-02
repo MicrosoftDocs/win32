@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGotoSecondaryIndexBookmark Function"
 title: JetGotoSecondaryIndexBookmark Function
 TOCTitle: JetGotoSecondaryIndexBookmark Function
 ms:assetid: 06983b1e-503a-469b-9be5-b37e7551de67
@@ -95,7 +96,7 @@ A group of bits that specifies zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -199,11 +200,10 @@ If a record has been prepared for update, that update will be canceled. If an in
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetSecondaryIndexBookmark](gg269285\(v=exchg.10\).md)  
-[JetGotoBookmark](gg294053\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetSecondaryIndexBookmark](./jetgetsecondaryindexbookmark-function.md)  
+[JetGotoBookmark](./jetgotobookmark-function.md)  
+[JetStopService](./jetstopservice-function.md)

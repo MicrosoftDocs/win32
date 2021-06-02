@@ -1,5 +1,5 @@
 ---
-Description: The GetWindowWidth method retrieves the current width of the window.
+description: The GetWindowWidth method retrieves the current width of the window.
 ms.assetid: 0975f480-3ad8-41bd-96ec-ec088940ec3e
 title: CBaseWindow.GetWindowWidth method (Winutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the width of the window, in pixels.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

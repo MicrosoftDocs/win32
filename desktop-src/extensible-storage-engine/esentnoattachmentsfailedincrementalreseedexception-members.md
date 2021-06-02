@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoAttachmentsFailedIncrementalReseedException members"
 title: EsentNoAttachmentsFailedIncrementalReseedException members
 TOCTitle: EsentNoAttachmentsFailedIncrementalReseedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNoAttachmentsFailedIncrementalReseedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.NoAttachmentsFailedIncrementalReseed exceptions.
 
-The [EsentNoAttachmentsFailedIncrementalReseedException](dn334719\(v=exchg.10\).md) type exposes the following members.
+The [EsentNoAttachmentsFailedIncrementalReseedException](./esentnoattachmentsfailedincrementalreseedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentNoAttachmentsFailedIncrementalReseedException class](dn334719\(v=exchg.10\).md)
+[EsentNoAttachmentsFailedIncrementalReseedException class](./esentnoattachmentsfailedincrementalreseedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Allows an application to reconnect to a smart card or reader without having to issue a Detach call followed by an AttachByHandle or AttachByIFD call respectively.
+description: Allows an application to reconnect to a smart card or reader without having to issue a Detach call followed by an AttachByHandle or AttachByIFD call respectively.
 ms.assetid: 450e817d-2cb2-4752-a86e-50cc8e434723
 title: ISCardManage::Reconnect method
 ms.topic: reference
@@ -62,7 +62,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

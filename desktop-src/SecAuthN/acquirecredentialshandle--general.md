@@ -1,5 +1,5 @@
 ---
-Description: Acquires a handle to preexisting credentials of a security principal.
+description: Acquires a handle to preexisting credentials of a security principal.
 ms.assetid: acda4cf3-39a6-4bd2-91a0-db1f191b57b5
 title: AcquireCredentialsHandle (General) function (Sspi.h)
 ms.topic: reference
@@ -197,7 +197,7 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

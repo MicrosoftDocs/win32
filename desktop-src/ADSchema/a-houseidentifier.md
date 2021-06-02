@@ -21,7 +21,7 @@ Specifies a linguistic construct used to identify a particular building, for exa
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | houseIdentifier                             |
 | Ldap-Display-Name | houseIdentifier                             |
@@ -46,7 +46,7 @@ Specifies a linguistic construct used to identify a particular building, for exa
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -67,7 +67,7 @@ Specifies a linguistic construct used to identify a particular building, for exa
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -88,7 +88,7 @@ Specifies a linguistic construct used to identify a particular building, for exa
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -109,7 +109,7 @@ Specifies a linguistic construct used to identify a particular building, for exa
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -130,7 +130,7 @@ Specifies a linguistic construct used to identify a particular building, for exa
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

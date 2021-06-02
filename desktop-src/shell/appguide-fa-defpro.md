@@ -1,5 +1,5 @@
 ---
-Description: 'This section on application guidelines for file associations and default programs is organized as follows:'
+description: 'This section on application guidelines for file associations and default programs is organized as follows:'
 title: Guidelines for File Associations and Default Programs
 ms.topic: article
 ms.date: 05/31/2018

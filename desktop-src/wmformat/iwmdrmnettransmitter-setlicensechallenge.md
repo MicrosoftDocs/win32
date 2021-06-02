@@ -74,7 +74,7 @@ If this method succeeds, subsequent calls to the other methods of **IWMDRMNetTra
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdrmsdk.h</dt> </dl> |
 

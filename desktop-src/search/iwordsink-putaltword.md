@@ -1,5 +1,5 @@
 ---
-Description: Puts an alternative word and its position in the IWordSink object.
+description: Puts an alternative word and its position in the IWordSink object.
 ms.assetid: 5C8A9B30-F9B5-42E9-ADAC-A11230F0C2FA
 title: IWordSink::PutAltWord method (Search.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

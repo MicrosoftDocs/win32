@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBufferSizeException methods"
 title: EsentInvalidBufferSizeException methods
 TOCTitle: EsentInvalidBufferSizeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidBufferSizeException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidBufferSizeException](dn319475\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidBufferSizeException](./esentinvalidbuffersizeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidBufferSizeException class](dn319475\(v=exchg.10\).md)
+[EsentInvalidBufferSizeException class](./esentinvalidbuffersizeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when an application gesture is recognized.
+description: Occurs when an application gesture is recognized.
 ms.assetid: 736715f4-c610-42cc-9fbb-c2b579da69e5
 title: InkEdit.Gesture event (Inked.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ To alter the default action for a gesture:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

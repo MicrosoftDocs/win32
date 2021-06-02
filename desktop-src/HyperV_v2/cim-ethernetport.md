@@ -1,5 +1,5 @@
 ---
-Description: Represents an ethernet port.
+description: Represents an ethernet port.
 ms.assetid: c9a148c2-cf02-466f-b8ca-b1bf616d75dc
 title: CIM_EthernetPort class
 ms.topic: reference
@@ -419,7 +419,7 @@ The mode that is enabled on the port. When set to 1 (Other), the **OtherPortType
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

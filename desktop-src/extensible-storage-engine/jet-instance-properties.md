@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INSTANCE properties"
 title: JET_INSTANCE properties
 TOCTitle: JET_INSTANCE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_INSTANCE
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_INSTANCE](hh564593\(v=exchg.10\).md) type exposes the following members.
+The [JET_INSTANCE](./jet-instance-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[JET_INSTANCE structure](hh564593\(v=exchg.10\).md)
+[JET_INSTANCE structure](./jet-instance-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

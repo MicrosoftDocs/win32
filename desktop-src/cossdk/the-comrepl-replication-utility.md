@@ -1,5 +1,5 @@
 ---
-Description: COMREPL is a utility that will replicate the COM+ catalog from a given source computer to one or more target computers.
+description: COMREPL is a utility that will replicate the COM+ catalog from a given source computer to one or more target computers.
 ms.assetid: 11aa7603-61f1-4af0-b6f9-81f484788052
 title: The COMREPL Replication Utility
 ms.topic: article

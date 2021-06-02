@@ -1,5 +1,5 @@
 ---
-Description: Windows Portable Devices supports the following miscellaneous properties.
+description: Windows Portable Devices supports the following miscellaneous properties.
 ms.assetid: 0f2a5684-a94f-4a51-8f72-527204e4ebfa
 title: Miscellaneous Properties (PortableDevice.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ Windows Portable Devices supports the following miscellaneous properties.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

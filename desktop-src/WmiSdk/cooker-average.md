@@ -1,5 +1,5 @@
 ---
-Description: The COOKER\_AVERAGE counter type formula provides the statistical midpoint of the data for a counter.
+description: The COOKER\_AVERAGE counter type formula provides the statistical midpoint of the data for a counter.
 ms.assetid: 5121cd02-b122-48fd-995a-cf6c77948fd8
 ms.tgt_platform: multiple
 title: COOKER_AVERAGE

@@ -1,5 +1,5 @@
 ---
-Description: MPEG1Source Sample
+description: MPEG1Source Sample
 ms.assetid: c9f131ff-0b79-487c-9a46-a9b1350553a1
 title: MPEG1Source Sample
 ms.topic: article

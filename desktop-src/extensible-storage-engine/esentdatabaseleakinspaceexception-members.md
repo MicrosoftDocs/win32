@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLeakInSpaceException members"
 title: EsentDatabaseLeakInSpaceException members
 TOCTitle: EsentDatabaseLeakInSpaceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLeakInSpaceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseLeakInSpace exceptions.
 
-The [EsentDatabaseLeakInSpaceException](dn334349\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseLeakInSpaceException](./esentdatabaseleakinspaceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseLeakInSpaceException class](dn334349\(v=exchg.10\).md)
+[EsentDatabaseLeakInSpaceException class](./esentdatabaseleakinspaceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

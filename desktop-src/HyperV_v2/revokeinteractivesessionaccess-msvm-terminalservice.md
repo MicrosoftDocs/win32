@@ -1,5 +1,5 @@
 ---
-Description: Revokes access to the interactive session of the virtual machine from the specified list of trustees.
+description: Revokes access to the interactive session of the virtual machine from the specified list of trustees.
 ms.assetid: c6d3df04-c31e-404a-9a04-3e8653bdc14f
 title: RevokeInteractiveSessionAccess method of the Msvm_TerminalService class
 ms.topic: reference
@@ -100,7 +100,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

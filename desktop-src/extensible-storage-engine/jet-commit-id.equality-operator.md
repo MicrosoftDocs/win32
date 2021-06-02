@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COMMIT_ID.Equality operator"
 title: JET_COMMIT_ID.Equality operator  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID.op_Equality(Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID,Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID)
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Determine whether one commitid is is equal to another commitid.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,14 +61,14 @@ public static bool operator ==(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)  
     
     The first commitid to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](dn335448\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_COMMIT_ID](./jet-commit-id-class.md)  
     
     The second commitid to compare.
 
@@ -80,8 +81,8 @@ True if lhs comes is equal to rhs.
 
 #### Reference
 
-[JET_COMMIT_ID class](dn335448\(v=exchg.10\).md)
+[JET_COMMIT_ID class](./jet-commit-id-class.md)
 
-[JET_COMMIT_ID members](dn335451\(v=exchg.10\).md)
+[JET_COMMIT_ID members](./jet-commit-id-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

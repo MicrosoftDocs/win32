@@ -1,6 +1,6 @@
 ---
 title: D3DX_R8G8B8A8_UNORM_SRGB_to_FLOAT4_inexact function
-description: Unpacks DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB shader data to an XMFLOAT4.
+description: Unpacks DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB shader data to an XMFLOAT4. | D3DX_R8G8B8A8_UNORM_SRGB_to_FLOAT4_inexact function
 ms.assetid: ca7c2bf8-30fd-48fa-b4d9-e69c28c7f603
 keywords:
 - D3DX_R8G8B8A8_UNORM_SRGB_to_FLOAT4_inexact function HLSL
@@ -51,7 +51,7 @@ This function uses shader instructions that don't have high enough precision to 
 
 
 
-|                   |                                                                                                        |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX\_DXGIFormatConvert.inl</dt> </dl> |
 

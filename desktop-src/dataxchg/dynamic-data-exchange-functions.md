@@ -1,6 +1,6 @@
 ---
 title: DDE Functions
-description: .
+description: . | DDE Functions
 ms.assetid: d109ac50-e464-4928-9d6b-bc65f257f826
 ms.topic: reference
 ms.date: 05/31/2018

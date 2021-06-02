@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use different types of brushes in an XPS OM.
+description: This topic describes how to use different types of brushes in an XPS OM.
 ms.assetid: 392ca1d5-283e-4eed-ae21-6477c469014d
 title: XPS OM Brushes
 ms.topic: article
@@ -196,7 +196,7 @@ The following code example creates a linear-gradient brush. The gradient has two
 [**XPS\_COLOR**](xps-color.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

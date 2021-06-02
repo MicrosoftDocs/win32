@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction constructor"
 title: Transaction constructor 
 TOCTitle: 'Transaction constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.#ctor(Microsoft.Isam.Esent.Interop.JET_SESID)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the Transaction class. This automatically begins a transaction. The transaction will be rolled back if not explicitly committed.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,7 +56,7 @@ public Transaction(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to start the transaction for.
 
@@ -63,9 +64,8 @@ public Transaction(
 
 #### Reference
 
-[Transaction class](dn351174\(v=exchg.10\).md)
+[Transaction class](./transaction-class.md)
 
-[Transaction members](dn351240\(v=exchg.10\).md)
+[Transaction members](./transaction-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX members"
 title: JET_UNICODEINDEX members
 TOCTitle: JET_UNICODEINDEX members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX
@@ -15,7 +16,7 @@ Include inherited members
 
 Customizes how Unicode data gets normalized when an index is created over a Unicode column. Customizes how Unicode data gets normalized when an index is created over a Unicode column.
 
-The [JET_UNICODEINDEX](dn351106\(v=exchg.10\).md) type exposes the following members.
+The [JET_UNICODEINDEX](./jet-unicodeindex-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -137,6 +138,6 @@ Top
 
 #### Reference
 
-[JET_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
+[JET_UNICODEINDEX class](./jet-unicodeindex-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

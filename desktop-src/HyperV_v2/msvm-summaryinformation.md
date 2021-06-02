@@ -1,5 +1,5 @@
 ---
-Description: Used in the GetSummaryInformation and GetDefinitionFileSummaryInformation methods in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual machine or snapshot.
+description: Used in the GetSummaryInformation and GetDefinitionFileSummaryInformation methods in the Msvm\_VirtualSystemManagementService class to quickly retrieve common information related to a virtual machine or snapshot.
 ms.assetid: 8D188BB2-4A56-4738-94DD-64D9F9B90B73
 title: Msvm_SummaryInformation class
 ms.topic: reference
@@ -1285,7 +1285,7 @@ Access to the **Msvm\_SummaryInformation** class might be restricted by UAC Filt
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Represents a 4D point with 64-bit floating-point (double) coordinates.
+description: Represents a 4D point with 64-bit floating-point (double) coordinates.
 MS-HAID: vspixengine.PixEnginePoint4D
 MSHAttr:
 - PreferredSiteName:MSDN

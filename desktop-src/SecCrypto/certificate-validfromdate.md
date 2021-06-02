@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the beginning date for the validity of the certificate.
+description: Retrieves the beginning date for the validity of the certificate.
 ms.assetid: d1caa7d3-ed5c-4637-bcb6-5a3fda8b978e
 title: Certificate.ValidFromDate property
 ms.topic: reference
@@ -40,7 +40,7 @@ A date that indicates the beginning date for the validity of the certificate.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

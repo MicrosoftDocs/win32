@@ -1,5 +1,5 @@
 ---
-Description: Kernel Transaction Manager (KTM) is a transaction management service. It makes transactions available as kernel objects and provides transaction management services to system components such as Transactional NTFS (TxF).
+description: Kernel Transaction Manager (KTM) is a transaction management service. It makes transactions available as kernel objects and provides transaction management services to system components such as Transactional NTFS (TxF).
 ms.assetid: 85a79698-a1ae-45a4-805e-25175034fa65
 title: About KTM
 ms.topic: article

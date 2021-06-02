@@ -1,5 +1,5 @@
 ---
-Description: Deploying for Faster Communication
+description: Deploying for Faster Communication
 ms.assetid: 9099f9df-b620-4623-826e-c541202ebc4a
 title: Deploying for Faster Communication
 ms.topic: article

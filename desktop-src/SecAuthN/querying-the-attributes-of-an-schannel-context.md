@@ -1,5 +1,5 @@
 ---
-Description: Provides Schannel-specific information about a security context.
+description: Provides Schannel-specific information about a security context.
 ms.assetid: 6ff4ebcc-2362-4397-ae77-2d378db8c7e2
 title: Querying the Attributes of an Schannel Context
 ms.topic: article

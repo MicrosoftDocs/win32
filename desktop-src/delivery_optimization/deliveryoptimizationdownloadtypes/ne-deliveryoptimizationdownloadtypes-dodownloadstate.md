@@ -36,7 +36,7 @@ typedef enum _DODownloadState
 
 ## Constants
 
-| | |
+| Requirement | Value |
 |-|-|
 | DODownloadState_Created | Download object is created but hasn't been started yet. |
 | DODownloadState_Transferring | Download is in progress. |

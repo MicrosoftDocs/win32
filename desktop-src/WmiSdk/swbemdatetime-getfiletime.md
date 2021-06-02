@@ -1,5 +1,5 @@
 ---
-Description: Converts a date and time value in the CIM DATETIME format to the FILETIME format.
+description: Converts a date and time value in the CIM DATETIME format to the FILETIME format.
 ms.assetid: 08e0761d-e735-454a-8429-2bd1eb331123
 ms.tgt_platform: multiple
 title: SWbemDateTime.GetFileTime method (Wbemdisp.h)
@@ -90,7 +90,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

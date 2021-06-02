@@ -1,5 +1,5 @@
 ---
-Description: 'The following functions are used in resource enumeration:'
+description: 'The following functions are used in resource enumeration:'
 ms.assetid: cc624e25-f53e-4442-ae6b-9e8b65d983da
 title: Resource Enumeration Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: An association used to establish &\#0034;part of&\#0034; relationships between one instance of Msvm\_VirtualEthernetSwitchSettingData and one or more instances of Msvm\_EthernetSwitchFeatureSettingData.
+description: An association used to establish &\#0034;part of&\#0034; relationships between one instance of Msvm\_VirtualEthernetSwitchSettingData and one or more instances of Msvm\_EthernetSwitchFeatureSettingData.
 ms.assetid: b3adac33-056e-4f39-8022-5d9ef78370e9
 title: Msvm_VirtualEthernetSwitchSettingDataComponent class
 ms.topic: reference
@@ -82,7 +82,7 @@ Reference to an instance of the [**Msvm\_EthernetSwitchFeatureSettingData**](msv
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

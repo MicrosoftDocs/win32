@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the GraphicsPathIterator class. For a complete class listing, see GraphicsPathIterator Class.
+description: This topic lists the methods of the GraphicsPathIterator class. For a complete class listing, see GraphicsPathIterator Class.
 ms.assetid: dd0a4908-642b-4af1-80f5-0af606aee990
 title: GraphicsPathIterator Methods
 ms.topic: reference

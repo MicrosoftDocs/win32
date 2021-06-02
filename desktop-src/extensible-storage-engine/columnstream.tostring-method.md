@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream.ToString method"
 title: ColumnStream.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnStream.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # ColumnStream.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [ColumnStream](dn334143\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [ColumnStream](./columnstream-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +53,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [ColumnStream](dn334143\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [ColumnStream](./columnstream-class.md).  
 
 ## See also
 
 #### Reference
 
-[ColumnStream class](dn334143\(v=exchg.10\).md)
+[ColumnStream class](./columnstream-class.md)
 
-[ColumnStream members](dn334190\(v=exchg.10\).md)
+[ColumnStream members](./columnstream-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

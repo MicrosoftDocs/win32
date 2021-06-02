@@ -1,5 +1,5 @@
 ---
-Description: Decrypts a message.
+description: Decrypts a message.
 ms.assetid: ea271d0c-9167-41c5-8919-09611206fc71
 title: DecryptMessage (General) function (Sspi.h)
 ms.topic: reference
@@ -139,7 +139,7 @@ For information about interoperating with GSSAPI, see [SSPI/Kerberos Interoperab
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.szKey property"
 title: JET_INDEXCREATE.szKey property 
 TOCTitle: 'szKey property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.szKey
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the description of the index key. This is a double null-terminated string of null-delimited tokens. Each token is of the form \[direction-specifier\]\[column-name\], where direction-specification is either "+" or "-". for example, a szKey of "+abc\\0-def\\0+ghi\\0" will index over the three columns "abc" (in ascending order), "def" (in descending order), and "ghi" (in ascending order).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](./jet-indexcreate-class.md)
 
-[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](./jet-indexcreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

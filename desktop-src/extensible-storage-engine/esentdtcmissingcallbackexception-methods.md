@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDTCMissingCallbackException methods"
 title: EsentDTCMissingCallbackException methods
 TOCTitle: EsentDTCMissingCallbackException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDTCMissingCallbackException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDTCMissingCallbackException](dn334508\(v=exchg.10\).md) type exposes the following members.
+The [EsentDTCMissingCallbackException](./esentdtcmissingcallbackexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDTCMissingCallbackException class](dn334508\(v=exchg.10\).md)
+[EsentDTCMissingCallbackException class](./esentdtcmissingcallbackexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

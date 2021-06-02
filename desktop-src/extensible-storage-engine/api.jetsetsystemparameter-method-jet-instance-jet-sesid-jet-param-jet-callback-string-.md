@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, JET_CALLBACK, String)"
 title: Api.JetSetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, JET_CALLBACK, String)
 TOCTitle: JetSetSystemParameter method (JET_INSTANCE, JET_SESID, JET_param, JET_CALLBACK, String)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetSystemParameter(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_param,Microsoft.Isam.Esent.Interop.JET_CALLBACK,System.String)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Sets database configuration options.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -65,28 +66,28 @@ public static JET_wrn JetSetSystemParameter(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)  
     
-    The instance to set the option on or [Nil](hh578872\(v=exchg.10\).md) to set the option on all instances.
+    The instance to set the option on or [Nil](./jet-instance.nil-property.md) to set the option on all instances.
 
 <!-- end list -->
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - paramid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_param](hh596135\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_param](./jet-param-enumeration.md)  
     
     The parameter to set.
 
 <!-- end list -->
 
   - paramValue  
-    Type: [Microsoft.Isam.Esent.Interop.JET_CALLBACK](hh566065\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_CALLBACK](./jet-callback-delegate.md)  
     
     The value of the parameter to set, if the parameter is a JET_CALLBACK.
 
@@ -99,17 +100,17 @@ public static JET_wrn JetSetSystemParameter(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 An ESENT warning code.  
 
 ## See also
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[JetSetSystemParameter overload](dn334016\(v=exchg.10\).md)
+[JetSetSystemParameter overload](./api.jetsetsystemparameter-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

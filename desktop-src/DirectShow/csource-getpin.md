@@ -1,5 +1,5 @@
 ---
-Description: The GetPin method retrieves a pin. This method implements the pure virtual CBaseFilter::GetPin method.
+description: The GetPin method retrieves a pin. This method implements the pure virtual CBaseFilter::GetPin method.
 ms.assetid: 7f30a1ba-8e7b-4bde-9f4d-a85b3a2122e9
 title: CSource.GetPin method (Source.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the pointer to the [**CBasePin**](cbasepin.md) object that implements th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

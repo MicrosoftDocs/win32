@@ -1,5 +1,5 @@
 ---
-Description: COM+ Low-Memory Activation Gates
+description: COM+ Low-Memory Activation Gates
 ms.assetid: 9805dc94-da38-4b2c-b18c-5f494b49691b
 title: COM+ Low-Memory Activation Gates
 ms.topic: article

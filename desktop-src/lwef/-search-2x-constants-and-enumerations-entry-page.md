@@ -1,6 +1,6 @@
 ---
 title: WDS 2.x Constants and Enumerations
-description: .
+description: WDS 2.x Constants and Enumerations
 ms.assetid: f100a3f4-4880-409b-8ced-f22a457a0e0c
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaGrbits members"
 title: VistaGrbits members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaGrbits members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits
@@ -15,7 +16,7 @@ Include inherited members
 
 Grbits that have been added to the Vista version of ESENT.
 
-The [VistaGrbits](dn335350\(v=exchg.10\).md) type exposes the following members.
+The [VistaGrbits](./vistagrbits-class.md) type exposes the following members.
 
 ## Fields
 
@@ -83,7 +84,6 @@ Top
 
 #### Reference
 
-[VistaGrbits class](dn335350\(v=exchg.10\).md)
+[VistaGrbits class](./vistagrbits-class.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

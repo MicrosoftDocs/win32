@@ -6,7 +6,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Events
+# Events (Media Streaming API)
 
 The [Media Streaming API](media-streaming-api-portal.md) generates the following events.
 

@@ -1,5 +1,5 @@
 ---
-Description: The InitializeOutputSample method retrieves a new output sample and initializes it.
+description: The InitializeOutputSample method retrieves a new output sample and initializes it.
 ms.assetid: a4f8f514-cf1a-4f8f-ac17-17378705c2ea
 title: CTransformFilter.InitializeOutputSample method (Transfrm.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ This method retrieves a new sample from the output pin's allocator. Then it copi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

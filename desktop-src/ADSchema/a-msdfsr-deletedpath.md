@@ -22,7 +22,7 @@ Full path of the Deleted directory.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFSR-DeletedPath                         |
 | Ldap-Display-Name | msDFSR-DeletedPath                          |
@@ -45,7 +45,7 @@ Full path of the Deleted directory.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -66,7 +66,7 @@ Full path of the Deleted directory.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -87,7 +87,7 @@ Full path of the Deleted directory.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

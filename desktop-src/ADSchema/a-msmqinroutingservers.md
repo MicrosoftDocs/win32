@@ -22,7 +22,7 @@ DN links to MSMQ routing servers through which all incoming traffic to this comp
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | MSMQ-In-Routing-Servers                 |
 | Ldap-Display-Name | mSMQInRoutingServers                    |
@@ -48,7 +48,7 @@ DN links to MSMQ routing servers through which all incoming traffic to this comp
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -69,7 +69,7 @@ DN links to MSMQ routing servers through which all incoming traffic to this comp
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -90,7 +90,7 @@ DN links to MSMQ routing servers through which all incoming traffic to this comp
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -111,7 +111,7 @@ DN links to MSMQ routing servers through which all incoming traffic to this comp
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -132,7 +132,7 @@ DN links to MSMQ routing servers through which all incoming traffic to this comp
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -153,7 +153,7 @@ DN links to MSMQ routing servers through which all incoming traffic to this comp
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySortsException constructor"
 title: EsentTooManySortsException constructor 
 TOCTitle: 'EsentTooManySortsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManySortsException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManySortsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTooManySortsException()
 
 #### Reference
 
-[EsentTooManySortsException class](dn350779\(v=exchg.10\).md)
+[EsentTooManySortsException class](./esenttoomanysortsexception-class.md)
 
-[EsentTooManySortsException members](dn350794\(v=exchg.10\).md)
+[EsentTooManySortsException members](./esenttoomanysortsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Gets the name of an animation, given its index.
+description: Gets the name of an animation, given its index.
 ms.assetid: 'vs|directx_sdk|~\id3dxanimationset__getanimationnamebyindex.htm'
 title: ID3DXAnimationSet::GetAnimationNameByIndex method (D3dx9anim.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The return values of this method are implemented by an application programmer. I
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

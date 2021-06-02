@@ -1,5 +1,5 @@
 ---
-Description: The EnableTransitions method enables or disables all transitions in the timeline.
+description: The EnableTransitions method enables or disables all transitions in the timeline.
 ms.assetid: 8610337a-a247-44f0-8674-3cbc43f636d5
 title: IAMTimeline::EnableTransitions method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

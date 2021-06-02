@@ -1,5 +1,5 @@
 ---
-Description: Load a texture from a texture.
+description: Load a texture from a texture.
 ms.assetid: 126e71e1-a3b2-418b-be35-434a2e9472ca
 title: D3DX10LoadTextureFromTexture function (D3DX10Tex.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Tex.h</dt> </dl> |
 

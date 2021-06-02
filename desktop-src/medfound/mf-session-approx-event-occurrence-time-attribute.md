@@ -1,5 +1,5 @@
 ---
-Description: The approximate time when the Media Session raised an event.
+description: The approximate time when the Media Session raised an event.
 ms.assetid: 58083bc8-59cc-4503-8fae-36fcd864921a
 title: MF_SESSION_APPROX_EVENT_OCCURRENCE_TIME attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

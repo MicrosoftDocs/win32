@@ -1,5 +1,5 @@
 ---
-Description: The following constants identify the standard Media Foundation work queues.
+description: The following constants identify the standard Media Foundation work queues.
 ms.assetid: c769f876-83ca-4b04-a054-22fa7146310e
 title: Work Queue Identifiers (Mfobjects.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ In addition, the following constants are used in connection with work queues.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

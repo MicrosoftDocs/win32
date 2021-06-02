@@ -140,7 +140,7 @@ For example, in order to add a filter to a certain filtering engine layer, the p
 
 Some FWPS counterparts to FWPM data types are expanding the original FWPM data types. For example, to add a filter condition at many filtering engine layers, the programmer specifies the `filterCondition.fieldKey = FWPM_CONDITION_IP_PROTOCOL` regardless of the filtering engine layer. To find a filter condition value, the programmer specifies a layer specific FWPS type, like: `inFixedValues->incomingValue[FWPS_FIELD_ALE_FLOW_ESTABLISHED_V4_IP_PROTOCOL]`.
 
-The FWPS data types are generally smaller than their FWPM counterparts. For example, the [**FWPM filtering layer identifiers**](management-filtering-layer-identifiers-.md) are **GUID**s (16-bytes) whereas the [FWPS filtering layer identifiers](https://msdn.microsoft.com/library/ff549947.aspx) are **UINT16** (16-bits). The smaller size for FWPS data types improves system performance since integer comparisons outweigh **GUID** comparisons for real-time traffic. Also, the kernel memory is used efficiently since the FWPS types are all used in the kernel for managing the filters, whereas the FWPM types are stored in user-mode to manage the different layers.
+The FWPS data types are generally smaller than their FWPM counterparts. For example, the [**FWPM filtering layer identifiers**](management-filtering-layer-identifiers-.md) are **GUID**s (16-bytes) whereas the [FWPS filtering layer identifiers](/windows-hardware/drivers/network/management-filtering-layer-identifiers) are **UINT16** (16-bits). The smaller size for FWPS data types improves system performance since integer comparisons outweigh **GUID** comparisons for real-time traffic. Also, the kernel memory is used efficiently since the FWPS types are all used in the kernel for managing the filters, whereas the FWPM types are stored in user-mode to manage the different layers.
 
 ## Related topics
 
@@ -151,6 +151,4 @@ The FWPS data types are generally smaller than their FWPM counterparts. For exam
 
 [WFP API Object Management](object-management.md)
 </dt> </dl>
-
- 
 

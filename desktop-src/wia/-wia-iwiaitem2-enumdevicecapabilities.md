@@ -1,5 +1,5 @@
 ---
-Description: Creates an enumerator that is used to ascertain the commands and events a Windows Image Acquisition (WIA) 2.0 device supports.
+description: Creates an enumerator that is used to ascertain the commands and events a Windows Image Acquisition (WIA) 2.0 device supports.
 ms.assetid: 9efb758d-a5d6-41c7-b318-2897274ccbc0
 title: IWiaItem2::EnumDeviceCapabilities method (Wia.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unkn
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

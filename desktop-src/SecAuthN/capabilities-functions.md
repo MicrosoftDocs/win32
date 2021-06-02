@@ -1,5 +1,5 @@
 ---
-Description: The Network Provider API specifies a single capabilities function.
+description: The Network Provider API specifies a single capabilities function.
 ms.assetid: fc74a043-da13-485f-9f54-a43064add927
 title: Capabilities Functions
 ms.topic: article

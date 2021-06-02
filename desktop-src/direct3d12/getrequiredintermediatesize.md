@@ -75,7 +75,7 @@ The size of the buffer, in bytes.
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |

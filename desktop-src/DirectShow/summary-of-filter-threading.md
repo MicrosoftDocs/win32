@@ -1,5 +1,5 @@
 ---
-Description: Summary of Filter Threading
+description: Summary of Filter Threading
 ms.assetid: b7e42101-75c9-428d-9dc7-e625242dbc1e
 title: Summary of Filter Threading
 ms.topic: article

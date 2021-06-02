@@ -1,5 +1,5 @@
 ---
-Description: MmsConfiguration
+description: MmsConfiguration
 MS-HAID: WWAN\_profile\_v4.element\_MmsConfiguration
 MSHAttr:
 - PreferredSiteName:MSDN

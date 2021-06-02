@@ -1,5 +1,5 @@
 ---
-Description: Displays or hides the desktop.
+description: IShellDispatch4.ToggleDesktop method - Displays or hides the desktop.
 title: IShellDispatch4.ToggleDesktop method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 60199e18-b8da-48a6-b316-e7f07ff44b78
-api_name: 
- - IShellDispatch4.ToggleDesktop
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -120,7 +111,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Beginning with Windows Server 2008 and Windows Vista, this policy no longer has any effect.
+description: Beginning with Windows Server 2008 and Windows Vista, this policy no longer has any effect.
 ms.assetid: 27a4192e-0574-414d-993e-6c715577f0ba
 title: EnableAdminTSRemote
 ms.topic: article

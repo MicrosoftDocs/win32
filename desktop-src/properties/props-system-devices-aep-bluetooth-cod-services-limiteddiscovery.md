@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth class of device service limited discovery.
+description: Bluetooth class of device service limited discovery.
 ms.assetid: 6972462b-cbda-4d5a-9d49-b0ec0d84d295
 title: System.Devices.Aep.Bluetooth.Cod.Services.LimitedDiscovery
 ms.topic: article

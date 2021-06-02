@@ -1,5 +1,5 @@
 ---
-Description: During a concurrent installation, the installer sets the ParentProductCode property in the concurrent installation's session to the same value as the ProductCode property in the parent installation's session.
+description: During a concurrent installation, the installer sets the ParentProductCode property in the concurrent installation's session to the same value as the ProductCode property in the parent installation's session.
 ms.assetid: 7bf2b9b1-9efd-4d47-9fa3-253421f1ba4f
 title: ParentProductCode property
 ms.topic: reference
@@ -36,7 +36,7 @@ To prevent a package from ever being installed as a concurrent installation, add
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

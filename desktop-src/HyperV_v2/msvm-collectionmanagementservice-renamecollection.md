@@ -1,5 +1,5 @@
 ---
-Description: Updates the element name for the specified CIM\_CollectionOfMSEs object.
+description: Updates the element name for the specified CIM\_CollectionOfMSEs object.
 ms.assetid: 03d3979b-f3d2-4192-8bba-bdf4a19aa47c
 title: RenameCollection method of the Msvm_CollectionManagementService class
 ms.topic: reference
@@ -109,7 +109,7 @@ Returns 0 if successful, or 4096 if the job started; otherwise, returns an error
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PhysicalMemoryLocation association WMI class relates an array of physical memory and its physical memory.
+description: The Win32\_PhysicalMemoryLocation association WMI class relates an array of physical memory and its physical memory.
 ms.assetid: 40252428-77ca-4dfb-8048-c05096a114d8
 ms.tgt_platform: multiple
 title: Win32_PhysicalMemoryLocation class
@@ -104,7 +104,7 @@ The **Win32\_PhysicalMemoryLocation** class is derived from [**CIM\_PackagedComp
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

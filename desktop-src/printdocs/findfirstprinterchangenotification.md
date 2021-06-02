@@ -1,5 +1,5 @@
 ---
-Description: The FindFirstPrinterChangeNotification function creates a change notification object and returns a handle to the object. You can then use this handle in a call to one of the wait functions to monitor changes to the printer or print server.
+description: The FindFirstPrinterChangeNotification function creates a change notification object and returns a handle to the object. You can then use this handle in a call to one of the wait functions to monitor changes to the printer or print server.
 ms.assetid: 4155ef5c-cd96-4960-919b-d9a495bb73a5
 title: FindFirstPrinterChangeNotification function (Winspool.h)
 ms.topic: reference
@@ -141,7 +141,7 @@ Callers of **FindFirstPrinterChangeNotification** must ensure that the printer h
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

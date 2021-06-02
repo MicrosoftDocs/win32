@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the service managed by the system driver in the resumed state.
+description: Attempts to place the service managed by the system driver in the resumed state.
 ms.assetid: 16bacf06-4236-4d58-9b09-cb86bb73d78a
 ms.tgt_platform: multiple
 title: ResumeService method of the Win32_SystemDriver class
@@ -234,7 +234,7 @@ $Return = $usbPrintDriver.ResumeService()
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

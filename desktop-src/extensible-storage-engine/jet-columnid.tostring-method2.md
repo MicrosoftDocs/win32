@@ -1,5 +1,6 @@
 ---
-title: JET_COLUMNID.ToString method 
+description: "Learn more about: JET_COLUMNID.ToString method overload list"
+title: JET_COLUMNID.ToString method overload list
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_COLUMNID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_columnid.tostring(v=EXCHG.10)
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_COLUMNID structure](hh564510\(v=exchg.10\).md)
+[JET_COLUMNID structure](./jet-columnid-structure.md)
 
-[JET_COLUMNID members](hh558343\(v=exchg.10\).md)
+[JET_COLUMNID members](./jet-columnid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

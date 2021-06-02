@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: CGenericList.~CGenericList destructor - Destructor method.
 ms.assetid: a5594dd2-b29b-49d6-b4de-5074ba3d0ce3
 title: CGenericList.~CGenericList destructor (Wxlist.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

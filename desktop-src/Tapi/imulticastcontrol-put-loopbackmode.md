@@ -1,5 +1,5 @@
 ---
-Description: The put\_LoopbackMode sets the multicast loopback mode.
+description: The put\_LoopbackMode sets the multicast loopback mode.
 ms.assetid: 38b28529-224f-4624-bb5e-22fee500e8e6
 title: IMulticastControl::put_LoopbackMode method (Confpriv.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

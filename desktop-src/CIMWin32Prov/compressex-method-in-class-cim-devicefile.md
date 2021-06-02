@@ -1,5 +1,5 @@
 ---
-Description: The CompressEx method compresses the logical file (or directory) specified in the object path. This method is an extended version of the Compress method. This method is inherited from CIM\_LogicalFile.
+description: The CompressEx method compresses the logical file (or directory) specified in the object path. This method is an extended version of the Compress method. This method is inherited from CIM\_LogicalFile.
 ms.assetid: a5f7b35b-5d52-4129-bf7e-6db5e0ff6852
 ms.tgt_platform: multiple
 title: CompressEx method of the CIM_DeviceFile class
@@ -198,7 +198,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

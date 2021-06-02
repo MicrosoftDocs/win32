@@ -1,5 +1,5 @@
 ---
-Description: The SetPageSite method initializes the property page and provides a pointer to the property frame's IPropertyPageSite interface. This method implements the IPropertyPage::SetPageSite method.
+description: The SetPageSite method initializes the property page and provides a pointer to the property frame's IPropertyPageSite interface. This method implements the IPropertyPage::SetPageSite method.
 ms.assetid: 16c4633f-2f91-4b1b-a47c-4ef945c3af00
 title: CBasePropertyPage.SetPageSite method (Cprop.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The method stores the *pPageSite* pointer in the [**CBasePropertyPage::m\_pPageS
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

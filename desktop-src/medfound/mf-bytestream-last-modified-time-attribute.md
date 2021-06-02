@@ -1,5 +1,5 @@
 ---
-Description: Specifies when a byte stream was last modified.
+description: Specifies when a byte stream was last modified.
 ms.assetid: dceff922-44eb-478f-842a-8ac0e73a02ee
 title: MF_BYTESTREAM_LAST_MODIFIED_TIME attribute (Mfobjects.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

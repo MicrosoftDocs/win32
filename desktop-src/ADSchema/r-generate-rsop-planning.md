@@ -21,7 +21,7 @@ The user who has the rights on an OU or Domain will be able to generate planning
 
 
 
-|              |                                             |
+| Entry | Value |
 |--------------|---------------------------------------------|
 | CN           | Generate-RSoP-Planning                      |
 | Display-Name | Generate Resultant Set of Policy (Planning) |
@@ -41,7 +41,7 @@ The user who has the rights on an OU or Domain will be able to generate planning
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 55                                                                                                          |
@@ -52,7 +52,7 @@ The user who has the rights on an OU or Domain will be able to generate planning
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 55                                                                                                          |
@@ -63,7 +63,7 @@ The user who has the rights on an OU or Domain will be able to generate planning
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 55                                                                                                          |
@@ -74,7 +74,7 @@ The user who has the rights on an OU or Domain will be able to generate planning
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 55                                                                                                          |
@@ -85,7 +85,7 @@ The user who has the rights on an OU or Domain will be able to generate planning
 
 
 
-|                         |                                                                                                             |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**Organizational-Unit**](c-organizationalunit.md)<br/> [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 55                                                                                                          |

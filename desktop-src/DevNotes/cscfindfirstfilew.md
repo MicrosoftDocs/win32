@@ -1,5 +1,5 @@
 ---
-Description: Searches for a file in the Offline Files cache that meets the specified criteria.
+description: Searches for a file in the Offline Files cache that meets the specified criteria.
 ms.assetid: 09de6c55-fc37-4c0a-b5a0-ea73f06793d5
 title: CSCFindFirstFileW function
 ms.topic: reference
@@ -110,7 +110,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                       |
+| Requirement | Value |
 |----------------|---------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Cscmig.dll</dt> </dl> |
 

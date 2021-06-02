@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.
+description: Sets or retrieves an enumeration value that specifies the CAPICOM name of the EKU. This is the default property.
 ms.assetid: afce5553-ef18-4a7f-b1c8-fbe00d3277e0
 title: IEKU::Name property
 ms.topic: reference
@@ -63,7 +63,7 @@ When the value of this property is reset, directly or indirectly, the whole [*st
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

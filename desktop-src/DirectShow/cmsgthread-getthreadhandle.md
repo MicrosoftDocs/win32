@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the handle to the thread in the CMsgThread object.
+description: Retrieves the handle to the thread in the CMsgThread object.
 ms.assetid: dacbdc68-91a0-46d4-805f-fe51cb047e19
 title: CMsgThread.GetThreadHandle method (Msgthrd.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The thread handle can be passed to wait functions, such as [**WaitForMultipleObj
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Msgthrd.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

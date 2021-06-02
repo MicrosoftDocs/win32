@@ -1,5 +1,5 @@
 ---
-Description: The LINEMEDIAMODE\_ constants describe media types (or modes)of a communications session or call.
+description: The LINEMEDIAMODE\_ constants describe media types (or modes)of a communications session or call.
 ms.assetid: cbb758be-3ecd-4ac4-b1b5-57136a1aad8e
 title: LINEMEDIAMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -176,7 +176,7 @@ For backward compatibility, it is the responsibility of the service provider to 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

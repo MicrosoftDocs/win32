@@ -47,7 +47,7 @@ If you do not specify the color to use, SYSMON selects colors for the first sixt
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

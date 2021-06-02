@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileAlreadyExistsException methods"
 title: EsentSLVStreamingFileAlreadyExistsException methods
 TOCTitle: EsentSLVStreamingFileAlreadyExistsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileAlreadyExistsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVStreamingFileAlreadyExistsException](dn334850\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVStreamingFileAlreadyExistsException](./esentslvstreamingfilealreadyexistsexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVStreamingFileAlreadyExistsException class](dn334850\(v=exchg.10\).md)
+[EsentSLVStreamingFileAlreadyExistsException class](./esentslvstreamingfilealreadyexistsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

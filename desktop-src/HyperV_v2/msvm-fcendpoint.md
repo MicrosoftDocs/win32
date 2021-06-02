@@ -1,5 +1,5 @@
 ---
-Description: Represents the logical connection point for a Fibre Channel port.
+description: Represents the logical connection point for a Fibre Channel port.
 ms.assetid: 54e9cb76-04f2-417b-b250-1b3156772694
 title: Msvm_FcEndpoint class
 ms.topic: reference
@@ -1425,7 +1425,7 @@ The world wide port name of the Fibre Channel port this endpoint is connected to
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

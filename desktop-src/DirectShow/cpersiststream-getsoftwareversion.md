@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the software version for this stream.
+description: Retrieves the software version for this stream.
 ms.assetid: f54153df-5593-4784-acc5-3e0dcef424b5
 title: CPersistStream.GetSoftwareVersion method (Pstream.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns a **DWORD** containing the version number. Each time the format of the s
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

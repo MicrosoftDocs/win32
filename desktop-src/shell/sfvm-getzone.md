@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to provide Internet zone information. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to provide Internet zone information. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 6fae7925-b1be-4270-9318-7fa517563dad
 title: SFVM_GETZONE message (Shlobj.h)
 ms.topic: reference
@@ -91,7 +91,7 @@ Zone used for websites that are not trusted.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

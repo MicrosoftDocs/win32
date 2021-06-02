@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetPrereadIndexRanges method"
 title: Windows8Api.JetPrereadIndexRanges method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetPrereadIndexRanges method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetPrereadIndexRanges(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_RANGE[],System.Int32,System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.JET_COLUMNID[],Microsoft.Isam.Esent.Interop.Windows8.PrereadIndexRangesGrbit)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 If the records with the specified key ranges are not in the buffer cache, then start asynchronous reads to bring the records into the database buffer cache.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -77,14 +78,14 @@ public static void JetPrereadIndexRanges(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The table to issue the prereads against.
 
@@ -126,7 +127,7 @@ public static void JetPrereadIndexRanges(
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.PrereadIndexRangesGrbit](dn335366\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.PrereadIndexRangesGrbit](./prereadindexrangesgrbit-enumeration.md)  
     
     Preread options. Used to specify the direction of the preread.
 
@@ -134,8 +135,8 @@ public static void JetPrereadIndexRanges(
 
 #### Reference
 
-[Windows8Api class](dn335490\(v=exchg.10\).md)
+[Windows8Api class](./windows8api-class.md)
 
-[Windows8Api members](dn335373\(v=exchg.10\).md)
+[Windows8Api members](./windows8api-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

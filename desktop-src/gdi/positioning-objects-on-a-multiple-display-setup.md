@@ -1,5 +1,5 @@
 ---
-Description: The following sample code demonstrates how applications can correctly position objects on multiple displays. Note, do not assume that the RECT is based on the origin (0,0).
+description: The following sample code demonstrates how applications can correctly position objects on multiple displays. Note, do not assume that the RECT is based on the origin (0,0).
 ms.assetid: 1144abfc-ca0a-4d59-aa18-b245ba4b1bc3
 title: Positioning Objects on a Multiple Display Setup
 ms.topic: article

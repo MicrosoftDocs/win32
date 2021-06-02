@@ -42,7 +42,7 @@ Pointer to an [**NMTREEVIEW**](/windows/win32/api/commctrl/ns-commctrl-nmtreevie
 
 
 
-|                 |                   |
+| Requirement | Value |
 |-----------------|-------------------|
 | TVC\_BYKEYBOARD | By a keystroke.   |
 | TVC\_BYMOUSE    | By a mouse click. |
@@ -62,7 +62,7 @@ The return value is ignored.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the pipeline applies mark-in at this node.
+description: Specifies whether the pipeline applies mark-in at this node.
 ms.assetid: 406145e8-e00e-460d-b282-85face457605
 title: MF_TOPONODE_MARKIN_HERE attribute (Mfidl.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

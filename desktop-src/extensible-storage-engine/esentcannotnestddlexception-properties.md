@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDDLException properties"
 title: EsentCannotNestDDLException properties
 TOCTitle: EsentCannotNestDDLException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDDLException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCannotNestDDLException](dn274172\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotNestDDLException](./esentcannotnestddlexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentCannotNestDDLException class](dn274172\(v=exchg.10\).md)
+[EsentCannotNestDDLException class](./esentcannotnestddlexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

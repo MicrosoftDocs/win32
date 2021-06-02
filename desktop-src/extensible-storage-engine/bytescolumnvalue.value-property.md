@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BytesColumnValue.Value property"
 title: BytesColumnValue.Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BytesColumnValue.Value
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # BytesColumnValue.Value property
 
-Gets or sets the value of the column. Use [SetColumns(JET_SESID, JET_TABLEID, \[\])](dn334138\(v=exchg.10\).md) to update a record with the column value.
+Gets or sets the value of the column. Use [SetColumns(JET_SESID, JET_TABLEID, \[\])](./api.setcolumns-method.md) to update a record with the column value.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,9 +64,8 @@ Type: \[\]
 
 #### Reference
 
-[BytesColumnValue class](dn334170\(v=exchg.10\).md)
+[BytesColumnValue class](./bytescolumnvalue-class.md)
 
-[BytesColumnValue members](dn334118\(v=exchg.10\).md)
+[BytesColumnValue members](./bytescolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value of the public key.
+description: Retrieves the value of the public key.
 ms.assetid: d9846ebe-44df-4ee0-8f15-cc96883d9d53
 title: PublicKey.EncodedKey property
 ms.topic: reference
@@ -38,7 +38,7 @@ An [**EncodedData**](encodeddata.md) object that provides access to the value of
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

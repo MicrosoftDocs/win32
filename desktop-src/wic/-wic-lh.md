@@ -1,5 +1,5 @@
 ---
-Description: Windows Imaging Component
+description: Windows Imaging Component
 ms.assetid: b872baf9-9fcb-4604-a518-26e109eda792
 title: Windows Imaging Component
 ms.topic: article

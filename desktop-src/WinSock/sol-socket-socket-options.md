@@ -1,9 +1,9 @@
 ---
-Description: The following tables describe SOL\_SOCKET socket options. See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
+description: The following tables describe SOL\_SOCKET socket options. See the getsockopt and setsockopt function reference pages for more information on getting and setting socket options.
 ms.assetid: 0cd0056e-0c33-4f6e-9f70-5417f8f8da4b
 title: SOL_SOCKET Socket Options (Winsock2.h)
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 05/12/2021
 ---
 
 # SOL\_SOCKET Socket Options
@@ -19,7 +19,8 @@ Some socket options require more explanation than these tables can convey; such 
 
  
 
-<dl> <dt><span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>**SOL\_SOCKET Socket Options**</dt> <dd> <dl> <dt> 
+<span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>
+**SOL\_SOCKET Socket Options**
 
 | Option                                                   | Get | Set | Optval type                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |----------------------------------------------------------|-----|-----|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +57,7 @@ Some socket options require more explanation than these tables can convey; such 
 | SO\_PROTOCOL\_INFO                                       | yes |     | [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)  | This option is defined to the SO\_PROTOCOL\_INFOW socket option if the UNICODE macro is defined. If the UNICODE macro is not defined, then this option is defined to the SO\_PROTOCOL\_INFOA socket option.                                                                                                                                                                                                                                                                                                                               |
 | SO\_PROTOCOL\_INFOA                                      | yes |     | [**WSAPROTOCOL\_INFOA**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) | Returns the [**WSAPROTOCOL\_INFOA**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure for the given socket                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | SO\_PROTOCOL\_INFOW                                      | yes |     | [**WSAPROTOCOL\_INFOW**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) | Returns the [**WSAPROTOCOL\_INFOW**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure for the given socket                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| SO\_RANDOMIZE\_PORT                                      | yes | yes | uint16                                           | This option should be set on an unbound socket. When SO\_RANDOMIZE\_PORT is set and an ephemeral port is selected on the socket, a random port number is bound. Auto-reuse ports (ports selected using SO\_REUSE\_UNICASTPORT) also randomize the returned port, so if an application sets SO\_REUSE\_UNICASTPORT and then attempts to set SO\_RANDOMIZE\_PORT, the second [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) call fails.                                                                                                                 |
+| SO\_RANDOMIZE\_PORT                                      | yes | yes | DWORD(boolean)                                           | This option should be set on an unbound socket. When SO\_RANDOMIZE\_PORT is set and an ephemeral port is selected on the socket, a random port number is bound. Auto-reuse ports (ports selected using SO\_REUSE\_UNICASTPORT) also randomize the returned port, so if an application sets SO\_REUSE\_UNICASTPORT and then attempts to set SO\_RANDOMIZE\_PORT, the second [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) call fails.                                                                                                                 |
 | SO\_RCVBUF                                               | yes | yes | DWORD                                            | The total per-socket buffer space reserved for receives. This is unrelated to SO\_MAX\_MSG\_SIZE and does not necessarily correspond to the size of the TCP receive window.                                                                                                                                                                                                                                                                                                                                                               |
 | SO\_RCVLOWAT                                             | yes | yes | DWORD                                            | A socket option from BSD UNIX included for backward compatibility. This option sets the minimum number of bytes to process for socket input operations. This option is not supported by the Windows TCP/IP provider. If this option is used on Windows Vista and later, the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) and [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) functions fail with WSAEINVAL. On earlier versions of Windows, these functions fail with WSAENOPROTOOPT.<br/>                                                                 |
 | SO\_RCVTIMEO                                             | yes | yes | DWORD                                            | The timeout, in milliseconds, for blocking receive calls. The default for this option is zero, which indicates that a receive operation will not time out. If a blocking receive call times out, the connection is in an indeterminate state and should be closed.<br/> If the socket is created using the [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) function, then the *dwFlags* parameter must have the WSA\_FLAG\_OVERLAPPED attribute set for the timeout to function properly. Otherwise the timeout never takes effect.<br/>     |
@@ -69,13 +70,11 @@ Some socket options require more explanation than these tables can convey; such 
 | SO\_TYPE                                                 | yes |     | DWORD                                            | Returns the socket type for the given socket (SOCK\_STREAM or SOCK\_DGRAM, for example).                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | SO\_UPDATE\_ACCEPT\_CONTEXT                              |     | yes | DWORD (boolean)                                  | This option is used with the [**AcceptEx**](/windows/win32/api/mswsock/nf-mswsock-acceptex) function. This option updates the properties of the socket which are inherited from the listening socket. This option should be set if the [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername), [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname), [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt), or [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) functions are to be used on the accepted socket.                                                                                                                             |
 | SO\_UPDATE\_CONNECT\_CONTEXT                             |     | yes | DWORD (boolean)                                  | This option is used with the [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex), [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist), and [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) functions. This option updates the properties of the socket after the connection is established. This option should be set if the [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername), [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname), [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt), [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt), or [**shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown) functions are to be used on the connected socket. |
-| SO\_USELOOPBACK                                          | yes | yes | DWORD (boolean)                                  | Use the local loopback address when sending data from this socket. This option should only be used when all data sent will also be received locally. This option is not supported by the Windows TCP/IP provider. If this option is used on Windows Vista and later, the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) and [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) functions fail with WSAEINVAL. On earlier versions of Windows, these functions fail with WSAENOPROTOOPT.<br/>                                                                    |
+| SO\_USELOOPBACK                                          | yes | yes | DWORD (boolean)                                  | Use the local loopback address when sending data from this socket. This option should only be used when all data sent will also be received locally. This option is not supported by the Windows TCP/IP provider. If this option is used on Windows Vista and later, the [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) and [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) functions fail with WSAEINVAL. On earlier versions of Windows, these functions fail with WSAENOPROTOOPT.                                                                    |
 
 
-
- 
-
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>**Windows Support for SOL\_SOCKET Options**</dt> <dd> <dl> <dt> 
+<span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>
+**Windows Support for SOL_SOCKET Options**
 
 | Option                                          | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/ME |
 |-------------------------------------------------|------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
@@ -128,12 +127,6 @@ Some socket options require more explanation than these tables can convey; such 
 | SO\_USELOOPBACK                                 |            |           |                     |               |                     |            |              |             |               |
 
 
-
- 
-
-
-</dt> </dl> </dd> </dl>
-
 ## Remarks
 
 The **SOL\_SOCKET** socket options are defined in several Winsock header files:
@@ -150,7 +143,7 @@ On the Platform Software Development Kit (SDK) released for Windows Server 2003
 
 
 
-|                   |                                                                                                                                                                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Mswsock.h; </dt> <dt>Ws2def.h (include Winsock2.h)</dt> </dl> |
 

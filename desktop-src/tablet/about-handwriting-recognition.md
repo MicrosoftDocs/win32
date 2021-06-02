@@ -1,5 +1,5 @@
 ---
-Description: Tablet PC includes technology for recognizing ink input that is most commonly in the form of handwriting.
+description: Tablet PC includes technology for recognizing ink input that is most commonly in the form of handwriting.
 ms.assetid: 614971a8-2b56-40d4-abb6-aba5ded01883
 title: About Handwriting Recognition
 ms.topic: article

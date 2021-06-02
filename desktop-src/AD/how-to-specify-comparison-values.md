@@ -79,7 +79,7 @@ The LDAP matching rule operators can also be used to perform bitwise comparisons
 <span id="OctetString"></span><span id="octetstring"></span><span id="OCTETSTRING"></span>OctetString
 </dt> <dd>
 
-The value specified in a filter is the data to be found. The data must be represented as a two character encoded byte string where each byte is preceded by a backslash (\). For example, the value 0x05 will appear in the string as "\\05".
+The value specified in a filter is the data to be found. The data must be represented as a two character encoded byte string where each byte is preceded by a backslash (\\). For example, the value 0x05 will appear in the string as "\\05".
 
 The [**ADsEncodeBinaryData**](/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata) function can be used to create an encoded string representation of binary data. The **ADsEncodeBinaryData** function does not encode byte values that represent alpha-numeric characters. It will, instead, place the character into the string without encoding it. This results in the string containing a mixture of encoded and unencoded characters. For example, if the binary data is 0x05\|0x1A\|0x1B\|0x43\|0x32, the encoded string will contain "\\05\\1A\\1BC2". This has no effect on the filter and the search filters will work correctly with these types of strings.
 

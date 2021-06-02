@@ -1,5 +1,5 @@
 ---
-Description: Topology Attributes
+description: Topology Attributes
 ms.assetid: 50102096-a29f-4c00-a685-179ba5d71089
 title: Topology Attributes
 ms.topic: article
@@ -16,6 +16,7 @@ The following attributes apply to topologies.
 |----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [MF\_TOPOLOGY\_DXVA\_MODE](mf-topology-dxva-mode.md)                                                    | Specifies whether the topology loader enables Microsoft DirectX Video Acceleration (DXVA) in the topology.                                                                                                                         |
 | [MF\_TOPOLOGY\_DYNAMIC\_CHANGE\_NOT\_ALLOWED](mf-topology-dynamic-change-not-allowed.md)                | Specifies whether the Media Session attempts to modify the topology when the format of a stream changes.                                                                                                                           |
+| [MF\_TOPOLOGY\_ENABLE\_XVP\_FOR\_PLAYBACK](mf-topology-enable-xvp-for-playback.md)                | Specifies whether the topology loader enables the Transcode Video Processor (XVP). for conversions, enabling hardware accelerated color conversion.                                                                                        |
 | [MF\_TOPOLOGY\_ENUMERATE\_SOURCE\_TYPES](mf-topology-enumerate-source-types.md)                         | Specifies whether the topology loader enumerates the media types provided by the media source.                                                                                                                                     |
 | [MF\_TOPOLOGY\_HARDWARE\_MODE](mf-topology-hardware-mode.md)                                            | Specifies whether to include hardware-based transforms in the topology.                                                                                                                                                            |
 | [**MF\_TOPOLOGY\_NO\_MARKIN\_MARKOUT**](mf-topology-no-markin-markout-attribute.md)                     | Specifies whether the pipeline trims samples.                                                                                                                                                                                      |

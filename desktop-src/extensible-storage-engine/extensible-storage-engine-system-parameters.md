@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine System Parameters"
 title: Extensible Storage Engine System Parameters
 TOCTitle: Extensible Storage Engine System Parameters
 ms:assetid: f95c2e87-b25e-4be5-8c17-8486ba37dad4
@@ -24,33 +25,33 @@ _**Applies to:** Windows | Windows Server_
 
 ## Extensible Storage Engine System Parameters
 
-The following constants are used as values for the *paramid* parameter of the [JetGetSystemParameter](gg269291\(v=exchg.10\).md) and [JetSetSystemParameter](gg294044\(v=exchg.10\).md) functions.
+The following constants are used as values for the *paramid* parameter of the [JetGetSystemParameter](./jetgetsystemparameter-function.md) and [JetSetSystemParameter](./jetsetsystemparameter-function.md) functions.
 
-  - [Backup and Restore Parameters](gg269236\(v=exchg.10\).md)
+  - [Backup and Restore Parameters](./backup-and-restore-parameters.md)
 
-  - [Callback Parameters](gg269310\(v=exchg.10\).md)
+  - [Callback Parameters](./callback-parameters.md)
 
-  - [Database Parameters](gg269337\(v=exchg.10\).md)
+  - [Database Parameters](./database-parameters.md)
 
-  - [Database Cache Parameters](gg269293\(v=exchg.10\).md)
+  - [Database Cache Parameters](./database-cache-parameters.md)
 
-  - [Error Handling Parameters](gg269173\(v=exchg.10\).md)
+  - [Error Handling Parameters](./error-handling-parameters.md)
 
-  - [Event Log Parameters](gg294086\(v=exchg.10\).md)
+  - [Event Log Parameters](./event-log-parameters.md)
 
-  - [I/O Parameters](gg269260\(v=exchg.10\).md)
+  - [I/O Parameters](./i-o-parameters.md)
 
-  - [Index Parameters](gg294119\(v=exchg.10\).md)
+  - [Index Parameters](./index-parameters.md)
 
-  - [Informational Parameters](gg269241\(v=exchg.10\).md)
+  - [Informational Parameters](./informational-parameters.md)
 
-  - [Meta Parameters](gg269346\(v=exchg.10\).md)
+  - [Meta Parameters](./meta-parameters.md)
 
-  - [Resource Parameters](gg269201\(v=exchg.10\).md)
+  - [Resource Parameters](./resource-parameters.md)
 
-  - [Temporary Database Parameters](gg294140\(v=exchg.10\).md)
+  - [Temporary Database Parameters](./temporary-database-parameters.md)
 
-  - [Transaction Log Parameters](gg269235\(v=exchg.10\).md)
+  - [Transaction Log Parameters](./transaction-log-parameters.md)
 
 ### System Parameter Description Format
 
@@ -112,4 +113,3 @@ Description of the JET_paramX system parameter.
 </tr>
 </tbody>
 </table>
-

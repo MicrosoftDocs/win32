@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetCurrentIndex Function"
 title: JetGetCurrentIndex Function
 TOCTitle: JetGetCurrentIndex Function
 ms:assetid: 9db3b875-0b95-4027-9742-c36d2d7e64cf
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetCurrentIndex Function
 
-The **JetGetCurrentIndex** function determines the name of the current index of a given cursor. This name is also used to later re-select that index as the current index using [JetSetCurrentIndex](gg294046\(v=exchg.10\).md). It can also be used to discover the properties of that index using [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md).
+The **JetGetCurrentIndex** function determines the name of the current index of a given cursor. This name is also used to later re-select that index as the current index using [JetSetCurrentIndex](./jetsetcurrentindex-function.md). It can also be used to discover the properties of that index using [JetGetTableIndexInfo](./jetgettableindexinfo-function.md).
 
 ```cpp
     JET_ERR JET_API JetGetCurrentIndex(
@@ -60,7 +61,7 @@ The maximum size in characters of the output buffer.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -118,7 +119,7 @@ On failure, the state of the output buffer will be undefined. No change to the d
 
 #### Remarks
 
-If there is no current index for the cursor then an empty string will be returned. This can happen when the cursor is on the clustered index of the table and no primary index was defined. This index is known as the sequential index of the table and has no definition. In any case, setting the current index to an empty string using [JetSetCurrentIndex](gg294046\(v=exchg.10\).md) will select the clustered index regardless of the presence of a primary index definition.
+If there is no current index for the cursor then an empty string will be returned. This can happen when the cursor is on the clustered index of the table and no primary index was defined. This index is known as the sequential index of the table and has no definition. In any case, setting the current index to an empty string using [JetSetCurrentIndex](./jetsetcurrentindex-function.md) will select the clustered index regardless of the presence of a primary index definition.
 
 There is an important bug in this function that is present in all releases. If the output buffer is too small to receive the entire index name and the output buffer is at least one character in length then JET_wrnBufferTruncated will NOT be returned. JET_errSuccess will be returned instead. To avoid this issue, the output buffer should always be at least JET_cbNameMost + 1 (65) characters in length.
 
@@ -160,9 +161,8 @@ There is an important bug in this function that is present in all releases. If t
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  
-[JetSetCurrentIndex](gg294046\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetTableIndexInfo](./jetgettableindexinfo-function.md)  
+[JetSetCurrentIndex](./jetsetcurrentindex-function.md)

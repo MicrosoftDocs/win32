@@ -1,5 +1,5 @@
 ---
-Description: Contains information identifying the adapter.
+description: Contains information identifying the adapter.
 ms.assetid: d0d59df9-c512-4d69-b0a0-7d87d7a380f6
 title: D3DADAPTER_IDENTIFIER9 structure (D3D9Types.h)
 ms.topic: reference
@@ -177,9 +177,8 @@ Used to determine the Windows Hardware Quality Labs (WHQL) validation level for 
 
 
 
-|       |                                               |
+| Bits  |  Description                                             |
 |-------|-----------------------------------------------|
-| Bits  |                                               |
 | 31-16 | The year, a decimal number from 1999 upwards. |
 | 15-8  | The month, a decimal number from 1 to 12.     |
 | 7-0   | The day, a decimal number from 1 to 31.       |
@@ -192,7 +191,7 @@ The following values are also used.
 
 
 
-|     |                                                       |
+| Value    |  Description                                                     |
 |-----|-------------------------------------------------------|
 | 0   | Not certified.                                        |
 | 1   | WHQL validated, but no date information is available. |
@@ -238,7 +237,7 @@ The VendorId, DeviceId, SubSysId, and Revision members can be used in tandem to 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

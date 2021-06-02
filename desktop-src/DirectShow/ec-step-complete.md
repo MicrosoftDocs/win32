@@ -1,5 +1,5 @@
 ---
-Description: A filter has completed frame stepping.
+description: A filter has completed frame stepping.
 ms.assetid: 61c3c343-3754-40b7-9f85-9a96d3faf4a2
 title: EC_STEP_COMPLETE (Dshow.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The filter graph manager pauses the graph and passes the event to the applicatio
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

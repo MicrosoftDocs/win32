@@ -1,5 +1,5 @@
 ---
-Description: Is similar to a command-line switch. However, you do not need to reenter a \#pragma command each time you compile a MOF file.
+description: Is similar to a command-line switch. However, you do not need to reenter a \#pragma command each time you compile a MOF file.
 ms.assetid: 3cf22686-dd56-43a3-9584-3d707a20a3a0
 ms.tgt_platform: multiple
 title: '#pragma'

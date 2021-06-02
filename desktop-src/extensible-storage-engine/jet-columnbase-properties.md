@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_COLUMNBASE properties"
 title: JET_COLUMNBASE properties
 TOCTitle: JET_COLUMNBASE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_COLUMNBASE](dn335045\(v=exchg.10\).md) type exposes the following members.
+The [JET_COLUMNBASE](./jet-columnbase-class.md) type exposes the following members.
 
 ## Properties
 
@@ -71,7 +72,6 @@ Top
 
 #### Reference
 
-[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](./jet-columnbase-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.GetHashCode method"
 title: JET_BKLOGTIME.GetHashCode method 
 TOCTitle: 'GetHashCode method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.GetHashCode
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns the hash code for this instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ The hash code for this instance.
 
 #### Reference
 
-[JET_BKLOGTIME structure](hh557662\(v=exchg.10\).md)
+[JET_BKLOGTIME structure](./jet-bklogtime-structure2.md)
 
-[JET_BKLOGTIME members](hh565503\(v=exchg.10\).md)
+[JET_BKLOGTIME members](./jet-bklogtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

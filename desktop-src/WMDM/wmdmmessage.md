@@ -71,7 +71,7 @@ Media has been removed from a Windows Media Device Manager device.
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmdm.idl</dt> </dl> |
 

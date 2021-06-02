@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the text color style of the specified style.
+description: Retrieves the text color style of the specified style.
 ms.assetid: 242c37af-5b39-4b18-9c8f-4e692f41c497
 title: PColorStyleTextFromIMEStyle function
 ms.topic: reference
@@ -67,7 +67,7 @@ typedef struct {
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

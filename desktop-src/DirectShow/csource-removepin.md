@@ -1,5 +1,5 @@
 ---
-Description: The RemovePin method removes a specified pin from the filter. The method does not delete the pin.
+description: The RemovePin method removes a specified pin from the filter. The method does not delete the pin.
 ms.assetid: 104eccfa-3fff-4f47-ba1b-3206eab9eef8
 title: CSource.RemovePin method (Source.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The destructor method calls this method, to remove the output pin from the filte
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

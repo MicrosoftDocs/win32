@@ -1,5 +1,5 @@
 ---
-Description: Not implemented.
+description: IXml2Dex::ReadXML method - Not implemented.
 ms.assetid: f75ee69d-2778-4c3c-a810-6708b1669541
 title: IXml2Dex::ReadXML method
 ms.topic: reference

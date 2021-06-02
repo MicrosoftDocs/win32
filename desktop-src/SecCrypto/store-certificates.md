@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the collection that includes all of the certificates in the store.
+description: Retrieves the collection that includes all of the certificates in the store.
 ms.assetid: 06cfc0e9-8a77-4e10-b559-4d42ac93c01b
 title: Store.Certificates property
 ms.topic: reference
@@ -38,7 +38,7 @@ The collection of certificates in the store.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Information about WMI qualifiers, Managed Object Format (MOF) syntax, performance counter types, and other data used by WMI providers, scripts, and applications.
+description: Information about WMI qualifiers, Managed Object Format (MOF) syntax, performance counter types, and other data used by WMI providers, scripts, and applications.
 ms.assetid: 7f0e3ebb-ba10-4cf0-86a9-5fdec5ffc383
 ms.tgt_platform: multiple
 title: WMI Infrastructure Objects and Values

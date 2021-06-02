@@ -1,5 +1,5 @@
 ---
-Description: Gethostbyname function in the Winsock SPI.
+description: Gethostbyname function in the Winsock SPI.
 ms.assetid: 3e63a6db-1ecc-4ce1-b772-25dc9a57e0d9
 title: gethostbyname Function in the SPI
 ms.topic: article

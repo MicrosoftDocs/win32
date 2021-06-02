@@ -1,5 +1,5 @@
 ---
-Description: Represents an association in which protocol endpoints depend on a forwarding service to forward data.
+description: Represents an association in which protocol endpoints depend on a forwarding service to forward data.
 ms.assetid: b63dbd2c-2842-498a-a352-b7ab7f7c841a
 title: CIM_ForwardsAmong class
 ms.topic: reference
@@ -80,7 +80,7 @@ The forwarding service that forwards the data.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

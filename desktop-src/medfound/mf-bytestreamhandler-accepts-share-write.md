@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a byte-stream handler can use a byte stream that is opened for writing by another thread.
+description: Specifies whether a byte-stream handler can use a byte stream that is opened for writing by another thread.
 ms.assetid: d9d97880-a563-420c-b598-c3ebd1ae8b74
 title: MF_BYTESTREAMHANDLER_ACCEPTS_SHARE_WRITE attribute (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                     |

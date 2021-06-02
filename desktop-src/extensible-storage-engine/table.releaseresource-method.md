@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table.ReleaseResource method"
 title: Table.ReleaseResource method 
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Table.ReleaseResource
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Free the underlying JET_TABLEID.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ protected override void ReleaseResource()
 
 #### Reference
 
-[Table class](dn351163\(v=exchg.10\).md)
+[Table class](./table-class.md)
 
-[Table members](dn351162\(v=exchg.10\).md)
+[Table members](./table-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the AddArc methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the AddArc methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 54171039-4cb9-4898-a656-b7a9df4b18f6
 title: GraphicsPath.AddArc methods
 ms.date: 07/02/2019

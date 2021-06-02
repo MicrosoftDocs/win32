@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN Structure"
 title: JET_ENUMCOLUMN Structure
 TOCTitle: JET_ENUMCOLUMN Structure
 ms:assetid: f8f512fd-5fcf-47ed-a5db-2fb3bd76c2d7
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_ENUMCOLUMN Structure
 
-The **JET_ENUMCOLUMN** structure enumerates the column values of a record when the [JetEnumerateColumns](gg269321\(v=exchg.10\).md) function is used. [JetEnumerateColumns](gg269321\(v=exchg.10\).md) returns an array of **JET_ENUMCOLUMN** structures. The array is returned in memory that is allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to that API.
+The **JET_ENUMCOLUMN** structure enumerates the column values of a record when the [JetEnumerateColumns](./jetenumeratecolumns-function.md) function is used. [JetEnumerateColumns](./jetenumeratecolumns-function.md) returns an array of **JET_ENUMCOLUMN** structures. The array is returned in memory that is allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to that API.
 
 ```cpp
     typedef struct {
@@ -95,17 +96,17 @@ The column status code that results from the enumeration of the column.
 
 **cEnumColumnValue**
 
-The array of column values that was enumerated for the column. The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The array of column values that was enumerated for the column. The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
-This output buffer is used when the column status code is not equal to JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+This output buffer is used when the column status code is not equal to JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
 This is returned if "err \!= JET_wrnColumnSingleValue".
 
 **rgEnumColumnValue**
 
-The array of column values that was enumerated for the column. The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The array of column values that was enumerated for the column. The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
-This output buffer is used when the column status code is not equal to JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+This output buffer is used when the column status code is not equal to JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
 This is returned if "err \!= JET_wrnColumnSingleValue".
 
@@ -113,9 +114,9 @@ This is returned if "err \!= JET_wrnColumnSingleValue".
 
 The column value that was enumerated for the column.
 
-The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
-This output buffer is only used when the column status code is JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+This output buffer is only used when the column status code is JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
 This is returned if "err == JET_wrnColumnSingleValue".
 
@@ -123,9 +124,9 @@ This is returned if "err == JET_wrnColumnSingleValue".
 
 The column value that was enumerated for the column.
 
-The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+The output buffer is returned in memory that was allocated using the [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback that was supplied to [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
-This output buffer is only used when the column status code is JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](gg269321\(v=exchg.10\).md).
+This output buffer is only used when the column status code is JET_wrnColumnSingleValue. For more information, see [JetEnumerateColumns](./jetenumeratecolumns-function.md).
 
 This is returned if "err == JET_wrnColumnSingleValue".
 
@@ -155,9 +156,9 @@ This is returned if "err == JET_wrnColumnSingleValue".
 
 ### See Also
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)  
-[JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
-[JetEnumerateColumns](gg269321\(v=exchg.10\).md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_ENUMCOLUMNID](./jet-enumcolumnid-structure.md)  
+[JET_ENUMCOLUMNVALUE](./jet-enumcolumnvalue-structure.md)  
+[JetEnumerateColumns](./jetenumeratecolumns-function.md)  
 [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019)

@@ -1,5 +1,5 @@
 ---
-Description: XML Parser
+description: XML Parser
 ms.assetid: 2c1c6f21-e313-46e5-9b74-a59c2ddb90e1
 title: XML Parser
 ms.topic: article

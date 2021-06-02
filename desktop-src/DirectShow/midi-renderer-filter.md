@@ -1,5 +1,5 @@
 ---
-Description: The MIDI Renderer filter renders MIDI data from the MIDI Parser filter.
+description: The MIDI Renderer filter renders MIDI data from the MIDI Parser filter.
 ms.assetid: 2675a21d-41d0-4095-96c4-f12f52c00d5a
 title: MIDI Renderer Filter (Windows.devices.midi.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ The MIDI Renderer filter renders MIDI data from the [MIDI Parser](midi-parser-fi
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                      |
+| Label | Value |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMClockSlave**](/windows/desktop/api/Strmif/nn-strmif-iamclockslave), [**IAMDirectSound**](/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound), [**IAMResourceControl**](/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IBasicAudio**](/windows/desktop/api/Control/nn-control-ibasicaudio), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IReferenceClock**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock) |
 | Input Pin Media Types                    | MEDIATYPE\_Midi, MEDIASUBTYPE\_NULL                                                                                                                                                                                                                                                                                                                                                  |
@@ -60,7 +60,7 @@ Samples from the MIDI Parser filter contain one second of MIDI data. The MIDI Re
 
 
 
-|                   |                                                                                                   |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.devices.midi.h</dt> </dl> |
 

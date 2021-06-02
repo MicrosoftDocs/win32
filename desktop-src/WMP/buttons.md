@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Buttons
+# Buttons (Windows Media Player SDK)
 
 You will want to use one or more buttons in your skin, and each button must be defined in the skin definition file. If you do not define a button in this section, your skin will not be able to use it.
 

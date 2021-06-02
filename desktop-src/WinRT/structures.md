@@ -1,5 +1,5 @@
 ---
-Description: Structures (Windows Runtime C++)
+description: Structures (Windows Runtime C++)
 ms.assetid: E37BC087-796A-4AFB-9E30-9C09D35E12B1
 title: Structures
 ms.topic: article

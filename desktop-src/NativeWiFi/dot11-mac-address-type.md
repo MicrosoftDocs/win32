@@ -1,5 +1,5 @@
 ---
-Description: Are used to define an IEEE media access control (MAC) address.
+description: Are used to define an IEEE media access control (MAC) address.
 ms.assetid: c1335127-a2d2-4f44-a895-1abbc5eaf98d
 title: DOT11_MAC_ADDRESS (Windot11.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Pointer to a MAC address in unicast, multicast, or broadcast format.
 
 
 
-|                                     |                                                                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                       |

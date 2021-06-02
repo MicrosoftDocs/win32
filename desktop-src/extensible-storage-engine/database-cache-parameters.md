@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Database Cache Parameters"
 title: Database Cache Parameters
 TOCTitle: Database Cache Parameters
 ms:assetid: 715e5495-0cd8-430f-bf21-509cf03bfbfd
@@ -227,7 +228,7 @@ This parameter configures the maximum size of the database page cache. The size 
 
 By default, the database cache will automatically adjust its size between the limits set by **JET_paramCacheSizeMin** and **JET_paramCacheSizeMax**.
 
-**Note**   If this parameter is left to its default value, then the maximum size of the cache will be set to the size of physical memory when [JetInit](gg294068\(v=exchg.10\).md) is called.
+**Note**   If this parameter is left to its default value, then the maximum size of the cache will be set to the size of physical memory when [JetInit](./jetinit-function.md) is called.
 
 **Windows Vista:**  As of Windows Vista, the default value of this parameter was changed to clarify this behavior.
 
@@ -294,7 +295,7 @@ By default, the database cache will automatically adjust its size between the li
 
 This parameter controls how aggressively database pages are flushed from the database page cache to minimize the amount of time it will take to recover from a crash. The parameter is a threshold in bytes for about how many transaction log files will need to be replayed after a crash.
 
-If circular logging is enabled using [JET_paramCircularLog](gg269235\(v=exchg.10\).md) then this parameter will also control the approximate amount of transaction log files that will be retained on disk.
+If circular logging is enabled using [JET_paramCircularLog](./transaction-log-parameters.md) then this parameter will also control the approximate amount of transaction log files that will be retained on disk.
 
 It is important that this parameter not be set too low. As the value of this parameter approaches zero, the cache will become more and more aggressive when flushing database pages to disk. This not only results in an increased number of writes to the database files but it also indirectly causes an increased number of reads to those files as well. This can cause very significant performance problems in some cases. Unfortunately, setting the smallest optimal value for this parameter can only be done using experimentation with the target application.
 
@@ -877,6 +878,5 @@ The distance between the start threshold and the stop threshold affects the effi
 
 ### See Also
 
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)

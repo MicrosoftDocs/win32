@@ -1,5 +1,5 @@
 ---
-Description: Writes a WORD value to the specified database.
+description: Writes a WORD value to the specified database.
 ms.assetid: 8f921e14-4a82-4d8e-83fa-beb78118ecb8
 title: SdbWriteWORDTag function
 ms.topic: reference
@@ -65,7 +65,7 @@ The function returns **TRUE** on success or **FALSE** on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

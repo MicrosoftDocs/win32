@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the methods of the PrivateFontCollection class. For a complete class listing, see PrivateFontCollection Class.
+description: This topic lists the methods of the PrivateFontCollection class. For a complete class listing, see PrivateFontCollection Class.
 ms.assetid: e7c0ab5c-aefa-4f22-9313-a375ec7ec8c1
 title: PrivateFontCollection Methods
 ms.topic: reference

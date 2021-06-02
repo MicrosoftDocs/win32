@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a collection of the policy's qualifiers.
+description: Retrieves a collection of the policy's qualifiers.
 ms.assetid: aa5e2225-0a39-40bc-868c-d96f5953edaa
 title: PolicyInformation.Qualifiers property (Iads.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The policy's Certification Practice Statement (CPS) pointer or user notice quali
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | Header<br/>          | <dl> <dt>Iads.h</dt> </dl>      |

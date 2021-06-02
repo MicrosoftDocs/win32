@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.DataSuppliers
 ms.assetid: 2b231ea2-d3c9-47ac-be51-4de3c736b369
 title: System.Contact.DataSuppliers
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseUnavailableException members"
 title: EsentDatabaseUnavailableException members
 TOCTitle: EsentDatabaseUnavailableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseUnavailable exceptions.
 
-The [EsentDatabaseUnavailableException](dn274227\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseUnavailableException](./esentdatabaseunavailableexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseUnavailableException class](dn274227\(v=exchg.10\).md)
+[EsentDatabaseUnavailableException class](./esentdatabaseunavailableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

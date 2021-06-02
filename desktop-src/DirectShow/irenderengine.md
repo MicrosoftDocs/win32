@@ -1,5 +1,5 @@
 ---
-Description: The IRenderEngine interface renders a DirectShow Editing Services (DES) project by constructing a filter graph from a timeline.DES provides two components that implement this interface:The basic render engine creates uncompressed output.
+description: The IRenderEngine interface renders a DirectShow Editing Services (DES) project by constructing a filter graph from a timeline.DES provides two components that implement this interface:The basic render engine creates uncompressed output.
 ms.assetid: e2a91b34-ee4d-405e-81bf-29d15ea6342a
 title: IRenderEngine interface (Qedit.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ The **IRenderEngine** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

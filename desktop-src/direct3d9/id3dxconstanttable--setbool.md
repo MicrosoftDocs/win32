@@ -1,5 +1,5 @@
 ---
-Description: Sets a Boolean value.
+description: Sets a Boolean value.
 ms.assetid: 652e5b68-88f3-4b05-959b-38bb530c546a
 title: ID3DXConstantTable::SetBool method (D3DX9Shader.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

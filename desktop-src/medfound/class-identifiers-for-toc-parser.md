@@ -1,5 +1,5 @@
 ---
-Description: The following classes are declared and associated with class identifiers (CLSIDs) in wmcodecdsp.h.
+description: The following classes are declared and associated with class identifiers (CLSIDs) in wmcodecdsp.h.
 ms.assetid: f82d92dc-fbce-4274-a10f-72fa8dd776cc
 title: Class Identifiers for Table of Contents Parser (Wmcodecdsp.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The following CLSID constant is declared, but not defined, in wmcodecdsp.h. To u
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

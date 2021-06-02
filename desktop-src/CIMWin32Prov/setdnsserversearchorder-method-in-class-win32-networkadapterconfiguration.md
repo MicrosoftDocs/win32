@@ -1,5 +1,5 @@
 ---
-Description: The SetDNSServerSearchOrder &\#32; WMI class method uses an array of string elements to set the server search order.
+description: The SetDNSServerSearchOrder &\#32; WMI class method uses an array of string elements to set the server search order.
 ms.assetid: fce688fa-7264-4965-8e1c-138160e03a7e
 ms.tgt_platform: multiple
 title: SetDNSServerSearchOrder method of the Win32_NetworkAdapterConfiguration class
@@ -183,7 +183,7 @@ The [Modify the DNS Server Search Order for a Network Adapter](https://Gallery.T
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

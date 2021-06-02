@@ -1,5 +1,5 @@
 ---
-Description: The pen, brush, bitmap, palette, region, and path associated with a DC are referred to as its graphic objects. The following attributes are associated with each of these objects.
+description: The pen, brush, bitmap, palette, region, and path associated with a DC are referred to as its graphic objects. The following attributes are associated with each of these objects.
 ms.assetid: 95c82efa-257e-4718-9853-7ef10cdfd76c
 title: Graphic Objects
 ms.topic: article

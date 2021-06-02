@@ -1,5 +1,5 @@
 ---
-Description: A description of the constant table.
+description: A description of the constant table.
 ms.assetid: 848b328a-95a4-4fd0-a7d4-4fb0e5d14f64
 title: D3DXCONSTANTTABLE_DESC structure (D3dx9shader.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Number of constants in the constant table.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

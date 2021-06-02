@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.cbSeparateLV property"
 title: JET_TABLECREATE.cbSeparateLV property 
 TOCTitle: 'cbSeparateLV property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cbSeparateLV
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the heuristic size to separate a intrinsic LV from the primary record.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](./jet-tablecreate-class.md)
 
-[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](./jet-tablecreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

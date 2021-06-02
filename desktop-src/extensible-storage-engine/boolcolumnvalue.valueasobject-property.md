@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: BoolColumnValue.ValueAsObject property"
 title: BoolColumnValue.ValueAsObject property 
 TOCTitle: 'ValueAsObject property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.BoolColumnValue.ValueAsObject
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the last set or retrieved value of the column. The value is returned as a generic object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,8 +60,8 @@ Type: [System.Object](/dotnet/api/system.object)
 
 #### Reference
 
-[BoolColumnValue class](dn334148\(v=exchg.10\).md)
+[BoolColumnValue class](./boolcolumnvalue-class.md)
 
-[BoolColumnValue members](dn334152\(v=exchg.10\).md)
+[BoolColumnValue members](./boolcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

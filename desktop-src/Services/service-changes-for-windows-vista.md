@@ -1,5 +1,5 @@
 ---
-Description: There have been significant changes to the services model to improve performance, reliability, security, management, and administration of services.
+description: There have been significant changes to the services model to improve performance, reliability, security, management, and administration of services.
 ms.assetid: b1c09468-51e1-4ffd-bf07-6faa9f9336dd
 title: Service Changes for Windows Vista
 ms.topic: article

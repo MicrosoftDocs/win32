@@ -1,5 +1,5 @@
 ---
-Description: Returns the length of a 3D vector.
+description: Returns the length of a 3D vector.
 ms.assetid: 78da506c-3169-48e9-934c-cc09271a10d4
 title: D3DXVec3Length function (D3dx9math.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The vector's length.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

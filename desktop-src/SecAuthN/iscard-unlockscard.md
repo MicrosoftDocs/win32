@@ -1,5 +1,5 @@
 ---
-Description: Releases exclusive access to the smart card.
+description: Releases exclusive access to the smart card.
 ms.assetid: 12256c91-faf2-4a06-9501-f00d0115a069
 title: ISCard::UnlockSCard method (Scardmgr.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

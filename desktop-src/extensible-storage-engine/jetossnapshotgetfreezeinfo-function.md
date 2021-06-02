@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotGetFreezeInfo Function"
 title: JetOSSnapshotGetFreezeInfo Function
 TOCTitle: JetOSSnapshotGetFreezeInfo Function
 ms:assetid: b94eaf91-7407-4c62-ab1e-3249ad076c1a
@@ -62,7 +63,7 @@ The options for this call. This parameter is reserved for future use. The only v
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -100,7 +101,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 </table>
 
 
-If this function succeeds, the instance information is properly filled and it must be freed later by calling [JetFreeBuffer](gg294134\(v=exchg.10\).md) with the pointer to the instance info array that was returned.
+If this function succeeds, the instance information is properly filled and it must be freed later by calling [JetFreeBuffer](./jetfreebuffer-function.md) with the pointer to the instance info array that was returned.
 
 If this function fails, no change in the engine state occurs.
 
@@ -142,11 +143,10 @@ If this function fails, no change in the engine state occurs.
 
 #### See Also
 
-[Error Handling Parameters](gg269173\(v=exchg.10\).md)  
-[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JetFreeBuffer](gg294134\(v=exchg.10\).md)  
-[JetOSSnapshotAbort](gg269265\(v=exchg.10\).md)  
-[JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  
-[JetOSSnapshotThaw](gg269229\(v=exchg.10\).md)
-
+[Error Handling Parameters](./error-handling-parameters.md)  
+[Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)  
+[JET_ERR](./jet-err.md)  
+[JetFreeBuffer](./jetfreebuffer-function.md)  
+[JetOSSnapshotAbort](./jetossnapshotabort-function.md)  
+[JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)  
+[JetOSSnapshotThaw](./jetossnapshotthaw-function.md)

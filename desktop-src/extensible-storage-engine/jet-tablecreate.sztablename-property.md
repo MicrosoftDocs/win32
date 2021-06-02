@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.szTableName property"
 title: JET_TABLECREATE.szTableName property 
 TOCTitle: 'szTableName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.szTableName
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the name of the table to create.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](./jet-tablecreate-class.md)
 
-[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](./jet-tablecreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

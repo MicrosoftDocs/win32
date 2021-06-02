@@ -1,5 +1,5 @@
 ---
-Description: The IRenderEngine2 interface enables the application to replace the default video resizing filter used by DirectShow Editing Services (DES). The Basic Render Engine and the Smart Render Engine both support this interface.
+description: The IRenderEngine2 interface enables the application to replace the default video resizing filter used by DirectShow Editing Services (DES). The Basic Render Engine and the Smart Render Engine both support this interface.
 ms.assetid: 37603c73-e199-431a-9a1e-a40c77755c70
 title: IRenderEngine2 interface (Qedit.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The **IRenderEngine2** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | DirectX 9.0 or later<br/>                                                         |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

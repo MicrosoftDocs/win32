@@ -1,5 +1,5 @@
 ---
-Description: Backs up recovery data to Active Directory.
+description: Backs up recovery data to Active Directory.
 ms.assetid: 664562b3-5679-4185-8bbc-5d5350494707
 title: BackupRecoveryInformationToActiveDirectory method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -66,7 +66,7 @@ This method returns one of the following codes or another error code if it fails
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

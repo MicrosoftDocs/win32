@@ -1,5 +1,5 @@
 ---
-Description: The EXPERTSTATUSENUMERATION enumeration contains status values. It is used by the Status member of EXPERTSTATUS structure and the Status parameter in ExpertIndicateStatus.
+description: The EXPERTSTATUSENUMERATION enumeration contains status values. It is used by the Status member of EXPERTSTATUS structure and the Status parameter in ExpertIndicateStatus.
 ms.assetid: 217dce5a-3698-45a9-bb13-8379bcbdd762
 title: EXPERTSTATUSENUMERATION enumeration (Netmon.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ The expert finished successfully.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

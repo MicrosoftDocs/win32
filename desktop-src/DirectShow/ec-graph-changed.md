@@ -1,5 +1,5 @@
 ---
-Description: The filter graph has changed.
+description: The filter graph has changed.
 ms.assetid: 621591d2-74ac-4b1f-b065-247582b05efc
 title: EC_GRAPH_CHANGED (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ This event code is intended for debugging. It is not sent for all graph changes.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

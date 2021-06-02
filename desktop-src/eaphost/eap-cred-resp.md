@@ -1,6 +1,6 @@
 ---
 title: EAP\_CRED\_RESP (Eaptypes.h)
-description: Stores EAP security credentials within a EAP\_CONFIG\_INPUT\_FIELD\_ARRAY structure.
+description: Stores EAP security credentials within a EAP\_CONFIG\_INPUT\_FIELD\_ARRAY structure. | EAP\_CRED\_RESP (Eaptypes.h)
 ms.assetid: 714c75d8-71c7-4c3f-802a-a5e4f6ca65c2
 keywords:
 - EAP_CRED_RESP
@@ -38,7 +38,7 @@ The **EAP\_CRED\_RESP** structure is identical to the [**EAP\_CRED\_REQ**](eap-c
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

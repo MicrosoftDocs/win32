@@ -1,5 +1,5 @@
 ---
-Description: The GetOwnerWindow method retrieves the owning window handle, m\_hwndOwner.
+description: The GetOwnerWindow method retrieves the owning window handle, m\_hwndOwner.
 ms.assetid: fa576b42-b4a7-4374-8ba4-7d21e86d9d61
 title: CBaseControlWindow.GetOwnerWindow method (Ctlutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Retrieves the owning window without calling the interface method. Use this membe
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

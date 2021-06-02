@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetDetachDatabase2 method"
 title: Api.JetDetachDatabase2 method 
 TOCTitle: 'JetDetachDatabase2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDetachDatabase2(Microsoft.Isam.Esent.Interop.JET_SESID,System.String,Microsoft.Isam.Esent.Interop.DetachDatabaseGrbit)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Releases a database file that was previously attached to a database session.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,7 +61,7 @@ public static void JetDetachDatabase2(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The database session to use.
 
@@ -74,7 +75,7 @@ public static void JetDetachDatabase2(
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.DetachDatabaseGrbit](dn334195\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.DetachDatabaseGrbit](./detachdatabasegrbit-enumeration.md)  
     
     Detach options.
 
@@ -82,8 +83,8 @@ public static void JetDetachDatabase2(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

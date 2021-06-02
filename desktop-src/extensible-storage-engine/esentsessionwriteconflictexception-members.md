@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionWriteConflictException members"
 title: EsentSessionWriteConflictException members
 TOCTitle: EsentSessionWriteConflictException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionWriteConflictException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.SessionWriteConflict exceptions.
 
-The [EsentSessionWriteConflictException](dn350646\(v=exchg.10\).md) type exposes the following members.
+The [EsentSessionWriteConflictException](./esentsessionwriteconflictexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentSessionWriteConflictException class](dn350646\(v=exchg.10\).md)
+[EsentSessionWriteConflictException class](./esentsessionwriteconflictexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

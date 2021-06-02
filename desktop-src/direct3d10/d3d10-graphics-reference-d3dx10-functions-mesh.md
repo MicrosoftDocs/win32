@@ -1,12 +1,12 @@
 ---
-Description: D3DX supplies the following mesh functions.
+description: D3DX supplies the following mesh functions.
 ms.assetid: 751f5ba8-be12-4ed7-9d26-638a01cf6c45
 title: Mesh Functions (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Mesh Functions
+# Mesh Functions (Direct3D 10 Graphics)
 
 D3DX supplies the following mesh functions.
 

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user has raised the stylus from the tablet digitizer surface.
+description: Occurs when the user has raised the stylus from the tablet digitizer surface.
 ms.assetid: 34dc7e6b-101a-4edd-8c3c-9aafb85cf58b
 title: ITabletEventSink::CursorUp method
 ms.topic: reference
@@ -82,7 +82,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

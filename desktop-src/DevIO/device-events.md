@@ -1,12 +1,12 @@
 ---
-Description: Applications, including services, can register to receive notification of device events.
+description: Applications, including services, can register to receive notification of device events.
 ms.assetid: c89da4ac-57dd-4d95-ac86-3eb137dee0bc
 title: Device Events (IoEvent.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Device Events
+# Device Events (IoEvent.h)
 
 Applications, including services, can register to receive notification of device events. For example, a catalog service can receive notice of volumes being mounted or dismounted so it can adjust the paths to files on the volume. The system notifies an application that a device event has occurred by sending the application a [**WM\_DEVICECHANGE**](wm-devicechange.md) message. The system notifies a service that a device event has occurred by invoking the service's event handler function, [**HandlerEx**](/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex).
 
@@ -336,7 +336,7 @@ The **dbch\_hdevnotify** member of the [**DEV\_BROADCAST\_HANDLE**](/windows/des
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                       |

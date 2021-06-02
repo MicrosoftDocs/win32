@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Session properties"
 title: Session properties
 TOCTitle: Session properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.Session
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Session](dn351164\(v=exchg.10\).md) type exposes the following members.
+The [Session](./session-class.md) type exposes the following members.
 
 ## Properties
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[Session class](dn351164\(v=exchg.10\).md)
+[Session class](./session-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

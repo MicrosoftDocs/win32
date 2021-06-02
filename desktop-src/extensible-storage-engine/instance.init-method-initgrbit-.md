@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Init method (InitGrbit)"
 title: Instance.Init method (InitGrbit)
 TOCTitle: Init method (InitGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Init(Microsoft.Isam.Esent.Interop.InitGrbit)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initialize the JET_INSTANCE.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,7 +55,7 @@ public void Init(
 #### Parameters
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.InitGrbit](hh596658\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.InitGrbit](./initgrbit-enumeration.md)  
     
     Initialization options.
 
@@ -62,11 +63,10 @@ public void Init(
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Instance members](dn350944\(v=exchg.10\).md)
+[Instance members](./instance-members.md)
 
-[Init overload](dn350952\(v=exchg.10\).md)
+[Init overload](./instance.init-method2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

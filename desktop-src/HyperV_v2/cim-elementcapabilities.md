@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a managed element and its capabilities.
+description: Represents an association between a managed element and its capabilities.
 ms.assetid: 0e080042-4a56-40b7-acc5-cf69eb2a0604
 title: CIM_ElementCapabilities class
 ms.topic: reference
@@ -125,7 +125,7 @@ The managed element.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

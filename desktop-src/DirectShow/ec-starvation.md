@@ -1,5 +1,5 @@
 ---
-Description: A filter is not receiving enough data.
+description: A filter is not receiving enough data.
 ms.assetid: c9cdfe46-02bb-4ea9-ac58-7d63e03c26d8
 title: EC_STARVATION (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ A parser or source filter can send this event if too little data is arriving.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IJET_LOGTIME methods"
 title: IJET_LOGTIME methods
 TOCTitle: IJET_LOGTIME methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IJET_LOGTIME
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [IJET_LOGTIME](hh596687\(v=exchg.10\).md) type exposes the following members.
+The [IJET_LOGTIME](./ijet-logtime-interface.md) type exposes the following members.
 
 ## Methods
 
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[IJET_LOGTIME interface](hh596687\(v=exchg.10\).md)
+[IJET_LOGTIME interface](./ijet-logtime-interface.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

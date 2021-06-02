@@ -1,5 +1,5 @@
 ---
-Description: Email address of the contact.
+description: Email address of the contact.
 ms.assetid: b232e816-8159-4c61-9332-5f2d5bdd452d
 title: System.Contact.EmailAddress
 ms.topic: article

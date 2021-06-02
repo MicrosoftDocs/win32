@@ -1,5 +1,5 @@
 ---
-Description: Not used. Formerly a request for pixel history primitives and intersections together.
+description: Not used. Formerly a request for pixel history primitives and intersections together.
 MS-HAID: vspixengine.IPixelHistoryRequest
 MSHAttr:
 - PreferredSiteName:MSDN

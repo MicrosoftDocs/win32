@@ -1,5 +1,5 @@
 ---
-Description: The StylusInput API enables you to interact with the tablet pen's data stream. The following sections describe various scenarios to consider when designing and implementing your plug-in or application.
+description: The StylusInput API enables you to interact with the tablet pen's data stream. The following sections describe various scenarios to consider when designing and implementing your plug-in or application.
 ms.assetid: e70982ee-4c1f-41e8-915f-aa896713db9e
 title: Considerations when Using the StylusInput API
 ms.topic: article

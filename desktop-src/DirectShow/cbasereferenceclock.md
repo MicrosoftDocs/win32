@@ -1,5 +1,5 @@
 ---
-Description: The CBaseReferenceClock class implements a reference clock.
+description: The CBaseReferenceClock class implements a reference clock.
 ms.assetid: 898e1968-a9ab-4bb9-abf0-943bfae502e2
 title: CBaseReferenceClock class (Refclock.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ This class uses a [**CAMSchedule**](camschedule.md) object to handle scheduling 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Refclock.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

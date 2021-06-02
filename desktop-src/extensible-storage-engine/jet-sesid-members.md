@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID members"
 title: JET_SESID members
 TOCTitle: JET_SESID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SESID
@@ -15,7 +16,7 @@ Include inherited members
 
 A JET_SESID contains a handle to the session to use for calls to the JET APIr-.
 
-The [JET_SESID](hh596745\(v=exchg.10\).md) type exposes the following members.
+The [JET_SESID](./jet-sesid-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_SESID structure](hh596745\(v=exchg.10\).md)
+[JET_SESID structure](./jet-sesid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

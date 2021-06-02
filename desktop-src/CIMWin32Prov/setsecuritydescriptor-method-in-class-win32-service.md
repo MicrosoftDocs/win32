@@ -1,5 +1,5 @@
 ---
-Description: Writes an updated version of the security descriptor that controls access to the service.
+description: SetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers) - Writes an updated version of the security descriptor that controls access to the service.
 ms.assetid: c1745b69-f355-4b4c-9e58-6a76c230f498
 ms.tgt_platform: multiple
 title: SetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# SetSecurityDescriptor method of the Win32\_Service class
+# SetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **SetSecurityDescriptor** method writes an updated version of the security descriptor that controls access to the service.
 
@@ -266,7 +266,7 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

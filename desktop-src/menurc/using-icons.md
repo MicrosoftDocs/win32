@@ -24,7 +24,7 @@ The following topics describe how to perform certain tasks related to icons:
 
 ## Creating an Icon
 
-To use an icon, your application must get a handle to the icon. The following example shows how to create two different icon handles: one for the standard exclamation icon and one for a custom icon included as a resource in the application's resource-definition file.
+To use an icon, your application must get a handle to the icon. The following example shows how to create two different icon handles: one for the standard question icon and one for a custom icon included as a resource in the application's resource-definition file.
 
 
 ```
@@ -187,9 +187,9 @@ HWND hwnd;                  // main window handle
  
 // Change the icon for hwnd's window class. 
  
-SetClassLong(hwnd,          // window handle 
-    GCL_HICON,              // changes icon 
-    (LONG) LoadIcon(hinst, MAKEINTRESOURCE(480))
+SetClassLongPtr(hwnd,          // window handle 
+    GCLP_HICON,              // changes icon 
+    (LONG_PTR) LoadIcon(hinst, MAKEINTRESOURCE(480))
    ); 
 ```
 

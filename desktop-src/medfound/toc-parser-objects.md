@@ -1,5 +1,5 @@
 ---
-Description: Table of Contents Parser Objects
+description: Table of Contents Parser Objects
 ms.assetid: 70610ddf-4c0b-4b9b-bd26-82c2753b9fa7
 title: Table of Contents Parser Objects
 ms.topic: article

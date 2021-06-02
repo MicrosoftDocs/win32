@@ -1,5 +1,5 @@
 ---
-Description: Creates an ID3DXPRTEngine object that can efficiently generate precomputed radiance transfer (PRT) simulations of a 3D scene.
+description: Creates an ID3DXPRTEngine object that can efficiently generate precomputed radiance transfer (PRT) simulations of a 3D scene.
 ms.assetid: fdfe02b5-03fb-4bee-a53b-012ae3572644
 title: D3DXCreatePRTEngine function (D3DX9Mesh.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ Use [**D3DXConcatenateMeshes**](d3dxconcatenatemeshes.md) to combine multiple me
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

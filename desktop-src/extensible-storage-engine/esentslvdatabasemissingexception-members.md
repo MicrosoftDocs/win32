@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVDatabaseMissingException members"
 title: EsentSLVDatabaseMissingException members
 TOCTitle: EsentSLVDatabaseMissingException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVDatabaseMissingException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVDatabaseMissingException](dn350668\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVDatabaseMissingException](./esentslvdatabasemissingexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +161,6 @@ Top
 
 #### Reference
 
-[EsentSLVDatabaseMissingException class](dn350668\(v=exchg.10\).md)
+[EsentSLVDatabaseMissingException class](./esentslvdatabasemissingexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

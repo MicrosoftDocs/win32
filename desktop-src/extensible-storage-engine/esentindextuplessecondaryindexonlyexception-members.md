@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesSecondaryIndexOnlyException members"
 title: EsentIndexTuplesSecondaryIndexOnlyException members
 TOCTitle: EsentIndexTuplesSecondaryIndexOnlyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesSecondaryIndexOnlyException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.IndexTuplesSecondaryIndexOnly exceptions.
 
-The [EsentIndexTuplesSecondaryIndexOnlyException](dn350485\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesSecondaryIndexOnlyException](./esentindextuplessecondaryindexonlyexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesSecondaryIndexOnlyException class](dn350485\(v=exchg.10\).md)
+[EsentIndexTuplesSecondaryIndexOnlyException class](./esentindextuplessecondaryindexonlyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetTableInfo Function"
 title: JetGetTableInfo Function
 TOCTitle: JetGetTableInfo Function
 ms:assetid: 0602186c-b5c3-44b5-87df-482680442afd
@@ -151,7 +152,7 @@ The following options can be set for this parameter:
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -211,9 +212,9 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-Some pieces of information are not valid for temporary tables (See [JetOpenTempTable](gg269211\(v=exchg.10\).md)).
+Some pieces of information are not valid for temporary tables (See [JetOpenTempTable](./jetopentemptable-function.md)).
 
-The table statistics include the number of records and the number of pages in the clustered index (that is, the index containing the record data). The index statistics are accessed separately by name, using [JetGetIndexInfo](gg294084\(v=exchg.10\).md) or [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md).
+The table statistics include the number of records and the number of pages in the clustered index (that is, the index containing the record data). The index statistics are accessed separately by name, using [JetGetIndexInfo](./jetgetindexinfo-function.md) or [JetGetTableIndexInfo](./jetgettableindexinfo-function.md).
 
 #### Requirements
 
@@ -253,13 +254,12 @@ The table statistics include the number of records and the number of pages in th
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
-[JetGetObjectInfo](gg269232\(v=exchg.10\).md)  
-[JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  
-[JetOpenTempTable](gg269211\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_OBJECTINFO](./jet-objectinfo-structure.md)  
+[JetGetIndexInfo](./jetgetindexinfo-function.md)  
+[JetGetObjectInfo](./jetgetobjectinfo-function.md)  
+[JetGetTableIndexInfo](./jetgettableindexinfo-function.md)  
+[JetOpenTempTable](./jetopentemptable-function.md)

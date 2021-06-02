@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeCorruptedException methods"
 title: EsentDbTimeCorruptedException methods
 TOCTitle: EsentDbTimeCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDbTimeCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDbTimeCorruptedException](dn274236\(v=exchg.10\).md) type exposes the following members.
+The [EsentDbTimeCorruptedException](./esentdbtimecorruptedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDbTimeCorruptedException class](dn274236\(v=exchg.10\).md)
+[EsentDbTimeCorruptedException class](./esentdbtimecorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies a semicolon-delimited list of media servers that can accept connections from client applications without using a proxy server.
+description: Specifies a semicolon-delimited list of media servers that can accept connections from client applications without using a proxy server.
 ms.assetid: 218883c5-9a26-4733-8308-1827cf1f2cd7
 title: MFNETSOURCE_PROXYEXCEPTIONLIST property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the proxy locator when creating 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

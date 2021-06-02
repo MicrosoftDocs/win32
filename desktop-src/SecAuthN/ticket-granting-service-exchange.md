@@ -1,5 +1,5 @@
 ---
-Description: After a ticket-granting ticket (TGT) and session key have been established for the client, the client can request a separate session key and ticket for the service.
+description: After a ticket-granting ticket (TGT) and session key have been established for the client, the client can request a separate session key and ticket for the service.
 ms.assetid: b4f63642-9282-4e11-b40c-eec406b2dd2b
 title: Ticket-Granting Service Exchange
 ms.topic: article

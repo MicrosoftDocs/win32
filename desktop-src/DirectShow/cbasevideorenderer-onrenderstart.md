@@ -1,5 +1,5 @@
 ---
-Description: The OnRenderStart method sets information for rendering.
+description: The OnRenderStart method sets information for rendering.
 ms.assetid: 698fe778-e2cb-4b87-a668-084b6c12c71f
 title: CBaseVideoRenderer.OnRenderStart method (Renbase.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This member function overrides [**CBaseRenderer::OnRenderStart**](cbaserenderer-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

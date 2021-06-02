@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfCursorsException constructor"
 title: EsentOutOfCursorsException constructor 
 TOCTitle: 'EsentOutOfCursorsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfCursorsException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfCursorsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOutOfCursorsException()
 
 #### Reference
 
-[EsentOutOfCursorsException class](dn319764\(v=exchg.10\).md)
+[EsentOutOfCursorsException class](./esentoutofcursorsexception-class.md)
 
-[EsentOutOfCursorsException members](dn319721\(v=exchg.10\).md)
+[EsentOutOfCursorsException members](./esentoutofcursorsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

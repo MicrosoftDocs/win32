@@ -31,7 +31,7 @@ The **onblur** event handler is not applicable to the **EFFECTS** element or the
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

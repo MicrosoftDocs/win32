@@ -1,5 +1,5 @@
 ---
-Description: The Add method adds an item to the collection.
+description: IPortableDeviceValuesCollection::Add method - The Add method adds an item to the collection.
 ms.assetid: 3b06abc4-f0ab-4b02-b3a7-360615f86a2a
 title: IPortableDeviceValuesCollection::Add method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

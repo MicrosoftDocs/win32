@@ -1,5 +1,5 @@
 ---
-Description: You can use the EnumFonts and EnumFontFamilies functions to enumerate the fonts that are available in a printer-compatible memory device context.
+description: You can use the EnumFonts and EnumFontFamilies functions to enumerate the fonts that are available in a printer-compatible memory device context.
 ms.assetid: d68de203-2d5f-4a28-bb57-1dda9fcb078a
 title: Checking the Text Capabilities of a Device
 ms.topic: article

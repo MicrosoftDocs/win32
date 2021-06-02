@@ -1,5 +1,5 @@
 ---
-Description: The CAPTUREFILTER structure contains capture filter data.
+description: The CAPTUREFILTER structure contains capture filter data.
 ms.assetid: 773187c6-31c7-4439-850d-1dd43d42f701
 title: CAPTUREFILTER structure (Netmon.h)
 ms.topic: reference
@@ -134,7 +134,7 @@ The combination of flags, values, and expressions determine which frames will be
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

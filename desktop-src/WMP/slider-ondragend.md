@@ -1,6 +1,6 @@
 ---
 title: SLIDER.onDragEnd
-description: The onDragEnd event handler handles an event that occurs when the left mouse button is released after a dragging operation.
+description: The onDragEnd event handler handles an event that occurs when the left mouse button is released after a dragging operation. | SLIDER.onDragEnd
 ms.assetid: 'e34a9491-efad-4704-99b2-e1cbe0557b7f'
 keywords:
 - SLIDER.onDragEnd Windows Media Player
@@ -26,7 +26,7 @@ onDragEnd
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

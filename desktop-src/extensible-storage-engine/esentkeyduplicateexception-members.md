@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyDuplicateException members"
 title: EsentKeyDuplicateException members
 TOCTitle: EsentKeyDuplicateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentKeyDuplicateException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.KeyDuplicate exceptions.
 
-The [EsentKeyDuplicateException](dn319603\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyDuplicateException](./esentkeyduplicateexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentKeyDuplicateException class](dn319603\(v=exchg.10\).md)
+[EsentKeyDuplicateException class](./esentkeyduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

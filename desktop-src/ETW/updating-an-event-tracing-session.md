@@ -1,5 +1,5 @@
 ---
-Description: To update the properties of an event tracing session, call the ControlTrace function using the EVENT\_TRACE\_CONTROL\_UPDATE control code.
+description: To update the properties of an event tracing session, call the ControlTrace function using the EVENT\_TRACE\_CONTROL\_UPDATE control code.
 ms.assetid: 1496bf88-a989-4fa1-888a-90385c4ca8ee
 title: Updating an Event Tracing Session
 ms.topic: article

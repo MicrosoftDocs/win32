@@ -192,7 +192,7 @@ Gets the name of the virtual machine that is assigned to the session.
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                              |

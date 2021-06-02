@@ -1,5 +1,5 @@
 ---
-Description: Enumerating Content
+description: Enumerating Content
 ms.assetid: 86782a09-4fca-4ae0-beaf-296069e061dc
 title: Enumerating Content
 ms.topic: article

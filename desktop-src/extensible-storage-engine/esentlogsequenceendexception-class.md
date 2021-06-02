@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndException class"
 title: EsentLogSequenceEndException class
 TOCTitle: EsentLogSequenceEndException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException
@@ -34,13 +35,13 @@ Base class for JET_err.LogSequenceEnd exceptions.
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-        [Microsoft.Isam.Esent.Interop.EsentDataException](dn334392\(v=exchg.10\).md)  
-          [Microsoft.Isam.Esent.Interop.EsentFragmentationException](dn350462\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+        [Microsoft.Isam.Esent.Interop.EsentDataException](./esentdataexception-class.md)  
+          [Microsoft.Isam.Esent.Interop.EsentFragmentationException](./esentfragmentationexception-class.md)  
             Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -67,6 +68,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentLogSequenceEndException members](dn334653\(v=exchg.10\).md)
+[EsentLogSequenceEndException members](./esentlogsequenceendexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

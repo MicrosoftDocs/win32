@@ -1,5 +1,5 @@
 ---
-Description: The WaitForReceiveToComplete method waits for the CBaseRenderer::Receive method to complete.
+description: The WaitForReceiveToComplete method waits for the CBaseRenderer::Receive method to complete.
 ms.assetid: 3c722680-e54b-4ba1-8e98-36647cd027bc
 title: CBaseRenderer.WaitForReceiveToComplete method (Renbase.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Specifically, this method dispatches messages while it waits for the [**CBaseRen
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

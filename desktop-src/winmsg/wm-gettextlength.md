@@ -1,5 +1,5 @@
 ---
-Description: Determines the length, in characters, of the text associated with a window.
+description: Determines the length, in characters, of the text associated with a window.
 ms.assetid: 9e185435-a624-4380-adfd-be4f3645ee5d
 title: WM_GETTEXTLENGTH message (Winuser.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ Sending a **WM\_GETTEXTLENGTH** message to a non-text static control, such as a 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

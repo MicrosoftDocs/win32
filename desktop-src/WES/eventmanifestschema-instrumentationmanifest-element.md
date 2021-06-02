@@ -69,7 +69,7 @@ The root node of the manifest.
 
 The **instrumentationManifest** element must contain the following namespaces:
 
-<dl> xmlns="http://schemas.microsoft.com/win/2004/08/events"  
+<dl> xmlns="https://schemas.microsoft.com/win/2004/08/events"  
 xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"  
 xmlns:xs="https://www.w3.org/2001/XMLSchema"  
 </dl>
@@ -155,7 +155,7 @@ The following example shows the skeleton of a fully defined instrumentation mani
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

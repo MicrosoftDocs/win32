@@ -1,5 +1,5 @@
 ---
-Description: Microsoft DirectX Video Acceleration High Definition (DXVA-HD) is an API for hardware-accelerated video processing.
+description: Microsoft DirectX Video Acceleration High Definition (DXVA-HD) is an API for hardware-accelerated video processing.
 ms.assetid: 38ebec28-c4fc-4e72-ac87-1e41707d1908
 title: DXVA-HD
 ms.topic: article

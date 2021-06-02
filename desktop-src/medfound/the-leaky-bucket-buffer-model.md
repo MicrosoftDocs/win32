@@ -1,12 +1,12 @@
 ---
-Description: The &\#0034;leaky bucket&\#0034; model is a way to model the buffering requirements for smooth playback.
+description: The &\#0034;leaky bucket&\#0034; model is a way to model the buffering requirements for smooth playback.
 ms.assetid: 2f7f80d6-3abb-462f-a571-b223a1d59da6
 title: The Leaky Bucket Buffer Model (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# The Leaky Bucket Buffer Model
+# The Leaky Bucket Buffer Model (Microsoft Media Foundation)
 
 When you stream media over a network, the decoder receives encoded data at a theoretically constant rate (the transmission rate). The decoder consumes this data to produce decoded output. In the general case, however, the decoder consumes the data at a *variable* rate, because then encoder can use a variable encoding rate.
 
@@ -14,7 +14,7 @@ The "leaky bucket" model is a way to model the buffering requirements for smooth
 
 This topic describes the "leaky bucket" model of buffers for encoding and decoding.
 
--   [The Leaky Bucket](#the-leaky-bucket-buffer-model)
+-   [The Leaky Bucket](#the-leaky-bucket)
 -   [The Bucket in Use](#the-bucket-in-use)
 -   [Setting Leaky Bucket Values for ASF Streams](#setting-leaky-bucket-values-for-asf-streams)
 -   [Leaky Bucket Values in the ASF Multiplexer](#leaky-bucket-values-in-the-asf-multiplexer)

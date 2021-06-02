@@ -1,5 +1,5 @@
 ---
-Description: The CBaseOutputPin class is an abstract base class that implements an output pin.
+description: The CBaseOutputPin class is an abstract base class that implements an output pin.
 ms.assetid: 5279c8aa-6ec0-4a89-a1b3-6904d7b69a93
 title: CBaseOutputPin class (Amfilter.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ Your derived class must override the pure virtual [**CBasePin::CheckMediaType**]
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Server2003Api.JetOSSnapshotAbort method"
 title: Server2003Api.JetOSSnapshotAbort method  (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: 'JetOSSnapshotAbort method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api.JetOSSnapshotAbort(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Notifies the engine that it can resume normal IO operations after a freeze period ended with a failed snapshot.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](hh557147\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Server2003](./microsoft.isam.esent.interop.server2003-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,14 +58,14 @@ public static void JetOSSnapshotAbort(
 #### Parameters
 
   - snapid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](./jet-ossnapid-structure.md)  
     
     Identifier of the snapshot session.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit](hh163377\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Server2003.SnapshotAbortGrbit](./snapshotabortgrbit-enumeration.md)  
     
     Options for this call.
 
@@ -72,9 +73,8 @@ public static void JetOSSnapshotAbort(
 
 #### Reference
 
-[Server2003Api class](dn351277\(v=exchg.10\).md)
+[Server2003Api class](./server2003api-class.md)
 
-[Server2003Api members](dn351196\(v=exchg.10\).md)
+[Server2003Api members](./server2003api-members.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

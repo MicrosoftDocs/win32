@@ -1,5 +1,5 @@
 ---
-Description: The EnableEffects method enables or disables all effects in the timeline. If effects are disabled, they remain in the timeline but are not rendered.
+description: The EnableEffects method enables or disables all effects in the timeline. If effects are disabled, they remain in the timeline but are not rendered.
 ms.assetid: 5344cd49-6515-4211-9637-ca58219b3b56
 title: IAMTimeline::EnableEffects method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

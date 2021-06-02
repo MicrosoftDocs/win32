@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID.Nil property"
 title: JET_DBID.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBID.Nil
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a null JET_DBID.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,15 +53,14 @@ public static JET_DBID Nil { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)  
 
 ## See also
 
 #### Reference
 
-[JET_DBID structure](hh596176\(v=exchg.10\).md)
+[JET_DBID structure](./jet-dbid-structure.md)
 
-[JET_DBID members](hh566162\(v=exchg.10\).md)
+[JET_DBID members](./jet-dbid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

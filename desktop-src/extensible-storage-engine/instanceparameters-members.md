@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters members"
 title: InstanceParameters members
 TOCTitle: InstanceParameters members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.InstanceParameters
@@ -15,7 +16,7 @@ Include inherited members
 
 This class provides properties to set and get system parameters on an ESENT instance. This class provides static properties to set and get per-instance ESENT system parameters.
 
-The [InstanceParameters](dn350942\(v=exchg.10\).md) type exposes the following members.
+The [InstanceParameters](./instanceparameters-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -292,6 +293,6 @@ Top
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

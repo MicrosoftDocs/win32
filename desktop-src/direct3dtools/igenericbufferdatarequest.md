@@ -1,5 +1,5 @@
 ---
-Description: Request for the contents of an object in XML form.
+description: Request for the contents of an object in XML form.
 MS-HAID: vspixengine.IGenericBufferDataRequest
 MSHAttr:
 - PreferredSiteName:MSDN

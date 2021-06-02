@@ -1,5 +1,5 @@
 ---
-Description: Return information about the placement and orientation of a glyph in a character cell.
+description: Return information about the placement and orientation of a glyph in a character cell.
 ms.assetid: 1114b06a-c0f0-4c2a-86ad-2ed72bee4049
 title: ID3DX10Font::GetGlyphData method (D3DX10.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the retu
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

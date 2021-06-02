@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileNotCopiedException members"
 title: EsentLogFileNotCopiedException members
 TOCTitle: EsentLogFileNotCopiedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogFileNotCopiedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogFileNotCopied exceptions.
 
-The [EsentLogFileNotCopiedException](dn334541\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFileNotCopiedException](./esentlogfilenotcopiedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogFileNotCopiedException class](dn334541\(v=exchg.10\).md)
+[EsentLogFileNotCopiedException class](./esentlogfilenotcopiedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

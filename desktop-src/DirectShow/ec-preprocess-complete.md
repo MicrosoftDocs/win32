@@ -1,5 +1,5 @@
 ---
-Description: Sent by the WM ASF Writer filter when it completes the pre-processing for multipass encoding.
+description: Sent by the WM ASF Writer filter when it completes the pre-processing for multipass encoding.
 ms.assetid: 2029afc4-419c-494a-ae52-1f84b08bcb35
 title: EC_PREPROCESS_COMPLETE (Dshow.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ None.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

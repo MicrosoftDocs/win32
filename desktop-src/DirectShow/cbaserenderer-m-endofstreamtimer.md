@@ -1,5 +1,5 @@
 ---
-Description: Timer-event identifier, for scheduling EC\_COMPLETE notifications.
+description: Timer-event identifier, for scheduling EC\_COMPLETE notifications.
 ms.assetid: 79bb0ca9-e58f-450d-9288-57535fd06413
 title: CBaseRenderer::m_EndOfStreamTimer member (Renbase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ UINT m_EndOfStreamTimer;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

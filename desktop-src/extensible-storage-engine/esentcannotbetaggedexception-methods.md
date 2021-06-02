@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotBeTaggedException methods"
 title: EsentCannotBeTaggedException methods
 TOCTitle: EsentCannotBeTaggedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCannotBeTaggedException](dn274074\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotBeTaggedException](./esentcannotbetaggedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentCannotBeTaggedException class](dn274074\(v=exchg.10\).md)
+[EsentCannotBeTaggedException class](./esentcannotbetaggedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

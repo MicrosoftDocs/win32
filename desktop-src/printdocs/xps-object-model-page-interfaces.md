@@ -1,5 +1,5 @@
 ---
-Description: This section describes the page-level interfaces of the XPS OM.
+description: This section describes the page-level interfaces of the XPS OM.
 ms.assetid: 80ccbadc-cc19-48fd-a6a4-301cc214dd99
 title: XPS OM Page Interfaces
 ms.topic: article

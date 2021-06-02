@@ -1,5 +1,5 @@
 ---
-Description: The Windows operating system provides mechanisms for facilitating communications and data sharing between applications. Collectively, the activities enabled by these mechanisms are called interprocess communications (IPC).
+description: The Windows operating system provides mechanisms for facilitating communications and data sharing between applications. Collectively, the activities enabled by these mechanisms are called interprocess communications (IPC).
 ms.assetid: ad3fb0d9-d0ab-479e-b9a6-22a463b6728c
 title: Interprocess Communications
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotFreeze Function"
 title: JetOSSnapshotFreeze Function
 TOCTitle: JetOSSnapshotFreeze Function
 ms:assetid: 8dfbff20-199e-4d89-a33c-ae8e39b11ec1
@@ -62,7 +63,7 @@ The options for this call. This parameter is reserved for future use and the onl
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -108,9 +109,9 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 </table>
 
 
-If this function succeeds, there will not be any write IOs issued for the database files or for the log files that are part of instances that are frozen. Also, the instance information will be properly filled and it must be freed later on by calling [JetFreeBuffer](gg294134\(v=exchg.10\).md) with the pointer to the instance info array that was returned.
+If this function succeeds, there will not be any write IOs issued for the database files or for the log files that are part of instances that are frozen. Also, the instance information will be properly filled and it must be freed later on by calling [JetFreeBuffer](./jetfreebuffer-function.md) with the pointer to the instance info array that was returned.
 
-If this function fails, the engine will keep running normally with the IOs occurring as usual. There is no need to call [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) if the freeze fails. Also, the instance information will not be filled so there is no need to free this resource.
+If this function fails, the engine will keep running normally with the IOs occurring as usual. There is no need to call [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) if the freeze fails. Also, the instance information will not be filled so there is no need to free this resource.
 
 #### Remarks
 
@@ -120,7 +121,7 @@ The state in which the databases and the log files will be during the freeze (th
 
 Because there are no write operations during the freeze period, normal API calls into the engine might be stalled for that interval. The client application must be able to handle API calls that might take longer then normal if a freeze occurs.
 
-Due to the possible effects described above, there is an internal timeout after which the snapshot session will stop the freeze phase even if the APIs doing the thaw or abort were not called. The value of the timeout can be changed using the [JET_paramOSSnapshotTimeout](gg269236\(v=exchg.10\).md) system parameter. Note that the typical freeze interval is in the range of 10 seconds with the default timeout somewhere around 60 seconds.
+Due to the possible effects described above, there is an internal timeout after which the snapshot session will stop the freeze phase even if the APIs doing the thaw or abort were not called. The value of the timeout can be changed using the [JET_paramOSSnapshotTimeout](./backup-and-restore-parameters.md) system parameter. Note that the typical freeze interval is in the range of 10 seconds with the default timeout somewhere around 60 seconds.
 
 #### Requirements
 
@@ -160,11 +161,10 @@ Due to the possible effects described above, there is an internal timeout after 
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE_INFO](gg269331\(v=exchg.10\).md)  
-[JET_OSSNAPID](gg269325\(v=exchg.10\).md)  
-[JetOSSnapshotAbort](gg269265\(v=exchg.10\).md)  
-[JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md)  
-[JetOSSnapshotPrepareInstance](gg294064\(v=exchg.10\).md)  
-[JetOSSnapshotThaw](gg269229\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE_INFO](./jet-instance-info-structure.md)  
+[JET_OSSNAPID](./jet-ossnapid.md)  
+[JetOSSnapshotAbort](./jetossnapshotabort-function.md)  
+[JetOSSnapshotPrepare](./jetossnapshotprepare-function.md)  
+[JetOSSnapshotPrepareInstance](./jetossnapshotprepareinstance-function.md)  
+[JetOSSnapshotThaw](./jetossnapshotthaw-function.md)

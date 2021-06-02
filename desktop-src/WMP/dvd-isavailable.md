@@ -1,6 +1,6 @@
 ---
 title: DVD.isAvailable
-description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed.
+description: The isAvailable property indicates whether a specified type of information is available or a specified action can be performed. | DVD.isAvailable
 ms.assetid: ed34a943-b9c3-40a8-8845-b83f16951a3e
 keywords:
 - DVD.isAvailable Windows Media Player
@@ -63,7 +63,7 @@ Every DVD is authored differently. The methods available during DVD playback and
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

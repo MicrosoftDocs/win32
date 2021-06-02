@@ -1,5 +1,5 @@
 ---
-Description: You can use the procedure and code example in this topic to complete WMI client application that performs COM initialization, connects to WMI on the local computer, receives an event notification, and then cleans up.
+description: You can use the procedure and code example in this topic to complete WMI client application that performs COM initialization, connects to WMI on the local computer, receives an event notification, and then cleans up.
 ms.assetid: 4d581965-e22a-4205-908c-661eeeec88cf
 ms.tgt_platform: multiple
 title: 'Example: Receiving Event Notifications Through WMI'

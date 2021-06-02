@@ -1,5 +1,5 @@
 ---
-Description: Device Association Endpoint's Manufacturer.
+description: Device Association Endpoint's Manufacturer.
 ms.assetid: 65f1191a-b841-4041-8643-945d26a605f0
 title: System.Devices.Aep.Manufacturer
 ms.topic: article

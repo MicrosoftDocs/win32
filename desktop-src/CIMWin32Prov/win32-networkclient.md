@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_NetworkClient WMI class represents a network client on a Windows system. Any computer system on the network with a client relationship to the system is a descendant (or member) of this class.
+description: The Win32\_NetworkClient WMI class represents a network client on a Windows system. Any computer system on the network with a client relationship to the system is a descendant (or member) of this class.
 ms.assetid: f0cc2cef-be23-42f4-a592-2c292aa5085f
 ms.tgt_platform: multiple
 title: Win32_NetworkClient class
@@ -261,7 +261,7 @@ The **Win32\_NetworkClient** class is derived from [**CIM\_LogicalElement**](cim
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

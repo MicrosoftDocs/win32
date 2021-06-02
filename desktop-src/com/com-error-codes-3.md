@@ -1,6 +1,6 @@
 ---
 title: COM Error Codes (STG, RPC) (Winerror.h)
-description: The following table provides a list of error codes used by COM-based APIs.
+description: The following table provides a list of error codes used by COM-based APIs. | COM Error Codes (STG, RPC) (Winerror.h)
 ms.assetid: d1b39eea-c910-4da0-b15a-2f9cabf9a2c9
 topic_type:
 - apiref
@@ -304,7 +304,7 @@ If you are experiencing difficulty with an application you are installing or run
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Winerror.h</dt> </dl> |
 

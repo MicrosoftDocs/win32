@@ -1,5 +1,5 @@
 ---
-Description: The Accessibility documentation provides information for developers seeking to create Windows-based applications that can be used by as many people as possible, including those with impairments or disabilities.
+description: The Accessibility documentation provides information for developers seeking to create Windows-based applications that can be used by as many people as possible, including those with impairments or disabilities.
 ms.assetid: 08403228-6c73-4bbe-bac2-e6910ddc5f0c
 title: Accessibility ()
 ms.topic: reference

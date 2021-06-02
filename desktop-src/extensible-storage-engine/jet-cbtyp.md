@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CBTYP"
 title: JET_CBTYP
 TOCTitle: JET_CBTYP
 ms:assetid: babbfa11-01a7-477b-a525-cff27a983b60
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_CBTYP
 
-The **JET_CBTYP** group of constants describes all possible points in an operation that the database engine will notify an application by calling the [JET_CALLBACK](gg294098\(v=exchg.10\).md) callback function. The database engine passes one of these constants in the *cbtyp* parameter of the callback function. The meaning of the other parameters passed by the database engine in this call depend on the specific **JET_CBTYP** passed.
+The **JET_CBTYP** group of constants describes all possible points in an operation that the database engine will notify an application by calling the [JET_CALLBACK](./jet-callback-callback-function.md) callback function. The database engine passes one of these constants in the *cbtyp* parameter of the callback function. The meaning of the other parameters passed by the database engine in this call depend on the specific **JET_CBTYP** passed.
 
 **Windows XP:**  The **JET_CBTYP** group of constants are introduced in Windows XP.
 
@@ -247,5 +248,4 @@ The **JET_CBTYP** group of constants describes all possible points in an operati
 
 ### See Also
 
-[JET_CALLBACK](gg294098\(v=exchg.10\).md)
-
+[JET_CALLBACK](./jet-callback-callback-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: Links to documentation for the IAzScope2 interoperability wrapper methods and properties.
+description: Links to documentation for the IAzScope2 interoperability wrapper methods and properties.
 ms.assetid: 2e1fb2af-3512-416c-8716-7e1303783ea5
 title: Microsoft.Interop.Security.AzRoles.IAzScope2 interface
 ms.topic: reference
@@ -221,7 +221,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzScope2** interface has these propert
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

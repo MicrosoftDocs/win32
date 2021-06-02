@@ -54,7 +54,7 @@ Video-overlay drivers use this message to draw when the window is obscured or mo
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

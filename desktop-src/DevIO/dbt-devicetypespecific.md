@@ -1,5 +1,5 @@
 ---
-Description: The system broadcasts the DBT\_DEVICETYPESPECIFIC device event when a device-specific event occurs.
+description: The system broadcasts the DBT\_DEVICETYPESPECIFIC device event when a device-specific event occurs.
 ms.assetid: 5d68e29d-b4d7-46f4-a35e-1db286e944ca
 title: DBT_DEVICETYPESPECIFIC event (Dbt.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Return **TRUE**.
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                   |

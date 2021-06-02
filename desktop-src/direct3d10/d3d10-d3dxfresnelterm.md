@@ -1,5 +1,5 @@
 ---
-Description: Calculate the Fresnel term.
+description: D3DXFresnelTerm function (D3DX10Math.h) - Calculate the Fresnel term.
 ms.assetid: eaa2e5ea-9b6f-4216-8b48-7be74501124d
 title: D3DXFresnelTerm function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXFresnelTerm function
+# D3DXFresnelTerm function (D3DX10Math.h)
 
 Calculate the Fresnel term.
 
@@ -91,7 +91,7 @@ F = 0.5 * (g + c)2 / (g - c)2 * ([c(g + c) - 1]2 / [c(g - c) + 1]2 + 1)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

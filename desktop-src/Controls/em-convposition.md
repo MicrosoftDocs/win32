@@ -1,6 +1,6 @@
 ---
 title: EM_CONVPOSITION message
-description: .
+description: EM_CONVPOSITION message
 ms.assetid: DE21E5F7-5F37-4B34-81DD-F0113AFB9E4B
 keywords:
 - EM_CONVPOSITION message Windows Controls

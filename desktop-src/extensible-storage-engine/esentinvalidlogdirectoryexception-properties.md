@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDirectoryException properties"
 title: EsentInvalidLogDirectoryException properties
 TOCTitle: EsentInvalidLogDirectoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDirectoryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidLogDirectoryException](dn319548\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLogDirectoryException](./esentinvalidlogdirectoryexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLogDirectoryException class](dn319548\(v=exchg.10\).md)
+[EsentInvalidLogDirectoryException class](./esentinvalidlogdirectoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

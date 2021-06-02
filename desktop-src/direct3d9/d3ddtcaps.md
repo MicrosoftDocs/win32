@@ -1,5 +1,5 @@
 ---
-Description: Constants describing the vertex data types supported by a device.
+description: Constants describing the vertex data types supported by a device.
 ms.assetid: 751d7b92-b187-40e5-882c-6fdb80e1ff5f
 title: D3DDTCAPS
 ms.topic: article
@@ -12,9 +12,8 @@ Constants describing the vertex data types supported by a device.
 
 
 
-|                       |             |                                                                                                                               |
-|-----------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------|
 | \#define              | Value       | Description                                                                                                                   |
+|-----------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------|
 | D3DDTCAPS\_UBYTE4     | 0x00000001L | 4D unsigned byte.                                                                                                             |
 | D3DDTCAPS\_UBYTE4N    | 0x00000002L | Normalized, 4D unsigned byte. Each of the four bytes is normalized by dividing to 255.0.                                      |
 | D3DDTCAPS\_SHORT2N    | 0x00000004L | Normalized, 2D signed short, expanded to (first byte/32767.0, second byte/32767.0, 0, 1).                                     |
@@ -36,7 +35,7 @@ These constants are used by the DeclTypes member of [**D3DCAPS9**](/windows/desk
 
 
 
-|                          |            |
+|  Requirement                        | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

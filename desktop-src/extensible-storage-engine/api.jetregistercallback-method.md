@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetRegisterCallback method"
 title: Api.JetRegisterCallback method 
 TOCTitle: 'JetRegisterCallback method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetRegisterCallback(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_cbtyp,Microsoft.Isam.Esent.Interop.JET_CALLBACK,System.IntPtr,Microsoft.Isam.Esent.Interop.JET_HANDLE@)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetRegisterCallback method
 
-Allows the application to configure the database engine to issue notifications to the application for specific events. These notifications are associated with a specific table and remain in effect only until the instance containing the table is shut down using [JetTerm(JET_INSTANCE)](dn334020\(v=exchg.10\).md).
+Allows the application to configure the database engine to issue notifications to the application for specific events. These notifications are associated with a specific table and remain in effect only until the instance containing the table is shut down using [JetTerm(JET_INSTANCE)](./api.jetterm-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -70,28 +71,28 @@ public static void JetRegisterCallback(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     A cursor opened on the table that the callback should be registered on.
 
 <!-- end list -->
 
   - cbtyp  
-    Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](hh564847\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](./jet-cbtyp-enumeration.md)  
     
     The callback reasons for which the application wishes to receive notifications.
 
 <!-- end list -->
 
   - callback  
-    Type: [Microsoft.Isam.Esent.Interop.JET_CALLBACK](hh566065\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_CALLBACK](./jet-callback-delegate.md)  
     
     The callback function.
 
@@ -105,16 +106,16 @@ public static void JetRegisterCallback(
 <!-- end list -->
 
   - callbackId  
-    Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](hh558081\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_HANDLE](./jet-handle-structure.md)  
     
-    A handle that can later be used to cancel the registration of the given callback function using [JetUnregisterCallback(JET_SESID, JET_TABLEID, JET_cbtyp, JET_HANDLE)](dn334019\(v=exchg.10\).md).
+    A handle that can later be used to cancel the registration of the given callback function using [JetUnregisterCallback(JET_SESID, JET_TABLEID, JET_cbtyp, JET_HANDLE)](./api.jetunregistercallback-method.md).
 
 ## See also
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

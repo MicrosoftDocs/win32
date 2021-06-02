@@ -1,5 +1,5 @@
 ---
-Description: Sent by the pipeline to encoder MFTs serially with media samples via IMFTransform::ProcessEvent.
+description: Sent by the pipeline to encoder MFTs serially with media samples via IMFTransform::ProcessEvent.
 ms.assetid: D5D4544B-CD8D-4C94-B050-7BA1944800CC
 title: MEEncodingParameters event (Mfobjects.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ Event payload is an attribute store (IMFAttributes pointer) that contains the ne
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                  |

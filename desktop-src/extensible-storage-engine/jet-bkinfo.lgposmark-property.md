@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.lgposMark property"
 title: JET_BKINFO.lgposMark property 
 TOCTitle: 'lgposMark property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.lgposMark
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the log position of the backup.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_LGPOS lgposMark { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](hh578063\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](./jet-lgpos-structure2.md)  
 
 ## See also
 
 #### Reference
 
-[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](./jet-bkinfo-structure2.md)
 
-[JET_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](./jet-bkinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_VIDEO\_SCAN\_TYPES enumeration type describes how the fields in a video file are encoded.
+description: The WPD\_VIDEO\_SCAN\_TYPES enumeration type describes how the fields in a video file are encoded.
 ms.assetid: ea0dab57-6783-4d02-a43c-414e313f1e80
 title: WPD_VIDEO_SCAN_TYPES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -145,7 +145,7 @@ Field 2: Line 3
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: A value specifying the size, in bytes, of the spatial audio metadata object type that the decoder will output.
+description: A value specifying the size, in bytes, of the spatial audio metadata object type that the decoder will output.
 ms.assetid: C133693D-A8D5-4520-B561-57BF11074257
 title: MF_MT_SPATIAL_AUDIO_OBJECT_METADATA_LENGTH attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The metadata blob with the specified format is written using the [**ISpatialAudi
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

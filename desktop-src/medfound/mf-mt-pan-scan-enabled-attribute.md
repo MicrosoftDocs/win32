@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether pan/scan mode is enabled.
+description: Specifies whether pan/scan mode is enabled.
 ms.assetid: 9e8746c6-13a4-4cf7-9748-82223d9529fa
 title: MF_MT_PAN_SCAN_ENABLED attribute (Mfapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

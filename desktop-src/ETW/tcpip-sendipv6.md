@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for IPv6 TCP/IP send events. The following syntax is simplified from MOF code.
+description: This class is the event type class for IPv6 TCP/IP send events. The following syntax is simplified from MOF code.
 ms.assetid: 231ef62f-e3a5-497d-b10a-79449dc73c71
 title: TcpIp_SendIPV6 class
 ms.topic: reference
@@ -225,7 +225,7 @@ Start send request time.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Modifies guest service settings.
+description: Modifies guest service settings.
 ms.assetid: a308aa59-bd43-4dd5-a690-c435102e8043
 title: ModifyGuestServiceSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -102,7 +102,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

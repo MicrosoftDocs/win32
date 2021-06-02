@@ -1,5 +1,5 @@
 ---
-Description: The AudioStreamsAvailable property retrieves the number of audio streams available in the current title.
+description: The AudioStreamsAvailable property retrieves the number of audio streams available in the current title.
 ms.assetid: 4359ec30-920a-4b34-8e27-4cf1d9452aa8
 title: AudioStreamsAvailable Property
 ms.topic: reference

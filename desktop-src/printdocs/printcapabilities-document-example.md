@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 86577c09-919b-4f07-9388-47879c656f32
 title: PrintCapabilities Document Example
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PrintCapabilities Document Example
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Notes: The default namespace does not apply to XML Attributes. They must be explicitly prefix-qualified. Instance names used in the following sample are for illustration only, although they generally conform to the instance names defined in the Print Schema Keywords.
 
@@ -17,7 +17,7 @@ Notes: The default namespace does not apply to XML Attributes. They must be expl
                   xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
                   xmlns:xsd="https://www.w3.org/2001/XMLSchema" version="1" 
                   xmlns:ns0000="http://schemas.microsoft.com/windows/printing/oemdriverpt/ES_LNseries_PowerPrinter" 
-                  xmlns:psk="http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords">
+                  xmlns:psk="https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords">
     <psf:ParameterDef name="ns0000:PageDevmodeSnapshot">
         <psf:Property name="psf:DataType">
             <psf:Value xsi:type="xsd:QName">xsd:string</psf:Value>
@@ -505,7 +505,7 @@ Notes: The default namespace does not apply to XML Attributes. They must be expl
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

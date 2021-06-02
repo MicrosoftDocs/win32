@@ -1,5 +1,5 @@
 ---
-Description: The CSystemClock class implements a clock that returns the system time.
+description: The CSystemClock class implements a clock that returns the system time.
 ms.assetid: 22f8b641-6472-433f-bff4-4e62eae25c9b
 title: CSystemClock class
 ms.topic: reference

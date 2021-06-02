@@ -1,5 +1,5 @@
 ---
-Description: Used by a cryptographic service provider (CSP) to verify the signature of a DLL.
+description: Used by a cryptographic service provider (CSP) to verify the signature of a DLL.
 ms.assetid: 477a6c9f-05ac-485a-8b27-5605fc11c1d6
 title: CRYPT_VERIFY_IMAGE function pointer (Cspdk.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ if(RCRYPT_FAILED(ProvVerifyImage
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

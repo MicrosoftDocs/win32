@@ -1,5 +1,5 @@
 ---
-Description: The get\_Jitter method retrieves the standard deviation of time in milliseconds between each frame and the next for all frames since streaming started.
+description: The get\_Jitter method retrieves the standard deviation of time in milliseconds between each frame and the next for all frames since streaming started.
 ms.assetid: 629e725e-7dee-4824-8f79-cd3335f4901b
 title: CBaseVideoRenderer.get_Jitter method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the [**IQualProp::get\_Jitter**](/previous-versi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

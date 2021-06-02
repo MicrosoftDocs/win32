@@ -1,5 +1,5 @@
 ---
-Description: Contains one or more SSIDs for wireless LANs.
+description: Contains one or more SSIDs for wireless LANs.
 ms.assetid: f9c46db8-2933-48e1-8cb3-effeb13c43ed
 title: SSIDConfig (WLANProfile) Element
 ms.topic: reference
@@ -108,7 +108,7 @@ To view sample profiles that use the **SSIDConfig** element, see [Wireless Profi
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

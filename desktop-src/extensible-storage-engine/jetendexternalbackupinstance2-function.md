@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEndExternalBackupInstance2 Function"
 title: JetEndExternalBackupInstance2 Function
 TOCTitle: JetEndExternalBackupInstance2 Function
 ms:assetid: a30961f7-a1fb-44fe-881a-d46bf8f743b3
@@ -86,7 +87,7 @@ A group of bits that specifies zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -147,7 +148,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 </table>
 
 
-If the function succeeds, the external backup was a success. Success indicates that all files (for example, databases and logs) that are appropriate for the type of backup (specified in [JetBeginExternalBackup](gg269292\(v=exchg.10\).md)) were retrieved from the backup engine. The backed up files can be recovered with hard recovery ([JetExternalRestore](gg294088\(v=exchg.10\).md)).
+If the function succeeds, the external backup was a success. Success indicates that all files (for example, databases and logs) that are appropriate for the type of backup (specified in [JetBeginExternalBackup](./jetbeginexternalbackup-function.md)) were retrieved from the backup engine. The backed up files can be recovered with hard recovery ([JetExternalRestore](./jetexternalrestore-function.md)).
 
 If this function fails, the external backup usually ends. Failure means that the backup is invalid because of a client or an application usage error. It is important to check the return code for this API to verify that the backup sequence was successful.
 
@@ -155,9 +156,9 @@ If this function fails, the external backup usually ends. Failure means that the
 
 If the engine is configured to log events, an event is logged to indicate the resolution of the external backup.
 
-If the backup sequence is not completed in order and with a successful call to [JetEndExternalBackup](gg269176\(v=exchg.10\).md), subsequent incremental backups might contain more data than the application anticipated.
+If the backup sequence is not completed in order and with a successful call to [JetEndExternalBackup](./jetendexternalbackup-function.md), subsequent incremental backups might contain more data than the application anticipated.
 
-For more information about the external backup API sequence, see [JetBeginExternalBackup](gg269292\(v=exchg.10\).md).
+For more information about the external backup API sequence, see [JetBeginExternalBackup](./jetbeginexternalbackup-function.md).
 
 Before Windows Vista, if the log truncation was not done, the engine considered that the backup was a copy backup. However, the backup might be a normal backup for which truncation was not done (for example, if there are detached databases). The JET_bitBackupTruncateDone option can be used to inform the engine about this and allow appropriate database header modifications.
 
@@ -195,21 +196,20 @@ Before Windows Vista, if the log truncation was not done, the engine considered
 
 #### See Also
 
-[Error Handling Parameters](gg269173\(v=exchg.10\).md)  
-[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetBeginExternalBackupInstance](gg294132\(v=exchg.10\).md)  
-[JetCloseFile](gg294127\(v=exchg.10\).md)  
-[JetExternalRestore](gg294088\(v=exchg.10\).md)  
-[JetGetAttachInfo](gg269286\(v=exchg.10\).md)  
-[JetGetLogInfo](gg294055\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetOpenFile](gg269249\(v=exchg.10\).md)  
-[JetReadFile](gg269257\(v=exchg.10\).md)  
-[JetStopBackup](gg294067\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[JetTruncateLog](gg269263\(v=exchg.10\).md)
-
+[Error Handling Parameters](./error-handling-parameters.md)  
+[Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetBeginExternalBackupInstance](./jetbeginexternalbackupinstance-function.md)  
+[JetCloseFile](./jetclosefile-function.md)  
+[JetExternalRestore](./jetexternalrestore-function.md)  
+[JetGetAttachInfo](./jetgetattachinfo-function.md)  
+[JetGetLogInfo](./jetgetloginfo-function.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetOpenFile](./jetopenfile-function.md)  
+[JetReadFile](./jetreadfile-function.md)  
+[JetStopBackup](./jetstopbackup-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[JetTruncateLog](./jettruncatelog-function.md)

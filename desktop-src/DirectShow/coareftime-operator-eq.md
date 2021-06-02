@@ -1,5 +1,5 @@
 ---
-Description: This operator tests for equality between two reference times.
+description: This operator tests for equality between two reference times.
 ms.assetid: a265f7c6-8334-4bb3-8cb7-c7918ebdf97a
 title: COARefTime.operator== method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns **TRUE** if the two objects are equal. Otherwise, returns **FALSE**.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

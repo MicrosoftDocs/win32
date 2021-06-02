@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseDuplicateException members"
 title: EsentDatabaseDuplicateException members
 TOCTitle: EsentDatabaseDuplicateException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseDuplicateException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseDuplicate exceptions.
 
-The [EsentDatabaseDuplicateException](dn334296\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseDuplicateException](./esentdatabaseduplicateexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseDuplicateException class](dn334296\(v=exchg.10\).md)
+[EsentDatabaseDuplicateException class](./esentdatabaseduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

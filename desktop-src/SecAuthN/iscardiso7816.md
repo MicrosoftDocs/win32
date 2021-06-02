@@ -1,5 +1,5 @@
 ---
-Description: The ISCardISO7816 interface provides methods for implementing ISO 7816-4 functionality.
+description: The ISCardISO7816 interface provides methods for implementing ISO 7816-4 functionality.
 ms.assetid: c940c44f-0556-48ef-91f4-502f4c0dfc02
 title: ISCardISO7816 interface (Scardssp.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ The **ISCardISO7816** interface has these methods.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

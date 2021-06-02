@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO.szDatabaseFileName property"
 title: JET_INSTANCE_INFO.szDatabaseFileName property 
 TOCTitle: 'szDatabaseFileName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.szDatabaseFileName
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a collection of strings, each holding the file name of a database that is attached to the database instance. The array has cDatabases elements.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,8 +60,8 @@ Type: [System.Collections.Generic.IList](/dotnet/api/system.collections.generic.
 
 #### Reference
 
-[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](./jet-instance-info-class.md)
 
-[JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
+[JET_INSTANCE_INFO members](./jet-instance-info-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

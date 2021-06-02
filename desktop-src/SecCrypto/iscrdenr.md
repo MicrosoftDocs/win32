@@ -1,5 +1,5 @@
 ---
-Description: Represents the smart card enrollment control.
+description: Represents the smart card enrollment control.
 ms.assetid: ae872206-81e7-4627-b807-4222f75f8ab6
 title: ISCrdEnr interface
 ms.topic: reference
@@ -77,7 +77,7 @@ The **ISCrdEnr** interface has these properties.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

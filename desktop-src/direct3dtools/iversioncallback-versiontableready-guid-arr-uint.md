@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of which interfaces are supported.
+description: A callback function used to notify the host of which interfaces are supported.
 MS-HAID: vspixengine.IVersionCallback\_VersionTableReady\_GUID\_arr\_UINT
 MSHAttr:
 - PreferredSiteName:MSDN

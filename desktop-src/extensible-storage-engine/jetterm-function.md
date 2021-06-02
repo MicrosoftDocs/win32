@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetTerm Function"
 title: JetTerm Function
 TOCTitle: JetTerm Function
 ms:assetid: 7711c960-98f4-4134-b8ae-8ddf7b26b6b0
@@ -27,9 +28,9 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetTerm Function
 
-The **JetTerm** function initiates the shutdown of an instance that has been initialized by [JetInit](gg294068\(v=exchg.10\).md).
+The **JetTerm** function initiates the shutdown of an instance that has been initialized by [JetInit](./jetinit-function.md).
 
-**JetTerm** can also be used to destroy an uninitialized instance that was created by [JetCreateInstance](gg269354\(v=exchg.10\).md).
+**JetTerm** can also be used to destroy an uninitialized instance that was created by [JetCreateInstance](./jetcreateinstance-function.md).
 
 ```cpp
     JET_ERR JET_API JetTerm(
@@ -45,11 +46,11 @@ Specifies the instance to use for this call.
 
 **Windows 2000:**  This parameter is ignored and should always be **NULL**.
 
-**Windows XP and later releases:**  This parameter is overloaded. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported, then this parameter might be **NULL** or might contain the actual instance that is returned by [JetInit](gg294068\(v=exchg.10\).md). If the engine is operating in multi-instance mode, then this parameter must be a pointer to an instance that was created using [JetCreateInstance](gg269354\(v=exchg.10\).md).
+**Windows XP and later releases:**  This parameter is overloaded. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported, then this parameter might be **NULL** or might contain the actual instance that is returned by [JetInit](./jetinit-function.md). If the engine is operating in multi-instance mode, then this parameter must be a pointer to an instance that was created using [JetCreateInstance](./jetcreateinstance-function.md).
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -138,11 +139,10 @@ If the host process of an instance quits for any reason before **JetTerm** is su
 
 #### See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetTerm2](gg269223\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JetInit](./jetinit-function.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetTerm2](./jetterm2-function.md)

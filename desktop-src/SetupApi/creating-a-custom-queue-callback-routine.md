@@ -1,5 +1,5 @@
 ---
-Description: In addition to using the default queue callback, you can write a custom callback routine.
+description: In addition to using the default queue callback, you can write a custom callback routine.
 ms.assetid: 68781565-71a2-43bf-ad01-7c1cdc514f7b
 title: Creating a Custom Queue Callback Routine
 ms.topic: article

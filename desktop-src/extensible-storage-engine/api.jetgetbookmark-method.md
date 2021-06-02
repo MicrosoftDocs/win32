@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetBookmark method"
 title: Api.JetGetBookmark method 
 TOCTitle: 'JetGetBookmark method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetBookmark(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[],System.Int32,System.Int32@)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetGetBookmark method
 
-Retrieves the bookmark for the record that is associated with the index entry at the current position of a cursor. This bookmark can then be used to reposition that cursor back to the same record using [JetGotoBookmark(JET_SESID, JET_TABLEID, \[\], Int32)](dn292200\(v=exchg.10\).md). The bookmark will be no longer than [BookmarkMost](dn351215\(v=exchg.10\).md) bytes. Also see [GetBookmark(JET_SESID, JET_TABLEID)](dn292099\(v=exchg.10\).md).
+Retrieves the bookmark for the record that is associated with the index entry at the current position of a cursor. This bookmark can then be used to reposition that cursor back to the same record using [JetGotoBookmark(JET_SESID, JET_TABLEID, \[\], Int32)](./api.jetgotobookmark-method.md). The bookmark will be no longer than [BookmarkMost](./systemparameters.bookmarkmost-property.md) bytes. Also see [GetBookmark(JET_SESID, JET_TABLEID)](./api.getbookmark-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -66,14 +67,14 @@ public static void JetGetBookmark(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to retrieve the bookmark from.
 
@@ -102,8 +103,8 @@ public static void JetGetBookmark(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

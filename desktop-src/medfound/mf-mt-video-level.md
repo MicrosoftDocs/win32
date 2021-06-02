@@ -1,5 +1,5 @@
 ---
-Description: Specifies the MPEG-2 or H.264 level in a video media type. This is an alias of MF\_MT\_MPEG2\_LEVEL.
+description: Specifies the MPEG-2 or H.264 level in a video media type. This is an alias of MF\_MT\_MPEG2\_LEVEL.
 ms.assetid: 23786FC8-ACA4-4F6A-98BA-57A8C76BD4C6
 title: MF_MT_VIDEO_LEVEL attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Recommended default: select the minimum level to match video encoding configurat
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

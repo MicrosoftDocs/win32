@@ -1,5 +1,5 @@
 ---
-Description: Filter-state lock.
+description: Filter-state lock.
 ms.assetid: ff29d6b1-ff65-4ee9-b64e-6067a06671f4
 title: CBaseRenderer::m_InterfaceLock member (Renbase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CCritSec m_InterfaceLock;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

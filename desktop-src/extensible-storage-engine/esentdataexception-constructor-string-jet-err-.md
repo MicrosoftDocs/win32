@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataException constructor (String, JET_err)"
 title: EsentDataException constructor (String, JET_err)
 TOCTitle: EsentDataException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDataException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDataException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentDataException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentDataException(
 
 #### Reference
 
-[EsentDataException class](dn334392\(v=exchg.10\).md)
+[EsentDataException class](./esentdataexception-class.md)
 
-[EsentDataException members](dn274228\(v=exchg.10\).md)
+[EsentDataException members](./esentdataexception-members.md)
 
-[EsentDataException overload](dn334391\(v=exchg.10\).md)
+[EsentDataException overload](./esentdataexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

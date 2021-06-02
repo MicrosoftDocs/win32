@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOSparseException constructor"
 title: EsentFileIOSparseException constructor 
 TOCTitle: 'EsentFileIOSparseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileIOSparseException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFileIOSparseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentFileIOSparseException()
 
 #### Reference
 
-[EsentFileIOSparseException class](dn274375\(v=exchg.10\).md)
+[EsentFileIOSparseException class](./esentfileiosparseexception-class.md)
 
-[EsentFileIOSparseException members](dn274380\(v=exchg.10\).md)
+[EsentFileIOSparseException members](./esentfileiosparseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

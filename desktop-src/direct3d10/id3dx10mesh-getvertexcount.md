@@ -1,5 +1,5 @@
 ---
-Description: Get the number of vertices in the mesh.
+description: Get the number of vertices in the mesh.
 ms.assetid: fea8a3b5-ca10-4066-b2ca-6579829d31b6
 title: ID3DX10Mesh::GetVertexCount method (D3DX10.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The number of vertices in the mesh.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

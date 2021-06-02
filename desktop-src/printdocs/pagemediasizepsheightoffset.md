@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: e86d6a5d-484d-4c80-8c86-7d12d287ee21
 title: PageMediaSizePSHeightOffset
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageMediaSizePSHeightOffset
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Specifies the offset, parallel to the feed-orientation direction (Reference [PostScript Printer Description File Format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).
 
@@ -19,7 +19,7 @@ Specifies the offset, parallel to the feed-orientation direction (Reference [Pos
 
 
 
-| Name                       |                                                             |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                     |
 | Scoping Prefix <br/> | Page<br/>                                             |
@@ -87,7 +87,7 @@ The following table outlines the characteristics of the variables defined in the
 [PostScript Printer Description File Format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

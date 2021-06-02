@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a message to provide privacy by using NTLM.
+description: Encrypts a message to provide privacy by using NTLM.
 ms.assetid: 852a4624-792d-4f7d-bd3e-5a28692e2ef3
 title: EncryptMessage (NTLM) function
 ms.topic: reference
@@ -91,7 +91,7 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 | -------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

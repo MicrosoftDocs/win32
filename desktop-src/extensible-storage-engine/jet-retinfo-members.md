@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETINFO members"
 title: JET_RETINFO members
 TOCTitle: JET_RETINFO members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RETINFO
@@ -15,7 +16,7 @@ Include inherited members
 
 Contains optional input and output parameters for JetRetrieveColumn.
 
-The [JET_RETINFO](dn335277\(v=exchg.10\).md) type exposes the following members.
+The [JET_RETINFO](./jet-retinfo-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -132,6 +133,6 @@ Top
 
 #### Reference
 
-[JET_RETINFO class](dn335277\(v=exchg.10\).md)
+[JET_RETINFO class](./jet-retinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

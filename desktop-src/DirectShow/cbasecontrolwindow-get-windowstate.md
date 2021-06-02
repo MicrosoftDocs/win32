@@ -1,5 +1,5 @@
 ---
-Description: The get\_WindowState method retrieves the current window state.
+description: The get\_WindowState method retrieves the current window state.
 ms.assetid: 118b6710-b041-4a7d-8cdb-b96ae3dcbb09
 title: CBaseControlWindow.get_WindowState method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function returns a subset of the parameters of the Microsoft Win32 *
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,6 @@
 ---
-title: JET_TABLEID.ToString method 
+description: "Learn more about: JET_TABLEID.ToString method overload list"
+title: JET_TABLEID.ToString method overload list
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_TABLEID.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_tableid.tostring(v=EXCHG.10)
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](./jet-tableid-structure.md)
 
-[JET_TABLEID members](hh596310\(v=exchg.10\).md)
+[JET_TABLEID members](./jet-tableid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

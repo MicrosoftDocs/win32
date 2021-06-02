@@ -22,7 +22,7 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Curr-Machine-Id                                       |
 | Ldap-Display-Name | currMachineId                                         |
@@ -48,7 +48,7 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -69,7 +69,7 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -90,7 +90,7 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -111,7 +111,7 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -132,7 +132,7 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -153,7 +153,7 @@ The ID of the machine where a Link-Track-Vol-Entry object is located.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

@@ -1,5 +1,5 @@
 ---
-Description: The OutputPin method retrieves a pointer to the filter's output pin.
+description: The OutputPin method retrieves a pointer to the filter's output pin.
 ms.assetid: 8c8c125e-553d-43c5-bc63-a0c7d5b01260
 title: CTransInPlaceFilter.OutputPin method (Transip.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the [**CTransformFilter::m\_pOutput**](ctransformfilter-m-poutput.md) me
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The FileAttributes property of the Installer object returns a number representing the combined file attributes for the designated path to a file or folder.
+description: The FileAttributes property of the Installer object returns a number representing the combined file attributes for the designated path to a file or folder.
 ms.assetid: a09ac346-4e4d-440f-bfbe-ff8fb3f69823
 title: Installer.FileAttributes property (Windows.storage.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Returns –1 if the file or folder does not exist or is not accessible.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | Header<br/>  | <dl> <dt>Windows.storage.h</dt> </dl>                                                                                                                                                            |

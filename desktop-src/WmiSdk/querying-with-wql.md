@@ -1,5 +1,5 @@
 ---
-Description: The WMI Query Language (WQL) is a subset of standard American National Standards Institute Structured Query Language (ANSI SQL) with minor semantic changes to support WMI.
+description: The WMI Query Language (WQL) is a subset of standard American National Standards Institute Structured Query Language (ANSI SQL) with minor semantic changes to support WMI.
 ms.assetid: 7e04ba37-c0e0-4304-b162-8b911f233f38
 ms.tgt_platform: multiple
 title: Querying with WQL

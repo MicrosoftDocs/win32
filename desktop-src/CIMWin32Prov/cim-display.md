@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Display class is a parent class for grouping miscellaneous display devices.
+description: The CIM\_Display class is a parent class for grouping miscellaneous display devices.
 ms.assetid: e7cd03b1-bc43-4eb0-a591-104a0d250e82
 ms.tgt_platform: multiple
 title: CIM_Display class (CIMWin32 WMI Providers)
@@ -36,7 +36,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Display class
+# CIM_Display class (CIMWin32 WMI Providers)
 
 The **CIM\_Display** class is a parent class for grouping miscellaneous display devices.
 
@@ -1182,7 +1182,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

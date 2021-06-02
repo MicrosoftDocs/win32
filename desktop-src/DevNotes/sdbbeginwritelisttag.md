@@ -1,5 +1,5 @@
 ---
-Description: Creates a new list TAG for write operations.
+description: Creates a new list TAG for write operations.
 ms.assetid: 3a52e2f2-9648-45fb-b487-ccfe5ed24f7f
 title: SdbBeginWriteListTag function
 ms.topic: reference
@@ -57,7 +57,7 @@ The function returns the [**TAGID**](tagid.md) of the new list on success or **T
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: The MXDC\_S0PAGE\_RESOURCE\_ESCAPE\_T structure is an MXDC\_ESCAPE\_HEADER\_T structure concatenated with an MXDC\_XPS\_S0PAGE\_RESOURCE\_T structure.
+description: The MXDC\_S0PAGE\_RESOURCE\_ESCAPE\_T structure is an MXDC\_ESCAPE\_HEADER\_T structure concatenated with an MXDC\_XPS\_S0PAGE\_RESOURCE\_T structure.
 ms.assetid: e5caa280-f0a5-4a89-b4f1-4f195a537dc6
 title: MXDC_S0PAGE_RESOURCE_ESCAPE_T structure (Mxdc.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Streaming consumption is more efficient if you call [**ExtEscape**](/windows/des
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |

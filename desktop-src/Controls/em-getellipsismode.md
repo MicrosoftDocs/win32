@@ -65,7 +65,7 @@ If wparam is 0 and lparam is not NULL, the return value equals TRUE; otherwise, 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the host name of the proxy server.
+description: Specifies the host name of the proxy server.
 ms.assetid: e53c86e9-c326-41c9-aa86-c80a750b9ce3
 title: MFNETSOURCE_PROXYHOSTNAME property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the default proxy locator when c
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

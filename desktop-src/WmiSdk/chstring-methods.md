@@ -1,5 +1,5 @@
 ---
-Description: The CHString class exposes the following methods.
+description: The CHString class exposes the following methods.
 ms.assetid: C064D6DE-14C4-4143-8164-B367C10CBF8E
 ms.tgt_platform: multiple
 title: CHString Methods

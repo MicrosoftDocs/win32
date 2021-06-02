@@ -1,5 +1,5 @@
 ---
-Description: Specifies the REFERENCE\_TIME value.
+description: Specifies the REFERENCE\_TIME value.
 ms.assetid: 8004f7a2-c882-40dd-a248-cf8da06eebec
 title: CRefTime::m_time member (Reftime.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ REFERENCE_TIME m_time;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | CRefTime Class<br/>                                                                                                                                                                  |
 | Header<br/>  | <dl> <dt>Reftime.h (include Streams.h)</dt> </dl>                                                                                   |

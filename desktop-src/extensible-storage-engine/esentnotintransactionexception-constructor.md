@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInTransactionException constructor"
 title: EsentNotInTransactionException constructor 
 TOCTitle: 'EsentNotInTransactionException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNotInTransactionException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentNotInTransactionException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentNotInTransactionException()
 
 #### Reference
 
-[EsentNotInTransactionException class](dn334745\(v=exchg.10\).md)
+[EsentNotInTransactionException class](./esentnotintransactionexception-class.md)
 
-[EsentNotInTransactionException members](dn334747\(v=exchg.10\).md)
+[EsentNotInTransactionException members](./esentnotintransactionexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

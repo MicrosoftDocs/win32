@@ -1,5 +1,5 @@
 ---
-Description: This section lists an issue that you might encounter when working with device windows in Direct3D applications.
+description: This section lists an issue that you might encounter when working with device windows in Direct3D applications.
 ms.assetid: 7cfd2ad6-fb85-4303-9fa4-6fe7d16d9951
 title: Working with Device Windows (Direct3D 9)
 ms.topic: article

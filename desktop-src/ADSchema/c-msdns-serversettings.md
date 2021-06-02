@@ -22,7 +22,7 @@ A container for storing DNS server settings.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-Server-Settings               |
 | Ldap-Display-Name | msDNS-ServerSettings                 |
@@ -42,7 +42,7 @@ A container for storing DNS server settings.
 
 
 
-|                             |                                                                                                  |
+| Entry | Value |
 |-----------------------------|--------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                            |
 | Object-Category             | 1                                                                                                |

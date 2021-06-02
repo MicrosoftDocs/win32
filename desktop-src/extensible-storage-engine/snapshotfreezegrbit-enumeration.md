@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SnapshotFreezeGrbit enumeration"
 title: SnapshotFreezeGrbit enumeration
 TOCTitle: SnapshotFreezeGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SnapshotFreezeGrbit
@@ -30,11 +31,11 @@ ROBOTS: INDEX,FOLLOW
 
 # SnapshotFreezeGrbit enumeration
 
-Options for [JetOSSnapshotFreeze(JET_OSSNAPID, Int32, \[\], SnapshotFreezeGrbit)](dn332998\(v=exchg.10\).md).
+Options for [JetOSSnapshotFreeze(JET_OSSNAPID, Int32, \[\], SnapshotFreezeGrbit)](./api.jetossnapshotfreeze-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -76,4 +77,4 @@ public enum SnapshotFreezeGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

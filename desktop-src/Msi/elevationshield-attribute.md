@@ -1,5 +1,5 @@
 ---
-Description: This attribute adds the User Account Control (UAC) elevation icon (shield icon) to the PushButton control.
+description: This attribute adds the User Account Control (UAC) elevation icon (shield icon) to the PushButton control.
 ms.assetid: ec52d660-eb83-4f27-b640-ea89156260aa
 title: ElevationShield Attribute
 ms.topic: article

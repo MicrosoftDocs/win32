@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE.cbtyp property"
 title: JET_TABLECREATE.cbtyp property 
 TOCTitle: 'cbtyp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_TABLECREATE.cbtyp
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets a type of the callback function.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public JET_cbtyp cbtyp { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](hh564847\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_cbtyp](./jet-cbtyp-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_TABLECREATE class](dn351072\(v=exchg.10\).md)
+[JET_TABLECREATE class](./jet-tablecreate-class.md)
 
-[JET_TABLECREATE members](dn351073\(v=exchg.10\).md)
+[JET_TABLECREATE members](./jet-tablecreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

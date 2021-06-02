@@ -1,5 +1,5 @@
 ---
-Description: This section describes the elements that make up the print spooler API.
+description: This section describes the elements that make up the print spooler API.
 ms.assetid: a9baa465-8d4c-494c-aa65-ffa5338065f9
 title: Print Spooler API Reference
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CompleteConnect method completes a pin connection.
+description: CTransInPlaceFilter.CompleteConnect method - The CompleteConnect method completes a pin connection.
 ms.assetid: 0c02c455-dbd0-4606-b1b1-f965c2a5805b
 title: CTransInPlaceFilter.CompleteConnect method (Transip.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ The filter performs all pin reconnections by calling the [**CBaseFilter::Reconne
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

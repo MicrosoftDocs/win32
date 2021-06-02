@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskIOException constructor"
 title: EsentDiskIOException constructor 
 TOCTitle: 'EsentDiskIOException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDiskIOException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDiskIOException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDiskIOException()
 
 #### Reference
 
-[EsentDiskIOException class](dn274289\(v=exchg.10\).md)
+[EsentDiskIOException class](./esentdiskioexception-class.md)
 
-[EsentDiskIOException members](dn334473\(v=exchg.10\).md)
+[EsentDiskIOException members](./esentdiskioexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

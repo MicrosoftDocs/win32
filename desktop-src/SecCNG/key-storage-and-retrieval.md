@@ -1,5 +1,5 @@
 ---
-Description: CNG provides a model for private key storage that allows adapting to the current and future demands of creating applications that use cryptography features such as public or private key encryption, as well as the demands of the storage of key material.
+description: CNG provides a model for private key storage that allows adapting to the current and future demands of creating applications that use cryptography features such as public or private key encryption, as well as the demands of the storage of key material.
 ms.assetid: 95e5750f-fdc5-41f3-a4ce-9593a7081e95
 title: Key Storage and Retrieval
 ms.topic: article

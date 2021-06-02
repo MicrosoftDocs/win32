@@ -1,5 +1,5 @@
 ---
-Description: The Shell namespace path to the item.
+description: The Shell namespace path to the item.
 ms.assetid: e0fb2092-0427-40c9-9e09-aefc5ef017e6
 title: System.ParsingPath
 ms.topic: article

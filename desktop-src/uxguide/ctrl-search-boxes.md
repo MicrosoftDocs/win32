@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Search Boxes
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a Search box, users can quickly locate specific objects or text within a large set of data by filtering or highlighting matches. There is no standard search control, but you should strive to make your program's search features consistent with those of Windows.
 
@@ -17,7 +17,7 @@ There are two types of searches:
 
 -   **Instant search**, where the results are displayed immediately as the user types. No button needs to be clicked, so the magnifying glass search symbol is shown as a graphic, not a button.
 
-    ![screen shot of an instant search box ](images/ctrl-search-boxes-image1.png)
+    ![Screenshot that shows an instant search box with a 'Prompt' callout pointing at the Search box, and a 'Search symbol' callout pointing at the magnifying glass graphic.](images/ctrl-search-boxes-image1.png)
 
     A typical Search box using Instant search. Search is automatically executed on every keystroke.
 
@@ -165,7 +165,3 @@ Recommended sizing and spacing for regular search.
  
 
  
-
-
-
-

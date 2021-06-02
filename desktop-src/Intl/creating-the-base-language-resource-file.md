@@ -1,5 +1,5 @@
 ---
-Description: Creating the Base Language Resource File
+description: Creating the Base Language Resource File
 ms.assetid: 770e1f4b-5258-4b6b-afa4-5c19743daaaa
 title: Creating the Base Language Resource File
 ms.topic: article

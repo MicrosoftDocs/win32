@@ -1,5 +1,5 @@
 ---
-Description: Connecting and Disconnecting Topology Nodes
+description: Connecting and Disconnecting Topology Nodes
 ms.assetid: b2f70989-f0a8-4a11-baeb-18f026afaeab
 title: Connecting and Disconnecting Topology Nodes
 ms.topic: article

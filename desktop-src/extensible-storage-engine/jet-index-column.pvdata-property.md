@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEX_COLUMN.pvData property"
 title: JET_INDEX_COLUMN.pvData property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'pvData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_INDEX_COLUMN.pvData
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the value to comparte the column with.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,9 +64,8 @@ Type: \[\]
 
 #### Reference
 
-[JET_INDEX_COLUMN class](dn335349\(v=exchg.10\).md)
+[JET_INDEX_COLUMN class](./jet-index-column-class.md)
 
-[JET_INDEX_COLUMN members](dn335351\(v=exchg.10\).md)
+[JET_INDEX_COLUMN members](./jet-index-column-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a smart card cryptographic service provider (CSP).
+description: Contains information about a smart card cryptographic service provider (CSP).
 ms.assetid: b3e6722a-25dd-4137-b224-4082e846ddec
 title: KERB_SMARTCARD_CSP_INFO structure
 ms.topic: reference
@@ -155,7 +155,7 @@ When this structure is serialized, the structure members must be aligned to boun
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

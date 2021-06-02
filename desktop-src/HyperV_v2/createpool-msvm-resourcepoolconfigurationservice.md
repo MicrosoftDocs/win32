@@ -1,5 +1,5 @@
 ---
-Description: Creates a child resource pool.
+description: Creates a child resource pool.
 ms.assetid: 30a70231-f1b7-4f0e-ac47-cf5a79ddb8ab
 title: CreatePool method of the Msvm_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -145,7 +145,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

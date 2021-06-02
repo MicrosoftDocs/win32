@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetFreeBuffer Function"
 title: JetFreeBuffer Function
 TOCTitle: JetFreeBuffer Function
 ms:assetid: f37d35f6-4bea-46ba-a334-7b8ad7a1568c
@@ -45,7 +46,7 @@ Pointer to a region of memory that was previously allocated by a call to the dat
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -105,6 +106,5 @@ It is undefined behavior to pass memory that was not allocated by the database e
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JetGetInstanceInfo](gg294149\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JetGetInstanceInfo](./jetgetinstanceinfo-function.md)

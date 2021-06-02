@@ -1,5 +1,5 @@
 ---
-Description: Extends the IShellDispatch4 object.
+description: Extends the IShellDispatch4 object.
 title: IShellDispatch5 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 9170340a-0f11-4ec9-877d-fb7fef9888b2
-api_name: 
- - IShellDispatch5
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -58,7 +49,7 @@ The **IShellDispatch5** object has these methods.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Stretches the stipple pattern along the line direction.
+description: Stretches the stipple pattern along the line direction.
 ms.assetid: 411464db-d721-4252-bff3-bec57252273e
 title: ID3DXLine::SetPatternScale method (D3dx9core.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

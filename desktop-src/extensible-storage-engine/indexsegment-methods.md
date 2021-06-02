@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexSegment methods"
 title: IndexSegment methods
 TOCTitle: IndexSegment methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.IndexSegment
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [IndexSegment](dn350912\(v=exchg.10\).md) type exposes the following members.
+The [IndexSegment](./indexsegment-class.md) type exposes the following members.
 
 ## Methods
 
@@ -71,6 +72,6 @@ Top
 
 #### Reference
 
-[IndexSegment class](dn350912\(v=exchg.10\).md)
+[IndexSegment class](./indexsegment-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

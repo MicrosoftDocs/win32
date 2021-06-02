@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the CRLSign bit is set.
+description: Retrieves a Boolean value that indicates whether the CRLSign bit is set.
 ms.assetid: 76ca86e3-55f7-4720-9fa5-d465db2a7b5a
 title: KeyUsage.IsCRLSignEnabled property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the CRLSign bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

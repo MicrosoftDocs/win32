@@ -1,5 +1,5 @@
 ---
-Description: The PNRP Namespace Provider API uses the following functions.
+description: The PNRP Namespace Provider API uses the following functions.
 ms.assetid: 7c9f2dd7-8dbc-4bbe-b53c-8036c79faa8a
 title: PNRP Functions
 ms.topic: article

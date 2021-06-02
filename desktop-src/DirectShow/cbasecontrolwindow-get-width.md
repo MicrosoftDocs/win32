@@ -1,5 +1,5 @@
 ---
-Description: The get\_Width method retrieves the current window width.
+description: The get\_Width method retrieves the current window width.
 ms.assetid: 8c5fbb0b-da80-4cfe-9c52-8ed4d9e52888
 title: CBaseControlWindow.get_Width method (Ctlutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Setting the left or top coordinates moves the window left or up, respectively; t
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -24,7 +24,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | DS-Heuristics                               |
 | Ldap-Display-Name | dSHeuristics                                |
@@ -51,7 +51,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -72,7 +72,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -93,7 +93,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -114,7 +114,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -135,7 +135,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -156,7 +156,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -177,7 +177,7 @@ There is information about adminSDholder exclusion bits available on the Microso
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

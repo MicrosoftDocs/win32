@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the user has all of the required permissions specified in the Permissions parameter for the Win32\_Directory object, directory, and share where the directory entry file is located (if the file or directory are on a share).
+description: Determines whether the user has all of the required permissions specified in the Permissions parameter for the Win32\_Directory object, directory, and share where the directory entry file is located (if the file or directory are on a share).
 ms.assetid: ece22cb0-a4ca-4ad7-b6d3-213dda4ce5b1
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the Win32_Directory class (Aclui.h)
@@ -206,7 +206,7 @@ Returns **True** when the caller has the specified permissions, and **false** wh
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

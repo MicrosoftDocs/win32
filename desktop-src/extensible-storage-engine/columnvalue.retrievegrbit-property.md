@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValue.RetrieveGrbit property"
 title: ColumnValue.RetrieveGrbit property 
 TOCTitle: 'RetrieveGrbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValue.RetrieveGrbit
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets column retrieval options.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public RetrieveColumnGrbit RetrieveGrbit { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.RetrieveColumnGrbit](hh578120\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.RetrieveColumnGrbit](./retrievecolumngrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[ColumnValue class](dn334206\(v=exchg.10\).md)
+[ColumnValue class](./columnvalue-class.md)
 
-[ColumnValue members](dn334156\(v=exchg.10\).md)
+[ColumnValue members](./columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

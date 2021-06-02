@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMakeBackupDirectoryFailException members"
 title: EsentMakeBackupDirectoryFailException members
 TOCTitle: EsentMakeBackupDirectoryFailException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMakeBackupDirectoryFailException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.MakeBackupDirectoryFail exceptions.
 
-The [EsentMakeBackupDirectoryFailException](dn334692\(v=exchg.10\).md) type exposes the following members.
+The [EsentMakeBackupDirectoryFailException](./esentmakebackupdirectoryfailexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentMakeBackupDirectoryFailException class](dn334692\(v=exchg.10\).md)
+[EsentMakeBackupDirectoryFailException class](./esentmakebackupdirectoryfailexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

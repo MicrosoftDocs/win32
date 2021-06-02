@@ -1,6 +1,6 @@
 ---
 title: External.basketTitle
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.basketTitle
 ms.assetid: 528b7d8e-7702-4139-b2bd-a06c7f15cb87
 keywords:
 - External.basketTitle Windows Media Player
@@ -38,7 +38,7 @@ This property is a read-only **String**.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

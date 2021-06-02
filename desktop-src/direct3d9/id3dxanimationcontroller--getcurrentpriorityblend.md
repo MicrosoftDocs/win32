@@ -1,5 +1,5 @@
 ---
-Description: Returns an event handle to a priority blend event that is currently running.
+description: Returns an event handle to a priority blend event that is currently running.
 ms.assetid: a7184459-7644-4e65-a8ea-13019889e02b
 title: ID3DXAnimationController::GetCurrentPriorityBlend method (D3dx9anim.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Event handle to the currently running priority blend event. **NULL** is returned
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number of audio samples for the encoder to skip.
+description: Specifies the number of audio samples for the encoder to skip.
 ms.assetid: cc4342d4-07d1-44d9-8fa6-a5f921f7cf06
 title: AVEncAudioIntervalToSkip property (Codecapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

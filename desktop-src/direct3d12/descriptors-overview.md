@@ -19,9 +19,9 @@ Descriptors are created by API calls and identify resources.
 
 ## Descriptor data
 
-A descriptor is a relatively small block of data that fully describes an object to the GPU, in a GPU specific opaque format. There are many different types of descriptors: Shader Resource Views (SRVs), Unordered Access Views (UAVs), Constant Buffer Views (CBVs) and Samplers are a few examples.
+A descriptor is a relatively small block of data that fully describes an object to the GPU, in a GPU-specific opaque format. There are several different types of descriptors&mdash;render target views (RTVs), depth stencil views (DSVs), shader resource views (SRVs), unordered access views (UAVs), constant buffer views (CBVs), and samplers.
 
-Descriptors are of varying size, typically 32 to 64 bytes for an SRV, UAV or CBV (depending on the GPU hardware), and are shown in this documentation as indivisible units, for example:
+Descriptors vary in size, depending on the GPU hardware. You can query for the size of an SRV, UAV, or CBV by calling [**ID3D12Device::GetDescriptorHandleIncrementSize**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getdescriptorhandleincrementsize). Descriptors are shown in this documentation as indivisible units; here's an example.
 
 ![srv, cbv, uav, and sampler](images/single-descriptor.png)
 
@@ -37,9 +37,9 @@ The primary way to use descriptors is to place them in descriptor heaps, which a
 
 A descriptor handle is the unique address of the descriptor. It is similar to a pointer, but is opaque as its implementation is hardware specific. The handle is unique across descriptor heaps, so, for example, an array of handles can reference descriptors in multiple heaps.
 
-CPU handles are for immediate use, such as copying where both the source and destination need to be identified.
+CPU handles are for immediate use, such as copying where both the source and destination need to be identified. Immediately after use (for example, a call to [**ID3D12GraphicsCommandList::OMSetRenderTargets**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetrendertargets)), they can be reused, or their underlying heap can be disposed.
 
-GPU handles are not for immediate use, they identify locations from a command list, for use at GPU execution time.
+GPU handles are not for immediate use&mdash;they identify locations from a command list, for use at GPU execution time. They must be preserved until any command lists referencing them have executed entirely.
 
 To create a descriptor handle for the start of a heap, after creating the descriptor heap itself, call one of the following methods:
 
@@ -74,21 +74,18 @@ In summary, to create a null descriptor, pass `null` for the *pResource* paramet
 
 Root descriptors however, should not be set to null.
 
+On Tier1 hardware (see [**Hardware Tiers**](./hardware-support.md), all descriptors that are bound (via descriptor tables) must be initialized, either as real descriptors or null descriptors, even if not accessed by the hardware, otherwise behaviour is undefined.
+
+On Tier2 hardware, this applies to bound CBV and UAV descriptors, but not to SRV descriptors.
+
+On Tier3 hardware, there's no restriction on this, provided that uninitialized descriptors are never accessed.
+
 ## Default descriptors
 
-To create a default descriptor for a particular view, pass in a valid *pResource* parameter to the create view method (such as [**CreateShaderResourceView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview)) but pass in null for the *pDesc* parameter. For example, if the resource contained 14 mips, then the view would contain 14 mips. The default case covers the most obvious mapping of a resource to a view. This does require that the resource is allocated with a fully qualified format name (such as DXGI\_FORMAT\_R8G8B8A8\_UNORM\_SRGB rather than DXGI\_FORMAT\_R8G8B8A8\_TYPELESS).
+To create a default descriptor for a particular view, pass in a valid *pResource* parameter to the create view method (such as [**CreateShaderResourceView**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createshaderresourceview)), but pass in **NULL** for the *pDesc* parameter. For example, if the resource contained 14 mips, then the view would contain 14 mips. The default case covers the most obvious mapping of a resource to a view. This does require that the resource is allocated with a fully qualified format name (such as **DXGI_FORMAT_R8G8B8A8_UNORM_SRGB** rather than **DXGI_FORMAT_R8G8B8A8_TYPELESS**).
+
+Default descriptors can't be used with a raytracing acceleration structure view, because the provided *pResource* parameter must be **NULL**, and the location must be passed via a [**D3D12_RAYTRACING_ACCELERATION_STRUCTURE_SRV**]/windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_acceleration_structure_srv).
 
 ## Related topics
 
-<dl> <dt>
-
 [Descriptors](descriptors.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-

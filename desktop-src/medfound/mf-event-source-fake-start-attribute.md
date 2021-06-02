@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the current segment topology is empty.
+description: Specifies whether the current segment topology is empty.
 ms.assetid: efd497dc-affc-4453-975c-09c5dca06374
 title: MF_EVENT_SOURCE_FAKE_START attribute (Mfapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

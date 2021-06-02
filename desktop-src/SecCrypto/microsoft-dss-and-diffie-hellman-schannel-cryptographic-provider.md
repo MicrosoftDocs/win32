@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft DSS and Diffie-Hellman/Schannel Cryptographic Provider supports hashing, data signing with DSS, generating Diffie-Hellman (D-H) keys, exchanging D-H keys, and exporting a D-H key.
+description: The Microsoft DSS and Diffie-Hellman/Schannel Cryptographic Provider supports hashing, data signing with DSS, generating Diffie-Hellman (D-H) keys, exchanging D-H keys, and exporting a D-H key.
 ms.assetid: 9e5e8833-cb54-41ca-8101-d518ece7e17f
 title: Microsoft DSS and Diffie-Hellman/Schannel Cryptographic Provider
 ms.topic: article

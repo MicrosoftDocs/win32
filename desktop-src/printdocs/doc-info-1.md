@@ -1,5 +1,5 @@
 ---
-Description: The DOC\_INFO\_1 structure describes a document that will be printed.
+description: The DOC\_INFO\_1 structure describes a document that will be printed.
 ms.assetid: 142d988b-dd74-4312-8b27-331a7ec70344
 title: DOC_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Pointer to a null-terminated string that identifies the type of data used to rec
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

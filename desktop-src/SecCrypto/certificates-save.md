@@ -1,5 +1,5 @@
 ---
-Description: Saves the Certificate objects in the collection.
+description: Saves the Certificate objects in the collection.
 ms.assetid: 1d4b7bd5-3ed3-4ace-9894-4e89c5cf844f
 title: Certificates.Save method
 ms.topic: reference
@@ -104,7 +104,7 @@ The [**Certificate**](certificate.md) objects can be retrieved by using the [**S
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

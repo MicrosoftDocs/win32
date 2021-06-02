@@ -1,5 +1,5 @@
 ---
-Description: Contains various settings for independent hardware vendors.
+description: Contains various settings for independent hardware vendors.
 ms.assetid: 4ad8c991-7849-41d6-9852-1ecadc372a2d
 title: IHV (WLANProfile) Element
 ms.topic: reference
@@ -120,7 +120,7 @@ The element is defined by the [**WLANProfile**](wlan-profileschema-wlanprofile-e
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID structure"
 title: JET_DBID structure
 TOCTitle: JET_DBID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_DBID
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 A JET_DBID contains the handle to the database. A database handle is used to manage the schema of a database. It can also be used to manage the tables inside of that database.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,7 +57,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_DBID members](hh566162\(v=exchg.10\).md)
+[JET_DBID members](./jet-dbid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

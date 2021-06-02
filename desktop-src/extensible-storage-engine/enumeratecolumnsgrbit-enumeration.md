@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EnumerateColumnsGrbit enumeration"
 title: EnumerateColumnsGrbit enumeration
 TOCTitle: EnumerateColumnsGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EnumerateColumnsGrbit
@@ -44,7 +45,7 @@ Options for JetEnumerateColumns.
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -117,8 +118,8 @@ public enum EnumerateColumnsGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)
 
-[EnumerateIgnoreUserDefinedDefault](dn351203\(v=exchg.10\).md)
+[EnumerateIgnoreUserDefinedDefault](./server2003grbits.enumerateignoreuserdefineddefault-field.md)
 
-[EnumerateInRecordOnly](dn335307\(v=exchg.10\).md)
+[EnumerateInRecordOnly](./windows7grbits.enumerateinrecordonly-field.md)

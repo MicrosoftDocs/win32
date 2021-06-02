@@ -1,5 +1,5 @@
 ---
-Description: Defines the valid values for the Style attribute of the LineLayout element.
+description: Defines the valid values for the Style attribute of the LineLayout element.
 ms.assetid: b257f0da-1bee-4d1b-9829-70f91cdcabe0
 title: LineLayoutStyleType Simple Type
 ms.topic: reference
@@ -52,7 +52,7 @@ Valid values for the **Style** attribute of the [LineLayout element](linelayout-
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMemoryException constructor (String, JET_err)"
 title: EsentMemoryException constructor (String, JET_err)
 TOCTitle: EsentMemoryException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMemoryException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMemoryException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentMemoryException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentMemoryException(
 
 #### Reference
 
-[EsentMemoryException class](dn334636\(v=exchg.10\).md)
+[EsentMemoryException class](./esentmemoryexception-class.md)
 
-[EsentMemoryException members](dn334695\(v=exchg.10\).md)
+[EsentMemoryException members](./esentmemoryexception-members.md)
 
-[EsentMemoryException overload](dn334697\(v=exchg.10\).md)
+[EsentMemoryException overload](./esentmemoryexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

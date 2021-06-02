@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSesidTableIdMismatchException constructor"
 title: EsentSesidTableIdMismatchException constructor 
 TOCTitle: 'EsentSesidTableIdMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSesidTableIdMismatchException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentSesidTableIdMismatchException()
 
 #### Reference
 
-[EsentSesidTableIdMismatchException class](dn350621\(v=exchg.10\).md)
+[EsentSesidTableIdMismatchException class](./esentsesidtableidmismatchexception-class.md)
 
-[EsentSesidTableIdMismatchException members](dn350622\(v=exchg.10\).md)
+[EsentSesidTableIdMismatchException members](./esentsesidtableidmismatchexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the Kerberos [*constrained delegation*](../secgloss/s-gly.md).
+description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the Kerberos [*constrained delegation*](../secgloss/s-gly.md).
 ms.assetid: b5c968dc-9343-44ed-acbc-a89c58c14e4a
 title: InitializeSecurityContext (Kerberos) function (Sspi.h)
 ms.topic: reference
@@ -234,7 +234,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

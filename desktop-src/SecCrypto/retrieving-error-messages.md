@@ -1,5 +1,5 @@
 ---
-Description: When a method call produces an error, many functions return an error code.
+description: When a method call produces an error, many functions return an error code.
 ms.assetid: 9d60277a-5ee8-471e-bfcd-d104064030a8
 title: Retrieving Error Messages
 ms.topic: article

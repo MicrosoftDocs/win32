@@ -1,5 +1,5 @@
 ---
-Description: Device Context Operations
+description: Device Context Operations
 ms.assetid: dd95ffa0-fa9b-403e-9a3a-bfbed6fe3bc5
 title: Device Context Operations
 ms.topic: article

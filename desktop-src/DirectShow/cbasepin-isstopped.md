@@ -1,5 +1,5 @@
 ---
-Description: The IsStopped method determines whether the filter containing this pin is stopped.
+description: The IsStopped method determines whether the filter containing this pin is stopped.
 ms.assetid: ffeac352-2f9b-44be-a8e8-7e9238d0b18e
 title: CBasePin.IsStopped method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Do not call this method from within in the **CBasePin** constructor method, beca
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

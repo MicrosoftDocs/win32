@@ -1,5 +1,5 @@
 ---
-Description: Capturing TV Audio
+description: Capturing TV Audio
 ms.assetid: c0c62a8e-ab16-4617-936c-b64e6e3865b4
 title: Capturing TV Audio
 ms.topic: article

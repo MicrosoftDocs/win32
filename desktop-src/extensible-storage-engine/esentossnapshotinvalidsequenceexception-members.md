@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotInvalidSequenceException members"
 title: EsentOSSnapshotInvalidSequenceException members
 TOCTitle: EsentOSSnapshotInvalidSequenceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotInvalidSequenceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.OSSnapshotInvalidSequence exceptions.
 
-The [EsentOSSnapshotInvalidSequenceException](dn319729\(v=exchg.10\).md) type exposes the following members.
+The [EsentOSSnapshotInvalidSequenceException](./esentossnapshotinvalidsequenceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentOSSnapshotInvalidSequenceException class](dn319729\(v=exchg.10\).md)
+[EsentOSSnapshotInvalidSequenceException class](./esentossnapshotinvalidsequenceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

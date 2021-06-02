@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE.szBaseTableName property"
 title: JET_COLUMNBASE.szBaseTableName property 
 TOCTitle: 'szBaseTableName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.szBaseTableName
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the table from which the current table inherits its DDL.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](./jet-columnbase-class.md)
 
-[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](./jet-columnbase-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

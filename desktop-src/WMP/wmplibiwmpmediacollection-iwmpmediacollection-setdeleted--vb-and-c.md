@@ -1,6 +1,6 @@
 ---
 title: IWMPMediaCollection setDeleted method
-description: The setDeleted method moves the specified media item to the deleted items folder.
+description: The setDeleted method moves the specified media item to the deleted items folder. | IWMPMediaCollection setDeleted method
 ms.assetid: 3fa7989e-8b98-44e1-93ca-8136aba358ea
 keywords:
 - setDeleted method Windows Media Player
@@ -124,7 +124,7 @@ End If
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

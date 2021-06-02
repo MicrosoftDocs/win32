@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateDatabase2 Function"
 title: JetCreateDatabase2 Function
 TOCTitle: JetCreateDatabase2 Function
 ms:assetid: 267ac69f-49d3-4741-b324-d8510d7a36d3
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetCreateDatabase2 Function
 
-The **JetCreateDatabase2** function creates and attaches a database file to be used with the ESE database engine with a maximum database size specified. Calling **JetCreateDatabase2** with *cpgDatabaseSizeMax* set to zero is identical to calling [JetCreateDatabase](gg269212\(v=exchg.10\).md) with *szConnect* set to NULL. Currently up to seven databases can be created per instance.
+The **JetCreateDatabase2** function creates and attaches a database file to be used with the ESE database engine with a maximum database size specified. Calling **JetCreateDatabase2** with *cpgDatabaseSizeMax* set to zero is identical to calling [JetCreateDatabase](./jetcreatedatabase-function.md) with *szConnect* set to NULL. Currently up to seven databases can be created per instance.
 
 ```cpp
     JET_ERR JET_API JetCreateDatabase2(
@@ -53,7 +54,7 @@ The name of the database to be created.
 
 *cpgDatabaseSizeMax*
 
-The maximum size, in database pages, for the database. The default database page size is 4 kilobytes, and can be changed with [JetSetSystemParameter](gg294044\(v=exchg.10\).md) prior to creating a database.
+The maximum size, in database pages, for the database. The default database page size is 4 kilobytes, and can be changed with [JetSetSystemParameter](./jetsetsystemparameter-function.md) prior to creating a database.
 
 Passing zero means that there is no maximum enforced by the database engine.
 
@@ -95,7 +96,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -179,7 +180,7 @@ If the database specified in *szFilename* exists and JET_bitDbOverwriteExisting 
 
 If the API creates a database file and then hits another error, it will clean up and delete the file.
 
-**JetCreateDatabase2** will implicitly open the database. It is not necessary to subsequently call [JetOpenDatabase](gg269299\(v=exchg.10\).md).
+**JetCreateDatabase2** will implicitly open the database. It is not necessary to subsequently call [JetOpenDatabase](./jetopendatabase-function.md).
 
 #### Requirements
 
@@ -219,15 +220,14 @@ If the API creates a database file and then hits another error, it will clean up
 
 #### See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetCloseDatabase](gg294123\(v=exchg.10\).md)  
-[JetCreateDatabase](gg269212\(v=exchg.10\).md)  
-[JetOpenDatabase](gg269299\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JET_ERR](./jet-err.md)  
+[JET_DBID](./jet-dbid.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetCloseDatabase](./jetclosedatabase-function.md)  
+[JetCreateDatabase](./jetcreatedatabase-function.md)  
+[JetOpenDatabase](./jetopendatabase-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

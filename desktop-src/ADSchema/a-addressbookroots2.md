@@ -1,6 +1,6 @@
 ---
 title: Address-Book-Roots2 attribute
-description: Used by Exchange. Exchange configures trees of address book containers to show up in the MAPI address book. This attribute on the Exchange Config object lists the roots of the address book container trees.
+description: Used by Exchange. Exchange configures trees of address book containers to show up in the MAPI address book. This attribute on the Exchange Config object lists the roots of the address book container trees. | Address-Book-Roots2 attribute
 ms.assetid: 1ca41a60-b8ba-4489-9238-b469811d68ac
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Address-Book-Roots2                     |
 | Ldap-Display-Name | addressBookRoots2                       |
@@ -45,7 +45,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
@@ -66,7 +66,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
@@ -87,7 +87,7 @@ Used by Exchange. Exchange configures trees of address book containers to show u
 
 
 
-|                        |                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------|
 | Link-Id                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |

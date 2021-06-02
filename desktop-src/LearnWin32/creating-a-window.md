@@ -1,6 +1,6 @@
 ---
 title: Creating a Window
-description: .
+description: Creating a Window
 ms.assetid: e036519f-26b5-436c-b909-bb280d758e81
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Overview of topics used when exposing a window in the Tablet PC.
+description: Overview of topics used when exposing a window in the Tablet PC.
 ms.assetid: 57d864b0-4ce2-48de-b612-bc7563ad1b8c
 title: Exposing a Window
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS method.
+description: Remotable version of the IMFWorkQueueServices::BeginRegisterPlatformWorkQueueWithMMCSS method.
 ms.assetid: 158497a9-9d66-4e58-919d-e35765fd29e4
 title: RemoteBeginRegisterPlatformWorkQueueWithMMCSS (Mfobjects.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

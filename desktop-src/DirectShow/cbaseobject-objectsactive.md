@@ -1,5 +1,5 @@
 ---
-Description: The ObjectsActive method retrieves a process-wide count of active objects.
+description: The ObjectsActive method retrieves a process-wide count of active objects.
 ms.assetid: adbc023a-22b7-44e9-b078-a26831f961cc
 title: CBaseObject.ObjectsActive method (Combase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the number of active objects.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

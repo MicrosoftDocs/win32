@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileReadOnlyException properties"
 title: EsentSLVStreamingFileReadOnlyException properties
 TOCTitle: EsentSLVStreamingFileReadOnlyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileReadOnlyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVStreamingFileReadOnlyException](dn334778\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVStreamingFileReadOnlyException](./esentslvstreamingfilereadonlyexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSLVStreamingFileReadOnlyException class](dn334778\(v=exchg.10\).md)
+[EsentSLVStreamingFileReadOnlyException class](./esentslvstreamingfilereadonlyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

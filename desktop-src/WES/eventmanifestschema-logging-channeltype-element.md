@@ -1,6 +1,6 @@
 ---
 title: logging (ChannelType) Element
-description: Defines the properties of the log file that backs the channel, such as its capacity and whether it is sequential or circular.
+description: Defines the properties of the log file that backs the channel, such as its capacity and whether it is sequential or circular. | logging (ChannelType) Element
 ms.assetid: c16b4622-ed49-489e-8751-c374c6f12bd3
 keywords:
 - logging element EventLog
@@ -31,7 +31,7 @@ The **logging** element is defined by the [**ChannelType**](eventmanifestschema-
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

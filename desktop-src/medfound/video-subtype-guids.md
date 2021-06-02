@@ -1,5 +1,5 @@
 ---
-Description: The following video subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.
+description: The following video subtype GUIDs are defined in the header file mfapi.h. To specify the subtype, set the MF\_MT\_SUBTYPE attribute on the media type.
 ms.assetid: 7dfd85e6-936e-4b78-a2cb-a5d59153e1c4
 title: Video Subtype GUIDs
 ms.topic: article

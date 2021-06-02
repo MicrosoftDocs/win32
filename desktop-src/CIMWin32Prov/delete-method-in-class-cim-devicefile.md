@@ -1,5 +1,5 @@
 ---
-Description: The Delete method deletes the logical file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
+description: Delete method of the CIM_DeviceFile class - The Delete method deletes the logical file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
 ms.assetid: 490d0578-a545-423b-9640-ec09f4ef8d96
 ms.tgt_platform: multiple
 title: Delete method of the CIM_DeviceFile class
@@ -147,7 +147,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

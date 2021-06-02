@@ -1,5 +1,5 @@
 ---
-Description: Specifies the center downmix level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies the center downmix level, in decibels (dB), in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 175d551a-d101-4171-b24b-1a64427c0971
 title: AVEncDDCentreDownMixLevel property (Codecapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

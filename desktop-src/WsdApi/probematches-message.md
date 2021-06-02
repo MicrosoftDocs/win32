@@ -1,5 +1,5 @@
 ---
-Description: A WS-Discovery message sent by a service in response to a clients Probe message.
+description: A WS-Discovery message sent by a service in response to a clients Probe message.
 ms.assetid: 58d3d016-ae29-4090-9b88-e1125db59c95
 title: ProbeMatches Message
 ms.topic: article

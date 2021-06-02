@@ -1,5 +1,5 @@
 ---
-Description: The following functions are used in synchronization.
+description: The following functions are used in synchronization.
 ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: Synchronization Functions
 ms.topic: article
@@ -374,7 +374,7 @@ The following functions are used in synchronization.
 | [**UnregisterWaitEx**](unregisterwaitex.md)                       | Cancels a registered wait operation.                                                                                                                                                                                                                       |
 | [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects)           | Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses.                                                                                                                                                |
 | [**WaitForMultipleObjectsEx**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjectsex)       | Waits until one or all of the specified objects are in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.                                                       |
-| [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject)                 | Waits until the specified object is in the signaled state or the time-out interval elapses.                                                                                                                                                                |
+| [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-waitforsingleobject)                 | Waits until the specified object is in the signaled state or the time-out interval elapses.                                                                                                                                                                |
 | [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex)             | Waits until the specified object is in the signaled state, an I/O completion routine or asynchronous procedure call (APC) is queued to the thread, or the time-out interval elapses.                                                                       |
 | [**WaitOnAddress**](/windows/desktop/api/SynchAPI/nf-synchapi-waitonaddress)                             | Waits for the value at the specified address to change.                                                                                                                                                                                                    |
 | [**WaitOrTimerCallback**](/previous-versions/windows/desktop/legacy/ms687066(v=vs.85))                 | An application-defined function that serves as the starting address for a timer callback or a registered wait callback.                                                                                                                                    |

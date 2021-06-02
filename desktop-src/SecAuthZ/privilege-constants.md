@@ -3,6 +3,7 @@ Description: Privileges determine the type of system operations that a user acco
 ms.assetid: 973796a6-bc2e-4e64-92db-5e17b9c25460
 title: Privilege Constants (Winnt.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 
@@ -147,7 +148,7 @@ User Right: Back up files and directories.<br/>If the file is located on a remov
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_RESTORE_NAME"></span><span id="se_restore_name"></span><dl> <dt><strong>SE_RESTORE_NAME</strong></dt> <dt>TEXT(&quot;SeRestorePrivilege&quot;)</dt> </dl></td>
-<td style="text-align: left;">Required to perform restore operations. This privilege causes the system to grant all write access control to any file, regardless of the ACL specified for the file. Any access request other than write is still evaluated with the ACL. Additionally, this privilege enables you to set any valid user or group SID as the owner of a file. This privilege is required by the <a href="/windows/desktop/api/winreg/nf-winreg-regsavekeya"><strong>RegLoadKey</strong></a> function. The following access rights are granted if this privilege is held:<br/>
+<td style="text-align: left;">Required to perform restore operations. This privilege causes the system to grant all write access control to any file, regardless of the ACL specified for the file. Any access request other than write is still evaluated with the ACL. Additionally, this privilege enables you to set any valid user or group SID as the owner of a file. This privilege is required by the <a href="/windows/desktop/api/winreg/nf-winreg-regloadkeya"><strong>RegLoadKey</strong></a> function. The following access rights are granted if this privilege is held:<br/>
 <ul>
 <li>WRITE_DAC</li>
 <li>WRITE_OWNER</li>
@@ -220,7 +221,7 @@ Privilege constants are defined as strings in Winnt.h. For example, the SE\_AUDI
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

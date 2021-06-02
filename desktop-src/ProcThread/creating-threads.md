@@ -1,5 +1,5 @@
 ---
-Description: The CreateThread function creates a new thread for a process.
+description: The CreateThread function creates a new thread for a process.
 ms.assetid: eb0cc3c0-14f2-4913-a592-4ba3eaf67002
 title: Creating Threads
 ms.topic: article

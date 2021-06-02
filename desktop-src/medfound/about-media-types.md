@@ -1,12 +1,12 @@
 ---
-Description: About Media Types
+description: About Media Types
 ms.assetid: 169cdb00-0c1a-4530-90b7-bc89c71d1d04
 title: About Media Types (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# About Media Types
+# About Media Types (Microsoft Media Foundation)
 
 A *media type* describes the format of a media stream. In Microsoft Media Foundation, media types are represented by the [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype) interface. This interface inherits the [**IMFAttributes**](/windows/desktop/api/mfobjects/nn-mfobjects-imfattributes) interface. The details of a media type are specified as attributes.
 

@@ -1,5 +1,5 @@
 ---
-Description: AAUX Source (AS) Pack
+description: AAUX Source (AS) Pack
 ms.assetid: 0e173fe5-0b9d-48e8-bcbd-403614d51558
 title: AAUX Source (AS) Pack
 ms.topic: article

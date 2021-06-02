@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECORDLIST.ToString method"
 title: JET_RECORDLIST.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RECORDLIST.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RECORDLIST.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [JET_INDEXLIST](dn335123\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_INDEXLIST](./jet-indexlist-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +53,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [JET_INDEXLIST](dn335123\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [JET_INDEXLIST](./jet-indexlist-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_RECORDLIST class](dn335223\(v=exchg.10\).md)
+[JET_RECORDLIST class](./jet-recordlist-class.md)
 
-[JET_RECORDLIST members](dn335227\(v=exchg.10\).md)
+[JET_RECORDLIST members](./jet-recordlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

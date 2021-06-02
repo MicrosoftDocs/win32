@@ -1,5 +1,5 @@
 ---
-Description: Resource protection prevents the replacement of system files and folders and registry keys essential to the operating system. Modifying protected resources can cause application or system failure.
+description: Resource protection prevents the replacement of system files and folders and registry keys essential to the operating system. Modifying protected resources can cause application or system failure.
 ms.assetid: 27df9300-8bea-4748-9acd-2c1625093ece
 title: Windows Resource Protection
 ms.topic: article

@@ -22,7 +22,7 @@ Time, in milliseconds, after a domain is detected to be unreachable and before t
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Az-Domain-Timeout                 |
 | Ldap-Display-Name | msDS-AzDomainTimeout                    |
@@ -47,7 +47,7 @@ Time, in milliseconds, after a domain is detected to be unreachable and before t
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -68,7 +68,7 @@ Time, in milliseconds, after a domain is detected to be unreachable and before t
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -89,7 +89,7 @@ Time, in milliseconds, after a domain is detected to be unreachable and before t
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -110,7 +110,7 @@ Time, in milliseconds, after a domain is detected to be unreachable and before t
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -131,7 +131,7 @@ Time, in milliseconds, after a domain is detected to be unreachable and before t
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

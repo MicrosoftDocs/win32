@@ -1,5 +1,5 @@
 ---
-Description: The CAPICOM\_EXPORT\_FLAG enumeration type defines whether any private key export errors are ignored.
+description: The CAPICOM\_EXPORT\_FLAG enumeration type defines whether any private key export errors are ignored.
 ms.assetid: 12e6862b-5c73-4e45-8829-8086048e94f3
 title: CAPICOM_EXPORT_FLAG enumeration (Capicom.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The CAPICOM\_EXPORT\_FLAG enumeration type is used by the following method:
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

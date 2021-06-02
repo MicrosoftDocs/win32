@@ -1,5 +1,5 @@
 ---
-Description: The TRefPointerCollection class exposes the following methods.
+description: The TRefPointerCollection class exposes the following methods.
 ms.assetid: 453646B6-9F65-4308-AF5F-E818EBF68CAA
 ms.tgt_platform: multiple
 title: TRefPointerCollection Methods

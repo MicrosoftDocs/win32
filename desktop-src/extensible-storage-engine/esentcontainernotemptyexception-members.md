@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentContainerNotEmptyException members"
 title: EsentContainerNotEmptyException members
 TOCTitle: EsentContainerNotEmptyException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentContainerNotEmptyException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ContainerNotEmpty exceptions.
 
-The [EsentContainerNotEmptyException](dn334323\(v=exchg.10\).md) type exposes the following members.
+The [EsentContainerNotEmptyException](./esentcontainernotemptyexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentContainerNotEmptyException class](dn334323\(v=exchg.10\).md)
+[EsentContainerNotEmptyException class](./esentcontainernotemptyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

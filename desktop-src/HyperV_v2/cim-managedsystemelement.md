@@ -1,5 +1,5 @@
 ---
-Description: CIM\_ManagedSystemElement is the base class for the system element hierarchy. Any component of a system can potentially be represented by this class or its subclasses.
+description: CIM\_ManagedSystemElement is the base class for the system element hierarchy. Any component of a system can potentially be represented by this class or its subclasses.
 ms.assetid: 838cc77f-8a8d-429a-8e17-5ede3cc9b6ed
 title: CIM_ManagedSystemElement class (Hyper-V management)
 ms.topic: reference
@@ -25,7 +25,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_ManagedSystemElement class
+# CIM_ManagedSystemElement class (Hyper-V management)
 
 **CIM\_ManagedSystemElement** is the base class for the system element hierarchy. Any component of a system can potentially be represented by this class or its subclasses.
 
@@ -954,7 +954,7 @@ Indicates descriptions of the corresponding values in the **OperationalStatus** 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

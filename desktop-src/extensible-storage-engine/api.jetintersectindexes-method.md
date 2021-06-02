@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetIntersectIndexes method"
 title: Api.JetIntersectIndexes method 
 TOCTitle: 'JetIntersectIndexes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetIntersectIndexes(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_INDEXRANGE[],System.Int32,Microsoft.Isam.Esent.Interop.JET_RECORDLIST@,Microsoft.Isam.Esent.Interop.IntersectIndexesGrbit)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetIntersectIndexes method
 
-Computes the intersection between multiple sets of index entries from different secondary indices over the same table. This operation is useful for finding the set of records in a table that match two or more criteria that can be expressed using index ranges. Also see [IntersectIndexes(JET_SESID, \[\])](dn292094\(v=exchg.10\).md).
+Computes the intersection between multiple sets of index entries from different secondary indices over the same table. This operation is useful for finding the set of records in a table that match two or more criteria that can be expressed using index ranges. Also see [IntersectIndexes(JET_SESID, \[\])](./api.intersectindexes-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -66,7 +67,7 @@ public static void JetIntersectIndexes(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
@@ -75,7 +76,7 @@ public static void JetIntersectIndexes(
   - ranges  
     Type: \[\]  
     
-    An the index ranges to intersect. The tableids in the ranges must have index ranges set on them. Use [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](dn334024\(v=exchg.10\).md) to create an index range.
+    An the index ranges to intersect. The tableids in the ranges must have index ranges set on them. Use [JetSetIndexRange(JET_SESID, JET_TABLEID, SetIndexRangeGrbit)](./api.jetsetindexrange-method.md) to create an index range.
 
 <!-- end list -->
 
@@ -87,14 +88,14 @@ public static void JetIntersectIndexes(
 <!-- end list -->
 
   - recordlist  
-    Type: [Microsoft.Isam.Esent.Interop.JET_RECORDLIST](dn335223\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_RECORDLIST](./jet-recordlist-class.md)  
     
     Returns information about the temporary table containing the intersection results.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.IntersectIndexesGrbit](hh577525\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.IntersectIndexesGrbit](./intersectindexesgrbit-enumeration.md)  
     
     Intersection options.
 
@@ -102,8 +103,8 @@ public static void JetIntersectIndexes(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

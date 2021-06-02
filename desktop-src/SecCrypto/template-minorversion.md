@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the minor version number of the template.
+description: Retrieves the minor version number of the template.
 ms.assetid: 3fc51d43-9113-4b4b-88ab-27cf6e5c4fa0
 title: Template.MinorVersion property
 ms.topic: reference
@@ -38,7 +38,7 @@ The minor version number of the template.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

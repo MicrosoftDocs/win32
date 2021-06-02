@@ -1,5 +1,5 @@
 ---
-Description: IsLongStandingAdditionalPdpContextProfile
+description: IsLongStandingAdditionalPdpContextProfile
 MS-HAID: WWAN\_profile\_v4.element\_IsLongStandingAdditionalPdpContextProfile
 MSHAttr:
 - PreferredSiteName:MSDN

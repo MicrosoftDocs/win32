@@ -1,5 +1,5 @@
 ---
-Description: Collaboration API Enumerations
+description: Collaboration API Enumerations
 ms.assetid: f72e372a-0d23-47f4-8518-1296ec81ce55
 title: Collaboration API Enumerations
 ms.topic: article

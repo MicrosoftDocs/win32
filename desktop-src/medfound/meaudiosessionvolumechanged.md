@@ -1,5 +1,5 @@
 ---
-Description: Sent by the streaming audio renderer (SAR) when the volume or mute state of the audio session changes.
+description: Sent by the streaming audio renderer (SAR) when the volume or mute state of the audio session changes.
 ms.assetid: 63c37bd2-0289-407a-92f1-169eb5d2e02e
 title: MEAudioSessionVolumeChanged event (Mfobjects.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ Also, the SAR does not send this event when the channel volume changes ([**IAudi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

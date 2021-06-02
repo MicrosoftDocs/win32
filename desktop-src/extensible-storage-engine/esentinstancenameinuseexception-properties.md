@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceNameInUseException properties"
 title: EsentInstanceNameInUseException properties
 TOCTitle: EsentInstanceNameInUseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInstanceNameInUseException](dn319385\(v=exchg.10\).md) type exposes the following members.
+The [EsentInstanceNameInUseException](./esentinstancenameinuseexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInstanceNameInUseException class](dn319385\(v=exchg.10\).md)
+[EsentInstanceNameInUseException class](./esentinstancenameinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

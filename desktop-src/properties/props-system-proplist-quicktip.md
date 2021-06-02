@@ -1,5 +1,5 @@
 ---
-Description: The list of properties to show in the infotip when the item is on a slow network.
+description: The list of properties to show in the infotip when the item is on a slow network.
 ms.assetid: 4ebc928c-3f31-4322-8c0b-ee0eb2bf5a0f
 title: System.PropList.QuickTip
 ms.topic: article

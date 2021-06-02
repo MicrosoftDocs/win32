@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations, or uses a non-standard downmix.
+description: Specifies whether an AAC decoder uses standard MPEG-2/MPEG-4 stereo downmix equations, or uses a non-standard downmix.
 ms.assetid: a384d24e-07e2-45e7-84b8-e791feb64a83
 title: AVDecAACDownmixMode property (Codecapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The value of this property is a member of the [**eAVDecAACDownmixMode**](/window
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

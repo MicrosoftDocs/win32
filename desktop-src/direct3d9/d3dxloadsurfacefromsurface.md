@@ -1,5 +1,5 @@
 ---
-Description: Loads a surface from another surface with color conversion.
+description: Loads a surface from another surface with color conversion.
 ms.assetid: eddb420d-fd32-4c09-afec-435887c4e905
 title: D3DXLoadSurfaceFromSurface function (D3dx9tex.h)
 ms.topic: reference
@@ -130,7 +130,7 @@ Writing to a non-level-zero surface will not cause the dirty rectangle to be upd
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

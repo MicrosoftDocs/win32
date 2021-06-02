@@ -1,5 +1,5 @@
 ---
-Description: Evaluates an expression in debug and retail builds. In debug builds, displays a diagnostic message if the expression is FALSE.
+description: Evaluates an expression in debug and retail builds. In debug builds, displays a diagnostic message if the expression is FALSE.
 ms.assetid: 259a3d30-0b20-4430-8b74-83ec619576ae
 title: EXECUTE_ASSERT macro (Wxdebug.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Unlike the [**ASSERT**](assert.md) macro, this macro evaluates the expression in
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Experiences
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Experiences are the common experiences and use cases for all apps, like set up, first run, and printing. Learn about the best practices for creating these experiences and communicating your app brand.
 
@@ -29,10 +29,4 @@ Experiences are the common experiences and use cases for all apps, like set up, 
  
 
  
-
- 
-
-
-
-
 

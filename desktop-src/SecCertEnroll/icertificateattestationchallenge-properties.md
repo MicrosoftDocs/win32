@@ -1,5 +1,5 @@
 ---
-Description: The ICertificateAttestationChallenge interface supports the following properties.
+description: The ICertificateAttestationChallenge interface supports the following properties.
 ms.assetid: 33FDB96F-F483-4AEB-BD94-2F5D17775DF5
 title: ICertificateAttestationChallenge Properties
 ms.topic: reference

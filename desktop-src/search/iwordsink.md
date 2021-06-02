@@ -1,5 +1,5 @@
 ---
-Description: Handles words identified by word breaks during both index time and query time.
+description: Handles words identified by word breaks during both index time and query time.
 ms.assetid: 220FCAE5-D22D-45ED-9689-E78C0D8E0BB3
 title: IWordSink interface (Search.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Windows Search creates and initializes instances of the **IWordSink** object. Th
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DirectorySpecification class exposes the following methods.
+description: The CIM\_DirectorySpecification class exposes the following methods.
 ms.assetid: B091761D-E550-4D31-A600-1EFCEEA9C7BE
 ms.tgt_platform: multiple
 title: CIM_DirectorySpecification Methods

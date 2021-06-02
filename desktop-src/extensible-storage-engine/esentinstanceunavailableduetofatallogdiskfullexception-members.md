@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableDueToFatalLogDiskFullException members"
 title: EsentInstanceUnavailableDueToFatalLogDiskFullException members
 TOCTitle: EsentInstanceUnavailableDueToFatalLogDiskFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableDueToFatalLogDiskFullException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InstanceUnavailableDueToFatalLogDiskFull exceptions.
 
-The [EsentInstanceUnavailableDueToFatalLogDiskFullException](dn319387\(v=exchg.10\).md) type exposes the following members.
+The [EsentInstanceUnavailableDueToFatalLogDiskFullException](./esentinstanceunavailableduetofatallogdiskfullexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInstanceUnavailableDueToFatalLogDiskFullException class](dn319387\(v=exchg.10\).md)
+[EsentInstanceUnavailableDueToFatalLogDiskFullException class](./esentinstanceunavailableduetofatallogdiskfullexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

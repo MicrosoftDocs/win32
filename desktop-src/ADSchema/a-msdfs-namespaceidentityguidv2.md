@@ -22,7 +22,7 @@ To be set only when the namespace is created. Stable across rename or move as lo
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DFS-Namespace-Identity-GUID-v2                     |
 | Ldap-Display-Name | msDFS-NamespaceIdentityGUIDv2                         |
@@ -45,7 +45,7 @@ To be set only when the namespace is created. Stable across rename or move as lo
 
 
 
-|                        |                                                                                                                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                                   |
@@ -66,7 +66,7 @@ To be set only when the namespace is created. Stable across rename or move as lo
 
 
 
-|                        |                                                                                                                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                                   |
@@ -87,7 +87,7 @@ To be set only when the namespace is created. Stable across rename or move as lo
 
 
 
-|                        |                                                                                                                                                                                      |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                                   |
 | MAPI-Id                | \-                                                                                                                                                                                   |

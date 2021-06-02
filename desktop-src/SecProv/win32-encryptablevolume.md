@@ -1,5 +1,5 @@
 ---
-Description: For drive encryption or to create encryption security software, you can use the Windows encryption software, BitLocker Drive Encryption, an encryption API you can use by using the Win32\_EncryptableVolume WMI provider class.
+description: For drive encryption or to create encryption security software, you can use the Windows encryption software, BitLocker Drive Encryption, an encryption API you can use by using the Win32\_EncryptableVolume WMI provider class.
 ms.assetid: '464fa664-4330-43fa-a5e0-144d1e73cf58'
 title: Win32_EncryptableVolume class
 ms.topic: reference
@@ -232,7 +232,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The SWbemNamedValue object exposes the following properties.
+description: The SWbemNamedValue object exposes the following properties.
 ms.assetid: B28DCF3B-D96D-44DF-A6D1-55156BEB15AB
 ms.tgt_platform: multiple
 title: SWbemNamedValue Properties

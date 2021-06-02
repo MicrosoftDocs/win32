@@ -22,7 +22,7 @@ Stores data that is to be used by an object. For example, profile information fo
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-App-Data                       |
 | Ldap-Display-Name | msDS-AppData                         |
@@ -46,7 +46,7 @@ Stores data that is to be used by an object. For example, profile information fo
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |
@@ -181,7 +181,7 @@ This class contains the following attributes for Windows Server 2003:
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |
@@ -319,7 +319,7 @@ This class contains the following attributes for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |
@@ -468,7 +468,7 @@ This class contains the following attributes for Windows Server 2008:
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |
@@ -624,7 +624,7 @@ This class contains the following attributes for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                             |
 | Object-Category             | 1                                                                                                                 |

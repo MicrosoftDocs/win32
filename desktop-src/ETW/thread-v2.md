@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for thread events. The following syntax is simplified from MOF code.
+description: Thread_V2 class - This class is the parent class for thread events. The following syntax is simplified from MOF code.
 ms.assetid: 63e52cba-42a5-44f0-8eb6-e1bac8414a83
 title: Thread_V2 class
 ms.topic: reference
@@ -63,7 +63,7 @@ Process and thread start events may be logged in the context of the parent proce
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an ordered collection of IInkAnalysisRecognizer objects.
+description: Retrieves an ordered collection of IInkAnalysisRecognizer objects.
 ms.assetid: 67399237-38e2-4905-a97c-10ca72c7799b
 title: IInkAnalyzer::GetInkAnalysisRecognizersByPriority method (IACom.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If more than one [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) support
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

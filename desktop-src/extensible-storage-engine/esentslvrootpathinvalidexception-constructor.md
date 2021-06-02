@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootPathInvalidException constructor"
 title: EsentSLVRootPathInvalidException constructor 
 TOCTitle: 'EsentSLVRootPathInvalidException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVRootPathInvalidException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVRootPathInvalidException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVRootPathInvalidException()
 
 #### Reference
 
-[EsentSLVRootPathInvalidException class](dn334837\(v=exchg.10\).md)
+[EsentSLVRootPathInvalidException class](./esentslvrootpathinvalidexception-class.md)
 
-[EsentSLVRootPathInvalidException members](dn350748\(v=exchg.10\).md)
+[EsentSLVRootPathInvalidException members](./esentslvrootpathinvalidexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

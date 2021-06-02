@@ -1,5 +1,5 @@
 ---
-Description: Media type for the current pin connection.
+description: Media type for the current pin connection.
 ms.assetid: ab5d9d3a-a9f6-4c14-b872-7e1d03c86fb0
 title: CBasePin::m_mt member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CMediaType m_mt;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

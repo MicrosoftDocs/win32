@@ -1,5 +1,5 @@
 ---
-Description: Segment stop time.
+description: Segment stop time.
 ms.assetid: 8724c608-28ab-4ae9-982c-6e53c03601a1
 title: CBasePin::m_tStop member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CRefTime m_tStop;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

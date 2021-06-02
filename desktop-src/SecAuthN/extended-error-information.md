@@ -1,5 +1,5 @@
 ---
-Description: Some security packages support extended error messages that allow the sides of a communication link to communicate any reasons for a failure.
+description: Some security packages support extended error messages that allow the sides of a communication link to communicate any reasons for a failure.
 ms.assetid: a15c61f0-03cc-462f-b5c1-8e7f062e9523
 title: Extended Error Information
 ms.topic: article

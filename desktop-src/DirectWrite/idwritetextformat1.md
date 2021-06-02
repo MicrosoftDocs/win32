@@ -1,6 +1,6 @@
 ---
 title: IDWriteTextFormat1 interface
-description: Describes the font and paragraph properties used to format text, and it describes locale information.
+description: Describes the font and paragraph properties used to format text, and it describes locale information. | IDWriteTextFormat1 interface
 ms.assetid: 15295A17-E542-4071-AE38-02014A1235D5
 keywords:
 - IDWriteTextFormat1 interface Direct Write
@@ -52,7 +52,7 @@ The **IDWriteTextFormat1** interface has these methods.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |

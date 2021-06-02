@@ -1,5 +1,5 @@
 ---
-Description: Defines the data needed to call a device dialog.
+description: DEVICEDIALOGDATA2 structure - Defines the data needed to call a device dialog.
 ms.assetid: 544238de-310f-4fc3-b519-bb4e6b309272
 title: DEVICEDIALOGDATA2 structure (Wiadefd.h)
 ms.topic: reference
@@ -157,7 +157,7 @@ Pointer to the [**IWiaItem2**](-wia-iwiaitem2.md) interface of the WIA item that
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

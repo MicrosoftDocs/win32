@@ -1,5 +1,5 @@
 ---
-Description: Builds a 2D affine transformation matrix in the xy plane. NULL arguments are treated as identity transformations.
+description: Builds a 2D affine transformation matrix in the xy plane. NULL arguments are treated as identity transformations.
 ms.assetid: 335de919-ae4d-405d-b6bb-ca6bdc2d568a
 title: D3DXMatrixAffineTransformation2D function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXMatrixAffineTransformation2D function
+# D3DXMatrixAffineTransformation2D function (D3dx9math.h)
 
 Builds a 2D affine transformation matrix in the xy plane. **NULL** arguments are treated as identity transformations.
 
@@ -116,7 +116,7 @@ For 3D affine transformations, use [**D3DXMatrixAffineTransformation**](d3dxmatr
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

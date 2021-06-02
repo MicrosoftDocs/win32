@@ -1,5 +1,5 @@
 ---
-Description: A pause request has completed.
+description: A pause request has completed.
 ms.assetid: 32acad47-65bd-42f0-987e-3690bb824b05
 title: EC_PAUSED (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The filter graph manager sends this event when it completes an asynchronous paus
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

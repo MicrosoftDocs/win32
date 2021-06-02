@@ -22,7 +22,7 @@ Root keys for the Group Key Distribution Service.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-Kds-Prov-RootKey                  |
 | Ldap-Display-Name | msKds-ProvRootKey                    |
@@ -42,7 +42,7 @@ Root keys for the Group Key Distribution Service.
 
 
 
-|                             |                                                                                                                |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                                          |
 | Object-Category             | 1                                                                                                              |

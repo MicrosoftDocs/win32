@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a single entry in the buffer layout of a mesh.
+description: Represents information about a single entry in the buffer layout of a mesh.
 MS-HAID: vspixengine.MeshDataBufferLayoutEntry
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: The SpliceWithNext method joins the source object to another source object.
+description: The SpliceWithNext method joins the source object to another source object.
 ms.assetid: 65b23466-404c-4eef-943e-8b40186f2b96
 title: IAMTimelineSrc::SpliceWithNext method (Qedit.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ For this method to succeed, *pNext* must be a match frame of the current source 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Determines the roaming behavior of an auto-connected network when a more preferred network is in range.
+description: Determines the roaming behavior of an auto-connected network when a more preferred network is in range.
 ms.assetid: 095dc797-1249-43aa-a8b7-5fa6eaee2a74
 title: autoSwitch (WLANProfile) Element
 ms.topic: reference
@@ -46,7 +46,7 @@ To view sample profiles that use the **autoSwitch** element, see [Wireless Profi
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

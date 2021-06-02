@@ -1,5 +1,5 @@
 ---
-Description: An ellipse is a closed curve defined by two fixed points (f1 and f2 ) such that the sum of the distances (d1 +d2 ) from any point on the curve to the two fixed points is constant.
+description: An ellipse is a closed curve defined by two fixed points (f1 and f2 ) such that the sum of the distances (d1 +d2 ) from any point on the curve to the two fixed points is constant.
 ms.assetid: c4aab4cf-9575-4817-b51f-aed4e3c27d2f
 title: About Ellipses
 ms.topic: article

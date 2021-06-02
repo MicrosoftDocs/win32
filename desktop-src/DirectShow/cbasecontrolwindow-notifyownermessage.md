@@ -1,5 +1,5 @@
 ---
-Description: The NotifyOwnerMessage method passes along specific messages to the video window.
+description: The NotifyOwnerMessage method passes along specific messages to the video window.
 ms.assetid: 8b27281a-5b8a-46c3-aa66-390d4496f30e
 title: CBaseControlWindow.NotifyOwnerMessage method (Ctlutil.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ You can request that the [**IVideoWindow**](/windows/desktop/api/Control/nn-cont
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

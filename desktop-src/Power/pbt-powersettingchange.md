@@ -1,5 +1,5 @@
 ---
-Description: Power setting change event sent with a WM\_POWERBROADCAST window message or in a HandlerEx notification callback for services.
+description: Power setting change event sent with a WM\_POWERBROADCAST window message or in a HandlerEx notification callback for services.
 ms.assetid: 0bcadb85-47c5-48a9-b3f9-f0a1ca60b503
 title: PBT_POWERSETTINGCHANGE event (WinUser.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ No return value.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

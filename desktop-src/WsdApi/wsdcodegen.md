@@ -1,5 +1,5 @@
 ---
-Description: Is the root element of an WSDAPI code generator XML script file.
+description: Is the root element of an WSDAPI code generator XML script file.
 ms.assetid: '3d40172b-6ba1-4e42-9a1a-519c8e88c2b1'
 title: wsdCodeGen element
 ms.topic: article
@@ -79,7 +79,7 @@ In general, [**file**](file.md) elements should occur last because they generate
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

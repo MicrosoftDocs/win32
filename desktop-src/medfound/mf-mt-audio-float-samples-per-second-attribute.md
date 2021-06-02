@@ -1,5 +1,5 @@
 ---
-Description: Number of audio samples per second in an audio media type.
+description: MF_MT_AUDIO_FLOAT_SAMPLES_PER_SECOND attribute - Number of audio samples per second in an audio media type.
 ms.assetid: 9e794f7d-0fb3-4069-8431-62651252517d
 title: MF_MT_AUDIO_FLOAT_SAMPLES_PER_SECOND attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

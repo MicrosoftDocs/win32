@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Predication
 
-Predication is a feature that enables the GPU rather than the CPU to determine to not draw, copy or dispatch an object.
+Predication is a feature that enables the GPU rather than the CPU to determine to not draw, copy, or dispatch an object.
 
 -   [Overview](#overview)
 -   [SetPredication](#setpredication)
@@ -17,7 +17,9 @@ Predication is a feature that enables the GPU rather than the CPU to determine t
 
 ## Overview
 
-The typical use of predication is with occlusion; if a bounding box is drawn and is occluded, there is obviously no point in drawing the object itself. In this situation the drawing of the object can be "predicated" , enabling its removal from actual rendering by the GPU.
+The typical use of predication is with occlusion; if a bounding box is drawn and is occluded, there is obviously no point in drawing the object itself. In this situation, the drawing of the object can be "predicated", enabling its removal from actual rendering by the GPU.
+
+At first, this might seem redudant over and above the standard depth test plus an early depth pass. But predication can remove the overhead of the draw command state itself, plus the rasterization. While an early depth pass removes unnecessary pixels, it can still execute vertex, hull, domain, and geometry shaders, and invoke the fixed-function input assembler, tesselator, and rasterizer. By drawing a simple bounding box or similar bounding volume&mdash;which is simpler to process and rasterize than the real model&mdash;you avoid unnecessary rasterization and processing.
 
 Unlike Direct3D 11, predication is decoupled from queries, and is expanded in Direct3D 12 to enable an application to predicate objects based on any reasoning the app developer may decide on (not just occlusion).
 
@@ -29,7 +31,7 @@ When the GPU executes a [**SetPredication**](/windows/desktop/api/d3d12/nf-d3d12
 
 If the input parameter Buffer is NULL, then predication is disabled.
 
-Predication hints are not present in the D3D12 API, and predication is allowed on direct and compute command lists. The source buffer can be in any heap type (default, upload, readback).
+Predication hints are not present in the Direct3D 12 API; and predication is allowed on direct, compute, and copy command lists. The source buffer can be in any heap type (default, upload, readback, custom).
 
 The core runtime will validate the following:
 
@@ -40,7 +42,7 @@ The core runtime will validate the following:
 -   The command list type supports predication
 -   The offset does not exceed the buffer size
 
-The debug layer will issue an error if the source buffer is not in the D3D12\_RESOURCE\_STATE\_VERTEX\_AND\_CONSTANT\_BUFFER state.
+The debug layer will issue an error if the source buffer is not in the [**D3D12_RESOURCE_STATE_PREDICATION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states) (which is the same as [**D3D12_RESOURCE_STATE_INDIRECT_ARGUMENT**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states), and simply an alias) state.
 
 The set of operations which can be predicated are:
 

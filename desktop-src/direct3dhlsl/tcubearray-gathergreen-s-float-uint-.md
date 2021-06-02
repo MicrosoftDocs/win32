@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::GatherGreen(S,float,uint) function
-description: Samples a texture and returns the green component along with status about the operation.
+description: Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status. | TextureCubeArray::GatherGreen(S,float,uint) function
 ms.assetid: 0DEB1810-F2C7-4097-B2D3-20ED4E297561
 keywords:
 - GatherGreen function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherGreen(S,float,uint) function
+# TextureCubeArray::GatherGreen(S,float,uint) function
 
-Samples a texture and returns the green component along with status about the operation.
+Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.
 
 ## Syntax
 

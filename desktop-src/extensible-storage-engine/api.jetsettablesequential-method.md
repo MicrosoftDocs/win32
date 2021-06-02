@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetSetTableSequential method"
 title: Api.JetSetTableSequential method 
 TOCTitle: 'JetSetTableSequential method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetSetTableSequential(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.SetTableSequentialGrbit)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetSetTableSequential method
 
-Notifies the database engine that the application is scanning the entire index that the cursor is positioned on. Consequently, the methods that are used to access the index data will be tuned to make this scenario as fast as possible. Also see [JetResetTableSequential(JET_SESID, JET_TABLEID, ResetTableSequentialGrbit)](dn332994\(v=exchg.10\).md).
+Notifies the database engine that the application is scanning the entire index that the cursor is positioned on. Consequently, the methods that are used to access the index data will be tuned to make this scenario as fast as possible. Also see [JetResetTableSequential(JET_SESID, JET_TABLEID, ResetTableSequentialGrbit)](./api.jetresettablesequential-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,21 +61,21 @@ public static void JetSetTableSequential(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor that will be accessing the data.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.SetTableSequentialGrbit](hh565734\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.SetTableSequentialGrbit](./settablesequentialgrbit-enumeration.md)  
     
     Reserved for future use.
 
@@ -82,9 +83,8 @@ public static void JetSetTableSequential(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

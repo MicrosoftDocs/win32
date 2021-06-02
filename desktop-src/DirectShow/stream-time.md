@@ -1,5 +1,5 @@
 ---
-Description: Note  This API is deprecated. New applications should not use it. The STREAM\_TIME data type is used to express reference times in Microsoft DirectShow multimedia streaming. Units are 100 nanoseconds.
+description: Note  This API is deprecated. New applications should not use it. The STREAM\_TIME data type is used to express reference times in Microsoft DirectShow multimedia streaming. Units are 100 nanoseconds.
 ms.assetid: eff79c58-09d8-4665-9138-752ffaf02e26
 title: STREAM_TIME (Mmstream.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This data type is equivalent to the DirectShow [**REFERENCE\_TIME**](reference-t
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mmstream.h</dt> </dl> |
 

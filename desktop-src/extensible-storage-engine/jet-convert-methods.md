@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CONVERT methods"
 title: JET_CONVERT methods
 TOCTitle: JET_CONVERT methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_CONVERT
@@ -15,7 +16,7 @@ Include inherited members
 
 **NOTE: This API is now obsolete.**
 
-The [JET_CONVERT](dn335061\(v=exchg.10\).md) type exposes the following members.
+The [JET_CONVERT](./jet-convert-class.md) type exposes the following members.
 
 ## Methods
 
@@ -68,6 +69,6 @@ Top
 
 #### Reference
 
-[JET_CONVERT class](dn335061\(v=exchg.10\).md)
+[JET_CONVERT class](./jet-convert-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

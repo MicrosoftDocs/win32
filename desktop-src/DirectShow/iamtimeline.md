@@ -1,5 +1,5 @@
 ---
-Description: The IAMTimeline interface provides methods for manipulating the timeline, the central object in Microsoft DirectShow Editing Services (DES).
+description: The IAMTimeline interface provides methods for manipulating the timeline, the central object in Microsoft DirectShow Editing Services (DES).
 ms.assetid: 6750efa0-946c-4ad3-b0df-de55872b94c3
 title: IAMTimeline interface (Qedit.h)
 ms.topic: reference
@@ -97,7 +97,7 @@ The **IAMTimeline** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

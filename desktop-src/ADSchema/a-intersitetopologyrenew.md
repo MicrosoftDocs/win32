@@ -22,7 +22,7 @@ This class indicates how often the intersite topology generator updates the keep
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Inter-Site-Topology-Renew            |
 | Ldap-Display-Name | interSiteTopologyRenew               |
@@ -49,7 +49,7 @@ This class indicates how often the intersite topology generator updates the keep
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -70,7 +70,7 @@ This class indicates how often the intersite topology generator updates the keep
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -91,7 +91,7 @@ This class indicates how often the intersite topology generator updates the keep
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -112,7 +112,7 @@ This class indicates how often the intersite topology generator updates the keep
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -133,7 +133,7 @@ This class indicates how often the intersite topology generator updates the keep
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -154,7 +154,7 @@ This class indicates how often the intersite topology generator updates the keep
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -175,7 +175,7 @@ This class indicates how often the intersite topology generator updates the keep
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: This example illustrates the use of the GetProcessHeaps function to retrieve handles to the default process heap and any private heaps that are active for the current process.
+description: This example illustrates the use of the GetProcessHeaps function to retrieve handles to the default process heap and any private heaps that are active for the current process.
 ms.assetid: 00f69593-f03b-4f30-aeec-db3fda0ac356
 title: Getting Process Heaps
 ms.topic: article

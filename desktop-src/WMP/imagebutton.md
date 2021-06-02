@@ -33,7 +33,7 @@ All properties of this **BUTTON** can be overridden by explicitly specifying the
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the quality level for encoding.
+description: Specifies the quality level for encoding.
 ms.assetid: 2c7f3836-2392-47c6-9a56-d5a9b52560ff
 title: AVEncCommonQuality property (Codecapi.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This property controls the quality level when the encoder is not using a constra
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

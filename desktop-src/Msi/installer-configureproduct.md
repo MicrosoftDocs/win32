@@ -1,5 +1,5 @@
 ---
-Description: The ConfigureProduct method of the Installer object installs or uninstalls a product.
+description: The ConfigureProduct method of the Installer object installs or uninstalls a product.
 ms.assetid: 1215a03f-6c96-4416-881f-0071c1b3c5df
 title: Installer.ConfigureProduct method
 ms.topic: reference
@@ -87,7 +87,7 @@ If the *InstallState* parameter is set to any other value than msiInstallStateDe
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

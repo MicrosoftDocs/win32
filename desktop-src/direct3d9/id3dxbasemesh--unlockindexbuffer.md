@@ -1,5 +1,5 @@
 ---
-Description: Unlocks an index buffer.
+description: Unlocks an index buffer.
 ms.assetid: 69133f82-8391-4b7c-b39e-6730bc477b64
 title: ID3DXBaseMesh::UnlockIndexBuffer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

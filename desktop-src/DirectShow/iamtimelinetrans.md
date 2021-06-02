@@ -1,5 +1,5 @@
 ---
-Description: The IAMTimelineTrans interface provides methods for manipulating transitions in DirectShow Editing Services (DES).
+description: The IAMTimelineTrans interface provides methods for manipulating transitions in DirectShow Editing Services (DES).
 ms.assetid: e29ff0cc-0e48-4a72-8a1b-051ed62c8130
 title: IAMTimelineTrans interface (Qedit.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The **IAMTimelineTrans** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -22,7 +22,7 @@ Tracked file quota for a given volume.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Object-Count                         |
 | Ldap-Display-Name | objectCount                          |
@@ -48,7 +48,7 @@ Tracked file quota for a given volume.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -69,7 +69,7 @@ Tracked file quota for a given volume.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -90,7 +90,7 @@ Tracked file quota for a given volume.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -111,7 +111,7 @@ Tracked file quota for a given volume.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -132,7 +132,7 @@ Tracked file quota for a given volume.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -153,7 +153,7 @@ Tracked file quota for a given volume.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

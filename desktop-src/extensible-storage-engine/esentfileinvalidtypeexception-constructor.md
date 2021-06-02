@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileInvalidTypeException constructor"
 title: EsentFileInvalidTypeException constructor 
 TOCTitle: 'EsentFileInvalidTypeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFileInvalidTypeException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentFileInvalidTypeException()
 
 #### Reference
 
-[EsentFileInvalidTypeException class](dn274337\(v=exchg.10\).md)
+[EsentFileInvalidTypeException class](./esentfileinvalidtypeexception-class.md)
 
-[EsentFileInvalidTypeException members](dn274338\(v=exchg.10\).md)
+[EsentFileInvalidTypeException members](./esentfileinvalidtypeexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

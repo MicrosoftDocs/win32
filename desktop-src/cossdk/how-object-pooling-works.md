@@ -1,5 +1,5 @@
 ---
-Description: When you configure a component to be pooled, COM+ will maintain instances of it in a pool, ready to be activated for any client requesting the component. Any object creation requests will be handled through the pool manager.
+description: When you configure a component to be pooled, COM+ will maintain instances of it in a pool, ready to be activated for any client requesting the component. Any object creation requests will be handled through the pool manager.
 ms.assetid: 34978b50-cd20-42fd-ad46-410190478ef8
 title: How Object Pooling Works
 ms.topic: article

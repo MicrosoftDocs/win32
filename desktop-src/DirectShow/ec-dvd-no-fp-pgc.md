@@ -1,5 +1,5 @@
 ---
-Description: Signals that the DVD disc does not have a FP\_PGC (First Play Program Chain) and that the DVD Navigator will not automatically load any PGC and start playback.
+description: Signals that the DVD disc does not have a FP\_PGC (First Play Program Chain) and that the DVD Navigator will not automatically load any PGC and start playback.
 ms.assetid: c6b37256-5f99-41bb-98f0-b9519d260c8a
 title: EC_DVD_NO_FP_PGC (Dvdevcode.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ This event is raised from the First Play domain.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

@@ -22,7 +22,7 @@ The period of time that a user account will be locked out.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Lockout-Observation-Window     |
 | Ldap-Display-Name | msDS-LockoutObservationWindow        |
@@ -45,7 +45,7 @@ The period of time that a user account will be locked out.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -66,7 +66,7 @@ The period of time that a user account will be locked out.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
@@ -87,7 +87,7 @@ The period of time that a user account will be locked out.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |

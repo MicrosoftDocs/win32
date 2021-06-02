@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenTempTable Function"
 title: JetOpenTempTable Function
 TOCTitle: JetOpenTempTable Function
 ms:assetid: 29261333-a1bc-4159-9046-c32c36f47410
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetOpenTempTable Function
 
-The **JetOpenTempTable** function creates a temporary table with a single index. A temporary table stores and retrieves records just like an ordinary table created using [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md). However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner.
+The **JetOpenTempTable** function creates a temporary table with a single index. A temporary table stores and retrieves records just like an ordinary table created using [JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md). However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner.
 
 ```cpp
     JET_ERR JET_API JetOpenTempTable(
@@ -161,7 +162,7 @@ The column IDs in this array will exactly correspond to the input array of colum
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -278,131 +279,131 @@ Temporary tables do not support the full complement of column definition options
 
 Temporary tables do not support default values. If a column definition is provided that contains a default value specification then that specification will be ignored.
 
-Temporary tables are returned to the caller as a result of many different ESE functions. For example, [JetGetIndexInfo](gg294084\(v=exchg.10\).md) with the JET_IdxInfo option set in the *InfoLevel* parameter will return a temporary table containing a list of all the key columns in a given index. The temporary tables follow the same lifecycle rules as ordinary temporary tables as described here.
+Temporary tables are returned to the caller as a result of many different ESE functions. For example, [JetGetIndexInfo](./jetgetindexinfo-function.md) with the JET_IdxInfo option set in the *InfoLevel* parameter will return a temporary table containing a list of all the key columns in a given index. The temporary tables follow the same lifecycle rules as ordinary temporary tables as described here.
 
 Temporary tables are also used internally by the database engine for many tasks. The most important of these tasks is the creation of an index over an existing table. A temporary table will be used to sort the index keys used to construct that index.
 
-All temporary tables are stored in the temporary database. The temporary database is a special database file that is maintained during the lifetime of an ESE instance and is deleted when that instance is shut down or restarted. The location of the temporary database can be configured using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with [JET_paramTempPath](gg294140\(v=exchg.10\).md). Placement of the temporary database on disk relative to your transaction log files and database files may be important if your application makes heavy use of temporary tables or creates indexes frequently.
+All temporary tables are stored in the temporary database. The temporary database is a special database file that is maintained during the lifetime of an ESE instance and is deleted when that instance is shut down or restarted. The location of the temporary database can be configured using [JetSetSystemParameter](./jetsetsystemparameter-function.md) with [JET_paramTempPath](./temporary-database-parameters.md). Placement of the temporary database on disk relative to your transaction log files and database files may be important if your application makes heavy use of temporary tables or creates indexes frequently.
 
-The lifecycle of a temporary table is tied to the cursors that reference it. If all the cursors that reference a temporary table are closed, either implicitly or explicitly, then the temporary table will be deleted. If a temporary table is created inside a transaction and that transaction is subsequently rolled back then the temporary table will be deleted because any cursors that referenced it at this time will be implicitly closed. New cursors may reference a temporary table only through the use of [JetDupCursor](gg269193\(v=exchg.10\).md). In this case, the new cursors will be positioned on the first index entry of the temporary table. [JetDupCursor](gg269193\(v=exchg.10\).md) will only work during certain phases of use for the temporary table. See the remarks concerning temporary table cursor capabilities for more information. It is not possible to reference a temporary table from more than one session at a time.
+The lifecycle of a temporary table is tied to the cursors that reference it. If all the cursors that reference a temporary table are closed, either implicitly or explicitly, then the temporary table will be deleted. If a temporary table is created inside a transaction and that transaction is subsequently rolled back then the temporary table will be deleted because any cursors that referenced it at this time will be implicitly closed. New cursors may reference a temporary table only through the use of [JetDupCursor](./jetdupcursor-function.md). In this case, the new cursors will be positioned on the first index entry of the temporary table. [JetDupCursor](./jetdupcursor-function.md) will only work during certain phases of use for the temporary table. See the remarks concerning temporary table cursor capabilities for more information. It is not possible to reference a temporary table from more than one session at a time.
 
-There is an important problem in [JetDupCursor](gg269193\(v=exchg.10\).md) that affects temporary tables. If an attempt is made to duplicate a temporary table that is in forward-only mode then the resulting cursor will not be created properly and will malfunction. It is still safe to duplicate a cursor over a materialized temporary table.
+There is an important problem in [JetDupCursor](./jetdupcursor-function.md) that affects temporary tables. If an attempt is made to duplicate a temporary table that is in forward-only mode then the resulting cursor will not be created properly and will malfunction. It is still safe to duplicate a cursor over a materialized temporary table.
 
 The temporary table manager may choose to implement a temporary table in three ways. The first method is to maintain an in-memory table. This strategy is the fastest but can only be used for small, simple temporary tables. The second method is to create a disk-based sort that can be driven using a forward-only iterator. This strategy can only be used under certain circumstances and is the fastest way to sort and remove duplicates from a very large data set. The third method is to create a B+ Tree in the temporary database to hold the temporary table. This strategy is the slowest, but the most versatile, and is referred to as a materialized temporary table. These strategies may be used in combination to ultimately achieve the functionality requested of the temporary table.
 
-When the temporary table is not materialized then it is used in primarily two major phases. The first phase is the insertion phase where the table is populated with its initial data set. During this phase, only data insertion is allowed. This phase ends when an attempt is made to move the cursor using [JetMove](gg294117\(v=exchg.10\).md) or [JetSeek](gg294103\(v=exchg.10\).md). The second phase is the data extraction phase. During this phase, the data stored in the temporary table may be extracted according to the capabilities requested when the temporary table was created.
+When the temporary table is not materialized then it is used in primarily two major phases. The first phase is the insertion phase where the table is populated with its initial data set. During this phase, only data insertion is allowed. This phase ends when an attempt is made to move the cursor using [JetMove](./jetmove-function.md) or [JetSeek](./jetseek-function.md). The second phase is the data extraction phase. During this phase, the data stored in the temporary table may be extracted according to the capabilities requested when the temporary table was created.
 
 **Temporary Table Cursor Capabilities**
 
 When the temporary table is materialized, the cursor has the following capabilities but may be further limited by the options requested:
 
-  - [JetCloseTable](gg294087\(v=exchg.10\).md)
+  - [JetCloseTable](./jetclosetable-function.md)
 
-  - [JetDelete](gg269315\(v=exchg.10\).md)
+  - [JetDelete](./jetdelete-function.md)
 
-  - [JetDupCursor](gg269193\(v=exchg.10\).md)
+  - [JetDupCursor](./jetdupcursor-function.md)
 
-  - [JetEnumerateColumns](gg269321\(v=exchg.10\).md)
+  - [JetEnumerateColumns](./jetenumeratecolumns-function.md)
 
-  - [JetEscrowUpdate](gg294125\(v=exchg.10\).md)
+  - [JetEscrowUpdate](./jetescrowupdate-function.md)
 
-  - [JetGetBookmark](gg269221\(v=exchg.10\).md)
+  - [JetGetBookmark](./jetgetbookmark-function.md)
 
-  - [JetGetCursorInfo](gg294126\(v=exchg.10\).md)
+  - [JetGetCursorInfo](./jetgetcursorinfo-function.md)
 
-  - [JetGetLS](gg269234\(v=exchg.10\).md)
+  - [JetGetLS](./jetgetls-function.md)
 
-  - [JetGetRecordSize](gg294045\(v=exchg.10\).md)
+  - [JetGetRecordSize](./jetgetrecordsize-function.md)
 
-  - [JetGetTableInfo](gg269177\(v=exchg.10\).md)
+  - [JetGetTableInfo](./jetgettableinfo-function.md)
 
-  - [JetGotoBookmark](gg294053\(v=exchg.10\).md)
+  - [JetGotoBookmark](./jetgotobookmark-function.md)
 
-  - [JetMakeKey](gg269329\(v=exchg.10\).md)
+  - [JetMakeKey](./jetmakekey-function.md)
 
-  - [JetMove](gg294117\(v=exchg.10\).md)
+  - [JetMove](./jetmove-function.md)
 
-  - [JetPrepareUpdate](gg269339\(v=exchg.10\).md)
+  - [JetPrepareUpdate](./jetprepareupdate-function.md)
 
-  - [JetRetrieveColumn](gg269198\(v=exchg.10\).md)
+  - [JetRetrieveColumn](./jetretrievecolumn-function.md)
 
-  - [JetRetrieveColumns](gg294135\(v=exchg.10\).md)
+  - [JetRetrieveColumns](./jetretrievecolumns-function.md)
 
-  - [JetRetrieveKey](gg294051\(v=exchg.10\).md)
+  - [JetRetrieveKey](./jetretrievekey-function.md)
 
-  - [JetSeek](gg294103\(v=exchg.10\).md)
+  - [JetSeek](./jetseek-function.md)
 
-  - [JetSetColumn](gg294137\(v=exchg.10\).md)
+  - [JetSetColumn](./jetsetcolumn-function.md)
 
-  - [JetSetColumns](gg294050\(v=exchg.10\).md)
+  - [JetSetColumns](./jetsetcolumns-function.md)
 
-  - [JetSetIndexRange](gg294112\(v=exchg.10\).md)
+  - [JetSetIndexRange](./jetsetindexrange-function.md)
 
-  - [JetSetLS](gg269243\(v=exchg.10\).md)
+  - [JetSetLS](./jetsetls-function.md)
 
-  - [JetUpdate](gg269288\(v=exchg.10\).md)
+  - [JetUpdate](./jetupdate-function.md)
 
 When the temporary table is not materialized and is in the insert phase, the cursor has the following capabilities but may be further limited by the options requested:
 
-  - [JetCloseTable](gg294087\(v=exchg.10\).md)
+  - [JetCloseTable](./jetclosetable-function.md)
 
-  - [JetEscrowUpdate](gg294125\(v=exchg.10\).md)
+  - [JetEscrowUpdate](./jetescrowupdate-function.md)
 
-  - [JetMakeKey](gg269329\(v=exchg.10\).md)
+  - [JetMakeKey](./jetmakekey-function.md)
 
-  - [JetMove](gg294117\(v=exchg.10\).md)
+  - [JetMove](./jetmove-function.md)
     
     **Note**  Causes transition to the extract phase.
 
-  - [JetPrepareUpdate](gg269339\(v=exchg.10\).md)
+  - [JetPrepareUpdate](./jetprepareupdate-function.md)
 
-  - [JetRetrieveKey](gg294051\(v=exchg.10\).md)
+  - [JetRetrieveKey](./jetretrievekey-function.md)
 
-  - [JetSeek](gg294103\(v=exchg.10\).md)
+  - [JetSeek](./jetseek-function.md)
     
     **Note**  Causes transition to the extract phase.
 
-  - [JetSetColumn](gg294137\(v=exchg.10\).md)
+  - [JetSetColumn](./jetsetcolumn-function.md)
 
-  - [JetSetColumns](gg294050\(v=exchg.10\).md)
+  - [JetSetColumns](./jetsetcolumns-function.md)
 
-  - [JetUpdate](gg269288\(v=exchg.10\).md)
+  - [JetUpdate](./jetupdate-function.md)
 
 When the temporary table is not materialized and is in the extract phase, the cursor has the following capabilities but may be further limited by the options requested:
 
-  - [JetCloseTable](gg294087\(v=exchg.10\).md)
+  - [JetCloseTable](./jetclosetable-function.md)
 
-  - [JetDupCursor](gg269193\(v=exchg.10\).md)
+  - [JetDupCursor](./jetdupcursor-function.md)
     
     **Note**  If an attempt is made to duplicate a temporary table that is in forward-only mode then the resulting cursor will not be created properly and will malfunction. It is still safe to duplicate a cursor over a materialized temporary table.
 
-  - [JetEnumerateColumns](gg269321\(v=exchg.10\).md)
+  - [JetEnumerateColumns](./jetenumeratecolumns-function.md)
 
-  - [JetGetBookmark](gg269221\(v=exchg.10\).md)
+  - [JetGetBookmark](./jetgetbookmark-function.md)
 
-  - [JetGetLS](gg269234\(v=exchg.10\).md)
+  - [JetGetLS](./jetgetls-function.md)
 
-  - [JetGetRecordSize](gg294045\(v=exchg.10\).md)
+  - [JetGetRecordSize](./jetgetrecordsize-function.md)
 
-  - [JetGetTableInfo](gg269177\(v=exchg.10\).md)
+  - [JetGetTableInfo](./jetgettableinfo-function.md)
 
-  - [JetGotoBookmark](gg294053\(v=exchg.10\).md)
+  - [JetGotoBookmark](./jetgotobookmark-function.md)
 
-  - [JetMakeKey](gg269329\(v=exchg.10\).md)
+  - [JetMakeKey](./jetmakekey-function.md)
 
-  - [JetMove](gg294117\(v=exchg.10\).md)
+  - [JetMove](./jetmove-function.md)
 
-  - [JetRetrieveColumn](gg269198\(v=exchg.10\).md)
+  - [JetRetrieveColumn](./jetretrievecolumn-function.md)
 
-  - [JetRetrieveColumns](gg294135\(v=exchg.10\).md)
+  - [JetRetrieveColumns](./jetretrievecolumns-function.md)
 
-  - [JetRetrieveKey](gg294051\(v=exchg.10\).md)
+  - [JetRetrieveKey](./jetretrievekey-function.md)
 
-  - [JetSeek](gg294103\(v=exchg.10\).md)
+  - [JetSeek](./jetseek-function.md)
 
-  - [JetSetIndexRange](gg294112\(v=exchg.10\).md)
+  - [JetSetIndexRange](./jetsetindexrange-function.md)
 
-  - [JetSetLS](gg269243\(v=exchg.10\).md)
+  - [JetSetLS](./jetsetls-function.md)
 
 #### Requirements
 
@@ -438,19 +439,18 @@ When the temporary table is not materialized and is in the extract phase, the cu
 
 #### See Also
 
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetDupCursor](gg269193\(v=exchg.10\).md)  
-[JetMove](gg294117\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSeek](gg294103\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[Temporary Database Parameters](gg294140\(v=exchg.10\).md)
-
+[JET_COLUMNDEF](./jet-columndef-structure.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_UNICODEINDEX](./jet-unicodeindex-structure.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetDupCursor](./jetdupcursor-function.md)  
+[JetMove](./jetmove-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSeek](./jetseek-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[Temporary Database Parameters](./temporary-database-parameters.md)

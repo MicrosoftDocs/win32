@@ -1,5 +1,5 @@
 ---
-Description: Manages the assignable devices on a host computer system.
+description: Manages the assignable devices on a host computer system.
 ms.assetid: d958e978-682e-49eb-bd10-d31d9563fdbf
 title: Msvm_AssignableDeviceService class
 ms.topic: reference
@@ -55,7 +55,7 @@ The **Msvm\_AssignableDeviceService** class has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,12 +1,12 @@
 ---
-Description: 'Direct3D 10 defines a number of interfaces for the two basic types of resources: buffers and textures.'
+description: 'Direct3D 10 defines a number of interfaces for the two basic types of resources: buffers and textures.'
 ms.assetid: e53ca7ab-6ca5-4774-8a52-825b10c1a2ce
 title: Resource Interfaces (Direct3D 10 Graphics)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Resource Interfaces
+# Resource Interfaces (Direct3D 10 Graphics)
 
 Direct3D 10 defines a number of interfaces for the two basic types of resources: [buffers](d3d10-graphics-programming-guide-resources-types.md) and textures.
 

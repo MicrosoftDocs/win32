@@ -1,5 +1,5 @@
 ---
-Description: The FindI method retrieves the first position that holds the specified item.
+description: The FindI method retrieves the first position that holds the specified item.
 ms.assetid: a95fac19-0f93-4bb4-8e76-0da82745a1d2
 title: CBaseList.FindI method (Wxlist.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns a POSITION value, or **NULL** if the item is not in the list.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

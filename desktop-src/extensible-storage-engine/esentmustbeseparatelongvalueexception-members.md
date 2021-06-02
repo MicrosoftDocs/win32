@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustBeSeparateLongValueException members"
 title: EsentMustBeSeparateLongValueException members
 TOCTitle: EsentMustBeSeparateLongValueException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMustBeSeparateLongValueException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.MustBeSeparateLongValue exceptions.
 
-The [EsentMustBeSeparateLongValueException](dn334710\(v=exchg.10\).md) type exposes the following members.
+The [EsentMustBeSeparateLongValueException](./esentmustbeseparatelongvalueexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentMustBeSeparateLongValueException class](dn334710\(v=exchg.10\).md)
+[EsentMustBeSeparateLongValueException class](./esentmustbeseparatelongvalueexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies Copy Generational Management System - A (CGMS-A) protection.
+description: Specifies Copy Generational Management System - A (CGMS-A) protection.
 ms.assetid: 40802859-711E-4531-948F-902E8735A977
 title: MFPROTECTION_CGMSA attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies Copy Generational Management System - A (CGMS-A) protection.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

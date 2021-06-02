@@ -1,5 +1,5 @@
 ---
-Description: This section describes the IMM commands.
+description: This section describes the IMM commands.
 ms.assetid: d76207c7-94d0-4e11-9a6e-fc5c90af58fd
 title: Input Method Manager Commands
 ms.topic: article

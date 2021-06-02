@@ -1,5 +1,5 @@
 ---
-Description: Associates settings data with a managed element.
+description: Associates settings data with a managed element.
 ms.assetid: 3fdf111b-3ec1-4559-94ce-27d6a8cd0080
 title: CIM_SettingsDefineState class
 ms.topic: reference
@@ -80,7 +80,7 @@ The settings data in the association.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

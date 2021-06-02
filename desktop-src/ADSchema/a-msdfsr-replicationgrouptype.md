@@ -22,7 +22,7 @@ Contains the replication group type.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-ReplicationGroupType         |
 | Ldap-Display-Name | msDFSR-ReplicationGroupType          |
@@ -46,7 +46,7 @@ Contains the replication group type.
 
 
 
-|                        |                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------|
 | Link-Id                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
@@ -67,7 +67,7 @@ Contains the replication group type.
 
 
 
-|                        |                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------|
 | Link-Id                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
@@ -88,7 +88,7 @@ Contains the replication group type.
 
 
 
-|                        |                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------|
 | Link-Id                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |
@@ -109,7 +109,7 @@ Contains the replication group type.
 
 
 
-|                        |                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------|
 | Link-Id                | \-                                                                       |
 | MAPI-Id                | \-                                                                       |

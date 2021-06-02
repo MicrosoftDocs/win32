@@ -26,7 +26,7 @@ The **Channels** attribute is the number of channels in an audio file.
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 11<br/> |
 

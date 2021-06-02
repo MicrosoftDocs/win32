@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: How the Windows Imaging Component Works"
 ms.assetid: c233e25b-bec6-4e67-8fbf-2bf9b70c7522
 title: How the Windows Imaging Component Works
 ms.topic: article

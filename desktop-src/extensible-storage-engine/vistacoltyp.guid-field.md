@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaColtyp.GUID field"
 title: VistaColtyp.GUID field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: GUID field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp.GUID
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 16-byte GUID.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_coltyp GUID
 
 #### Reference
 
-[VistaColtyp class](dn351274\(v=exchg.10\).md)
+[VistaColtyp class](./vistacoltyp-class.md)
 
-[VistaColtyp members](dn335346\(v=exchg.10\).md)
+[VistaColtyp members](./vistacoltyp-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

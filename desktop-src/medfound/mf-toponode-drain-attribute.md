@@ -1,5 +1,5 @@
 ---
-Description: Specifies when a transform is drained.
+description: Specifies when a transform is drained.
 ms.assetid: 68332106-d1fe-467b-8baa-1e592b9cc243
 title: MF_TOPONODE_DRAIN attribute (Mfidl.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

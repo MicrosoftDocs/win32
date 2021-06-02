@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileInUseException methods"
 title: EsentSLVFileInUseException methods
 TOCTitle: EsentSLVFileInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVFileInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVFileInUseException](dn350728\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVFileInUseException](./esentslvfileinuseexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVFileInUseException class](dn350728\(v=exchg.10\).md)
+[EsentSLVFileInUseException class](./esentslvfileinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

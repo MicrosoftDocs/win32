@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidDatabaseException properties"
 title: EsentInvalidDatabaseException properties
 TOCTitle: EsentInvalidDatabaseException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidDatabaseException](dn319474\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidDatabaseException](./esentinvaliddatabaseexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidDatabaseException class](dn319474\(v=exchg.10\).md)
+[EsentInvalidDatabaseException class](./esentinvaliddatabaseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Determines the location of a resource with the specified type and name, in the specified module.
+description: Determines the location of a resource with the specified type and name, in the specified module.
 ms.assetid: d8322430-5064-407e-8b89-b86b75bf139e
 title: FindResourceWrapW function
 ms.topic: reference
@@ -91,7 +91,7 @@ If you need to specify a particular localization, use the [**FindResourceEx**](/
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

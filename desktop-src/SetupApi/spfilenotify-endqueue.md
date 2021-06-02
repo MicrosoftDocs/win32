@@ -1,5 +1,5 @@
 ---
-Description: The SPFILENOTIFY\_ENDQUEUE notification is sent to the callback routine when all of the queued operations have been completed.
+description: The SPFILENOTIFY\_ENDQUEUE notification is sent to the callback routine when all of the queued operations have been completed.
 ms.assetid: f4540ab6-edea-4f84-b7eb-4ab3f774068b
 title: SPFILENOTIFY_ENDQUEUE message (Setupapi.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ The return value is ignored.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

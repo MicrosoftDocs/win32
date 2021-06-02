@@ -1,5 +1,5 @@
 ---
-Description: Alpha values can also be provided by textures.
+description: Alpha values can also be provided by textures.
 ms.assetid: b9f53783-d4d8-4339-8cf3-5ad8305ff627
 title: Texture Alpha (Direct3D 9)
 ms.topic: article

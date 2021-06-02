@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSequentialIndexValuesException members"
 title: EsentOutOfSequentialIndexValuesException members
 TOCTitle: EsentOutOfSequentialIndexValuesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfSequentialIndexValuesException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.OutOfSequentialIndexValues exceptions.
 
-The [EsentOutOfSequentialIndexValuesException](dn319807\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfSequentialIndexValuesException](./esentoutofsequentialindexvaluesexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentOutOfSequentialIndexValuesException class](dn319807\(v=exchg.10\).md)
+[EsentOutOfSequentialIndexValuesException class](./esentoutofsequentialindexvaluesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

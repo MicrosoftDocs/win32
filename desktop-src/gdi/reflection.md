@@ -1,5 +1,5 @@
 ---
-Description: Some applications provide features that reflect (or mirror) objects drawn in the client area.
+description: Some applications provide features that reflect (or mirror) objects drawn in the client area.
 ms.assetid: 2205dc3c-ca4b-4a0a-be3e-0332ce8467a0
 title: Reflection
 ms.topic: article

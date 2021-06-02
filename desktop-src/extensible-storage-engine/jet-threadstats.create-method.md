@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Create method"
 title: JET_THREADSTATS.Create method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'Create method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Create(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_THREADSTATS.Create method
 
-Create a new [JET_THREADSTATS](hh578565\(v=exchg.10\).md) struct with the specified valued.
+Create a new [JET_THREADSTATS](./jet-threadstats-structure2.md) struct with the specified valued.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -124,15 +125,15 @@ public static JET_THREADSTATS Create(
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
-A new [JET_THREADSTATS](hh578565\(v=exchg.10\).md) struct with the specified values.  
+Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](./jet-threadstats-structure2.md)  
+A new [JET_THREADSTATS](./jet-threadstats-structure2.md) struct with the specified values.  
 
 ## See also
 
 #### Reference
 
-[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](./jet-threadstats-structure2.md)
 
-[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](./jet-threadstats-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

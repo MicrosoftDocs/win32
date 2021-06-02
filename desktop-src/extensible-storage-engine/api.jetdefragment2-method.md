@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetDefragment2 method"
 title: Api.JetDefragment2 method 
 TOCTitle: 'JetDefragment2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetDefragment2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,System.String,System.Int32@,System.Int32@,Microsoft.Isam.Esent.Interop.JET_CALLBACK,Microsoft.Isam.Esent.Interop.DefragGrbit)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Starts and stops database defragmentation tasks that improves data organization within a database.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -76,14 +77,14 @@ public static JET_wrn JetDefragment2(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use for the call.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)  
     
     The database to be defragmented.
 
@@ -111,20 +112,20 @@ public static JET_wrn JetDefragment2(
 <!-- end list -->
 
   - callback  
-    Type: [Microsoft.Isam.Esent.Interop.JET_CALLBACK](hh566065\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_CALLBACK](./jet-callback-delegate.md)  
     
     Callback function that defrag uses to report progress.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.DefragGrbit](hh596803\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.DefragGrbit](./defraggrbit-enumeration.md)  
     
     Defragmentation options.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 A warning code.  
 
 ## Remarks
@@ -135,8 +136,8 @@ The callback passed to JetDefragment2 can be executed asynchronously. The GC doe
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

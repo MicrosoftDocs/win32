@@ -1,5 +1,5 @@
 ---
-Description: Describes the capabilities and management of media that stores data and allows retrieval of the data. This super class is used to represent software and hardware RAID components, or a raw logical extent of physical media.
+description: Describes the capabilities and management of media that stores data and allows retrieval of the data. This super class is used to represent software and hardware RAID components, or a raw logical extent of physical media.
 ms.assetid: 29d105fb-8c34-4824-8679-883aef02a0c9
 title: CIM_StorageExtent class (Hyper-V management)
 ms.topic: reference
@@ -35,7 +35,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_StorageExtent class
+# CIM_StorageExtent class (Hyper-V management)
 
 Describes the capabilities and management of media that stores data and allows retrieval of the data. This super class is used to represent software and hardware RAID components, or a raw logical extent of physical media.
 
@@ -754,7 +754,7 @@ Access type: Read-only
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

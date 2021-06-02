@@ -1,5 +1,5 @@
 ---
-Description: Request for pixel history intersections and primitives separately.
+description: Request for pixel history intersections and primitives separately.
 MS-HAID: vspixengine.IPixelHistoryRequest2
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 01/14/2020
 ---
 
-# Text Services Framework
+# Text Services Framework (Text Services Framework)
 
 ## Purpose
 

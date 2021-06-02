@@ -1,5 +1,5 @@
 ---
-Description: Sent to a window when the SetWindowLong function is about to change one or more of the window's styles.
+description: Sent to a window when the SetWindowLong function is about to change one or more of the window's styles.
 ms.assetid: 71034362-3f67-49ae-bbbf-d38853ababb3
 title: WM_STYLECHANGING message (Winuser.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ An application should return zero if it processes this message.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

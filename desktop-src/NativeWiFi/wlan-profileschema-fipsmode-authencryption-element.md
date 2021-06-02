@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether Federal Information Processing Standards (FIPS) mode is enabled.
+description: Indicates whether Federal Information Processing Standards (FIPS) mode is enabled.
 ms.assetid: 4c62c96c-82e7-4174-b833-95ee10b29344
 title: FIPSMode (authEncryption) Element
 ms.topic: reference
@@ -52,7 +52,7 @@ To view a sample profile that uses the **FIPSMode** element, see [FIPS Profile S
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

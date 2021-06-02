@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables thumbnail generation mode in a video decoder.
+description: Enables or disables thumbnail generation mode in a video decoder.
 ms.assetid: c640d915-585b-481d-aa49-0d4a559d291c
 title: AVDecVideoThumbnailGenerationMode property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is **VARIANT\_TRUE**, the decoder uses a setting that is optimized 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

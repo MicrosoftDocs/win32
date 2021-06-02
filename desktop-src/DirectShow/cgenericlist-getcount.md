@@ -1,5 +1,5 @@
 ---
-Description: The GetCount method retrieves the number of items in the list.
+description: The GetCount method retrieves the number of items in the list.
 ms.assetid: a74fcddd-109f-4abf-abe0-e00f6e56ea0f
 title: CGenericList.GetCount method (Wxlist.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the number of items in the list.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

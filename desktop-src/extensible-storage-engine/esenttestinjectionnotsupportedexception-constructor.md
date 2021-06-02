@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTestInjectionNotSupportedException constructor"
 title: EsentTestInjectionNotSupportedException constructor 
 TOCTitle: 'EsentTestInjectionNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTestInjectionNotSupportedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTestInjectionNotSupportedException()
 
 #### Reference
 
-[EsentTestInjectionNotSupportedException class](dn334978\(v=exchg.10\).md)
+[EsentTestInjectionNotSupportedException class](./esenttestinjectionnotsupportedexception-class.md)
 
-[EsentTestInjectionNotSupportedException members](dn334990\(v=exchg.10\).md)
+[EsentTestInjectionNotSupportedException members](./esenttestinjectionnotsupportedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

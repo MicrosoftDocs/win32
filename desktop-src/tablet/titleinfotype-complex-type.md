@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains information about the title in a Journal note.
+description: Defines the type that contains information about the title in a Journal note.
 ms.assetid: 8289456b-c969-4079-bcb5-36949faa65e0
 title: TitleInfoType Complex Type
 ms.topic: reference
@@ -26,7 +26,7 @@ Defines the type that contains information about the title in a Journal note.
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

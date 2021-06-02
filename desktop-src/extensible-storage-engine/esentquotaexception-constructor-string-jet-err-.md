@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQuotaException constructor (String, JET_err)"
 title: EsentQuotaException constructor (String, JET_err)
 TOCTitle: EsentQuotaException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentQuotaException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentQuotaException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentQuotaException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentQuotaException(
 
 #### Reference
 
-[EsentQuotaException class](dn319806\(v=exchg.10\).md)
+[EsentQuotaException class](./esentquotaexception-class.md)
 
-[EsentQuotaException members](dn319869\(v=exchg.10\).md)
+[EsentQuotaException members](./esentquotaexception-members.md)
 
-[EsentQuotaException overload](dn319803\(v=exchg.10\).md)
+[EsentQuotaException overload](./esentquotaexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

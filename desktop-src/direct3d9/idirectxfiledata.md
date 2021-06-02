@@ -1,5 +1,5 @@
 ---
-Description: Applications use the methods of the IDirectXFileData interface to build or to access the immediate hierarchy of the data object.
+description: Applications use the methods of the IDirectXFileData interface to build or to access the immediate hierarchy of the data object.
 ms.assetid: 8810162f-76a8-45ba-b069-7910fd611a60
 title: IDirectXFileData interface (DXFile.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ typedef interface IDirectXFileData *LPDIRECTXFILEDATA;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>DXFile.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3dxof.lib</dt> </dl> |

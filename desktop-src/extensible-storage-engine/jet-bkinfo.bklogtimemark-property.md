@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.bklogtimeMark property"
 title: JET_BKINFO.bklogtimeMark property 
 TOCTitle: 'bklogtimeMark property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.bklogtimeMark
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the time of the backup.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_BKLOGTIME bklogtimeMark { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_BKLOGTIME](hh557662\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_BKLOGTIME](./jet-bklogtime-structure2.md)  
 
 ## See also
 
 #### Reference
 
-[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](./jet-bkinfo-structure2.md)
 
-[JET_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](./jet-bkinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

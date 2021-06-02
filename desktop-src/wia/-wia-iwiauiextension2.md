@@ -1,5 +1,5 @@
 ---
-Description: The IWiaUIExtension2 interface provides methods that replace the default, system-supplied user interface with a custom user interface, and that provide a custom device icon.
+description: The IWiaUIExtension2 interface provides methods that replace the default, system-supplied user interface with a custom user interface, and that provide a custom device icon.
 ms.assetid: 1a747ea3-2476-438b-baf0-903b86cbbb16
 title: IWiaUIExtension2 interface (Wiadevd.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The **IWiaUIExtension2** interface has these methods.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

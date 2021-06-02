@@ -22,7 +22,7 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-ReplicationEpoch               |
 | Ldap-Display-Name | msDS-ReplicationEpoch                |
@@ -48,7 +48,7 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -69,7 +69,7 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -90,7 +90,7 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -111,7 +111,7 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -132,7 +132,7 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -153,7 +153,7 @@ This is used to hold the epoch under which all the DCs are replicating. An epoch
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

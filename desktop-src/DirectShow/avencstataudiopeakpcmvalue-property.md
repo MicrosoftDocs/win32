@@ -1,5 +1,5 @@
 ---
-Description: Returns the highest volume level that was present in the audio content.
+description: Returns the highest volume level that was present in the audio content.
 ms.assetid: 1d9a6a22-bb82-45e1-80d2-88627c90340c
 title: AVEncStatAudioPeakPCMValue property (Codecapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This property applies only to quality-based variable bit rate (VBR) encoding
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

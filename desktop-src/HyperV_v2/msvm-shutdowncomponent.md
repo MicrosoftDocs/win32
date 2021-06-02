@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the shutdown service, which provides a mechanism to shut down the operating system of the virtual machine from the management interfaces on the host system.
+description: Represents the state of the shutdown service, which provides a mechanism to shut down the operating system of the virtual machine from the management interfaces on the host system.
 ms.assetid: E9BBB08C-A3FE-4226-A2CF-458706E759D6
 title: Msvm_ShutdownComponent class
 ms.topic: reference
@@ -848,7 +848,7 @@ Access to the **Msvm\_ShutdownComponent** class might be restricted by UAC Filte
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

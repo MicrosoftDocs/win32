@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.EventSource property"
 title: InstanceParameters.EventSource property 
 TOCTitle: 'EventSource property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.EventSource
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets an application specific string that will be added to any event log messages that are emitted by the database engine. This allows easy correlation of event log messages with the source application. By default the host application executable name will be used.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

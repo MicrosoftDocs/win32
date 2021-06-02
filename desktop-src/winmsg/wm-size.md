@@ -3,6 +3,7 @@ Description: Sent to a window after its size has changed.
 ms.assetid: e3e14dcd-9236-48bd-a692-6985d8146f81
 title: WM_SIZE message (Winuser.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 07/27/2020
 ---
 
@@ -122,7 +123,7 @@ the **WM\_WINDOWPOSCHANGED** message without calling **DefWindowProc**.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

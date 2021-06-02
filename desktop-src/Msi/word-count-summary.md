@@ -1,5 +1,5 @@
 ---
-Description: In the summary information of an installation package, the Word Count Summary property indicates the type of source file image.
+description: In the summary information of an installation package, the Word Count Summary property indicates the type of source file image.
 ms.assetid: 1eeece25-4f24-4efe-879d-66ebbb6a9391
 title: Word Count Summary property
 ms.topic: reference
@@ -69,7 +69,7 @@ This summary property is REQUIRED.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

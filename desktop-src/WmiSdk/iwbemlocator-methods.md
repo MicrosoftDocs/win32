@@ -1,5 +1,5 @@
 ---
-Description: The IWbemLocator interface exposes the following methods.
+description: The IWbemLocator interface exposes the following methods.
 ms.assetid: 7103671D-CE45-4CF4-94E2-804F043CC7AF
 ms.tgt_platform: multiple
 title: IWbemLocator Methods

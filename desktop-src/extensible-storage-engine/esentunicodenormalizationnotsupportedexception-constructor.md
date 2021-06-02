@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeNormalizationNotSupportedException constructor"
 title: EsentUnicodeNormalizationNotSupportedException constructor 
 TOCTitle: 'EsentUnicodeNormalizationNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnicodeNormalizationNotSupportedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentUnicodeNormalizationNotSupportedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentUnicodeNormalizationNotSupportedException()
 
 #### Reference
 
-[EsentUnicodeNormalizationNotSupportedException class](dn350818\(v=exchg.10\).md)
+[EsentUnicodeNormalizationNotSupportedException class](./esentunicodenormalizationnotsupportedexception-class.md)
 
-[EsentUnicodeNormalizationNotSupportedException members](dn350820\(v=exchg.10\).md)
+[EsentUnicodeNormalizationNotSupportedException members](./esentunicodenormalizationnotsupportedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

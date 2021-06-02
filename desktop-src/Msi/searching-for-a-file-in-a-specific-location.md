@@ -1,5 +1,5 @@
 ---
-Description: During a Windows Installer installation, the installer can search for a file in a specific location on the user's system.
+description: During a Windows Installer installation, the installer can search for a file in a specific location on the user's system.
 ms.assetid: 127d83a2-b651-42ef-ac7c-a7fa1b15cf27
 title: Searching for a File in a Specific Location
 ms.topic: article

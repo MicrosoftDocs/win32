@@ -1,5 +1,5 @@
 ---
-Description: Represents the properties that are associated with a physical system enclosure.
+description: Represents the properties that are associated with a physical system enclosure.
 ms.assetid: a8244dc0-a95e-4940-9b92-7820bdf14916
 ms.tgt_platform: multiple
 title: Win32_SystemEnclosure class
@@ -1206,7 +1206,7 @@ The [Multithreaded System Asset Gathering with Powershell](https://Gallery.TechN
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

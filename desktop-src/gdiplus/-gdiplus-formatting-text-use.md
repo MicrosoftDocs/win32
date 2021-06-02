@@ -1,12 +1,12 @@
 ---
-Description: To apply special formatting to text, initialize a StringFormat object and pass the address of that object to the DrawString method of the Graphics class.
+description: To apply special formatting to text, initialize a StringFormat object and pass the address of that object to the DrawString method of the Graphics class.
 ms.assetid: 4014a602-88f6-4fac-b4b2-3dafdcff8f33
 title: Formatting Text (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Formatting Text
+# Formatting Text (GDI+)
 
 To apply special formatting to text, initialize a [**StringFormat**](/windows/win32/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) object and pass the address of that object to the [DrawString](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawstring(constwchar_int_constfont_constpointf__conststringformat_constbrush)) method of the [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) class.
 

@@ -1,5 +1,5 @@
 ---
-Description: The flags listed in the following table specify the type of I/O bus used by the graphics adapter.
+description: The flags listed in the following table specify the type of I/O bus used by the graphics adapter.
 ms.assetid: 6c8ec020-5f12-453b-bbeb-3baabb1ca213
 title: OPM Bus Type Flags (Opmapi.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ The OPM\_BUG\_TYPE\_Xxxx flags and the **OPM\_COPP\_COMPATIBLE\_BUS\_TYPE\_INTEG
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

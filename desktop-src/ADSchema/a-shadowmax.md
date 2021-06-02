@@ -21,7 +21,7 @@ Contains the maximum number of days a password can be valid.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | shadowMax                            |
 | Ldap-Display-Name | shadowMax                            |
@@ -45,7 +45,7 @@ Contains the maximum number of days a password can be valid.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -66,7 +66,7 @@ Contains the maximum number of days a password can be valid.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -87,7 +87,7 @@ Contains the maximum number of days a password can be valid.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -108,7 +108,7 @@ Contains the maximum number of days a password can be valid.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

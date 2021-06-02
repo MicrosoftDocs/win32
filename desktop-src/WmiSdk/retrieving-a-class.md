@@ -1,5 +1,5 @@
 ---
-Description: The first type of object you can retrieve is a WMI class.
+description: The first type of object you can retrieve is a WMI class.
 ms.assetid: cfe4bcca-692e-45cd-a840-93ebfe4ae267
 ms.tgt_platform: multiple
 title: Retrieving a WMI Class
@@ -69,7 +69,7 @@ As with PowerShell, C# uses a **meta\_class** query to retrieve class definition
 
 1.  You can use the [ManagementObjectSerarcher](/dotnet/api/system.management.managementobjectsearcher) with a query to **meta\_class**, with the WHERE clause containing the name of the class you with to retrieve.
 
-    ```PowerShell
+    ```CSharp
     using System.Management;
     ...
     ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT * FROM meta_class WHERE __class = 'Win32_LogicalDisk'");
@@ -82,7 +82,7 @@ As with PowerShell, C# uses a **meta\_class** query to retrieve class definition
 
 2.  Alternately, create a new [ManagementClass](/dotnet/api/system.management.managementclass) object, with the name as the path, to retrieve the class.
 
-    ```PowerShell
+    ```CSharp
     using System.Management;
     ...
     ManagementClass objInst = new ManagementClass("Win32_LogicalDisk");

@@ -1,5 +1,5 @@
 ---
-Description: Support the main tasks listed in Using Authorization in Script.
+description: Support the main tasks listed in Using Authorization in Script.
 ms.assetid: e3e29168-37f1-468a-a6f1-9a9d1cd8cf38
 title: Supporting Tasks for Authorization in Script
 ms.topic: article

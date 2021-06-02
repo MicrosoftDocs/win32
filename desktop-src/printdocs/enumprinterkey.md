@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrinterKey function enumerates the subkeys of a specified key for a specified printer.
+description: The EnumPrinterKey function enumerates the subkeys of a specified key for a specified printer.
 ms.assetid: 721b1d23-a594-4439-b8f9-9b11be5fe874
 title: EnumPrinterKey function (Winspool.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ If the function fails, the return value is a system error code. If *pKeyName* do
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: File Replication Service (FRS) Is Deprecated in Windows Server 2008 R2
 ms.assetid: 18a03469-737a-4905-9851-f7961c46b867
 title: File Replication Service (FRS) Is Deprecated in Windows Server 2008 R2
 ms.topic: article

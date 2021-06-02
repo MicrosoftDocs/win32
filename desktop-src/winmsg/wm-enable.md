@@ -1,5 +1,5 @@
 ---
-Description: Sent when an application changes the enabled state of a window.
+description: Sent when an application changes the enabled state of a window.
 ms.assetid: df2cf953-121f-43bb-a06c-d10e445bfb5e
 title: WM_ENABLE message (Winuser.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ If an application processes this message, it should return zero.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

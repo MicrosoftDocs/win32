@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.ConnectedServiceName
 ms.assetid: 33af6310-3915-4d59-a0e7-676c6720451c
 title: System.Contact.ConnectedServiceName
 ms.topic: article

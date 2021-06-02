@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempPathInUseException members"
 title: EsentTempPathInUseException members
 TOCTitle: EsentTempPathInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTempPathInUseException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TempPathInUse exceptions.
 
-The [EsentTempPathInUseException](dn334969\(v=exchg.10\).md) type exposes the following members.
+The [EsentTempPathInUseException](./esenttemppathinuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTempPathInUseException class](dn334969\(v=exchg.10\).md)
+[EsentTempPathInUseException class](./esenttemppathinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

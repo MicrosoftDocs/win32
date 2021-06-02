@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalElement class is the base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
+description: The CIM\_LogicalElement class is the base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
 ms.assetid: 81b2788a-96e8-4570-9a13-d11d229ad789
 ms.tgt_platform: multiple
 title: CIM_LogicalElement class (CIMWin32 WMI Providers)
@@ -21,7 +21,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_LogicalElement class
+# CIM_LogicalElement class (CIMWin32 WMI Providers)
 
 The **CIM\_LogicalElement** class is the base class for all system components that represent abstract system components, such as profiles, processes, or system capabilities, in the form of logical devices.
 
@@ -248,7 +248,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The GetVendorString method retrieves the name of the vendor. For the render engine objects that are provided by DirectShow, the vendor string is &\#0034;Microsoft Corporation&\#0034;.
+description: The GetVendorString method retrieves the name of the vendor. For the render engine objects that are provided by DirectShow, the vendor string is &\#0034;Microsoft Corporation&\#0034;.
 ms.assetid: d0a4c525-67dc-419a-b4d6-8cd51888fd8a
 title: IRenderEngine::GetVendorString method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ The method allocates memory for the string. The application must call **SysFreeS
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

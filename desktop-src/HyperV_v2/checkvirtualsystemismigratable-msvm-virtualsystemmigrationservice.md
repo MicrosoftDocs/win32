@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the specified virtual system can be migrated.
+description: Determines whether the specified virtual system can be migrated.
 ms.assetid: 1bf1b385-162e-41c9-a408-f7ee755a9646
 title: CheckVirtualSystemIsMigratable method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference
@@ -127,7 +127,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

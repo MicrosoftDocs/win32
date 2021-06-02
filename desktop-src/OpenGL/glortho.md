@@ -102,11 +102,11 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 The **glOrtho** function describes a perspective matrix that produces a parallel projection. The (*left*, *bottom*, *near*) and (*right*, *top*, *near*) parameters specify the points on the near clipping plane that are mapped to the lower-left and upper-right corners of the window, respectively, assuming that the eye is located at (0, 0, 0). The *far* parameter specifies the location of the far clipping plane. Both *zNear* and *zFar* can be either positive or negative. The corresponding matrix is shown in the following image.
 
-![](images/ortho1.png)
+![Diagram showing the perspective matrix the glOrtho function describes.](images/ortho1.png)
 
 where
 
-![](images/ortho2.png)
+![Equations describing the perspective matrix.](images/ortho2.png)
 
 The current matrix is multiplied by this matrix with the result replacing the current matrix. That is, if M is the current matrix and O is the ortho matrix, then M is replaced with M   O.
 
@@ -126,7 +126,7 @@ The following functions retrieve information related to **glOrtho**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

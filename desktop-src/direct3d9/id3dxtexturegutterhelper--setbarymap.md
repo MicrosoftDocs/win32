@@ -1,5 +1,5 @@
 ---
-Description: Sets texel barycentric coordinates.
+description: Sets texel barycentric coordinates.
 ms.assetid: 6c7c74aa-71a3-45aa-9b18-6409fbd63bda
 title: ID3DXTextureGutterHelper::SetBaryMap method (D3DX9Mesh.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

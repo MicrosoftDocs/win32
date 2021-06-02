@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Translate methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
+description: This topic lists the Translate methods of the Region class. For a complete list of methods for the Region class, see Region Methods.
 ms.assetid: 2909bf9a-3ce0-4605-b063-e41cdc9cf317
 title: Region.Translate methods
 ms.date: 07/02/2019

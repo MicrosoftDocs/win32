@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft telephony application programming interfaces support the development of communications applications for Microsoft Windows. The telephony interfaces are listed in the following table.
+description: The Microsoft telephony application programming interfaces support the development of communications applications for Microsoft Windows. The telephony interfaces are listed in the following table.
 ms.assetid: e7348296-ee2d-4e0a-b274-3563dccea841
 title: Telephony Application Programming Interfaces
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultTransitionB method sets the default transition. This method is equivalent to IAMTimeline::SetDefaultTransition, but takes a BSTR value, rather than a pointer to a GUID.
+description: The SetDefaultTransitionB method sets the default transition. This method is equivalent to IAMTimeline::SetDefaultTransition, but takes a BSTR value, rather than a pointer to a GUID.
 ms.assetid: 1998fd31-2ab8-477e-89ee-93ca92dc10ec
 title: IAMTimeline::SetDefaultTransitionB method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

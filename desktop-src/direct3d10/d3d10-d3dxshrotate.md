@@ -1,5 +1,5 @@
 ---
-Description: Rotates the spherical harmonic (SH) vector by the given matrix.
+description: D3DXSHRotate function (D3DX10.h) - Rotates the spherical harmonic (SH) vector by the given matrix.
 ms.assetid: 22ed379a-ce08-46df-9cc1-8d5fde87c179
 title: D3DXSHRotate function (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHRotate function
+# D3DXSHRotate function (D3DX10.h)
 
 Rotates the spherical harmonic (SH) vector by the given matrix.
 
@@ -91,7 +91,7 @@ Each coefficient of the basis function Yₗₘ is stored at memory location l² 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

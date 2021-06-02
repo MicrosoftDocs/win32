@@ -1,5 +1,5 @@
 ---
-Description: A float representing the current parametric starting point for the ray. 
+description: A float representing the current parametric starting point for the ray.
 ms.assetid: 
 title: RayTMin
 ms.localizationpriority: low

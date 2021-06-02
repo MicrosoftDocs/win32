@@ -1,5 +1,5 @@
 ---
-Description: Represents the event type class for object type events related to the beginning and end of data collection.
+description: Represents the event type class for object type events related to the beginning and end of data collection.
 ms.assetid: 16b21f61-e734-4f51-9b11-e507b5957107
 title: ObTypeEvent class
 ms.topic: reference
@@ -99,7 +99,7 @@ The type name.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |

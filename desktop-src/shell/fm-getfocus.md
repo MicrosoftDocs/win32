@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to retrieve the type of File Manager window that has the input focus.
+description: Sent by a File Manager extension to retrieve the type of File Manager window that has the input focus.
 title: FM_GETFOCUS message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: e2d5f825-5678-4dd7-adad-eec1cbcc7e49
-api_name: 
- - FM_GETFOCUS
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -60,7 +51,7 @@ Returns the type of File Manager window that has the input focus. It can be one 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

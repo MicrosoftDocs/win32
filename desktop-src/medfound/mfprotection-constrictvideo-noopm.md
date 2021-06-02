@@ -1,5 +1,5 @@
 ---
-Description: This attribute specifies additional protection offered by a video output trust authority(OTA) when a connector does not offer output protection.
+description: This attribute specifies additional protection offered by a video output trust authority(OTA) when a connector does not offer output protection.
 ms.assetid: D3EAD386-E730-44E8-9E05-773E1E2175C5
 title: MFPROTECTION_CONSTRICTVIDEO_NOOPM attribute (Mfidl.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ This is an additional protection offered by a video output trust authority(OTA) 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

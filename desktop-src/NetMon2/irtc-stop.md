@@ -1,5 +1,5 @@
 ---
-Description: The Stop method stops the current capture.
+description: IRTC::Stop method - The Stop method stops the current capture.
 ms.assetid: 64a80ff1-5a48-4be8-835d-a3d304ebb324
 title: IRTC::Stop method (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ When you restart the capture after calling the **IRTC::Stop** method, make sure 
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Gets the data buffer that stores compressed key frame animation data.
+description: Gets the data buffer that stores compressed key frame animation data.
 ms.assetid: cb42a4c8-6420-4694-9921-0d36cfe960e5
 title: ID3DXCompressedAnimationSet::GetCompressedData method (D3dx9anim.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is S\_OK. If the method fails, the foll
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

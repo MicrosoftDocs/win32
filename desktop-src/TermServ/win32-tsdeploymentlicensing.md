@@ -268,7 +268,7 @@ Specifies whether to use deployment-wide licensing settings. **True** to use the
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                          |

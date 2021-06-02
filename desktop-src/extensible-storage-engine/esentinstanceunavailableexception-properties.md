@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceUnavailableException properties"
 title: EsentInstanceUnavailableException properties
 TOCTitle: EsentInstanceUnavailableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInstanceUnavailableException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInstanceUnavailableException](dn319441\(v=exchg.10\).md) type exposes the following members.
+The [EsentInstanceUnavailableException](./esentinstanceunavailableexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInstanceUnavailableException class](dn319441\(v=exchg.10\).md)
+[EsentInstanceUnavailableException class](./esentinstanceunavailableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

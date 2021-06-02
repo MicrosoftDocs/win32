@@ -1,5 +1,5 @@
 ---
-Description: WMI automatically registers the View Provider DLL during the WMI installation process. However, you still need to register the View Provider with WMI for each namespace that will contain view classes.
+description: WMI automatically registers the View Provider DLL during the WMI installation process. However, you still need to register the View Provider with WMI for each namespace that will contain view classes.
 ms.assetid: 62db8cdc-0bbf-4784-bfc4-6fd5cb53368a
 ms.tgt_platform: multiple
 title: Registering the View Provider

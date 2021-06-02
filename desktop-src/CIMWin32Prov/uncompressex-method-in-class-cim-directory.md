@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical directory entry file (or directory) specified in the object path. This method is an extended version of the Uncompress method and is inherited from CIM\_LogicalFile.
+description: Uncompresses the logical directory entry file (or directory) specified in the object path. This method is an extended version of the Uncompress method and is inherited from CIM\_LogicalFile.
 ms.assetid: ef5b7c90-5013-4ec0-bfa6-c32428ffb501
 ms.tgt_platform: multiple
 title: UncompressEx method of the CIM_Directory class
@@ -198,7 +198,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

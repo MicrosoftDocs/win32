@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Meta Parameters"
 title: Meta Parameters
 TOCTitle: Meta Parameters
 ms:assetid: 947e9342-7916-4e62-85e5-2d18805000c0
@@ -392,6 +393,5 @@ The following system parameters will be protected from being set when this param
 
 ### See Also
 
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)

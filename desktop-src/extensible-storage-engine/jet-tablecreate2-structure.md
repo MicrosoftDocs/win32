@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE2 Structure"
 title: JET_TABLECREATE2 Structure
 TOCTitle: JET_TABLECREATE2 Structure
 ms:assetid: 2029e684-0d10-44e7-8033-d9cdbdffd7a4
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_TABLECREATE2 Structure
 
-The **JET_TABLECREATE2** structure contains the information that is needed to create a table populated with columns and indexes in an ESE database, and that designates a callback function. The **JET_TABLECREATE2** structure is used by [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md).
+The **JET_TABLECREATE2** structure contains the information that is needed to create a table populated with columns and indexes in an ESE database, and that designates a callback function. The **JET_TABLECREATE2** structure is used by [JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md).
 
 **Windows XP:** The **JET_TABLECREATE2** structure is introduced in Windows XP.
 
@@ -87,29 +88,29 @@ The table density, in percentage points. The number must be either 0 or in the r
 
 **rgcolumncreate**
 
-An array of [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md) structures, each of which corresponds to a column to be created in the new table.
+An array of [JET_COLUMNCREATE](./jet-columncreate-structure.md) structures, each of which corresponds to a column to be created in the new table.
 
 **cColumns**
 
-the number of [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md) elements in **rgcolumncreate**.
+the number of [JET_COLUMNCREATE](./jet-columncreate-structure.md) elements in **rgcolumncreate**.
 
 **rgindexcreate**
 
-An array of [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structures, each of which corresponds to an index to be created in the new table.
+An array of [JET_INDEXCREATE](./jet-indexcreate-structure.md) structures, each of which corresponds to an index to be created in the new table.
 
 **cIndexes**
 
-The number of [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) elements in **rgindexcreate**.
+The number of [JET_INDEXCREATE](./jet-indexcreate-structure.md) elements in **rgindexcreate**.
 
 **szCallback**
 
 The function that gets called during certain events. **cbtyp** determines when the callback function will be called.
 
-The format of **szCallback** must be "module\!function"—for example, "alpha\!beta" refers to the beta function in the module named "alpha". The prototype of the function must match [JET_CALLBACK](gg294098\(v=exchg.10\).md). For more information, see [JET_CALLBACK](gg294098\(v=exchg.10\).md).
+The format of **szCallback** must be "module\!function"—for example, "alpha\!beta" refers to the beta function in the module named "alpha". The prototype of the function must match [JET_CALLBACK](./jet-callback-callback-function.md). For more information, see [JET_CALLBACK](./jet-callback-callback-function.md).
 
 **cbtyp**
 
-Describes the type of callback function designated by **szCallback**. For more information, see [JET_CBTYP](gg294071\(v=exchg.10\).md). This bitfield is composed of one or more of the following bits.
+Describes the type of callback function designated by **szCallback**. For more information, see [JET_CBTYP](./jet-cbtyp.md). This bitfield is composed of one or more of the following bits.
 
 <table>
 <colgroup>
@@ -205,7 +206,7 @@ A group of bits that contain the options for this call, which include zero or mo
 
 **tableid**
 
-An output field that holds the [JET_TABLEID](gg269182\(v=exchg.10\).md) of the new table if the API call succeeds. If the API call fails, the value is undefined.
+An output field that holds the [JET_TABLEID](./jet-tableid.md) of the new table if the API call succeeds. If the API call fails, the value is undefined.
 
 **cCreated**
 
@@ -243,15 +244,14 @@ The count of objects that is created is equal to the sum of columns, tables, and
 
 ### See Also
 
-[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCreateTable](gg269210\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)  
-[JetDefragment2](gg294095\(v=exchg.10\).md)
-
+[JET_CALLBACK](./jet-callback-callback-function.md)  
+[JET_CBTYP](./jet-cbtyp.md)  
+[JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-structure.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCreateTable](./jetcreatetable-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md)  
+[JetDefragment2](./jetdefragment2-function.md)

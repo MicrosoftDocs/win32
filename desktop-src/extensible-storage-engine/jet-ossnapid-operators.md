@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_OSSNAPID operators"
 title: JET_OSSNAPID operators
 TOCTitle: JET_OSSNAPID operators
 ms:assetid: 30e3519b-5ceb-150e-eaf2-d15c3133310b
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_OSSNAPID](hh558483\(v=exchg.10\).md) type exposes the following members.
+The [JET_OSSNAPID](./jet-ossnapid-structure.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_OSSNAPID structure](hh558483\(v=exchg.10\).md)
+[JET_OSSNAPID structure](./jet-ossnapid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

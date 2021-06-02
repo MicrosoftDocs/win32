@@ -1,5 +1,5 @@
 ---
-Description: Number of streaming threads using this pin.
+description: Number of streaming threads using this pin.
 ms.assetid: f8650a17-edab-4d69-91da-78107c3c60b9
 title: CDynamicOutputPin::m_dwNumOutstandingOutputPinUsers member (Amfilter.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ Before accessing this variable, hold the [**CDynamicOutputPin::m\_BlockStateLock
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

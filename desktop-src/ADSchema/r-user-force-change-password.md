@@ -21,7 +21,7 @@ Permits resetting a password on a user account.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | User-Force-Change-Password           |
 | Display-Name | Reset Password                       |
@@ -43,7 +43,7 @@ Permits resetting a password on a user account.
 
 
 
-|                         |                                                                             |
+| Entry | Value |
 |-------------------------|-----------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 3                                                                           |
@@ -54,7 +54,7 @@ Permits resetting a password on a user account.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 3                                                                                                                               |
@@ -65,7 +65,7 @@ Permits resetting a password on a user account.
 
 
 
-|                         |     |
+| Entry | Value |
 |-------------------------|-----|
 | Applies-To              | \-  |
 | Localization-Display-ID | 3   |
@@ -76,7 +76,7 @@ Permits resetting a password on a user account.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 3                                                                                                                               |
@@ -87,7 +87,7 @@ Permits resetting a password on a user account.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 3                                                                                                                               |
@@ -98,7 +98,7 @@ Permits resetting a password on a user account.
 
 
 
-|                         |                                                                                                                                                                                                                  |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 3                                                                                                                                                                                                                |
@@ -109,7 +109,7 @@ Permits resetting a password on a user account.
 
 
 
-|                         |                                                                                                                                                                                                                  |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 3                                                                                                                                                                                                                |

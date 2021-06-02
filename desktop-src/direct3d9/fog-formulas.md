@@ -1,5 +1,5 @@
 ---
-Description: C++ applications can control how fog affects the color of objects in a scene by changing how Microsoft Direct3D computes fog effects over distance.
+description: C++ applications can control how fog affects the color of objects in a scene by changing how Microsoft Direct3D computes fog effects over distance.
 ms.assetid: b7148ae8-45c7-4dbe-8295-0335c7fdeff0
 title: Fog Formulas (Direct3D 9)
 ms.topic: article

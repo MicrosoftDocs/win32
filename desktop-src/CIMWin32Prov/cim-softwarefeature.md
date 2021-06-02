@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_SoftwareFeature class represents a particular function or capability of a product or application system.
+description: The CIM\_SoftwareFeature class represents a particular function or capability of a product or application system.
 ms.assetid: 7beeb32c-d285-44f7-adeb-3b661d8ab037
 ms.tgt_platform: multiple
 title: CIM_SoftwareFeature class
@@ -320,7 +320,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

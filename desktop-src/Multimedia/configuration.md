@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Configuration
+# Configuration (Windows Multimedia)
 
 An installable driver can let users choose configuration settings for the driver and associated hardware by displaying a configuration dialog box when processing the [**DRV\_CONFIGURE**](drv-configure.md) message. The driver is responsible for creating and managing the dialog box, processing any user input from the dialog box, and changing the configuration of the driver or hardware as requested by the user. The driver must provide a separate dialog box procedure to process window messages for the dialog box and a dialog box template to define the appearance and content of the dialog box.
 

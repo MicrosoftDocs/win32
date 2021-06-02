@@ -1,7 +1,7 @@
 ---
-Description: Occurs after the IInkAnalyzer creates an IContextNode object.
+description: Occurs after the IInkAnalyzer creates an IContextNode object.
 ms.assetid: b4ba0d3b-da91-4cc7-b071-240155687b83
-title: '_IAnalysisProxyEvents::ContextNodeCreated event' (IACom.h)
+title: '_IAnalysisProxyEvents::ContextNodeCreated event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -70,7 +70,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

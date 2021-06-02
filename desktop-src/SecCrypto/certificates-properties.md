@@ -1,5 +1,5 @@
 ---
-Description: The Certificates object exposes the following properties.
+description: The Certificates object exposes the following properties.
 ms.assetid: 6D731417-90AC-400E-B481-83325CE8EB67
 title: Certificates Properties
 ms.topic: reference

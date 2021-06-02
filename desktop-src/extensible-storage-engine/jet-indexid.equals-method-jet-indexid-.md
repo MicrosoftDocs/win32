@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID.Equals method (JET_INDEXID)"
 title: JET_INDEXID.Equals method (JET_INDEXID)
 TOCTitle: Equals method (JET_INDEXID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXID.Equals(Microsoft.Isam.Esent.Interop.JET_INDEXID)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,7 +54,7 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](hh557060\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INDEXID](./jet-indexid-structure2.md)  
     
     An instance to compare with this instance.
 
@@ -70,10 +71,10 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_INDEXID structure](hh557060\(v=exchg.10\).md)
+[JET_INDEXID structure](./jet-indexid-structure2.md)
 
-[JET_INDEXID members](hh565743\(v=exchg.10\).md)
+[JET_INDEXID members](./jet-indexid-members.md)
 
-[Equals overload](hh557490\(v=exchg.10\).md)
+[Equals overload](./jet-indexid.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

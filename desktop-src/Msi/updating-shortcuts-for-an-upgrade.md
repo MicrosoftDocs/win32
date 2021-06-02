@@ -1,5 +1,5 @@
 ---
-Description: The sample upgrade package updates shortcuts to the new files and features.
+description: The sample upgrade package updates shortcuts to the new files and features.
 ms.assetid: 5a12932d-053d-49c3-9f06-0c122ca293d0
 title: Updating Shortcuts for an Upgrade
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Loads identity in the current matrix.
+description: ID3DXMATRIXStack::LoadIdentity method (D3DX10.h) - Loads identity in the current matrix.
 ms.assetid: 324b49c2-3aca-4bbb-90f3-62f3ffb2fa45
 title: ID3DXMATRIXStack::LoadIdentity method (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::LoadIdentity method
+# ID3DXMATRIXStack::LoadIdentity method (D3DX10.h)
 
 Loads identity in the current matrix.
 
@@ -47,7 +47,7 @@ The identity matrix is a matrix in which all coefficients are 0.0 except the \[1
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

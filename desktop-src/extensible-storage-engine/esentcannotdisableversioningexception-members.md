@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDisableVersioningException members"
 title: EsentCannotDisableVersioningException members
 TOCTitle: EsentCannotDisableVersioningException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotDisableVersioningException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CannotDisableVersioning exceptions.
 
-The [EsentCannotDisableVersioningException](dn274157\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotDisableVersioningException](./esentcannotdisableversioningexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCannotDisableVersioningException class](dn274157\(v=exchg.10\).md)
+[EsentCannotDisableVersioningException class](./esentcannotdisableversioningexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

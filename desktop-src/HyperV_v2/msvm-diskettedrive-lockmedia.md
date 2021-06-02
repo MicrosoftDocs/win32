@@ -1,5 +1,5 @@
 ---
-Description: Locks or releases the media.
+description: LockMedia method of the Msvm_DisketteDrive class - Locks or releases the media.
 ms.assetid: 90f7e06c-92d0-4742-a74d-68ae6bfc00bf
 title: LockMedia method of the Msvm_DisketteDrive class
 ms.topic: reference
@@ -57,7 +57,7 @@ Returns a 0 on success; otherwise, returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

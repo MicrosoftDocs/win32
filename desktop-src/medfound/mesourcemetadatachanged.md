@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media source when it updates its metadata.
+description: Raised by a media source when it updates its metadata.
 ms.assetid: 6818b0c9-9628-41e6-8dc6-dff26f4fcfd2
 title: MESourceMetadataChanged event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The media source should create a new presentation descriptor and copy all of the
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

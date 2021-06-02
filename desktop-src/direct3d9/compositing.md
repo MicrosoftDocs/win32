@@ -1,5 +1,5 @@
 ---
-Description: Your application can use the stencil buffer to composite 2D or 3D images onto a 3D scene.
+description: Your application can use the stencil buffer to composite 2D or 3D images onto a 3D scene.
 ms.assetid: 9233d15d-fa99-41a2-a253-22f5ae5bf788
 title: Compositing (Direct3D 9)
 ms.topic: article

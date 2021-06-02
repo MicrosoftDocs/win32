@@ -1,6 +1,6 @@
 ---
 title: BN_DOUBLECLICKED notification code (Winuser.h)
-description: Sent when the user double-clicks a button.
+description: BN_DOUBLECLICKED notification code - Sent when the user double-clicks a button.
 ms.assetid: 2fd7363a-5a02-453c-bfab-df5cbf8e42a5
 keywords:
 - BN_DOUBLECLICKED notification code Windows Controls
@@ -58,7 +58,7 @@ BN\_DOUBLECLICKED is the same as the [BN\_DBLCLK](bn-dblclk.md) notification cod
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

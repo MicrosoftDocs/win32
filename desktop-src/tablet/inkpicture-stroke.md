@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the user draws a new stroke on any tablet.
+description: InkPicture.Stroke event - Occurs when the user draws a new stroke on any tablet.
 ms.assetid: 2829b65a-6120-402e-91e3-5587d1f456f9
 title: InkPicture.Stroke event (Msinkaut.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The **Stroke** event occurs when in select or erase mode, not just when insertin
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

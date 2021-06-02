@@ -1,5 +1,5 @@
 ---
-Description: Contains the name of a wireless LAN policy.
+description: Contains the name of a wireless LAN policy.
 ms.assetid: 8b63c11d-3ae4-47e4-9255-a10fa175c55b
 title: name (WLANPolicy) Element
 ms.topic: reference
@@ -34,7 +34,7 @@ Names are not case-sensitive.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

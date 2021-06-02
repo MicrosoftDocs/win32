@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndDatabasesConsistentException constructor"
 title: EsentLogSequenceEndDatabasesConsistentException constructor 
 TOCTitle: 'EsentLogSequenceEndDatabasesConsistentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndDatabasesConsistentException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogSequenceEndDatabasesConsistentException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentLogSequenceEndDatabasesConsistentException()
 
 #### Reference
 
-[EsentLogSequenceEndDatabasesConsistentException class](dn334651\(v=exchg.10\).md)
+[EsentLogSequenceEndDatabasesConsistentException class](./esentlogsequenceenddatabasesconsistentexception-class.md)
 
-[EsentLogSequenceEndDatabasesConsistentException members](dn334597\(v=exchg.10\).md)
+[EsentLogSequenceEndDatabasesConsistentException members](./esentlogsequenceenddatabasesconsistentexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

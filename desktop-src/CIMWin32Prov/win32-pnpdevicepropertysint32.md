@@ -1,5 +1,5 @@
 ---
-Description: Represents a PnP device property of type Sint32.
+description: Represents a PnP device property of type Sint32.
 ms.assetid: ADD2AB86-C31C-4DD0-81C3-2B47B0DF7E1C
 ms.tgt_platform: multiple
 title: Win32_PnPDevicePropertySint32 class
@@ -497,7 +497,7 @@ The possible values are.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                          |

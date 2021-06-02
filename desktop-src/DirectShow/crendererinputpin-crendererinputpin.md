@@ -1,5 +1,5 @@
 ---
-Description: The CRendererInputPin method is a constructor method.
+description: The CRendererInputPin method is a constructor method.
 ms.assetid: 272f864e-d6a8-4a9e-b72f-892147db9970
 title: CRendererInputPin.CRendererInputPin constructor (Renbase.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Pointer to a wide-character string containing the pin identifier.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

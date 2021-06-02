@@ -1,5 +1,5 @@
 ---
-Description: Applications and services that can use Synchronization Manager.
+description: Applications and services that can use Synchronization Manager.
 title: Application Scenarios
 ms.topic: article
 ms.date: 05/31/2018

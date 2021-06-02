@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample. This method implements the IMediaSample::GetMediaType method.
+description: The GetMediaType method retrieves the media type, if the media type differs from the previous sample. This method implements the IMediaSample::GetMediaType method.
 ms.assetid: a7850381-d448-4bf6-b059-d734fb3e8e22
 title: CMediaSample.GetMediaType method (Amfilter.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The [**CMediaSample::m\_pMediaType**](cmediasample-m-pmediatype.md) member varia
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

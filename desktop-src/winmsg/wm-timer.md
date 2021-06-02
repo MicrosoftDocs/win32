@@ -1,5 +1,5 @@
 ---
-Description: Posted to the installing thread's message queue when a timer expires. The message is posted by the GetMessage or PeekMessage function.
+description: Posted to the installing thread's message queue when a timer expires. The message is posted by the GetMessage or PeekMessage function.
 ms.assetid: 419e3f05-35ec-4e48-b24d-ab98df687b20
 title: WM_TIMER message (Winuser.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The **WM\_TIMER** message is a low-priority message. The [**GetMessage**](/windo
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

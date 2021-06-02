@@ -1,5 +1,5 @@
 ---
-Description: Specifies the display name used for the shortcut created on the taskbar when the user chooses to pin an application to the taskbar or launch a new instance through its button's Jump List.
+description: Specifies the display name used for the shortcut created on the taskbar when the user chooses to pin an application to the taskbar or launch a new instance through its button's Jump List.
 ms.assetid: a149838b-83b6-44ce-b705-e2804efb3d31
 title: System.AppUserModel.RelaunchDisplayNameResource
 ms.topic: article

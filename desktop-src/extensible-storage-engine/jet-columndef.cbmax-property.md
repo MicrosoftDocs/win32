@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF.cbMax property"
 title: JET_COLUMNDEF.cbMax property 
 TOCTitle: 'cbMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF.cbMax
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_COLUMNDEF.cbMax property
 
-Gets or sets the maximum length of the column. This is only meaningful for columns of type [Text](hh577895\(v=exchg.10\).md), [LongText](hh577895\(v=exchg.10\).md), [Binary](hh577895\(v=exchg.10\).md) and [LongBinary](hh577895\(v=exchg.10\).md).
+Gets or sets the maximum length of the column. This is only meaningful for columns of type [Text](./jet-coltyp-enumeration.md), [LongText](./jet-coltyp-enumeration.md), [Binary](./jet-coltyp-enumeration.md) and [LongBinary](./jet-coltyp-enumeration.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_COLUMNDEF class](dn335038\(v=exchg.10\).md)
+[JET_COLUMNDEF class](./jet-columndef-class.md)
 
-[JET_COLUMNDEF members](dn335075\(v=exchg.10\).md)
+[JET_COLUMNDEF members](./jet-columndef-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

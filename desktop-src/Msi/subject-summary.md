@@ -1,5 +1,5 @@
 ---
-Description: The value of the Subject Summary property conveys the name of the product, transform, or patch that is installed by the package.
+description: The value of the Subject Summary property conveys the name of the product, transform, or patch that is installed by the package.
 ms.assetid: fb08a240-db30-477f-8dc0-701156d73cfc
 title: Subject Summary property
 ms.topic: reference
@@ -20,7 +20,7 @@ It is up to the author of an installation database, transform, or patch package 
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

@@ -15,7 +15,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Authentication
+# Authentication (Windows Media Format 11 SDK)
 
 The reader object can handle network authentication challenges, including digest authentication and NTLM authentication. In some cases the application must provide the user's credentials through a callback interface:
 

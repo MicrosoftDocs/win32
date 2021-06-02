@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileIOBeyondEOFException properties"
 title: EsentFileIOBeyondEOFException properties
 TOCTitle: EsentFileIOBeyondEOFException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFileIOBeyondEOFException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFileIOBeyondEOFException](dn274354\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileIOBeyondEOFException](./esentfileiobeyondeofexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentFileIOBeyondEOFException class](dn274354\(v=exchg.10\).md)
+[EsentFileIOBeyondEOFException class](./esentfileiobeyondeofexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

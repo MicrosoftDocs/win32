@@ -1,5 +1,5 @@
 ---
-Description: Current version of the set of pins on this filter.
+description: Current version of the set of pins on this filter.
 ms.assetid: c748d62a-a725-43a0-b5f4-b14ae9e6ef2c
 title: CBaseFilter::m_PinVersion member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ long m_PinVersion;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

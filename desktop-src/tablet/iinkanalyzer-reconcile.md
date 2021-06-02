@@ -1,5 +1,5 @@
 ---
-Description: Applies the results of a background ink analysis operation to the context node tree for the portions of the tree that have not been modified by the application since the call to IInkAnalyzer::BackgroundAnalyze Method.
+description: Applies the results of a background ink analysis operation to the context node tree for the portions of the tree that have not been modified by the application since the call to IInkAnalyzer::BackgroundAnalyze Method.
 ms.assetid: 60e15d4f-6e81-48b9-b7f3-97d2de5c0c1c
 title: IInkAnalyzer::Reconcile method (IACom.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ For more information about using the to analyze ink, see [Ink Analysis Overview]
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

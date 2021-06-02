@@ -1,5 +1,5 @@
 ---
-Description: Sent to the CPlApplet function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
+description: Sent to the CPlApplet function of a Control Panel application when the user double-clicks the icon of a dialog box supported by the application.
 title: CPL_DBLCLK message (Cpl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ In response to this message, a Control Panel application must display the corres
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                             |

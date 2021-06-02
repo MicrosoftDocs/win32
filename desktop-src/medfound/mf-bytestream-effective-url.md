@@ -1,5 +1,5 @@
 ---
-Description: Gets the effective URL of a byte stream.
+description: Gets the effective URL of a byte stream.
 ms.assetid: 0A83CFC0-7EAA-464B-BA39-50DF220AF683
 title: MF_BYTESTREAM_EFFECTIVE_URL attribute (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The effective URL can differ from the original URL if the original URL contains 
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                            |

@@ -660,7 +660,7 @@ See [ALE Layers](ale-layers.md) for more information.
 
 ## Remarks
 
-These filtering layer identifiers are also referred to as management filtering layer identifiers. WFP API also contains a set of [run-time filtering layer identifiers](https://msdn.microsoft.com/library/ff549947.aspx), documented in the Windows Driver Kit (WDK). Run-time filtering layer identifiers are LUIDs, and therefore are smaller, only 64 bits in size, compared to the management filtering layer identifiers, which are 128 bits in size.
+These filtering layer identifiers are also referred to as management filtering layer identifiers. WFP API also contains a set of [run-time filtering layer identifiers](/windows-hardware/drivers/network/management-filtering-layer-identifiers), documented in the Windows Driver Kit (WDK). Run-time filtering layer identifiers are LUIDs, and therefore are smaller, only 64 bits in size, compared to the management filtering layer identifiers, which are 128 bits in size.
 
 Management filtering layer identifiers and run-time filtering layer identifiers point to the same layers.
 
@@ -672,7 +672,7 @@ Run-time filtering layer identifiers are used by functions that interact with th
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |
@@ -689,6 +689,4 @@ Run-time filtering layer identifiers are used by functions that interact with th
 
 [WFP Architecture](windows-filtering-platform-architecture-overview.md)
 </dt> </dl>
-
- 
 

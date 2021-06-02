@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DataFile class exposes the following methods.
+description: The CIM\_DataFile class exposes the following methods.
 ms.assetid: 5BCAB342-B42C-4507-AB90-0C9E79F9D863
 ms.tgt_platform: multiple
 title: CIM_DataFile Methods

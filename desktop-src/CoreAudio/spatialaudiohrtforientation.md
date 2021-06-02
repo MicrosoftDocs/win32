@@ -1,5 +1,5 @@
 ---
-Description: Represents the orientation of an ISpatialAudioObjectForHrtf.
+description: Represents the orientation of an ISpatialAudioObjectForHrtf.
 ms.assetid: BDC1C409-F461-4903-A411-3F0647C59DBA
 title: SpatialAudioHrtfOrientation (Spatialaudiohrtf.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ A row-major 3x3 rotation matrix.
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Spatialaudiohrtf.h</dt> </dl> |
 

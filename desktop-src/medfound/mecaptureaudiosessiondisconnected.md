@@ -1,5 +1,5 @@
 ---
-Description: Sent by an audio capture source when the audio dession is disconnected because the user logged off from a Windows Terminal Services (WTS) session.
+description: Sent by an audio capture source when the audio dession is disconnected because the user logged off from a Windows Terminal Services (WTS) session.
 ms.assetid: 88B24E79-FEB8-46AF-9A6C-3FB426089584
 title: MECaptureAudioSessionDisconnected event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The capture source sends this event when it receives an [**IAudioSessionEvents::
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

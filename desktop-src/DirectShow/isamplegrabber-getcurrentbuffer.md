@@ -1,5 +1,5 @@
 ---
-Description: The GetCurrentBuffer method retrieves a copy of the buffer associated with the most recent sample.
+description: The GetCurrentBuffer method retrieves a copy of the buffer associated with the most recent sample.
 ms.assetid: 08550c82-4711-4725-9cd0-19b43cf4c92e
 title: ISampleGrabber::GetCurrentBuffer method (Qedit.h)
 ms.topic: reference
@@ -100,7 +100,7 @@ The filter does not buffer preroll samples, or samples in which the **dwStreamId
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

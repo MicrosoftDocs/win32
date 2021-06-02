@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DCOMApplicationSetting class exposes the following methods.
+description: The Win32\_DCOMApplicationSetting class exposes the following methods.
 ms.assetid: E20E0998-B895-4137-B7F5-10F700A121FF
 ms.tgt_platform: multiple
 title: Win32_DCOMApplicationSetting Methods

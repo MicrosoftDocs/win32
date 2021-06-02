@@ -1,5 +1,5 @@
 ---
-Description: Requests a new input sample from the Enhanced Video Renderer (EVR) filter.
+description: Requests a new input sample from the Enhanced Video Renderer (EVR) filter.
 ms.assetid: f1bf32ba-ecb7-435f-aefc-f60fdd355620
 title: EC_SAMPLE_NEEDED (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The mixer for the EVR filter sends this message when it needs a new input sample
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: COPP Query Reference
+description: COPP Query Reference
 ms.assetid: 11eb1443-857d-4516-a5cb-c3cc02a5eba4
 title: COPP Query Reference
 ms.topic: article

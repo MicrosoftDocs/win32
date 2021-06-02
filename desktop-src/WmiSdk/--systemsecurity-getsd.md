@@ -1,5 +1,5 @@
 ---
-Description: Gets the security descriptor for the namespace to which the user is connected. This method returns a security descriptor in binary byte array format. If you are writing a script, use the GetSecurityDescriptor method.
+description: Gets the security descriptor for the namespace to which the user is connected. This method returns a security descriptor in binary byte array format. If you are writing a script, use the GetSecurityDescriptor method.
 ms.assetid: aeac1e7b-fcb8-4880-afd1-4950da37602b
 ms.tgt_platform: multiple
 title: GetSD method of the __SystemSecurity class
@@ -113,7 +113,7 @@ WScript.Echo DisplaySD
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

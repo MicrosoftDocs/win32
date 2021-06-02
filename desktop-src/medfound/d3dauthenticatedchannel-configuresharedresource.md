@@ -1,5 +1,5 @@
 ---
-Description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_SHAREDRESOURCE command.
+description: Contains input data for a D3DAUTHENTICATEDCONFIGURE\_SHAREDRESOURCE command.
 ms.assetid: bdeb0cc4-90f0-4174-a859-4b3fecb17bab
 title: D3DAUTHENTICATEDCHANNEL_CONFIGURESHAREDRESOURCE structure (D3d9types.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If **TRUE**, the specified process has access to restricted shared resources.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

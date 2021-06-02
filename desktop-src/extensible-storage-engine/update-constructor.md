@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Update constructor"
 title: Update constructor 
 TOCTitle: 'Update constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Update.#ctor(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_prep)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the Update class. This automatically begins an update. The update will be cancelled if not explicitly saved.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,21 +63,21 @@ public Update(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to start the transaction for.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The tableid to prepare the update for.
 
 <!-- end list -->
 
   - prep  
-    Type: [Microsoft.Isam.Esent.Interop.JET_prep](hh557183\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_prep](./jet-prep-enumeration.md)  
     
     The type of update.
 
@@ -84,9 +85,8 @@ public Update(
 
 #### Reference
 
-[Update class](dn351191\(v=exchg.10\).md)
+[Update class](./update-class.md)
 
-[Update members](dn351259\(v=exchg.10\).md)
+[Update members](./update-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

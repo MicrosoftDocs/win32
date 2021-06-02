@@ -22,7 +22,7 @@ A string that identifies an object in an external store, such as a record in a d
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-External-Key                          |
 | Ldap-Display-Name | msDS-ExternalKey                            |
@@ -47,7 +47,7 @@ A string that identifies an object in an external store, such as a record in a d
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -68,7 +68,7 @@ A string that identifies an object in an external store, such as a record in a d
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -89,7 +89,7 @@ A string that identifies an object in an external store, such as a record in a d
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -110,7 +110,7 @@ A string that identifies an object in an external store, such as a record in a d
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -131,7 +131,7 @@ A string that identifies an object in an external store, such as a record in a d
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

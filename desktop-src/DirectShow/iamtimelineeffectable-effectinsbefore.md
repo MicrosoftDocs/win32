@@ -1,5 +1,5 @@
 ---
-Description: The EffectInsBefore method inserts an effect into the object at the specified priority level.
+description: The EffectInsBefore method inserts an effect into the object at the specified priority level.
 ms.assetid: 6c98e24a-5bac-4273-ae3c-2ab3c9d9465b
 title: IAMTimelineEffectable::EffectInsBefore method (Qedit.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The start and stop times of the effect are clipped within the bounds of the obje
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of OID objects.
+description: Represents a collection of OID objects.
 ms.assetid: 2c4ff87a-58e1-46aa-9680-29062b05308c
 title: OIDs object
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # OIDs object
 
-\[The **OIDs** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **OIDs** object is available for use in the operating systems specified in the Requirements section. Instead, use the [**OidCollection Class**](/dotnet/api/system.security.cryptography.oidcollection?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **OIDs** object represents a collection of [**OID**](oid.md) objects. Each [**OID**](oid.md) object represents a single object identifier.
 
@@ -83,7 +83,7 @@ The **OIDs** object is used by the following properties:
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

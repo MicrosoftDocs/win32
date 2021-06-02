@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # User Interface Text
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 User interface text appears on UI surfaces. This text includes control labels and static text:
 
@@ -30,7 +30,7 @@ UI text has several usage patterns:
 | **Main instructions**<br/> use the prominent main instruction to explain concisely what to do in the window or page. <br/>                                                      | The instruction should be a specific statement, imperative direction, or question. good main instructions communicate the user's objective rather than focusing just on manipulating the ui. <br/> ![screen shot of question: do you want latest help? ](images/text-ui-image2.png)<br/> In this example, the main instruction text directly engages the user with a question in terms of the user's own benefit or interest.<br/>             |
 | **Supplemental instructions**<br/> when necessary, use a supplemental instruction to present additional information helpful to understanding or using the window or page. <br/> | You can provide more detailed information, provide context, and define terminology. supplemental instructions elaborate on the main instruction without simply re-wording it. <br/> ![screen shot of text on switching to admin account ](images/text-ui-image3.png)<br/> In this example, the supplemental instructions provide two possible courses of action to take in response to the information presented in the main instruction.<br/> |
 | **Control labels**<br/> labels directly on or next to controls. <br/>                                                                                                           | ![screen shot of desktop clock options ](images/text-ui-image4.png)<br/> In this example, control labels identify desktop clock settings that users can select or modify.<br/>                                                                                                                                                                                                                                                                       |
-| **Supplemental explanations**<br/> an elaboration of the control labels (typically for command links, radio buttons, and check boxes). <br/>                                    | ![screen shot of security-settings dialog box ](images/text-ui-image5.png)<br/> In this example, the supplemental explanations clarify the choices.<br/>                                                                                                                                                                                                                                                                                             |
+| **Supplemental explanations**<br/> an elaboration of the control labels (typically for command links, radio buttons, and check boxes). <br/>                                    | ![Screenshot that shows a security-settings dialog box.](images/text-ui-image5.png)<br/> In this example, the supplemental explanations clarify the choices.<br/>                                                                                                                                                                                                                                                                                             |
 
 
 
@@ -138,9 +138,8 @@ The following fonts and colors are defaults for Windows.
 
 
 
-|                                                                                      |                             |                                                            |
+| Pattern                                                                                     | Theme symbol                            | Font, Color                                                           |
 |--------------------------------------------------------------------------------------|-----------------------------|------------------------------------------------------------|
-| **Pattern**<br/>                                                               | **Theme symbol**<br/> | **Font, Color**<br/>                                 |
 | ![first column: title bar text ](images/text-ui-image12.png)<br/>              | CaptionFont<br/>      | 9 pt. black (\#000000) Segoe UI<br/>                 |
 | ![first column: main instructions ](images/text-ui-image13.png)<br/>           | MainInstruction<br/>  | 12 pt. blue (\#003399) Segoe UI<br/>                 |
 | ![first column: secondary instructions ](images/text-ui-image14.png)<br/>      | Instruction<br/>      | 9 pt. black (\#000000) Segoe UI<br/>                 |
@@ -613,8 +612,6 @@ The following table shows the most common commit button labels and their usage.
 </table>
 
 
-
- 
 
  
 

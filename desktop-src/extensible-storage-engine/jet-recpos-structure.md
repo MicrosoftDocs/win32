@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS Structure"
 title: JET_RECPOS Structure
 TOCTitle: JET_RECPOS Structure
 ms:assetid: 7c335120-4b84-4095-8f13-e5315d4996b1
@@ -39,7 +40,7 @@ The **JET_RECPOS** structure contains a collection of integers that represent a 
 
 **cbStruct**
 
-The size of the [JET_RETINFO](gg294049\(v=exchg.10\).md) structure, in bytes. This value confirms the presence of the following fields.
+The size of the [JET_RETINFO](./jet-retinfo-structure.md) structure, in bytes. This value confirms the presence of the following fields.
 
 **centriesLT**
 
@@ -79,6 +80,5 @@ The approximate number of entries in the index.
 
 ### See Also
 
-[JET_RETINFO](gg294049\(v=exchg.10\).md)  
-[JetGetRecordPosition](gg269316\(v=exchg.10\).md)
-
+[JET_RETINFO](./jet-retinfo-structure.md)  
+[JetGetRecordPosition](./jetgetrecordposition-function.md)

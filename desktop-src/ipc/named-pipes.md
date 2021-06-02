@@ -1,5 +1,5 @@
 ---
-Description: A named pipe is a named, one-way or duplex pipe for communication between the pipe server and one or more pipe clients.
+description: A named pipe is a named, one-way or duplex pipe for communication between the pipe server and one or more pipe clients.
 ms.assetid: 7a4c11ac-14c0-4a93-b72e-02fb8852cc15
 title: Named Pipes
 ms.topic: article

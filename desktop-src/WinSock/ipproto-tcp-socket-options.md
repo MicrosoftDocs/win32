@@ -1,5 +1,5 @@
 ---
-Description: The following table describes IPPROTO\_TCP socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the protocol parameter to the socket function specified as TCP (IPPROTO\_TCP).
+description: The following table describes IPPROTO\_TCP socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the protocol parameter to the socket function specified as TCP (IPPROTO\_TCP).
 ms.assetid: 2a10498d-0a0b-4a2d-941e-9aa45a1a4428
 title: IPPROTO_TCP socket options
 ms.topic: article
@@ -152,6 +152,6 @@ In the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Header | <dl> <dt>Ws2def.h (include Winsock2.h); </dt> <dt>Winsock2.h on Windows Server 2003, Windows XP and Windows 2000</dt> </dl> |

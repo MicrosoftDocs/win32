@@ -1,5 +1,5 @@
 ---
-Description: Sending and receiving PGM data is similar to sending or receiving data on any socket. There are considerations specific to PGM, outlined in the following paragraphs.
+description: Sending and receiving PGM data is similar to sending or receiving data on any socket. There are considerations specific to PGM, outlined in the following paragraphs.
 ms.assetid: 51b447ad-b6da-424b-91df-e5be9ce225a5
 title: Sending and Receiving PGM Data
 ms.topic: article

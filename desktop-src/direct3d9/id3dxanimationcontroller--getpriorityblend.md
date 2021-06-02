@@ -1,5 +1,5 @@
 ---
-Description: Gets the current priority blending weight used by the animation controller.
+description: Gets the current priority blending weight used by the animation controller.
 ms.assetid: ceaf611e-e85b-4958-b8ac-7e60b98b1aad
 title: ID3DXAnimationController::GetPriorityBlend method (D3dx9anim.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The priority blending weight is used to blend high and low priority tracks toget
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

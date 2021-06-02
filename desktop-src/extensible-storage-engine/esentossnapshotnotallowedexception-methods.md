@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOSSnapshotNotAllowedException methods"
 title: EsentOSSnapshotNotAllowedException methods
 TOCTitle: EsentOSSnapshotNotAllowedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOSSnapshotNotAllowedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOSSnapshotNotAllowedException](dn319702\(v=exchg.10\).md) type exposes the following members.
+The [EsentOSSnapshotNotAllowedException](./esentossnapshotnotallowedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentOSSnapshotNotAllowedException class](dn319702\(v=exchg.10\).md)
+[EsentOSSnapshotNotAllowedException class](./esentossnapshotnotallowedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

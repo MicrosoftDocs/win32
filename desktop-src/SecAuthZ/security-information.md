@@ -1,5 +1,5 @@
 ---
-Description: Identifies the object-related security information being set or queried.
+description: Identifies the object-related security information being set or queried.
 ms.assetid: e3e8b35d-9d18-4611-a898-72ca13e40d33
 title: SECURITY_INFORMATION (Winnt.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Each item of security information is designated by a bit flag. Each bit flag can
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

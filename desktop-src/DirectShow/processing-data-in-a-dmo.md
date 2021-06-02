@@ -1,5 +1,5 @@
 ---
-Description: Processing Data in a DMO
+description: Processing Data in a DMO
 ms.assetid: 715482d9-23f4-40d0-9c09-7a81e148c543
 title: Processing Data in a DMO
 ms.topic: article

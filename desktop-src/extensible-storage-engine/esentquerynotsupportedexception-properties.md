@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentQueryNotSupportedException properties"
 title: EsentQueryNotSupportedException properties
 TOCTitle: EsentQueryNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentQueryNotSupportedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentQueryNotSupportedException](dn319805\(v=exchg.10\).md) type exposes the following members.
+The [EsentQueryNotSupportedException](./esentquerynotsupportedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentQueryNotSupportedException class](dn319805\(v=exchg.10\).md)
+[EsentQueryNotSupportedException class](./esentquerynotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

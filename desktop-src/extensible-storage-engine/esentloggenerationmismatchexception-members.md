@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogGenerationMismatchException members"
 title: EsentLogGenerationMismatchException members
 TOCTitle: EsentLogGenerationMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogGenerationMismatch exceptions.
 
-The [EsentLogGenerationMismatchException](dn334564\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogGenerationMismatchException](./esentloggenerationmismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogGenerationMismatchException class](dn334564\(v=exchg.10\).md)
+[EsentLogGenerationMismatchException class](./esentloggenerationmismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMFLOAT4.
+description: Constructors exposed by XMFLOAT4.
 ms.assetid: 889c715b-6342-4766-9c69-62e87c440d42
 title: XMFLOAT4 constructors (Directxmath.h)
 ms.date: 07/02/2019
@@ -69,7 +69,7 @@ This constructor is only available under C++.
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Directxmath.h</dt> </dl> |
 

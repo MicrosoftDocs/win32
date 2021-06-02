@@ -1,5 +1,5 @@
 ---
-Description: Initiates a data download to the caller.
+description: Initiates a data download to the caller.
 ms.assetid: e639fabb-2c13-4009-affa-1c2b06c0d4c8
 title: IWiaTransfer::Download method (Wia.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ If a folder is downloaded, then all the child items of that folder are also tran
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

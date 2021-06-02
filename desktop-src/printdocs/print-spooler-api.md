@@ -1,5 +1,5 @@
 ---
-Description: The Print Spooler API provides an interface to the print spooler for applications to manage printers and print jobs.
+description: The Print Spooler API provides an interface to the print spooler for applications to manage printers and print jobs.
 ms.assetid: b6cc0c9d-9f28-4e80-b847-39c72d98bed6
 title: Print Spooler API
 ms.topic: article

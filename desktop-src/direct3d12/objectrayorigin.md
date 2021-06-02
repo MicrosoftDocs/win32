@@ -1,5 +1,5 @@
 ---
-Description: The object-space origin for the current ray.  
+description: The object-space origin for the current ray.
 ms.assetid: 
 title: ObjectRayOrigin
 ms.localizationpriority: low

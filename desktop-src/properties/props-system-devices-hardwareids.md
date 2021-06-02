@@ -1,5 +1,5 @@
 ---
-Description: Hardware Ids.
+description: Hardware Ids.
 ms.assetid: b2e2656d-a5f9-4ba6-8ad6-065867bfdf99
 title: System.Devices.HardwareIds
 ms.topic: article

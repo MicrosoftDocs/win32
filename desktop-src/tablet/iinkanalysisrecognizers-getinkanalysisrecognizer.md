@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IInkAnalysisRecognizer at the specified index.
+description: Retrieves the IInkAnalysisRecognizer at the specified index.
 ms.assetid: e4db56c6-7c15-4336-bc0a-f50222c3520e
 title: IInkAnalysisRecognizers::GetInkAnalysisRecognizer method (IACom.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

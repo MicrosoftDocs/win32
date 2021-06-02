@@ -1,5 +1,5 @@
 ---
-Description: Contains the description of a wired LAN policy.
+description: Contains the description of a wired LAN policy.
 ms.assetid: afd282cf-b6cc-4b32-9f3a-293c1a1a3ea0
 title: description (LANPolicy) Element
 ms.topic: reference
@@ -30,7 +30,7 @@ The **description** element is defined by the [**LANPolicy**](lan-policyschema-l
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

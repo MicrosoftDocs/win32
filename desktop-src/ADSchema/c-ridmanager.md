@@ -22,7 +22,7 @@ Contains the RID FSMO and the RID-Available-Pool location used by the RID Manage
 
 
 
-|                   |                                           |
+| Entry | Value |
 |-------------------|-------------------------------------------|
 | CN                | RID-Manager                               |
 | Ldap-Display-Name | rIDManager                                |
@@ -48,7 +48,7 @@ Contains the RID FSMO and the RID-Available-Pool location used by the RID Manage
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                         |
 | Object-Category             | 1                                                                                            |
@@ -169,7 +169,7 @@ This class contains the following extended rights for Windows 2000 Server:
 
 
 
-|                             |                                                                                                                 |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                                            |
 | Object-Category             | 1                                                                                                               |
@@ -308,7 +308,7 @@ This class contains the following extended rights for Windows Server 2003:
 
 
 
-|                             |                                                                                                                 |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                                            |
 | Object-Category             | 1                                                                                                               |
@@ -450,7 +450,7 @@ This class contains the following extended rights for Windows Server 2003 R2:
 
 
 
-|                             |                                                                                                                 |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                                            |
 | Object-Category             | 1                                                                                                               |
@@ -603,7 +603,7 @@ This class contains the following extended rights for Windows Server 2008:
 
 
 
-|                             |                                                                                                                 |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                                            |
 | Object-Category             | 1                                                                                                               |
@@ -763,7 +763,7 @@ This class contains the following extended rights for Windows Server 2008 R2:
 
 
 
-|                             |                                                                                                                 |
+| Entry | Value |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------|
 | System-Only                 | True                                                                                                            |
 | Object-Category             | 1                                                                                                               |

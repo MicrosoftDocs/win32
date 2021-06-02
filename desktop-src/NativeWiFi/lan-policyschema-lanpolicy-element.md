@@ -1,5 +1,5 @@
 ---
-Description: Contains a wired LAN policy.
+description: Contains a wired LAN policy.
 ms.assetid: c06bdbc4-4199-4eec-a22f-684745912970
 title: LANPolicy Element
 ms.topic: reference
@@ -92,7 +92,7 @@ To view the list of child elements in a tree-like structure, see [LAN\_policy Sc
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

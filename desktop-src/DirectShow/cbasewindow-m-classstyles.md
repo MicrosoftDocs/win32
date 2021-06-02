@@ -1,5 +1,5 @@
 ---
-Description: Class styles for the window.
+description: Class styles for the window.
 ms.assetid: 2bf70b7e-c585-4511-aed5-e6d1b087dd74
 title: CBaseWindow::m_ClassStyles member (Winutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ DWORD m_ClassStyles;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

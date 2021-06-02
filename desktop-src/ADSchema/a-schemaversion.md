@@ -22,7 +22,7 @@ The version number for the schema.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Schema-Version                       |
 | Ldap-Display-Name | schemaVersion                        |
@@ -49,7 +49,7 @@ The version number for the schema.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | 0x817C                                      |
@@ -70,7 +70,7 @@ The version number for the schema.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | 0x817C                                      |
@@ -91,7 +91,7 @@ The version number for the schema.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | 0x817C                                      |
@@ -112,7 +112,7 @@ The version number for the schema.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | 0x817C                                      |
@@ -133,7 +133,7 @@ The version number for the schema.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | 0x817C                                      |
@@ -154,7 +154,7 @@ The version number for the schema.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | 0x817C                                      |
@@ -175,7 +175,7 @@ The version number for the schema.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | 0x817C                                      |

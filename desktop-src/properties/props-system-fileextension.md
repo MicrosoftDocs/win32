@@ -1,5 +1,5 @@
 ---
-Description: Identifies the file extension of the file-based item, including the leading period.
+description: Identifies the file extension of the file-based item, including the leading period.
 ms.assetid: b72c695e-bdbd-471d-b902-9e30a62facd4
 title: System.FileExtension
 ms.topic: article

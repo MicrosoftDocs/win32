@@ -1,5 +1,5 @@
 ---
-Description: The CountPrefixBits method calculates the number of zero bits at the start of a specified bit field.
+description: The CountPrefixBits method calculates the number of zero bits at the start of a specified bit field.
 ms.assetid: 36fc5c5f-dc64-4588-9130-1b0740d03be1
 title: CImageDisplay.CountPrefixBits method (Winutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method is useful for working with color masks in [**VIDEOINFO**](/previous-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

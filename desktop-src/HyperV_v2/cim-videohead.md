@@ -1,5 +1,5 @@
 ---
-Description: Represents one head of a CIM\_DisplayController object.
+description: Represents one head of a CIM\_DisplayController object.
 ms.assetid: 2bb034d9-d1df-4cc8-a6a8-b6ad7289f582
 title: CIM_VideoHead class
 ms.topic: reference
@@ -279,7 +279,7 @@ A description of current scan mode when the **CurrentScanMode** property is "1" 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

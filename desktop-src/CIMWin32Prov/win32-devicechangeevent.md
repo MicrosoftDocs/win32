@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_DeviceChangeEvent abstract WMI class represents device change events that result from the addition, removal, or modification of devices on the computer system.
+description: The Win32\_DeviceChangeEvent abstract WMI class represents device change events that result from the addition, removal, or modification of devices on the computer system.
 ms.assetid: 78155357-4231-4ded-980e-89feeb864ef2
 ms.tgt_platform: multiple
 title: Win32_DeviceChangeEvent class
@@ -133,7 +133,7 @@ The **Win32\_DeviceChangeEvent** is an abstract class derived from [**\_\_Extrin
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

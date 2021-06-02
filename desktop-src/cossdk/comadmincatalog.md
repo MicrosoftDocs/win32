@@ -1,5 +1,5 @@
 ---
-Description: Accesses the data that is stored in the COM+ catalog.
+description: Accesses the data that is stored in the COM+ catalog.
 ms.assetid: d77123f6-9821-4c80-860c-5f1feaca7987
 title: COMAdminCatalog class (ComAdmin.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                                                                                   |
+| Requirement | Value |
 |------------|-------------------------------------------------------------------------------------------------------------------|
 | CLSID      | CLSID\_COMAdminCatalog                                                                                            |
 | ProgID     | L"COMAdmin.COMAdminCatalog"                                                                                       |
@@ -59,7 +59,7 @@ In COM+ 1.5, released with Windows XP, the **COMAdminCatalog** class implements 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

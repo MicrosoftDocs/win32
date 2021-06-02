@@ -1,5 +1,5 @@
 ---
-Description: Defines a pair of 802.11 authentication and cipher algorithms that can be enabled at the same time on the 802.11 station.
+description: Defines a pair of 802.11 authentication and cipher algorithms that can be enabled at the same time on the 802.11 station.
 ms.assetid: 5fbe23f6-7902-46d4-a1f0-57f045d78662
 title: DOT11_AUTH_CIPHER_PAIR structure (Wlantypes.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The DOT11\_AUTH\_CIPHER\_PAIR structure defines an authentication and cipher alg
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                        |

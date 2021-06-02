@@ -1,5 +1,5 @@
 ---
-Description: The LINETRANSFERMODE\_ bit-flag constants describe different ways of resolving call transfer requests.
+description: The LINETRANSFERMODE\_ bit-flag constants describe different ways of resolving call transfer requests.
 ms.assetid: 0a01131f-b63c-45ef-a0a9-17d69a0dacf9
 title: LINETRANSFERMODE_ Constants (Tapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ No extensibility. All 32 bits are reserved.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

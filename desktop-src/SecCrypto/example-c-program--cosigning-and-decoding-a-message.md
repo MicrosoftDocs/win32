@@ -1,5 +1,5 @@
 ---
-Description: You can use the CryptSignMessage function to cosign a message.
+description: You can use the CryptSignMessage function to cosign a message.
 ms.assetid: b400436f-a71f-426a-ac8a-7fdcfa6d7575
 title: 'Example C Program: Cosigning and Decoding a Message'
 ms.topic: article

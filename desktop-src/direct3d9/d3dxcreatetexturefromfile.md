@@ -1,5 +1,5 @@
 ---
-Description: Creates a texture from a file.
+description: Creates a texture from a file.
 ms.assetid: 247b0ee2-ee31-4090-b94c-41951b46675f
 title: D3DXCreateTextureFromFile function (D3dx9tex.h)
 ms.topic: reference
@@ -95,7 +95,7 @@ For the best performance when using **D3DXCreateTextureFromFile**:
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

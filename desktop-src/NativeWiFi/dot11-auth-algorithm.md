@@ -1,5 +1,5 @@
 ---
-Description: Defines a wireless LAN authentication algorithm.
+description: Defines a wireless LAN authentication algorithm.
 ms.assetid: ac4097df-46dc-4c64-b72a-7cb9dce8b418
 title: DOT11_AUTH_ALGORITHM enumeration (Wlantypes.h)
 ms.topic: reference
@@ -129,7 +129,7 @@ The **DOT11\_AUTH\_ALGO\_IHV\_END** enumerator is valid only when the miniport d
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                        |

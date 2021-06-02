@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int32ColumnValue constructor"
 title: Int32ColumnValue constructor 
 TOCTitle: 'Int32ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Int32ColumnValue.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # Int32ColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public Int32ColumnValue()
 
 #### Reference
 
-[Int32ColumnValue class](dn350992\(v=exchg.10\).md)
+[Int32ColumnValue class](./int32columnvalue-class.md)
 
-[Int32ColumnValue members](dn351013\(v=exchg.10\).md)
+[Int32ColumnValue members](./int32columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

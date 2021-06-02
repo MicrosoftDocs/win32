@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogTornWriteDuringHardRestoreException members"
 title: EsentLogTornWriteDuringHardRestoreException members
 TOCTitle: EsentLogTornWriteDuringHardRestoreException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogTornWriteDuringHardRestoreException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogTornWriteDuringHardRestore exceptions.
 
-The [EsentLogTornWriteDuringHardRestoreException](dn334605\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogTornWriteDuringHardRestoreException](./esentlogtornwriteduringhardrestoreexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogTornWriteDuringHardRestoreException class](dn334605\(v=exchg.10\).md)
+[EsentLogTornWriteDuringHardRestoreException class](./esentlogtornwriteduringhardrestoreexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the number pre-authentication attempts to try on neighboring APs.
+description: Specifies the number pre-authentication attempts to try on neighboring APs.
 ms.assetid: 7e89e962-7544-4efb-9e3c-c108bee22aea
 title: preAuthThrottle (security) Element
 ms.topic: reference
@@ -45,7 +45,7 @@ The element is defined by the [**security**](wlan-profileschema-security-msm-ele
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

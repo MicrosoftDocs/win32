@@ -1,5 +1,5 @@
 ---
-Description: Represents the memory currently allocated to a virtual machine.
+description: Represents the memory currently allocated to a virtual machine.
 ms.assetid: 4CAA64FC-5A06-409B-9E92-32DF3F47D5FD
 title: Msvm_Memory class
 ms.topic: reference
@@ -1312,7 +1312,7 @@ Access to the **Msvm\_Memory** class might be restricted by UAC Filtering. For m
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

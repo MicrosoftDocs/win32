@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.ProcessFriendlyName property"
 title: SystemParameters.ProcessFriendlyName property 
 TOCTitle: 'ProcessFriendlyName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ProcessFriendlyName
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the friendly name for this instance of the process.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,8 +63,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

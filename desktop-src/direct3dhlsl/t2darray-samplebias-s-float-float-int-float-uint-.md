@@ -1,6 +1,6 @@
 ---
-title: SampleBias::SampleBias(S,float,float,int,float,uint) function
-description: Samples a texture, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to. Returns status about the operation.
+title: SampleBias::SampleBias(S,float,float,int,float,uint) function for Texture2DArray
+description: The SampleBias::SampleBias(S,float,float,int,float,uint) function for Texture2DArray samples a texture after applying the bias value to the mipmap level.
 ms.assetid: 38DC341D-477A-4709-AC97-EB796A40C4B2
 keywords:
 - SampleBias function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# SampleBias(S,float,float,int,float,uint) function
+# SampleBias::SampleBias(S,float,float,int,float,uint) function for Texture2DArray
 
 Samples a texture, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to. Returns status about the operation.
 

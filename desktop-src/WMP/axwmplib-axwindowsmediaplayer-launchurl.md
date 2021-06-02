@@ -1,6 +1,6 @@
 ---
 title: AxWindowsMediaPlayer.launchURL method
-description: The launchURL method sends a URL to the user's default browser to be rendered.
+description: The launchURL method sends a URL to the user's default browser to be rendered. | AxWindowsMediaPlayer.launchURL method
 ms.assetid: 3e8dfdbb-b5ad-44ea-97a6-e860386b7fb4
 keywords:
 - launchURL method Windows Media Player
@@ -94,7 +94,7 @@ End Sub
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

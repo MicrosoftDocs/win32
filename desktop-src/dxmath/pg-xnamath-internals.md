@@ -1,5 +1,5 @@
 ---
-Description: This topic describes the internal design of the DirectXMath library.
+description: This topic describes the internal design of the DirectXMath library.
 ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: Library Internals
 ms.topic: article
@@ -331,11 +331,13 @@ For more info about platform-specific extensions, see:
 
 <dl>
 
-[DirectXMath: SSE, SSE2, and ARM-NEON](https://walbourn.github.io/)  
-[DirectXMath: SSE3 and SSSE3](https://walbourn.github.io/)  
-[DirectXMath: SSE4.1 and SSE4.2](https://walbourn.github.io/)  
-[DirectXMath: AVX](https://walbourn.github.io/)  
-[DirectXMath: F16C and FMA](https://walbourn.github.io/)  
+[DirectXMath: SSE, SSE2, and ARM-NEON](https://walbourn.github.io/directxmath-sse-sse2-and-arm-neon/)  
+[DirectXMath: SSE3 and SSSE3](https://walbourn.github.io/directxmath-sse3-and-ssse3/)  
+[DirectXMath: SSE4.1 and SSE4.2](https://walbourn.github.io/directxmath-sse4-1-and-sse4-2/)  
+[DirectXMath: AVX](https://walbourn.github.io/directxmath-avx/)  
+[DirectXMath: F16C and FMA](https://walbourn.github.io/directxmath-f16c-and-fma/)  
+[DirectXMath: AVX2](https://walbourn.github.io/directxmath-avx2/)  
+[DirectXMath: ARM64](https://walbourn.github.io/directxmath-arm64/)  
 </dl>
 
 ## Related topics

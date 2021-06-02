@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Grbits.PurgeCacheOnAttach field"
 title: Windows8Grbits.PurgeCacheOnAttach field (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: PurgeCacheOnAttach field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows8.Windows8Grbits.PurgeCacheOnAttach
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Purge database pages on attach.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const AttachDatabaseGrbit PurgeCacheOnAttach
 
 #### Reference
 
-[Windows8Grbits class](dn335391\(v=exchg.10\).md)
+[Windows8Grbits class](./windows8grbits-class.md)
 
-[Windows8Grbits members](dn335501\(v=exchg.10\).md)
+[Windows8Grbits members](./windows8grbits-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

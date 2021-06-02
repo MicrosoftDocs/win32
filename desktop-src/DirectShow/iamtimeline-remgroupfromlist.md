@@ -1,5 +1,5 @@
 ---
-Description: Not supported.
+description: IAMTimeline::RemGroupFromList method - Not supported.
 ms.assetid: 9ad5f5ee-2a2a-448b-9da4-2ad8d543eb22
 title: IAMTimeline::RemGroupFromList method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

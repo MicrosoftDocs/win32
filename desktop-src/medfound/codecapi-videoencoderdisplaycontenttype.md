@@ -1,5 +1,5 @@
 ---
-Description: Sets whether the content is full-screen video, as opposed to screen content that might have a smaller window of video or have no video at all.
+description: Sets whether the content is full-screen video, as opposed to screen content that might have a smaller window of video or have no video at all.
 ms.assetid: A2D0D6A0-30CB-435B-A5CD-A6FB001C46ED
 title: CODECAPI_VideoEncoderDisplayContentType property (Codecapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ On Windows 10, the value of this property is not used.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                  |

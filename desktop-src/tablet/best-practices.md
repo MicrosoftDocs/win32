@@ -1,12 +1,12 @@
 ---
-Description: Overview of best practices when using the pen input panel object.
+description: Overview of best practices when using the pen input panel object.
 ms.assetid: 5b127743-0c88-4c4c-bcb6-5a91690cd2a1
 title: Best Practices (Tablet PC)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Best Practices
+# Best Practices (Tablet PC)
 
 There are a few guidelines to keep in mind when using the [**PenInputPanel**](peninputpanel-class.md) object.
 

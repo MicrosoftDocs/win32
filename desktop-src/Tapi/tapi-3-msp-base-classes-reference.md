@@ -1,5 +1,5 @@
 ---
-Description: The following material provides details on the Media Service Provider base classes.
+description: The following material provides details on the Media Service Provider base classes.
 ms.assetid: ef845c44-1ff5-42a1-8e91-38d66e6fe363
 title: TAPI 3 MSP Base Classes Reference
 ms.topic: article

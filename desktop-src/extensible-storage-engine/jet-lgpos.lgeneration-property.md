@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS.lGeneration property"
 title: JET_LGPOS.lGeneration property 
 TOCTitle: 'lGeneration property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_LGPOS.lGeneration
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the generation of this log position.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](./jet-lgpos-structure2.md)
 
-[JET_LGPOS members](hh566576\(v=exchg.10\).md)
+[JET_LGPOS members](./jet-lgpos-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

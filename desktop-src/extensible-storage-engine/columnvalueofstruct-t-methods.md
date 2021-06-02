@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T> methods"
 title: ColumnValueOfStruct(T) methods
 TOCTitle: ColumnValueOfStruct(T) methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [ColumnValueOfStruct\<T\>](dn334171\(v=exchg.10\).md) type exposes the following members.
+The [ColumnValueOfStruct\<T\>](./columnvalueofstruct-t-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[ColumnValueOfStruct\<T\> class](dn334171\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> class](./columnvalueofstruct-t-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

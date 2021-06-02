@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemProgramGroups association WMI class relates a computer system and a logical program group.
+description: The Win32\_SystemProgramGroups association WMI class relates a computer system and a logical program group.
 ms.assetid: cbf810c8-a967-4d60-889c-e47c43b039ea
 ms.tgt_platform: multiple
 title: Win32_SystemProgramGroups class
@@ -87,7 +87,7 @@ The **Win32\_SystemProgramGroups** class is derived from [**Win32\_SystemSetting
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

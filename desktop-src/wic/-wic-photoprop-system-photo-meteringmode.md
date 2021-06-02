@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.MeteringMode property.
+description: The photo metadata policy for the System.Photo.MeteringMode property.
 ms.assetid: cb0bf0d5-eccf-4345-a242-76769c34e02d
 title: System.Photo.MeteringMode Photo Metadata Policy
 ms.topic: article

@@ -21,7 +21,7 @@ The protocols used for a meeting, for example, H.320 or T.120.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | meetingProtocol                             |
 | Ldap-Display-Name | meetingProtocol                             |
@@ -47,7 +47,7 @@ The protocols used for a meeting, for example, H.320 or T.120.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -68,7 +68,7 @@ The protocols used for a meeting, for example, H.320 or T.120.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -89,7 +89,7 @@ The protocols used for a meeting, for example, H.320 or T.120.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -110,7 +110,7 @@ The protocols used for a meeting, for example, H.320 or T.120.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -131,7 +131,7 @@ The protocols used for a meeting, for example, H.320 or T.120.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |
@@ -152,7 +152,7 @@ The protocols used for a meeting, for example, H.320 or T.120.
 
 
 
-|                        |                                         |
+| Entry | Value |
 |------------------------|-----------------------------------------|
 | Link-Id                | \-                                      |
 | MAPI-Id                | \-                                      |

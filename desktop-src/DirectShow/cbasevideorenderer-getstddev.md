@@ -1,5 +1,5 @@
 ---
-Description: The GetStdDev method estimates the standard deviation in milliseconds between when each frame is due and when it is actually rendered, for per-frame statistics.
+description: The GetStdDev method estimates the standard deviation in milliseconds between when each frame is due and when it is actually rendered, for per-frame statistics.
 ms.assetid: 1a4d5c8d-38de-434f-b218-412d45976b8c
 title: CBaseVideoRenderer.GetStdDev method (Renbase.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ Returns NOERROR.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

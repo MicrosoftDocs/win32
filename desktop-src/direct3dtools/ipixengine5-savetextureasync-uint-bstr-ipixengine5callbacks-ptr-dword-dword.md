@@ -1,5 +1,5 @@
 ---
-Description: Saves a texture.
+description: Saves a texture.
 MS-HAID: vspixengine.IPixEngine5\_SaveTextureAsync\_UINT\_BSTR\_IPixEngine5Callbacks\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

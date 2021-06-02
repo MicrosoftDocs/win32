@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is pressed.
+description: InkOverlay.MouseDown event - Occurs when the mouse pointer is over the InkCollector or InkOverlay object and a mouse button is pressed.
 ms.assetid: 95c3b1ae-0e77-4ca2-ab73-a0e97ab115b5
 title: InkOverlay.MouseDown event (Msinkaut.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

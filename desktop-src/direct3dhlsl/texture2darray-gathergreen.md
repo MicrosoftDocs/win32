@@ -16,18 +16,18 @@ api_location:
 
 # Texture2DArray::GatherGreen methods
 
-Samples a [**Texture2DArray**](sm5-object-texture2darray.md) and returns the green component.
+Returns the green components of a [**Texture2DArray**](sm5-object-texture2darray.md)'s four texel values that would be used in a bi-linear filtering operation.
 
 ### Overload list
 
 
 
-| Method                                                                                                          | Description                                                                                         |
-|:----------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**GatherGreen(S,float,int)**](sm5-object-texture2darray-gathergreen.md)                                       | Samples a texture and returns the green component.<br/>                                       |
-| [**GatherGreen(S,float,int,uint)**](t2darray-gathergreen-s-float-int-uint-.md)                                 | Samples a texture and returns the green component along with status about the operation.<br/> |
-| [**GatherGreen(S,float,int2,int2,int2,int2)**](t2darray-gathergreen-s-float-int2-int2-int2-int2-.md)           | Samples a texture and returns the green component.<br/>                                       |
-| [**GatherGreen(S,float,int2,int2,int2,int2,uint)**](t2darray-gathergreen-s-float-int2-int2-int2-int2-uint-.md) | Samples a texture and returns the green component along with status about the operation.<br/> |
+| Method                                                                                                          | Description                                                                                                                                       |
+|:----------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GatherGreen(S,float,int)**](sm5-object-texture2darray-gathergreen.md)                                        | Returns the green components of the four texel values that would be used in a bi-linear filtering operation.<br/>                                 |
+| [**GatherGreen(S,float,int,uint)**](t2darray-gathergreen-s-float-int-uint-.md)                                  | Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
+| [**GatherGreen(S,float,int2,int2,int2,int2)**](t2darray-gathergreen-s-float-int2-int2-int2-int2-.md)            | Returns the green components of the four texel values that would be used in a bi-linear filtering operation.<br/>                                 |
+| [**GatherGreen(S,float,int2,int2,int2,int2,uint)**](t2darray-gathergreen-s-float-int2-int2-int2-int2-uint-.md)  | Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
 
 
 

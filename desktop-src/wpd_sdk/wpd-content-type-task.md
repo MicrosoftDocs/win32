@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_TASK
+description: WPD\_CONTENT\_TYPE\_TASK
 ms.assetid: 503d0b11-2113-4df4-8b6b-250f24d09b1f
 title: WPD_CONTENT_TYPE_TASK
 ms.topic: article
@@ -14,9 +14,8 @@ This type of object supports the following properties.
 
 
 
-|                                                                                                                       |                                                                                |
+| Property Name       | Required or Optional         |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **Property Name**                                                                                                     | **Required or Optional**                                                       |
 | [WPD\_OBJECT\_ID](object-properties.md)                                                                | Required, read-only. A client cannot set this property, even at creation time. |
 | [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                                                 | Required.                                                                      |
 | [WPD\_OBJECT\_NAME](object-properties.md)                                                            | Required if the object represents a file.                                      |

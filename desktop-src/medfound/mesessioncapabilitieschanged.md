@@ -1,5 +1,5 @@
 ---
-Description: Raised by the Media Session when the session capabilities change.
+description: Raised by the Media Session when the session capabilities change.
 ms.assetid: d59fd3a0-29db-434c-b6ba-d9beb33bd965
 title: MESessionCapabilitiesChanged event (Mfobjects.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ The event contains the following attributes.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

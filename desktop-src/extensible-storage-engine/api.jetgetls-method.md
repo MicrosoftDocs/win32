@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetLS method"
 title: Api.JetGetLS method 
 TOCTitle: 'JetGetLS method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetLS(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_LS@,Microsoft.Isam.Esent.Interop.LsGrbit)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Api.JetGetLS method
 
-Enables the application to retrieve the context handle known as Local Storage that is associated with a cursor or the table associated with that cursor. This context handle must have been previously set using [JetSetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](dn334015\(v=exchg.10\).md). JetGetLS can also be used to simultaneously fetch the current context handle for a cursor or table and reset that context handle.
+Enables the application to retrieve the context handle known as Local Storage that is associated with a cursor or the table associated with that cursor. This context handle must have been previously set using [JetSetLS(JET_SESID, JET_TABLEID, JET_LS, LsGrbit)](./api.jetsetls-method.md). JetGetLS can also be used to simultaneously fetch the current context handle for a cursor or table and reset that context handle.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,28 +64,28 @@ public static void JetGetLS(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The cursor to use.
 
 <!-- end list -->
 
   - ls  
-    Type: [Microsoft.Isam.Esent.Interop.JET_LS](hh557499\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LS](./jet-ls-structure.md)  
     
     Returns the retrieved context handle.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.LsGrbit](hh579487\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.LsGrbit](./lsgrbit-enumeration.md)  
     
     Retrieve options.
 
@@ -92,9 +93,8 @@ public static void JetGetLS(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

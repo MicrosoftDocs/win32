@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: XML Attributes
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # XML Attributes
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 There are a number of XML attributes that appear in several element types defined in the Print Schema Framework. XML attributes with the same name generally have the same meaning and obey the same rules regardless of the element type they reside in. Therefore, the XML attributes are listed here by name and not by their host element type. Privately-defined XML attributes are not permitted. Only the XML attributes defined here may be used in a PrintCapabilities document or a PrintTicket, and then only in the defined context.
 
@@ -92,7 +92,7 @@ When the PrintCapabilities provider reports values of the constrained attribute,
 <tr class="even">
 <td>xmlns <br/></td>
 <td>URI<br/></td>
-<td>This XML attribute establishes a link between a namespace uniform resource identifier (URI) and the namespace prefix that appears in the XML QName. You must establish such a link to the namespace URI defined for the Print Schema Framework before you can use any of the Framework-defined element tags, Attributes, name attributes, and so on. You may declare this namespace to be the default to avoid actually qualifying the element tags with a namespace prefix, although all other QNames must be explicitly qualified. The standard namespace must be defined in the appropriate root element. Observe all XML rules and conventions regarding use of the xmlns attribute.<br/> The URI for the Print Schema Framework is http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework.<br/> The URI for the Print Schema Keywords is http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords.<br/></td>
+<td>This XML attribute establishes a link between a namespace uniform resource identifier (URI) and the namespace prefix that appears in the XML QName. You must establish such a link to the namespace URI defined for the Print Schema Framework before you can use any of the Framework-defined element tags, Attributes, name attributes, and so on. You may declare this namespace to be the default to avoid actually qualifying the element tags with a namespace prefix, although all other QNames must be explicitly qualified. The standard namespace must be defined in the appropriate root element. Observe all XML rules and conventions regarding use of the xmlns attribute.<br/> The URI for the Print Schema Framework is http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework.<br/> The URI for the Print Schema Keywords is https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords.<br/></td>
 
 </tr>
 </tbody>
@@ -106,7 +106,7 @@ When the PrintCapabilities provider reports values of the constrained attribute,
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

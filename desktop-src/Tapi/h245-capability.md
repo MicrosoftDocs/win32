@@ -1,5 +1,5 @@
 ---
-Description: The H245\_CAPABILITY enum describes audio and video format support.
+description: The H245\_CAPABILITY enum describes audio and video format support.
 ms.assetid: 76aeb3a1-3233-4425-b9db-efacbedc309e
 title: H245_CAPABILITY enumeration (H323priv.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The H.263 video protocol is supported.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>H323priv.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: COutputQueue.COutputQueue constructor - Constructor method.
 ms.assetid: 672c0337-0c36-4f53-9125-d02fe8b36b1c
 title: COutputQueue.COutputQueue constructor (Outputq.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ If the object creates a thread, it assigns the thread handle to the [**COutputQu
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -22,7 +22,7 @@ This is the default maximum number of objects to be shown in a container by the 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | DS-UI-Admin-Maximum                  |
 | Ldap-Display-Name | dSUIAdminMaximum                     |
@@ -48,7 +48,7 @@ This is the default maximum number of objects to be shown in a container by the 
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -69,7 +69,7 @@ This is the default maximum number of objects to be shown in a container by the 
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -90,7 +90,7 @@ This is the default maximum number of objects to be shown in a container by the 
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -111,7 +111,7 @@ This is the default maximum number of objects to be shown in a container by the 
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -132,7 +132,7 @@ This is the default maximum number of objects to be shown in a container by the 
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -153,7 +153,7 @@ This is the default maximum number of objects to be shown in a container by the 
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

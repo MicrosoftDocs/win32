@@ -1,5 +1,5 @@
 ---
-Description: The GetSetupData method retrieves the registration data for the filter.
+description: The GetSetupData method retrieves the registration data for the filter.
 ms.assetid: 93582c75-4f40-492c-919c-c8a06dce7715
 title: CBaseFilter.GetSetupData method (Amfilter.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ The base class returns **NULL**.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

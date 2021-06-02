@@ -1,5 +1,5 @@
 ---
-Description: The \_Tables table is a read-only system table that lists all the tables in the database. Query this table to find out if a table exists.
+description: The \_Tables table is a read-only system table that lists all the tables in the database. Query this table to find out if a table exists.
 ms.assetid: d064855b-8c10-476e-9570-cc3ab48ae998
 title: '_Tables Table'
 ms.topic: article

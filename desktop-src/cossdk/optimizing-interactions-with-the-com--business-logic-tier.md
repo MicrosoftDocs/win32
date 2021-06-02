@@ -1,5 +1,5 @@
 ---
-Description: Optimizing Interactions with the COM+ Business Logic Tier
+description: Optimizing Interactions with the COM+ Business Logic Tier
 ms.assetid: 71e4bde4-f592-4bc5-9e96-6b3f58915d29
 title: Optimizing Interactions with the COM+ Business Logic Tier
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: If an application does not call the SymInitialize function with the fInvadeProcess parameter set to TRUE, it must load symbols for a module when they are required.
+description: If an application does not call the SymInitialize function with the fInvadeProcess parameter set to TRUE, it must load symbols for a module when they are required.
 ms.assetid: 01cee812-d1f2-4459-acee-bce8719a85b2
 title: Loading a Symbol Module
 ms.topic: article

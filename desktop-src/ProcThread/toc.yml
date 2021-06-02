@@ -454,7 +454,7 @@
       - name: "GetProcessAffinityMask"
         href: /windows/desktop/api/WinBase/nf-winbase-getprocessaffinitymask
       - name: "GetProcessDefaultCpuSets"
-        href: getprocessdefaultcpusets.md
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusets
       - name: "GetProcessGroupAffinity"
         href: /windows/desktop/api/processtopologyapi/nf-processtopologyapi-getprocessgroupaffinity
       - name: "GetProcessHandleCount"
@@ -504,7 +504,7 @@
       - name: "GetThreadPriorityBoost"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadpriorityboost
       - name: "GetThreadSelectedCpuSets"
-        href: getthreadselectedcpusets.md
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusets.md
       - name: "GetThreadTimes"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadtimes
       - name: "GetUmsCompletionListEvent"
@@ -596,7 +596,7 @@
       - name: "SetProcessAffinityUpdateMode"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessaffinityupdatemode
       - name: "SetProcessDefaultCpuSets"
-        href: setprocessdefaultcpusets.md
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusets
       - name: "SetProcessInformation"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation
       - name: "SetProcessMitigationPolicy"
@@ -656,7 +656,7 @@
       - name: "SetThreadPriorityBoost"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadpriorityboost
       - name: "SetThreadSelectedCpuSets"
-        href: setthreadselectedcpusets.md
+        href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusets
       - name: "SetThreadStackGuarantee"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadstackguarantee
       - name: "SetUmsThreadInformation"

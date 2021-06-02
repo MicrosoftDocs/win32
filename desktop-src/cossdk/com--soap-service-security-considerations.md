@@ -1,5 +1,5 @@
 ---
-Description: COM+ SOAP Service Security Considerations
+description: COM+ SOAP Service Security Considerations
 ms.assetid: c4f7744c-ff57-4d9d-8632-7e5bbb73449a
 title: COM+ SOAP Service Security Considerations
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The get\_DestinationHeight method retrieves the current destination rectangle height.
+description: The get\_DestinationHeight method retrieves the current destination rectangle height.
 ms.assetid: 0001d98a-3a5c-47f1-8f5e-ce464d64131a
 title: CBaseControlVideo.get_DestinationHeight method (Ctlutil.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

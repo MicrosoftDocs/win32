@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of nontransposed matrices.
+description: ID3DXBaseEffect::SetMatrixArray method - Sets an array of nontransposed matrices.
 ms.assetid: 008de62c-3a36-4499-8a0b-9075756395e9
 title: ID3DXBaseEffect::SetMatrixArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ If the destination matrices are smaller than the source matrices, the additional
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

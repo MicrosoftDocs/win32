@@ -1,5 +1,5 @@
 ---
-Description: Heap fragmentation is a state in which available memory is broken into small, noncontiguous blocks.
+description: Heap fragmentation is a state in which available memory is broken into small, noncontiguous blocks.
 ms.assetid: d10abf82-423c-4942-b05e-55de3a5c4219
 title: Low-fragmentation Heap
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Description of using customer controls for the Tablet PC.
+description: Description of using customer controls for the Tablet PC.
 ms.assetid: 43d78acd-1f02-417d-97be-1682e90a81a2
 title: Using Custom Controls
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: glEnd function (Gl.h)
-description: The glBegin and glend functions delimit the vertices of a primitive or a group of like primitives.
+description: The glBegin and glend functions delimit the vertices of a primitive or a group of like primitives. | glEnd function (Gl.h)
 ms.assetid: 040f8573-683c-4a8a-ae51-66abb0541ac4
 keywords:
 - glEnd function OpenGL
@@ -88,7 +88,7 @@ The [**glBegin**](glbegin.md) and **glend** functions delimit the vertices that 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

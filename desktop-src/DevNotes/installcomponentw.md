@@ -1,5 +1,5 @@
 ---
-Description: Installs an exception package.
+description: Installs an exception package.
 ms.assetid: c4c3c01c-9aaf-42cd-a690-13e2113b15b3
 title: InstallComponentW function
 ms.topic: reference
@@ -128,7 +128,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Msoobci.dll</dt> </dl> |
 

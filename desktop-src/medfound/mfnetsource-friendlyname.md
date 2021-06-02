@@ -1,5 +1,5 @@
 ---
-Description: Specifies the string that identifies the UPnP ConnectionManager service.
+description: Specifies the string that identifies the UPnP ConnectionManager service.
 ms.assetid: DEB9C310-0AFF-463F-82C2-52CE1B7BB55C
 title: MFNETSOURCE_FRIENDLYNAME property (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ VT\_LPWSTR
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

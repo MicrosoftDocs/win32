@@ -1,5 +1,5 @@
 ---
-Description: Represents a WMI namespace.
+description: Represents a WMI namespace.
 ms.assetid: d5f0abc7-32cf-4d85-b5cd-5d60c991bcbc
 ms.tgt_platform: multiple
 title: '__Namespace class'
@@ -105,7 +105,7 @@ $NameSpace| sort __namespace  | Format-Table @{Expression = "__Namespace"; Label
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: The get\_AvgSyncOffset method retrieves the average of the time in milliseconds between when each frame was due and when it was actually rendered for all frames since streaming started.
+description: The get\_AvgSyncOffset method retrieves the average of the time in milliseconds between when each frame was due and when it was actually rendered for all frames since streaming started.
 ms.assetid: b41741e9-e0b5-4c49-93ef-cb8c0cf2ddeb
 title: CBaseVideoRenderer.get_AvgSyncOffset method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the [**IQualProp::get\_AvgSyncOffset**](/previou
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

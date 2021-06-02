@@ -1,5 +1,5 @@
 ---
-Description: WMI runs as a service with the display name &\#0034;Windows Management Instrumentation&\#0034; and the service name &\#0034;winmgmt&\#0034;.
+description: WMI runs as a service with the display name &\#0034;Windows Management Instrumentation&\#0034; and the service name &\#0034;winmgmt&\#0034;.
 ms.assetid: 8dff43bf-71d0-4d5a-91bc-6f474186d4ba
 ms.tgt_platform: multiple
 title: Starting and Stopping the WMI Service

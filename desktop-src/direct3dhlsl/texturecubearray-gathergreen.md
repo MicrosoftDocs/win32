@@ -1,6 +1,6 @@
 ---
 title: TextureCubeArray::TextureCubeArray GatherGreen methods
-description: Samples a texture and returns the green component.
+description: Samples a texture and returns the green component. | TextureCubeArray::TextureCubeArray GatherGreen methods
 ms.assetid: EB180EA9-D1AE-4ACA-A518-92F7E46571E8
 keywords:
 - GatherGreen methods HLSL
@@ -22,9 +22,9 @@ Samples a texture and returns the green component.
 
 
 
-| Method                                                                    | Description                                                                                         |
-|:--------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [**GatherGreen(S,float,uint)**](tcubearray-gathergreen-s-float-uint-.md) | Samples a texture and returns the green component along with status about the operation.<br/> |
+| Method                                                                    | Description                                                                                                                                       |
+|:--------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GatherGreen(S,float,uint)**](tcubearray-gathergreen-s-float-uint-.md)  | Returns the green components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
 
 
 

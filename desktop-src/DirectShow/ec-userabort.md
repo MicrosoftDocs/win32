@@ -1,5 +1,5 @@
 ---
-Description: The user has terminated playback.
+description: The user has terminated playback.
 ms.assetid: 974a9c3e-cfc9-4608-9f98-732aeaa0a752
 title: EC_USERABORT (Dshow.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ After sending this event, the filter should reject all samples and not send any 
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

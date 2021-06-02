@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average data bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file.
+description: Specifies the average data bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 3a0b39ab-e9a9-49df-a321-a88559aec16f
 title: MF_SD_ASF_EXTSTRMPROP_AVG_DATA_BITRATE attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

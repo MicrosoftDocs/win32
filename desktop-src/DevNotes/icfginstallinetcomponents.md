@@ -1,5 +1,5 @@
 ---
-Description: Installs the system components specified.
+description: Installs the system components specified.
 ms.assetid: f4b7b8e5-b392-4208-9f56-b343974e05ff
 title: IcfgInstallInetComponents function
 ms.topic: reference
@@ -81,7 +81,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Icfgnt5.dll</dt> </dl> |
 

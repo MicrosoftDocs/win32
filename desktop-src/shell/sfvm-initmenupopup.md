@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to modify a Windows Explorer pop-up menu before it is displayed. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to modify a Windows Explorer pop-up menu before it is displayed. Used by IShellFolderViewCB::MessageSFVCB.
 title: SFVM_INITMENUPOPUP message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -63,7 +63,7 @@ The system folder view object sends this message when a menu is selected, but be
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

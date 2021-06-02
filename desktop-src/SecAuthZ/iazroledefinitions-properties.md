@@ -1,5 +1,5 @@
 ---
-Description: The IAzRoleDefinitions interface exposes the following properties.
+description: The IAzRoleDefinitions interface exposes the following properties.
 ms.assetid: E590B346-7C2F-457A-A97D-C6A9E360B841
 title: IAzRoleDefinitions Properties
 ms.topic: reference

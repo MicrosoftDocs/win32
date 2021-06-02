@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ComputerSystemIRQ class represents an association between a computer system and its available interrupt request lines (IRQs).
+description: The CIM\_ComputerSystemIRQ class represents an association between a computer system and its available interrupt request lines (IRQs).
 ms.assetid: c2a1f231-1f8e-48b2-9afe-fa798e6a8a1d
 ms.tgt_platform: multiple
 title: CIM_ComputerSystemIRQ class
@@ -98,7 +98,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

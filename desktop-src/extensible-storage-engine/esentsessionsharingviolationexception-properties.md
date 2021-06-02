@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionSharingViolationException properties"
 title: EsentSessionSharingViolationException properties
 TOCTitle: EsentSessionSharingViolationException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSessionSharingViolationException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSessionSharingViolationException](dn350642\(v=exchg.10\).md) type exposes the following members.
+The [EsentSessionSharingViolationException](./esentsessionsharingviolationexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSessionSharingViolationException class](dn350642\(v=exchg.10\).md)
+[EsentSessionSharingViolationException class](./esentsessionsharingviolationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

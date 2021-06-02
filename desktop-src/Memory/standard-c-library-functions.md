@@ -1,5 +1,5 @@
 ---
-Description: Applications can safely use the memory management features of the C run-time library (malloc, free, and so on) and C++ (new, delete, and so on).
+description: Applications can safely use the memory management features of the C run-time library (malloc, free, and so on) and C++ (new, delete, and so on).
 ms.assetid: c58ed263-577d-47c5-93cb-5a7c83604171
 title: Standard C Library Functions
 ms.topic: article

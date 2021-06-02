@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the cursor tip contacts the digitizing tablet surface.
+description: InkCollector.CursorDown event - Occurs when the cursor tip contacts the digitizing tablet surface.
 ms.assetid: bf914849-ef33-4746-b2e1-c768cd1d87aa
 title: InkCollector.CursorDown event (Msinkaut.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Use this event carefully because it could have an adverse effect on ink performa
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

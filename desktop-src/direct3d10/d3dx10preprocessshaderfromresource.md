@@ -1,5 +1,5 @@
 ---
-Description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from a resource without compiling it.
+description: Note  Instead of using this legacy function, we recommend that you use the D3DPreprocess API. Create a shader from a resource without compiling it.
 ms.assetid: ca93e208-7627-4bf5-ab83-d4e906e149eb
 title: D3DX10PreprocessShaderFromResource function (D3DX10.h)
 ms.topic: reference
@@ -129,7 +129,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the SetMetadataByName method.
+description: Proxy function for the SetMetadataByName method.
 ms.assetid: 467d7735-152a-4e7c-93b1-fd031cc57c19
 title: IWICMetadataQueryWriter_SetMetadataByName_Proxy function
 ms.topic: reference
@@ -76,7 +76,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

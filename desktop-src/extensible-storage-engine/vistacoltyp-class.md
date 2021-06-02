@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaColtyp class"
 title: VistaColtyp class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaColtyp class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp
@@ -35,7 +36,7 @@ Column types that have been added to the Vista version of ESENT.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Vista.VistaColtyp  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[VistaColtyp members](dn335346\(v=exchg.10\).md)
+[VistaColtyp members](./vistacoltyp-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

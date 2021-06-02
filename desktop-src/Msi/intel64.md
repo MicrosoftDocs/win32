@@ -1,5 +1,5 @@
 ---
-Description: The Intel64 property is defined only when it is running on an Itanium processor.
+description: The Intel64 property is defined only when it is running on an Itanium processor.
 ms.assetid: 827036dd-3b42-40dc-9fa5-8b3a72a2e5b1
 title: Intel64 property
 ms.topic: reference
@@ -14,7 +14,7 @@ The **Intel64** property is defined only when it is running on an Itanium proces
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

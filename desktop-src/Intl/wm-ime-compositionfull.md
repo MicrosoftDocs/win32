@@ -1,5 +1,5 @@
 ---
-Description: Sent to an application when the IME window finds no space to extend the area for the composition window. A window receives this message through its WindowProc function.
+description: Sent to an application when the IME window finds no space to extend the area for the composition window. A window receives this message through its WindowProc function.
 ms.assetid: d81d6438-c470-4ae5-8016-8d816bcba9b8
 title: WM_IME_COMPOSITIONFULL message (Winuser.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ The IME window, instead of the IME, sends this notification message by the [**Se
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

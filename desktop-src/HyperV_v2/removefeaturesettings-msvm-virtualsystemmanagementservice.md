@@ -1,5 +1,5 @@
 ---
-Description: Removes feature settings from a virtual machine Ethernet connection.
+description: Removes feature settings from a virtual machine Ethernet connection.
 ms.assetid: 457056d0-7e69-47e4-8744-0136a1816f4a
 title: RemoveFeatureSettings method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -89,7 +89,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

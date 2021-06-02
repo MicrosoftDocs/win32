@@ -22,7 +22,7 @@ A link used to associate a User with a COM+ PartitionSet.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-COM-UserPartitionSetLink             |
 | Ldap-Display-Name | msCOM-UserPartitionSetLink              |
@@ -47,7 +47,7 @@ A link used to associate a User with a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------|
 | Link-Id                | 1048                                                                                             |
 | MAPI-Id                | \-                                                                                               |
@@ -68,7 +68,7 @@ A link used to associate a User with a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------|
 | Link-Id                | 1048                                                                                             |
 | MAPI-Id                | \-                                                                                               |
@@ -89,7 +89,7 @@ A link used to associate a User with a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------|
 | Link-Id                | 1048                                                                                             |
 | MAPI-Id                | \-                                                                                               |
@@ -110,7 +110,7 @@ A link used to associate a User with a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------|
 | Link-Id                | 1048                                                                                             |
 | MAPI-Id                | \-                                                                                               |
@@ -131,7 +131,7 @@ A link used to associate a User with a COM+ PartitionSet.
 
 
 
-|                        |                                                                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------|
 | Link-Id                | 1048                                                                                             |
 | MAPI-Id                | \-                                                                                               |

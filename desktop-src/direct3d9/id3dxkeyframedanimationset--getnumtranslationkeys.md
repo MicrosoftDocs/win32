@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of translation keys in the specified key frame animation.
+description: Gets the number of translation keys in the specified key frame animation.
 ms.assetid: cdab759f-d383-40b2-84dc-8b968e6fdce0
 title: ID3DXKeyframedAnimationSet::GetNumTranslationKeys method (D3dx9anim.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Number of translation keys in the specified key frame animation.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

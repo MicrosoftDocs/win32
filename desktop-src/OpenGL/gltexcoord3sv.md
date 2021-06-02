@@ -1,6 +1,6 @@
 ---
 title: glTexCoord3sv function (Gl.h)
-description: Sets the current texture coordinates.
+description: Sets the current texture coordinates. | glTexCoord3sv function (Gl.h)
 ms.assetid: bd7970df-82b3-4ccd-960d-9c04a6726bab
 keywords:
 - glTexCoord3sv function OpenGL
@@ -56,7 +56,7 @@ The [**glTexCoord**](gltexcoord-functions.md) function sets the current texture 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

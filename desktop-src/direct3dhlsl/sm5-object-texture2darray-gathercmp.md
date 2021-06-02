@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::GatherCmp(S,float,float,int) function
-description: Samples a texture, tests the samples against a compare value, and returns all four components.
+description: For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value. | Texture2DArray::GatherCmp(S,float,float,int) function
 ms.assetid: 7bb86448-cc73-4423-9ef4-149427cffc95
 keywords:
 - GatherCmp function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmp(S,float,float,int) function
+# Texture2DArray::GatherCmp(S,float,float,int) function
 
-Samples a texture, tests the samples against a compare value, and returns all four components.
+For four texel values that would be used in a bi-linear filtering operation, returns their comparison against a compare value.
 
 ## Syntax
 

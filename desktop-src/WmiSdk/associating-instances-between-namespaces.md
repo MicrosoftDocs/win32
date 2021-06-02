@@ -1,5 +1,5 @@
 ---
-Description: An association view class allows you to use ASSOCIATORS OF queries on classes that reside in different namespaces.
+description: An association view class allows you to use ASSOCIATORS OF queries on classes that reside in different namespaces.
 ms.assetid: 4af4fe1b-2b19-472e-8261-798b374ae57e
 ms.tgt_platform: multiple
 title: Associating Instances Between Namespaces

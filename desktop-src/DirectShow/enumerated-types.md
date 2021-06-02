@@ -1,12 +1,12 @@
 ---
-Description: Enumerated Types
+description: Enumerated Types
 ms.assetid: 'b32fab05-1bf0-43e9-8047-2a07231e01f7'
 title: Enumerated Types (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerated Types
+# Enumerated Types (DirectShow)
 
 > [!Note]  
 > \[Deprecated. This API may be removed from future releases of Windows.\]

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadColumnIdException methods"
 title: EsentBadColumnIdException methods
 TOCTitle: EsentBadColumnIdException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadColumnIdException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadColumnIdException](dn274004\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadColumnIdException](./esentbadcolumnidexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentBadColumnIdException class](dn274004\(v=exchg.10\).md)
+[EsentBadColumnIdException class](./esentbadcolumnidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

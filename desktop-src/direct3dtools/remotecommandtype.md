@@ -1,5 +1,5 @@
 ---
-Description: An enum used to communicate between the capture engine and a host (such as Visual Studio Graphics Diagnostics).
+description: <span id="vspixengine.remotecommandtype"></span>RemoteCommandType enumeration - An enum used to communicate between the capture engine and a host (such as Visual Studio Graphics Diagnostics).
 MS-HAID: vspixengine.RemoteCommandType
 MSHAttr:
 - PreferredSiteName:MSDN

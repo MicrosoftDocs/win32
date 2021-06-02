@@ -76,7 +76,7 @@ The effect performs the transform operation and then applies a bounding box arou
 
 
 
-|                          |                                                               |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------------------|
 | Minimum supported client | Windows 8.1 \[desktop apps \| Windows Store apps\]            |
 | Minimum supported server | Windows Server 2012 R2 \[desktop apps \| Windows Store apps\] |

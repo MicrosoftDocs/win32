@@ -1,5 +1,5 @@
 ---
-Description: Adds two color values together to create a new color value.
+description: Adds two color values together to create a new color value.
 ms.assetid: 7743392d-4676-4408-93e9-f92d4bf02411
 title: D3DXColorAdd function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in pOut. In this w
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

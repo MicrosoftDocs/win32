@@ -1,5 +1,5 @@
 ---
-Description: Represents a service that can create, apply, and delete snapshots of virtual systems.
+description: Represents a service that can create, apply, and delete snapshots of virtual systems.
 ms.assetid: 8d5d54a2-08f1-4f24-bca3-601dc698d018
 title: CIM_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -54,7 +54,7 @@ The **CIM\_VirtualSystemSnapshotService** class has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

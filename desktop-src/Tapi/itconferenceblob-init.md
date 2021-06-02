@@ -1,5 +1,5 @@
 ---
-Description: The Init method initializes the conference blob based on a textual string. If pBlob is NULL, default values are used.
+description: The Init method initializes the conference blob based on a textual string. If pBlob is NULL, default values are used.
 ms.assetid: ba492503-90ff-45dd-a39f-6d4451e57339
 title: ITConferenceBlob::Init method (Sdpblb.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-olea
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Same as a D3DXVECTOR4, but it uses 16-bit floating point values for x, y, and z.
+description: Same as a D3DXVECTOR4, but it uses 16-bit floating point values for x, y, and z.
 ms.assetid: 2db5fb3e-ffe0-4bcf-8894-a8bc7eefaf82
 title: D3DXVECTOR4_16F structure (D3DX10Math.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ public:
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

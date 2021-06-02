@@ -22,7 +22,7 @@ Contains the value that is returned when the NIS server processes a **yp\_master
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | msSFU-30-Master-Server-Name                 |
 | Ldap-Display-Name | msSFU30MasterServerName                     |
@@ -46,7 +46,7 @@ Contains the value that is returned when the NIS server processes a **yp\_master
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -67,7 +67,7 @@ Contains the value that is returned when the NIS server processes a **yp\_master
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -88,7 +88,7 @@ Contains the value that is returned when the NIS server processes a **yp\_master
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -109,7 +109,7 @@ Contains the value that is returned when the NIS server processes a **yp\_master
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

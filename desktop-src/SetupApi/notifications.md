@@ -1,12 +1,12 @@
 ---
-Description: Notifications are values that a setup function sends to a callback routine to specify a state or event. Two parameters, Param1 and Param2, are sent with the notification, and contain additional information relevant to the notification.
+description: Notifications are values that a setup function sends to a callback routine to specify a state or event. Two parameters, Param1 and Param2, are sent with the notification, and contain additional information relevant to the notification.
 ms.assetid: '93434558-ae83-4ea2-9324-659e5873a8c3'
 title: Notifications (Setup API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Notifications
+# Notifications (Setup API)
 
 Notifications are values that a setup function sends to a callback routine to specify a state or event. Two parameters, *Param1* and *Param2*, are sent with the notification, and contain additional information relevant to the notification.
 

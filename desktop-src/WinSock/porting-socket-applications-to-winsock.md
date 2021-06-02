@@ -1,5 +1,5 @@
 ---
-Description: This section describes Winsock porting considerations.
+description: This section describes Winsock porting considerations.
 ms.assetid: 41c0c98e-3990-4600-ab9f-fa87edbea402
 title: Porting Socket Applications to Winsock
 ms.topic: article

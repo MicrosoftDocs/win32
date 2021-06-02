@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileCorruptException methods"
 title: EsentLogFileCorruptException methods
 TOCTitle: EsentLogFileCorruptException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFileCorruptException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogFileCorruptException](dn334601\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFileCorruptException](./esentlogfilecorruptexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentLogFileCorruptException class](dn334601\(v=exchg.10\).md)
+[EsentLogFileCorruptException class](./esentlogfilecorruptexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

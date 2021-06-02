@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ORDER BY Clause"
 ms.assetid: e720cf0d-b034-48e2-a13e-e97dd23b2beb
 title: ORDER BY Clause
 ms.topic: article

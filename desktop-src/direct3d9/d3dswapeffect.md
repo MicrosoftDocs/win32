@@ -1,5 +1,5 @@
 ---
-Description: Defines swap effects.
+description: Defines swap effects.
 ms.assetid: 522a5f71-3ad9-4cfc-a899-e25b9b721b1b
 title: D3DSWAPEFFECT enumeration (D3D9Types.h)
 ms.topic: reference
@@ -68,9 +68,9 @@ For a full-screen swap chain, the runtime uses a combination of flip operations 
 
 Use a dedicated area of video memory that can be overlayed on the primary surface. No copy is performed when the overlay is displayed. The overlay operation is performed in hardware, without modifying the data in the primary surface.
 
-|                                                                                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DSWAPEFFECT\_OVERLAY is only available in Direct3D9Ex running on Windows 7 (or more current operating system).<br/> |
+Differences between Direct3D 9 and Direct3D 9Ex:
+
+- D3DSWAPEFFECT\_OVERLAY is only available in Direct3D9Ex running on Windows 7 (or more current operating system).
 
 </dd> <dt>
 
@@ -82,9 +82,9 @@ Designates when an application is adopting flip mode, during which time an appli
 > [!Note]  
 > If you create a swap chain with D3DSWAPEFFECT\_FLIPEX, you can't override the **hDeviceWindow** member of the [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.md) structure when you present a new frame for display. That is, you must pass **NULL** to the *hDestWindowOverride* parameter of [**IDirect3DDevice9Ex::PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) to instruct the runtime to use the **hDeviceWindow** member of **D3DPRESENT\_PARAMETERS** for the presentation.
 
-|                                                                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 9Ex:<br/> D3DSWAPEFFECT\_FLIPEX is only available in Direct3D9Ex running on Windows 7 (or more current operating system).<br/> |
+Differences between Direct3D 9 and Direct3D 9Ex:
+
+- D3DSWAPEFFECT\_FLIPEX is only available in Direct3D9Ex running on Windows 7 (or more current operating system).
 
 </dd> <dt>
 
@@ -109,7 +109,7 @@ An invisible window cannot receive user-mode events; furthermore, an invisible-f
 
 ## Requirements
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

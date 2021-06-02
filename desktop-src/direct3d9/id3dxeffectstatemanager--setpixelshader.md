@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set a pixel shader.
+description: A callback function that must be implemented by a user to set a pixel shader.
 ms.assetid: 4124eff2-1d88-429c-b7ed-8d87155b5ddc
 title: ID3DXEffectStateManager::SetPixelShader method (D3DX9Effect.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

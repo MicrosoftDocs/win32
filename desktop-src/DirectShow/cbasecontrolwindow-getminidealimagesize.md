@@ -1,5 +1,5 @@
 ---
-Description: The GetMinIdealImageSize method retrieves the minimum ideal image size.
+description: The GetMinIdealImageSize method retrieves the minimum ideal image size.
 ms.assetid: f2f2d10e-ee2c-4f8a-91ce-576319038e0d
 title: CBaseControlWindow.GetMinIdealImageSize method (Ctlutil.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ The dimensions apply to the size of the destination video and not to the overall
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

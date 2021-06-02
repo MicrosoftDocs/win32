@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileSizeMismatchDatabasesConsistentException members"
 title: EsentLogFileSizeMismatchDatabasesConsistentException members
 TOCTitle: EsentLogFileSizeMismatchDatabasesConsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchDatabasesConsistentException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogFileSizeMismatchDatabasesConsistent exceptions.
 
-The [EsentLogFileSizeMismatchDatabasesConsistentException](dn334552\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFileSizeMismatchDatabasesConsistentException](./esentlogfilesizemismatchdatabasesconsistentexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogFileSizeMismatchDatabasesConsistentException class](dn334552\(v=exchg.10\).md)
+[EsentLogFileSizeMismatchDatabasesConsistentException class](./esentlogfilesizemismatchdatabasesconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

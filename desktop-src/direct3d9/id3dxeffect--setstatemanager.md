@@ -1,5 +1,5 @@
 ---
-Description: Set the effect state manager.
+description: Set the effect state manager.
 ms.assetid: 87409687-03f1-4593-ae58-3a8ba08e592b
 title: ID3DXEffect::SetStateManager method (D3DX9Effect.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The [**ID3DXEffectStateManager**](id3dxeffectstatemanager.md) is a user-implemen
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

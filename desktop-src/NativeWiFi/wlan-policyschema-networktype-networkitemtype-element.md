@@ -1,5 +1,5 @@
 ---
-Description: Specifies a network type.
+description: Specifies a network type.
 ms.assetid: fe3044ab-6e93-48f8-b8cb-fdf984987232
 title: networkType (networkItemType) Element
 ms.topic: reference
@@ -30,7 +30,7 @@ The **networkType** element is defined by the [**networkItemType**](wlan-policys
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

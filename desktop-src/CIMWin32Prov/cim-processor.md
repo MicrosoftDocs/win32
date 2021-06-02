@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Processor class represents the capabilities and management of the processor logical device.
+description: The CIM\_Processor class represents the capabilities and management of the processor logical device.
 ms.assetid: 7af3208f-f1d5-4911-b6ab-46b54eec0b69
 ms.tgt_platform: multiple
 title: CIM_Processor class (CIMWin32 WMI Providers)
@@ -46,7 +46,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_Processor class
+# CIM_Processor class (CIMWin32 WMI Providers)
 
 The **CIM\_Processor** class represents the capabilities and management of the processor logical device.
 
@@ -2359,7 +2359,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

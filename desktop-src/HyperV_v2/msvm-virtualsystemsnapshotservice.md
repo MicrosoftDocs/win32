@@ -1,5 +1,5 @@
 ---
-Description: Service to create, apply, and destroy snapshots of virtual machines.
+description: Service to create, apply, and destroy snapshots of virtual machines.
 ms.assetid: '34efe124-d198-4bad-a3c9-e8457a5faa5e'
 title: Msvm_VirtualSystemSnapshotService class
 ms.topic: reference
@@ -788,7 +788,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

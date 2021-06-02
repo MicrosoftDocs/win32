@@ -1,5 +1,5 @@
 ---
-Description: Specifies when single sign on is performed.
+description: Specifies when single sign on is performed.
 ms.assetid: 23a7ab31-b29d-4f45-a384-bb2d2c18230f
 title: type (singleSignOn) Element
 ms.topic: reference
@@ -45,7 +45,7 @@ The **type** element is defined by the [**singleSignOn**](onexschema-singlesigno
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Volume Envelope Effect
+description: Volume Envelope Effect
 ms.assetid: 17b6d842-e79c-49b0-baa4-1535b4a2c6ae
 title: Volume Envelope Effect
 ms.topic: article

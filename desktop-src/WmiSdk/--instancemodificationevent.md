@@ -1,5 +1,5 @@
 ---
-Description: Reports an instance modification event, which is a type of intrinsic event generated when an instance changes in the namespace.
+description: Reports an instance modification event, which is a type of intrinsic event generated when an instance changes in the namespace.
 ms.assetid: aa35f349-8b57-435f-bf82-76daf2b43ec9
 ms.tgt_platform: multiple
 title: '__InstanceModificationEvent class'
@@ -126,7 +126,7 @@ The [Monitor process modification event](https://Gallery.TechNet.Microsoft.Com/d
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

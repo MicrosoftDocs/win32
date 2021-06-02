@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetIntersectIndexes Function"
 title: JetIntersectIndexes Function
 TOCTitle: JetIntersectIndexes Function
 ms:assetid: 6e111d10-6882-46ac-a70b-7896662d3b5d
@@ -47,17 +48,17 @@ The session to use for this call.
 
 *rgindexrange*
 
-A pointer to an array of [JET_IndexRange](gg269335\(v=exchg.10\).md) structures. Each structure includes a [JET_TABLEID](gg269182\(v=exchg.10\).md) that has been set up to hold one of the index ranges to be intersected. For more information, see [JET_IndexRange](gg269335\(v=exchg.10\).md).
+A pointer to an array of [JET_IndexRange](./jet-indexrange-structure.md) structures. Each structure includes a [JET_TABLEID](./jet-tableid.md) that has been set up to hold one of the index ranges to be intersected. For more information, see [JET_IndexRange](./jet-indexrange-structure.md).
 
 *cindexrange*
 
-The number of [JET_IndexRange](gg269335\(v=exchg.10\).md) structures in the array that is contained in the *rgindexrange* parameter.
+The number of [JET_IndexRange](./jet-indexrange-structure.md) structures in the array that is contained in the *rgindexrange* parameter.
 
 *precordlist*
 
-Pointer to a [JET_RECORDLIST](gg269287\(v=exchg.10\).md) structure. This structure will be populated with enough information to traverse the temporary table with the results from **JetIntersectIndexes**.
+Pointer to a [JET_RECORDLIST](./jet-recordlist-structure.md) structure. This structure will be populated with enough information to traverse the temporary table with the results from **JetIntersectIndexes**.
 
-The output buffer that receives a [JET_RECORDLIST](gg269287\(v=exchg.10\).md) structure. The structure contains a description of the result set of the intersection.
+The output buffer that receives a [JET_RECORDLIST](./jet-recordlist-structure.md) structure. The structure contains a description of the result set of the intersection.
 
 *grbit*
 
@@ -65,7 +66,7 @@ Reserved for future use.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -162,13 +163,13 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 On success, a new temporary table is returned that contains the bookmarks of the records that match the criteria represented by each of the input index range descriptions.
 
-On failure, the temporary table containing the results will not be created. The state of the temporary database may be changed. The state of any ordinary databases in use by the database engine will remain unchanged. The current position of the [JET_TABLEID](gg269182\(v=exchg.10\).md)s provided to this function may be changed.
+On failure, the temporary table containing the results will not be created. The state of the temporary database may be changed. The state of any ordinary databases in use by the database engine will remain unchanged. The current position of the [JET_TABLEID](./jet-tableid.md)s provided to this function may be changed.
 
 #### Remarks
 
 **JetIntersectIndexes** can be used to efficiently filter the records in a table by multiple criteria if those criteria can be expressed in terms of the secondary indices over that table. For example, consider that you have a very large table containing people. The table can have columns for their user id, first name, last name, and so on. Suppose that each of these columns is indexed separately and that the primary index of the table is over user id. If you wanted to find everyone whose first name starts with an A and whose last name starts with G, you would perform the following steps:
 
-1.  Open a new cursor on the table, and set that cursor to use the index over the "first name" column. Then setup an index range for all people whose "first name" started with 'A', and build a [JET_IndexRange](gg269335\(v=exchg.10\).md) struct that contains this cursor.
+1.  Open a new cursor on the table, and set that cursor to use the index over the "first name" column. Then setup an index range for all people whose "first name" started with 'A', and build a [JET_IndexRange](./jet-indexrange-structure.md) struct that contains this cursor.
 
 2.  Repeat step 1 with a new cursor on the "last name" index for all people whose "last name" started with 'G'.
 
@@ -176,9 +177,9 @@ On failure, the temporary table containing the results will not be created. The 
 
 4.  Traverse the temporary table and retrieve each of the records that pass the criteria by bookmark.
 
-The temporary table containing the result set is a simple table with one column that contains the bookmark of each record that passed all the criteria used to compute the intersection. The result set is sorted in the same order as the primary index and contains no duplicate entries. The application can enumerate the results of the intersection by enumerating the rows in the temporary table, retrieving the bookmark for each result using [JetRetrieveColumn](gg269198\(v=exchg.10\).md), and then visiting the record in the database by calling [JetGotoBookmark](gg294053\(v=exchg.10\).md) with that bookmark on a cursor positioned on the primary index.
+The temporary table containing the result set is a simple table with one column that contains the bookmark of each record that passed all the criteria used to compute the intersection. The result set is sorted in the same order as the primary index and contains no duplicate entries. The application can enumerate the results of the intersection by enumerating the rows in the temporary table, retrieving the bookmark for each result using [JetRetrieveColumn](./jetretrievecolumn-function.md), and then visiting the record in the database by calling [JetGotoBookmark](./jetgotobookmark-function.md) with that bookmark on a cursor positioned on the primary index.
 
-The temporary table returned by **JetIntersectIndexes** can only be scanned in a forward direction. It should also be closed via [JetCloseTable](gg294087\(v=exchg.10\).md) when the scan has been completed. For more information about temporary tables and how they work, see [JetOpenTemporaryTable](gg294144\(v=exchg.10\).md).
+The temporary table returned by **JetIntersectIndexes** can only be scanned in a forward direction. It should also be closed via [JetCloseTable](./jetclosetable-function.md) when the scan has been completed. For more information about temporary tables and how they work, see [JetOpenTemporaryTable](./jetopentemporarytable-function.md).
 
 **JetIntersectIndexes** is generally an efficient and convenient way to filter records based on multiple indexed criteria. However, there are some important tips that should be followed to maximize the usefulness of this feature. If you know that one of the criteria is so restrictive that the resulting index range has very few records then it is probably better to simply walk that index range and filter the records at the application level. Further, if you know that you have criteria that are much less restrictive than other criteria in your intersection then you might consider dropping those much less restrictive criteria from the intersection. Finally, if you know that one of the criteria is not at all restrictive such that the resulting index range is almost as large as the primary index then it is unlikely that intersecting with that index range will benefit (reduce the size of) the result set. In all cases, you should be selecting criteria in a manner that will take the fewest possible index entries on input and generate the most specific set of bookmarks on output for maximum performance.
 
@@ -216,13 +217,12 @@ The temporary table returned by **JetIntersectIndexes** can only be scanned in a
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_IndexRange](gg269335\(v=exchg.10\).md)  
-[JET_RECORDLIST](gg269287\(v=exchg.10\).md)  
-[JetGotoBookmark](gg294053\(v=exchg.10\).md)  
-[JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
-[JetSetIndexRange](gg294112\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_IndexRange](./jet-indexrange-structure.md)  
+[JET_RECORDLIST](./jet-recordlist-structure.md)  
+[JetGotoBookmark](./jetgotobookmark-function.md)  
+[JetRetrieveColumn](./jetretrievecolumn-function.md)  
+[JetSetIndexRange](./jetsetindexrange-function.md)

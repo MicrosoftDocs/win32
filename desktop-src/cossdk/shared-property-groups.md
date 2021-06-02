@@ -1,5 +1,5 @@
 ---
-Description: To prevent name collisions among properties created by different objects, the shared property manager (SPM) uses shared property groups.
+description: To prevent name collisions among properties created by different objects, the shared property manager (SPM) uses shared property groups.
 ms.assetid: f73d631e-2552-4358-903a-739e2df3657d
 title: Shared Property Groups
 ms.topic: article
@@ -12,7 +12,7 @@ To prevent name collisions among properties created by different objects, the sh
 
 The SPM object model is shown in the following illustration.
 
-![](images/1df31cd9-2fc4-48d3-ae68-cae38afb75a6.png)
+![Diagram that shows the SPM object model: ISharedPropertyGroupManager, ISharedPropertyGroup, to ISharedProperty.](images/1df31cd9-2fc4-48d3-ae68-cae38afb75a6.png)
 
 The following are interfaces of the shared property manager:
 

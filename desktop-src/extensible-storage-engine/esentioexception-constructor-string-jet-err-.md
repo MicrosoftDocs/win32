@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIOException constructor (String, JET_err)"
 title: EsentIOException constructor (String, JET_err)
 TOCTitle: EsentIOException constructor (String, JET_err)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentIOException.#ctor(System.String,Microsoft.Isam.Esent.Interop.JET_err)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentIOException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,7 +63,7 @@ protected EsentIOException(
 <!-- end list -->
 
   - err  
-    Type: [Microsoft.Isam.Esent.Interop.JET_err](hh564840\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_err](./jet-err-enumeration.md)  
     
     The error code of the exception.
 
@@ -70,10 +71,10 @@ protected EsentIOException(
 
 #### Reference
 
-[EsentIOException class](dn319595\(v=exchg.10\).md)
+[EsentIOException class](./esentioexception-class.md)
 
-[EsentIOException members](dn334537\(v=exchg.10\).md)
+[EsentIOException members](./esentioexception-members.md)
 
-[EsentIOException overload](dn334540\(v=exchg.10\).md)
+[EsentIOException overload](./esentioexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

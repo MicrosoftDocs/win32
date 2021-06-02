@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECSIZE members"
 title: JET_RECSIZE members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_RECSIZE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.JET_RECSIZE
@@ -13,9 +14,9 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-Used by [JetGetRecordSize(JET_SESID, JET_TABLEID, JET_RECSIZE, GetRecordSizeGrbit)](dn335320\(v=exchg.10\).md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESENT record structure overhead space.
+Used by [JetGetRecordSize(JET_SESID, JET_TABLEID, JET_RECSIZE, GetRecordSizeGrbit)](./vistaapi.jetgetrecordsize-method.md) to return information about a record's usage requirements in user data space, number of set columns, number of values, and ESENT record structure overhead space.
 
-The [JET_RECSIZE](hh557010\(v=exchg.10\).md) type exposes the following members.
+The [JET_RECSIZE](./jet-recsize-structure2.md) type exposes the following members.
 
 ## Properties
 
@@ -192,6 +193,6 @@ Top
 
 #### Reference
 
-[JET_RECSIZE structure](hh557010\(v=exchg.10\).md)
+[JET_RECSIZE structure](./jet-recsize-structure2.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

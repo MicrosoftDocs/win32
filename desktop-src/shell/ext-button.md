@@ -1,5 +1,5 @@
 ---
-Description: Contains information about a button that a File Manager extension DLL is adding to the toolbar of File Manager.
+description: Contains information about a button that a File Manager extension DLL is adding to the toolbar of File Manager.
 title: EXT_BUTTON structure (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 8cd29a06-0f38-4285-9092-647a391b72d7
-api_name: 
- - EXT_BUTTON
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -83,7 +74,7 @@ The style of the button.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

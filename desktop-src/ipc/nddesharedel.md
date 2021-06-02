@@ -1,5 +1,5 @@
 ---
-Description: Deletes a DDE share from the DDE share database manager (DSDM).
+description: Deletes a DDE share from the DDE share database manager (DSDM).
 ms.assetid: 3240f4b1-2625-46bc-9bbe-27737c59df81
 title: NDdeShareDel function (Nddeapi.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ To delete a DDE share from the DSDM, you must have the appropriate privilege. Th
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for computer hardware obtain information about the presence, state, or properties of hardware components.
+description: WMI tasks for computer hardware obtain information about the presence, state, or properties of hardware components.
 ms.assetid: eb4c2c38-4853-4486-b889-93a843d88edb
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Computer Hardware'

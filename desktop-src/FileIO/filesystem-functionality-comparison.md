@@ -1,5 +1,5 @@
 ---
-Description: Tables that list functionality and feature support comparisons for the four main Windows file systems, NTFS, exFAT, UDF, and FAT32.
+description: Tables that list functionality and feature support comparisons for the four main Windows file systems, NTFS, exFAT, UDF, and FAT32.
 ms.assetid: 28cf2805-f1ce-46b4-bf08-a329f67f4d99
 title: File System Functionality Comparison
 ms.topic: article

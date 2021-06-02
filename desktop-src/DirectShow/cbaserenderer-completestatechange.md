@@ -1,5 +1,5 @@
 ---
-Description: The CompleteStateChange method determines whether a transition to the paused state is complete.
+description: The CompleteStateChange method determines whether a transition to the paused state is complete.
 ms.assetid: 505a0b31-deaa-46be-91e6-f9bc8e47dd3a
 title: CBaseRenderer.CompleteStateChange method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The [**CBaseRenderer::Pause**](cbaserenderer-pause.md) method calls this method 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

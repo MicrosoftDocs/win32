@@ -1,5 +1,5 @@
 ---
-Description: Raised by a pipeline component when the configuration changes for one of the output protection schemes. This event applies only to protected content.
+description: Raised by a pipeline component when the configuration changes for one of the output protection schemes. This event applies only to protected content.
 ms.assetid: 0a13fc08-2bbe-46d8-a076-6165cca6ea36
 title: MEContentProtectionMessage event (Mfobjects.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The event data and attributes depend on the content protection system in use.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

@@ -22,7 +22,7 @@ A container of this class can contain resource properties.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Resource-Properties            |
 | Ldap-Display-Name | msDS-ResourceProperties              |
@@ -42,7 +42,7 @@ A container of this class can contain resource properties.
 
 
 
-|                             |                                                                                              |
+| Entry | Value |
 |-----------------------------|----------------------------------------------------------------------------------------------|
 | System-Only                 | False                                                                                        |
 | Object-Category             | 1                                                                                            |

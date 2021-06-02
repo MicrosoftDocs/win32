@@ -21,7 +21,7 @@ Contains the number of days of inactivity that is allowed for the user.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | shadowInactive                       |
 | Ldap-Display-Name | shadowInactive                       |
@@ -45,7 +45,7 @@ Contains the number of days of inactivity that is allowed for the user.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -66,7 +66,7 @@ Contains the number of days of inactivity that is allowed for the user.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -87,7 +87,7 @@ Contains the number of days of inactivity that is allowed for the user.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -108,7 +108,7 @@ Contains the number of days of inactivity that is allowed for the user.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

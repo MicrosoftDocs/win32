@@ -1,5 +1,5 @@
 ---
-Description: The put\_TransportProtocol method sets the transport protocol.
+description: The put\_TransportProtocol method sets the transport protocol.
 ms.assetid: d2f74d4a-a65d-4829-ad17-7548ef06cfeb
 title: ITMedia::put_TransportProtocol method (Sdpblb.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

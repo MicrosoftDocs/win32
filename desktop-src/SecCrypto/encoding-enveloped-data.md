@@ -1,5 +1,5 @@
 ---
-Description: Cryptographic message syntax can be used to encode enveloped messages.
+description: Cryptographic message syntax can be used to encode enveloped messages.
 ms.assetid: f35aacda-6827-42e9-b7ac-58dc007fc697
 title: Encoding Enveloped Data
 ms.topic: article

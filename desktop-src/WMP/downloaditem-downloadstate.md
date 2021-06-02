@@ -62,7 +62,7 @@ Download states can occur in any order. Do not write code that depends on the oc
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/>                                  |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

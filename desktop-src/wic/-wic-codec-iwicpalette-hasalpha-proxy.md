@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the HasAlpha method.
+description: Proxy function for the HasAlpha method.
 ms.assetid: 8af9f588-ac22-40c4-8973-9636951cc9e6
 title: IWICPalette_HasAlpha_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

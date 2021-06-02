@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COM+ Developers Overview"
 ms.assetid: 4670b09f-2586-4325-aaa7-c6c7d9966987
 title: COM+ Developers Overview
 ms.topic: article

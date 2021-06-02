@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFilePathInUseException methods"
 title: EsentLogFilePathInUseException methods
 TOCTitle: EsentLogFilePathInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFilePathInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogFilePathInUseException](dn334545\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFilePathInUseException](./esentlogfilepathinuseexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentLogFilePathInUseException class](dn334545\(v=exchg.10\).md)
+[EsentLogFilePathInUseException class](./esentlogfilepathinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

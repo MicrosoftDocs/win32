@@ -1,5 +1,5 @@
 ---
-Description: Converts a date in the string FILETIME format to the CIM datetime format.
+description: Converts a date in the string FILETIME format to the CIM datetime format.
 ms.assetid: e375afda-5e94-46d6-b1ac-e801e0f4a620
 ms.tgt_platform: multiple
 title: SWbemDateTime.SetFileTime method (Wbemdisp.h)
@@ -85,7 +85,7 @@ For examples of using the [**SWbemDateTime**](swbemdatetime.md) object to conver
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

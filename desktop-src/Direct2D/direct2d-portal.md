@@ -1,6 +1,6 @@
 ---
 title: Direct2D
-description: .
+description: Direct2D
 ms.assetid: 03b3b91c-9751-4f8d-af24-85067f06930b
 ms.topic: article
 ms.date: 05/31/2018

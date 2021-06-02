@@ -1,5 +1,5 @@
 ---
-Description: TSPI 3.0 adds functions and messages to support communication with a Media Service Provider (MSP). Functions have also been added which enhance the ease of tracking conferences using the Call Hub concept.
+description: TSPI 3.0 adds functions and messages to support communication with a Media Service Provider (MSP). Functions have also been added which enhance the ease of tracking conferences using the Call Hub concept.
 ms.assetid: 61c35478-859a-4bf3-9d40-77a3f4180f22
 title: What's New for TSPI Version 3.0
 ms.topic: article

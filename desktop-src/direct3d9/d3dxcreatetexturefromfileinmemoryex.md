@@ -1,5 +1,5 @@
 ---
-Description: Creates a texture from a file in memory. This is a more advanced function than D3DXCreateTextureFromFileInMemory.
+description: Creates a texture from a file in memory. This is a more advanced function than D3DXCreateTextureFromFileInMemory.
 ms.assetid: e515697c-0e24-4d96-b58a-dc4f27683021
 title: D3DXCreateTextureFromFileInMemoryEx function (D3dx9tex.h)
 ms.topic: reference
@@ -202,7 +202,7 @@ When skipping mipmap levels while loading a .dds file, use the D3DX\_SKIP\_DDS\_
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

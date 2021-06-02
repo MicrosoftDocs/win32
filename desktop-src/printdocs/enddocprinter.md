@@ -1,5 +1,5 @@
 ---
-Description: The EndDocPrinter function ends a print job for the specified printer.
+description: The EndDocPrinter function ends a print job for the specified printer.
 ms.assetid: 13c713e8-cc24-4191-8b1e-967b9e20e541
 title: EndDocPrinter function (Winspool.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ When a page in a spooled file exceeds approximately 350 MB, it may fail to print
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

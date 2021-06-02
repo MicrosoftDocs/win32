@@ -1,5 +1,5 @@
 ---
-Description: Digit monitoring monitors the call for digits.
+description: Digit monitoring monitors the call for digits.
 ms.assetid: 6ba28fdf-87d5-4d39-9e12-8201585a86ee
 title: Digit Monitoring
 ms.topic: article

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumerations
+# Enumerations (Windows Animation Reference)
 
 Reference documentation for enumerations defined by the Windows Animation Manager.
 

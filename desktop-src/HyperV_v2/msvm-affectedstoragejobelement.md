@@ -1,5 +1,5 @@
 ---
-Description: Represents the association between a job and the managed elements that may be affected by its execution.
+description: Represents the association between a job and the managed elements that may be affected by its execution.
 ms.assetid: 81849DE4-9039-426F-B7B1-45BB31A9132C
 title: Msvm_AffectedStorageJobElement class
 ms.topic: reference
@@ -133,7 +133,7 @@ Access to the **Msvm\_AffectedStorageJobElement** class might be restricted by U
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The GetObjectText\_ method of the SWbemObject object returns a textual rendering of the object.
+description: The GetObjectText\_ method of the SWbemObject object returns a textual rendering of the object.
 ms.assetid: 8b980863-14ad-4884-8897-dd076d927824
 ms.tgt_platform: multiple
 title: SWbemObject.GetObjectText_ method (Wbemdisp.h)
@@ -104,7 +104,7 @@ WScript.Echo strMOF
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

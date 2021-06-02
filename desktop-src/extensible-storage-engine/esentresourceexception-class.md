@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException class"
 title: EsentResourceException class
 TOCTitle: EsentResourceException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentResourceException
@@ -34,17 +35,17 @@ Base class for Resource exceptions.
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-        [Microsoft.Isam.Esent.Interop.EsentOperationException](dn319727\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+        [Microsoft.Isam.Esent.Interop.EsentOperationException](./esentoperationexception-class.md)  
           Microsoft.Isam.Esent.Interop.EsentResourceException  
-            [Microsoft.Isam.Esent.Interop.EsentDiskException](dn334464\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentMemoryException](dn334636\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentQuotaException](dn319806\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentTaskDroppedException](dn334958\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentTooManyIOException](dn335003\(v=exchg.10\).md)  
+            [Microsoft.Isam.Esent.Interop.EsentDiskException](./esentdiskexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentMemoryException](./esentmemoryexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentQuotaException](./esentquotaexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentTaskDroppedException](./esenttaskdroppedexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentTooManyIOException](./esenttoomanyioexception-class.md)  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -71,6 +72,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentResourceException members](dn350580\(v=exchg.10\).md)
+[EsentResourceException members](./esentresourceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

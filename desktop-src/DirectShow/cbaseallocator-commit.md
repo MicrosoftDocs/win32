@@ -1,5 +1,5 @@
 ---
-Description: The Commit method allocates the memory for the buffers. This method implements the IMemAllocator::Commit method.
+description: The Commit method allocates the memory for the buffers. This method implements the IMemAllocator::Commit method.
 ms.assetid: e8c36276-0229-428f-b030-978651ab7534
 title: CBaseAllocator.Commit method (Amfilter.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ You must call this method before calling the [**CBaseAllocator::GetBuffer**](cba
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

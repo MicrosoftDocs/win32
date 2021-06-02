@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyInstancesException methods"
 title: EsentTooManyInstancesException methods
 TOCTitle: EsentTooManyInstancesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManyInstancesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManyInstancesException](dn335021\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyInstancesException](./esenttoomanyinstancesexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTooManyInstancesException class](dn335021\(v=exchg.10\).md)
+[EsentTooManyInstancesException class](./esenttoomanyinstancesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

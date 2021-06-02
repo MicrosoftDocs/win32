@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Sensor class represents a hardware device that is capable of measuring the characteristics of a physical property (for example, the temperature or voltage characteristics of a unitary computer system).
+description: The CIM\_Sensor class represents a hardware device that is capable of measuring the characteristics of a physical property (for example, the temperature or voltage characteristics of a unitary computer system).
 ms.assetid: e14629db-830d-4bb8-8d1e-4f01c24f4082
 ms.tgt_platform: multiple
 title: CIM_Sensor class
@@ -1165,7 +1165,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

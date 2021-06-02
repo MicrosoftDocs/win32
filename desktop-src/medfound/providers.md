@@ -1,5 +1,5 @@
 ---
-Description: Contains a list of trace providers for MFTrace.
+description: Contains a list of trace providers for MFTrace.
 ms.assetid: ee483f0a-5a90-4150-ada4-0b63ae312523
 title: providers element
 ms.topic: reference

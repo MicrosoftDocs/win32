@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfDbtimeValuesException methods"
 title: EsentOutOfDbtimeValuesException methods
 TOCTitle: EsentOutOfDbtimeValuesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfDbtimeValuesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfDbtimeValuesException](dn319775\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfDbtimeValuesException](./esentoutofdbtimevaluesexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentOutOfDbtimeValuesException class](dn319775\(v=exchg.10\).md)
+[EsentOutOfDbtimeValuesException class](./esentoutofdbtimevaluesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

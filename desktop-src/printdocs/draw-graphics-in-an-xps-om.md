@@ -1,5 +1,5 @@
 ---
-Description: This page describes how to draw graphics in an XPS OM.
+description: This page describes how to draw graphics in an XPS OM.
 ms.assetid: 2384b522-208a-48db-ae0d-f82fa0214d09
 title: Draw Graphics in an XPS OM
 ms.topic: article
@@ -197,7 +197,7 @@ Add a textual description of the shape that is specified by the [**IXpsOMPath**]
 
 The code example on this page uses an [**IXpsOMSolidColorBrush**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsolidcolorbrush) interface as the fill brush and stroke brush for the path. In addition to the **IXpsOMSolidColorBrush** interface, you can use an [**IXpsOMGradientBrush**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientbrush), [**IXpsOMImageBrush**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimagebrush), or [**IXpsOMVisualBrush**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualbrush) interface.
 
-The stroke is the line that can be drawn around the perimeter of the figure. The [XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816) supports many different stroke line styles. To specify the stroke line style, set the stroke properties with the following methods of the [**IXpsOMPath**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath) interface:
+The stroke is the line that can be drawn around the perimeter of the figure. The [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf) supports many different stroke line styles. To specify the stroke line style, set the stroke properties with the following methods of the [**IXpsOMPath**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompath) interface:
 
 -   [**SetStrokeBrushLocal**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlocal) or [**SetStrokeBrushLookup**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-setstrokebrushlookup) to set the stroke brush
 -   [**GetStrokeDashes**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompath-getstrokedashes) to get the stroke dash collection that describes the strokes
@@ -267,7 +267,7 @@ The stroke is the line that can be drawn around the perimeter of the figure. The
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

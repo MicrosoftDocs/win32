@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySplitsException methods"
 title: EsentTooManySplitsException methods
 TOCTitle: EsentTooManySplitsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTooManySplitsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManySplitsException](dn350850\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManySplitsException](./esenttoomanysplitsexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTooManySplitsException class](dn350850\(v=exchg.10\).md)
+[EsentTooManySplitsException class](./esenttoomanysplitsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

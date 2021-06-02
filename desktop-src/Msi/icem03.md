@@ -1,5 +1,5 @@
 ---
-Description: ICEM03 verifies that all actions in the module are either base actions or derive from a valid base action.
+description: ICEM03 verifies that all actions in the module are either base actions or derive from a valid base action.
 ms.assetid: 8e2b5921-32cf-45e8-9906-30002574a712
 title: ICEM03
 ms.topic: article

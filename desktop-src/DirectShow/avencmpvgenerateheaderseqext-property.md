@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder generates sequence extension headers. This property applies to MPEG video encoders.
+description: Specifies whether the encoder generates sequence extension headers. This property applies to MPEG video encoders.
 ms.assetid: 93832835-db08-492e-a6bc-0340e2e66d8e
 title: AVEncMPVGenerateHeaderSeqExt property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is **VARIANT\_TRUE**, the encoder generates sequence extension head
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

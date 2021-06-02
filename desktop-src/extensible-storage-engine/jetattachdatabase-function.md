@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetAttachDatabase Function"
 title: JetAttachDatabase Function
 TOCTitle: JetAttachDatabase Function
 ms:assetid: bc4c9a76-203c-424a-ac17-f096e3a6e04e
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetAttachDatabase Function
 
-The **JetAttachDatabase** function attaches a database file for use with a database instance. In order to use the database, it will need to be subsequently opened with [JetOpenDatabase](gg269299\(v=exchg.10\).md).
+The **JetAttachDatabase** function attaches a database file for use with a database instance. In order to use the database, it will need to be subsequently opened with [JetOpenDatabase](./jetopendatabase-function.md).
 
 ```cpp
     JET_ERR JET_API JetAttachDatabase(
@@ -87,7 +88,7 @@ A group of bits that specify zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -155,11 +156,11 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-Calling **JetAttachDatabase** is equivalent to calling [JetAttachDatabase2](gg269322\(v=exchg.10\).md) and passing a value of zero, meaning there is no limit, for the *cpgDatabaseSizeMax* parameter.
+Calling **JetAttachDatabase** is equivalent to calling [JetAttachDatabase2](./jetattachdatabase2-function.md) and passing a value of zero, meaning there is no limit, for the *cpgDatabaseSizeMax* parameter.
 
 Attaching a writable database (that is, if JET_bitDbReadOnly was not specified in the *grbit* parameter) will open the file exclusively at the operating system level. No other process will be able open the file. It is possible for multiple processes to attach a single database by opening them in read-only mode.
 
-The database file is detached using [JetDetachDatabase](gg269266\(v=exchg.10\).md) or [JetDetachDatabase2](gg294105\(v=exchg.10\).md).
+The database file is detached using [JetDetachDatabase](./jetdetachdatabase-function.md) or [JetDetachDatabase2](./jetdetachdatabase2-function.md).
 
 Index-checking parameters
 
@@ -173,17 +174,17 @@ As of Windows Server 2003, the ESE database engine tracks Unicode index entries
 
 These parameters control what happens when the ESE database engine attaches to a database that was last used under a different build of the operating system. The operating system version is stamped in the database header.
 
-If [JET_paramEnableIndexChecking](gg269337\(v=exchg.10\).md) is set to **TRUE**, and the database contains potentially corrupt indexes:
+If [JET_paramEnableIndexChecking](./database-parameters.md) is set to **TRUE**, and the database contains potentially corrupt indexes:
 
   - **JetAttachDatabase** will delete the potentially corrupt indexes if *grbit* contains JET_bitDbDeleteCorruptIndexes
 
   - **JetAttachDatabase**will return an error if *grbit* does not contain JET_bitDbDeleteCorruptIndexes and there are indexes which need deletion.
 
-If [JET_paramEnableIndexChecking](gg269337\(v=exchg.10\).md) is set to **FALSE**:
+If [JET_paramEnableIndexChecking](./database-parameters.md) is set to **FALSE**:
 
   - **JetAttachDatabase** will ignore potentially corrupt indexes, and return JET_errSuccess (assuming there were no other errors).
 
-Windows Server 2003 and later: If [JET_paramEnableIndexChecking](gg269337\(v=exchg.10\).md) has not been reset, the internal fixup table will be used to fixup index entries. This may not fix all index corruptions but will be transparent to the application.
+Windows Server 2003 and later: If [JET_paramEnableIndexChecking](./database-parameters.md) has not been reset, the internal fixup table will be used to fixup index entries. This may not fix all index corruptions but will be transparent to the application.
 
 If the database was attached as read-only the index cannot be fixed or deleted. In this case, the API will instead return an error, such as JET_errSecondaryIndexCorrupted or JET_errPrimaryIndexCorrupted.
 
@@ -225,15 +226,14 @@ If the database was attached as read-only the index cannot be fixed or deleted. 
 
 #### See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetAttachDatabase2](gg269322\(v=exchg.10\).md)  
-[JetCreateDatabase](gg269212\(v=exchg.10\).md)  
-[JetDetachDatabase](gg269266\(v=exchg.10\).md)  
-[JetDetachDatabase2](gg294105\(v=exchg.10\).md)  
-[JetOpenDatabase](gg269299\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetAttachDatabase2](./jetattachdatabase2-function.md)  
+[JetCreateDatabase](./jetcreatedatabase-function.md)  
+[JetDetachDatabase](./jetdetachdatabase-function.md)  
+[JetDetachDatabase2](./jetdetachdatabase2-function.md)  
+[JetOpenDatabase](./jetopendatabase-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)

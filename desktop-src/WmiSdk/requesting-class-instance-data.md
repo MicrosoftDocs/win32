@@ -1,5 +1,5 @@
 ---
-Description: Data queries are WQL statements that request instances of classes. To issue a data query, applications call the IWbemServices::ExecQuery or IWbemServices::ExecQueryAsync method.
+description: Data queries are WQL statements that request instances of classes. To issue a data query, applications call the IWbemServices::ExecQuery or IWbemServices::ExecQueryAsync method.
 ms.assetid: a8b9bf2f-300d-4570-8b30-7532f3421d39
 ms.tgt_platform: multiple
 title: Requesting Class Instance Data

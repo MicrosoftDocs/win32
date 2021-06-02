@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LS"
 title: JET_LS
 TOCTitle: JET_LS
 ms:assetid: 8e4e7902-84b1-404b-8654-bb430a0952aa
@@ -40,9 +41,9 @@ A value of JET_LSNil indicates an invalid context handle.
 
 ### Remarks
 
-A context handle is initially associated with the **JET_LS** data type, using [JetSetLS](gg269243\(v=exchg.10\).md). The context handle can be retrieved from the **JET_LS** data type, using [JetGetLS](gg269234\(v=exchg.10\).md).
+A context handle is initially associated with the **JET_LS** data type, using [JetSetLS](./jetsetls-function.md). The context handle can be retrieved from the **JET_LS** data type, using [JetGetLS](./jetgetls-function.md).
 
-The context handle can be explicitly disassociated from the **JET_LS** data type using [JetGetLS](gg269234\(v=exchg.10\).md) with JET_bitLSReset. Alternatively, the context handle can be implicitly disassociated from the **JET_LS** data type when the underlying object is released by the database engine as a result of direct or indirect action by the application. In the implicit case, a runtime callback is issued to the application so that it can clean up the context handle. For more information on implicitly disassociating from the **JET_LS** data type, see [JetSetLS](gg269243\(v=exchg.10\).md).
+The context handle can be explicitly disassociated from the **JET_LS** data type using [JetGetLS](./jetgetls-function.md) with JET_bitLSReset. Alternatively, the context handle can be implicitly disassociated from the **JET_LS** data type when the underlying object is released by the database engine as a result of direct or indirect action by the application. In the implicit case, a runtime callback is issued to the application so that it can clean up the context handle. For more information on implicitly disassociating from the **JET_LS** data type, see [JetSetLS](./jetsetls-function.md).
 
 The following flags are associated with the JET_LS data type.
 
@@ -104,6 +105,5 @@ The following flags are associated with the JET_LS data type.
 
 ### See Also
 
-[JetSetLS](gg269243\(v=exchg.10\).md)  
-[JetGetLS](gg269234\(v=exchg.10\).md)
-
+[JetSetLS](./jetsetls-function.md)  
+[JetGetLS](./jetgetls-function.md)

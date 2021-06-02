@@ -1,5 +1,5 @@
 ---
-Description: The SetIPUseZeroBroadcast WMI class static method is used to set IP zero broadcast usage.
+description: The SetIPUseZeroBroadcast WMI class static method is used to set IP zero broadcast usage.
 ms.assetid: d20ac6fc-a5d5-4ad9-a2a5-65142b4c7d02
 ms.tgt_platform: multiple
 title: SetIPUseZeroBroadcast method of the Win32_NetworkAdapterConfiguration class
@@ -411,7 +411,7 @@ The [Modify Zero-Broadcast Use for All Network Adapters](https://Gallery.TechNet
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

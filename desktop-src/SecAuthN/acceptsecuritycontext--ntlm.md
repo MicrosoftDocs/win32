@@ -1,5 +1,5 @@
 ---
-Description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client that is using NTLM.
+description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client that is using NTLM.
 ms.assetid: 7a0f5118-be6d-443d-8b01-596dc4030b3b
 title: AcceptSecurityContext (NTLM) function (Sspi.h)
 ms.topic: reference
@@ -163,7 +163,7 @@ After the [*security context*](../secgloss/s-gly.md) has been established, the s
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

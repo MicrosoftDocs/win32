@@ -1,5 +1,5 @@
 ---
-Description: Represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
+description: Represents a Certification Practice Statement (CPS) pointer or user notice qualifier.
 ms.assetid: 857af3d6-aa7b-429a-a056-72573232f72c
 title: Qualifier object
 ms.topic: reference
@@ -62,7 +62,7 @@ The **Qualifier** object cannot be created.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

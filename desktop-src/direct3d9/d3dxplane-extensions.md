@@ -1,5 +1,5 @@
 ---
-Description: Supplies the following operator overloads and type casts for D3DXPLANE structures.
+description: Supplies the following operator overloads and type casts for D3DXPLANE structures.
 ms.assetid: 05f80b68-fb2b-4fd7-94e9-e5b40968c4aa
 title: D3DXPLANE Extensions (D3dx9math.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

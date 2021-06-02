@@ -1,5 +1,5 @@
 ---
-Description: Scales a color value.
+description: Scales a color value.
 ms.assetid: 35e8adee-7ce5-4db5-8276-f0e408748e78
 title: D3DXColorScale function (D3dx9math.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ pOut->r = pC->r * s;
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: Get the number of work items currently in the thread pump.
+description: Get the number of work items currently in the thread pump.
 ms.assetid: 0a3d5a7e-6fa5-4580-8912-c142eb99cef5
 title: ID3DX10ThreadPump::GetWorkItemCount method (D3DX10.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The number of work items currently queued in the thread pump.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

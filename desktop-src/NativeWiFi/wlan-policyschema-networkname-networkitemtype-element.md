@@ -1,5 +1,5 @@
 ---
-Description: Specifies the service set identifier (SSID) of a wireless network.
+description: Specifies the service set identifier (SSID) of a wireless network.
 ms.assetid: 103808f2-9e5f-4605-b42a-337a13455294
 title: networkName (networkItemType) Element
 ms.topic: reference
@@ -30,7 +30,7 @@ The **networkName** element is defined by the [**networkItemType**](wlan-policys
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

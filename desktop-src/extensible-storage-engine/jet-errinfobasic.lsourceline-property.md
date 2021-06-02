@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.lSourceLine property"
 title: JET_ERRINFOBASIC.lSourceLine property  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'lSourceLine property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.lSourceLine
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the source file line for the requested info level.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](./jet-errinfobasic-class.md)
 
-[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](./jet-errinfobasic-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

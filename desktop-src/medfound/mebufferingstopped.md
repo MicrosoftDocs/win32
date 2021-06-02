@@ -1,5 +1,5 @@
 ---
-Description: Signals that a media source has stopped buffering data.
+description: Signals that a media source has stopped buffering data.
 ms.assetid: 11b1290d-d462-4aa0-a358-b3f6447c99d8
 title: MEBufferingStopped event (Mfobjects.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ When the Media Session receives this event, it restarts the presentation clock. 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

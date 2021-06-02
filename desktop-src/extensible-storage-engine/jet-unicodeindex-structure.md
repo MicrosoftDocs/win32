@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX Structure"
 title: JET_UNICODEINDEX Structure
 TOCTitle: JET_UNICODEINDEX Structure
 ms:assetid: d0b8ef74-850e-4e21-9f71-b56ec472aa0f
@@ -26,10 +27,12 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_UNICODEINDEX** structure customizes how Unicode data gets normalized when an index is created over a Unicode column.
 
-    typedef struct tagJET_UNICODEINDEX {
-      unsigned long lcid;
-      unsigned long dwMapFlags;
-    } JET_UNICODEINDEX;
+```cpp
+typedef struct tagJET_UNICODEINDEX {
+  unsigned long lcid;
+  unsigned long dwMapFlags;
+} JET_UNICODEINDEX;
+```
 
 ### Members
 
@@ -125,6 +128,6 @@ These flags get passed to [LCMapString](/windows/win32/api/winnls/nf-winnls-lcma
 
 ### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JetOpenTempTable3](gg269255\(v=exchg.10\).md)
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JetOpenTempTable3](./jetopentemptable3-function.md)

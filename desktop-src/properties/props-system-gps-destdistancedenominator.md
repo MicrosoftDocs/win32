@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_GPS\_DestDistance.
+description: The denominator of PKEY\_GPS\_DestDistance.
 ms.assetid: ecf92ef7-1c6e-49e7-9f2a-eddd6d493abe
 title: System.GPS.DestDistanceDenominator
 ms.topic: article

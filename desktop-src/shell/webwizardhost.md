@@ -1,5 +1,5 @@
 ---
-Description: Exposes methods that enable HTML pages which are hosted in a wizard extension to communicate with the wizard.
+description: Exposes methods that enable HTML pages which are hosted in a wizard extension to communicate with the wizard.
 ms.assetid: 7b3690dc-2007-43a0-80a3-4a68e3c8464d
 title: WebWizardHost object (Shldisp.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ The **WebWizardHost** object has these properties.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

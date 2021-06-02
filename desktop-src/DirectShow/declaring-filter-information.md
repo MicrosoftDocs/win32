@@ -1,5 +1,5 @@
 ---
-Description: Declaring Filter Information
+description: Declaring Filter Information
 ms.assetid: ed3c1d44-ccef-4dde-819b-f5d4d3be6d1e
 title: Declaring Filter Information
 ms.topic: article

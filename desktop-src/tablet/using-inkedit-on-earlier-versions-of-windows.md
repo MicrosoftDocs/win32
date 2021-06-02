@@ -1,5 +1,5 @@
 ---
-Description: Because of the lack of recognizers on non-Tablet PC editions of Microsoft Windows XP, you cannot use InkEdit to render ink on Windows 2000, Windows Server 2003, and non-Tablet PC editions of Windows XP, and you cannot use the control to input ink on these operating systems.
+description: Because of the lack of recognizers on non-Tablet PC editions of Microsoft Windows XP, you cannot use InkEdit to render ink on Windows 2000, Windows Server 2003, and non-Tablet PC editions of Windows XP, and you cannot use the control to input ink on these operating systems.
 ms.assetid: eb80ff91-5c09-43d1-afd4-6391097000c1
 title: Using InkEdit on Earlier Versions of Windows
 ms.topic: article

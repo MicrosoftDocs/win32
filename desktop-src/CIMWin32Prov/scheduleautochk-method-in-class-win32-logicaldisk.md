@@ -1,5 +1,5 @@
 ---
-Description: Schedules Autochk to be run on the disk drive represented by the Win32\_LogicalDisk at the next reboot if the dirty bit is set.
+description: Schedules Autochk to be run on the disk drive represented by the Win32\_LogicalDisk at the next reboot if the dirty bit is set.
 ms.assetid: 34f4c26b-6bfb-45d9-9d6c-0a9b735355f3
 ms.tgt_platform: multiple
 title: ScheduleAutoChk method of the Win32_LogicalDisk class
@@ -103,7 +103,7 @@ Invoke-WmiMethod -path win32_logicaldisk -Name ScheduleAutoChk -ArgumentList @(&
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

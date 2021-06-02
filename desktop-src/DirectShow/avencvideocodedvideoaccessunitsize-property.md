@@ -1,5 +1,5 @@
 ---
-Description: Specifies the size of the video access units, in bytes. This property applies only to variable bit rate (VBR) control modes.
+description: Specifies the size of the video access units, in bytes. This property applies only to variable bit rate (VBR) control modes.
 ms.assetid: bb46b171-d70a-4e01-88c4-321a210a0220
 title: AVEncVideoCodedVideoAccessUnitSize property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ This property is returned as a range of values. To get the supported range, call
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObsoleteException methods"
 title: EsentObsoleteException methods
 TOCTitle: EsentObsoleteException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentObsoleteException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentObsoleteException](dn319668\(v=exchg.10\).md) type exposes the following members.
+The [EsentObsoleteException](./esentobsoleteexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentObsoleteException class](dn319668\(v=exchg.10\).md)
+[EsentObsoleteException class](./esentobsoleteexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

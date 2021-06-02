@@ -1,5 +1,5 @@
 ---
-Description: Describes the relationship between the adapter refresh rate and the rate at which Present or Present operations are completed. These values also serve as flag values for the PresentationIntervals field of D3DCAPS9.
+description: Describes the relationship between the adapter refresh rate and the rate at which Present or Present operations are completed. These values also serve as flag values for the PresentationIntervals field of D3DCAPS9.
 ms.assetid: a7d774c1-93c0-47d8-a8a7-e66e394726a3
 title: D3DPRESENT (D3d9.h)
 ms.topic: reference
@@ -106,7 +106,7 @@ Full-screen mode supports similar usage as windowed mode by supporting D3DPRESEN
 
 ## Requirements
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9.h</dt> </dl> |
 

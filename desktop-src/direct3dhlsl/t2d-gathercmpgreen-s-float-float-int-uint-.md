@@ -1,6 +1,6 @@
 ---
 title: Texture2D::GatherCmpGreen(S,float,float,int,uint) function
-description: Samples a texture, tests the samples against a compare value, and returns the green component along with status about the operation.
+description: For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value along with tile-mapping status. | Texture2D::GatherCmpGreen(S,float,float,int,uint) function
 ms.assetid: 4A23DE5B-F9DE-45BC-ADF7-D952E4355F7F
 keywords:
 - GatherCmpGreen function HLSL
@@ -15,9 +15,9 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# GatherCmpGreen(S,float,float,int,uint) function
+# Texture2D::GatherCmpGreen(S,float,float,int,uint) function
 
-Samples a texture, tests the samples against a compare value, and returns the green component along with status about the operation.
+For four texel values that would be used in a bi-linear filtering operation, returns a comparison of their green component against a compare value along with tile-mapping status.
 
 ## Syntax
 

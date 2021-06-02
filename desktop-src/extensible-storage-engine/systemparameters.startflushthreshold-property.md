@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.StartFlushThreshold property"
 title: SystemParameters.StartFlushThreshold property 
 TOCTitle: 'StartFlushThreshold property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.StartFlushThreshold
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the threshold at which the database page cache begins evicting pages from the cache to make room for pages that are not cached. When the number of page buffers in the cache drops below this threshold then a background process will be started to replenish that pool of available buffers. This threshold is always relative to the maximum cache size as set by JET_paramCacheSizeMax. This threshold must also always be less than the stop threshold as set by JET_paramStopFlushThreshold. The distance height of the start threshold will determine the response time that the database page cache must have to produce available buffers before the application needs them. A high start threshold will give the background process more time to react. However, a high start threshold implies a higher stop threshold and that will reduce the effective size of the database page cache.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,8 +63,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

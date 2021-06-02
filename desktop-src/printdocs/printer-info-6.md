@@ -1,5 +1,5 @@
 ---
-Description: The PRINTER\_INFO\_6 specifies the status value of a printer.
+description: The PRINTER\_INFO\_6 specifies the status value of a printer.
 ms.assetid: f26fe75b-7c97-47ad-892f-d9e40331fa5d
 title: PRINTER_INFO_6 structure (Winspool.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The printer status. This member can be any reasonable combination of the followi
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

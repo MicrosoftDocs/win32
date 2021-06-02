@@ -1,5 +1,5 @@
 ---
-Description: The SetObjects method provides IUnknown pointers for the objects associated with the property page. This method implements the IPropertyPage::SetObjects method.
+description: The SetObjects method provides IUnknown pointers for the objects associated with the property page. This method implements the IPropertyPage::SetObjects method.
 ms.assetid: 11ca1e70-772c-414e-9647-7e4c4084c0d3
 title: CBasePropertyPage.SetObjects method (Cprop.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ If *cObjects* equals 1, this method calls the [**CBasePropertyPage::OnConnect**]
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

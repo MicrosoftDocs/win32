@@ -1,5 +1,5 @@
 ---
-Description: The WM\_DISPLAYCHANGE message is sent to all windows when the display resolution has changed.
+description: The WM\_DISPLAYCHANGE message is sent to all windows when the display resolution has changed.
 ms.assetid: 5a6111fd-648e-41a9-aaf8-e5d93f5d54cd
 title: WM_DISPLAYCHANGE message (Winuser.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ This message is only sent to top-level windows. For all other windows it is post
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: VDS enumerations represent object types, flags, status, and other entities in the VDS object model. For more information about VDS objects and their associated enumerations, see VDS Object Model.
+description: VDS enumerations represent object types, flags, status, and other entities in the VDS object model. For more information about VDS objects and their associated enumerations, see VDS Object Model.
 ms.assetid: 30ee6e39-c1e5-4173-a3dd-5644632140d1
 title: VDS Enumerations
 ms.topic: article

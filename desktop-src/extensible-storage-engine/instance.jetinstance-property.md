@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.JetInstance property"
 title: Instance.JetInstance property 
 TOCTitle: 'JetInstance property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Instance.JetInstance
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the JET_INSTANCE that this instance contains.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public JET_INSTANCE JetInstance { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)  
 
 ## See also
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Instance members](dn350944\(v=exchg.10\).md)
+[Instance members](./instance-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

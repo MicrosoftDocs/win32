@@ -1,5 +1,5 @@
 ---
-Description: Requests a pointer to a specified object.
+description: SMC_GETOBJECT message - Requests a pointer to a specified object.
 title: SMC_GETOBJECT message (Shobjidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -67,7 +67,7 @@ The following interfaces may be requested.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

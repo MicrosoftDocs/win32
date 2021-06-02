@@ -1,5 +1,5 @@
 ---
-Description: Initiates the client side, outbound security context from a credential handle.
+description: Initiates the client side, outbound security context from a credential handle.
 ms.assetid: f3d8c07b-db28-4f26-ba29-8733fc95bdb5
 title: InitializeSecurityContext (CredSSP) function (Sspi.h)
 ms.topic: reference
@@ -259,7 +259,7 @@ After receiving an authentication certificate from a certification authority tha
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                   |

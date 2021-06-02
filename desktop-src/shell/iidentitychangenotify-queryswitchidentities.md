@@ -1,5 +1,5 @@
 ---
-Description: Called when the current user has requested that their user identity be switched, but before the switch occurs.
+description: Called when the current user has requested that their user identity be switched, but before the switch occurs.
 ms.assetid: f159b829-623c-4348-9692-7317663811a7
 title: IIdentityChangeNotify::QuerySwitchIdentities method (Msident.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ You may implement this method to provide custom behavior for your application wh
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

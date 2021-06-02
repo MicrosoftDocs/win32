@@ -1,6 +1,6 @@
 ---
 title: External.appColorDark
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.appColorDark
 ms.assetid: 9cfd9ca9-3a9f-47c5-a1a4-879f0b8d1626
 keywords:
 - External.appColorDark Windows Media Player
@@ -42,7 +42,7 @@ Users can change the color of the Windows Media Player user interface. You can u
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/>                                       |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

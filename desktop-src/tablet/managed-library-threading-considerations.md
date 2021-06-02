@@ -1,5 +1,5 @@
 ---
-Description: The following Tablet PC threading considerations are specific to the Managed Library.
+description: The following Tablet PC threading considerations are specific to the Managed Library.
 ms.assetid: bcc398d3-22ea-466c-9206-92b0ac208def
 title: Managed Library Threading Considerations
 ms.topic: article

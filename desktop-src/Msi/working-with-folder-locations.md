@@ -1,5 +1,5 @@
 ---
-Description: Use these functions to find the source or target of a specified folder in the Directory table of a Windows Installer database.
+description: Use these functions to find the source or target of a specified folder in the Directory table of a Windows Installer database.
 ms.assetid: 8f9971da-cca8-4623-bdd2-079c4f4859f9
 title: Working with Folder Locations
 ms.topic: article

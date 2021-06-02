@@ -1,6 +1,6 @@
 ---
 title: gluEndTrim function (Glu.h)
-description: The gluBeginTrim and gluEndTrim functions delimit a Non-Uniform Rational B-Spline (NURBS) trimming loop definition.
+description: The gluBeginTrim and gluEndTrim functions delimit a Non-Uniform Rational B-Spline (NURBS) trimming loop definition. | gluEndTrim function (Glu.h)
 ms.assetid: e85cc60b-4492-441d-b778-31a3d52b398a
 keywords:
 - gluEndTrim function OpenGL
@@ -78,7 +78,7 @@ gluEndTrim(nobj);
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

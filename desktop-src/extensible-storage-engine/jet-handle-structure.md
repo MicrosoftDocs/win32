@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE structure"
 title: JET_HANDLE structure
 TOCTitle: JET_HANDLE structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_HANDLE
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 A JET_HANDLE contains a generic handle.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,7 +57,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_HANDLE members](hh557479\(v=exchg.10\).md)
+[JET_HANDLE members](./jet-handle-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

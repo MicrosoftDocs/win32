@@ -1,5 +1,5 @@
 ---
-Description: Gets the value of a property from an item's property set. The property can be specified either by name or by the property set's format identifier (FMTID) and property identifier (PID).
+description: Gets the value of a property from an item's property set. The property can be specified either by name or by the property set's format identifier (FMTID) and property identifier (PID).
 ms.assetid: ca787d7b-d95a-45b9-9627-fd505f99f868
 title: ShellFolderItem.ExtendedProperty method (Shldisp.h)
 ms.topic: reference
@@ -198,7 +198,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

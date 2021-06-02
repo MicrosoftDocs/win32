@@ -1,5 +1,5 @@
 ---
-Description: QueryAccept (Upstream)
+description: QueryAccept (Upstream)
 ms.assetid: 3153e3a4-2227-4fdd-b2b0-218763013d2d
 title: QueryAccept (Upstream)
 ms.topic: article

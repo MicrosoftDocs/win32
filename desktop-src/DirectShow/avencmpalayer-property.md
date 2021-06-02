@@ -1,5 +1,5 @@
 ---
-Description: Specifies the MPEG audio layer. This property applies to MPEG audio encoders.
+description: Specifies the MPEG audio layer. This property applies to MPEG audio encoders.
 ms.assetid: cdfe21f6-44aa-4450-99a6-58b23f4b588a
 title: AVEncMPALayer property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncMPALayer**](/windows/win3
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

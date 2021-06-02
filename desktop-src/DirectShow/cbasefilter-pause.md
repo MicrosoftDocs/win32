@@ -1,5 +1,5 @@
 ---
-Description: The Pause method pauses the filter. This method implements the IMediaFilter::Pause method.
+description: CBaseFilter.Pause method - The Pause method pauses the filter. This method implements the IMediaFilter::Pause method.
 ms.assetid: cfb7d532-6c00-49a1-a48d-4dadaca39a0f
 title: CBaseFilter.Pause method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method calls the [**CBasePin::Active**](cbasepin-active.md) method on each 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

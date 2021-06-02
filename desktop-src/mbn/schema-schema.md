@@ -1,5 +1,5 @@
 ---
-Description: Defines a Mobile Broadband Profile.
+description: Defines a Mobile Broadband Profile.
 ms.assetid: bfec0a1d-de17-4ebd-b9fb-570e230da317
 title: Mobile Broadband Profile Schema Reference
 ms.topic: reference

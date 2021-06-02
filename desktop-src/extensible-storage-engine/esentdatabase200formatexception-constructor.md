@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabase200FormatException constructor"
 title: EsentDatabase200FormatException constructor 
 TOCTitle: 'EsentDatabase200FormatException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabase200FormatException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabase200FormatException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabase200FormatException()
 
 #### Reference
 
-[EsentDatabase200FormatException class](dn334342\(v=exchg.10\).md)
+[EsentDatabase200FormatException class](./esentdatabase200formatexception-class.md)
 
-[EsentDatabase200FormatException members](dn334252\(v=exchg.10\).md)
+[EsentDatabase200FormatException members](./esentdatabase200formatexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

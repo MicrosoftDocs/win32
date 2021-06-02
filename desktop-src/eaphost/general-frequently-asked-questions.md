@@ -28,7 +28,7 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 <tbody>
 <tr class="odd">
 <td>What is a supplicant?</td>
-<td>The supplicant is the entity to be authenticated using EAPHost. Typical supplicants are [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) clients, 802.3 clients, and Routing and Remote Access Service (RRAS), Point-to-Point (PPP) clients.</td>
+<td>The supplicant is the entity to be authenticated using EAPHost. Typical supplicants are [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) clients, 802.3 clients, and Routing and Remote Access Service (RRAS), Point-to-Point (PPP) clients.</td>
 </tr>
 <tr class="even">
 <td>What is a peer?</td>
@@ -68,7 +68,7 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 </tr>
 <tr class="odd">
 <td>What is &quot;group policy&quot;?</td>
-<td>For a description of group policy, see [Group Policy Collection](https://go.microsoft.com/fwlink/p/?linkid=84005).</td>
+<td>For a description of group policy, see [Group Policy Collection](/previous-versions/windows/it-pro/windows-server-2003/cc779838(v=ws.10)).</td>
 </tr>
 <tr class="even">
 <td>Can EAPHost functions override configuration policy specified by group policy?</td>
@@ -76,7 +76,7 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 </tr>
 <tr class="odd">
 <td>What is Single-Sign-On (SSO)?</td>
-<td>[802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) is a layer 2 authentication mechanism. Depending on the SSO configuration, SSO enables users to authenticate to the network using [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) authentication before or immediately after logging on to Windows. SSO can be configured to use Windows credentials for network authentication (in which case users enter their credentials only once) or use different credentials for Windows and network authentication. For more information, see [SSO and PLAP](understanding-sso-and-plap.md).<br/></td>
+<td>[802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) is a layer 2 authentication mechanism. Depending on the SSO configuration, SSO enables users to authenticate to the network using [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) authentication before or immediately after logging on to Windows. SSO can be configured to use Windows credentials for network authentication (in which case users enter their credentials only once) or use different credentials for Windows and network authentication. For more information, see [SSO and PLAP](understanding-sso-and-plap.md).<br/></td>
 </tr>
 <tr class="even">
 <td>What is Pre-Logon Access Provider (PLAP)</td>
@@ -84,15 +84,15 @@ The following topic provides answers to commonly-asked questions about the EAPHo
 </tr>
 <tr class="odd">
 <td>What is Protected Extensible Authentication Protocol (PEAP)?</td>
-<td>For more information, see [PEAP](https://go.microsoft.com/fwlink/p/?linkid=84002) and [About Extensible Authentication Protocol](/previous-versions/windows/desktop/eap/about-extensible-authentication-protocol).</td>
+<td>For more information, see [PEAP](/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)) and [About Extensible Authentication Protocol](/previous-versions/windows/desktop/eap/about-extensible-authentication-protocol).</td>
 </tr>
 <tr class="even">
 <td>How does PEAP deal with session resumption and re-authentication?</td>
-<td>Session resumption and re-authentication typically occurs while roaming on a wireless network. Windows Data Protection API (DPAPI) provides a way to protect and bind data to a user and optionally the logon session. The caller gives [<strong>CryptProtectMemory</strong>](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory) an unencrypted buffer and DPAPI will encrypt the memory in place. Later, the caller can pass in the encrypted buffer to [<strong>CryptUnprotectMemory</strong>](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory) and DPAPI will decrypt the memory, once again in place. For more information, see [TLS Inner Application Extension (TSL/IA)](https://go.microsoft.com/fwlink/p/?linkid=84011) and [PEAP](https://go.microsoft.com/fwlink/p/?linkid=84002).<br/></td>
+<td>Session resumption and re-authentication typically occurs while roaming on a wireless network. Windows Data Protection API (DPAPI) provides a way to protect and bind data to a user and optionally the logon session. The caller gives [<strong>CryptProtectMemory</strong>](/windows/desktop/api/dpapi/nf-dpapi-cryptprotectmemory) an unencrypted buffer and DPAPI will encrypt the memory in place. Later, the caller can pass in the encrypted buffer to [<strong>CryptUnprotectMemory</strong>](/windows/desktop/api/dpapi/nf-dpapi-cryptunprotectmemory) and DPAPI will decrypt the memory, once again in place. For more information, see [TLS Inner Application Extension (TSL/IA)](https://go.microsoft.com/fwlink/p/?linkid=84011) and [PEAP](/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)).<br/></td>
 </tr>
 <tr class="odd">
 <td>What is EAP-Transport Level Security (EAP-TLS)?</td>
-<td>EAP-TLS is a client-server protocol in which distinct certificate profiles are typically used for the client and server.For more information, see [IETF RTC 2716](https://go.microsoft.com/fwlink/p/?linkid=83935).<br/></td>
+<td>EAP-TLS is a client-server protocol in which distinct certificate profiles are typically used for the client and server.For more information, see [IETF RTC 2716](/previous-versions/windows/embedded/ms885336(v=msdn.10)).<br/></td>
 </tr>
 <tr class="even">
 <td>How do I implement a password change using the Local Security Authority (LSA) API?</td>
@@ -138,6 +138,4 @@ For more information, see [Finish Messages in the TLS 1.0 Protocol](/windows/des
 
 [EAPHost Development FAQs](eaphost-development-frequently-asked-questions.md)
 </dt> </dl>
-
- 
 

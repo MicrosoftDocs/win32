@@ -1,5 +1,5 @@
 ---
-Description: Provides feedback to the quality manager about playback quality.
+description: Provides feedback to the quality manager about playback quality.
 ms.assetid: 1b4b6a2d-411e-42d1-a44b-bb1928e1c063
 title: MEQualityNotify event (Mfobjects.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Pipeline components are not required to send this event.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The COMMCONFIG structure defines the configuration of a communications resource, serial or otherwise.
+description: The COMMCONFIG structure defines the configuration of a communications resource, serial or otherwise.
 ms.assetid: 05094b98-4694-42dd-883c-b3c90735b3bc
 title: Communications Resource Configuration
 ms.topic: article

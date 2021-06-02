@@ -1,5 +1,5 @@
 ---
-Description: Expands the IAnalysisRegion to represent an infinite area.
+description: Expands the IAnalysisRegion to represent an infinite area.
 ms.assetid: 562f5de5-4a35-404e-a73c-4043d093da98
 title: IAnalysisRegion::MakeInfinite method (IACom.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

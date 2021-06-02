@@ -1,5 +1,5 @@
 ---
-Description: Represents a synthetic Fibre Channel port.
+description: Represents a synthetic Fibre Channel port.
 ms.assetid: 6ca827b5-3ea0-4967-ba1f-b41e84c84009
 title: Msvm_SyntheticFcPort class
 ms.topic: reference
@@ -80,6 +80,9 @@ api_location:
 ---
 
 # Msvm\_SyntheticFcPort class
+
+> [!NOTE]
+> This article contains references to the term slave, a term that Microsoft no longer uses. When the term is removed from the software, we’ll remove it from this article.
 
 Represents a synthetic Fibre Channel port.
 
@@ -1420,7 +1423,7 @@ In some circumstances, a logical port might be identifiable as a front end or ba
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

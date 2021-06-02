@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCloseFile Function"
 title: JetCloseFile Function
 TOCTitle: JetCloseFile Function
 ms:assetid: e8930915-8102-44b0-ae42-abedbd3e0512
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetCloseFile Function
 
-The **JetCloseFile** function closes a file that was opened with [JetOpenFile](gg269249\(v=exchg.10\).md) after the data from that file has been extracted using [JetReadFile](gg269257\(v=exchg.10\).md).
+The **JetCloseFile** function closes a file that was opened with [JetOpenFile](./jetopenfile-function.md) after the data from that file has been extracted using [JetReadFile](./jetreadfile-function.md).
 
 ```cpp
     JET_ERR JET_API JetCloseFile(
@@ -43,7 +44,7 @@ The handle of the file to be read.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -108,7 +109,7 @@ On failure, no change occurs.
 
 #### Remarks
 
-The database engine currently only supports one open file through [JetOpenFile](gg269249\(v=exchg.10\).md) at a time. If a file handle is opened using [JetOpenFile](gg269249\(v=exchg.10\).md) then it must be closed using **JetCloseFile** before another file can be opened.
+The database engine currently only supports one open file through [JetOpenFile](./jetopenfile-function.md) at a time. If a file handle is opened using [JetOpenFile](./jetopenfile-function.md) then it must be closed using **JetCloseFile** before another file can be opened.
 
 #### Requirements
 
@@ -144,10 +145,9 @@ The database engine currently only supports one open file through [JetOpenFile](
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET_HANDLE](gg269217\(v=exchg.10\).md)  
-[JetOpenFile](gg269249\(v=exchg.10\).md)  
-[JetReadFile](gg269257\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JET_HANDLE](./jet-handle.md)  
+[JetOpenFile](./jetopenfile-function.md)  
+[JetReadFile](./jetreadfile-function.md)  
+[JetStopService](./jetstopservice-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: Saves the filter's data to the given stream.
+description: Saves the filter's data to the given stream.
 ms.assetid: f45c8c6e-f0bb-4358-805a-da2669706d34
 title: CPersistStream.Save method (Pstream.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This member function implements the **IPersistStream::Save** method. It calls **
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The QueryPreferredFormat method retrieves the object's preferred time format. This method implements the IMediaSeeking::QueryPreferredFormat method.
+description: The QueryPreferredFormat method retrieves the object's preferred time format. This method implements the IMediaSeeking::QueryPreferredFormat method.
 ms.assetid: 3b73b7cf-1ba7-47c5-8442-5f138b74f335
 title: CSourceSeeking.QueryPreferredFormat method (Ctlutil.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

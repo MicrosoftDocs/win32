@@ -1,6 +1,6 @@
 ---
 title: GatherBlue(S,float,int2,int2,int2,int2) function (HLSL reference)
-description: Samples a texture and returns the blue component.
+description: Returns the blue components of the four texel values that would be used in a bi-linear filtering operation. | GatherBlue(S,float,int2,int2,int2,int2) function (HLSL reference)
 ms.assetid: 0DDD3235-4F12-4D74-975A-F70A271C1FC0
 keywords:
 - GatherBlue function HLSL
@@ -17,7 +17,7 @@ api_location:
 
 # GatherBlue(S,float,int2,int2,int2,int2) function (HLSL reference)
 
-Samples a texture and returns the blue component.
+Returns the blue components of the four texel values that would be used in a bi-linear filtering operation.
 
 ## Syntax
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateDatabase Function"
 title: JetCreateDatabase Function
 TOCTitle: JetCreateDatabase Function
 ms:assetid: 2b13b038-1694-46d8-b903-9be64384cb06
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetCreateDatabase Function
 
-The **JetCreateDatabase** function creates and attaches a database file to be used with the ESE database engine. Calling [JetCreateDatabase2](gg269208\(v=exchg.10\).md) with *cpgDatabaseSizeMax* set to zero is identical to calling **JetCreateDatabase** with *szConnect* set to NULL. Currently, up to seven databases can be created per instance.
+The **JetCreateDatabase** function creates and attaches a database file to be used with the ESE database engine. Calling [JetCreateDatabase2](./jetcreatedatabase2-function.md) with *cpgDatabaseSizeMax* set to zero is identical to calling **JetCreateDatabase** with *szConnect* set to NULL. Currently, up to seven databases can be created per instance.
 
 ```cpp
     JET_ERR JET_API JetCreateDatabase(
@@ -93,7 +94,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -177,7 +178,7 @@ If the database specified in *szFilename* exists and JET_bitDbOverwriteExisting 
 
 If the API creates a database file and then hits another error, it will clean up and delete the file.
 
-**JetCreateDatabase** will implicitly open the database. It is not necessarily to subsequently call [JetOpenDatabase](gg269299\(v=exchg.10\).md).
+**JetCreateDatabase** will implicitly open the database. It is not necessarily to subsequently call [JetOpenDatabase](./jetopendatabase-function.md).
 
 #### Requirements
 
@@ -217,15 +218,14 @@ If the API creates a database file and then hits another error, it will clean up
 
 #### See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetCloseDatabase](gg294123\(v=exchg.10\).md)  
-[JetCreateDatabase2](gg269208\(v=exchg.10\).md)  
-[JetOpenDatabase](gg269299\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JET_ERR](./jet-err.md)  
+[JET_DBID](./jet-dbid.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetCloseDatabase](./jetclosedatabase-function.md)  
+[JetCreateDatabase2](./jetcreatedatabase2-function.md)  
+[JetOpenDatabase](./jetopendatabase-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

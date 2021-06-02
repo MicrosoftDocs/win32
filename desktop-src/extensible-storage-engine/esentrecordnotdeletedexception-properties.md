@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotDeletedException properties"
 title: EsentRecordNotDeletedException properties
 TOCTitle: EsentRecordNotDeletedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordNotDeletedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecordNotDeletedException](dn350508\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordNotDeletedException](./esentrecordnotdeletedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRecordNotDeletedException class](dn350508\(v=exchg.10\).md)
+[EsentRecordNotDeletedException class](./esentrecordnotdeletedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

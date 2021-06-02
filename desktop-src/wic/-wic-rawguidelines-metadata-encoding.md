@@ -1,12 +1,12 @@
 ---
-Description: Encoding
+description: Encoding
 ms.assetid: 501e63bf-26ef-42fb-b181-f1a8b26c122c
 title: Encoding (Windows Imaging Component)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Encoding
+# Encoding (Windows Imaging Component)
 
 The encoder author must do the following:
 

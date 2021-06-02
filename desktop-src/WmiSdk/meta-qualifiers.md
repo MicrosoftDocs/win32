@@ -1,5 +1,5 @@
 ---
-Description: Meta qualifiers refine the definition of meta-constructs in the CIM model by clarifying the actual usage of a class or property declaration within the MOF syntax.
+description: Meta qualifiers refine the definition of meta-constructs in the CIM model by clarifying the actual usage of a class or property declaration within the MOF syntax.
 ms.assetid: 3674a051-3756-4d09-a70e-46a57b442104
 ms.tgt_platform: multiple
 title: Meta Qualifiers
@@ -39,7 +39,7 @@ Indicates whether the object class defines an indication. This qualifier is mutu
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

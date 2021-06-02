@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the ASF media source uses approximate seeking.
+description: Specifies whether the ASF media source uses approximate seeking.
 ms.assetid: 4877b67c-524c-4717-a90f-6de21918d3d8
 title: MFPKEY_ASFMediaSource_ApproxSeek property (Mfidl.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The default value of this property is **VARIANT\_FALSE**.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

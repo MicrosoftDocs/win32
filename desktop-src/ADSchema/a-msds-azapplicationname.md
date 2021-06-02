@@ -22,7 +22,7 @@ A string that uniquely identifies an application object.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Az-Application-Name                   |
 | Ldap-Display-Name | msDS-AzApplicationName                      |
@@ -47,7 +47,7 @@ A string that uniquely identifies an application object.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -68,7 +68,7 @@ A string that uniquely identifies an application object.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -89,7 +89,7 @@ A string that uniquely identifies an application object.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -110,7 +110,7 @@ A string that uniquely identifies an application object.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -131,7 +131,7 @@ A string that uniquely identifies an application object.
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |

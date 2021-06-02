@@ -1,5 +1,5 @@
 ---
-Description: The SetTimeFormat method sets the time format. This method implements the IMediaSeeking::SetTimeFormat method.
+description: CPosPassThru.SetTimeFormat method - The SetTimeFormat method sets the time format. This method implements the IMediaSeeking::SetTimeFormat method.
 ms.assetid: f6fc456d-51cf-4b2e-9248-afed9073d440
 title: CPosPassThru.SetTimeFormat method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

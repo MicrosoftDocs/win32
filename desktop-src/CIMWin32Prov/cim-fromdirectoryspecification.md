@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FromDirectorySpecification association identifies the source directory for the file action.
+description: The CIM\_FromDirectorySpecification association identifies the source directory for the file action.
 ms.assetid: 031ff95f-aa68-4b05-92a6-97a5e0d8956f
 ms.tgt_platform: multiple
 title: CIM_FromDirectorySpecification class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

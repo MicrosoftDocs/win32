@@ -1,5 +1,5 @@
 ---
-Description: Restricts the area of this IAnalysisRegion to the area created by its intersection with the specified rectangle.
+description: Restricts the area of this IAnalysisRegion to the area created by its intersection with the specified rectangle.
 ms.assetid: de6b565f-34c1-4551-ab92-db6bacb8608d
 title: IAnalysisRegion::IntersectRectangle method (IACom.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the two areas do not intersect, the new area is empty.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

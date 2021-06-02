@@ -1,5 +1,5 @@
 ---
-Description: To fully understand a shader that implements PRT, it is useful to derive the formula the shader uses to calculate exit radiance.
+description: To fully understand a shader that implements PRT, it is useful to derive the formula the shader uses to calculate exit radiance.
 ms.assetid: 66876e9e-cde1-4d04-9b31-30be1c115e6b
 title: PRT Equations (Direct3D 9)
 ms.topic: article

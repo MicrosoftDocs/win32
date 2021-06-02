@@ -1,5 +1,5 @@
 ---
-Description: The FileName property sets or retrieves the path to the executable file. This is the default property.
+description: The FileName property sets or retrieves the path to the executable file. This is the default property.
 ms.assetid: 2d2ea87b-86db-40b4-b052-8503beafa08c
 title: SignedCode.FileName property
 ms.topic: reference
@@ -42,7 +42,7 @@ If the value of the **FileName** property is modified, the state of the entire [
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

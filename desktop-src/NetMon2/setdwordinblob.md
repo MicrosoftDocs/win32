@@ -1,5 +1,5 @@
 ---
-Description: The SetDwordInBlob function sets the named DWORD value of a BLOB.
+description: The SetDwordInBlob function sets the named DWORD value of a BLOB.
 ms.assetid: 9174cd5c-4442-4fbe-8dc7-f8a74e1cc85d
 title: SetDwordInBlob function (Netmon.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

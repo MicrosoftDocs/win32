@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedDuplicateAfterTruncationException constructor"
 title: EsentMultiValuedDuplicateAfterTruncationException constructor 
 TOCTitle: 'EsentMultiValuedDuplicateAfterTruncationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMultiValuedDuplicateAfterTruncationException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMultiValuedDuplicateAfterTruncationException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMultiValuedDuplicateAfterTruncationException()
 
 #### Reference
 
-[EsentMultiValuedDuplicateAfterTruncationException class](dn334700\(v=exchg.10\).md)
+[EsentMultiValuedDuplicateAfterTruncationException class](./esentmultivaluedduplicateaftertruncationexception-class.md)
 
-[EsentMultiValuedDuplicateAfterTruncationException members](dn334761\(v=exchg.10\).md)
+[EsentMultiValuedDuplicateAfterTruncationException members](./esentmultivaluedduplicateaftertruncationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

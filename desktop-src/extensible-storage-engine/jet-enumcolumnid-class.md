@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNID class"
 title: JET_ENUMCOLUMNID class
 TOCTitle: JET_ENUMCOLUMNID class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID
@@ -35,7 +36,7 @@ Enumerates a specific set of columns and, optionally, a specific set of multiple
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMNID  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_ENUMCOLUMNID members](dn335088\(v=exchg.10\).md)
+[JET_ENUMCOLUMNID members](./jet-enumcolumnid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

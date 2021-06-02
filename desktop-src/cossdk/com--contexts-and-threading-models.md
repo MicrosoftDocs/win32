@@ -1,5 +1,5 @@
 ---
-Description: COM+ Contexts and Threading Models
+description: COM+ Contexts and Threading Models
 ms.assetid: 50ccf75e-2652-4254-a771-af83cc9248b3
 title: COM+ Contexts and Threading Models
 ms.topic: article

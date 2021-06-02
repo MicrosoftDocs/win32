@@ -1,5 +1,5 @@
 ---
-Description: The DbgCheckModuleLevel function checks whether logging is enabled for the given message types and level. Ignored in retail builds.
+description: The DbgCheckModuleLevel function checks whether logging is enabled for the given message types and level. Ignored in retail builds.
 ms.assetid: f4b12df7-9001-4bfb-9d84-84a0e8295a8b
 title: DbgCheckModuleLevel function (Wxdebug.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Returns **TRUE** if logging for any of the specified message types is set to the
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

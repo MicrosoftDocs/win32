@@ -1,5 +1,5 @@
 ---
-Description: Deprecated. Retrieves the key in the registry that corresponds to this user identity.
+description: Deprecated. Retrieves the key in the registry that corresponds to this user identity.
 ms.assetid: eecf8b73-e86a-4274-8d9c-c601153f81db
 title: IUserIdentity::OpenIdentityRegKey method (Msident.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ The *dwDesiredAccess* parameter is a standard registry access security descripto
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSpaceHintsInvalidException methods"
 title: EsentSpaceHintsInvalidException methods
 TOCTitle: EsentSpaceHintsInvalidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSpaceHintsInvalidException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSpaceHintsInvalidException](dn334800\(v=exchg.10\).md) type exposes the following members.
+The [EsentSpaceHintsInvalidException](./esentspacehintsinvalidexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSpaceHintsInvalidException class](dn334800\(v=exchg.10\).md)
+[EsentSpaceHintsInvalidException class](./esentspacehintsinvalidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

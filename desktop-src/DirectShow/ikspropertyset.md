@@ -1,5 +1,5 @@
 ---
-Description: The IKsPropertySet interface was originally designed as an efficient way to set and retrieve device properties on WDM drivers, using KSProxy to translate the user-mode COM method calls into the kernel-mode property sets used by WDM streaming class drivers. This interface is now also used to pass information strictly between software components.In some cases, software components must implement either this interface, or else the IKsControl interface (documented in the DirectShow DDK). For example, if you are writing a software MPEG-2 decoder for use with the DVD Navigator, you must implement one of these interfaces and also support the DVD-related property sets that the Navigator will send to the decoder. Pins may support one of these interfaces to allow other pins or filters to set or retrieve their properties.Note  Another interface by this name exists in the dsound.h header file. The two interfaces are not compatible. The IKsControl interface, documented in the DirectShow DDK, is now the recommended interface for passing property sets between WDM drivers and user mode components. .
+description: The IKsPropertySet interface was originally designed as an efficient way to set and retrieve device properties on WDM drivers, using KSProxy to translate the user-mode COM method calls into the kernel-mode property sets used by WDM streaming class drivers. This interface is now also used to pass information strictly between software components.In some cases, software components must implement either this interface, or else the IKsControl interface (documented in the DirectShow DDK). For example, if you are writing a software MPEG-2 decoder for use with the DVD Navigator, you must implement one of these interfaces and also support the DVD-related property sets that the Navigator will send to the decoder. Pins may support one of these interfaces to allow other pins or filters to set or retrieve their properties.Note  Another interface by this name exists in the dsound.h header file. The two interfaces are not compatible. The IKsControl interface, documented in the DirectShow DDK, is now the recommended interface for passing property sets between WDM drivers and user mode components. .
 ms.assetid: df26341d-f2d5-4a4e-954e-705e07415808
 title: IKsPropertySet interface (Ksproxy.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ You must include Ks.h before Ksproxy.h.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

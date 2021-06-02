@@ -1,5 +1,5 @@
 ---
-Description: The Lock method locks the critical section object.
+description: The Lock method locks the critical section object.
 ms.assetid: b08be5ec-3f02-4ed8-8791-20e4d2a0c55f
 title: CCritSec.Lock method (Wxutil.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If the object is already locked by another thread, the **CCritSec::Lock** method
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

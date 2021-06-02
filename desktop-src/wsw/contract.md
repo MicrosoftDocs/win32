@@ -17,13 +17,13 @@ A service contract carries metadata that defines how a service to handles channe
 
 A [**WS\_SERVICE\_CONTRACT**](/windows/desktop/api/WebServices/ns-webservices-ws_service_contract) carries metadata for a service to handle a [WS\_MESSAGE](ws-message.md).
 
-![](images/servicecontractintro.png)
+![Diagram showing WS_SERVICE_CONTRACT metadata in a message to a service endpoint.](images/servicecontractintro.png)
 
 It has a [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_contract_description) and a function table. An application can optionally specify [**WS\_SERVICE\_MESSAGE\_RECEIVE\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_service_message_receive_callback).
 
 If a [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_contract_description) and a function table are not given, the application is required to specify [**WS\_SERVICE\_MESSAGE\_RECEIVE\_CALLBACK**](/windows/desktop/api/WebServices/nc-webservices-ws_service_message_receive_callback).
 
-![](images/servicecontract.png)
+![Diagram showing the Add and Subtract service operations in the ICalculator service contract.](images/servicecontract.png)
 
 
 ``` syntax
@@ -45,7 +45,7 @@ In terms of WSDL, a [**WS\_CONTRACT\_DESCRIPTION**](/windows/desktop/api/WebServ
 
 A contract description is made up of on or more [service operations](service-operation.md). These operations are given as an array of [**WS\_OPERATION\_DESCRIPTION**](/windows/desktop/api/WebServices/ns-webservices-ws_operation_description).
 
-![](images/porttypetocontract.png)
+![Diagram showing a WS_CONTRACT_DESCRIPTION as an array of WS_OPERATION_DESCRIPTIONs.](images/porttypetocontract.png)
 
 ``` syntax
 <wsdl:definitions xmlns:soap="https://schemas.xmlsoap.org/wsdl/soap/" 

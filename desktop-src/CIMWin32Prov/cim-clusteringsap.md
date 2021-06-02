@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ClusteringSAP class represents the access points of a clustering service.
+description: The CIM\_ClusteringSAP class represents the access points of a clustering service.
 ms.assetid: 7a95f4b0-b9fc-4dba-ad2d-1b6db1539a57
 ms.tgt_platform: multiple
 title: CIM_ClusteringSAP class
@@ -367,7 +367,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

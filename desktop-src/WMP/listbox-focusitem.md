@@ -34,7 +34,7 @@ The focus item and selected item could be different. An item can be selected thr
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

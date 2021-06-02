@@ -1,5 +1,5 @@
 ---
-Description: The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
+description: IMpeg2PsiParser::GetRecordProgramNumber method - The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
 ms.assetid: 3800a0b1-a581-40ed-81ab-3d5f77f442df
 title: IMpeg2PsiParser::GetRecordProgramNumber method
 ms.topic: reference

@@ -327,7 +327,7 @@ Gets or sets he desktop settings for the virtual machines in the collection.
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                              |

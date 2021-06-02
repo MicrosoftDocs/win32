@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Image\_CompressedBitsPerPixel.
+description: The denominator of PKEY\_Image\_CompressedBitsPerPixel.
 ms.assetid: 70779e4b-3564-4df8-8861-3276ba90276c
 title: System.Image.CompressedBitsPerPixelDenominator
 ms.topic: article

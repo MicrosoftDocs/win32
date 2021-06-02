@@ -16,6 +16,7 @@ The following functions are declared in DirectML.h.
 | Topic | Description |
 |-|-|
 | [**DMLCreateDevice**](/windows/desktop/api/directml/nf-directml-dmlcreatedevice) | Creates a DirectML device for a given Direct3D 12 device. |
+| [**DMLCreateDevice1**](/windows/desktop/direct3d12/directml/nf-directml-dmlcreatedevice1) | Creates a DirectML device for a given Direct3D 12 device. |
 
 ## Related topics
 

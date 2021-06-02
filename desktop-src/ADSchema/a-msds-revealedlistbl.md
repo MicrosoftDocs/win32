@@ -22,7 +22,7 @@ Backward link attribute for [**ms-DS-Revealed-List**](a-msds-revealedlist.md).
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Revealed-List-BL                  |
 | Ldap-Display-Name | msDS-RevealedListBL                     |
@@ -45,7 +45,7 @@ Backward link attribute for [**ms-DS-Revealed-List**](a-msds-revealedlist.md).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link attribute for [**ms-DS-Revealed-List**](a-msds-revealedlist.md).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link attribute for [**ms-DS-Revealed-List**](a-msds-revealedlist.md).
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

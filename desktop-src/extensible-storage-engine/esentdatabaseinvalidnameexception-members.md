@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidNameException members"
 title: EsentDatabaseInvalidNameException members
 TOCTitle: EsentDatabaseInvalidNameException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseInvalidName exceptions.
 
-The [EsentDatabaseInvalidNameException](dn334450\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInvalidNameException](./esentdatabaseinvalidnameexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInvalidNameException class](dn334450\(v=exchg.10\).md)
+[EsentDatabaseInvalidNameException class](./esentdatabaseinvalidnameexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

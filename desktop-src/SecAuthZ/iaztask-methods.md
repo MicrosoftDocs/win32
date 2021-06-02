@@ -1,5 +1,5 @@
 ---
-Description: The IAzTask interface exposes the following methods.
+description: The IAzTask interface exposes the following methods.
 ms.assetid: FE3ADC31-D3E0-4CE6-81AC-2DA44E2D3A64
 title: IAzTask Methods
 ms.topic: reference

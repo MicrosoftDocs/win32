@@ -1,5 +1,5 @@
 ---
-Description: Returns a declarator from a flexible vertex format (FVF) code.
+description: Returns a declarator from a flexible vertex format (FVF) code.
 ms.assetid: 0272239c-0873-4a5c-b046-541f4ba603f4
 title: D3DXDeclaratorFromFVF function (D3DX9Mesh.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

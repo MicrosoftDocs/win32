@@ -1,5 +1,5 @@
 ---
-Description: The ViewSpaces qualifier defines the names and location of the namespaces where the source instances are located. You can specify any combination of namespaces on local or remote computers.
+description: The ViewSpaces qualifier defines the names and location of the namespaces where the source instances are located. You can specify any combination of namespaces on local or remote computers.
 ms.assetid: 15d71bb6-842d-4f5a-b2e3-e9f60f0aea3b
 ms.tgt_platform: multiple
 title: ViewSpaces Qualifier
@@ -54,7 +54,7 @@ ViewSpaces
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

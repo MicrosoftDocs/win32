@@ -1,5 +1,5 @@
 ---
-Description: Requests to run an experiment (capture) on the specified process.
+description: Requests to run an experiment (capture) on the specified process.
 MS-HAID: vspixengine.IRunExperimentCallback\_ResultCallback\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

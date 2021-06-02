@@ -46,7 +46,7 @@ ms.date: 05/31/2018
 
 Used by supplicants and authenticators to determine the EAP methods to be used with a given supplicant or authenticator. Method properties also specify the configuration of a method.
 
-For example, the [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) supplicant may require methods to have certain properties for use with the [802.1X](https://go.microsoft.com/fwlink/p/?linkid=83938) supplicant. Keying material, for example, is a requirement.
+For example, the [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) supplicant may require methods to have certain properties for use with the [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) supplicant. Keying material, for example, is a requirement.
 
 The properties supported by EAP methods are listed. Properties are stored as registry key values. For more information, see the EAP Peer Method DLL Registry Key section of the topic [Registry Configuration for EAP Methods.](registry-keys-for-eap-methods.md)
 
@@ -439,7 +439,7 @@ Reserved. Not used.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |
@@ -456,6 +456,4 @@ Reserved. Not used.
 
 [Common EAPHost Constants](common-eap-host-error-constants.md)
 </dt> </dl>
-
- 
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnIndexedException methods"
 title: EsentColumnIndexedException methods
 TOCTitle: EsentColumnIndexedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentColumnIndexedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnIndexedException](dn274164\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnIndexedException](./esentcolumnindexedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentColumnIndexedException class](dn274164\(v=exchg.10\).md)
+[EsentColumnIndexedException class](./esentcolumnindexedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

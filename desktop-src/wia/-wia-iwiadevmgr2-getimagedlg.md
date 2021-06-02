@@ -1,5 +1,5 @@
 ---
-Description: The IWiaDevMgr2::GetImageDlg method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) 2.0 device and write the image to a specified file.
+description: The IWiaDevMgr2::GetImageDlg method displays one or more dialog boxes that enable a user to acquire an image from a Windows Image Acquisition (WIA) 2.0 device and write the image to a specified file.
 ms.assetid: 30a63426-150e-44cf-a03e-7b6da14450f7
 title: IWiaDevMgr2::GetImageDlg method (Wia.h)
 ms.topic: reference
@@ -149,7 +149,7 @@ The dialog box must have sufficient rights to *bstrFolderName* so that it can sa
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |

@@ -1,5 +1,5 @@
 ---
-Description: Each item in a collection exposes properties.
+description: Each item in a collection exposes properties.
 ms.assetid: d9af57ea-c5b3-4017-bdc2-e43b86b3ddcd
 title: Editing Properties in the COM+ Catalog
 ms.topic: article

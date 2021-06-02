@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetSecondaryIndexBookmark Function"
 title: JetGetSecondaryIndexBookmark Function
 TOCTitle: JetGetSecondaryIndexBookmark Function
 ms:assetid: 6953eda4-9420-4814-80f4-eb9e3e5540d8
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetSecondaryIndexBookmark Function
 
-The **JetGetSecondaryIndexBookmark** function retrieves a special bookmark for the secondary index entry at the current position of a cursor. This bookmark can then be used to efficiently reposition that cursor back to the same index entry using [JetGotoSecondaryIndexBookmark](gg269180\(v=exchg.10\).md). This is most useful when repositioning on a secondary index that contains duplicate keys or that contains multiple index entries for the same record.
+The **JetGetSecondaryIndexBookmark** function retrieves a special bookmark for the secondary index entry at the current position of a cursor. This bookmark can then be used to efficiently reposition that cursor back to the same index entry using [JetGotoSecondaryIndexBookmark](./jetgotosecondaryindexbookmark-function.md). This is most useful when repositioning on a secondary index that contains duplicate keys or that contains multiple index entries for the same record.
 
 **Windows XP:  JetGetSecondaryIndexBookmark** is introduced in Windows XP.
 
@@ -93,7 +94,7 @@ Reserved for future use.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -216,11 +217,11 @@ Keys should generally be treated as opaque chunks of data. No attempt should be 
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetBookmark](gg269221\(v=exchg.10\).md)  
-[JetGotoSecondaryIndexBookmark](gg269180\(v=exchg.10\).md)  
-[JetRetrieveKey](gg294051\(v=exchg.10\).md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetBookmark](./jetgetbookmark-function.md)  
+[JetGotoSecondaryIndexBookmark](./jetgotosecondaryindexbookmark-function.md)  
+[JetRetrieveKey](./jetretrievekey-function.md)  
 [memcmp](/previous-versions/visualstudio/visual-studio-6.0/aa246467(v=vs.60))

@@ -1,5 +1,5 @@
 ---
-Description: The NotifyAllocator method informs the CDrawImage object whether the allocator for the connection is a CImageAllocator object.
+description: The NotifyAllocator method informs the CDrawImage object whether the allocator for the connection is a CImageAllocator object.
 ms.assetid: cc1604e7-f755-4a7a-9294-6fd06bb434d4
 title: CDrawImage.NotifyAllocator method (Winutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The owning filter should call this method after the pins agree to an allocator. 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

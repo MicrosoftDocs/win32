@@ -1,5 +1,5 @@
 ---
-Description: The EnableWINS &\#32; WMI class static method enables Windows Internet Naming Service (WINS) settings specific to TCP/IP, but independent of the network adapter.
+description: The EnableWINS &\#32; WMI class static method enables Windows Internet Naming Service (WINS) settings specific to TCP/IP, but independent of the network adapter.
 ms.assetid: ce0fb170-978f-4d70-bced-e530e43da719
 ms.tgt_platform: multiple
 title: EnableWINS method of the Win32_NetworkAdapterConfiguration class
@@ -199,7 +199,7 @@ The [Enable WINS for All Network Adapters](https://Gallery.TechNet.Microsoft.Com
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

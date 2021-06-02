@@ -1,5 +1,5 @@
 ---
-Description: Explains built-in and account domains on Windows-based systems.
+description: Explains built-in and account domains on Windows-based systems.
 ms.assetid: 306c258b-950e-4506-99e2-67a3714285ff
 title: Built-in and Account Domains
 ms.topic: article

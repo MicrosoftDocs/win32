@@ -1,5 +1,5 @@
 ---
-Description: Accessing the COM+ Catalog
+description: Accessing the COM+ Catalog
 ms.assetid: 1322a3fe-faee-4971-949f-5e0d2dfe469b
 title: Accessing the COM+ Catalog
 ms.topic: article

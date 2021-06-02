@@ -1,5 +1,5 @@
 ---
-Description: Using DMOs in DirectShow
+description: Using DMOs in DirectShow
 ms.assetid: 47d75b9c-8b0d-4235-8ac1-02ae1502c0e7
 title: Using DMOs in DirectShow
 ms.topic: article
@@ -61,7 +61,7 @@ Instead of creating a DMO directly, you can use the [System Device Enumerator](s
 
 
 
-|                             |                                |
+| Label | Value |
 |-----------------------------|--------------------------------|
 | DMO Category                | DirectShow Equivalent          |
 | DMOCATEGORY\_AUDIO\_ENCODER | CLSID\_AudioCompressorCategory |

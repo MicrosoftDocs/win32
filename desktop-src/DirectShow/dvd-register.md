@@ -1,5 +1,5 @@
 ---
-Description: The DVD\_REGISTER data type contains a value for a DVD general parameter register (GPRM) or system parameter register (SPRM).
+description: The DVD\_REGISTER data type contains a value for a DVD general parameter register (GPRM) or system parameter register (SPRM).
 ms.assetid: cd1aaeff-241c-4e54-9d05-da5cf61b58df
 title: DVD_REGISTER (Strmif.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ typedef WORD DVD_REGISTER;
 
 
 
-|                   |                                                                                                       |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Strmif.h (include Dshow.h)</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Extensions to the IPixEngine5 interface containing additions for determining remote engine version.
+description: Extensions to the IPixEngine5 interface containing additions for determining remote engine version.
 MS-HAID: vspixengine.IPixEngine6
 MSHAttr:
 - PreferredSiteName:MSDN

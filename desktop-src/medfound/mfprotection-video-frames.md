@@ -1,5 +1,5 @@
 ---
-Description: Specifies if an application is allowed access to uncompressed video frames.
+description: Specifies if an application is allowed access to uncompressed video frames.
 ms.assetid: 7D2A9003-B36E-4082-877E-8AC7F5645E89
 title: MFPROTECTION_VIDEO_FRAMES attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ A value of 0xFFFFFFFF, which is the default value, indicates no applications are
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[UWP apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[UWP apps only\]<br/>                                   |

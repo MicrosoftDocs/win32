@@ -1,5 +1,5 @@
 ---
-Description: The CMediaType class manages media types. This class inherits the AM\_MEDIA\_TYPE structure. It can be cast to a variable of type AM\_MEDIA\_TYPE.
+description: The CMediaType class manages media types. This class inherits the AM\_MEDIA\_TYPE structure. It can be cast to a variable of type AM\_MEDIA\_TYPE.
 ms.assetid: ea3d03a1-cca4-4a6e-9d1d-4cebe710f913
 title: CMediaType class (Mtype.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ The `CMediaType` class manages media types. This class inherits the [**AM\_MEDIA
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

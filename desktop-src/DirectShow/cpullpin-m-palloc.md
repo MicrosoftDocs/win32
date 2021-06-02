@@ -1,5 +1,5 @@
 ---
-Description: The m\_pAlloc member variable is a pointer to the IMemAllocator interface of the memory allocator.
+description: The m\_pAlloc member variable is a pointer to the IMemAllocator interface of the memory allocator.
 ms.assetid: a3be5982-83f0-4552-9bcd-85da4a4918ff
 title: CPullPin::m_pAlloc member (Pullpin.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ The [**CPullPin::DecideAllocator**](cpullpin-decideallocator.md) method sets thi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h</dt> </dl>                                                                                                       |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

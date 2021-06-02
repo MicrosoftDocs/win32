@@ -1,6 +1,6 @@
 ---
 title: glPopMatrix function (Gl.h)
-description: The glPushMatrix and glPopMatrix functions push and pop the current matrix stack.
+description: The glPushMatrix and glPopMatrix functions push and pop the current matrix stack. | glPopMatrix function (Gl.h)
 ms.assetid: 7b4fc26e-36c8-4252-aba7-2e8ec6b34f91
 keywords:
 - glPopMatrix function OpenGL
@@ -84,7 +84,7 @@ The following functions retrieve information related to [**glPushMatrix**](glpus
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Multimedia Streaming
+description: Multimedia Streaming
 ms.assetid: '50e6d1c5-2a3f-4e96-8b2c-57e2259d69e9'
 title: Multimedia Streaming
 ms.topic: article

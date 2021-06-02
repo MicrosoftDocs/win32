@@ -1,5 +1,5 @@
 ---
-Description: Performs uniform tessellation based on the tessellation level.
+description: Performs uniform tessellation based on the tessellation level.
 ms.assetid: 0fc701b4-0636-450e-b8e0-e7a490871316
 title: ID3DXPatchMesh::Tessellate method (D3DX9Mesh.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This function will perform more efficiently if the patch mesh has been optimized
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

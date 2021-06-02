@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGINFO Structure"
 title: JET_LOGINFO Structure
 TOCTitle: JET_LOGINFO Structure
 ms:assetid: b34b3f24-5d19-4e11-a657-a0e59204d628
@@ -24,14 +25,16 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_LOGINFO Structure
 
-The **JET_LOGINFO** structure returns structured information about the set of transaction log files that should be a part of a backup file set. The **JET_LOGINFO** structure is the minimal set of information needed to represent a range of logs that is retrieved with [JetGetLogInfoInstance2](gg269247\(v=exchg.10\).md) or specified for a hard recovery with [JetExternalRestore2](gg269272\(v=exchg.10\).md).
+The **JET_LOGINFO** structure returns structured information about the set of transaction log files that should be a part of a backup file set. The **JET_LOGINFO** structure is the minimal set of information needed to represent a range of logs that is retrieved with [JetGetLogInfoInstance2](./jetgetloginfoinstance2-function.md) or specified for a hard recovery with [JetExternalRestore2](./jetexternalrestore2-function.md).
 
-    typedef struct {
-      unsigned long cbSize;
-      unsigned long ulGenLow;
-      unsigned long ulGenHigh;
-      tchar szBaseName[JET_BASE_NAME_LENGTH + 1];
-    } JET_LOGINFO;
+```cpp
+typedef struct {
+  unsigned long cbSize;
+  unsigned long ulGenLow;
+  unsigned long ulGenHigh;
+  tchar szBaseName[JET_BASE_NAME_LENGTH + 1];
+} JET_LOGINFO;
+```
 
 ### Members
 
@@ -53,13 +56,13 @@ The highest (or most recent) log file number that is restored. The full fidelity
 
 The prefix used to name the transaction log files.
 
-The value that is returned in this member is always equal to the setting for [JET_paramBaseName](gg269235\(v=exchg.10\).md) for the instance that generated this information.
+The value that is returned in this member is always equal to the setting for [JET_paramBaseName](./transaction-log-parameters.md) for the instance that generated this information.
 
 ### Remarks
 
 Transaction log files are named according to the instance base name and the generation number of the log file. The name is of the format BBBXXXXX.LOG. BBB corresponds to the base name for the log file and is always three characters in length. XXXXX corresponds to the generation number of the log file in zero padded hexadecimal and is always five characters in length. LOG is the file extension that is always given to transaction log files by the engine.
 
-Use of this structured information is discouraged because it causes the application to have intimate knowledge of this naming scheme for transaction log files. If the naming scheme ever changes in the future then such an application will no longer function properly. It is conceivable that the log format will change to incorporate 8 hex digits in the future. Applications should use the explicit list of file names returned by [JetGetLogInfo](gg294055\(v=exchg.10\).md) instead.
+Use of this structured information is discouraged because it causes the application to have intimate knowledge of this naming scheme for transaction log files. If the naming scheme ever changes in the future then such an application will no longer function properly. It is conceivable that the log format will change to incorporate 8 hex digits in the future. Applications should use the explicit list of file names returned by [JetGetLogInfo](./jetgetloginfo-function.md) instead.
 
 ### Requirements
 
@@ -91,8 +94,7 @@ Use of this structured information is discouraged because it causes the applicat
 
 ### See Also
 
-[JetExternalRestore2](gg269272\(v=exchg.10\).md)  
-[JetGetLogInfo](gg294055\(v=exchg.10\).md)  
-[JetGetLogInfoInstance2](gg269247\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JetExternalRestore2](./jetexternalrestore2-function.md)  
+[JetGetLogInfo](./jetgetloginfo-function.md)  
+[JetGetLogInfoInstance2](./jetgetloginfoinstance2-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

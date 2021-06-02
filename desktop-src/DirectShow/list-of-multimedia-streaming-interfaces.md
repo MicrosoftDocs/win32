@@ -1,5 +1,5 @@
 ---
-Description: List of Multimedia Streaming Interfaces
+description: List of Multimedia Streaming Interfaces
 ms.assetid: 19dae9fc-e26a-4777-9190-d8a86da1ea75
 title: List of Multimedia Streaming Interfaces
 ms.topic: article

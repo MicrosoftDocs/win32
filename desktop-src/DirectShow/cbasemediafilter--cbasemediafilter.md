@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: CBaseMediaFilter.~CBaseMediaFilter destructor - Destructor method.
 ms.assetid: f6e272c3-bb6c-4730-aa2b-a94bc5971db6
 title: CBaseMediaFilter.~CBaseMediaFilter destructor (Amfilter.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Always stop the object before destroying it.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

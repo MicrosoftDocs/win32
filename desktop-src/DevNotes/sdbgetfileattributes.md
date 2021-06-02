@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the attribute data for the specified file.
+description: Retrieves the attribute data for the specified file.
 ms.assetid: 899b4af3-8185-4ce5-8e81-05ec3a446e42
 title: SdbGetFileAttributes function
 ms.topic: reference
@@ -69,7 +69,7 @@ When you have finished with the data, free it using the [**SdbFreeFileAttributes
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.lcid property"
 title: JET_UNICODEINDEX.lcid property 
 TOCTitle: 'lcid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.lcid
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the LCID to be used when normalizing unicode data.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
+[JET_UNICODEINDEX class](./jet-unicodeindex-class.md)
 
-[JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
+[JET_UNICODEINDEX members](./jet-unicodeindex-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

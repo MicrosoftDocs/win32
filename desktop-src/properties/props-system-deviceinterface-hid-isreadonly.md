@@ -1,5 +1,5 @@
 ---
-Description: Indicates if a HID device is a Read-Only device.
+description: Indicates if a HID device is a Read-Only device.
 ms.assetid: cfac4094-94ee-47db-ba0d-cfb51a6d91a1
 title: System.DeviceInterface.Hid.IsReadOnly
 ms.topic: article

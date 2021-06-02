@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentException properties"
 title: EsentException properties (Microsoft.Isam.Esent)
 TOCTitle: EsentException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.EsentException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentException](dn292088\(v=exchg.10\).md) type exposes the following members.
+The [EsentException](./esentexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentException class](dn292088\(v=exchg.10\).md)
+[EsentException class](./esentexception-class.md)
 
-[Microsoft.Isam.Esent namespace](dn292085\(v=exchg.10\).md)
+[Microsoft.Isam.Esent namespace](./microsoft.isam.esent-namespace.md)

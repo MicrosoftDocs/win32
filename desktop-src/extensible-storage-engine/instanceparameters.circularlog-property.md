@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.CircularLog property"
 title: InstanceParameters.CircularLog property 
 TOCTitle: 'CircularLog property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.CircularLog
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets a value indicating whether circular logging is on. When circular logging is off, all transaction log files that are generated are retained on disk until they are no longer needed because a full backup of the database has been performed. When circular logging is on, only transaction log files that are younger than the current checkpoint are retained on disk. The benefit of this mode is that backups are not required to retire old transaction log files.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNTSystemCallFailedException members"
 title: EsentNTSystemCallFailedException members
 TOCTitle: EsentNTSystemCallFailedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNTSystemCallFailedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.NTSystemCallFailed exceptions.
 
-The [EsentNTSystemCallFailedException](dn334749\(v=exchg.10\).md) type exposes the following members.
+The [EsentNTSystemCallFailedException](./esentntsystemcallfailedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentNTSystemCallFailedException class](dn334749\(v=exchg.10\).md)
+[EsentNTSystemCallFailedException class](./esentntsystemcallfailedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

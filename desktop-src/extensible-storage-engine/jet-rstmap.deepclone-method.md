@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP.DeepClone method"
 title: JET_RSTMAP.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RSTMAP.DeepClone
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a deep copy of the object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,20 +52,19 @@ public JET_RSTMAP DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_RSTMAP](dn351048\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_RSTMAP](./jet-rstmap-class.md)  
 A deep copy of the object.  
 
 #### Implements
 
-[IDeepCloneable\<T\>.DeepClone()](hh578936\(v=exchg.10\).md)  
+[IDeepCloneable\<T\>.DeepClone()](./ideepcloneable-t-.deepclone-method.md)  
 
 ## See also
 
 #### Reference
 
-[JET_RSTMAP class](dn351048\(v=exchg.10\).md)
+[JET_RSTMAP class](./jet-rstmap-class.md)
 
-[JET_RSTMAP members](dn335249\(v=exchg.10\).md)
+[JET_RSTMAP members](./jet-rstmap-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

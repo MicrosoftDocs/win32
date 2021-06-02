@@ -1,5 +1,5 @@
 ---
-Description: ICE67 checks that the target of a non-advertised shortcut belongs to the same component as the shortcut itself, or that the attributes of the target component ensure that it does not change installation locations.
+description: ICE67 checks that the target of a non-advertised shortcut belongs to the same component as the shortcut itself, or that the attributes of the target component ensure that it does not change installation locations.
 ms.assetid: 3fc462e7-4c11-4167-a157-6c1e0791901d
 title: ICE67
 ms.topic: article

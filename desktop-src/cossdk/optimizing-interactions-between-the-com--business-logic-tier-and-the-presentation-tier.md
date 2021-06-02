@@ -1,5 +1,5 @@
 ---
-Description: Typically, the latency between tiers of a distributed application differs greatly.
+description: Typically, the latency between tiers of a distributed application differs greatly.
 ms.assetid: 4780a9fd-5940-4b10-a596-22214b17c033
 title: Optimizing Interactions Between the COM+ Business Logic Tier and the Presentation Tier
 ms.topic: article
@@ -31,9 +31,9 @@ The following table shows areas where extra care needs to be taken when using an
 
 
 
-|                       | Concurrency  | WAN          | Deployment   | Complexity   |
+|     &nbsp;                  | Concurrency  | WAN          | Deployment   | Complexity   |
 |-----------------------|--------------|--------------|--------------|--------------|
-| Parameters<br/> | X<br/> |              |              | X<br/> |
+| Entry | Value |
 | Recordsets<br/> |              | X<br/> | X<br/> | X<br/> |
 | XML<br/>        | X<br/> |              | X<br/> | X<br/> |
 | Arrays<br/>     | X<br/> |              | X<br/> | X<br/> |

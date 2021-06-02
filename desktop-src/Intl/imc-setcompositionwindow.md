@@ -1,5 +1,5 @@
 ---
-Description: Instructs an IME window to set the style of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+description: Instructs an IME window to set the style of the composition window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 19b99228-a1fc-4cd5-8f37-5462bf767f85
 title: IMC_SETCOMPOSITIONWINDOW command (Imm.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ By default, the IME window has the CFS\_POINT style. With this style, the IME wi
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

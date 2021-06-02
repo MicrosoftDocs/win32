@@ -192,58 +192,15 @@ Access type: Read-only
 
 Type of key pack for the Remote Desktop license server.
 
-<dt>
-
-0
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is unknown.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is a retail purchase.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is a volume purchase.
-
-</dd> <dt>
-
-3
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is a concurrent license.
-
-</dd> <dt>
-
-4
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is temporary.
-
-</dd> <dt>
-
-5
-</dt> <dd>
-
-The Remote Desktop Services license key pack type is an open license.
-
-</dd> <dt>
-
-6
-</dt> <dd>
-
-Not supported.
-
-</dd> </dl>
-
-</dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | The Remote Desktop Services license key pack type is unknown. |
+| 1 | The Remote Desktop Services license key pack type is a retail purchase. |
+| 2 | The Remote Desktop Services license key pack type is a volume purchase. |
+| 3 | The Remote Desktop Services license key pack type is a concurrent license. |
+| 4 | The Remote Desktop Services license key pack type is temporary. |
+| 5 | The Remote Desktop Services license key pack type is an open license. |
+| 6 | Not supported. |
 
 **ProductType**
 </dt> <dd> <dl> <dt>
@@ -256,30 +213,11 @@ Access type: Read-only
 
 Product type of the Remote Desktop Services license key pack.
 
-<dt>
-
-0
-</dt> <dd>
-
-The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-This product type is not valid.
-
-</dd> </dl>
-
-</dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license. |
+| 1 | The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license. |
+| 2 | This product type is not valid. |
 
 **ProductVersion**
 </dt> <dd> <dl> <dt>
@@ -292,30 +230,11 @@ Access type: Read-only
 
 Product version for the Remote Desktop Services license key pack.
 
-<dt>
-
-"Windows Server 2012"
-</dt> <dd>
-
-Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
-
-</dd> <dt>
-
-"Windows Server 7"
-</dt> <dd>
-
-Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license.
-
-</dd> <dt>
-
-"Windows Server 2008"
-</dt> <dd>
-
-Only servers running Windows Server 2008 are supported by this key pack.
-
-</dd> </dl>
-
-</dd> <dt>
+| Value | Description |
+|-------|-------------|
+| "Windows Server 2012" | Only servers running Windows Server 2012, Windows Server 2008 R2, or Windows Server 2008 are supported with this license. |
+| "Windows Server 7" | Only servers running Windows Server 2008 R2, or Windows Server 2008 are supported with this license. |
+| "Windows Server 2008" | Only servers running Windows Server 2008 are supported by this key pack. |
 
 **ProductVersionID**
 </dt> <dd> <dl> <dt>
@@ -328,44 +247,15 @@ Access type: Read-only
 
 Product version identifier for the Remote Desktop Services license key pack.
 
-<dt>
-
-4
-</dt> <dd>
-
-Windows Server 2012
-
-</dd> <dt>
-
-3
-</dt> <dd>
-
-Windows Server 2008 R2
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-Windows Server 2008
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-Not supported.
-
-</dd> <dt>
-
-0
-</dt> <dd>
-
-Not supported.
-
-</dd> </dl>
-
-</dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | Not supported |
+| 1 | Not supported |
+| 2 | Windows Server 2008 |
+| 3 | Windows Server 2008 R2 |
+| 4 | Windows Server 2012/Windows Server 2012 R2 |
+| 5 | Windows Server 2016 |
+| 6 | Windows Server 2019 |
 
 **TotalLicenses**
 </dt> <dd> <dl> <dt>
@@ -403,7 +293,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                            |

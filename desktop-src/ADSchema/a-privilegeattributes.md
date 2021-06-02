@@ -22,7 +22,7 @@ Bitmask of privilege attributes.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Privilege-Attributes                 |
 | Ldap-Display-Name | privilegeAttributes                  |
@@ -48,7 +48,7 @@ Bitmask of privilege attributes.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -69,7 +69,7 @@ Bitmask of privilege attributes.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -90,7 +90,7 @@ Bitmask of privilege attributes.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -111,7 +111,7 @@ Bitmask of privilege attributes.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -132,7 +132,7 @@ Bitmask of privilege attributes.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -153,7 +153,7 @@ Bitmask of privilege attributes.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

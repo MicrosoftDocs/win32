@@ -1,5 +1,5 @@
 ---
-Description: The DRIVER\_INFO\_3 structure contains printer driver information.
+description: The DRIVER\_INFO\_3 structure contains printer driver information.
 ms.assetid: ccf87319-0bcf-4f71-8de3-0190459d2b0e
 title: DRIVER_INFO_3 structure (Winspool.h)
 ms.topic: reference
@@ -119,7 +119,7 @@ A pointer to a null-terminated string that specifies the default data type of th
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

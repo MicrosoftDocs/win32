@@ -1,5 +1,5 @@
 ---
-Description: The GetTypeInfoCount method retrieves the number of type information interfaces the object provides.
+description: CBaseDispatch.GetTypeInfoCount method - The GetTypeInfoCount method retrieves the number of type information interfaces the object provides.
 ms.assetid: e09e6f6c-6ac8-4ce1-8ce1-ee5374d54183
 title: CBaseDispatch.GetTypeInfoCount method (Ctlutil.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Returns one of the following values.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

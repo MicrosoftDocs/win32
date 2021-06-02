@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int16ColumnValue class"
 title: Int16ColumnValue class
 TOCTitle: Int16ColumnValue class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Int16ColumnValue
@@ -33,11 +34,11 @@ An [Int16](/dotnet/api/system.int16) column value.
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
-  [Microsoft.Isam.Esent.Interop.ColumnValue](dn334206\(v=exchg.10\).md)  
-    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](dn334171\(v=exchg.10\).md)\<[Int16](/dotnet/api/system.int16)\>  
+  [Microsoft.Isam.Esent.Interop.ColumnValue](./columnvalue-class.md)  
+    [Microsoft.Isam.Esent.Interop.ColumnValueOfStruct](./columnvalueofstruct-t-class.md)\<[Int16](/dotnet/api/system.int16)\>  
       Microsoft.Isam.Esent.Interop.Int16ColumnValue  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,6 +63,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[Int16ColumnValue members](dn350987\(v=exchg.10\).md)
+[Int16ColumnValue members](./int16columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

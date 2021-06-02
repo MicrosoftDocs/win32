@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentObjectNotFoundException methods"
 title: EsentObjectNotFoundException methods
 TOCTitle: EsentObjectNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentObjectNotFoundException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentObjectNotFoundException](dn319660\(v=exchg.10\).md) type exposes the following members.
+The [EsentObjectNotFoundException](./esentobjectnotfoundexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentObjectNotFoundException class](dn319660\(v=exchg.10\).md)
+[EsentObjectNotFoundException class](./esentobjectnotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

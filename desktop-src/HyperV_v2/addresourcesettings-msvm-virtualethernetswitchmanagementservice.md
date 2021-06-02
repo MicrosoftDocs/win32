@@ -1,5 +1,5 @@
 ---
-Description: Adds resources to a virtual switch configuration.
+description: Adds resources to a virtual switch configuration.
 ms.assetid: aad5fac1-3884-4a95-abe3-bf192f23ea41
 title: AddResourceSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -102,7 +102,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

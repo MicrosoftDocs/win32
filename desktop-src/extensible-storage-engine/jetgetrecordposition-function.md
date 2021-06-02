@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetRecordPosition Function"
 title: JetGetRecordPosition Function
 TOCTitle: JetGetRecordPosition Function
 ms:assetid: 811d9e68-0594-4f70-b854-c3ec966b2705
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetRecordPosition Function
 
-The **JetGetRecordPosition** function returns the fractional position of the current record in the current index in the form of a [JET_RECPOS](gg269308\(v=exchg.10\).md) structure. This structure describes fractional positions in terms of an approximate number of index entries before the current record and an approximate total number of entries in the index.
+The **JetGetRecordPosition** function returns the fractional position of the current record in the current index in the form of a [JET_RECPOS](./jet-recpos-structure.md) structure. This structure describes fractional positions in terms of an approximate number of index entries before the current record and an approximate total number of entries in the index.
 
 ```cpp
     JET_ERR JET_API JetGetRecordPosition(
@@ -58,7 +59,7 @@ The size of memory allocated at *precpos*.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -122,7 +123,7 @@ On failure, no changes are made to memory allocated at *precpos*.
 
 This operation returns varying data when updates occur continuously on the table. The changes in the values will not always match expectations based on knowledge of the updates, since the values are approximations based on physical properties of the index. Transactional isolation does not apply to positions from **JetGetRecordPosition** since the values depend on physical properties of the index that are not transaction isolated.
 
-[JET_RECPOS](gg269308\(v=exchg.10\).md) should not be used to describe a record within a table or to reposition a record close to an existing record. Instead, bookmarks for an existing record should be retrieved and then used to reposition the same record.
+[JET_RECPOS](./jet-recpos-structure.md) should not be used to describe a record within a table or to reposition a record close to an existing record. Instead, bookmarks for an existing record should be retrieved and then used to reposition the same record.
 
 #### Requirements
 
@@ -158,12 +159,11 @@ This operation returns varying data when updates occur continuously on the table
 
 #### See Also
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_RECPOS](gg269308\(v=exchg.10\).md)  
-[JET_SETINFO](gg294090\(v=exchg.10\).md)  
-[JetGotoPosition](gg269300\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_RECPOS](./jet-recpos-structure.md)  
+[JET_SETINFO](./jet-setinfo-structure.md)  
+[JetGotoPosition](./jetgotoposition-function.md)  
+[JetStopService](./jetstopservice-function.md)

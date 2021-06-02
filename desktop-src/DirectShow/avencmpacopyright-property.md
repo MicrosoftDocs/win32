@@ -1,5 +1,5 @@
 ---
-Description: Specifies the default setting for the copyright bit in the MPEG-1 audio stream. This property applies to MPEG audio encoders.
+description: Specifies the default setting for the copyright bit in the MPEG-1 audio stream. This property applies to MPEG audio encoders.
 ms.assetid: 6029c96f-b1dd-402f-9bac-9021bd897ee4
 title: AVEncMPACopyright property (Codecapi.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The encoder might override this setting, based on the contents of the input stre
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

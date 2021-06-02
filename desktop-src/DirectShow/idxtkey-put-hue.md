@@ -1,5 +1,5 @@
 ---
-Description: The put\_Hue method specifies the hue value on which to key. This property applies only when the key type is DXTKEY\_HUE.
+description: The put\_Hue method specifies the hue value on which to key. This property applies only when the key type is DXTKEY\_HUE.
 ms.assetid: 90c8c610-7ceb-479b-bb0e-d8753d0d7dac
 title: IDxtKey::put_Hue method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

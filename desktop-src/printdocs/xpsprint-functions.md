@@ -1,5 +1,5 @@
 ---
-Description: .
+description: XPS Print API Functions
 ms.assetid: 0d9a18eb-57fc-4086-825d-0ca6ae849ce0
 title: XPS Print API Functions
 ms.topic: article
@@ -34,7 +34,7 @@ ms.date: 05/31/2018
 [Documents](./jobbindalldocuments.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

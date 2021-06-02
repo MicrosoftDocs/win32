@@ -1,5 +1,5 @@
 ---
-Description: The SCE\_ENUMERATION\_CONTEXT data type is an opaque handle provided by the Security Configuration tool set. It is used by the PFSCE\_QUERY\_INFO function to navigate through the security database.
+description: The SCE\_ENUMERATION\_CONTEXT data type is an opaque handle provided by the Security Configuration tool set. It is used by the PFSCE\_QUERY\_INFO function to navigate through the security database.
 ms.assetid: 05629c49-e36b-4045-93d0-d0f4bc09b08a
 title: SCE_ENUMERATION_CONTEXT (Scesvc.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ typedef ULONG SCE_ENUMERATION_CONTEXT, *PSCE_ENUMERATION_CONTEXT;
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

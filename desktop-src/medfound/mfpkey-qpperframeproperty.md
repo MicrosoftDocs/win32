@@ -1,5 +1,5 @@
 ---
-Description: Specifies QP. Possible values are 1.0 through 31.0.
+description: Specifies QP. Possible values are 1.0 through 31.0.
 ms.assetid: 927c2fd3-9790-4e23-98f5-f3ac0c0d77dc
 title: MFPKEY_QPPERFRAME Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ As the value of this property increases, the compression ratio increases, and th
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

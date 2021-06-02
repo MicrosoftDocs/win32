@@ -1,5 +1,5 @@
 ---
-Description: The ClearAllGroups method removes all groups from the timeline, along with all objects contained in those groups.
+description: The ClearAllGroups method removes all groups from the timeline, along with all objects contained in those groups.
 ms.assetid: b0d2a463-bd18-4377-893c-ea4fdf77b1c8
 title: IAMTimeline::ClearAllGroups method (Qedit.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

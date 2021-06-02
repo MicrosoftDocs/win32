@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrinterConfiguration WMI class represents the configuration for a printer device. This includes capabilities such as resolution, color, fonts, and orientation.
+description: The Win32\_PrinterConfiguration WMI class represents the configuration for a printer device. This includes capabilities such as resolution, color, fonts, and orientation.
 ms.assetid: b6649da0-ecb0-4ed1-979c-5005837eb474
 ms.tgt_platform: multiple
 title: Win32_PrinterConfiguration class
@@ -958,7 +958,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

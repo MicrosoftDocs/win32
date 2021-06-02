@@ -1,5 +1,5 @@
 ---
-Description: The HCRYPTKEY data type is used to represent handles to cryptographic keys.
+description: The HCRYPTKEY data type is used to represent handles to cryptographic keys.
 ms.assetid: d62f1d40-4f42-4684-96d7-de88db67dceb
 title: HCRYPTKEY (Wincrypt.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ typedef ULONG_PTR HCRYPTKEY;
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

@@ -1,5 +1,5 @@
 ---
-Description: The SetProps method sets the properties of the target object to the appropriate state for the specified time.
+description: The SetProps method sets the properties of the target object to the appropriate state for the specified time.
 ms.assetid: 65e701c9-d3a1-4396-9cba-a7830757701f
 title: IPropertySetter::SetProps method (Qedit.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ The object specified by *pTarget* must implement the **IDispatch** interface.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

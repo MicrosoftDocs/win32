@@ -1,5 +1,5 @@
 ---
-Description: The media type constants are defined below.
+description: The media type constants are defined below.
 ms.assetid: 3e418c9a-a008-4b94-b5d2-7c2eccb3bf87
 title: TAPIMEDIATYPE_ Constants (Tapi3.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ The following media types are defined:
 
 
 
-|                         |                                                                                    |
+| Requirement | Value |
 |-------------------------|------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                              |
 | Header<br/>       | <dl> <dt>Tapi3.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: This section describes Transmission Control Protocol/Internet Protocol (TCP/IP) functions, data structures, and controls.
+description: This section describes Transmission Control Protocol/Internet Protocol (TCP/IP) functions, data structures, and controls.
 ms.assetid: ff92750b-453e-4328-821c-1098de8e6125
 title: Winsock TCP/IP Annex
 ms.topic: article

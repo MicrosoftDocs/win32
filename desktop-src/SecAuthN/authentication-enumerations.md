@@ -1,5 +1,5 @@
 ---
-Description: Lists the enumerations used in authentication APIs.
+description: Lists the enumerations used in authentication APIs.
 ms.assetid: e27888e5-d01a-4fdd-8c7d-9849c0f90eb5
 title: Authentication Enumerations
 ms.topic: article

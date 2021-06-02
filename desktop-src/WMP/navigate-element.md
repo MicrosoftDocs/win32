@@ -59,7 +59,7 @@ The **Navigate** element specifies a URL used by calls to **External.NavigateTas
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/> |
 

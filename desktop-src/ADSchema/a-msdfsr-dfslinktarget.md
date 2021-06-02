@@ -22,7 +22,7 @@ Contains the link target for the subscription.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFSR-DfsLinkTarget                       |
 | Ldap-Display-Name | msDFSR-DfsLinkTarget                        |
@@ -46,7 +46,7 @@ Contains the link target for the subscription.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -67,7 +67,7 @@ Contains the link target for the subscription.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -88,7 +88,7 @@ Contains the link target for the subscription.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -109,7 +109,7 @@ Contains the link target for the subscription.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

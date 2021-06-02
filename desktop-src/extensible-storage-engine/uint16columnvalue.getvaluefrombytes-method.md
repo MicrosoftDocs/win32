@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt16ColumnValue.GetValueFromBytes method"
 title: UInt16ColumnValue.GetValueFromBytes method 
 TOCTitle: 'GetValueFromBytes method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.UInt16ColumnValue.GetValueFromBytes(System.Byte[],System.Int32,System.Int32,System.Int32)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Given data retrieved from ESENT, decode the data and set the value in the ColumnValue object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -94,8 +95,8 @@ protected override void GetValueFromBytes(
 
 #### Reference
 
-[UInt16ColumnValue class](dn351247\(v=exchg.10\).md)
+[UInt16ColumnValue class](./uint16columnvalue-class.md)
 
-[UInt16ColumnValue members](dn351248\(v=exchg.10\).md)
+[UInt16ColumnValue members](./uint16columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

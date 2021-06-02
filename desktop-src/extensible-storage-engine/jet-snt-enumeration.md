@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNT enumeration"
 title: JET_SNT enumeration
 TOCTitle: JET_SNT enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SNT
@@ -40,7 +41,7 @@ ROBOTS: INDEX,FOLLOW
 
 Type of progress being reported.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -106,5 +107,4 @@ public enum JET_SNT
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

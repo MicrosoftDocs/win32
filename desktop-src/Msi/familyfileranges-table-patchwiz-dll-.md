@@ -1,5 +1,5 @@
 ---
-Description: The FamilyFileRanges table contains information about particular files of an upgraded image with ranges that should never be overwritten.
+description: The FamilyFileRanges table contains information about particular files of an upgraded image with ranges that should never be overwritten.
 ms.assetid: 2e77605a-d909-4a17-977c-18281a96c36c
 title: FamilyFileRanges Table (Patchwiz.dll)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Receive method receives the next media sample in the stream. This method implements the IMemInputPin::Receive method.
+description: CTransformInputPin.Receive method - The Receive method receives the next media sample in the stream. This method implements the IMemInputPin::Receive method.
 ms.assetid: 65e4f8f5-2aa2-435b-84b4-e65af3f51afc
 title: CTransformInputPin.Receive method (Transfrm.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If the filter needs to access the sample after this method returns, it should ho
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

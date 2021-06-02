@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempPathInUseException constructor"
 title: EsentTempPathInUseException constructor 
 TOCTitle: 'EsentTempPathInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTempPathInUseException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTempPathInUseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTempPathInUseException()
 
 #### Reference
 
-[EsentTempPathInUseException class](dn334969\(v=exchg.10\).md)
+[EsentTempPathInUseException class](./esenttemppathinuseexception-class.md)
 
-[EsentTempPathInUseException members](dn334974\(v=exchg.10\).md)
+[EsentTempPathInUseException members](./esenttemppathinuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the original URL for a byte stream.
+description: Specifies the original URL for a byte stream.
 ms.assetid: 31d7de71-5bbb-4c29-8ce0-df3684c56916
 title: MF_BYTESTREAM_ORIGIN_NAME attribute (Mfobjects.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

@@ -1,5 +1,5 @@
 ---
-Description: Many rendering and content generation techniques require a unique, non-overlapping map of a 2D signal (such as a texture) onto a mesh.
+description: Many rendering and content generation techniques require a unique, non-overlapping map of a 2D signal (such as a texture) onto a mesh.
 ms.assetid: 0ec19e8c-2a14-4392-93de-7ab832784085
 title: Using UVAtlas (Direct3D 9)
 ms.topic: article
@@ -17,7 +17,7 @@ Many rendering and content generation techniques require a unique, non-overlappi
 
 Generating a unique UV mapping manually is often time-consuming and tedious; this is especially true when the input geometry is complex and efficient/low-distortion texture-space utilization is desired. The following illustration shows an example mesh and its corresponding texture atlas.
 
-![illustration of an example mesh and its corresponding texture atlas](images/uvatlas1.jpg)
+![Shows an example mesh and its corresponding texture atlas.](images/uvatlas1.jpg)
 
 This example shows a mesh (on the left) and the corresponding UV-space normal map (on the right). Notice that the texture atlas contains several groups or clusters of data; each cluster is called a chart and in the example above, displays contains the normal data for a portion of the mesh.
 
@@ -46,7 +46,7 @@ A mesh which can be parameterized with a single chart is classified as "homeomor
 
 Very few real-world meshes can be parameterized into two dimensions without separating the mesh into clusters, or charts. The following illustration shows another example mesh and its corresponding texture atlas.
 
-![illustration of an example mesh and its corresponding texture atlas](images/uvatlas2.jpg)
+![Shows an example mesh with different shapes and its corresponding texture atlas.](images/uvatlas2.jpg)
 
 There are two parameters that determine the number of charts created:
 

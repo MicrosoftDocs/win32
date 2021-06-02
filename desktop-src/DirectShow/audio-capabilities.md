@@ -1,5 +1,5 @@
 ---
-Description: Audio Capabilities
+description: Audio Capabilities
 ms.assetid: de96f6ee-b526-4ac2-93ac-a731f86ef5d5
 title: Audio Capabilities
 ms.topic: article

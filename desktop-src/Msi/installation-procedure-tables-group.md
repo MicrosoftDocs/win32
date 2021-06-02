@@ -1,5 +1,5 @@
 ---
-Description: The tables in the Installation Procedure group control tasks performed during the installation by standard actions and custom actions.
+description: The tables in the Installation Procedure group control tasks performed during the installation by standard actions and custom actions.
 ms.assetid: dff7cf4a-89a2-47b0-9038-93b79c0d915a
 title: Installation Procedure Tables Group
 ms.topic: article

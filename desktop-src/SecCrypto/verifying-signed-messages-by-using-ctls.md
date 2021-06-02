@@ -1,5 +1,5 @@
 ---
-Description: One of the advantages of using certificate trust lists (CTLs) is that applications can be designed that can automatically verify signed messages against trusted certificates without bothering the user with dialog boxes.
+description: One of the advantages of using certificate trust lists (CTLs) is that applications can be designed that can automatically verify signed messages against trusted certificates without bothering the user with dialog boxes.
 ms.assetid: e45ea3ae-52bc-49d3-8144-f3becc254f53
 title: Verifying Signed Messages by Using CTLs
 ms.topic: article

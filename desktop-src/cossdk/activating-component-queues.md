@@ -1,5 +1,5 @@
 ---
-Description: Activating Component Queues
+description: Activating Component Queues
 ms.assetid: cfbf7c73-2521-40cf-8c6e-436f64c07e31
 title: Activating Component Queues
 ms.topic: article

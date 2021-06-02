@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.ThreadStats property"
 title: EsentStopwatch.ThreadStats property 
 TOCTitle: 'ThreadStats property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentStopwatch.ThreadStats
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the total ESENT work stats measured by the current instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_THREADSTATS ThreadStats { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](./jet-threadstats-structure2.md)  
 
 ## See also
 
 #### Reference
 
-[EsentStopwatch class](dn334867\(v=exchg.10\).md)
+[EsentStopwatch class](./esentstopwatch-class.md)
 
-[EsentStopwatch members](dn334924\(v=exchg.10\).md)
+[EsentStopwatch members](./esentstopwatch-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

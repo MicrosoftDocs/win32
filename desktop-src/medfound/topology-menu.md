@@ -1,5 +1,5 @@
 ---
-Description: Topology Menu
+description: Topology Menu
 ms.assetid: 95c78b37-0b9d-444e-ad69-3f1ff2a8dcf7
 title: Topology Menu
 ms.topic: article

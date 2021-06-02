@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_Photo\_FNumber.
+description: The denominator of PKEY\_Photo\_FNumber.
 ms.assetid: 7b1577c4-ec92-4c14-9bea-2c7d92819ff7
 title: System.Photo.FNumberDenominator
 ms.topic: article

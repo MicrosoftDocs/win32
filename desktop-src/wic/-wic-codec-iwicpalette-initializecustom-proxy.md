@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the InitializeCustom method.
+description: Proxy function for the InitializeCustom method.
 ms.assetid: fe742b12-5338-41b0-b90b-aec852a26518
 title: IWICPalette_InitializeCustom_Proxy function
 ms.topic: reference
@@ -76,7 +76,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

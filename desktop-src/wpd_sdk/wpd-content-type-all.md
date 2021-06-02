@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_ALL
+description: WPD\_CONTENT\_TYPE\_ALL
 ms.assetid: 99f9382d-9bfe-4cf6-982f-fcd37e965cae
 title: WPD_CONTENT_TYPE_ALL
 ms.topic: article

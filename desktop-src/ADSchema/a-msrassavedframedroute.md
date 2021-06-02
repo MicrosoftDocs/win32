@@ -21,7 +21,7 @@ The **msRASSavedFramedRoute** attribute is used internally. Do not modify this v
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | msRASSavedFramedRoute                |
 | Ldap-Display-Name | msRASSavedFramedRoute                |
@@ -47,7 +47,7 @@ The **msRASSavedFramedRoute** attribute is used internally. Do not modify this v
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -68,7 +68,7 @@ The **msRASSavedFramedRoute** attribute is used internally. Do not modify this v
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -89,7 +89,7 @@ The **msRASSavedFramedRoute** attribute is used internally. Do not modify this v
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -110,7 +110,7 @@ The **msRASSavedFramedRoute** attribute is used internally. Do not modify this v
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -131,7 +131,7 @@ The **msRASSavedFramedRoute** attribute is used internally. Do not modify this v
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -152,7 +152,7 @@ The **msRASSavedFramedRoute** attribute is used internally. Do not modify this v
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

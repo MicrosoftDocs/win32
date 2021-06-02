@@ -1,5 +1,5 @@
 ---
-Description: This topic summarizes the main programming considerations to keep in mind when adding MUI functionality to your applications.
+description: This topic summarizes the main programming considerations to keep in mind when adding MUI functionality to your applications.
 ms.assetid: 10064f5c-5563-44f8-afb5-c6c77991e13c
 title: Development of MUI Applications
 ms.topic: article

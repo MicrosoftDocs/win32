@@ -1,5 +1,5 @@
 ---
-Description: This overview introduces some key concepts for using XAudio2.
+description: This overview introduces some key concepts for using XAudio2.
 ms.assetid: 103e939f-7815-51c5-159a-c607da1e99ba
 title: XAudio2 Key Concepts
 ms.topic: article

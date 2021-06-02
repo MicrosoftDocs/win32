@@ -1,6 +1,6 @@
 ---
 title: IEnumFsiItems RemoteNext method
-description: Supports a remote client that wants to retrieve a specified number of items in the enumeration sequence.
+description: Supports a remote client that wants to retrieve a specified number of items in the enumeration sequence. | IEnumFsiItems RemoteNext method
 ms.assetid: a5ae59ed-08d7-4225-9aec-91049789e8fe
 keywords:
 - RemoteNext method IMAPI
@@ -82,7 +82,7 @@ Other success codes may be returned as a result of implementation. The following
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP2 \[desktop apps only\]<br/>                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

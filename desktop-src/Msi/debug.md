@@ -1,5 +1,5 @@
 ---
-Description: If this per-machine system policy is set to &\#0034;1&\#0034;, the installer writes common debugging messages to the debugger using the OutputDebugString function.
+description: If this per-machine system policy is set to &\#0034;1&\#0034;, the installer writes common debugging messages to the debugger using the OutputDebugString function.
 ms.assetid: 0a9416ca-0535-4595-a4f3-b3ef7c2d3a13
 title: Debug
 ms.topic: article

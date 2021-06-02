@@ -1,5 +1,5 @@
 ---
-Description: The version of PATCHWIZ.DLL released with Windows Installer&\#160;3.0 can automatically generate patch sequencing information and add to the MsiPatchSequence Table a new patch.
+description: The version of PATCHWIZ.DLL released with Windows Installer&\#160;3.0 can automatically generate patch sequencing information and add to the MsiPatchSequence Table a new patch.
 ms.assetid: 03e7eea6-1a37-4c86-a9da-109fbaf20728
 title: Generating Patch Sequence Information (PATCHWIZ.DLL)
 ms.topic: article

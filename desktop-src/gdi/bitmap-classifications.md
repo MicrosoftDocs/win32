@@ -1,5 +1,5 @@
 ---
-Description: Bitmap Classifications
+description: Bitmap Classifications
 ms.assetid: 669ffaef-55c5-4cbc-b23a-de3d66bd6ab2
 title: Bitmap Classifications
 ms.topic: article

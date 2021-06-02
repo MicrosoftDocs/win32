@@ -1,5 +1,5 @@
 ---
-Description: Sets the moniker binding flags for the Microsoft Media Foundation HTTP byte stream.
+description: Sets the moniker binding flags for the Microsoft Media Foundation HTTP byte stream.
 ms.assetid: 9426D235-65E1-40BA-94E9-CF0C49263E6F
 title: MFPKEY_HTTP_ByteStream_Urlmon_Bind_Flags property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The value of this property is a bitwise **OR** of flags from the **BINDF** enume
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |
 

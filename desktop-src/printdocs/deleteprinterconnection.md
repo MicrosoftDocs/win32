@@ -1,5 +1,5 @@
 ---
-Description: The DeletePrinterConnection function deletes a connection to a printer that was established by a call to AddPrinterConnection or ConnectToPrinterDlg.
+description: The DeletePrinterConnection function deletes a connection to a printer that was established by a call to AddPrinterConnection or ConnectToPrinterDlg.
 ms.assetid: 7b056eea-fbd9-4a08-a2dc-7326caeec387
 title: DeletePrinterConnection function (Winspool.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ The **DeletePrinterConnection** function does not delete any printer driver file
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

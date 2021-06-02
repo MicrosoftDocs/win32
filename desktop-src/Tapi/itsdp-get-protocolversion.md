@@ -1,5 +1,5 @@
 ---
-Description: The get\_ProtocolVersion method gets the Session Descriptor Protocol (SDP; see RFC 2327) protocol version.
+description: The get\_ProtocolVersion method gets the Session Descriptor Protocol (SDP; see RFC 2327) protocol version.
 ms.assetid: 7c62357c-427f-40f9-a9d2-c4e1a8400e97
 title: ITSdp::get_ProtocolVersion method (Sdpblb.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

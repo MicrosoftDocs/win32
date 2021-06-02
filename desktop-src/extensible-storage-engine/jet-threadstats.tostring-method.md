@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.ToString method"
 title: JET_THREADSTATS.ToString method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.ToString
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a string representation of this object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ A string representation of this object.
 
 #### Reference
 
-[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](./jet-threadstats-structure2.md)
 
-[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](./jet-threadstats-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

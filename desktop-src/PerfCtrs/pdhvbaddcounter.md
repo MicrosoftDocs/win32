@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbAddCounter function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.
+description: The PdhVbAddCounter function creates a counter entry in the specified query object, and returns a handle to that counter upon successful completion.
 ms.assetid: 20a9e6cd-bf0d-497d-b660-88e786e2f004
 title: PdhVbAddCounter function
 ms.topic: reference
@@ -76,7 +76,7 @@ If the function fails, the return value is a [system error code](/windows/deskto
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

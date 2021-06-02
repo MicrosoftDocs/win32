@@ -1,5 +1,5 @@
 ---
-Description: If a Windows object does not have a discretionary access control list (DACL), the system allows everyone full access to it.
+description: If a Windows object does not have a discretionary access control list (DACL), the system allows everyone full access to it.
 ms.assetid: be9633fb-14ef-42d2-9269-84287b35b653
 title: DACLs and ACEs
 ms.topic: article

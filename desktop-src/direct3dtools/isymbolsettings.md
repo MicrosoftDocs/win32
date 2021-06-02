@@ -1,5 +1,5 @@
 ---
-Description: Passes symbol server information to the desktop capture engine.
+description: Passes symbol server information to the desktop capture engine.
 MS-HAID: vspixengine.ISymbolSettings
 MSHAttr:
 - PreferredSiteName:MSDN

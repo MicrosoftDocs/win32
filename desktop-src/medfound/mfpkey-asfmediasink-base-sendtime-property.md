@@ -1,5 +1,5 @@
 ---
-Description: Base send time for the ASF media sink, in milliseconds.
+description: Base send time for the ASF media sink, in milliseconds.
 ms.assetid: 1b99845e-751a-4ec6-bd2d-e4644cd6863e
 title: MFPKEY_ASFMEDIASINK_BASE_SENDTIME property (Mfidl.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ You can use this property to configure the ASF media sink. The usage depends on 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

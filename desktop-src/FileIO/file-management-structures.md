@@ -1,5 +1,5 @@
 ---
-Description: Structures used in file management.
+description: Structures used in file management.
 ms.assetid: 406d5c0f-b49a-4075-ac3e-c5b55a0c3fe9
 title: File Management Structures
 ms.topic: article

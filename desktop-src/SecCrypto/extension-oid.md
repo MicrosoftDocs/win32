@@ -1,5 +1,5 @@
 ---
-Description: The OID property retrieves the object identifier for the extension. This is the default property.
+description: The OID property retrieves the object identifier for the extension. This is the default property.
 ms.assetid: 51efd413-f9f0-4577-a554-de6afc32dd87
 title: Extension.OID property
 ms.topic: reference
@@ -38,7 +38,7 @@ An [**OID**](oid.md) object that represents the object identifier of the extensi
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

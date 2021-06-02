@@ -1,5 +1,5 @@
 ---
-Description: Sent by the default context menu implementation to get the verb for the given command ID in the context menu.
+description: Sent by the default context menu implementation to get the verb for the given command ID in the context menu.
 title: DFM_GETVERB message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -64,7 +64,7 @@ This message is sent to either the callback function or the callback object depe
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

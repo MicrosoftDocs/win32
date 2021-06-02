@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Color Reference
+# Color Reference (Windows Media Player SDK)
 
 The following colors are supported for use with skins. Every attribute that takes a color value can be specified using one of the following color names or hexadecimal values. Any six-digit hexadecimal number can be used, but only the ones on this chart have valid names.
 
@@ -19,7 +19,7 @@ Some attributes will also accept a value of "none". For **transparencyColor** at
 
 
 
-|                            |                             |                                 |                              |
+|          &nbsp;            |            &nbsp;           |             &nbsp;              |           &nbsp;             |
 |----------------------------|-----------------------------|---------------------------------|------------------------------|
 | aliceblue (\#F0F8FF)       | antiquewhite (\#FAEBD7)     | aqua (\#00FFFF)                 | aquamarine (\#7FFFD4)        |
 | azure (\#F0FFFF)           | beige (\#F5F5DC)            | bisque (\#FFE4C4)               | black (\#000000)             |

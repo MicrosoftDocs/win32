@@ -1,5 +1,5 @@
 ---
-Description: The following constants are used by the CNG Data Protection API.
+description: The following constants are used by the CNG Data Protection API.
 ms.assetid: 4E43FAA9-7D6F-43DB-A998-189411E0AB4C
 title: CNG DPAPI Constants (NCryptprotect.h)
 ms.topic: reference
@@ -182,7 +182,7 @@ Represents the Microsoft key protection provider that is available only on the c
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                       |

@@ -1,5 +1,5 @@
 ---
-Description: Converts the computer's local time to Coordinated Universal Time (Greenwich Mean Time).
+description: Converts the computer's local time to Coordinated Universal Time (Greenwich Mean Time).
 ms.assetid: ff5d40ba-7d94-4f11-9c18-e41752d1d7b9
 title: Utilities.LocalTimeToUTCTime method
 ms.topic: reference
@@ -55,7 +55,7 @@ While the system uses Coordinated Universal Time internally, applications genera
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO members"
 title: JET_RSTINFO members
 TOCTitle: JET_RSTINFO members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_RSTINFO
@@ -15,7 +16,7 @@ Include inherited members
 
 Contains optional input and output parameters for JetRetrieveColumn.
 
-The [JET_RSTINFO](dn335235\(v=exchg.10\).md) type exposes the following members.
+The [JET_RSTINFO](./jet-rstinfo-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -142,6 +143,6 @@ Top
 
 #### Reference
 
-[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](./jet-rstinfo-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

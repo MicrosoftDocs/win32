@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CBaseFilter.CBaseFilter(const TCHAR\*, LPUNKNOWN, CCritSec\*, REFCLSID, HRESULT\*) constructor - Constructor method.
 ms.assetid: 705a075e-3f0f-4e7d-94b6-3458f87b6718
 title: CBaseFilter.CBaseFilter(const TCHAR*, LPUNKNOWN, CCritSec*, REFCLSID, HRESULT*) constructor (Amfilter.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ For the critical section object, you would typically do one of the following:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

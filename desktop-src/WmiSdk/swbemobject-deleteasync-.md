@@ -1,5 +1,5 @@
 ---
-Description: The DeleteAsync\_ method of SWbemObject asynchronously deletes either the current class or the current instance.
+description: The DeleteAsync\_ method of SWbemObject asynchronously deletes either the current class or the current instance.
 ms.assetid: b8d67fa5-5217-422b-acbe-5eea6028deeb
 ms.tgt_platform: multiple
 title: SWbemObject.DeleteAsync_ method (Wbemdisp.h)
@@ -154,7 +154,7 @@ An asynchronous callback allows a nonauthenticated user to provide data to the s
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

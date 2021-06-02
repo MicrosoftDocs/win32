@@ -1,5 +1,5 @@
 ---
-Description: Exposes methods that enable a Shell folder to support different views on its content (different hierarchical layouts of its data).
+description: Exposes methods that enable a Shell folder to support different views on its content (different hierarchical layouts of its data).
 title: IShellFolderViewType interface
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 9b597f6b-ef27-4fa1-ad00-e131dbd979e7
-api_name: 
- - IShellFolderViewType
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -100,7 +91,7 @@ DECLARE_INTERFACE_IID_(IShellFolderViewType, IUnknown, "49422C1E-1C03-11d2-8DAB-
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

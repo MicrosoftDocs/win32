@@ -22,7 +22,7 @@ Terminal Services managing license server.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-TS-ManagingLS                            |
 | Ldap-Display-Name | msTSManagingLS                              |
@@ -45,7 +45,7 @@ Terminal Services managing license server.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -66,7 +66,7 @@ Terminal Services managing license server.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -87,7 +87,7 @@ Terminal Services managing license server.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

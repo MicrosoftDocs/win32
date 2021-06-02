@@ -1,5 +1,5 @@
 ---
-Description: Device LocationPaths.
+description: Device LocationPaths.
 ms.assetid: 454ee045-3abb-4ca0-bf01-b5d21ec85725
 title: System.Devices.LocationPaths
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IAutomaticUpdatesSettings2 interface defines the following property.
+description: The IAutomaticUpdatesSettings2 interface defines the following property.
 ms.assetid: 46796d19-ff8a-4be0-94c2-259f25816289
 title: IAutomaticUpdatesSettings2 Properties
 ms.topic: article

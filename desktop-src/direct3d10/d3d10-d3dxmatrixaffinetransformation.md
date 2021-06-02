@@ -1,5 +1,5 @@
 ---
-Description: Builds a 3D affine transformation matrix. NULL arguments are treated as identity transformations.
+description: D3DXMatrixAffineTransformation function (D3DX10Math.h) - Builds a 3D affine transformation matrix. NULL arguments are treated as identity transformations.
 ms.assetid: 36044272-a8ce-47db-8f52-30dc680f8174
 title: D3DXMatrixAffineTransformation function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixAffineTransformation function
+# D3DXMatrixAffineTransformation function (D3DX10Math.h)
 
 Builds a 3D affine transformation matrix. **NULL** arguments are treated as identity transformations.
 
@@ -116,7 +116,7 @@ For 2D affine transformations, use D3DXMatrixAffineTransformation2D.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

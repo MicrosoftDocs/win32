@@ -1,5 +1,5 @@
 ---
-Description: The EndOfStream method is called after the object delivers the last sample. The derived class must implement this method.
+description: The EndOfStream method is called after the object delivers the last sample. The derived class must implement this method.
 ms.assetid: 55a32c17-9993-4ad7-8829-6aa5c1407622
 title: CPullPin.EndOfStream method (Pullpin.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Use this method to call [**IPin::EndOfStream**](/windows/desktop/api/Strmif/nf-s
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h</dt> </dl>                                                                                                       |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a single Secure Sockets Layer protocol (SSL) packet.
+description: Encrypts a single Secure Sockets Layer protocol (SSL) packet.
 ms.assetid: 1002158b-1a4f-4461-978f-b221ef6332e0
 title: SslEncryptPacket function (Sslprovider.h)
 ms.topic: reference
@@ -148,7 +148,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

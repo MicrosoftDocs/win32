@@ -1,5 +1,5 @@
 ---
-Description: The PlayChapterInTitle event is sent when the PlayChapterInTitle command has been enabled or disabled.
+description: The PlayChapterInTitle event is sent when the PlayChapterInTitle command has been enabled or disabled.
 ms.assetid: 'a18b6922-e2ea-4f5b-8bb9-8627b1c4825c'
 title: PlayChapterInTitle
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PSExtentBasedOnPExtent class associates protected space extents that are based on a physical extent.
+description: The CIM\_PSExtentBasedOnPExtent class associates protected space extents that are based on a physical extent.
 ms.assetid: 4b89319c-022c-4ff4-91ec-70c435a5888a
 ms.tgt_platform: multiple
 title: CIM_PSExtentBasedOnPExtent class
@@ -134,7 +134,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

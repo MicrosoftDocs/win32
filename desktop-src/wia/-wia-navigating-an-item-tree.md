@@ -1,5 +1,5 @@
 ---
-Description: An application navigates a Windows Image Acquisition (WIA) device's item tree to find and select images on that device. Using this technique, an application selects and acquires an image without presenting a dialog box to the user.
+description: An application navigates a Windows Image Acquisition (WIA) device's item tree to find and select images on that device. Using this technique, an application selects and acquires an image without presenting a dialog box to the user.
 ms.assetid: 1f124b4a-45fb-4181-b45a-e810a61ac37d
 title: Navigating an Item Tree
 ms.topic: article

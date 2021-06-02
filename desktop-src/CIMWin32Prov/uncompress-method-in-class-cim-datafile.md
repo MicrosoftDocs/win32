@@ -1,5 +1,5 @@
 ---
-Description: Uncompresses the logical data file (or directory) that is specified in the object path. This method is inherited from CIM\_LogicalFile.
+description: Uncompresses the logical data file (or directory) that is specified in the object path. This method is inherited from CIM\_LogicalFile.
 ms.assetid: 0966ba13-8bbc-4283-919a-7675444409be
 ms.tgt_platform: multiple
 title: Uncompress method of the CIM_DataFile class
@@ -147,7 +147,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

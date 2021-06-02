@@ -1,5 +1,5 @@
 ---
-Description: Describes how to send an XPS OM to a printer as an XPS document.
+description: Describes how to send an XPS OM to a printer as an XPS document.
 ms.assetid: eb1068c4-6a6a-4ef2-8ed6-033a6a2c273b
 title: Print an XPS OM
 ms.topic: article
@@ -444,7 +444,7 @@ HRESULT MakePagePartUri (
 
 
 
-For more information on the structure of an XPS document, see the [XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816).
+For more information on the structure of an XPS document, see the [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf).
 
 ## Related topics
 
@@ -495,7 +495,7 @@ For more information on the structure of an XPS document, see the [XML Paper Spe
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

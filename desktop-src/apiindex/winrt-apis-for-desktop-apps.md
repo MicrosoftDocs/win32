@@ -1,5 +1,5 @@
 ---
-Description: The following subset of Windows Runtime classes can be used in desktop apps.
+description: The following subset of Windows Runtime classes can be used in desktop apps.
 ms.assetid: F9113BEA-E383-48BE-BD17-72DC1D20DF47
 title: Windows Runtime 8.x APIs for desktop apps
 ms.topic: article

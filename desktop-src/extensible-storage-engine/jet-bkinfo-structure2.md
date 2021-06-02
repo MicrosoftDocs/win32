@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO structure"
 title: JET_BKINFO structure
 TOCTitle: JET_BKINFO structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_BKINFO
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Holds a collection of data about a specific backup event.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,7 +59,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](./jet-bkinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

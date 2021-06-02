@@ -1,5 +1,5 @@
 ---
-Description: The RKeyPFXInstall function is not supported.
+description: The RKeyPFXInstall function is not supported.
 ms.assetid: 061e3d9d-fc92-4204-92f3-f3425afdbe27
 title: RKeyPFXInstall function (Rkeysvcc.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ If the function fails, the return value is a **ULONG** that indicates the error.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

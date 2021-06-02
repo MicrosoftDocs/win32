@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION"
 ms.assetid: 71fa9a99-83e4-4b27-9fd1-5a9dc3070820
 title: OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION (Opmapi.h)
 ms.topic: reference
@@ -14,7 +15,7 @@ Gets information about a High-Bandwidth Digital Content Protection (HDCP) device
 
 
 
-|              |                                                                                                         |
+| Requirement | Value |
 |--------------|---------------------------------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_CONNECTED\_HDCP\_DEVICE\_INFORMATION                                                          |
 | Input data   | None                                                                                                    |
@@ -38,7 +39,7 @@ This query is equivalent to the DXVA\_COPPQueryHDCPKeyData query used in Certifi
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

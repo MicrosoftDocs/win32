@@ -1,5 +1,5 @@
 ---
-Description: Specifies the rate control mode.
+description: Specifies the rate control mode.
 ms.assetid: 4a0d49b1-30da-4ebe-abff-3fceef6dd94a
 title: AVEncCommonRateControlMode property (Codecapi.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ This property is also used with [H.264 UVC 1.5 camera encoders](/windows/desktop
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

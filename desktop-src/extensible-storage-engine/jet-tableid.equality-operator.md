@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID.Equality operator"
 title: JET_TABLEID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_TABLEID.op_Equality(Microsoft.Isam.Esent.Interop.JET_TABLEID,Microsoft.Isam.Esent.Interop.JET_TABLEID)
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Determines whether two specified instances of JET_TABLEID are equal.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,14 +61,14 @@ public static bool operator ==(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The second instance to compare.
 
@@ -80,8 +81,8 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_TABLEID structure](hh566310\(v=exchg.10\).md)
+[JET_TABLEID structure](./jet-tableid-structure.md)
 
-[JET_TABLEID members](hh596310\(v=exchg.10\).md)
+[JET_TABLEID members](./jet-tableid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

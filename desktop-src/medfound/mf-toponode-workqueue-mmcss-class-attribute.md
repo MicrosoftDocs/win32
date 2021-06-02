@@ -1,5 +1,5 @@
 ---
-Description: Specifies a Multimedia Class Scheduler Service (MMCSS) task for a topology branch.
+description: Specifies a Multimedia Class Scheduler Service (MMCSS) task for a topology branch.
 ms.assetid: 8668d0f1-9d54-4c56-bb19-09498252bec4
 title: MF_TOPONODE_WORKQUEUE_MMCSS_CLASS attribute (Mfidl.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

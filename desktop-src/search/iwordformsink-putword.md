@@ -1,5 +1,5 @@
 ---
-Description: Puts the original word form in the IWordFormSink object.
+description: Puts the original word form in the IWordFormSink object.
 ms.assetid: 333A3109-6C0A-42AE-9E10-87F53C7F737C
 title: IWordFormSink::PutWord method (Search.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ This method can return one of these values.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: The Base Provider used only 40-bit symmetric keys.
+description: The Base Provider used only 40-bit symmetric keys.
 ms.assetid: 7cfa6c7e-e30c-4829-9989-9567b42ad92f
 title: New Key-length Functionality
 ms.topic: article

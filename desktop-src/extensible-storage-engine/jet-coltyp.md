@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLTYP"
 title: JET_COLTYP
 TOCTitle: JET_COLTYP
 ms:assetid: 2c30c025-629d-4b94-bcb9-9c8fc3d4e039
@@ -173,5 +174,5 @@ The **JET_COLTYP** group of constants describe all possible column types that ca
 
 ### See Also
 
-[JetAddColumn](gg294122\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)
+[JetAddColumn](./jetaddcolumn-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)

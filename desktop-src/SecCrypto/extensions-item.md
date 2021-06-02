@@ -1,5 +1,5 @@
 ---
-Description: The Item property retrieves an extension, by index, from the collection. This is the default property.
+description: The Item property retrieves an extension, by index, from the collection. This is the default property.
 ms.assetid: 0242dc14-abf2-49df-b75a-9005b2376cfc
 title: Extensions.Item property
 ms.topic: reference
@@ -40,7 +40,7 @@ An [**Extension**](extension.md) object that represents the indexed certificate 
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

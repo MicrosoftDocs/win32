@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the CreateQueryWriterFromReader method.
+description: Proxy function for the CreateQueryWriterFromReader method.
 ms.assetid: 7784c5e9-38e0-43de-83db-4de3361fa20e
 title: IWICImagingFactory_CreateQueryWriterFromReader_Proxy function
 ms.topic: reference
@@ -84,7 +84,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

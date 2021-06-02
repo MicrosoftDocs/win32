@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultTransition method sets the default transition. If the render engine cannot render a transition, it substitutes the default transition.
+description: The SetDefaultTransition method sets the default transition. If the render engine cannot render a transition, it substitutes the default transition.
 ms.assetid: 5ee84a12-402f-4f1c-9f08-206431c7ecdb
 title: IAMTimeline::SetDefaultTransition method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If you do not set a default transition, or if the transition that you specify as
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

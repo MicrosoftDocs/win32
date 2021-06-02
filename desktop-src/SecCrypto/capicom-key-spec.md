@@ -1,5 +1,5 @@
 ---
-Description: The CAPICOM\_KEY\_SPEC enumeration defines key specifications.
+description: The CAPICOM\_KEY\_SPEC enumeration defines key specifications.
 ms.assetid: e4aaaf69-ab28-4e8c-8a8a-6dc662299865
 title: CAPICOM_KEY_SPEC enumeration (Capicom.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ The **CAPICOM\_KEY\_SPEC** enumeration is used by the following methods and prop
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

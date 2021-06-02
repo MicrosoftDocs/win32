@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the ink collecto rreceives a packet.
+description: Occurs when the ink collecto rreceives a packet.
 ms.assetid: 26d5a3eb-430a-4e21-8a3f-fdec5005cd6e
 title: InkOverlay.NewPackets event (Msinkaut.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ To set which properties are contained in this array, use the [**DesiredPacketDes
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

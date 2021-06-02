@@ -1,5 +1,5 @@
 ---
-Description: This section contains a single example that demonstrates how you can use regions to enable the user to define how a part of client area output can appear. Regions used for this purpose are called clipping regions.
+description: This section contains a single example that demonstrates how you can use regions to enable the user to define how a part of client area output can appear. Regions used for this purpose are called clipping regions.
 ms.assetid: 78371180-e0b6-4d01-8c3b-751cfaa3ff03
 title: Using Regions to Clip Output
 ms.topic: article

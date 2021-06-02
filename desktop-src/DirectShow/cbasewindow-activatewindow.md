@@ -1,5 +1,5 @@
 ---
-Description: The ActivateWindow method sizes the window according to the requirements of the derived class.
+description: The ActivateWindow method sizes the window according to the requirements of the derived class.
 ms.assetid: 39e23080-e4ae-46d5-bb3f-306c92bbfe14
 title: CBaseWindow.ActivateWindow method (Winutil.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If the window is already active, calling `ActivateWindow` moves the window to th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

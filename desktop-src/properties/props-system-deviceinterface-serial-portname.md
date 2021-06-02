@@ -1,5 +1,5 @@
 ---
-Description: Serial device friendly name.
+description: Serial device friendly name.
 ms.assetid: 22bdef67-dc40-4ba9-80f1-8c4477580f1a
 title: System.DeviceInterface.Serial.PortName
 ms.topic: article

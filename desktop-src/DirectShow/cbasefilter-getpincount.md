@@ -1,5 +1,5 @@
 ---
-Description: The GetPinCount method retrieves the number of pins.
+description: CBaseFilter.GetPinCount method - The GetPinCount method retrieves the number of pins.
 ms.assetid: 6cbeb123-d899-4f13-8b40-5666adec610f
 title: CBaseFilter.GetPinCount method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The derived class must implement this pure virtual method. Return the number of 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

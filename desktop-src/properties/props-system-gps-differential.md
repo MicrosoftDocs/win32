@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether differential correction was applied to the GPS receiver.
+description: Indicates whether differential correction was applied to the GPS receiver.
 ms.assetid: 9e88e861-b5cd-4f13-9765-b63306bbaa29
 title: System.GPS.Differential
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the NTLM [*constrained delegation*](../secgloss/s-gly.md).
+description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the NTLM [*constrained delegation*](../secgloss/s-gly.md).
 ms.assetid: a96b04f6-504c-4fd1-b62e-c08ba2b616e5
 title: InitializeSecurityContext (NTLM) function (Sspi.h)
 ms.topic: reference
@@ -235,7 +235,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

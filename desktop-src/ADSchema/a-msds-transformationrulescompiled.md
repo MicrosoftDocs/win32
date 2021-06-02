@@ -22,7 +22,7 @@ Blob containing compiled transformation rules.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-Transformation-Rules-Compiled                   |
 | Ldap-Display-Name | msDS-TransformationRulesCompiled                      |
@@ -43,7 +43,7 @@ Blob containing compiled transformation rules.
 
 
 
-|                        |                                                                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                  |
 | MAPI-Id                | \-                                                                                                  |

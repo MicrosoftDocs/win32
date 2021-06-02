@@ -1,5 +1,5 @@
 ---
-Description: The Reply method replies to a request.
+description: The Reply method replies to a request.
 ms.assetid: 90e91b99-6a1c-46a2-b83d-eba483f1832a
 title: CAMThread.Reply method (Wxutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The CallWorker method blocks until this method is called. The *dw* parameter sup
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

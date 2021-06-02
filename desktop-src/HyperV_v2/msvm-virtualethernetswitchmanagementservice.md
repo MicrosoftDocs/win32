@@ -1,5 +1,5 @@
 ---
-Description: Represents the virtualization service present on a single host system. Msvm\_VirtualEthernetSwitchManagementService is used to control the definition, modification, and deletion of virtual Ethernet switches.
+description: Represents the virtualization service present on a single host system. Msvm\_VirtualEthernetSwitchManagementService is used to control the definition, modification, and deletion of virtual Ethernet switches.
 ms.assetid: 'd29935d3-3a88-4186-97e9-b27c0c0d07d0'
 title: Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -674,7 +674,7 @@ Indicates the target state to which the instance is transitioning. This property
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

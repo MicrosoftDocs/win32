@@ -1,5 +1,5 @@
 ---
-Description: Specifies the size of the buffer used during encoding. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
+description: Specifies the size of the buffer used during encoding. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 3315785e-306f-44d6-ac39-796025a2da3a
 title: AVEncCommonBufferSize property (Codecapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ This property is also used with [H.264 UVC 1.5 camera encoders](/windows/desktop
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: The SourceThreadCanWait method holds or releases the streaming thread.
+description: The SourceThreadCanWait method holds or releases the streaming thread.
 ms.assetid: f68f5f0b-ef5b-49a9-a768-c4cc065c0cb3
 title: CBaseRenderer.SourceThreadCanWait method (Renbase.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The [**CBaseRenderer::Stop**](cbaserenderer-stop.md) and [**CBaseRenderer::Begin
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

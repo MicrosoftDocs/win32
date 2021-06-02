@@ -22,7 +22,7 @@ Identifies the state of the Global Catalog on the DC.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-isGC                           |
 | Ldap-Display-Name | msDS-isGC                            |
@@ -45,7 +45,7 @@ Identifies the state of the Global Catalog on the DC.
 
 
 
-|                        |                                                                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                       |
 | MAPI-Id                | \-                                                                                                                       |
@@ -66,7 +66,7 @@ Identifies the state of the Global Catalog on the DC.
 
 
 
-|                        |                                                                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                       |
 | MAPI-Id                | \-                                                                                                                       |
@@ -87,7 +87,7 @@ Identifies the state of the Global Catalog on the DC.
 
 
 
-|                        |                                                                                                                          |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                       |
 | MAPI-Id                | \-                                                                                                                       |

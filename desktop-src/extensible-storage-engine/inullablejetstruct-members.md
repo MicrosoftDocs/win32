@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: INullableJetStruct members"
 title: INullableJetStruct members
 TOCTitle: INullableJetStruct members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.INullableJetStruct
@@ -15,7 +16,7 @@ Include inherited members
 
 Interface for Jet structures that are nullable (can have null values).
 
-The [INullableJetStruct](hh578599\(v=exchg.10\).md) type exposes the following members.
+The [INullableJetStruct](./inullablejetstruct-interface.md) type exposes the following members.
 
 ## Properties
 
@@ -43,7 +44,6 @@ Top
 
 #### Reference
 
-[INullableJetStruct interface](hh578599\(v=exchg.10\).md)
+[INullableJetStruct interface](./inullablejetstruct-interface.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

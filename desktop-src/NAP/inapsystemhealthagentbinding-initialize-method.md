@@ -84,7 +84,7 @@ The NapAgent does not trigger a SoH exchange as a result of initialization. A sy
 
 
 
-|                                     |                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                |

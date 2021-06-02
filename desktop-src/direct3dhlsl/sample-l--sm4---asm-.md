@@ -1,6 +1,6 @@
 ---
 title: sample_l (sm4 - asm)
-description: Samples data from the specified Element/texture using the specified address and the filtering mode identified by the given sampler.
+description: Samples data from the specified Element/texture using the specified address and the filtering mode identified by the given sampler. | sample_l (sm4 - asm)
 ms.assetid: D285F63E-1026-45F1-9959-6F5AB2A27C95
 ms.topic: reference
 ms.date: 05/31/2018

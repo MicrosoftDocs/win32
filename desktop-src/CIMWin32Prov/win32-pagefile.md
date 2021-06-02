@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PageFile&\#32;WMI class represents the file used for handling virtual memory file swapping on a Win32 system. This class has been deprecated.
+description: The Win32\_PageFile&\#32;WMI class represents the file used for handling virtual memory file swapping on a Win32 system. This class has been deprecated.
 ms.assetid: 5599d09d-a2fd-4217-8560-5fd56f09d47b
 ms.tgt_platform: multiple
 title: Win32_PageFile class
@@ -1039,7 +1039,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

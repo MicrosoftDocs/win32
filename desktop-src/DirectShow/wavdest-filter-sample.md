@@ -1,5 +1,5 @@
 ---
-Description: WavDest Filter Sample
+description: WavDest Filter Sample
 ms.assetid: b7102e39-b3c7-42fb-a89b-f05f3ee75df7
 title: WavDest Filter Sample
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnloadableOSFunctionalityException constructor"
 title: EsentUnloadableOSFunctionalityException constructor 
 TOCTitle: 'EsentUnloadableOSFunctionalityException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentUnloadableOSFunctionalityException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentUnloadableOSFunctionalityException()
 
 #### Reference
 
-[EsentUnloadableOSFunctionalityException class](dn350835\(v=exchg.10\).md)
+[EsentUnloadableOSFunctionalityException class](./esentunloadableosfunctionalityexception-class.md)
 
-[EsentUnloadableOSFunctionalityException members](dn350836\(v=exchg.10\).md)
+[EsentUnloadableOSFunctionalityException members](./esentunloadableosfunctionalityexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

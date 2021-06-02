@@ -1,5 +1,5 @@
 ---
-Description: The processor classes model a processor for a virtual machine.
+description: The processor classes model a processor for a virtual machine.
 ms.assetid: 7B90BA41-EFF4-44AC-B46B-B7E0EEC19D45
 title: Processor classes
 ms.topic: reference

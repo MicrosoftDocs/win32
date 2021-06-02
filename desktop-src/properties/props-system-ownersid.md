@@ -1,5 +1,5 @@
 ---
-Description: SID of the user that owns the library.
+description: SID of the user that owns the library.
 ms.assetid: 7b04d55a-6606-4e69-9c89-0575165328c7
 title: System.OwnerSID
 ms.topic: article

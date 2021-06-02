@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table.Name property"
 title: Table.Name property 
 TOCTitle: 'Name property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Table.Name
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the name of this table.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,8 +60,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[Table class](dn351163\(v=exchg.10\).md)
+[Table class](./table-class.md)
 
-[Table members](dn351162\(v=exchg.10\).md)
+[Table members](./table-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

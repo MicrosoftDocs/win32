@@ -1,5 +1,5 @@
 ---
-Description: Resizes an existing virtual hard disk.
+description: Resizes an existing virtual hard disk.
 ms.assetid: 54FDCA3B-E12B-4E68-B7EE-893C9CD97E1A
 title: ResizeVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -172,7 +172,7 @@ public static void ResizeVirtualHardDisk(string path, UInt64 maxInternalSize)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

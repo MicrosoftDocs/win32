@@ -1,5 +1,5 @@
 ---
-Description: The SetProperties method sets the primitive referred by TLVs (tag, length, value) for the specified object.
+description: The SetProperties method sets the primitive referred by TLVs (tag, length, value) for the specified object.
 ms.assetid: f8f75c8e-14f4-4bc4-b49d-b232ede374b0
 title: ISCardFileAccess::SetProperties method
 ms.topic: reference
@@ -108,7 +108,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

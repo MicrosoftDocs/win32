@@ -32,7 +32,7 @@ The tab control now supports extended styles. These styles are manipulated using
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

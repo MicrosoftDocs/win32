@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder performs band truncation.
+description: Specifies whether the encoder performs band truncation.
 ms.assetid: 70b44f1e-06fc-4e7f-80cb-f9dd15891f75
 title: MFPKEY_DYN_BANDTRUNCATION Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

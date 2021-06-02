@@ -1,5 +1,5 @@
 ---
-Description: The HideCursor method hides or displays the cursor.
+description: The HideCursor method hides or displays the cursor.
 ms.assetid: 80175d1b-9874-4295-9ebc-b0d78961a263
 title: CBaseControlWindow.HideCursor method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns an **HRESULT** value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

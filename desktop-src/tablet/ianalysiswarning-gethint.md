@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the analysis hint that caused this warning.
+description: Retrieves the analysis hint that caused this warning.
 ms.assetid: 715aa4b2-6c45-414b-96f2-44c73a073213
 title: IAnalysisWarning::GetHint method (IACom.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ An example of an analysis hint that generates an [**IAnalysisWarning**](ianalysi
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

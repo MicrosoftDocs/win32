@@ -1,5 +1,5 @@
 ---
-Description: Represents a Windows-based operating system installed on a computer.
+description: Represents a Windows-based operating system installed on a computer.
 ms.assetid: eb6a8cff-20a0-4211-b46a-3084e9c39246
 ms.tgt_platform: multiple
 title: Win32_OperatingSystem class
@@ -3698,7 +3698,7 @@ $os | Format-List *
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.Sharpness property.
+description: The photo metadata policy for the System.Photo.Sharpness property.
 ms.assetid: 0fda4832-940b-4b5a-bd20-7e48c7800925
 title: System.Photo.Sharpness Photo Metadata Policy
 ms.topic: article

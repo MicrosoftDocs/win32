@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginTransaction Function"
 title: JetBeginTransaction Function
 TOCTitle: JetBeginTransaction Function
 ms:assetid: c5b2f9d7-157d-431d-a292-009c43773a9f
@@ -43,7 +44,7 @@ The session to use for this call.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -104,11 +105,11 @@ The database engine provides a snapshot isolation model for its transactions. Th
 
 Another implication of the use of snapshot isolation is the locking model used for updates. The database engine will award a write lock on a given piece of data to the first session that requests it. This write lock is released when the transaction is either committed or aborted completely such that the session is no longer in a transaction. While a session holds a write lock, any other session that requests the same write lock will not block until the write lock is available. Rather, that second session will immediately fail with JET_errWriteConflict. To resolve this conflict, the second session must abort (or commit) its transaction completely, wait some small period of time for the first session to commit or abort its transaction, and then start all over again.
 
-In support of snapshot isolation, the database engine stores all versions of all modified data in memory since the time when the oldest active transaction on any session was first started. This has important implications for your application. Any behavior that causes a large number of versions to build up in memory may cause the instance to exhaust its maximum version store size (see [JET_paramMaxVerPages](gg269201\(v=exchg.10\).md) in [System Parameters](gg294139\(v=exchg.10\).md) for more information). Such behavior includes, but is not limited to very large updates in a single transaction and very long running transactions. As a result, it is very important to properly configure the version store size for the expected transactional load of the application. It is also important to take great care to limit the number of updates performed in a single transaction. Furthermore, it is important to make transactions as short in duration as possible under high load scenarios.
+In support of snapshot isolation, the database engine stores all versions of all modified data in memory since the time when the oldest active transaction on any session was first started. This has important implications for your application. Any behavior that causes a large number of versions to build up in memory may cause the instance to exhaust its maximum version store size (see [JET_paramMaxVerPages](./resource-parameters.md) in [System Parameters](./extensible-storage-engine-system-parameters.md) for more information). Such behavior includes, but is not limited to very large updates in a single transaction and very long running transactions. As a result, it is very important to properly configure the version store size for the expected transactional load of the application. It is also important to take great care to limit the number of updates performed in a single transaction. Furthermore, it is important to make transactions as short in duration as possible under high load scenarios.
 
 It is highly recommended that the application always be in the context of a transaction when calling ESE APIs that retrieve or update data. If this is not done, the database engine will automatically wrap each ESE API call of this type in a transaction on behalf of the application. The cost of these very short transactions can add up quickly in some cases.
 
-The default behavior of the engine is to restrict the use of a session to the same thread from the time the first call to **JetBeginTransaction** is made until the time when the matching call to [JetCommitTransaction](gg269191\(v=exchg.10\).md) or [JetRollback](gg269273\(v=exchg.10\).md) is made. This behavior can be changed to remove this restriction by setting a custom session context using [JetSetSessionContext](gg294124\(v=exchg.10\).md) and [JetResetSessionContext](gg269250\(v=exchg.10\).md).
+The default behavior of the engine is to restrict the use of a session to the same thread from the time the first call to **JetBeginTransaction** is made until the time when the matching call to [JetCommitTransaction](./jetcommittransaction-function.md) or [JetRollback](./jetrollback-function.md) is made. This behavior can be changed to remove this restriction by setting a custom session context using [JetSetSessionContext](./jetsetsessioncontext-function.md) and [JetResetSessionContext](./jetresetsessioncontext-function.md).
 
 The database engine also supports transactional schema modifications. For example, it is possible to begin a new transaction, create a table, add a few columns, create an index or two, and then abort the transaction. The schema elements that were just added will be removed from the database. It is also possible to mix schema modifications and ordinary database updates in the same transaction.
 
@@ -146,14 +147,13 @@ The database engine also supports transactional schema modifications. For exampl
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetCommitTransaction](gg269191\(v=exchg.10\).md)  
-[JetGetSystemParameter](gg269291\(v=exchg.10\).md)  
-[JetResetSessionContext](gg269250\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSetSessionContext](gg294124\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetCommitTransaction](./jetcommittransaction-function.md)  
+[JetGetSystemParameter](./jetgetsystemparameter-function.md)  
+[JetResetSessionContext](./jetresetsessioncontext-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSetSessionContext](./jetsetsessioncontext-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

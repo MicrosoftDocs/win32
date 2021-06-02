@@ -1,5 +1,5 @@
 ---
-Description: Explains the parts of the access control model.
+description: Explains the parts of the access control model.
 ms.assetid: cca78195-90f5-45ee-9d16-c445d87e9f5e
 title: Parts of the Access Control Model
 ms.topic: article

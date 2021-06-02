@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of vectors.
+description: Sets an array of vectors.
 ms.assetid: 7a9c61b4-7bfc-4879-abd2-a42d40e9b2a7
 title: ID3DXBaseEffect::SetVectorArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ If the destination vectors are smaller than the source vectors, the additional c
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

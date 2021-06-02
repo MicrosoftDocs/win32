@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Server Functions
+# Server Functions (Network Management)
 
 The network management server functions perform administrative tasks on a local or remote server. The server functions are listed following.
 

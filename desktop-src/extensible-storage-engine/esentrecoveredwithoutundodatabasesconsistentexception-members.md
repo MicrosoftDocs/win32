@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoDatabasesConsistentException members"
 title: EsentRecoveredWithoutUndoDatabasesConsistentException members
 TOCTitle: EsentRecoveredWithoutUndoDatabasesConsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoDatabasesConsistentException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.RecoveredWithoutUndoDatabasesConsistent exceptions.
 
-The [EsentRecoveredWithoutUndoDatabasesConsistentException](dn350538\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecoveredWithoutUndoDatabasesConsistentException](./esentrecoveredwithoutundodatabasesconsistentexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentRecoveredWithoutUndoDatabasesConsistentException class](dn350538\(v=exchg.10\).md)
+[EsentRecoveredWithoutUndoDatabasesConsistentException class](./esentrecoveredwithoutundodatabasesconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

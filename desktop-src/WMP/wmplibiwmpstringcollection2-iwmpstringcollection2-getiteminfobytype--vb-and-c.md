@@ -100,7 +100,7 @@ To use this method, you must have read access to the library. For more informati
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 11.<br/>                                                                                    |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

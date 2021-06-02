@@ -1,5 +1,5 @@
 ---
-Description: The AMovieSetupRegisterFilter2 function registers a filter's merit, pins, and media types in the registry using the IFilterMapper2 interface.
+description: The AMovieSetupRegisterFilter2 function registers a filter's merit, pins, and media types in the registry using the IFilterMapper2 interface.
 ms.assetid: 8e0f3485-9e5d-4b22-853d-4ad9b1fb71d2
 title: AMovieSetupRegisterFilter2 function (Dllsetup.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ Typically, a filter will use [**AMovieDllRegisterServer2**](amoviedllregisterser
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Dllsetup.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

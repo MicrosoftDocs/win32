@@ -1,5 +1,5 @@
 ---
-Description: The IWiaPreview interface caches unfiltered images internally and passes them through image processing filters.
+description: The IWiaPreview interface caches unfiltered images internally and passes them through image processing filters.
 ms.assetid: 8a51c42b-aa1d-4df0-aba3-6aeb8e1ca2cf
 title: IWiaPreview interface (Wia.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The **IWiaPreview** interface, like all Component Object Model (COM) interfaces,
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

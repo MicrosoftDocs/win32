@@ -21,7 +21,7 @@ Extended right needed to cause certificate enrollment.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Certificate-Enrollment               |
 | Display-Name | Enroll                               |
@@ -42,7 +42,7 @@ Extended right needed to cause certificate enrollment.
 
 
 
-|                         |                                                                         |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------|
 | Applies-To              | [**PKI-Certificate-Template**](c-pkicertificatetemplate.md)<br/> |
 | Localization-Display-ID | 54                                                                      |
@@ -53,7 +53,7 @@ Extended right needed to cause certificate enrollment.
 
 
 
-|                         |                                                                         |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------|
 | Applies-To              | [**PKI-Certificate-Template**](c-pkicertificatetemplate.md)<br/> |
 | Localization-Display-ID | 54                                                                      |
@@ -64,7 +64,7 @@ Extended right needed to cause certificate enrollment.
 
 
 
-|                         |                                                                         |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------|
 | Applies-To              | [**PKI-Certificate-Template**](c-pkicertificatetemplate.md)<br/> |
 | Localization-Display-ID | 54                                                                      |
@@ -75,7 +75,7 @@ Extended right needed to cause certificate enrollment.
 
 
 
-|                         |                                                                         |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------|
 | Applies-To              | [**PKI-Certificate-Template**](c-pkicertificatetemplate.md)<br/> |
 | Localization-Display-ID | 54                                                                      |
@@ -86,7 +86,7 @@ Extended right needed to cause certificate enrollment.
 
 
 
-|                         |                                                                         |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------|
 | Applies-To              | [**PKI-Certificate-Template**](c-pkicertificatetemplate.md)<br/> |
 | Localization-Display-ID | 54                                                                      |
@@ -97,7 +97,7 @@ Extended right needed to cause certificate enrollment.
 
 
 
-|                         |                                                                         |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------|
 | Applies-To              | [**PKI-Certificate-Template**](c-pkicertificatetemplate.md)<br/> |
 | Localization-Display-ID | 54                                                                      |

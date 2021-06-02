@@ -1,5 +1,5 @@
 ---
-Description: The ModifyStopTime method sets the stop time, relative to the timeline.
+description: The ModifyStopTime method sets the stop time, relative to the timeline.
 ms.assetid: 0d9b6cf7-d029-4c35-9045-82cbeff1e3ae
 title: IAMTimelineSrc::ModifyStopTime method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This method is equivalent to calling [**IAMTimelineObj::SetStartStop**](iamtimel
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersion.SupportsUnicodePaths property"
 title: EsentVersion.SupportsUnicodePaths property 
 TOCTitle: 'SupportsUnicodePaths property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentVersion.SupportsUnicodePaths
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a value that indicates whether the current version of ESENT can use non-ASCII paths to access databases.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Reference
 
-[EsentVersion class](dn335007\(v=exchg.10\).md)
+[EsentVersion class](./esentversion-class.md)
 
-[EsentVersion members](dn350854\(v=exchg.10\).md)
+[EsentVersion members](./esentversion-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

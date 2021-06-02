@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVSpaceWriteConflictException methods"
 title: EsentSLVSpaceWriteConflictException methods
 TOCTitle: EsentSLVSpaceWriteConflictException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceWriteConflictException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVSpaceWriteConflictException](dn350752\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVSpaceWriteConflictException](./esentslvspacewriteconflictexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVSpaceWriteConflictException class](dn350752\(v=exchg.10\).md)
+[EsentSLVSpaceWriteConflictException class](./esentslvspacewriteconflictexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

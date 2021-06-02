@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Getting started with DirectX Graphics
 ms.assetid: 49E0D0C2-E6EC-4849-A44F-36FDEFBB9838
 title: Getting started with DirectX Graphics
 ms.topic: article

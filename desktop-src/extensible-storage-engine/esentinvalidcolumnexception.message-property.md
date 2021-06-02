@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException.Message property"
 title: EsentInvalidColumnException.Message property 
 TOCTitle: 'Message property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.Message
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a text message describing the exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[EsentInvalidColumnException class](dn319487\(v=exchg.10\).md)
+[EsentInvalidColumnException class](./esentinvalidcolumnexception-class.md)
 
-[EsentInvalidColumnException members](dn319449\(v=exchg.10\).md)
+[EsentInvalidColumnException members](./esentinvalidcolumnexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

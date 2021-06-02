@@ -1,5 +1,5 @@
 ---
-Description: Internal.
+description: <span id="vspixengine.register_format"></span>REGISTER_FORMAT enumeration - Internal.
 MS-HAID: vspixengine.REGISTER\_FORMAT
 MSHAttr:
 - PreferredSiteName:MSDN

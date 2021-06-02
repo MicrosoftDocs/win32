@@ -1,5 +1,5 @@
 ---
-Description: Names of all the required attendees.
+description: Names of all the required attendees.
 ms.assetid: 6f83ab7e-8583-4872-b5d9-91ce227a7761
 title: System.Calendar.RequiredAttendeeNames
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Raised by the audio renderer when the audio device is removed. The audio renderer is now invalid.
+description: Raised by the audio renderer when the audio device is removed. The audio renderer is now invalid.
 ms.assetid: a65a3931-e0d6-47ac-b545-9d616e914109
 title: MEAudioSessionDeviceRemoved event (Mfobjects.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ The [**IMFAudioPolicy**](/windows/desktop/api/mfidl/nn-mfidl-imfaudiopolicy) poi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

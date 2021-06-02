@@ -1,5 +1,5 @@
 ---
-Description: This section contains information about the structures used by effects.
+description: This section contains information about the structures used by effects.
 ms.assetid: d87e3c3a-0dd0-4472-b023-71de570d69b8
 title: Effect Structures
 ms.topic: article

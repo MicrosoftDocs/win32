@@ -49,7 +49,7 @@ This method returns a string that is not directly used by Remote Desktop Connect
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                       |

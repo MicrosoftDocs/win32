@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidNameException constructor"
 title: EsentInvalidNameException constructor 
 TOCTitle: 'EsentInvalidNameException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidNameException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidNameException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidNameException()
 
 #### Reference
 
-[EsentInvalidNameException class](dn319541\(v=exchg.10\).md)
+[EsentInvalidNameException class](./esentinvalidnameexception-class.md)
 
-[EsentInvalidNameException members](dn319561\(v=exchg.10\).md)
+[EsentInvalidNameException members](./esentinvalidnameexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

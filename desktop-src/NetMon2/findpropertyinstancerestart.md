@@ -1,5 +1,5 @@
 ---
-Description: Finds the next instance of the property specified by the hProperty parameter.
+description: Finds the next instance of the property specified by the hProperty parameter.
 ms.assetid: f77cb92b-5936-4349-bf66-643c16e9e0df
 title: FindPropertyInstanceRestart function (Netmon.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

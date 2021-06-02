@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the COM interfaces used to read to and write from .x files.
+description: This section contains reference information for the COM interfaces used to read to and write from .x files.
 ms.assetid: 54d8a02b-5376-49ac-a0d5-fc3cd8ab82e6
 title: D3DX X File Interfaces
 ms.topic: article

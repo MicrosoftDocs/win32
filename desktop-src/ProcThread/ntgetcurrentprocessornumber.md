@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of the processor the current thread was running on during the call to this function.
+description: Retrieves the number of the processor the current thread was running on during the call to this function.
 ms.assetid: f0141550-58e2-421a-934d-9a6c488d2b81
 title: NtGetCurrentProcessorNumber function
 ms.topic: reference
@@ -48,7 +48,7 @@ This function has no associated import library. You must use the [**LoadLibrary*
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

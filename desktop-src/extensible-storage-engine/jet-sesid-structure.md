@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID structure"
 title: JET_SESID structure
 TOCTitle: JET_SESID structure
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SESID
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 A JET_SESID contains a handle to the session to use for calls to the JET APIr-.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,7 +57,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_SESID members](hh557719\(v=exchg.10\).md)
+[JET_SESID members](./jet-sesid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

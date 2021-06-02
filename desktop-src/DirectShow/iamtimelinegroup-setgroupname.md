@@ -1,5 +1,5 @@
 ---
-Description: The SetGroupName method sets the application-defined name of the group.
+description: The SetGroupName method sets the application-defined name of the group.
 ms.assetid: e1d8a91b-d5b9-42a4-9b98-582e1a57ac51
 title: IAMTimelineGroup::SetGroupName method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

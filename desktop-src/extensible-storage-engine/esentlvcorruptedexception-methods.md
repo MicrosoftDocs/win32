@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLVCorruptedException methods"
 title: EsentLVCorruptedException methods
 TOCTitle: EsentLVCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLVCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLVCorruptedException](dn334680\(v=exchg.10\).md) type exposes the following members.
+The [EsentLVCorruptedException](./esentlvcorruptedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentLVCorruptedException class](dn334680\(v=exchg.10\).md)
+[EsentLVCorruptedException class](./esentlvcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

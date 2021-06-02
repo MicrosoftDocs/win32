@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of protected shared resources that can be opened by any process without restrictions.
+description: Returns the number of protected shared resources that can be opened by any process without restrictions.
 ms.assetid: afbd7bb9-de71-4992-919e-e1517228dc69
 title: D3DAUTHENTICATEDQUERY_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Returns the number of protected shared resources that can be opened by any proce
 
 
 
-|             |                                                                                                                                                                        |
+| Requirement | Value |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT**                                                                                                    |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT**](d3dauthenticatedchannel-query-input.md)                                                                                   |
@@ -39,7 +39,7 @@ The only channel type that supports this query is **D3DAUTHENTICATEDCHANNEL\_DRI
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Gets or sets the description of the link.
+description: Gets or sets the description of the link.
 ms.assetid: d3a95281-fb1f-4fd4-9d26-2a6e10a36a86
 title: ShellLinkObject.Description property (Shldisp.h)
 ms.topic: reference
@@ -166,7 +166,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

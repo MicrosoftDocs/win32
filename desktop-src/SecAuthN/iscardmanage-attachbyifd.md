@@ -1,5 +1,5 @@
 ---
-Description: Creates a communication link to a reader, using a supplied display name for the reader.
+description: Creates a communication link to a reader, using a supplied display name for the reader.
 ms.assetid: 7916896b-c460-47b2-a1db-17d8fc9bdd2e
 title: ISCardManage::AttachByIFD method
 ms.topic: reference
@@ -74,7 +74,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

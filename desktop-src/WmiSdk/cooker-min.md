@@ -1,5 +1,5 @@
 ---
-Description: The COOKER\_MIN counter type formula identifies the smallest value from a set of observations of one property in a Win32\_PerfRawData instance.
+description: The COOKER\_MIN counter type formula identifies the smallest value from a set of observations of one property in a Win32\_PerfRawData instance.
 ms.assetid: e02a4152-105c-44a1-857d-08a8aea767de
 ms.tgt_platform: multiple
 title: COOKER_MIN

@@ -1,5 +1,5 @@
 ---
-Description: 'There are four types of logical brushes: solid, stock, hatch, and pattern. These brushes are shown in the following illustration.'
+description: 'There are four types of logical brushes: solid, stock, hatch, and pattern. These brushes are shown in the following illustration.'
 ms.assetid: 06e4e739-5280-4e21-a6ce-2d4db1c5e6e1
 title: Logical Brush Types
 ms.topic: article

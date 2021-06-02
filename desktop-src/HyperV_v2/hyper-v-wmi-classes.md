@@ -1,5 +1,5 @@
 ---
-Description: The following are the Hyper-V WMI classes.
+description: The following are the Hyper-V WMI classes.
 ms.assetid: 3373D767-EC21-4CA7-8FA0-03DB39224728
 title: Hyper-V WMI classes
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: A COM+ application is the primary unit of administration and security for Component Services and consists of a group of COM components that generally perform related functions.
+description: A COM+ application is the primary unit of administration and security for Component Services and consists of a group of COM components that generally perform related functions.
 ms.assetid: 82e94acb-e7ce-4423-a720-26ee65d0d7b4
 title: COM+ Application Overview
 ms.topic: article
@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 A COM+ application is the primary unit of administration and security for Component Services and consists of a group of COM components that generally perform related functions. These components further consist of interfaces and methods, as shown in the following illustration.
 
-![](images/487518b4-0460-4b2d-a834-c4ea57755ffd.png)
+![Diagram that shows interfaces and methods inside boxes, in order of Method inside Interface inside Component inside COM+ Application.](images/487518b4-0460-4b2d-a834-c4ea57755ffd.png)
 
 You can use the Component Services administrative tool to create new COM+ applications, add components to applications, and set the attributes for an application and its components.
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSessionsException properties"
 title: EsentOutOfSessionsException properties
 TOCTitle: EsentOutOfSessionsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfSessionsException](dn319800\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfSessionsException](./esentoutofsessionsexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentOutOfSessionsException class](dn319800\(v=exchg.10\).md)
+[EsentOutOfSessionsException class](./esentoutofsessionsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

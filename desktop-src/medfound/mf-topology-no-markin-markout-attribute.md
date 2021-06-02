@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the pipeline trims samples.
+description: Specifies whether the pipeline trims samples.
 ms.assetid: 4ba66d18-3854-4994-9509-967303dc7d98
 title: MF_TOPOLOGY_NO_MARKIN_MARKOUT attribute (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

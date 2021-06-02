@@ -1,5 +1,5 @@
 ---
-Description: The OnWaitStart method is called when the filter starts waiting for a sample's presentation time.
+description: The OnWaitStart method is called when the filter starts waiting for a sample's presentation time.
 ms.assetid: 598cd676-3afe-4ec9-ae38-83971412e6a7
 title: CBaseRenderer.OnWaitStart method (Renbase.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ If you are implementing quality control, you might override this method along wi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

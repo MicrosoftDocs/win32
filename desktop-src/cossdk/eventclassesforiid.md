@@ -1,5 +1,5 @@
 ---
-Description: Retrieves information regarding event classes.
+description: Retrieves information regarding event classes.
 ms.assetid: 33a87692-cacf-4a1c-974e-8d0e20295333
 title: EventClassesForIID collection
 ms.topic: reference
@@ -53,7 +53,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                          |
+| Entry | Value |
 |----------------|----------------------------------------------------------|
 | Description    | The GUID for the application containing the event class. |
 | Access         | ReadOnly                                                 |
@@ -69,7 +69,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                         |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Represents the binary bitness type of the event class. On systems that use 64-bit Windows, this property distinguishes between 64-bit components and 32-bit components. |
 | Access         | ReadOnly                                                                                                                                                                |
@@ -85,7 +85,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                               |
+| Entry | Value |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | The GUID for the event class. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                      |
@@ -101,7 +101,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                            |
+| Entry | Value |
 |----------------|----------------------------|
 | Description    | Describes the event class. |
 | Access         | ReadOnly                   |
@@ -117,7 +117,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                         |
+| Entry | Value |
 |----------------|---------------------------------------------------------|
 | Description    | Indicates whether the event class component is private. |
 | Access         | ReadOnly                                                |
@@ -133,7 +133,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                     |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A friendly name used to identify the event class. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                                            |

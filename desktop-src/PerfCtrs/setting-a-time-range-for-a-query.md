@@ -1,5 +1,5 @@
 ---
-Description: If the data source is a log file, you can specify a time range for the query.
+description: If the data source is a log file, you can specify a time range for the query.
 ms.assetid: 8d9c3e96-3645-4875-9b5f-a6c9ddf23ec3
 title: Setting a Time Range for a Query
 ms.topic: article

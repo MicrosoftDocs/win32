@@ -1,5 +1,5 @@
 ---
-Description: The AreYouBlank method determines whether the track is blank (contains no source objects).
+description: The AreYouBlank method determines whether the track is blank (contains no source objects).
 ms.assetid: 05d02753-6e40-4307-9445-c3cbc835f75e
 title: IAMTimelineTrack::AreYouBlank method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

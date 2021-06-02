@@ -22,7 +22,7 @@ For more information about CredSSP, see [KB 951608](https://support.microsoft.co
 
 ## Multi-Hop Support Configuration Setup and Details
 
-There are multiple mechanisms for configuring WinRM settings. In the following procedure, the **winrm** utility and Group Policy editor (**GPEdit.msc**) are used. CredSSP can also be enabled for WinRM by using Windows PowerShell. See the [Enable-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Enable-WSManCredSSP?view=powershell-5.1), [Get-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Get-WSManCredSSP?view=powershell-5.1), and [Disable-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Disable-WSManCredSSP?view=powershell-5.1) Windows PowerShell cmdlets for detailed configuration information and usage examples.
+There are multiple mechanisms for configuring WinRM settings. In the following procedure, the **winrm** utility and Group Policy editor (**GPEdit.msc**) are used. CredSSP can also be enabled for WinRM by using Windows PowerShell. See the [Enable-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Enable-WSManCredSSP?view=powershell-5.1&preserve-view=true), [Get-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Get-WSManCredSSP?view=powershell-5.1&preserve-view=true), and [Disable-WSManCredSSP](/powershell/module/Microsoft.WsMan.Management/Disable-WSManCredSSP?view=powershell-5.1&preserve-view=true) Windows PowerShell cmdlets for detailed configuration information and usage examples.
 
 CredSSP delegation must be enabled in the client settings and in the service settings on the remote computer. In addition, using CredSSP requires setting up an HTTP or HTTPS [*listener*](windows-remote-management-glossary.md) on the server.
 

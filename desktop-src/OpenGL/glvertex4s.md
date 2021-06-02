@@ -1,6 +1,6 @@
 ---
 title: glVertex4s function (Gl.h)
-description: Specifies a vertex.
+description: Specifies a vertex. | glVertex4s function (Gl.h)
 ms.assetid: 5030e0dd-9a81-482d-8d87-bfc9355a3c92
 keywords:
 - glVertex4s function OpenGL
@@ -78,7 +78,7 @@ The glVertex function commands are used within [**glBegin**](glbegin.md)/[**glEn
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

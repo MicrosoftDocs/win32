@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_ERRCAT"
 title: JET_ERRCAT
 TOCTitle: JET_ERRCAT
 ms:assetid: 96551dc8-8df5-417c-850f-278b5231b0b6

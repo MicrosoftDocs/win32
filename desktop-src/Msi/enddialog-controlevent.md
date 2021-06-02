@@ -1,5 +1,5 @@
 ---
-Description: This event notifies the installer to remove a modal dialog box. In all cases the installer removes the present dialog box.
+description: This event notifies the installer to remove a modal dialog box. In all cases the installer removes the present dialog box.
 ms.assetid: 74a28696-6387-4d62-8955-4708ba5872bb
 title: EndDialog ControlEvent
 ms.topic: article

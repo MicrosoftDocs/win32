@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the value of the OID dotted number of the identifier.
+description: Sets or retrieves the value of the OID dotted number of the identifier.
 ms.assetid: bb960e65-776e-4ae8-a557-62254dc10558
 title: OID.Value property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # OID.Value property
 
-\[The **Value** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Value** property is available for use in the operating systems specified in the Requirements section. Instead, use the [**Oid Class**](/dotnet/api/system.security.cryptography.oid?view=netcore-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Value** property sets or retrieves the value of the OID dotted number of the identifier.
 
@@ -42,7 +42,7 @@ If the **Value** property is set, the [**FriendlyName**](oid-friendlyname.md) pr
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

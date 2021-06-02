@@ -1,5 +1,5 @@
 ---
-Description: Specifies the device category for a video capture device.
+description: Specifies the device category for a video capture device.
 ms.assetid: 008ff9df-ebe0-4efd-a62c-24f4a4239ebd
 title: MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_CATEGORY attribute (Mfidl.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

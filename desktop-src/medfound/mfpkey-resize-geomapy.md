@@ -1,5 +1,5 @@
 ---
-Description: Specifies the y-coordinate of the upper-left corner of the geometric aperture.
+description: Specifies the y-coordinate of the upper-left corner of the geometric aperture.
 ms.assetid: 5015e864-fd34-449f-b3fc-1ddcb507dfdf
 title: MFPKEY_RESIZE_GEOMAPY Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The value is a fixed-point real number. The integer portion of the number is sto
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

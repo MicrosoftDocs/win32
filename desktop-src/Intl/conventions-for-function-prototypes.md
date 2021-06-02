@@ -1,5 +1,5 @@
 ---
-Description: The Windows SDK provides function prototypes in generic, Windows code page, and Unicode versions.
+description: The Windows SDK provides function prototypes in generic, Windows code page, and Unicode versions.
 ms.assetid: 601d24b0-11bb-48fa-a257-207c3acee226
 title: Conventions for Function Prototypes
 ms.topic: article

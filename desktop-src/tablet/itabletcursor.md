@@ -1,5 +1,5 @@
 ---
-Description: Represents a stylus object.
+description: Represents a stylus object.
 ms.assetid: c55945b7-59df-49b5-b25f-fa96056889fc
 title: ITabletCursor interface
 ms.topic: reference
@@ -84,7 +84,7 @@ interface ITabletCursor : IUnknown
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

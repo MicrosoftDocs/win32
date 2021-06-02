@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Windows Software Development Kit (SDK) includes localized resource strings, localized Error tables, and localized ActionText tables for the languages listed in the following table.
+description: The Microsoft Windows Software Development Kit (SDK) includes localized resource strings, localized Error tables, and localized ActionText tables for the languages listed in the following table.
 ms.assetid: 2e3a6e73-5b06-452d-9f87-18eb6914b961
 title: Localizing the Error and ActionText Tables
 ms.topic: article

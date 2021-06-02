@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGotoBookmark Function"
 title: JetGotoBookmark Function
 TOCTitle: JetGotoBookmark Function
 ms:assetid: a9a0aa43-834a-4eec-b47f-8e74d35aa972
@@ -26,7 +27,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGotoBookmark Function
 
-The **JetGotoBookmark** function positions a cursor to an index entry for the record that is associated with the specified bookmark. The bookmark can be used with any index defined over a table. The bookmark for a record can be retrieved using [JetGetBookmark](gg269221\(v=exchg.10\).md).
+The **JetGotoBookmark** function positions a cursor to an index entry for the record that is associated with the specified bookmark. The bookmark can be used with any index defined over a table. The bookmark for a record can be retrieved using [JetGetBookmark](./jetgetbookmark-function.md).
 
 ```cpp
     JET_ERR JET_API JetGotoBookmark(
@@ -57,7 +58,7 @@ The size of the bookmark in the buffer.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -161,8 +162,7 @@ The second way to use a bookmark is to position it on an entry in a secondary in
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetBookmark](gg269221\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetBookmark](./jetgetbookmark-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: ID3D10EffectVariable Interface has a number of methods for casting the interface into the particular type of interface you need.
+description: ID3D10EffectVariable Interface has a number of methods for casting the interface into the particular type of interface you need.
 ms.assetid: c0842a1d-b78c-44b2-89c7-452d54efe403
 title: Specializing Interfaces (Direct3D 10)
 ms.topic: article

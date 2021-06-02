@@ -1,5 +1,5 @@
 ---
-Description: Translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.
+description: Translates the specified Unicode string into a new character string, using the 8-bit Unicode Transformation Format (UTF-8) code page.
 ms.assetid: ecd63eee-bf86-42b5-93d8-3c7871aa6324
 title: RtlUnicodeToUTF8N function (Wdm.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ Callers of **RtlUnicodeToUTF8N** must be running at IRQL < DISPATCH\_LEVEL.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                              |

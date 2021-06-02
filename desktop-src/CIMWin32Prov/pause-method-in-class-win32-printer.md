@@ -1,5 +1,5 @@
 ---
-Description: Pauses the print queue.
+description: Pauses the print queue.
 ms.assetid: 0f425318-a7c0-4bba-bb44-e7635fa3ca03
 ms.tgt_platform: multiple
 title: Pause method of the Win32_Printer class
@@ -59,7 +59,7 @@ Access Denied
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

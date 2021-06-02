@@ -1,5 +1,5 @@
 ---
-Description: In this version of the example program, a few obvious changes have been made that will take initial strides at improving performance.
+description: In this version of the example program, a few obvious changes have been made that will take initial strides at improving performance.
 ms.assetid: ef9d594c-31fe-44c0-b707-47c01e2c5bf0
 title: 'Revision One: Cleaning up the Obvious'
 ms.topic: article

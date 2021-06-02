@@ -1,5 +1,5 @@
 ---
-Description: Each named pipe has a unique name that distinguishes it from other named pipes in the systems list of named objects. A pipe server specifies a name for the pipe when it calls the CreateNamedPipe function to create one or more instances of a named pipe.
+description: Each named pipe has a unique name that distinguishes it from other named pipes in the systems list of named objects. A pipe server specifies a name for the pipe when it calls the CreateNamedPipe function to create one or more instances of a named pipe.
 ms.assetid: 8f7e717a-648b-421e-ab79-a4abbae670be
 title: Pipe Names
 ms.topic: article

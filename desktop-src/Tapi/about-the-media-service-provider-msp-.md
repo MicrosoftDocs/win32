@@ -1,5 +1,5 @@
 ---
-Description: A TAPI 3 media service provider (MSP) allows an application considerable control over the media for a particular transport mechanism.
+description: A TAPI 3 media service provider (MSP) allows an application considerable control over the media for a particular transport mechanism.
 ms.assetid: 2dd1268f-b31a-443b-a36b-05c1570e7a8a
 title: About the Media Service Provider (MSP)
 ms.topic: article

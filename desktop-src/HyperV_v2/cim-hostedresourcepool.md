@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between a system and a resource pool that is a component of the system.
+description: Represents an association between a system and a resource pool that is a component of the system.
 ms.assetid: 0ac60dbd-0498-4978-b2d6-f4c9926a83a8
 title: CIM_HostedResourcePool class
 ms.topic: reference
@@ -80,7 +80,7 @@ The resource pool that is a component of the system.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

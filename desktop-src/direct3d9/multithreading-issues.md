@@ -1,5 +1,5 @@
 ---
-Description: Full-screen Direct3D applications provide a window handle to the Direct3D run time.
+description: Full-screen Direct3D applications provide a window handle to the Direct3D run time.
 ms.assetid: 66a9e14f-46c8-45e8-ae0e-4d8cf5106acc
 title: Multithreading Issues (Direct3D 9)
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLeakInSpaceException constructor"
 title: EsentDatabaseLeakInSpaceException constructor 
 TOCTitle: 'EsentDatabaseLeakInSpaceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseLeakInSpaceException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseLeakInSpaceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseLeakInSpaceException()
 
 #### Reference
 
-[EsentDatabaseLeakInSpaceException class](dn334349\(v=exchg.10\).md)
+[EsentDatabaseLeakInSpaceException class](./esentdatabaseleakinspaceexception-class.md)
 
-[EsentDatabaseLeakInSpaceException members](dn334470\(v=exchg.10\).md)
+[EsentDatabaseLeakInSpaceException members](./esentdatabaseleakinspaceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

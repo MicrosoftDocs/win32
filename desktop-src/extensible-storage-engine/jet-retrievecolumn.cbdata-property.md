@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN.cbData property"
 title: JET_RETRIEVECOLUMN.cbData property 
 TOCTitle: 'cbData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.cbData
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RETRIEVECOLUMN.cbData property
 
-Gets or sets the size of the [pvData](dn351040\(v=exchg.10\).md) buffer, in bytes. The retrieve column operation will not store more data in pvData than cbData.
+Gets or sets the size of the [pvData](./jet-retrievecolumn.pvdata-property.md) buffer, in bytes. The retrieve column operation will not store more data in pvData than cbData.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN class](./jet-retrievecolumn-class.md)
 
-[JET_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN members](./jet-retrievecolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Removes the specified managed element as a member of the given CIM\_CollectionOfMSEs object.
+description: Removes the specified managed element as a member of the given CIM\_CollectionOfMSEs object.
 ms.assetid: ea945d24-bcff-476b-9adb-c6573cdbc0b5
 title: RemoveMember method of the Msvm_CollectionManagementService class
 ms.topic: reference
@@ -109,7 +109,7 @@ Returns 0 if successful, or 4096 if the job started; otherwise, returns an error
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

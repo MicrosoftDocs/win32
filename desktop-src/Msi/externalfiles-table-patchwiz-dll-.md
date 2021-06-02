@@ -1,5 +1,5 @@
 ---
-Description: The ExternalFiles table contains information about specific files that are not part of a regular target image.
+description: The ExternalFiles table contains information about specific files that are not part of a regular target image.
 ms.assetid: c75591c2-5266-4a99-8104-53815f6550e2
 title: ExternalFiles Table (Patchwiz.dll)
 ms.topic: article

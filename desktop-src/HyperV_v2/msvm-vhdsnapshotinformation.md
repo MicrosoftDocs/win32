@@ -1,5 +1,5 @@
 ---
-Description: Provides information about a snapshot within a VHD Set file.
+description: Provides information about a snapshot within a VHD Set file.
 ms.assetid: 922bf0b8-523d-488e-9a41-1a27594e2e44
 title: Msvm_VHDSnapshotInformation class
 ms.topic: reference
@@ -136,7 +136,7 @@ The path of the file represented by this snapshot. This field may be empty if th
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

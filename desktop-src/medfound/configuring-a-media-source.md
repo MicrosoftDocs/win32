@@ -1,5 +1,5 @@
 ---
-Description: Configuring a Media Source
+description: Configuring a Media Source
 ms.assetid: 1378bbe6-be94-4be1-b428-5ec58dabd1fa
 title: Configuring a Media Source
 ms.topic: article

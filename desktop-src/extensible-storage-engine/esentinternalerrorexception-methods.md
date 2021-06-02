@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInternalErrorException methods"
 title: EsentInternalErrorException methods
 TOCTitle: EsentInternalErrorException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInternalErrorException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInternalErrorException](dn319452\(v=exchg.10\).md) type exposes the following members.
+The [EsentInternalErrorException](./esentinternalerrorexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInternalErrorException class](dn319452\(v=exchg.10\).md)
+[EsentInternalErrorException class](./esentinternalerrorexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

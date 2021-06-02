@@ -1,5 +1,5 @@
 ---
-Description: Multiple Display Monitors is a set of related features that allow applications to make use of multiple display devices at the same time.
+description: Multiple Display Monitors is a set of related features that allow applications to make use of multiple display devices at the same time.
 ms.assetid: '901c8fbe-a29c-4382-80d4-5e3667a031da'
 title: Multiple Display Monitors
 ms.topic: article

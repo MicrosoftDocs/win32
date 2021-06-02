@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentAttachedDatabaseMismatchException methods"
 title: EsentAttachedDatabaseMismatchException methods
 TOCTitle: EsentAttachedDatabaseMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentAttachedDatabaseMismatchException](dn334236\(v=exchg.10\).md) type exposes the following members.
+The [EsentAttachedDatabaseMismatchException](./esentattacheddatabasemismatchexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentAttachedDatabaseMismatchException class](dn334236\(v=exchg.10\).md)
+[EsentAttachedDatabaseMismatchException class](./esentattacheddatabasemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

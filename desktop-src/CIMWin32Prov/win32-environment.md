@@ -1,5 +1,5 @@
 ---
-Description: Represents an environment or system environment setting on a Windows computer system.
+description: Represents an environment or system environment setting on a Windows computer system.
 ms.assetid: da7ee891-c759-4046-a9d8-d3caf66ab5a9
 ms.tgt_platform: multiple
 title: Win32_Environment class
@@ -365,7 +365,7 @@ End If
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

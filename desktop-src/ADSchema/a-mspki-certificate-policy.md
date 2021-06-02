@@ -22,7 +22,7 @@ Contains the list of policy OIDs and their optional CSPs in the issued certifica
 
 
 
-|                   |                                                                                                   |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------------------------|
 | CN                | ms-PKI-Certificate-Policy                                                                         |
 | Ldap-Display-Name | msPKI-Certificate-Policy                                                                          |
@@ -47,7 +47,7 @@ Contains the list of policy OIDs and their optional CSPs in the issued certifica
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -68,7 +68,7 @@ Contains the list of policy OIDs and their optional CSPs in the issued certifica
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -89,7 +89,7 @@ Contains the list of policy OIDs and their optional CSPs in the issued certifica
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -110,7 +110,7 @@ Contains the list of policy OIDs and their optional CSPs in the issued certifica
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |
@@ -131,7 +131,7 @@ Contains the list of policy OIDs and their optional CSPs in the issued certifica
 
 
 
-|                        |                                                                         |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------|
 | Link-Id                | \-                                                                      |
 | MAPI-Id                | \-                                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 12000-1599 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 12000-1599 defined in the WinError.h header file and is intended for developers.
 ms.assetid: bb3c658d-96db-495a-a0dc-e93949c3835d
 title: System Error Codes (12000-15999) (WinError.h)
 ms.topic: reference
@@ -5427,7 +5427,7 @@ This API cannot be used in the context of the caller's application type.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

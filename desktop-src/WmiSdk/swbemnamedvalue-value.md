@@ -1,5 +1,5 @@
 ---
-Description: The Value property of the SWbemNamedValue object returns the variant value of an SWbemNamedValue item.
+description: The Value property of the SWbemNamedValue object returns the variant value of an SWbemNamedValue item.
 ms.assetid: f9609bd2-893a-48c3-9faa-93cd033c4109
 ms.tgt_platform: multiple
 title: SWbemNamedValue.Value property (Wbemdisp.h)
@@ -42,7 +42,7 @@ SWbemNamedValue.Value As Variant
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

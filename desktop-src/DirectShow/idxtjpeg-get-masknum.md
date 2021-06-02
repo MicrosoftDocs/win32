@@ -1,5 +1,5 @@
 ---
-Description: The get\_MaskNum method retrieves the SMPTE wipe code of the wipe.
+description: The get\_MaskNum method retrieves the SMPTE wipe code of the wipe.
 ms.assetid: 49710d40-acc0-453e-ac9c-882794a0b82d
 title: IDxtJpeg::get_MaskNum method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings for the synthetic 3-D service present on a single host system.
+description: Represents the settings for the synthetic 3-D service present on a single host system.
 ms.assetid: ed5d9bba-faad-40a6-8f08-258a94272a11
 title: Msvm_Synthetic3DServiceSettingData class
 ms.topic: reference
@@ -124,7 +124,7 @@ Uniquely identifies an instance of this class. This property is inherited from [
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

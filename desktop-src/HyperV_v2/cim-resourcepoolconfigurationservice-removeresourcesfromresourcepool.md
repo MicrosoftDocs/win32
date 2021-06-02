@@ -1,5 +1,5 @@
 ---
-Description: Starts a job to remove resources from a resource pool.
+description: Starts a job to remove resources from a resource pool.
 ms.assetid: 1689ccbf-a524-45b7-bf95-6341a3b28f6c
 title: RemoveResourcesFromResourcePool method of the CIM_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -106,7 +106,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

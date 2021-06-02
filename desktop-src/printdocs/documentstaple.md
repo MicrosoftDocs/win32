@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 53e38979-2065-4304-a0ed-0434c8d2efc8
 title: DocumentStaple
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # DocumentStaple
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Describes the stapling characteristics of the output. Each document is stapled separately. The JobStapleAllDocuments and DocumentStaple keywords are mutually exclusive. It is up to the driver to determine constraint handling between these keywords.
 
@@ -20,7 +20,7 @@ Describes the stapling characteristics of the output. Each document is stapled s
 
 
 
-| Name                       |                                                                                |
+| Name | Value |
 |----------------------------|--------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                             |
 | Scoping Prefix <br/> | Document<br/>                                                            |
@@ -73,7 +73,7 @@ The following table outlines the characteristics of the variables defined in the
 
 ## Extensible Markup Language (XML) Content
 
-The public Print Schema keywords are defined in the http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
+The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace. The public Extensible Markup Language (XML) content for this keyword is defined below:
 
 ``` syntax
 <psf:Feature name="psk:DocumentStaple">
@@ -167,7 +167,7 @@ The public Print Schema keywords are defined in the http://schemas.microsoft.com
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVColumnCannotDeleteException methods"
 title: EsentSLVColumnCannotDeleteException methods
 TOCTitle: EsentSLVColumnCannotDeleteException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVColumnCannotDeleteException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVColumnCannotDeleteException](dn350654\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVColumnCannotDeleteException](./esentslvcolumncannotdeleteexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVColumnCannotDeleteException class](dn350654\(v=exchg.10\).md)
+[EsentSLVColumnCannotDeleteException class](./esentslvcolumncannotdeleteexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

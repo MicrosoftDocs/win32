@@ -1,5 +1,5 @@
 ---
-Description: Loads a surface from a resource.
+description: Loads a surface from a resource.
 ms.assetid: 16d49f61-8c84-4e15-aacc-1d26099e65e0
 title: D3DXLoadSurfaceFromResource function (D3dx9tex.h)
 ms.topic: reference
@@ -144,7 +144,7 @@ Writing to a non-level-zero surface will not cause the dirty rectangle to be upd
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

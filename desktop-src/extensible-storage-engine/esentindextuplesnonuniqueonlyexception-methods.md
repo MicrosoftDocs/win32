@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesNonUniqueOnlyException methods"
 title: EsentIndexTuplesNonUniqueOnlyException methods
 TOCTitle: EsentIndexTuplesNonUniqueOnlyException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesNonUniqueOnlyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexTuplesNonUniqueOnlyException](dn319420\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesNonUniqueOnlyException](./esentindextuplesnonuniqueonlyexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesNonUniqueOnlyException class](dn319420\(v=exchg.10\).md)
+[EsentIndexTuplesNonUniqueOnlyException class](./esentindextuplesnonuniqueonlyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

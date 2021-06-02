@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionInUseException methods"
 title: EsentSessionInUseException methods
 TOCTitle: EsentSessionInUseException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSessionInUseException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSessionInUseException](dn350638\(v=exchg.10\).md) type exposes the following members.
+The [EsentSessionInUseException](./esentsessioninuseexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSessionInUseException class](dn350638\(v=exchg.10\).md)
+[EsentSessionInUseException class](./esentsessioninuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

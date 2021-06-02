@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVProviderVersionMismatchException members"
 title: EsentSLVProviderVersionMismatchException members
 TOCTitle: EsentSLVProviderVersionMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVProviderVersionMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVProviderVersionMismatchException](dn350740\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVProviderVersionMismatchException](./esentslvproviderversionmismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +161,6 @@ Top
 
 #### Reference
 
-[EsentSLVProviderVersionMismatchException class](dn350740\(v=exchg.10\).md)
+[EsentSLVProviderVersionMismatchException class](./esentslvproviderversionmismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

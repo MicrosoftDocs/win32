@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: OPM_GET_ACP_AND_CGMSA_SIGNALING"
 ms.assetid: d477fe3e-4498-450b-93b7-ce74ae9ed005
 title: OPM_GET_ACP_AND_CGMSA_SIGNALING (Opmapi.h)
 ms.topic: reference
@@ -15,7 +16,7 @@ Returns the following information about a video output:
 
 
 
-|              |                                                                                     |
+| Requirement | Value |
 |--------------|-------------------------------------------------------------------------------------|
 | Request GUID | OPM\_GET\_ACP\_AND\_CGMSA\_SIGNALING                                                |
 | Input data   | None                                                                                |
@@ -33,7 +34,7 @@ This query is equivalent to the DXVA\_COPPQuerySignaling query used in Certified
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

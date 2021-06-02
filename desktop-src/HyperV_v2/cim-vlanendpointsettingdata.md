@@ -1,5 +1,5 @@
 ---
-Description: Represents configuration data for a VLAN endpoint.
+description: Represents configuration data for a VLAN endpoint.
 ms.assetid: 5ef3cc55-cf27-40b4-9e94-2e2b42ca41c5
 title: CIM_VLANEndpointSettingData class
 ms.topic: reference
@@ -154,7 +154,7 @@ An array that contains IDs of VLAN endpoints with trunking enabled.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

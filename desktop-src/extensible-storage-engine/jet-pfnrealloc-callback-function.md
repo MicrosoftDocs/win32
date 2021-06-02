@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PFNREALLOC Callback Function"
 title: JET_PFNREALLOC Callback Function
 TOCTitle: JET_PFNREALLOC Callback Function
 ms:assetid: 443d0b7e-1c3b-4584-9bc3-938724527313
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_PFNREALLOC Callback Function
 
-The JET_PFNREALLOC function is a [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback used by [JetEnumerateColumns](gg269321\(v=exchg.10\).md) to allocate memory for its output buffers.
+The JET_PFNREALLOC function is a [realloc](/cpp/c-runtime-library/reference/realloc?view=vs-2019) compatible callback used by [JetEnumerateColumns](./jetenumeratecolumns-function.md) to allocate memory for its output buffers.
 
 ```cpp
     void * JET_API JET_PFNREALLOC(
@@ -38,7 +39,7 @@ The JET_PFNREALLOC function is a [realloc](/cpp/c-runtime-library/reference/real
 
 *pvContext*
 
-The context pointer given to [JetEnumerateColumns](gg269321\(v=exchg.10\).md). This context pointer can be used to convey state from the caller of [JetEnumerateColumns](gg269321\(v=exchg.10\).md) to the implementation of this callback.
+The context pointer given to [JetEnumerateColumns](./jetenumeratecolumns-function.md). This context pointer can be used to convey state from the caller of [JetEnumerateColumns](./jetenumeratecolumns-function.md) to the implementation of this callback.
 
 *pv*
 
@@ -50,7 +51,7 @@ The new size of the memory block in bytes. If this parameter is 0 (zero) and a m
 
 ### Return Value
 
-The system may generate success or failure codes as a result of a call to this function. For information about how to return these codes as HRESULTs, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md).
+The system may generate success or failure codes as a result of a call to this function. For information about how to return these codes as HRESULTs, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md).
 
 <table>
 <colgroup>
@@ -102,4 +103,4 @@ The system may generate success or failure codes as a result of a call to this f
 
 ### See Also
 
-[JetEnumerateColumns](gg269321\(v=exchg.10\).md)
+[JetEnumerateColumns](./jetenumeratecolumns-function.md)

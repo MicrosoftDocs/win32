@@ -1,5 +1,5 @@
 ---
-Description: Data signing does not protect the data. It only to verifies the integrity of the data.
+description: Data signing does not protect the data. It only to verifies the integrity of the data.
 ms.assetid: 8f0ace5a-c8f9-4a45-8500-041a9f22637d
 title: Signing Data with CNG
 ms.topic: article

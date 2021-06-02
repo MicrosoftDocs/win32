@@ -1,5 +1,5 @@
 ---
-Description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment. This method implements the IPin::NewSegment method.
+description: The NewSegment method notifies the pin that media samples received after this call are grouped as a segment. This method implements the IPin::NewSegment method.
 ms.assetid: 8925b8b5-13dd-4127-82d8-96525bd4d6fc
 title: CTransformInputPin.NewSegment method (Transfrm.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ This method overrides the [**CBasePin::NewSegment**](cbasepin-newsegment.md) met
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
+description: This topic lists the Inflate methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 ms.assetid: 4875dec3-e57e-4109-8c63-c3dc4db6080d
 title: Rect.Inflate methods (Gdiplustypes.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the Inflate methods of the [**Rect**](/windows/win32/api/gdiplu
 
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplustypes.h</dt> </dl> |
 

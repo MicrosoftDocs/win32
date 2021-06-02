@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ManagementController class exposes the following methods.
+description: The CIM\_ManagementController class exposes the following methods.
 ms.assetid: 641DCA8F-8EE4-4130-9CA6-7007B4FEC8D8
 ms.tgt_platform: multiple
 title: CIM_ManagementController Methods

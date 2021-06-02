@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the third parameter (P3) byte from the application protocol data unit (APDU).
+description: Retrieves the third parameter (P3) byte from the application protocol data unit (APDU).
 ms.assetid: 5fe90686-f542-42be-91ed-6600eaee3e7b
 title: ISCardCmd::get_P3 method (Scarddat.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

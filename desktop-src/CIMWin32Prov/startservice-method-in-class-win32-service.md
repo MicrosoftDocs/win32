@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the referenced service into its startup state.
+description: StartService method of the Win32_Service class (CIMWin32 WMI Providers) - Attempts to place the referenced service into its startup state.
 ms.assetid: b7a815a2-7bf6-436f-b3b4-de55eeb2de0e
 ms.tgt_platform: multiple
 title: StartService method of the Win32_Service class (CIMWin32 WMI Providers)
@@ -16,7 +16,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# StartService method of the Win32\_Service class
+# StartService method of the Win32_Service class (CIMWin32 WMI Providers)
 
 The **StartService** method attempts to place the referenced service into its startup state.
 
@@ -322,7 +322,7 @@ WScript.Echo "Dependent NetDDE service is " & objNetDDEService.State
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

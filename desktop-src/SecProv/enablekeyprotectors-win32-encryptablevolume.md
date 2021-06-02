@@ -1,5 +1,5 @@
 ---
-Description: Enables or resumes all disabled or suspended key protectors.
+description: Enables or resumes all disabled or suspended key protectors.
 ms.assetid: 6f5a17a3-84f2-43a0-a85f-1037cd52439a
 title: EnableKeyProtectors method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -101,7 +101,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

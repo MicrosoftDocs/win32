@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that holds a paragraph in a Journal document.
+description: Defines the type that holds a paragraph in a Journal document.
 ms.assetid: b01000d4-5271-48f9-9592-0cd200e48cab
 title: ParagraphType Complex Type
 ms.topic: reference
@@ -26,7 +26,7 @@ Defines the type that holds a paragraph in a Journal document.
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

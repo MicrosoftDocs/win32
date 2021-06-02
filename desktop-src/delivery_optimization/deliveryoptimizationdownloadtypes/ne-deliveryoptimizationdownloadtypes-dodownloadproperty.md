@@ -52,7 +52,7 @@ typedef enum _DODownloadProperty
 
 ## Constants
 
-| | |
+| Requirement | Value |
 |-|-|
 | DODownloadProperty_Id | Read-only. Use this property to get the ID that uniquely identifies the download. VARIANT type is VT_BSTR. |
 | DODownloadProperty_Uri | Use this property to set or get the remote URI path of the resource to download. This property is required only if *DODownloadProperty_ContentId* isn't provided. VARIANT type is VT_BSTR. |

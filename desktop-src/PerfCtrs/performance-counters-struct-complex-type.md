@@ -1,5 +1,5 @@
 ---
-Description: Defines a structure that contains one or more counter values.
+description: Defines a structure that contains one or more counter values.
 ms.assetid: 3085d490-4ac1-491c-bce0-8af46b16fab9
 title: struct Complex Type
 ms.topic: reference
@@ -49,7 +49,7 @@ Defines a structure that contains one or more counter values.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

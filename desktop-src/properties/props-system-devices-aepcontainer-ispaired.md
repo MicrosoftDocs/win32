@@ -1,5 +1,5 @@
 ---
-Description: Whether one of the child Device Association Endpoints is paired with the system or not.
+description: Whether one of the child Device Association Endpoints is paired with the system or not.
 ms.assetid: 4f2a588c-d1f1-4249-946f-ac989826db2d
 title: System.Devices.AepContainer.IsPaired
 ms.topic: article

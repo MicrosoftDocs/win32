@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the ID of the Windows Image Acquisition (WIA) hardware device. Read-only.
+description: Retrieves the ID of the Windows Image Acquisition (WIA) hardware device. Read-only.
 ms.assetid: b3719c04-42d0-44d2-834b-ac11989c56da
 title: DeviceInfo.Id property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the ID.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

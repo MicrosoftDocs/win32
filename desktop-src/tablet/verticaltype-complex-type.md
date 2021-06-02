@@ -1,5 +1,5 @@
 ---
-Description: Defines the type that contains details about the vertical lines used in a Journal note's stationery.
+description: Defines the type that contains details about the vertical lines used in a Journal note's stationery.
 ms.assetid: 8bf4cefe-5a15-46a2-abd7-ee9a7cab642e
 title: VerticalType Complex Type
 ms.topic: reference
@@ -26,7 +26,7 @@ Defines the type that contains details about the vertical lines used in a Journa
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                     |

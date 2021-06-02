@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETINFO.DeepClone method"
 title: JET_RETINFO.DeepClone method 
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETINFO.DeepClone
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a deep copy of the object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,20 +52,19 @@ public JET_RETINFO DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_RETINFO](dn335277\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_RETINFO](./jet-retinfo-class.md)  
 A deep copy of the object.  
 
 #### Implements
 
-[IDeepCloneable\<T\>.DeepClone()](hh578936\(v=exchg.10\).md)  
+[IDeepCloneable\<T\>.DeepClone()](./ideepcloneable-t-.deepclone-method.md)  
 
 ## See also
 
 #### Reference
 
-[JET_RETINFO class](dn335277\(v=exchg.10\).md)
+[JET_RETINFO class](./jet-retinfo-class.md)
 
-[JET_RETINFO members](dn351022\(v=exchg.10\).md)
+[JET_RETINFO members](./jet-retinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

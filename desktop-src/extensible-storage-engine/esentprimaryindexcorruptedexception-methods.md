@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPrimaryIndexCorruptedException methods"
 title: EsentPrimaryIndexCorruptedException methods
 TOCTitle: EsentPrimaryIndexCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentPrimaryIndexCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentPrimaryIndexCorruptedException](dn319793\(v=exchg.10\).md) type exposes the following members.
+The [EsentPrimaryIndexCorruptedException](./esentprimaryindexcorruptedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentPrimaryIndexCorruptedException class](dn319793\(v=exchg.10\).md)
+[EsentPrimaryIndexCorruptedException class](./esentprimaryindexcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetComputeStats Function"
 title: JetComputeStats Function
 TOCTitle: JetComputeStats Function
 ms:assetid: 142f6ab0-715f-493a-a762-7a83854498d2
@@ -48,7 +49,7 @@ The cursor that will be used for this call. Describes the table to compute stati
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -106,7 +107,7 @@ On failure, no updates of any kind are made to the database.
 
 #### Remarks
 
-This operation can be resource consuming since each index in a table must be walked in its entirety. [JetGetRecordPosition](gg269316\(v=exchg.10\).md) can be used to get a rough estimate of the number of entries in an index, but it cannot by itself estimate the number of distinct values in an index.
+This operation can be resource consuming since each index in a table must be walked in its entirety. [JetGetRecordPosition](./jetgetrecordposition-function.md) can be used to get a rough estimate of the number of entries in an index, but it cannot by itself estimate the number of distinct values in an index.
 
 The data computed by this operation begins to become out of date and the table is subsequently updated.
 
@@ -146,11 +147,10 @@ Updates to the database made by **JetComputeStats** are made in a lazy fashion. 
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetGetRecordPosition](gg269316\(v=exchg.10\).md)  
-[JetGetTableInfo](gg269177\(v=exchg.10\).md)  
-[JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetGetRecordPosition](./jetgetrecordposition-function.md)  
+[JetGetTableInfo](./jetgettableinfo-function.md)  
+[JetGetTableIndexInfo](./jetgettableindexinfo-function.md)  
+[JetStopService](./jetstopservice-function.md)

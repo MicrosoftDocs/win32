@@ -1,5 +1,5 @@
 ---
-Description: ID3DX10SkinInfo allows you to optimize, process, and manually set the relationship between bones and vertices in your meshes (see Skeletal Animation on Wikipedia).
+description: ID3DX10SkinInfo allows you to optimize, process, and manually set the relationship between bones and vertices in your meshes (see Skeletal Animation on Wikipedia).
 ms.assetid: bea0fe71-c201-45c6-8036-d0d76d5851fd
 title: ID3DX10SkinInfo interface (D3DX10.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ typedef struct ID3DX10SkinInfo *LPD3DX10SKININFO;
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

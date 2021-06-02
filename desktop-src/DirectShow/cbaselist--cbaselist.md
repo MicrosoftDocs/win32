@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: CBaseList.~CBaseList destructor - Destructor method.
 ms.assetid: bfc7a979-fbce-4680-a4b6-3273b9d1a9c2
 title: CBaseList.~CBaseList destructor (Wxlist.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

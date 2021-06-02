@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigForBackwardCompatibilityException constructor"
 title: EsentRecordTooBigForBackwardCompatibilityException constructor 
 TOCTitle: 'EsentRecordTooBigForBackwardCompatibilityException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordTooBigForBackwardCompatibilityException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecordTooBigForBackwardCompatibilityException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecordTooBigForBackwardCompatibilityException()
 
 #### Reference
 
-[EsentRecordTooBigForBackwardCompatibilityException class](dn350529\(v=exchg.10\).md)
+[EsentRecordTooBigForBackwardCompatibilityException class](./esentrecordtoobigforbackwardcompatibilityexception-class.md)
 
-[EsentRecordTooBigForBackwardCompatibilityException members](dn350532\(v=exchg.10\).md)
+[EsentRecordTooBigForBackwardCompatibilityException members](./esentrecordtoobigforbackwardcompatibilityexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

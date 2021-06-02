@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileMissingException methods"
 title: EsentSLVStreamingFileMissingException methods
 TOCTitle: EsentSLVStreamingFileMissingException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileMissingException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVStreamingFileMissingException](dn334870\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVStreamingFileMissingException](./esentslvstreamingfilemissingexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVStreamingFileMissingException class](dn334870\(v=exchg.10\).md)
+[EsentSLVStreamingFileMissingException class](./esentslvstreamingfilemissingexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

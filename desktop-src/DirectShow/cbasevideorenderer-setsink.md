@@ -1,5 +1,5 @@
 ---
-Description: The SetSink method sets the IQualityControl object that will receive quality messages.
+description: The SetSink method sets the IQualityControl object that will receive quality messages.
 ms.assetid: f5789781-1871-4fea-9d1f-bd1a21b70439
 title: CBaseVideoRenderer.SetSink method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the [**IQualityControl::SetSink**](/windows/desk
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

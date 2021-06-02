@@ -1,5 +1,5 @@
 ---
-Description: Raised when a media source starts without seeking.
+description: Raised when a media source starts without seeking.
 ms.assetid: a52d8ee1-cb46-487d-a744-fca6db7c2353
 title: MESourceStarted event (Mfobjects.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If the [**Start**](/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start) met
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

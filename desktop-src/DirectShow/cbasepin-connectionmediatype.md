@@ -1,5 +1,5 @@
 ---
-Description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any. This method implements the IPin::ConnectionMediaType method.
+description: The ConnectionMediaType method retrieves the media type for the current pin connection, if any. This method implements the IPin::ConnectionMediaType method.
 ms.assetid: 57d100ba-4171-4caa-ab98-66a0a327a53b
 title: CBasePin.ConnectionMediaType method (Amfilter.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ If the pin is not connected, this method zeroes the memory block specified by *p
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

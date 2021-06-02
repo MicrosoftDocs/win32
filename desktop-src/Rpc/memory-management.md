@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Memory Management
+# Memory Management (RPC)
 
 The following topics discuss how RPC programs allocate and deallocate memory for data passed between client and server programs.
 

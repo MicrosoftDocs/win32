@@ -1,5 +1,5 @@
 ---
-Description: The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter.
+description: The Receive method receives a media sample, processes it, and delivers an output sample to the downstream filter.
 ms.assetid: 036b209a-3535-4922-b7e9-dbed25b812f5
 title: CTransformFilter.Receive method (Transfrm.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If the **Transform** method returns S\_FALSE, the `Receive` method drops this sa
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

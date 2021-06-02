@@ -1,5 +1,5 @@
 ---
-Description: The slope of the top of the BoundingFrustum.
+description: The slope of the top of the BoundingFrustum.
 ms.assetid: 66aa839f-6280-4788-8e48-947e4d27ffbd
 title: BoundingFrustum.TopSlope (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                               |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXCollision.h</dt> </dl> |
 

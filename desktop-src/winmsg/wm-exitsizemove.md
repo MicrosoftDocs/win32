@@ -1,5 +1,5 @@
 ---
-Description: Sent one time to a window, after it has exited the moving or sizing modal loop.
+description: Sent one time to a window, after it has exited the moving or sizing modal loop.
 ms.assetid: 3466bfb5-c38d-49d8-a4ab-bf23d09c454c
 title: WM_EXITSIZEMOVE message (Winuser.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ An application should return zero if it processes this message.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

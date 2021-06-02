@@ -1,5 +1,5 @@
 ---
-Description: The IWbemEventConsumerProvider interface exposes the following methods.
+description: The IWbemEventConsumerProvider interface exposes the following methods.
 ms.assetid: 03E8E844-9A81-4252-9182-1B723E126F0D
 ms.tgt_platform: multiple
 title: IWbemEventConsumerProvider Methods

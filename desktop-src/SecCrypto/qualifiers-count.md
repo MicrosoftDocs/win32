@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of Qualifier objects in the collection.
+description: Retrieves the number of Qualifier objects in the collection.
 ms.assetid: 9dafb83a-ff7f-4317-8ed4-2a46dcebf409
 title: Qualifiers.Count property
 ms.topic: reference
@@ -38,7 +38,7 @@ Number of [**Qualifier**](qualifier.md) objects in the collection.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Flags indicating the method the rasterizer uses to create an image on a surface.
+description: Flags indicating the method the rasterizer uses to create an image on a surface.
 ms.assetid: 55cf790e-ebe9-4791-a2be-a90fc76bae57
 title: D3DSCANLINEORDERING enumeration (D3d9types.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ This enumeration is used as a member in [**D3DDISPLAYMODEFILTER**](d3ddisplaymod
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3d9types.h</dt> </dl> |
 

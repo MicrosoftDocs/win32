@@ -1,5 +1,5 @@
 ---
-Description: The SelectLeftButton method selects the left directional button from the displayed menu.
+description: The SelectLeftButton method selects the left directional button from the displayed menu.
 ms.assetid: cd1813a0-9eb2-4f7e-8fa4-94f3bfa92ee4
 title: SelectLeftButton Method (Segment.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ No return value.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

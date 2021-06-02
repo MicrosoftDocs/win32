@@ -1,5 +1,5 @@
 ---
-Description: Sent to cancel certain modes, such as mouse capture.
+description: Sent to cancel certain modes, such as mouse capture.
 ms.assetid: c801233a-c4d8-4fd9-aaf0-3d4503bbce26
 title: WM_CANCELMODE message (Winuser.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ When the **WM\_CANCELMODE** message is sent, the [**DefWindowProc**](/windows/de
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

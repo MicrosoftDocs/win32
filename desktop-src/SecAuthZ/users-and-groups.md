@@ -1,5 +1,5 @@
 ---
-Description: Explains the definition of users and groups in the Authorization Manager API.
+description: Explains the definition of users and groups in the Authorization Manager API.
 ms.assetid: 783be0b2-7894-4780-900d-98918f824a04
 title: Users and Groups
 ms.topic: article

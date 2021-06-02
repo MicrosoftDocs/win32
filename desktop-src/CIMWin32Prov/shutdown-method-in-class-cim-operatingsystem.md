@@ -1,5 +1,5 @@
 ---
-Description: The Shutdown method requests a shutdown of the operating system.
+description: The Shutdown method requests a shutdown of the operating system.
 ms.assetid: f2a2a98b-2f4f-4aa1-9f54-515660273c8d
 ms.tgt_platform: multiple
 title: Shutdown method of the CIM_OperatingSystem class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

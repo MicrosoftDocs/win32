@@ -1,5 +1,5 @@
 ---
-Description: The OnWaitEnd method is called when the filter is done waiting for a sample's presentation time.
+description: The OnWaitEnd method is called when the filter is done waiting for a sample's presentation time.
 ms.assetid: 47ff8f79-da69-4dcf-8cbb-02c1b56e382e
 title: CBaseRenderer.OnWaitEnd method (Renbase.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ If you are implementing quality control, you might override this method along wi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

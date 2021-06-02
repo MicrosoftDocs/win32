@@ -1,5 +1,5 @@
 ---
-Description: An audio effect is an object that takes incoming audio data, and performs some operation on the data before passing it on. You can use an effect to perform a variety of tasks, including adding reverb to an audio stream and monitoring peak volume levels.
+description: An audio effect is an object that takes incoming audio data, and performs some operation on the data before passing it on. You can use an effect to perform a variety of tasks, including adding reverb to an audio stream and monitoring peak volume levels.
 ms.assetid: 8c3fa4ca-dcff-bd23-7220-7d0aeb6c6068
 title: XAudio2 Audio Effects
 ms.topic: article

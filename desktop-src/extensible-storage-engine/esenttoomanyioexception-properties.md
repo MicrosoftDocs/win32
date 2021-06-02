@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIOException properties"
 title: EsentTooManyIOException properties
 TOCTitle: EsentTooManyIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyIOException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManyIOException](dn335003\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyIOException](./esenttoomanyioexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentTooManyIOException class](dn335003\(v=exchg.10\).md)
+[EsentTooManyIOException class](./esenttoomanyioexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

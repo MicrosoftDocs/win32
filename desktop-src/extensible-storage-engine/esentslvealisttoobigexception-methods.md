@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVEAListTooBigException methods"
 title: EsentSLVEAListTooBigException methods
 TOCTitle: EsentSLVEAListTooBigException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVEAListTooBigException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVEAListTooBigException](dn350686\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVEAListTooBigException](./esentslvealisttoobigexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVEAListTooBigException class](dn350686\(v=exchg.10\).md)
+[EsentSLVEAListTooBigException class](./esentslvealisttoobigexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

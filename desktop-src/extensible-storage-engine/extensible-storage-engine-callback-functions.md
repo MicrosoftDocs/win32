@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Callback Functions"
 title: Extensible Storage Engine Callback Functions
 TOCTitle: Extensible Storage Engine Callback Functions
 ms:assetid: ebac3637-3786-429e-96a4-9c61fdfebc59
@@ -26,13 +27,12 @@ _**Applies to:** Windows | Windows Server_
 
 The Extensible Storage Engine API can be extended with the following callback functions:
 
-  - [JET_CALLBACK](gg294098\(v=exchg.10\).md)
+  - [JET_CALLBACK](./jet-callback-callback-function.md)
 
 <!-- end list -->
 
-  - [JET_PFNREALLOC](gg269237\(v=exchg.10\).md)
+  - [JET_PFNREALLOC](./jet-pfnrealloc-callback-function.md)
 
 <!-- end list -->
 
-  - [JET_PFNSTATUS](gg269326\(v=exchg.10\).md)
-
+  - [JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: The Abort method aborts a WinHTTP Send method.
+description: The Abort method aborts a WinHTTP Send method.
 ms.assetid: 8326feef-8611-4441-b52d-74855e6acfff
 title: IWinHttpRequest::Abort method
 ms.topic: reference
@@ -50,7 +50,7 @@ You can abort both asynchronous and synchronous [**Send**](iwinhttprequest-send.
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

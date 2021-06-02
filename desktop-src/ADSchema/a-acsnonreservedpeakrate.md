@@ -22,7 +22,7 @@ The **ACS-Non-Reserved-Peak-Rate** attribute is for internal use only. Based on 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ACS-Non-Reserved-Peak-Rate           |
 | Ldap-Display-Name | aCSNonReservedPeakRate               |
@@ -48,7 +48,7 @@ The **ACS-Non-Reserved-Peak-Rate** attribute is for internal use only. Based on 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -69,7 +69,7 @@ The **ACS-Non-Reserved-Peak-Rate** attribute is for internal use only. Based on 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -90,7 +90,7 @@ The **ACS-Non-Reserved-Peak-Rate** attribute is for internal use only. Based on 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -111,7 +111,7 @@ The **ACS-Non-Reserved-Peak-Rate** attribute is for internal use only. Based on 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -132,7 +132,7 @@ The **ACS-Non-Reserved-Peak-Rate** attribute is for internal use only. Based on 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -153,7 +153,7 @@ The **ACS-Non-Reserved-Peak-Rate** attribute is for internal use only. Based on 
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

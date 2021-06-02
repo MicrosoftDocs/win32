@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_UNSUPPORTED category contains sensors that fall outside of any other defined category (including SENSOR\_CATEGORY\_OTHER).
+description: The SENSOR\_CATEGORY\_UNSUPPORTED category contains sensors that fall outside of any other defined category (including SENSOR\_CATEGORY\_OTHER).
 ms.assetid: EB80867D-4FFF-485C-837E-2FBE8ECF6CC6
 title: SENSOR_CATEGORY_UNSUPPORTED (Sensors.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ The sensor device-driver could not determine the category of type of the given s
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

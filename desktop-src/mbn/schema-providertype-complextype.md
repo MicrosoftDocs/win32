@@ -1,5 +1,5 @@
 ---
-Description: Specifies information about a cellular network.
+description: Specifies information about a cellular network.
 ms.assetid: 52d07b64-7939-4f1c-9793-be07af098053
 title: providerType Complex Type (Mobile Broadband)
 ms.topic: reference
@@ -45,7 +45,7 @@ The **providerType** complex type specifies information about a cellular network
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

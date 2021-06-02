@@ -1,5 +1,5 @@
 ---
-Description: The QUERYTABLE structure provides a list of the computers that are currently using Network Monitor to capture network data.
+description: The QUERYTABLE structure provides a list of the computers that are currently using Network Monitor to capture network data.
 ms.assetid: b701a6d5-df6d-4ee9-b008-a568a410dc14
 title: QUERYTABLE structure (Netmon.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The memory for this structure and the [STATIONQUERY](stationquery.md) array must
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

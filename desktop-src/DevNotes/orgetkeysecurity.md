@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a copy of the security descriptor protecting the specified open registry key in an offline registry hive.
+description: Retrieves a copy of the security descriptor protecting the specified open registry key in an offline registry hive.
 ms.assetid: 676d5be5-d9d8-48c6-848a-917d1a0474c6
 title: ORGetKeySecurity function (Offreg.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ If the buffer specified by the *pSecurityDescriptor* parameter is too small, the
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

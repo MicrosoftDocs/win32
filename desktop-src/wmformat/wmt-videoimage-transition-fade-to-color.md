@@ -41,7 +41,7 @@ The following table describes the parameters used by this transition and lists t
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmsdkidl.h</dt> </dl> |
 

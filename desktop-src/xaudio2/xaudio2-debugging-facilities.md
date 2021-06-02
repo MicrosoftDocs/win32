@@ -1,5 +1,5 @@
 ---
-Description: The debug version of the XAudio2 engine validates parameters, and provides detailed warning and error messages.
+description: The debug version of the XAudio2 engine validates parameters, and provides detailed warning and error messages.
 ms.assetid: a7aaebf9-98d4-e96c-993d-b0d0b7074788
 title: XAudio2 Debugging Facilities
 ms.topic: article

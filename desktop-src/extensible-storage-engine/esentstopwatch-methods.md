@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch methods"
 title: EsentStopwatch methods
 TOCTitle: EsentStopwatch methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentStopwatch
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentStopwatch](dn334867\(v=exchg.10\).md) type exposes the following members.
+The [EsentStopwatch](./esentstopwatch-class.md) type exposes the following members.
 
 ## Methods
 
@@ -86,6 +87,6 @@ Top
 
 #### Reference
 
-[EsentStopwatch class](dn334867\(v=exchg.10\).md)
+[EsentStopwatch class](./esentstopwatch-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

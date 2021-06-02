@@ -1,5 +1,5 @@
 ---
-Description: Resizes a video stream.
+description: Resizes a video stream.
 ms.assetid: 4acd6366-1abf-43f3-b6c9-4ea17a335cec
 title: Video Resizer DSP (Wmcodecdsp.h)
 ms.topic: reference
@@ -122,7 +122,7 @@ For more information, see the following topics:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

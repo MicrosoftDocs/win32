@@ -1,5 +1,5 @@
 ---
-Description: The PRINTPROCESSOR\_INFO\_1 structure specifies the name of an installed print processor.
+description: The PRINTPROCESSOR\_INFO\_1 structure specifies the name of an installed print processor.
 ms.assetid: 49b272c8-156b-4996-b3fd-92cde831f4ae
 title: PRINTPROCESSOR_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Pointer to a null-terminated string that specifies the name of an installed prin
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

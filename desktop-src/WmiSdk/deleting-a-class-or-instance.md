@@ -1,5 +1,5 @@
 ---
-Description: After you finish with a class or an instance, you may wish to delete that class or instance from WMI.
+description: After you finish with a class or an instance, you may wish to delete that class or instance from WMI.
 ms.assetid: 8d4bf548-a332-4058-92d0-d613bbeaa408
 ms.tgt_platform: multiple
 title: Deleting a Class or Instance

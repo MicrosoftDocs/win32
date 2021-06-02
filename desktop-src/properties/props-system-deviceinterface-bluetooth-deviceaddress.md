@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth device address.
+description: Bluetooth device address.
 ms.assetid: 41588629-d1cd-4274-989b-0e81cbdc1e87
 title: System.DeviceInterface.Bluetooth.DeviceAddress
 ms.topic: article

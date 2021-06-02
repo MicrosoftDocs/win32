@@ -1,5 +1,5 @@
 ---
-Description: Load a series of characters into video memory to improve the efficiency of rendering to the device.
+description: Load a series of characters into video memory to improve the efficiency of rendering to the device.
 ms.assetid: 935a6248-e6b7-4fce-aaa7-b7f0c94c1f79
 title: ID3DX10Font::PreloadCharacters method (D3DX10.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ This method internally converts characters to glyphs using the GDI function [Get
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

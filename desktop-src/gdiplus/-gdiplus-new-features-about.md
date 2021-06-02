@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe several of the new features in Windows GDI+.
+description: The following sections describe several of the new features in Windows GDI+.
 ms.assetid: 0257a23c-560e-472e-863a-6ab5881dc156
 title: New Features
 ms.topic: article

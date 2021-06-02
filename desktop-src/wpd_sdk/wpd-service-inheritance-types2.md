@@ -1,5 +1,5 @@
 ---
-Description: Specifies the inheritance relationship for a service.
+description: Specifies the inheritance relationship for a service.
 ms.assetid: e7f5314a-75e8-4f36-8e18-d614eda7a097
 title: WPD_SERVICE_INHERITANCE_TYPES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ The service inherits by implementing an abstract service definition.
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

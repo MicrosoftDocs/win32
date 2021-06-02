@@ -1,5 +1,5 @@
 ---
-Description: Describes how to use the common methods of the collection interfaces.
+description: Describes how to use the common methods of the collection interfaces.
 ms.assetid: 6ea311c0-a155-47de-ad40-62b0cbeb6e8f
 title: Working with XPS OM Collection Interfaces
 ms.topic: article

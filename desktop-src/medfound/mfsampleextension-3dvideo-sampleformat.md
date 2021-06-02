@@ -1,5 +1,5 @@
 ---
-Description: Specifies how a 3D video frame is stored in a media sample.
+description: Specifies how a 3D video frame is stored in a media sample.
 ms.assetid: 1B996B22-C76B-47E5-8937-1E5E672E32EC
 title: MFSampleExtension_3DVideo_SampleFormat attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ A component that generates 3D video frames should set this attribute to **TRUE**
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

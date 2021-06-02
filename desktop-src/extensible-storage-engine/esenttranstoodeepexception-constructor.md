@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransTooDeepException constructor"
 title: EsentTransTooDeepException constructor 
 TOCTitle: 'EsentTransTooDeepException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTransTooDeepException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTransTooDeepException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTransTooDeepException()
 
 #### Reference
 
-[EsentTransTooDeepException class](dn350808\(v=exchg.10\).md)
+[EsentTransTooDeepException class](./esenttranstoodeepexception-class.md)
 
-[EsentTransTooDeepException members](dn350814\(v=exchg.10\).md)
+[EsentTransTooDeepException members](./esenttranstoodeepexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

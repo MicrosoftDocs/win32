@@ -42,7 +42,7 @@ The XML representation of the error information.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |

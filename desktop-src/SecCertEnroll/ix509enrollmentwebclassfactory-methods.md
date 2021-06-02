@@ -1,5 +1,5 @@
 ---
-Description: The IX509EnrollmentWebClassFactory interface exposes the following methods.
+description: The IX509EnrollmentWebClassFactory interface exposes the following methods.
 ms.assetid: F32995D4-E928-4CB8-9C44-C250D232F6A8
 title: IX509EnrollmentWebClassFactory Methods
 ms.topic: reference

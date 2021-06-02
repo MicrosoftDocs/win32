@@ -1,5 +1,5 @@
 ---
-Description: This section describes the helper functions you can use to develop custom monitors.
+description: This section describes the helper functions you can use to develop custom monitors.
 ms.assetid: 2c019183-9823-4e34-bb41-cf35f2731b8f
 title: Monitor Functions
 ms.topic: article

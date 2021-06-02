@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetResizeDatabase Function"
 title: JetResizeDatabase Function
 TOCTitle: JetResizeDatabase Function
 ms:assetid: b6420de7-acff-480e-838b-f0e5acc29c65
@@ -84,7 +85,7 @@ A group of bits that specifies zero or more of the values listed in the followin
 
 ### Return value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -118,7 +119,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 If the **JetResizeDatabase** function is called prior to inserting large amounts of data, the database file will be grown in one operation. This will reduce the likelihood of the database file becoming fragmented at the file system level, and also reduce the number of times the database file has to be grown. Growing the database file once can be faster than growing it several times.
 
-To set the size of a database that is not opened, see [JetSetDatabaseSize](gg269242\(v=exchg.10\).md).
+To set the size of a database that is not opened, see [JetSetDatabaseSize](./jetsetdatabasesize-function.md).
 
 The file size might not match the number of pages that are returned in the *pcpgReal* parameter. Two additional reserved pages might not be counted in the *pcpgReal* parameter.
 
@@ -156,11 +157,10 @@ The file size might not match the number of pages that are returned in the *pcpg
 
 #### See also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET_OBJECTLIST](gg269348\(v=exchg.10\).md)  
-[JetSetDatabaseSize](gg269242\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_OBJECTINFO](./jet-objectinfo-structure.md)  
+[JET_OBJECTLIST](./jet-objectlist-structure.md)  
+[JetSetDatabaseSize](./jetsetdatabasesize-function.md)

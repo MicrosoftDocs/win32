@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CPosPassThru.CPosPassThru constructor - Constructor method.
 ms.assetid: b258401c-158b-4eb8-8736-1e1ad9a8403a
 title: CPosPassThru.CPosPassThru constructor
 ms.topic: reference

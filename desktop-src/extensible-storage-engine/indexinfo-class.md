@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IndexInfo class"
 title: IndexInfo class
 TOCTitle: IndexInfo class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IndexInfo
@@ -35,7 +36,7 @@ Information about one esent index. This is not an interop class, but is used by 
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.IndexInfo  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,6 +62,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[IndexInfo members](dn350916\(v=exchg.10\).md)
+[IndexInfo members](./indexinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

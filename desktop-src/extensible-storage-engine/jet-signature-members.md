@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE members"
 title: JET_SIGNATURE members
 TOCTitle: JET_SIGNATURE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_SIGNATURE
@@ -15,7 +16,7 @@ Include inherited members
 
 The JET_SIGNATURE structure contains information that uniquely identifies a database or logfile sequence.
 
-The [JET_SIGNATURE](hh564644\(v=exchg.10\).md) type exposes the following members.
+The [JET_SIGNATURE](./jet-signature-structure2.md) type exposes the following members.
 
 ## Methods
 
@@ -100,6 +101,6 @@ Top
 
 #### Reference
 
-[JET_SIGNATURE structure](hh564644\(v=exchg.10\).md)
+[JET_SIGNATURE structure](./jet-signature-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

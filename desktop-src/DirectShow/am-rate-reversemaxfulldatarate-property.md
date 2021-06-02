@@ -1,5 +1,5 @@
 ---
-Description: Applies to Windows Vista and later.
+description: AM_RATE_ReverseMaxFullDataRate Property - Applies to Windows Vista and later.
 ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
 title: AM_RATE_ReverseMaxFullDataRate Property (Dvdmedia.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ This property is read-only.
 
 
 
-|                   |                                  |
+| Label | Value |
 |-------------------|----------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange    |
 | Property ID       | AM\_RATE\_ReverseMaxFullDataRate |
@@ -36,7 +36,7 @@ Decoders that support smooth reverse playback should expose this property. For m
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

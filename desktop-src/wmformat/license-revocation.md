@@ -15,7 +15,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# License Revocation
+# License Revocation (Windows Media Format SDK)
 
 The Windows Media Format SDK provides methods by which an application can interact with a license issuer's Web site to revoke a content license.
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of virtual system reference points.
+description: Represents a collection of virtual system reference points.
 ms.assetid: dc293f94-a683-468f-af05-ba99824d773e
 title: Msvm_ReferencePointCollection class
 ms.topic: reference
@@ -224,7 +224,7 @@ The identifier of the [**Msvm\_VirtualSystemCollection**](msvm-virtualsystemcoll
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

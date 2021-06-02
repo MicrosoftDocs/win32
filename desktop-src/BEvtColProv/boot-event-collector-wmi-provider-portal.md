@@ -1,5 +1,5 @@
 ---
-Description: The Boot Event Collector WMI provider provides access to connection and configuration information for the Setup and Boot Event Collection feature on Windows Server.
+description: The Boot Event Collector WMI provider provides access to connection and configuration information for the Setup and Boot Event Collection feature on Windows Server.
 ms.assetid: ab9ac8f0-69a5-4a2d-8ee5-1f003aa1bb5b
 ms.tgt_platform: multiple
 title: Boot Event Collector WMI Provider

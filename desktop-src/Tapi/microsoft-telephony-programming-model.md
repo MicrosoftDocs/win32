@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Telephony programming model abstracts communications control from device control, freeing end-user applications and device manufacturers from the need to march in lockstep.
+description: The Microsoft Telephony programming model abstracts communications control from device control, freeing end-user applications and device manufacturers from the need to march in lockstep.
 ms.assetid: 07dd8447-08dc-4ae3-9a22-70e914c392db
 title: Microsoft Telephony Programming Model
 ms.topic: article

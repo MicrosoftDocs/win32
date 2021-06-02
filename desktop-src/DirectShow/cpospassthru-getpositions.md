@@ -1,5 +1,5 @@
 ---
-Description: The GetPositions method retrieves the current position and the stop position, relative to the total duration of the stream. This method implements the IMediaSeeking::GetPositions method.
+description: The GetPositions method retrieves the current position and the stop position, relative to the total duration of the stream. This method implements the IMediaSeeking::GetPositions method.
 ms.assetid: 51e45bc3-ae30-4b05-b9d9-684c1b028f51
 title: CPosPassThru.GetPositions method (Ctlutil.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

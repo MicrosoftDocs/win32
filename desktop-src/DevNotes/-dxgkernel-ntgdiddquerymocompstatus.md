@@ -1,5 +1,5 @@
 ---
-Description: Queries the status of the most recent rendering operation to the specified surface.
+description: Queries the status of the most recent rendering operation to the specified surface.
 ms.assetid: bc7f8f84-119e-4c09-87f5-6b122e9f9821
 title: NtGdiDdQueryMoCompStatus function (Ntgdi.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ For more information, see the Microsoft DirectX Video Acceleration Driver Develo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

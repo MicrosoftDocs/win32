@@ -1,5 +1,5 @@
 ---
-Description: All securable objects arrange their access rights by using the access mask format shown in the following illustration.
+description: All securable objects arrange their access rights by using the access mask format shown in the following illustration.
 ms.assetid: c7b97cd8-66b6-42dc-b75b-2c0adb87d020
 title: Access Mask Format
 ms.topic: article

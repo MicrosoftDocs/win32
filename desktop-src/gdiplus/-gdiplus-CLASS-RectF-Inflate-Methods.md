@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the Inflate methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
+description: This topic lists the Inflate methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 ms.assetid: 5f393247-0209-41b4-a97c-89e4d5d7d55d
 title: RectF.Inflate methods (Gdiplustypes.h)
 ms.date: 07/02/2019
@@ -25,7 +25,7 @@ This topic lists the Inflate methods of the [**RectF**](/windows/win32/api/gdipl
 
 
 
-|                   |                                                                                           |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Gdiplustypes.h</dt> </dl> |
 

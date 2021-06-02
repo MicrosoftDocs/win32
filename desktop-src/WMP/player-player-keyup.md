@@ -1,6 +1,6 @@
 ---
 title: Player.KeyUp event
-description: The KeyUp event occurs when a key is released.
+description: The KeyUp event occurs when a key is released. | Player.KeyUp event
 ms.assetid: 8b624374-403f-4d41-8481-5e94cee70861
 keywords:
 - KeyUp event Windows Media Player
@@ -66,7 +66,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the topology loader enables Microsoft DirectX Video Acceleration (DXVA) in the topology.
+description: Specifies whether the topology loader enables Microsoft DirectX Video Acceleration (DXVA) in the topology.
 ms.assetid: 03783ef3-f957-41e3-9734-94cb34ecc088
 title: MF_TOPOLOGY_DXVA_MODE attribute (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

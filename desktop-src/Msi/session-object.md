@@ -1,5 +1,5 @@
 ---
-Description: The Session object controls the installation process.
+description: The Session object controls the installation process.
 ms.assetid: 013959d9-900c-45f7-b742-17b0365d6107
 title: Session object (Windows Installer)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - Msi.dll
 ---
 
-# Session object
+# Session object (Windows Installer)
 
 The **Session** object controls the installation process. It opens the Installer database, which contains the installation tables and data. This object is associated with a standard set of action functions, each performing particular operations on data from one or more tables. Additional custom actions may be added for particular product installations. The basic engine function is a sequencer that fetches sequential records from a designated sequence table, evaluates any specified condition expression, and executes the designated action. Actions not recognized by the engine are deferred to the UI handler object for processing, usually dialog box sequences.
 
@@ -81,7 +81,7 @@ The **Session** object has these properties.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

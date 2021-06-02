@@ -1,5 +1,5 @@
 ---
-Description: Instance portion of DNS-SD service instance name.(e.g. &\#0034;myservice&\#0034; in &\#0034;myservice.\_http.\_tcp.local&\#0034;).
+description: Instance portion of DNS-SD service instance name.(e.g. &\#0034;myservice&\#0034; in &\#0034;myservice.\_http.\_tcp.local&\#0034;).
 ms.assetid: c051560e-1d0e-4f57-a079-ea92e0d15143
 title: System.Devices.Dnssd.InstanceName
 ms.topic: article

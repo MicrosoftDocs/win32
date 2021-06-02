@@ -1,5 +1,5 @@
 ---
-Description: The GetStopPosition method retrieves the time when playback will stop, relative to the duration of the stream. This method implements the IMediaSeeking::GetStopPosition method.
+description: The GetStopPosition method retrieves the time when playback will stop, relative to the duration of the stream. This method implements the IMediaSeeking::GetStopPosition method.
 ms.assetid: 83928f62-7acc-43b9-9537-49131ed0b0d4
 title: CSourceSeeking.GetStopPosition method (Ctlutil.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The stop time is specified by the [**CSourceSeeking::m\_rtStop**](csourceseeking
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

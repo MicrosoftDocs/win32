@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.Prefix
 ms.assetid: 2ef2a3fb-ec81-4a2d-b2de-1092b579f3da
 title: System.Contact.Prefix
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of scan profiles created for the user in the system that your application is running under.
+description: Gets the number of scan profiles created for the user in the system that your application is running under.
 ms.assetid: 0667a885-d61f-4c44-b988-a42242c2678e
 title: IScanProfileMgr::GetNumProfiles method (Scanprofilemgr.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

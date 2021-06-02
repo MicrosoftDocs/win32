@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetPrereadIndexRanges Function"
 title: JetPrereadIndexRanges Function
 TOCTitle: JetPrereadIndexRanges Function
 ms:assetid: ab49abcc-eaeb-438f-8e6d-b08bc94d7bc3
@@ -111,7 +112,7 @@ A group of bits that specifies zero or more of the preread direction values list
 
 ### Return value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -171,5 +172,4 @@ If the records with the specified key ranges are not in the buffer cache, you sh
 
 #### See also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)

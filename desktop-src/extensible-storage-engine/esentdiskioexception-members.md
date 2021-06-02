@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDiskIOException members"
 title: EsentDiskIOException members
 TOCTitle: EsentDiskIOException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDiskIOException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DiskIO exceptions.
 
-The [EsentDiskIOException](dn274289\(v=exchg.10\).md) type exposes the following members.
+The [EsentDiskIOException](./esentdiskioexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDiskIOException class](dn274289\(v=exchg.10\).md)
+[EsentDiskIOException class](./esentdiskioexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

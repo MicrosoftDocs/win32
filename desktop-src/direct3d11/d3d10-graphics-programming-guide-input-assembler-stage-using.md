@@ -65,7 +65,7 @@ The following tables show the system-generated values for the instance U.
 
 
 
-|                 |     |     |     |
+|                 | Value    | Value    | Value    |
 |-----------------|-----|-----|-----|
 | **PrimitiveID** | 0   | 1   | 2   |
 | **InstanceID**  | 0   | 0   | 0   |
@@ -89,7 +89,7 @@ The following tables show the system-generated values for the instance V.
 
 
 
-|                 |     |     |     |
+|                 |Value     | Value    |  Value   |
 |-----------------|-----|-----|-----|
 | **PrimitiveID** | 0   | 1   | 2   |
 | **InstanceID**  | 1   | 1   | 1   |

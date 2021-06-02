@@ -1,5 +1,5 @@
 ---
-Description: Identifies the component that generated a capture event.
+description: Identifies the component that generated a capture event.
 ms.assetid: DCCF3054-AF14-44C7-84C0-B03E35B5D90A
 title: MF_CAPTURE_ENGINE_EVENT_GENERATOR_GUID attribute (Mfcaptureengine.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The value is an interface identifier for the component that generated the event.
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                   |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidIndexIdException properties"
 title: EsentInvalidIndexIdException properties
 TOCTitle: EsentInvalidIndexIdException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentInvalidIndexIdException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidIndexIdException](dn319523\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidIndexIdException](./esentinvalidindexidexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentInvalidIndexIdException class](dn319523\(v=exchg.10\).md)
+[EsentInvalidIndexIdException class](./esentinvalidindexidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

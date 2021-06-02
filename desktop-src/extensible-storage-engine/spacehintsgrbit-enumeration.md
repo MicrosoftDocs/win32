@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SpaceHintsGrbit enumeration"
 title: SpaceHintsGrbit enumeration
 TOCTitle: SpaceHintsGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.SpaceHintsGrbit
@@ -48,11 +49,11 @@ ROBOTS: INDEX,FOLLOW
 
 # SpaceHintsGrbit enumeration
 
-Options for [JET_SPACEHINTS](dn351095\(v=exchg.10\).md).
+Options for [JET_SPACEHINTS](./jet-spacehints-class.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -139,4 +140,4 @@ public enum SpaceHintsGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

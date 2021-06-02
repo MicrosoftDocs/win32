@@ -1,5 +1,5 @@
 ---
-Description: The ChangeOutputFormat method dynamically changes the media type for the connection, and delivers new segment information.
+description: The ChangeOutputFormat method dynamically changes the media type for the connection, and delivers new segment information.
 ms.assetid: d1204ca0-a489-48a0-8fe5-3ade04f51c93
 title: CDynamicOutputPin.ChangeOutputFormat method (Amfilter.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ You must call the [**CDynamicOutputPin::StartUsingOutputPin**](cdynamicoutputpin
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

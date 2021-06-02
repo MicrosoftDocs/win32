@@ -1,5 +1,5 @@
 ---
-Description: The medium confidence keywords for the item.
+description: The medium confidence keywords for the item.
 ms.assetid: 8350c7c1-da61-4011-b588-444054eff850
 title: System.MediumKeywords
 ms.topic: article

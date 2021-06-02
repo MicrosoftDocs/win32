@@ -1,5 +1,5 @@
 ---
-Description: The get\_AvgTimePerFrame method retrieves the average time per frame.
+description: The get\_AvgTimePerFrame method retrieves the average time per frame.
 ms.assetid: bcfdb241-9ec1-49f4-b2b5-0869c27da953
 title: CBaseControlVideo.get_AvgTimePerFrame method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the [**IBasicVideo::get\_AvgTimePerFrame**](/win
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

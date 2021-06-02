@@ -1,5 +1,5 @@
 ---
-Description: 'Previewing a Project: Example Code'
+description: 'Previewing a Project: Example Code'
 ms.assetid: 8a4af82a-5611-4c53-8de8-04eaefd51df9
 title: 'Previewing a Project: Example Code'
 ms.topic: article

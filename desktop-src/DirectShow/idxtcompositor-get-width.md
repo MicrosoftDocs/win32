@@ -1,5 +1,5 @@
 ---
-Description: The get\_Width method retrieves the width of the target rectangle.
+description: The get\_Width method retrieves the width of the target rectangle.
 ms.assetid: 023c976e-279e-489c-ada5-ae33144c6358
 title: IDxtCompositor::get_Width method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

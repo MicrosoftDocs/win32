@@ -1,5 +1,5 @@
 ---
-Description: The WDM class provider defines the WMIBinaryMofResource class in the \\root\\wmi namespace to support the task of keeping track of the status of data in the WMI repository.
+description: The WDM class provider defines the WMIBinaryMofResource class in the \\root\\wmi namespace to support the task of keeping track of the status of data in the WMI repository.
 ms.assetid: 57416a36-5b3a-4d04-808c-09adc597c47a
 title: WMIBinaryMofResource class
 ms.topic: reference
@@ -118,7 +118,7 @@ Whenever WMI initializes the provider, the provider compares the timestamp with 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                     |

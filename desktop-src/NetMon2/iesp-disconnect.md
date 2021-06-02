@@ -1,5 +1,5 @@
 ---
-Description: The Disconnect method disconnects the NPP from the network.
+description: IESP::Disconnect method - The Disconnect method disconnects the NPP from the network.
 ms.assetid: 962e033d-a51c-47a2-83dc-cee1e7150ab8
 title: IESP::Disconnect method (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ This method cannot be called when the NPP is capturing data. You must call the *
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

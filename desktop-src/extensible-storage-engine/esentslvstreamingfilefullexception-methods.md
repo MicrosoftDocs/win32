@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileFullException methods"
 title: EsentSLVStreamingFileFullException methods
 TOCTitle: EsentSLVStreamingFileFullException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileFullException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVStreamingFileFullException](dn350758\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVStreamingFileFullException](./esentslvstreamingfilefullexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVStreamingFileFullException class](dn350758\(v=exchg.10\).md)
+[EsentSLVStreamingFileFullException class](./esentslvstreamingfilefullexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

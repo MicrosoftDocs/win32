@@ -1,5 +1,5 @@
 ---
-Description: The CompleteConnect method completes a connection to another pin.
+description: CTransformInputPin.CompleteConnect method - The CompleteConnect method completes a connection to another pin.
 ms.assetid: 568cee55-b9ea-4fc2-ac9d-0080b7de9790
 title: CTransformInputPin.CompleteConnect method (Transfrm.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method overrides the [**CBasePin::CompleteConnect**](cbasepin-completeconne
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

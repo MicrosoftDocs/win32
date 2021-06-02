@@ -1,5 +1,5 @@
 ---
-Description: The Pause method pauses the filter. This method implements the IMediaFilter::Pause method.
+description: CTransformFilter.Pause method - The Pause method pauses the filter. This method implements the IMediaFilter::Pause method.
 ms.assetid: 3e3afd14-1c92-4f2b-a367-e10caaeb3b63
 title: CTransformFilter.Pause method (Transfrm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method calls the [**StartStreaming**](ctransformfilter-startstreaming.md) m
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

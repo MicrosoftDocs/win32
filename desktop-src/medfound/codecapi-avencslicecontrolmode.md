@@ -1,5 +1,5 @@
 ---
-Description: Specifies the slice control mode. Valid values are 0, 1, and 2.
+description: Specifies the slice control mode. Valid values are 0, 1, and 2.
 ms.assetid: 5269DB79-639C-4F67-B885-BF1274CDB635
 title: CODECAPI_AVEncSliceControlMode property (Codecapi.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ if (pCodecAPI->IsSupported(&CODECAPI_AVEncSliceControlMode) == S_OK) {
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |

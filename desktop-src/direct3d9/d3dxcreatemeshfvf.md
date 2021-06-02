@@ -1,5 +1,5 @@
 ---
-Description: Creates a mesh object using a flexible vertex format (FVF) code.
+description: Creates a mesh object using a flexible vertex format (FVF) code.
 ms.assetid: 4681f181-8a16-42d4-bbfa-bdee5ed69fd3
 title: D3DXCreateMeshFVF function (D3DX9Mesh.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

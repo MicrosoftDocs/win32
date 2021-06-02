@@ -1,5 +1,5 @@
 ---
-Description: Render states define set-up states for all kinds of vertex and pixel processing.
+description: Render states define set-up states for all kinds of vertex and pixel processing.
 ms.assetid: 2fd56388-f3bd-409f-876c-ae893840b623
 title: D3DRENDERSTATETYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -1007,7 +1007,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-| Render States        |                    |
+| Render states        |   Texture sampler                 |
 |----------------------|--------------------|
 | ps\_1\_1 to ps\_1\_3 | 4 texture samplers |
 
@@ -1036,7 +1036,7 @@ D3DWRAPCOORD_0 | D3DWRAPCOORD_1);
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

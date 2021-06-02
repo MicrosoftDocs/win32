@@ -1,5 +1,5 @@
 ---
-Description: The CRefTime class is a helper class for managing reference times.
+description: The CRefTime class is a helper class for managing reference times.
 ms.assetid: 4be0fc23-77fb-4c45-a899-c1dfc6ee89b9
 title: CRefTime class (Reftime.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ rt = rt + val; // CRefTime, rt.m_time is 20.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Reftime.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

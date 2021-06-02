@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME.Equals method"
 title: JET_LOGTIME.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_LOGTIME.Equals
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](./jet-logtime-structure2.md)
 
-[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](./jet-logtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

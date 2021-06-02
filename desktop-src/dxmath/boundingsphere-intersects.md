@@ -1,5 +1,5 @@
 ---
-Description: Tests the BoundingSphere for intersection with an object.
+description: Tests the BoundingSphere for intersection with an object.
 ms.assetid: 0326c5b4-c8c9-409d-b694-3203252a52a8
 title: BoundingSphere.Intersects methods
 ms.topic: reference

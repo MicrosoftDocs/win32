@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_DeviceInterface\_FriendlyName property.
+description: The PKEY\_DeviceInterface\_FriendlyName property.
 ms.assetid: beef2153-489f-4ff5-a161-b4e2cd4ac1fa
 title: PKEY_DeviceInterface_FriendlyName (Functiondiscoverykeys\_devpkey.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ The **pwszVal** member of the **PROPVARIANT** structure points to a null-termina
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                        |

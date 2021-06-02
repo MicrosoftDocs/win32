@@ -1,5 +1,5 @@
 ---
-Description: Contains various connectivity settings.
+description: Contains various connectivity settings.
 ms.assetid: 2938f607-47a1-49eb-bf3f-247cab8637ec
 title: connectivity (MSM) Element
 ms.topic: reference
@@ -78,7 +78,7 @@ To view sample profiles that use the **connectivity** element, see [Wireless Pro
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

@@ -1,6 +1,6 @@
 ---
 title: Tree View Macros
-description: .
+description: Tree View Macros
 ms.assetid: ee569a0e-21f3-4d46-ac7d-e152f8b35391
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Represents the private key associated with a certificate.
+description: Represents the private key associated with a certificate.
 ms.assetid: '26ad1d1c-17c5-4191-ac97-b911e62b4119'
 title: PrivateKey object
 ms.topic: reference
@@ -83,7 +83,7 @@ The **PrivateKey** object can be created, and it is safe for scripting. The Prog
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Time stamps the specified subject and optionally returns a pointer to a SIGNER\_CONTEXT structure that contains a pointer to a BLOB.
+description: Time stamps the specified subject and optionally returns a pointer to a SIGNER\_CONTEXT structure that contains a pointer to a BLOB.
 ms.assetid: f3a910f6-64f8-4cf5-b008-2a16872f9a98
 title: SignerTimeStampEx function
 ms.topic: reference
@@ -100,7 +100,7 @@ If the function fails, it returns an **HRESULT** value that indicates the error.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

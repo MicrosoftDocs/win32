@@ -1,5 +1,5 @@
 ---
-Description: Creates a font object indirectly for both a device and a font.
+description: Creates a font object indirectly for both a device and a font.
 ms.assetid: 480f3012-8495-47ca-a649-11ce53cee06c
 title: D3DXCreateFontIndirect function (D3dx9core.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The compiler setting also determines the function version. If Unicode is defined
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

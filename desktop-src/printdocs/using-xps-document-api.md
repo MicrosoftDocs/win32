@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to use the XPS Document API to perform programming tasks.
+description: This section describes how to use the XPS Document API to perform programming tasks.
 ms.assetid: 05b3d7b6-7628-4a5f-87b7-9d51ead51c79
 title: Using XPS Document API
 ms.topic: article
@@ -69,7 +69,7 @@ The [Advanced XPS Document Programming Tasks](advanced-xps-document-tasks.md) in
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

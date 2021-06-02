@@ -1,5 +1,5 @@
 ---
-Description: Why does a decoder not accept the input format that I set?
+description: Why does a decoder not accept the input format that I set?
 ms.assetid: 19aa5677-bc3f-41d7-ad64-7c75021d907b
 title: Why does a decoder not accept the input format that I set?
 ms.topic: article

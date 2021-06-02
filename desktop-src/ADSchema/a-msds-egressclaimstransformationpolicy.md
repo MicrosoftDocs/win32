@@ -22,7 +22,7 @@ This is a link to a Claims Transformation Policy Object for the egress claims (c
 
 
 
-|                   |                                           |
+| Entry | Value |
 |-------------------|-------------------------------------------|
 | CN                | ms-DS-Egress-Claims-Transformation-Policy |
 | Ldap-Display-Name | msDS-EgressClaimsTransformationPolicy     |
@@ -43,7 +43,7 @@ This is a link to a Claims Transformation Policy Object for the egress claims (c
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | 2192                                                 |
 | MAPI-Id                | \-                                                   |

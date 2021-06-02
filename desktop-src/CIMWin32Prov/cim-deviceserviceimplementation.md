@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DeviceServiceImplementation class represents an association between a service and how it is implemented.
+description: The CIM\_DeviceServiceImplementation class represents an association between a service and how it is implemented.
 ms.assetid: 5e2e3975-8338-4bf4-8c73-5be4b93fa2c8
 ms.tgt_platform: multiple
 title: CIM_DeviceServiceImplementation class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

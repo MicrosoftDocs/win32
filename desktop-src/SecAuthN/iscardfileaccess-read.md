@@ -1,5 +1,5 @@
 ---
-Description: The Read method reads and returns the specified data from a given file.
+description: The Read method reads and returns the specified data from a given file.
 ms.assetid: 697b8dfa-754b-46cf-ab5c-1ac1d8ae47f2
 title: ISCardFileAccess::Read method
 ms.topic: reference
@@ -96,7 +96,7 @@ In addition to the COM error codes listed above, this interface may return a [*s
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

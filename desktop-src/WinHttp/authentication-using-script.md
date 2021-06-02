@@ -1,5 +1,5 @@
 ---
-Description: This section demonstrates how to write script that uses the WinHttpRequest object to access data from a server that requires HTTP authentication.
+description: This section demonstrates how to write script that uses the WinHttpRequest object to access data from a server that requires HTTP authentication.
 ms.assetid: 9e46777c-4d79-4f9b-9b31-1280ed1e3289
 title: Authentication Using Script
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set a texture.
+description: A callback function that must be implemented by a user to set a texture.
 ms.assetid: 971802f4-ea7a-4906-83b8-0cd83111716e
 title: ID3DXEffectStateManager::SetTexture method (D3DX9Effect.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

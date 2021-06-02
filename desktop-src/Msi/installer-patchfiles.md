@@ -1,5 +1,5 @@
 ---
-Description: The PatchFiles property returns a StringList object that contains a list of files that can be updated by the provided list of patches.
+description: The PatchFiles property returns a StringList object that contains a list of files that can be updated by the provided list of patches.
 ms.assetid: 14549847-8558-4a9a-9ad5-3575c3f4391e
 title: Installer.PatchFiles property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = Installer.PatchFiles
 
 
 
-|                    |                                                                                                                                                                                                                                                              |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 4.5 on Windows Server 2003 and Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |

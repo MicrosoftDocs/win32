@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the InkRecognizerContext Class has generated results after calling the BackgroundRecognizeWithAlternates Method method.
+description: Occurs when the InkRecognizerContext Class has generated results after calling the BackgroundRecognizeWithAlternates Method method.
 ms.assetid: 5e86a4d5-c0a7-4283-81cc-ec3a26f74880
 title: InkRecognizerContext.RecognitionWithAlternates event (Msinkaut.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

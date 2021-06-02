@@ -1,5 +1,5 @@
 ---
-Description: Applications designed for use by mobile users require a unique set of connectivity functions and notifications, and in the past individual applications were required to implement these features internally.
+description: Applications designed for use by mobile users require a unique set of connectivity functions and notifications, and in the past individual applications were required to implement these features internally.
 ms.assetid: f313588f-6257-4a0d-b95a-aabc0bc64b53
 title: About System Event Notification Service
 ms.topic: article

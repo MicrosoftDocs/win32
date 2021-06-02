@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyTruncatedException properties"
 title: EsentKeyTruncatedException properties
 TOCTitle: EsentKeyTruncatedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyTruncatedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentKeyTruncatedException](dn334565\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyTruncatedException](./esentkeytruncatedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentKeyTruncatedException class](dn334565\(v=exchg.10\).md)
+[EsentKeyTruncatedException class](./esentkeytruncatedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPathException properties"
 title: EsentDatabaseInvalidPathException properties
 TOCTitle: EsentDatabaseInvalidPathException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPathException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseInvalidPathException](dn334460\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInvalidPathException](./esentdatabaseinvalidpathexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInvalidPathException class](dn334460\(v=exchg.10\).md)
+[EsentDatabaseInvalidPathException class](./esentdatabaseinvalidpathexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

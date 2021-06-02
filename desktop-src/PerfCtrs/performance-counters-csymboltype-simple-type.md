@@ -1,5 +1,5 @@
 ---
-Description: Defines a valid C/C++ symbol name.
+description: CSymbolType Simple Type (Performance Counters) - Defines a valid C/C++ symbol name.
 ms.assetid: 75f74a16-0be4-466b-a88d-247c8c94f4ce
 title: CSymbolType Simple Type (Performance Counters)
 ms.topic: reference
@@ -11,7 +11,7 @@ api_type:
 api_location: 
 ---
 
-# CSymbolType Simple Type
+# CSymbolType Simple Type (Performance Counters)
 
 Defines a valid C/C++ symbol name.
 
@@ -39,7 +39,7 @@ The **CSymbolType** simple type is a **xs:string** that is restricted by the fol
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

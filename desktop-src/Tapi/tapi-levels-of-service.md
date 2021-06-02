@@ -1,5 +1,5 @@
 ---
-Description: TAPI telephony services are divided into Assisted Telephony services and the services provided by the full Telephony API.
+description: TAPI telephony services are divided into Assisted Telephony services and the services provided by the full Telephony API.
 ms.assetid: f4aa8000-e3fb-4d62-b463-650aae6926fe
 title: TAPI Levels of Service
 ms.topic: article

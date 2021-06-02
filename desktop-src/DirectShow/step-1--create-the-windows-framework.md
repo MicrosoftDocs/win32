@@ -1,5 +1,5 @@
 ---
-Description: 'Step 1: Create the Windows Framework'
+description: 'Step 1: Create the Windows Framework'
 ms.assetid: 678c6261-cbd0-4865-a1dd-03de55eca996
 title: 'Step 1: Create the Windows Framework'
 ms.topic: article

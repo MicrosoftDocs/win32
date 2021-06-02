@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.MaxTransactionSize property"
 title: InstanceParameters.MaxTransactionSize property 
 TOCTitle: 'MaxTransactionSize property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxTransactionSize
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # InstanceParameters.MaxTransactionSize property
 
-Gets or sets the percentage of version store that can be used by oldest transaction before [VersionStoreOutOfMemory](hh564840\(v=exchg.10\).md) (default = 100).
+Gets or sets the percentage of version store that can be used by oldest transaction before [VersionStoreOutOfMemory](./jet-err-enumeration.md) (default = 100).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the mouse pointer enters the InkPicture control.
+description: Occurs when the mouse pointer enters the InkPicture control.
 ms.assetid: cb31bf2f-e889-4da3-b408-e5612e2af95b
 title: InkPicture.MouseEnter event (Msinkaut.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ This event method is defined in the **\_IInkPictureEvents** interface. The **\_I
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

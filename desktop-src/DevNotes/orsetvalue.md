@@ -1,5 +1,5 @@
 ---
-Description: Sets the data for the value of a specified registry key in an offline registry hive.
+description: Sets the data for the value of a specified registry key in an offline registry hive.
 ms.assetid: 62fd3a3a-6ce3-4313-b0e7-37ceea0ce302
 title: ORSetValue function (Offreg.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ DWORD ORSetValue(
   _In_     ORHKEY Handle,
   _In_opt_ PCWSTR lpValueName,
   _In_     DWORD  dwType,
-  _In_opt_ BYTE   lpData,
+  _In_opt_ const BYTE *lpData,
   _In_     DWORD  cbData
 );
 ```
@@ -95,7 +95,7 @@ Value sizes are limited by available memory. Long values (more than 2048 bytes) 
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

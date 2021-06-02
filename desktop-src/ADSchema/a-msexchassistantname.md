@@ -22,7 +22,7 @@ Contains the name of the assistant for an account.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-Exch-Assistant-Name                      |
 | Ldap-Display-Name | msExchAssistantName                         |
@@ -47,7 +47,7 @@ Contains the name of the assistant for an account.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
@@ -68,7 +68,7 @@ Contains the name of the assistant for an account.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
@@ -89,7 +89,7 @@ Contains the name of the assistant for an account.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
@@ -110,7 +110,7 @@ Contains the name of the assistant for an account.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x896                                                |
@@ -131,7 +131,7 @@ Contains the name of the assistant for an account.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | 0x896                                                |

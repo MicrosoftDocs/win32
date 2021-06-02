@@ -1,5 +1,5 @@
 ---
-Description: Mapper Sample
+description: Mapper Sample
 ms.assetid: f795993f-43d7-4b29-905c-12ec3d43a059
 title: Mapper Sample
 ms.topic: article

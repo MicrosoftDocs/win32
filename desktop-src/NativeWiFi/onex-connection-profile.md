@@ -1,5 +1,5 @@
 ---
-Description: Contains information on the 802.1X connection profile currently used for 802.1X authentication.
+description: Contains information on the 802.1X connection profile currently used for 802.1X authentication.
 ms.assetid: ec494c74-bc79-445a-8889-a6f441e95ac5
 title: ONEX_CONNECTION_PROFILE structure
 ms.topic: reference
@@ -284,7 +284,7 @@ The **ONEX\_CONNECTION\_PROFILE** structure is not defined in a public header fi
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

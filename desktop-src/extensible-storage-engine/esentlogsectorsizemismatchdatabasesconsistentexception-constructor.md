@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchDatabasesConsistentException constructor"
 title: EsentLogSectorSizeMismatchDatabasesConsistentException constructor 
 TOCTitle: 'EsentLogSectorSizeMismatchDatabasesConsistentException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchDatabasesConsistentException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogSectorSizeMismatchDatabasesConsistentException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentLogSectorSizeMismatchDatabasesConsistentException()
 
 #### Reference
 
-[EsentLogSectorSizeMismatchDatabasesConsistentException class](dn334645\(v=exchg.10\).md)
+[EsentLogSectorSizeMismatchDatabasesConsistentException class](./esentlogsectorsizemismatchdatabasesconsistentexception-class.md)
 
-[EsentLogSectorSizeMismatchDatabasesConsistentException members](dn334647\(v=exchg.10\).md)
+[EsentLogSectorSizeMismatchDatabasesConsistentException members](./esentlogsectorsizemismatchdatabasesconsistentexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Occurs before the InkPicture control redraws itself.
+description: Occurs before the InkPicture control redraws itself.
 ms.assetid: 97d017ce-fdab-49e5-9ea6-0bcc5d7b14fb
 title: InkPicture.Painting event (Msinkaut.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

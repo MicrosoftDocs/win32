@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException members"
 title: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException members
 TOCTitle: EsentVersionStoreOutOfMemoryAndCleanupTimedOutException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryAndCleanupTimedOutException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.VersionStoreOutOfMemoryAndCleanupTimedOut exceptions.
 
-The [EsentVersionStoreOutOfMemoryAndCleanupTimedOutException](dn350869\(v=exchg.10\).md) type exposes the following members.
+The [EsentVersionStoreOutOfMemoryAndCleanupTimedOutException](./esentversionstoreoutofmemoryandcleanuptimedoutexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentVersionStoreOutOfMemoryAndCleanupTimedOutException class](dn350869\(v=exchg.10\).md)
+[EsentVersionStoreOutOfMemoryAndCleanupTimedOutException class](./esentversionstoreoutofmemoryandcleanuptimedoutexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

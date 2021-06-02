@@ -1,5 +1,5 @@
 ---
-Description: Controlling Filter Graphs Using C
+description: Controlling Filter Graphs Using C
 ms.assetid: 56e41f0a-2ea6-422c-8d3f-7849e91e3731
 title: Controlling Filter Graphs Using C
 ms.topic: article

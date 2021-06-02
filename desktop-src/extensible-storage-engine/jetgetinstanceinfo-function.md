@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetInstanceInfo Function"
 title: JetGetInstanceInfo Function
 TOCTitle: JetGetInstanceInfo Function
 ms:assetid: ffccdac0-3631-4753-876a-90ddfdd0252f
@@ -52,7 +53,7 @@ A pointer to a buffer which will receive the address of the first element of an 
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -87,7 +88,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-The database engine will allocate an array of [JET_INSTANCE_INFO](gg269331\(v=exchg.10\).md) structures. The caller is responsible for freeing this memory with [JetFreeBuffer](gg294134\(v=exchg.10\).md).
+The database engine will allocate an array of [JET_INSTANCE_INFO](./jet-instance-info-structure.md) structures. The caller is responsible for freeing this memory with [JetFreeBuffer](./jetfreebuffer-function.md).
 
 If there are no active instances, **JetGetInstanceInfo** will return JET_errSuccess, and *pcInstanceInfo* will receive a value of 0.
 
@@ -129,8 +130,7 @@ If there are no active instances, **JetGetInstanceInfo** will return JET_errSucc
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET_INSTANCE_INFO](gg269331\(v=exchg.10\).md)  
-[JetFreeBuffer](gg294134\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JET_INSTANCE_INFO](./jet-instance-info-structure.md)  
+[JetFreeBuffer](./jetfreebuffer-function.md)

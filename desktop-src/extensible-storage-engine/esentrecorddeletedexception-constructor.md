@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordDeletedException constructor"
 title: EsentRecordDeletedException constructor 
 TOCTitle: 'EsentRecordDeletedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordDeletedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecordDeletedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecordDeletedException()
 
 #### Reference
 
-[EsentRecordDeletedException class](dn319818\(v=exchg.10\).md)
+[EsentRecordDeletedException class](./esentrecorddeletedexception-class.md)
 
-[EsentRecordDeletedException members](dn319829\(v=exchg.10\).md)
+[EsentRecordDeletedException members](./esentrecorddeletedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

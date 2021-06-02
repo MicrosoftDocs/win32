@@ -1,5 +1,5 @@
 ---
-Description: Contains information about how to construct a certificate trust chain.
+description: Contains information about how to construct a certificate trust chain.
 ms.assetid: 120cd79e-7c9b-45f3-8596-091b674e73d8
 title: CertificateStatus object
 ms.topic: reference
@@ -72,7 +72,7 @@ The **CertificateStatus** object is returned by the [**Certificate.IsValid**](ce
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the encipherOnly bit is set.
+description: Retrieves a Boolean value that indicates whether the encipherOnly bit is set.
 ms.assetid: 60d79ea4-4968-49e0-8d16-873fbcbd951c
 title: KeyUsage.IsEncipherOnlyEnabled property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the encipherOnly bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

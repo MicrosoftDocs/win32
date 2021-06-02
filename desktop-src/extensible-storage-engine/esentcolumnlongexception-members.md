@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnLongException members"
 title: EsentColumnLongException members
 TOCTitle: EsentColumnLongException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnLongException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ColumnLong exceptions.
 
-The [EsentColumnLongException](dn334271\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnLongException](./esentcolumnlongexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentColumnLongException class](dn334271\(v=exchg.10\).md)
+[EsentColumnLongException class](./esentcolumnlongexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

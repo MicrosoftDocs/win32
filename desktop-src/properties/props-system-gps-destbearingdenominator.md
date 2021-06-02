@@ -1,5 +1,5 @@
 ---
-Description: The denominator of PKEY\_GPS\_DestBearing.
+description: The denominator of PKEY\_GPS\_DestBearing.
 ms.assetid: 12b504c0-3320-4653-885f-164bbc1df370
 title: System.GPS.DestBearingDenominator
 ms.topic: article

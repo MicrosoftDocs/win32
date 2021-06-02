@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogSequenceException constructor"
 title: EsentInvalidLogSequenceException constructor 
 TOCTitle: 'EsentInvalidLogSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLogSequenceException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidLogSequenceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidLogSequenceException()
 
 #### Reference
 
-[EsentInvalidLogSequenceException class](dn319554\(v=exchg.10\).md)
+[EsentInvalidLogSequenceException class](./esentinvalidlogsequenceexception-class.md)
 
-[EsentInvalidLogSequenceException members](dn319557\(v=exchg.10\).md)
+[EsentInvalidLogSequenceException members](./esentinvalidlogsequenceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

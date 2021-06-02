@@ -1,5 +1,5 @@
 ---
-Description: The Disconnect method breaks the connection with the output pin.
+description: The Disconnect method breaks the connection with the output pin.
 ms.assetid: 6e362e32-7b74-4392-b46f-1ab47a30a07b
 title: CPullPin.Disconnect method (Pullpin.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method breaks any connection made in the [**CPullPin::Connect**](cpullpin-c
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h</dt> </dl>                                                                                                       |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

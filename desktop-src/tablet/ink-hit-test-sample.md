@@ -1,5 +1,5 @@
 ---
-Description: This sample illustrates two methods to find ink, given a screen location.
+description: This sample illustrates two methods to find ink, given a screen location.
 ms.assetid: fc581da4-0a7b-4c31-8f73-0784066fcc56
 title: Ink Hit Test Sample
 ms.topic: article

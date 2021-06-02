@@ -22,7 +22,7 @@ The Relative Distinguished Name (RDN) of an object. An RDN is the relative porti
 
 
 
-|                   |                                                |
+| Entry | Value |
 |-------------------|------------------------------------------------|
 | CN                | RDN                                            |
 | Ldap-Display-Name | name                                           |
@@ -49,7 +49,7 @@ The Relative Distinguished Name (RDN) of an object. An RDN is the relative porti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8202                          |
@@ -70,7 +70,7 @@ The Relative Distinguished Name (RDN) of an object. An RDN is the relative porti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8202                          |
@@ -91,7 +91,7 @@ The Relative Distinguished Name (RDN) of an object. An RDN is the relative porti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8202                          |
@@ -112,7 +112,7 @@ The Relative Distinguished Name (RDN) of an object. An RDN is the relative porti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8202                          |
@@ -133,7 +133,7 @@ The Relative Distinguished Name (RDN) of an object. An RDN is the relative porti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8202                          |
@@ -154,7 +154,7 @@ The Relative Distinguished Name (RDN) of an object. An RDN is the relative porti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8202                          |
@@ -175,7 +175,7 @@ The Relative Distinguished Name (RDN) of an object. An RDN is the relative porti
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8202                          |

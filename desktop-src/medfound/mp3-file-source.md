@@ -1,5 +1,5 @@
 ---
-Description: The MP3 file source parses MP3 files.
+description: The MP3 file source parses MP3 files.
 ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: MP3 File Source
 ms.topic: reference
@@ -100,7 +100,7 @@ See <a href="shell-metadata-providers.md">Shell Metadata Providers</a>.
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                           |

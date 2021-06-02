@@ -1,5 +1,5 @@
 ---
-Description: Returns the template that is associated with the certificate.
+description: Returns the template that is associated with the certificate.
 ms.assetid: 84fbf984-b932-4794-a939-de01e529d891
 title: ICertificate2::Template method
 ms.topic: reference
@@ -39,7 +39,7 @@ This method has no parameters.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

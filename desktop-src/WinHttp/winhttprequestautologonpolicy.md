@@ -1,5 +1,5 @@
 ---
-Description: Includes possible settings for the Automatic Logon Policy.
+description: Includes possible settings for the Automatic Logon Policy.
 ms.assetid: dad4f6a7-8e84-4f4f-b962-4189e3dc01f7
 title: WinHttpRequestAutoLogonPolicy enumeration
 ms.topic: reference
@@ -70,7 +70,7 @@ To set the automatic logon policy, call the [**SetAutoLogonPolicy**](iwinhttpreq
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>            |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>         |

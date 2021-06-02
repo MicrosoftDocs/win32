@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS Structure"
 title: JET_SPACEHINTS Structure
 TOCTitle: JET_SPACEHINTS Structure
 ms:assetid: 23328993-93c9-4a23-892b-e6a9f434d1d6
@@ -159,6 +160,5 @@ The maximum value for growth in bytes. This caps ulGrowth.
 
 ### See Also
 
-[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JET_TABLECREATE3](gg269264\(v=exchg.10\).md)
-
+[JET_TABLECREATE2](./jet-tablecreate2-structure.md)  
+[JET_TABLECREATE3](./jet-tablecreate3-structure.md)

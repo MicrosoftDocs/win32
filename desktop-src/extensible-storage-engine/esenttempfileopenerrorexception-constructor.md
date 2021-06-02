@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempFileOpenErrorException constructor"
 title: EsentTempFileOpenErrorException constructor 
 TOCTitle: 'EsentTempFileOpenErrorException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTempFileOpenErrorException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTempFileOpenErrorException()
 
 #### Reference
 
-[EsentTempFileOpenErrorException class](dn334964\(v=exchg.10\).md)
+[EsentTempFileOpenErrorException class](./esenttempfileopenerrorexception-class.md)
 
-[EsentTempFileOpenErrorException members](dn334971\(v=exchg.10\).md)
+[EsentTempFileOpenErrorException members](./esenttempfileopenerrorexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

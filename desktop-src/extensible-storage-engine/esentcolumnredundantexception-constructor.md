@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnRedundantException constructor"
 title: EsentColumnRedundantException constructor 
 TOCTitle: 'EsentColumnRedundantException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnRedundantException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentColumnRedundantException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentColumnRedundantException()
 
 #### Reference
 
-[EsentColumnRedundantException class](dn274198\(v=exchg.10\).md)
+[EsentColumnRedundantException class](./esentcolumnredundantexception-class.md)
 
-[EsentColumnRedundantException members](dn334297\(v=exchg.10\).md)
+[EsentColumnRedundantException members](./esentcolumnredundantexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

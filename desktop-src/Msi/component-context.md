@@ -1,5 +1,5 @@
 ---
-Description: The context that was determined to be applicable to the component in question.
+description: The context that was determined to be applicable to the component in question.
 ms.assetid: 3a6ee9fa-84c3-4a42-9185-849a09d56bf1
 title: Component.Context property
 ms.topic: reference
@@ -29,7 +29,7 @@ The context that was determined to be applicable to the component in question. T
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 or later.<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |

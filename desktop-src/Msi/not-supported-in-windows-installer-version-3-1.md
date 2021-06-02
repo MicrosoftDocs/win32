@@ -1,5 +1,5 @@
 ---
-Description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.1 and earlier versions.
+description: The Windows Installer functions, tables, and properties listed on this page are not supported by Windows Installer&\#160;3.1 and earlier versions.
 ms.assetid: fbf75dbe-3fa1-424b-83bb-cfd0b179107c
 title: Not Supported in Windows Installer 3.1
 ms.topic: article

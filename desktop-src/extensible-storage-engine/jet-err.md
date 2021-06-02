@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERR"
 title: JET_ERR
 TOCTitle: JET_ERR
 ms:assetid: cd9cb876-251c-458d-a015-8e9045e77fc9
@@ -24,9 +25,11 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_ERR
 
-The **JET_ERR** data type contains an [Extensible Storage Engine error code](gg269297\(v=exchg.10\).md).
+The **JET_ERR** data type contains an [Extensible Storage Engine error code](./extensible-storage-engine-error-codes.md).
 
-    typedef long JET_ERR;
+```cpp
+typedef long JET_ERR;
+```
 
 ### Data Types
 
@@ -36,7 +39,7 @@ A zero value (corresponding to JET_errSuccess) indicates that the call succeeded
 
 ### Remarks
 
-For information about returning errors as HRESULTs, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md). For information about flags for configuring the database to handle errors, see [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+For information about returning errors as HRESULTs, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md). For information about flags for configuring the database to handle errors, see [Error Handling Parameters](./error-handling-parameters.md).
 
 ### Requirements
 
@@ -64,7 +67,6 @@ For information about returning errors as HRESULTs, see [Extensible Storage Engi
 
 ### See Also
 
-[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md)  
-[Error Handling Parameters](gg269173\(v=exchg.10\).md)
-
+[Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)  
+[Extensible Storage Engine Error Codes](./extensible-storage-engine-error-codes.md)  
+[Error Handling Parameters](./error-handling-parameters.md)

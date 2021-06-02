@@ -1,5 +1,5 @@
 ---
-Description: Represents the state of the time synchronization service, which is responsible for synchronizing the system time of a virtual machine with the system time of the operating system running in the management operating system.
+description: Represents the state of the time synchronization service, which is responsible for synchronizing the system time of a virtual machine with the system time of the operating system running in the management operating system.
 ms.assetid: 551A81E9-E924-4A9C-965D-02FF25EE4A49
 title: Msvm_TimeSyncComponent class
 ms.topic: reference
@@ -857,7 +857,7 @@ Access to the **Msvm\_TimeSyncComponent** class might be restricted by UAC Filte
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

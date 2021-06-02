@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordTooBigException methods"
 title: EsentRecordTooBigException methods
 TOCTitle: EsentRecordTooBigException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordTooBigException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecordTooBigException](dn319857\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordTooBigException](./esentrecordtoobigexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentRecordTooBigException class](dn319857\(v=exchg.10\).md)
+[EsentRecordTooBigException class](./esentrecordtoobigexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

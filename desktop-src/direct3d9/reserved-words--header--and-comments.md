@@ -1,5 +1,5 @@
 ---
-Description: The table below shows which words are reserved and must not be used.
+description: The table below shows which words are reserved and must not be used.
 ms.assetid: 680211de-3f81-4ea7-b03e-741096b5dde0
 title: Reserved Words, Header, and Comments
 ms.topic: article
@@ -10,9 +10,7 @@ ms.date: 05/31/2018
 
 The table below shows which words are reserved and must not be used.
 
-
-
-|                  |          |           |
+| Reserved Words | Reserved Words | Reserved Words|
 |------------------|----------|-----------|
 | ARRAY            | DWORD    | UCHAR     |
 | BINARY           | FLOAT    | ULONGLONG |

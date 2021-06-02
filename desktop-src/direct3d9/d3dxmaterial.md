@@ -1,5 +1,5 @@
 ---
-Description: Returns material information saved in Direct3D (.x) files.
+description: Returns material information saved in Direct3D (.x) files.
 ms.assetid: dfa021ba-61d8-4f99-9bbb-0cfbe11b787d
 title: D3DXMATERIAL structure (D3dx9mesh.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ typedef struct D3DXMATERIAL* LPD3DXMATERIAL;
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

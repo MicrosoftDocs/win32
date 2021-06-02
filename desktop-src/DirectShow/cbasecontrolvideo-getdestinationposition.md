@@ -1,5 +1,5 @@
 ---
-Description: The GetDestinationPosition method retrieves the destination rectangle in one atomic operation.
+description: The GetDestinationPosition method retrieves the destination rectangle in one atomic operation.
 ms.assetid: 780cbcb5-1db5-4087-8c51-350183cfca31
 title: CBaseControlVideo.GetDestinationPosition method (Ctlutil.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ This member function can be used in place of separate calls to the [**CBaseContr
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

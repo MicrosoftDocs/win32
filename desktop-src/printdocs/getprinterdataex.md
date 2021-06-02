@@ -1,5 +1,5 @@
 ---
-Description: The GetPrinterDataEx function retrieves configuration data for the specified printer or print server.
+description: The GetPrinterDataEx function retrieves configuration data for the specified printer or print server.
 ms.assetid: 5d9183a7-97cc-46de-848e-e37ce51396eb
 title: GetPrinterDataEx function (Winspool.h)
 ms.topic: reference
@@ -206,7 +206,7 @@ In Windows 7 and later versions of Windows, print jobs that are sent to a print 
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

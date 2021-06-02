@@ -1,5 +1,5 @@
 ---
-Description: Gets version information about the currently running operating system.
+description: Gets version information about the currently running operating system.
 ms.assetid: F04F0981-A07D-4B38-9DE4-B8461EAFC19F
 title: RtlGetVersion function (Ntddk.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Because operating system features can be added in a redistributable DLL, checkin
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

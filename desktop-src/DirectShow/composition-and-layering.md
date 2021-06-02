@@ -1,5 +1,5 @@
 ---
-Description: Composition and Layering
+description: Composition and Layering
 ms.assetid: c1aefd92-b47f-4af1-8299-9ba401ad5fe8
 title: Composition and Layering
 ms.topic: article

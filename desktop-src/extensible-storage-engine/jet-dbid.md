@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID"
 title: JET_DBID
 TOCTitle: JET_DBID
 ms:assetid: 516acb79-aa75-4609-81b6-3b2e4e0c95af
@@ -40,9 +41,9 @@ A value of JET_dbidNil indicates that the handle is invalid.
 
 ### Remarks
 
-A database handle is created by means of a call to [JetCreateDatabase](gg269212\(v=exchg.10\).md) or [JetOpenDatabase](gg269299\(v=exchg.10\).md).
+A database handle is created by means of a call to [JetCreateDatabase](./jetcreatedatabase-function.md) or [JetOpenDatabase](./jetopendatabase-function.md).
 
-A database handle can be explicitly closed by [JetCloseDatabase](gg294123\(v=exchg.10\).md) or implicitly closed by [JetEndSession](gg294054\(v=exchg.10\).md) or [JetTerm](gg269298\(v=exchg.10\).md).
+A database handle can be explicitly closed by [JetCloseDatabase](./jetclosedatabase-function.md) or implicitly closed by [JetEndSession](./jetendsession-function.md) or [JetTerm](./jetterm-function.md).
 
 A database handle can be used only within the session in which it was created. The existence of a database handle corresponds to the logical open of a database. A logical open is different from the physical open of a database, which happens when a database is attached to the system.
 
@@ -72,8 +73,7 @@ A database handle can be used only within the session in which it was created. T
 
 ### See Also
 
-[JetCreateDatabase](gg269212\(v=exchg.10\).md)  
-[JetOpenDatabase](gg269299\(v=exchg.10\).md)  
-[JetCloseDatabase](gg294123\(v=exchg.10\).md)  
-[JetEndSession](gg294054\(v=exchg.10\).md)
-
+[JetCreateDatabase](./jetcreatedatabase-function.md)  
+[JetOpenDatabase](./jetopendatabase-function.md)  
+[JetCloseDatabase](./jetclosedatabase-function.md)  
+[JetEndSession](./jetendsession-function.md)

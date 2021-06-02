@@ -1,5 +1,5 @@
 ---
-Description: The Resume method restarts a paused capture.
+description: IRTC::Resume method - The Resume method restarts a paused capture.
 ms.assetid: 685dfdee-3bd0-44b3-ac4f-c9960cf77c5c
 title: IRTC::Resume method (Netmon.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ To stop the capture, call the [IRTC::Stop](irtc-stop.md) method.
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

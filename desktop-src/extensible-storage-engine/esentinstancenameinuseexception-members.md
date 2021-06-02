@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInstanceNameInUseException members"
 title: EsentInstanceNameInUseException members
 TOCTitle: EsentInstanceNameInUseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInstanceNameInUseException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InstanceNameInUse exceptions.
 
-The [EsentInstanceNameInUseException](dn319385\(v=exchg.10\).md) type exposes the following members.
+The [EsentInstanceNameInUseException](./esentinstancenameinuseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInstanceNameInUseException class](dn319385\(v=exchg.10\).md)
+[EsentInstanceNameInUseException class](./esentinstancenameinuseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

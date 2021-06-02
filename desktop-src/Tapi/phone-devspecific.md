@@ -1,5 +1,5 @@
 ---
-Description: TAPI sends the PHONE\_DEVSPECIFIC message to an application to notify the application about device-specific events occurring at the phone. The meaning of the message and the interpretation of the parameters is implementation-defined.
+description: TAPI sends the PHONE\_DEVSPECIFIC message to an application to notify the application about device-specific events occurring at the phone. The meaning of the message and the interpretation of the parameters is implementation-defined.
 ms.assetid: e3e803dd-b041-48b7-9acf-a89989370204
 title: PHONE_DEVSPECIFIC message (Tapi.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ No return value.
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

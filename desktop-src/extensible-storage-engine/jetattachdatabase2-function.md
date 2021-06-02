@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetAttachDatabase2 Function"
 title: JetAttachDatabase2 Function
 TOCTitle: JetAttachDatabase2 Function
 ms:assetid: 8667f3fc-d178-49f1-9474-f09352614f92
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetAttachDatabase2 Function
 
-The **JetAttachDatabase2** function attaches a database file for use with a database instance and specifies a maximum size for that database. In order to use the database, it will need to be subsequently opened with [JetOpenDatabase](gg269299\(v=exchg.10\).md).
+The **JetAttachDatabase2** function attaches a database file for use with a database instance and specifies a maximum size for that database. In order to use the database, it will need to be subsequently opened with [JetOpenDatabase](./jetopendatabase-function.md).
 
 ```cpp
     JET_ERR JET_API JetAttachDatabase2(
@@ -52,7 +53,7 @@ The name of the database to attach.
 
 *cpgDatabaseSizeMax*
 
-The maximum size, in database pages, for database. The default database page size is 4 kilobytes, which can be changed using the [JetSetSystemParameter](gg294044\(v=exchg.10\).md) function prior to creating a database.
+The maximum size, in database pages, for database. The default database page size is 4 kilobytes, which can be changed using the [JetSetSystemParameter](./jetsetsystemparameter-function.md) function prior to creating a database.
 
 Passing zero means that there is no maximum enforced by the database engine.
 
@@ -94,7 +95,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-The function returns one of the [JET_ERR](gg294092\(v=exchg.10\).md) error codes. The following are the most commonly returned. (For a complete list of errors for this API, see [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md).)
+The function returns one of the [JET_ERR](./jet-err.md) error codes. The following are the most commonly returned. (For a complete list of errors for this API, see [Extensible Storage Engine Error Codes](./extensible-storage-engine-error-codes.md).)
 
 <table>
 <colgroup>
@@ -158,9 +159,9 @@ The function returns one of the [JET_ERR](gg294092\(v=exchg.10\).md) error codes
 
 #### Remarks
 
-The database file is detached using [JetDetachDatabase](gg269266\(v=exchg.10\).md) or [JetDetachDatabase2](gg294105\(v=exchg.10\).md).
+The database file is detached using [JetDetachDatabase](./jetdetachdatabase-function.md) or [JetDetachDatabase2](./jetdetachdatabase2-function.md).
 
-See [JetAttachDatabase](gg294074\(v=exchg.10\).md) for remarks.
+See [JetAttachDatabase](./jetattachdatabase-function.md) for remarks.
 
 #### Requirements
 
@@ -200,13 +201,12 @@ See [JetAttachDatabase](gg294074\(v=exchg.10\).md) for remarks.
 
 #### See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetCreateDatabase](gg269212\(v=exchg.10\).md)  
-[JetOpenDatabase](gg269299\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetCreateDatabase](./jetcreatedatabase-function.md)  
+[JetOpenDatabase](./jetopendatabase-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies attributes for an Authenticode signature.
+description: Specifies attributes for an Authenticode signature.
 ms.assetid: 1c1052c3-c5c5-48ae-8266-0b367800a84a
 title: SIGNER_ATTR_AUTHCODE structure
 ms.topic: reference
@@ -81,7 +81,7 @@ The display name of the URL of the file upon download.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

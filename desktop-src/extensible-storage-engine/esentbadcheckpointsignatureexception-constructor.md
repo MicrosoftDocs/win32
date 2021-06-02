@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadCheckpointSignatureException constructor"
 title: EsentBadCheckpointSignatureException constructor 
 TOCTitle: 'EsentBadCheckpointSignatureException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadCheckpointSignatureException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentBadCheckpointSignatureException()
 
 #### Reference
 
-[EsentBadCheckpointSignatureException class](dn273995\(v=exchg.10\).md)
+[EsentBadCheckpointSignatureException class](./esentbadcheckpointsignatureexception-class.md)
 
-[EsentBadCheckpointSignatureException members](dn274049\(v=exchg.10\).md)
+[EsentBadCheckpointSignatureException members](./esentbadcheckpointsignatureexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

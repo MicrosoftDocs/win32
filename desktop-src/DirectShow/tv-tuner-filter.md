@@ -1,5 +1,5 @@
 ---
-Description: TV Tuner Filter
+description: TV Tuner Filter
 ms.assetid: a8e101dc-78ab-495f-9086-7b1d1e87c357
 title: TV Tuner Filter
 ms.topic: article
@@ -12,7 +12,7 @@ The TV Tuner filter selects an analog broadcast or cable channel to be viewed. T
 
 
 
-|                                          |                                                                                                                                                                                   |
+| Label | Value |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IAMTVTuner**](/windows/desktop/api/Strmif/nn-strmif-iamtvtuner), **ISpecifyPropertyPages**, **IPersistPropertyBag**, **IKsObject**, [**IKsPropertySet**](ikspropertyset.md) |
 | Input Pin Media Types                    | Not applicable.                                                                                                                                                                   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNLIST Structure"
 title: JET_COLUMNLIST Structure
 TOCTitle: JET_COLUMNLIST Structure
 ms:assetid: 3899676f-c96e-4f15-9089-4faea6808bc2
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_COLUMNLIST Structure
 
-The **JET_COLUMNLIST** structure contains the information necessary to traverse the temporary table that is created by the [JetGetColumnInfo](gg269215\(v=exchg.10\).md) and [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md) functions. Each row in the temporary table describes a column in the table given in the API call. This structure is used with only with [JetGetColumnInfo](gg269215\(v=exchg.10\).md) and [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md).
+The **JET_COLUMNLIST** structure contains the information necessary to traverse the temporary table that is created by the [JetGetColumnInfo](./jetgetcolumninfo-function.md) and [JetGetTableColumnInfo](./jetgettablecolumninfo-function.md) functions. Each row in the temporary table describes a column in the table given in the API call. This structure is used with only with [JetGetColumnInfo](./jetgetcolumninfo-function.md) and [JetGetTableColumnInfo](./jetgettablecolumninfo-function.md).
 
 ```cpp
     typedef struct {
@@ -66,7 +67,7 @@ The number of records in the temporary table that was created by the API call.
 
 The column identifier of the presentation order.
 
-The presentation order is used to sort the rows of the temporary table. The presentation order is a fixed [JET_coltypLong](gg269213\(v=exchg.10\).md). If the information level that was specified was not a compact level, then it is also marked as JET_bitColumnTTKey.
+The presentation order is used to sort the rows of the temporary table. The presentation order is a fixed [JET_coltypLong](./jet-coltyp.md). If the information level that was specified was not a compact level, then it is also marked as JET_bitColumnTTKey.
 
 **columnidcolumnname**
 
@@ -78,47 +79,47 @@ If the information level specified was not compact, then it is also marked as JE
 
 The column identifier of the column identifier.
 
-The column identifier is a fixed [JET_coltypLong](gg269213\(v=exchg.10\).md).
+The column identifier is a fixed [JET_coltypLong](./jet-coltyp.md).
 
 **columnidcoltyp**
 
 The column identifier of the column type.
 
-The column type is a fixed [JET_coltypLong](gg269213\(v=exchg.10\).md).
+The column type is a fixed [JET_coltypLong](./jet-coltyp.md).
 
 **columnidCountry**
 
 The column identifier of the country code.
 
-The country code is a fixed [JET_coltypShort](gg269213\(v=exchg.10\).md).
+The country code is a fixed [JET_coltypShort](./jet-coltyp.md).
 
 **columnidLangid**
 
 The column identifier of the language identifier.
 
-The language identifier is a fixed [JET_coltypShort](gg269213\(v=exchg.10\).md).
+The language identifier is a fixed [JET_coltypShort](./jet-coltyp.md).
 
 **columnidCp**
 
 The column identifier of the code page.
 
-The code page is a fixed [JET_coltypShort](gg269213\(v=exchg.10\).md).
+The code page is a fixed [JET_coltypShort](./jet-coltyp.md).
 
 **columnidCollate**
 
 The column identifier of the collation sequence.
 
-The collation sequence is a fixed [JET_coltypShort](gg269213\(v=exchg.10\).md).
+The collation sequence is a fixed [JET_coltypShort](./jet-coltyp.md).
 
 **columnidcbMax**
 
 The column identifier of the **cbMax** field.
 
-The **cbMax** is a fixed [JET_coltypLong](gg269213\(v=exchg.10\).md).
+The **cbMax** is a fixed [JET_coltypLong](./jet-coltyp.md).
 
 **columnidgrbit**
 
-The column identifier of the *grbits* of the column. The *grbit* field is a fixed [JET_coltypLong](gg269213\(v=exchg.10\).md). For more information about these bits, see [JET_COLUMNDEF](gg294130\(v=exchg.10\).md).
+The column identifier of the *grbits* of the column. The *grbit* field is a fixed [JET_coltypLong](./jet-coltyp.md). For more information about these bits, see [JET_COLUMNDEF](./jet-columndef-structure.md).
 
 The following are possible values for **columnidgrbit**:
 
@@ -148,31 +149,31 @@ JET_bitColumnUserDefinedDefault
 
 The column identifier of the default value of the column.
 
-The default value is a [JET_coltypLongBinary](gg269213\(v=exchg.10\).md).
+The default value is a [JET_coltypLongBinary](./jet-coltyp.md).
 
 **columnidBaseTableName**
 
 The column identifier of the name of the table from which the table was derived.
 
-The table name is a [JET_coltypText](gg269213\(v=exchg.10\).md).
+The table name is a [JET_coltypText](./jet-coltyp.md).
 
 **columnidBaseColumnName**
 
 The column identifier of the name of the column from which the column was derived.
 
-The column name is a [JET_coltypText](gg269213\(v=exchg.10\).md).
+The column name is a [JET_coltypText](./jet-coltyp.md).
 
 **columnidDefinitionName**
 
 The column identifier of the name of the column definition.
 
-The column definition name is a [JET_coltypText](gg269213\(v=exchg.10\).md).
+The column definition name is a [JET_coltypText](./jet-coltyp.md).
 
 ### Remarks
 
-By default, the order of the rows in the temporary table is sorted by the name of the column. It can also be sorted by column identifier. For more information about how to sort by column identifier, see [JetGetColumnInfo](gg269215\(v=exchg.10\).md) and [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md).
+By default, the order of the rows in the temporary table is sorted by the name of the column. It can also be sorted by column identifier. For more information about how to sort by column identifier, see [JetGetColumnInfo](./jetgetcolumninfo-function.md) and [JetGetTableColumnInfo](./jetgettablecolumninfo-function.md).
 
-The call to [JetGetColumnInfo](gg269215\(v=exchg.10\).md) or [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md) might specify a compact form of results. If any columns have been inherited from a template table, the compact results will not store them.
+The call to [JetGetColumnInfo](./jetgetcolumninfo-function.md) or [JetGetTableColumnInfo](./jetgettablecolumninfo-function.md) might specify a compact form of results. If any columns have been inherited from a template table, the compact results will not store them.
 
 ### Requirements
 
@@ -200,21 +201,20 @@ The call to [JetGetColumnInfo](gg269215\(v=exchg.10\).md) or [JetGetTableColumnI
 
 ### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)
+[JET_COLTYP](./jet-coltyp.md)
 
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)
+[JET_COLUMNDEF](./jet-columndef-structure.md)
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)
+[JET_COLUMNID](./jet-columnid.md)
 
-[JET_ERR](gg294092\(v=exchg.10\).md)
+[JET_ERR](./jet-err.md)
 
-[JET_GRBIT](gg294066\(v=exchg.10\).md)
+[JET_GRBIT](./jet-grbit.md)
 
-[JET_SESID](gg269253\(v=exchg.10\).md)
+[JET_SESID](./jet-sesid.md)
 
-[JET_TABLEID](gg269182\(v=exchg.10\).md)
+[JET_TABLEID](./jet-tableid.md)
 
-[JetGetColumnInfo](gg269215\(v=exchg.10\).md)
+[JetGetColumnInfo](./jetgetcolumninfo-function.md)
 
-[JetGetTableColumnInfo](gg294061\(v=exchg.10\).md)
-
+[JetGetTableColumnInfo](./jetgettablecolumninfo-function.md)

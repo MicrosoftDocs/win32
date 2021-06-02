@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CBaseControlVideo.CBaseControlVideo constructor - Constructor method.
 ms.assetid: 925c6c45-0990-4044-aca1-34f343f438b5
 title: CBaseControlVideo.CBaseControlVideo constructor (Ctlutil.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ All the interface methods from [**IBasicVideo**](/windows/desktop/api/Control/nn
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

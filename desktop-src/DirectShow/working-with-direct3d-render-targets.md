@@ -1,5 +1,5 @@
 ---
-Description: Working with Direct3D Render Targets
+description: Working with Direct3D Render Targets
 ms.assetid: 271b919c-421b-4484-8e60-afbf3cbdca44
 title: Working with Direct3D Render Targets
 ms.topic: article

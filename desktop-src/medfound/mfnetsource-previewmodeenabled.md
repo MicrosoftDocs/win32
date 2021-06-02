@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables preview mode, which enables the application to overwrite the initial buffering logic.
+description: Enables or disables preview mode, which enables the application to overwrite the initial buffering logic.
 ms.assetid: 8aa8c6ac-8746-4bf6-9f57-b1426495a275
 title: MFNETSOURCE_PREVIEWMODEENABLED property (Mfidl.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ The constant **MFNETSOURCE\_PREVIEWMODEENABLED** defines the GUID for the proper
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

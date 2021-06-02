@@ -1,5 +1,5 @@
 ---
-Description: A writer's participation in a backup or restore operation, and which of its data are saved, depends on which of its components are explicitly included as part of a requester's Backup Components Document and the relationship between those components and the logical path of other components within the Writer Metadata Document.
+description: A writer's participation in a backup or restore operation, and which of its data are saved, depends on which of its components are explicitly included as part of a requester's Backup Components Document and the relationship between those components and the logical path of other components within the Writer Metadata Document.
 ms.assetid: e8920cca-d944-437f-bf6a-7ce8d518746a
 title: Working with Selectability and Logical Paths
 ms.topic: article

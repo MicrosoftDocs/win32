@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the encoder interlaces the output video.
+description: Specifies how the encoder interlaces the output video.
 ms.assetid: f36238dc-2152-4faf-835e-1027ef1af73b
 title: AVEncVideoOutputScanType property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncVideoOutputScanType**](/w
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLCMapStringFlagsException constructor"
 title: EsentInvalidLCMapStringFlagsException constructor 
 TOCTitle: 'EsentInvalidLCMapStringFlagsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidLCMapStringFlagsException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidLCMapStringFlagsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidLCMapStringFlagsException()
 
 #### Reference
 
-[EsentInvalidLCMapStringFlagsException class](dn319538\(v=exchg.10\).md)
+[EsentInvalidLCMapStringFlagsException class](./esentinvalidlcmapstringflagsexception-class.md)
 
-[EsentInvalidLCMapStringFlagsException members](dn319540\(v=exchg.10\).md)
+[EsentInvalidLCMapStringFlagsException members](./esentinvalidlcmapstringflagsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

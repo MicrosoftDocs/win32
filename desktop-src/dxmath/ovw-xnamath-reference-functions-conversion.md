@@ -1,5 +1,5 @@
 ---
-Description: Lists the conversion functions provided by DirectXMath.
+description: Lists the conversion functions provided by DirectXMath.
 ms.assetid: 6a0a8422-991d-00aa-0fd7-b41387adc72e
 title: DirectXMath Library conversion functions
 ms.topic: reference

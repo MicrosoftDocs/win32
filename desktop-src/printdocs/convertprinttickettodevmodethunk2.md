@@ -1,5 +1,5 @@
 ---
-Description: Converts a print ticket to a DEVMODE structure.
+description: Converts a print ticket to a DEVMODE structure.
 ms.assetid: 3b0a6afd-fa9d-434e-a95f-b051296d4567
 title: ConvertPrintTicketToDevModeThunk2 function
 ms.topic: reference
@@ -107,7 +107,7 @@ If the method succeeds, it returns **S\_OK**; otherwise, it returns an **HRESULT
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

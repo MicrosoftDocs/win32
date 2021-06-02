@@ -1,5 +1,5 @@
 ---
-Description: Specifies the provider ID of the cellular network.
+description: Specifies the provider ID of the cellular network.
 ms.assetid: 5528dfec-eb1b-4af3-8d7d-03b458e5ae75
 title: ProviderID (providerType) Element
 ms.topic: reference
@@ -33,7 +33,7 @@ The **ProviderID** element is defined by the [**providerType**](schema-providert
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

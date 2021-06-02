@@ -1,5 +1,5 @@
 ---
-Description: The AdvertiseScript method of the Installer object advertises an installation package.
+description: The AdvertiseScript method of the Installer object advertises an installation package.
 ms.assetid: 45e5268f-7a5f-412f-b9f6-0abb75b79361
 title: Installer::AdvertiseScript method
 ms.topic: reference
@@ -117,7 +117,7 @@ MsgBox Installer.ProductState("{BAE98781-CF88-4309-8E2D-3D8B347F5B53}")
 
 
 
-|                    |                                                                                                                                                                                                                                                              |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 4.5 on Windows Server 2003 and Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |

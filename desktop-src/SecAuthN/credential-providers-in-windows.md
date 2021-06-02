@@ -1,5 +1,5 @@
 ---
-Description: Credential Providers in Windows 10
+description: Credential Providers in Windows 10
 ms.assetid: BCF69196-D4E4-41D0-B372-5000FD50164B
 title: Credential Providers in Windows 10
 ms.topic: article
@@ -54,7 +54,7 @@ Credential providers are registered on a Windows machine and are responsible for
 
 ## Wrapping credential providers
 
-Wrapping a system credential provider can be done to add functionality to that credential provider that is not natively supported. This is not recommend because it can lead to problematic behavior. Changes can be made to the credential provider which may conflict with the wrapper causing a poor user experience or even preventing the user from getting into their device. This is especially true with the frequent update cadence of Windows 10.
+Wrapping a system credential provider can be done to add functionality to that credential provider that is not natively supported. This is not recommended because it can lead to problematic behavior. Changes can be made to the credential provider which may conflict with the wrapper causing a poor user experience or even preventing the user from getting into their device. This is especially true with the frequent update cadence of Windows 10.
 
 If functionality in a credential provider is needed that is not included natively, the recommended path is to create a custom credential provider. This is a more stable approach that does not take dependencies on the system providers.
 

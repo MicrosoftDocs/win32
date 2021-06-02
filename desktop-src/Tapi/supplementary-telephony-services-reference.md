@@ -1,5 +1,5 @@
 ---
-Description: The Supplementary Telephony functions are listed by category in the following topics.
+description: The Supplementary Telephony functions are listed by category in the following topics.
 ms.assetid: 11df5277-b090-41d8-a573-11ca8d445139
 title: Supplementary Telephony Services Reference
 ms.topic: article

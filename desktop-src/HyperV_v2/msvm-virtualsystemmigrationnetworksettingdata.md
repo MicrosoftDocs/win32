@@ -1,5 +1,5 @@
 ---
-Description: Represents the network on which the virtual system migration service is listening for incoming virtual system migration.
+description: Represents the network on which the virtual system migration service is listening for incoming virtual system migration.
 ms.assetid: 24458602-ff5c-45c2-8053-00315b59d3bb
 title: Msvm_VirtualSystemMigrationNetworkSettingData class
 ms.topic: reference
@@ -169,7 +169,7 @@ An array of tags to represent which management system has set this network for v
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

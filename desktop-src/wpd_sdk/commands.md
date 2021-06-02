@@ -1,12 +1,12 @@
 ---
-Description: Commands
+description: Commands
 ms.assetid: f579745a-5327-4c8b-bfa7-fe81d9657a3b
 title: Commands (WPD API)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Commands
+# Commands (WPD API)
 
 The client application and the driver communicate by means of commands that are sent from the client (via the Windows Portable Device API) to the driver (via the User-Mode Driver Framework). A command may or may not include a parameter, and may or may not return a result. A client can send a command explicitly, by calling either the [**IPortableDevice::SendCommand**](/windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand) method or the **IPortableDeviceService:SendCommand** method, or implicitly, by calling any of the methods of the client interfaces. A few commands can only be sent explicitly; these are noted in the command's documentation. The command reference pages describe the purpose of a command, as well as what parameters it expects to receive, and what parameters it is expected to return.
 

@@ -1,6 +1,6 @@
 ---
 title: WDS 2.x ActiveX Control Interfaces
-description: .
+description: WDS 2.x ActiveX Control Interfaces
 ms.assetid: dec40a14-46eb-4370-adc8-c1d8aec7bfee
 ms.topic: article
 ms.date: 05/31/2018

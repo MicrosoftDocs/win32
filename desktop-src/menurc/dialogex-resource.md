@@ -1,6 +1,6 @@
 ---
 title: DIALOGEX resource
-description: Defines a dialog box.
+description: Defines a dialog box. | DIALOGEX resource
 ms.assetid: 3ff28b68-e8b4-444d-8e26-5119ed30e44e
 keywords:
 - DIALOGEX resource Menus and Other Resources

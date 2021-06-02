@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE members"
 title: JET_INDEXCREATE members
 TOCTitle: JET_INDEXCREATE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE
@@ -15,7 +16,7 @@ Include inherited members
 
 Contains the information needed to create an index over data in an ESE database. Contains the information needed to create an index over data in an ESE database.
 
-The [JET_INDEXCREATE](dn335112\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXCREATE](./jet-indexcreate-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -177,6 +178,6 @@ Top
 
 #### Reference
 
-[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](./jet-indexcreate-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

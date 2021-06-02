@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetResolution method.
+description: Proxy function for the GetResolution method.
 ms.assetid: 5e261c2b-534a-4875-a84f-7251d54f15c6
 title: IWICBitmapSource_GetResolution_Proxy function
 ms.topic: reference
@@ -76,7 +76,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

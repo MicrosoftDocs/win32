@@ -22,7 +22,7 @@ Auxiliary class to represent a bind proxy in AD/AM. Bind proxy references a Wind
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-Bind-Proxy                     |
 | Ldap-Display-Name | msDS-BindProxy                       |
@@ -42,7 +42,7 @@ Auxiliary class to represent a bind proxy in AD/AM. Bind proxy references a Wind
 
 
 
-|                             |                                 |
+| Entry | Value |
 |-----------------------------|---------------------------------|
 | System-Only                 | False                           |
 | Object-Category             | 3                               |

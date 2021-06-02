@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyInstancesException class"
 title: EsentTooManyInstancesException class
 TOCTitle: EsentTooManyInstancesException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentTooManyInstancesException
@@ -34,14 +35,14 @@ Base class for JET_err.TooManyInstances exceptions.
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-        [Microsoft.Isam.Esent.Interop.EsentOperationException](dn319727\(v=exchg.10\).md)  
-          [Microsoft.Isam.Esent.Interop.EsentResourceException](dn350557\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentQuotaException](dn319806\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+        [Microsoft.Isam.Esent.Interop.EsentOperationException](./esentoperationexception-class.md)  
+          [Microsoft.Isam.Esent.Interop.EsentResourceException](./esentresourceexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentQuotaException](./esentquotaexception-class.md)  
               Microsoft.Isam.Esent.Interop.EsentTooManyInstancesException  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -68,6 +69,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentTooManyInstancesException members](dn350763\(v=exchg.10\).md)
+[EsentTooManyInstancesException members](./esenttoomanyinstancesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,6 +1,6 @@
 ---
 title: IDWriteTextLayout3 interface
-description: Represents a block of text after it has been fully analyzed and formatted.
+description: Represents a block of text after it has been fully analyzed and formatted. | IDWriteTextLayout3 interface
 ms.assetid: a7741740-9524-caf0-650b-56808abcf328
 keywords:
 - IDWriteTextLayout3 interface Direct Write
@@ -48,7 +48,7 @@ The **IDWriteTextLayout3** interface has these methods.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                          |

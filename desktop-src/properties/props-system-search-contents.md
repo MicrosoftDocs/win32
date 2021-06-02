@@ -1,5 +1,5 @@
 ---
-Description: The contents of the item.
+description: The contents of the item.
 ms.assetid: ff66092d-b3e5-4a51-bfc2-d39d539dc19c
 title: System.Search.Contents
 ms.topic: article

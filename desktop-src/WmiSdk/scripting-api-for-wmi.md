@@ -1,5 +1,5 @@
 ---
-Description: The WMI scripting reference contains definitions for the WMI Scripting API.
+description: The WMI scripting reference contains definitions for the WMI Scripting API.
 ms.assetid: 83fc78fc-929d-4d32-940e-9147543a6324
 ms.tgt_platform: multiple
 title: Scripting API for WMI

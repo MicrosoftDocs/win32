@@ -1,5 +1,5 @@
 ---
-Description: The Parental Controls WMI Provider is an instance and method provider. Instantiation of new class instances, reading or modification of existing instance properties, and invocation of methods is controlled by the Wpcsprov.mof file.
+description: The Parental Controls WMI Provider is an instance and method provider. Instantiation of new class instances, reading or modification of existing instance properties, and invocation of methods is controlled by the Wpcsprov.mof file.
 ms.assetid: 28d46969-448e-4a67-bfb3-4240b5cebe57
 title: Parental Controls WMI Provider Schema
 ms.topic: article

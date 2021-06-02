@@ -1,5 +1,5 @@
 ---
-Description: The ValidateProductID action sets the ProductID property to the full product identifier.
+description: The ValidateProductID action sets the ProductID property to the full product identifier.
 ms.assetid: 31b2f9d2-98d5-4cf3-af02-f12de2740bb8
 title: ValidateProductID Action
 ms.topic: article

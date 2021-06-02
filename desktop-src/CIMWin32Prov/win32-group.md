@@ -1,5 +1,5 @@
 ---
-Description: Represents data about a group account.
+description: Represents data about a group account.
 ms.assetid: a53d1276-3dc9-419a-bbb8-5dd07794a971
 ms.tgt_platform: multiple
 title: Win32_Group class
@@ -428,7 +428,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

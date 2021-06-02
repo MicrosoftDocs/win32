@@ -1,5 +1,5 @@
 ---
-Description: After a master key is created or imported, both RSA/Schannel and Diffie-Hellman/Schannel inform the CSP of the type of bulk encryption keys and MAC keys that will be derived from the master key.
+description: After a master key is created or imported, both RSA/Schannel and Diffie-Hellman/Schannel inform the CSP of the type of bulk encryption keys and MAC keys that will be derived from the master key.
 ms.assetid: d0976a7e-3c8e-4bbe-80e1-568a27ab81c6
 title: Specifying the Algorithms
 ms.topic: article

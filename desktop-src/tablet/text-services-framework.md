@@ -1,12 +1,12 @@
 ---
-Description: Overview of text services framework for the Tablet PC.
+description: Overview of text services framework for the Tablet PC.
 ms.assetid: f77fe77a-8625-47c5-bfc7-b473c8e8a8c6
 title: Text Services Framework (Tablet PC)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Text Services Framework
+# Text Services Framework (Tablet PC)
 
 When the [Text Services Framework (TSF)](../tsf/text-services-framework.md) is enabled on a control with a [PenInputPanel](/previous-versions/aa514041(v=msdn.10)) object attached, the PenInputPanel object can insert text directly. If the control does not support Text Services Framework (TSF), the PenInputPanel object must resort to using the [SendInput function](/windows/win32/api/winuser/nf-winuser-sendinput) to insert text.
 

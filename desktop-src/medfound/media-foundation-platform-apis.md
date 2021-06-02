@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Platform APIs
+description: Media Foundation Platform APIs
 ms.assetid: 1eb20c44-58cb-4e34-a108-1b3c27d54ff1
 title: Media Foundation Platform APIs
 ms.topic: article

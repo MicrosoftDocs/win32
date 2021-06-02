@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Api.JetConfigureProcessForCrashDump method"
 title: Windows7Api.JetConfigureProcessForCrashDump method  (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: 'JetConfigureProcessForCrashDump method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api.JetConfigureProcessForCrashDump(Microsoft.Isam.Esent.Interop.Windows7.CrashDumpGrbit)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Crash dump options for Watson.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,7 +54,7 @@ public static void JetConfigureProcessForCrashDump(
 #### Parameters
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.Windows7.CrashDumpGrbit](hh596459\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows7.CrashDumpGrbit](./crashdumpgrbit-enumeration.md)  
     
     Crash dump options.
 
@@ -61,9 +62,8 @@ public static void JetConfigureProcessForCrashDump(
 
 #### Reference
 
-[Windows7Api class](dn335406\(v=exchg.10\).md)
+[Windows7Api class](./windows7api-class.md)
 
-[Windows7Api members](dn335300\(v=exchg.10\).md)
+[Windows7Api members](./windows7api-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

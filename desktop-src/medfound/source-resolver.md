@@ -1,5 +1,5 @@
 ---
-Description: Source Resolver
+description: Source Resolver
 ms.assetid: 93eecf10-308b-4bb4-92f9-fd32d6ecdb04
 title: Source Resolver
 ms.topic: article

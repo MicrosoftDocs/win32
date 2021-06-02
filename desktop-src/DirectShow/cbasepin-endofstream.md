@@ -1,5 +1,5 @@
 ---
-Description: The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPin::EndOfStream method. Call this method only on input pins.
+description: The EndOfStream method notifies the pin that no additional data is expected. This method implements the IPin::EndOfStream method. Call this method only on input pins.
 ms.assetid: 52a71c30-bd68-4152-8901-71ef2e65913a
 title: CBasePin.EndOfStream method (Amfilter.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ In the base class, this method does nothing. Derived classes should override thi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

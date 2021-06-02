@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RealizesPExtent association represents the relationship in which physical extents are realized on a physical media. In addition, the starting address of the physical extent on the physical media is specified.
+description: The CIM\_RealizesPExtent association represents the relationship in which physical extents are realized on a physical media. In addition, the starting address of the physical extent on the physical media is specified.
 ms.assetid: 9abe1a7d-8463-4d48-8cec-52bf934ad08b
 ms.tgt_platform: multiple
 title: CIM_RealizesPExtent class
@@ -113,7 +113,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

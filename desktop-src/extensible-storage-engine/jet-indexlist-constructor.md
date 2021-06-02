@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST constructor"
 title: JET_INDEXLIST constructor 
 TOCTitle: 'JET_INDEXLIST constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_INDEXLIST constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_INDEXLIST()
 
 #### Reference
 
-[JET_INDEXLIST class](dn335123\(v=exchg.10\).md)
+[JET_INDEXLIST class](./jet-indexlist-class.md)
 
-[JET_INDEXLIST members](dn335164\(v=exchg.10\).md)
+[JET_INDEXLIST members](./jet-indexlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

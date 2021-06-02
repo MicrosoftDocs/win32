@@ -1,5 +1,5 @@
 ---
-Description: The SetUserName method sets an application-defined name for the object.
+description: The SetUserName method sets an application-defined name for the object.
 ms.assetid: 6f071884-519a-465f-8273-ab1be58dda8b
 title: IAMTimelineObj::SetUserName method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

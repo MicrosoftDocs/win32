@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether that the caller will allocate the textures used for output.
+description: Specifies whether that the caller will allocate the textures used for output.
 ms.assetid: CAB41B22-AD96-4932-9686-66474CB26C38
 title: MF_XVP_CALLER_ALLOCATES_OUTPUT attribute (Mfidl.h)
 ms.topic: reference
@@ -29,7 +29,7 @@ Set the attribute before streaming begins.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                 |

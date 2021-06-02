@@ -21,7 +21,7 @@ Contains the absolute date to expire the account.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | shadowExpire                         |
 | Ldap-Display-Name | shadowExpire                         |
@@ -45,7 +45,7 @@ Contains the absolute date to expire the account.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -66,7 +66,7 @@ Contains the absolute date to expire the account.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -87,7 +87,7 @@ Contains the absolute date to expire the account.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -108,7 +108,7 @@ Contains the absolute date to expire the account.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

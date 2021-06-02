@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryException properties"
 title: EsentVersionStoreOutOfMemoryException properties
 TOCTitle: EsentVersionStoreOutOfMemoryException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentVersionStoreOutOfMemoryException](dn350874\(v=exchg.10\).md) type exposes the following members.
+The [EsentVersionStoreOutOfMemoryException](./esentversionstoreoutofmemoryexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentVersionStoreOutOfMemoryException class](dn350874\(v=exchg.10\).md)
+[EsentVersionStoreOutOfMemoryException class](./esentversionstoreoutofmemoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

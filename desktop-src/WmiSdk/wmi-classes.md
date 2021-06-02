@@ -1,5 +1,5 @@
 ---
-Description: This section provides WMI class and reference page information.
+description: This section provides WMI class and reference page information.
 ms.assetid: 0110677a-bbba-42f7-8e59-55d83758f70a
 ms.tgt_platform: multiple
 title: WMI Classes

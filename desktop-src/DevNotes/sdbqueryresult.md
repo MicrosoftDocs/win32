@@ -1,5 +1,5 @@
 ---
-Description: Contains the results from querying the shim database for a matching executable.
+description: Contains the results from querying the shim database for a matching executable.
 ms.assetid: 6e6df118-fb64-4a97-9280-050e3b4e3a4b
 title: SDBQUERYRESULT structure
 ms.topic: reference
@@ -187,7 +187,7 @@ The GUIDs of the shim databases. Note that **SDB\_MAX\_SDBS** is defined as 16.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

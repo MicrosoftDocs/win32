@@ -63,7 +63,7 @@ The **IWMPCdrom (VB and C#)** interface has these properties.
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

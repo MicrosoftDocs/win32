@@ -1,5 +1,5 @@
 ---
-Description: Set as an attribute for an IMFOutputSchema object.
+description: Set as an attribute for an IMFOutputSchema object.
 ms.assetid: 0CCCAB27-DEB0-41D8-A70C-D6CCEFE0601F
 title: MFPROTECTIONATTRIBUTE_BEST_EFFORT attribute (Mfidl.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ Set as an attribute for an [**IMFOutputSchema**](/windows/desktop/api/mfidl/nn-m
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[UWP apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[UWP apps only\]<br/>                                   |

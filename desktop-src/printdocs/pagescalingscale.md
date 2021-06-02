@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 49a60a94-fb65-4439-bebf-3f77ea0861fe
 title: PageScalingScale
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageScalingScale
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Specifies the scaling factor for custom square scaling.
 
@@ -19,7 +19,7 @@ Specifies the scaling factor for custom square scaling.
 
 
 
-| Name                       |                                                         |
+| Name | Value |
 |----------------------------|---------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                 |
 | Scoping Prefix <br/> | Page<br/>                                         |
@@ -84,7 +84,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

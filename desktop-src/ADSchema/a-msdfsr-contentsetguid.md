@@ -22,7 +22,7 @@ Contains the Distributed File System (DFS) Replication content set GUID.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DFSR-ContentSetGuid                                |
 | Ldap-Display-Name | msDFSR-ContentSetGuid                                 |
@@ -46,7 +46,7 @@ Contains the Distributed File System (DFS) Replication content set GUID.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -67,7 +67,7 @@ Contains the Distributed File System (DFS) Replication content set GUID.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -88,7 +88,7 @@ Contains the Distributed File System (DFS) Replication content set GUID.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -109,7 +109,7 @@ Contains the Distributed File System (DFS) Replication content set GUID.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

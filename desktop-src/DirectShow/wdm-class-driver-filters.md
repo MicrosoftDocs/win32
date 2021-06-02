@@ -1,5 +1,5 @@
 ---
-Description: WDM Class Driver Filters
+description: WDM Class Driver Filters
 ms.assetid: 864fc5ad-5aeb-4dc7-bdd2-2ad2bfb57741
 title: WDM Class Driver Filters
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Lists the bit-wise vector functions.
+description: Lists the bit-wise vector functions.
 ms.assetid: c28ade14-3cf8-3d8e-260b-58751caea8d0
 title: Bit-Wise vector functions
 ms.topic: reference

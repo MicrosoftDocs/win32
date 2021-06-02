@@ -22,7 +22,7 @@ The last time the secret was changed. This value is stored as a large integer th
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Last-Set-Time                        |
 | Ldap-Display-Name | lastSetTime                          |
@@ -48,7 +48,7 @@ The last time the secret was changed. This value is stored as a large integer th
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -69,7 +69,7 @@ The last time the secret was changed. This value is stored as a large integer th
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -90,7 +90,7 @@ The last time the secret was changed. This value is stored as a large integer th
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -111,7 +111,7 @@ The last time the secret was changed. This value is stored as a large integer th
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -132,7 +132,7 @@ The last time the secret was changed. This value is stored as a large integer th
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -153,7 +153,7 @@ The last time the secret was changed. This value is stored as a large integer th
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |

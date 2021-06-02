@@ -1,5 +1,5 @@
 ---
-Description: The get\_EnumerationIf method returns the IEnumTime enumeration interface that enumerates ITTime.
+description: The get\_EnumerationIf method returns the IEnumTime enumeration interface that enumerates ITTime.
 ms.assetid: 31f6fa94-d047-4c53-96ae-8dd7e66a4e33
 title: ITTimeCollection::get_EnumerationIf method (Sdpblb.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ TAPI calls the **AddRef** method on the [**IEnumTime**](ienumtime.md) interface 
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: The GetMaxIdealImageSize method retrieves the maximum ideal image size.
+description: The GetMaxIdealImageSize method retrieves the maximum ideal image size.
 ms.assetid: 881c1c3d-7505-44a2-964d-3255e2072f6b
 title: CBaseControlWindow.GetMaxIdealImageSize method (Ctlutil.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ The dimensions apply to the size of the destination video and not to the overall
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

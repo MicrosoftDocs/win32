@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.
+description: Msvm_CollectedVirtualSystems class - Associates the Msvm\_VirtualSystemCollection to the contained Msvm\_ComputerSystem objects.
 ms.assetid: ad783188-b60a-4271-aa2d-8050c36e70eb
 title: Msvm_CollectedVirtualSystems class
 ms.topic: reference
@@ -82,7 +82,7 @@ An [**Msvm\_ComputerSystem**](msvm-computersystem.md) object containing the memb
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: DirectDraw Streaming Interfaces
+description: DirectDraw Streaming Interfaces
 ms.assetid: 8f91d90d-0b9f-4d04-bc10-4b82c1b0e062
 title: DirectDraw Streaming Interfaces
 ms.topic: article

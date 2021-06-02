@@ -80,7 +80,7 @@ The creator of a Windows Media Playlist can set the name attribute of a meta ele
 
 
 
-|                    |                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/> |
 

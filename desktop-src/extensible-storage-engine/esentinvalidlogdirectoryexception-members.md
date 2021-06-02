@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLogDirectoryException members"
 title: EsentInvalidLogDirectoryException members
 TOCTitle: EsentInvalidLogDirectoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLogDirectoryException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidLogDirectory exceptions.
 
-The [EsentInvalidLogDirectoryException](dn319548\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLogDirectoryException](./esentinvalidlogdirectoryexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLogDirectoryException class](dn319548\(v=exchg.10\).md)
+[EsentInvalidLogDirectoryException class](./esentinvalidlogdirectoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

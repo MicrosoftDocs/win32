@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE.cp property"
 title: JET_COLUMNBASE.cp property 
 TOCTitle: 'cp property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE.cp
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_COLUMNBASE.cp property
 
-Gets code page of the column. This is only meaningful for columns of type [Text](hh577895\(v=exchg.10\).md) and [LongText](hh577895\(v=exchg.10\).md).
+Gets code page of the column. This is only meaningful for columns of type [Text](./jet-coltyp-enumeration.md) and [LongText](./jet-coltyp-enumeration.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_CP cp { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_CP](hh558581\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_CP](./jet-cp-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_COLUMNBASE class](dn335045\(v=exchg.10\).md)
+[JET_COLUMNBASE class](./jet-columnbase-class.md)
 
-[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](./jet-columnbase-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

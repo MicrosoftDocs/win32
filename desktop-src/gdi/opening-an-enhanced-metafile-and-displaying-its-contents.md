@@ -1,5 +1,5 @@
 ---
-Description: This section contains an example demonstrating how an application opens an enhanced metafile stored on disk and displays the associated picture in the client area.
+description: This section contains an example demonstrating how an application opens an enhanced metafile stored on disk and displays the associated picture in the client area.
 ms.assetid: e4e5ef5c-d5ea-4931-bbec-1635e8f08c91
 title: Opening an Enhanced Metafile and Displaying Its Contents
 ms.topic: article

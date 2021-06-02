@@ -1,5 +1,5 @@
 ---
-Description: ID3DXInclude is a user-implemented interface to provide callbacks for \#include directives during shader compilation.
+description: ID3DXInclude is a user-implemented interface to provide callbacks for \#include directives during shader compilation.
 ms.assetid: 8e0bfff1-8d6d-4381-b9fd-f5f64f854712
 title: ID3DXInclude interface (D3DX9Shader.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ typedef interface ID3DXInclude *LPD3DXINCLUDE;
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the size of each sample, in bytes, in a media type.
+description: Specifies the size of each sample, in bytes, in a media type.
 ms.assetid: 4c28f73d-ff40-4eb9-a45f-57a60df719c6
 title: MF_MT_SAMPLE_SIZE attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

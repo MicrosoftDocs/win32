@@ -1,6 +1,6 @@
 ---
 title: CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object
-description: The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available.
+description: The CurrentPlaylistItemAvailable event occurs when the current playlist becomes available. | CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object
 ms.assetid: 101807c9-b00f-4351-a9a3-5413a52496f4
 keywords:
 - CurrentPlaylistItemAvailable Event of the AxWindowsMediaPlayer Object Windows Media Player
@@ -56,7 +56,7 @@ The name of the current playlist can be used to retrieve the corresponding **IWM
 
 
 
-|                      |                                                                                                                            |
+| Requirement | Value |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                          |
 | Namespace<br/> | **AxWMPLib**<br/>                                                                                                    |

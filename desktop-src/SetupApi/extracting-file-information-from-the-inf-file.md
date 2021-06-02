@@ -1,5 +1,5 @@
 ---
-Description: After the INF file is opened, you can gather information from it to build the user interface, or to direct the installation process. The setup functions provide several levels of functionality for gathering information from an INF file.
+description: After the INF file is opened, you can gather information from it to build the user interface, or to direct the installation process. The setup functions provide several levels of functionality for gathering information from an INF file.
 ms.assetid: 3ef2768b-8c73-4258-937c-77a40963ffe4
 title: Extracting File Information from the INF file
 ms.topic: article

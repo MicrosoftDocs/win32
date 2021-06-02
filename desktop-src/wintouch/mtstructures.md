@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Structures
+# Structures (Windows Touch Gestures)
 
 This section contains structures for Windows Touch gestures.
 

@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Using Extensible Storage Engine"
 title: Using Extensible Storage Engine
 TOCTitle: Using Extensible Storage Engine
 ms:assetid: d0249519-4c7c-49c1-9c80-b3cae2537d61
@@ -17,17 +18,16 @@ _**Applies to:** Windows | Windows Server_
 
 This section contains general information about how to use the following parts of the ESE API.
 
-  - [Columns](gg294073\(v=exchg.10\).md)
+  - [Columns](./columns.md)
 
-  - [Indexing in the Table](gg294106\(v=exchg.10\).md)
+  - [Indexing in the Table](./indexing-in-the-table.md)
 
-  - [Creating Databases](gg294100\(v=exchg.10\).md)
+  - [Creating Databases](./creating-databases.md)
 
-  - [Transactions](gg269197\(v=exchg.10\).md)
+  - [Transactions](./transactions.md)
 
-  - [ESE Errors](gg269184\(v=exchg.10\).md)
+  - [ESE Errors](./extensible-storage-engine-errors.md)
 
-  - [ESE Files](gg294069\(v=exchg.10\).md)
+  - [ESE Files](./extensible-storage-engine-files.md)
 
 Your program source files should include the esent.h header file to access function prototypes and structure definitions for the Extensible Storage Engine API. Developers can use the esent.lib library file to build applications that use the Extensible Storage Engine API. At runtime, applications link to the esent.dll.
-

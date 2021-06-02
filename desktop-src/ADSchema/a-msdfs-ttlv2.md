@@ -22,7 +22,7 @@ TTL associated with the DFS root or link. For use at DFS referral time.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFS-Ttl-v2                        |
 | Ldap-Display-Name | msDFS-Ttlv2                          |
@@ -45,7 +45,7 @@ TTL associated with the DFS root or link. For use at DFS referral time.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
@@ -66,7 +66,7 @@ TTL associated with the DFS root or link. For use at DFS referral time.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
@@ -87,7 +87,7 @@ TTL associated with the DFS root or link. For use at DFS referral time.
 
 
 
-|                        |                                                                                                                   |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |

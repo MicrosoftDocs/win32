@@ -1,5 +1,5 @@
 ---
-Description: Developers of Windows Installer packages may choose to use a custom action type 6 when the standard actions are insufficient to execute the installation.
+description: Developers of Windows Installer packages may choose to use a custom action type 6 when the standard actions are insufficient to execute the installation.
 ms.assetid: d63449e1-231a-4601-b39e-1b69857ccb86
 title: Custom Action Type 6
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LoggedOnUser association WMI class relates a session and a user account.
+description: The Win32\_LoggedOnUser association WMI class relates a session and a user account.
 ms.assetid: b1233f90-4898-4ced-84d2-0858027e935a
 ms.tgt_platform: multiple
 title: Win32_LoggedOnUser class
@@ -91,7 +91,7 @@ The [get-loggedonuser function](https://Gallery.TechNet.Microsoft.Com/scriptcent
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

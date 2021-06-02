@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_OTHER category contains sensors that support the Custom class in the HID Class driver.
+description: The SENSOR\_CATEGORY\_OTHER category contains sensors that support the Custom class in the HID Class driver.
 ms.assetid: 866F7BF4-15CC-4F69-9510-B5858D47C4D0
 title: SENSOR_CATEGORY_OTHER (Sensors.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ A sensor that supports the Generic class in the HID class driver will map to one
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

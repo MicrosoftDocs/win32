@@ -1,5 +1,5 @@
 ---
-Description: Terminates IME Share.
+description: Terminates IME Share.
 ms.assetid: aa33b5ed-fd4a-4829-9b7f-d545a4e7bd02
 title: EndIMEShare function
 ms.topic: reference
@@ -46,7 +46,7 @@ This function should be called after the last IME Share function is called.
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

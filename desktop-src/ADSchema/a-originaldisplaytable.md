@@ -22,7 +22,7 @@ The MAPI (original) display table for an address entry.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | Original-Display-Table                                |
 | Ldap-Display-Name | originalDisplayTable                                  |
@@ -48,7 +48,7 @@ The MAPI (original) display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8103                                                   |
@@ -69,7 +69,7 @@ The MAPI (original) display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8103                                                   |
@@ -90,7 +90,7 @@ The MAPI (original) display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8103                                                   |
@@ -111,7 +111,7 @@ The MAPI (original) display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8103                                                   |
@@ -132,7 +132,7 @@ The MAPI (original) display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8103                                                   |
@@ -153,7 +153,7 @@ The MAPI (original) display table for an address entry.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8103                                                   |

@@ -1,5 +1,5 @@
 ---
-Description: Creates a Microsoft Direct3D surface from a Microsoft DirectDraw surface and associates a requested handle value to it.
+description: Creates a Microsoft Direct3D surface from a Microsoft DirectDraw surface and associates a requested handle value to it.
 ms.assetid: 7b1ce714-a56e-4508-8160-af8c1748c5f7
 title: NtGdiDdCreateSurfaceEx function (Ntgdi.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Handle to a [**DD\_CREATESURFACEEXDATA**](/windows/win32/api/ddrawint/ns-ddrawin
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

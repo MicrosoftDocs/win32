@@ -1,5 +1,5 @@
 ---
-Description: This attribute returns the mean absolute difference (MAD) across all macro-blocks in the Y plane.
+description: This attribute returns the mean absolute difference (MAD) across all macro-blocks in the Y plane.
 ms.assetid: 7F0358F1-794A-4E75-8D97-3B91955E19EE
 title: MFSampleExtension_MeanAbsoluteDifference attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Application can request encoder to set this attribute on output samples by using
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                     |

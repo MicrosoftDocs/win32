@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Transaction.Rollback method"
 title: Transaction.Rollback method 
 TOCTitle: 'Rollback method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Transaction.Rollback
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Rollback a transaction. This object should be in a transaction.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public void Rollback()
 
 #### Reference
 
-[Transaction class](dn351174\(v=exchg.10\).md)
+[Transaction class](./transaction-class.md)
 
-[Transaction members](dn351240\(v=exchg.10\).md)
+[Transaction members](./transaction-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The QueryId method retrieves an identifier for the pin.
+description: The QueryId method retrieves an identifier for the pin.
 ms.assetid: 6050292e-6203-4a79-87bf-47394624cb32
 title: CSourceStream.QueryId method (Source.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ If this method returns VFW\_E\_NOT\_FOUND, it indicates that the filter's array 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

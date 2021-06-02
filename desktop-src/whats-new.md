@@ -1,5 +1,5 @@
 ---
-Description: Learn about what's new in desktop Win32 apps for Windows 10.
+description: Learn about what's new in desktop Win32 apps for Windows 10.
 title: What's new in Windows 10 for desktop Win32 app developers
 ms.topic: article
 ms.date: 05/31/2018

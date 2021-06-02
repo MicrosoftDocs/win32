@@ -1,5 +1,5 @@
 ---
-Description: The center of the BoundingBox.
+description: The center of the BoundingBox.
 ms.assetid: d6cc1de6-69ad-4bda-af4b-f8c86bd2c11e
 title: BoundingBox.Center (DirectXCollision.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                      |                                                                                               |
+| Requirement | Value |
 |----------------------|-----------------------------------------------------------------------------------------------|
 | Namespace<br/> | Use DirectX.<br/>                                                                       |
 | Header<br/>    | <dl> <dt>DirectXCollision.h</dt> </dl> |

@@ -1,12 +1,12 @@
 ---
-Description: The following functions are used with bitmaps.
+description: The following functions are used with bitmaps.
 ms.assetid: ef3abc8a-5d95-41d0-8eb6-47719d472414
 title: Bitmap Functions (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Bitmap Functions
+# Bitmap Functions (Windows GDI)
 
 The following functions are used with bitmaps.
 

@@ -1,5 +1,5 @@
 ---
-Description: A read-only aggregation of tag-like properties for use in building views.
+description: A read-only aggregation of tag-like properties for use in building views.
 ms.assetid: 45637ce4-43bf-4921-b50f-80e6c2bfc18b
 title: System.Photo.TagViewAggregate
 ms.topic: article

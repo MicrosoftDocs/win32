@@ -1,5 +1,5 @@
 ---
-Description: Working with Media Samples
+description: Working with Media Samples
 ms.assetid: 10b547b1-6624-4d49-9852-a5fff4eb70e7
 title: Working with Media Samples
 ms.topic: article

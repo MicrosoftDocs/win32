@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CSourceStream.CSourceStream constructor - Constructor method.
 ms.assetid: 9078b2f5-b11e-4780-8143-6738e9df4f4b
 title: CSourceStream.CSourceStream constructor (Source.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ The constructor automatically adds the pin to the owning filter, by calling [**C
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

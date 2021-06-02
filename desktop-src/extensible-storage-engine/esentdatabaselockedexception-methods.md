@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLockedException methods"
 title: EsentDatabaseLockedException methods
 TOCTitle: EsentDatabaseLockedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLockedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseLockedException](dn334474\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseLockedException](./esentdatabaselockedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseLockedException class](dn334474\(v=exchg.10\).md)
+[EsentDatabaseLockedException class](./esentdatabaselockedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

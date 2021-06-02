@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetInit2 Function"
 title: JetInit2 Function
 TOCTitle: JetInit2 Function
 ms:assetid: b5541429-6ce6-457b-88cf-673d267f6209
@@ -27,16 +28,18 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetInit2 Function
 
-The **JetInit2** function puts the database engine into a state where it can support application use of database files. The engine must already be properly configured for initialization using [JetSetSystemParameter](gg294044\(v=exchg.10\).md). Database crash recovery is performed automatically as a part of the initialization process.
+The **JetInit2** function puts the database engine into a state where it can support application use of database files. The engine must already be properly configured for initialization using [JetSetSystemParameter](./jetsetsystemparameter-function.md). Database crash recovery is performed automatically as a part of the initialization process.
 
 **Windows XP:**  **JetInit2** is introduced in Windows XP.
 
-This function is obsolete. Use [JetInit3](gg269296\(v=exchg.10\).md) instead.
+This function is obsolete. Use [JetInit3](./jetinit3-function.md) instead.
 
-    JET_ERR JET_API JetInit2(
-      __in_out_opt  JET_INSTANCE* pinstance,
-      __in          JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetInit2(
+  __in_out_opt  JET_INSTANCE* pinstance,
+  __in          JET_GRBIT grbit
+);
+```
 
 ### Parameters
 
@@ -46,7 +49,7 @@ The instance to use for this call.
 
 For Windows 2000, this parameter is ignored and should always be NULL.
 
-For Windows XP and later releases, the use of this parameter depends on the operating mode of the engine. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported, this parameter may either be NULL or it may be set to a valid output buffer containing NULL or JET_instanceNil which returns the global instance handle created as a side effect of the initialization. This instance handle can then be passed to any other API that takes an instance. If the engine is operating in multi-instance mode, this parameter must be set to a valid input buffer that contains the instance handle returned by the [JetCreateInstance](gg269354\(v=exchg.10\).md) that is being initialized.
+For Windows XP and later releases, the use of this parameter depends on the operating mode of the engine. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported, this parameter may either be NULL or it may be set to a valid output buffer containing NULL or JET_instanceNil which returns the global instance handle created as a side effect of the initialization. This instance handle can then be passed to any other API that takes an instance. If the engine is operating in multi-instance mode, this parameter must be set to a valid input buffer that contains the instance handle returned by the [JetCreateInstance](./jetcreateinstance-function.md) that is being initialized.
 
 *grbit*
 
@@ -99,18 +102,18 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 
 #### Remarks
 
-An instance must be initialized with a call to **JetInit2** before it can be used by anything other than [JetSetSystemParameter](gg294044\(v=exchg.10\).md).
+An instance must be initialized with a call to **JetInit2** before it can be used by anything other than [JetSetSystemParameter](./jetsetsystemparameter-function.md).
 
-An instance is destroyed by a call to the [JetTerm](gg269298\(v=exchg.10\).md) function, even if that instance was never initialized using [JetInit](gg294068\(v=exchg.10\).md). An instance is the unit of recoverability for the database engine. It controls the life cycle of all the files used to protect the integrity of the data in a set of database files. These files include the checkpoint file and the transaction log files.
+An instance is destroyed by a call to the [JetTerm](./jetterm-function.md) function, even if that instance was never initialized using [JetInit](./jetinit-function.md). An instance is the unit of recoverability for the database engine. It controls the life cycle of all the files used to protect the integrity of the data in a set of database files. These files include the checkpoint file and the transaction log files.
 
 If recovery is running on a set of logs, for which not all databases is present (which will return the error JET_errAttachedDatabaseMismatch under normal circumstances), and the client wishes recovery to continue despite missing databases, the JET_ bitReplayIgnoreMissingDB is used to continue recovery for the available databases.
 
-See the Remarks section in [JetInit](gg294068\(v=exchg.10\).md) for more information.
+See the Remarks section in [JetInit](./jetinit-function.md) for more information.
 
 #### Requirements
 
@@ -146,13 +149,12 @@ See the Remarks section in [JetInit](gg294068\(v=exchg.10\).md) for more informa
 
 #### See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JetInit3](gg269296\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[Resource Parameters](gg269201\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)  
+[JetInit3](./jetinit3-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[Resource Parameters](./resource-parameters.md)

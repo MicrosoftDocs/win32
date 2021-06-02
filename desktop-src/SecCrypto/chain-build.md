@@ -1,5 +1,5 @@
 ---
-Description: Builds a certificate verification chain from an end certificate to the trusted root certificate and returns a Boolean value that indicates the overall validity of the chain.
+description: Builds a certificate verification chain from an end certificate to the trusted root certificate and returns a Boolean value that indicates the overall validity of the chain.
 ms.assetid: 878f09ba-d79b-4f14-b4f6-ecb54771f56f
 title: IChain2::Build method
 ms.topic: reference
@@ -59,7 +59,7 @@ Each time the **Chain.Build** method is called, the [*state*](../secgloss/s-gly.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Releases the unfiltered image cached by the IWiaPreview::GetNewPreview method. It also releases the image processing filter.
+description: Releases the unfiltered image cached by the IWiaPreview::GetNewPreview method. It also releases the image processing filter.
 ms.assetid: af94d27f-9d93-40e1-8d1a-e5546531a176
 title: IWiaPreview::Clear method (Wia.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ On **IWiaPreview::Clear** the Windows Image Acquisition (WIA) 2.0 Preview Compo
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

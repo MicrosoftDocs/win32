@@ -1,5 +1,5 @@
 ---
-Description: 'This topic provides two high-level views of the architecture of Direct3D:'
+description: 'This topic provides two high-level views of the architecture of Direct3D:'
 ms.assetid: ed08b4c8-fdd9-46fb-a2be-c2fb15af2dc6
 title: Direct3D Architecture (Direct3D 9)
 ms.topic: article

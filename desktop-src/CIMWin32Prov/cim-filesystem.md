@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_FileSystem class represents a file or data set local to a computer system or remotely mounted from a file server.
+description: The CIM\_FileSystem class represents a file or data set local to a computer system or remotely mounted from a file server.
 ms.assetid: 5a54ab35-b9b6-49e6-96a8-cb2820b054eb
 ms.tgt_platform: multiple
 title: CIM_FileSystem class
@@ -561,7 +561,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

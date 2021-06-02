@@ -1,5 +1,5 @@
 ---
-Description: Manage power to extend battery life, save energy, reduce heat and noise, and help ensure data reliability. Retrieve the system power status, notify applications of power management events, and notify the system of each applications power requirements.
+description: Manage power to extend battery life, save energy, reduce heat and noise, and help ensure data reliability. Retrieve the system power status, notify applications of power management events, and notify the system of each applications power requirements.
 ms.assetid: ba917d15-bbdb-46fe-9ad8-56a8837f7b2d
 title: Power Management (Power Management)
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IsDefaultTargetRect method determines if the renderer is using the default target rectangle (pure virtual).
+description: The IsDefaultTargetRect method determines if the renderer is using the default target rectangle (pure virtual).
 ms.assetid: 60c09515-7a34-421c-b3e8-ce746a935583
 title: CBaseControlVideo.IsDefaultTargetRect method (Ctlutil.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

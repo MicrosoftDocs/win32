@@ -1,5 +1,5 @@
 ---
-Description: Links to documentation for the IAzNameResolver interoperability wrapper methods and properties.
+description: Links to documentation for the IAzNameResolver interoperability wrapper methods and properties.
 ms.assetid: 8a274185-0afa-4299-93c9-600d75bfc452
 title: Microsoft.Interop.Security.AzRoles.IAzNameResolver interface
 ms.topic: reference
@@ -48,7 +48,7 @@ The **Microsoft.Interop.Security.AzRoles.IAzNameResolver** interface has these m
 
 
 
-|                     |                                                                                                                   |
+| Requirement | Value |
 |---------------------|-------------------------------------------------------------------------------------------------------------------|
 | Assembly<br/> | <dl> <dt>Microsoft.Interop.Security.Azroles.dll</dt> </dl> |
 

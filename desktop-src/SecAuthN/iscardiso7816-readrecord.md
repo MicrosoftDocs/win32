@@ -1,5 +1,5 @@
 ---
-Description: The ReadRecord method constructs an application protocol data unit (APDU) command that reads either the contents of the specified records or the beginning part of one record of an elementary file.
+description: The ReadRecord method constructs an application protocol data unit (APDU) command that reads either the contents of the specified records or the beginning part of one record of an elementary file.
 ms.assetid: b00a3242-93bc-4779-8c62-89157fbcb5d1
 title: ISCardISO7816::ReadRecord method (Scardssp.h)
 ms.topic: reference
@@ -129,7 +129,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

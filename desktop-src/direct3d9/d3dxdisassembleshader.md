@@ -1,5 +1,5 @@
 ---
-Description: Disassemble a shader.
+description: Disassemble a shader.
 ms.assetid: 30159223-8f88-4929-8ef1-7a6acc13f485
 title: D3DXDisassembleShader function (D3DX9Shader.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

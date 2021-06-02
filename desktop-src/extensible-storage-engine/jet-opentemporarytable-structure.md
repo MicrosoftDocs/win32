@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE Structure"
 title: JET_OPENTEMPORARYTABLE Structure
 TOCTitle: JET_OPENTEMPORARYTABLE Structure
 ms:assetid: 23f4fb0f-ca60-498b-9b8e-14de6188eb87
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_OPENTEMPORARYTABLE Structure
 
-The **JET_OPENTEMPORARYTABLE** structure contains an easily extensible collection of parameters for the **JET_OPENTEMPORARYTABLE** function. This structure is the temporary table equivalent of the [JET_TABLECREATE](gg294146\(v=exchg.10\).md) structure.
+The **JET_OPENTEMPORARYTABLE** structure contains an easily extensible collection of parameters for the **JET_OPENTEMPORARYTABLE** function. This structure is the temporary table equivalent of the [JET_TABLECREATE](./jet-tablecreate-structure.md) structure.
 
 **Windows Vista:** The **JET_OPENTEMPORARYTABLE** structure is introduced in Windows Vista.
 
@@ -175,7 +176,7 @@ This parameter may be used to control the amount of key space consumed by any gi
 
 **tableid**
 
-The table handle for the temporary table created as a result of a successful call to [JetOpenTemporaryTable](gg294144\(v=exchg.10\).md).
+The table handle for the temporary table created as a result of a successful call to [JetOpenTemporaryTable](./jetopentemporarytable-function.md).
 
 ### Requirements
 
@@ -203,12 +204,11 @@ The table handle for the temporary table created as a result of a successful cal
 
 ### See Also
 
-[JET_TABLECREATE](gg294146\(v=exchg.10\).md)  
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetOpenTemporaryTable](gg294144\(v=exchg.10\).md)  
-[Extensible Storage Engine System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_TABLECREATE](./jet-tablecreate-structure.md)  
+[JET_COLUMNDEF](./jet-columndef-structure.md)  
+[JET_UNICODEINDEX](./jet-unicodeindex-structure.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetOpenTemporaryTable](./jetopentemporarytable-function.md)  
+[Extensible Storage Engine System Parameters](./extensible-storage-engine-system-parameters.md)

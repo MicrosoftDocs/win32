@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTableLockedException methods"
 title: EsentTableLockedException methods
 TOCTitle: EsentTableLockedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentTableLockedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTableLockedException](dn334909\(v=exchg.10\).md) type exposes the following members.
+The [EsentTableLockedException](./esenttablelockedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentTableLockedException class](dn334909\(v=exchg.10\).md)
+[EsentTableLockedException class](./esenttablelockedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

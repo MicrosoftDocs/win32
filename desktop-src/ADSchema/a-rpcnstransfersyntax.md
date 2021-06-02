@@ -22,7 +22,7 @@ The UUID of the transfer syntax supported by the current entry.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | rpc-Ns-Transfer-Syntax                      |
 | Ldap-Display-Name | rpcNsTransferSyntax                         |
@@ -48,7 +48,7 @@ The UUID of the transfer syntax supported by the current entry.
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -69,7 +69,7 @@ The UUID of the transfer syntax supported by the current entry.
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -90,7 +90,7 @@ The UUID of the transfer syntax supported by the current entry.
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -111,7 +111,7 @@ The UUID of the transfer syntax supported by the current entry.
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -132,7 +132,7 @@ The UUID of the transfer syntax supported by the current entry.
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |
@@ -153,7 +153,7 @@ The UUID of the transfer syntax supported by the current entry.
 
 
 
-|                        |                                                             |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------|
 | Link-Id                | \-                                                          |
 | MAPI-Id                | \-                                                          |

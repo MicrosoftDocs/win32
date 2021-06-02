@@ -1,5 +1,5 @@
 ---
-Description: The DisplayPinInfo method traces a pin connection during debugging.
+description: The DisplayPinInfo method traces a pin connection during debugging.
 ms.assetid: 3c1aa5ab-7f6b-4518-abf3-b5138f6267ee
 title: CBasePin.DisplayPinInfo method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ In debug builds, this method calls the [**DbgLog**](dbglog.md) function to trace
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

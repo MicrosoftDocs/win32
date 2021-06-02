@@ -1,5 +1,5 @@
 ---
-Description: The NewSegment method notifies the filter that media samples received after this call are grouped as a segment.
+description: The NewSegment method notifies the filter that media samples received after this call are grouped as a segment.
 ms.assetid: 78ddaac7-9c1f-47b6-835d-dd16b1f5b01f
 title: CTransformFilter.NewSegment method (Transfrm.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ The input pin's [**CTransformInputPin::NewSegment**](ctransforminputpin-newsegme
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

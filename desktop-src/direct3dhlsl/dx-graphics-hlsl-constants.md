@@ -16,7 +16,7 @@ api_type:
 api_location: 
 ---
 
-# Shader Constants
+# Shader Constants (HLSL)
 
 In Shader Model 4, shader constants are stored in one or more buffer resources in memory. They can be organized into two types of buffers: constant buffers (cbuffers) and texture buffers (tbuffers). Constant buffers are optimized for constant-variable usage, which is characterized by lower-latency access and more frequent update from the CPU. For this reason, additional size, layout, and access restrictions apply to these resources. Texture buffers are accessed like textures and perform better for arbitrarily indexed data. Regardless of which type of resource you use, there is no limit to the number of constant buffers or texture buffers an application can create.
 

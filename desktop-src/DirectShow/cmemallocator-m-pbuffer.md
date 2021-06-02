@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the memory block that contains the buffers.
+description: Pointer to the memory block that contains the buffers.
 ms.assetid: b9d08f5b-8616-4f68-869a-e8ebb77ccdc1
 title: CMemAllocator::m_pBuffer member (Amfilter.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Sample buffers are calculated as offsets from this pointer.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

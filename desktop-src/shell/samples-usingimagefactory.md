@@ -1,5 +1,5 @@
 ---
-Description: Demonstrates how to use the IShellItemImageFactory interface to get the best possible image for an item.
+description: Demonstrates how to use the IShellItemImageFactory interface to get the best possible image for an item.
 title: Using Image Factory Sample
 ms.topic: article
 ms.date: 05/31/2018

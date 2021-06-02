@@ -22,7 +22,7 @@ Required forest function level for this feature.
 
 
 
-|                   |                                        |
+| Entry | Value |
 |-------------------|----------------------------------------|
 | CN                | ms-DS-Required-Forest-Behavior-Version |
 | Ldap-Display-Name | msDS-RequiredForestBehaviorVersion     |
@@ -44,7 +44,7 @@ Required forest function level for this feature.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -65,7 +65,7 @@ Required forest function level for this feature.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.fShadowingDisabled property"
 title: JET_DBINFOMISC.fShadowingDisabled property 
 TOCTitle: 'fShadowingDisabled property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.fShadowingDisabled
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a value indicating whether catalog shadowing is enabled. This value is for internal use only.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Reference
 
-[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](./jet-dbinfomisc-class.md)
 
-[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](./jet-dbinfomisc-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

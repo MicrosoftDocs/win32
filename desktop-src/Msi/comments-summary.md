@@ -1,5 +1,5 @@
 ---
-Description: The Comments Summary property conveys the general purpose of the installation package, transform, or patch package.
+description: The Comments Summary property conveys the general purpose of the installation package, transform, or patch package.
 ms.assetid: e9034bfb-1b32-4851-ac23-4c3223760a04
 title: Comments Summary property
 ms.topic: reference
@@ -23,7 +23,7 @@ where <*product*> is the name of the product.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

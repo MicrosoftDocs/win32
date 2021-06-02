@@ -1,5 +1,5 @@
 ---
-Description: A monitor is a dynamic-link library (DLL) that examines real-time captures of network traffic.
+description: A monitor is a dynamic-link library (DLL) that examines real-time captures of network traffic.
 ms.assetid: 96d04352-5f1c-4964-94d2-692c6b642cb8
 title: Monitors
 ms.topic: article

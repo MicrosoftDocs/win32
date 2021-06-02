@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadParentPageLinkException methods"
 title: EsentBadParentPageLinkException methods
 TOCTitle: EsentBadParentPageLinkException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentBadParentPageLinkException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBadParentPageLinkException](dn274033\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadParentPageLinkException](./esentbadparentpagelinkexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentBadParentPageLinkException class](dn274033\(v=exchg.10\).md)
+[EsentBadParentPageLinkException class](./esentbadparentpagelinkexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

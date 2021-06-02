@@ -1,5 +1,5 @@
 ---
-Description: Returns FALSE if the current thread is the owner of the specified critical section.
+description: Returns FALSE if the current thread is the owner of the specified critical section.
 ms.assetid: 1a2cb56c-2806-4bb2-b904-985af332b290
 title: CritCheckOut function (Wxutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This function is the inverse of the [**CritCheckIn**](critcheckin.md) function. 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

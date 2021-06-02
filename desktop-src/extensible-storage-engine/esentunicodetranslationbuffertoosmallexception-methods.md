@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnicodeTranslationBufferTooSmallException methods"
 title: EsentUnicodeTranslationBufferTooSmallException methods
 TOCTitle: EsentUnicodeTranslationBufferTooSmallException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUnicodeTranslationBufferTooSmallException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentUnicodeTranslationBufferTooSmallException](dn350843\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnicodeTranslationBufferTooSmallException](./esentunicodetranslationbuffertoosmallexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentUnicodeTranslationBufferTooSmallException class](dn350843\(v=exchg.10\).md)
+[EsentUnicodeTranslationBufferTooSmallException class](./esentunicodetranslationbuffertoosmallexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

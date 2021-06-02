@@ -1,5 +1,5 @@
 ---
-Description: The CAPICOM\_KEY\_STORAGE\_FLAG enumeration defines key storage flags.
+description: The CAPICOM\_KEY\_STORAGE\_FLAG enumeration defines key storage flags.
 ms.assetid: 326cef75-24a5-4dc9-a7e9-a63dd3d8de54
 title: CAPICOM_KEY_STORAGE_FLAG enumeration (Capicom.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ This enumeration is used by the following method:
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

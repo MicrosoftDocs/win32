@@ -1,5 +1,5 @@
 ---
-Description: Reserved.
+description: LocationDisp.DispCivicAddressReport.DetailLevel property - Reserved.
 ms.assetid: 3f206db7-fccf-4b95-bff7-856dc53caf5a
 title: LocationDisp.DispCivicAddressReport.DetailLevel property
 ms.topic: reference
@@ -43,7 +43,7 @@ To determine whether a civic address report contains valid data for a particular
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

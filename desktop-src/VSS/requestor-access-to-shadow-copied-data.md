@@ -1,5 +1,5 @@
 ---
-Description: Once the shadow copy has completed, the most important mechanism for getting access to the file data it contains is through the use of the shadow copy's device object.
+description: Once the shadow copy has completed, the most important mechanism for getting access to the file data it contains is through the use of the shadow copy's device object.
 ms.assetid: 21efdbd6-a487-4e6f-8e3c-b9224bcf92da
 title: Requester Access to Shadow Copied Data
 ms.topic: article

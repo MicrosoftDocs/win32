@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_MemoryCapacity class represents memory that can be installed on a physical element and its minimum and maximum configurations.
+description: The CIM\_MemoryCapacity class represents memory that can be installed on a physical element and its minimum and maximum configurations.
 ms.assetid: a962ee38-9281-4a7a-b9d7-b321edb5670d
 ms.tgt_platform: multiple
 title: CIM_MemoryCapacity class
@@ -327,7 +327,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

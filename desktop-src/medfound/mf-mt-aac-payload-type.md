@@ -1,5 +1,5 @@
 ---
-Description: Specifies the payload type of an Advanced Audio Coding (AAC) stream.
+description: Specifies the payload type of an Advanced Audio Coding (AAC) stream.
 ms.assetid: a032fcf4-2584-4047-adbd-d94d4fc4e841
 title: MF_MT_AAC_PAYLOAD_TYPE attribute (Mfapi.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Mfapi.h</dt> </dl> |
 

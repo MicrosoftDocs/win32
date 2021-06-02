@@ -1,5 +1,5 @@
 ---
-Description: Supplies the following operator overloads and type casts for D3DXQUATERNION structures.
+description: Supplies the following operator overloads and type casts for D3DXQUATERNION structures.
 ms.assetid: a49975a4-a9a7-4183-91b3-3d56f70747ef
 title: D3DXQUATERNION Extensions (D3dx9math.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ Operator overloads and type casts for this structure are implemented in d3dx9mat
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

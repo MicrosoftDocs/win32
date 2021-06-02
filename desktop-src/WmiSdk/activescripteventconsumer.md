@@ -1,5 +1,5 @@
 ---
-Description: Runs a predefined script in an arbitrary scripting language when an event is delivered to it.
+description: Runs a predefined script in an arbitrary scripting language when an event is delivered to it.
 ms.assetid: 2c0aa216-4255-49ff-9bbd-d6c62b5b9139
 ms.tgt_platform: multiple
 title: ActiveScriptEventConsumer class
@@ -200,7 +200,7 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

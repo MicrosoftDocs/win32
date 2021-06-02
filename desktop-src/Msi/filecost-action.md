@@ -1,5 +1,5 @@
 ---
-Description: The FileCostaction initiates dynamic costingof standard installation actions.
+description: The FileCostaction initiates dynamic costingof standard installation actions.
 ms.assetid: 1b3f2baf-6191-452e-955d-8ac903edc1b7
 title: FileCost Action
 ms.topic: article

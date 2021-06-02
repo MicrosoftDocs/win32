@@ -1,6 +1,6 @@
 ---
 title: ActiveBasicDevice SetCachedSinkProtocolInfo method (PlayToDevice.h)
-description: Gets the cached sink protocol info for the device.
+description: Gets the cached sink protocol info for the device. | ActiveBasicDevice SetCachedSinkProtocolInfo method (PlayToDevice.h)
 ms.assetid: C4856B97-89F9-43EC-B778-9E0CDAAF2C47
 keywords:
 - SetCachedSinkProtocolInfo method Media Streaming API
@@ -60,7 +60,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                     |

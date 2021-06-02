@@ -1,5 +1,5 @@
 ---
-Description: Contains a paragraph.
+description: Contains a paragraph.
 ms.assetid: 60322907-3902-49a9-91a9-e00b0a714c00
 title: Paragraph Element (Windows.ui.xaml.documents.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Contains a paragraph.
 
 
 
-|                   |                                                                                                        |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Windows.ui.xaml.documents.h</dt> </dl> |
 

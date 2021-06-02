@@ -22,7 +22,7 @@ Display-specifiers with this flag set to **TRUE** force the related class to be 
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Treat-As-Leaf                        |
 | Ldap-Display-Name | treatAsLeaf                          |
@@ -48,7 +48,7 @@ Display-specifiers with this flag set to **TRUE** force the related class to be 
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -69,7 +69,7 @@ Display-specifiers with this flag set to **TRUE** force the related class to be 
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -90,7 +90,7 @@ Display-specifiers with this flag set to **TRUE** force the related class to be 
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -111,7 +111,7 @@ Display-specifiers with this flag set to **TRUE** force the related class to be 
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -132,7 +132,7 @@ Display-specifiers with this flag set to **TRUE** force the related class to be 
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |
@@ -153,7 +153,7 @@ Display-specifiers with this flag set to **TRUE** force the related class to be 
 
 
 
-|                        |                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------|
 | Link-Id                | \-                                                         |
 | MAPI-Id                | \-                                                         |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: DurableCommitCallback.ReleaseResource method"
 title: DurableCommitCallback.ReleaseResource method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'ReleaseResource method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.DurableCommitCallback.ReleaseResource
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Frees the durable commit session.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,9 +56,8 @@ Do not try to set the instance parameter to null, because the callback is dispos
 
 #### Reference
 
-[DurableCommitCallback class](dn335323\(v=exchg.10\).md)
+[DurableCommitCallback class](./durablecommitcallback-class.md)
 
-[DurableCommitCallback members](dn335441\(v=exchg.10\).md)
+[DurableCommitCallback members](./durablecommitcallback-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

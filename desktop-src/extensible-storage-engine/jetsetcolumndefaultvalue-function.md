@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetColumnDefaultValue Function"
 title: JetSetColumnDefaultValue Function
 TOCTitle: JetSetColumnDefaultValue Function
 ms:assetid: 74bfaf50-6c2e-4907-b931-d50ad314b552
@@ -73,7 +74,7 @@ Reserved for future use.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -223,10 +224,9 @@ The database engine will silently truncate the default value of a column to 255 
 
 #### See Also
 
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetBeginTransaction2](gg269268\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_DBID](./jet-dbid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetBeginTransaction2](./jetbegintransaction2-function.md)  
+[JetStopService](./jetstopservice-function.md)

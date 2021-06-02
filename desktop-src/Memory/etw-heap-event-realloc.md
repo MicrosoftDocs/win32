@@ -1,5 +1,5 @@
 ---
-Description: Memory management tracing event for a heap reallocation operation.
+description: Memory management tracing event for a heap reallocation operation.
 ms.assetid: D8080B7B-CECC-40DB-B52A-2C3E4F04ABA9
 title: ETW_HEAP_EVENT_REALLOC event (Ntwmi.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ The **ETW\_HEAP\_EVENT\_REALLOC** event is logged on all heap reallocations.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

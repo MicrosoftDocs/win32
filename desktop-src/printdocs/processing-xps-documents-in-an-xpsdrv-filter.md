@@ -1,5 +1,5 @@
 ---
-Description: The XPS OM can be used to access the components of an XPS Document from within an XPSDrv printer driver filter.
+description: The XPS OM can be used to access the components of an XPS Document from within an XPSDrv printer driver filter.
 ms.assetid: c8b232ba-e986-4459-8d66-190225fdffbc
 title: Processing XPS Documents in an XPSDrv Filter
 ms.topic: article
@@ -16,7 +16,7 @@ For more information about XPS Filters and XPSDrv printer drivers, see [XPS Filt
 
 <dl> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

@@ -1,12 +1,12 @@
 ---
-Description: Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry.
+description: Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry.
 ms.assetid: 07c40c0c-2729-462c-ba40-e05ffea2b889
 title: Installing and Registering Protocol Handlers (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Installing and Registering Protocol Handlers
+# Installing and Registering Protocol Handlers (Windows Search)
 
 Installing a protocol handler involves copying the DLL(s) to an appropriate location in the Program Files directory, and then registering the protocol handler through the registry. The installation application can also add a search root and scope rules to define a default crawl scope for the Shell data source.
 

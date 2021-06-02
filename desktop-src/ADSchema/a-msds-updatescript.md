@@ -22,7 +22,7 @@ This is used to hold the script with the domain restructure instructions.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-UpdateScript                          |
 | Ldap-Display-Name | msDS-UpdateScript                           |
@@ -48,7 +48,7 @@ This is used to hold the script with the domain restructure instructions.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -69,7 +69,7 @@ This is used to hold the script with the domain restructure instructions.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -90,7 +90,7 @@ This is used to hold the script with the domain restructure instructions.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -111,7 +111,7 @@ This is used to hold the script with the domain restructure instructions.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -132,7 +132,7 @@ This is used to hold the script with the domain restructure instructions.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -153,7 +153,7 @@ This is used to hold the script with the domain restructure instructions.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

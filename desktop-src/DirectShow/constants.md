@@ -1,7 +1,7 @@
 ---
-Description: DirectShow constants
+description: DirectShow constants
 ms.assetid: 9c800d17-1bca-4fcb-940b-3477dc700ce3
-title: Constants
+title: DirectShow Constants
 ms.topic: article
 ms.date: 05/31/2018
 ---

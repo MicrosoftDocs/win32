@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetUpdate Function"
 title: JetUpdate Function
 TOCTitle: JetUpdate Function
 ms:assetid: 6c9a53d0-46bc-403b-bdba-9020e023c14a
@@ -27,9 +28,9 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetUpdate Function
 
-The **JetUpdate** function performs an update operation including inserting a new row into a table or updating an existing row. Deleting a table row is performed by calling [JetDelete](gg269315\(v=exchg.10\).md).
+The **JetUpdate** function performs an update operation including inserting a new row into a table or updating an existing row. Deleting a table row is performed by calling [JetDelete](./jetdelete-function.md).
 
-**JetUpdate** is the final step in performing an insert or an update. The update is begun by calling [JetPrepareUpdate](gg269339\(v=exchg.10\).md) and then by calling [JetSetColumn](gg294137\(v=exchg.10\).md) or [JetSetColumns](gg294050\(v=exchg.10\).md) one or more times to set the record state. Finally, **JetUpdate** is called to complete the update operation. Indexes are updated only by **JetUpdate** or [JetUpdate2](gg269190\(v=exchg.10\).md), and not during [JetSetColumn](gg294137\(v=exchg.10\).md) or [JetSetColumns](gg294050\(v=exchg.10\).md).
+**JetUpdate** is the final step in performing an insert or an update. The update is begun by calling [JetPrepareUpdate](./jetprepareupdate-function.md) and then by calling [JetSetColumn](./jetsetcolumn-function.md) or [JetSetColumns](./jetsetcolumns-function.md) one or more times to set the record state. Finally, **JetUpdate** is called to complete the update operation. Indexes are updated only by **JetUpdate** or [JetUpdate2](./jetupdate2-function.md), and not during [JetSetColumn](./jetsetcolumn-function.md) or [JetSetColumns](./jetsetcolumns-function.md).
 
 ```cpp
     JET_ERR JET_API JetUpdate(
@@ -65,7 +66,7 @@ The returned size of the bookmark for the inserted row returned in *pvBookmark*.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -178,9 +179,9 @@ On failure, no changes of any kind are made to the database. Before insert and b
 
 Callback functions can be registered to be called before or after insert, and before or after update.
 
-Record size limitations are enforced by [JetSetColumn](gg294137\(v=exchg.10\).md), and not in general by **JetUpdate**.
+Record size limitations are enforced by [JetSetColumn](./jetsetcolumn-function.md), and not in general by **JetUpdate**.
 
-It is important to understand the impact of performing a large number of update operations inside of a single transaction. Each update to the database must be tracked by the database engine in the version store. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. Once the database engine has exhausted the resources used to store these versions then it can no longer accept further changes until some transactions have concluded to allow these resources to be reclaimed. When the engine is in this state, all updates will fail with JET_errVersionStoreOutOfMemory. The resources available to the database engine to store these versions can be controlled using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with [JET_paramMaxVerPages](gg269201\(v=exchg.10\).md) and [JET_paramGlobalMinVerPages](gg269201\(v=exchg.10\).md).
+It is important to understand the impact of performing a large number of update operations inside of a single transaction. Each update to the database must be tracked by the database engine in the version store. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. Once the database engine has exhausted the resources used to store these versions then it can no longer accept further changes until some transactions have concluded to allow these resources to be reclaimed. When the engine is in this state, all updates will fail with JET_errVersionStoreOutOfMemory. The resources available to the database engine to store these versions can be controlled using [JetSetSystemParameter](./jetsetsystemparameter-function.md) with [JET_paramMaxVerPages](./resource-parameters.md) and [JET_paramGlobalMinVerPages](./resource-parameters.md).
 
 #### Requirements
 
@@ -216,16 +217,15 @@ It is important to understand the impact of performing a large number of update 
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetDelete](gg269315\(v=exchg.10\).md)  
-[JetPrepareUpdate](gg269339\(v=exchg.10\).md)  
-[JetRegisterCallback](gg269175\(v=exchg.10\).md)  
-[JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
-[JetRetrieveColumns](gg294135\(v=exchg.10\).md)  
-[JetSetColumn](gg294137\(v=exchg.10\).md)  
-[JetSetColumns](gg294050\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetDelete](./jetdelete-function.md)  
+[JetPrepareUpdate](./jetprepareupdate-function.md)  
+[JetRegisterCallback](./jetregistercallback-function.md)  
+[JetRetrieveColumn](./jetretrievecolumn-function.md)  
+[JetRetrieveColumns](./jetretrievecolumns-function.md)  
+[JetSetColumn](./jetsetcolumn-function.md)  
+[JetSetColumns](./jetsetcolumns-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

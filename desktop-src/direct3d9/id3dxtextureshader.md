@@ -1,5 +1,5 @@
 ---
-Description: The ID3DXTextureShader interface.
+description: The ID3DXTextureShader interface.
 ms.assetid: 48ea307d-857f-4b73-9e13-de391fbce07b
 title: ID3DXTextureShader interface (D3DX9Shader.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ typedef interface ID3DXTextureShader *LPD3DXTEXTURESHADER;
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

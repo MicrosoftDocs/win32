@@ -1,5 +1,5 @@
 ---
-Description: Using Bitmaps
+description: Using Bitmaps
 ms.assetid: c58560dc-0263-4054-9230-aa6c3a82a016
 title: Using Bitmaps
 ms.topic: article

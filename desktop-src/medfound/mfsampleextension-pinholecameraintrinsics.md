@@ -1,5 +1,5 @@
 ---
-Description: Contains the pinhole camera intrinsics for the sample.
+description: Contains the pinhole camera intrinsics for the sample.
 ms.assetid: AF7EA6A0-90C5-49A8-AD68-776BF770A448
 title: MFSampleExtension_PinholeCameraIntrinsics attribute (Mfapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ This attribute is optional to support cameras that are not calibrated.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

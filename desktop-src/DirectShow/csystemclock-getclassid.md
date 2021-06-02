@@ -1,5 +1,5 @@
 ---
-Description: The GetClassID method retrieves the class identifier (CLSID) of the object. This method implements the IPersist::GetClassID method.
+description: The GetClassID method retrieves the class identifier (CLSID) of the object. This method implements the IPersist::GetClassID method.
 ms.assetid: 3d2cc6a3-67d1-4dd9-916b-7c350ce6a542
 title: CSystemClock.GetClassID method (Sysclock.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns S\_OK or E\_POINTER.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | CSystemClock Class<br/>                                                                                                                                                              |
 | Header<br/>  | <dl> <dt>Sysclock.h (include Streams.h)</dt> </dl>                                                                                  |

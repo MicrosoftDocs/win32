@@ -1,5 +1,5 @@
 ---
-Description: The SetRealize method specifies whether the window realizes palettes.
+description: The SetRealize method specifies whether the window realizes palettes.
 ms.assetid: ab4a6069-c11f-4126-93bf-6de5277970a1
 title: CBaseWindow.SetRealize method (Winutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ By default, the **SetPalette** method realizes the specified palette. Call this 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

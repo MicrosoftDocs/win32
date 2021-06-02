@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Rendering
+# Rendering (Direct3D 11 Graphics)
 
 This section contains information about several Direct3D 11 rendering technologies.
 

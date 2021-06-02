@@ -1,5 +1,5 @@
 ---
-Description: Represents the floppy controller in the virtual machine.
+description: Represents the floppy controller in the virtual machine.
 ms.assetid: 38A19BF3-0E8F-4DCE-B2DB-B2E3F8100E00
 title: Msvm_DisketteController class
 ms.topic: reference
@@ -859,7 +859,7 @@ Access to the **Msvm\_DisketteController** class might be restricted by UAC Filt
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

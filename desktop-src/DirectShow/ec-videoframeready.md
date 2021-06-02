@@ -1,5 +1,5 @@
 ---
-Description: A video frame is ready for display.
+description: A video frame is ready for display.
 ms.assetid: af6198be-9656-49a6-9598-b1c040be5a1a
 title: EC_VIDEOFRAMEREADY (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The legacy [Windows Media Source](windows-media-source-filter.md) filter sends t
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

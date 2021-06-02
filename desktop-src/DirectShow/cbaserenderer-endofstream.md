@@ -1,5 +1,5 @@
 ---
-Description: The EndOfStream method notifies the filter that the input pin received an end-of-stream notification.
+description: The EndOfStream method notifies the filter that the input pin received an end-of-stream notification.
 ms.assetid: bdfd03f9-81e0-4d52-959e-82fd1a67e1c3
 title: CBaseRenderer.EndOfStream method (Renbase.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This method sets the [**CBaseRenderer::m\_bEOS**](cbaserenderer-m-beos.md) flag 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_SnapshotCollection to the corresponding Msvm\_VirtualSystemCollection objects.
+description: Associates the Msvm\_SnapshotCollection to the corresponding Msvm\_VirtualSystemCollection objects.
 ms.assetid: 4dbfe21f-e700-4266-aedb-236c57c424f6
 title: Msvm_SnapshotOfVirtualSystemCollection class
 ms.topic: reference
@@ -82,7 +82,7 @@ A [**CIM\_Collection**](cim-collection.md) that represents the object that is de
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

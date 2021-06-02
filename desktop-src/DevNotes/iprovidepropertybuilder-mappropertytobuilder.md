@@ -1,5 +1,5 @@
 ---
-Description: Checks whether a builder should be associated with a particular property.
+description: Checks whether a builder should be associated with a particular property.
 ms.assetid: 8fab2dc2-3549-4559-b704-6783d929274e
 title: IProvidePropertyBuilder::MapPropertyToBuilder method
 ms.topic: reference
@@ -85,7 +85,7 @@ Returns an **HRESULT** value.
 
 
 
-|                |                                                                                    |
+| Requirement | Value |
 |----------------|------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Vsp.dll</dt> </dl> |
 

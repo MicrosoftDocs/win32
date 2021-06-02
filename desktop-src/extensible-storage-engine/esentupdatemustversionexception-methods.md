@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUpdateMustVersionException methods"
 title: EsentUpdateMustVersionException methods
 TOCTitle: EsentUpdateMustVersionException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentUpdateMustVersionException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentUpdateMustVersionException](dn350839\(v=exchg.10\).md) type exposes the following members.
+The [EsentUpdateMustVersionException](./esentupdatemustversionexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentUpdateMustVersionException class](dn350839\(v=exchg.10\).md)
+[EsentUpdateMustVersionException class](./esentupdatemustversionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

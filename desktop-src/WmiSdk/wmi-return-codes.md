@@ -1,5 +1,5 @@
 ---
-Description: This section provides a list of the WMI return codes, symbolic constants, literal values, and descriptions. These codes may be returned by scripts, C++ applications, or Wmic commands.
+description: This section provides a list of the WMI return codes, symbolic constants, literal values, and descriptions. These codes may be returned by scripts, C++ applications, or Wmic commands.
 ms.assetid: 7ae47482-edf4-4aa4-858a-76e55f3cb0a3
 ms.tgt_platform: multiple
 title: WMI Return Codes

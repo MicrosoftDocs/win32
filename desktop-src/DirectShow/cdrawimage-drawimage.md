@@ -1,5 +1,5 @@
 ---
-Description: The DrawImage method draws a video frame on the video window.
+description: The DrawImage method draws a video frame on the video window.
 ms.assetid: 22e7f59c-90f7-4e0c-8993-eea1eaf58fba
 title: CDrawImage.DrawImage method (Winutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ In debug builds, this method calls **DisplaySampleTimes** to draw the sample's t
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

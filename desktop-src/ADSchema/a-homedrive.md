@@ -22,7 +22,7 @@ Specifies the drive letter to which to map the UNC path specified by [**homeDire
 
 
 
-|                   |                                                                                   |
+| Entry | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | CN                | Home-Drive                                                                        |
 | Ldap-Display-Name | homeDrive                                                                         |
@@ -48,7 +48,7 @@ Specifies the drive letter to which to map the UNC path specified by [**homeDire
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -69,7 +69,7 @@ Specifies the drive letter to which to map the UNC path specified by [**homeDire
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -90,7 +90,7 @@ Specifies the drive letter to which to map the UNC path specified by [**homeDire
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -111,7 +111,7 @@ Specifies the drive letter to which to map the UNC path specified by [**homeDire
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -132,7 +132,7 @@ Specifies the drive letter to which to map the UNC path specified by [**homeDire
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -153,7 +153,7 @@ Specifies the drive letter to which to map the UNC path specified by [**homeDire
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

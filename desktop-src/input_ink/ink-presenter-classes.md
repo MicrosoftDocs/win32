@@ -1,5 +1,5 @@
 ---
-Description: The topics contained in this section provide the reference specifications for Ink presenter classes.
+description: The topics contained in this section provide the reference specifications for Ink presenter classes.
 ms.assetid: 639BC980-18DF-4496-9753-3074D3148851
 title: Ink presenter classes
 ms.topic: article

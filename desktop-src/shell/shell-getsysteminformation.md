@@ -1,5 +1,5 @@
 ---
-Description: Retrieves system information.
+description: Shell.GetSystemInformation method - Retrieves system information.
 ms.assetid: 94C10DD6-FE49-4dd4-AEED-69B73A75EDEF
 title: Shell.GetSystemInformation method (Shldisp.h)
 ms.topic: reference
@@ -190,7 +190,7 @@ VBScript:
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

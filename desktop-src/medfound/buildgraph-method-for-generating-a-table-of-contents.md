@@ -1,5 +1,5 @@
 ---
-Description: BuildGraph Function for Generating a Table of Contents
+description: BuildGraph Function for Generating a Table of Contents
 ms.assetid: f70740ef-4c58-4944-9be6-dd056e12ad93
 title: BuildGraph Function for Generating a Table of Contents
 ms.topic: article

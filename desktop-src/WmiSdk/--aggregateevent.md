@@ -1,5 +1,5 @@
 ---
-Description: Represents an aggregate event of several individual intrinsic or extrinsic events.
+description: Represents an aggregate event of several individual intrinsic or extrinsic events.
 ms.assetid: 99afa390-01fe-4a13-ba21-27587470f111
 ms.tgt_platform: multiple
 title: '__AggregateEvent class'
@@ -82,7 +82,7 @@ Event providers never generate aggregate events. They must ignore the GROUP WITH
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

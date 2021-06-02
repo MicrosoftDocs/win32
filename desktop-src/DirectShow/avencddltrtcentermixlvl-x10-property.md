@@ -1,5 +1,5 @@
 ---
-Description: Specifies the level shift that is applied to the center channel for Lt/Rt downmixing. This property applies to Dolby Digital audio encoders.
+description: Specifies the level shift that is applied to the center channel for Lt/Rt downmixing. This property applies to Dolby Digital audio encoders.
 ms.assetid: 976e170d-2941-473b-b48d-3c53ff5251b2
 title: AVEncDDLtRtCenterMixLvl_x10 property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

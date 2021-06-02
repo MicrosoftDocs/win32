@@ -1,5 +1,5 @@
 ---
-Description: The IX509PrivateKey interface exposes the following methods.
+description: The IX509PrivateKey interface exposes the following methods.
 ms.assetid: D4DD6B02-E689-4E37-A456-533F6A9C9374
 title: IX509PrivateKey Methods
 ms.topic: reference

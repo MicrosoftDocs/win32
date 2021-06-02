@@ -1,5 +1,5 @@
 ---
-Description: Cloaking is an extension to impersonation that allows for better control over how COM impersonates a client over a proxy. Like many forms of WMI security, you set cloaking through the CoSetProxyBlanket and CoInitializeSecurity interfaces.
+description: Cloaking is an extension to impersonation that allows for better control over how COM impersonates a client over a proxy. Like many forms of WMI security, you set cloaking through the CoSetProxyBlanket and CoInitializeSecurity interfaces.
 ms.assetid: e094aecc-e940-43aa-87c2-ea8cc86d1051
 ms.tgt_platform: multiple
 title: Implementing Cloaking

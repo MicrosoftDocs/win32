@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.itagSequence property"
 title: JET_SETCOLUMN.itagSequence property 
 TOCTitle: 'itagSequence property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.itagSequence
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the sequence number of value in a multi-valued column to be set. The array of values is one-based. The first value is sequence 1, not 0 (zero). If the record column has only one value then 1 should be passed as the itagSequence if that value is being replaced. A value of 0 (zero) means to add a new column value instance to the end of the sequence of column values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](./jet-setcolumn-class.md)
 
-[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](./jet-setcolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

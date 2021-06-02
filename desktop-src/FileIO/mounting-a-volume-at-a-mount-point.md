@@ -1,5 +1,5 @@
 ---
-Description: How to create a mounted folder.
+description: How to create a mounted folder.
 ms.assetid: c97bfd10-66ff-41e1-ba3b-f98a019948d5
 title: Creating a Mounted Folder
 ms.topic: article

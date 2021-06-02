@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN Structure"
 title: JET_SETCOLUMN Structure
 TOCTitle: JET_SETCOLUMN Structure
 ms:assetid: 3fdb8ec0-3c40-44f3-9859-72e22a504b90
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_SETCOLUMN Structure
 
-The **JET_SETCOLUMN** structure contains input and output parameters for [JetSetColumns](gg294050\(v=exchg.10\).md). Fields in the structure describe what column value to set, how to set it, and where to get the column set data.
+The **JET_SETCOLUMN** structure contains input and output parameters for [JetSetColumns](./jetsetcolumns-function.md). Fields in the structure describe what column value to set, how to set it, and where to get the column set data.
 
 ```cpp
     typedef struct {
@@ -110,7 +111,7 @@ A group of bits that contain the options to be used for this call, which include
 
 **ibLongValue**
 
-The offset to the first byte to be retrieved from a column of type [JET_coltypLongBinary](gg269213\(v=exchg.10\).md), or [JET_coltypLongText](gg269213\(v=exchg.10\).md).
+The offset to the first byte to be retrieved from a column of type [JET_coltypLongBinary](./jet-coltyp.md), or [JET_coltypLongText](./jet-coltyp.md).
 
 **itagSequence**
 
@@ -146,9 +147,8 @@ Error codes and warnings returned from the set column operation.
 
 ### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JetSetColumns](gg294050\(v=exchg.10\).md)
-
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JetSetColumns](./jetsetcolumns-function.md)

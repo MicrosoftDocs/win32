@@ -1,5 +1,5 @@
 ---
-Description: The Qualifiers\_ property of the SWbemObject object returns an SWbemQualifierSet object that is a collection of the qualifiers for the current class or instance. This property is read-only.
+description: The Qualifiers\_ property of the SWbemObject object returns an SWbemQualifierSet object that is a collection of the qualifiers for the current class or instance. This property is read-only.
 ms.assetid: 5ecae751-0d83-4ad6-9840-ef47f76b1ff6
 ms.tgt_platform: multiple
 title: SWbemObject.Qualifiers_ property (Wbemdisp.h)
@@ -51,7 +51,7 @@ The [Get-WritableWMIProperties.ps1](https://Gallery.TechNet.Microsoft.Com/816fb8
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

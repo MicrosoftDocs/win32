@@ -1,5 +1,5 @@
 ---
-Description: The GetPreroll method retrieves the preroll time. This method implements the IMediaSeeking::GetPreroll method.
+description: The GetPreroll method retrieves the preroll time. This method implements the IMediaSeeking::GetPreroll method.
 ms.assetid: 2395d5b2-8c1f-40cd-8d4a-48620debe7a7
 title: CSourceSeeking.GetPreroll method (Ctlutil.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

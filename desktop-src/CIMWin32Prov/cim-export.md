@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Export class represents an association between a local file system and its directories, which indicate that the specified directories are available for mount.
+description: The CIM\_Export class represents an association between a local file system and its directories, which indicate that the specified directories are available for mount.
 ms.assetid: 4c43ba5a-e003-4985-85b3-68ecf13a4bf5
 ms.tgt_platform: multiple
 title: CIM_Export class
@@ -106,7 +106,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

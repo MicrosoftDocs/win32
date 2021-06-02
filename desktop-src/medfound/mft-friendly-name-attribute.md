@@ -1,5 +1,5 @@
 ---
-Description: Contains the display name for a hardware-based Media Foundation transform (MFT).
+description: Contains the display name for a hardware-based Media Foundation transform (MFT).
 ms.assetid: 8f2634e8-6bdd-463a-893a-6dc616c8333d
 title: MFT_FRIENDLY_NAME_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

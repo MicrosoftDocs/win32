@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentIndexException constructor"
 title: EsentNoCurrentIndexException constructor 
 TOCTitle: 'EsentNoCurrentIndexException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentNoCurrentIndexException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentNoCurrentIndexException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentNoCurrentIndexException()
 
 #### Reference
 
-[EsentNoCurrentIndexException class](dn334726\(v=exchg.10\).md)
+[EsentNoCurrentIndexException class](./esentnocurrentindexexception-class.md)
 
-[EsentNoCurrentIndexException members](dn319670\(v=exchg.10\).md)
+[EsentNoCurrentIndexException members](./esentnocurrentindexexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

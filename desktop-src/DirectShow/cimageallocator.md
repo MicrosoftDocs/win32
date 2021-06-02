@@ -1,5 +1,5 @@
 ---
-Description: The CImageAllocator class implements an allocator that manages GDI device-independent bitmaps (DIBs). This class derives from the CBaseAllocator class. It creates media samples that are implemented using the CImageSample class.
+description: The CImageAllocator class implements an allocator that manages GDI device-independent bitmaps (DIBs). This class derives from the CBaseAllocator class. It creates media samples that are implemented using the CImageSample class.
 ms.assetid: edda34a5-3916-4a41-9e2f-a19f12df0947
 title: CImageAllocator class (Winutil.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The owning filter should call **NotifyMediaType** whenever the media type change
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The CommitSpoolData function notifies the print spooler that a specified amount of data has been written to a specified spool file and is ready to be rendered.
+description: The CommitSpoolData function notifies the print spooler that a specified amount of data has been written to a specified spool file and is ready to be rendered.
 ms.assetid: cb8899e0-2fdf-4928-adff-17ef5af39f63
 title: CommitSpoolData function (Winspool.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ Before calling **CommitSpoolData**, applications must set the file pointer to th
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

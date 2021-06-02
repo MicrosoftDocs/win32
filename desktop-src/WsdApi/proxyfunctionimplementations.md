@@ -1,5 +1,5 @@
 ---
-Description: Generates implementations for proxy functions for port type operations.
+description: Generates implementations for proxy functions for port type operations.
 ms.assetid: 9505ee5f-fdb9-41b8-9537-0c5d29f90168
 title: proxyFunctionImplementations element
 ms.topic: reference
@@ -64,7 +64,7 @@ There are no attributes.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

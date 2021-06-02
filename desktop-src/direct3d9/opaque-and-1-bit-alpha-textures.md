@@ -1,5 +1,5 @@
 ---
-Description: Texture format DXT1 is for textures that are opaque or have a single transparent color.
+description: Texture format DXT1 is for textures that are opaque or have a single transparent color.
 ms.assetid: a890ed0a-1f68-45b8-93cb-b621d1908d9f
 title: Opaque and 1-Bit Alpha Textures (Direct3D 9)
 ms.topic: article
@@ -137,7 +137,7 @@ As an example of opaque encoding, assume that the colors red and black are at th
 
 The bitmap then looks like the following diagram.
 
-![diagram of the expanded bitmap layout](images/colors2.png)
+![Diagram that shows the expanded bitmap layout.](images/colors2.png)
 
 This looks like the following illustrated series of colors.
 

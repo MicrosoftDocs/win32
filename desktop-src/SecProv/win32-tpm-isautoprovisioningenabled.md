@@ -1,5 +1,5 @@
 ---
-Description: Indicates if auto provisioning of the TPM is enabled.
+description: Indicates if auto provisioning of the TPM is enabled.
 ms.assetid: C908673C-8BDB-4541-85C6-65FED1EBB535
 title: Win32_Tpm::IsAutoProvisioningEnabled method
 ms.topic: reference
@@ -67,7 +67,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                      |

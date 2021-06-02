@@ -1,5 +1,5 @@
 ---
-Description: Working With DVD Menus
+description: Working With DVD Menus
 ms.assetid: 8c5f8072-b74f-4e15-8991-73bcc4145fd2
 title: Working With DVD Menus
 ms.topic: article

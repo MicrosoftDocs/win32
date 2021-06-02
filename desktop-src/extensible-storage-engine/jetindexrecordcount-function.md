@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetIndexRecordCount Function"
 title: JetIndexRecordCount Function
 TOCTitle: JetIndexRecordCount Function
 ms:assetid: 62d39738-cd91-4cfb-9483-f4a2dd845d9a
@@ -58,7 +59,7 @@ The maximum number of records to count. A *crecMax* value of 0 indicates that th
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -119,11 +120,11 @@ If this function fails, no changes are made to memory allocated at *precpos*.
 
 If the table is not empty, then the cursor should be positioned onto the record from which to begin the count. The count will include this record, and count forward up to the given limit in *crecMax*. If *crecMax* is 0 then the operation will continue counting until the end of the index.
 
-Index ranges can be used to construct artificial end-of-index limitations for the count. In this way, subranges of an index can be counted exactly. The cursor should be positioned to the first row in the range. The end of the range key should be made and then [JetSetIndexRange](gg294112\(v=exchg.10\).md) should be used to set the upper range, either inclusively or exclusively. Lastly, **JetIndexRecordCount** should be called to exactly count the range.
+Index ranges can be used to construct artificial end-of-index limitations for the count. In this way, subranges of an index can be counted exactly. The cursor should be positioned to the first row in the range. The end of the range key should be made and then [JetSetIndexRange](./jetsetindexrange-function.md) should be used to set the upper range, either inclusively or exclusively. Lastly, **JetIndexRecordCount** should be called to exactly count the range.
 
 **JetIndexRecordCount** obeys transaction semantics and returns a count that is accurate for this particular session in its current transactional state.
 
-**JetIndexRecordCount** accesses index leaf pages in order to exactly count entries. Consequently, it can perform a great deal of I/O and can be slow. The *crecMax* limitation should be used to prevent excessive load. If a range is large, then it might be possible to count the range in an approximated fashion using [JetGetRecordPosition](gg269316\(v=exchg.10\).md).
+**JetIndexRecordCount** accesses index leaf pages in order to exactly count entries. Consequently, it can perform a great deal of I/O and can be slow. The *crecMax* limitation should be used to prevent excessive load. If a range is large, then it might be possible to count the range in an approximated fashion using [JetGetRecordPosition](./jetgetrecordposition-function.md).
 
 **Windows XP, Windows Server 2003, Windows 2000 Server, and Windows 2000 Professional:**  If the cursor is positioned on an empty index or index range then **JetIndexRecordCount** erroneously returns JET_errNoCurrentRecord rather than returning a record count of zero. The application should check to see if the index or index range is empty in this case.
 
@@ -161,10 +162,9 @@ Index ranges can be used to construct artificial end-of-index limitations for th
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetRecordPosition](gg269316\(v=exchg.10\).md)  
-[JetSetIndexRange](gg294112\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetRecordPosition](./jetgetrecordposition-function.md)  
+[JetSetIndexRange](./jetsetindexrange-function.md)  
+[JetStopService](./jetstopservice-function.md)

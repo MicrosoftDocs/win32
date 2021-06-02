@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfMemoryException members"
 title: EsentOutOfMemoryException members
 TOCTitle: EsentOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.OutOfMemory exceptions.
 
-The [EsentOutOfMemoryException](dn319786\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfMemoryException](./esentoutofmemoryexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentOutOfMemoryException class](dn319786\(v=exchg.10\).md)
+[EsentOutOfMemoryException class](./esentoutofmemoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

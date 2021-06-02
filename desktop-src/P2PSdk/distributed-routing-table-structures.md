@@ -1,5 +1,5 @@
 ---
-Description: The following structures support the Distributed Routing Table (DRT) API functions.
+description: The following structures support the Distributed Routing Table (DRT) API functions.
 ms.assetid: 3ff85b24-5ec0-4b26-b30e-1bf8030a575d
 title: Distributed Routing Table Structures
 ms.topic: article

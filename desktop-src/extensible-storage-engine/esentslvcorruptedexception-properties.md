@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVCorruptedException properties"
 title: EsentSLVCorruptedException properties
 TOCTitle: EsentSLVCorruptedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVCorruptedException](dn350672\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVCorruptedException](./esentslvcorruptedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSLVCorruptedException class](dn350672\(v=exchg.10\).md)
+[EsentSLVCorruptedException class](./esentslvcorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

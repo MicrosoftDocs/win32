@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseDirtyShutdownException members"
 title: EsentDatabaseDirtyShutdownException members
 TOCTitle: EsentDatabaseDirtyShutdownException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseDirtyShutdownException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseDirtyShutdown exceptions.
 
-The [EsentDatabaseDirtyShutdownException](dn334290\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseDirtyShutdownException](./esentdatabasedirtyshutdownexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseDirtyShutdownException class](dn334290\(v=exchg.10\).md)
+[EsentDatabaseDirtyShutdownException class](./esentdatabasedirtyshutdownexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

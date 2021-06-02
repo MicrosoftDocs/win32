@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_WMISetting singleton WMI class contains the operational parameters for the WMI service. This class can only have one instance, which always exists for each Windows system and cannot be deleted. Additional instances cannot be created.
+description: The Win32\_WMISetting singleton WMI class contains the operational parameters for the WMI service. This class can only have one instance, which always exists for each Windows system and cannot be deleted. Additional instances cannot be created.
 ms.assetid: d33cd4f3-969b-46ce-baff-466f1a464906
 ms.tgt_platform: multiple
 title: Win32_WMISetting class
@@ -699,7 +699,7 @@ WScript.Echo  objWMISetting.BuildVersion
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

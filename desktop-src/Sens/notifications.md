@@ -1,12 +1,12 @@
 ---
-Description: The System Event Notification Service enables mobile-aware applications to receive notifications from system events that SENS monitors. When the requested event occurs, SENS notifies the application.
+description: The System Event Notification Service enables mobile-aware applications to receive notifications from system events that SENS monitors. When the requested event occurs, SENS notifies the application.
 ms.assetid: 19311dec-4611-4104-b6e4-ff8f7c8af0e7
 title: Notifications (System Event Notification Service)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Notifications
+# Notifications (System Event Notification Service)
 
 The System Event Notification Service enables mobile-aware applications to receive notifications from system events that SENS monitors. When the requested event occurs, SENS notifies the application.
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNoCurrentRecordException properties"
 title: EsentNoCurrentRecordException properties
 TOCTitle: EsentNoCurrentRecordException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentNoCurrentRecordException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentNoCurrentRecordException](dn334730\(v=exchg.10\).md) type exposes the following members.
+The [EsentNoCurrentRecordException](./esentnocurrentrecordexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentNoCurrentRecordException class](dn334730\(v=exchg.10\).md)
+[EsentNoCurrentRecordException class](./esentnocurrentrecordexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

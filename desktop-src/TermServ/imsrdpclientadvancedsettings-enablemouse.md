@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings EnableMouse property
-description: This property is not supported.
+description: This property is not supported. | IMsRdpClientAdvancedSettings EnableMouse property
 ms.assetid: 4f60fdfc-e1b9-4ac2-98e4-49331b072883
 ms.tgt_platform: multiple
 keywords:
@@ -93,7 +93,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

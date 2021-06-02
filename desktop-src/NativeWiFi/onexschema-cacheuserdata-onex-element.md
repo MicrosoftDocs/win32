@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the user credentials are cached for subsequent connections.
+description: Specifies whether the user credentials are cached for subsequent connections.
 ms.assetid: 65ed03f1-f61e-46f8-a666-91b393618de3
 title: cacheUserData (OneX) Element
 ms.topic: reference
@@ -34,7 +34,7 @@ The **cacheUserData** element is defined by the [**OneX**](onexschema-onex-eleme
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

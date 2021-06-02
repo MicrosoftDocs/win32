@@ -1,5 +1,5 @@
 ---
-Description: The following identifiers are used to identify a CNG cryptographic interface.
+description: The following identifiers are used to identify a CNG cryptographic interface.
 ms.assetid: 509c89ff-0c73-4e57-9c39-400522f2086e
 title: CNG Interface Identifiers (Bcrypt.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The following identifiers are used to identify a CNG cryptographic interface. In
 
 
 
-|                                     |                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                                                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                |

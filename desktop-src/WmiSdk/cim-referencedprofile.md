@@ -1,5 +1,5 @@
 ---
-Description: Used to associate an instance CIM\_RegisteredProfile with an instance of CIM\_RegisteredProfile of another profile that references the dependent profile as a related profile.
+description: Used to associate an instance CIM\_RegisteredProfile with an instance of CIM\_RegisteredProfile of another profile that references the dependent profile as a related profile.
 ms.assetid: 631003de-477b-4447-9633-1601a7f8eadb
 ms.tgt_platform: multiple
 title: CIM_ReferencedProfile class
@@ -88,7 +88,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2008 R2<br/>                                                      |

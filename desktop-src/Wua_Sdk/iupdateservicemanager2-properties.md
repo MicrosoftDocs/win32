@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateServiceManager2 interface defines the following property.
+description: The IUpdateServiceManager2 interface defines the following property.
 ms.assetid: af23ca81-d6c3-4adf-9a66-b4cfe9bf8538
 title: IUpdateServiceManager2 Properties
 ms.topic: article

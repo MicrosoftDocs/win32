@@ -1,5 +1,5 @@
 ---
-Description: Subtracts two 3D vectors.
+description: Subtracts two 3D vectors.
 ms.assetid: 09e2cede-a0a3-4a5e-a7e1-e7a98cdc433b
 title: D3DXVec3Subtract function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

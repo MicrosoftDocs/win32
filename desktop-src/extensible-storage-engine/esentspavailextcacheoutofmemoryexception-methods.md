@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfMemoryException methods"
 title: EsentSPAvailExtCacheOutOfMemoryException methods
 TOCTitle: EsentSPAvailExtCacheOutOfMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfMemoryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSPAvailExtCacheOutOfMemoryException](dn334906\(v=exchg.10\).md) type exposes the following members.
+The [EsentSPAvailExtCacheOutOfMemoryException](./esentspavailextcacheoutofmemoryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSPAvailExtCacheOutOfMemoryException class](dn334906\(v=exchg.10\).md)
+[EsentSPAvailExtCacheOutOfMemoryException class](./esentspavailextcacheoutofmemoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

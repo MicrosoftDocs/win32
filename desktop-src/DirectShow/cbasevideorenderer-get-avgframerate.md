@@ -1,5 +1,5 @@
 ---
-Description: The get\_AvgFrameRate method calculates and retrieves the average frame rate achieved.
+description: The get\_AvgFrameRate method calculates and retrieves the average frame rate achieved.
 ms.assetid: f36fc020-8c1a-491f-9f55-18265fde8bf8
 title: CBaseVideoRenderer.get_AvgFrameRate method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the [**IQualProp::get\_AvgFrameRate**](/previous
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

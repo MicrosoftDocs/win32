@@ -1,12 +1,12 @@
 ---
-Description: By using the notification APIs components can notify the indexer that an item has been changed, moved or deleted, and can add search scopes to the Windows Search indexer's queue of URLs that require indexing.
+description: By using the notification APIs components can notify the indexer that an item has been changed, moved or deleted, and can add search scopes to the Windows Search indexer's queue of URLs that require indexing.
 ms.assetid: 817550e2-a256-48d5-9fa6-1ea04f8b8589
 title: Notifying the Index of Changes (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Notifying the Index of Changes
+# Notifying the Index of Changes (Windows Search)
 
 By using the notification APIs components can notify the indexer that an item has been changed, moved or deleted, and can add search scopes to the Windows Search indexer's queue of URLs that require indexing.
 

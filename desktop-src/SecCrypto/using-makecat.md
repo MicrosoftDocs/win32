@@ -1,5 +1,5 @@
 ---
-Description: Makes an unsigned catalog file, which contains the hashes of a set of files along with associated attributes of each file in the set. A catalog file allows the user to sign one file (the catalog) instead of signing numerous individual files.
+description: Makes an unsigned catalog file, which contains the hashes of a set of files along with associated attributes of each file in the set. A catalog file allows the user to sign one file (the catalog) instead of signing numerous individual files.
 ms.assetid: 0a6ce2cd-db1f-4b47-990c-36fa87c28a60
 title: Using MakeCat
 ms.topic: article

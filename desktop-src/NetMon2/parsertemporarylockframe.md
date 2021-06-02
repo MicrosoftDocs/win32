@@ -1,5 +1,5 @@
 ---
-Description: The ParserTemporaryLockFrame function locks a frame when it enters a parser and unlocks the frame when the function exits the parser.
+description: The ParserTemporaryLockFrame function locks a frame when it enters a parser and unlocks the frame when the function exits the parser.
 ms.assetid: c1c52f62-1974-47cc-8c37-61918fbce54a
 title: ParserTemporaryLockFrame function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ Parsers should not call the **LockFrame** function. If a parser takes a lock and
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

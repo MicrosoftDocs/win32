@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_UNICODEINDEX.ToString method"
 title: JET_UNICODEINDEX.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX.ToString
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ The structure as a string.
 
 #### Reference
 
-[JET_UNICODEINDEX class](dn351106\(v=exchg.10\).md)
+[JET_UNICODEINDEX class](./jet-unicodeindex-class.md)
 
-[JET_UNICODEINDEX members](dn351131\(v=exchg.10\).md)
+[JET_UNICODEINDEX members](./jet-unicodeindex-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The Log method of the Merge object writes a text string to the currently open log file.
+description: The Log method of the Merge object writes a text string to the currently open log file.
 ms.assetid: 'dbfc9be7-1b0b-417e-9e2b-bf191ea255b6'
 title: Merge.Log method (Mergemod.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ See [**Log**](/windows/win32/api/mergemod/nf-mergemod-imsmmerge-log) function.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 1.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

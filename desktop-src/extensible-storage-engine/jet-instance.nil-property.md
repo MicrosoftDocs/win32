@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE.Nil property"
 title: JET_INSTANCE.Nil property 
 TOCTitle: 'Nil property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INSTANCE.Nil
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a null JET_INSTANCE.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,15 +53,14 @@ public static JET_INSTANCE Nil { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)  
 
 ## See also
 
 #### Reference
 
-[JET_INSTANCE structure](hh564593\(v=exchg.10\).md)
+[JET_INSTANCE structure](./jet-instance-structure.md)
 
-[JET_INSTANCE members](hh565454\(v=exchg.10\).md)
+[JET_INSTANCE members](./jet-instance-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

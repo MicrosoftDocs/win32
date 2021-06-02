@@ -1,5 +1,5 @@
 ---
-Description: MSN
+description: MSN
 ms.assetid: 6478E540-AC96-42FD-B8DB-C55D1809FE3B
 title: MSN
 ms.topic: article

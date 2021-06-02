@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPrimaryIndexCorruptedException constructor"
 title: EsentPrimaryIndexCorruptedException constructor 
 TOCTitle: 'EsentPrimaryIndexCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentPrimaryIndexCorruptedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentPrimaryIndexCorruptedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentPrimaryIndexCorruptedException()
 
 #### Reference
 
-[EsentPrimaryIndexCorruptedException class](dn319793\(v=exchg.10\).md)
+[EsentPrimaryIndexCorruptedException class](./esentprimaryindexcorruptedexception-class.md)
 
-[EsentPrimaryIndexCorruptedException members](dn319864\(v=exchg.10\).md)
+[EsentPrimaryIndexCorruptedException members](./esentprimaryindexcorruptedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

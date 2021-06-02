@@ -1,5 +1,5 @@
 ---
-Description: The GetResponse method constructs an application protocol data unit (APDU) command that transmits APDU commands (or part of an APDU command) which otherwise could not be transmitted by the available protocols.
+description: The GetResponse method constructs an application protocol data unit (APDU) command that transmits APDU commands (or part of an APDU command) which otherwise could not be transmitted by the available protocols.
 ms.assetid: 1aa83d38-d46d-4d3b-8f57-0256e5875e35
 title: ISCardISO7816::GetResponse method (Scardssp.h)
 ms.topic: reference
@@ -96,7 +96,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

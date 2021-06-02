@@ -1,5 +1,5 @@
 ---
-Description: This property is used to signal which version of the Rate Change property set the decoder should use.
+description: This property is used to signal which version of the Rate Change property set the decoder should use.
 ms.assetid: 49d1bfda-749b-4614-9a75-1f76fa8b320d
 title: AM_RATE_UseRateVersion Property (Dvdmedia.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ If the decoder does not support the specified version, it should fail the call t
 
 
 
-|                   |                               |
+| Label | Value |
 |-------------------|-------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange |
 | Property ID       | AM\_RATE\_UseRateVersion      |
@@ -28,7 +28,7 @@ If the decoder does not support the specified version, it should fail the call t
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

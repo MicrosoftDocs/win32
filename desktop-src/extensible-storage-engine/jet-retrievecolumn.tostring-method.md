@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN.ToString method"
 title: JET_RETRIEVECOLUMN.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN.ToString
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RETRIEVECOLUMN.ToString method
 
-Returns a [String](/dotnet/api/system.string) that represents the current [JET_RETRIEVECOLUMN](dn351033\(v=exchg.10\).md).
+Returns a [String](/dotnet/api/system.string) that represents the current [JET_RETRIEVECOLUMN](./jet-retrievecolumn-class.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,14 +53,14 @@ public override string ToString()
 #### Return value
 
 Type: [System.String](/dotnet/api/system.string)  
-A [String](/dotnet/api/system.string) that represents the current [JET_RETRIEVECOLUMN](dn351033\(v=exchg.10\).md).  
+A [String](/dotnet/api/system.string) that represents the current [JET_RETRIEVECOLUMN](./jet-retrievecolumn-class.md).  
 
 ## See also
 
 #### Reference
 
-[JET_RETRIEVECOLUMN class](dn351033\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN class](./jet-retrievecolumn-class.md)
 
-[JET_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN members](./jet-retrievecolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

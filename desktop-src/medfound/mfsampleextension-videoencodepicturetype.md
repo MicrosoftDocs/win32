@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of picture that is output by a video encoder.
+description: Specifies the type of picture that is output by a video encoder.
 ms.assetid: 18A47033-3EAC-46C3-94AB-6ED20732F63C
 title: MFSampleExtension_VideoEncodePictureType attribute (Mfapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The [**H.264 Video Encoder**](h-264-video-encoder.md) sets this attribute on the
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | None supported<br/>                                                          |

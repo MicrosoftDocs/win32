@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginExternalBackup Function"
 title: JetBeginExternalBackup Function
 TOCTitle: JetBeginExternalBackup Function
 ms:assetid: 702e6cbf-4648-40f2-b2eb-6194759d4cde
@@ -75,7 +76,7 @@ A group of bits that specify zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -168,13 +169,13 @@ If the function fails, the backup session will not be initiated. If another back
 
 #### Remarks
 
-The external backup process (as started by **JetBeginExternalBackup**) is designed to allow a fuzzy transaction online backup of the entire instance to a target device as a stream. The backup will contain all the database files that are attached to the instance using [JetAttachDatabase](gg294074\(v=exchg.10\).md) (for a full backup), followed by their associated database patch files (if supported), and finally by the transaction log files that were generated during the backup process. The end result will be a set of files that can be restored from the stream, possibly combined with existing database and log files, and finally recovered to a consistent state.
+The external backup process (as started by **JetBeginExternalBackup**) is designed to allow a fuzzy transaction online backup of the entire instance to a target device as a stream. The backup will contain all the database files that are attached to the instance using [JetAttachDatabase](./jetattachdatabase-function.md) (for a full backup), followed by their associated database patch files (if supported), and finally by the transaction log files that were generated during the backup process. The end result will be a set of files that can be restored from the stream, possibly combined with existing database and log files, and finally recovered to a consistent state.
 
-The general order of operations for a full backup consists of the following calls. First, **JetBeginExternalBackup** is called to start the backup process. Then, [JetGetAttachInfo](gg269286\(v=exchg.10\).md) is called to get the list of databases that are attached to the instance that needs to be backed up. For each of these databases, [JetOpenFile](gg269249\(v=exchg.10\).md) is called, followed by a number of [JetReadFile](gg269257\(v=exchg.10\).md) calls, and then by a call to [JetCloseFile](gg294127\(v=exchg.10\).md). Then, [JetGetLogInfo](gg294055\(v=exchg.10\).md) is called to get a list of database patch and log files to be backed up. For each of these files, another sequence of [JetOpenFile](gg269249\(v=exchg.10\).md), [JetReadFile](gg269257\(v=exchg.10\).md), and [JetCloseFile](gg294127\(v=exchg.10\).md) calls are made. Then, any undesired transaction log files are deleted using [JetTruncateLog](gg269263\(v=exchg.10\).md). Finally, the backup is ended by a call to [JetEndExternalBackup](gg269176\(v=exchg.10\).md).
+The general order of operations for a full backup consists of the following calls. First, **JetBeginExternalBackup** is called to start the backup process. Then, [JetGetAttachInfo](./jetgetattachinfo-function.md) is called to get the list of databases that are attached to the instance that needs to be backed up. For each of these databases, [JetOpenFile](./jetopenfile-function.md) is called, followed by a number of [JetReadFile](./jetreadfile-function.md) calls, and then by a call to [JetCloseFile](./jetclosefile-function.md). Then, [JetGetLogInfo](./jetgetloginfo-function.md) is called to get a list of database patch and log files to be backed up. For each of these files, another sequence of [JetOpenFile](./jetopenfile-function.md), [JetReadFile](./jetreadfile-function.md), and [JetCloseFile](./jetclosefile-function.md) calls are made. Then, any undesired transaction log files are deleted using [JetTruncateLog](./jettruncatelog-function.md). Finally, the backup is ended by a call to [JetEndExternalBackup](./jetendexternalbackup-function.md).
 
 It is also possible to modify this set of steps to perform an incremental backup of the instance. An incremental backup enumerates and backs up log files. Incremental backups are only possible if circular logging is not enabled.
 
-It is also possible to modify this set of steps to allow subsequent differential backups of the instance to be performed. To perform a differential backup, do not call [JetTruncateLog](gg269263\(v=exchg.10\).md) in the previous full or incremental backup. By not calling [JetTruncateLog](gg269263\(v=exchg.10\).md), you enable subsequent backups to be differential with respect to the last full or incremental backup. Differential backups are only possible if circular logging is not enabled.
+It is also possible to modify this set of steps to allow subsequent differential backups of the instance to be performed. To perform a differential backup, do not call [JetTruncateLog](./jettruncatelog-function.md) in the previous full or incremental backup. By not calling [JetTruncateLog](./jettruncatelog-function.md), you enable subsequent backups to be differential with respect to the last full or incremental backup. Differential backups are only possible if circular logging is not enabled.
 
 The database patch file is a special auxiliary file that is used to store database page images under certain circumstances during the backup. This file must be present in the same location as its associated database during a restore operation. This file is only used in Windows 2000. As a result, any application that is written to work against Windows 2000 and other releases must support database patch files, if they are present, but also must not fail if they are not present.
 
@@ -212,18 +213,17 @@ The database patch file is a special auxiliary file that is used to store databa
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetBeginExternalBackupInstance](gg294132\(v=exchg.10\).md)  
-[JetCloseFile](gg294127\(v=exchg.10\).md)  
-[JetEndExternalBackup](gg269176\(v=exchg.10\).md)  
-[JetEndExternalBackupInstance2](gg294047\(v=exchg.10\).md)  
-[JetGetAttachInfo](gg269286\(v=exchg.10\).md)  
-[JetGetLogInfo](gg294055\(v=exchg.10\).md)  
-[JetOpenFile](gg269249\(v=exchg.10\).md)  
-[JetReadFile](gg269257\(v=exchg.10\).md)  
-[JetStopBackup](gg294067\(v=exchg.10\).md)  
-[JetTruncateLog](gg269263\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetBeginExternalBackupInstance](./jetbeginexternalbackupinstance-function.md)  
+[JetCloseFile](./jetclosefile-function.md)  
+[JetEndExternalBackup](./jetendexternalbackup-function.md)  
+[JetEndExternalBackupInstance2](./jetendexternalbackupinstance2-function.md)  
+[JetGetAttachInfo](./jetgetattachinfo-function.md)  
+[JetGetLogInfo](./jetgetloginfo-function.md)  
+[JetOpenFile](./jetopenfile-function.md)  
+[JetReadFile](./jetreadfile-function.md)  
+[JetStopBackup](./jetstopbackup-function.md)  
+[JetTruncateLog](./jettruncatelog-function.md)

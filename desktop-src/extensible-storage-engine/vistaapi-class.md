@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi class"
 title: VistaApi class (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaApi class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.Vista.VistaApi
@@ -35,7 +36,7 @@ ESENT APIs that were first supported in Windows Vista.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.Vista.VistaApi  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[VistaApi members](dn335317\(v=exchg.10\).md)
+[VistaApi members](./vistaapi-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

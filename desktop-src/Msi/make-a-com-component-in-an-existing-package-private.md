@@ -1,5 +1,5 @@
 ---
-Description: An administrator can force a COM-client application to always use the same copy of a COM-server in an existing package&\#8212;without affecting other applications&\#8212;by specifying an isolated components relationship between the COM server and client.
+description: An administrator can force a COM-client application to always use the same copy of a COM-server in an existing package&\#8212;without affecting other applications&\#8212;by specifying an isolated components relationship between the COM server and client.
 ms.assetid: 814eca94-2bb5-4aff-8de3-473da71d4400
 title: Make a COM Component in an Existing Package Private
 ms.topic: article

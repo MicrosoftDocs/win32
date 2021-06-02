@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: StringColumnValue constructor"
 title: StringColumnValue constructor 
 TOCTitle: 'StringColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.StringColumnValue.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # StringColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public StringColumnValue()
 
 #### Reference
 
-[StringColumnValue class](dn351135\(v=exchg.10\).md)
+[StringColumnValue class](./stringcolumnvalue-class.md)
 
-[StringColumnValue members](dn351145\(v=exchg.10\).md)
+[StringColumnValue members](./stringcolumnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

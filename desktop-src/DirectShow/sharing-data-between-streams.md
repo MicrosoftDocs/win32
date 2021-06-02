@@ -1,5 +1,5 @@
 ---
-Description: Sharing Data Between Streams
+description: Sharing Data Between Streams
 ms.assetid: e18eecf8-9475-420a-9a60-4b1b5f8fd43a
 title: Sharing Data Between Streams
 ms.topic: article

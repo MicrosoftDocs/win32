@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO.crstmap property"
 title: JET_RSTINFO.crstmap property 
 TOCTitle: 'crstmap property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTINFO.crstmap
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the number of elements in the restore-map array.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](./jet-rstinfo-class.md)
 
-[JET_RSTINFO members](dn335237\(v=exchg.10\).md)
+[JET_RSTINFO members](./jet-rstinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

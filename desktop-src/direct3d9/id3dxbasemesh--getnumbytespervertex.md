@@ -1,5 +1,5 @@
 ---
-Description: Gets the number of bytes per vertex.
+description: Gets the number of bytes per vertex.
 ms.assetid: a5028af0-16a4-494b-8fe2-5f607fc07d14
 title: ID3DXBaseMesh::GetNumBytesPerVertex method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the number of bytes per vertex.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS members"
 title: JET_LGPOS members
 TOCTitle: JET_LGPOS members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_LGPOS
@@ -15,7 +16,7 @@ Include inherited members
 
 Describes an offset in the log sequence.
 
-The [JET_LGPOS](hh578063\(v=exchg.10\).md) type exposes the following members.
+The [JET_LGPOS](./jet-lgpos-structure2.md) type exposes the following members.
 
 ## Properties
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](./jet-lgpos-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

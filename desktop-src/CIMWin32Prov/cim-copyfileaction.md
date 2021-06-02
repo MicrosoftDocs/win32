@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CopyFileAction class represents moving or copying files from a computer system to a new location.
+description: The CIM\_CopyFileAction class represents moving or copying files from a computer system to a new location.
 ms.assetid: c80b5002-d489-4b7e-b9a2-4460c3596958
 ms.tgt_platform: multiple
 title: CIM_CopyFileAction class
@@ -877,7 +877,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

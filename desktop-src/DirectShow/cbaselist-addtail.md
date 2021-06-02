@@ -1,5 +1,5 @@
 ---
-Description: The AddTail method appends another list to the end of this list.
+description: The AddTail method appends another list to the end of this list.
 ms.assetid: 996523cd-d9ba-406a-afdf-494d328dc9dd
 title: CBaseList.AddTail method (Wxlist.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ If the method fails, some items may have been added to the list.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: ICE55 validates that all LockPermission objects exist and have valid permission values.
+description: ICE55 validates that all LockPermission objects exist and have valid permission values.
 ms.assetid: e23e43ce-942f-4f6b-b5fd-cf366f7a7fe5
 title: ICE55
 ms.topic: article

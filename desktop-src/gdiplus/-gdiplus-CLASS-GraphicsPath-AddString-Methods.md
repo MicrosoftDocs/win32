@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the AddString methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
+description: This topic lists the AddString methods of the GraphicsPath class. For a complete list of methods for the GraphicsPath class, see GraphicsPath.
 ms.assetid: 048d67c9-1f57-4b05-b262-7d04ede69267
 title: GraphicsPath.AddString methods
 ms.date: 07/02/2019

@@ -1,5 +1,5 @@
 ---
-Description: The EnumMediaTypes method enumerates the pin's preferred media types. This method implements the IPin::EnumMediaTypes method.
+description: CTransInPlaceOutputPin.EnumMediaTypes method - The EnumMediaTypes method enumerates the pin's preferred media types. This method implements the IPin::EnumMediaTypes method.
 ms.assetid: 942c6594-3053-484a-a0f7-286dcd3f7550
 title: CTransInPlaceOutputPin.EnumMediaTypes method (Transip.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This method returns the **IEnumMediaTypes** interface from the upstream output p
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

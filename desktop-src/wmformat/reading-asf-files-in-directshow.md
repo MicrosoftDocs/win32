@@ -24,7 +24,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reading ASF Files in DirectShow
+# Reading ASF Files in DirectShow (Windows Media Format 11 SDK)
 
 Playback of ASF files is handled by the [WM ASF Reader](wm-asf-reader-filter.md) filter. When the WM ASF Reader reads a file, it automatically creates an output pin for each stream, including Web streams, script command streams, and any other type of arbitrary stream. In the case of multiple bit rate files, pins are created only for the currently selected streams.
 

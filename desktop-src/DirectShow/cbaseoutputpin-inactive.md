@@ -1,5 +1,5 @@
 ---
-Description: The Inactive method notifies the pin that the filter is no longer active.
+description: CBaseOutputPin.Inactive method - The Inactive method notifies the pin that the filter is no longer active.
 ms.assetid: 14a020de-2102-4d49-8a34-d59abe6698d1
 title: CBaseOutputPin.Inactive method (Amfilter.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ If you override this method, call the base-class method from your overriding met
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

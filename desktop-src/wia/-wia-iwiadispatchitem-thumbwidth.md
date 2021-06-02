@@ -1,5 +1,5 @@
 ---
-Description: The width, in pixels, of the thumbnail image. This property returns -1 if this item does not support thumbnails. Read-only.
+description: The width, in pixels, of the thumbnail image. This property returns -1 if this item does not support thumbnails. Read-only.
 ms.assetid: 44930ca6-1ca9-40eb-b6f0-96094d9d03ad
 title: Item.ThumbWidth property
 ms.topic: reference
@@ -38,7 +38,7 @@ Variable that receives the width.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

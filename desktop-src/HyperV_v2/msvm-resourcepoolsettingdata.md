@@ -1,5 +1,5 @@
 ---
-Description: Represents the settings of a Msvm\_ResourcePool instance that are not allocation related.
+description: Msvm_ResourcePoolSettingData class - Represents the settings of a Msvm\_ResourcePool instance that are not allocation related.
 ms.assetid: 32e0066c-7e14-454c-8aa9-06e093ef8072
 title: Msvm_ResourcePoolSettingData class
 ms.topic: reference
@@ -376,7 +376,7 @@ The type of resource this resource pool can allocate. This property is inherited
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

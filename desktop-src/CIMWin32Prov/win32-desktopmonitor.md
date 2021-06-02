@@ -1,5 +1,5 @@
 ---
-Description: Represents the type of monitor or display device attached to the computer system.
+description: Represents the type of monitor or display device attached to the computer system.
 ms.assetid: 922be3c1-3c7b-4418-a72f-ab5ada91a7a4
 ms.tgt_platform: multiple
 title: Win32_DesktopMonitor class
@@ -1384,7 +1384,7 @@ The [PS Create a Computer Configuration Drawing using Visio](https://Gallery.Tec
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

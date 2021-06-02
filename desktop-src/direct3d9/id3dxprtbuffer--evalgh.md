@@ -1,5 +1,5 @@
 ---
-Description: Applies stored texture gutter data to an ID3DXPRTBuffer texture buffer.
+description: Applies stored texture gutter data to an ID3DXPRTBuffer texture buffer.
 ms.assetid: 05cc0709-543a-4df5-980a-8549451d396b
 title: ID3DXPRTBuffer::EvalGH method (D3DX9Mesh.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method makes an internal call to [**ID3DXTextureGutterHelper::ApplyGuttersF
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -21,7 +21,7 @@ Contains the IP address of the host in dotted decimal notation, omitting the lea
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ipHostNumber                         |
 | Ldap-Display-Name | ipHostNumber                         |
@@ -45,7 +45,7 @@ Contains the IP address of the host in dotted decimal notation, omitting the lea
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -66,7 +66,7 @@ Contains the IP address of the host in dotted decimal notation, omitting the lea
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -87,7 +87,7 @@ Contains the IP address of the host in dotted decimal notation, omitting the lea
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -108,7 +108,7 @@ Contains the IP address of the host in dotted decimal notation, omitting the lea
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |

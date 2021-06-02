@@ -1,5 +1,5 @@
 ---
-Description: Performs a Catmull-Rom interpolation, using the specified 2D vectors.
+description: D3DXVec2CatmullRom function (D3DX10Math.h) - Performs a Catmull-Rom interpolation, using the specified 2D vectors.
 ms.assetid: 8ec1abfa-0fa9-486a-b86d-bbb8f1d63849
 title: D3DXVec2CatmullRom function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXVec2CatmullRom function
+# D3DXVec2CatmullRom function (D3DX10Math.h)
 
 Performs a Catmull-Rom interpolation, using the specified 2D vectors.
 
@@ -167,7 +167,7 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

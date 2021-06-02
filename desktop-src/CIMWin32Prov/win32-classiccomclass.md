@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_ClassicCOMClass WMI class represents the properties of a COM component.
+description: The Win32\_ClassicCOMClass WMI class represents the properties of a COM component.
 ms.assetid: 49b10991-cc2e-40a1-bbb3-a816a52d1a91
 ms.tgt_platform: multiple
 title: Win32_ClassicCOMClass class
@@ -257,7 +257,7 @@ The **Win32\_ClassicCOMClass** class is derived from [**Win32\_COMClass**](win32
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

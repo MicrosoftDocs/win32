@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSectorSizeMismatchException constructor"
 title: EsentLogSectorSizeMismatchException constructor 
 TOCTitle: 'EsentLogSectorSizeMismatchException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSectorSizeMismatchException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogSectorSizeMismatchException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentLogSectorSizeMismatchException()
 
 #### Reference
 
-[EsentLogSectorSizeMismatchException class](dn334646\(v=exchg.10\).md)
+[EsentLogSectorSizeMismatchException class](./esentlogsectorsizemismatchexception-class.md)
 
-[EsentLogSectorSizeMismatchException members](dn334592\(v=exchg.10\).md)
+[EsentLogSectorSizeMismatchException members](./esentlogsectorsizemismatchexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Contains a 1-byte hexBinary that is used to differentiate between NICs made by the same IHV.
+description: Contains a 1-byte hexBinary that is used to differentiate between NICs made by the same IHV.
 ms.assetid: fd6bae3d-27a8-4bff-9340-b444312b8216
 title: type (OUIHeader) Element
 ms.topic: reference
@@ -40,7 +40,7 @@ The element is defined by the [**OUIHeader**](wlan-profileschema-ouiheader-ihv-e
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

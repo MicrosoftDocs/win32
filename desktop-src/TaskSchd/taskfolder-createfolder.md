@@ -41,7 +41,7 @@ ppFolder = .CreateFolder( _
 *folderName* \[in\]
 </dt> <dd>
 
-The name that is used to identify the folder. If "FolderName\\SubFolder1\\SubFolder2" is specified, the entire folder tree will be created if the folders do not exist. This parameter can be a relative path to the current [**TaskFolder**](taskfolder.md) instance. The root task folder is specified with a backslash (\). An example of a task folder path, under the root task folder, is \\MyTaskFolder. The '.' character cannot be used to specify the current task folder and the '..' characters cannot be used to specify the parent task folder in the path.
+The name that is used to identify the folder. If "FolderName\\SubFolder1\\SubFolder2" is specified, the entire folder tree will be created if the folders do not exist. This parameter can be a relative path to the current [**TaskFolder**](taskfolder.md) instance. The root task folder is specified with a backslash (\\). An example of a task folder path, under the root task folder, is \\MyTaskFolder. The '.' character cannot be used to specify the current task folder and the '..' characters cannot be used to specify the parent task folder in the path.
 
 </dd> <dt>
 
@@ -60,7 +60,7 @@ A [**TaskFolder**](taskfolder.md) object that represents the new subfolder.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

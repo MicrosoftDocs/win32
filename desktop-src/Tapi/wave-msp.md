@@ -1,5 +1,5 @@
 ---
-Description: The Wave MSP Wavemsp.dll fits legacy TSPs written prior to the introduction of MSPs into TAPI 3s MSP-based streaming architecture.
+description: The Wave MSP Wavemsp.dll fits legacy TSPs written prior to the introduction of MSPs into TAPI 3s MSP-based streaming architecture.
 ms.assetid: 203fcd7b-bf9d-48ad-9452-1f6357c82946
 title: Wave MSP
 ms.topic: article

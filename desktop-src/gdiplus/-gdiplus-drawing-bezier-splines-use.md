@@ -1,5 +1,5 @@
 ---
-Description: 'A B&\#233;zier spline is defined by four points: a start point, two control points, and an end point.'
+description: 'A B&\#233;zier spline is defined by four points: a start point, two control points, and an end point.'
 ms.assetid: af19e82b-0d13-4fb0-981e-8d5dd1bbfb36
 title: Drawing Bezier Splines
 ms.topic: article

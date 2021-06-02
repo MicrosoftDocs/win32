@@ -21,7 +21,7 @@ Control access rights authorizing rootDSE modification operations on a PDC FSMO 
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Run-Protect-Admin-Groups-Task        |
 | Display-Name | Run Protect Admin Groups Task        |
@@ -38,7 +38,7 @@ Control access rights authorizing rootDSE modification operations on a PDC FSMO 
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 78                                           |
@@ -49,7 +49,7 @@ Control access rights authorizing rootDSE modification operations on a PDC FSMO 
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 78                                           |

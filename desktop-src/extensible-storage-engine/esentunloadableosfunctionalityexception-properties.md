@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentUnloadableOSFunctionalityException properties"
 title: EsentUnloadableOSFunctionalityException properties
 TOCTitle: EsentUnloadableOSFunctionalityException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentUnloadableOSFunctionalityException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentUnloadableOSFunctionalityException](dn350835\(v=exchg.10\).md) type exposes the following members.
+The [EsentUnloadableOSFunctionalityException](./esentunloadableosfunctionalityexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentUnloadableOSFunctionalityException class](dn350835\(v=exchg.10\).md)
+[EsentUnloadableOSFunctionalityException class](./esentunloadableosfunctionalityexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

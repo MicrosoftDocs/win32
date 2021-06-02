@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 2c1d912e-464e-48d2-ba4f-c0b9a811b25e
 title: Quick Starter Guide
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Quick Starter Guide
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 This page is designed to give you a quick start to implement PrintTicket and PrintCapabilities for your application or device driver. Although we encourage that you read the Print Schema specification in full, this page will help give you a jump start in key areas you should pay attention to.
 
@@ -32,7 +32,7 @@ This page is designed to give you a quick start to implement PrintTicket and Pri
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-Description: The NAME macro generates a debug-only string.
+description: The NAME macro generates a debug-only string.
 ms.assetid: '5cb9f803-dd2b-4055-bdcc-e754ef5fa505'
 title: NAME (Wxdebug.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ pObject = new CBaseObject(NAME("My Object"));
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

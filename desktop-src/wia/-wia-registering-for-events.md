@@ -1,5 +1,5 @@
 ---
-Description: The following example uses the Windows Image Acquisition (WIA) 1.0 IWiaDevMgr::RegisterEventCallbackCLSID method to register for notification when any Windows Image Acquisition (WIA) device is connected to the system.
+description: The following example uses the Windows Image Acquisition (WIA) 1.0 IWiaDevMgr::RegisterEventCallbackCLSID method to register for notification when any Windows Image Acquisition (WIA) device is connected to the system.
 ms.assetid: 1f2c7bc9-876a-4693-9439-52735e4b9d5f
 title: Registering for Events
 ms.topic: article

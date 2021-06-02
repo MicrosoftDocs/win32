@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRegisterCallback Function"
 title: JetRegisterCallback Function
 TOCTitle: JetRegisterCallback Function
 ms:assetid: 04c82fac-ffa2-477f-b4dd-59bbf1dde3c8
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetRegisterCallback Function
 
-The **JetRegisterCallback** function allows the application to configure the database engine to issue notifications to the application for specific events. These notifications are associated with a specific table and remain in effect only until the instance containing the table is shut down using [JetTerm](gg269298\(v=exchg.10\).md).
+The **JetRegisterCallback** function allows the application to configure the database engine to issue notifications to the application for specific events. These notifications are associated with a specific table and remain in effect only until the instance containing the table is shut down using [JetTerm](./jetterm-function.md).
 
 **Windows XP:  JetRegisterCallback** is introduced in Windows XP.
 
@@ -56,7 +57,7 @@ The cursor to use for this call.
 
 A bit mask composed of the callback reasons for which the application wishes to receive notifications.
 
-To create this bit mask, simply or together valid callback reasons from the [JET_CBTYP](gg294071\(v=exchg.10\).md) enumeration.
+To create this bit mask, simply or together valid callback reasons from the [JET_CBTYP](./jet-cbtyp.md) enumeration.
 
 *pCallback*
 
@@ -68,11 +69,11 @@ Specifies a context pointer that will be given to the callback function for the 
 
 *phCallbackId*
 
-Returns a handle that can later be used to cancel the registration of the given callback function using [JetUnregisterCallback](gg294116\(v=exchg.10\).md).
+Returns a handle that can later be used to cancel the registration of the given callback function using [JetUnregisterCallback](./jetunregistercallback-function.md).
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -133,7 +134,7 @@ On failure, the callback will not be registered. No change to the database state
 
 #### Remarks
 
-This method provides a means for the application to associate volatile callbacks with a table in a database. If the application wishes to associate persisted callbacks with a table in the database then it should pass the callback to [JET_TABLECREATE](gg294146\(v=exchg.10\).md) using [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md).
+This method provides a means for the application to associate volatile callbacks with a table in a database. If the application wishes to associate persisted callbacks with a table in the database then it should pass the callback to [JET_TABLECREATE](./jet-tablecreate-structure.md) using [JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md).
 
 #### Requirements
 
@@ -169,13 +170,12 @@ This method provides a means for the application to associate volatile callbacks
 
 #### See Also
 
-[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetTerm](gg269298\(v=exchg.10\).md)  
-[JetUnregisterCallback](gg294116\(v=exchg.10\).md)
-
+[JET_CALLBACK](./jet-callback-callback-function.md)  
+[JET_CBTYP](./jet-cbtyp.md)  
+[JET_ERR](./jet-err.md)  
+[JET_HANDLE](./jet-handle.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetTerm](./jetterm-function.md)  
+[JetUnregisterCallback](./jetunregistercallback-function.md)

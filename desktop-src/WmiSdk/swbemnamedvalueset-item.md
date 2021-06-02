@@ -1,5 +1,5 @@
 ---
-Description: The Item method of the SWbemNamedValueSet object gets an SWbemNamedValue object from the collection.
+description: The Item method of the SWbemNamedValueSet object gets an SWbemNamedValue object from the collection.
 ms.assetid: ccebe65e-6032-43d5-9004-2247c3b96d6d
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet.Item method (Wbemdisp.h)
@@ -100,7 +100,7 @@ For examples of adding and retrieving named values, see [**SWbemNamedValue.Value
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

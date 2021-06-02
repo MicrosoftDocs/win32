@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTransReadOnlyException properties"
 title: EsentTransReadOnlyException properties
 TOCTitle: EsentTransReadOnlyException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTransReadOnlyException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTransReadOnlyException](dn350809\(v=exchg.10\).md) type exposes the following members.
+The [EsentTransReadOnlyException](./esenttransreadonlyexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentTransReadOnlyException class](dn350809\(v=exchg.10\).md)
+[EsentTransReadOnlyException class](./esenttransreadonlyexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

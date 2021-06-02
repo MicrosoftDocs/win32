@@ -1,5 +1,5 @@
 ---
-Description: Copies the contents of an open certificate store to an encoded string.
+description: Copies the contents of an open certificate store to an encoded string.
 ms.assetid: 00697579-f929-42ed-8e8e-5c970fe4465b
 title: Store.Export method
 ms.topic: reference
@@ -82,7 +82,7 @@ This method returns a string that contains the certificates in the store in the 
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

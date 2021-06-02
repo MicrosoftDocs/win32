@@ -37,95 +37,47 @@ uint32 InstallOpenLicenseKeyPack(
 );
 ```
 
-
-
 ## Parameters
 
-<dl> <dt>
-
 *sLicenseNumber* \[in\]
-</dt> <dd>
 
 8-character numeric string that is provided with the license key pack. The *sLicenseNumber* parameter cannot contain hyphens.
 
-</dd> <dt>
-
 *sAuthorizationNumber* \[in\]
-</dt> <dd>
 
 15-character alphanumeric string that is provided with the license key. The *sAuthorizationNumber* parameter cannot contain hyphens.
 
-</dd> <dt>
-
 *ProductVersion* \[in\]
-</dt> <dd>
 
 Product version.
 
-<dt>
-
-0
-</dt> <dd>
-
-Not supported.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-Not supported.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-Windows Server 2008
-
-</dd> </dl> </dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | Not supported |
+| 1 | Not supported |
+| 2 | Windows Server 2008/Windows Server 2008 R2 |
+| 4 | Windows Server 2012/Windows Server 2012 R2 |
+| 5 | Windows Server 2016 |
+| 6 | Windows Server 2019 |
 
 *ProductType* \[in\]
 </dt> <dd>
 
 Product type.
 
-<dt>
-
-0
-</dt> <dd>
-
-The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-This product type is not valid.
-
-</dd> </dl> </dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license. |
+| 1 | The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license. |
+| 2 | This product type is not valid. |
 
 *LicenseCount* \[in\]
-</dt> <dd>
 
 The number of licenses to install.
 
-</dd> <dt>
-
 *KeyPackId* \[out\]
-</dt> <dd>
 
 Receives the key pack identifier.
-
-</dd> </dl>
 
 ## Return value
 
@@ -141,7 +93,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                            |

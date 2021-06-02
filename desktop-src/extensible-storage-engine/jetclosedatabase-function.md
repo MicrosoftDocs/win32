@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCloseDatabase Function"
 title: JetCloseDatabase Function
 TOCTitle: JetCloseDatabase Function
 ms:assetid: e17a05dd-c30b-4e8f-8538-91a65e8052d2
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetCloseDatabase Function
 
-The **JetCloseDatabase** function closes a database file that was previously opened with [JetOpenDatabase](gg269299\(v=exchg.10\).md).
+The **JetCloseDatabase** function closes a database file that was previously opened with [JetOpenDatabase](./jetopendatabase-function.md).
 
 ```cpp
     JET_ERR JET_API JetCloseDatabase(
@@ -53,7 +54,7 @@ Reserved for future use.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -117,11 +118,10 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCreateDatabase](gg269212\(v=exchg.10\).md)  
-[JetCreateDatabase2](gg269208\(v=exchg.10\).md)  
-[JetOpenDatabase](gg269299\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCreateDatabase](./jetcreatedatabase-function.md)  
+[JetCreateDatabase2](./jetcreatedatabase2-function.md)  
+[JetOpenDatabase](./jetopendatabase-function.md)

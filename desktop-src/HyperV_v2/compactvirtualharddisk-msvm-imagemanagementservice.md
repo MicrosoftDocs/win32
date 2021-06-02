@@ -1,5 +1,5 @@
 ---
-Description: Compacts a virtual hard disk file.
+description: Compacts a virtual hard disk file.
 ms.assetid: 1E64BD91-6FE6-4658-9EBF-615FC705B920
 title: CompactVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -212,7 +212,7 @@ public static void CompactVirtualHardDisk(string vhdPath, VirtualHardDiskCompact
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

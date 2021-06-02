@@ -1,5 +1,5 @@
 ---
-Description: Specifies the type of I/O bus used by the graphics adapter.
+description: Specifies the type of I/O bus used by the graphics adapter.
 ms.assetid: 11bb7e0e-8d49-45f2-89aa-7583dd925edf
 title: D3DBUSTYPE enumeration (D3d9types.h)
 ms.topic: reference
@@ -129,7 +129,7 @@ As many as three flags can be set. Flags in the range 0x00 through 0x04 (**D3DBU
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

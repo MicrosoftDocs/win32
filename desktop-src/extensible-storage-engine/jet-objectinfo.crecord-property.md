@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO.cRecord property"
 title: JET_OBJECTINFO.cRecord property 
 TOCTitle: 'cRecord property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.cRecord
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the number of records in the table.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](./jet-objectinfo-class.md)
 
-[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](./jet-objectinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

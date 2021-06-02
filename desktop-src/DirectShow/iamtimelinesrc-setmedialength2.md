@@ -1,5 +1,5 @@
 ---
-Description: The SetMediaLength2 method specifies the duration of the source file. This method is equivalent to IAMTimelineSrc::SetMediaLength, but takes a REFTIME value.
+description: The SetMediaLength2 method specifies the duration of the source file. This method is equivalent to IAMTimelineSrc::SetMediaLength, but takes a REFTIME value.
 ms.assetid: 1a1dcf23-2041-4791-bce7-0ecbe33df592
 title: IAMTimelineSrc::SetMediaLength2 method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

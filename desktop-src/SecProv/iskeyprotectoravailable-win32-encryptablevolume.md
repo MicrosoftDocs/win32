@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether protectors are available for the volume.
+description: Indicates whether protectors are available for the volume.
 ms.assetid: 92a959ea-27ec-4d38-a955-846bfd7b3a60
 title: IsKeyProtectorAvailable method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -102,7 +102,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

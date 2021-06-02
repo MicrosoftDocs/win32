@@ -1,6 +1,6 @@
 ---
 title: Pager Control Messages
-description: .
+description: Pager Control Messages
 ms.assetid: 9f0f9f7c-49c5-4c44-9c0a-692a62383550
 ms.topic: article
 ms.date: 05/31/2018

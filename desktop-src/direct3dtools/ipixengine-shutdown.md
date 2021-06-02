@@ -1,5 +1,5 @@
 ---
-Description: Shuts down the engine.
+description: Shuts down the engine.
 MS-HAID: vspixengine.IPixEngine\_ShutDown
 MSHAttr:
 - PreferredSiteName:MSDN

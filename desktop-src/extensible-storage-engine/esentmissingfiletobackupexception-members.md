@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingFileToBackupException members"
 title: EsentMissingFileToBackupException members
 TOCTitle: EsentMissingFileToBackupException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.MissingFileToBackup exceptions.
 
-The [EsentMissingFileToBackupException](dn334656\(v=exchg.10\).md) type exposes the following members.
+The [EsentMissingFileToBackupException](./esentmissingfiletobackupexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentMissingFileToBackupException class](dn334656\(v=exchg.10\).md)
+[EsentMissingFileToBackupException class](./esentmissingfiletobackupexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

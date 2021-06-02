@@ -1,5 +1,5 @@
 ---
-Description: The following table lists all the HRESULT values that can be returned by the methods of the XPS Document API.
+description: The following table lists all the HRESULT values that can be returned by the methods of the XPS Document API.
 ms.assetid: 9e6db1e3-7151-4538-8607-b7185ebc0110
 title: XPS Document Errors (Xpsobjectmodel.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ The following table lists all the **HRESULT** values that can be returned by the
 </tr>
 <tr class="odd">
 <td><span id="XPS_E_INVALID_MARKUP"></span><span id="xps_e_invalid_markup"></span><dl> <dt><strong>XPS_E_INVALID_MARKUP</strong></dt> <dt>0x8052000c</dt> </dl></td>
-<td>The markup being read contains an element or an attribute that does not conform to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>.<br/>
+<td>The markup being read contains an element or an attribute that does not conform to the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>.<br/>
 <blockquote>
 [!Note]<br />
 To represent floating-point values, the XPS OM uses the <strong>FLOAT</strong> data type instead of <strong>DOUBLE</strong>. If an XPS document has an element with floating-point data that does not fit into a <strong>FLOAT</strong> value, this error will be returned when that value is encountered during deserialization.
@@ -119,7 +119,7 @@ To represent floating-point values, the XPS OM uses the <strong>FLOAT</strong> d
 </tr>
 <tr class="odd">
 <td><span id="XPS_E_INVALID_RESOURCE_KEY"></span><span id="xps_e_invalid_resource_key"></span><dl> <dt><strong>XPS_E_INVALID_RESOURCE_KEY</strong></dt> <dt>0x80520002</dt> </dl></td>
-<td>According to the <a href="https://www.microsoft.com/download/details.aspx?id=11816">XML Paper Specification</a>, the lookup key string is not valid.<br/></td>
+<td>According to the <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>, the lookup key string is not valid.<br/></td>
 </tr>
 <tr class="even">
 <td><span id="XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE"></span><span id="xps_e_invalid_thumbnail_image_type"></span><dl> <dt><strong>XPS_E_INVALID_THUMBNAIL_IMAGE_TYPE</strong></dt> <dt>0x80520005</dt> </dl></td>
@@ -344,7 +344,7 @@ Some XPS document API methods make calls to the [Packaging](/previous-versions/w
 
 
 
-|                                     |                                                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 \[desktop apps only\]<br/> |

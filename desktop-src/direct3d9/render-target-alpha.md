@@ -1,5 +1,5 @@
 ---
-Description: The frame buffer blender can now blend alpha channels independent from color-channel blending on render targets. This control is enabled with a new render state, D3DRS\_SEPARATEALPHABLENDENABLE.
+description: The frame buffer blender can now blend alpha channels independent from color-channel blending on render targets. This control is enabled with a new render state, D3DRS\_SEPARATEALPHABLENDENABLE.
 ms.assetid: 6d30b13e-f4c6-4bc4-8735-15c398c099f1
 title: Render Target Alpha (Direct3D 9)
 ms.topic: article

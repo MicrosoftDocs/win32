@@ -1,5 +1,5 @@
 ---
-Description: The following structures are used with enhanced-format metafiles.
+description: The following structures are used with enhanced-format metafiles.
 ms.assetid: 6a509ed5-cea3-4318-ad17-9d20425a6e80
 title: Metafile Structures
 ms.topic: article

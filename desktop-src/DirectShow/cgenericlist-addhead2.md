@@ -1,7 +1,7 @@
 ---
-Description: The AddHead method adds a list to the front of the list.
+description: The AddHead method adds a list to the front of the list.
 ms.assetid: 9a344bed-d871-4082-9bbb-330f2ff42cca
-title: CGenericList.AddHead method (Wxlist.h)
+title: CGenericList.AddHead method (Wxlist.h) - pList parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.AddHead method
+# CGenericList.AddHead method (Wxlist.h) - pList parameter
 
 The `AddHead` method adds a list to the front of the list.
 
@@ -50,14 +50,10 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header | Wxlist.h (include Streams.h) |
+| Library| Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

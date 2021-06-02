@@ -1,6 +1,6 @@
 ---
 title: External.cancelNavigate method
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.cancelNavigate method
 ms.assetid: e65d64fb-292c-4413-9727-b24609e78d68
 keywords:
 - cancelNavigate method Windows Media Player
@@ -59,7 +59,7 @@ For example, suppose the Player is currently displaying the view of an album wit
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

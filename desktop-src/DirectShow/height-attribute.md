@@ -1,5 +1,5 @@
 ---
-Description: The height attribute specifies the height of the output video, in pixels.
+description: The height attribute specifies the height of the output video, in pixels.
 ms.assetid: 8dbae3e2-31bb-4ab0-bba8-b79061338ea4
 title: height Attribute
 ms.topic: reference

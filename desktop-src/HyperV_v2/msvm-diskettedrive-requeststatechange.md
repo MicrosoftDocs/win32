@@ -1,5 +1,5 @@
 ---
-Description: Requests a state change.
+description: RequestStateChange method of the Msvm_DisketteDrive class - Requests a state change.
 ms.assetid: 349081c0-65d8-470d-8d84-7c616c0f81b6
 title: RequestStateChange method of the Msvm_DisketteDrive class
 ms.topic: reference
@@ -152,7 +152,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: Verifies the specified signature by using the supplied hash and the public key.
+description: Verifies the specified signature by using the supplied hash and the public key.
 ms.assetid: fa274851-15f2-4be0-9e2f-4cdced36daff
 title: SslVerifySignature function (Sslprovider.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ Current implementations of the server side of the [*Transport Layer Security pro
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

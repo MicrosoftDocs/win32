@@ -1,5 +1,5 @@
 ---
-Description: The GetJob function retrieves information about a specified print job.
+description: The GetJob function retrieves information about a specified print job.
 ms.assetid: 57e59f84-d2a0-4722-b0fc-6673f7bb5c57
 title: GetJob function (Winspool.h)
 ms.topic: reference
@@ -104,7 +104,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

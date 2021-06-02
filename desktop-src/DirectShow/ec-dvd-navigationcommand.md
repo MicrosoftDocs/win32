@@ -1,5 +1,5 @@
 ---
-Description: Sent when the DVD Navigator processes a DVD navigation command.
+description: Sent when the DVD Navigator processes a DVD navigation command.
 ms.assetid: 95e502b6-330f-4bc7-8adc-851913987370
 title: EC_DVD_NavigationCommand (Dvdevcode.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The Scripting API for WMI contains flags, common values, and error codes.
+description: The Scripting API for WMI contains flags, common values, and error codes.
 ms.assetid: feaab757-3167-420b-8f42-edced4cd4c53
 ms.tgt_platform: multiple
 title: Scripting API Constants

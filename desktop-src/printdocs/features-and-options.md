@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 8084fa15-85e5-4c8d-b585-8c349482a6eb
 title: Features and Options
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Features and Options
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Feature/Option and parameter constructs are used in a PrintCapabilities document to represent device attributes that contribute to the definition of the device configuration. For an example of a Feature/Option construct, consider a printing device that is capable of printing in several resolutions. The device attribute that defines the resolution can be represented as a Feature instance, with each of the possible output resolution values represented as an individual Option instance. One Option instance can represent a resolution of 300 dpi, another can represent a resolution of 600 dpi, and so on.
 
@@ -20,7 +20,7 @@ Note that PrintCapabilities authors are not required to utilize the nesting capa
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

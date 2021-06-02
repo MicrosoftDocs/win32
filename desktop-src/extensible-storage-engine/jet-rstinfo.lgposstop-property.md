@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO.lgposStop property"
 title: JET_RSTINFO.lgposStop property 
 TOCTitle: 'lgposStop property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTINFO.lgposStop
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the log position to stop recovery at.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public JET_LGPOS lgposStop { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](hh578063\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_LGPOS](./jet-lgpos-structure2.md)  
 
 ## See also
 
 #### Reference
 
-[JET_RSTINFO class](dn335235\(v=exchg.10\).md)
+[JET_RSTINFO class](./jet-rstinfo-class.md)
 
-[JET_RSTINFO members](dn335237\(v=exchg.10\).md)
+[JET_RSTINFO members](./jet-rstinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingPatchPageException constructor"
 title: EsentMissingPatchPageException constructor 
 TOCTitle: 'EsentMissingPatchPageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMissingPatchPageException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMissingPatchPageException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMissingPatchPageException()
 
 #### Reference
 
-[EsentMissingPatchPageException class](dn334679\(v=exchg.10\).md)
+[EsentMissingPatchPageException class](./esentmissingpatchpageexception-class.md)
 
-[EsentMissingPatchPageException members](dn334693\(v=exchg.10\).md)
+[EsentMissingPatchPageException members](./esentmissingpatchpageexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

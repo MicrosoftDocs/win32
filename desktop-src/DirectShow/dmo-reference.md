@@ -1,5 +1,5 @@
 ---
-Description: DMO Reference
+description: DMO Reference
 ms.assetid: 34954718-78c7-4309-9e47-5ece6948a957
 title: DMO Reference
 ms.topic: article

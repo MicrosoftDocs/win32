@@ -1,5 +1,5 @@
 ---
-Description: Used to identify a key storage property.
+description: Used to identify a key storage property.
 ms.assetid: 407f0e42-07c8-4ec6-81c6-f8bde005adb0
 title: Key Storage Property Identifiers (Ncrypt.h)
 ms.topic: reference
@@ -552,7 +552,7 @@ The following values are used to define limits of property data.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

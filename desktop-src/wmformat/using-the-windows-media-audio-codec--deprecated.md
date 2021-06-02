@@ -1,6 +1,6 @@
 ---
 title: Using the Windows Media Audio Codec
-description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs.
+description: For current documentation on Windows Media codecs and digital signal processors, see Windows Media Audio and Video Codec and DSP APIs. | Using the Windows Media Audio Codec
 ms.assetid: 1ea0c353-7b76-45ff-9a2c-951018d5af06
 keywords:
 - Using the Windows Media Audio Codec windows Media Format

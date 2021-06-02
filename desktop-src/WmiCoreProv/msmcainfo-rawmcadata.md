@@ -1,5 +1,5 @@
 ---
-Description: Specifies the raw Machine Check Architecture (MCA) logs. This class is available only in 64-bit Windows systems.
+description: Specifies the raw Machine Check Architecture (MCA) logs. This class is available only in 64-bit Windows systems.
 ms.assetid: d465ba8d-14b2-4911-ae19-19ebeb32126e
 title: MSMCAInfo_RawMCAData class
 ms.topic: reference
@@ -112,7 +112,7 @@ The **MSMCAInfo\_RawMCAData** class is derived from [**MSMCAInfo**](msmcainfo.md
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

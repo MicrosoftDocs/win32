@@ -1,5 +1,5 @@
 ---
-Description: End-of-Stream Notifications
+description: End-of-Stream Notifications
 ms.assetid: cf2b13bc-5b54-4ac7-8a33-7434126fdf31
 title: End-of-Stream Notifications
 ms.topic: article

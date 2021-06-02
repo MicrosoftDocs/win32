@@ -1,5 +1,5 @@
 ---
-Description: The RemoveFromBlob function deletes any level of BLOB entry (Owner, Category, or Tag).
+description: The RemoveFromBlob function deletes any level of BLOB entry (Owner, Category, or Tag).
 ms.assetid: b8bb01e0-8b97-4c95-96f5-f2a30c8700e9
 title: RemoveFromBlob function (Netmon.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ If the function is unsuccessful, the return value is a NMERR value that indicate
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Creates and returns a FolderItem object that represents a specified item.
+description: Creates and returns a FolderItem object that represents a specified item.
 ms.assetid: 3af7052c-fb81-4a96-9bf9-379b0365a376
 title: Folder.ParseName method (Shldisp.h)
 ms.topic: reference
@@ -145,7 +145,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

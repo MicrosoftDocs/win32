@@ -1,5 +1,5 @@
 ---
-Description: Specifies the degree to which the codec should reduce the effective color range of the video.
+description: Specifies the degree to which the codec should reduce the effective color range of the video.
 ms.assetid: 7227957b-59c9-4dd9-ad2b-a383e888cd46
 title: MFPKEY_RANGEREDUX Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If you set the value to 0x00000000, range reduction is completely disabled.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

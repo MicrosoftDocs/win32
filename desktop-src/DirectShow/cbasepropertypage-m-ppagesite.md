@@ -1,5 +1,5 @@
 ---
-Description: The m\_pPageSite member variable contains a pointer to the IPropertyPageSite interface of the property page site.
+description: The m\_pPageSite member variable contains a pointer to the IPropertyPageSite interface of the property page site.
 ms.assetid: 678db5d0-0c07-4846-ada1-99aa6749f301
 title: CBasePropertyPage::m_pPageSite member (Cprop.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ IPropertyPageSite* m_pPageSite;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

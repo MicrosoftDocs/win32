@@ -1,5 +1,5 @@
 ---
-Description: Queries a previously created kernel-mode representation of a Microsoft DirectDraw object for its capabilities.
+description: Queries a previously created kernel-mode representation of a Microsoft DirectDraw object for its capabilities.
 ms.assetid: ec07c7ef-4c57-4ed9-849b-f30692cc3181
 title: NtGdiDdQueryDirectDrawObject function (Ntgdi.h)
 ms.topic: reference
@@ -140,7 +140,7 @@ Applications are advised to use the DirectDraw and [Direct3D](../direct3d10/d3d1
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

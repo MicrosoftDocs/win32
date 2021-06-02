@@ -1,5 +1,5 @@
 ---
-Description: The RefreshDisplayType method updates the object's video format to match the specified display.
+description: The RefreshDisplayType method updates the object's video format to match the specified display.
 ms.assetid: cc2bdfeb-80f1-4fb6-859d-977d644a5e08
 title: CImageDisplay.RefreshDisplayType method (Winutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Call this method whenever a WM\_DISPLAYCHANGED message is received, or to specif
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

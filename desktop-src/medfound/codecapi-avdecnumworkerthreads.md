@@ -1,5 +1,5 @@
 ---
-Description: Sets the number of worker threads that are used by a video decoder.
+description: Sets the number of worker threads that are used by a video decoder.
 ms.assetid: A1570BB5-62BC-46C0-B9C9-61F99AA13BBE
 title: CODECAPI_AVDecNumWorkerThreads property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ For the [**ICodecAPI**](/windows/desktop/api/strmif/nn-strmif-icodecapi) interfa
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

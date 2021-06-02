@@ -1,5 +1,5 @@
 ---
-Description: Attempts to place the service in the resumed state.
+description: Attempts to place the service in the resumed state.
 ms.assetid: df582402-d932-4132-a1ad-257b2993bbf6
 ms.tgt_platform: multiple
 title: ResumeService method of the Win32_BaseService class
@@ -277,7 +277,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: A superclass for classes that represent display devices.
+description: A superclass for classes that represent display devices.
 ms.assetid: 6e3b4b40-dacb-4b89-b636-0c1b18872a51
 title: CIM_Display class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_Display class
+# CIM_Display class (Hyper-V management)
 
 A superclass for classes that represent display devices.
 
@@ -36,7 +36,7 @@ The **CIM\_Display** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

@@ -1,5 +1,5 @@
 ---
-Description: The base class for the performance counter classes Win32\_PerfRawData and Win32\_PerfFormattedData.
+description: The base class for the performance counter classes Win32\_PerfRawData and Win32\_PerfFormattedData.
 ms.assetid: c754b619-a70f-4a56-8a43-2b36c8f8370b
 ms.tgt_platform: multiple
 title: Win32_Perf class
@@ -212,7 +212,7 @@ The **Win32\_Perf** class derives from [**CIM\_StatisticalInformation**](cim-sta
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                             |

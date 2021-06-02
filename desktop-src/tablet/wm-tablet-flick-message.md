@@ -1,5 +1,5 @@
 ---
-Description: Sent when a user performs a pen flick. A window receives this message through its WindowProc function.
+description: Sent when a user performs a pen flick. A window receives this message through its WindowProc function.
 ms.assetid: 9433aadf-3440-4249-8f2c-3e22ebc949fb
 title: WM_TABLET_FLICK message (Tpcshrd.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Use caution when handling the **WM\_TABLET\_FLICK** message. **WM\_TABLET\_FLICK
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                 |

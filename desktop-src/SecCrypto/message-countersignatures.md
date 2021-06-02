@@ -1,5 +1,5 @@
 ---
-Description: Sometimes a signed message requires a countersignature.
+description: Sometimes a signed message requires a countersignature.
 ms.assetid: de83a9ad-4e88-4477-8c9e-6dd7d5ec9e8f
 title: Message Countersignatures
 ms.topic: article

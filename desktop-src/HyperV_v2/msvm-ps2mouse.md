@@ -1,5 +1,5 @@
 ---
-Description: Represents a PS2 mouse device.
+description: Represents a PS2 mouse device.
 ms.assetid: '5e02ec15-95e6-4d82-833e-a48ca117a890'
 title: Msvm_Ps2Mouse class
 ms.topic: reference
@@ -947,7 +947,7 @@ Access to the **Msvm\_Ps2Mouse** class might be restricted by UAC Filtering. For
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

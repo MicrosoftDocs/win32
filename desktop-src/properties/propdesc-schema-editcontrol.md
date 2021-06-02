@@ -1,5 +1,5 @@
 ---
-Description: Specifies what control to use when editing the property.
+description: Specifies what control to use when editing the property.
 ms.assetid: cef6d76f-664a-4808-a224-e82a5adb2d70
 title: editControl
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST.columnidLangid property"
 title: JET_INDEXLIST.columnidLangid property 
 TOCTitle: 'columnidLangid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.columnidLangid
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_INDEXLIST.columnidLangid property
 
-Gets the columnid of the column in the temporary table which stores the language id (LCID) of the index. The column is of type [Short](hh577895\(v=exchg.10\).md).
+Gets the columnid of the column in the temporary table which stores the language id (LCID) of the index. The column is of type [Short](./jet-coltyp-enumeration.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_COLUMNID columnidLangid { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)  
 
 ## See also
 
 #### Reference
 
-[JET_INDEXLIST class](dn335123\(v=exchg.10\).md)
+[JET_INDEXLIST class](./jet-indexlist-class.md)
 
-[JET_INDEXLIST members](dn335164\(v=exchg.10\).md)
+[JET_INDEXLIST members](./jet-indexlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

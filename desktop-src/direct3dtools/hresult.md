@@ -1,5 +1,5 @@
 ---
-Description: Custom HRESULT values for the graphics diagnostics capture interface.
+description: Custom HRESULT values for the graphics diagnostics capture interface.
 MS-HAID: vspixengine.Hresult
 MSHAttr:
 - PreferredSiteName:MSDN

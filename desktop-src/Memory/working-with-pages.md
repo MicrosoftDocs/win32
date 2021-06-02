@@ -1,5 +1,5 @@
 ---
-Description: To determine the size of a page on the current computer, use the GetSystemInfo function.
+description: To determine the size of a page on the current computer, use the GetSystemInfo function.
 ms.assetid: 953ddfc4-6126-41fb-81a3-0ce1f0fb223f
 title: Working with Pages
 ms.topic: article

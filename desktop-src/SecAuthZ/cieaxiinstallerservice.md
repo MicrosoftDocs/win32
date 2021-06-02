@@ -1,5 +1,5 @@
 ---
-Description: Implements the IAxiService and IeAxiServiceCallback interfaces.
+description: Implements the IAxiService and IeAxiServiceCallback interfaces.
 ms.assetid: 39f2ee3a-d4fd-4091-acd6-3d6b715bea75
 title: CIeAxiInstallerService object
 ms.topic: reference
@@ -36,7 +36,7 @@ This object is not declared in a public header. Applications must define it them
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Business, Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                                                                                 |

@@ -1,5 +1,5 @@
 ---
-Description: An abstract class that represents settings for a given instance of an Ethernet switch feature.
+description: An abstract class that represents settings for a given instance of an Ethernet switch feature.
 ms.assetid: c1720649-585f-45a9-8329-06787bd8b600
 title: Msvm_EthernetSwitchFeatureSettingData class
 ms.topic: reference
@@ -109,7 +109,7 @@ Uniquely identifies an instance of this class. This property is inherited from [
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: WUA Success and Error Codes"
 ms.assetid: 484CABA1-5488-41AC-A6CC-51D0084DFC54
 title: WUA Success and Error Codes (Wuerror.h)
 ms.topic: reference
@@ -112,7 +113,7 @@ The Windows Update Agent (WUA) API can return the following success or error cod
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wuerror.h</dt> </dl> |
 

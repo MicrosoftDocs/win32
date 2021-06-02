@@ -1,5 +1,5 @@
 ---
-Description: Retrieves all of the IContextNode objects that match the specified criteria.
+description: Retrieves all of the IContextNode objects that match the specified criteria.
 ms.assetid: c0ba46f4-a286-454a-8de2-6663fd2dfed6
 title: IInkAnalyzer::FindNodesWithCallBack method (IACom.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ If the [**IInkAnalyzer**](iinkanalyzer.md) contains no such [**IContextNode**](i
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

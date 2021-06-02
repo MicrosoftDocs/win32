@@ -1,5 +1,5 @@
 ---
-Description: An association between an instance of CIM\_VirtualSystemSettingData and the CIM\_VirtualSystemSettingData instance which represents the most recent snapshot upon which this object is based.
+description: An association between an instance of CIM\_VirtualSystemSettingData and the CIM\_VirtualSystemSettingData instance which represents the most recent snapshot upon which this object is based.
 ms.assetid: f6e93c22-077b-4604-8d0d-9584b1f4dce1
 ms.tgt_platform: multiple
 title: CIM_ParentChildSettingData class
@@ -115,7 +115,7 @@ The snapshot setting data upon which the Child setting data is based.
 
 
 
-|                      |                        |
+| Requirement | Value |
 |----------------------|------------------------|
 | Namespace<br/> | Root\\CIMV2<br/> |
 

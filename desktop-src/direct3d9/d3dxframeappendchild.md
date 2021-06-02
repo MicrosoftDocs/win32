@@ -1,5 +1,5 @@
 ---
-Description: Adds a child frame to a frame.
+description: Adds a child frame to a frame.
 ms.assetid: a04c9bbe-8e54-467a-8e02-27c6469f4dac
 title: D3DXFrameAppendChild function (D3dx9anim.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

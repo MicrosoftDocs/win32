@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the font with which the control is currently drawing its text.
+description: Retrieves the font with which the control is currently drawing its text.
 ms.assetid: a6d05ef5-9933-4d03-a677-a8328bf1cb7d
 title: WM_GETFONT message (Winuser.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ The return value is a handle to the font used by the control, or **NULL** if the
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

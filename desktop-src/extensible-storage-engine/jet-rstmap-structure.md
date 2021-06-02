@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP Structure"
 title: JET_RSTMAP Structure
 TOCTitle: JET_RSTMAP Structure
 ms:assetid: bddf95e4-1bd4-4e3a-ad3e-d01f6564e33b
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_RSTMAP Structure
 
-The **JET_RSTMAP** structure enables the remapping of database file paths that are stored in the transaction logs during recovery, when used by the [JetInit](gg294068\(v=exchg.10\).md) and [JetExternalRestore](gg294088\(v=exchg.10\).md) functions. This enables the databases to be moved when offline or when restored from backup.
+The **JET_RSTMAP** structure enables the remapping of database file paths that are stored in the transaction logs during recovery, when used by the [JetInit](./jetinit-function.md) and [JetExternalRestore](./jetexternalrestore-function.md) functions. This enables the databases to be moved when offline or when restored from backup.
 
 ```cpp
     typedef struct {
@@ -73,6 +74,5 @@ The new absolute path for the database.
 
 ### See Also
 
-[JetExternalRestore](gg294088\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JetExternalRestore](./jetexternalrestore-function.md)  
+[JetInit](./jetinit-function.md)

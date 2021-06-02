@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of a synthetic Ethernet adapter.
+description: Represents the configured state of a synthetic Ethernet adapter.
 ms.assetid: BE895BAF-7766-43A2-9659-3ABA97A16134
 title: Msvm_SyntheticEthernetPortSettingData class
 ms.topic: reference
@@ -526,7 +526,7 @@ See [Querying networking objects](querying-networking-objects.md).
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

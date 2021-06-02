@@ -1,5 +1,5 @@
 ---
-Description: The Peer-to-Peer Infrastructure offers you many options for developing peer-to-peer networking applications.
+description: The Peer-to-Peer Infrastructure offers you many options for developing peer-to-peer networking applications.
 ms.assetid: b0e647d3-4562-46db-b676-0f7a0d9bb594
 title: Peer Networking Scenarios
 ms.topic: article

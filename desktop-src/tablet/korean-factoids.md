@@ -1,5 +1,5 @@
 ---
-Description: The following tables list formats that are available for each factoid used in Korean.
+description: The following tables list formats that are available for each factoid used in Korean.
 ms.assetid: b3ff3082-b692-412e-b3ad-331ac5d9080e
 title: Korean Factoids
 ms.topic: article
@@ -23,7 +23,7 @@ The following tables list formats that are available for each factoid used in Ko
 
  
 
-## Korean Factoids, continued
+## Korean Factoids, part 2
 
 
 
@@ -36,7 +36,7 @@ The following tables list formats that are available for each factoid used in Ko
 
  
 
-## Korean Factoids, continued
+## Korean Factoids, part 3
 
 
 

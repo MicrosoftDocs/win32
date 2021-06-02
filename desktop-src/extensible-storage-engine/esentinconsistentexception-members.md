@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInconsistentException members"
 title: EsentInconsistentException members
 TOCTitle: EsentInconsistentException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInconsistentException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for Inconsistent exceptions.
 
-The [EsentInconsistentException](dn350488\(v=exchg.10\).md) type exposes the following members.
+The [EsentInconsistentException](./esentinconsistentexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +168,6 @@ Top
 
 #### Reference
 
-[EsentInconsistentException class](dn350488\(v=exchg.10\).md)
+[EsentInconsistentException class](./esentinconsistentexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

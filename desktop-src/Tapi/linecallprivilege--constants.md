@@ -1,5 +1,5 @@
 ---
-Description: The LINECALLPRIVILEGE\_ bit-flag constants describe the kinds of access rights or privileges an application with a call handle may have to the corresponding call.
+description: The LINECALLPRIVILEGE\_ bit-flag constants describe the kinds of access rights or privileges an application with a call handle may have to the corresponding call.
 ms.assetid: a58b7e9e-696e-4421-9b31-1ba8afe6e03b
 title: LINECALLPRIVILEGE_ Constants (Tapi.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ When a call handle is first provided to an application or whenever call privileg
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

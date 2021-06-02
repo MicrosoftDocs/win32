@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBackupSequenceException constructor"
 title: EsentInvalidBackupSequenceException constructor 
 TOCTitle: 'EsentInvalidBackupSequenceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidBackupSequenceException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidBackupSequenceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidBackupSequenceException()
 
 #### Reference
 
-[EsentInvalidBackupSequenceException class](dn319414\(v=exchg.10\).md)
+[EsentInvalidBackupSequenceException class](./esentinvalidbackupsequenceexception-class.md)
 
-[EsentInvalidBackupSequenceException members](dn319460\(v=exchg.10\).md)
+[EsentInvalidBackupSequenceException members](./esentinvalidbackupsequenceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Minimum values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
+description: Minimum values for use with the XAUDIO2FX\_REVERB\_PARAMETERS structure.
 ms.assetid: e3072c3a-a539-303b-0cd9-4c2ae7f528ba
 title: XAUDIO2FX_REVERB_MIN (Xaudio2fx.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Xaudio2fx.h</dt> </dl> |
 

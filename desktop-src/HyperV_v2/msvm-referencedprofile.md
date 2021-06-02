@@ -1,5 +1,5 @@
 ---
-Description: Describes a profile that is referenced by another registered profile.
+description: Describes a profile that is referenced by another registered profile.
 ms.assetid: 36FC0161-C57F-488A-9B4A-C86C6EB481D7
 title: Msvm_ReferencedProfile class
 ms.topic: reference
@@ -75,7 +75,7 @@ A registered profile that references other profiles.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

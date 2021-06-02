@@ -1,5 +1,5 @@
 ---
-Description: Specifies the container type of an encoded file.
+description: Specifies the container type of an encoded file.
 ms.assetid: 97fd968a-6843-4695-aece-02f9acd618fd
 title: MF_TRANSCODE_CONTAINERTYPE attribute (Mfidl.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ This attribute can be used to configure the file-container type for the sink wri
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

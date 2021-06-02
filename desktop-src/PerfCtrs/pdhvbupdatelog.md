@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbUpdateLog function function updates the current query and writes new data to the log file. This function calls PdhUpdateLog.
+description: The PdhVbUpdateLog function function updates the current query and writes new data to the log file. This function calls PdhUpdateLog.
 ms.assetid: a7a3ad18-2d61-448e-9764-ba363398e804
 title: PdhVbUpdateLog function
 ms.topic: reference
@@ -70,7 +70,7 @@ There must be a currently opened query, and the desired counters must be added t
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: The CCritSec class provides a thread lock.
+description: The CCritSec class provides a thread lock.
 ms.assetid: ecc60afe-15d0-4780-8133-1dfc558c6325
 title: CCritSec class (Wxutil.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ This class is a thin wrapper for a Windows **CRITICAL\_SECTION** object. You can
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

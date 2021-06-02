@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnLongException constructor"
 title: EsentColumnLongException constructor 
 TOCTitle: 'EsentColumnLongException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnLongException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentColumnLongException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentColumnLongException()
 
 #### Reference
 
-[EsentColumnLongException class](dn334271\(v=exchg.10\).md)
+[EsentColumnLongException class](./esentcolumnlongexception-class.md)
 
-[EsentColumnLongException members](dn274184\(v=exchg.10\).md)
+[EsentColumnLongException members](./esentcolumnlongexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

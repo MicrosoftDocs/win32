@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of Attribute objects.
+description: Represents a collection of Attribute objects.
 ms.assetid: 6116e61e-3ec5-4992-90ab-e3c7ced291b6
 title: Attributes object
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Attributes object
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, Windows XP. Instead, use the [**CryptographicAttributeObjectCollection Class**](/dotnet/api/system.security.cryptography.cryptographicattributeobjectcollection?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Attributes** object represents a collection of [**Attribute**](attribute.md) objects. Each [**Attribute**](attribute.md) object represents a single attribute of a message.
 
@@ -69,7 +69,7 @@ The **Attributes** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

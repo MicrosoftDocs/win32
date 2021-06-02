@@ -1,5 +1,5 @@
 ---
-Description: The FeatureRequestState property is a read-write property of the Session object.
+description: The FeatureRequestState property is a read-write property of the Session object.
 ms.assetid: ba19603b-ac81-4a8b-81ca-ad5f28974599
 title: Session.FeatureRequestState property
 ms.topic: reference
@@ -100,7 +100,7 @@ If the property fails, you can obtain extended error information by using the [*
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

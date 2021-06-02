@@ -1,5 +1,5 @@
 ---
-Description: Sent when a window belonging to a different application than the active window is about to be activated. The message is sent to the application whose window is being activated and to the application whose window is being deactivated.
+description: Sent when a window belonging to a different application than the active window is about to be activated. The message is sent to the application whose window is being activated and to the application whose window is being deactivated.
 ms.assetid: fc3626ac-8f19-4aa6-8fe9-5020d00c09db
 title: WM_ACTIVATEAPP message (Winuser.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ If an application processes this message, it should return zero.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

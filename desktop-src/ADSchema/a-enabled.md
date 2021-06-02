@@ -21,7 +21,7 @@ This attribute is used to signify whether a given crossRef is enabled.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Enabled                              |
 | Ldap-Display-Name | Enabled                              |
@@ -48,7 +48,7 @@ This attribute is used to signify whether a given crossRef is enabled.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8C21                                     |
@@ -69,7 +69,7 @@ This attribute is used to signify whether a given crossRef is enabled.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8C21                                     |
@@ -90,7 +90,7 @@ This attribute is used to signify whether a given crossRef is enabled.
 
 
 
-|                        |                                                                                                                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                                  |
 | MAPI-Id                | 0x8C21                                                                                                                                                              |
@@ -111,7 +111,7 @@ This attribute is used to signify whether a given crossRef is enabled.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8C21                                     |
@@ -132,7 +132,7 @@ This attribute is used to signify whether a given crossRef is enabled.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8C21                                     |
@@ -153,7 +153,7 @@ This attribute is used to signify whether a given crossRef is enabled.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8C21                                     |
@@ -174,7 +174,7 @@ This attribute is used to signify whether a given crossRef is enabled.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | 0x8C21                                     |

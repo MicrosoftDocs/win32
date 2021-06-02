@@ -1,5 +1,5 @@
 ---
-Description: Secures the volume's encryption key with a specially formatted 48-digit password.
+description: Secures the volume's encryption key with a specially formatted 48-digit password.
 ms.assetid: 23e0b79a-2feb-441a-9785-7ecd3bb4b6c6
 title: ProtectKeyWithNumericalPassword method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -102,7 +102,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

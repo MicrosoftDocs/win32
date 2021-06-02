@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether an item is a valid SendTo target. This information is provided by certain Shell folders.
+description: Indicates whether an item is a valid SendTo target. This information is provided by certain Shell folders.
 ms.assetid: c2b30722-bc02-443b-9bdc-8b6c1c20d354
 title: System.IsSendToTarget
 ms.topic: article

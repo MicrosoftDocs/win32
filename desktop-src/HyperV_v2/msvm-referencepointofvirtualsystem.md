@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_VirtualSystemReferencePoint to the corresponding Msvm\_VirtualSystem objects.
+description: Associates the Msvm\_VirtualSystemReferencePoint to the corresponding Msvm\_VirtualSystem objects.
 ms.assetid: 5a9cb099-c0ae-4088-a64c-f2720a6cb9c8
 title: Msvm_ReferencePointOfVirtualSystem class
 ms.topic: reference
@@ -82,7 +82,7 @@ An [**Msvm\_VirtualSystemReferencePoint**](msvm-virtualsystemreferencepoint.md) 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

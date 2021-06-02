@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFeatureNotAvailableException constructor"
 title: EsentFeatureNotAvailableException constructor 
 TOCTitle: 'EsentFeatureNotAvailableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFeatureNotAvailableException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentFeatureNotAvailableException()
 
 #### Reference
 
-[EsentFeatureNotAvailableException class](dn274291\(v=exchg.10\).md)
+[EsentFeatureNotAvailableException class](./esentfeaturenotavailableexception-class.md)
 
-[EsentFeatureNotAvailableException members](dn274326\(v=exchg.10\).md)
+[EsentFeatureNotAvailableException members](./esentfeaturenotavailableexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

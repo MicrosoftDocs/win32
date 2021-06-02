@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.DeepClone method"
 title: JET_ERRINFOBASIC.DeepClone method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'DeepClone method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.DeepClone
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a deep copy of the object.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,20 +52,19 @@ public JET_ERRINFOBASIC DeepClone()
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC](dn335334\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC](./jet-errinfobasic-class.md)  
 A deep copy of the object.  
 
 #### Implements
 
-[IDeepCloneable\<T\>.DeepClone()](hh578936\(v=exchg.10\).md)  
+[IDeepCloneable\<T\>.DeepClone()](./ideepcloneable-t-.deepclone-method.md)  
 
 ## See also
 
 #### Reference
 
-[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](./jet-errinfobasic-class.md)
 
-[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](./jet-errinfobasic-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

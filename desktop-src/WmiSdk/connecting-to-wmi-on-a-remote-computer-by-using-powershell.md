@@ -1,5 +1,5 @@
 ---
-Description: Connecting to WMI Remotely with PowerShell
+description: Connecting to WMI Remotely with PowerShell
 ms.assetid: 9a06f0c3-2845-48aa-9988-79cc4607ce19
 ms.tgt_platform: multiple
 title: Connecting to WMI Remotely with PowerShell

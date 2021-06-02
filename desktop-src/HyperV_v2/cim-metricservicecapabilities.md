@@ -1,5 +1,5 @@
 ---
-Description: Describes the capabilities of a CIM\_MetricService object.
+description: Describes the capabilities of a CIM\_MetricService object.
 ms.assetid: 3b4da02f-5298-46d4-876c-404baca38c03
 title: CIM_MetricServiceCapabilities class
 ms.topic: reference
@@ -279,7 +279,7 @@ An array that contains names of methods that are supported by the metric service
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

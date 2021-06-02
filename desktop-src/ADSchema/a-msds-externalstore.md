@@ -22,7 +22,7 @@ A string that identifies the location of an external store, such as a database.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-External-Store                        |
 | Ldap-Display-Name | msDS-ExternalStore                          |
@@ -47,7 +47,7 @@ A string that identifies the location of an external store, such as a database.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -68,7 +68,7 @@ A string that identifies the location of an external store, such as a database.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -89,7 +89,7 @@ A string that identifies the location of an external store, such as a database.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -110,7 +110,7 @@ A string that identifies the location of an external store, such as a database.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -131,7 +131,7 @@ A string that identifies the location of an external store, such as a database.
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |

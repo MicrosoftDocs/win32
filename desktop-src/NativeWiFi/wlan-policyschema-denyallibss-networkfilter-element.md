@@ -1,5 +1,5 @@
 ---
-Description: Specifies if access to all ad-hoc networks is blocked.
+description: Specifies if access to all ad-hoc networks is blocked.
 ms.assetid: 9001ccbb-c158-44d7-8d31-38c91881886e
 title: denyAllIBSS (networkFilter) Element
 ms.topic: reference
@@ -32,7 +32,7 @@ The **denyAllIBSS** element is defined by the [**networkFilter**](wlan-policysch
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

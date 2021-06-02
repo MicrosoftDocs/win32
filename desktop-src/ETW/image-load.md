@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for image events. The following syntax is simplified from MOF code.
+description: This class is the event type class for image events. The following syntax is simplified from MOF code.
 ms.assetid: 70ec0542-16d3-4186-a346-7f3c44dedf67
 title: Image_Load class
 ms.topic: reference
@@ -267,7 +267,7 @@ The DCStart and DCEnd events enumerate all loaded images at the beginning and en
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

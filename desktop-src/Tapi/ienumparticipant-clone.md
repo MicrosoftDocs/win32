@@ -1,5 +1,5 @@
 ---
-Description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 ms.assetid: 551e0ddc-7ebf-4fc2-a155-0c9ee2f406d4
 title: IEnumParticipant::Clone method (Confpriv.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ TAPI calls the [**AddRef**](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

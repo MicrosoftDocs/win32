@@ -1,5 +1,5 @@
 ---
-Description: The Name property of the ConfigurableItem object returns the value from the Name column of the ModuleConfiguration table.
+description: The Name property of the ConfigurableItem object returns the value from the Name column of the ModuleConfiguration table.
 ms.assetid: c28f508f-0788-4b60-a383-65c508ceef5f
 title: ConfigurableItem.Name property (Mergemod.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ See [**get\_Name**](/windows/desktop/api/Mergemod/nf-mergemod-imsmconfigurableit
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

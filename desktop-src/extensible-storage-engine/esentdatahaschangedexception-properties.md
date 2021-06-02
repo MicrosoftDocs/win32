@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataHasChangedException properties"
 title: EsentDataHasChangedException properties
 TOCTitle: EsentDataHasChangedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDataHasChangedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDataHasChangedException](dn334397\(v=exchg.10\).md) type exposes the following members.
+The [EsentDataHasChangedException](./esentdatahaschangedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDataHasChangedException class](dn334397\(v=exchg.10\).md)
+[EsentDataHasChangedException class](./esentdatahaschangedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

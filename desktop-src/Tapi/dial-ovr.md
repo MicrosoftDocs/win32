@@ -1,5 +1,5 @@
 ---
-Description: Dial operations allow an application to send additional digits on a previously created session. An example use of partial dialing is to dial an extension. Partial dialing is sometimes referred to as incremental dialing or delayed dialing.
+description: Dial operations allow an application to send additional digits on a previously created session. An example use of partial dialing is to dial an extension. Partial dialing is sometimes referred to as incremental dialing or delayed dialing.
 ms.assetid: 1dfaefd7-f8dd-451e-af18-249c89bdb517
 title: Dial
 ms.topic: article

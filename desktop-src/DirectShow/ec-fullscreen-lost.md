@@ -1,5 +1,5 @@
 ---
-Description: The video renderer is switching out of full-screen mode.
+description: The video renderer is switching out of full-screen mode.
 ms.assetid: f720a9b6-930a-4ed7-9798-1c72fa7a11ff
 title: EC_FULLSCREEN_LOST (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ When the [Full Screen Renderer](full-screen-renderer-filter.md) loses activation
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

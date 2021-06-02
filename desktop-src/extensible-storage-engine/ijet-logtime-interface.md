@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IJET_LOGTIME interface"
 title: IJET_LOGTIME interface
 TOCTitle: IJET_LOGTIME interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IJET_LOGTIME
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Interface for common methods between JET_LOGTIME and JET_BKLOGTIME.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,7 +52,6 @@ public interface IJET_LOGTIME : INullableJetStruct
 
 #### Reference
 
-[IJET_LOGTIME members](hh578100\(v=exchg.10\).md)
+[IJET_LOGTIME members](./ijet-logtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

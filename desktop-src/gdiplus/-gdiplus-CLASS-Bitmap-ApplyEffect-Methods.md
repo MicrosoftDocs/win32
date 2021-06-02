@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the ApplyEffect methods of the Bitmap class. For a complete list of methods for the Bitmap class, see Bitmap Methods.
+description: This topic lists the ApplyEffect methods of the Bitmap class. For a complete list of methods for the Bitmap class, see Bitmap Methods.
 ms.assetid: 6b3d0a2f-acff-47a7-bc9f-6e9d659f683c
 title: Bitmap.ApplyEffect methods
 ms.date: 07/02/2019

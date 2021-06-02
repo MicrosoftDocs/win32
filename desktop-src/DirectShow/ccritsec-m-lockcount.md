@@ -1,5 +1,5 @@
 ---
-Description: Number of outstanding locks on this object.
+description: Number of outstanding locks on this object.
 ms.assetid: 27506c1d-6a9a-4410-80fb-6d4f2fd2f824
 title: CCritSec::m_lockCount member (Wxutil.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ This member variable is defined only in the debug version of the base class. The
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

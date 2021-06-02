@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt16ColumnValue constructor"
 title: UInt16ColumnValue constructor 
 TOCTitle: 'UInt16ColumnValue constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.UInt16ColumnValue.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # UInt16ColumnValue constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public UInt16ColumnValue()
 
 #### Reference
 
-[UInt16ColumnValue class](dn351247\(v=exchg.10\).md)
+[UInt16ColumnValue class](./uint16columnvalue-class.md)
 
-[UInt16ColumnValue members](dn351248\(v=exchg.10\).md)
+[UInt16ColumnValue members](./uint16columnvalue-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

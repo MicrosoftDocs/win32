@@ -1,5 +1,5 @@
 ---
-Description: The IsUsingTimeFormat method determines whether a specified time format is the format currently in use.
+description: The IsUsingTimeFormat method determines whether a specified time format is the format currently in use.
 ms.assetid: 86965bfc-fc9f-42d3-bcaa-2049195b98bd
 title: CSourceSeeking.IsUsingTimeFormat method (Ctlutil.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

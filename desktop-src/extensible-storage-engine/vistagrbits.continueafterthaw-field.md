@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaGrbits.ContinueAfterThaw field"
 title: VistaGrbits.ContinueAfterThaw field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: ContinueAfterThaw field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaGrbits.ContinueAfterThaw
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 The snapshot session continues after JetOSSnapshotThaw and will require a JetOSSnapshotEnd function call.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const SnapshotPrepareGrbit ContinueAfterThaw
 
 #### Reference
 
-[VistaGrbits class](dn335350\(v=exchg.10\).md)
+[VistaGrbits class](./vistagrbits-class.md)
 
-[VistaGrbits members](dn351282\(v=exchg.10\).md)
+[VistaGrbits members](./vistagrbits-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

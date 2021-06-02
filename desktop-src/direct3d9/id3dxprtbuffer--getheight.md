@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the height of the texture, in pixels.
+description: ID3DXPRTBuffer::GetHeight method - Retrieves the height of the texture, in pixels.
 ms.assetid: 811d0c74-89fc-42b2-951c-8791d6677353
 title: ID3DXPRTBuffer::GetHeight method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the height of the texture, in pixels.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

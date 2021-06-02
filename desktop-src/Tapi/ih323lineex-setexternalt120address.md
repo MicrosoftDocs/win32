@@ -1,5 +1,5 @@
 ---
-Description: The SetExternalT120Address method is called by an application to configure an external T.120 address for data exchange.
+description: The SetExternalT120Address method is called by an application to configure an external T.120 address for data exchange.
 ms.assetid: 094b43b9-eb15-468a-9986-86313490e1c3
 title: IH323LineEx::SetExternalT120Address method (H323priv.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>H323priv.h</dt> </dl> |

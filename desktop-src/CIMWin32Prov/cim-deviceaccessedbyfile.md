@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_DeviceAccessedByFile association class specifies the logical device accessed by using the referenced CIM\_DeviceFile class.
+description: The CIM\_DeviceAccessedByFile association class specifies the logical device accessed by using the referenced CIM\_DeviceFile class.
 ms.assetid: 8ba44f40-8b84-4f5c-b719-aded10877654
 ms.tgt_platform: multiple
 title: CIM_DeviceAccessedByFile class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

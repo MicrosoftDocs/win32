@@ -1,5 +1,5 @@
 ---
-Description: Requests an endpoint that is used to connect to a service.
+description: Requests an endpoint that is used to connect to a service.
 ms.assetid: 4C02EA78-AD77-42CD-B94F-C8C3ED26CB4C
 title: IUpdateEndpointProvider::GetServiceEndpoint method (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -154,7 +154,7 @@ If the endpoint does need authentication, then the caller can use the URL specif
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>                |

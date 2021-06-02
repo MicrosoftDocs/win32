@@ -1,5 +1,5 @@
 ---
-Description: The MergeEx method of the Merge object is equivalent to the Merge function, except that it takes an extra argument.
+description: The MergeEx method of the Merge object is equivalent to the Merge function, except that it takes an extra argument.
 ms.assetid: 83b6d62b-d176-42ac-b513-d1c2e562965c
 title: Merge.MergeEx method (Mergemod.h)
 ms.topic: reference
@@ -82,7 +82,7 @@ See [**MergeEx**](/windows/desktop/api/Mergemod/nf-mergemod-imsmmerge2-mergeex) 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Mergemod.dll 2.0 or later<br/>                                                    |
 | Header<br/>  | <dl> <dt>Mergemod.h</dt> </dl>   |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN.grbit property"
 title: JET_SETCOLUMN.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN.grbit
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets options for the set column operation.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public SetColumnGrbit grbit { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.SetColumnGrbit](hh538951\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.SetColumnGrbit](./setcolumngrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_SETCOLUMN class](dn335260\(v=exchg.10\).md)
+[JET_SETCOLUMN class](./jet-setcolumn-class.md)
 
-[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](./jet-setcolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

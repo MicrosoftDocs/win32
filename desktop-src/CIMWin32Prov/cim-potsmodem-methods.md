@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_POTSModem class exposes the following methods.
+description: The CIM\_POTSModem class exposes the following methods.
 ms.assetid: 64CD874A-732C-43A0-8495-142EEA59764A
 ms.tgt_platform: multiple
 title: CIM_POTSModem Methods

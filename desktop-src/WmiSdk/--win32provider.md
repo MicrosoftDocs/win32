@@ -1,5 +1,5 @@
 ---
-Description: Registers information about the physical implementation of a provider in WMI. Providers that do not set the HostingModel property are loaded, by default, to run in a Wmiprvse.exe process as NetworkServiceHostOrSelfHost.
+description: Registers information about the physical implementation of a provider in WMI. Providers that do not set the HostingModel property are loaded, by default, to run in a Wmiprvse.exe process as NetworkServiceHostOrSelfHost.
 ms.assetid: 41e0d938-00c6-4f4c-8027-8b8512398dee
 ms.tgt_platform: multiple
 title: '__Win32Provider class'
@@ -426,7 +426,7 @@ WMI must be able to distinguish pure providers from non-pure providers so that i
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

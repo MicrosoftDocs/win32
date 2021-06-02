@@ -1,5 +1,5 @@
 ---
-Description: The CreateMediaType function allocates a new AM\_MEDIA\_TYPE structure, including the format block.
+description: The CreateMediaType function allocates a new AM\_MEDIA\_TYPE structure, including the format block.
 ms.assetid: 841a8c51-6027-49d6-b3d8-b5e21e3d5f13
 title: CreateMediaType function (Mtype.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ To free the memory allocated by this function, call [**DeleteMediaType**](delete
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

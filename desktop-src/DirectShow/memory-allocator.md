@@ -1,5 +1,5 @@
 ---
-Description: Memory Allocator
+description: Memory Allocator
 ms.assetid: 2dc055a2-b77a-443d-b602-d9636cbe4db3
 title: Memory Allocator
 ms.topic: article
@@ -12,7 +12,7 @@ The Memory Allocator object allocates buffers for media samples. Filters can use
 
 
 
-|                  |                                        |
+| Label | Value |
 |------------------|----------------------------------------|
 | Class Identifier | CLSID\_MemoryAllocator                 |
 | Interfaces       | [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) |

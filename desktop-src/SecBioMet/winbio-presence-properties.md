@@ -117,7 +117,7 @@ The distance between the actual location of the iris and the ideal focal distanc
 
 
 
-|                                     |                                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                                                                                              |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                                                                                                     |

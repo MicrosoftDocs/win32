@@ -1,5 +1,5 @@
 ---
-Description: Sets the bone name.
+description: Sets the bone name.
 ms.assetid: 2eecddb8-4efa-41a3-be83-7404047a9857
 title: ID3DXSkinInfo::SetBoneName method (D3DX9Mesh.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Bone names are returned by [**D3DXLoadMeshFromXof**](d3dxloadmeshfromxof.md).
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

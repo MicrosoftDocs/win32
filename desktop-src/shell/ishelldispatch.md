@@ -1,5 +1,5 @@
 ---
-Description: Represents an object in the Shell.
+description: Represents an object in the Shell.
 title: IShellDispatch object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
-api_name: 
- - IShellDispatch
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -175,7 +166,7 @@ The **IShellDispatch** object has these properties.
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

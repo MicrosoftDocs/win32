@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNBASE class"
 title: JET_COLUMNBASE class
 TOCTitle: JET_COLUMNBASE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_COLUMNBASE
@@ -35,7 +36,7 @@ Describes a column in a table of an ESENT database.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_COLUMNBASE  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,6 +61,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_COLUMNBASE members](dn335046\(v=exchg.10\).md)
+[JET_COLUMNBASE members](./jet-columnbase-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

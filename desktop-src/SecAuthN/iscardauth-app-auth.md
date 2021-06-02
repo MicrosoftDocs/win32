@@ -1,5 +1,5 @@
 ---
-Description: The APP\_Auth method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a smart card.
+description: The APP\_Auth method authenticates the application. It allows an application to authenticate itself (using a challenge/signature protocol) when authentication is requested by a smart card.
 ms.assetid: 0b86ce09-ca17-4d74-bc14-46b17262e669
 title: ISCardAuth::APP_Auth method
 ms.topic: reference
@@ -85,7 +85,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

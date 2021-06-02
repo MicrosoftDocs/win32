@@ -1,5 +1,5 @@
 ---
-Description: The IUpdateServiceCollection interface defines the following properties.
+description: The IUpdateServiceCollection interface defines the following properties.
 ms.assetid: 340a63ee-8e31-467d-88d2-f320ccc0f054
 title: IUpdateServiceCollection Properties
 ms.topic: article

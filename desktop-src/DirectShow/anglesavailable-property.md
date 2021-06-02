@@ -1,5 +1,5 @@
 ---
-Description: The AnglesAvailable property retrieves the number of angles currently available.
+description: The AnglesAvailable property retrieves the number of angles currently available.
 ms.assetid: 1e2635d4-63f1-4c3d-a034-437489289bd7
 title: AnglesAvailable Property
 ms.topic: reference

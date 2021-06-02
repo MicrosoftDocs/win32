@@ -1,5 +1,5 @@
 ---
-Description: The TSPI LINE\_SENDMSPDATA message is sent when the telephony service provider (TSP) wants to pass information to the media service provider (MSP).
+description: The TSPI LINE\_SENDMSPDATA message is sent when the telephony service provider (TSP) wants to pass information to the media service provider (MSP).
 ms.assetid: 982f40b3-7758-493c-9d04-6480e3c9e86d
 title: LINE_SENDMSPDATA message (Tspi.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The service provider must negotiate a TAPI version 3.0 or later for this message
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.2<br/>                                                      |
 | Header<br/>       | <dl> <dt>Tspi.h</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.CacheSizeMax property"
 title: SystemParameters.CacheSizeMax property 
 TOCTitle: 'CacheSizeMax property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.CacheSizeMax
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the maximum size of the database page cache. The size is in database pages. If this parameter is left to its default value, then the maximum size of the cache will be set to the size of physical memory when JetInit is called.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -62,8 +63,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

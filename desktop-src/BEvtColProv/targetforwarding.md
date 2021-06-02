@@ -1,5 +1,5 @@
 ---
-Description: Retrieves forwarding data from a target computer.
+description: Retrieves forwarding data from a target computer.
 ms.assetid: e9ed210d-09ad-4689-b6a0-f84c5cce86f5
 ms.tgt_platform: multiple
 title: TargetForwarding class
@@ -232,7 +232,7 @@ The MAC address of the target computer.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

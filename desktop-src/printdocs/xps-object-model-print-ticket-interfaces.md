@@ -1,5 +1,5 @@
 ---
-Description: This IXpsOMPrintTicketResource interface of the XPS Document API provides access to an existing print ticket and also the ability to create a print ticket in an XPS OM.
+description: This IXpsOMPrintTicketResource interface of the XPS Document API provides access to an existing print ticket and also the ability to create a print ticket in an XPS OM.
 ms.assetid: 53c95da0-1601-4945-83a1-e3266d251aee
 title: XPS OM Print Ticket Interfaces
 ms.topic: article
@@ -28,9 +28,9 @@ There are three print ticket levels, which specify the scope of the print ticket
 
 ## Print Ticket Content
 
-The content of an existing print ticket resource can be accessed by reading from the stream associated with the resource. The [**GetStream**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-getstream) method of the [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) interface returns the pointer to a read-only stream that contains the XML-formatted contents of the print ticket. The format of the print ticket content is described in the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+The content of an existing print ticket resource can be accessed by reading from the stream associated with the resource. The [**GetStream**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-getstream) method of the [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) interface returns the pointer to a read-only stream that contains the XML-formatted contents of the print ticket. The format of the print ticket content is described in the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-A new print ticket resource can be created by creating a new [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) interface. A valid, XML-formatted print ticket is written to a stream and a part URI is created to identify the print ticket part. For more information about the content of a valid print ticket, refer to the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx). The stream and the part URI are passed as parameters of the [**SetContent**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-setcontent) call to set the new print ticket resource and the print ticket resource is added to the corresponding document part by calling the **SetPrintTicketResource** method shown in the preceding table.
+A new print ticket resource can be created by creating a new [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource) interface. A valid, XML-formatted print ticket is written to a stream and a part URI is created to identify the print ticket part. For more information about the content of a valid print ticket, refer to the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip). The stream and the part URI are passed as parameters of the [**SetContent**](/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomprintticketresource-setcontent) call to set the new print ticket resource and the print ticket resource is added to the corresponding document part by calling the **SetPrintTicketResource** method shown in the preceding table.
 
 ## Print Ticket Inheritance
 
@@ -40,7 +40,7 @@ Print tickets inherit the properties of print tickets with greater scope. For ex
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> <dt>
 
 [**IXpsOMDocument**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocument)
@@ -55,7 +55,7 @@ Print tickets inherit the properties of print tickets with greater scope. For ex
 [**IXpsOMPrintTicketResource**](/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomprintticketresource)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

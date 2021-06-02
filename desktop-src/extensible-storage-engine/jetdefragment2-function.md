@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDefragment2 Function"
 title: JetDefragment2 Function
 TOCTitle: JetDefragment2 Function
 ms:assetid: cfb190cf-8bd3-4479-a6a1-7c0c9e8c74ca
@@ -39,17 +40,19 @@ Database defragmentation is an online operation and does not interrupt regular d
 
 The resulting format of the data can be much more efficient but is not generally optimal. Defragmentation is limited to releasing database pages for re-use which contain data that has already been logically deleted. Defragmentation also makes database pages available for re-use in some cases by combining data from two pages when it can fit on a single page.
 
-This operation is different from [JetCompact](gg269284\(v=exchg.10\).md) which makes a copy of a read-only database into a highly optimal form.
+This operation is different from [JetCompact](./jetcompact-function.md) which makes a copy of a read-only database into a highly optimal form.
 
-    JET_ERR JET_API JetDefragment2(
-      __in          JET_SESID sesid,
-      __in          JET_DBID dbid,
-      __in          JET_PCSTR szTableName,
-      __out_opt     unsigned long* pcPasses,
-      __out_opt     unsigned long* pcSeconds,
-      __in          JET_CALLBACK callback,
-      __in          JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetDefragment2(
+  __in          JET_SESID sesid,
+  __in          JET_DBID dbid,
+  __in          JET_PCSTR szTableName,
+  __out_opt     unsigned long* pcPasses,
+  __out_opt     unsigned long* pcSeconds,
+  __in          JET_CALLBACK callback,
+  __in          JET_GRBIT grbit
+);
+```
 
 ### Parameters
 
@@ -63,7 +66,15 @@ The database to defragment.
 
 *szTableName*
 
-Unused parameter. Defragmentation is performed for the entire database described by the given database ID.
+Sometimes *szTableName* is required, and sometimes it is forbidden:
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | Must be `NULL`. |
+| `JET_bitDefragmentBTree` | Specifies the name of the table/BTree to defragment. |
+| *other* | Must be `NULL`. |
+ 
+Defragmentation is performed for the entire database described by the given database ID.
 
 *pcPasses*
 
@@ -80,6 +91,13 @@ When this parameter is set to NULL or if *pcSeconds* points to a negative value,
 *callback*
 
 Callback function that defragmentation calls regularly to report progress.
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | Must be `NULL`. |
+| `JET_bitDefragmentBTree` | Must be `NULL`. |
+| *other* | Optional.
+
 
 *grbit*
 
@@ -111,7 +129,11 @@ A group of bits specifying zero or more of the following options.
 </tr>
 <tr class="even">
 <td><p>JET_bitDefragmentBTree</p></td>
-<td><p>This option is used to defrag a B-Tree.</p></td>
+<td><p>This option is used to defrag a B-Tree, specified by szTableName.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_bitDefragmentBTreeBatch</p></td>
+<td><p>This option is used to call OLD2 on the entire database.</p></td>
 </tr>
 </tbody>
 </table>
@@ -119,7 +141,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -199,7 +221,7 @@ On failure, the requested action of either starting or stopping an online defrag
 
 #### Remarks
 
-Online defragmentation is controlled both by a parameter setting, as well as by this API. The default system parameter value is JET_OnlineDefragAll, which means defragmentation is enabled for all supported data structures. However, using [JetSetSystemParameter](gg294044\(v=exchg.10\).md), it is possible to disable online defragmentation, or to selectively enable it for database space trees only, databases only, streaming files only or any combination of these options. If the system setting for on-line defragmentation is to an obsolete setting, **JetDefragment2** will treat the setting as JET_OnlineDefragAll.
+Online defragmentation is controlled both by a parameter setting, as well as by this API. The default system parameter value is JET_OnlineDefragAll, which means defragmentation is enabled for all supported data structures. However, using [JetSetSystemParameter](./jetsetsystemparameter-function.md), it is possible to disable online defragmentation, or to selectively enable it for database space trees only, databases only, streaming files only or any combination of these options. If the system setting for on-line defragmentation is to an obsolete setting, **JetDefragment2** will treat the setting as JET_OnlineDefragAll.
 
 There can at most be one task running for each database. The task runs as a thread in the process hosting ESE.
 
@@ -243,10 +265,9 @@ The session used to start the online defragmentation task can be subsequently us
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetCompact](gg269284\(v=exchg.10\).md)  
-[JetDefragment](gg269317\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetCompact](./jetcompact-function.md)  
+[JetDefragment](./jetdefragment-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[JetStopService](./jetstopservice-function.md)

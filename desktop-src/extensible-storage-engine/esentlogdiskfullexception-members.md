@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogDiskFullException members"
 title: EsentLogDiskFullException members
 TOCTitle: EsentLogDiskFullException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogDiskFullException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogDiskFull exceptions.
 
-The [EsentLogDiskFullException](dn334539\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogDiskFullException](./esentlogdiskfullexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogDiskFullException class](dn334539\(v=exchg.10\).md)
+[EsentLogDiskFullException class](./esentlogdiskfullexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

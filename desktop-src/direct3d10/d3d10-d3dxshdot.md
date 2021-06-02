@@ -1,5 +1,5 @@
 ---
-Description: Computes the dot product of two spherical harmonic (SH) vectors.
+description: D3DXSHDot function (D3DX10.h) - Computes the dot product of two spherical harmonic (SH) vectors.
 ms.assetid: 30f0e858-4c31-4b25-9979-754d996a7d48
 title: D3DXSHDot function (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHDot function
+# D3DXSHDot function (D3DX10.h)
 
 Computes the dot product of two spherical harmonic (SH) vectors.
 
@@ -81,7 +81,7 @@ Each coefficient of the basis function Yₗₘ is stored at memory location l² 
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

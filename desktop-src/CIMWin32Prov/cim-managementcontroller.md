@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ManagementController class relates to the capabilities and management of a management controller.
+description: The CIM\_ManagementController class relates to the capabilities and management of a management controller.
 ms.assetid: 47ad29d1-5021-4469-87c0-bd9403faa70c
 ms.tgt_platform: multiple
 title: CIM_ManagementController class
@@ -1555,7 +1555,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

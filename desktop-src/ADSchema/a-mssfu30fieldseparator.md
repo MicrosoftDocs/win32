@@ -22,7 +22,7 @@ Contains the field separator for each NIS map.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | msSFU-30-Field-Separator                    |
 | Ldap-Display-Name | msSFU30FieldSeparator                       |
@@ -46,7 +46,7 @@ Contains the field separator for each NIS map.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -67,7 +67,7 @@ Contains the field separator for each NIS map.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -88,7 +88,7 @@ Contains the field separator for each NIS map.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -109,7 +109,7 @@ Contains the field separator for each NIS map.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch.Reset method"
 title: EsentStopwatch.Reset method 
 TOCTitle: 'Reset method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentStopwatch.Reset
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Stops time interval measurement and resets the thread statistics.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public void Reset()
 
 #### Reference
 
-[EsentStopwatch class](dn334867\(v=exchg.10\).md)
+[EsentStopwatch class](./esentstopwatch-class.md)
 
-[EsentStopwatch members](dn334924\(v=exchg.10\).md)
+[EsentStopwatch members](./esentstopwatch-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: By default, an application or script receives data from the corresponding provider when two versions of providers exist.
+description: By default, an application or script receives data from the corresponding provider when two versions of providers exist.
 ms.assetid: 379d934e-e010-4a03-8dc1-121be43e4c6f
 ms.tgt_platform: multiple
 title: Requesting WMI Data on a 64-bit Platform

@@ -1,5 +1,5 @@
 ---
-Description: This section describes a set of Windows helper functions used with IPropertyBag objects.
+description: This section describes a set of Windows helper functions used with IPropertyBag objects.
 ms.assetid: 4ef85855-7eb6-43ec-bf29-1223eaf1a0cc
 title: Property Bag Functions
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Property Bag Functions
 
-This section describes a set of Windows helper functions used with [**IPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)) objects.
+This section describes a set of Windows helper functions used with [**IPropertyBag**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) objects.
 
 
 

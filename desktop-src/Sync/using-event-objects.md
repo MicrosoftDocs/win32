@@ -1,12 +1,12 @@
 ---
-Description: Applications can use event objects in a number of situations to notify a waiting thread of the occurrence of an event.
+description: Applications can use event objects in a number of situations to notify a waiting thread of the occurrence of an event.
 ms.assetid: f3f455bb-7563-4920-a728-f75fa5854dc9
 title: Using Event Objects (Synchronization)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using Event Objects
+# Using Event Objects (Synchronization)
 
 Applications can use [event objects](event-objects.md) in a number of situations to notify a waiting thread of the occurrence of an event. For example, overlapped I/O operations on files, named pipes, and communications devices use an event object to signal their completion. For more information about the use of event objects in overlapped I/O operations, see [Synchronization and Overlapped Input and Output](synchronization-and-overlapped-input-and-output.md).
 

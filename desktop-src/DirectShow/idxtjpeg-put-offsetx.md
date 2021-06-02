@@ -1,5 +1,5 @@
 ---
-Description: The put\_OffsetX method specifies the horizontal offset of the wipe origin.
+description: The put\_OffsetX method specifies the horizontal offset of the wipe origin.
 ms.assetid: 7bc721fd-7e72-49d4-90ae-a193df46326c
 title: IDxtJpeg::put_OffsetX method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

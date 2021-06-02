@@ -1,5 +1,5 @@
 ---
-Description: This class is the parent class for UDP/IP events. The following syntax is simplified from MOF code.
+description: UdpIp_V1 class - This class is the parent class for UDP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: 31672a5a-05b2-4382-b793-7a793d985951
 title: UdpIp_V1 class
 ms.topic: reference
@@ -41,7 +41,7 @@ The **UdpIp\_V1** class does not define any members.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

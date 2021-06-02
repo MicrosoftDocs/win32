@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the constructors of the Region class. For a complete class listing, see Region Class.
+description: This topic lists the constructors of the Region class. For a complete class listing, see Region Class.
 ms.assetid: 94f4971c-defa-43e0-a0c0-4000557b0a5c
 title: Region.Region constructors
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordFormatConversionFailedException properties"
 title: EsentRecordFormatConversionFailedException properties
 TOCTitle: EsentRecordFormatConversionFailedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecordFormatConversionFailedException](dn319884\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordFormatConversionFailedException](./esentrecordformatconversionfailedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRecordFormatConversionFailedException class](dn319884\(v=exchg.10\).md)
+[EsentRecordFormatConversionFailedException class](./esentrecordformatconversionfailedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

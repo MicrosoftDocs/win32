@@ -1,12 +1,14 @@
 ---
-Description: The topics in this section provide the reference specifications for Input Source Identification functions.
+description: The topics in this section provide the reference specifications for Input Source Identification functions.
 ms.assetid: 382D60F5-9E21-4881-915F-A5F0257A701D
-title: Functions
+
+title: Functions (Input Source Identification)
+
 ms.topic: article
 ms.date: 02/05/2020
 ---
 
-# Functions
+# Input Source Identification functions
 
 The topics in this section provide the reference specifications for [Input Source Identification](input-source-identification-portal.md) functions.
 

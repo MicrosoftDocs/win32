@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for services obtain information about services, including dependent or antecedent services. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for services obtain information about services, including dependent or antecedent services. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: 1cd92981-c074-4ff7-a32c-ce492e6d6aa5
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Services'

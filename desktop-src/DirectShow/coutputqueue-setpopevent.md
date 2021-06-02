@@ -1,5 +1,5 @@
 ---
-Description: The SetPopEvent method specifies an event that is signaled whenever the object removes a sample from the queue.
+description: The SetPopEvent method specifies an event that is signaled whenever the object removes a sample from the queue.
 ms.assetid: 147a09b9-14d3-4739-843a-1bfb19d2d052
 title: COutputQueue.SetPopEvent method (Outputq.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

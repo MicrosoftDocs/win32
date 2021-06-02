@@ -1,5 +1,5 @@
 ---
-Description: Enabling JIT Activation for a Component
+description: Enabling JIT Activation for a Component
 ms.assetid: ccf7c98b-8b1a-431d-b417-83f79734f691
 title: Enabling JIT Activation for a Component
 ms.topic: article

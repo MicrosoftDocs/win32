@@ -1,5 +1,5 @@
 ---
-Description: The GetPropById method of the DeviceInfo object uses a device property's ID to return its value.
+description: The GetPropById method of the DeviceInfo object uses a device property's ID to return its value.
 ms.assetid: 9c68e6af-446c-4750-89e6-70862b23b296
 title: DeviceInfo.GetPropById method
 ms.topic: reference
@@ -96,7 +96,7 @@ Next
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Message.FromAddress
 ms.assetid: 9f28141e-e795-4740-891b-cd8226481da7
 title: System.Message.FromAddress
 ms.topic: article

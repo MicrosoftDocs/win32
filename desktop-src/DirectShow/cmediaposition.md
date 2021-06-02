@@ -1,5 +1,5 @@
 ---
-Description: The CMediaPosition class handles the IDispatch methods of the IMediaPosition dual interface.
+description: The CMediaPosition class handles the IDispatch methods of the IMediaPosition dual interface.
 ms.assetid: 5e84a2b6-39d4-47a4-93b4-690df12e2d19
 title: CMediaPosition class (Ctlutil.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This class inherits the [**IMediaPosition**](/windows/desktop/api/Control/nn-con
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

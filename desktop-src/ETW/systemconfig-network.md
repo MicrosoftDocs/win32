@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for network events. The following syntax is simplified from MOF code.
+description: This class is the event type class for network events. The following syntax is simplified from MOF code.
 ms.assetid: afa994ef-dd1c-4909-a6cd-7021be4fff40
 title: SystemConfig_Network class
 ms.topic: reference
@@ -125,7 +125,7 @@ Normally, TCP does not release closed connections until the value of this entry 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

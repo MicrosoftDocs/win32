@@ -1,6 +1,6 @@
 ---
 title: External.ignoreIEHistory
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.ignoreIEHistory
 ms.assetid: ad0ad31e-61b7-45b4-8836-375df859c739
 keywords:
 - External.ignoreIEHistory Windows Media Player
@@ -38,7 +38,7 @@ This property is a write-only **Boolean**. **TRUE** indicates that Windows Media
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

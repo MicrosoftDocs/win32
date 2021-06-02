@@ -1,5 +1,5 @@
 ---
-Description: 'DES Error Logging: Example Code'
+description: 'DES Error Logging: Example Code'
 ms.assetid: e734daed-9230-4376-839f-7e09da7bc275
 title: 'DES Error Logging: Example Code'
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A requester is any application that uses the VSS API (specifically the IVssBackupComponents interface) to request the services of the Volume Shadow Copy Service to create and manage shadow copies and shadow copy sets of one or more volumes.
+description: A requester is any application that uses the VSS API (specifically the IVssBackupComponents interface) to request the services of the Volume Shadow Copy Service to create and manage shadow copies and shadow copy sets of one or more volumes.
 ms.assetid: e49920d0-5b66-4aa1-b3ca-641629df5f8a
 title: Requesters
 ms.topic: article

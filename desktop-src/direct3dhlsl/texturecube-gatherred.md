@@ -1,6 +1,6 @@
 ---
 title: TextureCube::TextureCube GatherRed methods
-description: Samples a texture and returns the red component.
+description: Returns the red components of the four texel values that would be used in a bi-linear filtering operation. | TextureCube::TextureCube GatherRed methods
 ms.assetid: DDBFE342-C22D-46A3-BC7D-1D34ED2C0AD6
 keywords:
 - GatherRed methods HLSL
@@ -16,15 +16,15 @@ api_location:
 
 # TextureCube::GatherRed methods
 
-Samples a texture and returns the red component.
+Returns the red components of the four texel values that would be used in a bi-linear filtering operation.
 
 ### Overload list
 
 
 
-| Method                                                           | Description                                                                                       |
-|:-----------------------------------------------------------------|:--------------------------------------------------------------------------------------------------|
-| [**GatherRed(S,float,uint)**](tcube-gatherred-s-float-uint-.md) | Samples a texture and returns the red component along with status about the operation.<br/> |
+| Method                                                           | Description                                                                                                                                     |
+|:-----------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**GatherRed(S,float,uint)**](tcube-gatherred-s-float-uint-.md)  | Returns the red components of the four texel values that would be used in a bi-linear filtering operation, along with tile-mapping status.<br/> |
 
 
 

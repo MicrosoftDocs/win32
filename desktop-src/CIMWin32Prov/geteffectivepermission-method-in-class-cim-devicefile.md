@@ -1,5 +1,5 @@
 ---
-Description: Determines whether the caller has the aggregated permissions on the CIM\_DeviceFile object, and the share on which the file or directory resides, as specified by the Permission argument.
+description: Determines whether the caller has the aggregated permissions on the CIM\_DeviceFile object, and the share on which the file or directory resides, as specified by the Permission argument.
 ms.assetid: e566f1f6-773e-4ecb-8145-369afaad0f99
 ms.tgt_platform: multiple
 title: GetEffectivePermission method of the CIM_DeviceFile class (Aclui.h)
@@ -217,7 +217,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

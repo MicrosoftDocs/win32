@@ -125,7 +125,7 @@ Weight of the target host. This is useful when selecting among hosts that have t
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

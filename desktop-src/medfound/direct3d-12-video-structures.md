@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the Microsoft Direct3D 12 video API structures.
+description: This section contains reference information for the Microsoft Direct3D 12 video API structures.
 ms.assetid: 
 title: Direct3D 12 Video Structures
 ms.topic: article
@@ -25,11 +25,8 @@ This section contains reference information for the Microsoft Direct3D 12 video
 | [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SIZE](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_extension_command_size)  | Checks the allocation size of a video extension command.|
 | [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMAND_SUPPORT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_extension_command_support)  | Retrieves video extension command support using command-defined input and output structures.|
 | [D3D12_FEATURE_DATA_VIDEO_EXTENSION_COMMANDS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_extension_commands)  | Retrieves the list of video extension commands from the driver.|
-| [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_motion_estimator)  | Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is 
-D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR. Retrieves the motion estimation capabilities for a video encoder.|
-| [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_motion_estimator_protected_resources)  | Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is 
-D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES. Retrieves the protected resources support for video motion 
-estimation.|
+| [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_motion_estimator)  | Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR. Retrieves the motion estimation capabilities for a video encoder.|
+| [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_motion_estimator_protected_resources)  | Provides data for calls to ID3D12VideoDevice::CheckFeatureSupport when the feature specified is D3D12_FEATURE_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES. Retrieves the protected resources support for video motion estimation.|
 | [D3D12_FEATURE_DATA_VIDEO_MOTION_ESTIMATOR_SIZE](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_motion_estimator_size)  | Describes the allocation size of a video motion estimator heap.|
 | [D3D12_FEATURE_DATA_VIDEO_PROCESS_MAX_INPUT_STREAMS](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_max_input_streams)  | Retrieves the maximum number of enabled input streams supported by the video processor.|
 | [D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_feature_data_video_process_reference_info)  | Retrieves the number of past and future reference frames required for the specified deinterlace mode, filter, rate conversion, or auto processing features.|
@@ -55,12 +52,10 @@ estimation.|
 | [D3D12_VIDEO_EXTENSION_COMMAND_INFO](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_extension_command_info)  | Describes a video extension command.|
 | [D3D12_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_extension_command_parameter_info)  | Describes a video extension command parameter.|
 | [D3D12_VIDEO_FORMAT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_format)  | Defines the combination of a pixel format and color space for a resource content description.|
-| [D3D12_VIDEO_MOTION_ESTIMATOR_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_motion_estimator_desc)  | Describes a ID3D12VideoMotionEstimator. Pass this structure into 
-ID3D12VideoDevice1::CreateVideoMotionEstimator to create an instance of ID3D12VideoMotionEstimator.|
+| [D3D12_VIDEO_MOTION_ESTIMATOR_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_motion_estimator_desc)  | Describes a ID3D12VideoMotionEstimator. Pass this structure into ID3D12VideoDevice1::CreateVideoMotionEstimator to create an instance of ID3D12VideoMotionEstimator.|
 | [D3D12_VIDEO_MOTION_ESTIMATOR_INPUT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_motion_estimator_input)  | Provides input data for calls to ID3D12VideoEncodeCommandList::EstimateMotion.|
 | [D3D12_VIDEO_MOTION_ESTIMATOR_OUTPUT](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_motion_estimator_output)  | Receives output data from calls to ID3D12VideoEncodeCommandList::EstimateMotion.|
-| [D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_motion_vector_heap_desc)  | Describes a ID3D12VideoMotionEstimatorHeap. Pass this structure into 
-ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap to create an instance of ID3D12VideoMotionEstimatorHeap.|
+| [D3D12_VIDEO_MOTION_VECTOR_HEAP_DESC](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_motion_vector_heap_desc)  | Describes a ID3D12VideoMotionEstimatorHeap. Pass this structure into ID3D12VideoDevice1::CreateVideoMotionEstimatorHeap to create an instance of ID3D12VideoMotionEstimatorHeap.|
 | [D3D12_VIDEO_PROCESS_ALPHA_BLENDING](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_alpha_blending)  | Specifies alpha blending parameters for video processing.|
 | [D3D12_VIDEO_PROCESS_FILTER_RANGE](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_filter_range)  | Defines the range of supported values for an image filter.|
 | [D3D12_VIDEO_PROCESS_INPUT_STREAM](/windows/desktop/api/d3d12video/ns-d3d12video-d3d12_video_process_input_stream)  | Contains input information for the video processor blend functionality.|

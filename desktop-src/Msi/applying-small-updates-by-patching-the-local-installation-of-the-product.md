@@ -1,5 +1,5 @@
 ---
-Description: A small update can be applied to an application by patching the local installation of the application.
+description: A small update can be applied to an application by patching the local installation of the application.
 ms.assetid: 2a04ffd0-d5b6-44f3-bef2-73f59179aed1
 title: Applying Small Updates by Patching the Local Installation of the Product
 ms.topic: article

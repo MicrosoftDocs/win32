@@ -1,5 +1,5 @@
 ---
-Description: Over time, different versions of TAPI, applications, and service providers may be produced.
+description: Over time, different versions of TAPI, applications, and service providers may be produced.
 ms.assetid: 994fad0e-5958-4d93-8952-9db2bbe01f44
 title: TSPI Versioning
 ms.topic: article

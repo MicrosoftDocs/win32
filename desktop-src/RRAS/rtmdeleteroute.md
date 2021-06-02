@@ -121,7 +121,7 @@ The function generates a route-change message if the best route to a destination
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

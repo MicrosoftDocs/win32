@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultDestinationPosition method sets the renderer back to using the default destination position (typically the entire window client area).
+description: The SetDefaultDestinationPosition method sets the renderer back to using the default destination position (typically the entire window client area).
 ms.assetid: 228259d7-2f1f-4528-8c8a-d20d7542523c
 title: CBaseControlVideo.SetDefaultDestinationPosition method (Ctlutil.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

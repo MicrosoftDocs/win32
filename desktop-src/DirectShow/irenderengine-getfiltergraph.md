@@ -1,5 +1,5 @@
 ---
-Description: The GetFilterGraph method retrieves the filter graph that the render engine has constructed, if any.
+description: The GetFilterGraph method retrieves the filter graph that the render engine has constructed, if any.
 ms.assetid: 509b2c9c-c21b-4855-880f-f09ad342e758
 title: IRenderEngine::GetFilterGraph method (Qedit.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ On return, if the value of *\*ppFG* is non-**NULL**, the **IGraphBuilder** inter
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

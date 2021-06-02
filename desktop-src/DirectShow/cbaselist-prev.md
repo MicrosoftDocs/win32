@@ -1,5 +1,5 @@
 ---
-Description: The Prev method retrieves the previous position in the list.
+description: The Prev method retrieves the previous position in the list.
 ms.assetid: 537c3019-373a-4974-a42e-72150da72767
 title: CBaseList.Prev method (Wxlist.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ If *pos* is the first position in the list, the method returns **NULL**. If *pos
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

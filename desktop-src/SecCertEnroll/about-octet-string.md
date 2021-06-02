@@ -1,5 +1,5 @@
 ---
-Description: The ASN.1 OCTET STRING data type is encoded into a TLV triplet that begins with a Tag byte of 0x04.
+description: The ASN.1 OCTET STRING data type is encoded into a TLV triplet that begins with a Tag byte of 0x04.
 ms.assetid: 9d07a6c8-a15f-4030-838c-3063e315684f
 title: OCTET STRING
 ms.topic: article

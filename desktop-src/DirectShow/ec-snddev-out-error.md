@@ -1,5 +1,5 @@
 ---
-Description: A device error has occurred in an audio renderer filter.
+description: A device error has occurred in an audio renderer filter.
 ms.assetid: 60e36476-f553-468d-a28d-351fdf4a02f1
 title: EC_SNDDEV_OUT_ERROR (Dshow.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ None.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

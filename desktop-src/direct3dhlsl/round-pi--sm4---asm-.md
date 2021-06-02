@@ -1,6 +1,6 @@
 ---
 title: round_pi (sm4 - asm)
-description: Floating-point round to integral float.
+description: Floating-point round to integral float. | round_pi (sm4 - asm)
 ms.assetid: AA4E4C2E-A4B0-4892-8660-1EF57767F4C4
 ms.topic: reference
 ms.date: 05/31/2018
@@ -42,9 +42,8 @@ F means finite-real number.
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **src**  | **-inf** | **-F** | **-denorm** | **-0** | **+0** | **+denorm** | **+F** | **+inf** | **NaN** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **dest** | -inf     | -F     | -0          | -0     | +0     | +0          | +F     | +inf     | NaN     |
 
 

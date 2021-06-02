@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the policy's OID. This is the default property.
+description: Retrieves the policy's OID. This is the default property.
 ms.assetid: c78bbbcb-befd-491c-afbd-80c3ba124d29
 title: PolicyInformation.OID property
 ms.topic: reference
@@ -38,7 +38,7 @@ The policy's object identifier as an [**OID**](oid.md) object.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

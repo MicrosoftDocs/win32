@@ -22,7 +22,7 @@ For a user or group object, identifies the primary computers.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Primary-Computer                  |
 | Ldap-Display-Name | msDS-PrimaryComputer                    |
@@ -43,7 +43,7 @@ For a user or group object, identifies the primary computers.
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | 2186                                                                  |
 | MAPI-Id                | \-                                                                    |

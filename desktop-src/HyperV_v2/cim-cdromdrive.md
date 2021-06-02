@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management of a CD ROM drive.
+description: Represents the capabilities and management of a CD ROM drive.
 ms.assetid: 937be389-11f8-4298-92c8-4bf67a36fb16
 title: CIM_CDROMDrive class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_CDROMDrive class
+# CIM_CDROMDrive class (Hyper-V management)
 
 Represents the capabilities and management of a CD ROM drive.
 
@@ -36,7 +36,7 @@ The **CIM\_CDROMDrive** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

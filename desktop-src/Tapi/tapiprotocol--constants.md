@@ -1,5 +1,5 @@
 ---
-Description: The following protocols are defined by TAPI 3, and the CLSIDs are in Tapi3.lib. Service providers can define additional protocols.
+description: The following protocols are defined by TAPI 3, and the CLSIDs are in Tapi3.lib. Service providers can define additional protocols.
 ms.assetid: 4704eedb-12e7-440e-b1ca-2afd78d2499d
 title: TAPIPROTOCOL_ Constants (Tapi3if.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Multicast protocol.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                |
 | Header<br/>       | <dl> <dt>Tapi3if.h</dt> </dl> |

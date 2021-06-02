@@ -1,5 +1,5 @@
 ---
-Description: The group element defines a group, the top-level object in a timeline.
+description: The group element defines a group, the top-level object in a timeline.
 ms.assetid: db2f1fdd-bcb1-4401-91f4-5e167e4da215
 title: group Element (DirectShow)
 ms.topic: reference
@@ -23,7 +23,7 @@ The **group** element defines a group, the top-level object in a timeline.
 
 
 
-|          |                                                                                                          |
+| Label | Value |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**timeline**](timeline-element.md)                                                                     |
 | Children | [**composite**](composite-element.md), [**effect**](effect-element.md), [**track**](track-element.md) |

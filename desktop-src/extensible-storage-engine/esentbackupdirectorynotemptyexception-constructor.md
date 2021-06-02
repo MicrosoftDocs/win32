@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupDirectoryNotEmptyException constructor"
 title: EsentBackupDirectoryNotEmptyException constructor 
 TOCTitle: 'EsentBackupDirectoryNotEmptyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBackupDirectoryNotEmptyException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBackupDirectoryNotEmptyException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentBackupDirectoryNotEmptyException()
 
 #### Reference
 
-[EsentBackupDirectoryNotEmptyException class](dn273970\(v=exchg.10\).md)
+[EsentBackupDirectoryNotEmptyException class](./esentbackupdirectorynotemptyexception-class.md)
 
-[EsentBackupDirectoryNotEmptyException members](dn274022\(v=exchg.10\).md)
+[EsentBackupDirectoryNotEmptyException members](./esentbackupdirectorynotemptyexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

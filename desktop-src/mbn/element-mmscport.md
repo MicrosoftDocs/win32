@@ -1,5 +1,5 @@
 ---
-Description: MmscPort
+description: MmscPort
 MS-HAID: WWAN\_profile\_v4.element\_MmscPort
 MSHAttr:
 - PreferredSiteName:MSDN

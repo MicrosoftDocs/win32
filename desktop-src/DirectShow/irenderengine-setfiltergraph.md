@@ -1,5 +1,5 @@
 ---
-Description: The SetFilterGraph method specifies a filter graph for the render engine to use.
+description: The SetFilterGraph method specifies a filter graph for the render engine to use.
 ms.assetid: 6a245864-7d22-4608-995b-b28662a6ab90
 title: IRenderEngine::SetFilterGraph method (Qedit.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ The **ConnectFrontEnd** method tears down any existing filter graph, but keeps t
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

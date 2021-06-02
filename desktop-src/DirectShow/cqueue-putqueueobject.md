@@ -1,5 +1,5 @@
 ---
-Description: Puts an item onto the queue.
+description: Puts an item onto the queue.
 ms.assetid: 8ac41d80-e7d5-4b3f-9f09-c3d39c94c490
 title: CQueue.PutQueueObject method (Wxutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method blocks until there is space in the queue for the item.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

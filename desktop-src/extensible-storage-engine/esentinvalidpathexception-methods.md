@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPathException methods"
 title: EsentInvalidPathException methods
 TOCTitle: EsentInvalidPathException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidPathException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidPathException](dn319577\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidPathException](./esentinvalidpathexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidPathException class](dn319577\(v=exchg.10\).md)
+[EsentInvalidPathException class](./esentinvalidpathexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

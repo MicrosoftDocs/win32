@@ -1,5 +1,5 @@
 ---
-Description: Binding Output Nodes to Media Sinks
+description: Binding Output Nodes to Media Sinks
 ms.assetid: d4f93f34-0af1-431f-9333-70ea09691b64
 title: Binding Output Nodes to Media Sinks
 ms.topic: article

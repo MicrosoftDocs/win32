@@ -1,5 +1,5 @@
 ---
-Description: Manages all remote terminal connections to a particular host.
+description: Manages all remote terminal connections to a particular host.
 ms.assetid: '7eacb8a6-cb8d-4a2a-951e-f5286cf484e7'
 title: Msvm_TerminalService class
 ms.topic: reference
@@ -622,7 +622,7 @@ Access to the **Msvm\_TerminalService** class might be restricted by UAC Filteri
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

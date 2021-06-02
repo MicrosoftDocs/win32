@@ -1,5 +1,5 @@
 ---
-Description: The put\_Luminance method specifies the luminance value on which to key. This property applies only when the key type is DXTKEY\_LUMINANCE.
+description: The put\_Luminance method specifies the luminance value on which to key. This property applies only when the key type is DXTKEY\_LUMINANCE.
 ms.assetid: 3e255423-1724-49fe-b1a1-49bc1d5fa6ae
 title: IDxtKey::put_Luminance method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,6 +1,6 @@
 ---
 title: MonthlyTrigger.MonthsOfYear property
-description: For scripting, gets or sets the months of the year during which the task runs.
+description: For scripting, gets or sets the months of the year during which the task runs. | MonthlyTrigger.MonthsOfYear property
 ms.assetid: 'cf26a815-7f4f-4b7a-8db8-a4bd9b77cf49'
 keywords:
 - MonthsOfYear property Task Scheduler
@@ -66,7 +66,7 @@ When reading or writing your own XML for a task, the months of the year are spec
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

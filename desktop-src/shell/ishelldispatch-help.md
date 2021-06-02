@@ -1,5 +1,5 @@
 ---
-Description: Displays the Windows Help and Support window. This method has the same effect as clicking the Start menu and selecting Help and Support.
+description: Displays the Windows Help and Support window. This method has the same effect as clicking the Start menu and selecting Help and Support.
 ms.assetid: 9460C87E-6703-4df6-A84C-8D394E0E6703
 title: IShellDispatch.Help method (Shldisp.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

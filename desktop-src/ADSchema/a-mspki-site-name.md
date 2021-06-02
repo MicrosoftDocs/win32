@@ -22,7 +22,7 @@ Active Directory site to which the CA computer belongs.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-PKI-Site-Name                            |
 | Ldap-Display-Name | msPKI-Site-Name                             |
@@ -44,7 +44,7 @@ Active Directory site to which the CA computer belongs.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -65,7 +65,7 @@ Active Directory site to which the CA computer belongs.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

@@ -1,5 +1,5 @@
 ---
-Description: Describes a plane.
+description: D3DXPLANE structure (D3DX10Math.h) - Describes a plane.
 ms.assetid: c6da7343-a4f3-4cac-855b-14bd70c0d3c2
 title: D3DXPLANE structure (D3DX10Math.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - D3DX10Math.h
 ---
 
-# D3DXPLANE structure
+# D3DXPLANE structure (D3DX10Math.h)
 
 Describes a plane.
 
@@ -89,7 +89,7 @@ The members of the **D3DXPLANE** structure take the form of the general plane eq
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Math.h</dt> </dl> |
 

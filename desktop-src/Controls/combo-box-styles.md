@@ -54,7 +54,7 @@ To create a combo box using the [**CreateWindow**](/windows/desktop/api/winuser/
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

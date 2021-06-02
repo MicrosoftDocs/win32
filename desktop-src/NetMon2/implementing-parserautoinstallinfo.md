@@ -1,5 +1,5 @@
 ---
-Description: Network Monitor uses the ParserAutoInstallInfo export function to install a parser. When ParserAutoInstallInfo is called, the parser returns a PF\_PARSERDLLINFO structure containing all the information that Network Monitor needs to install a parser DLL.
+description: Network Monitor uses the ParserAutoInstallInfo export function to install a parser. When ParserAutoInstallInfo is called, the parser returns a PF\_PARSERDLLINFO structure containing all the information that Network Monitor needs to install a parser DLL.
 ms.assetid: 1add9988-9cb2-43f9-8ae2-32acfe21b6f3
 title: Implementing ParserAutoInstallInfo
 ms.topic: article

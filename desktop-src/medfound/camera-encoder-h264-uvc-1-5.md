@@ -1,5 +1,5 @@
 ---
-Description: The following API are used with H.264 UVC 1.5 camera encoders.
+description: The following API are used with H.264 UVC 1.5 camera encoders.
 ms.assetid: B3D500DF-1FD4-4D7C-B6F8-8DE4B957ED5C
 title: H.264 UVC 1.5 camera encoders
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The BERGetString function decodes a BER-encoded string.
+description: The BERGetString function decodes a BER-encoded string.
 ms.assetid: 1f72f061-c0ed-4634-9709-e08c2b9468bb
 title: BERGetString function (Netmon.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If function is unsuccessful, the return value is **FALSE**.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

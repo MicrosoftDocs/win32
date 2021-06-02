@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: FloatColumnValue properties"
 title: FloatColumnValue properties
 TOCTitle: FloatColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.FloatColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [FloatColumnValue](dn350880\(v=exchg.10\).md) type exposes the following members.
+The [FloatColumnValue](./floatcolumnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +82,6 @@ Top
 
 #### Reference
 
-[FloatColumnValue class](dn350880\(v=exchg.10\).md)
+[FloatColumnValue class](./floatcolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

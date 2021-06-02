@@ -1,5 +1,5 @@
 ---
-Description: Writes an updated version of the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is represented by an instance of \_\_SecurityDescriptor.
+description: Writes an updated version of the security descriptor that controls access to the WMI namespace to which you are connected. The security descriptor is represented by an instance of \_\_SecurityDescriptor.
 ms.assetid: e92430fd-61b1-4986-88dc-b85f502f62e6
 ms.tgt_platform: multiple
 title: SetSecurityDescriptor method of the __SystemSecurity class
@@ -109,7 +109,7 @@ When a new SACL is **NULL** in a call this method, then the security descriptor 
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

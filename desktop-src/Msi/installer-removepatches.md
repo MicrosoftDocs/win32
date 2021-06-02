@@ -1,5 +1,5 @@
 ---
-Description: The RemovePatches method removes one or more patches to products eligible to receive the patch. The RemovePatches method calls MsiRemovePatches.
+description: The RemovePatches method removes one or more patches to products eligible to receive the patch. The RemovePatches method calls MsiRemovePatches.
 ms.assetid: 09c6ad3a-9f5e-4f9a-82c8-be7e411efd60
 title: Installer.RemovePatches method
 ms.topic: reference
@@ -77,7 +77,7 @@ See [Uninstalling Patches](uninstalling-patches.md) for an example that demonstr
 
 
 
-|                    |                                                                                                                                                                                                                                                                       |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003 or Windows XP.<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                    |

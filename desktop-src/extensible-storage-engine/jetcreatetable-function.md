@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateTable Function"
 title: JetCreateTable Function
 TOCTitle: JetCreateTable Function
 ms:assetid: 28455b8b-0000-4bd5-a3ca-e1ef0446ee07
@@ -80,7 +81,7 @@ On success, the table identifier is returned in this field. The value is undefin
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -242,9 +243,9 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-**JetCreateTable** creates a table which does not contain any columns. To add columns, see [JetAddColumn](gg294122\(v=exchg.10\).md).
+**JetCreateTable** creates a table which does not contain any columns. To add columns, see [JetAddColumn](./jetaddcolumn-function.md).
 
-Internally, **JetCreateTable** calls [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md), filling in a [JET_TABLECREATE2](gg269203\(v=exchg.10\).md) structure with:
+Internally, **JetCreateTable** calls [JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md), filling in a [JET_TABLECREATE2](./jet-tablecreate2-structure.md) structure with:
 
   - JET_TABLECREATE2.cbStruct = sizeof( JET_TABLECREATE2 )
 
@@ -256,11 +257,11 @@ Internally, **JetCreateTable** calls [JetCreateTableColumnIndex2](gg294057\(v=ex
 
   - JET_TABLECREATE2.tableid = JET_tableidNil
 
-All the other fields of the internal [JET_TABLECREATE2](gg269203\(v=exchg.10\).md) structure are set to zero or NULL. On output, *ptableid* will be set to JET_TABLECREATE2.tableid.
+All the other fields of the internal [JET_TABLECREATE2](./jet-tablecreate2-structure.md) structure are set to zero or NULL. On output, *ptableid* will be set to JET_TABLECREATE2.tableid.
 
-See [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md) for more details.
+See [JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md) for more details.
 
-Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done using the returned **tableid** member from the [JET_TABLECREATE2](gg269203\(v=exchg.10\).md) structure, it should usually be closed with [JetCloseTable](gg294087\(v=exchg.10\).md).
+Like [JetOpenTable](./jetopentable-function.md), when the application is done using the returned **tableid** member from the [JET_TABLECREATE2](./jet-tablecreate2-structure.md) structure, it should usually be closed with [JetCloseTable](./jetclosetable-function.md).
 
 #### Requirements
 
@@ -300,12 +301,11 @@ Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done usi
 
 #### See Also
 
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JetAddColumn](gg294122\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)
-
+[JET_DBID](./jet-dbid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_TABLECREATE2](./jet-tablecreate2-structure.md)  
+[JetAddColumn](./jetaddcolumn-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md)

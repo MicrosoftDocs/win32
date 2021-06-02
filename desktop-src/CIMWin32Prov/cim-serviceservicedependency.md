@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ServiceServiceDependency class represents an association between two services.
+description: The CIM\_ServiceServiceDependency class represents an association between two services.
 ms.assetid: 0fb43fb3-2c05-4762-b339-2dcc090ed38d
 ms.tgt_platform: multiple
 title: CIM_ServiceServiceDependency class
@@ -160,7 +160,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

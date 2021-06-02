@@ -1,5 +1,5 @@
 ---
-Description: Initializes the trace.
+description: Initializes the trace.
 ms.assetid: d2708e29-920d-4b13-8917-a6f2065ba58c
 title: InitAsyncTrace function
 ms.topic: reference
@@ -46,7 +46,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Exstrace.dll</dt> </dl> |
 

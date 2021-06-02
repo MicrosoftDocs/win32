@@ -1,5 +1,5 @@
 ---
-Description: The following table contains return codes from API functions.
+description: The following table contains return codes from API functions.
 ms.assetid: 7b67d428-d000-4c3e-adc1-b5fc67a15a6a
 title: Direct3D 10 Return Codes
 ms.topic: article

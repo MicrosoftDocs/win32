@@ -1,5 +1,5 @@
 ---
-Description: Modifies the area that has changed since the last analysis operation.
+description: Modifies the area that has changed since the last analysis operation.
 ms.assetid: 1484fd96-2791-4583-b13b-e5a8275ecb0e
 title: IInkAnalyzer::SetDirtyRegion method (IACom.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) analyzes ink within its dirty region dur
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

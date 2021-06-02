@@ -1,5 +1,5 @@
 ---
-Description: The GetPhoneNumbers method gets an array of phone numbers associated with a conference blob.
+description: The GetPhoneNumbers method gets an array of phone numbers associated with a conference blob.
 ms.assetid: c4ad6c5a-e15c-45ae-94de-763a843554bb
 title: ITSdp::GetPhoneNumbers method (Sdpblb.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The lists that *pNumbers* and *pNames* point to are the same length.
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

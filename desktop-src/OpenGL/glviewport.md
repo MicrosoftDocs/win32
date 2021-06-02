@@ -87,7 +87,7 @@ The following error codes can be retrieved by the [**glGetError**](glgeterror.md
 
 The **glViewport** function specifies the affine transformation of *x* and *y* from normalized device coordinates to window coordinates. Let (*x*<sub>nd</sub> , *y*<sub>nd</sub> ) be normalized device coordinates. The window coordinates (*x*<sub>w</sub> , *y*<sub>w</sub> ) are then computed as follows:
 
-![](images/view01.png)
+![Equation showing computation of the window coordinates.](images/view01.png)
 
 Viewport width and height are silently clamped to a range that depends on the implementation. This range is queried by calling **glGet** with argument GL\_MAX\_VIEWPORT\_DIMS.
 
@@ -101,7 +101,7 @@ The following functions retrieve information related to **glViewport**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The name of the item as it appears in the UI. Read-only.
+description: The name of the item as it appears in the UI. Read-only.
 ms.assetid: fc469a6e-39d9-4b92-87a4-2f41cacb070d
 title: Item.Name property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the name.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

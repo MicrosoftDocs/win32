@@ -1,5 +1,5 @@
 ---
-Description: The OnRenderStart method is called when rendering is about to start.
+description: The OnRenderStart method is called when rendering is about to start.
 ms.assetid: 46af24cf-9075-4ebc-a49b-85f8f0c3da6f
 title: CBaseRenderer.OnRenderStart method (Renbase.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The [**CBaseRenderer::Render**](cbaserenderer-render.md) method calls this metho
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

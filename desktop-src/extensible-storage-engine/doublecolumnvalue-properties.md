@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: DoubleColumnValue properties"
 title: DoubleColumnValue properties
 TOCTitle: DoubleColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.DoubleColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [DoubleColumnValue](dn273972\(v=exchg.10\).md) type exposes the following members.
+The [DoubleColumnValue](./doublecolumnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +82,6 @@ Top
 
 #### Reference
 
-[DoubleColumnValue class](dn273972\(v=exchg.10\).md)
+[DoubleColumnValue class](./doublecolumnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

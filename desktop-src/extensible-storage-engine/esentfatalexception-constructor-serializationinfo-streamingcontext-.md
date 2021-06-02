@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFatalException constructor (SerializationInfo, StreamingContext)"
 title: EsentFatalException constructor (SerializationInfo, StreamingContext)
 TOCTitle: EsentFatalException constructor (SerializationInfo, StreamingContext)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFatalException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFatalException class. This constructor is used to deserialize a serialized exception.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,10 +70,10 @@ protected EsentFatalException(
 
 #### Reference
 
-[EsentFatalException class](dn274321\(v=exchg.10\).md)
+[EsentFatalException class](./esentfatalexception-class.md)
 
-[EsentFatalException members](dn274275\(v=exchg.10\).md)
+[EsentFatalException members](./esentfatalexception-members.md)
 
-[EsentFatalException overload](dn274323\(v=exchg.10\).md)
+[EsentFatalException overload](./esentfatalexception-constructor.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

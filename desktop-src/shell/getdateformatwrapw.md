@@ -1,5 +1,5 @@
 ---
-Description: Formats a date as a date string for a specified locale.
+description: Formats a date as a date string for a specified locale.
 ms.assetid: e45f6d1c-2890-44f6-8406-022c99c59e02
 title: GetDateFormatWrapW function
 ms.topic: reference
@@ -241,7 +241,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

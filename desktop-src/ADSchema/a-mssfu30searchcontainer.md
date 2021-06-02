@@ -22,7 +22,7 @@ Contains the identifier of an object that specifies where each search will begin
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | msSFU-30-Search-Container                   |
 | Ldap-Display-Name | msSFU30SearchContainer                      |
@@ -46,7 +46,7 @@ Contains the identifier of an object that specifies where each search will begin
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -67,7 +67,7 @@ Contains the identifier of an object that specifies where each search will begin
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -88,7 +88,7 @@ Contains the identifier of an object that specifies where each search will begin
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -109,7 +109,7 @@ Contains the identifier of an object that specifies where each search will begin
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

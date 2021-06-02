@@ -22,7 +22,7 @@ This attribute indicates whether a setup command is required to set up this appl
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | Setup-Command                               |
 | Ldap-Display-Name | setupCommand                                |
@@ -48,7 +48,7 @@ This attribute indicates whether a setup command is required to set up this appl
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -69,7 +69,7 @@ This attribute indicates whether a setup command is required to set up this appl
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -90,7 +90,7 @@ This attribute indicates whether a setup command is required to set up this appl
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -111,7 +111,7 @@ This attribute indicates whether a setup command is required to set up this appl
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -132,7 +132,7 @@ This attribute indicates whether a setup command is required to set up this appl
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -153,7 +153,7 @@ This attribute indicates whether a setup command is required to set up this appl
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

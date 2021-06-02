@@ -1,5 +1,5 @@
 ---
-Description: The name of the Windows Image Acquisition (WIA) hardware device as it appears in the UI.
+description: The name of the Windows Image Acquisition (WIA) hardware device as it appears in the UI.
 ms.assetid: 0d53dcd1-2ae5-476c-9fdf-cdea61e0711b
 title: DeviceInfo.Name property
 ms.topic: reference
@@ -38,7 +38,7 @@ String that receives the Name.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

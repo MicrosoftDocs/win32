@@ -1,6 +1,6 @@
 ---
 title: ms-RADIUS-SavedFramedInterfaceId attribute
-description: Indicates the IPv6 interface identifier to be configured for the user.
+description: Indicates the IPv6 interface identifier to be configured for the user. | ms-RADIUS-SavedFramedInterfaceId attribute
 ms.assetid: 503b7cf5-9bdd-4118-aed8-3674090e2377
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-RADIUS-SavedFramedInterfaceId     |
 | Ldap-Display-Name | msRADIUS-SavedFramedInterfaceId      |
@@ -45,7 +45,7 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Indicates the IPv6 interface identifier to be configured for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

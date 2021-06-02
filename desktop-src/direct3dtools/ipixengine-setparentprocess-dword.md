@@ -1,5 +1,5 @@
 ---
-Description: Not used.
+description: <span id="vspixengine.ipixengine_setparentprocess_dword"></span>IPixEngine::SetParentProcess method - Not used.
 MS-HAID: vspixengine.IPixEngine\_SetParentProcess\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

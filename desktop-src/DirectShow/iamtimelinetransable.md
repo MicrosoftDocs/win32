@@ -1,5 +1,5 @@
 ---
-Description: The IAMTimelineTransable interface adds transitions to an object in DirectShow Editing Services (DES).
+description: The IAMTimelineTransable interface adds transitions to an object in DirectShow Editing Services (DES).
 ms.assetid: 1be9adaa-4145-447c-b307-dabb4419c86c
 title: IAMTimelineTransable interface (Qedit.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The **IAMTimelineTransable** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

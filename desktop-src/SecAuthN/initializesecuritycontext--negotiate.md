@@ -1,5 +1,5 @@
 ---
-Description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the Negotiate [*constrained delegation*](../secgloss/s-gly.md).
+description: Initiates the client side, outbound [*security context*](../secgloss/s-gly.md) from a credential handle by using the Negotiate [*constrained delegation*](../secgloss/s-gly.md).
 ms.assetid: 031b0e82-f246-4291-aed3-f443ab152e00
 title: InitializeSecurityContext (Negotiate) function (Sspi.h)
 ms.topic: reference
@@ -233,7 +233,7 @@ Kernel mode callers have the following differences: the target name is a [*Unico
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

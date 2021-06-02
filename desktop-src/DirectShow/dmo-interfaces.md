@@ -1,5 +1,5 @@
 ---
-Description: DMO Interfaces
+description: DMO Interfaces
 ms.assetid: 1362495b-1abb-41fd-b821-b51d8e32f137
 title: DMO Interfaces
 ms.topic: article

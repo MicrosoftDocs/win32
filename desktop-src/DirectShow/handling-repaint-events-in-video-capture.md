@@ -1,5 +1,5 @@
 ---
-Description: Handling Repaint Events in Video Capture
+description: Handling Repaint Events in Video Capture
 ms.assetid: 80739be7-fa38-409d-a827-d788d3044abe
 title: Handling Repaint Events in Video Capture
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Param.MaxCoalesceReadGapSize field"
 title: Windows7Param.MaxCoalesceReadGapSize field (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: MaxCoalesceReadGapSize field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Windows7.Windows7Param.MaxCoalesceReadGapSize
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Maximum number of bytes that can be gapped for a coalesced read IO operation.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_param MaxCoalesceReadGapSize
 
 #### Reference
 
-[Windows7Param class](dn335429\(v=exchg.10\).md)
+[Windows7Param class](./windows7param-class.md)
 
-[Windows7Param members](dn335315\(v=exchg.10\).md)
+[Windows7Param members](./windows7param-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

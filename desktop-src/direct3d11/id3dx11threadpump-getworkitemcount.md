@@ -51,7 +51,7 @@ The number of work items queued in the thread pump.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX11core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX11.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SLONGDATE
+description: LOCALE\_SLONGDATE
 ms.assetid: 1b72cd57-819e-4b1f-bbb0-b600a9e8631c
 title: LOCALE_SLONGDATE
 ms.topic: article

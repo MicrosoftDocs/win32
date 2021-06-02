@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Bus WMI class represents a physical bus as seen by a computer running a Windows operating system. Any instance of a Windows bus is a descendant (or member) of this class.
+description: The Win32\_Bus WMI class represents a physical bus as seen by a computer running a Windows operating system. Any instance of a Windows bus is a descendant (or member) of this class.
 ms.assetid: 76ba15f4-8c7b-4713-b5a2-e444fbab064a
 ms.tgt_platform: multiple
 title: Win32_Bus class
@@ -1334,7 +1334,7 @@ The **Win32\_Bus** class is derived from [**CIM\_LogicalDevice**](cim-logicaldev
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -22,7 +22,7 @@ Backward link reference to the [**ms-DS-Service-Connection-Point-Publication-Ser
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Disable-For-Instances-BL          |
 | Ldap-Display-Name | msDS-DisableForInstancesBL              |
@@ -43,7 +43,7 @@ Backward link reference to the [**ms-DS-Service-Connection-Point-Publication-Ser
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2043                            |
 | MAPI-Id                | \-                              |

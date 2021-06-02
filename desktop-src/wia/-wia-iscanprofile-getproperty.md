@@ -1,5 +1,5 @@
 ---
-Description: Gets the value of specified child properties in the <Properties> element of a scan profile.
+description: Gets the value of specified child properties in the <Properties> element of a scan profile.
 ms.assetid: 528b51f5-51e0-4639-965d-ee318eb2187b
 title: IScanProfile::GetProperty method (Scanprofile.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ Each value in the array that *pid* points to is one of the [WIA Property Constan
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

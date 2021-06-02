@@ -1,5 +1,5 @@
 ---
-Description: A shader that is invoked when it is enabled and the closest hit has been determined or ray intersection search ended.  
+description: A shader that is invoked when it is enabled and the closest hit has been determined or ray intersection search ended.
 ms.assetid: 
 title: Closest Hit Shader
 ms.localizationpriority: low

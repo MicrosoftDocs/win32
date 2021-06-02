@@ -1,5 +1,5 @@
 ---
-Description: Disables index creation and modification for the specified database.
+description: Disables index creation and modification for the specified database.
 ms.assetid: d079eae2-574e-4ac1-a0f9-11796e56a790
 title: SdbStopIndexing function
 ms.topic: reference
@@ -57,7 +57,7 @@ The function returns **TRUE** on success or **FALSE** on failure.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

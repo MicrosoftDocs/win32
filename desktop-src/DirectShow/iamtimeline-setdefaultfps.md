@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultFPS method sets the default output frame rate, in frames per second. Groups use this value as their default frame rate. To set a group's frame rate, call the IAMTimelineGroup::SetOutputFPS method on the group.
+description: The SetDefaultFPS method sets the default output frame rate, in frames per second. Groups use this value as their default frame rate. To set a group's frame rate, call the IAMTimelineGroup::SetOutputFPS method on the group.
 ms.assetid: a164f4b9-fbed-45ea-9156-cc64f0b21423
 title: IAMTimeline::SetDefaultFPS method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

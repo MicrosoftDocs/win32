@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current matrix at the top of the stack.
+description: ID3DXMATRIXStack::GetTop method (D3DX10.h) - Retrieves the current matrix at the top of the stack.
 ms.assetid: cf379742-3e7d-4309-a7af-b97348428682
 title: ID3DXMATRIXStack::GetTop method (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::GetTop method
+# ID3DXMATRIXStack::GetTop method (D3DX10.h)
 
 Retrieves the current matrix at the top of the stack.
 
@@ -49,7 +49,7 @@ Note that this method does not remove the current matrix from the top of the sta
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

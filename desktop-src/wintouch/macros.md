@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Macros
+# Macros (Windows Touch Gestures)
 
 This section contains macros for Windows Touch gestures.
 

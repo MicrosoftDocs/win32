@@ -1,5 +1,5 @@
 ---
-Description: Requests a Media Foundation transform (MFT) to that streaming is about to end.
+description: Requests a Media Foundation transform (MFT) to that streaming is about to end.
 ms.assetid: df313a66-e80f-499c-a9f2-a7cbaaf0a7d4
 title: MFT_MESSAGE_NOTIFY_END_STREAMING (Mftransform.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The MFT can respond to this message by releasing buffers and other resources. Th
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

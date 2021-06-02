@@ -1,5 +1,5 @@
 ---
-Description: To retrieve a list of providers that have installed their manifest or MOF classes on the computer, call the TdhEnumerateProviders function.
+description: To retrieve a list of providers that have installed their manifest or MOF classes on the computer, call the TdhEnumerateProviders function.
 ms.assetid: 79a29a55-e211-4921-ac78-a21ef8ef238f
 title: Enumerating Providers
 ms.topic: article
@@ -20,21 +20,23 @@ The following example shows how to enumerate providers.
 
 #pragma comment(lib, "tdh.lib")
 
+#define MAX_GUID_SIZE 39
+
 void wmain(void)
 {
     DWORD status = ERROR_SUCCESS;
     PROVIDER_ENUMERATION_INFO* penum = NULL;    // Buffer that contains provider information
-    PROVIDER_ENUMERATION_INFO* ptemp = NULL; 
+    PROVIDER_ENUMERATION_INFO* ptemp = NULL;
     DWORD BufferSize = 0;                       // Size of the penum buffer
-    HRESULT hr = S_OK;                          // Return value for StringFromCLSID
-    LPWSTR pStringGuid = NULL;
+    HRESULT hr = S_OK;                          // Return value for StringFromGUID2
+    WCHAR StringGuid[MAX_GUID_SIZE];
     DWORD RegisteredMOFCount = 0;
     DWORD RegisteredManifestCount = 0;
 
     // Retrieve the required buffer size.
 
     status = TdhEnumerateProviders(penum, &BufferSize);
-    
+
     // Allocate the required buffer and call TdhEnumerateProviders. The list of 
     // providers can change between the time you retrieved the required buffer 
     // size and the time you enumerated the providers, so call TdhEnumerateProviders
@@ -42,7 +44,7 @@ void wmain(void)
 
     while (ERROR_INSUFFICIENT_BUFFER == status)
     {
-        ptemp = (PROVIDER_ENUMERATION_INFO*) realloc(penum, BufferSize);
+        ptemp = (PROVIDER_ENUMERATION_INFO*)realloc(penum, BufferSize);
         if (NULL == ptemp)
         {
             wprintf(L"Allocation failed (size=%lu).\n", BufferSize);
@@ -66,25 +68,23 @@ void wmain(void)
 
         for (DWORD i = 0; i < penum->NumberOfProviders; i++)
         {
-            hr = StringFromCLSID(penum->TraceProviderInfoArray[i].ProviderGuid, &pStringGuid);
+            hr = StringFromGUID2(penum->TraceProviderInfoArray[i].ProviderGuid, StringGuid, ARRAYSIZE(StringGuid));
 
             if (FAILED(hr))
             {
-                wprintf(L"StringFromCLSID failed with 0x%x\n", hr);
+                wprintf(L"StringFromGUID2 failed with 0x%x\n", hr);
                 goto cleanup;
             }
 
             wprintf(L"Provider name: %s\nProvider GUID: %s\nSource: %s\n\n",
-                (LPWSTR)((PBYTE)(penum) + penum->TraceProviderInfoArray[i].ProviderNameOffset),
-                pStringGuid,
+                (LPWSTR)((PBYTE)(penum)+penum->TraceProviderInfoArray[i].ProviderNameOffset),
+                StringGuid,
                 (penum->TraceProviderInfoArray[i].SchemaSource) ? L"WMI MOF class" : L"XML manifest");
-
-            CoTaskMemFree(pStringGuid);
 
             (penum->TraceProviderInfoArray[i].SchemaSource) ? RegisteredMOFCount++ : RegisteredManifestCount++;
         }
 
-        wprintf(L"\nThere are %d registered providers; %lu are registered via MOF class and\n%lu are registered via a manifest.\n", 
+        wprintf(L"\nThere are %d registered providers; %lu are registered via MOF class and\n%lu are registered via a manifest.\n",
             penum->NumberOfProviders,
             RegisteredMOFCount,
             RegisteredManifestCount);

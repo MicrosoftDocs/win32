@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDataHasChangedException members"
 title: EsentDataHasChangedException members
 TOCTitle: EsentDataHasChangedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDataHasChangedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DataHasChanged exceptions.
 
-The [EsentDataHasChangedException](dn334397\(v=exchg.10\).md) type exposes the following members.
+The [EsentDataHasChangedException](./esentdatahaschangedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDataHasChangedException class](dn334397\(v=exchg.10\).md)
+[EsentDataHasChangedException class](./esentdatahaschangedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

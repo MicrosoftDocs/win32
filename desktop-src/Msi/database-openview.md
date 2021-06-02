@@ -1,5 +1,5 @@
 ---
-Description: The OpenView method of the Database object returns a View object that represents the query specified by a SQL string.
+description: The OpenView method of the Database object returns a View object that represents the query specified by a SQL string.
 ms.assetid: 6afb2fdb-0e6a-468f-8faf-e48d8d1960b6
 title: Database.OpenView method (Certview.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the method fails, you can obtain extended error information by using the [**L
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | Header<br/>  | <dl> <dt>Certview.h</dt> </dl>                                                                                                                                                                   |

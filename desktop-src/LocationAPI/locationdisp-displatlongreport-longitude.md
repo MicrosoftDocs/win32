@@ -1,5 +1,5 @@
 ---
-Description: Current longitude, in degrees.
+description: Current longitude, in degrees.
 ms.assetid: f4fa1cbb-d682-42ab-9dd8-dff636ea4c8a
 title: LocationDisp.DispLatLongReport.Longitude property
 ms.topic: reference
@@ -43,7 +43,7 @@ For an example of how to use this property, see [A Simple LatLong Report Example
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

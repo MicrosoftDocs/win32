@@ -1,5 +1,5 @@
 ---
-Description: The DoGetWindowStyle method retrieves the current normal or extended window styles.
+description: The DoGetWindowStyle method retrieves the current normal or extended window styles.
 ms.assetid: 1a854896-4bcb-49d0-92e4-40d1923712f9
 title: CBaseControlWindow.DoGetWindowStyle method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Value specifying which styles to retrieve. Must be one of the following:
 
 
 
-|              |                                      |
+| Label | Value |
 |--------------|--------------------------------------|
 | GWL\_STYLE   | Retrieve the window styles.          |
 | GWL\_EXSTYLE | Retrieve the extended window styles. |
@@ -75,7 +75,7 @@ This member function calls the Win32 **GetWindowLong** function to retrieve the 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

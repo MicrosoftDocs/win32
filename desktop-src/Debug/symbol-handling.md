@@ -1,5 +1,5 @@
 ---
-Description: The symbol handler functions give applications easy and portable access to the symbolic debugging information of an executable image.
+description: The symbol handler functions give applications easy and portable access to the symbolic debugging information of an executable image.
 ms.assetid: 74d2a392-0aaa-4d51-bb5b-2a5278235a03
 title: Symbol Handling
 ms.topic: article

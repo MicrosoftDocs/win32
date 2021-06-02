@@ -1,5 +1,5 @@
 ---
-Description: Represents an association between two service access points (SAP), in which one SAP is dependant on the other to utilize or connect with a service.
+description: Represents an association between two service access points (SAP), in which one SAP is dependant on the other to utilize or connect with a service.
 ms.assetid: fba4144b-833f-469f-93df-e8a79aa37811
 title: CIM_SAPSAPDependency class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_SAPSAPDependency class
+# CIM_SAPSAPDependency class (Hyper-V management)
 
 Represents an association between two service access points (SAP), in which one SAP is dependant on the other to utilize or connect with a service. For example, to print on a network printer, local print access points must utilize underlying network-related SAPs to send the print request.
 
@@ -80,7 +80,7 @@ A reference to the dependant SAP.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

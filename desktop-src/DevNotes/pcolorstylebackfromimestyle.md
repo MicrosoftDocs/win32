@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the background color style of the specified style.
+description: Retrieves the background color style of the specified style.
 ms.assetid: 1b0acac1-c36d-49b6-8154-f69bda008e9a
 title: PColorStyleBackFromIMEStyle function
 ms.topic: reference
@@ -67,7 +67,7 @@ typedef struct {
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Imeshare.dll</dt> </dl> |
 

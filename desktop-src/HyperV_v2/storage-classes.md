@@ -1,5 +1,5 @@
 ---
-Description: 'The storage objects are separated into three types: controllers, drives, and media.'
+description: 'The storage objects are separated into three types: controllers, drives, and media.'
 ms.assetid: CF38F6E8-A43D-4A97-8055-6B17E323524C
 title: Storage classes
 ms.topic: reference

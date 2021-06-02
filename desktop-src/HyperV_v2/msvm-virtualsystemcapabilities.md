@@ -1,5 +1,5 @@
 ---
-Description: Describes the capabilities of the associated Msvm\_ComputerSystem.
+description: Describes the capabilities of the associated Msvm\_ComputerSystem.
 ms.assetid: 7e3b51ba-f85d-4b83-abc6-a094d412eca1
 title: Msvm_VirtualSystemCapabilities class
 ms.topic: reference
@@ -190,7 +190,7 @@ Indicates the possible states that can be requested when using the **RequestStat
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

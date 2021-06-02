@@ -1,6 +1,6 @@
 ---
 title: Windows Connection Manager
-description: .
+description: Windows Connection Manager
 ms.assetid: 65f9fbc6-6b6c-4b73-996f-62c3f813911c
 ms.topic: article
 ms.date: 05/31/2018

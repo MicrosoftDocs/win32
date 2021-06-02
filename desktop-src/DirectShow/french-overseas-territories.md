@@ -1,5 +1,5 @@
 ---
-Description: French Overseas Territories
+description: French Overseas Territories
 ms.assetid: 19f178c5-46f7-4108-9a1a-e49a4eb51f27
 title: French Overseas Territories
 ms.topic: article

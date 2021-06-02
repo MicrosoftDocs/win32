@@ -1,5 +1,5 @@
 ---
-Description: Interfaces for Video Rendering and Overlay
+description: Interfaces for Video Rendering and Overlay
 ms.assetid: e4d4e456-61fb-492b-b817-30629681e270
 title: Interfaces for Video Rendering and Overlay
 ms.topic: article

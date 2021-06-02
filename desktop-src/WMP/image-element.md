@@ -1,6 +1,6 @@
 ---
 title: Image Element (WMP SDK)
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | Image Element (WMP SDK)
 ms.assetid: 06804c26-e847-43a7-bb75-60da600c7d4f
 keywords:
 - Image Element Windows Media Player
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Image Element
+# Image Element (WMP SDK)
 
 > [!Note]  
 > This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported.
@@ -92,7 +92,7 @@ You can provide an animated image for ServiceLargeURL. In Windows Media Player 1
 
 
 
-|                    |                                             |
+| Requirement | Value |
 |--------------------|---------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/> |
 

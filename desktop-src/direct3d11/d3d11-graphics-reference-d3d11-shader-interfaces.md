@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Shader Interfaces
+# Shader Interfaces (Direct3D 11 Graphics)
 
 This section contains information about the shader interfaces.
 

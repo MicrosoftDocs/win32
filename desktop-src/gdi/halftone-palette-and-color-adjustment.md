@@ -1,5 +1,5 @@
 ---
-Description: Halftone palettes are intended to be used whenever the stretching mode of a device context is set to HALFTONE.
+description: Halftone palettes are intended to be used whenever the stretching mode of a device context is set to HALFTONE.
 ms.assetid: ee171379-2ab3-4c38-8e86-ff80fa63a357
 title: Halftone Palette and Color Adjustment
 ms.topic: article

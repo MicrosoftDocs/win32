@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Sound
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 *Sound* is the audio element of the user experience. When used appropriately, sound can be an effective form of communication that establishes a non-verbal and even emotional relationship with your users. Sounds can be used alone or as a supplement to visual UI. For example, adding a sound effect to a notification increases the likelihood that it will be noticed, especially if the user isn't looking at the screen when an event occurs.
 
@@ -196,10 +196,4 @@ When creating your own sounds:
 -   Use the term audio to refer broadly to speech, music, and sounds. Use the term sound to refer more narrowly to the program and Windows sounds described in this article.
 
  
-
- 
-
-
-
-
 

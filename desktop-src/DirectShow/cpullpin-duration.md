@@ -1,5 +1,5 @@
 ---
-Description: The Duration method retrieves the duration of the stream.
+description: The Duration method retrieves the duration of the stream.
 ms.assetid: 82fbd7f5-36dc-4e81-9ce5-9ee28adf73ef
 title: CPullPin.Duration method (Pullpin.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The duration is indeterminate until the [**CPullPin::Connect**](cpullpin-connect
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h</dt> </dl>                                                                                                       |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Lists the functions provided by CryptoAPI.
+description: Lists the functions provided by CryptoAPI.
 ms.assetid: 9a65f73d-6f8c-4271-a2d0-d91ad952f9c6
 title: Cryptography Functions
 ms.topic: article
@@ -1259,8 +1259,9 @@ The following functions support Personal Information Exchange (PFX) format [*BLO
 
 Certificate Services includes functions for backing up and restoring the Certificate Services database. These Certificate Services backup and restore functions are contained in Certadm.dll. Unlike the other API elements associated with Certificate Services, these functions are not encapsulated in an object that can be used to call class methods. Instead, the backup and restore APIs are called by first loading the Certadm.dll library into memory by calling [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) and then determining the address of the functions by calling [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress). When you have finished calling the Certificate Services backup and restore functions, call [**FreeLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-freelibrary) to free Certadm.dll resources from memory.
 
-> [!Note]Backup and restore functions provided by Certadm.dll do not backup or restore the Certificate Service's [*private keys*](../secgloss/p-gly.md). For information about backing up the Certificate Services private keys, see [Backing Up and Restoring the Certificate Services Private Key](backing-up-and-restoring-the-certificate-services-private-key.md).
->
+> [!Note]
+> Backup and restore functions provided by Certadm.dll do not backup or restore the Certificate Service's [*private keys*](../secgloss/p-gly.md). For information about backing up the Certificate Services private keys, see [Backing Up and Restoring the Certificate Services Private Key](backing-up-and-restoring-the-certificate-services-private-key.md).
+> 
 > To call the backup and restore functions, you must have backup and restore [*privileges*](../secgloss/p-gly.md). For details, see [Setting the Backup and Restore Privileges](setting-the-backup-and-restore-privileges.md).
 
  

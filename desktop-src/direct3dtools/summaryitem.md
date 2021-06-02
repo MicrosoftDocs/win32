@@ -1,5 +1,5 @@
 ---
-Description: Represents summary information about an event.
+description: Represents summary information about an event.
 MS-HAID: vspixengine.SummaryItem
 MSHAttr:
 - PreferredSiteName:MSDN

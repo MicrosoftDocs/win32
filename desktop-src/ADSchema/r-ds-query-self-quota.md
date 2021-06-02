@@ -21,7 +21,7 @@ Control access right that allows a user to query the user's own quotas.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | DS-Query-Self-Quota                  |
 | Display-Name | Query Self Quota                     |
@@ -42,7 +42,7 @@ Control access right that allows a user to query the user's own quotas.
 
 
 
-|                         |                                                                   |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------|
 | Applies-To              | [**ms-DS-Quota-Container**](c-msds-quotacontainer.md)<br/> |
 | Localization-Display-ID | 71                                                                |
@@ -53,7 +53,7 @@ Control access right that allows a user to query the user's own quotas.
 
 
 
-|                         |                                                                   |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------|
 | Applies-To              | [**ms-DS-Quota-Container**](c-msds-quotacontainer.md)<br/> |
 | Localization-Display-ID | 71                                                                |
@@ -64,7 +64,7 @@ Control access right that allows a user to query the user's own quotas.
 
 
 
-|                         |                                                                   |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------|
 | Applies-To              | [**ms-DS-Quota-Container**](c-msds-quotacontainer.md)<br/> |
 | Localization-Display-ID | 71                                                                |
@@ -75,7 +75,7 @@ Control access right that allows a user to query the user's own quotas.
 
 
 
-|                         |                                                                   |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------|
 | Applies-To              | [**ms-DS-Quota-Container**](c-msds-quotacontainer.md)<br/> |
 | Localization-Display-ID | 71                                                                |
@@ -86,7 +86,7 @@ Control access right that allows a user to query the user's own quotas.
 
 
 
-|                         |                                                                   |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------|
 | Applies-To              | [**ms-DS-Quota-Container**](c-msds-quotacontainer.md)<br/> |
 | Localization-Display-ID | 71                                                                |
@@ -97,7 +97,7 @@ Control access right that allows a user to query the user's own quotas.
 
 
 
-|                         |                                                                   |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------|
 | Applies-To              | [**ms-DS-Quota-Container**](c-msds-quotacontainer.md)<br/> |
 | Localization-Display-ID | 71                                                                |

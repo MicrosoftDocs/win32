@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFileCloseException members"
 title: EsentFileCloseException members
 TOCTitle: EsentFileCloseException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentFileCloseException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.FileClose exceptions.
 
-The [EsentFileCloseException](dn274332\(v=exchg.10\).md) type exposes the following members.
+The [EsentFileCloseException](./esentfilecloseexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentFileCloseException class](dn274332\(v=exchg.10\).md)
+[EsentFileCloseException class](./esentfilecloseexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

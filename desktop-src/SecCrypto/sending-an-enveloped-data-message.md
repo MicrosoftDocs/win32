@@ -1,5 +1,5 @@
 ---
-Description: In the following example, a plaintext message is read in from a file, and a certificate store that contains the certificates of the intended message recipients is opened.
+description: In the following example, a plaintext message is read in from a file, and a certificate store that contains the certificates of the intended message recipients is opened.
 ms.assetid: 7ae672d3-e11d-453c-b9c0-354d21830ae4
 title: Sending an Enveloped Data Message
 ms.topic: article

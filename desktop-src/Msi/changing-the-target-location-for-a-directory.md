@@ -1,5 +1,5 @@
 ---
-Description: If possible, the best way to specify the target location for a directory is to author the Directory Table in your installation package to provide the correct location. For more information, see Using the Directory Table.
+description: If possible, the best way to specify the target location for a directory is to author the Directory Table in your installation package to provide the correct location. For more information, see Using the Directory Table.
 ms.assetid: 2d16e036-2d7f-431d-b646-1addf2f65f3f
 title: Changing the Target Location for a Directory
 ms.topic: article

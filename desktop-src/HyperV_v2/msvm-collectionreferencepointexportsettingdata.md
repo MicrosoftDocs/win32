@@ -1,5 +1,5 @@
 ---
-Description: Export setting data to be passed in to the ExportReferencePoint method of the Msvm\_CollectionReferencePointService class.
+description: Export setting data to be passed in to the ExportReferencePoint method of the Msvm\_CollectionReferencePointService class.
 ms.assetid: 38299050-a53a-496c-8792-9199c394591d
 title: Msvm_CollectionReferencePointExportSettingData class
 ms.topic: reference
@@ -79,7 +79,7 @@ List of "VirtualMachines To DisksToExport" map information for which data needs 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

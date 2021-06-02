@@ -38,7 +38,7 @@ Use this method to provide an alternate means of running the code associated wit
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

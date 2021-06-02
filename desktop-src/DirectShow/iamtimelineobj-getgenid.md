@@ -1,5 +1,5 @@
 ---
-Description: The GetGenID method retrieves the object's generated identifier. The identifier is a reserved number; applications should not use it.
+description: The GetGenID method retrieves the object's generated identifier. The identifier is a reserved number; applications should not use it.
 ms.assetid: b71b9b52-589b-4f80-915f-4805b1b8e295
 title: IAMTimelineObj::GetGenID method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

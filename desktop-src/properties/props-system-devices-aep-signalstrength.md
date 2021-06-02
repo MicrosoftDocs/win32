@@ -1,5 +1,5 @@
 ---
-Description: Signal strength of the device. Only applicable for some protocols.
+description: Signal strength of the device. Only applicable for some protocols.
 ms.assetid: 21769028-064d-4e17-88ec-16708732a176
 title: System.Devices.Aep.SignalStrength
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Globally unique identifier (GUID) values that identify producers of debug messages.
+description: Globally unique identifier (GUID) values that identify producers of debug messages.
 ms.assetid: 85946D30-5E49-4E4B-AC25-394ABFF0DB11
 title: DXGI_DEBUG_ID (DXGIDebug.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ To use any of these GUID values, include DXGIDebug.h in your code and link to dx
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                            |

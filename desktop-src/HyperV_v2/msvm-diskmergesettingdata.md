@@ -1,5 +1,5 @@
 ---
-Description: Represents the configuration state of the disk merge settings for a virtual machine.
+description: Represents the configuration state of the disk merge settings for a virtual machine.
 ms.assetid: b4c0afeb-ce37-4eec-8aba-0d74115c463f
 title: Msvm_DiskMergeSettingData class
 ms.topic: reference
@@ -142,7 +142,7 @@ Uniquely identifies an instance of this class. This property is inherited from [
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

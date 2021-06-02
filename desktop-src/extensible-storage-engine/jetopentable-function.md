@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenTable Function"
 title: JetOpenTable Function
 TOCTitle: JetOpenTable Function
 ms:assetid: ded6348c-a82a-49bc-8a5d-e40ed5d6315c
@@ -123,7 +124,7 @@ On success, points to the identifier of the table. On failure, the contents for 
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -184,9 +185,9 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-Tables opened with **JetOpenTable** should usually be closed with [JetCloseTable](gg294087\(v=exchg.10\).md). The exception to this rule happens when **JetOpenTable** is called in a transaction and the transaction is rolled back (with [JetRollback](gg269273\(v=exchg.10\).md)). When rolling back a transaction, the table is automatically closed. In this case, it is an error to close the table with [JetCloseTable](gg294087\(v=exchg.10\).md).
+Tables opened with **JetOpenTable** should usually be closed with [JetCloseTable](./jetclosetable-function.md). The exception to this rule happens when **JetOpenTable** is called in a transaction and the transaction is rolled back (with [JetRollback](./jetrollback-function.md)). When rolling back a transaction, the table is automatically closed. In this case, it is an error to close the table with [JetCloseTable](./jetclosetable-function.md).
 
-It is legal to open system tables with **JetOpenTable** (for example, MSysObjects, MSysUnicodeFixup). The schema of the system tables may change, so accessing system tables is discouraged. The number of unique tables that can be opened simultaneously is affected directly by *JET_paramMaxOpenTables*. If the table is currently open then a new cursor will be created on the table. Cursor resources are configured using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with *JET_paramMaxCursors*. Also see [JetDupCursor](gg269193\(v=exchg.10\).md).
+It is legal to open system tables with **JetOpenTable** (for example, MSysObjects, MSysUnicodeFixup). The schema of the system tables may change, so accessing system tables is discouraged. The number of unique tables that can be opened simultaneously is affected directly by *JET_paramMaxOpenTables*. If the table is currently open then a new cursor will be created on the table. Cursor resources are configured using [JetSetSystemParameter](./jetsetsystemparameter-function.md) with *JET_paramMaxCursors*. Also see [JetDupCursor](./jetdupcursor-function.md).
 
 #### Requirements
 
@@ -226,13 +227,12 @@ It is legal to open system tables with **JetOpenTable** (for example, MSysObject
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetDupCursor](gg269193\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[Resource Parameters](gg269201\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetDupCursor](./jetdupcursor-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[Resource Parameters](./resource-parameters.md)

@@ -1,5 +1,5 @@
 ---
-Description: The GetColourMask method retrieves the color masks for the current display format.
+description: The GetColourMask method retrieves the color masks for the current display format.
 ms.assetid: 386d0439-8502-411d-935c-3c2153a8b5b4
 title: CImageDisplay.GetColourMask method (Winutil.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ Returns **TRUE** if successful, or **FALSE** otherwise.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

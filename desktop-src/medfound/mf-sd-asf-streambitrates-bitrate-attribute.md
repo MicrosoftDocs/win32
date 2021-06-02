@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file. This attribute corresponds to the Stream Bitrate Properties Object defined in the ASF specification.
+description: Specifies the average bit rate, in bits per second, of a stream in an Advanced Systems Format (ASF) file. This attribute corresponds to the Stream Bitrate Properties Object defined in the ASF specification.
 ms.assetid: 7ec6004f-c71b-413f-b2fd-dc03a5bf8c57
 title: MF_SD_ASF_STREAMBITRATES_BITRATE attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The attribute value equals the Average Bit Rate field in the Stream Bit Rate Pro
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

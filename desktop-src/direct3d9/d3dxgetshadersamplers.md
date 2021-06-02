@@ -1,5 +1,5 @@
 ---
-Description: Get the sampler names referenced in a shader.
+description: Get the sampler names referenced in a shader.
 ms.assetid: fe769917-daac-43b8-bf63-fb337915ff53
 title: D3DXGetShaderSamplers function (D3DX9Shader.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

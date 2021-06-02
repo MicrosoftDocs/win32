@@ -1,5 +1,5 @@
 ---
-Description: The search-ms ?application protocol is a convention for querying the Windows Search index.
+description: The search-ms ?application protocol is a convention for querying the Windows Search index.
 ms.assetid: e8b18018-c712-4007-bb0a-af90a75780d6
 title: Getting Started with Parameter-Value Arguments
 ms.topic: article

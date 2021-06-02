@@ -1,5 +1,5 @@
 ---
-Description: Samples and Allocators
+description: Samples and Allocators
 ms.assetid: '1fbea741-f29a-4815-9885-94ca9cf4bb95'
 title: Samples and Allocators
 ms.topic: article

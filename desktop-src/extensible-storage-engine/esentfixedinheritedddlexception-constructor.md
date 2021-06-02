@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFixedInheritedDDLException constructor"
 title: EsentFixedInheritedDDLException constructor 
 TOCTitle: 'EsentFixedInheritedDDLException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentFixedInheritedDDLException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentFixedInheritedDDLException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentFixedInheritedDDLException()
 
 #### Reference
 
-[EsentFixedInheritedDDLException class](dn350413\(v=exchg.10\).md)
+[EsentFixedInheritedDDLException class](./esentfixedinheritedddlexception-class.md)
 
-[EsentFixedInheritedDDLException members](dn350460\(v=exchg.10\).md)
+[EsentFixedInheritedDDLException members](./esentfixedinheritedddlexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

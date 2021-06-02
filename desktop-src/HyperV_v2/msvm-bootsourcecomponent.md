@@ -1,5 +1,5 @@
 ---
-Description: Associates the Msvm\_BootSourceSettingData to the overall Msvm\_VirtualSystemSettingData.
+description: Associates the Msvm\_BootSourceSettingData to the overall Msvm\_VirtualSystemSettingData.
 ms.assetid: DB2E66F1-CC2C-49FC-96CE-D9DE441AA809
 title: Msvm_BootSourceComponent class
 ms.topic: reference
@@ -76,7 +76,7 @@ Reference to the child element in the association. This property is inherited fr
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

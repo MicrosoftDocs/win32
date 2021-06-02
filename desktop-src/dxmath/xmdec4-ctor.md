@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMDEC4.
+description: Constructors exposed by XMDEC4.
 ms.assetid: e8ca8689-c946-4fef-a211-6c3737cc88aa
 title: XMDEC4 constructors
 ms.topic: reference

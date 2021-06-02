@@ -1,5 +1,5 @@
 ---
-Description: The Class table contains COM server-related information that must be generated as a part of the product advertisement. Each row may generate a set of registry keys and values. The associated ProgId information is included in this table.
+description: The Class table contains COM server-related information that must be generated as a part of the product advertisement. Each row may generate a set of registry keys and values. The associated ProgId information is included in this table.
 ms.assetid: 0fa00a3f-2a5d-411d-9fc6-9486a600f018
 title: Class Table
 ms.topic: article

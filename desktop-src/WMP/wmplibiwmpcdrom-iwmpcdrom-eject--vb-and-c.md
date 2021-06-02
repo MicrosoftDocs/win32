@@ -1,6 +1,6 @@
 ---
 title: IWMPCdrom eject method
-description: The eject method ejects the CD or DVD from the drive.
+description: The eject method ejects the CD or DVD from the drive. | IWMPCdrom eject method
 ms.assetid: c0a69252-fd79-452c-bc61-3c3e8bcaaf48
 keywords:
 - eject method Windows Media Player
@@ -84,7 +84,7 @@ End Sub
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

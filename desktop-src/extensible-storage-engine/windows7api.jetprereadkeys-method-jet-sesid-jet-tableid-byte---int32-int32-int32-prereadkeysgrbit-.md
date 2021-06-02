@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows7Api.JetPrereadKeys method (JET_SESID, JET_TABLEID, Byte[][], Int32 , Int32, Int32, PrereadKeysGrbit)"
 title: Windows7Api.JetPrereadKeys method (JET_SESID, JET_TABLEID, Byte[][], Int32 , Int32, Int32, PrereadKeysGrbit) (Microsoft.Isam.Esent.Interop.Windows7)
 TOCTitle: JetPrereadKeys method (JET_SESID, JET_TABLEID, Byte[][], Int32 , Int32, Int32, PrereadKeysGrbit)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows7.Windows7Api.JetPrereadKeys(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_TABLEID,System.Byte[][],System.Int32[],System.Int32,System.Int32@,Microsoft.Isam.Esent.Interop.Windows7.PrereadKeysGrbit)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 If the records with the specified keys are not in the buffer cache then start asynchronous reads to bring the records into the database buffer cache.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](hh577573\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows7](./microsoft.isam.esent.interop.windows7-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -69,14 +70,14 @@ public static void JetPrereadKeys(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - tableid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
     
     The table to issue the prereads against.
 
@@ -111,7 +112,7 @@ public static void JetPrereadKeys(
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.Windows7.PrereadKeysGrbit](hh565843\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows7.PrereadKeysGrbit](./prereadkeysgrbit-enumeration.md)  
     
     Preread options. Used to specify the direction of the preread.
 
@@ -119,10 +120,10 @@ public static void JetPrereadKeys(
 
 #### Reference
 
-[Windows7Api class](dn335406\(v=exchg.10\).md)
+[Windows7Api class](./windows7api-class.md)
 
-[Windows7Api members](dn335300\(v=exchg.10\).md)
+[Windows7Api members](./windows7api-members.md)
 
-[JetPrereadKeys overload](dn335411\(v=exchg.10\).md)
+[JetPrereadKeys overload](./windows7api.jetprereadkeys-method.md)
 
-[Microsoft.Isam.Esent.Interop.Windows7 namespace](hh577573\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows7 namespace](./microsoft.isam.esent.interop.windows7-namespace.md)

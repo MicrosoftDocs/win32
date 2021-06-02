@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIncompleteUpgradeException methods"
 title: EsentDatabaseIncompleteUpgradeException methods
 TOCTitle: EsentDatabaseIncompleteUpgradeException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteUpgradeException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseIncompleteUpgradeException](dn334320\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseIncompleteUpgradeException](./esentdatabaseincompleteupgradeexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseIncompleteUpgradeException class](dn334320\(v=exchg.10\).md)
+[EsentDatabaseIncompleteUpgradeException class](./esentdatabaseincompleteupgradeexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

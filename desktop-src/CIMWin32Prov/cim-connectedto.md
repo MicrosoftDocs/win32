@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ConnectedTo class represents an association that indicates that two or more physical connectors are connected.
+description: The CIM\_ConnectedTo class represents an association that indicates that two or more physical connectors are connected.
 ms.assetid: fedd9227-8a3b-461a-995b-08cbceb81181
 ms.tgt_platform: multiple
 title: CIM_ConnectedTo class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

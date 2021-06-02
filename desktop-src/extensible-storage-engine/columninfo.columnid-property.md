@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.Columnid property"
 title: ColumnInfo.Columnid property 
 TOCTitle: 'Columnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.Columnid
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the ID of the column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_COLUMNID Columnid { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)  
 
 ## See also
 
 #### Reference
 
-[ColumnInfo class](dn334128\(v=exchg.10\).md)
+[ColumnInfo class](./columninfo-class.md)
 
-[ColumnInfo members](dn334181\(v=exchg.10\).md)
+[ColumnInfo members](./columninfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CImageDisplay.CImageDisplay constructor - Constructor method.
 ms.assetid: 171a4f1e-a85d-4da8-9372-054aaa0e0a40
 title: CImageDisplay.CImageDisplay constructor (Winutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The constructor initializes the format type, using the display settings for the 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The Derivation\_ property of the SWbemObject object contains an array of strings that describe the class derivation hierarchy for the instance being referenced.
+description: The Derivation\_ property of the SWbemObject object contains an array of strings that describe the class derivation hierarchy for the instance being referenced.
 ms.assetid: 8a4daab0-7d10-4a37-aacd-1f3f499b859a
 ms.tgt_platform: multiple
 title: SWbemObject.Derivation_ property (Wbemdisp.h)
@@ -96,7 +96,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

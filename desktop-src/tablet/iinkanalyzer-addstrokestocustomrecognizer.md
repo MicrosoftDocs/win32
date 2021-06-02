@@ -1,5 +1,5 @@
 ---
-Description: Adds stroke data for multiple strokes to a custom recognizer node.
+description: Adds stroke data for multiple strokes to a custom recognizer node.
 ms.assetid: 77ded896-8573-42de-a41e-4866894dfe2b
 title: IInkAnalyzer::AddStrokesToCustomRecognizer method (IACom.h)
 ms.topic: reference
@@ -133,7 +133,7 @@ The [**IInkAnalyzer**](iinkanalyzer.md) returns an **HRESULT** of **E\_INVALIDAR
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

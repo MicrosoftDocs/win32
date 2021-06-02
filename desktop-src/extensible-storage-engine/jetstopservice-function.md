@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetStopService Function"
 title: JetStopService Function
 TOCTitle: JetStopService Function
 ms:assetid: 46aeb9ed-ee72-49cc-99e3-791a51a55b02
@@ -41,7 +42,7 @@ This function has no parameters.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -82,7 +83,7 @@ If this function fails, none of the steps to prepare for an instance termination
 
 #### Remarks
 
-This function reduces the work the instance will have to do when terminated, but will not terminate the instance. As a result, this function is just an optimization and is not mandatory to use. Note that the amount of work done in preparation was less in Windows 2000 and Windows XP. Once the function succeeds, calling functions that are no longer allowed will return JET_errClientRequestToStopJetService. Functions that are still allowed after this call are: [JetRollback](gg269273\(v=exchg.10\).md), [JetCloseTable](gg294087\(v=exchg.10\).md), [JetEndSession](gg294054\(v=exchg.10\).md), [JetCloseDatabase](gg294123\(v=exchg.10\).md), [JetDetachDatabase](gg269266\(v=exchg.10\).md) and [JetResetSessionContext](gg269250\(v=exchg.10\).md).
+This function reduces the work the instance will have to do when terminated, but will not terminate the instance. As a result, this function is just an optimization and is not mandatory to use. Note that the amount of work done in preparation was less in Windows 2000 and Windows XP. Once the function succeeds, calling functions that are no longer allowed will return JET_errClientRequestToStopJetService. Functions that are still allowed after this call are: [JetRollback](./jetrollback-function.md), [JetCloseTable](./jetclosetable-function.md), [JetEndSession](./jetendsession-function.md), [JetCloseDatabase](./jetclosedatabase-function.md), [JetDetachDatabase](./jetdetachdatabase-function.md) and [JetResetSessionContext](./jetresetsessioncontext-function.md).
 
 #### Requirements
 
@@ -118,14 +119,13 @@ This function reduces the work the instance will have to do when terminated, but
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetCloseDatabase](gg294123\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetDetachDatabase](gg269266\(v=exchg.10\).md)  
-[JetEndSession](gg294054\(v=exchg.10\).md)  
-[JetResetSessionContext](gg269250\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetTerm](gg269298\(v=exchg.10\).md)  
-[JetTerm2](gg269223\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetCloseDatabase](./jetclosedatabase-function.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetDetachDatabase](./jetdetachdatabase-function.md)  
+[JetEndSession](./jetendsession-function.md)  
+[JetResetSessionContext](./jetresetsessioncontext-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetTerm](./jetterm-function.md)  
+[JetTerm2](./jetterm2-function.md)

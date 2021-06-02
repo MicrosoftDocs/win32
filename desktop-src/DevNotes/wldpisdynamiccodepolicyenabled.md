@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a value that describes the Device Guard policy enforcement status for .NET dynamic code.
+description: Retrieves a value that describes the Device Guard policy enforcement status for .NET dynamic code.
 ms.assetid: 11E6C631-0FF8-4DB2-931A-1012B3CA4357
 title: WldpIsDynamicCodePolicyEnabled function (Wldp.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ Dynamic code refers to .NET CRL dynamically-generated code.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1803 \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                |

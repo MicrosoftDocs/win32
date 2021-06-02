@@ -1,5 +1,5 @@
 ---
-Description: The PF\_HANDOFFENTRY structure defines a protocol that Network Monitor adds to the handoff set of a parser.
+description: The PF\_HANDOFFENTRY structure defines a protocol that Network Monitor adds to the handoff set of a parser.
 ms.assetid: c26bee6e-7dbf-4994-a0a7-a280cf4838be
 title: PF_HANDOFFENTRY structure (Netmon.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ An array of the **PF\_HANDOFFENTRY** structures is used in the [PF\_HANDOFFSET](
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

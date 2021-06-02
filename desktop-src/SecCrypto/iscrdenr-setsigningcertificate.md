@@ -1,5 +1,5 @@
 ---
-Description: Specifies a signing certificate (also known as the enrollment agent certificate).
+description: Specifies a signing certificate (also known as the enrollment agent certificate).
 ms.assetid: db2437a9-46f6-48c3-9630-82ec556df645
 title: ISCrdEnr::setSigningCertificate method
 ms.topic: reference
@@ -83,7 +83,7 @@ After a signing certificate is set, its name can be retrieved by calling [**ISCr
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

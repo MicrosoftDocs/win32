@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDeleteBackupFileFailException constructor"
 title: EsentDeleteBackupFileFailException constructor 
 TOCTitle: 'EsentDeleteBackupFileFailException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDeleteBackupFileFailException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDeleteBackupFileFailException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDeleteBackupFileFailException()
 
 #### Reference
 
-[EsentDeleteBackupFileFailException class](dn274267\(v=exchg.10\).md)
+[EsentDeleteBackupFileFailException class](./esentdeletebackupfilefailexception-class.md)
 
-[EsentDeleteBackupFileFailException members](dn334434\(v=exchg.10\).md)
+[EsentDeleteBackupFileFailException members](./esentdeletebackupfilefailexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: By default, the Windows Search engine and catalog are insensitive to diacritics, which are accent marks added to letters to alter a word's meaning or pronunciation.
+description: By default, the Windows Search engine and catalog are insensitive to diacritics, which are accent marks added to letters to alter a word's meaning or pronunciation.
 ms.assetid: 71007bd4-5232-469c-982b-ff0d24bd0c1f
 title: Diacritic Sensitivity in Searches
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CBaseBasicVideo class implements the IDispatch methods of the IBasicVideo interface. The remaining IBasicVideo methods are left as pure virtual methods, and must be implemented by a derived class.
+description: The CBaseBasicVideo class implements the IDispatch methods of the IBasicVideo interface. The remaining IBasicVideo methods are left as pure virtual methods, and must be implemented by a derived class.
 ms.assetid: 58396c81-8a06-4b82-b278-a98573e9d5b3
 title: CBaseBasicVideo class (Ctlutil.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The **IDispatch** methods in this class are standard implementations, and are no
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

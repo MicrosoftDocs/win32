@@ -1,5 +1,5 @@
 ---
-Description: The GetOwnerSid&\#8194;WMI class method retrieves the security identifier (SID) for the owner of this process.
+description: The GetOwnerSid&\#8194;WMI class method retrieves the security identifier (SID) for the owner of this process.
 ms.assetid: f856b06c-8080-4145-a775-51361f741873
 ms.tgt_platform: multiple
 title: GetOwnerSid method of the Win32_Process class
@@ -79,7 +79,7 @@ The [Find the logged on users on a remote system/s version 2](https://Gallery.Te
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

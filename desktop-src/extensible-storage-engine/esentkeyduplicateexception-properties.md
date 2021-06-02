@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyDuplicateException properties"
 title: EsentKeyDuplicateException properties
 TOCTitle: EsentKeyDuplicateException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentKeyDuplicateException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentKeyDuplicateException](dn319603\(v=exchg.10\).md) type exposes the following members.
+The [EsentKeyDuplicateException](./esentkeyduplicateexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentKeyDuplicateException class](dn319603\(v=exchg.10\).md)
+[EsentKeyDuplicateException class](./esentkeyduplicateexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

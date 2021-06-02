@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE.columnid property"
 title: JET_COLUMNCREATE.columnid property 
 TOCTitle: 'columnid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNCREATE.columnid
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the columnid of the column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_COLUMNID columnid { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](hh564510\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_COLUMNID](./jet-columnid-structure.md)  
 
 ## See also
 
 #### Reference
 
-[JET_COLUMNCREATE class](dn335028\(v=exchg.10\).md)
+[JET_COLUMNCREATE class](./jet-columncreate-class.md)
 
-[JET_COLUMNCREATE members](dn335070\(v=exchg.10\).md)
+[JET_COLUMNCREATE members](./jet-columncreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

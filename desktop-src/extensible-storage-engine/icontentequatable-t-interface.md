@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: IContentEquatable<T> interface"
 title: IContentEquatable(T) interface
 TOCTitle: IContentEquatable(T) interface
 ms:assetid: T:Microsoft.Isam.Esent.Interop.IContentEquatable`1
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Interface for objects that can have their contents compared against each other. This should be used for equality comparisons on mutable reference objects where overriding Equals() and GetHashCode() isn't a good idea.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,7 +56,6 @@ public interface IContentEquatable<T>
 
 #### Reference
 
-[IContentEquatable\<T\> members](hh578119\(v=exchg.10\).md)
+[IContentEquatable\<T\> members](./icontentequatable-t-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

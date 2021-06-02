@@ -1,5 +1,5 @@
 ---
-Description: Installer engine used to install applications or updates or services run on Windows. Configures and repairs installed applications. Write custom msi packages to create an exe setup installation or update or upgrade for an application.
+description: Installer engine used to install applications or updates or services run on Windows. Configures and repairs installed applications. Write custom msi packages to create an exe setup installation or update or upgrade for an application.
 ms.assetid: c90b8cbe-d7a1-44ad-ae65-80115bd55e4f
 title: Windows Installer
 ms.topic: article

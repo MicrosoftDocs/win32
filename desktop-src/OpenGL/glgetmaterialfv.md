@@ -1,6 +1,6 @@
 ---
 title: glGetMaterialfv function (Gl.h)
-description: The glGetMaterialfv and glGetMaterialiv functions return material parameters.
+description: The glGetMaterialfv and glGetMaterialiv functions return material parameters. | glGetMaterialfv function (Gl.h)
 ms.assetid: b61dbe0c-5cc2-4397-9d7c-b99507a9f037
 keywords:
 - glGetMaterialfv function OpenGL
@@ -100,7 +100,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

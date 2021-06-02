@@ -1,5 +1,5 @@
 ---
-Description: Sets mesh geometry displacement parameters.
+description: Sets mesh geometry displacement parameters.
 ms.assetid: 4c78e5b3-fb63-4341-a811-5531cf9564e7
 title: ID3DXPatchMesh::SetDisplaceParam method (D3DX9Mesh.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ Displacement maps can only be 2D textures. Mipmapping is ignored for nonadaptive
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

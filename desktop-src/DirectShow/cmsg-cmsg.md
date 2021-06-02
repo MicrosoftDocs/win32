@@ -1,5 +1,5 @@
 ---
-Description: Constructs a CMsg object.
+description: Constructs a CMsg object.
 ms.assetid: b7ee0643-73e4-450d-bff4-ca5006fdcc14
 title: CMsg.CMsg constructor (Msgthrd.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ This member function contains a request for a [**CMsgThread**](cmsgthread.md) wo
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Msgthrd.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

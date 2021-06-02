@@ -1,5 +1,5 @@
 ---
-Description: Used by applications to display a device dialog box to the user.
+description: Used by applications to display a device dialog box to the user.
 ms.assetid: 3b486220-32ab-4d6c-872c-684f9d1ee660
 title: DeviceDialog function (Wiadevd.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

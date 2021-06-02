@@ -1,5 +1,5 @@
 ---
-Description: You can use the installer to add the information in one database into another database by performing a merge.
+description: You can use the installer to add the information in one database into another database by performing a merge.
 ms.assetid: c53ef3d2-b3dc-4cd1-bd98-a856a223917f
 title: Merging Databases
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The SWbemQualifierSet object exposes the following methods.
+description: The SWbemQualifierSet object exposes the following methods.
 ms.assetid: FDE51461-D004-45C1-B0FC-F366E3E6E46F
 ms.tgt_platform: multiple
 title: SWbemQualifierSet Methods

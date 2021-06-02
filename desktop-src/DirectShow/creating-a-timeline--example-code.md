@@ -1,5 +1,5 @@
 ---
-Description: 'Creating a Timeline: Example Code'
+description: 'Creating a Timeline: Example Code'
 ms.assetid: efe6e8d7-2465-4374-8c99-a410091f8d46
 title: 'Creating a Timeline: Example Code'
 ms.topic: article

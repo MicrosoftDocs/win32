@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotThaw Function"
 title: JetOSSnapshotThaw Function
 TOCTitle: JetOSSnapshotThaw Function
 ms:assetid: 3b001113-6299-4082-ab15-461f2e33e996
@@ -50,7 +51,7 @@ This parameter is reserved for future use and the only valid value supported is 
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -126,9 +127,8 @@ Event log entries will be generated for the different steps of the snapshot.
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_OSSNAPID](gg269325\(v=exchg.10\).md)  
-[JetOSSnapshotAbort](gg269265\(v=exchg.10\).md)  
-[JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  
-[JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_OSSNAPID](./jet-ossnapid.md)  
+[JetOSSnapshotAbort](./jetossnapshotabort-function.md)  
+[JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)  
+[JetOSSnapshotPrepare](./jetossnapshotprepare-function.md)

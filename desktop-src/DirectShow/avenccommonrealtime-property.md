@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the application requires real-time encoding performance.
+description: Specifies whether the application requires real-time encoding performance.
 ms.assetid: 7e98a9f4-113b-45d0-ae55-7dc3f2af099e
 title: AVEncCommonRealTime property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ To specify that encoding must be performed in real time, set this property to **
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

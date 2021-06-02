@@ -1,5 +1,5 @@
 ---
-Description: The CheckRequest method checks if there is a request, without blocking.
+description: The CheckRequest method checks if there is a request, without blocking.
 ms.assetid: 46d0840e-a304-41e3-9016-9f35e404cd30
 title: CAMThread.CheckRequest method (Wxutil.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ If another thread is waiting on a call to CallWorker, this method retrieves the 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

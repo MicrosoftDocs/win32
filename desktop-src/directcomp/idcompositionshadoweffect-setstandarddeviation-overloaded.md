@@ -33,7 +33,7 @@ Sets the amount of blur to be applied to the alpha channel of the image.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dcomp.h</dt> </dl> |
 

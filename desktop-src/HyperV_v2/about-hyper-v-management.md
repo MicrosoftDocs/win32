@@ -1,5 +1,5 @@
 ---
-Description: This section contains info for Hyper-V management.
+description: This section contains info for Hyper-V management.
 ms.assetid: B0F5E19F-36A6-4965-A119-42AF601A64BE
 title: About Hyper-V management
 ms.topic: article

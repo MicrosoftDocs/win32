@@ -1,5 +1,5 @@
 ---
-Description: The put\_WindowState method sets the window state.
+description: The put\_WindowState method sets the window state.
 ms.assetid: 0d22fa84-17bc-4228-b86e-d31857156802
 title: CBaseControlWindow.put_WindowState method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function takes the same parameters as the Microsoft Win32 **ShowWind
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

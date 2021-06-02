@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the binary data for the specified TAGID.
+description: Retrieves the binary data for the specified TAGID.
 ms.assetid: 18992406-67b4-4c48-9629-04d6bf1c5824
 title: SdbGetBinaryTagData function
 ms.topic: reference
@@ -57,7 +57,7 @@ The function returns a pointer to the binary data or **NULL** if the **TAGID** i
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

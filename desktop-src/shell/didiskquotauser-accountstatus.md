@@ -1,5 +1,5 @@
 ---
-Description: Gets the status of the user's account.
+description: Gets the status of the user's account.
 title: DIDiskQuotaUser.AccountStatus property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: ff2234f7-4758-43c7-a3c2-8fb980b27c04
-api_name: 
- - DIDiskQuotaUser.AccountStatus
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -63,7 +54,7 @@ This property can take one of the following values.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

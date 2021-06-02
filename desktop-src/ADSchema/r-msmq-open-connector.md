@@ -21,7 +21,7 @@ Allows to open connector queue.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | msmq-Open-Connector                  |
 | Display-Name | Open Connector Queue                 |
@@ -42,7 +42,7 @@ Allows to open connector queue.
 
 
 
-|                         |                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------|
 | Applies-To              | [**Site**](c-site.md)<br/> |
 | Localization-Display-ID | 46                                |
@@ -53,7 +53,7 @@ Allows to open connector queue.
 
 
 
-|                         |                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------|
 | Applies-To              | [**Site**](c-site.md)<br/> |
 | Localization-Display-ID | 46                                |
@@ -64,7 +64,7 @@ Allows to open connector queue.
 
 
 
-|                         |                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------|
 | Applies-To              | [**Site**](c-site.md)<br/> |
 | Localization-Display-ID | 46                                |
@@ -75,7 +75,7 @@ Allows to open connector queue.
 
 
 
-|                         |                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------|
 | Applies-To              | [**Site**](c-site.md)<br/> |
 | Localization-Display-ID | 46                                |
@@ -86,7 +86,7 @@ Allows to open connector queue.
 
 
 
-|                         |                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------|
 | Applies-To              | [**Site**](c-site.md)<br/> |
 | Localization-Display-ID | 46                                |
@@ -97,7 +97,7 @@ Allows to open connector queue.
 
 
 
-|                         |                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------|
 | Applies-To              | [**Site**](c-site.md)<br/> |
 | Localization-Display-ID | 46                                |

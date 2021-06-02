@@ -1,5 +1,5 @@
 ---
-Description: The SetStartStop method sets the object's start and stop times, relative to the object's parent.
+description: The SetStartStop method sets the object's start and stop times, relative to the object's parent.
 ms.assetid: 6275a36b-f963-4916-bf60-ea68008ad153
 title: IAMTimelineObj::SetStartStop method (Qedit.h)
 ms.topic: reference
@@ -113,7 +113,7 @@ REFERENCE_TIME inline FrameNumToTime(LONGLONG frame, double fps)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

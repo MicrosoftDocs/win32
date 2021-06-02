@@ -1,5 +1,5 @@
 ---
-Description: In the following example, a hypothetical software development company called Litware, Inc.
+description: In the following example, a hypothetical software development company called Litware, Inc.
 ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: File Association Example
 ms.topic: article
@@ -11,7 +11,7 @@ ms.date: 05/31/2018
 In the following example, a hypothetical software development company called Litware, Inc. creates a new audio player called LitwarePlayer. Litware wants to design a file association between LitwarePlayer and its primary file type, which uses a newly developed audio format that enables an entire audio CD to be stored in less than 10 kilobytes of memory with no loss of quality.
 
 > [!IMPORTANT]
-> This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](https://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
+> This topic does not apply for Windows 10. The way that default file associations work changed in Windows 10. For more information, see the section on **Changes to how Windows 10 handles default apps** in [this post](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
 
  
 

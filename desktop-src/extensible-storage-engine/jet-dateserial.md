@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DATESERIAL"
 title: JET_DATESERIAL
 TOCTitle: JET_DATESERIAL
 ms:assetid: 8fe0abcc-6e63-4877-a74f-5b7f12dc15a6

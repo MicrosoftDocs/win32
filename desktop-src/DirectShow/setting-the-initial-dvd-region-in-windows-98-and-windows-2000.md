@@ -1,5 +1,5 @@
 ---
-Description: Setting the Initial DVD Region
+description: Setting the Initial DVD Region
 ms.assetid: b8238cb4-a101-4998-866f-4cf9ebd5d277
 title: Setting the Initial DVD Region
 ms.topic: article

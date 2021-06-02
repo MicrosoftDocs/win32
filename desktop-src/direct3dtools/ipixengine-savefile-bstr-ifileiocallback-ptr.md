@@ -1,5 +1,5 @@
 ---
-Description: Saves the graphics log to the specified location.
+description: Saves the graphics log to the specified location.
 MS-HAID: vspixengine.IPixEngine\_SaveFile\_BSTR\_IFileIOCallback\_ptr
 MSHAttr:
 - PreferredSiteName:MSDN

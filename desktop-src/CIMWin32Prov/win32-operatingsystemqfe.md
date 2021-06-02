@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_OperatingSystemQFE association WMI class relates an operating system and the product updates applied as represented in Win32\_QuickFixEngineering.
+description: The Win32\_OperatingSystemQFE association WMI class relates an operating system and the product updates applied as represented in Win32\_QuickFixEngineering.
 ms.assetid: 71985759-7e45-44df-82a9-f9a93e3b923e
 ms.tgt_platform: multiple
 title: Win32_OperatingSystemQFE class
@@ -87,7 +87,7 @@ The **Win32\_OperatingSystemQFE** class is derived from [**CIM\_Dependency**](ci
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

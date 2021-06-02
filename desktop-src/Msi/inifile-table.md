@@ -1,5 +1,5 @@
 ---
-Description: The IniFile table contains the .ini information that the application needs to set in an .ini file.
+description: The IniFile table contains the .ini information that the application needs to set in an .ini file.
 ms.assetid: fdb1a627-da6b-4da1-87a7-7f1c94d3836e
 title: IniFile Table
 ms.topic: article

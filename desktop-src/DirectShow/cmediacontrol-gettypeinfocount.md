@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the number of type-information interfaces provided by an object.
+description: CMediaControl.GetTypeInfoCount method - Retrieves the number of type-information interfaces provided by an object.
 ms.assetid: 29575325-8f97-4f39-8272-86a917d9144f
 title: CMediaControl.GetTypeInfoCount method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns E\_POINTER if *pctinfo* is invalid; otherwise, returns S\_OK.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

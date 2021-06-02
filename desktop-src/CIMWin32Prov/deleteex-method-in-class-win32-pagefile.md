@@ -1,5 +1,5 @@
 ---
-Description: Deletes the logical paging file (or directory) specified in the object path.
+description: DeleteEx method of the Win32_PageFile class - Deletes the logical paging file (or directory) specified in the object path.
 ms.assetid: ea31f92a-94b9-4d4d-abd9-6c304ac5caee
 ms.tgt_platform: multiple
 title: DeleteEx method of the Win32_PageFile class
@@ -153,7 +153,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

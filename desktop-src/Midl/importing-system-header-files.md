@@ -17,22 +17,14 @@ There are two ways to include type definitions from header files in an IDL file:
 -   Use the [**import**](import.md) directive to include data types defined in a header file. Unlike the C-language **\#include** directive, the **import** directive only picks up type and constant definitions and ignores procedure prototypes. This approach will work as long as your main IDL file does not reference any nonremotable types defined in the header file.
 -   Create a helper IDL file with a dummy interface that includes the header files. Then, use the [**import**](import.md) directive to include the helper file. In this way, only the [**typedef**](typedef.md)s will appear in the compiled stubs. For example:
 
-    ``` syntax
-    //in helper.idl:
-    interface dummy
-    { 
-#include "kitchensink.h"
-#include "system.h"
-    }
+```syntax
+//in helper.idl:
+interface dummy
+{ 
+   #include "kitchensink.h"
+   #include "system.h"
+}
 
-    //in main.idl:
-    import "helper.idl";
-    ```
-
- 
-
- 
-
-
-
-
+//in main.idl:
+import "helper.idl";
+```

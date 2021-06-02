@@ -1,5 +1,5 @@
 ---
-Description: Not supported.
+description: IAMTimeline::GetInsertMode method - Not supported.
 ms.assetid: 864c2805-be19-4e25-acaa-9fd0466d788d
 title: IAMTimeline::GetInsertMode method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

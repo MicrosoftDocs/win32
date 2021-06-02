@@ -1,5 +1,5 @@
 ---
-Description: The Win32Shutdown &\#8194; WMI class method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
+description: The Win32Shutdown &\#8194; WMI class method provides the full set of shutdown options supported by Win32 operating systems. These include logoff, shutdown, reboot, and forcing a logoff, shutdown, or reboot.
 ms.assetid: 7108570a-81ba-46d5-8b05-de6194f93f18
 ms.tgt_platform: multiple
 title: Win32Shutdown method of the Win32_OperatingSystem class
@@ -209,7 +209,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: A service that is a console application can register a console control handler to receive notification when a user logs off.
+description: A service that is a console application can register a console control handler to receive notification when a user logs off.
 ms.assetid: 86ace8b8-c1cb-4646-bc92-86bd578a82c5
 title: Receiving Events in a Service
 ms.topic: article

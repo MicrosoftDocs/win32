@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_LogicalDevice class exposes the following methods.
+description: The CIM\_LogicalDevice class exposes the following methods.
 ms.assetid: 74961DA0-0AE9-4B47-8FE7-541705BCDAB7
 ms.tgt_platform: multiple
 title: CIM_LogicalDevice Methods

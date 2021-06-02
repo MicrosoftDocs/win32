@@ -1,5 +1,5 @@
 ---
-Description: Control code configures a TCP socket for lower latency and faster operations on the loopback interface.
+description: Control code configures a TCP socket for lower latency and faster operations on the loopback interface.
 ms.assetid: 4F7A6454-E3ED-4529-A531-B0640B0767EF
 title: SIO_LOOPBACK_FAST_PATH Control Code
 ms.topic: reference

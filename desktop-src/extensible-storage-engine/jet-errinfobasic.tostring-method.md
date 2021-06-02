@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ERRINFOBASIC.ToString method"
 title: JET_ERRINFOBASIC.ToString method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.JET_ERRINFOBASIC.ToString
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ The structure as a string.
 
 #### Reference
 
-[JET_ERRINFOBASIC class](dn335334\(v=exchg.10\).md)
+[JET_ERRINFOBASIC class](./jet-errinfobasic-class.md)
 
-[JET_ERRINFOBASIC members](dn335336\(v=exchg.10\).md)
+[JET_ERRINFOBASIC members](./jet-errinfobasic-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

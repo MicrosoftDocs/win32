@@ -1,5 +1,5 @@
 ---
-Description: The following list describes the discharge policy constants.
+description: The following list describes the discharge policy constants.
 ms.assetid: a085709e-1c61-4ae2-832e-fda59479cef6
 title: Discharge Policy Constants (WinNT.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The following list describes the discharge policy constants.
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

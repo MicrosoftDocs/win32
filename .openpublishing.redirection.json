@@ -886,6 +886,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "desktop-src/ProcThread/getprocessdefaultcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessdefaultcpusetmasks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/getthreadselectedcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getthreadselectedcpusets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/setprocessdefaultcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessdefaultcpusets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/ProcThread/setthreadselectedcpusets.md",
+      "redirect_url": "/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadselectedcpusets",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "desktop-src/ProjFS/index.md",
       "redirect_url": "/windows/desktop/projfs/projected-file-system",
       "redirect_document_id": false
@@ -933,6 +953,11 @@
     {
       "source_path": "desktop-src/SecAuthN/index.md",
       "redirect_url": "/windows/desktop/SecAuthN/authentication-portal",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/SecAuthN/tls-cipher-suites-in-windows-10-v21H1.md",
+      "redirect_url": "/windows/desktop/SecAuthN/tls-cipher-suites-in-windows-server-2022",
       "redirect_document_id": false
     },
     {
@@ -1213,6 +1238,11 @@
     {
       "source_path": "desktop-src/windowsribbon/windowsribbon-hol.md",
       "redirect_url": "/windows/desktop/windowsribbon/windowsribbon-samples-entry",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "desktop-src/windowsribbon/windowsribbon-element-dynamicui.md",
+      "redirect_url": "/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry",
       "redirect_document_id": false
     },
     {
@@ -42478,6 +42508,16 @@
 {
       "source_path": "desktop-src/apiindex/umbrella-lib-onecoreuap-alpha.md",
       "redirect_url": "/windows/win32/apiindex/windows-umbrella-libraries",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/search/indexing--querying-and-notifications--windows-search-.md",
+      "redirect_url": "/windows/win32/search/-search-3x-wds-overview",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/search/-search-new-for-win7.md",
+      "redirect_url": "/windows/win32/search/-search-3x-wds-overview",
       "redirect_document_id": false
 }
   ]

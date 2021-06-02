@@ -1,5 +1,5 @@
 ---
-Description: The ICspInformations interface exposes the following properties.
+description: The ICspInformations interface exposes the following properties.
 ms.assetid: FC53BE8F-03BC-4D0B-A78C-523D2C30AEB0
 title: ICspInformations Properties
 ms.topic: reference

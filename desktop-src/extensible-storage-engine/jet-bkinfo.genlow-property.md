@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO.genLow property"
 title: JET_BKINFO.genLow property 
 TOCTitle: 'genLow property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_BKINFO.genLow
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the low generation of the backup.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](./jet-bkinfo-structure2.md)
 
-[JET_BKINFO members](hh557851\(v=exchg.10\).md)
+[JET_BKINFO members](./jet-bkinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

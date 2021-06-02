@@ -1,5 +1,5 @@
 ---
-Description: LOCALE\_SNAN
+description: LOCALE\_SNAN
 ms.assetid: 83b9d2fe-7fc9-4140-ac2f-779f47802df2
 title: LOCALE_SNAN
 ms.topic: article

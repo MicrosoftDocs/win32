@@ -1,5 +1,5 @@
 ---
-Description: Enumerations tend to use a significant amount of system resources.
+description: Enumerations tend to use a significant amount of system resources.
 ms.assetid: 4163e6c2-4ee3-4906-b297-618509666c90
 ms.tgt_platform: multiple
 title: Improving Enumeration Performance

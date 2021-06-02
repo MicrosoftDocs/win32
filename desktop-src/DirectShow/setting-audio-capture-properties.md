@@ -1,5 +1,5 @@
 ---
-Description: Setting Audio Capture Properties
+description: Setting Audio Capture Properties
 ms.assetid: 81400072-91d7-4db4-86d3-d072663e691f
 title: Setting Audio Capture Properties
 ms.topic: article

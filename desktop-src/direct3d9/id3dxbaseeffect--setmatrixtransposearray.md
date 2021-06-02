@@ -1,5 +1,5 @@
 ---
-Description: Sets an array of transposed matrices.
+description: ID3DXBaseEffect::SetMatrixTransposeArray method - Sets an array of transposed matrices.
 ms.assetid: 5dc65424-b0cd-490d-900e-60b9f7536ace
 title: ID3DXBaseEffect::SetMatrixTransposeArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ If the destination matrices are smaller than the source matrices, the additional
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

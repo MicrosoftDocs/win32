@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a specified property of a certificate trust list (CTL).
+description: Retrieves a specified property of a certificate trust list (CTL).
 ms.assetid: 65309715-65b4-4608-960d-3404e68800a2
 title: CertStoreProvGetCTLProperty callback function
 ms.topic: reference
@@ -90,7 +90,7 @@ If the function fails, it returns zero.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

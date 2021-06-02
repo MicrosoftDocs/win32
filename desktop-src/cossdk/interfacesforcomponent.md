@@ -1,5 +1,5 @@
 ---
-Description: Contains an object for each interface exposed by the component to which the collection is related.
+description: Contains an object for each interface exposed by the component to which the collection is related.
 ms.assetid: ee755693-e3ff-4bb1-9fde-a2bfee9c3d29
 title: InterfacesForComponent collection
 ms.topic: reference
@@ -53,7 +53,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                           |
+| Entry | Value |
 |----------------|---------------------------|
 | Description    | A GUID for the component. |
 | Access         | ReadOnly                  |
@@ -69,7 +69,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                  |
+| Entry | Value |
 |----------------|----------------------------------|
 | Description    | A description for the interface. |
 | Access         | ReadWrite                        |
@@ -85,7 +85,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                           |
+| Entry | Value |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A GUID for the interface. This property is returned when the [**Key**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_key) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                  |
@@ -101,7 +101,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                             |
+| Entry | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | A name for the interface. This property is returned when the [**Name**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogobject-get_name) property method is called on an object of this collection. |
 | Access         | ReadOnly                                                                                                                                                    |
@@ -117,7 +117,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                                                                                    |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Marks the interface as queuable and can be set by using the Admin SDK or Component Services administrative tool. However, only an interface that has the **Queuing Supported** flag set can have the **Queuing Enabled** flag set. |
 | Access         | ReadWrite                                                                                                                                                                                                                          |
@@ -133,7 +133,7 @@ The following properties are supported by the [**COMAdminCatalogObject**](comadm
 
 
 
-|                |                                                                                                                                                                        |
+| Entry | Value |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description    | Interface supports queuing. For an interface to support queuing, all methods should have only in parameters. **Queuing Supported** is exposed as a read-only property. |
 | Access         | ReadOnly                                                                                                                                                               |

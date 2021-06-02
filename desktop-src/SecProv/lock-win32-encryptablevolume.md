@@ -1,5 +1,5 @@
 ---
-Description: Dismounts the volume and removes the volume's encryption key from system memory.
+description: Dismounts the volume and removes the volume's encryption key from system memory.
 ms.assetid: '8d6e42a0-7b43-46d2-aa5e-941567ef2842'
 title: Lock method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -76,7 +76,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

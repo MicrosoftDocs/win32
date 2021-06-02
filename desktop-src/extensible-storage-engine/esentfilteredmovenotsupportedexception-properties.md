@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFilteredMoveNotSupportedException properties"
 title: EsentFilteredMoveNotSupportedException properties
 TOCTitle: EsentFilteredMoveNotSupportedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentFilteredMoveNotSupportedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFilteredMoveNotSupportedException](dn274384\(v=exchg.10\).md) type exposes the following members.
+The [EsentFilteredMoveNotSupportedException](./esentfilteredmovenotsupportedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentFilteredMoveNotSupportedException class](dn274384\(v=exchg.10\).md)
+[EsentFilteredMoveNotSupportedException class](./esentfilteredmovenotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies which bytes are encrypted in a protected video surface.
+description: Specifies which bytes are encrypted in a protected video surface.
 ms.assetid: 076f4f00-e86b-47e2-80dd-4d7434200138
 title: D3DENCRYPTED_BLOCK_INFO structure (D3d9types.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ The number of bytes that are encrypted after each block of skipped bytes.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

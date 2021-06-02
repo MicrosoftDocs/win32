@@ -1,5 +1,5 @@
 ---
-Description: One of the constructors for the Graphics class receives a device context handle and a printer handle.
+description: One of the constructors for the Graphics class receives a device context handle and a printer handle.
 ms.assetid: 9be67cb2-4bf9-4758-af03-7d92dd04feaf
 title: Optimizing Printing by Providing a Printer Handle
 ms.topic: article

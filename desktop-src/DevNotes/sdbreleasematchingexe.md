@@ -1,5 +1,5 @@
 ---
-Description: Releases resources used by the SdbGetMatchingExe function.
+description: Releases resources used by the SdbGetMatchingExe function.
 ms.assetid: 4a784f72-2108-4d5e-86e1-1960ac921c8f
 title: SdbReleaseMatchingExe function
 ms.topic: reference
@@ -57,7 +57,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

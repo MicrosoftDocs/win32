@@ -1,5 +1,5 @@
 ---
-Description: The SWbemRefresher.Item method returns the specified SWbemRefreshableItem from the collection.SWbemRefreshableItem from the collection.
+description: The SWbemRefresher.Item method returns the specified SWbemRefreshableItem from the collection.SWbemRefreshableItem from the collection.
 ms.assetid: 8ae3dea5-0582-422e-9cd8-b6d91b41588a
 ms.tgt_platform: multiple
 title: SWbemRefresher.Item method (Wbemdisp.h)
@@ -58,7 +58,7 @@ If the refresher has no item with the specified index, **wbemErrNotFound** is ge
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

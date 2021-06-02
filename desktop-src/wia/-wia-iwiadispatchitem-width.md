@@ -1,5 +1,5 @@
 ---
-Description: The width, in pixels, of the item. Read only.
+description: The width, in pixels, of the item. Read only.
 ms.assetid: 4e636b76-af16-4fc1-8b88-2e0a2a24f841
 title: Item.Width property
 ms.topic: reference
@@ -42,7 +42,7 @@ If the item is a digital camera, the **Width** property represents the width of 
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

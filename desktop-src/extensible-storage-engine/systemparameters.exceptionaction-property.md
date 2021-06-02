@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: SystemParameters.ExceptionAction property"
 title: SystemParameters.ExceptionAction property 
 TOCTitle: 'ExceptionAction property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.SystemParameters.ExceptionAction
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the value encoding what to do with exceptions generated within JET.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,15 +57,14 @@ public static JET_ExceptionAction ExceptionAction { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_ExceptionAction](dn335150\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_ExceptionAction](./jet-exceptionaction-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[SystemParameters class](dn351139\(v=exchg.10\).md)
+[SystemParameters class](./systemparameters-class.md)
 
-[SystemParameters members](dn351207\(v=exchg.10\).md)
+[SystemParameters members](./systemparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

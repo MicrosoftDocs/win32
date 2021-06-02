@@ -1,5 +1,5 @@
 ---
-Description: Specifies the status of an attempt to resolve a topology.
+description: Specifies the status of an attempt to resolve a topology.
 ms.assetid: 7c2410ce-e70b-4303-9dbc-caff4a355d6b
 title: MF_TOPOLOGY_RESOLUTION_STATUS attribute (Mfapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

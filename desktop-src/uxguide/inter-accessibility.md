@@ -6,10 +6,10 @@ ms.topic: article
 ms.date: 10/20/2020
 ---
 
-# Accessibility
+# Accessibility (Design basics)
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Designing software for accessibility means ensuring that programs and functionality are easily available to the widest range of users, including those who have disabilities and impairments.
 
@@ -341,8 +341,6 @@ For more guidelines and examples, see [Keyboard](inter-keyboard.md).
 | Cognitive disabilities, developmental disabilities<br/> |                                                                                  |
 
 
-
- 
 
  
 

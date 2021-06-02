@@ -1,5 +1,5 @@
 ---
-Description: Adds a Certificate object to an open certificate store.
+description: Adds a Certificate object to an open certificate store.
 ms.assetid: 787b8a41-dcdb-4b5b-a1fd-f5424300361b
 title: Store.Add method
 ms.topic: reference
@@ -62,7 +62,7 @@ If the certificate being added to the store is the same as one that is already t
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

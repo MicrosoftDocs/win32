@@ -12,7 +12,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Interfaces
+# Microsoft Windows Media DRM Client Interfaces
 
 The following table describes the interfaces supported by the Windows Media DRM Client APIs.
 

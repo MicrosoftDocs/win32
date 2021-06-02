@@ -1,5 +1,5 @@
 ---
-Description: The multicast COM interfaces allow access to the networks facility for allocating, renewing, and releasing leases on multicast addresses.
+description: The multicast COM interfaces allow access to the networks facility for allocating, renewing, and releasing leases on multicast addresses.
 ms.assetid: d4da9616-bdb4-4919-96aa-9e45582b05dd
 title: Multicast COM Interfaces
 ms.topic: article

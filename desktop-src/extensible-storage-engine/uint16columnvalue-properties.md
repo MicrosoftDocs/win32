@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: UInt16ColumnValue properties"
 title: UInt16ColumnValue properties
 TOCTitle: UInt16ColumnValue properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.UInt16ColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [UInt16ColumnValue](dn351247\(v=exchg.10\).md) type exposes the following members.
+The [UInt16ColumnValue](./uint16columnvalue-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,7 +82,6 @@ Top
 
 #### Reference
 
-[UInt16ColumnValue class](dn351247\(v=exchg.10\).md)
+[UInt16ColumnValue class](./uint16columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: To specify the compression level when you save a JPEG image, initialize an EncoderParameters object and pass the address of that object to the Save method of the Image class.
+description: To specify the compression level when you save a JPEG image, initialize an EncoderParameters object and pass the address of that object to the Save method of the Image class.
 ms.assetid: b8365c00-2223-4aff-9fb2-422976af4c31
 title: Setting JPEG Compression Level
 ms.topic: article

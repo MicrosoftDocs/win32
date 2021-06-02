@@ -1,6 +1,6 @@
 ---
 title: IMsRdpDriveCollection RescanDrives method
-description: Refreshes the list of objects in the collection.
+description: Refreshes the list of objects in the collection. | IMsRdpDriveCollection RescanDrives method
 ms.assetid: 5997b76c-d130-4375-b6ff-5ea871f059cc
 ms.tgt_platform: multiple
 keywords:
@@ -53,7 +53,7 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                           |

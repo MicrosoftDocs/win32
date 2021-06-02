@@ -1,5 +1,5 @@
 ---
-Description: The Wait method blocks until the event is signaled, or until a time-out occurs.
+description: The Wait method blocks until the event is signaled, or until a time-out occurs.
 ms.assetid: bcc13723-a59b-4e8a-bfc8-eadb6facf116
 title: CAMEvent.Wait method (Wxutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ For auto-reset events, the event is reset to a nonsignaled state when this metho
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

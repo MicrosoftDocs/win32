@@ -1,5 +1,5 @@
 ---
-Description: The GetProtocolFromName function returns a handle to a protocol of a given name.
+description: The GetProtocolFromName function returns a handle to a protocol of a given name.
 ms.assetid: 18f5a9a7-4245-479d-a0da-2ede362a60b8
 title: GetProtocolFromName function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is unsuccessful, the return value is **NULL**.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

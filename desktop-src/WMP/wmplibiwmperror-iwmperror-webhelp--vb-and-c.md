@@ -1,6 +1,6 @@
 ---
 title: IWMPError webHelp method
-description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
+description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero). | IWMPError webHelp method
 ms.assetid: 30fc765a-04b2-44e5-99d8-0b4720ccbb25
 keywords:
 - webHelp method Windows Media Player
@@ -89,7 +89,7 @@ End Sub
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

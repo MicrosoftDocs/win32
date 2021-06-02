@@ -1,6 +1,6 @@
 ---
 title: FSCTL_DFS_GET_PKT_ENTRY_STATE control code (LmDfs.h)
-Description: The FSCTL_DFS_GET_PKT_ENTRY_STATE control code can get the same information as the NetDfsGetClientInfo function but can provide better performance in some configurations with high latencies to the DFS servers.
+description: The FSCTL_DFS_GET_PKT_ENTRY_STATE control code can get the same information as the NetDfsGetClientInfo function but can provide better performance in some configurations with high latencies to the DFS servers.
 ms.assetid: d4eec104-128b-43b5-9fae-08ab0b977dec
 topic_type:
 - apiref
@@ -112,7 +112,7 @@ If the operation fails or is pending, [**DeviceIoControl**](/windows/desktop/api
 
 ## Requirements
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                             |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                       |

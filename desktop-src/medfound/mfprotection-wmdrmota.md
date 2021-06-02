@@ -1,5 +1,5 @@
 ---
-Description: Specifies Windows Media Digital Rights Management (WMDRM) Output Trust Authority (OTA).
+description: Specifies Windows Media Digital Rights Management (WMDRM) Output Trust Authority (OTA).
 ms.assetid: 88E73129-3EA9-49F8-BDE7-DB73402400CB
 title: MFPROTECTION_WMDRMOTA attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies Windows Media Digital Rights Management (WMDRM) Output Trust Authority
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

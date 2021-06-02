@@ -1,5 +1,5 @@
 ---
-Description: The get\_SrcHeight method retrieves the height of the source rectangle.
+description: The get\_SrcHeight method retrieves the height of the source rectangle.
 ms.assetid: 3c6647b3-dfca-490d-a3d5-9aa6988e387d
 title: IDxtCompositor::get_SrcHeight method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

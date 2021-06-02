@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum number of EAPOL-Start messages sent.
+description: Specifies the maximum number of EAPOL-Start messages sent.
 ms.assetid: 4e48f8b6-46eb-426e-ad22-3aa53cb66a17
 title: maxStart (OneX) Element
 ms.topic: reference
@@ -45,7 +45,7 @@ The **maxStart** element is defined by the [**OneX**](onexschema-onex-element.md
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Describes the presentation parameters.
+description: Describes the presentation parameters.
 ms.assetid: d677aeb7-a188-4ddc-b8c9-48e13676e9c8
 title: D3DPRESENT_PARAMETERS structure (D3D9Types.h)
 ms.topic: reference
@@ -134,11 +134,9 @@ D3DSWAPEFFECT\_COPY requires that **BackBufferCount** be set to 1.
 
 D3DSWAPEFFECT\_DISCARD will be enforced in the debug runtime by filling any buffer with noise after it is presented.
 
+Differences between Direct3D9 and Direct3D9Ex:
 
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D9 and Direct3D9Ex<br/> In Direct3D9Ex, D3DSWAPEFFECT\_FLIPEX is added to designate when an application is adopting flip mode. That is, whan an application's frame is passed in window's mode (instead of copied) to the Desktop Window Manager(DWM) for composition. Flip mode provides more efficient memory bandwidth and enables an application to take advantage of full-screen-present statistics. It does not change full screen behavior. Flip mode behavior is available beginning with Windows 7.<br/> |
+- In Direct3D9Ex, D3DSWAPEFFECT\_FLIPEX is added to designate when an application is adopting flip mode. That is, whan an application's frame is passed in window's mode (instead of copied) to the Desktop Window Manager(DWM) for composition. Flip mode provides more efficient memory bandwidth and enables an application to take advantage of full-screen-present statistics. It does not change full screen behavior. Flip mode behavior is available beginning with Windows 7.
 
 
 
@@ -240,7 +238,7 @@ The maximum rate at which the swap chain's back buffers can be presented to the 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

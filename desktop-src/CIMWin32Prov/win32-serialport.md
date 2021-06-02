@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SerialPort WMI class represents a serial port on a computer system running Windows.
+description: The Win32\_SerialPort WMI class represents a serial port on a computer system running Windows.
 ms.assetid: f2e5cc5a-a12b-4079-92e1-6bb62fe797a0
 ms.tgt_platform: multiple
 title: Win32_SerialPort class
@@ -2225,7 +2225,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The StillOff event is sent when the StillOff command has been enabled or disabled.
+description: The StillOff event is sent when the StillOff command has been enabled or disabled.
 ms.assetid: '365021d5-ba09-4a39-b919-0d6055382996'
 title: StillOff
 ms.topic: article

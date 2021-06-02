@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the IMFTransform is using hardware DRM.
+description: Specifies whether the IMFTransform is using hardware DRM.
 title: MFT_USING_HARDWARE_DRM (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -34,7 +34,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 April 2020 Update   <br/>                                       |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

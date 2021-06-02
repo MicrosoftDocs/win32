@@ -1,5 +1,5 @@
 ---
-Description: Represents a product. This includes software and hardware used on this computer system.
+description: Represents a product. This includes software and hardware used on this computer system.
 ms.assetid: 6241e703-4ce9-435f-bf36-4388e38a3ea5
 ms.tgt_platform: multiple
 title: Win32_ComputerSystemProduct class
@@ -212,7 +212,7 @@ The [Get-BrokenHardware.ps1](https://Gallery.TechNet.Microsoft.Com/dbb678f4-b95b
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

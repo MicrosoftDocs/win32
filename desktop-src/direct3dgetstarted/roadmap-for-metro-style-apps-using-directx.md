@@ -24,7 +24,7 @@ Here are some key topics. Setting up your DirectX project, acclimating yourself 
 | [Tools for DirectX Graphics](/windows/desktop/direct3dtools/dx-graphics-tools) | Documentation for tools used to support DirectX development. |
 | [What's new in Direct3D 11](/windows/desktop/direct3d11/dx-graphics-overviews-introduction) | A breakdown of all the features added in the most recent versions of DirectX and Direct3D (currently 11.2). |
 | [Download Visual Studio 2013](https://msdn.microsoft.com/windows/apps/br229516.aspx) | You must have Visual Studio Express 2013 for Windows Desktop to create Windows Store games. For a tour of Visual Studio, see [Develop Windows Store apps using Visual Studio 2012](/previous-versions/windows/apps/br211384(v=win.10)). For info about new features in Visual Studio, see [Product Highlights for Visual Studio 2013](/previous-versions/visualstudio/visual-studio-2013/bb386063(v=vs.120)). |
-| [Where is the DirectX SDK?](/windows/win32/directx-sdk--august-2009-) | Contains guidance for devs who want to bring their DirectX projects into Microsoft Visual Studio. |
+| [Where is the DirectX SDK?](../directx-sdk--august-2009-.md) | Contains guidance for devs who want to bring their DirectX projects into Microsoft Visual Studio. |
 
 ## Sample applications
 
@@ -48,7 +48,7 @@ Here are some key topics. Setting up your DirectX project, acclimating yourself 
 | [How to: Create a Constant Buffer](/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-constant-how-to) | How to pass constant (uniform) data between the CPU and the GPU during rendering. |
 | [How to: Create a Texture](/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-create) | How to create a texture or other buffer resource that can be sampled by the GPU. |
 | [How to: Initialize a Texture From a File](/windows/desktop/direct3d11/overviews-direct3d-11-resources-textures-how-to) | How to load a texture from a file and process it for use by the shader pipeline. |
-| [How To: Compile a Shader](/windows/win32/direct3d11/how-to--compile-a-shader) | How to compile a shader for use in your graphics application. |
+| [How To: Compile a Shader](../direct3d11/how-to--compile-a-shader.md) | How to compile a shader for use in your graphics application. |
 
 ## Graphics APIs
 
@@ -96,7 +96,7 @@ If you're an old hand with C++ on Windows platforms, things may look a little di
 | [**Type system (C++/CX)**](/cpp/cppcx/type-system-c-cx?view=vs-2019) | Reference content for the types that are supported by C++/CX. |
 | [**Namespaces (C++/CX)**](/cpp/cppcx/namespaces-reference-c-cx?view=vs-2019) | Reference content for the namespaces that contain C++-specific types that can be used in Windows Store apps. |
 
-| | |
+| Topic | Description |
 |-|-|
 | [Asynchronous programming (DirectX and C++)](/previous-versions/windows/apps/hh994919(v=win.10)) | Learn about asynchronous and multithreaded programming for DirectX apps and games. |
 | [Asynchronous programming in C++](/previous-versions/windows/apps/hh780559(v=win.10)) | Describes the basic ways to use the task class to consume Windows Runtime asynchronous methods. |
@@ -105,7 +105,7 @@ If you're an old hand with C++ on Windows platforms, things may look a little di
 
 ## Additional useful libraries for Windows C++ programming
 
-| | |
+| Topic | Description |
 |-|-|
 | [C++ Standard Template Library](https://msdn.microsoft.com/library/c191tb28(v=VS.71).aspx) | Windows Runtime types play well with Standard Template Library types. Most C++ Windows Store apps use Standard Template Library collections and algorithms, except at the ABI boundary. |
 | [Parallel Patterns Library](/previous-versions/visualstudio/visual-studio-2010/dd492418(v=vs.100)) | PPL provides algorithms and types that simplify task parallelism and data parallelism on the CPU.  |

@@ -1,5 +1,5 @@
 ---
-Description: Imports a certificate from a file.
+description: Imports a certificate from a file.
 ms.assetid: 62c3bf8e-2f52-4342-b3ee-744b032578bf
 title: ICertificate2::Load method
 ms.topic: reference
@@ -103,7 +103,7 @@ This method raises CAPICOM\_E\_NOT\_ALLOWED when it is scripted from a web-based
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

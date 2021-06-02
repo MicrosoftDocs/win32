@@ -1,5 +1,5 @@
 ---
-Description: This topic describes video content&\#8211;protection capabilities that a graphics driver can provide.
+description: This topic describes video content&\#8211;protection capabilities that a graphics driver can provide.
 ms.assetid: 3FDB4908-C75D-4AE0-B32E-93F840E4F30A
 title: GPU-Based Content Protection with D3D11 Video
 ms.topic: article

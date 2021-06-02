@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth device model number.
+description: Bluetooth device model number.
 ms.assetid: a2b131c0-42e3-4d1e-91df-839638388f9a
 title: System.DeviceInterface.Bluetooth.ModelNumber
 ms.topic: article

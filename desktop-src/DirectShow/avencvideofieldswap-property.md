@@ -1,5 +1,5 @@
 ---
-Description: Reverses the order of the interlaced fields in the source video.
+description: Reverses the order of the interlaced fields in the source video.
 ms.assetid: e7b45fe4-fde3-49ed-a4c7-2706c420edb3
 title: AVEncVideoFieldSwap property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is **VARIANT\_TRUE**, the encoder swaps the field order.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

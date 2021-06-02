@@ -1,5 +1,5 @@
 ---
-Description: 'Windows Sockets 2 incorporates the concept of a layered protocol: one that implements only higher-level communications functions while relying on an underlying transport stack for the actual exchange of data with a remote endpoint.'
+description: 'Windows Sockets 2 incorporates the concept of a layered protocol: one that implements only higher-level communications functions while relying on an underlying transport stack for the actual exchange of data with a remote endpoint.'
 ms.assetid: 80e0b229-ebdc-4ac1-8e8e-9e5b7cfc3ab5
 title: Layered Protocols and Protocol Chains
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentFeatureNotAvailableException methods"
 title: EsentFeatureNotAvailableException methods
 TOCTitle: EsentFeatureNotAvailableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentFeatureNotAvailableException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentFeatureNotAvailableException](dn274291\(v=exchg.10\).md) type exposes the following members.
+The [EsentFeatureNotAvailableException](./esentfeaturenotavailableexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentFeatureNotAvailableException class](dn274291\(v=exchg.10\).md)
+[EsentFeatureNotAvailableException class](./esentfeaturenotavailableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

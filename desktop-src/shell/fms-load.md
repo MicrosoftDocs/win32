@@ -1,5 +1,5 @@
 ---
-Description: Contains information that File Manager uses to add a custom menu provided by a File Manager extension DLL. The structure also provides a delta value that the extension DLL can use to manipulate the custom menu after File Manager has loaded the menu.
+description: Contains information that File Manager uses to add a custom menu provided by a File Manager extension DLL. The structure also provides a delta value that the extension DLL can use to manipulate the custom menu after File Manager has loaded the menu.
 title: FMS_LOAD structure (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 0e76bcc5-76c2-4ec0-8ddb-4042cb5ffa7d
-api_name: 
- - FMS_LOAD
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -95,7 +86,7 @@ The menu item delta value. To avoid conflicts with its own menu items, File Mana
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

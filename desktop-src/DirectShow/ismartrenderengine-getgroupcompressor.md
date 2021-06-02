@@ -1,5 +1,5 @@
 ---
-Description: The GetGroupCompressor method retrieves the compression filter for the specified group.
+description: The GetGroupCompressor method retrieves the compression filter for the specified group.
 ms.assetid: 9d71e659-7abb-48c6-b9bd-5239560dc150
 title: ISmartRenderEngine::GetGroupCompressor method (Qedit.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ On return, if the value of \**pCompressor* is non-**NULL**, the [**IBaseFilter**
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

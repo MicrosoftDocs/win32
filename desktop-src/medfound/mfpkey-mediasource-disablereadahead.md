@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables read-ahead in a media source.
+description: Enables or disables read-ahead in a media source.
 ms.assetid: b2b8711f-ba63-4fba-bb88-8d254135eb21
 title: MFPKEY_MediaSource_DisableReadAhead property (Mfidl.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Not every media source supports this property.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Client<br/> | Windows 7<br/>                                                               |
 | Header<br/> | <dl> <dt>Mfidl.h</dt> </dl> |

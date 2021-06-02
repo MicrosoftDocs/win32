@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootNotSpecifiedException properties"
 title: EsentSLVRootNotSpecifiedException properties
 TOCTitle: EsentSLVRootNotSpecifiedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVRootNotSpecifiedException](dn334835\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVRootNotSpecifiedException](./esentslvrootnotspecifiedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSLVRootNotSpecifiedException class](dn334835\(v=exchg.10\).md)
+[EsentSLVRootNotSpecifiedException class](./esentslvrootnotspecifiedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSectorSizeNotSupportedException constructor"
 title: EsentSectorSizeNotSupportedException constructor 
 TOCTitle: 'EsentSectorSizeNotSupportedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSectorSizeNotSupportedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSectorSizeNotSupportedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentSectorSizeNotSupportedException()
 
 #### Reference
 
-[EsentSectorSizeNotSupportedException class](dn350610\(v=exchg.10\).md)
+[EsentSectorSizeNotSupportedException class](./esentsectorsizenotsupportedexception-class.md)
 
-[EsentSectorSizeNotSupportedException members](dn350611\(v=exchg.10\).md)
+[EsentSectorSizeNotSupportedException members](./esentsectorsizenotsupportedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

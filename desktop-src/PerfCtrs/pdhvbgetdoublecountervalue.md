@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbGetDoubleCounterValue function returns the current value of the specified counter as a double-precision floating point value.
+description: The PdhVbGetDoubleCounterValue function returns the current value of the specified counter as a double-precision floating point value.
 ms.assetid: a2ee63dd-da39-4104-921d-371172bcb45c
 title: PdhVbGetDoubleCounterValue function
 ms.topic: reference
@@ -50,7 +50,7 @@ The function returns the double-precision floating point value of the current co
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

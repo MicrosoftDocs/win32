@@ -1,5 +1,5 @@
 ---
-Description: When a client begins, it selects a security package for its transactions with a server and then contacts that server. A server selects one or more security packages and waits for a client connection.
+description: When a client begins, it selects a security package for its transactions with a server and then contacts that server. A server selects one or more security packages and waits for a client connection.
 ms.assetid: eaed162b-ef07-4295-93d9-6be91232a82e
 title: Getting Information About Security Packages
 ms.topic: article

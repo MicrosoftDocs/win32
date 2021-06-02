@@ -1,5 +1,5 @@
 ---
-Description: WAVE Parser Filter
+description: WAVE Parser Filter
 ms.assetid: 53a9538d-7a79-40bb-9468-d710eb238925
 title: WAVE Parser Filter
 ms.topic: article

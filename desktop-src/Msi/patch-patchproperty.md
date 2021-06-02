@@ -1,5 +1,5 @@
 ---
-Description: The PatchProperty property gets information about a specific patch applied to a specific instance of the product. This property calls MsiGetPatchInfoEx.
+description: The PatchProperty property gets information about a specific patch applied to a specific instance of the product. This property calls MsiGetPatchInfoEx.
 ms.assetid: c58897de-c30b-4269-9926-040613052616
 title: Patch.PatchProperty method
 ms.topic: reference
@@ -69,7 +69,7 @@ This method can return ERROR\_UNKNOWN\_PATCH, if the [**Patch**](patch-object.md
 
 
 
-|                    |                                                                                                                                                                                                                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer 3.0 or later on Windows Server 2003, Windows XP, and Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |

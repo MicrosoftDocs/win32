@@ -1,5 +1,5 @@
 ---
-Description: The New method initializes a command to be run and returns a new CDeferredCommand object.
+description: The New method initializes a command to be run and returns a new CDeferredCommand object.
 ms.assetid: bdd80747-a15b-422a-b742-ebfa4076bdf7
 title: CCmdQueue.New method (Winutil.h)
 ms.topic: reference
@@ -151,7 +151,7 @@ Values for the *wFlags* parameter include the following:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Access to the keys from the LocalService or NetworkService accounts can be obtained programmatically by using the CryptSetProvParam function to modify the PP\_KEYSET\_SEC\_DESCR parameter.
+description: Access to the keys from the LocalService or NetworkService accounts can be obtained programmatically by using the CryptSetProvParam function to modify the PP\_KEYSET\_SEC\_DESCR parameter.
 ms.assetid: 22e8a153-c218-426a-bd81-7bdbb504c96f
 title: Modifying Key Container Access
 ms.topic: article

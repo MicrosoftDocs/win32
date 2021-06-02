@@ -1,5 +1,5 @@
 ---
-Description: WMI tasks for disks and file systems obtain information about disk drive hardware state and logical volumes. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
+description: WMI tasks for disks and file systems obtain information about disk drive hardware state and logical volumes. For other examples, see the TechNet ScriptCenter at https://www.microsoft.com/technet.
 ms.assetid: d310e5e6-3b67-41bc-b5f2-cea33d0a7a2b
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Disks and File Systems'
@@ -312,7 +312,6 @@ foreach ($objDisk in $colDisks)
         &#39;5&#39; { &quot;DriveType: Compact disk.&quot; }
         &#39;6&#39; { &quot;DriveType: RAM disk.&quot; }
         default: { &quot;Drive type could not be determined.&quot; }
-
     }
 }</code></pre></td>
 </tr>
@@ -496,28 +495,28 @@ Set wmiDiskDrives =  wmiServices.ExecQuery ( &quot;SELECT Caption, DeviceID FROM
 For Each wmiDiskDrive In wmiDiskDrives
     WScript.Echo &quot;Disk drive Caption: &quot; & wmiDiskDrive.Caption & VbNewLine & &quot;DeviceID: &quot; & &quot; (&quot; & wmiDiskDrive.DeviceID & &quot;)&quot;
 
-    &#39;Use the disk drive device id to
-    &#39; find associated partition
-    query = &quot;ASSOCIATORS OF {Win32_DiskDrive.DeviceID=&#39;&quot; _
+&#39;Use the disk drive device id to
+&#39; find associated partition
+query = &quot;ASSOCIATORS OF {Win32_DiskDrive.DeviceID=&#39;&quot; _
         & wmiDiskDrive.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_DiskDriveToDiskPartition&quot;    
-    Set wmiDiskPartitions = wmiServices.ExecQuery(query)
+Set wmiDiskPartitions = wmiServices.ExecQuery(query)
 
-    For Each wmiDiskPartition In wmiDiskPartitions
-        &#39;Use partition device id to find logical disk
-        Set wmiLogicalDisks = wmiServices.ExecQuery _
-            (&quot;ASSOCIATORS OF {Win32_DiskPartition.DeviceID=&#39;&quot; _
-             & wmiDiskPartition.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_LogicalDiskToPartition&quot;) 
+For Each wmiDiskPartition In wmiDiskPartitions
+    &#39;Use partition device id to find logical disk
+    Set wmiLogicalDisks = wmiServices.ExecQuery _
+        (&quot;ASSOCIATORS OF {Win32_DiskPartition.DeviceID=&#39;&quot; _
+             & wmiDiskPartition.DeviceID & &quot;&#39;} WHERE AssocClass = Win32_LogicalDiskToPartition&quot;)
 
-        For Each wmiLogicalDisk In wmiLogicalDisks
-            WScript.Echo &quot;Drive letter associated&quot; _
-                & &quot; with disk drive = &quot; _ 
-                & wmiDiskDrive.Caption _
-                & wmiDiskDrive.DeviceID _
-                & VbNewLine & &quot; Partition = &quot; _
-                & wmiDiskPartition.DeviceID _
-                & VbNewLine & &quot; is &quot; _
-                & wmiLogicalDisk.DeviceID
-        Next      
+For Each wmiLogicalDisk In wmiLogicalDisks
+    WScript.Echo &quot;Drive letter associated&quot; _
+        & &quot; with disk drive = &quot; _ 
+        & wmiDiskDrive.Caption _
+        & wmiDiskDrive.DeviceID _
+        & VbNewLine & &quot; Partition = &quot; _
+        & wmiDiskPartition.DeviceID _
+        & VbNewLine & &quot; is &quot; _
+        & wmiLogicalDisk.DeviceID
+    Next
     Next
 Next</code></pre></td>
 </tr>

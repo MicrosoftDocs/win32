@@ -1,5 +1,5 @@
 ---
-Description: Lets you open and manage a connection to a smart card.
+description: Lets you open and manage a connection to a smart card.
 ms.assetid: f49f76e6-eed9-4e85-b48f-29f7bad40218
 title: ISCard interface (Scardmgr.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ The **ISCard** interface has these properties.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

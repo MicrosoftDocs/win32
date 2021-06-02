@@ -1,6 +1,6 @@
 ---
 title: Controls.stop method
-description: The stop method stops playback of the media item.
+description: The stop method stops playback of the media item. | Controls.stop method
 ms.assetid: ace95fde-9c94-4737-88f2-94321cbc687c
 keywords:
 - stop method Windows Media Player
@@ -69,7 +69,7 @@ The following example creates an HTML BUTTON element that uses **stop** to stop 
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

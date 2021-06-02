@@ -1,5 +1,5 @@
 ---
-Description: The WriteBinary method constructs an application protocol data unit (APDU) command that writes binary values into an elementary file.
+description: The WriteBinary method constructs an application protocol data unit (APDU) command that writes binary values into an elementary file.
 ms.assetid: e38273d5-4eb0-4c0b-829a-c78e511a38bc
 title: ISCardISO7816::WriteBinary method (Scardssp.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

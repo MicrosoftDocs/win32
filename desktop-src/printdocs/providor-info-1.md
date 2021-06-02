@@ -1,5 +1,5 @@
 ---
-Description: The PROVIDOR\_INFO\_1 structure identifies a print provider.
+description: The PROVIDOR\_INFO\_1 structure identifies a print provider.
 ms.assetid: 0eff115a-b3d2-4c8f-b820-46e7f62dd295
 title: PROVIDOR_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Pointer to a null-terminated string that is the name of the provider .dll.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

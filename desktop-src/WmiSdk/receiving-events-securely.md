@@ -1,5 +1,5 @@
 ---
-Description: Temporary and permanent consumers have different methods of securing event delivery.
+description: Temporary and permanent consumers have different methods of securing event delivery.
 ms.assetid: cd02e5db-f9e2-438b-9632-0a1387a6d4e3
 ms.tgt_platform: multiple
 title: Receiving Events Securely

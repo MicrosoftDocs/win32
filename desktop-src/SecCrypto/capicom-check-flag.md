@@ -1,5 +1,5 @@
 ---
-Description: Defines the conditions for which a certificate chain is to be checked.
+description: Defines the conditions for which a certificate chain is to be checked.
 ms.assetid: 87df623c-5661-4325-8dd6-393ce2e44066
 title: CAPICOM_CHECK_FLAG enumeration (Capicom.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The **CAPICOM\_CHECK\_FLAG** enumeration type defines the conditions for which a
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Raised by a media stream when it starts or stops thinning the stream. For information about thinning, see About Rate Control.
+description: Raised by a media stream when it starts or stops thinning the stream. For information about thinning, see About Rate Control.
 ms.assetid: 7de8cb64-122a-475f-990c-c19590a9d9d8
 title: MEStreamThinMode event (Mfobjects.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

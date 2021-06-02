@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDistributedTransactionsException methods"
 title: EsentCannotNestDistributedTransactionsException methods
 TOCTitle: EsentCannotNestDistributedTransactionsException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCannotNestDistributedTransactionsException](dn274174\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotNestDistributedTransactionsException](./esentcannotnestdistributedtransactionsexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentCannotNestDistributedTransactionsException class](dn274174\(v=exchg.10\).md)
+[EsentCannotNestDistributedTransactionsException class](./esentcannotnestdistributedtransactionsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

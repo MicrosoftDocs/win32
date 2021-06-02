@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotEnd Function"
 title: JetOSSnapshotEnd Function
 TOCTitle: JetOSSnapshotEnd Function
 ms:assetid: f7f4db8b-8e40-48d7-bc7b-0c80d0d0f77f
@@ -74,7 +75,7 @@ The options for this call. This parameter can have a combination of the followin
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -118,7 +119,7 @@ If this function fails, the JET_errOSSnapshotTimeOut return code returns and the
 
 #### Remarks
 
-This function is called only if [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) was called with JET_bitContinueAfterThaw.
+This function is called only if [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) was called with JET_bitContinueAfterThaw.
 
 The snapshot session must complete for the snapshot verification and log truncation to take place. Event log entries will be generated for the different steps of the snapshot.
 
@@ -156,8 +157,7 @@ The snapshot session must complete for the snapshot verification and log truncat
 
 #### See Also
 
-[Error Handling Parameters](gg269173\(v=exchg.10\).md)  
-[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JetOSSnapshotThaw](gg269229\(v=exchg.10\).md)
-
+[Error Handling Parameters](./error-handling-parameters.md)  
+[Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)  
+[JET_ERR](./jet-err.md)  
+[JetOSSnapshotThaw](./jetossnapshotthaw-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the bounds of the region of interest which indicates the region of the frame that requires different quality.
+description: Specifies the bounds of the region of interest which indicates the region of the frame that requires different quality.
 ms.assetid: F06CACF0-AE75-4707-8CD0-7BA7D51BB80A
 title: MFSampleExtension_ROIRectangle attribute (Mfapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The specified region is not required to be MB aligned. Encoders have flexibility
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                     |

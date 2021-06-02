@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidBookmarkException constructor"
 title: EsentInvalidBookmarkException constructor 
 TOCTitle: 'EsentInvalidBookmarkException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidBookmarkException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidBookmarkException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidBookmarkException()
 
 #### Reference
 
-[EsentInvalidBookmarkException class](dn319464\(v=exchg.10\).md)
+[EsentInvalidBookmarkException class](./esentinvalidbookmarkexception-class.md)
 
-[EsentInvalidBookmarkException members](dn319472\(v=exchg.10\).md)
+[EsentInvalidBookmarkException members](./esentinvalidbookmarkexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The Count property retrieves the number of Extension objects in the collection.
+description: The Count property retrieves the number of Extension objects in the collection.
 ms.assetid: fc185f7b-813b-4115-8c5f-01900f9f8b6c
 title: NoticeNumbers.Count property
 ms.topic: reference
@@ -38,7 +38,7 @@ The number of [**Extension**](extension.md) objects in the collection.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

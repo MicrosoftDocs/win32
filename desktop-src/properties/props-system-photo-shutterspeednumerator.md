@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_Photo\_ShutterSpeed.
+description: The numerator of PKEY\_Photo\_ShutterSpeed.
 ms.assetid: 7810d1c8-2f64-4853-b7f6-b9d18a0c7fd1
 title: System.Photo.ShutterSpeedNumerator
 ms.topic: article

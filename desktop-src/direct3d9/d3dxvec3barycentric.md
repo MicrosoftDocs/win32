@@ -1,5 +1,5 @@
 ---
-Description: Returns a point in Barycentric coordinates, using the specified 3D vectors.
+description: D3DXVec3BaryCentric function (D3dx9math.h) - Returns a point in Barycentric coordinates, using the specified 3D vectors.
 ms.assetid: ecbabc76-9936-4f31-adec-1ec807984787
 title: D3DXVec3BaryCentric function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec3BaryCentric function
+# D3DXVec3BaryCentric function (D3dx9math.h)
 
 Returns a point in Barycentric coordinates, using the specified 3D vectors.
 
@@ -123,7 +123,7 @@ Barycentric coordinates define a point inside a triangle in terms of the triangl
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

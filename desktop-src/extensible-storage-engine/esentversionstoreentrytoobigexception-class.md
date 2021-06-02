@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreEntryTooBigException class"
 title: EsentVersionStoreEntryTooBigException class
 TOCTitle: EsentVersionStoreEntryTooBigException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException
@@ -34,11 +35,11 @@ Base class for JET_err.VersionStoreEntryTooBig exceptions.
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
         Microsoft.Isam.Esent.Interop.EsentVersionStoreEntryTooBigException  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -65,6 +66,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentVersionStoreEntryTooBigException members](dn350864\(v=exchg.10\).md)
+[EsentVersionStoreEntryTooBigException members](./esentversionstoreentrytoobigexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

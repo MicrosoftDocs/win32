@@ -1,5 +1,5 @@
 ---
-Description: The TablePersistent property of the Database object returns the persistence state of the table as one of the following parameters.
+description: The TablePersistent property of the Database object returns the persistence state of the table as one of the following parameters.
 ms.assetid: c395e99c-5cdc-4d7b-ac55-a79d4e1477dc
 title: Database.TablePersistent property
 ms.topic: reference
@@ -49,7 +49,7 @@ propVal = Database.TablePersistent
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

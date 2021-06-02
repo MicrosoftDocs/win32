@@ -1,5 +1,5 @@
 ---
-Description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
+description: The property group separator used in property lists to separate audio files from other types. Do not use this property for getting or setting values. It is intended only as a marker.
 ms.assetid: af962d0d-5f20-4cc4-b28d-986f16689f23
 title: System.PropGroup.Advanced
 ms.topic: article

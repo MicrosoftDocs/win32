@@ -1,5 +1,5 @@
 ---
-Description: The following flags are used to specify which channels in a texture to operate on. Deprecated.
+description: The following flags are used to specify which channels in a texture to operate on. Deprecated.
 ms.assetid: 6e421a0a-7e82-4640-a96c-7ec648df970d
 title: DXFILE Constants
 ms.topic: article
@@ -14,9 +14,8 @@ The following flags are used to specify which channels in a texture to operate o
 
 
 
-|                          |       |                  |
-|--------------------------|-------|------------------|
 | \#define                 | Value | Description      |
+|--------------------------|-------|------------------|
 | DXFILEFORMAT\_BINARY     | 0     | Binary file.     |
 | DXFILEFORMAT\_TEXT       | 1     | Text file.       |
 | DXFILEFORMAT\_COMPRESSED | 2     | Compressed file. |
@@ -31,9 +30,8 @@ These \#defines are declared in Dxfile.h.
 
 
 
-|                          |       |                              |
-|--------------------------|-------|------------------------------|
 | \#define                 | Value | Description                  |
+|--------------------------|-------|------------------------------|
 | DXFILELOAD\_FROMFILE     | 0x00L | Load a file from a file.     |
 | DXFILELOAD\_FROMRESOURCE | 0x01L | Load a file from a resource. |
 | DXFILELOAD\_FROMMEMORY   | 0x02L | Load a file from memory.     |

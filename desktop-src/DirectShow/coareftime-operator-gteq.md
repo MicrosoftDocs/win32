@@ -1,5 +1,5 @@
 ---
-Description: This operator tests if one reference time is less than or equal to another.
+description: This operator tests if one reference time is less than or equal to another.
 ms.assetid: ae7449b7-d319-4e76-892f-0f9ae63ddf94
 title: COARefTime.operator>= method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns **TRUE** if this object is less than or equal to *rt*. Otherwise, return
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

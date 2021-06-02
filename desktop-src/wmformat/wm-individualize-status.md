@@ -16,7 +16,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# WM\_INDIVIDUALIZE\_STATUS structure
+# WM_INDIVIDUALIZE_STATUS structure (Drmexternals.h)
 
 The **WM\_INDIVIDUALIZE\_STATUS** structure records the status of the [*individualization*](wmformat-glossary.md) process.
 
@@ -98,7 +98,7 @@ This structure is filled in by the DRM run-time components and is sent to applic
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                      |

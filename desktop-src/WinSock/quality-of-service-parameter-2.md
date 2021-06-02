@@ -1,5 +1,5 @@
 ---
-Description: This section lists the parameters used for quality of service (QoS).
+description: This section lists the parameters used for quality of service (QoS).
 ms.assetid: befbcf01-ecd2-4316-8e5e-889e918272cc
 title: Quality of Service Parameter
 ms.topic: article

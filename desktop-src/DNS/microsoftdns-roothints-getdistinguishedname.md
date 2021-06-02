@@ -1,6 +1,6 @@
 ---
 title: GetDistinguishedName method of the MicrosoftDNS_RootHints class
-description: The GetDistinguishedName method retrieves the distinguished name for the zone.
+description: The GetDistinguishedName method retrieves the distinguished name for the zone. | GetDistinguishedName method of the MicrosoftDNS_RootHints class
 ms.assetid: 788e1646-54b5-4fb8-af6f-e31c4f3d8231
 keywords:
 - GetDistinguishedName method DNS
@@ -43,7 +43,7 @@ Returns the name of the zone.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

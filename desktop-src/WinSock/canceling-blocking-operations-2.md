@@ -1,5 +1,5 @@
 ---
-Description: A thread may, at any time, call WSAIsBlocking to determine whether or not a blocking call is currently in progress.
+description: A thread may, at any time, call WSAIsBlocking to determine whether or not a blocking call is currently in progress.
 ms.assetid: 6213ded4-feab-404f-86a0-3db9a0a42769
 title: Canceling Blocking Operations
 ms.topic: article

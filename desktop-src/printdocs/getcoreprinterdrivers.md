@@ -1,5 +1,5 @@
 ---
-Description: Retrieves GUID, version, and date of the specified core printer drivers and the path to their packages.
+description: Retrieves GUID, version, and date of the specified core printer drivers and the path to their packages.
 ms.assetid: 98acad48-cd42-4d2b-be58-81c1366f6912
 title: GetCorePrinterDrivers function (Winspool.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ This is a blocking or synchronous function and might not return immediately. How
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

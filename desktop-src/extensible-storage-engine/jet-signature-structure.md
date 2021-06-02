@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SIGNATURE Structure"
 title: JET_SIGNATURE Structure
 TOCTitle: JET_SIGNATURE Structure
 ms:assetid: 90d3fd56-be65-4126-b50c-b53e3c3f38f6
@@ -42,7 +43,7 @@ A randomly assigned number.
 
 **logtimeCreate**
 
-The [JET_LOGTIME](gg294089\(v=exchg.10\).md) at the time of [JetCreateDatabase](gg269212\(v=exchg.10\).md) is executed.
+The [JET_LOGTIME](./jet-logtime-structure.md) at the time of [JetCreateDatabase](./jetcreatedatabase-function.md) is executed.
 
 **szComputerName**
 
@@ -50,7 +51,7 @@ The optional string value of the NetBIOS name for the computer. This value may n
 
 ### Remarks
 
-This can be found as an element of [JET_DBINFOMISC](gg294147\(v=exchg.10\).md).
+This can be found as an element of [JET_DBINFOMISC](./jet-dbinfomisc-structure.md).
 
 ### Requirements
 
@@ -78,7 +79,6 @@ This can be found as an element of [JET_DBINFOMISC](gg294147\(v=exchg.10\).md).
 
 ### See Also
 
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)  
-[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JetCreateDatabase](gg269212\(v=exchg.10\).md)
-
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)  
+[JET_LOGTIME](./jet-logtime-structure.md)  
+[JetCreateDatabase](./jetcreatedatabase-function.md)

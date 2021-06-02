@@ -1,5 +1,5 @@
 ---
-Description: Indicates if the drive for the storage is portable.
+description: Indicates if the drive for the storage is portable.
 ms.assetid: d9ac5df6-9f25-4f11-a7fd-63cdc0060d8b
 title: System.Storage.Portable
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNPROG constructor"
 title: JET_SNPROG constructor 
 TOCTitle: 'JET_SNPROG constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SNPROG.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_SNPROG constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public JET_SNPROG()
 
 #### Reference
 
-[JET_SNPROG class](dn351044\(v=exchg.10\).md)
+[JET_SNPROG class](./jet-snprog-class.md)
 
-[JET_SNPROG members](dn351084\(v=exchg.10\).md)
+[JET_SNPROG members](./jet-snprog-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

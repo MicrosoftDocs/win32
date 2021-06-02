@@ -1,5 +1,5 @@
 ---
-Description: The following constants are used by PStore.
+description: The following constants are used by PStore.
 ms.assetid: 4bdccb86-2e0e-461c-9a74-184861b7db1e
 title: PStore Constants (Pstore.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Access Clause Values
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl> |
 

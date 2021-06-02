@@ -1,5 +1,5 @@
 ---
-Description: Sequencer Source Events
+description: Sequencer Source Events
 ms.assetid: 28654bae-9ce2-467b-b769-63279d69b173
 title: Sequencer Source Events
 ms.topic: article

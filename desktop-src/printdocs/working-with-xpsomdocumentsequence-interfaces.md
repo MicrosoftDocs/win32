@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to use the interfaces that provide access to the FixedDocumentSequence, which is the top level of the document hierarchy in an XPS OM.
+description: This topic describes how to use the interfaces that provide access to the FixedDocumentSequence, which is the top level of the document hierarchy in an XPS OM.
 ms.assetid: e7d01f21-0b5d-4385-89e8-14021800e234
 title: Working with IXpsOMDocumentSequence Interfaces
 ms.topic: article

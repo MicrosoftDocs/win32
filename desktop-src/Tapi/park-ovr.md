@@ -1,5 +1,5 @@
 ---
-Description: The park operation allows an application to send a session to a special address where it will be held until unparked.
+description: The park operation allows an application to send a session to a special address where it will be held until unparked.
 ms.assetid: 6a82f03e-d8fd-4d0b-8f5d-f7934ba86759
 title: Park
 ms.topic: article

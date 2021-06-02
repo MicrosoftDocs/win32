@@ -1,5 +1,5 @@
 ---
-Description: NLS supports the functions defined in the following table.
+description: NLS supports the functions defined in the following table.
 ms.assetid: 7c72c4de-83be-4b7e-9ed8-b0236c1df8a4
 title: National Language Support Functions
 ms.topic: article

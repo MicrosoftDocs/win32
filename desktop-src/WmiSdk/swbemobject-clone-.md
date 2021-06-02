@@ -1,5 +1,5 @@
 ---
-Description: The Clone\_ method of the SWbemObject object returns a new object that is a clone of the current object.
+description: The Clone\_ method of the SWbemObject object returns a new object that is a clone of the current object.
 ms.assetid: d0773c94-30b5-4217-8a9a-0bceb9e75f02
 ms.tgt_platform: multiple
 title: SWbemObject.Clone_ method (Wbemdisp.h)
@@ -79,7 +79,7 @@ It is not possible to use this method to convert a class definition to an instan
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

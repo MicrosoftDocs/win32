@@ -1,5 +1,5 @@
 ---
-Description: The SelectionTree control uses the SelectionDescription event to publish a string that contains the description for the highlighted item. This string is the Description field of the Feature table. This event should be authored in the EventMapping table.
+description: The SelectionTree control uses the SelectionDescription event to publish a string that contains the description for the highlighted item. This string is the Description field of the Feature table. This event should be authored in the EventMapping table.
 ms.assetid: 29ae9aec-764f-4ff2-9c08-805538130cb1
 title: SelectionDescription ControlEvent
 ms.topic: article

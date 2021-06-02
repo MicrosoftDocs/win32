@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMN.pvData property"
 title: JET_ENUMCOLUMN.pvData property 
 TOCTitle: 'pvData property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_ENUMCOLUMN.pvData
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_ENUMCOLUMN.pvData property
 
-Gets the value that was enumerated for the column. This member is only used if [err](dn335086\(v=exchg.10\).md) is equal to [ColumnSingleValue](hh557250\(v=exchg.10\).md). This points to memory allocated with the [JET_PFNREALLOC](hh566077\(v=exchg.10\).md) allocator callback passed to [JetEnumerateColumns(JET_SESID, JET_TABLEID, Int32, \[\], Int32, \[\], JET_PFNREALLOC, IntPtr, Int32, EnumerateColumnsGrbit)](dn292148\(v=exchg.10\).md). Remember to release the memory when finished.
+Gets the value that was enumerated for the column. This member is only used if [err](./jet-enumcolumn.err-property.md) is equal to [ColumnSingleValue](./jet-wrn-enumeration.md). This points to memory allocated with the [JET_PFNREALLOC](./jet-pfnrealloc-delegate.md) allocator callback passed to [JetEnumerateColumns(JET_SESID, JET_TABLEID, Int32, \[\], Int32, \[\], JET_PFNREALLOC, IntPtr, Int32, EnumerateColumnsGrbit)](./api.jetenumeratecolumns-method.md). Remember to release the memory when finished.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.IntPtr](/dotnet/api/system.intptr)
 
 #### Reference
 
-[JET_ENUMCOLUMN class](dn335081\(v=exchg.10\).md)
+[JET_ENUMCOLUMN class](./jet-enumcolumn-class.md)
 
-[JET_ENUMCOLUMN members](dn335133\(v=exchg.10\).md)
+[JET_ENUMCOLUMN members](./jet-enumcolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

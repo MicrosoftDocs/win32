@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a DC-blocking high pass filter is applied to a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies whether a DC-blocking high pass filter is applied to a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 7ec0b642-d50a-4b23-97c4-82c14da80a8b
 title: AVEncDDDCHighPassFilter property (Codecapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

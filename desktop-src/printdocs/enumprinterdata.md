@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrinterData function enumerates configuration data for a specified printer.
+description: The EnumPrinterData function enumerates configuration data for a specified printer.
 ms.assetid: 0a4c8436-46fe-4e21-8d55-c5031a3d1b38
 title: EnumPrinterData function (Winspool.h)
 ms.topic: reference
@@ -148,7 +148,7 @@ If you want to have the operating system supply an adequate buffer size, first c
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

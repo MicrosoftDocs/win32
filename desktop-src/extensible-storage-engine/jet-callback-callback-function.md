@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_CALLBACK Callback Function"
 title: JET_CALLBACK Callback Function
 TOCTitle: JET_CALLBACK Callback Function
 ms:assetid: d15d4f84-8378-4b4b-9b8b-e89a56be5ead
@@ -26,7 +27,7 @@ _**Applies to:** Windows | Windows Server_
 
 The **JET_CALLBACK** function is a multi-purpose callback function used by the database engine to inform the application of an event involving online defragmentation and cursor state notifications.
 
-See [JET_CBTYP](gg294071\(v=exchg.10\).md) for specific settings to use for the parameters of this function, as these settings will differ depending upon the **JET_CBTYP** option that is selected for use in the *cbtyp* parameter.
+See [JET_CBTYP](./jet-cbtyp.md) for specific settings to use for the parameters of this function, as these settings will differ depending upon the **JET_CBTYP** option that is selected for use in the *cbtyp* parameter.
 
 ```cpp
     JET_ERR JET_API* JET_CALLBACK(
@@ -57,71 +58,71 @@ The cursor for which the callback is being made.
 
 *cbtyp*
 
-The point in the operation at which the callback is being made. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for a list of values and the meaning of the following parameters in each case.
+The point in the operation at which the callback is being made. See [JET_CBTYP](./jet-cbtyp.md) for a list of values and the meaning of the following parameters in each case.
 
 *pvArg1*
 
-A parameter used to communicate with the application using the callback. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
+A parameter used to communicate with the application using the callback. See [JET_CBTYP](./jet-cbtyp.md) for information on the use of this parameter for each callback supported by the database engine.
 
 *pvArg2*
 
-A parameter used to communicate with the application using the callback. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
+A parameter used to communicate with the application using the callback. See [JET_CBTYP](./jet-cbtyp.md) for information on the use of this parameter for each callback supported by the database engine.
 
 *pvContext*
 
-A parameter used to communicate with the application using the callback. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
+A parameter used to communicate with the application using the callback. See [JET_CBTYP](./jet-cbtyp.md) for information on the use of this parameter for each callback supported by the database engine.
 
 *ulUnused*
 
-A parameter used to communicate with the application using the callback. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of this parameter for each callback supported by the database engine.
+A parameter used to communicate with the application using the callback. See [JET_CBTYP](./jet-cbtyp.md) for information on the use of this parameter for each callback supported by the database engine.
 
 #### Return Value
 
-The function returns one of the [Extensible Storage Engine error codes](gg269297\(v=exchg.10\).md). For information about how to return these codes as HRESULTs, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md). On success, the operation that issued the callback can proceed normally. In some cases, the callback may return a warning that influences that operation. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of these warnings by the operation.
+The function returns one of the [Extensible Storage Engine error codes](./extensible-storage-engine-error-codes.md). For information about how to return these codes as HRESULTs, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md). On success, the operation that issued the callback can proceed normally. In some cases, the callback may return a warning that influences that operation. See [JET_CBTYP](./jet-cbtyp.md) for information on the use of these warnings by the operation.
 
-On failure, the operation that issued the callback may proceed normally or may fail. See [JET_CBTYP](gg294071\(v=exchg.10\).md) for information on the use of the error code by the operation.
+On failure, the operation that issued the callback may proceed normally or may fail. See [JET_CBTYP](./jet-cbtyp.md) for information on the use of the error code by the operation.
 
 #### Remarks
 
 If the callback passes a cursor to the application then it is important to know that this cursor is intentionally limited to a smaller set of functionality to avoid recursion and other ugliness. The following operations are allowed:
 
-  - [JetDupCursor](gg269193\(v=exchg.10\).md)
+  - [JetDupCursor](./jetdupcursor-function.md)
 
-  - [JetEnumerateColumns](gg269321\(v=exchg.10\).md)
+  - [JetEnumerateColumns](./jetenumeratecolumns-function.md)
 
-  - [JetGetBookmark](gg269221\(v=exchg.10\).md)
+  - [JetGetBookmark](./jetgetbookmark-function.md)
 
-  - [JetGetCurrentIndex](gg294041\(v=exchg.10\).md)
+  - [JetGetCurrentIndex](./jetgetcurrentindex-function.md)
 
-  - [JetGetCursorInfo](gg294126\(v=exchg.10\).md)
+  - [JetGetCursorInfo](./jetgetcursorinfo-function.md)
 
-  - [JetGetLS](gg269234\(v=exchg.10\).md)
+  - [JetGetLS](./jetgetls-function.md)
 
-  - [JetGetRecordPosition](gg269316\(v=exchg.10\).md)
+  - [JetGetRecordPosition](./jetgetrecordposition-function.md)
 
-  - [JetGetSecondaryIndexBookmark](gg269285\(v=exchg.10\).md)
+  - [JetGetSecondaryIndexBookmark](./jetgetsecondaryindexbookmark-function.md)
 
-  - [JetGetTableColumnInfo](gg294061\(v=exchg.10\).md)
+  - [JetGetTableColumnInfo](./jetgettablecolumninfo-function.md)
 
-  - [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)
+  - [JetGetTableIndexInfo](./jetgettableindexinfo-function.md)
 
-  - [JetGetTableInfo](gg269177\(v=exchg.10\).md)
+  - [JetGetTableInfo](./jetgettableinfo-function.md)
 
-  - [JetRegisterCallback](gg269175\(v=exchg.10\).md)
+  - [JetRegisterCallback](./jetregistercallback-function.md)
 
-  - [JetRetrieveColumn](gg269198\(v=exchg.10\).md)
+  - [JetRetrieveColumn](./jetretrievecolumn-function.md)
 
-  - [JetRetrieveColumns](gg294135\(v=exchg.10\).md)
+  - [JetRetrieveColumns](./jetretrievecolumns-function.md)
 
-  - [JetRetrieveKey](gg294051\(v=exchg.10\).md)
+  - [JetRetrieveKey](./jetretrievekey-function.md)
 
-  - [JetSetColumn](gg294137\(v=exchg.10\).md)
+  - [JetSetColumn](./jetsetcolumn-function.md)
 
-  - [JetSetColumns](gg294050\(v=exchg.10\).md)
+  - [JetSetColumns](./jetsetcolumns-function.md)
 
-  - [JetSetLS](gg269243\(v=exchg.10\).md)
+  - [JetSetLS](./jetsetls-function.md)
 
-  - [JetUnregisterCallback](gg294116\(v=exchg.10\).md)
+  - [JetUnregisterCallback](./jetunregistercallback-function.md)
 
 When you design your callback, take into account that even with these restrictions, it is still possible for the callback to fail.
 
@@ -151,9 +152,8 @@ When you design your callback, take into account that even with these restrictio
 
 ### See Also
 
-[JET_API_PTR](gg269209\(v=exchg.10\).md)  
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_CBTYP](gg294071\(v=exchg.10\).md)
-
+[JET_API_PTR](./jet-api-ptr.md)  
+[JET_DBID](./jet-dbid.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_CBTYP](./jet-cbtyp.md)

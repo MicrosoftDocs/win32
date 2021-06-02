@@ -1,5 +1,5 @@
 ---
-Description: Indicates the DVD player's new domain.
+description: Indicates the DVD player's new domain.
 ms.assetid: 4faa46d6-2ba2-44a3-b237-acac3b32f8b1
 title: EC_DVD_DOMAIN_CHANGE (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in all DVD domains.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

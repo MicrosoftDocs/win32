@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Using Output Protection Manager"
 ms.assetid: 01edc17e-e71c-4772-a03c-09c9a2b8400f
 title: Using Output Protection Manager
 ms.topic: article

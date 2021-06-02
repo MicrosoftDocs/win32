@@ -1,5 +1,5 @@
 ---
-Description: Represents a description of a color (sample) channel.
+description: Represents a description of a color (sample) channel.
 MS-HAID: vspixengine.PixEngineChannelDesc
 MSHAttr:
 - PreferredSiteName:MSDN

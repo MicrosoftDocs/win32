@@ -1,5 +1,5 @@
 ---
-Description: MPEG-2 Splitter Media Types
+description: MPEG-2 Splitter Media Types
 ms.assetid: d0ff2011-4ee3-4f5e-8bd0-af9f4c6346e8
 title: MPEG-2 Splitter Media Types
 ms.topic: article
@@ -16,7 +16,7 @@ For MPEG-2 video, the media types are as follows.
 
 
 
-|                  |                                          |                                |
+| Label | Value |
 |------------------|------------------------------------------|--------------------------------|
 |                  | PES output                               | Payload output                 |
 | Major Type       | **MEDIATYPE\_MPEG2\_PES**                | **MEDIATYPE\_Video**           |
@@ -34,7 +34,7 @@ For AC-3 audio, the media types are as follows.
 
 
 
-|                  |                                      |                              |
+| Label | Value |
 |------------------|--------------------------------------|------------------------------|
 |                  | PES output                           | Payload output               |
 | Major Type       | MEDIATYPE\_MPEG2\_PES                | **MEDIATYPE\_Audio**         |
@@ -54,7 +54,7 @@ For MPEG-2 audio, the media types are as follows.
 
 
 
-|                  |                               |                                |
+| Label | Value |
 |------------------|-------------------------------|--------------------------------|
 |                  | PES output                    | Payload output                 |
 | Major Type       | **MEDIATYPE\_MPEG2\_PES**     | **MEDIATYPE\_Audio**           |
@@ -76,7 +76,7 @@ For LPCM audio, the media types are as follows.
 
 
 
-|                  |                                    |                                    |
+| Label | Value |
 |------------------|------------------------------------|------------------------------------|
 |                  | PES output                         | Payload output                     |
 | Major Type       | **MEDIATYPE\_MPEG2\_PES**          | **MEDIATYPE\_Audio**               |

@@ -1,6 +1,6 @@
 ---
 title: IMsRdpDeviceCollection RescanDevices method
-description: Refreshes the list of objects in the collection.
+description: Refreshes the list of objects in the collection. | IMsRdpDeviceCollection RescanDevices method
 ms.assetid: 2e2a959d-0a1d-4aca-9daf-3c24fb9b3b08
 ms.tgt_platform: multiple
 keywords:
@@ -53,7 +53,7 @@ If the method succeeds, **S\_OK** is returned. Any other **HRESULT** value indic
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                            |

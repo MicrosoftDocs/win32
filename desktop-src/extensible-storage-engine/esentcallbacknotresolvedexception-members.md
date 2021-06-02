@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackNotResolvedException members"
 title: EsentCallbackNotResolvedException members
 TOCTitle: EsentCallbackNotResolvedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCallbackNotResolvedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CallbackNotResolved exceptions.
 
-The [EsentCallbackNotResolvedException](dn274063\(v=exchg.10\).md) type exposes the following members.
+The [EsentCallbackNotResolvedException](./esentcallbacknotresolvedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCallbackNotResolvedException class](dn274063\(v=exchg.10\).md)
+[EsentCallbackNotResolvedException class](./esentcallbacknotresolvedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

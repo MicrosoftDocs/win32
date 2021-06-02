@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStreamingDataNotLoggedException members"
 title: EsentStreamingDataNotLoggedException members
 TOCTitle: EsentStreamingDataNotLoggedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStreamingDataNotLoggedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.StreamingDataNotLogged exceptions.
 
-The [EsentStreamingDataNotLoggedException](dn334874\(v=exchg.10\).md) type exposes the following members.
+The [EsentStreamingDataNotLoggedException](./esentstreamingdatanotloggedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentStreamingDataNotLoggedException class](dn334874\(v=exchg.10\).md)
+[EsentStreamingDataNotLoggedException class](./esentstreamingdatanotloggedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

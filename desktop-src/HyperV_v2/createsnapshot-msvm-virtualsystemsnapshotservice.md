@@ -1,5 +1,5 @@
 ---
-Description: Creates a snapshot of a virtual machine.
+description: Creates a snapshot of a virtual machine.
 ms.assetid: 2de12fe7-5ec2-49d0-87ff-cd48c34fec46
 title: CreateSnapshot method of the Msvm_VirtualSystemSnapshotService class (Dbdaoint.h)
 ms.topic: reference
@@ -222,7 +222,7 @@ public static void CreateSnapshot(string vmName)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

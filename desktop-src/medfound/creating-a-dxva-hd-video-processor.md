@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Creating a DXVA-HD Video Processor
 ms.assetid: 43a97dc8-19b3-412c-a015-339099bf4f6c
 title: Creating a DXVA-HD Video Processor
 ms.topic: article

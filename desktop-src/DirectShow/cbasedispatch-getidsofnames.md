@@ -1,5 +1,5 @@
 ---
-Description: The GetIDsOfNames method maps a set of names to a corresponding set of DISPIDs.
+description: CBaseDispatch.GetIDsOfNames method - The GetIDsOfNames method maps a set of names to a corresponding set of DISPIDs.
 ms.assetid: 0c0a2726-e89a-4eaf-aab0-e7e9e82e3c34
 title: CBaseDispatch.GetIDsOfNames method (Ctlutil.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ If the method returns DISP\_E\_UNKNOWNNAME, the returned DISPIDs contain DISPID\
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

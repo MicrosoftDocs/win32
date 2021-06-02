@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetSystemParameter Function"
 title: JetSetSystemParameter Function
 TOCTitle: JetSetSystemParameter Function
 ms:assetid: a244b5c9-6f6e-49d1-a6f7-9248feb9b92d
@@ -49,7 +50,7 @@ Specifies the instance to use for this call.
 
 **Windows 2000:**  For Windows 2000, this parameter is ignored and should always be **NULL**.
 
-**Windows XP:**  For Windows XP and later releases, this parameter is somewhat overloaded. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported, then this parameter may be **NULL** or may contain the actual instance returned by [JetInit](gg294068\(v=exchg.10\).md). In either case, all system parameter settings are read from that one instance. If the engine is operating in multi-instance mode, then this parameter may be **NULL** or a pointer to an instance created using [JetInit](gg294068\(v=exchg.10\).md) or [JetCreateIndex](gg294099\(v=exchg.10\).md). When this parameter is **NULL** then the global system parameter setting (or default) is read. When this parameter is an instance then the system parameter setting for that instance is read.
+**Windows XP:**  For Windows XP and later releases, this parameter is somewhat overloaded. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported, then this parameter may be **NULL** or may contain the actual instance returned by [JetInit](./jetinit-function.md). In either case, all system parameter settings are read from that one instance. If the engine is operating in multi-instance mode, then this parameter may be **NULL** or a pointer to an instance created using [JetInit](./jetinit-function.md) or [JetCreateIndex](./jetcreateindex-function.md). When this parameter is **NULL** then the global system parameter setting (or default) is read. When this parameter is an instance then the system parameter setting for that instance is read.
 
 Even though this is technically an out parameter, this API never modifies the contents of the provided buffer.
 
@@ -61,7 +62,7 @@ When specified, the specified instance is ignored and the instance associated wi
 
 *paramid*
 
-The ID of the system parameter that will be set. See [System Parameters](gg294139\(v=exchg.10\).md) for a complete list of system parameters and their properties.
+The ID of the system parameter that will be set. See [System Parameters](./extensible-storage-engine-system-parameters.md) for a complete list of system parameters and their properties.
 
 *lParam*
 
@@ -73,7 +74,7 @@ Provides the value for the selected system parameter if that system parameter is
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -173,7 +174,7 @@ On failure, the setting for the system parameter will remain unchanged.
 
 **JetSetSystemParameter** does a poor job of validating the chosen setting for each system parameter. Care must be taken to not rely on this validation to enforce good settings. Please pay close attention to the description of each system parameter and follow those guidelines for a good system parameter setting.
 
-There are a set of system parameters that should always be set to guarantee that the database engine works as intended. Specifically, any system parameters that affect the physical layout of the files used by the database engine should always be set. For more information, see [System Parameters](gg294139\(v=exchg.10\).md).
+There are a set of system parameters that should always be set to guarantee that the database engine works as intended. Specifically, any system parameters that affect the physical layout of the files used by the database engine should always be set. For more information, see [System Parameters](./extensible-storage-engine-system-parameters.md).
 
 Every system parameter has a default value. These default values have evolved over time and are quite arbitrary. It is highly recommended that an application evaluate all the default values to ensure that they are appropriate. If they are not appropriate, then they should be configured by the application. This is important as many of these parameters can greatly impact the reliability, performance, and resource utilization of the database engine.
 
@@ -215,12 +216,11 @@ Every system parameter has a default value. These default values have evolved ov
 
 #### See Also
 
-[JET_API_PTR](gg269209\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetGetSystemParameter](gg269291\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_API_PTR](./jet-api-ptr.md)  
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetGetSystemParameter](./jetgetsystemparameter-function.md)  
+[JetInit](./jetinit-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

@@ -1,5 +1,5 @@
 ---
-Description: Gets the default scan profile.
+description: Gets the default scan profile.
 ms.assetid: 0e5ca06a-78ca-4d24-8dda-26babc3124b5
 title: IScanProfileMgr::GetDefaultProfile method (Scanprofilemgr.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ The default profile has a `<Default>` element.
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                        |

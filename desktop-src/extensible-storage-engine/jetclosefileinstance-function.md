@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCloseFileInstance Function"
 title: JetCloseFileInstance Function
 TOCTitle: JetCloseFileInstance Function
 ms:assetid: 64a38655-b128-453b-9593-46032bd6c470
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetCloseFileInstance Function
 
-The **JetCloseFileInstance** function closes a file that was opened with [JetOpenFileInstance](gg269238\(v=exchg.10\).md) after the data from that file has been extracted using [JetReadFileInstance](gg294060\(v=exchg.10\).md).
+The **JetCloseFileInstance** function closes a file that was opened with [JetOpenFileInstance](./jetopenfileinstance-function.md) after the data from that file has been extracted using [JetReadFileInstance](./jetreadfileinstance-function.md).
 
 **Windows XP:  JetCloseFileInstance** is introduced in Windows XP.
 
@@ -54,7 +55,7 @@ The handle of the file to be read.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -119,7 +120,7 @@ On failure, no change occurs.
 
 #### Remarks
 
-The database engine currently only supports one open file through [JetOpenFileInstance](gg269238\(v=exchg.10\).md) at a time. If a file handle is opened using [JetOpenFileInstance](gg269238\(v=exchg.10\).md) then it must be closed using **JetCloseFileInstance** before another file can be opened.
+The database engine currently only supports one open file through [JetOpenFileInstance](./jetopenfileinstance-function.md) at a time. If a file handle is opened using [JetOpenFileInstance](./jetopenfileinstance-function.md) then it must be closed using **JetCloseFileInstance** before another file can be opened.
 
 #### Requirements
 
@@ -155,10 +156,9 @@ The database engine currently only supports one open file through [JetOpenFileIn
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetOpenFileInstance](gg269238\(v=exchg.10\).md)  
-[JetReadFileInstance](gg294060\(v=exchg.10\).md)  
-[JetStopServiceInstance](gg294108\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_HANDLE](./jet-handle.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetOpenFileInstance](./jetopenfileinstance-function.md)  
+[JetReadFileInstance](./jetreadfileinstance-function.md)  
+[JetStopServiceInstance](./jetstopserviceinstance-function.md)

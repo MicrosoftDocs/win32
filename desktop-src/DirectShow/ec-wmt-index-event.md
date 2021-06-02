@@ -1,12 +1,12 @@
 ---
-Description: Sent when an application uses the WM ASF Writer filter to index Windows Media Video files.
+description: Sent when an application uses the WM ASF Writer filter to index Windows Media Video files.
 ms.assetid: e5f69aa1-f9b0-4403-acab-25d1f971a876
 title: EC_WMT_INDEX_EVENT (Dshow.h)
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# EC\_WMT\_INDEX\_EVENT
+# EC_WMT_INDEX_EVENT (Dshow.h)
 
 Sent when an application uses the [WM ASF Writer](wm-asf-writer-filter.md) filter to index Windows Media Video files.
 
@@ -44,7 +44,7 @@ If *lParam1* is WMT\_CLOSED or WMT\_STARTED, then *lParam2* is zero. If *lParam1
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

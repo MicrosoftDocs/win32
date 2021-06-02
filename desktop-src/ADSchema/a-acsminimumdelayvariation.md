@@ -22,7 +22,7 @@ The **ACS-Minimum-Delay-Variation** attribute is for internal use only. Based on
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ACS-Minimum-Delay-Variation          |
 | Ldap-Display-Name | aCSMinimumDelayVariation             |
@@ -48,7 +48,7 @@ The **ACS-Minimum-Delay-Variation** attribute is for internal use only. Based on
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -69,7 +69,7 @@ The **ACS-Minimum-Delay-Variation** attribute is for internal use only. Based on
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -90,7 +90,7 @@ The **ACS-Minimum-Delay-Variation** attribute is for internal use only. Based on
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -111,7 +111,7 @@ The **ACS-Minimum-Delay-Variation** attribute is for internal use only. Based on
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -132,7 +132,7 @@ The **ACS-Minimum-Delay-Variation** attribute is for internal use only. Based on
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -153,7 +153,7 @@ The **ACS-Minimum-Delay-Variation** attribute is for internal use only. Based on
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

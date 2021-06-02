@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Image.CompressedBitsPerPixel property.
+description: The photo metadata policy for the System.Image.CompressedBitsPerPixel property.
 ms.assetid: e97a5c68-6d4a-44af-8096-22680f8b16b8
 title: System.Image.CompressedBitsPerPixel Photo Metadata Policy
 ms.topic: article

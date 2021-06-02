@@ -1,5 +1,5 @@
 ---
-Description: Reference documentation for Windows accessibility and automation technologies, including MSAA and UI Automation.
+description: Reference documentation for Windows accessibility and automation technologies, including MSAA and UI Automation.
 title: Windows accessibility and automation reference
 ms.topic: article
 ms.date: 04/18/2019

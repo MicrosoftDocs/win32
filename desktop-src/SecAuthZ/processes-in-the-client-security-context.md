@@ -1,5 +1,5 @@
 ---
-Description: A server application can call the CreateProcessAsUser function to create a new process that runs in a clients security context.
+description: A server application can call the CreateProcessAsUser function to create a new process that runs in a clients security context.
 ms.assetid: bd416109-fe76-4d55-bc63-3ebbcf32b92a
 title: Processes in the Client Security Context
 ms.topic: article

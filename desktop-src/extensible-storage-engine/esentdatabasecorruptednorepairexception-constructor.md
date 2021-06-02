@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseCorruptedNoRepairException constructor"
 title: EsentDatabaseCorruptedNoRepairException constructor 
 TOCTitle: 'EsentDatabaseCorruptedNoRepairException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseCorruptedNoRepairException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseCorruptedNoRepairException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseCorruptedNoRepairException()
 
 #### Reference
 
-[EsentDatabaseCorruptedNoRepairException class](dn334384\(v=exchg.10\).md)
+[EsentDatabaseCorruptedNoRepairException class](./esentdatabasecorruptednorepairexception-class.md)
 
-[EsentDatabaseCorruptedNoRepairException members](dn334288\(v=exchg.10\).md)
+[EsentDatabaseCorruptedNoRepairException members](./esentdatabasecorruptednorepairexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

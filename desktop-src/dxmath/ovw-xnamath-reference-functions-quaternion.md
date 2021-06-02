@@ -1,5 +1,5 @@
 ---
-Description: Lists the quaternion functions provided by DirectXMath.
+description: Lists the quaternion functions provided by DirectXMath.
 ms.assetid: 2d397c98-d0cd-08e0-6104-cca31bb6bd11
 title: DirectXMath Library quaternion functions
 ms.topic: reference

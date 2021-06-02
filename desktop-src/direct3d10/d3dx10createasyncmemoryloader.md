@@ -1,5 +1,5 @@
 ---
-Description: Create an asynchronous-memory loader.
+description: Create an asynchronous-memory loader.
 ms.assetid: 92177390-cb09-445e-9828-806a23ef91b5
 title: D3DX10CreateAsyncMemoryLoader function (D3DX10Async.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Async.h</dt> </dl> |
 

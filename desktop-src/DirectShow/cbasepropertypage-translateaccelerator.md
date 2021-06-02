@@ -1,5 +1,5 @@
 ---
-Description: The TranslateAccelerator method instructs the property page to process a keystroke. This method implements the IPropertyPage::TranslateAccelerator method.
+description: The TranslateAccelerator method instructs the property page to process a keystroke. This method implements the IPropertyPage::TranslateAccelerator method.
 ms.assetid: 2da214c9-35dc-470c-9b7f-2f4ef6bcd40a
 title: CBasePropertyPage.TranslateAccelerator method (Cprop.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Override this method if you want to provide keyboard accelerators for the proper
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

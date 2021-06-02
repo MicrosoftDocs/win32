@@ -1,5 +1,5 @@
 ---
-Description: Infinite Pin Tee Filter
+description: Infinite Pin Tee Filter
 ms.assetid: 5f3e06ec-adee-4bc7-8ea8-cce3030d3baa
 title: Infinite Pin Tee Filter
 ms.topic: article
@@ -14,7 +14,7 @@ A version of this filter is also provided as an SDK sample. See [InfTee Filter S
 
 
 
-|                                          |                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | Input Pin Media Types                    | Any media type                                                                                                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The CheckVideoInfoType function checks a media type that contains a VIDEOINFOHEADER format structure for certain common errors that can cause buffer overruns or integer overflows.
+description: The CheckVideoInfoType function checks a media type that contains a VIDEOINFOHEADER format structure for certain common errors that can cause buffer overruns or integer overflows.
 ms.assetid: 7ffca7de-26f9-4d8d-b70e-231eca462211
 title: CheckVideoInfoType function (Checkbmi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ This function calls [**ValidateBitmapInfoHeader**](validatebitmapinfoheader.md) 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Checkbmi.h</dt> </dl> |
 

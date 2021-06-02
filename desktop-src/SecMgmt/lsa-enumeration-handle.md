@@ -1,5 +1,5 @@
 ---
-Description: 'The LSA\_ENUMERATION\_HANDLE data type is used by the LSA function that enumerates TrustedDomain objects: LsaEnumerateTrustedDomainsEx.'
+description: 'The LSA\_ENUMERATION\_HANDLE data type is used by the LSA function that enumerates TrustedDomain objects: LsaEnumerateTrustedDomainsEx.'
 ms.assetid: 99dad3aa-cb92-4b7e-8a18-2c977cb2737c
 title: LSA_ENUMERATION_HANDLE (Ntsecapi.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ typedef ULONG LSA_ENUMERATION_HANDLE, *PLSA_ENUMERATION_HANDLE;
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

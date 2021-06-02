@@ -1,5 +1,5 @@
 ---
-Description: Stops the collector. If the collector is running as a service, stopping the service is the better approach.
+description: Stops the collector. If the collector is running as a service, stopping the service is the better approach.
 ms.assetid: fab3e060-156f-46f5-98a2-d47a23d64552
 ms.tgt_platform: multiple
 title: Shutdown method of the Control class
@@ -41,7 +41,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

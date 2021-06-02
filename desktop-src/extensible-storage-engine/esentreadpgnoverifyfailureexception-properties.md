@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadPgnoVerifyFailureException properties"
 title: EsentReadPgnoVerifyFailureException properties
 TOCTitle: EsentReadPgnoVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentReadPgnoVerifyFailureException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentReadPgnoVerifyFailureException](dn319871\(v=exchg.10\).md) type exposes the following members.
+The [EsentReadPgnoVerifyFailureException](./esentreadpgnoverifyfailureexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentReadPgnoVerifyFailureException class](dn319871\(v=exchg.10\).md)
+[EsentReadPgnoVerifyFailureException class](./esentreadpgnoverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

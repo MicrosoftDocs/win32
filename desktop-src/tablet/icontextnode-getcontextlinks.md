@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a collection of IContextLink objects that represents relationships with other IContextNode objects.
+description: Retrieves a collection of IContextLink objects that represents relationships with other IContextNode objects.
 ms.assetid: 0fe56e6d-c779-4916-9c80-6f18cf6f1b09
 title: IContextNode::GetContextLinks method (IACom.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ For more information about the kinds of relationships that are described by link
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

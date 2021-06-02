@@ -1,5 +1,5 @@
 ---
-Description: This section shows how to add frames and animations to a simple cube.
+description: This section shows how to add frames and animations to a simple cube.
 ms.assetid: a909b1f1-b54d-469c-8689-003db41a8f25
 title: Adding Frames and Animations (Direct3D 9)
 ms.topic: article

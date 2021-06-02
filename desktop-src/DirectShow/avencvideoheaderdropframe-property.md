@@ -1,5 +1,5 @@
 ---
-Description: Specifies the value of drop-frame flag in the group of pictures (GOP) header.
+description: Specifies the value of drop-frame flag in the group of pictures (GOP) header.
 ms.assetid: 37f8f5f6-ddcb-44ab-a727-632b78e6f599
 title: AVEncVideoHeaderDropFrame property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ Drop-frame mode is used in NTSC video to correct the discrepancy between the vid
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -39,7 +39,7 @@ This method copies only the checked items in the playlist, and works the same wa
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

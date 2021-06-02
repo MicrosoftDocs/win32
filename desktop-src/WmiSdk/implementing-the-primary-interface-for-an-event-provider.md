@@ -1,5 +1,5 @@
 ---
-Description: An event provider must implement the IWbemEventProvider interface to generate event notifications.
+description: An event provider must implement the IWbemEventProvider interface to generate event notifications.
 ms.assetid: ae33c9f5-61f7-4488-a281-01d7f9c62c46
 ms.tgt_platform: multiple
 title: Implementing the Primary Interface for an Event Provider

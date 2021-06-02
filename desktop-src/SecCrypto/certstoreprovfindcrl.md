@@ -1,5 +1,5 @@
 ---
-Description: Enumerates or finds the first or next CRL in an external store that matches specified criteria.
+description: Enumerates or finds the first or next CRL in an external store that matches specified criteria.
 ms.assetid: caf218f5-f379-4cb6-bb4b-4767b846d45c
 title: CertStoreProvFindCRL callback function
 ms.topic: reference
@@ -88,7 +88,7 @@ Returns **TRUE** if the function succeeds or **FALSE** if it fails.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

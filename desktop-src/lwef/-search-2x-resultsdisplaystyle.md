@@ -57,7 +57,7 @@ Indicates Results are displayed as large icons.
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | IDL<br/> | <dl> <dt>WdsView.idl</dt> </dl> |
 

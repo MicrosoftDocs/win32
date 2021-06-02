@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a 90-degree phase shift is applied to the Surround channels in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies whether a 90-degree phase shift is applied to the Surround channels in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: bea442c2-07c9-4732-a303-b3b4188380e0
 title: AVEncDDSurround90DegreeePhaseShift property (Codecapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

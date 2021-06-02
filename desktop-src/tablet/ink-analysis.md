@@ -1,5 +1,5 @@
 ---
-Description: For an application that accepts mixed handwriting and drawing input, the ability to distinguish between handwriting and drawing and to group handwriting into subcategories, such as recognition segments, lines, and paragraphs, is very useful.
+description: For an application that accepts mixed handwriting and drawing input, the ability to distinguish between handwriting and drawing and to group handwriting into subcategories, such as recognition segments, lines, and paragraphs, is very useful.
 ms.assetid: '17ce349c-10f3-4d9b-abb0-7af4f40bab32'
 title: Ink Analysis
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Places the service in the started state.
+description: Places the service in the started state.
 ms.assetid: 8977b806-150c-4ddc-a471-3fdafdcb4a55
 title: StartService method of the CIM_Service class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# StartService method of the CIM\_Service class
+# StartService method of the CIM_Service class (Hyper-V management)
 
 Places the service in the started state.
 
@@ -46,7 +46,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

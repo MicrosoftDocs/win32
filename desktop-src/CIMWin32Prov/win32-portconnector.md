@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PortConnector WMI class represents physical connection ports, such as DB-25 pin male, Centronics, or PS/2.
+description: The Win32\_PortConnector WMI class represents physical connection ports, such as DB-25 pin male, Centronics, or PS/2.
 ms.assetid: 85788d1d-0641-4dba-b4ae-a84eb6c4992a
 ms.tgt_platform: multiple
 title: Win32_PortConnector class
@@ -1658,7 +1658,7 @@ The **Win32\_PortConnector** class is derived from [**CIM\_PhysicalConnector**](
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

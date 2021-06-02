@@ -1,5 +1,5 @@
 ---
-Description: Contains the CLSID of a topology loader for the Media Session.
+description: Contains the CLSID of a topology loader for the Media Session.
 ms.assetid: 672274fb-71fc-49ca-bab6-1fc4de21d17c
 title: MF_SESSION_TOPOLOADER attribute (Mfidl.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

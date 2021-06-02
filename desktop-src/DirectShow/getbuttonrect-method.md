@@ -1,5 +1,5 @@
 ---
-Description: The GetButtonRect method retrieves the rectangle for the specified button, in window coordinates.
+description: The GetButtonRect method retrieves the rectangle for the specified button, in window coordinates.
 ms.assetid: 359e9483-d7ba-45b0-882b-5a4c56dc0350
 title: GetButtonRect Method
 ms.topic: reference

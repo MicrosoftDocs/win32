@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateTableColumnIndex4W Function"
 title: JetCreateTableColumnIndex4W Function
 TOCTitle: JetCreateTableColumnIndex4W Function
 ms:assetid: 5a74b397-dfb4-4a1d-807b-284329239bc3
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 _**Applies to:** Windows | Windows Server_
 
-The **JetCreateTableColumnIndex4W** function creates a table in an Extensible Storage Engine (ESE( database with an initial set of indexes and an initial set of columns from an array of [JET_TABLECREATE3](gg269264\(v=exchg.10\).md) structures. The [JET_TABLECREATE3](gg269264\(v=exchg.10\).md) structure allows a callback function to be specified.
+The **JetCreateTableColumnIndex4W** function creates a table in an Extensible Storage Engine (ESE( database with an initial set of indexes and an initial set of columns from an array of [JET_TABLECREATE3](./jet-tablecreate3-structure.md) structures. The [JET_TABLECREATE3](./jet-tablecreate3-structure.md) structure allows a callback function to be specified.
 
 The **JetCreateTableColumnIndex4W** function was introduced in the Windows 8 operating system.
 
@@ -50,11 +51,11 @@ The database identifier to use for the API call.
 
 *ptablecreate*
 
-A pointer to a [JET_TABLECREATE3](gg269264\(v=exchg.10\).md) structure that defines the table to be created. See [JET_TABLECREATE3](gg269264\(v=exchg.10\).md) for more details.
+A pointer to a [JET_TABLECREATE3](./jet-tablecreate3-structure.md) structure that defines the table to be created. See [JET_TABLECREATE3](./jet-tablecreate3-structure.md) for more details.
 
 ### Return value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the return codes listed in the following table. For more information about the possible Extensible Storage Enginge (ESE) errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the return codes listed in the following table. For more information about the possible Extensible Storage Enginge (ESE) errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -220,9 +221,9 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-The **JetCreateTableColumnIndex4W** function creates a table with an initial set of columns and indexes. Additional columns and indexes can be added and removed dynamically by means of the [JetAddColumn](gg294122\(v=exchg.10\).md), [JetDeleteColumn](gg294062\(v=exchg.10\).md), [JetDeleteColumn2](gg269320\(v=exchg.10\).md), [JetCreateIndex](gg294099\(v=exchg.10\).md), [JetCreateIndex2](gg269324\(v=exchg.10\).md), [JetCreateIndex3](gg294075\(v=exchg.10\).md), [JetCreateIndex4W](jj835044\(v=exchg.10\).md), and [JetDeleteIndex](gg294081\(v=exchg.10\).md) functions.
+The **JetCreateTableColumnIndex4W** function creates a table with an initial set of columns and indexes. Additional columns and indexes can be added and removed dynamically by means of the [JetAddColumn](./jetaddcolumn-function.md), [JetDeleteColumn](./jetdeletecolumn-function.md), [JetDeleteColumn2](./jetdeletecolumn2-function.md), [JetCreateIndex](./jetcreateindex-function.md), [JetCreateIndex2](./jetcreateindex2-function.md), [JetCreateIndex3](./jetcreateindex3-function.md), [JetCreateIndex4W](./jetcreateindex4w-function.md), and [JetDeleteIndex](./jetdeleteindex-function.md) functions.
 
-As with the [JetOpenTable](gg294118\(v=exchg.10\).md) function, when the application is done using the returned *tableid*, the [JetCloseTable](gg294087\(v=exchg.10\).md) function should close the application.
+As with the [JetOpenTable](./jetopentable-function.md) function, when the application is done using the returned *tableid*, the [JetCloseTable](./jetclosetable-function.md) function should close the application.
 
 #### Requirements
 
@@ -258,23 +259,22 @@ As with the [JetOpenTable](gg294118\(v=exchg.10\).md) function, when the applica
 
 #### See also
 
-[JET_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JET_INDEXCREATE2](gg294082\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JET_TABLECREATE3](gg269264\(v=exchg.10\).md)  
-[JET_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
-[JetAddColumn](gg294122\(v=exchg.10\).md)  
-[JetCreateIndex](gg294099\(v=exchg.10\).md)  
-[JetCreateIndex2](gg269324\(v=exchg.10\).md)  
-[JetCreateIndex3](gg294075\(v=exchg.10\).md)  
-[JetCreateTable](gg269210\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetDeleteColumn](gg294062\(v=exchg.10\).md)  
-[JetDeleteColumn2](gg269320\(v=exchg.10\).md)
-
+[JET_CBTYP](./jet-cbtyp.md)  
+[JET_DBID](./jet-dbid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JET_INDEXCREATE2](./jet-indexcreate2-structure.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_TABLECREATE2](./jet-tablecreate2-structure.md)  
+[JET_TABLECREATE3](./jet-tablecreate3-structure.md)  
+[JET_TUPLELIMITS](./jet-tuplelimits-structure.md)  
+[JetAddColumn](./jetaddcolumn-function.md)  
+[JetCreateIndex](./jetcreateindex-function.md)  
+[JetCreateIndex2](./jetcreateindex2-function.md)  
+[JetCreateIndex3](./jetcreateindex3-function.md)  
+[JetCreateTable](./jetcreatetable-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetDeleteColumn](./jetdeletecolumn-function.md)  
+[JetDeleteColumn2](./jetdeletecolumn2-function.md)

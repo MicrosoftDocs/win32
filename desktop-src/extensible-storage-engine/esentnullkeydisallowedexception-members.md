@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNullKeyDisallowedException members"
 title: EsentNullKeyDisallowedException members
 TOCTitle: EsentNullKeyDisallowedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNullKeyDisallowedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.NullKeyDisallowed exceptions.
 
-The [EsentNullKeyDisallowedException](dn319701\(v=exchg.10\).md) type exposes the following members.
+The [EsentNullKeyDisallowedException](./esentnullkeydisallowedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentNullKeyDisallowedException class](dn319701\(v=exchg.10\).md)
+[EsentNullKeyDisallowedException class](./esentnullkeydisallowedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

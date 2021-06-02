@@ -29,7 +29,11 @@ midl /cpp_opt "C_preprocessor_option" file.idl
 *C\_preprocessor\_option* 
 </dt> <dd>
 
-Specifies command-line option associated with the invoked preprocessor. For the Microsoft C/C++ preprocessors you must supply the /E switch as part of the *C\_preprocessor\_option* string. Quotes are required when more than one option is used, and for spaces.
+Specifies command-line option associated with the invoked preprocessor. 
+
+**Note**: For the Microsoft C/C++ preprocessors you must supply the `/E` switch as part of the *C\_preprocessor\_option* string. 
+
+Quotes are required when more than one option is used, and for spaces.
 
 </dd> </dl>
 
@@ -38,6 +42,8 @@ Specifies command-line option associated with the invoked preprocessor. For the 
 Do not use this switch unless there is a specific reason for doing so. Consult [C-Preprocessor Requirements for MIDL](c-preprocessor-requirements-for-midl.md) for important information regarding preprocessing.
 
 The **/cpp\_opt** switch can be used with or without the [**/cpp\_cmd**](-cpp-cmd.md) switch. Consult **/cpp\_cmd** for details of how the preprocessor command line is constructed in either case.
+
+The **/cpp\_opt** switch, if specified, must always include `/E` in order to function correctly.
 
 ## Examples
 

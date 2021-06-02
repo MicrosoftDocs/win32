@@ -38,9 +38,8 @@ Get an **IWMPMetadataText** interface by passing in an attribute name such as **
 
 
 
-|                                        |                                                                                  |
-|----------------------------------------|----------------------------------------------------------------------------------|
 | Interface                              | Property                                                                         |
+|----------------------------------------|----------------------------------------------------------------------------------|
 | [IWMPMedia3](iwmpmedia3--vb-and-c.md) | [getItemInfoByType](wmplibiwmpmedia3-iwmpmedia3-getiteminfobytype--vb-and-c.md) |
 
 
@@ -55,7 +54,7 @@ The **IWMPMetadataText (VB and C#)** interface does not define any members.
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

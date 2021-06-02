@@ -1,5 +1,5 @@
 ---
-Description: Returns the length of a quaternion.
+description: Returns the length of a quaternion.
 ms.assetid: daa835c2-2370-4427-a4ca-eddfb43d5c67
 title: D3DXQuaternionLength function (D3dx9math.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

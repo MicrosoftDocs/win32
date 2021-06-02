@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ProductSoftwareFeatures association identifies the software features for a particular product.
+description: The CIM\_ProductSoftwareFeatures association identifies the software features for a particular product.
 ms.assetid: cd6190f8-d86e-44c8-b506-48016a7c22e1
 ms.tgt_platform: multiple
 title: CIM_ProductSoftwareFeatures class
@@ -94,7 +94,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

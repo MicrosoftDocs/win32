@@ -1,5 +1,5 @@
 ---
-Description: Specifies how to handle passwords when upgrading profiles.
+description: Specifies how to handle passwords when upgrading profiles.
 ms.assetid: 74d7ceb1-d778-4a12-907b-0528d9ff45be
 title: IgnorePassword (UserLogonCred) Element
 ms.topic: reference
@@ -33,7 +33,7 @@ The **IgnorePassword** element is defined by the [**UserLogonCred**](schema-user
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

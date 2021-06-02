@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_UninterruptiblePowerSupply class represents the capabilities and management of an uninterruptible power supply (UPS).
+description: The CIM\_UninterruptiblePowerSupply class represents the capabilities and management of an uninterruptible power supply (UPS).
 ms.assetid: 27ddc955-906b-40b9-981b-96872356477c
 ms.tgt_platform: multiple
 title: CIM_UninterruptiblePowerSupply class
@@ -1608,7 +1608,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

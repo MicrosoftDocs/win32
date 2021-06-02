@@ -30,7 +30,7 @@ Indicates that the requested dimension cannot be retrieved.
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8, Windows 7 and Platform Update for Windows 7 \[desktop apps only\]<br/>    |
 | Minimum supported server<br/> | None supported<br/>                                                                  |

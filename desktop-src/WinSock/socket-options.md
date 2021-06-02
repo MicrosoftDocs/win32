@@ -1,5 +1,5 @@
 ---
-Description: Navigation page for Windows Sockets (Winsock) socket options.
+description: Navigation page for Windows Sockets (Winsock) socket options.
 ms.assetid: 'e2831f76-4499-45b6-bc60-2908ec3a246c'
 title: Socket Options
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXID.ToString method"
 title: JET_INDEXID.ToString method 
 TOCTitle: 'ToString method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_INDEXID.ToString
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a string representation of the structure.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ The structure as a string.
 
 #### Reference
 
-[JET_INDEXID structure](hh557060\(v=exchg.10\).md)
+[JET_INDEXID structure](./jet-indexid-structure2.md)
 
-[JET_INDEXID members](hh565743\(v=exchg.10\).md)
+[JET_INDEXID members](./jet-indexid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Defines an allowed network.
+description: Defines an allowed network.
 ms.assetid: 6dd90924-ded4-427d-a6cd-7742acf89c21
 title: network (allowList) Element
 ms.topic: reference
@@ -30,7 +30,7 @@ The **network** element is defined by the [**allowList**](wlan-policyschema-allo
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

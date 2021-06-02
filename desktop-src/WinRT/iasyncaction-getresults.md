@@ -1,5 +1,5 @@
 ---
-Description: Gets the outcome of an asynchronous action.
+description: Gets the outcome of an asynchronous action.
 ms.assetid: E5AF357D-B1EE-4581-AEBC-6F1C89D7DBB0
 title: IAsyncAction::GetResults method
 ms.topic: reference
@@ -46,7 +46,7 @@ Calling the **GetResults** method has no effect if the current implementation ha
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                              |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                    |

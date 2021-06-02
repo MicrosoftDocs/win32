@@ -1,6 +1,6 @@
 ---
 title: HexInt64Type Simple Type (Event Schema)
-description: Defines an 8-byte hexadecimal type.
+description: Defines an 8-byte hexadecimal type. | HexInt64Type Simple Type (Event Schema)
 ms.assetid: b4d8f416-d9e3-4a07-9b08-6f634c0de06c
 keywords:
 - HexInt64Type simple type EventLog
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# HexInt64Type Simple Type
+# HexInt64Type Simple Type (Event Schema)
 
 Defines an 8-byte hexadecimal type.
 
@@ -43,7 +43,7 @@ The **HexInt64Type** simple type is a **string** that is restricted by the follo
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

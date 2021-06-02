@@ -1,5 +1,5 @@
 ---
-Description: Available interfaces for this device.
+description: Available interfaces for this device.
 ms.assetid: ce4ed777-9c09-404e-9d9e-878d2a8f40eb
 title: System.Devices.InterfacePaths
 ms.topic: article

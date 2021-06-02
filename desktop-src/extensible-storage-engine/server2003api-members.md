@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Server2003Api members"
 title: Server2003Api members (Microsoft.Isam.Esent.Interop.Server2003)
 TOCTitle: Server2003Api members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Server2003.Server2003Api
@@ -15,7 +16,7 @@ Include inherited members
 
 APIs that have been added to the Windows Server 2003 version of ESENT.
 
-The [Server2003Api](dn351277\(v=exchg.10\).md) type exposes the following members.
+The [Server2003Api](./server2003api-class.md) type exposes the following members.
 
 ## Methods
 
@@ -48,7 +49,6 @@ Top
 
 #### Reference
 
-[Server2003Api class](dn351277\(v=exchg.10\).md)
+[Server2003Api class](./server2003api-class.md)
 
-[Microsoft.Isam.Esent.Interop.Server2003 namespace](hh557147\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Server2003 namespace](./microsoft.isam.esent.interop.server2003-namespace.md)

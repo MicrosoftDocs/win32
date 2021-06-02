@@ -1,6 +1,6 @@
 ---
 title: glGetMapdv function (Gl.h)
-description: The glGetMapdv, glGetMapfv, and glGetMapiv functions return evaluator parameters.
+description: The glGetMapdv, glGetMapfv, and glGetMapiv functions return evaluator parameters. | glGetMapdv function (Gl.h)
 ms.assetid: 3b4fc03b-ada4-4f4a-a234-fa6439f2e5c8
 keywords:
 - glGetMapdv function OpenGL
@@ -99,7 +99,7 @@ If an error is generated, no change is made to the contents of *v*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

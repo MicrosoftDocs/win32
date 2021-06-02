@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDeleteTable Function"
 title: JetDeleteTable Function
 TOCTitle: JetDeleteTable Function
 ms:assetid: e8a4131f-a69b-41f3-94c6-a1607fc23c1f
@@ -55,7 +56,7 @@ The name of the table to delete.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -127,7 +128,6 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### See Also
 
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)
-
+[JET_DBID](./jet-dbid.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetCloseTable](./jetclosetable-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: The IX509CertificateRequestPkcs7V2 interface exposes the following properties.
+description: The IX509CertificateRequestPkcs7V2 interface exposes the following properties.
 ms.assetid: 2C545664-19A5-4AC9-932D-2B9CFC33090E
 title: IX509CertificateRequestPkcs7V2 Properties
 ms.topic: reference

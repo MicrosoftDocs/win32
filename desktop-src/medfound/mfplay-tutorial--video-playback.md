@@ -1,5 +1,5 @@
 ---
-Description: This tutorial presents a complete application that plays video using MFPlay.
+description: This tutorial presents a complete application that plays video using MFPlay.
 ms.assetid: f72a7c1f-b059-474c-96f2-8fad3b1f7035
 title: 'MFPlay Tutorial: Video Playback'
 ms.topic: article

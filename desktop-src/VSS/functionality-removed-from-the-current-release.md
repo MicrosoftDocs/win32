@@ -1,5 +1,5 @@
 ---
-Description: 'The Windows Server 2003 release of VSS no longer supports the following:'
+description: 'The Windows Server 2003 release of VSS no longer supports the following:'
 ms.assetid: 01993cae-433e-4d01-b805-f97592369575
 title: Functionality Removed From Windows Server 2003
 ms.topic: article

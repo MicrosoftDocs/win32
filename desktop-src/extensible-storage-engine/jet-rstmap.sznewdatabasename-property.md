@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTMAP.szNewDatabaseName property"
 title: JET_RSTMAP.szNewDatabaseName property 
 TOCTitle: 'szNewDatabaseName property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_RSTMAP.szNewDatabaseName
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the current name/path of the database. Must not be null.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.String](/dotnet/api/system.string)
 
 #### Reference
 
-[JET_RSTMAP class](dn351048\(v=exchg.10\).md)
+[JET_RSTMAP class](./jet-rstmap-class.md)
 
-[JET_RSTMAP members](dn335249\(v=exchg.10\).md)
+[JET_RSTMAP members](./jet-rstmap-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

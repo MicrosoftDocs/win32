@@ -1,5 +1,5 @@
 ---
-Description: Packages the object type, version, and size information that is required in many NDIS 6.0 structures.
+description: Packages the object type, version, and size information that is required in many NDIS 6.0 structures.
 ms.assetid: 0dfb6022-1d8d-4bd9-bde3-2ee6d683f223
 title: NDIS_OBJECT_HEADER structure (Ntddndis.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Specifies the total size, in bytes, of the NDIS structure that contains the **ND
 
 
 
-|                                     |                                                                                                            |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                       |

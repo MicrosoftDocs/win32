@@ -1,5 +1,5 @@
 ---
-Description: The src attribute specifies the path name of a media file. The file can be any type supported by DirectShow, or a still image. The supported formats for still images are bitmap, device-independent bitmap, GIF, and JPEG.
+description: The src attribute specifies the path name of a media file. The file can be any type supported by DirectShow, or a still image. The supported formats for still images are bitmap, device-independent bitmap, GIF, and JPEG.
 ms.assetid: 45476826-bde5-43b7-8102-30c94260740f
 title: src Attribute
 ms.topic: reference

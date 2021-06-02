@@ -22,7 +22,7 @@ Information about naming contexts that are no longer held on this computer.
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DS-Retired-Repl-NC-Signatures                      |
 | Ldap-Display-Name | msDS-RetiredReplNCSignatures                          |
@@ -48,7 +48,7 @@ Information about naming contexts that are no longer held on this computer.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -69,7 +69,7 @@ Information about naming contexts that are no longer held on this computer.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -90,7 +90,7 @@ Information about naming contexts that are no longer held on this computer.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -111,7 +111,7 @@ Information about naming contexts that are no longer held on this computer.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -132,7 +132,7 @@ Information about naming contexts that are no longer held on this computer.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |
@@ -153,7 +153,7 @@ Information about naming contexts that are no longer held on this computer.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

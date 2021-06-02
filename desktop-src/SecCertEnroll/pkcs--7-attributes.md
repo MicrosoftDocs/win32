@@ -1,5 +1,5 @@
 ---
-Description: PKCS \#7 is a cryptographic message syntax standard.
+description: PKCS \#7 is a cryptographic message syntax standard.
 ms.assetid: fd4e2a13-f257-4ba9-a11d-35f49c5a6c00
 title: PKCS \#7 Attributes
 ms.topic: article

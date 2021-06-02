@@ -1,5 +1,5 @@
 ---
-Description: SFVM\_GETDETAILSOF may be altered or unavailable.
+description: SFVM\_GETDETAILSOF may be altered or unavailable.
 ms.assetid: 46a81a7b-527c-4d41-8d25-ce65fd87416e
 title: SFVM_GETDETAILSOF message (Shlobj.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ A pointer to a [**DETAILSINFO**](/windows/desktop/api/shlobj_core/ns-shlobj_core
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: The sample application described in this topic demonstrates how certain NLS functions can be used to mitigate some of the security issues associated with internationalized domain names (IDNs).
+description: The sample application described in this topic demonstrates how certain NLS functions can be used to mitigate some of the security issues associated with internationalized domain names (IDNs).
 ms.assetid: 73a96129-5234-4c70-b36a-baa5cb4daa0a
 title: 'NLS: Internationalized domain name mitigation sample'
 ms.topic: article

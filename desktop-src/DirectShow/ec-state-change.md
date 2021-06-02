@@ -1,5 +1,5 @@
 ---
-Description: The filter graph has changed state.
+description: The filter graph has changed state.
 ms.assetid: f77b4c06-46a5-4912-adb0-0fa8cb7769aa
 title: EC_STATE_CHANGE (Dshow.h)
 ms.topic: reference
@@ -41,7 +41,7 @@ No default action. The event is not sent to the application.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

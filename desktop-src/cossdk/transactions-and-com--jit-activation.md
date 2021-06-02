@@ -1,5 +1,5 @@
 ---
-Description: Transactions and COM+ JIT Activation
+description: Transactions and COM+ JIT Activation
 ms.assetid: f7fad383-4081-4a49-aa03-59861fcefc97
 title: Transactions and COM+ JIT Activation
 ms.topic: article

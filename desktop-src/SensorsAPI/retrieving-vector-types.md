@@ -1,5 +1,5 @@
 ---
-Description: Some properties and data fields contain arrays of information.
+description: Some properties and data fields contain arrays of information.
 ms.assetid: 85e3b953-be36-4d60-b04e-4f572d0b9564
 title: Retrieving Vector Types
 ms.topic: article

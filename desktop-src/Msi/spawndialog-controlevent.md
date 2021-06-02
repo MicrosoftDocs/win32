@@ -1,5 +1,5 @@
 ---
-Description: The SpawnDialog ControlEvent notifies the installer to create a child of a modal dialog box while keeping the present dialog box running.
+description: The SpawnDialog ControlEvent notifies the installer to create a child of a modal dialog box while keeping the present dialog box running.
 ms.assetid: 2a341039-60dd-4e6c-9ef3-bf482ca53917
 title: SpawnDialog ControlEvent
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Network Monitor or your parser DLL can format the data that is displayed in the details pane of the Network Monitor UI.
+description: Network Monitor or your parser DLL can format the data that is displayed in the details pane of the Network Monitor UI.
 ms.assetid: 60ab9253-ec0f-4c97-a475-ce2a74d469c4
 title: Formatting Displayed Data
 ms.topic: article

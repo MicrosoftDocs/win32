@@ -305,8 +305,9 @@ for (UINT frame = 0; frame < FrameCount; frame++)
        // Allocate a buffer large enough to hold all of the indirect commands
        // for a single frame as well as a UAV counter.
        commandBufferDesc = CD3DX12_RESOURCE_DESC::Buffer(CommandBufferSizePerFrame + sizeof(UINT), D3D12_RESOURCE_FLAG_ALLOW_UNORDERED_ACCESS);
+       CD3DX12_HEAP_PROPERTIES heapProps(D3D12_HEAP_TYPE_DEFAULT);
        ThrowIfFailed(m_device->CreateCommittedResource(
-             &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_DEFAULT),
+             &heapProps,
              D3D12_HEAP_FLAG_NONE,
              &commandBufferDesc,
              D3D12_RESOURCE_STATE_COPY_DEST,

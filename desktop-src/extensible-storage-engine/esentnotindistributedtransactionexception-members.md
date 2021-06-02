@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentNotInDistributedTransactionException members"
 title: EsentNotInDistributedTransactionException members
 TOCTitle: EsentNotInDistributedTransactionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentNotInDistributedTransactionException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.NotInDistributedTransaction exceptions.
 
-The [EsentNotInDistributedTransactionException](dn334734\(v=exchg.10\).md) type exposes the following members.
+The [EsentNotInDistributedTransactionException](./esentnotindistributedtransactionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentNotInDistributedTransactionException class](dn334734\(v=exchg.10\).md)
+[EsentNotInDistributedTransactionException class](./esentnotindistributedtransactionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INSTANCE_INFO.Equals method"
 title: JET_INSTANCE_INFO.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_INSTANCE_INFO.Equals
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_INSTANCE_INFO class](dn335182\(v=exchg.10\).md)
+[JET_INSTANCE_INFO class](./jet-instance-info-class.md)
 
-[JET_INSTANCE_INFO members](dn335183\(v=exchg.10\).md)
+[JET_INSTANCE_INFO members](./jet-instance-info-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

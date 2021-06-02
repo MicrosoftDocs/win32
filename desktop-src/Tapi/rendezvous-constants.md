@@ -1,5 +1,5 @@
 ---
-Description: The followings constants are used by Rendezvous methods.
+description: The followings constants are used by Rendezvous methods.
 ms.assetid: e1df4f2c-816f-45bf-83d9-5ac13f03d808
 title: Rendezvous Constants
 ms.topic: article

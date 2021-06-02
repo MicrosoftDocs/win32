@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Link.DateVisited
 ms.assetid: a0c8de2b-b21e-4b22-96d1-2a77e33f1780
 title: System.Link.DateVisited
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Constructs a plane from three points.
+description: D3DXPlaneFromPoints function (D3DX10Math.h) - Constructs a plane from three points.
 ms.assetid: 0e77af1b-cedf-482c-8398-10becb398a2c
 title: D3DXPlaneFromPoints function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXPlaneFromPoints function
+# D3DXPlaneFromPoints function (D3DX10Math.h)
 
 Constructs a plane from three points.
 
@@ -88,7 +88,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

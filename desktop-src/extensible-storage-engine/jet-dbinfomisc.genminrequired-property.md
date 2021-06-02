@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.genMinRequired property"
 title: JET_DBINFOMISC.genMinRequired property 
 TOCTitle: 'genMinRequired property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.genMinRequired
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the minimum log generation required for replaying the logs. Typically the checkpoint generation.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](./jet-dbinfomisc-class.md)
 
-[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](./jet-dbinfomisc-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

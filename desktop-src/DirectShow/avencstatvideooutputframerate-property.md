@@ -1,5 +1,5 @@
 ---
-Description: Returns the average frame rate of the video content, in frames per second.
+description: Returns the average frame rate of the video content, in frames per second.
 ms.assetid: 3148562c-0ddb-4679-92ab-769d7b96bdb4
 title: AVEncStatVideoOutputFrameRate property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ This property is available after the encoding is completed.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -46,7 +46,7 @@ If the index is not valid, an empty string is returned. This method can only be 
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

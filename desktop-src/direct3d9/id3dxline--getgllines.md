@@ -1,5 +1,5 @@
 ---
-Description: Gets the OpenGL-style line-drawing mode.
+description: Gets the OpenGL-style line-drawing mode.
 ms.assetid: 80b33c05-d081-45f3-83d8-71a3555cc8ef
 title: ID3DXLine::GetGLLines method (D3dx9core.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if OpenGL-style lines are enabled, and **FALSE** if Direct3D-st
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

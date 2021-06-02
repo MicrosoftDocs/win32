@@ -1,5 +1,5 @@
 ---
-Description: Specifies that the current frame is encoded using one or multiple LTR frames.
+description: Specifies that the current frame is encoded using one or multiple LTR frames.
 ms.assetid: 51FD6E36-9CDF-4005-942F-7A92CA706F38
 title: CODECAPI_AVEncVideoUseLTRFrame property (Codecapi.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Calling CODECAPI\_AVEncVideoUseLTRFrame on a non-base layer frame is valid and s
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                        |

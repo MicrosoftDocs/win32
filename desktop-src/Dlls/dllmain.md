@@ -1,5 +1,5 @@
 ---
-Description: An optional entry point into a dynamic-link library (DLL). When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process.
+description: An optional entry point into a dynamic-link library (DLL). When the system starts or terminates a process or thread, it calls the entry-point function for each loaded DLL using the first thread of the process.
 ms.assetid: 0c3e3083-9297-4626-b2a7-0062d1c2cf9e
 title: DllMain entry point (Process.h)
 ms.topic: reference
@@ -156,7 +156,7 @@ Consider calling [**DisableThreadLibraryCalls**](/windows/win32/api/libloaderapi
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

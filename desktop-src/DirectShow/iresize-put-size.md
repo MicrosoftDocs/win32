@@ -1,5 +1,5 @@
 ---
-Description: The put\_Size method sets the output size and stretch mode.
+description: The put\_Size method sets the output size and stretch mode.
 ms.assetid: 1186eee4-b5c1-4216-abb3-86ea03b2da40
 title: IResize::put_Size method (Qedit.h)
 ms.topic: reference
@@ -89,7 +89,7 @@ The *Flags* parameter specifies how the filter should perform the resizing opera
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | DirectX 9.0 or later<br/>                                                         |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

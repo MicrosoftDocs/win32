@@ -46,7 +46,7 @@ The PAGE UP and PAGE DOWN keys, VK\_PRIOR and VK\_NEXT, change the selected mont
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

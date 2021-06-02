@@ -1,5 +1,5 @@
 ---
-Description: Removes the previously defined virtual machine from the management scope of the host system.
+description: Removes the previously defined virtual machine from the management scope of the host system.
 ms.assetid: 16E6EEB0-CB29-4FFC-AEFF-872E099337FA
 title: DestroySystem method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -142,7 +142,7 @@ RemovePvm(
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Implemented by the Shell to help script and Microsoft Visual Basic developers use some of the features available in the Shell. The ShellUIHelper object does not have any properties or events. Methods are provided to add items to the Shell.
+description: Implemented by the Shell to help script and Microsoft Visual Basic developers use some of the features available in the Shell. The ShellUIHelper object does not have any properties or events. Methods are provided to add items to the Shell.
 title: ShellUIHelper object (Exdisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 9fffebc8-29b9-4064-b60c-c8c63690a79e
-api_name: 
- - ShellUIHelper
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -85,7 +76,7 @@ This method is no longer supported under Windows Vista. Under that operating sy
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Sync.ConflictFirstLocation
 ms.assetid: 3aa1daa6-a63b-4e91-9fce-f1deb131fb45
 title: System.Sync.ConflictFirstLocation
 ms.topic: article

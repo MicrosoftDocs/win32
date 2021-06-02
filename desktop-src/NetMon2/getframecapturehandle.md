@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameCaptureHandle function returns a handle to the capture based on a given frame.
+description: The GetFrameCaptureHandle function returns a handle to the capture based on a given frame.
 ms.assetid: 71b32799-194c-40f8-8438-36aebaba31c7
 title: GetFrameCaptureHandle function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is unsuccessful, the return value is 0.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

@@ -21,7 +21,7 @@ Contains the IP netmask in dotted decimal notation, omitting the leading zeros.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ipNetmaskNumber                      |
 | Ldap-Display-Name | ipNetmaskNumber                      |
@@ -45,7 +45,7 @@ Contains the IP netmask in dotted decimal notation, omitting the leading zeros.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -66,7 +66,7 @@ Contains the IP netmask in dotted decimal notation, omitting the leading zeros.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -87,7 +87,7 @@ Contains the IP netmask in dotted decimal notation, omitting the leading zeros.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |
@@ -108,7 +108,7 @@ Contains the IP netmask in dotted decimal notation, omitting the leading zeros.
 
 
 
-|                        |                                             |
+| Entry | Value |
 |------------------------|---------------------------------------------|
 | Link-Id                | \-                                          |
 | MAPI-Id                | \-                                          |

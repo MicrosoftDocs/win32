@@ -1,5 +1,5 @@
 ---
-Description: The NMCOLUMNINFO structure defines one column in the top pane of the Event Viewer.
+description: The NMCOLUMNINFO structure defines one column in the top pane of the Event Viewer.
 ms.assetid: 21e0a129-464b-45b3-9c6b-6594e62fbce9
 title: NMCOLUMNINFO structure (Netmon.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ The data inserted into the column.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

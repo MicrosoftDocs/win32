@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF members"
 title: JET_COLUMNDEF members
 TOCTitle: JET_COLUMNDEF members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF
@@ -15,7 +16,7 @@ Include inherited members
 
 Describes a column in a table of an ESENT database.
 
-The [JET_COLUMNDEF](dn335038\(v=exchg.10\).md) type exposes the following members.
+The [JET_COLUMNDEF](./jet-columndef-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -142,6 +143,6 @@ Top
 
 #### Reference
 
-[JET_COLUMNDEF class](dn335038\(v=exchg.10\).md)
+[JET_COLUMNDEF class](./jet-columndef-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

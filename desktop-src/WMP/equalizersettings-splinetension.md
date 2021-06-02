@@ -30,7 +30,7 @@ This attribute is a read/write **Number** (**float**) ranging from 0.0 (no tensi
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

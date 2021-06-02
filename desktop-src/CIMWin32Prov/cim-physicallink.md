@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PhysicalLink class represents the cabling of physical elements.
+description: The CIM\_PhysicalLink class represents the cabling of physical elements.
 ms.assetid: 0d96cb7f-ca50-4eb2-b8d4-e749bbe67ad7
 ms.tgt_platform: multiple
 title: CIM_PhysicalLink class
@@ -634,7 +634,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

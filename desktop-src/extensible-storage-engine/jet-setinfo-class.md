@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETINFO class"
 title: JET_SETINFO class
 TOCTitle: JET_SETINFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SETINFO
@@ -35,7 +36,7 @@ Settings for JetSetColumn.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_SETINFO  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_SETINFO members](dn351029\(v=exchg.10\).md)
+[JET_SETINFO members](./jet-setinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

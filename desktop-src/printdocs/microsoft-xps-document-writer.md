@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables a Windows application to create XML Paper Specification (XPS) document files on versions of Windows starting with Windows XP with Service Pack 2 (SP2).
+description: The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables a Windows application to create XML Paper Specification (XPS) document files on versions of Windows starting with Windows XP with Service Pack 2 (SP2).
 ms.assetid: cb431700-f10f-4c53-9944-d6769895595d
 title: Microsoft XPS Document Writer (MXDW)
 ms.topic: article
@@ -14,7 +14,7 @@ The Microsoft XPS Document Writer (MXDW) is a print-to-file driver that enables 
 
 As a user, you would select the MXDW when you want to create an XPS document from a Windows application that does not have the option to save its content as an XPS document.
 
-As an application developer, you would recommend the MXDW to users who want to create XPS documents when your application does not offer the option to save as an XPS document. For more information on the XML Paper Specification and XPS documents, see [XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816) and [XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816).
+As an application developer, you would recommend the MXDW to users who want to create XPS documents when your application does not offer the option to save as an XPS document. For more information on the XML Paper Specification and XPS documents, see [XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf) and [XPS Specification and License Downloads](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf).
 
 The MXDW is installed automatically on Windows Vista and later versions of Windows and can be downloaded and installed on Windows XP with SP2 and Windows Server 2003.
 
@@ -38,10 +38,10 @@ Application developers can customize the output of MXDW using the [MXDW configur
 
 <dl> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> <dt>
 
-[XPS Specification and License Downloads](https://www.microsoft.com/download/details.aspx?id=11816)
+[XPS Specification and License Downloads](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> <dt>
 
 [isXPS Conformance Tool](/previous-versions/dotnet/netframework-3.0/aa348104(v=vs.85))

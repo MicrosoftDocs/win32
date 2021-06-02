@@ -420,7 +420,7 @@ Virtual Path to the application.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                           |

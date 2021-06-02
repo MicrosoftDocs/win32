@@ -1,5 +1,5 @@
 ---
-Description: Is used in the registration of permanent event consumers to relate an instance of the \_\_EventConsumer to an instance of \_\_EventFilter.
+description: Is used in the registration of permanent event consumers to relate an instance of the \_\_EventConsumer to an instance of \_\_EventFilter.
 ms.assetid: e6a06161-0f1c-4754-ac34-263ccf7bf10d
 ms.tgt_platform: multiple
 title: '__FilterToConsumerBinding class'
@@ -200,7 +200,7 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

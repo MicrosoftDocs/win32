@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the class name and other information associated with a given GUID in a component's manifest.
+description: Retrieves the class name and other information associated with a given GUID in a component's manifest.
 ms.assetid: af7c6e56-604d-4a1b-8fbf-71a372ba1ae7
 title: SxsLookupClrGuid function
 ms.topic: reference
@@ -296,7 +296,7 @@ void main()
 
 
 
-|                |                                                                                                                                                       |
+| Requirement | Value |
 |----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Mscoree.dll; </dt> <dt>Sxs.dll</dt> </dl> |
 

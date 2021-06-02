@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidColumnException constructor"
 title: EsentInvalidColumnException constructor 
 TOCTitle: 'EsentInvalidColumnException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidColumnException.#ctor
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidColumnException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -47,11 +48,10 @@ public EsentInvalidColumnException()
 
 #### Reference
 
-[EsentInvalidColumnException class](dn319487\(v=exchg.10\).md)
+[EsentInvalidColumnException class](./esentinvalidcolumnexception-class.md)
 
-[EsentInvalidColumnException members](dn319449\(v=exchg.10\).md)
+[EsentInvalidColumnException members](./esentinvalidcolumnexception-members.md)
 
-[EsentInvalidColumnException overload](dn319490\(v=exchg.10\).md)
+[EsentInvalidColumnException overload](./esentinvalidcolumnexception-constructor2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

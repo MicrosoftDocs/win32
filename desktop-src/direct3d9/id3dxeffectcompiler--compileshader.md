@@ -1,5 +1,5 @@
 ---
-Description: Compiles a shader from an effect that contains one or more functions.
+description: Compiles a shader from an effect that contains one or more functions.
 ms.assetid: f34a2975-dcd5-4917-9b11-ed40583272f9
 title: ID3DXEffectCompiler::CompileShader method (D3DX9Effect.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ Targets can be specified for vertex shaders, pixel shaders, and texture fill fun
 
 
 
-|                       |                                                                       |
+| Targets                      | Functions                                                                      |
 |-----------------------|-----------------------------------------------------------------------|
 | Vertex shader targets | vs\_1\_1, vs\_2\_0, vs\_2\_sw, vs\_3\_0                               |
 | Pixel shader targets  | ps\_1\_1, ps\_1\_2, ps\_1\_3, ps\_1\_4, ps\_2\_0, ps\_2\_sw, ps\_3\_0 |
@@ -126,7 +126,7 @@ This method compiles a shader from a function that is written in a C-like langua
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

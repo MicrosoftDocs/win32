@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int32ColumnValue methods"
 title: Int32ColumnValue methods
 TOCTitle: Int32ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Int32ColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Int32ColumnValue](dn350992\(v=exchg.10\).md) type exposes the following members.
+The [Int32ColumnValue](./int32columnvalue-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[Int32ColumnValue class](dn350992\(v=exchg.10\).md)
+[Int32ColumnValue class](./int32columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

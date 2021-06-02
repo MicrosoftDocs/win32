@@ -1,5 +1,5 @@
 ---
-Description: The IWiaDevMgr2::RegisterEventCallbackCLSID method registers an application to receive events even if the application is not running.
+description: The IWiaDevMgr2::RegisterEventCallbackCLSID method registers an application to receive events even if the application is not running.
 ms.assetid: e0d421a7-ef49-4e27-9661-c358ac819712
 title: IWiaDevMgr2::RegisterEventCallbackCLSID method (Wia.h)
 ms.topic: reference
@@ -140,7 +140,7 @@ If the application is not a registered Component Object Model (COM) component an
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |

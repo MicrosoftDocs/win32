@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method of the CIM\_MemoryCheck class evaluates a particular check. Details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
+description: The Invoke method of the CIM\_MemoryCheck class evaluates a particular check. Details of how the method evaluates a particular check in a CIM context is described by the non-abstract CIM\_Check subclasses. This method is inherited from CIM\_Check.
 ms.assetid: 264a7690-b066-4024-8cb1-d988b829dc72
 ms.tgt_platform: multiple
 title: Invoke method of the CIM_MemoryCheck class
@@ -54,7 +54,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

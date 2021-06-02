@@ -1,5 +1,5 @@
 ---
-Description: The Free method releases all of the buffer memory. This method is called when the owning filter decommits the allocator, after the last media sample is released.
+description: The Free method releases all of the buffer memory. This method is called when the owning filter decommits the allocator, after the last media sample is released.
 ms.assetid: dd1e6c4d-762a-4caf-902b-015c6c9fdb4d
 title: CBaseAllocator.Free method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ After the [**Decommit**](cbaseallocator-decommit.md) method is called, the alloc
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

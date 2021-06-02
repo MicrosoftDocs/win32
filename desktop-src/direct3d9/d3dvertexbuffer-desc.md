@@ -1,5 +1,5 @@
 ---
-Description: Describes a vertex buffer.
+description: Describes a vertex buffer.
 ms.assetid: 0ae8f976-d0ca-4d55-b6db-5be85fa3c799
 title: D3DVERTEXBUFFER_DESC structure (D3D9Types.h)
 ms.topic: reference
@@ -109,7 +109,7 @@ Combination of [D3DFVF](d3dfvf.md) that describes the vertex format of the verti
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

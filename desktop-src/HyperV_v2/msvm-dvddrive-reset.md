@@ -1,5 +1,5 @@
 ---
-Description: Requests a reset.
+description: Reset method of the Msvm_DVDDrive class - Requests a reset.
 ms.assetid: 5d178eee-36fa-4315-915a-778f559f08f0
 title: Reset method of the Msvm_DVDDrive class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

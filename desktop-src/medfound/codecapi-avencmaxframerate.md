@@ -1,5 +1,5 @@
 ---
-Description: Sets the maximum real-time input rate of video frames being fed to the encoder.
+description: Sets the maximum real-time input rate of video frames being fed to the encoder.
 ms.assetid: ACBE8799-A81C-44C3-B985-88ADFB1E51B4
 title: CODECAPI_AVEncMaxFrameRate property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The frame rate is expressed as a ratio. The upper 32 bits of the attribute value
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/>                                  |

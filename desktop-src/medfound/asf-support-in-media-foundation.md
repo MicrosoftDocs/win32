@@ -1,5 +1,5 @@
 ---
-Description: ASF Support in Media Foundation
+description: ASF Support in Media Foundation
 ms.assetid: 4b0c4a83-623a-4378-9436-35ed120316af
 title: ASF Support in Media Foundation
 ms.topic: article

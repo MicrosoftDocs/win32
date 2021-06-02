@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the display name used to identify a given key protector.
+description: Retrieves the display name used to identify a given key protector.
 ms.assetid: 2f310494-7873-4d05-836e-f09e5784571b
 title: GetKeyProtectorFriendlyName method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -79,7 +79,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

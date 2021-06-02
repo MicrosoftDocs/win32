@@ -1,5 +1,5 @@
 ---
-Description: The IAMTimelineSrc interface provides methods for manipulating and setting properties on source objects in DirectShow Editing Services (DES).
+description: The IAMTimelineSrc interface provides methods for manipulating and setting properties on source objects in DirectShow Editing Services (DES).
 ms.assetid: 39a64718-1fac-4d90-8340-b712d3bad2ec
 title: IAMTimelineSrc interface (Qedit.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ The **IAMTimelineSrc** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

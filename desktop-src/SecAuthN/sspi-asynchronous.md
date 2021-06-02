@@ -1,6 +1,6 @@
 ---
 title: Asynchronous SSPI
-Description: Overview of the asynchronous SSPI header.
+description: Overview of the asynchronous SSPI header.
 ms.topic: article
 ms.keywords: 'SSPI, Async SSPI, SSPI Async, Asynchronous SSPI, sspi,SspiAcceptSecurityContextAsync, SspiAcquireCredentialsHandleAsync, SspiAsyncContextRequiresNotify, SspiAsyncNotifyCallback, SspiCreateAsyncContext,SspiDeleteSecurityContextAsync, SspiFreeAsyncContext, SspiFreeCredentialsHandleAsync, SspiGetAsyncCallStatus, SspiInitializeSecurityContextAsync, SspiReinitAsyncContext, SspiSetAsyncNotifyCallback'
 ms.date: 06/23/2020

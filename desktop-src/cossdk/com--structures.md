@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: COM+ Structures"
 ms.assetid: 90780b75-d6b1-47a3-8700-ba05ee2020c4
 title: COM+ Structures
 ms.topic: article

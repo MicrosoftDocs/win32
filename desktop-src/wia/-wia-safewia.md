@@ -1,5 +1,5 @@
 ---
-Description: The SafeWia object is a &\#0034;safe for scripting&\#0034; entry point for all Windows Image Acquisition (WIA) scripting functionality.
+description: The SafeWia object is a &\#0034;safe for scripting&\#0034; entry point for all Windows Image Acquisition (WIA) scripting functionality.
 ms.assetid: 6b10bb8e-8500-4f2c-ae18-5db78ef75f74
 title: SafeWia object
 ms.topic: reference
@@ -81,7 +81,7 @@ This collection is 0-based.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

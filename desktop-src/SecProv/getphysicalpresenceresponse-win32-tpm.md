@@ -1,5 +1,5 @@
 ---
-Description: Returns the results from a TPM physical presence operation that was performed.
+description: Returns the results from a TPM physical presence operation that was performed.
 ms.assetid: 28d76149-3905-45db-a41e-32fac1603582
 title: GetPhysicalPresenceResponse method of the Win32_Tpm class
 ms.topic: reference
@@ -210,7 +210,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |

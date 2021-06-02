@@ -1,5 +1,5 @@
 ---
-Description: 'Windows provides functions that perform the following tasks:'
+description: 'Windows provides functions that perform the following tasks:'
 ms.assetid: 437419c7-d6c5-4cae-b5d0-d552c75d4448
 title: Object Interface
 ms.topic: article

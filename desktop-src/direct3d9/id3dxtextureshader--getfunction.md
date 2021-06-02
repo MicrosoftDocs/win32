@@ -1,5 +1,5 @@
 ---
-Description: Gets a pointer to the function DWORD stream.
+description: Gets a pointer to the function DWORD stream.
 ms.assetid: a051b51a-185c-4a9e-a8b9-4096615e2634
 title: ID3DXTextureShader::GetFunction method (D3DX9Shader.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

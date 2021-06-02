@@ -1,5 +1,5 @@
 ---
-Description: The XMFLOAT3 structure exposes the following operators.
+description: The XMFLOAT3 structure exposes the following operators.
 ms.assetid: dc98a2ed-da87-4ba3-8394-682143b378b8
 title: XMFLOAT3 operators
 ms.topic: reference

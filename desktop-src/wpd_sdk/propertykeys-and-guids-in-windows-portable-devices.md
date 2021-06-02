@@ -1,5 +1,5 @@
 ---
-Description: PROPERTYKEYs and GUIDs in Windows Portable Devices
+description: PROPERTYKEYs and GUIDs in Windows Portable Devices
 ms.assetid: 3f9e9f29-37dd-47b0-997e-de81966efce2
 title: PROPERTYKEYs and GUIDs in Windows Portable Devices
 ms.topic: article

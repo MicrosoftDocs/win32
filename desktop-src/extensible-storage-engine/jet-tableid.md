@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLEID"
 title: JET_TABLEID
 TOCTitle: JET_TABLEID
 ms:assetid: 09705c32-97d8-460c-8b58-921497e29c13
@@ -33,7 +34,7 @@ The JET_TABLEID data type contains a handle to the database cursor to use for a 
 
 JET_TABLEID
 
-Either **NULL** or [JET_tableidNil](gg269256\(v=exchg.10\).md) can be used to indicate an invalid cursor handle.
+Either **NULL** or [JET_tableidNil](./invalid-handle-constants.md) can be used to indicate an invalid cursor handle.
 
 ### Remarks
 
@@ -51,7 +52,7 @@ A cursor manages the use of a table for the database engine. A cursor can do the
 
 The supported functionality of the cursor might change as the status or type of the underlying table changes. For example, a temporary table might disallow searching for data when it is opened with certain options. The cursor is always fully connected to the underlying table and interacts with that data directly without any caching. Almost all of the core ISAM functionality that is exposed by this database engine is works through the cursor.
 
-A cursor can be created using [JetOpenTable](gg294118\(v=exchg.10\).md) or [JetOpenTempTable](gg269211\(v=exchg.10\).md). A cursor can be duplicated using [JetDupCursor](gg269193\(v=exchg.10\).md). A cursor can be explicitly closed using [JetCloseTable](gg294087\(v=exchg.10\).md) or implicitly closed using [JetEndSession](gg294054\(v=exchg.10\).md) or [JetTerm](gg269298\(v=exchg.10\).md). A cursor can also be implicitly closed by [JetRollback](gg269273\(v=exchg.10\).md) if it was opened in the transaction that was aborted. The maximum number of cursors that can be created at any one time is controlled by [JET_paramMaxCursors](gg269201\(v=exchg.10\).md), which can be configured using [JetSetSystemParameter](gg294044\(v=exchg.10\).md).
+A cursor can be created using [JetOpenTable](./jetopentable-function.md) or [JetOpenTempTable](./jetopentemptable-function.md). A cursor can be duplicated using [JetDupCursor](./jetdupcursor-function.md). A cursor can be explicitly closed using [JetCloseTable](./jetclosetable-function.md) or implicitly closed using [JetEndSession](./jetendsession-function.md) or [JetTerm](./jetterm-function.md). A cursor can also be implicitly closed by [JetRollback](./jetrollback-function.md) if it was opened in the transaction that was aborted. The maximum number of cursors that can be created at any one time is controlled by [JET_paramMaxCursors](./resource-parameters.md), which can be configured using [JetSetSystemParameter](./jetsetsystemparameter-function.md).
 
 ### Requirements
 
@@ -79,13 +80,12 @@ A cursor can be created using [JetOpenTable](gg294118\(v=exchg.10\).md) or [JetO
 
 ### See Also
 
-[JET_paramMaxSessions](gg269201\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetDupCursor](gg269193\(v=exchg.10\).md)  
-[JetEndSession](gg294054\(v=exchg.10\).md)  
-[JetOpenTable](gg294118\(v=exchg.10\).md)  
-[JetOpenTempTable](gg269211\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[JetTerm](gg269298\(v=exchg.10\).md)
-
+[JET_paramMaxSessions](./resource-parameters.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetDupCursor](./jetdupcursor-function.md)  
+[JetEndSession](./jetendsession-function.md)  
+[JetOpenTable](./jetopentable-function.md)  
+[JetOpenTempTable](./jetopentemptable-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[JetTerm](./jetterm-function.md)

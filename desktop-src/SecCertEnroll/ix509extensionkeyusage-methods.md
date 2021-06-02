@@ -1,5 +1,5 @@
 ---
-Description: The IX509ExtensionKeyUsage interface exposes the following methods.
+description: The IX509ExtensionKeyUsage interface exposes the following methods.
 ms.assetid: 7807491C-607C-4907-8AD5-9428036CB0B7
 title: IX509ExtensionKeyUsage Methods
 ms.topic: reference

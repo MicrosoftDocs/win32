@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/RoamApplicability (v4)
+description: MBNProfileExt\/RoamApplicability (v4)
 MS-HAID: WWAN\_profile\_v4.element\_RoamApplicability
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth class of device service networking.
+description: Bluetooth class of device service networking.
 ms.assetid: 5c440c40-a0af-49d5-a4f8-25bfc62dc869
 title: System.Devices.Aep.Bluetooth.Cod.Services.Networking
 ms.topic: article

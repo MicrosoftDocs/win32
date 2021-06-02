@@ -1,5 +1,5 @@
 ---
-Description: Quality Messages
+description: Quality Messages
 ms.assetid: ff98cb51-6300-470d-b696-5e27591c6b3f
 title: Quality Messages
 ms.topic: article

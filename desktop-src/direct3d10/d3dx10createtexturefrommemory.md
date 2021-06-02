@@ -1,5 +1,5 @@
 ---
-Description: Create a texture resource from a file residing in system memory.
+description: Create a texture resource from a file residing in system memory.
 ms.assetid: 63eac44b-0540-457f-96c0-d151fbd44df0
 title: D3DX10CreateTextureFromMemory function (D3DX10.h)
 ms.topic: reference
@@ -118,7 +118,7 @@ For a list of supported image formats see [**D3DX10\_IMAGE\_FILE\_FORMAT**](d3dx
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Represents a baseboard, which is also known as a motherboard or system board.
+description: Represents a baseboard, which is also known as a motherboard or system board.
 ms.assetid: 04ac7522-8b99-4ffc-9f7d-d1225f55a862
 ms.tgt_platform: multiple
 title: Win32_BaseBoard class
@@ -763,7 +763,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

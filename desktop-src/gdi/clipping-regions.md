@@ -1,5 +1,5 @@
 ---
-Description: A clipping region is one of the graphic objects that an application can select into a device context (DC).
+description: A clipping region is one of the graphic objects that an application can select into a device context (DC).
 ms.assetid: d9238ee5-3305-4e85-aef3-2c5c8b74aacd
 title: Clipping Regions
 ms.topic: article

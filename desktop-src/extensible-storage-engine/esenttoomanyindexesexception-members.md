@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyIndexesException members"
 title: EsentTooManyIndexesException members
 TOCTitle: EsentTooManyIndexesException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManyIndexesException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TooManyIndexes exceptions.
 
-The [EsentTooManyIndexesException](dn334994\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyIndexesException](./esenttoomanyindexesexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTooManyIndexesException class](dn334994\(v=exchg.10\).md)
+[EsentTooManyIndexesException class](./esenttoomanyindexesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

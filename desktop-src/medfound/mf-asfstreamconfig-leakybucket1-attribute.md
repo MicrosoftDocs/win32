@@ -1,5 +1,5 @@
 ---
-Description: Sets the average &\#0034;leaky bucket&\#0034; parameters (see Remarks) for encoding a Windows Media file. Set this attribute by using the IMFASFStreamConfig interface.
+description: Sets the average &\#0034;leaky bucket&\#0034; parameters (see Remarks) for encoding a Windows Media file. Set this attribute by using the IMFASFStreamConfig interface.
 ms.assetid: 5aa570eb-1004-4942-9a63-b8f6373d4e53
 title: MF_ASFSTREAMCONFIG_LEAKYBUCKET1 attribute (Wmcontainer.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

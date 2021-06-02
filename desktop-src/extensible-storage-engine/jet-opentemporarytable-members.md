@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OPENTEMPORARYTABLE members"
 title: JET_OPENTEMPORARYTABLE members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: JET_OPENTEMPORARYTABLE members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE
@@ -15,7 +16,7 @@ Include inherited members
 
 A collection of parameters for the JetOpenTemporaryTable method.
 
-The [JET_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md) type exposes the following members.
+The [JET_OPENTEMPORARYTABLE](./jet-opentemporarytable-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -147,6 +148,6 @@ Top
 
 #### Reference
 
-[JET_OPENTEMPORARYTABLE class](dn351217\(v=exchg.10\).md)
+[JET_OPENTEMPORARYTABLE class](./jet-opentemporarytable-class.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

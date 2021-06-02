@@ -1,5 +1,5 @@
 ---
-Description: IsDefault
+description: IsDefault
 MS-HAID: WWAN\_profile\_v4.element\_IsDefault
 MSHAttr:
 - PreferredSiteName:MSDN

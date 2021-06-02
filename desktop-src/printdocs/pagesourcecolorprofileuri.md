@@ -1,5 +1,5 @@
 ---
-Description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 25c3c70f-20e3-4e44-9c59-bb66b4bd14d9
 title: PageSourceColorProfileURI
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # PageSourceColorProfileURI
 
-This topic is not current. For the most current information, see the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+This topic is not current. For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 Specifies the source for color profile.
 
@@ -19,7 +19,7 @@ Specifies the source for color profile.
 
 
 
-| Name                       |                                                     |
+| Name | Value |
 |----------------------------|-----------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                             |
 | Scoping Prefix <br/> | Page<br/>                                     |
@@ -80,7 +80,7 @@ The following table outlines the characteristics of the variables defined in the
 
 <dl> <dt>
 
-[Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx)
+[Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-Description: Represents a floppy drive inside the virtual machine.
+description: Represents a floppy drive inside the virtual machine.
 ms.assetid: 4624ABAF-3761-416F-9044-7A39EBF53D3D
 title: Msvm_DisketteDrive class
 ms.topic: reference
@@ -1050,7 +1050,7 @@ Access to the **Msvm\_DisketteDrive** class might be restricted by UAC Filtering
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

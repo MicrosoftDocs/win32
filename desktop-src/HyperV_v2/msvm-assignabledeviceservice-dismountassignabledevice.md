@@ -1,5 +1,5 @@
 ---
-Description: Dismounts the specified PCI device so that it can be assigned.
+description: Dismounts the specified PCI device so that it can be assigned.
 ms.assetid: 8ea3bc27-93ba-4db8-a4aa-cdfea225eaa9
 title: DismountAssignableDevice method of the Msvm_AssignableDeviceService class
 ms.topic: reference
@@ -109,7 +109,7 @@ On success, returns 0 or 4096; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

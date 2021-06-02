@@ -1,5 +1,5 @@
 ---
-Description: The DoneWithWindow method destroys the window.
+description: The DoneWithWindow method destroys the window.
 ms.assetid: 03c97884-7d91-4b59-b867-dda231d2a184
 title: CBaseWindow.DoneWithWindow method (Winutil.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the thread calling `DoneWithWindow` is not the thread that created the window
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

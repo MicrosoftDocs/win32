@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileStaleException constructor"
 title: EsentSLVFileStaleException constructor 
 TOCTitle: 'EsentSLVFileStaleException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVFileStaleException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVFileStaleException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVFileStaleException()
 
 #### Reference
 
-[EsentSLVFileStaleException class](dn334783\(v=exchg.10\).md)
+[EsentSLVFileStaleException class](./esentslvfilestaleexception-class.md)
 
-[EsentSLVFileStaleException members](dn350701\(v=exchg.10\).md)
+[EsentSLVFileStaleException members](./esentslvfilestaleexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

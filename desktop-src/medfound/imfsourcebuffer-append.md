@@ -1,5 +1,5 @@
 ---
-Description: Appends the specified media segment to the IMFSourceBuffer.
+description: Appends the specified media segment to the IMFSourceBuffer.
 ms.assetid: 824fa23d-57d9-411a-af8a-fb65dca124b2
 title: IMFSourceBuffer::Append method
 ms.topic: reference
@@ -57,7 +57,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

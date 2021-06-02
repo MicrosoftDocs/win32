@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfMemoryException constructor"
 title: EsentOutOfMemoryException constructor 
 TOCTitle: 'EsentOutOfMemoryException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfMemoryException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfMemoryException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOutOfMemoryException()
 
 #### Reference
 
-[EsentOutOfMemoryException class](dn319786\(v=exchg.10\).md)
+[EsentOutOfMemoryException class](./esentoutofmemoryexception-class.md)
 
-[EsentOutOfMemoryException members](dn319799\(v=exchg.10\).md)
+[EsentOutOfMemoryException members](./esentoutofmemoryexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

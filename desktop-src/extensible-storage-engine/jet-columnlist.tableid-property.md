@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNLIST.tableid property"
 title: JET_COLUMNLIST.tableid property 
 TOCTitle: 'tableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_COLUMNLIST.tableid
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets tableid of the temporary table. This should be closed when the table is no longer needed.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public JET_TABLEID tableid { get; internal set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
 
 ## See also
 
 #### Reference
 
-[JET_COLUMNLIST class](dn335047\(v=exchg.10\).md)
+[JET_COLUMNLIST class](./jet-columnlist-class.md)
 
-[JET_COLUMNLIST members](dn335100\(v=exchg.10\).md)
+[JET_COLUMNLIST members](./jet-columnlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

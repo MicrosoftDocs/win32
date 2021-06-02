@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStopwatch members"
 title: EsentStopwatch members
 TOCTitle: EsentStopwatch members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStopwatch
@@ -13,9 +14,9 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-Provides a set of methods and properties that you can use to measure ESENT work statistics for a thread. If the current version of ESENT doesn't support [JetGetThreadStats(JET_THREADSTATS)](dn351264\(v=exchg.10\).md) then all ESENT statistics will be 0.
+Provides a set of methods and properties that you can use to measure ESENT work statistics for a thread. If the current version of ESENT doesn't support [JetGetThreadStats(JET_THREADSTATS)](./vistaapi.jetgetthreadstats-method.md) then all ESENT statistics will be 0.
 
-The [EsentStopwatch](dn334867\(v=exchg.10\).md) type exposes the following members.
+The [EsentStopwatch](./esentstopwatch-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -142,6 +143,6 @@ Top
 
 #### Reference
 
-[EsentStopwatch class](dn334867\(v=exchg.10\).md)
+[EsentStopwatch class](./esentstopwatch-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

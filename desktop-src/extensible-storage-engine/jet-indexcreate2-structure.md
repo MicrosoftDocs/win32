@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE2 Structure"
 title: JET_INDEXCREATE2 Structure
 TOCTitle: JET_INDEXCREATE2 Structure
 ms:assetid: c574500e-8695-4f29-8e9d-6dff987af2a2
@@ -24,7 +25,7 @@ ROBOTS: INDEX,FOLLOW
 
 _**Applies to:** Windows | Windows Server_
 
-The **JET_INDEXCREATE2** structure contains the information that is required to create an index over data in an Extensible Storage Engine (ESE) database. The structure is used by functions such as [JetCreateIndex2](gg269324\(v=exchg.10\).md), and in structures such as [JET_TABLECREATE](gg294146\(v=exchg.10\).md) and [JET_TABLECREATE2](gg269203\(v=exchg.10\).md).
+The **JET_INDEXCREATE2** structure contains the information that is required to create an index over data in an Extensible Storage Engine (ESE) database. The structure is used by functions such as [JetCreateIndex2](./jetcreateindex2-function.md), and in structures such as [JET_TABLECREATE](./jet-tablecreate-structure.md) and [JET_TABLECREATE2](./jet-tablecreate2-structure.md).
 
 The **JET_INDEXCREATE2** structure was introduced in the Windows 7 operating system.
 
@@ -82,7 +83,7 @@ The number of columns specified in **szKey** must not exceed JET_ccolKeyMost (a 
 
 At least one column must be named in **szKey**.
 
-Obsolete behavior: After the double-NULL terminator, it is possible to specify a language ID (a WORD which gets passed into MAKELCID( langid, SORT_DEFAULT ) ) as a way to specify the LCID for the index. It is illegal to specify both a language ID in **szKey** and an LCID in [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) (by setting JET_bitIndexUnicode in *grbit*).
+Obsolete behavior: After the double-NULL terminator, it is possible to specify a language ID (a WORD which gets passed into MAKELCID( langid, SORT_DEFAULT ) ) as a way to specify the LCID for the index. It is illegal to specify both a language ID in **szKey** and an LCID in [JET_UNICODEINDEX](./jet-unicodeindex-structure.md) (by setting JET_bitIndexUnicode in *grbit*).
 
 Deprecated: After the language ID, it is possible to pass **cbVarSegMac** as a **USHORT** data type. The behavior is undefined if the USHORT is set both in **szKey** and if **cbVarSegMac** is set in the structure.
 
@@ -194,7 +195,7 @@ The locale identifier (LCID) to use when normalizing the data when the JET_bitIn
 
 **pidxunicode**
 
-A pointer to a [JET_UNICODEINDEX](gg294097\(v=exchg.10\).md) structure if the JET_bitIndexUnicode value is specified in the *grbit* parameter. This allows the user to specify custom flags that get passed to the [LCMapString](https://msdn.microsoft.com/library/dd318700\(vs.85\).aspx) function during Unicode normalization.
+A pointer to a [JET_UNICODEINDEX](./jet-unicodeindex-structure.md) structure if the JET_bitIndexUnicode value is specified in the *grbit* parameter. This allows the user to specify custom flags that get passed to the [LCMapString](https://msdn.microsoft.com/library/dd318700\(vs.85\).aspx) function during Unicode normalization.
 
 **cbVarSegMac**
 
@@ -208,13 +209,13 @@ Specifying a value of 0 (zero) for this field is equivalent to the following:
 
 **ptuplelimits**
 
-A pointer to a [JET_TUPLELIMITS](gg269207\(v=exchg.10\).md) structure if the JET_bitIndexTupleLimits value is specified in the *grbit* parameter.
+A pointer to a [JET_TUPLELIMITS](./jet-tuplelimits-structure.md) structure if the JET_bitIndexTupleLimits value is specified in the *grbit* parameter.
 
 **ptuplelimits** was introduced in Windows Server 2003.
 
 **rgconditionalcolumn**
 
-An optional parameter to an array of [JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md) structures, which are used to specify the conditional columns in the index.
+An optional parameter to an array of [JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-structure.md) structures, which are used to specify the conditional columns in the index.
 
 **cConditionalColumn**
 
@@ -244,7 +245,7 @@ The maximum supported maximum key size for the instance can also be read from th
 
 **pSpacehints**
 
-A pointer to a [JET_SPACEHINTS](gg269205\(v=exchg.10\).md) structure.
+A pointer to a [JET_SPACEHINTS](./jet-spacehints-structure.md) structure.
 
 **pSpacehints** was introduced in Windows 7.
 
@@ -334,15 +335,14 @@ In versions of Windows starting with Windows Vista, all multivalued columns can
 
 ### See also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_TABLECREATE](gg294146\(v=exchg.10\).md)  
-[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JET_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
-[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
-[JetCreateIndex2](gg269324\(v=exchg.10\).md)  
-[JetSetColumn](gg294137\(v=exchg.10\).md)  
-[JetUpdate](gg269288\(v=exchg.10\).md)
-
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-structure.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_TABLECREATE](./jet-tablecreate-structure.md)  
+[JET_TABLECREATE2](./jet-tablecreate2-structure.md)  
+[JET_TUPLELIMITS](./jet-tuplelimits-structure.md)  
+[JET_UNICODEINDEX](./jet-unicodeindex-structure.md)  
+[JetCreateIndex2](./jetcreateindex2-function.md)  
+[JetSetColumn](./jetsetcolumn-function.md)  
+[JetUpdate](./jetupdate-function.md)

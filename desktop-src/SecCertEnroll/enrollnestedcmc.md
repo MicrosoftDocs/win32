@@ -1,5 +1,5 @@
 ---
-Description: Reads an existing CMC certificate request from a file, wraps it in another CMC request, signs this outer request, submits it to a certification authority (CA), and saves the certificate response from the CA to a file.
+description: Reads an existing CMC certificate request from a file, wraps it in another CMC request, signs this outer request, submits it to a certification authority (CA), and saves the certificate response from the CA to a file.
 ms.assetid: b1a9161d-1f9a-4c5b-acd2-6058dc65a258
 title: enrollNestedCMC
 ms.topic: article

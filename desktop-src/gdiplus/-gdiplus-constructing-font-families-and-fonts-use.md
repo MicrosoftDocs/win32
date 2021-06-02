@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ groups fonts with the same typeface but different styles into font families.
+description: Windows GDI+ groups fonts with the same typeface but different styles into font families.
 ms.assetid: 57428fae-6af4-47a5-a499-717dc378767a
 title: Constructing Font Families and Fonts
 ms.topic: article

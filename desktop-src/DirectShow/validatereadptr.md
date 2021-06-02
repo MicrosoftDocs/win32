@@ -1,5 +1,5 @@
 ---
-Description: Verifies that the calling process has read access to a memory block. If not, the macro calls the DbgBreak macro.
+description: Verifies that the calling process has read access to a memory block. If not, the macro calls the DbgBreak macro.
 ms.assetid: 1a70e4e5-e144-4cfe-b6be-c0a70aac9ada
 title: ValidateReadPtr macro (Wxdebug.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ This macro is ignored unless DEBUG, \_DEBUG, or VFWROBUST is defined when the Di
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

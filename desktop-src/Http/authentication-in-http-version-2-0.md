@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Authentication
+# Authentication (HTTP Server API)
 
 Some server applications require client authentication to access resources and service HTTP requests. Starting with version 2.0, the HTTP Server API performs server side authentication for the application. In the HTTP Server API version 1.0, the server application had to implement its own authentication. Some advantages of authentication performed by the HTTP Server API include:
 

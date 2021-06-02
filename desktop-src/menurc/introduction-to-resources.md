@@ -1,6 +1,6 @@
 ---
 title: Introduction to Resources
-description: .
+description: Introduction to Resources
 ms.assetid: 67f7dc37-62eb-4223-8c2c-009d77c61d7e
 ms.topic: article
 ms.date: 05/31/2018

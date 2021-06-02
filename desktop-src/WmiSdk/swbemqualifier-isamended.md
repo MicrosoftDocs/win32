@@ -1,5 +1,5 @@
 ---
-Description: The IsAmended property of the SWbemQualifier object is a Boolean value that indicates if this qualifier has been localized using a merge operation.
+description: The IsAmended property of the SWbemQualifier object is a Boolean value that indicates if this qualifier has been localized using a merge operation.
 ms.assetid: 7619bbf0-e4ed-4afb-a6e5-159eaed6c5df
 ms.tgt_platform: multiple
 title: SWbemQualifier.IsAmended property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemQualifier.IsAmended As Boolean
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

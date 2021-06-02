@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: VistaColtyp members"
 title: VistaColtyp members (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: VistaColtyp members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Vista.VistaColtyp
@@ -15,7 +16,7 @@ Include inherited members
 
 Column types that have been added to the Vista version of ESENT.
 
-The [VistaColtyp](dn351274\(v=exchg.10\).md) type exposes the following members.
+The [VistaColtyp](./vistacoltyp-class.md) type exposes the following members.
 
 ## Fields
 
@@ -58,7 +59,6 @@ Top
 
 #### Reference
 
-[VistaColtyp class](dn351274\(v=exchg.10\).md)
+[VistaColtyp class](./vistacoltyp-class.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

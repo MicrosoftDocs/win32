@@ -1,5 +1,5 @@
 ---
-Description: The value of the FILEADDLOCAL property denotes a list of file keys delimited by commas that are to be installed to run from the local source media.
+description: The value of the FILEADDLOCAL property denotes a list of file keys delimited by commas that are to be installed to run from the local source media.
 ms.assetid: 89ae876e-53f0-4c1d-ba16-7513af79ee5e
 title: FILEADDLOCAL property
 ms.topic: reference
@@ -37,7 +37,7 @@ The installer sets the [**Preselected**](preselected.md) property to a value of 
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

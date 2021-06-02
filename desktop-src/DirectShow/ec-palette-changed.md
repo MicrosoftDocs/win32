@@ -1,5 +1,5 @@
 ---
-Description: The video palette has changed.
+description: The video palette has changed.
 ms.assetid: 39f36efa-fe61-4310-b7ec-1ad6ef3f29fb
 title: EC_PALETTE_CHANGED (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Video renderers send this event if they detect a palette change in the stream.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

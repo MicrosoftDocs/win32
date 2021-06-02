@@ -1,5 +1,5 @@
 ---
-Description: The AuthenticationLevel property is an integer that defines the COM Authentication level that is assigned to this object.
+description: The AuthenticationLevel property is an integer that defines the COM Authentication level that is assigned to this object.
 ms.assetid: 96c2e6a5-a91f-469d-bdd1-eaa20b176158
 ms.tgt_platform: multiple
 title: SWbemSecurity.AuthenticationLevel property
@@ -80,7 +80,7 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,authentication
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

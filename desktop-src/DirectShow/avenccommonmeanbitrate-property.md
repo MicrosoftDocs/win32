@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average encoded bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
+description: Specifies the average encoded bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 8519685a-4f5b-44af-ad46-09eba7a198c6
 title: AVEncCommonMeanBitRate property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This property is also used with [H.264 UVC 1.5 camera encoders](/windows/desktop
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

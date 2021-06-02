@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Handling Parameters"
 title: Error Handling Parameters
 TOCTitle: Error Handling Parameters
 ms:assetid: 014996a1-5674-40c7-9538-54cae1681fec
@@ -29,7 +30,7 @@ This topic contains parameters that are used for error handling.
 *JET_paramErrorToString*
 70  
 
-This parameter can be used to convert a [JET_ERR](gg294092\(v=exchg.10\).md) into a string. This is done using a special call to [JetGetSystemParameter](gg269291\(v=exchg.10\).md) where the integer output buffer contains the [JET_ERR](gg294092\(v=exchg.10\).md) value to be converted (as an input parameter) and the string output buffer returns the matching error string. The string will look something like this: "JET_errSuccess,Successful Operation". The string is composed of the symbolic name for the string, then a comma, and then a simple text description of the error. The description string may itself contain commas. If the error is not recognized then the string will be "Unknown Error,Unknown Error".
+This parameter can be used to convert a [JET_ERR](./jet-err.md) into a string. This is done using a special call to [JetGetSystemParameter](./jetgetsystemparameter-function.md) where the integer output buffer contains the [JET_ERR](./jet-err.md) value to be converted (as an input parameter) and the string output buffer returns the matching error string. The string will look something like this: "JET_errSuccess,Successful Operation". The string is composed of the symbolic name for the string, then a comma, and then a simple text description of the error. The description string may itself contain commas. If the error is not recognized then the string will be "Unknown Error,Unknown Error".
 
 **Note**  This parameter is read only.
 
@@ -171,8 +172,8 @@ This parameter controls what happens when an exception is thrown by the database
 
 ### See Also
 
-[Error Handling Constants](gg269258\(v=exchg.10\).md)  
-[Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
+[Error Handling Constants](./error-handling-constants.md)  
+[Extensible Storage Engine Error Codes](./extensible-storage-engine-error-codes.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JET_ERR](./jet-err.md)  
+[JetInit](./jetinit-function.md)

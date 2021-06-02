@@ -22,7 +22,7 @@ Single-valued string GUID LIBID for a type library.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | COM-Unique-LIBID                            |
 | Ldap-Display-Name | cOMUniqueLIBID                              |
@@ -48,7 +48,7 @@ Single-valued string GUID LIBID for a type library.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -69,7 +69,7 @@ Single-valued string GUID LIBID for a type library.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -90,7 +90,7 @@ Single-valued string GUID LIBID for a type library.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -111,7 +111,7 @@ Single-valued string GUID LIBID for a type library.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -132,7 +132,7 @@ Single-valued string GUID LIBID for a type library.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |
@@ -153,7 +153,7 @@ Single-valued string GUID LIBID for a type library.
 
 
 
-|                        |                                                  |
+| Entry | Value |
 |------------------------|--------------------------------------------------|
 | Link-Id                | \-                                               |
 | MAPI-Id                | \-                                               |

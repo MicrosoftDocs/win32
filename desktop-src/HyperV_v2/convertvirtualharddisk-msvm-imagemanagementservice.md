@@ -1,5 +1,5 @@
 ---
-Description: Converts an existing virtual hard disk to a different type or format.
+description: Converts an existing virtual hard disk to a different type or format.
 ms.assetid: D4F3A030-D860-4569-B6CD-31661BD40D54
 title: ConvertVirtualHardDisk method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -213,7 +213,7 @@ public static void ConvertVirtualHardDisk(string sourcePath, string destinationP
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

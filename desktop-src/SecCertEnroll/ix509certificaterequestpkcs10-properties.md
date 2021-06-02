@@ -1,5 +1,5 @@
 ---
-Description: The IX509CertificateRequestPkcs10 interface exposes the following properties.
+description: The IX509CertificateRequestPkcs10 interface exposes the following properties.
 ms.assetid: AA7AE63E-8505-4E71-9404-2C4396E8D098
 title: IX509CertificateRequestPkcs10 Properties
 ms.topic: reference

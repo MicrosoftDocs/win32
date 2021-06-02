@@ -1,5 +1,5 @@
 ---
-Description: The get\_Hue method retrieves the hue value on which to key. This property applies only when the key type is DXTKEY\_HUE.
+description: The get\_Hue method retrieves the hue value on which to key. This property applies only when the key type is DXTKEY\_HUE.
 ms.assetid: d37fedd6-f29f-4f16-821b-c5f8520c4e12
 title: IDxtKey::get_Hue method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

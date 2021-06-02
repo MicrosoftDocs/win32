@@ -1,5 +1,5 @@
 ---
-Description: A point list is a collection of vertices that are rendered as isolated points. Your application can use them in 3D scenes for star fields, or dotted lines on the surface of a polygon.
+description: A point list is a collection of vertices that are rendered as isolated points. Your application can use them in 3D scenes for star fields, or dotted lines on the surface of a polygon.
 ms.assetid: 82866b07-5043-433f-974a-0a301d4b5491
 title: Point Lists
 ms.topic: article

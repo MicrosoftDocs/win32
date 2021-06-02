@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTestInjectionNotSupportedException members"
 title: EsentTestInjectionNotSupportedException members
 TOCTitle: EsentTestInjectionNotSupportedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTestInjectionNotSupportedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TestInjectionNotSupported exceptions.
 
-The [EsentTestInjectionNotSupportedException](dn334978\(v=exchg.10\).md) type exposes the following members.
+The [EsentTestInjectionNotSupportedException](./esenttestinjectionnotsupportedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTestInjectionNotSupportedException class](dn334978\(v=exchg.10\).md)
+[EsentTestInjectionNotSupportedException class](./esenttestinjectionnotsupportedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

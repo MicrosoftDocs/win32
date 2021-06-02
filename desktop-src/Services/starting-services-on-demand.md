@@ -1,5 +1,5 @@
 ---
-Description: The user can start a service with the Services control panel utility. The user can specify arguments for the service in the Start parameters field. A service control program can start a service and specify its arguments with the StartService function.
+description: The user can start a service with the Services control panel utility. The user can specify arguments for the service in the Start parameters field. A service control program can start a service and specify its arguments with the StartService function.
 ms.assetid: 72f51b38-d62c-4400-a38d-b9a0e90e9db4
 title: Starting Services on Demand
 ms.topic: article

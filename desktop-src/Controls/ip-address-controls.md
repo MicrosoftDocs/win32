@@ -41,9 +41,8 @@ An IP address control is not an edit control and it will not respond to EM\_ mes
 
 
 
-|                                   |                                                                                                                                                                                                         |
+|     Notification                              |     Reason for notification                                                                                                                                                                                                    |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Notification**                  | **Reason for notification**                                                                                                                                                                             |
 | [EN\_SETFOCUS](en-setfocus.md)   | Sent when the IP address control gains the keyboard focus.                                                                                                                                              |
 | [EN\_KILLFOCUS](en-killfocus.md) | Sent when the IP address control loses the keyboard focus.                                                                                                                                              |
 | [EN\_CHANGE](en-change.md)       | Sent when any field in the IP address control changes. Like the [EN\_CHANGE](en-change.md) notification from a standard edit control, this notification is received after the screen has been updated. |

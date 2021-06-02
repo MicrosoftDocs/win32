@@ -1,5 +1,5 @@
 ---
-Description: Sets the supported controls for a video encoder.
+description: Sets the supported controls for a video encoder.
 ms.assetid: 42FD987A-7D6C-4434-BD48-3CC289F2748D
 title: CODECAPI_AVEncVideoSupportedControls property (Codecapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ This property is only used with [H.264 UVC 1.5 camera encoders](camera-encoder-h
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

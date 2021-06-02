@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Reference
+# Reference (OLE and Data Transfer)
 
 The following programming elements are used to implement compound documents and perform data transfer between applications.
 

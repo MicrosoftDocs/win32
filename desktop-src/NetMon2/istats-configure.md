@@ -1,5 +1,5 @@
 ---
-Description: The Configure method submits capture configuration information.
+description: The Configure method submits capture configuration information.
 ms.assetid: 739ed1df-1a84-4c48-a1ac-2dba7a614cdd
 title: IStats::Configure method (Netmon.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ The error BLOB returned by *hErrorBlob* contains entries that Network Monitor co
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

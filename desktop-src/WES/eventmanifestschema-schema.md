@@ -1,7 +1,7 @@
 ---
 title: EventManifest Schema
 ms.assetid: 89acbc43-739b-4e89-a96a-cc3438ec8ecc
-description: 
+description: "Learn more about: EventManifest Schema"
 ms.topic: article
 ms.date: 05/31/2018
 topic_type: 

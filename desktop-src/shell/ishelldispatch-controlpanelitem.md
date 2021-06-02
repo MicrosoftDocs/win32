@@ -1,5 +1,5 @@
 ---
-Description: Runs the specified Control Panel application.
+description: Runs the specified Control Panel application.
 title: IShellDispatch.ControlPanelItem method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
-api_name: 
- - IShellDispatch.ControlPanelItem
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -144,7 +135,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

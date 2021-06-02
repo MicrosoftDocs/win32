@@ -1,5 +1,5 @@
 ---
-Description: Event Handler Prototype functions are used for all functions that handle Winlogon notification events.
+description: Event Handler Prototype functions are used for all functions that handle Winlogon notification events.
 ms.assetid: 99b91e80-5e4e-4119-89aa-c0a80fce69e3
 title: Event Handler Function Prototype callback function
 ms.topic: reference
@@ -106,7 +106,7 @@ void WLEventLogoff (PWLX_NOTIFICATION_INFO pInfo)
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

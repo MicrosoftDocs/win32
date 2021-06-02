@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PageFileElementSetting association WMI class relates the initial settings of a page file and the state of those settings during normal use.
+description: The Win32\_PageFileElementSetting association WMI class relates the initial settings of a page file and the state of those settings during normal use.
 ms.assetid: efc1f20d-166e-4e27-9767-f6ec0bbd6c14
 ms.tgt_platform: multiple
 title: Win32_PageFileElementSetting class
@@ -87,7 +87,7 @@ The **Win32\_PageFileElementSetting** class is derived from [**CIM\_ElementSetti
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: The Decommit method decommits the allocator. This method implements the IMemAllocator::Decommit method.
+description: The Decommit method decommits the allocator. This method implements the IMemAllocator::Decommit method.
 ms.assetid: 0c8d44e0-17ea-4f7f-be44-f9ae2e34fbef
 title: CBaseAllocator.Decommit method (Amfilter.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ In addition, this method releases any threads that are blocked on **GetBuffer** 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

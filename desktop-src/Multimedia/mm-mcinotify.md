@@ -40,7 +40,7 @@ Reason for the notification. The following values are defined:
 
 
 
-|                         |                                                                                                                                                                                                                                                                                |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MCI\_NOTIFY\_ABORTED    | The device received a command that prevented the current conditions for initiating the callback function from being met. If a new command interrupts the current command and it also requests notification, the device sends this message only and not MCI\_NOTIFY\_SUPERSEDED |
 | MCI\_NOTIFY\_FAILURE    | A device error occurred while the device was executing the command.                                                                                                                                                                                                            |
@@ -78,7 +78,7 @@ When your application requests notification for a command, check the error retur
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

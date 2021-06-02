@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RETRIEVECOLUMN class"
 title: JET_RETRIEVECOLUMN class
 TOCTitle: JET_RETRIEVECOLUMN class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN
@@ -28,14 +29,14 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_RETRIEVECOLUMN class
 
-Contains input and output parameters for [JetRetrieveColumns(JET_SESID, JET_TABLEID, \[\], Int32)](dn334004\(v=exchg.10\).md). Fields in the structure describe what column value to retrieve, how to retrieve it, and where to save results.
+Contains input and output parameters for [JetRetrieveColumns(JET_SESID, JET_TABLEID, \[\], Int32)](./api.jetretrievecolumns-method.md). Fields in the structure describe what column value to retrieve, how to retrieve it, and where to save results.
 
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_RETRIEVECOLUMN  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,6 +60,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_RETRIEVECOLUMN members](dn351034\(v=exchg.10\).md)
+[JET_RETRIEVECOLUMN members](./jet-retrievecolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

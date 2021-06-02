@@ -1,5 +1,5 @@
 ---
-Description: The literal value comparison uses standard comparison operators for matching a single-valued column to a literal value.
+description: The literal value comparison uses standard comparison operators for matching a single-valued column to a literal value.
 ms.assetid: 941298b4-d703-4b3f-8bde-0e6e158560df
 title: Literal Value Comparison
 ms.topic: article

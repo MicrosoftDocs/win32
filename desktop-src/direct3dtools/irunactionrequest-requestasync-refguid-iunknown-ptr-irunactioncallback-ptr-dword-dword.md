@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to initiate an action (for example, capture a frame) in the engine.
+description: An asynchronous request to initiate an action (for example, capture a frame) in the engine.
 MS-HAID: vspixengine.IRunActionRequest\_RequestAsync\_REFGUID\_IUnknown\_ptr\_IRunActionCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

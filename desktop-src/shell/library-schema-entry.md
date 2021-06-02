@@ -1,5 +1,5 @@
 ---
-Description: Library description files are XML files that define libraries.
+description: Library description files are XML files that define libraries.
 ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: Library Description Schema
 ms.topic: article
@@ -39,7 +39,7 @@ Library files in Windows 7 are stored in the known folder, FOLDERID\_Libraries.
 
 ## Namespace Versioning
 
-Versions of the Library Description file format (\*.library-ms) are tracked by changing the namespace. For Windows 7, the file format has the following default namespace: http://schemas.microsoft.com/windows/2009/library.
+Versions of the Library Description file format (\*.library-ms) are tracked by changing the namespace. For Windows 7, the file format has the following default namespace: https://schemas.microsoft.com/windows/2009/library.
 
 Versions of the library contents, however, are tracked by using the [<version>](schema-library-version.md) element in a specific Library Description file.
 

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the nonRepudiationEnabled bit is set.
+description: Retrieves a Boolean value that indicates whether the nonRepudiationEnabled bit is set.
 ms.assetid: d9bcf0fc-8b2d-408c-b587-71903ef5f5f6
 title: KeyUsage.IsNonRepudiationEnabled property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the nonRepudiationEnabled bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

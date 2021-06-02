@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.cPageReferenced property"
 title: JET_THREADSTATS.cPageReferenced property  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'cPageReferenced property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.cPageReferenced
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the total number of database pages visited by the database engine on the current thread.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](./jet-threadstats-structure2.md)
 
-[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](./jet-threadstats-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

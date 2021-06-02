@@ -22,7 +22,7 @@ Contains a hash of the security certificate for the Scan Repository/Secure Print
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-Imaging-Thumbprint-Hash                            |
 | Ldap-Display-Name | msImaging-ThumbprintHash                              |
@@ -43,7 +43,7 @@ Contains a hash of the security certificate for the Scan Repository/Secure Print
 
 
 
-|                        |                                           |
+| Entry | Value |
 |------------------------|-------------------------------------------|
 | Link-Id                | \-                                        |
 | MAPI-Id                | \-                                        |

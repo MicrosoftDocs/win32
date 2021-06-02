@@ -1,5 +1,5 @@
 ---
-Description: Starts an active technique.
+description: Starts an active technique.
 ms.assetid: 6598d77b-8b53-4f2d-aa43-adf358ad486d
 title: ID3DXEffect::Begin method (D3DX9Effect.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ Within the **ID3DXEffect::Begin** and [**ID3DXEffect::End**](id3dxeffect--end.md
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

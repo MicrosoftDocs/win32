@@ -1,5 +1,5 @@
 ---
-Description: Executes a verb on the item.
+description: Executes a verb on the item.
 ms.assetid: 569bdc88-15ef-4d08-923c-4f41e5ae5a38
 title: FolderItem.InvokeVerb method (Shldisp.h)
 ms.topic: reference
@@ -160,7 +160,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

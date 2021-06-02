@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetDatabaseSize Function"
 title: JetSetDatabaseSize Function
 TOCTitle: JetSetDatabaseSize Function
 ms:assetid: 4a87bf43-c8f7-4966-9f1f-68c16d1cb558
@@ -60,7 +61,7 @@ Pointer to a number that receives the size of the database, in pages, after the 
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -118,7 +119,7 @@ Only growing the file is currently supported. To shrink a file, use the defragme
 
 If *cpg* is smaller than the current size of the database, the operation will be ignored. If *cpg* is less than the minimum database size (currently 256 pages), it will return JET_errInvalidParameter.
 
-To set the size of a database that is opened, see [JetGrowDatabase](gg294109\(v=exchg.10\).md).
+To set the size of a database that is opened, see [JetGrowDatabase](./jetgrowdatabase-function.md).
 
 The file size may not match the number of pages returned in *pcpgReal*. There are two additional reserved pages that may not be counted in *pcpgReal*.
 
@@ -160,11 +161,10 @@ The file size may not match the number of pages returned in *pcpgReal*. There ar
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET_OBJECTLIST](gg269348\(v=exchg.10\).md)  
-[JetGrowDatabase](gg294109\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_OBJECTINFO](./jet-objectinfo-structure.md)  
+[JET_OBJECTLIST](./jet-objectlist-structure.md)  
+[JetGrowDatabase](./jetgrowdatabase-function.md)

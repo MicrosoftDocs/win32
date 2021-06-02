@@ -1,5 +1,5 @@
 ---
-Description: Troubleshooting Tips
+description: Troubleshooting Tips
 ms.assetid: e87ad3bd-07ae-4b9d-b465-2ce4688bdd83
 title: Troubleshooting Tips
 ms.topic: article

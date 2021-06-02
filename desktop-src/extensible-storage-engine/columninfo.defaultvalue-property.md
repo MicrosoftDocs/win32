@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.DefaultValue property"
 title: ColumnInfo.DefaultValue property 
 TOCTitle: 'DefaultValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.DefaultValue
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the default value of the column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,8 +60,8 @@ Type: [System.Collections.Generic.IList](/dotnet/api/system.collections.generic.
 
 #### Reference
 
-[ColumnInfo class](dn334128\(v=exchg.10\).md)
+[ColumnInfo class](./columninfo-class.md)
 
-[ColumnInfo members](dn334181\(v=exchg.10\).md)
+[ColumnInfo members](./columninfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

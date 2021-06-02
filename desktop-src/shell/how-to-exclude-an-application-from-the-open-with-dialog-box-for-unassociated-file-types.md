@@ -1,5 +1,5 @@
 ---
-Description: How to exclude an application from the open with dialog box for unassociated file type.
+description: How to exclude an application from the open with dialog box for unassociated file type.
 title: How to Exclude an Application from the Open With Dialog Box for Unassociated File Types
 ms.topic: article
 ms.date: 05/31/2018

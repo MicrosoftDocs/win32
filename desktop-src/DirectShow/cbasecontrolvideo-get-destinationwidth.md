@@ -1,5 +1,5 @@
 ---
-Description: The get\_DestinationWidth method retrieves the width of the current destination rectangle.
+description: The get\_DestinationWidth method retrieves the width of the current destination rectangle.
 ms.assetid: 7d466d61-1768-48b4-8460-b15d28a294f3
 title: CBaseControlVideo.get_DestinationWidth method (Ctlutil.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

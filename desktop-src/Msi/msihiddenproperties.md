@@ -1,5 +1,5 @@
 ---
-Description: The MsiHiddenProperties property may be used to prevent the installer from displaying passwords or other confidential information in the log file.
+description: The MsiHiddenProperties property may be used to prevent the installer from displaying passwords or other confidential information in the log file.
 ms.assetid: 7d5eb9cf-04a5-41bd-9ca9-f30af45ab0a5
 title: MsiHiddenProperties property
 ms.topic: reference
@@ -19,7 +19,7 @@ The **MsiHiddenProperties** property may be used to prevent the installer from d
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

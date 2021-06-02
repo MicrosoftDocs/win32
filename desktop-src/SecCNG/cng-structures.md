@@ -1,5 +1,5 @@
 ---
-Description: 'Cryptography API: Next Generation (CNG) defines the following structures.'
+description: 'Cryptography API: Next Generation (CNG) defines the following structures.'
 ms.assetid: d2015ee9-7bd0-484f-8d6d-66cf4f45b28f
 title: CNG Structures
 ms.topic: article

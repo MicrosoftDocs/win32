@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables hardware acceleration for H.264 video decoding.
+description: Enables or disables hardware acceleration for H.264 video decoding.
 ms.assetid: 3912136d-0fc1-49b0-bc79-0785d63041e6
 title: AVDecVideoAcceleration_H264 property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is zero, the decoder does not use DirectX Video Acceleration (DXVA)
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

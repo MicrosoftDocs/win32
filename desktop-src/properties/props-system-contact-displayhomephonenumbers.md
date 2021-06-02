@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.DisplayHomePhoneNumbers
 ms.assetid: 358ebb76-5e19-47e9-83dc-0ba84170ddb1
 title: System.Contact.DisplayHomePhoneNumbers
 ms.topic: article

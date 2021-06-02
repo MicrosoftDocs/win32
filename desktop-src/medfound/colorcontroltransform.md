@@ -1,5 +1,5 @@
 ---
-Description: Adjusts the color characteristics of a video stream.
+description: Adjusts the color characteristics of a video stream.
 ms.assetid: 738c1f0c-8417-4b12-a7f1-9bbf3c7e9dd3
 title: Color Control Transform DSP (Wmcodecdsp.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ This DSP modifies the contents of the video stream. For playback, you might be a
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

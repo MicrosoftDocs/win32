@@ -1,5 +1,5 @@
 ---
-Description: Input Method Manager
+description: Input Method Manager
 ms.assetid: '3e23e004-514a-4021-bd20-5ac55547258f'
 title: Input Method Manager
 ms.topic: article

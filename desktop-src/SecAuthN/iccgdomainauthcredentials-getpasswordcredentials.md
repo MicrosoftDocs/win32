@@ -1,5 +1,5 @@
 ---
-Description: Returns credentials to authenticate a non-domain joined container with Active Directory.
+description: Returns credentials to authenticate a non-domain joined container with Active Directory.
 title: ICcgDomainAuthCredentials::GetPasswordCredentials method (ccgplugins.h)
 ms.topic: reference
 ms.date: 10/21/2020
@@ -78,7 +78,7 @@ The return value is an **HRESULT**. A value of S\_OK indicates the call was succ
 
 The API may be called concurrently. Therefore, the developer needs to ensure that their implementation is thread safe. Additionally, the COM object will be activated out-of-proc and it must be registered appropriately. 
 
-The implementer must add a key under “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\CCG\COMClasses” for their COM CLSID. Write access to “CCG\COMClasses” is restricted to SYSTEM and Administrator accounts. 
+The implementer must add a key under “HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\CCG\COMClasses” for their COM CLSID. Write access to “CCG\COMClasses” is restricted to SYSTEM and Administrator accounts. 
 
 The following is an example credential specification file. For information on supplying this file to Docker, see [Run a container with a gMSA](/virtualization/windowscontainers/manage-containers/gmsa-run-container).
 
@@ -189,7 +189,7 @@ CoCreatableClass(CCGStubPlugin);
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported server | Windows Server, version 2004                                    |
 | Header                   | ccgplugins.h   |

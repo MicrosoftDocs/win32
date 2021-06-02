@@ -1,5 +1,5 @@
 ---
-Description: The user-friendly type name of the item.
+description: The user-friendly type name of the item.
 ms.assetid: 5d4c86da-6317-4a34-88d6-caf794aaa165
 title: System.ItemTypeText
 ms.topic: article

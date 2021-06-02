@@ -1,5 +1,5 @@
 ---
-Description: The name attribute specifies the name of an object.
+description: The name attribute specifies the name of an object.
 ms.assetid: 50794113-067a-4614-bea8-300e6e49dff6
 title: name Attribute
 ms.topic: reference

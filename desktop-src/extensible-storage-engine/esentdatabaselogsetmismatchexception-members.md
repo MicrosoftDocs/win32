@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseLogSetMismatchException members"
 title: EsentDatabaseLogSetMismatchException members
 TOCTitle: EsentDatabaseLogSetMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.DatabaseLogSetMismatch exceptions.
 
-The [EsentDatabaseLogSetMismatchException](dn334359\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseLogSetMismatchException](./esentdatabaselogsetmismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseLogSetMismatchException class](dn334359\(v=exchg.10\).md)
+[EsentDatabaseLogSetMismatchException class](./esentdatabaselogsetmismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

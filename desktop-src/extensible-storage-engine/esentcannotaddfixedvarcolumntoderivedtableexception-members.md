@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotAddFixedVarColumnToDerivedTableException members"
 title: EsentCannotAddFixedVarColumnToDerivedTableException members
 TOCTitle: EsentCannotAddFixedVarColumnToDerivedTableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotAddFixedVarColumnToDerivedTableException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CannotAddFixedVarColumnToDerivedTable exceptions.
 
-The [EsentCannotAddFixedVarColumnToDerivedTableException](dn274130\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotAddFixedVarColumnToDerivedTableException](./esentcannotaddfixedvarcolumntoderivedtableexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCannotAddFixedVarColumnToDerivedTableException class](dn274130\(v=exchg.10\).md)
+[EsentCannotAddFixedVarColumnToDerivedTableException class](./esentcannotaddfixedvarcolumntoderivedtableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

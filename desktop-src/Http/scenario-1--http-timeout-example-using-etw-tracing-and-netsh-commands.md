@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 Through ETW tracing, the flow of data through the HTTP Server API component can be inspected to diagnose problems. For example, users of a web application may see error messages in their browser that a web page cannot display. On the server hosting the web application, the IT professional also sees a connection timeout entry within the HTTP Error Log, as shown in Figure 1 below. The HTTP Error Log can be found in the following directory: %windir%\\System32\\LogFiles\\HTTPERR\\.
 
-![netsh http command window](images/httperrorlog.png)
+![Screenshot that shows the netsh H T T P command window displaying an H T T P error log for timeout.](images/httperrorlog.png)
 
 Figure 1: HTTP Error Log for Timeout
 
@@ -30,7 +30,7 @@ The steps below generate a trace called httptrace.etl and then convert the trace
 
 ## Viewing the Trace and Diagnosing
 
-The resulting CSV file for traces can be viewed in Excel or any tool that supports the CSV format. Table 1 below shows excerpts from a sample trace file (httptrace.csv). In the trace report, the "Level" column shows an entry with a value of "3", which corresponds to a warning in ETW. The HTTP Server API component follows the ETW Levels defined in the following article: (http://msdn2.microsoft.com/library/aa382793.aspx). The ETW levels include:
+The resulting CSV file for traces can be viewed in Excel or any tool that supports the CSV format. Table 1 below shows excerpts from a sample trace file (httptrace.csv). In the trace report, the "Level" column shows an entry with a value of "3", which corresponds to a warning in ETW. The HTTP Server API component follows the ETW Levels defined in the following article: (https://msdn2.microsoft.com/library/aa382793.aspx). The ETW levels include:
 
 
 

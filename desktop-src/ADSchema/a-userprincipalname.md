@@ -22,7 +22,7 @@ This attribute contains the UPN that is an Internet-style login name for a user 
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | User-Principal-Name                         |
 | Ldap-Display-Name | userPrincipalName                           |
@@ -49,7 +49,7 @@ This attribute contains the UPN that is an Internet-style login name for a user 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -70,7 +70,7 @@ This attribute contains the UPN that is an Internet-style login name for a user 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -91,7 +91,7 @@ This attribute contains the UPN that is an Internet-style login name for a user 
 
 
 
-|                        |              |
+| Entry | Value |
 |------------------------|--------------|
 | Link-Id                | \-           |
 | MAPI-Id                | \-           |
@@ -112,7 +112,7 @@ This attribute contains the UPN that is an Internet-style login name for a user 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -133,7 +133,7 @@ This attribute contains the UPN that is an Internet-style login name for a user 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -154,7 +154,7 @@ This attribute contains the UPN that is an Internet-style login name for a user 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -175,7 +175,7 @@ This attribute contains the UPN that is an Internet-style login name for a user 
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

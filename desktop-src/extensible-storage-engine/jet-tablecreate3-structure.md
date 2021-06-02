@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TABLECREATE3 Structure"
 title: JET_TABLECREATE3 Structure
 TOCTitle: JET_TABLECREATE3 Structure
 ms:assetid: 61909569-e704-494b-a56d-b64d1a2ee157
@@ -24,7 +25,7 @@ ROBOTS: INDEX,FOLLOW
 
 _**Applies to:** Windows | Windows Server_
 
-The **JET_TABLECREATE3** structure contains the information that is needed to create a table populated with columns and indexes in an Extensible Storage Engine (ESE) database, and that designates a callback function. The **JET_TABLECREATE3** structure is used by the [JetCreateTableColumnIndex3](gg294079\(v=exchg.10\).md) function.
+The **JET_TABLECREATE3** structure contains the information that is needed to create a table populated with columns and indexes in an Extensible Storage Engine (ESE) database, and that designates a callback function. The **JET_TABLECREATE3** structure is used by the [JetCreateTableColumnIndex3](./jetcreatetablecolumnindex3-function.md) function.
 
 The **JET_TABLECREATE3** structure was introduced in the Windows 7 operating system.
 
@@ -86,19 +87,19 @@ The table density, in percentage points. The number must be either 0 or in the r
 
 **rgcolumncreate**
 
-An array of [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md) structures, each of which corresponds to a column to be created in the new table.
+An array of [JET_COLUMNCREATE](./jet-columncreate-structure.md) structures, each of which corresponds to a column to be created in the new table.
 
 **cColumns**
 
-The number of [JET_COLUMNCREATE](gg269252\(v=exchg.10\).md) elements in the *rgcolumncreate* parameter.
+The number of [JET_COLUMNCREATE](./jet-columncreate-structure.md) elements in the *rgcolumncreate* parameter.
 
 **rgindexcreate**
 
-An array of [JET_INDEXCREATE2](gg294082\(v=exchg.10\).md) structures, each of which corresponds to an index to be created in the new table.
+An array of [JET_INDEXCREATE2](./jet-indexcreate2-structure.md) structures, each of which corresponds to an index to be created in the new table.
 
 **cIndexes**
 
-The number of [JET_INDEXCREATE2](gg294082\(v=exchg.10\).md) elements in the *rgindexcreate* parameter.
+The number of [JET_INDEXCREATE2](./jet-indexcreate2-structure.md) elements in the *rgindexcreate* parameter.
 
 **szCallback**
 
@@ -106,11 +107,11 @@ The function that gets called during certain events. **cbtyp** determines when t
 
 The format of **szCallback** must be "module\!function" — for example, "alpha\!beta" refers to the beta function in the module named "alpha".
 
-The prototype of the function must match the [JET_CALLBACK](gg294098\(v=exchg.10\).md) callback function.
+The prototype of the function must match the [JET_CALLBACK](./jet-callback-callback-function.md) callback function.
 
 **cbtyp**
 
-Describes the type of callback function designated by **szCallback**. For more information, see [JET_CBTYP](gg294071\(v=exchg.10\).md).
+Describes the type of callback function designated by **szCallback**. For more information, see [JET_CBTYP](./jet-cbtyp.md).
 
 This bitfield is composed of one or more of the bit values listed in the following table.
 
@@ -204,25 +205,25 @@ A group of bits that contains zero or more of the call option values listed in t
 
 **pSeqSpacehints**
 
-A pointer to a [JET_SPACEHINTS](gg269205\(v=exchg.10\).md) structure for default sequential index.
+A pointer to a [JET_SPACEHINTS](./jet-spacehints-structure.md) structure for default sequential index.
 
 **pSeqSpacehints** was introduced in Windows 7.
 
 **pLVSpacehints**
 
-A pointer to a [JET_SPACEHINTS](gg269205\(v=exchg.10\).md) structure for a Separated Long Value tree.
+A pointer to a [JET_SPACEHINTS](./jet-spacehints-structure.md) structure for a Separated Long Value tree.
 
 **pLVSpacehints** was introduced in Windows 7.
 
 **cbSeparateLV**
 
-The size to separate an intrinsic LV from the primary record. Any long-value c structure for a Separated LV tree. For more information, see ng-value in [JET_SPACEHINTS](gg269205\(v=exchg.10\).md). Long-value columns smaller than this value may be separated if the record becomes too large.
+The size to separate an intrinsic LV from the primary record. Any long-value c structure for a Separated LV tree. For more information, see ng-value in [JET_SPACEHINTS](./jet-spacehints-structure.md). Long-value columns smaller than this value may be separated if the record becomes too large.
 
 **cbSeparateLV** was introduced in Windows 7.
 
 **tableid**
 
-An output field that holds the [JET_TABLEID](gg269182\(v=exchg.10\).md) of the new table if the API call succeeds. If the API call fails, the value is undefined. This table is opened exclusively.
+An output field that holds the [JET_TABLEID](./jet-tableid.md) of the new table if the API call succeeds. If the API call fails, the value is undefined. This table is opened exclusively.
 
 **cCreated**
 
@@ -260,15 +261,14 @@ The count of objects that are created is equal to the sum of columns, tables, an
 
 ### See also
 
-[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET_CONDITIONALCOLUMN](gg269214\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCreateTable](gg269210\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)  
-[JetDefragment2](gg294095\(v=exchg.10\).md)
-
+[JET_CALLBACK](./jet-callback-callback-function.md)  
+[JET_CBTYP](./jet-cbtyp.md)  
+[JET_CONDITIONALCOLUMN](./jet-conditionalcolumn-structure.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCreateTable](./jetcreatetable-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md)  
+[JetDefragment2](./jetdefragment2-function.md)

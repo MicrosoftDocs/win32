@@ -1,6 +1,6 @@
 ---
 title: call - ps
-description: Performs a function call to the instruction marked with the provided label.
+description: Performs a function call to the instruction marked with the provided label. | call - ps
 ms.assetid: d5f5e5a1-f205-477d-a11b-ff9eeeec6c95
 ms.topic: reference
 ms.date: 05/31/2018

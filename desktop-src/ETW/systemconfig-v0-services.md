@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for service configuration events.
+description: SystemConfig_V0_Services class - This class is the event type class for service configuration events.
 ms.assetid: 1e6c2061-f1a2-4253-a0c4-4b45b2feceda
 title: SystemConfig_V0_Services class
 ms.topic: reference
@@ -117,7 +117,7 @@ Unique identifier of the service. The identifier provides an indication of the f
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

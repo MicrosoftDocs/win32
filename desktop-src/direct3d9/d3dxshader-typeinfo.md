@@ -1,5 +1,5 @@
 ---
-Description: A helper structure containing member type information.
+description: A helper structure containing member type information.
 ms.assetid: 5580122d-c700-4632-8fcf-903519f2429e
 title: D3DXSHADER_TYPEINFO structure (D3dx9shader.h)
 ms.topic: reference
@@ -125,7 +125,7 @@ The type information is part of [**D3DXSHADER\_STRUCTMEMBERINFO**](d3dxshader-st
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

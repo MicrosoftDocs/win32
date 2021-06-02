@@ -1,6 +1,6 @@
 ---
 title: glLoadMatrixf function (Gl.h)
-description: The glLoadMatrixd and glLoadMatrixf functions replace the current matrix with an arbitrary matrix.
+description: The glLoadMatrixf function replaces the current matrix with an arbitrary matrix. | glLoadMatrixf function (Gl.h)
 ms.assetid: 6e1337b0-d1e7-4002-a561-d959d7f70942
 keywords:
 - glLoadMatrixf function OpenGL
@@ -64,7 +64,7 @@ The **glLoadMatrix** function replaces the current matrix with the one specified
 
 The *m* parameter points to a 4x4 matrix of single-precision or double-precision floating-point values stored in column-major order. That is, the matrix is stored as shown in the following image.
 
-![](images/load02.png)
+![Diagram showing the 4x4 matrix that the m parameter points to.](images/load02.png)
 
 The following functions retrieve information related to **glLoadMatrix**:
 
@@ -80,7 +80,7 @@ The following functions retrieve information related to **glLoadMatrix**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

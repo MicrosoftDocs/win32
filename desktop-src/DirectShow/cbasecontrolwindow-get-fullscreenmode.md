@@ -1,5 +1,5 @@
 ---
-Description: The get\_FullScreenMode method retrieves the current full-screen mode.
+description: The get\_FullScreenMode method retrieves the current full-screen mode.
 ms.assetid: 351af361-5cfd-4e82-bd8a-92f629bd270d
 title: CBaseControlWindow.get_FullScreenMode method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function returns E\_NOTIMPL by default. This informs the [**IVideoWi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

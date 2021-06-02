@@ -1,5 +1,5 @@
 ---
-Description: Other TAPI phone functions use a handle to an open phone device to identify the open phone device.
+description: Other TAPI phone functions use a handle to an open phone device to identify the open phone device.
 ms.assetid: 3e8e18fc-d577-4406-8225-048813c4cb9e
 title: Device IDs
 ms.topic: article

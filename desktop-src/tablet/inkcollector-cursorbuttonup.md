@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the InkCollector detects a cursor button that is up.
+description: InkCollector.CursorButtonUp event - Occurs when the InkCollector detects a cursor button that is up.
 ms.assetid: f07daad7-e0d1-45cf-a708-5486a5dfda8b
 title: InkCollector.CursorButtonUp event (Msinkaut.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

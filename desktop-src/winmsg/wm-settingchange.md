@@ -1,5 +1,5 @@
 ---
-Description: A message that is sent to all top-level windows when the SystemParametersInfo function changes a system-wide setting or when policy settings have changed.
+description: A message that is sent to all top-level windows when the SystemParametersInfo function changes a system-wide setting or when policy settings have changed.
 ms.assetid: 77174e06-a25b-440a-9e9c-4fd5979c433c
 title: WM_SETTINGCHANGE message (Winuser.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The *lParam* parameter indicates which system metric has changed, for example, "
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

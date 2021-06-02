@@ -29,6 +29,7 @@ This section contains reference information for each command-line switch and swi
 [**/confirm**](-confirm.md)  
 [**/cpp\_cmd**](-cpp-cmd.md)  
 [**/cpp\_opt**](-cpp-opt.md)  
+[**/cstruct_out**](-cstruct-out.md)
 [**/cstub**](-cstub.md)  
 [**/D**](-d.md)  
 [**/dlldata**](-dlldata.md)  

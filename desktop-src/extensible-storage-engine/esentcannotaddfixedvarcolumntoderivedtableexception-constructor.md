@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotAddFixedVarColumnToDerivedTableException constructor"
 title: EsentCannotAddFixedVarColumnToDerivedTableException constructor 
 TOCTitle: 'EsentCannotAddFixedVarColumnToDerivedTableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotAddFixedVarColumnToDerivedTableException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotAddFixedVarColumnToDerivedTableException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentCannotAddFixedVarColumnToDerivedTableException()
 
 #### Reference
 
-[EsentCannotAddFixedVarColumnToDerivedTableException class](dn274130\(v=exchg.10\).md)
+[EsentCannotAddFixedVarColumnToDerivedTableException class](./esentcannotaddfixedvarcolumntoderivedtableexception-class.md)
 
-[EsentCannotAddFixedVarColumnToDerivedTableException members](dn274069\(v=exchg.10\).md)
+[EsentCannotAddFixedVarColumnToDerivedTableException members](./esentcannotaddfixedvarcolumntoderivedtableexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

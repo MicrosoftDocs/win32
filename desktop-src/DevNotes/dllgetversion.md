@@ -1,5 +1,5 @@
 ---
-Description: The DllGetVersion function retrieves the version number of Cabinet.dll using the CABINETDLLVERSIONINFO structure.
+description: The DllGetVersion function retrieves the version number of Cabinet.dll using the CABINETDLLVERSIONINFO structure.
 ms.assetid: 93f6c29e-6a62-46c2-a42b-8270fe522494
 title: DllGetVersion function
 ms.topic: reference
@@ -55,7 +55,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Cabinet.dll</dt> </dl> |
 

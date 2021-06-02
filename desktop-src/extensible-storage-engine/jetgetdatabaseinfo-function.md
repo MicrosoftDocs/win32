@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetDatabaseInfo Function"
 title: JetGetDatabaseInfo Function
 TOCTitle: JetGetDatabaseInfo Function
 ms:assetid: bd3f92d0-7e98-4aa6-87c5-1c2760cbd1b5
@@ -26,7 +27,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetDatabaseInfo Function
 
-The **JetGetDatabaseInfo** function retrieves various types of information about the database. This API can be called while a database is attached or online (with **JetGetDatabaseInfo**) or while the database or database engine is offline (with [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md)).
+The **JetGetDatabaseInfo** function retrieves various types of information about the database. This API can be called while a database is attached or online (with **JetGetDatabaseInfo**) or while the database or database engine is offline (with [JetGetDatabaseFileInfo](./jetgetdatabasefileinfo-function.md)).
 
 ```cpp
     JET_ERR JET_API JetGetDatabaseInfo(
@@ -46,7 +47,7 @@ The session to use for this call.
 
 *dbid*
 
-The [JET_DBID](gg269248\(v=exchg.10\).md) for the database to retrieve the information from.
+The [JET_DBID](./jet-dbid.md) for the database to retrieve the information from.
 
 *pvResult*
 
@@ -62,7 +63,7 @@ The size, in bytes, of the buffer that was passed in *pvResult*.
 
 *InfoLevel*
 
-*InfoLevel* specifies which type of information should be retrieved about the specified database. It affects how *pvResult* is interpreted. Some *InfoLevel* are available only in the offline ([JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md)) or online (**JetGetDatabaseInfo**) version of the API.
+*InfoLevel* specifies which type of information should be retrieved about the specified database. It affects how *pvResult* is interpreted. Some *InfoLevel* are available only in the offline ([JetGetDatabaseFileInfo](./jetgetdatabasefileinfo-function.md)) or online (**JetGetDatabaseInfo**) version of the API.
 
 If the *pvResult* buffer provided is too small, either JET_errInvalidBufferSize or JET_errBufferTooSmall will be returned depending on the *InfoLevel*.
 
@@ -145,7 +146,7 @@ If the *pvResult* buffer provided is too small, either JET_errInvalidBufferSize 
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -225,11 +226,10 @@ On failure, the output buffer will be in an undefined state.
 
 #### See Also
 
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)  
-[JET_DBINFOUPGRADE](gg294114\(v=exchg.10\).md)  
-[JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md)
-
+[JET_DBID](./jet-dbid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)  
+[JET_DBINFOUPGRADE](./jet-dbinfoupgrade-structure.md)  
+[JetGetDatabaseFileInfo](./jetgetdatabasefileinfo-function.md)

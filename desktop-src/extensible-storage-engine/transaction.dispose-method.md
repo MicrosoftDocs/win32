@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Transaction.Dispose method"
 title: Transaction.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Transaction.Dispose
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[Transaction class](dn351174\(v=exchg.10\).md)
+[Transaction class](./transaction-class.md)
 
-[Transaction members](dn351240\(v=exchg.10\).md)
+[Transaction members](./transaction-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

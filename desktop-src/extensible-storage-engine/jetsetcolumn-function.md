@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetColumn Function"
 title: JetSetColumn Function
 TOCTitle: JetSetColumn Function
 ms:assetid: f8877519-86d5-4e59-95a8-1927c70cd6b4
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetSetColumn Function
 
-The **JetSetColumn** function modifies a single column value in a modified record to be inserted or to update the current record. It can overwrite an existing value, add a new value to a sequence of values in a multi-valued column, remove a value from a sequence of values in a multi-valued column, or update all or part of a long value, a column of type [JET_coltypLongText](gg269213\(v=exchg.10\).md) or [JET_coltypLongBinary](gg269213\(v=exchg.10\).md).
+The **JetSetColumn** function modifies a single column value in a modified record to be inserted or to update the current record. It can overwrite an existing value, add a new value to a sequence of values in a multi-valued column, remove a value from a sequence of values in a multi-valued column, or update all or part of a long value, a column of type [JET_coltypLongText](./jet-coltyp.md) or [JET_coltypLongBinary](./jet-coltyp.md).
 
 ```cpp
     JET_ERR JET_API JetSetColumn(
@@ -53,7 +54,7 @@ The cursor to use for this call.
 
 *columnid*
 
-The [JET_COLUMNID](gg294104\(v=exchg.10\).md) of the column to be retrieved. Alternatively, a *columnid* value of 0 (zero) can be given. When *columnid* 0 (zero) is given, all tagged columns, sparse and multi-valued columns, are treated as a single column. This facilitates retrieving all sparse columns that are present in a record.
+The [JET_COLUMNID](./jet-columnid.md) of the column to be retrieved. Alternatively, a *columnid* value of 0 (zero) can be given. When *columnid* 0 (zero) is given, all tagged columns, sparse and multi-valued columns, are treated as a single column. This facilitates retrieving all sparse columns that are present in a record.
 
 *pvData*
 
@@ -132,7 +133,7 @@ A group of bits that contain the options to be used for this call, which include
 
 *psetinfo*
 
-Pointer to optional input parameters that can be set for this function using the [JET_SETINFO](gg294090\(v=exchg.10\).md) structure.
+Pointer to optional input parameters that can be set for this function using the [JET_SETINFO](./jet-setinfo-structure.md) structure.
 
 If *psetinfo* is given as **NULL** then the function behaves as though an *itagSequence* of 1 and an *ibLongValue* of 0 (zero) were given. This causes column set to set the first value of a multi-valued column, and to set long data beginning at offset 0 (zero).
 
@@ -164,7 +165,7 @@ The following options can be set for this parameter:
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -282,9 +283,9 @@ On failure, the cursor location is left unchanged and no column value data is up
 
 #### Remarks
 
-Setting long values, values for columns [JET_coltypLongBinary](gg269213\(v=exchg.10\).md) of type [JET_coltypLongText](gg269213\(v=exchg.10\).md) or [JET_coltypLongBinary](gg269213\(v=exchg.10\).md), should be done only when the calling session is in a transaction. If the calling session is not in a transaction, modifications to long values which are stored separately may be committed fully even when the update operation is later cancelled. If the calling session is in a transaction, then the effects of the update can be fully rolled back by canceling the update and rolling back the session transaction.
+Setting long values, values for columns [JET_coltypLongBinary](./jet-coltyp.md) of type [JET_coltypLongText](./jet-coltyp.md) or [JET_coltypLongBinary](./jet-coltyp.md), should be done only when the calling session is in a transaction. If the calling session is not in a transaction, modifications to long values which are stored separately may be committed fully even when the update operation is later cancelled. If the calling session is in a transaction, then the effects of the update can be fully rolled back by canceling the update and rolling back the session transaction.
 
-Index updates are not performed as a result of **JetSetColumn** operations. Instead, indexes are updated only after all column modifications are complete and [JetUpdate](gg269288\(v=exchg.10\).md) is called. This permits the most efficient updating of indexes when indexes involve more than one column being modified.
+Index updates are not performed as a result of **JetSetColumn** operations. Instead, indexes are updated only after all column modifications are complete and [JetUpdate](./jetupdate-function.md) is called. This permits the most efficient updating of indexes when indexes involve more than one column being modified.
 
 A record is limited in size based on the database page size. Any long values in the record larger than five bytes will be stored separate from the record should the data in the record exceed its limit as a result of a **JetSetColumn** operation. The error JET_errRecordTooBig will only be returned after all separable record column data has been stored separately from the record and the record still exceeds the record size limit.
 
@@ -322,11 +323,10 @@ A record is limited in size based on the database page size. Any long values in 
 
 #### See Also
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_SETINFO](gg294090\(v=exchg.10\).md)  
-[JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
-[JetSetColumns](gg294050\(v=exchg.10\).md)
-
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_SETINFO](./jet-setinfo-structure.md)  
+[JetRetrieveColumn](./jetretrievecolumn-function.md)  
+[JetSetColumns](./jetsetcolumns-function.md)

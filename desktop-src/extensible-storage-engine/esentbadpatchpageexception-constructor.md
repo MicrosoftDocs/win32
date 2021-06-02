@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadPatchPageException constructor"
 title: EsentBadPatchPageException constructor 
 TOCTitle: 'EsentBadPatchPageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadPatchPageException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadPatchPageException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentBadPatchPageException()
 
 #### Reference
 
-[EsentBadPatchPageException class](dn274093\(v=exchg.10\).md)
+[EsentBadPatchPageException class](./esentbadpatchpageexception-class.md)
 
-[EsentBadPatchPageException members](dn274039\(v=exchg.10\).md)
+[EsentBadPatchPageException members](./esentbadpatchpageexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

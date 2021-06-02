@@ -1,5 +1,5 @@
 ---
-Description: This class implements the IAMStreamControl interface for input and output pins.
+description: This class implements the IAMStreamControl interface for input and output pins.
 ms.assetid: a0ddc2d5-8385-4209-b1c5-9822c30f8a02
 title: CBaseStreamControl class (Strmctl.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ The `CBaseStreamControl` class uses the filter graph's reference clock to determ
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Strmctl.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

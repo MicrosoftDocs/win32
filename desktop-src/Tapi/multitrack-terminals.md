@@ -1,5 +1,5 @@
 ---
-Description: TAPI 3.1 introduces the notion of a multitrack terminal, a terminal that, in essence, is a collection of &\#0034;track&\#0034; terminals.
+description: TAPI 3.1 introduces the notion of a multitrack terminal, a terminal that, in essence, is a collection of &\#0034;track&\#0034; terminals.
 ms.assetid: '8dd6f792-a29e-40fd-9f5b-ee5525028c2e'
 title: Multitrack Terminals
 ms.topic: article

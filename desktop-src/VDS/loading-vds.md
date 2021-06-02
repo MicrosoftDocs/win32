@@ -1,5 +1,5 @@
 ---
-Description: Loading VDS
+description: Loading VDS
 ms.assetid: 6b75fdb2-3d4c-4419-96e8-8677439e366b
 title: Loading VDS
 ms.topic: article

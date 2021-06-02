@@ -1,5 +1,5 @@
 ---
-Description: Eastern Europe
+description: Eastern Europe
 ms.assetid: 0e2e81b3-52dc-451b-9734-464052128efe
 title: Eastern Europe
 ms.topic: article

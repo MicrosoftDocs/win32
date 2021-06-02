@@ -1,5 +1,5 @@
 ---
-Description: The Create method creates the thread.
+description: The Create method creates the thread.
 ms.assetid: 453972eb-7cf6-43c6-820e-c1992675260e
 title: CAMThread.Create method (Wxutil.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The method fails if the thread already exists.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

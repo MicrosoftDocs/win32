@@ -15,7 +15,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Registering Application Dependency
+# Registering Application Dependency (Windows Media Player SDK)
 
 Applications that use APIs provided by the Windows Media Player SDK or Windows Media Format SDK are dependent upon the runtime components of those technologies. You can register your application as being dependent on those components as part of your application setup.
 

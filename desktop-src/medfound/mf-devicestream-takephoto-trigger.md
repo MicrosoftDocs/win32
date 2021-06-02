@@ -1,5 +1,5 @@
 ---
-Description: Specifies if the take photo trigger is encapsulated into the device source.
+description: Specifies if the take photo trigger is encapsulated into the device source.
 ms.assetid: E20AB303-A8C6-4CD1-B3DC-3FE5C5D95678
 title: MF_DEVICESTREAM_TAKEPHOTO_TRIGGER attribute (Mfidl.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Set this attribute to non-zero to encapsulate the take photo trigger into the de
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

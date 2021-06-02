@@ -1,5 +1,5 @@
 ---
-Description: The GetPinVersion method retrieves a version number for the set of pins on this filter.
+description: The GetPinVersion method retrieves a version number for the set of pins on this filter.
 ms.assetid: 6cc186b2-4d9f-4d1c-a8b3-975e9c248df7
 title: CBaseFilter.GetPinVersion method (Amfilter.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ The pin enumerator object, which is implemented by the [**CEnumPins**](cenumpins
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

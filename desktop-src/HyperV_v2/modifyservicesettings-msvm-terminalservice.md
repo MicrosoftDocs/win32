@@ -1,5 +1,5 @@
 ---
-Description: Modifies the setting data for the service.
+description: ModifyServiceSettings method of the Msvm_TerminalService class - Modifies the setting data for the service.
 ms.assetid: 76669180-fa95-4d6e-b89a-53e45da664c4
 title: ModifyServiceSettings method of the Msvm_TerminalService class
 ms.topic: reference
@@ -98,7 +98,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

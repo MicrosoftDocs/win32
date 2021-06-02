@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCreateTableColumnIndex Function"
 title: JetCreateTableColumnIndex Function
 TOCTitle: JetCreateTableColumnIndex Function
 ms:assetid: 9192614b-20a6-40fb-906a-51fc057e7483
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetCreateTableColumnIndex Function
 
-The **JetCreateTableColumnIndex** function creates a table in an ESE database with an initial set of indexes and an initial set of columns from an array of [JET_TABLECREATE](gg294146\(v=exchg.10\).md) structures. The name **JetCreateTableColumnIndex** comes from the order of creation of the objects. It first creates a table, columns, and then finally indexes.
+The **JetCreateTableColumnIndex** function creates a table in an ESE database with an initial set of indexes and an initial set of columns from an array of [JET_TABLECREATE](./jet-tablecreate-structure.md) structures. The name **JetCreateTableColumnIndex** comes from the order of creation of the objects. It first creates a table, columns, and then finally indexes.
 
 ```cpp
     JET_ERR JET_API JetCreateTableColumnIndex(
@@ -51,11 +52,11 @@ The database identifier to use for the API call.
 
 *ptablecreate*
 
-A pointer to a [JET_TABLECREATE](gg294146\(v=exchg.10\).md) structure which defines the table to be created. See [JET_TABLECREATE](gg294146\(v=exchg.10\).md) for more details.
+A pointer to a [JET_TABLECREATE](./jet-tablecreate-structure.md) structure which defines the table to be created. See [JET_TABLECREATE](./jet-tablecreate-structure.md) for more details.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -217,7 +218,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-Calling **JetCreateTableColumnIndex** is identical to calling [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md), with each field in the [JET_TABLECREATE2](gg269203\(v=exchg.10\).md) structure containing the value of the corresponding field of [JET_TABLECREATE](gg294146\(v=exchg.10\).md), with the following exceptions:
+Calling **JetCreateTableColumnIndex** is identical to calling [JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md), with each field in the [JET_TABLECREATE2](./jet-tablecreate2-structure.md) structure containing the value of the corresponding field of [JET_TABLECREATE](./jet-tablecreate-structure.md), with the following exceptions:
 
   - JET_TABLECREATE2.cbStruct set to sizeof( JET_TABLECREATE2)
 
@@ -225,9 +226,9 @@ Calling **JetCreateTableColumnIndex** is identical to calling [JetCreateTableCol
 
   - JET_TABLECREATE2.cbtyp set to 0
 
-See [JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md) for more details.
+See [JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md) for more details.
 
-Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done using the returned *tableid*, it should usually be closed with [JetCloseTable](gg294087\(v=exchg.10\).md).
+Like [JetOpenTable](./jetopentable-function.md), when the application is done using the returned *tableid*, it should usually be closed with [JetCloseTable](./jetclosetable-function.md).
 
 #### Requirements
 
@@ -267,13 +268,12 @@ Like [JetOpenTable](gg294118\(v=exchg.10\).md), when the application is done usi
 
 #### See Also
 
-[JET_DBID](gg269248\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_TABLECREATE](gg294146\(v=exchg.10\).md)  
-[JET_TABLECREATE2](gg269203\(v=exchg.10\).md)  
-[JetAddColumn](gg294122\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)
-
+[JET_DBID](./jet-dbid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_TABLECREATE](./jet-tablecreate-structure.md)  
+[JET_TABLECREATE2](./jet-tablecreate2-structure.md)  
+[JetAddColumn](./jetaddcolumn-function.md)  
+[JetCreateTableColumnIndex]()  
+[JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md)

@@ -1,7 +1,7 @@
-- name: "HLSL"
+- name: "High-level shader language (HLSL)"
   href: dx-graphics-hlsl.md
   items: 
-  - name: "Programming Guide for HLSL"
+  - name: "Programming guide for HLSL"
     href: dx-graphics-hlsl-pguide.md
     items: 
     - name: "Using shader linking"
@@ -101,6 +101,8 @@
             href: dx-graphics-hlsl-struct.md
           - name: "User-Defined Type"
             href: dx-graphics-hlsl-user-defined.md
+          - name: "State Object Types"
+            href: dx-graphics-hlsl-state-object.md
       - name: "Flow Control"
         href: dx-graphics-hlsl-flow-control.md
         items: 

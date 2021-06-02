@@ -77,7 +77,7 @@ Note that this method can retrieve the value of the key, and as such encapsulate
 
 
 
-|                                     |                                                                                             |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                   |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                              |

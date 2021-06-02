@@ -1,5 +1,5 @@
 ---
-Description: The Algorithm property retrieves the OID object that identifies the algorithm used by the public key. This is the default property.
+description: The Algorithm property retrieves the OID object that identifies the algorithm used by the public key. This is the default property.
 ms.assetid: f804ac4b-6a33-4f25-950b-6b6838bcc638
 title: PublicKey.Algorithm property
 ms.topic: reference
@@ -38,7 +38,7 @@ The [**OID**](oid.md) object that identifies the algorithm used by the public ke
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

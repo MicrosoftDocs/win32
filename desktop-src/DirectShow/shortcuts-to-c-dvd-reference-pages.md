@@ -1,5 +1,5 @@
 ---
-Description: Shortcuts to C++ DVD Reference Pages
+description: Shortcuts to C++ DVD Reference Pages
 ms.assetid: b37337b7-b3be-4f49-b350-df5e3c88e3cf
 title: Shortcuts to C++ DVD Reference Pages
 ms.topic: article

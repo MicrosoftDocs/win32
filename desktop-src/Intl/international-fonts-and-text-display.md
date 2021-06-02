@@ -1,5 +1,5 @@
 ---
-Description: International Fonts and Text Display
+description: International Fonts and Text Display
 ms.assetid: 7f196462-53bd-43d7-9023-3b6e92fe350c
 title: International Fonts and Text Display
 ms.topic: article

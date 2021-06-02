@@ -1,5 +1,5 @@
 ---
-Description: The CThreadBase class exposes the following methods.
+description: The CThreadBase class exposes the following methods.
 ms.assetid: 94759702-D267-4BC4-80C5-13ABD2D1EFF2
 ms.tgt_platform: multiple
 title: CThreadBase Methods

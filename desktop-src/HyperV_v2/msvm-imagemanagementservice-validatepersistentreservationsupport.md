@@ -1,5 +1,5 @@
 ---
-Description: Validates whether a file system can support a virtual hard disk with persistent reservations enabled.
+description: Validates whether a file system can support a virtual hard disk with persistent reservations enabled.
 ms.assetid: c5fed9d5-0fa6-4b96-ae6e-84468b011e2a
 title: ValidatePersistentReservationSupport method of the Msvm_ImageManagementService class
 ms.topic: reference
@@ -101,7 +101,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

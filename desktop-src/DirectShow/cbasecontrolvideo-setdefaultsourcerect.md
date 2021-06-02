@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultSourceRect method sets the default source video rectangle (pure virtual). This in an internal member function that gets called when the source rectangle is reset.
+description: The SetDefaultSourceRect method sets the default source video rectangle (pure virtual). This in an internal member function that gets called when the source rectangle is reset.
 ms.assetid: d0dae0a9-8763-485e-b9d3-80076a3f2f35
 title: CBaseControlVideo.SetDefaultSourceRect method (Ctlutil.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

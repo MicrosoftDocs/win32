@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetMetadataQueryReader method.
+description: IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy function - Proxy function for the GetMetadataQueryReader method.
 ms.assetid: 2a3e0a59-3524-4da4-993a-607a3727faba
 title: IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

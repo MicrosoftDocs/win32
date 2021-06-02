@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Scanner class exposes the following methods.
+description: The CIM\_Scanner class exposes the following methods.
 ms.assetid: D3392BC3-6BE2-4698-9D47-33124A551EB7
 ms.tgt_platform: multiple
 title: CIM_Scanner Methods

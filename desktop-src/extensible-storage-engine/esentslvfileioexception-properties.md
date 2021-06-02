@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVFileIOException properties"
 title: EsentSLVFileIOException properties
 TOCTitle: EsentSLVFileIOException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVFileIOException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVFileIOException](dn350696\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVFileIOException](./esentslvfileioexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSLVFileIOException class](dn350696\(v=exchg.10\).md)
+[EsentSLVFileIOException class](./esentslvfileioexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

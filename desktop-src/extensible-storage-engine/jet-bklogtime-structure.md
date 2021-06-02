@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME Structure"
 title: JET_BKLOGTIME Structure
 TOCTitle: JET_BKLOGTIME Structure
 ms:assetid: 31460079-7c5b-4145-837d-b112ba0117d6
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_BKLOGTIME Structure
 
-The **JET_BKLOGTIME** structure holds the date and time elements of an event. It is an extension of [JET_LOGTIME](gg294089\(v=exchg.10\).md).
+The **JET_BKLOGTIME** structure holds the date and time elements of an event. It is an extension of [JET_LOGTIME](./jet-logtime-structure.md).
 
 **Windows Vista:  JET_BKLOGTIME** is introduced in Windows Vista.
 
@@ -157,6 +158,5 @@ This structure is used when debugging.
 
 ### See Also
 
-[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
-
+[JET_LOGTIME](./jet-logtime-structure.md)  
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

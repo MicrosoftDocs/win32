@@ -1,5 +1,5 @@
 ---
-Description: The put\_Name method sets the session name.
+description: The put\_Name method sets the session name.
 ms.assetid: aba05cdb-a870-490e-8bb0-98b11780b112
 title: ITSdp::put_Name method (Sdpblb.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ The application must use [**SysAllocString**](/windows/win32/api/oleauto/nf-olea
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Sdpblb.h</dt> </dl>   |

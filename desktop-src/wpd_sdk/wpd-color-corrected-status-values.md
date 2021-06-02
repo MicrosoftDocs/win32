@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_COLOR\_CORRECTED\_STATUS\_VALUES enumeration type describes the color correction status of an image or video file.
+description: The WPD\_COLOR\_CORRECTED\_STATUS\_VALUES enumeration type describes the color correction status of an image or video file.
 ms.assetid: af129a1b-7760-4339-adf7-3f3c17cebde2
 title: WPD_COLOR_CORRECTED_STATUS_VALUES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ Indicates the color corrected status of an image. This enumeration is used by th
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

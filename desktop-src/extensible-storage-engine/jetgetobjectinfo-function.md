@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetObjectInfo Function"
 title: JetGetObjectInfo Function
 TOCTitle: JetGetObjectInfo Function
 ms:assetid: 3e069c61-6dab-4b79-8bf2-7844d017598f
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetObjectInfo Function
 
-The **JetGetObjectInfo** function retrieves information about database objects. Currently, only tables are supported. [JetGetTableInfo](gg269177\(v=exchg.10\).md) can be used to fetch more information than **JetGetObjectInfo**.
+The **JetGetObjectInfo** function retrieves information about database objects. Currently, only tables are supported. [JetGetTableInfo](./jetgettableinfo-function.md) can be used to fetch more information than **JetGetObjectInfo**.
 
 ```cpp
     JET_ERR JET_API JetGetObjectInfo(
@@ -144,7 +145,7 @@ The following options are available to set for this parameter.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -180,7 +181,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-If **JetGetObjectInfo** successfully creates a temporary table (for example, JET_ObjInfoList or JET_ObjInfoNoStats), the caller is responsible for closing the temporary table with [JetCloseTable](gg294087\(v=exchg.10\).md).
+If **JetGetObjectInfo** successfully creates a temporary table (for example, JET_ObjInfoList or JET_ObjInfoNoStats), the caller is responsible for closing the temporary table with [JetCloseTable](./jetclosetable-function.md).
 
 **JetGetObjectInfo** currently only supports retrieving information about tables.
 
@@ -222,13 +223,12 @@ If **JetGetObjectInfo** successfully creates a temporary table (for example, JET
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_OBJTYP](gg269312\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET_OBJECTLIST](gg269348\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetGetTableInfo](gg269177\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_OBJTYP](./jet-objtyp.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_OBJECTINFO](./jet-objectinfo-structure.md)  
+[JET_OBJECTLIST](./jet-objectlist-structure.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetGetTableInfo](./jetgettableinfo-function.md)

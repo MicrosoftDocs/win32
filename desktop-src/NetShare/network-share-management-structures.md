@@ -1,5 +1,5 @@
 ---
-Description: The Network Share Management structures can be grouped as follows.
+description: The Network Share Management structures can be grouped as follows.
 ms.assetid: 15b004de-1e8a-4bea-8e3d-28885f321126
 title: Network Share Management Structures
 ms.topic: article

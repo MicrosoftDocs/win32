@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenDatabase Function"
 title: JetOpenDatabase Function
 TOCTitle: JetOpenDatabase Function
 ms:assetid: 7764f0c2-6795-4b93-be3d-f6830cdce369
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetOpenDatabase Function
 
-The **JetOpenDatabase** function opens a previously attached database, using the [JetAttachDatabase](gg294074\(v=exchg.10\).md) or [JetAttachDatabase2](gg269322\(v=exchg.10\).md) functions, for use with a database session. This function can be called multiple times for the same database.
+The **JetOpenDatabase** function opens a previously attached database, using the [JetAttachDatabase](./jetattachdatabase-function.md) or [JetAttachDatabase2](./jetattachdatabase2-function.md) functions, for use with a database session. This function can be called multiple times for the same database.
 
 ```cpp
     JET_ERR JET_API JetOpenDatabase(
@@ -89,7 +90,7 @@ A group of bits that specify zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -177,12 +178,11 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetAttachDatabase2](gg269322\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetAttachDatabase2](./jetattachdatabase2-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

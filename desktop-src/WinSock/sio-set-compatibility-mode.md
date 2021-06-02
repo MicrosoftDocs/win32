@@ -1,5 +1,5 @@
 ---
-Description: Requests how the networking stack should handle certain behaviors for which the default way of handling the behavior may differ across Windows versions.
+description: Requests how the networking stack should handle certain behaviors for which the default way of handling the behavior may differ across Windows versions.
 ms.assetid: 9574e21f-5ac4-4210-8031-2f3b07416813
 title: SIO_SET_COMPATIBILITY_MODE Control Code
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The MsiConfigureServices action configures a service for the system. This action queries the MsiServiceConfig and the MsiServiceConfigFailureActions tables.
+description: The MsiConfigureServices action configures a service for the system. This action queries the MsiServiceConfig and the MsiServiceConfigFailureActions tables.
 ms.assetid: 63bd4690-0649-4e23-a8cd-527b3c517dae
 title: MsiConfigureServices Action
 ms.topic: article

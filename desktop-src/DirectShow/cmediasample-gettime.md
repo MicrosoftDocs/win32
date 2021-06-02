@@ -1,5 +1,5 @@
 ---
-Description: The GetTime method retrieves the stream times at which this sample should begin and finish. This method implements the IMediaSample::GetTime method.
+description: The GetTime method retrieves the stream times at which this sample should begin and finish. This method implements the IMediaSample::GetTime method.
 ms.assetid: ddb0df1c-707d-405d-9e73-0d5a59f487b6
 title: CMediaSample.GetTime method (Amfilter.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ For information about time stamps, see [Time and Clocks in DirectShow](time-and-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

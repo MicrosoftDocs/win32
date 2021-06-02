@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTemplateTableException properties"
 title: EsentCannotDeleteTemplateTableException properties
 TOCTitle: EsentCannotDeleteTemplateTableException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCannotDeleteTemplateTableException](dn274084\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotDeleteTemplateTableException](./esentcannotdeletetemplatetableexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentCannotDeleteTemplateTableException class](dn274084\(v=exchg.10\).md)
+[EsentCannotDeleteTemplateTableException class](./esentcannotdeletetemplatetableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

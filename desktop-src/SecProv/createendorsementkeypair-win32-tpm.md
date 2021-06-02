@@ -1,5 +1,5 @@
 ---
-Description: Creates an 2048-bit endorsement key pair on the TPM.
+description: Creates an 2048-bit endorsement key pair on the TPM.
 ms.assetid: 393f0264-d1e9-4a08-bdaa-475b32d93e05
 title: CreateEndorsementKeyPair method of the Win32_Tpm class
 ms.topic: reference
@@ -59,7 +59,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                      |

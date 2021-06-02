@@ -1,5 +1,5 @@
 ---
-Description: Raised by a stream sink to request a new media sample from the pipeline.
+description: Raised by a stream sink to request a new media sample from the pipeline.
 ms.assetid: 35020a15-942f-4dd0-9ca4-815affdacecf
 title: MEStreamSinkRequestSample event (Mfobjects.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/ap
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

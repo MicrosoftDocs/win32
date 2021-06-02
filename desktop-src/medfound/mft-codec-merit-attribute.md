@@ -1,5 +1,5 @@
 ---
-Description: Contains the merit value of a hardware codec.
+description: Contains the merit value of a hardware codec.
 ms.assetid: 1df40a42-4c02-473f-a87f-2ae2d42e4f4e
 title: MFT_CODEC_MERIT_Attribute attribute (Mftransform.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                           |

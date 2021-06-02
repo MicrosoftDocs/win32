@@ -1,5 +1,5 @@
 ---
-Description: The SelectAndActivateButton method selects and activates the specified button.
+description: The SelectAndActivateButton method selects and activates the specified button.
 ms.assetid: fa6239ea-0478-41f1-9515-d67a7fad11db
 title: SelectAndActivateButton Method
 ms.topic: reference

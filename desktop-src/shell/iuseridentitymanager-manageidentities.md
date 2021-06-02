@@ -1,5 +1,5 @@
 ---
-Description: IUserIdentityManager::ManageIdentities is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
+description: IUserIdentityManager::ManageIdentities is not supported and may be altered or unavailable in the future. Instead, use User Accounts with Fast User Switching and Remote Desktop.
 ms.assetid: 9a5a85bd-d007-4247-859b-e402ed290785
 title: IUserIdentityManager::ManageIdentities method (Msident.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The result of the management operation. If successful, it returns S\_OK. Otherwi
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

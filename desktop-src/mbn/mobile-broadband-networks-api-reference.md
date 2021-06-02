@@ -1,5 +1,5 @@
 ---
-Description: This section contains the reference material on using the Mobile Broadband client programming interface.
+description: This section contains the reference material on using the Mobile Broadband client programming interface.
 ms.assetid: fae22b08-a63d-4a28-9cdd-ab9135d6e07a
 title: Mobile Broadband API Reference
 ms.topic: reference

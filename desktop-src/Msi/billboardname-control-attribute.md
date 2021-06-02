@@ -1,5 +1,5 @@
 ---
-Description: This attribute returns the name of the currently running billboard, or sets and displays a billboard by name. This attribute is used in preview mode.
+description: This attribute returns the name of the currently running billboard, or sets and displays a billboard by name. This attribute is used in preview mode.
 ms.assetid: 7ef7bc0f-ee4c-4a97-bea8-dd16a2cf28bc
 title: BillboardName Control Attribute
 ms.topic: article

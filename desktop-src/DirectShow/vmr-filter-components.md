@@ -1,5 +1,5 @@
 ---
-Description: VMR Filter Components
+description: VMR Filter Components
 ms.assetid: 86fd8d6f-a742-457d-bb30-d04542431a0a
 title: VMR Filter Components
 ms.topic: article

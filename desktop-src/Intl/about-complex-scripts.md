@@ -1,5 +1,5 @@
 ---
-Description: A complex script is a script for which the fComplex member of SCRIPT\_PROPERTIES is set to TRUE. This topic details the properties that a complex script might have.
+description: A complex script is a script for which the fComplex member of SCRIPT\_PROPERTIES is set to TRUE. This topic details the properties that a complex script might have.
 ms.assetid: bceeb0d6-bda3-43bf-984e-87fbfb327578
 title: About Complex Scripts
 ms.topic: article

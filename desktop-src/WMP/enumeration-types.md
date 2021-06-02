@@ -16,7 +16,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumeration Types
+# Windows Media Player SDK Enumeration Types
 
 The Windows Media Player SDK supports the following enumeration types.
 

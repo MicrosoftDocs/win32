@@ -1,5 +1,5 @@
 ---
-Description: The SetReconnectWhenActive method specifies whether the pin supports dynamic reconnections.
+description: The SetReconnectWhenActive method specifies whether the pin supports dynamic reconnections.
 ms.assetid: 64776008-5d1b-461c-a446-8cd6124276c0
 title: CBasePin.SetReconnectWhenActive method (Amfilter.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ By default, you must stop a filter before reconnecting any of its pins. If the p
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

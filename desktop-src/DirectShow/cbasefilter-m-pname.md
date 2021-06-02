@@ -1,5 +1,5 @@
 ---
-Description: Filter name.
+description: Filter name.
 ms.assetid: 50762bce-a78c-4009-8552-94b2849c2b24
 title: CBaseFilter::m_pName member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ WCHAR *m_pName;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

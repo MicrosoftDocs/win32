@@ -1,5 +1,5 @@
 ---
-Description: Used to determine whether to show the Share this folder option in web view.
+description: Used to determine whether to show the Share this folder option in web view.
 title: CanShareFolderW function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Ntshrui.dll
 ms.assetid: 5fd28a14-53e7-4016-9c49-9bb14ce7808b
-api_name: 
- - CanShareFolderW
- - CanShareFolderW
-api_type: 
- - DllExport
-api_location: 
- - Ntshrui.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -83,7 +73,7 @@ This function has no associated .lib file. You must use [**LoadLibrary**](/windo
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

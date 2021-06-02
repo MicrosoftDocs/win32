@@ -1,5 +1,5 @@
 ---
-Description: A state block can be used to capture only pixel state (see State Blocks Save and Restore State (Direct3D 9)).
+description: A state block can be used to capture only pixel state (see State Blocks Save and Restore State (Direct3D 9)).
 ms.assetid: 30624c0a-e30f-4383-bc0c-b43f42403e72
 title: Saving Pixel State With a StateBlock (Direct3D 9)
 ms.topic: article

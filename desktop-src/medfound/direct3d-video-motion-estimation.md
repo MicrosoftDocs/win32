@@ -1,5 +1,5 @@
 ---
-Description: This article contains guidance for motion vector estimation with Direct3D 12 video APIs.
+description: This article contains guidance for motion vector estimation with Direct3D 12 video APIs.
 ms.assetid: 
 title: Direct3D video motion estimation
 ms.topic: article
@@ -138,15 +138,5 @@ Use [ID3D12VideoMotionEstimator::GetProtectedResourceSession](/windows/win32/api
 
 ## Related topics
 
-<dl> <dt>
-[Direct3D 12 Video APIs](direct3d-12-video-apis.md)
-[Media Foundation Programming Guide](media-foundation-programming-guide.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Direct3D 12 Video APIs](direct3d-12-video-apis.md)
+* [Media Foundation Programming Guide](media-foundation-programming-guide.md)

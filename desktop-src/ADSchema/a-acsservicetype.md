@@ -22,7 +22,7 @@ The ACS service type. Controlled load or guaranteed bandwidth.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ACS-Service-Type                     |
 | Ldap-Display-Name | aCSServiceType                       |
@@ -48,7 +48,7 @@ The ACS service type. Controlled load or guaranteed bandwidth.
 
 
 
-|                        |                                                                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
@@ -69,7 +69,7 @@ The ACS service type. Controlled load or guaranteed bandwidth.
 
 
 
-|                        |                                                                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
@@ -90,7 +90,7 @@ The ACS service type. Controlled load or guaranteed bandwidth.
 
 
 
-|                        |                                                                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
@@ -111,7 +111,7 @@ The ACS service type. Controlled load or guaranteed bandwidth.
 
 
 
-|                        |                                                                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
@@ -132,7 +132,7 @@ The ACS service type. Controlled load or guaranteed bandwidth.
 
 
 
-|                        |                                                                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
@@ -153,7 +153,7 @@ The ACS service type. Controlled load or guaranteed bandwidth.
 
 
 
-|                        |                                                                                                            |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |

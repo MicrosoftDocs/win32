@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenDatabasesException constructor"
 title: EsentTooManyOpenDatabasesException constructor 
 TOCTitle: 'EsentTooManyOpenDatabasesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenDatabasesException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyOpenDatabasesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTooManyOpenDatabasesException()
 
 #### Reference
 
-[EsentTooManyOpenDatabasesException class](dn350781\(v=exchg.10\).md)
+[EsentTooManyOpenDatabasesException class](./esenttoomanyopendatabasesexception-class.md)
 
-[EsentTooManyOpenDatabasesException members](dn335016\(v=exchg.10\).md)
+[EsentTooManyOpenDatabasesException members](./esenttoomanyopendatabasesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

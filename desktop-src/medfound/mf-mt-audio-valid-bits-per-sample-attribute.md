@@ -1,5 +1,5 @@
 ---
-Description: Number of valid bits of audio data in each audio sample.
+description: Number of valid bits of audio data in each audio sample.
 ms.assetid: b5b97700-c98a-4394-a184-661852add0b4
 title: MF_MT_AUDIO_VALID_BITS_PER_SAMPLE attribute (Mfapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

@@ -1,5 +1,5 @@
 ---
-Description: You can perform either synchronous or asynchronous (also called overlapped) I/O operations on files, named pipes, and serial communications devices.
+description: You can perform either synchronous or asynchronous (also called overlapped) I/O operations on files, named pipes, and serial communications devices.
 ms.assetid: db44990e-5a0f-4153-8ff6-79dd7cda48af
 title: Synchronization and Overlapped Input and Output
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A callback function that must be implemented by a user to set material state.
+description: A callback function that must be implemented by a user to set material state.
 ms.assetid: 4c5e903f-551b-4346-a5eb-301a3a5b9b44
 title: ID3DXEffectStateManager::SetMaterial method (D3DX9Effect.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The user-implemented method should return S\_OK. If the callback fails when sett
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

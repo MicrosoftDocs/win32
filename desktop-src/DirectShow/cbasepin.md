@@ -1,5 +1,5 @@
 ---
-Description: The CBasePin class is an abstract class that implements a generic pin.
+description: The CBasePin class is an abstract class that implements a generic pin.
 ms.assetid: 23b9a0e2-24fe-4ff9-b2bb-97630c237de9
 title: CBasePin class (Amfilter.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ The following topics describe how to use this class:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

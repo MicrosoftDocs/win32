@@ -1,5 +1,5 @@
 ---
-Description: The optional <description> element specifies a description for this search connector. This element has no child elements and no attributes.
+description: The optional <description> element specifies a description for this search connector. This element has no child elements and no attributes.
 ms.assetid: 0e9d806c-7dfd-4e7f-8843-15a4e22f317f
 title: description Element (Search Connector Schema)
 ms.topic: article

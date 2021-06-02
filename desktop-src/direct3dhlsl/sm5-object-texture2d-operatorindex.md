@@ -1,6 +1,6 @@
 ---
 title: Texture2D::Operator  function
-description: Returns a read-only resource variable.
+description: Returns a read-only resource variable. | Texture2D::Operator  function
 ms.assetid: 72ba3fc8-04c3-479a-b307-525020898bac
 keywords:
 - Operator function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# Texture2D::Operator  function
 
 Returns a read-only resource variable.
 

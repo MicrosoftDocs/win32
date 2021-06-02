@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotBeTaggedException members"
 title: EsentCannotBeTaggedException members
 TOCTitle: EsentCannotBeTaggedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotBeTaggedException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CannotBeTagged exceptions.
 
-The [EsentCannotBeTaggedException](dn274074\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotBeTaggedException](./esentcannotbetaggedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCannotBeTaggedException class](dn274074\(v=exchg.10\).md)
+[EsentCannotBeTaggedException class](./esentcannotbetaggedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

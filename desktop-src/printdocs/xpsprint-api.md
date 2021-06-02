@@ -1,5 +1,5 @@
 ---
-Description: Prints XPS documents from Windows-based applications.
+description: Prints XPS documents from Windows-based applications.
 ms.assetid: '456d7fd1-8d67-480c-b953-59d0268f9656'
 title: XPS Print API Reference
 ms.topic: article
@@ -29,7 +29,7 @@ Prints XPS documents from Windows-based applications.
 [Documents](./jobbindalldocuments.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_LoadOrderGroupServiceDependencies association WMI class relates a base service and a load order group that the service depends on to start running.
+description: The Win32\_LoadOrderGroupServiceDependencies association WMI class relates a base service and a load order group that the service depends on to start running.
 ms.assetid: 56739b80-9028-4a2e-85ed-973a078860c1
 ms.tgt_platform: multiple
 title: Win32_LoadOrderGroupServiceDependencies class
@@ -87,7 +87,7 @@ The **Win32\_LoadOrderGroupServiceDependencies** class is derived from [**CIM\_D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

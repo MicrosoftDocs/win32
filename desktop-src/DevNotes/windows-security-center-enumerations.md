@@ -1,5 +1,5 @@
 ---
-Description: The following enumerations are used with Windows Security Center.
+description: The following enumerations are used with Windows Security Center.
 ms.assetid: C5559B22-517B-4FF6-B586-003C1586049D
 title: Windows Security Center Enumerations
 ms.topic: article

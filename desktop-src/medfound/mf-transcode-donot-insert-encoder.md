@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether an encoder must be included in the transcode topology.
+description: Specifies whether an encoder must be included in the transcode topology.
 ms.assetid: 73f23aed-d1b9-4821-b1ca-0a07f02b6913
 title: MF_TRANSCODE_DONOT_INSERT_ENCODER attribute (Mfidl.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

@@ -1,5 +1,5 @@
 ---
-Description: Performing this step enables either process access checks or full role-based security, depending on what security level you select and whether you enable access checking for individual components.
+description: Performing this step enables either process access checks or full role-based security, depending on what security level you select and whether you enable access checking for individual components.
 ms.assetid: 266bdac1-41be-45a5-a8c7-f9c6fe08445c
 title: Enabling Access Checks for an Application
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_UninterruptiblePowerSupply class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_UninterruptiblePowerSupply class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 305987cb-930a-4b60-86f3-f94927fb59c4
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_UninterruptiblePowerSupply class
@@ -111,7 +111,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

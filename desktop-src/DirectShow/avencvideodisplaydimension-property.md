@@ -1,5 +1,5 @@
 ---
-Description: Specifies the size of the video stream when it is decoded.
+description: Specifies the size of the video stream when it is decoded.
 ms.assetid: db7b101a-5ff8-4a62-b9e2-d05fcdc44b3d
 title: AVEncVideoDisplayDimension property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The upper 16 bits of the value contain the width, in pixels. The lower 16 bits c
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

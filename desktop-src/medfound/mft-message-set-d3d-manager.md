@@ -1,5 +1,5 @@
 ---
-Description: Sets or clears the Direct3D Device Manager for DirectX Video Accereration (DXVA).
+description: Sets or clears the Direct3D Device Manager for DirectX Video Accereration (DXVA).
 ms.assetid: fd346d56-1f80-488a-94c8-4e4e36d72890
 title: MFT_MESSAGE_SET_D3D_MANAGER (Mftransform.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ For more information, see [Direct3D-Aware MFTs](direct3d-aware-mfts.md).
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

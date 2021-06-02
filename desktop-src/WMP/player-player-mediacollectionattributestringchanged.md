@@ -1,6 +1,6 @@
 ---
 title: Player.MediaCollectionAttributeStringChanged event
-description: The MediaCollectionAttributeStringChanged event occurs when an attribute value in the library is changed.
+description: The MediaCollectionAttributeStringChanged event occurs when an attribute value in the library is changed. | Player.MediaCollectionAttributeStringChanged event
 ms.assetid: 9bc81cf2-50a9-41cf-8eff-25c9395dfdac
 keywords:
 - MediaCollectionAttributeStringChanged event Windows Media Player
@@ -76,7 +76,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

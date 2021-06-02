@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDeleteColumn Function"
 title: JetDeleteColumn Function
 TOCTitle: JetDeleteColumn Function
 ms:assetid: b2f4be8c-7ea9-4f66-925b-4e9c14d9d475
@@ -31,11 +32,13 @@ _**Applies to:** Windows | Windows Server_
 
 The **JetDeleteColumn** function deletes a column from an ESE database table.
 
-    JET_ERR JET_API JetDeleteColumn(
-      __in          JET_SESID sesid,
-      __in          JET_TABLEID tableid,
-      __in          const tchar* szColumnName
-    );
+```cpp
+JET_ERR JET_API JetDeleteColumn(
+  __in          JET_SESID sesid,
+  __in          JET_TABLEID tableid,
+  __in          const tchar* szColumnName
+);
+```
 
 ### Parameters
 
@@ -53,7 +56,7 @@ The name of the column to be deleted.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -101,7 +104,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-Calling **JetDeleteColumn** is identical to calling [JetDeleteColumn2](gg269320\(v=exchg.10\).md) with *grbit* set to zero (0).
+Calling **JetDeleteColumn** is identical to calling [JetDeleteColumn2](./jetdeletecolumn2-function.md) with *grbit* set to zero (0).
 
 #### Requirements
 
@@ -141,9 +144,8 @@ Calling **JetDeleteColumn** is identical to calling [JetDeleteColumn2](gg269320\
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetDeleteColumn2](gg269320\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetDeleteColumn2](./jetdeletecolumn2-function.md)

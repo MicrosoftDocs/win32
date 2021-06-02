@@ -1,5 +1,5 @@
 ---
-Description: The ZeroBetween2 method removes everything from the track between the specified times. This method is equivalent to IAMTimelineTrack::ZeroBetween, but takes REFTIME values.
+description: The ZeroBetween2 method removes everything from the track between the specified times. This method is equivalent to IAMTimelineTrack::ZeroBetween, but takes REFTIME values.
 ms.assetid: 56b9be30-cc3f-4843-bf35-910498242d71
 title: IAMTimelineTrack::ZeroBetween2 method (Qedit.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

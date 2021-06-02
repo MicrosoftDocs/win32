@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.cbKeyMost property"
 title: JET_INDEXCREATE.cbKeyMost property 
 TOCTitle: 'cbKeyMost property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.cbKeyMost
@@ -30,9 +31,9 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_INDEXCREATE.cbKeyMost property
 
-Gets or sets the maximum allowable size, in bytes, for keys in the index. The minimum supported maximum key size is JET_cbKeyMostMin (255) which is the legacy maximum key size. The maximum key size is dependent on the database page size [DatabasePageSize](hh596135\(v=exchg.10\).md). The maximum key size can be retrieved with [KeyMost](dn351156\(v=exchg.10\).md). This parameter is ignored on Windows XP and Windows Server 2003. Unlike the unmanaged API, **IndexKeyMost()** (JET_bitIndexKeyMost) is not needed, it will be added automatically.
+Gets or sets the maximum allowable size, in bytes, for keys in the index. The minimum supported maximum key size is JET_cbKeyMostMin (255) which is the legacy maximum key size. The maximum key size is dependent on the database page size [DatabasePageSize](./jet-param-enumeration.md). The maximum key size can be retrieved with [KeyMost](./systemparameters.keymost-property.md). This parameter is ignored on Windows XP and Windows Server 2003. Unlike the unmanaged API, **IndexKeyMost()** (JET_bitIndexKeyMost) is not needed, it will be added automatically.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,8 +64,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](./jet-indexcreate-class.md)
 
-[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](./jet-indexcreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

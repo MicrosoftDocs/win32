@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResourceException methods"
 title: EsentResourceException methods
 TOCTitle: EsentResourceException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentResourceException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentResourceException](dn350557\(v=exchg.10\).md) type exposes the following members.
+The [EsentResourceException](./esentresourceexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentResourceException class](dn350557\(v=exchg.10\).md)
+[EsentResourceException class](./esentresourceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

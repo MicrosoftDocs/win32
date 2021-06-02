@@ -1,5 +1,5 @@
 ---
-Description: The IWiaItem2::EnumRegisterEventInfo method creates an enumerator that you can use to obtain information about events for which an application is registered.
+description: The IWiaItem2::EnumRegisterEventInfo method creates an enumerator that you can use to obtain information about events for which an application is registered.
 ms.assetid: 9c25e9ae-bd3e-46a6-b4c2-c0bbcd265d51
 title: IWiaItem2::EnumRegisterEventInfo method (Wia.h)
 ms.topic: reference
@@ -79,7 +79,7 @@ Applications must call the [IUnknown::Release](/windows/win32/api/unknwn/nf-unkn
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |

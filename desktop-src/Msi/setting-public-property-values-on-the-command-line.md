@@ -1,5 +1,5 @@
 ---
-Description: To set a public property to a literal string value, include the string between quotation marks.
+description: To set a public property to a literal string value, include the string between quotation marks.
 ms.assetid: ec2626fa-a3be-45e5-a566-658206d3d0bb
 title: Setting Public Property Values on the Command Line
 ms.topic: article

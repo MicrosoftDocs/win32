@@ -1,5 +1,5 @@
 ---
-Description: Sent when current Video Title Set (VTS) changes.
+description: Sent when current Video Title Set (VTS) changes.
 ms.assetid: 7b8849c8-c71e-44d6-b33a-8e80247bdb22
 title: EC_DVD_TITLE_SET_CHANGE (Dvdevcode.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ This event is disabled by default. To enable this event, call [**IDvdControl2::S
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

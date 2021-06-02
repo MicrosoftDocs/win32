@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVSpaceCorruptedException methods"
 title: EsentSLVSpaceCorruptedException methods
 TOCTitle: EsentSLVSpaceCorruptedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVSpaceCorruptedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVSpaceCorruptedException](dn350755\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVSpaceCorruptedException](./esentslvspacecorruptedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVSpaceCorruptedException class](dn350755\(v=exchg.10\).md)
+[EsentSLVSpaceCorruptedException class](./esentslvspacecorruptedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

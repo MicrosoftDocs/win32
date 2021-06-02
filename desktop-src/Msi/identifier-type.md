@@ -1,5 +1,5 @@
 ---
-Description: The Identifier Type of semantic type is one of the Text Format Types.
+description: The Identifier Type of semantic type is one of the Text Format Types.
 ms.assetid: 137c3ad8-e47c-4cc5-b5c5-ea130236551a
 title: Identifier Type
 ms.topic: article

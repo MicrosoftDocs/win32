@@ -1,5 +1,5 @@
 ---
-Description: The following table defines the available code page identifiers.
+description: The following table defines the available code page identifiers.
 ms.assetid: 5d6fc86a-f205-4d14-bb7c-ecd71682e0fe
 title: Code Page Identifiers
 ms.topic: article
@@ -42,7 +42,7 @@ The following table defines the available code page identifiers.
 | 866        | cp866                   | OEM Russian; Cyrillic (DOS)                                                                         |
 | 869        | ibm869                  | OEM Modern Greek; Greek, Modern (DOS)                                                               |
 | 870        | IBM870                  | IBM EBCDIC Multilingual/ROECE (Latin 2); IBM EBCDIC Multilingual Latin 2                            |
-| 874        | windows-874             | ANSI/OEM Thai (ISO 8859-11); Thai (Windows)                                                         |
+| 874        | windows-874             | Thai (Windows)                                                         |
 | 875        | cp875                   | IBM EBCDIC Greek Modern                                                                             |
 | 932        | shift\_jis              | ANSI/OEM Japanese; Japanese (Shift-JIS)                                                             |
 | 936        | gb2312                  | ANSI/OEM Simplified Chinese (PRC, Singapore); Chinese Simplified (GB2312)                           |

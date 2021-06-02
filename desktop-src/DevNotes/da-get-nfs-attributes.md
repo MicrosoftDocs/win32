@@ -1,5 +1,5 @@
 ---
-Description: The DA\_GET\_NFS\_ATTRIBUTES control code queries additional information about an NFS share.
+description: The DA\_GET\_NFS\_ATTRIBUTES control code queries additional information about an NFS share.
 ms.assetid: BC9E0E19-7D78-4AE7-A3E6-9FD9212B2B83
 title: DA_GET_NFS_ATTRIBUTES control code
 ms.topic: reference
@@ -336,7 +336,7 @@ Specifies whether the connection on which the handle to the NFS share was create
 
 
 
-|                                     |                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------|
 | Minimum supported client<br/> | None supported<br/>         |
 | Minimum supported server<br/> | Windows Server 2008<br/>    |

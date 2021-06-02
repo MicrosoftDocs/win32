@@ -1,5 +1,5 @@
 ---
-Description: Alpha can also be supplied in a material. To enable material alpha, set the diffuse material render state so that the runtime will use the material diffuse color components rather than the vertex diffuse color components.
+description: Alpha can also be supplied in a material. To enable material alpha, set the diffuse material render state so that the runtime will use the material diffuse color components rather than the vertex diffuse color components.
 ms.assetid: fd477d8f-d838-4a08-a8c6-38678798e0b0
 title: Material Alpha (Direct3D 9)
 ms.topic: article

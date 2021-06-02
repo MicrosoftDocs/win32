@@ -21,7 +21,7 @@ The distinguished name for the member of a group. Used by groupOfUniqueNames.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | uniqueMember                            |
 | Ldap-Display-Name | uniqueMember                            |
@@ -46,7 +46,7 @@ The distinguished name for the member of a group. Used by groupOfUniqueNames.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -67,7 +67,7 @@ The distinguished name for the member of a group. Used by groupOfUniqueNames.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -88,7 +88,7 @@ The distinguished name for the member of a group. Used by groupOfUniqueNames.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -109,7 +109,7 @@ The distinguished name for the member of a group. Used by groupOfUniqueNames.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |
@@ -130,7 +130,7 @@ The distinguished name for the member of a group. Used by groupOfUniqueNames.
 
 
 
-|                        |                                                               |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------|
 | Link-Id                | \-                                                            |
 | MAPI-Id                | \-                                                            |

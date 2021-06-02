@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Glossary
+# Glossary (RRAS)
 
 This glossary contains definitions for terms used in the documentation of the Routing and Remote Access Services (RRAS).
 

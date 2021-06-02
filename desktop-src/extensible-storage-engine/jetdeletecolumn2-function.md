@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDeleteColumn2 Function"
 title: JetDeleteColumn2 Function
 TOCTitle: JetDeleteColumn2 Function
 ms:assetid: 840b5acd-8bbf-4524-9741-5d74e3427329
@@ -82,7 +83,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -130,7 +131,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-Calling [JetDeleteColumn](gg294062\(v=exchg.10\).md) is identical to calling **JetDeleteColumn2** with *grbit* set to zero (0).
+Calling [JetDeleteColumn](./jetdeletecolumn-function.md) is identical to calling **JetDeleteColumn2** with *grbit* set to zero (0).
 
 #### Requirements
 
@@ -170,9 +171,8 @@ Calling [JetDeleteColumn](gg294062\(v=exchg.10\).md) is identical to calling **J
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetDeleteColumn](gg294062\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetDeleteColumn](./jetdeletecolumn-function.md)

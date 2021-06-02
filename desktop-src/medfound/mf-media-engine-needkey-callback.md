@@ -1,5 +1,5 @@
 ---
-Description: Attribute which is passed in the IMFMediaEngineNeedKeyNotify to the media engine on creation.
+description: Attribute which is passed in the IMFMediaEngineNeedKeyNotify to the media engine on creation.
 ms.assetid: B9625B3C-00AC-4F46-BD76-5C77822F5829
 title: MF_MEDIA_ENGINE_NEEDKEY_CALLBACK attribute
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this attribute is a pointer to the [**IMFMediaEngineNeedKeyNotify**
 
 
 
-|                                     |                                                                                              |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                      |

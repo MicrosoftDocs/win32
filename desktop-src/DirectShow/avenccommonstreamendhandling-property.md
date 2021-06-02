@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder discards partial groups of pictures (GOPs) at the end of the stream.
+description: Specifies whether the encoder discards partial groups of pictures (GOPs) at the end of the stream.
 ms.assetid: 93cf1299-a8ba-4a14-ad4c-09dd931e18fc
 title: AVEncCommonStreamEndHandling property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncCommonStreamEndHandling**
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: Your Unicode applications should always cast zero to TCHAR when using null-terminated strings.
+description: Your Unicode applications should always cast zero to TCHAR when using null-terminated strings.
 ms.assetid: 43bbf0ab-9b69-4f7d-acda-d0f8b6caf4b5
 title: Using Null-terminated Strings
 ms.topic: article

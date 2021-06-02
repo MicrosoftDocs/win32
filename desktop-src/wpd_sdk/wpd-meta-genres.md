@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_META\_GENRES enumeration type describes a broad genre type of a media file.
+description: The WPD\_META\_GENRES enumeration type describes a broad genre type of a media file.
 ms.assetid: a69cab70-5a45-4e75-abbd-230396c2b5ec
 title: WPD_META_GENRES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -193,7 +193,7 @@ This enumeration is used by the [WPD\_MEDIA\_META\_GENRE](media-properties.md) p
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The PlayChapterInTitle method plays the specified chapter in the specified title.
+description: The PlayChapterInTitle method plays the specified chapter in the specified title.
 ms.assetid: 784b0612-133b-465c-b1da-d9dac26e1b20
 title: PlayChapterInTitle Method
 ms.topic: reference

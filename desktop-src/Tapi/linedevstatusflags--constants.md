@@ -1,5 +1,5 @@
 ---
-Description: The LINEDEVSTATUSFLAGS\_ bit-flag constants describe a collection of Boolean line device status items.
+description: The LINEDEVSTATUSFLAGS\_ bit-flag constants describe a collection of Boolean line device status items.
 ms.assetid: 5fa754d3-07b2-4b75-91ef-1bf961d9fef4
 title: LINEDEVSTATUSFLAGS_ Constants (Tapi.h)
 ms.topic: reference
@@ -62,7 +62,7 @@ LINEDEVSTATUSFLAGS\_ constants are used within the **dwDevStatusFlags** member o
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

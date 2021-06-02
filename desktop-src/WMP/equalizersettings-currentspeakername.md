@@ -42,7 +42,7 @@ This attribute is a read-only **String** containing one of the following values.
 
 
 
-|                    |                                                   |
+| Requirement | Value |
 |--------------------|---------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later<br/> |
 

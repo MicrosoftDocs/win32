@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO.flags property"
 title: JET_OBJECTINFO.flags property 
 TOCTitle: 'flags property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_OBJECTINFO.flags
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the table type flags.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,15 +56,14 @@ public ObjectInfoFlags flags { get; private set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.ObjectInfoFlags](hh566138\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.ObjectInfoFlags](./objectinfoflags-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_OBJECTINFO class](dn335219\(v=exchg.10\).md)
+[JET_OBJECTINFO class](./jet-objectinfo-class.md)
 
-[JET_OBJECTINFO members](dn335195\(v=exchg.10\).md)
+[JET_OBJECTINFO members](./jet-objectinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

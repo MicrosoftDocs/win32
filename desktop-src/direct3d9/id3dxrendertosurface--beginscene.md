@@ -1,5 +1,5 @@
 ---
-Description: Begins a scene.
+description: Begins a scene.
 ms.assetid: 8125c592-b985-42f7-8644-59ba93a1c517
 title: ID3DXRenderToSurface::BeginScene method (D3dx9core.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If the method succeeds, the return value is D3D\_OK. If the method fails, the re
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

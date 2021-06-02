@@ -1,5 +1,5 @@
 ---
-Description: The DbgOutString function sends a string to the debug output location. Ignored in retail builds.
+description: The DbgOutString function sends a string to the debug output location. Ignored in retail builds.
 ms.assetid: 644bf4f7-ec2d-466e-85c6-690dd44da702
 title: DbgOutString function (Wxdebug.h)
 ms.topic: reference
@@ -65,7 +65,7 @@ DbgOutString("Creating the filter graph...\n");
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

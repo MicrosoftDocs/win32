@@ -1,5 +1,5 @@
 ---
-Description: The GetPreroll method retrieves the amount of data that will be queued before the start position. This method implements the IMediaSeeking::GetPreroll method.
+description: The GetPreroll method retrieves the amount of data that will be queued before the start position. This method implements the IMediaSeeking::GetPreroll method.
 ms.assetid: b00de2fa-ba3c-4a16-ad67-adf3df52ef9a
 title: CPosPassThru.GetPreroll method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

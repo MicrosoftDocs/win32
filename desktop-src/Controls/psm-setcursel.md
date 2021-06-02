@@ -50,7 +50,7 @@ The window that is losing the activation receives the [PSN\_KILLACTIVE](psn-kill
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

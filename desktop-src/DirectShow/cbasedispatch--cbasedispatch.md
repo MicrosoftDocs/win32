@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: CBaseDispatch.~CBaseDispatch destructor - Destructor method.
 ms.assetid: b3256b3f-20c5-4611-abbe-d0c5ee470922
 title: CBaseDispatch.~CBaseDispatch destructor (Ctlutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

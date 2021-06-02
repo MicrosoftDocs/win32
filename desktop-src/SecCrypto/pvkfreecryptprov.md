@@ -1,5 +1,5 @@
 ---
-Description: Releases the handle to a cryptographic service provider (CSP) and optionally deletes the temporary container created by the PvkGetCryptProv function.
+description: Releases the handle to a cryptographic service provider (CSP) and optionally deletes the temporary container created by the PvkGetCryptProv function.
 ms.assetid: e7dcb5c5-dd80-4810-bf1f-4b7b921fa22c
 title: PvkFreeCryptProv function
 ms.topic: reference
@@ -83,7 +83,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

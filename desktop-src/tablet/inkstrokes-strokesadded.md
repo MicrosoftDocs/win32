@@ -1,5 +1,5 @@
 ---
-Description: Occurs when one or more strokes are added to the InkStrokes collection.
+description: Occurs when one or more strokes are added to the InkStrokes collection.
 ms.assetid: d32dcaef-3beb-4ee1-84d6-5944278936f6
 title: InkStrokes.StrokesAdded event (Msinkaut.h)
 ms.topic: reference
@@ -46,7 +46,7 @@ This event method is defined in the \_IInkEvents interface. The \_IInkEvents int
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

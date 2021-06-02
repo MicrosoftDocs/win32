@@ -23,7 +23,7 @@ The IMAPI implementation of multisession on sequential media is supported for us
 
 In a scenario involving multisession on sequential media using UDF, IMAPI writes out the anchor structures (UDF Anchor Volume Descriptor Pointer - AVDP), volume structures (UDF Volume Descriptor Sequence - VDS) , and the file system metadata structures (UDF File Set Descriptor - FSD) at the start of every new session as outlined in the following diagram:
 
-![](images/multises1.png)
+![Diagram that shows the file system metadata structure with the 'Import/ F S mounting point' indicated with a red arrow at the 'Anchor' of physical session 2.](images/multises1.png)
 
 > [!Note]  
 > This figure illustrates the IMAPI disc layout when using UDF 2.50 with redundant metadata.
@@ -43,7 +43,7 @@ The approach for sequential media outlined in the previous section is incompatib
 
 To address the lack of one-to-one mapping between physical and logical sessions on rewritable formats, IMAPI selectively updates the anchor structures (AVDP) in the *first* logical session to point to the new volume structures (VDS) and file system metadata structures (FSD) at the beginning of the *last* logical session as outlined in the following diagram:
 
-![](images/multises2.png)
+![Diagram that shows the file system metadata structure with the 'Import/ F S mounting point' indicated with a red arrow at the 'Anchor' of logical session 1.](images/multises2.png)
 
 > [!Note]  
 > This figure illustrates the IMAPI disc layout when using UDF 2.50 with redundant metadata.

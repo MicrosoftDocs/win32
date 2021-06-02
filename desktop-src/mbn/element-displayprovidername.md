@@ -1,5 +1,5 @@
 ---
-Description: DisplayProviderName
+description: DisplayProviderName
 MS-HAID: WWAN\_profile\_v2.element\_DisplayProviderName
 MSHAttr:
 - PreferredSiteName:MSDN

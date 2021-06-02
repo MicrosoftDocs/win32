@@ -1,5 +1,5 @@
 ---
-Description: WMI automatically maps SNMP traps to WMI events. The system places the data contained in the trap in the corresponding properties of a WMI event instance for access by the WMI host machine.
+description: WMI automatically maps SNMP traps to WMI events. The system places the data contained in the trap in the corresponding properties of a WMI event instance for access by the WMI host machine.
 ms.assetid: 549f58a9-9d3b-41b9-a374-ab83877f63a7
 ms.tgt_platform: multiple
 title: Receiving SNMP Traps as WMI Events

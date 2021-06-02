@@ -1,5 +1,5 @@
 ---
-Description: Signals the progress of a content enabler object. Objects that expose the IMFContentEnabler interface can raise this event to notify the application about the progress of the content enablers actions.
+description: Signals the progress of a content enabler object. Objects that expose the IMFContentEnabler interface can raise this event to notify the application about the progress of the content enablers actions.
 ms.assetid: ec14ba9b-cfb6-4e32-870e-2436e11c308b
 title: MEEnablerProgress event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ To receive this event, query the [**IMFContentEnabler**](/windows/desktop/api/mf
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

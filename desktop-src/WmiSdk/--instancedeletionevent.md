@@ -1,5 +1,5 @@
 ---
-Description: Reports an instance deletion event, which is a type of intrinsic event generated when an instance is deleted from the namespace.
+description: Reports an instance deletion event, which is a type of intrinsic event generated when an instance is deleted from the namespace.
 ms.assetid: a370fc95-15e3-49c3-98de-2f40d742f207
 ms.tgt_platform: multiple
 title: '__InstanceDeletionEvent class'
@@ -109,7 +109,7 @@ The [Monitor process deletion event](https://Gallery.TechNet.Microsoft.Com/060a9
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

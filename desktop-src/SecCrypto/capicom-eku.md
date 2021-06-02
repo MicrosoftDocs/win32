@@ -1,5 +1,5 @@
 ---
-Description: Defines the extended key usage names based on where they can be used.
+description: Defines the extended key usage names based on where they can be used.
 ms.assetid: 78f9f9cb-46e7-4f81-a16e-503750a0d743
 title: CAPICOM_EKU enumeration (Capicom.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The **CAPICOM\_EKU** enumeration type is used by the [**EKU.Name**](eku-name.md)
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

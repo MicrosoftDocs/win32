@@ -1,5 +1,5 @@
 ---
-Description: D3DXSHADER\_CONSTANTINFO structure
+description: D3DXSHADER\_CONSTANTINFO structure
 ms.assetid: 0c42cea7-559e-4475-b66a-e932a9cb42de
 title: D3DXSHADER_CONSTANTINFO structure (D3dx9shader.h)
 ms.topic: reference
@@ -119,7 +119,7 @@ Offset from the beginning of this structure, in bytes, to the string that contai
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9shader.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Represents information about a source code file.
+description: Represents information about a source code file.
 MS-HAID: vspixengine.SourceFileInfo
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: The TAPI server (TAPISRV) is the central repository of telephony data on a user computer.
+description: The TAPI server (TAPISRV) is the central repository of telephony data on a user computer.
 ms.assetid: 794d230c-abe8-429d-bbf5-91ba364b16ab
 title: TAPI Server
 ms.topic: article

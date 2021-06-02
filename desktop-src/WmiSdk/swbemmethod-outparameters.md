@@ -1,5 +1,5 @@
 ---
-Description: The OutParameters property of the SWbemMethod object is an SWbemObject object whose properties define the out parameters and return type of this method. This property is read-only.
+description: The OutParameters property of the SWbemMethod object is an SWbemObject object whose properties define the out parameters and return type of this method. This property is read-only.
 ms.assetid: ae7774f7-8a53-44e4-a110-2aef9ae4037f
 ms.tgt_platform: multiple
 title: SWbemMethod.OutParameters property (Wbemdisp.h)
@@ -45,7 +45,7 @@ For more information about how to use this property to obtain output parameters 
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

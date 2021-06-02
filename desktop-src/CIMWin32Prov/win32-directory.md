@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Directory&\#32;WMI class represents a directory entry on a computer system running Windows.
+description: The Win32\_Directory&\#32;WMI class represents a directory entry on a computer system running Windows.
 ms.assetid: d61cb5ee-8e87-4604-95e6-325c9b543411
 ms.tgt_platform: multiple
 title: Win32_Directory class
@@ -1040,7 +1040,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

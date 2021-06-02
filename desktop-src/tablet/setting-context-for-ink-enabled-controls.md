@@ -1,5 +1,5 @@
 ---
-Description: All recognition for ink-enabled controls occurs through a RecognizerContext object. The Tablet PC Technology APIs enable you to set the Factoid property on a RecognizerContext object.
+description: All recognition for ink-enabled controls occurs through a RecognizerContext object. The Tablet PC Technology APIs enable you to set the Factoid property on a RecognizerContext object.
 ms.assetid: 453993a7-f055-4d84-870c-256d1ec17731
 title: Setting Context for Ink-Enabled Controls
 ms.topic: article

@@ -27,7 +27,7 @@ typedef struct _OP_CERT_SST_STORE
 
 ### StoreLocation
 
-Contains an identifier for the certificate store from [**System Store Locations**](/windows/win32/seccrypto/system-store-locations).
+Contains an identifier for the certificate store from [**System Store Locations**](../seccrypto/system-store-locations.md).
 
 ### pStoreName
 

@@ -1,5 +1,5 @@
 ---
-Description: The DEVICE\_STATE\_XXX constants indicate the current state of an audio endpoint device.
+description: The DEVICE\_STATE\_XXX constants indicate the current state of an audio endpoint device.
 ms.assetid: d03f2fbc-313a-42cf-902a-fd9f6dce2a35
 title: DEVICE_STATE_XXX Constants (Mmdeviceapi.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ To enable or disable an endpoint device in Mmsys.cpl, click **Playback** or **Re
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Returns a BasicConstraints object that represents the basic constraints extension of the certificate.
+description: Returns a BasicConstraints object that represents the basic constraints extension of the certificate.
 ms.assetid: cc4e566a-5f68-4e28-9397-39f22a71e45b
 title: ICertificate2::BasicConstraints method
 ms.topic: reference
@@ -44,7 +44,7 @@ The [**BasicConstraints**](basicconstraints.md) object that represents the basic
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

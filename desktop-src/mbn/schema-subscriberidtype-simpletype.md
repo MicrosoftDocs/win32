@@ -1,5 +1,5 @@
 ---
-Description: Defines a type for the SubscriberID element of the Mobile Broadband profile.
+description: Defines a type for the SubscriberID element of the Mobile Broadband profile.
 ms.assetid: b36df4d3-f558-4af8-8f63-e4991c34990f
 title: subscriberIdType Simple Type
 ms.topic: reference
@@ -33,7 +33,7 @@ The **subscriberIdType** simple type defines a type for the [**SubscriberID**](s
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

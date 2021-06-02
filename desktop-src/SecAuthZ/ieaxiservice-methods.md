@@ -1,5 +1,5 @@
 ---
-Description: The IeAxiService interface exposes the following methods.
+description: The IeAxiService interface exposes the following methods.
 ms.assetid: 80FC76D6-B830-46E9-9332-63B70CBCB04B
 title: IeAxiService Methods
 ms.topic: reference

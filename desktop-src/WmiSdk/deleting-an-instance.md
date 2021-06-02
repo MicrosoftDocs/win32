@@ -1,5 +1,5 @@
 ---
-Description: Deleting an instance is the most common delete command you are likely to perform in WMI.
+description: Deleting an instance is the most common delete command you are likely to perform in WMI.
 ms.assetid: 95ba3e9c-1397-41fe-a080-c03a98aafd42
 ms.tgt_platform: multiple
 title: Deleting an Instance

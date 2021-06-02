@@ -1,5 +1,5 @@
 ---
-Description: 'The system stores user profile information in a specific directory, which has different names in different versions of Windows: &\#0034;Documents and Settings&\#0034; in Windows XP and &\#0034;Users&\#0034; in Windows Vista and later.'
+description: 'The system stores user profile information in a specific directory, which has different names in different versions of Windows: &\#0034;Documents and Settings&\#0034; in Windows XP and &\#0034;Users&\#0034; in Windows Vista and later.'
 title: Profiles Directory
 ms.topic: article
 ms.date: 05/31/2018

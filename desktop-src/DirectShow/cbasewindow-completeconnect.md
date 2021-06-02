@@ -1,5 +1,5 @@
 ---
-Description: The CompleteConnect method notifies the window that the renderer's input pin has been connected.
+description: The CompleteConnect method notifies the window that the renderer's input pin has been connected.
 ms.assetid: 82347ded-eb37-4360-9333-7c837d532115
 title: CBaseWindow.CompleteConnect method (Winutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method resets the window activation flag ([**CBaseWindow::m\_bActivated**](
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

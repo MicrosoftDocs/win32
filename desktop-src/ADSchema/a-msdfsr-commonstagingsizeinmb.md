@@ -22,7 +22,7 @@ Size, in megabytes, of the common staging directory.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-CommonStagingSizeInMb        |
 | Ldap-Display-Name | msDFSR-CommonStagingSizeInMb         |
@@ -45,7 +45,7 @@ Size, in megabytes, of the common staging directory.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -66,7 +66,7 @@ Size, in megabytes, of the common staging directory.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -87,7 +87,7 @@ Size, in megabytes, of the common staging directory.
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

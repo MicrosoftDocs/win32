@@ -1,6 +1,6 @@
 ---
 title: glRasterPos4sv function (Gl.h)
-description: Specifies the raster position for pixel operations.
+description: Specifies the raster position for pixel operations. | glRasterPos4sv function (Gl.h)
 ms.assetid: d4f152b7-fede-46a1-a802-1bd72a819e8d
 keywords:
 - glRasterPos4sv function OpenGL
@@ -86,7 +86,7 @@ The following functions retrieve information related to [glRasterPos](glrasterpo
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum number of dynamic audio objects that can be rendered by the audio endpoint simulataneously.
+description: Specifies the maximum number of dynamic audio objects that can be rendered by the audio endpoint simulataneously.
 ms.assetid: 6B6D73C1-C2E6-4C23-BBAD-7B51E8441C71
 title: MF_MT_SPATIAL_AUDIO_MAX_DYNAMIC_OBJECTS attribute (Mfapi.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ An [**IMFSpatialAudioSample**](/windows/desktop/api/mfspatialaudio/nn-mfspatiala
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                          |

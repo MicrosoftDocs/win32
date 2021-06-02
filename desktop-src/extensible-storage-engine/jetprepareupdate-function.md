@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetPrepareUpdate Function"
 title: JetPrepareUpdate Function
 TOCTitle: JetPrepareUpdate Function
 ms:assetid: 90cbaa83-47f2-4a65-b561-3bdecb7fd95a
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetPrepareUpdate Function
 
-The **JetPrepareUpdate** function is the first operation in performing an update, for the purposes of inserting a new record or replacing an existing record with new values. Updates are done by calling **JetPrepareUpdate**, then calling [JetSetColumn](gg294137\(v=exchg.10\).md) or [JetSetColumns](gg294050\(v=exchg.10\).md) zero or more times and finally by calling [JetUpdate](gg269288\(v=exchg.10\).md) to complete the operation. **JetPrepareUpdate** and [JetUpdate](gg269288\(v=exchg.10\).md) set the boundaries for an update operation and are important in having only the final update state of a record entered into indexes. This is both more efficient, but also required in cases where data must match a valid state through more than on set column operation.
+The **JetPrepareUpdate** function is the first operation in performing an update, for the purposes of inserting a new record or replacing an existing record with new values. Updates are done by calling **JetPrepareUpdate**, then calling [JetSetColumn](./jetsetcolumn-function.md) or [JetSetColumns](./jetsetcolumns-function.md) zero or more times and finally by calling [JetUpdate](./jetupdate-function.md) to complete the operation. **JetPrepareUpdate** and [JetUpdate](./jetupdate-function.md) set the boundaries for an update operation and are important in having only the final update state of a record entered into indexes. This is both more efficient, but also required in cases where data must match a valid state through more than on set column operation.
 
 There are a few different options for inserting or replacing records and they are described in more detail below.
 
@@ -95,7 +96,7 @@ The options that can be used to prepare for an update, which include the followi
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -169,7 +170,7 @@ On failure, the cursor state is left unchanged. If the failure was JET_errRollba
 
 Inserting a copy of a record is an important optimization when records share data of type JET_coltypLongText and/or JET_coltypLongBinary. This data is stored off-record when large and it is possible for multiple records to share the same physical representation of the data. In this case, the data can be updated from either record, but doing so will cause the data to be burst such that each record has its own copy. It is not possible to change data in one record by a modification from another record. Also, it is not possible to block an update of one record by an update of another record. This is a central feature to ESE and is known as Record Level Locking.
 
-[JetUpdate](gg269288\(v=exchg.10\).md) operations which fail leave the cursor in the update prepared state. This is to permit correction to some errors, such as a wrong column value, without requiring the update state to be recreated. This means that in all cases where a cursor abandons an update, it must explicitly call **JetPrepareUpdate** with JET_prepCancel.
+[JetUpdate](./jetupdate-function.md) operations which fail leave the cursor in the update prepared state. This is to permit correction to some errors, such as a wrong column value, without requiring the update state to be recreated. This means that in all cases where a cursor abandons an update, it must explicitly call **JetPrepareUpdate** with JET_prepCancel.
 
 #### Requirements
 
@@ -205,10 +206,9 @@ Inserting a copy of a record is an important optimization when records share dat
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetRetrieveColumn](gg269198\(v=exchg.10\).md)  
-[JetSetColumn](gg294137\(v=exchg.10\).md)  
-[JetUpdate](gg269288\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetRetrieveColumn](./jetretrievecolumn-function.md)  
+[JetSetColumn](./jetsetcolumn-function.md)  
+[JetUpdate](./jetupdate-function.md)

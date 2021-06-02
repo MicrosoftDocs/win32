@@ -1,5 +1,5 @@
 ---
-Description: Generates C structure definitions for known types.
+description: Generates C structure definitions for known types.
 ms.assetid: 38ba2e8a-d5b1-47b2-b410-ae161f5039bf
 title: structDefinitions element
 ms.topic: reference
@@ -42,7 +42,7 @@ Structures for known types are referenced by much of the generated code and by a
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

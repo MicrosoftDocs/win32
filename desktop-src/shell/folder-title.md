@@ -1,5 +1,5 @@
 ---
-Description: Contains the title of the folder.
+description: Contains the title of the folder.
 ms.assetid: 95c064ff-4504-4e9c-80ac-47beca443ad4
 title: Folder.Title property (Shldisp.h)
 ms.topic: reference
@@ -120,7 +120,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: How to access System Management BIOS (SMBIOS) information from a Universal Windows app.
+description: How to access System Management BIOS (SMBIOS) information from a Universal Windows app.
 ms.assetid: 4D185319-C093-4B1B-A182-E845E72FEA5D
 title: Access SMBIOS information from a Universal Windows App
 ms.topic: article

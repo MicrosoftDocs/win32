@@ -1,5 +1,5 @@
 ---
-Description: The RemoveAll method removes all the nodes from the list.
+description: The RemoveAll method removes all the nodes from the list.
 ms.assetid: f6a6ebfe-5f53-4acd-8bfa-93680f5d40fd
 title: CBaseList.RemoveAll method (Wxlist.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ It is the caller's responsibility to delete the items contained in all the nodes
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The GetDefaultRect method retrieves the default size of the client area.
+description: The GetDefaultRect method retrieves the default size of the client area.
 ms.assetid: 9eb9e3a4-0d45-4aa3-a496-1b0bd92d4989
 title: CBaseWindow.GetDefaultRect method (Winutil.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ When the window is activated, the object calls this method to determine how larg
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

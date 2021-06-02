@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the maximum byte size needed for the current stream, including the version number.
+description: Retrieves the maximum byte size needed for the current stream, including the version number.
 ms.assetid: 55ea4568-5ca4-4139-8def-bef20071835d
 title: CPersistStream.GetSizeMax method (Pstream.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This member function implements the **IPersistStream::GetSizeMax** method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

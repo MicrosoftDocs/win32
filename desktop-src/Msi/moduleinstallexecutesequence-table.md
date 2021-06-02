@@ -1,5 +1,5 @@
 ---
-Description: A merge tool evaluates the ModuleInstallExecuteSequence table and then inserts the calculated actions into the InstallExecuteSequence table with a correct sequence number.
+description: A merge tool evaluates the ModuleInstallExecuteSequence table and then inserts the calculated actions into the InstallExecuteSequence table with a correct sequence number.
 ms.assetid: 6cd04d9a-5489-4fde-951e-aa962e9bd755
 title: ModuleInstallExecuteSequence Table
 ms.topic: article

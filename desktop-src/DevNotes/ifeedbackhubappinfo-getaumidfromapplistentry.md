@@ -1,5 +1,5 @@
 ---
-Description: This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+description: IFeedbackHubAppInfo::GetAumidFromAppListEntry method - This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 ms.assetid: F205911F-7AA3-464F-A408-3BF549E1112A
 title: IFeedbackHubAppInfo::GetAumidFromAppListEntry method
 ms.topic: reference
@@ -56,7 +56,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/> |
@@ -67,7 +67,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IFeedbackHubAppInfo**](winprog.ifeedbackhubappinfo.md)
+[**IFeedbackHubAppInfo**](ifeebackhubappinfo.md)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-Description: Explains how to enable your data store to be accessed by an OpenSearch web service, and how to avoid potential barriers for doing so.
+description: Explains how to enable your data store to be accessed by an OpenSearch web service, and how to avoid potential barriers for doing so.
 ms.assetid: 27d7676c-f4e8-43b4-856b-826e07afcd78
 title: Enabling Your Data Store in Windows Federated Search
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Configuring the Demux Output Pins
+description: Configuring the Demux Output Pins
 ms.assetid: c53f3fe6-5588-4faf-ba5c-6a6cf7e16f3a
 title: Configuring the Demux Output Pins
 ms.topic: article

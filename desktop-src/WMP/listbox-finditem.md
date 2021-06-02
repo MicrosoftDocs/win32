@@ -53,7 +53,7 @@ To start the search at the first line of the list box control, use  1 as the *st
 
 
 
-|                    |                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------|
 | Version<br/> | Windows Media Player for Windows XP or later<br/> |
 

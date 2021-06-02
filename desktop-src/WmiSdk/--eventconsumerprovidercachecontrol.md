@@ -1,5 +1,5 @@
 ---
-Description: Determines when WMI should release an event consumer provider.
+description: Determines when WMI should release an event consumer provider.
 ms.assetid: 93246826-8070-4e05-96f0-f773041ed1d4
 ms.tgt_platform: multiple
 title: '__EventConsumerProviderCacheControl class'
@@ -66,7 +66,7 @@ The **\_\_EventConsumerProviderCacheControl** class is derived from [**\_\_Cache
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

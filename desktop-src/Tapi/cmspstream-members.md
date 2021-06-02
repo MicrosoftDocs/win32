@@ -1,5 +1,5 @@
 ---
-Description: The following list contains the CMSPStream members.
+description: The following list contains the CMSPStream members.
 ms.assetid: 792a29ac-ebbb-4bb2-bebf-fbf870b18e84
 title: CMSPStream Members
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
+description: IMpeg2PsiParser::GetTransportStreamId method - The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
 ms.assetid: 0c35abc0-984f-42df-a2a2-30cd400d4599
 title: IMpeg2PsiParser::GetTransportStreamId method
 ms.topic: reference

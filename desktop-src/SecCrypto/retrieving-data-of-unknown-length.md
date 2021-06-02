@@ -1,5 +1,5 @@
 ---
-Description: Many functions return a potentially large amount of data to an address provided as one of the parameters by the application.
+description: Many functions return a potentially large amount of data to an address provided as one of the parameters by the application.
 ms.assetid: ef99edef-39b2-4d78-9c01-13720215d47f
 title: Retrieving Data of Unknown Length
 ms.topic: article

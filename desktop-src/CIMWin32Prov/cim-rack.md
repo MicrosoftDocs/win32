@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_Rack class represents a rack (a physical frame or enclosure) in which chassis are stored. Typically, a rack represents the enclosure; all functioning components are packaged in the chassis.
+description: The CIM\_Rack class represents a rack (a physical frame or enclosure) in which chassis are stored. Typically, a rack represents the enclosure; all functioning components are packaged in the chassis.
 ms.assetid: 1e0273ce-2a09-4f75-a82e-d0555d6a831e
 ms.tgt_platform: multiple
 title: CIM_Rack class
@@ -914,7 +914,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

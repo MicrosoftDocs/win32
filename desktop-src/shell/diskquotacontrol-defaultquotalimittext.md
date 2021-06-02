@@ -1,5 +1,5 @@
 ---
-Description: Gets the default quota limit as a text string.
+description: Gets the default quota limit as a text string.
 title: DiskQuotaControl.DefaultQuotaLimitText property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: ea1b02e0-c480-4ef1-b6e0-1ec202d5f3c5
-api_name: 
- - DiskQuotaControl.DefaultQuotaLimitText
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -48,7 +39,7 @@ A string value that contains the default quota limit for new users of the volume
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

@@ -21,7 +21,7 @@ Contains all of the settings and data that make up a Group Policy configuration 
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-net-ieee-8023-GP-PolicyData              |
 | Ldap-Display-Name | ms-net-ieee-8023-GP-PolicyData              |
@@ -44,7 +44,7 @@ Contains all of the settings and data that make up a Group Policy configuration 
 
 
 
-|                        |                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |
@@ -65,7 +65,7 @@ Contains all of the settings and data that make up a Group Policy configuration 
 
 
 
-|                        |                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |
@@ -86,7 +86,7 @@ Contains all of the settings and data that make up a Group Policy configuration 
 
 
 
-|                        |                                                                                   |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                |
 | MAPI-Id                | \-                                                                                |

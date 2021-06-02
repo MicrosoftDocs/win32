@@ -21,7 +21,7 @@ Property set containing user attributes that describe user email related informa
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | Email-Information                    |
 | Display-Name | Phone and Mail Options               |
@@ -43,7 +43,7 @@ Property set containing user attributes that describe user email related informa
 
 
 
-|                         |                                                                       |
+| Entry | Value |
 |-------------------------|-----------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 22                                                                    |
@@ -55,7 +55,7 @@ Property set containing user attributes that describe user email related informa
 
 
 
-|                         |                                                                                                                           |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 22                                                                                                                        |
@@ -67,7 +67,7 @@ Property set containing user attributes that describe user email related informa
 
 
 
-|                         |                                     |
+| Entry | Value |
 |-------------------------|-------------------------------------|
 | Applies-To              | [**Group**](c-group.md)<br/> |
 | Localization-Display-ID | 22                                  |
@@ -79,7 +79,7 @@ Property set containing user attributes that describe user email related informa
 
 
 
-|                         |                                                                                                                           |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 22                                                                                                                        |
@@ -91,7 +91,7 @@ Property set containing user attributes that describe user email related informa
 
 
 
-|                         |                                                                                                                           |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 22                                                                                                                        |
@@ -103,7 +103,7 @@ Property set containing user attributes that describe user email related informa
 
 
 
-|                         |                                                                                                                           |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 22                                                                                                                        |
@@ -115,7 +115,7 @@ Property set containing user attributes that describe user email related informa
 
 
 
-|                         |                                                                                                                           |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Group**](c-group.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 22                                                                                                                        |

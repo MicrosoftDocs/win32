@@ -1,5 +1,5 @@
 ---
-Description: Subclasses all controls in a dialog box and in the dialog window itself.
+description: Subclasses all controls in a dialog box and in the dialog window itself.
 ms.assetid: 4d3c298b-07ba-4668-badd-dddecc389e70
 title: Ctl3dSubclassDlgEx function
 ms.topic: reference
@@ -80,7 +80,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ctl3d32.dll</dt> </dl> |
 

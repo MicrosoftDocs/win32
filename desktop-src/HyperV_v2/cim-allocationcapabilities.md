@@ -1,5 +1,5 @@
 ---
-Description: Represents the resource allocation settings of a managed element for a specific resource type.
+description: Represents the resource allocation settings of a managed element for a specific resource type.
 ms.assetid: f27910c7-a88a-4694-80fe-7761945782e0
 title: CIM_AllocationCapabilities class
 ms.topic: reference
@@ -711,7 +711,7 @@ The system states that are supported when a resource is removed.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

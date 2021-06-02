@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbGetOneCounterPath function displays a dialog box that lets the user browse the available performance counters and select one counter.
+description: The PdhVbGetOneCounterPath function displays a dialog box that lets the user browse the available performance counters and select one counter.
 ms.assetid: a42406ef-70e0-464d-90f8-fef9e1c3471d
 title: PdhVbGetOneCounterPath function
 ms.topic: reference
@@ -77,7 +77,7 @@ The function returns the number of characters written to the *PathString* buffer
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

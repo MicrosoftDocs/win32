@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentClientRequestToStopJetServiceException constructor"
 title: EsentClientRequestToStopJetServiceException constructor 
 TOCTitle: 'EsentClientRequestToStopJetServiceException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentClientRequestToStopJetServiceException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentClientRequestToStopJetServiceException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentClientRequestToStopJetServiceException()
 
 #### Reference
 
-[EsentClientRequestToStopJetServiceException class](dn274150\(v=exchg.10\).md)
+[EsentClientRequestToStopJetServiceException class](./esentclientrequesttostopjetserviceexception-class.md)
 
-[EsentClientRequestToStopJetServiceException members](dn274218\(v=exchg.10\).md)
+[EsentClientRequestToStopJetServiceException members](./esentclientrequesttostopjetserviceexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidNameException constructor"
 title: EsentDatabaseInvalidNameException constructor 
 TOCTitle: 'EsentDatabaseInvalidNameException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidNameException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseInvalidNameException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseInvalidNameException()
 
 #### Reference
 
-[EsentDatabaseInvalidNameException class](dn334450\(v=exchg.10\).md)
+[EsentDatabaseInvalidNameException class](./esentdatabaseinvalidnameexception-class.md)
 
-[EsentDatabaseInvalidNameException members](dn334455\(v=exchg.10\).md)
+[EsentDatabaseInvalidNameException members](./esentdatabaseinvalidnameexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

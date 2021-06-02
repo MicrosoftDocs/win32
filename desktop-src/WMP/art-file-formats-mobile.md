@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Art File Formats
+# Art File Formats (Mobile)
 
 Art files for skins may be either bitmap (.bmp) or GIF (.gif) images. JPEG (.jpg) and PNG (.png) images are also supported. Do not include any spaces or commas in your art file name.
 

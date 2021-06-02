@@ -1,5 +1,5 @@
 ---
-Description: This section describes the specifications for the callback functions used by Windows Installer package validation.
+description: This section describes the specifications for the callback functions used by Windows Installer package validation.
 ms.assetid: c96e5682-d43c-460f-8aee-6ba7b0b9769e
 title: Validation Callback Functions
 ms.topic: article

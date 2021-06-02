@@ -1,5 +1,5 @@
 ---
-Description: Contains the SSID of a wireless LAN.
+description: Contains the SSID of a wireless LAN.
 ms.assetid: ed23ccd0-9b44-4c97-a5ed-93e86632b819
 title: name (SSID) Element
 ms.topic: reference
@@ -57,7 +57,7 @@ To view sample profiles that use the **name** element, see [Wireless Profile Sam
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

@@ -1,5 +1,5 @@
 ---
-Description: Identifies the IHV.
+description: Identifies the IHV.
 ms.assetid: a99c231c-afd7-44e6-81af-3d49ffef8714
 title: OUIHeader (IHV) Element
 ms.topic: reference
@@ -74,7 +74,7 @@ The element is defined by the [**IHV**](wlan-profileschema-ihv-wlanprofile-eleme
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

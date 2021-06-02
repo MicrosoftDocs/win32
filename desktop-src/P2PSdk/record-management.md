@@ -1,5 +1,5 @@
 ---
-Description: To manage records, you can work with information that is stored in PEER\_RECORD structures.
+description: To manage records, you can work with information that is stored in PEER\_RECORD structures.
 ms.assetid: d38ea2d3-5cfb-4c4a-a63f-b274aa0dfe71
 title: Record Management
 ms.topic: article

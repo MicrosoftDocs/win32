@@ -1,12 +1,12 @@
 ---
 title: IBackgroundCopyManager Methods (DO)
-description: The IBackgroundCopyManager interface exposes the following methods.
+description: The IBackgroundCopyManager interface exposes the following methods. | IBackgroundCopyManager Methods (DO)
 ms.assetid: DF517077-4775-473C-B16B-7EFB0AD9D169
 ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# IBackgroundCopyManager Methods
+# IBackgroundCopyManager Methods (DO)
 
 The [**IBackgroundCopyManager**](ibackgroundcopymanager.md) interface exposes the following methods.
 

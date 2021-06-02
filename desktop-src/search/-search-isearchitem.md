@@ -1,5 +1,5 @@
 ---
-Description: Provides methods that define interaction between a user interface (UI) and the Search namespace objects created by the indexer.
+description: Provides methods that define interaction between a user interface (UI) and the Search namespace objects created by the indexer.
 ms.assetid: e48c9e5b-9b15-4bc1-91ef-81ba7a05bfbd
 title: ISearchItem interface
 ms.topic: reference
@@ -49,7 +49,7 @@ To preview attachments with a third-party protocol handler on computers running 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

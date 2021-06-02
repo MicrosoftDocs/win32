@@ -1,5 +1,5 @@
 ---
-Description: By using a class device context, an application can use a single display device context for every window belonging to a specified class.
+description: By using a class device context, an application can use a single display device context for every window belonging to a specified class.
 ms.assetid: fc76abbf-68da-47f2-8145-4fad806297b4
 title: Class Display Device Contexts
 ms.topic: article

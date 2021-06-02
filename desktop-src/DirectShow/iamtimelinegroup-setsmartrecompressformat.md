@@ -1,5 +1,5 @@
 ---
-Description: The SetSmartRecompressFormat method specifies a video compression format to use for smart recompression.
+description: The SetSmartRecompressFormat method specifies a video compression format to use for smart recompression.
 ms.assetid: 80c02215-6da2-4b3e-ab0d-004e49480fb9
 title: IAMTimelineGroup::SetSmartRecompressFormat method (Qedit.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ The smart recompression format is not persistent. If an application uses smart r
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

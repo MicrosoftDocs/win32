@@ -1,5 +1,5 @@
 ---
-Description: Represents the association between two metric definitions or two metric values.
+description: Represents the association between two metric definitions or two metric values.
 ms.assetid: 78fb926d-8981-443a-a82d-ebac34d38e13
 title: Msvm_MetricCollectionDependency class
 ms.topic: reference
@@ -76,7 +76,7 @@ A reference to an instance of the [**CIM\_ManagedElement**](/previous-versions/w
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

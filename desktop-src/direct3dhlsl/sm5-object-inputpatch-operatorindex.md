@@ -1,6 +1,6 @@
 ---
 title: InputPatch::Operator  function
-description: Returns the nth control point in the patch.
+description: Returns the nth control point in the patch. | InputPatch::Operator  function
 ms.assetid: 2c1eda6b-a9c1-40d3-be91-7a2e8f1da9fc
 keywords:
 - Operator function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Operator\[\] function
+# InputPatch::Operator  function
 
 Returns the *n*<sup>th</sup> control point in the patch.
 

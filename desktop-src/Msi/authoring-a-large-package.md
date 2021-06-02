@@ -1,5 +1,5 @@
 ---
-Description: Use this guideline to author a Windows Installer package that contains more than 32767 files.
+description: Use this guideline to author a Windows Installer package that contains more than 32767 files.
 ms.assetid: 3145629f-cc0a-4216-8549-76bb61070772
 title: Authoring a Large Package
 ms.topic: article

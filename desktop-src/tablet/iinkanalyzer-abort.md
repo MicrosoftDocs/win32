@@ -1,5 +1,5 @@
 ---
-Description: Cancels the current analysis operation.
+description: Cancels the current analysis operation.
 ms.assetid: 909bfa66-b6df-4730-95b7-809fc2170e85
 title: IInkAnalyzer::Abort method (IACom.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ For more information about synchronizing your application data with the ink anal
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

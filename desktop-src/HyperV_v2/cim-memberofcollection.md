@@ -1,5 +1,5 @@
 ---
-Description: Represents a relationship in which a managed element is a member of and is aggregated by a collection.
+description: Represents a relationship in which a managed element is a member of and is aggregated by a collection.
 ms.assetid: 324284fa-ece6-41df-9891-040a7561dce4
 title: CIM_MemberOfCollection class
 ms.topic: reference
@@ -80,7 +80,7 @@ The member of the collection.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

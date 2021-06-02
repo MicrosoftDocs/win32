@@ -1,5 +1,5 @@
 ---
-Description: The SelectUpperButton method selects the upper directional button from the displayed menu.
+description: The SelectUpperButton method selects the upper directional button from the displayed menu.
 ms.assetid: ace9e5b4-5461-46d6-94a5-420ec0825c70
 title: SelectUpperButton Method (Segment.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ No return value.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

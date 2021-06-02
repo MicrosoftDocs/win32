@@ -1,5 +1,5 @@
 ---
-Description: The SetDefaultFPS method sets the source object's default frame rate.
+description: The SetDefaultFPS method sets the source object's default frame rate.
 ms.assetid: ea93acde-3e05-43d5-8130-9ab2ee841b4e
 title: IAMTimelineSrc::SetDefaultFPS method (Qedit.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ Call this method only for source files without a predefined frame rate. For bitm
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

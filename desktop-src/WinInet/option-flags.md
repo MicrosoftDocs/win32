@@ -101,7 +101,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Option Flags
+# Option Flags (Wininet.h)
 
 The following option flags are used with the [**InternetQueryOption**](/windows/desktop/api/Wininet/nf-wininet-internetqueryoptiona) and [**InternetSetOption**](/windows/desktop/api/Wininet/nf-wininet-internetsetoptiona) functions. All valid option flags have a value greater than or equal to **INTERNET\_FIRST\_OPTION** and less than or equal to **INTERNET\_LAST\_OPTION**.
 
@@ -1791,7 +1791,7 @@ Sets or retrieves an unsigned long integer value that contains the size, in byte
 
 
 
-|                                     |                                                                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                   |

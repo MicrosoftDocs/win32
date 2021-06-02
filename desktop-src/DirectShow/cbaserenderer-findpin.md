@@ -1,5 +1,5 @@
 ---
-Description: The FindPin method retrieves the pin with the specified identifier.
+description: The FindPin method retrieves the pin with the specified identifier.
 ms.assetid: d07a298f-ddb0-44eb-85ca-81735875cdf3
 title: CBaseRenderer.FindPin method (Renbase.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ This method overrides the [**CBaseFilter::FindPin**](cbasefilter-findpin.md) met
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

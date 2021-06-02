@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMissingLogFileException methods"
 title: EsentMissingLogFileException methods
 TOCTitle: EsentMissingLogFileException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMissingLogFileException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMissingLogFileException](dn334746\(v=exchg.10\).md) type exposes the following members.
+The [EsentMissingLogFileException](./esentmissinglogfileexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentMissingLogFileException class](dn334746\(v=exchg.10\).md)
+[EsentMissingLogFileException class](./esentmissinglogfileexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

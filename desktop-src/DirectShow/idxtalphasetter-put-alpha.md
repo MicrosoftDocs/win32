@@ -1,5 +1,5 @@
 ---
-Description: The put\_Alpha method specifies the alpha value for the entire image.
+description: The put\_Alpha method specifies the alpha value for the entire image.
 ms.assetid: ba02a9ae-b722-4771-89c6-e76369d39ed7
 title: IDxtAlphaSetter::put_Alpha method (Qedit.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ If you set this property to a non-negative value, you must also disable the alph
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ApplicationSystemSoftwareFeature class represents an association that identifies the software features that make up a particular application system. The software features can be included in different products.
+description: The CIM\_ApplicationSystemSoftwareFeature class represents an association that identifies the software features that make up a particular application system. The software features can be included in different products.
 ms.assetid: e40d0d64-f9f0-4c05-aef6-c759256e408b
 ms.tgt_platform: multiple
 title: CIM_ApplicationSystemSoftwareFeature class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

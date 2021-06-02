@@ -1,6 +1,6 @@
 ---
 title: glScalef function (Gl.h)
-description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix.
+description: The glScaled and glScalef functions multiply the current matrix by a general scaling matrix. | glScalef function (Gl.h)
 ms.assetid: bf039bbc-7669-4282-b629-71440b798cb1
 keywords:
 - glScalef function OpenGL
@@ -78,7 +78,7 @@ The following error code can be retrieved by the [**glGetError**](glgeterror.md)
 
 The **glScalef** function produces a general scaling along the *x*, *y*, and *z* axes. The three arguments indicate the desired scale factors along each of the three axes. The resulting matrix appears in the following image.
 
-![](images/scale01.png)
+![Diagram showing the matrix of scale factors along the x, y, and z axes.](images/scale01.png)
 
 The current matrix (see [**glMatrixMode**](glmatrixmode.md)) is multiplied by this scale matrix, with the product replacing the current matrix. That is, if M is the current matrix and S is the scale matrix, then M is replaced with M   S.
 
@@ -100,7 +100,7 @@ The following functions retrieve information related to **glScalef**:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

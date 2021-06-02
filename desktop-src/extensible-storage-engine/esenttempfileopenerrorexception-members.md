@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTempFileOpenErrorException members"
 title: EsentTempFileOpenErrorException members
 TOCTitle: EsentTempFileOpenErrorException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTempFileOpenErrorException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TempFileOpenError exceptions.
 
-The [EsentTempFileOpenErrorException](dn334964\(v=exchg.10\).md) type exposes the following members.
+The [EsentTempFileOpenErrorException](./esenttempfileopenerrorexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTempFileOpenErrorException class](dn334964\(v=exchg.10\).md)
+[EsentTempFileOpenErrorException class](./esenttempfileopenerrorexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

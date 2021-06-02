@@ -1,5 +1,5 @@
 ---
-Description: The GetChallenge method returns a challenge from the smart card.
+description: The GetChallenge method returns a challenge from the smart card.
 ms.assetid: a114ebfd-831f-4c6b-8156-ce631a732c9b
 title: ISCardAuth::GetChallenge method
 ms.topic: reference
@@ -95,7 +95,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

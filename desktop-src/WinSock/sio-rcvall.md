@@ -1,5 +1,5 @@
 ---
-Description: Control code enables a socket to receive all IPv4 or IPv6 packets passing through a network interface.
+description: Control code enables a socket to receive all IPv4 or IPv6 packets passing through a network interface.
 ms.assetid: 1c198a70-6669-4599-bd9a-ffc26c9fe1d0
 title: SIO_RCVALL Control Code
 ms.topic: reference

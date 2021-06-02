@@ -1,5 +1,5 @@
 ---
-Description: Defines what information is to be queried from a certificate.
+description: Defines what information is to be queried from a certificate.
 ms.assetid: b603c06b-e6d4-4d5d-92b2-3b4f5b93478a
 title: CAPICOM_CERT_INFO_TYPE enumeration (Capicom.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ The **CAPICOM\_CERT\_INFO\_TYPE** enumeration type is used by the [**Certificate
 
 
 
-|                            |                                                                                      |
+| Requirement | Value |
 |----------------------------|--------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                |
 | Header<br/>          | <dl> <dt>Capicom.h</dt> </dl> |

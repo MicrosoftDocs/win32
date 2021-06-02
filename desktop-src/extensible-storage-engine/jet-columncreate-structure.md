@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNCREATE Structure"
 title: JET_COLUMNCREATE Structure
 TOCTitle: JET_COLUMNCREATE Structure
 ms:assetid: 553263a9-7d2c-4bd7-ad77-1dfb6d21ef2c
@@ -67,7 +68,7 @@ The name of the column to create. The name must meet the following criteria:
 
 **coltyp**
 
-The type of the column (for example, text, binary, or numerical). For more information, see [JET_COLTYP](gg269213\(v=exchg.10\).md).
+The type of the column (for example, text, binary, or numerical). For more information, see [JET_COLTYP](./jet-coltyp.md).
 
 **cbMax**
 
@@ -192,7 +193,7 @@ On success, the column identifier of the newly-created column will be passed bac
 
 **err**
 
-The **err** field will contain the status of creating this column. See [JetAddColumn](gg294122\(v=exchg.10\).md) for a list of likely return values.
+The **err** field will contain the status of creating this column. See [JetAddColumn](./jetaddcolumn-function.md) for a list of likely return values.
 
 ### Requirements
 
@@ -224,19 +225,18 @@ The **err** field will contain the status of creating this column. See [JetAddCo
 
 ### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_RETINFO](gg294049\(v=exchg.10\).md)  
-[JET_SETINFO](gg294090\(v=exchg.10\).md)  
-[JET_SETCOLUMN](gg269233\(v=exchg.10\).md)  
-[JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
-[JET_ENUMCOLUMNVALUE](gg294052\(v=exchg.10\).md)  
-[JetAddColumn](gg294122\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)  
-[JetEscrowUpdate](gg294125\(v=exchg.10\).md)  
-[JetRenameColumn](gg269218\(v=exchg.10\).md)  
-[JetSetColumns](gg294050\(v=exchg.10\).md)
-
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_RETINFO](./jet-retinfo-structure.md)  
+[JET_SETINFO](./jet-setinfo-structure.md)  
+[JET_SETCOLUMN](./jet-setcolumn-structure.md)  
+[JET_RETRIEVECOLUMN](./jet-retrievecolumn-structure.md)  
+[JET_ENUMCOLUMNVALUE](./jet-enumcolumnvalue-structure.md)  
+[JetAddColumn](./jetaddcolumn-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md)  
+[JetEscrowUpdate](./jetescrowupdate-function.md)  
+[JetRenameColumn](./jetrenamecolumn-function.md)  
+[JetSetColumns](./jetsetcolumns-function.md)

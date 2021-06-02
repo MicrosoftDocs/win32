@@ -1,5 +1,5 @@
 ---
-Description: Lists the currently defined ACE types.
+description: Lists the currently defined ACE types.
 ms.assetid: '980b8242-2ba2-469f-b834-da7d3fb22e14'
 title: ACE (Winnt.h)
 ms.topic: article
@@ -174,7 +174,7 @@ System-alarm and object-specific system-alarm ACEs are not currently supported.
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

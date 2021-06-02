@@ -1,5 +1,5 @@
 ---
-Description: Contains the index of an entry and its TAG information in a shim database.
+description: TAGREF - Contains the index of an entry and its TAG information in a shim database.
 ms.assetid: e7d83dca-13a5-4396-b50b-0d068209c03c
 title: TAGREF
 ms.topic: reference
@@ -41,7 +41,7 @@ Indicates a root list TAG that can be used as a parent to obtain a child **TAGRE
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the selection of ink within the control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+description: Occurs when the selection of ink within the control has changed, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 6b4cd9fe-b09f-4a70-9aa5-92ef9409ff1b
 title: InkOverlay.SelectionChanged event (Msinkaut.h)
 ms.topic: reference
@@ -37,7 +37,7 @@ This event method is defined in the \_IInkOverlayEvents and \_IInkPictureEvents 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

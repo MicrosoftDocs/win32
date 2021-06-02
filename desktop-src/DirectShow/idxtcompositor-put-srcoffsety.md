@@ -1,5 +1,5 @@
 ---
-Description: The put\_SrcOffsetY method specifies the vertical offset of the source rectangle.
+description: The put\_SrcOffsetY method specifies the vertical offset of the source rectangle.
 ms.assetid: abdc520f-8de6-4a4f-aa8f-facedaa8fce1
 title: IDxtCompositor::put_SrcOffsetY method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

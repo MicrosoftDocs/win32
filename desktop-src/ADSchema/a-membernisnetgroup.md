@@ -21,7 +21,7 @@ Contains the list of netgroups that are members of this netgroup.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | memberNisNetgroup                    |
 | Ldap-Display-Name | memberNisNetgroup                    |
@@ -45,7 +45,7 @@ Contains the list of netgroups that are members of this netgroup.
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -66,7 +66,7 @@ Contains the list of netgroups that are members of this netgroup.
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -87,7 +87,7 @@ Contains the list of netgroups that are members of this netgroup.
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |
@@ -108,7 +108,7 @@ Contains the list of netgroups that are members of this netgroup.
 
 
 
-|                        |                                                 |
+| Entry | Value |
 |------------------------|-------------------------------------------------|
 | Link-Id                | \-                                              |
 | MAPI-Id                | \-                                              |

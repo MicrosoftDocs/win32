@@ -1,5 +1,5 @@
 ---
-Description: Represents a single item in an SWbemRefresher object.
+description: Represents a single item in an SWbemRefresher object.
 ms.assetid: 6a12c8eb-3ef9-4292-810c-6954294fc8c7
 ms.tgt_platform: multiple
 title: SWbemRefreshableItem object (Wbemdisp.h)
@@ -118,7 +118,7 @@ MsgBox "Number of items in Refresher after DeleteAll " _
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

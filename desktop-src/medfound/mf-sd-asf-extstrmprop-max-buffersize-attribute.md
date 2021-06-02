@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum buffer size, in bytes, needed for a stream in an Advanced Systems Format (ASF) file.
+description: Specifies the maximum buffer size, in bytes, needed for a stream in an Advanced Systems Format (ASF) file.
 ms.assetid: 1704a70a-a52b-4e7d-8a32-d0c4e97f8cc2
 title: MF_SD_ASF_EXTSTRMPROP_MAX_BUFFERSIZE attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

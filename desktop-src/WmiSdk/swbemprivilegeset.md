@@ -1,5 +1,5 @@
 ---
-Description: An SWbemPrivilegeSet object is a collection of SWbemPrivilege objects in an SWbemSecurity object that requests specific privileges for a Windows Management Instrumentation (WMI) object.
+description: An SWbemPrivilegeSet object is a collection of SWbemPrivilege objects in an SWbemSecurity object that requests specific privileges for a Windows Management Instrumentation (WMI) object.
 ms.assetid: 073cf2d4-f7ee-45a6-8fa6-ca77a4870346
 ms.tgt_platform: multiple
 title: SWbemPrivilegeSet object (Wbemdisp.h)
@@ -192,7 +192,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

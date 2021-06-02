@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMemoryException methods"
 title: EsentMemoryException methods
 TOCTitle: EsentMemoryException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentMemoryException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentMemoryException](dn334636\(v=exchg.10\).md) type exposes the following members.
+The [EsentMemoryException](./esentmemoryexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentMemoryException class](dn334636\(v=exchg.10\).md)
+[EsentMemoryException class](./esentmemoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

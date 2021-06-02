@@ -1,5 +1,5 @@
 ---
-Description: Specifies and configures the services that are to be active in the service domain entered when calling either CoCreateActivity or CoEnterServiceDomain.
+description: Specifies and configures the services that are to be active in the service domain entered when calling either CoCreateActivity or CoEnterServiceDomain.
 ms.assetid: 'f546ded4-255e-4565-b588-f36175902778'
 title: CServiceConfig class (ComSvcs.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ This class is implemented by COM+.
 
 
 
-|            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Requirement | Value |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CLSID      | CLSID\_CServiceConfig                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ProgID     | L"COMSVCS.CServiceConfig"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
@@ -51,7 +51,7 @@ To configure an individual service, call [**QueryInterface**](/windows/desktop/a
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP1 \[desktop apps only\]<br/>                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                 |

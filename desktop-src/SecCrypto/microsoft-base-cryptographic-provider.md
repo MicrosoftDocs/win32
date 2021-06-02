@@ -1,5 +1,5 @@
 ---
-Description: The Microsoft Base Cryptographic Provider is the initial cryptographic service provider (CSP) provider, and is distributed with CryptoAPI versions 1.0 and 2.0. It is a general-purpose provider that supports digital signatures and data encryption.
+description: The Microsoft Base Cryptographic Provider is the initial cryptographic service provider (CSP) provider, and is distributed with CryptoAPI versions 1.0 and 2.0. It is a general-purpose provider that supports digital signatures and data encryption.
 ms.assetid: c36025c5-a407-4a05-8780-23f8107730df
 title: Microsoft Base Cryptographic Provider
 ms.topic: article

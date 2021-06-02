@@ -1,5 +1,5 @@
 ---
-Description: The XMUINT4 structure exposes the following operators.
+description: The XMUINT4 structure exposes the following operators.
 ms.assetid: 2488e70d-01dd-4d98-840e-35eca28ac10b
 title: XMUINT4 Operators
 ms.topic: reference

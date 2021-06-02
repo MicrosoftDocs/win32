@@ -1,5 +1,5 @@
 ---
-Description: Windows has APIs, components, and services that support your desktop apps' use of networking and the Internet.
+description: Windows has APIs, components, and services that support your desktop apps' use of networking and the Internet.
 ms.assetid: f80bf168-4936-4736-bc62-d0a557b3cd58
 title: Networking and Internet
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_CardOnCard association describes relationships about cards that can be plugged into motherboards/baseboards, daughtercards of an adapter, or cards that support special card-like modules.
+description: The CIM\_CardOnCard association describes relationships about cards that can be plugged into motherboards/baseboards, daughtercards of an adapter, or cards that support special card-like modules.
 ms.assetid: a500b29d-d836-4755-b5df-b296e3cbd2ab
 ms.tgt_platform: multiple
 title: CIM_CardOnCard class
@@ -128,7 +128,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

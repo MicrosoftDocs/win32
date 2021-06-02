@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SESID properties"
 title: JET_SESID properties
 TOCTitle: JET_SESID properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_SESID
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_SESID](hh596745\(v=exchg.10\).md) type exposes the following members.
+The [JET_SESID](./jet-sesid-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[JET_SESID structure](hh596745\(v=exchg.10\).md)
+[JET_SESID structure](./jet-sesid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,6 +1,6 @@
 ---
 title: IDeliveryOptimizationFile2::GetProperty method
-description: This method returns a single property of the DO file.
+description: This method returns a single property of the DO file. | IDeliveryOptimizationFile2::GetProperty method
 keywords:
 - GetProperty method
 - GetProperty method, IDeliveryOptimizationFile2 interface
@@ -63,7 +63,7 @@ This method returns the following HRESULT values.
 
 ## Requirements
 
-|                           |                                                                                  |
+| Requirement | Value |
 |---------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client  | Windows 10, version 1803 \[desktop apps only\]                                   |
 | Minimum supported server  | Windows Server, version 1709 \[desktop apps only\]                               |

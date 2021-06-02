@@ -1,5 +1,5 @@
 ---
-Description: Media Stream uses this event to send protection system specific metadata to the decoder.
+description: Media Stream uses this event to send protection system specific metadata to the decoder.
 ms.assetid: 249446CA-AEF7-41A1-98EB-0B9392AE4AD8
 title: MEContentProtectionMetadata event (Mfobjects.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event is used, for example, for communicating key rotation event. In this c
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                  |

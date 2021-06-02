@@ -1,5 +1,5 @@
 ---
-Description: Sets the replication authorization entry for a virtual machine.
+description: Sets the replication authorization entry for a virtual machine.
 ms.assetid: 39b6b0c4-5515-4863-9038-4c37421abe65
 title: SetAuthorizationEntry method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -109,7 +109,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupAbortByServerException properties"
 title: EsentBackupAbortByServerException properties
 TOCTitle: EsentBackupAbortByServerException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentBackupAbortByServerException](dn274014\(v=exchg.10\).md) type exposes the following members.
+The [EsentBackupAbortByServerException](./esentbackupabortbyserverexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentBackupAbortByServerException class](dn274014\(v=exchg.10\).md)
+[EsentBackupAbortByServerException class](./esentbackupabortbyserverexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

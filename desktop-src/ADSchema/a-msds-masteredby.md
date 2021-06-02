@@ -22,7 +22,7 @@ Backward link for msDS-hasMasterNCs.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Mastered-By                       |
 | Ldap-Display-Name | msDs-masteredBy                         |
@@ -48,7 +48,7 @@ Backward link for msDS-hasMasterNCs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2037                            |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ Backward link for msDS-hasMasterNCs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2037                            |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ Backward link for msDS-hasMasterNCs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2037                            |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ Backward link for msDS-hasMasterNCs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2037                            |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ Backward link for msDS-hasMasterNCs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2037                            |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ Backward link for msDS-hasMasterNCs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2037                            |
 | MAPI-Id                | \-                              |

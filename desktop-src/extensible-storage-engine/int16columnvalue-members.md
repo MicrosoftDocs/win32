@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Int16ColumnValue members"
 title: Int16ColumnValue members
 TOCTitle: Int16ColumnValue members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.Int16ColumnValue
@@ -15,7 +16,7 @@ Include inherited members
 
 An [Int16](/dotnet/api/system.int16) column value.
 
-The [Int16ColumnValue](dn351017\(v=exchg.10\).md) type exposes the following members.
+The [Int16ColumnValue](./int16columnvalue-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[Int16ColumnValue class](dn351017\(v=exchg.10\).md)
+[Int16ColumnValue class](./int16columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

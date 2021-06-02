@@ -1,5 +1,5 @@
 ---
-Description: .
+description: Overviews and Tutorials
 ms.assetid: 69c48e7a-e823-4488-b3c5-b8d3f8f79154
 title: Overviews and Tutorials
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Creates an Automation SAFEARRAY of unsigned characters (bytes).
+description: Creates an Automation SAFEARRAY of unsigned characters (bytes).
 ms.assetid: 67cc8cd1-95be-4498-ac25-6c418089af27
 title: ISCardTypeConv::CreateSafeArray method (Scarddat.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ To create a universal buffer of bytes mapped into an **IStream** ([**IByteBuffer
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

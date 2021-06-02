@@ -1,6 +1,6 @@
 ---
 title: MOF strings
-Description: A string is a data type that contains a string of characters usually intended as human-readable text.
+description: A string is a data type that contains a string of characters usually intended as human-readable text.
 ms.assetid: 08a07184-6d23-4988-a3de-e5bfc3e177f8
 ms.tgt_platform: multiple
 ms.topic: article

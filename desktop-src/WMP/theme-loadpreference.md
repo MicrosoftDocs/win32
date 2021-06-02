@@ -48,7 +48,7 @@ Preferences are not encrypted and therefore are not a secure method for persisti
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

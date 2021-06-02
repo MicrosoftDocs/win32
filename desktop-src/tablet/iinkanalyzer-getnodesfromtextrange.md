@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a collection of IContextNode objects that are relevant to the specified text range for the specified context nodes.
+description: Retrieves a collection of IContextNode objects that are relevant to the specified text range for the specified context nodes.
 ms.assetid: 39a5dd52-7007-4395-8668-261eca78a090
 title: IInkAnalyzer::GetNodesFromTextRange method (IACom.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ For example, if the recognized string is "I am late" and you call this method us
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

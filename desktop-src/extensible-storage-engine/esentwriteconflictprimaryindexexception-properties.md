@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentWriteConflictPrimaryIndexException properties"
 title: EsentWriteConflictPrimaryIndexException properties
 TOCTitle: EsentWriteConflictPrimaryIndexException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentWriteConflictPrimaryIndexException](dn350897\(v=exchg.10\).md) type exposes the following members.
+The [EsentWriteConflictPrimaryIndexException](./esentwriteconflictprimaryindexexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentWriteConflictPrimaryIndexException class](dn350897\(v=exchg.10\).md)
+[EsentWriteConflictPrimaryIndexException class](./esentwriteconflictprimaryindexexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

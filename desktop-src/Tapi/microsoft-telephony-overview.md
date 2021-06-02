@@ -1,5 +1,5 @@
 ---
-Description: Telephony integrates computers with communications devices and networks.
+description: Telephony integrates computers with communications devices and networks.
 ms.assetid: c19955cd-e5f5-4c78-b711-31e42e9e38c5
 title: Microsoft Telephony Overview
 ms.topic: article

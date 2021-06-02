@@ -1,5 +1,5 @@
 ---
-Description: The GetGroupOutputPin method retrieves the output pin for the specified group.
+description: The GetGroupOutputPin method retrieves the output pin for the specified group.
 ms.assetid: be4e17b6-15bf-43b1-8d93-d52d08c8bce6
 title: IRenderEngine::GetGroupOutputPin method (Qedit.h)
 ms.topic: reference
@@ -99,7 +99,7 @@ If the method returns S\_OK, the **IPin** interface that it returns has an outst
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

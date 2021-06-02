@@ -1,5 +1,5 @@
 ---
-Description: Imports a key into the Secure Sockets Layer protocol (SSL) protocol provider.
+description: Imports a key into the Secure Sockets Layer protocol (SSL) protocol provider.
 ms.assetid: 42310799-384e-4396-a9d5-5f226ca25a86
 title: SslImportKey function (Sslprovider.h)
 ms.topic: reference
@@ -122,7 +122,7 @@ You can use the **SslImportKey** function to import session keys as a part of th
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

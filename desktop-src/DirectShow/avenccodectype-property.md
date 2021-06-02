@@ -1,5 +1,5 @@
 ---
-Description: Specifies the encoding scheme.
+description: Specifies the encoding scheme.
 ms.assetid: a26951d6-67fb-43fb-849f-331416e9d7c2
 title: AVEncCodecType property (Codecapi.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Applications can set this property to specify which encoding scheme to use. Code
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

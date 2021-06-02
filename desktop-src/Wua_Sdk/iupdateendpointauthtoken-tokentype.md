@@ -1,5 +1,5 @@
 ---
-Description: Gets the type of the endpoint token, such as a WS-Security SAML (Security Assertion Markup Language) 1.1 token.
+description: Gets the type of the endpoint token, such as a WS-Security SAML (Security Assertion Markup Language) 1.1 token.
 ms.assetid: 1C6FFAD7-DC80-4957-96B4-FA0D954786DD
 title: IUpdateEndpointAuthToken::TokenType method (UpdateEndpointAuth.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Returns **S\_OK** if successful. Otherwise, returns a COM or Windows error code.
 
 
 
-|                                     |                                                                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                   |
 | Minimum supported server<br/> | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]<br/>                |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the certificate is for a certification authority (CA).
+description: Retrieves a Boolean value that indicates whether the certificate is for a certification authority (CA).
 ms.assetid: 3ca43475-fe97-4eb4-875d-dbc15a0b953c
 title: BasicConstraints.IsCertificateAuthority property
 ms.topic: reference
@@ -40,7 +40,7 @@ If **True**, the certificate is to be used only by a CA.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

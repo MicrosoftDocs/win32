@@ -1,5 +1,5 @@
 ---
-Description: Clouds are used by the Peer Grouping and Graphing Infrastructures.
+description: Clouds are used by the Peer Grouping and Graphing Infrastructures.
 ms.assetid: 01327211-0461-4922-925e-67bebe3e6158
 title: Clouds
 ms.topic: article

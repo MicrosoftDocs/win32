@@ -1,5 +1,5 @@
 ---
-Description: Defines the vertex data layout. Each vertex can contain one or more data types, and each data type is described by a vertex element.
+description: Defines the vertex data layout. Each vertex can contain one or more data types, and each data type is described by a vertex element.
 ms.assetid: 6f3c40a0-b28e-48d6-acad-ef80a919c5d7
 title: D3DVERTEXELEMENT9 structure (D3D9Types.h)
 ms.topic: reference
@@ -113,7 +113,7 @@ Vertex data is defined using an array of **D3DVERTEXELEMENT9** structures. Use [
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

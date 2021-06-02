@@ -1,5 +1,5 @@
 ---
-Description: The ViewBillboard method of the UIPreview object displays an authored billboard using the host control in the currently displayed dialog box.
+description: The ViewBillboard method of the UIPreview object displays an authored billboard using the host control in the currently displayed dialog box.
 ms.assetid: c51c1a5b-af53-47a8-9281-e790efadcfc4
 title: UIPreview.ViewBillboard method
 ms.topic: reference
@@ -57,7 +57,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

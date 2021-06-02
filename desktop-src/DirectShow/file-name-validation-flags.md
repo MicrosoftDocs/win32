@@ -1,5 +1,5 @@
 ---
-Description: These flags specify the behavior of the media locator.
+description: These flags specify the behavior of the media locator.
 ms.assetid: 60afb2e8-cdd1-493e-8fc8-6fa581720b8d
 title: File Name Validation Flags (Qedit.h)
 ms.topic: reference
@@ -45,7 +45,7 @@ These flags specify the behavior of the media locator.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

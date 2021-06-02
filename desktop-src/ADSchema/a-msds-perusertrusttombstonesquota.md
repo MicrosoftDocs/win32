@@ -22,7 +22,7 @@ Used to enforce a per-user quota for deleting Trusted-Domain objects when author
 
 
 
-|                   |                                           |
+| Entry | Value |
 |-------------------|-------------------------------------------|
 | CN                | MS-DS-Per-User-Trust-Tombstones-Quota     |
 | Ldap-Display-Name | msDS-PerUserTrustTombstonesQuota          |
@@ -47,7 +47,7 @@ Used to enforce a per-user quota for deleting Trusted-Domain objects when author
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -68,7 +68,7 @@ Used to enforce a per-user quota for deleting Trusted-Domain objects when author
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -89,7 +89,7 @@ Used to enforce a per-user quota for deleting Trusted-Domain objects when author
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -110,7 +110,7 @@ Used to enforce a per-user quota for deleting Trusted-Domain objects when author
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |
@@ -131,7 +131,7 @@ Used to enforce a per-user quota for deleting Trusted-Domain objects when author
 
 
 
-|                        |                                              |
+| Entry | Value |
 |------------------------|----------------------------------------------|
 | Link-Id                | \-                                           |
 | MAPI-Id                | \-                                           |

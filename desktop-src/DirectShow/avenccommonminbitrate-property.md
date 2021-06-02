@@ -1,5 +1,5 @@
 ---
-Description: Specifies the minimum bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
+description: Specifies the minimum bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 57ef6c08-3bad-4d8d-8daf-61041b878802
 title: AVEncCommonMinBitRate property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The encoder enforces the minimum bit rate by increasing the encoding quality as 
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogReadVerifyFailureException members"
 title: EsentLogReadVerifyFailureException members
 TOCTitle: EsentLogReadVerifyFailureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentLogReadVerifyFailureException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.LogReadVerifyFailure exceptions.
 
-The [EsentLogReadVerifyFailureException](dn334583\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogReadVerifyFailureException](./esentlogreadverifyfailureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentLogReadVerifyFailureException class](dn334583\(v=exchg.10\).md)
+[EsentLogReadVerifyFailureException class](./esentlogreadverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

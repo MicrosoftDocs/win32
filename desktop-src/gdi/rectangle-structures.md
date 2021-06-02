@@ -1,5 +1,5 @@
 ---
-Description: Rectangle Structures
+description: Rectangle Structures
 ms.assetid: 88700dde-2559-4916-9445-0fdd73da7501
 title: Rectangle Structures
 ms.topic: article

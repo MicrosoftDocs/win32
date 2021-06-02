@@ -1,5 +1,5 @@
 ---
-Description: TAPI methods and functions may return a TAPI\_E\_ constant. These constants indicate the outcome of an API call.
+description: TAPI methods and functions may return a TAPI\_E\_ constant. These constants indicate the outcome of an API call.
 ms.assetid: d242e0e8-99ae-4f5b-9f2d-e7e25953f7c8
 title: TAPI_E_ Constants (Tapi3err.h)
 ms.topic: reference
@@ -109,7 +109,7 @@ TAPI methods and functions may return a TAPI\_E\_ constant. These constants indi
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Tapi3err.h</dt> </dl> |

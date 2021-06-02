@@ -1,5 +1,5 @@
 ---
-Description: Transition
+description: Transition
 ms.assetid: '05bdf19a-644e-4592-9601-5bc430bdc763'
 title: Transition
 ms.topic: article

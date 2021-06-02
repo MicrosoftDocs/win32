@@ -1,5 +1,5 @@
 ---
-Description: AutoRun and AutoPlay
+description: AutoRun and AutoPlay
 title: AutoRun and AutoPlay
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: Describes error codes 4000-5999 defined in the WinError.h header file and is intended for developers.
+description: Describes error codes 4000-5999 defined in the WinError.h header file and is intended for developers.
 ms.assetid: 1d2f7160-6322-4c75-abbc-4a882bbdf7ce
 title: System Error Codes (4000-5999) (WinError.h)
 ms.topic: reference
@@ -3688,7 +3688,7 @@ The operation cannot be completed because the resource is a replica virtual mach
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                  |

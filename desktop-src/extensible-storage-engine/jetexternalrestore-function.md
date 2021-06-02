@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetExternalRestore Function"
 title: JetExternalRestore Function
 TOCTitle: JetExternalRestore Function
 ms:assetid: c930689a-3ea6-4c5a-9318-76f519f23343
@@ -29,18 +30,20 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetExternalRestore Function
 
-The **JetExternalRestore** function restores an external backup that was taken with the external backup APIs and specifies a range of log file numbers to replay during the restore process. This is known as hard recovery, which is similar to but different than soft recovery as performed by the [JetInit](gg294068\(v=exchg.10\).md) function.
+The **JetExternalRestore** function restores an external backup that was taken with the external backup APIs and specifies a range of log file numbers to replay during the restore process. This is known as hard recovery, which is similar to but different than soft recovery as performed by the [JetInit](./jetinit-function.md) function.
 
-    JET_ERR JET_API JetExternalRestore(
-      __in          JET_PSTR szCheckpointFilePath,
-      __in          JET_PSTR szLogPath,
-      __in_opt      JET_RSTMAP* rgrstmap,
-      __in          long crstfilemap,
-      __in          JET_PSTR szBackupLogPath,
-      __in          long genLow,
-      __in          long genHigh,
-      __in          JET_PFNSTATUS pfn
-    );
+```cpp
+JET_ERR JET_API JetExternalRestore(
+  __in          JET_PSTR szCheckpointFilePath,
+  __in          JET_PSTR szLogPath,
+  __in_opt      JET_RSTMAP* rgrstmap,
+  __in          long crstfilemap,
+  __in          JET_PSTR szBackupLogPath,
+  __in          long genLow,
+  __in          long genHigh,
+  __in          JET_PFNSTATUS pfn
+);
+```
 
 ### Parameters
 
@@ -54,7 +57,7 @@ The path or directory for the logs for the final phase (undo) of recovery, and p
 
 *rgrstmap*
 
-This is an array of [JET_RSTMAP](gg294077\(v=exchg.10\).md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of databases to restore.
+This is an array of [JET_RSTMAP](./jet-rstmap-structure.md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of databases to restore.
 
 *crstfilemap*
 
@@ -78,7 +81,7 @@ The status callback, to report progress of the recovery.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -196,10 +199,9 @@ To understand how the paths work, use this flow chart:
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JET_RSTMAP](gg294077\(v=exchg.10\).md)  
-[JET_LOGINFO](gg294063\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)  
+[JET_RSTMAP](./jet-rstmap-structure.md)  
+[JET_LOGINFO](./jet-loginfo-structure.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetInit](./jetinit-function.md)

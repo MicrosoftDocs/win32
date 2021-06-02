@@ -1,5 +1,5 @@
 ---
-Description: The IsQueued method determines whether the object is using a worker thread to deliver samples.
+description: The IsQueued method determines whether the object is using a worker thread to deliver samples.
 ms.assetid: 8d26661f-6cd7-42ea-bc4b-8746d22a7ca0
 title: COutputQueue.IsQueued method (Outputq.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the object is using a worker thread, or **FALSE** otherwise.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

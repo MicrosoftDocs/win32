@@ -1,5 +1,5 @@
 ---
-Description: Raised by the policy engine when individualization is about to begin. Individualization is performed using the applications implementation of the IMFContentProtectionManager interface.
+description: Raised by the policy engine when individualization is about to begin. Individualization is performed using the applications implementation of the IMFContentProtectionManager interface.
 ms.assetid: a3ba98ee-4d2e-466d-be9a-c7e3b5f920a7
 title: MEIndividualizationStart event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ When license acquisition is completed, the policy engine raises the [MEIndividua
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Pointer to the filter graph manager.
+description: Pointer to the filter graph manager.
 ms.assetid: ad736a2d-1dc5-4be9-8b9b-d2cfb87f2576
 title: CBaseFilter::m_pGraph member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ IFilterGraph *m_pGraph;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Creates a context object that describes the specified tablet device.
+description: Creates a context object that describes the specified tablet device.
 ms.assetid: 76f48485-a958-4457-9b87-73de73fa671e
 title: ITablet::CreateContext method
 ms.topic: reference
@@ -162,7 +162,7 @@ The *dwOptions* parameter is a set of bit flags that describe context options. T
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

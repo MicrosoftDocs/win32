@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManySplitsException members"
 title: EsentTooManySplitsException members
 TOCTitle: EsentTooManySplitsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentTooManySplitsException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.TooManySplits exceptions.
 
-The [EsentTooManySplitsException](dn350850\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManySplitsException](./esenttoomanysplitsexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentTooManySplitsException class](dn350850\(v=exchg.10\).md)
+[EsentTooManySplitsException class](./esenttoomanysplitsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

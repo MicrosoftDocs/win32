@@ -1,5 +1,5 @@
 ---
-Description: This article describes how the Filter Graph Manager locates a source filter, given a file name.
+description: This article describes how the Filter Graph Manager locates a source filter, given a file name.
 ms.assetid: bc0d5719-6325-40fe-8261-ad00b91f272c
 title: Registering a Custom File Type
 ms.topic: article

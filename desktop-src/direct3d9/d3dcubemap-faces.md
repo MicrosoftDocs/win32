@@ -1,5 +1,5 @@
 ---
-Description: Defines the faces of a cubemap.
+description: Defines the faces of a cubemap.
 ms.assetid: 6d18b410-6f22-4202-86ae-6b3ef85e6f69
 title: D3DCUBEMAP_FACES enumeration (D3D9Types.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

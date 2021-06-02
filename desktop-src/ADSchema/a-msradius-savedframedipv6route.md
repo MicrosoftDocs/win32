@@ -1,6 +1,6 @@
 ---
 title: ms-RADIUS-SavedFramedIpv6Route attribute
-description: Provides routing information to be configured for the user on the NAS.
+description: Provides routing information to be configured for the user on the NAS. | ms-RADIUS-SavedFramedIpv6Route attribute
 ms.assetid: dc524a96-0580-4ada-bf05-87cc120f38d8
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-RADIUS-SavedFramedIpv6Route       |
 | Ldap-Display-Name | msRADIUS-SavedFramedIpv6Route        |
@@ -45,7 +45,7 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Provides routing information to be configured for the user on the NAS.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

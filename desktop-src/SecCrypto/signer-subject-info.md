@@ -1,5 +1,5 @@
 ---
-Description: Specifies a subject to sign.
+description: Specifies a subject to sign.
 ms.assetid: ba569443-e50f-450b-82cc-b7328f0ca25a
 title: SIGNER_SUBJECT_INFO structure
 ms.topic: reference
@@ -94,7 +94,7 @@ A pointer to a [**SIGNER\_BLOB\_INFO**](signer-blob-info.md) structure that spec
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidParameterException constructor"
 title: EsentInvalidParameterException constructor 
 TOCTitle: 'EsentInvalidParameterException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidParameterException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidParameterException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidParameterException()
 
 #### Reference
 
-[EsentInvalidParameterException class](dn319601\(v=exchg.10\).md)
+[EsentInvalidParameterException class](./esentinvalidparameterexception-class.md)
 
-[EsentInvalidParameterException members](dn319611\(v=exchg.10\).md)
+[EsentInvalidParameterException members](./esentinvalidparameterexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

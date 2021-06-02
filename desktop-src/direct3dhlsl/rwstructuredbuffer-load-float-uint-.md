@@ -1,6 +1,6 @@
 ---
 title: RWStructuredBuffer::Load(int,uint) function
-description: Reads buffer data and returns status about the operation.
+description: Reads buffer data and returns status about the operation. | RWStructuredBuffer::Load(int,uint) function
 ms.assetid: 19FAA031-F31E-4B73-BC69-489CDF0CF184
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int,uint) function
+# RWStructuredBuffer::Load(int,uint) function
 
 Reads buffer data and returns status about the operation.
 

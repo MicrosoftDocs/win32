@@ -1,5 +1,5 @@
 ---
-Description: Specifies the parameters required to setup a data connection.
+description: Specifies the parameters required to setup a data connection.
 ms.assetid: 7a3d3b9d-f799-4927-9c18-04b025788a4a
 title: Context (MBNProfile) Element
 ms.topic: reference
@@ -38,7 +38,7 @@ The **Context** element is defined by the [**MBNProfile**](schema-mbnprofile-ele
 
 
 
-|                                     |                                                   |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                         |

@@ -1,5 +1,5 @@
 ---
-Description: During system boot, the SCM starts all auto-start services and the services on which they depend. For example, if an auto-start service depends on a demand-start service, the demand-start service is also started automatically.
+description: During system boot, the SCM starts all auto-start services and the services on which they depend. For example, if an auto-start service depends on a demand-start service, the demand-start service is also started automatically.
 ms.assetid: 8aa60e96-a35e-4670-832c-c045d0903618
 title: Automatically Starting Services
 ms.topic: article

@@ -22,7 +22,7 @@ Specifies whether the content is read-only or read/write.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DFSR-ReadOnly                     |
 | Ldap-Display-Name | msDFSR-ReadOnly                      |
@@ -45,7 +45,7 @@ Specifies whether the content is read-only or read/write.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -66,7 +66,7 @@ Specifies whether the content is read-only or read/write.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |
@@ -87,7 +87,7 @@ Specifies whether the content is read-only or read/write.
 
 
 
-|                        |                                                                  |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------|
 | Link-Id                | \-                                                               |
 | MAPI-Id                | \-                                                               |

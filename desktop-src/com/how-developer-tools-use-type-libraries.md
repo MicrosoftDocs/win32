@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The following diagram illustrates how the various development tools interact with a COM object's type library. Each type library exposes standard programmatic interfaces that tools can call to get information about the elements described in that type library. In this diagram, GUID stands for globally unique identifier and RPC for remote procedure call.
 
-![](images/09983c96-3f01-4ad5-8d3e-12b8ed28c35d.png)
+![Diagram that shows how development toold interact with a C O M object's type library.](images/09983c96-3f01-4ad5-8d3e-12b8ed28c35d.png)
 
 In the preceding diagram, the C++ conversion tools, such as the MIDL compiler and the wizards provided by the Microsoft Visual C++ development system, generate header and stub files. You can add these files to your project in order to use the COM object described by the type library.
 

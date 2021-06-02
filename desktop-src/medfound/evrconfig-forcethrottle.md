@@ -1,5 +1,5 @@
 ---
-Description: Forces the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwidth.
+description: Forces the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwidth.
 ms.assetid: e81e67d6-aa72-44c1-90e9-72ab18bca1c9
 title: EVRConfig_ForceThrottle attribute (Uuids.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from strmiids.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

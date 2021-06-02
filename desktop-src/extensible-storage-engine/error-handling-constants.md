@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Error Handling Constants"
 title: Error Handling Constants
 TOCTitle: Error Handling Constants
 ms:assetid: 5a1f9438-2d36-483e-9820-d0de30ee5e01
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## Error Handling Constants
 
-The following constants are used to set the range for the [JET_paramExceptionAction](gg269173\(v=exchg.10\).md) system parameters.
+The following constants are used to set the range for the [JET_paramExceptionAction](./error-handling-parameters.md) system parameters.
 
 <table>
 <colgroup>
@@ -78,5 +79,4 @@ The following constants are used to set the range for the [JET_paramExceptionAct
 
 ### See Also
 
-[Error Handling Parameters](gg269173\(v=exchg.10\).md)
-
+[Error Handling Parameters](./error-handling-parameters.md)

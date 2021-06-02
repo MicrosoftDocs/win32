@@ -1,5 +1,5 @@
 ---
-Description: Loads a list of strings into the most recently used (MRU) list from the registry.
+description: Loads a list of strings into the most recently used (MRU) list from the registry.
 title: IACLCustomMRU::Initialize method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -12,14 +12,6 @@ api_type:
 - COM
 api_location: 
 ms.assetid: 358921b0-46c4-4428-b0b5-57a44fc3247b
-api_name: 
- - IACLCustomMRU.Initialize
-api_type: 
- - COM
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -71,7 +63,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

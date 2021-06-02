@@ -1,5 +1,5 @@
 ---
-Description: Represents experiment trigger information.
+description: Represents experiment trigger information.
 MS-HAID: vspixengine.ExperimentTrigger
 MSHAttr:
 - PreferredSiteName:MSDN

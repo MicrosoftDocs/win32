@@ -1,5 +1,5 @@
 ---
-Description: Uses NTFS compression to compress the logical file (or directory) that is specified in the object path. This method is inherited from CIM\_LogicalFile.
+description: CompressEx method of the CIM_DataFile class - Uses NTFS compression to compress the logical file (or directory) that is specified in the object path. This method is inherited from CIM\_LogicalFile.
 ms.assetid: 553b6a90-d16c-4abb-9015-66fe8e1606f6
 ms.tgt_platform: multiple
 title: CompressEx method of the CIM_DataFile class
@@ -174,7 +174,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

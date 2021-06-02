@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfSessionsException constructor"
 title: EsentOutOfSessionsException constructor 
 TOCTitle: 'EsentOutOfSessionsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentOutOfSessionsException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentOutOfSessionsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentOutOfSessionsException()
 
 #### Reference
 
-[EsentOutOfSessionsException class](dn319800\(v=exchg.10\).md)
+[EsentOutOfSessionsException class](./esentoutofsessionsexception-class.md)
 
-[EsentOutOfSessionsException members](dn319759\(v=exchg.10\).md)
+[EsentOutOfSessionsException members](./esentoutofsessionsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

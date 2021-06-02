@@ -1,5 +1,5 @@
 ---
-Description: Renames the codec file specified in the object path.
+description: Renames the codec file specified in the object path.
 ms.assetid: fd6ce02c-d513-4643-ac27-313c32732f1e
 ms.tgt_platform: multiple
 title: Rename method of the Win32_CodecFile class
@@ -145,7 +145,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

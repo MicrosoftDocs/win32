@@ -1,5 +1,5 @@
 ---
-Description: Contains the response to a D3DAUTHENTICATEDQUERY\_CHANNELTYPE query.
+description: Contains the response to a D3DAUTHENTICATEDQUERY\_CHANNELTYPE query.
 ms.assetid: 547f7f26-2b9d-48b1-97cc-84a2202c3900
 title: D3DAUTHENTICATEDCHANNEL_QUERYCHANNELTYPE_OUTPUT structure (D3d9types.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ A [**D3DAUTHENTICATEDCHANNELTYPE**](d3dauthenticatedchanneltype.md) value that s
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

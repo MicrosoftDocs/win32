@@ -1,5 +1,5 @@
 ---
-Description: Clipping is used by applications in a variety of ways.
+description: Clipping is used by applications in a variety of ways.
 ms.assetid: f0ecafcb-2fe4-482f-9333-324419740128
 title: About Clipping
 ms.topic: article

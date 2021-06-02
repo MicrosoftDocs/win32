@@ -1,5 +1,5 @@
 ---
-Description: The IsRemoteNPP function indicates whether the given BLOB specifies a remote NPP.
+description: The IsRemoteNPP function indicates whether the given BLOB specifies a remote NPP.
 ms.assetid: 66ee0a9a-3199-479f-baec-da6ae6b46c65
 title: IsRemoteNPP function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ Make certain that the remote and local computer names are different.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

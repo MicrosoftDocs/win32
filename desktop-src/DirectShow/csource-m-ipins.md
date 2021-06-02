@@ -1,5 +1,5 @@
 ---
-Description: Number of pins on the filter.
+description: Number of pins on the filter.
 ms.assetid: dcd3a240-beff-4481-8768-a0c0f69f0bfd
 title: CSource::m_iPins member (Source.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ int m_iPins;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

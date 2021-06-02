@@ -1,5 +1,5 @@
 ---
-Description: Note  Instead of using this legacy function, we recommend that you use the D3DDisassemble API. This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists.
+description: Note  Instead of using this legacy function, we recommend that you use the D3DDisassemble API. This function -- which disassembles a compiled shader into a text string that contains assembly instructions and register assignments -- no longer exists.
 ms.assetid: f94264f8-121a-4bb7-bf1f-cc5d2cac6cd2
 title: D3DX10DisassembleShader function (D3DX10Core.h)
 ms.topic: reference
@@ -127,7 +127,7 @@ if( pVSBuf )
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3DX10Core.h</dt> </dl> |
 

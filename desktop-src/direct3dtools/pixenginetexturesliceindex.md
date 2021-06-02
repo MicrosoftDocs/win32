@@ -1,5 +1,5 @@
 ---
-Description: Represents the index of a texture slice.
+description: Represents the index of a texture slice.
 MS-HAID: vspixengine.PixEngineTextureSliceIndex
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,5 +1,5 @@
 ---
-Description: WIA represents a camera device as a hierarchical tree of IWiaItem objects.
+description: WIA represents a camera device as a hierarchical tree of IWiaItem objects.
 ms.assetid: fbb2821c-7f13-4fdd-a2ea-582be303855a
 title: WIA Camera Devices
 ms.topic: article

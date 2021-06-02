@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of other collections.
+description: Represents a collection of other collections.
 ms.assetid: 1f7f5517-55d9-44a3-b0ca-444a9d7d5941
 title: Msvm_ManagementCollection class
 ms.topic: reference
@@ -82,7 +82,7 @@ An user-defined name for the collection. Note this is not guaranteed to be uniqu
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

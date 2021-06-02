@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginExternalBackupInstance Function"
 title: JetBeginExternalBackupInstance Function
 TOCTitle: JetBeginExternalBackupInstance Function
 ms:assetid: f1c5a73d-b1cc-4ee4-942b-b5e4ef51bc2f
@@ -82,13 +83,13 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-The system may generate success or failure codes as a result of a call to this function. For a complete list of errors for this API, see [Extensible Storage Engine Error Codes](gg269297\(v=exchg.10\).md).
+The system may generate success or failure codes as a result of a call to this function. For a complete list of errors for this API, see [Extensible Storage Engine Error Codes](./extensible-storage-engine-error-codes.md).
 
-See [JetBeginExternalBackup](gg269292\(v=exchg.10\).md).
+See [JetBeginExternalBackup](./jetbeginexternalbackup-function.md).
 
 #### Remarks
 
-**JetBeginExternalBackupInstance** is the first function in a series of functions that must be called to execute a successful online (non-VSS based) backup. See also [JetBeginExternalBackup](gg269292\(v=exchg.10\).md) and [JetStopBackupInstance](gg269309\(v=exchg.10\).md).
+**JetBeginExternalBackupInstance** is the first function in a series of functions that must be called to execute a successful online (non-VSS based) backup. See also [JetBeginExternalBackup](./jetbeginexternalbackup-function.md) and [JetStopBackupInstance](./jetstopbackupinstance-function.md).
 
 An external backup can be used to implement full, incremental, or differential backups.
 
@@ -128,18 +129,17 @@ The backup will be fuzzy, in that the backup will be consistent to a single poin
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetCloseFile](gg294127\(v=exchg.10\).md)  
-[JetEndExternalBackup](gg269176\(v=exchg.10\).md)  
-[JetEndExternalBackupInstance2](gg294047\(v=exchg.10\).md)  
-[JetGetAttachInfo](gg269286\(v=exchg.10\).md)  
-[JetGetLogInfo](gg294055\(v=exchg.10\).md)  
-[JetOpenFile](gg269249\(v=exchg.10\).md)  
-[JetReadFile](gg269257\(v=exchg.10\).md)  
-[JetStopBackup](gg294067\(v=exchg.10\).md)  
-[JetTruncateLog](gg269263\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetCloseFile](./jetclosefile-function.md)  
+[JetEndExternalBackup](./jetendexternalbackup-function.md)  
+[JetEndExternalBackupInstance2](./jetendexternalbackupinstance2-function.md)  
+[JetGetAttachInfo](./jetgetattachinfo-function.md)  
+[JetGetLogInfo](./jetgetloginfo-function.md)  
+[JetOpenFile](./jetopenfile-function.md)  
+[JetReadFile](./jetreadfile-function.md)  
+[JetStopBackup](./jetstopbackup-function.md)  
+[JetTruncateLog](./jettruncatelog-function.md)

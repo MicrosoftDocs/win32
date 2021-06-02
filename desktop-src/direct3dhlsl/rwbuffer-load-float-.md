@@ -1,6 +1,6 @@
 ---
 title: RWBuffer::Load(int) function
-description: Reads buffer data.
+description: Reads buffer data. | RWBuffer::Load(int) function
 ms.assetid: 3066E244-DE56-4F0D-8443-018B9EFEC1FF
 keywords:
 - Load function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Load(int) function
+# RWBuffer::Load(int) function
 
 Reads buffer data.
 

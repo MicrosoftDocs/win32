@@ -1,5 +1,5 @@
 ---
-Description: Specifies which key index should be used to encrypt wireless traffic. This is only used when keyType is set to &\#0034;networkKey&\#0034;.
+description: Specifies which key index should be used to encrypt wireless traffic. This is only used when keyType is set to &\#0034;networkKey&\#0034;.
 ms.assetid: 5629605d-4c23-4318-8f09-939e13302552
 title: keyIndex (security) Element
 ms.topic: reference
@@ -43,7 +43,7 @@ The element is defined by the [**security**](wlan-profileschema-security-msm-ele
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

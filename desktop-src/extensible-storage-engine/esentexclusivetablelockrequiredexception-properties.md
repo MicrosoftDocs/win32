@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExclusiveTableLockRequiredException properties"
 title: EsentExclusiveTableLockRequiredException properties
 TOCTitle: EsentExclusiveTableLockRequiredException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentExclusiveTableLockRequiredException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentExclusiveTableLockRequiredException](dn274257\(v=exchg.10\).md) type exposes the following members.
+The [EsentExclusiveTableLockRequiredException](./esentexclusivetablelockrequiredexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentExclusiveTableLockRequiredException class](dn274257\(v=exchg.10\).md)
+[EsentExclusiveTableLockRequiredException class](./esentexclusivetablelockrequiredexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

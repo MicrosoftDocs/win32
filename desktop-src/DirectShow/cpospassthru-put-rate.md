@@ -1,5 +1,5 @@
 ---
-Description: The put\_Rate method sets the playback rate. This method implements the IMediaPosition::put\_Rate method.
+description: The put\_Rate method sets the playback rate. This method implements the IMediaPosition::put\_Rate method.
 ms.assetid: c077f344-de34-4f8a-8e08-6d7086a5a4f1
 title: CPosPassThru.put_Rate method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Negative rates indicate reverse play. Not all media will support reverse play.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

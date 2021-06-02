@@ -1,5 +1,5 @@
 ---
-Description: Represents printer capability information.
+description: Represents printer capability information.
 ms.assetid: 70120739-a4e0-4b87-ac7a-40a42fb509ee
 title: PRINTPROCESSOR_CAPS_2 structure (Winspool.h)
 ms.topic: reference
@@ -132,7 +132,7 @@ When an application calls [**GetPrinterData**](getprinterdata.md), the spooler c
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_PackagedComponent association represents an explicit relationship in which a component is typically contained by a physical package, such as a chassis or card.
+description: The CIM\_PackagedComponent association represents an explicit relationship in which a component is typically contained by a physical package, such as a chassis or card.
 ms.assetid: ef0cdbc4-41ee-4517-92ca-61cfcbe64c36
 ms.tgt_platform: multiple
 title: CIM_PackagedComponent class
@@ -115,7 +115,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

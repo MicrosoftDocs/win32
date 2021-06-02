@@ -1,5 +1,5 @@
 ---
-Description: The AddBeforeI method inserts an item before the specified position.
+description: The AddBeforeI method inserts an item before the specified position.
 ms.assetid: d310e303-889a-43a6-bda5-2e7b805b25d1
 title: CBaseList.AddBeforeI method (Wxlist.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If *pos* is **NULL**, this method adds the item to the tail of the list (equival
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

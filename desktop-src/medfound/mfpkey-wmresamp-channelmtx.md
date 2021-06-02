@@ -1,5 +1,5 @@
 ---
-Description: Specifies the channel matrix, which is used to convert the source channels into the destination channels (for example, to convert 5.1 to stereo).
+description: Specifies the channel matrix, which is used to convert the source channels into the destination channels (for example, to convert 5.1 to stereo).
 ms.assetid: 2f2a82bd-f051-4b05-a9c8-37aa4403fab4
 title: MFPKEY_WMRESAMP_CHANNELMTX Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ then you would specify the array as:
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

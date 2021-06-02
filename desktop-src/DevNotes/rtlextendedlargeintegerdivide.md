@@ -1,5 +1,5 @@
 ---
-Description: Divides extended integers.
+description: Divides extended integers.
 ms.assetid: d46f65f0-6c41-4cb2-9882-5b11f7aae3ca
 title: RtlExtendedLargeIntegerDivide function
 ms.topic: reference
@@ -71,7 +71,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                      |
+| Requirement | Value |
 |----------------|--------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Ntdll.dll</dt> </dl> |
 

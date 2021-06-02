@@ -22,7 +22,7 @@ Holds the absolute expiration time of a dynamic object in the directory.
 
 
 
-|                   |                                                               |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------|
 | CN                | ms-DS-Entry-Time-To-Die                                       |
 | Ldap-Display-Name | msDS-Entry-Time-To-Die                                        |
@@ -48,7 +48,7 @@ Holds the absolute expiration time of a dynamic object in the directory.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -69,7 +69,7 @@ Holds the absolute expiration time of a dynamic object in the directory.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -90,7 +90,7 @@ Holds the absolute expiration time of a dynamic object in the directory.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -111,7 +111,7 @@ Holds the absolute expiration time of a dynamic object in the directory.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -132,7 +132,7 @@ Holds the absolute expiration time of a dynamic object in the directory.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |
@@ -153,7 +153,7 @@ Holds the absolute expiration time of a dynamic object in the directory.
 
 
 
-|                        |                                                      |
+| Entry | Value |
 |------------------------|------------------------------------------------------|
 | Link-Id                | \-                                                   |
 | MAPI-Id                | \-                                                   |

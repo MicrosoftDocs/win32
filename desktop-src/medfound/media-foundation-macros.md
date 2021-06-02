@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Macros
+description: Media Foundation Macros
 ms.assetid: c460b1cd-13d7-4b65-a755-23b2ea87864d
 title: Media Foundation Macros
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: When you use Windows GDI+ to draw a line, you provide the starting point and ending point of the line, but you don't have to provide any information about the individual pixels on the line.
+description: When you use Windows GDI+ to draw a line, you provide the starting point and ending point of the line, but you don't have to provide any information about the individual pixels on the line.
 ms.assetid: 7c4869c1-76ff-42d1-abf1-387121943b2a
 title: Antialiasing with Lines and Curves
 ms.topic: article

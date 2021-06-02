@@ -1,5 +1,5 @@
 ---
-Description: Indicates that the ShellFolderView object has finished enumerating the folder's contents.
+description: Indicates that the ShellFolderView object has finished enumerating the folder's contents.
 title: ShellFolderViewOC.EnumDone event (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 7baa5f58-62c2-406e-a81e-4ca9c446a756
-api_name: 
- - EnumDone
-api_type: 
- - DllExport
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -69,7 +60,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

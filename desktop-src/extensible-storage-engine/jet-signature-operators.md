@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_SIGNATURE operators"
 title: JET_SIGNATURE operators
 TOCTitle: JET_SIGNATURE operators
 ms:assetid: 8d99c598-1c79-00ba-5a3e-d18a90d0ba5c
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_SIGNATURE](hh564644\(v=exchg.10\).md) type exposes the following members.
+The [JET_SIGNATURE](./jet-signature-structure2.md) type exposes the following members.
 
 ## Operators
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_SIGNATURE structure](hh564644\(v=exchg.10\).md)
+[JET_SIGNATURE structure](./jet-signature-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

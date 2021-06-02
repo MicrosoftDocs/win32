@@ -1,5 +1,5 @@
 ---
-Description: The GetTargetRect method retrieves the destination rectangle. This is an internal helper member function.
+description: The GetTargetRect method retrieves the destination rectangle. This is an internal helper member function.
 ms.assetid: bf9d95c9-eee8-46b8-bdee-a7d16777ed83
 title: CBaseControlVideo.GetTargetRect method (Ctlutil.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ In this example, CVideoText is a class derived from [**CBaseControlVideo**](cbas
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

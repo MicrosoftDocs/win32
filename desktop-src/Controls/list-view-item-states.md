@@ -48,7 +48,7 @@ You can use the **LVIS\_OVERLAYMASK** mask to isolate the one-based index of the
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

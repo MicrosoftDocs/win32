@@ -1,5 +1,5 @@
 ---
-Description: BLOBs are used with the Diffie-Hellman provider to export keys from, and import keys into, the cryptographic service provider (CSP).
+description: BLOBs are used with the Diffie-Hellman provider to export keys from, and import keys into, the cryptographic service provider (CSP).
 ms.assetid: 052f2108-d402-41a0-b4ac-e93ba6b06b49
 title: Diffie-Hellman Key BLOBs
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IsPalettised method determines whether the current display format is palettized.
+description: The IsPalettised method determines whether the current display format is palettized.
 ms.assetid: 837c67a2-2438-4779-bdf7-31ee135532ff
 title: CImageDisplay.IsPalettised method (Winutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the format is palettized, or **FALSE** otherwise.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

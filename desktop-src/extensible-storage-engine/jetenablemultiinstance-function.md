@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEnableMultiInstance Function"
 title: JetEnableMultiInstance Function
 TOCTitle: JetEnableMultiInstance Function
 ms:assetid: d88a7b2a-c0d1-47de-9239-3631150d92da
@@ -57,7 +58,7 @@ A pointer to the count of global system parameters that were successfully config
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -103,7 +104,7 @@ If this function fails, the database engine will remain in the current mode. If 
 
 #### Remarks
 
-This function should only be used if the application must configure a given set of system parameters atomically when setting up the database engine for use in a multi-user scenario in the same process. If another method of synchronization is available, it is preferable to call [JetCreateInstance](gg269354\(v=exchg.10\).md) and [JetSetSystemParameter](gg294044\(v=exchg.10\).md) separately.
+This function should only be used if the application must configure a given set of system parameters atomically when setting up the database engine for use in a multi-user scenario in the same process. If another method of synchronization is available, it is preferable to call [JetCreateInstance](./jetcreateinstance-function.md) and [JetSetSystemParameter](./jetsetsystemparameter-function.md) separately.
 
 #### Requirements
 
@@ -143,9 +144,8 @@ This function should only be used if the application must configure a given set 
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SETSYSPARAM](gg269230\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SETSYSPARAM](./jet-setsysparam-structure.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)

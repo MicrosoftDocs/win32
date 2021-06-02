@@ -23,7 +23,7 @@ Specifies the name of the response file. The response file name must immediately
 
 </dd> </dl>
 
-Options in a response file are interpreted as if they were present at that place in the MIDL command line. Each argument in a response file must begin and end on the same line. You cannot use the backslash character (\) to concatenate lines.
+Options in a response file are interpreted as if they were present at that place in the MIDL command line. Each argument in a response file must begin and end on the same line. You cannot use the backslash character (\\) to concatenate lines.
 
 MIDL supports command-line arguments that include one or more response files, combined with other command-line switches:
 

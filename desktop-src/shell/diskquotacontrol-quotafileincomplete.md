@@ -1,5 +1,5 @@
 ---
-Description: Gets a Boolean value that indicates whether the quota file for the volume is complete.
+description: Gets a Boolean value that indicates whether the quota file for the volume is complete.
 ms.assetid: 25eb7df4-ba6c-4c6c-b611-e32b673a4d18
 title: DiskQuotaControl.QuotaFileIncomplete property
 ms.topic: reference
@@ -38,7 +38,7 @@ This property is set to **TRUE** if the quota file is incomplete, or **FALSE** o
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

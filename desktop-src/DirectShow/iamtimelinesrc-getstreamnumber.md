@@ -1,5 +1,5 @@
 ---
-Description: The GetStreamNumber method retrieves the current stream number for the source object.
+description: The GetStreamNumber method retrieves the current stream number for the source object.
 ms.assetid: c9c0c9f7-2716-436d-902c-f2255bedaffb
 title: IAMTimelineSrc::GetStreamNumber method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

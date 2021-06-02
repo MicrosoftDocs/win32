@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNoCopyException constructor"
 title: EsentRecordNoCopyException constructor 
 TOCTitle: 'EsentRecordNoCopyException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordNoCopyException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecordNoCopyException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecordNoCopyException()
 
 #### Reference
 
-[EsentRecordNoCopyException class](dn350517\(v=exchg.10\).md)
+[EsentRecordNoCopyException class](./esentrecordnocopyexception-class.md)
 
-[EsentRecordNoCopyException members](dn350511\(v=exchg.10\).md)
+[EsentRecordNoCopyException members](./esentrecordnocopyexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

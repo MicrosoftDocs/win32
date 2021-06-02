@@ -1,5 +1,5 @@
 ---
-Description: Adds a Certificate object to a Recipients collection.
+description: Adds a Certificate object to a Recipients collection.
 ms.assetid: 2a1b9e0f-ccbf-4042-871b-397de6b6fc35
 title: Recipients.Add method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Recipients.Add method
 
-\[The **Add** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](/dotnet/api/system.security.cryptography.pkcs.cmsrecipientcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Add** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](/dotnet/api/system.security.cryptography.pkcs.cmsrecipientcollection?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Add** method adds a [**Certificate**](certificate.md) object to a [**Recipients**](recipients.md) collection.
 
@@ -51,7 +51,7 @@ This method does not return a value.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

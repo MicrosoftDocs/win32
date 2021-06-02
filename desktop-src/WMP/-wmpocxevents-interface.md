@@ -1,5 +1,5 @@
 ---
-title: '_WMPOCXEvents Interface' (Wmp.h)
+title: '_WMPOCXEvents Interface (Wmp.h)'
 description: The \_WMPOCXEvents interface provides the same events as the IWMPEvents, IWMPEvents2, IWMPEvents3, and IWMPEvents4 interfaces, but inherits from IDispatch rather than IUnknown.
 ms.assetid: 883d538e-19b6-417b-a32d-622c41c24b9c
 keywords:
@@ -24,7 +24,7 @@ The **\_WMPOCXEvents** interface provides the same events as the **IWMPEvents**,
 
 
 
-|                   |                                                                                  |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wmp.h</dt> </dl> |
 

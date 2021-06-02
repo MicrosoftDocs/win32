@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Title property.
+description: The photo metadata policy for the System.Title property.
 ms.assetid: 84da345e-ec03-48fe-8fda-043b706e4e1c
 title: System.Title Photo Metadata Policy
 ms.topic: article

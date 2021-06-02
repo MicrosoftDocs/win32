@@ -1,5 +1,5 @@
 ---
-Description: The RemovePalette method deletes the existing logical palette and calls CBaseWindow::UnsetPalette on the CBaseWindow object.
+description: The RemovePalette method deletes the existing logical palette and calls CBaseWindow::UnsetPalette on the CBaseWindow object.
 ms.assetid: fab531b8-8630-43f8-bf08-cd8f24659bef
 title: CImagePalette.RemovePalette method (Winutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns S\_OK.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

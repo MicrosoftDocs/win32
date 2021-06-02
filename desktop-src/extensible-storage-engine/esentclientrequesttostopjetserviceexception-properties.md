@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentClientRequestToStopJetServiceException properties"
 title: EsentClientRequestToStopJetServiceException properties
 TOCTitle: EsentClientRequestToStopJetServiceException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentClientRequestToStopJetServiceException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentClientRequestToStopJetServiceException](dn274150\(v=exchg.10\).md) type exposes the following members.
+The [EsentClientRequestToStopJetServiceException](./esentclientrequesttostopjetserviceexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentClientRequestToStopJetServiceException class](dn274150\(v=exchg.10\).md)
+[EsentClientRequestToStopJetServiceException class](./esentclientrequesttostopjetserviceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string.
+description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string.
 ms.assetid: 49ba57b8-3e08-425f-98b2-52ed2c41a488
 title: enumeratedList
 ms.topic: article

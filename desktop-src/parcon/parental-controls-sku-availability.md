@@ -1,5 +1,5 @@
 ---
-Description: Parental Controls SKU Availability
+description: Parental Controls SKU Availability
 ms.assetid: 5fbf6c4a-3897-4a12-bef6-19478fdb48aa
 title: Parental Controls SKU Availability
 ms.topic: article

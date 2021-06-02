@@ -1,5 +1,5 @@
 ---
-Description: The simplest way of creating a namespace is to use Managed Object Format (MOF) code to create the namespace inside the current directory. The current directory is defined when you log on.
+description: The simplest way of creating a namespace is to use Managed Object Format (MOF) code to create the namespace inside the current directory. The current directory is defined when you log on.
 ms.assetid: 2b83cd96-079f-4178-9e5a-68ede3a92066
 ms.tgt_platform: multiple
 title: Creating a Child Namespace with MOF Code
@@ -44,7 +44,7 @@ The following procedure describes how to create a child namespace using MOF code
     The following code example shows how to set a security descriptor on the namespace.
 
     ``` syntax
-#pragma namespace("\\\\.\\root\\MyNamespace")
+    #pragma namespace("\\\\.\\root\\MyNamespace")
 
     [NamespaceSecuritySDDL ("O:AUG:AUD:(A;CI;0x00060033;;;WD)")]
     Instance of __Namespace

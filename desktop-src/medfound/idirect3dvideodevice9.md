@@ -1,5 +1,5 @@
 ---
-Description: Enables hardware-accelerated decoding from a Direct3D 9 device, using DirectX Video Acceleration (DXVA) version 1.0.
+description: Enables hardware-accelerated decoding from a Direct3D 9 device, using DirectX Video Acceleration (DXVA) version 1.0.
 ms.assetid: abe3beac-f3f8-413d-8b83-9da3340b19ac
 title: IDirect3DVideoDevice9 interface (Dxva.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This interface supports DXVA 1.0 only. It does not support DXVA 2.0.
 
 
 
-|                                     |                                                                                   |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                              |

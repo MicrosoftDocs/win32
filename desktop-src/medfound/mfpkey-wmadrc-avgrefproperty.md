@@ -1,5 +1,5 @@
 ---
-Description: Specifies the average volume level of audio content.
+description: Specifies the average volume level of audio content.
 ms.assetid: eabb36ff-300f-4ed1-aca3-9415627ac1a7
 title: MFPKEY_WMADRC_AVGREF Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ For more information on dynamic range control see the web article [Windows Media
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

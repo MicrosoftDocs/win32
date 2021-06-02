@@ -1,5 +1,5 @@
 ---
-Description: Signals that either the number of available angles changed or that the current angle number changed.
+description: Signals that either the number of available angles changed or that the current angle number changed.
 ms.assetid: 0564b0e3-6434-448b-80fb-5362ab67fef7
 title: EC_DVD_ANGLE_CHANGE (Dvdevcode.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ This event is raised in all domains.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

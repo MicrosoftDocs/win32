@@ -1,5 +1,5 @@
 ---
-Description: The AddAfterI method inserts an item after the specified position.
+description: The AddAfterI method inserts an item after the specified position.
 ms.assetid: 6da6c1ed-5f22-4364-b636-64b5a0ce1560
 title: CBaseList.AddAfterI method (Wxlist.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ If *pos* is **NULL**, this method adds the item to the head of the list (equival
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

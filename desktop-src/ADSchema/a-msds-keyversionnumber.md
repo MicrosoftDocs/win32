@@ -22,7 +22,7 @@ The Kerberos version number of the current key for this account. This is a const
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DS-KeyVersionNumber               |
 | Ldap-Display-Name | msDS-KeyVersionNumber                |
@@ -47,7 +47,7 @@ The Kerberos version number of the current key for this account. This is a const
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -68,7 +68,7 @@ The Kerberos version number of the current key for this account. This is a const
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -89,7 +89,7 @@ The Kerberos version number of the current key for this account. This is a const
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -110,7 +110,7 @@ The Kerberos version number of the current key for this account. This is a const
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -131,7 +131,7 @@ The Kerberos version number of the current key for this account. This is a const
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

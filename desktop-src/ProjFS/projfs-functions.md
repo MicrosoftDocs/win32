@@ -6,7 +6,7 @@ ms.date: 01/17/2020
 ms.topic: article
 ---
 
-# Functions
+# ProjFS functions
 
 The following functions are declared in projectedfslib.h.
 

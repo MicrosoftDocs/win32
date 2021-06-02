@@ -34,7 +34,7 @@ This attribute is not available for media items in the current user's local libr
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 12 or later.<br/> |
 

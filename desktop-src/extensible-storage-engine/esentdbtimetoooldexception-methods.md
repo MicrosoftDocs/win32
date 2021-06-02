@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDbTimeTooOldException methods"
 title: EsentDbTimeTooOldException methods
 TOCTitle: EsentDbTimeTooOldException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDbTimeTooOldException](dn274245\(v=exchg.10\).md) type exposes the following members.
+The [EsentDbTimeTooOldException](./esentdbtimetoooldexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDbTimeTooOldException class](dn274245\(v=exchg.10\).md)
+[EsentDbTimeTooOldException class](./esentdbtimetoooldexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

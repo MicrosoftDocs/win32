@@ -1,5 +1,5 @@
 ---
-Description: After you have created a DLL to receive connection notifications, you must register it with the system.
+description: After you have created a DLL to receive connection notifications, you must register it with the system.
 ms.assetid: 1a389de1-367d-4b07-a420-4af431d48b7f
 title: Registering to Receive Connection Notifications
 ms.topic: article

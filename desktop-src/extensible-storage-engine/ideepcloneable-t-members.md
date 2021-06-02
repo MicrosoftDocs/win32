@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: IDeepCloneable<T> members"
 title: IDeepCloneable(T) members
 TOCTitle: IDeepCloneable(T) members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.IDeepCloneable`1
@@ -15,7 +16,7 @@ Include inherited members
 
 Interface for objects that can be cloned. This creates a deep copy of the object. It is used for cloning meta-data objects.
 
-The [IDeepCloneable\<T\>](hh565368\(v=exchg.10\).md) type exposes the following members.
+The [IDeepCloneable\<T\>](./ideepcloneable-t-interface.md) type exposes the following members.
 
 ## Methods
 
@@ -43,7 +44,6 @@ Top
 
 #### Reference
 
-[IDeepCloneable\<T\> interface](hh565368\(v=exchg.10\).md)
+[IDeepCloneable\<T\> interface](./ideepcloneable-t-interface.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

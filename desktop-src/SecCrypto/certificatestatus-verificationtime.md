@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the time that the certificate was verified.
+description: Sets or retrieves the time that the certificate was verified.
 ms.assetid: 1bd17df3-2fa1-4b99-ab00-659b4ad5fcd9
 title: CertificateStatus.VerificationTime property
 ms.topic: reference
@@ -42,7 +42,7 @@ If this property is not set, the current time is used.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

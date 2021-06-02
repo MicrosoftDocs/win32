@@ -1,5 +1,5 @@
 ---
-Description: Flags for surface and resource creation options.
+description: Flags for surface and resource creation options.
 ms.assetid: b5026566-89b5-458e-b36d-a55e5f8c10c1
 title: DXGI_USAGE (DXGI.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ These flag options are also used by the [**IDXGIDevice::CreateSurface**](/window
 
 
 
-|                   |                                                                                   |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXGI.h</dt> </dl> |
 

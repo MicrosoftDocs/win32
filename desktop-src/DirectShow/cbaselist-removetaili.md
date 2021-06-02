@@ -1,5 +1,5 @@
 ---
-Description: The RemoveTailI method removes the last item in the list.
+description: The RemoveTailI method removes the last item in the list.
 ms.assetid: 3e9f88a5-a681-4494-8977-d9a6ec62a849
 title: CBaseList.RemoveTailI method (Wxlist.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This method deletes the list node, but not the item that is contained in the nod
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

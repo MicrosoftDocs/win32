@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback to modify the CFM\_XXX values passed to IContextMenu::QueryContextMenu.
+description: Allows the callback to modify the CFM\_XXX values passed to IContextMenu::QueryContextMenu.
 title: DFM_MODIFYQCMFLAGS message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -55,7 +55,7 @@ Flags that specify how the context menu can be changed. This parameter uses the 
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                             |

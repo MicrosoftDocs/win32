@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInRelationshipException members"
 title: EsentColumnInRelationshipException members
 TOCTitle: EsentColumnInRelationshipException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnInRelationshipException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ColumnInRelationship exceptions.
 
-The [EsentColumnInRelationshipException](dn334259\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnInRelationshipException](./esentcolumninrelationshipexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentColumnInRelationshipException class](dn334259\(v=exchg.10\).md)
+[EsentColumnInRelationshipException class](./esentcolumninrelationshipexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

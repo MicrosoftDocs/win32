@@ -1,5 +1,5 @@
 ---
-Description: Contains format information for smart recompression.
+description: Contains format information for smart recompression.
 ms.assetid: 471a7b4a-e639-443b-a30e-870b747e072c
 title: SCompFmt0 structure (Qedit.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ Reserved; must be zero.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Qedit.h</dt> </dl> |
 

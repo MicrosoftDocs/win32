@@ -47,7 +47,7 @@ Flag specifying how the file position is changed. The following values are defin
 
 
 
-|           |                                                                                                                        |
+| Requirement | Value |
 |-----------|------------------------------------------------------------------------------------------------------------------------|
 | SEEK\_CUR | Move the file position to be *lNewFilePos* bytes from the current position. *lNewFilePos* can be positive or negative. |
 | SEEK\_END | Move the file position to be *lNewFilePos* bytes from the end of the file.                                             |
@@ -71,7 +71,7 @@ The I/O procedure is responsible for maintaining the current file position in th
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

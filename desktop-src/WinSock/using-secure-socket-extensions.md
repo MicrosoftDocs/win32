@@ -1,5 +1,5 @@
 ---
-Description: Using Secure Socket Extensions
+description: Using Secure Socket Extensions
 ms.assetid: 'd5e2f9d0-c61f-42d3-b62b-6c75b221ae24'
 title: Using Secure Socket Extensions
 ms.topic: article

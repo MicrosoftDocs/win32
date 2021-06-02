@@ -1,5 +1,5 @@
 ---
-Description: The Pause method signals the streaming thread to become active.
+description: The Pause method signals the streaming thread to become active.
 ms.assetid: c97da113-c5a7-422d-9215-70b556e0b8ca
 title: CSourceStream.Pause method (Source.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The [**CSourceStream::Active**](csourcestream-active.md) method calls this metho
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

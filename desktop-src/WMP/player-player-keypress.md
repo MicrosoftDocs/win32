@@ -1,6 +1,6 @@
 ---
 title: Player.KeyPress event
-description: The KeyPress event occurs when a key is pressed and released.
+description: The KeyPress event occurs when a key is pressed and released. | Player.KeyPress event
 ms.assetid: fc51dfd3-7968-464a-a4e2-669ffcb52a59
 keywords:
 - KeyPress event Windows Media Player
@@ -60,7 +60,7 @@ The value of event parameters is specified by Windows Media Player, and can be a
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 9 Series or later.<br/>                                 |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

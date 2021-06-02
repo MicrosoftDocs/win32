@@ -1,5 +1,5 @@
 ---
-Description: Removes a virtual machine replication relationship and acts on the primary replication relationship of the virtual machine.
+description: Removes a virtual machine replication relationship and acts on the primary replication relationship of the virtual machine.
 ms.assetid: a9a20aa1-378d-4a2a-9ebc-9786ab2dfda7
 title: RemoveReplicationRelationship method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -106,7 +106,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: The MoveToHead method splits the list and inserts the tail portion at the head of another list.
+description: The MoveToHead method splits the list and inserts the tail portion at the head of another list.
 ms.assetid: 46e4f8fe-6707-44c6-9d49-0168b35d2364
 title: CBaseList.MoveToHead method (Wxlist.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This method splits the list before the position specified by the *pos* parameter
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

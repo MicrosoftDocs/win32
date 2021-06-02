@@ -1,5 +1,5 @@
 ---
-Description: Delete the logical audio or video codec file (or directory) specified in the object path.
+description: Delete the logical audio or video codec file (or directory) specified in the object path.
 ms.assetid: df85c8a4-3be3-4bde-b36e-6bc8af6495a9
 ms.tgt_platform: multiple
 title: DeleteEx method of the Win32_CodecFile class
@@ -153,7 +153,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

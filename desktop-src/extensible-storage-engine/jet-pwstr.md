@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_PWSTR"
 title: JET_PWSTR
 TOCTitle: JET_PWSTR
 ms:assetid: 6575f0f0-d022-4e70-9f17-c1d884d9e226

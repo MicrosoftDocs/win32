@@ -1,5 +1,5 @@
 ---
-Description: A security context is the set of security attributes and rules in effect during a communication session.
+description: A security context is the set of security attributes and rules in effect during a communication session.
 ms.assetid: 6c87448b-5b8d-4694-ac3f-be83a258fbb0
 title: SSPI Context Semantics
 ms.topic: article

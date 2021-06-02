@@ -1,5 +1,5 @@
 ---
-Description: The Show method shows or hides the dialog box. This method implements the IPropertyPage::Show method.
+description: The Show method shows or hides the dialog box. This method implements the IPropertyPage::Show method.
 ms.assetid: 03796779-ed41-4b68-852d-6b1849a9dc10
 title: CBasePropertyPage.Show method (Cprop.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 ## Requirements
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

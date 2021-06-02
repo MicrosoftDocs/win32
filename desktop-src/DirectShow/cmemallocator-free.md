@@ -1,5 +1,5 @@
 ---
-Description: The Free method is called during a decommit operation.
+description: The Free method is called during a decommit operation.
 ms.assetid: 71a84730-ca71-4418-bf76-52fd42fc7a5a
 title: CMemAllocator.Free method (Amfilter.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -40,7 +40,7 @@ You can edit the star rating of a media item in a remote library only if the rem
 
 
 
-|                    |                                    |
+| Requirement | Value |
 |--------------------|------------------------------------|
 | Version<br/> | Windows Media Player 12<br/> |
 

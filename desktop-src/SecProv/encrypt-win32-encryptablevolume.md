@@ -1,5 +1,5 @@
 ---
-Description: Begins encryption of a fully decrypted volume, or resumes encryption of a partially encrypted volume.
+description: Begins encryption of a fully decrypted volume, or resumes encryption of a partially encrypted volume.
 ms.assetid: bba8b800-309b-4268-8278-db69827bbdf6
 title: Encrypt method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -164,7 +164,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: AVI Compressor Filter
+description: AVI Compressor Filter
 ms.assetid: addde51d-2982-4964-b16a-406fea89a0ce
 title: AVI Compressor Filter
 ms.topic: article
@@ -21,7 +21,7 @@ If the codec supports an old-style VFW configuration dialog box or About dialog 
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMVfwCompressDialogs**](/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), IPersistPropertyBag, ISpecifyPropertyPages                                                                                                             |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_NULL                                                                                                                                                                                                               |

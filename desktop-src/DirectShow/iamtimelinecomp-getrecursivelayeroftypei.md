@@ -1,5 +1,5 @@
 ---
-Description: Not supported. Call the IAMTimelineComp::GetRecursiveLayerOfType method instead.
+description: Not supported. Call the IAMTimelineComp::GetRecursiveLayerOfType method instead.
 ms.assetid: 857f57e2-6123-43c3-bb74-62afd0fc0b52
 title: IAMTimelineComp::GetRecursiveLayerOfTypeI method (Qedit.h)
 ms.topic: reference
@@ -83,7 +83,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The main data objects in WMI are classes and instances. The following table lists the different techniques available for retrieving data from a WMI class or instance.
+description: The main data objects in WMI are classes and instances. The following table lists the different techniques available for retrieving data from a WMI class or instance.
 ms.assetid: efd64464-1db9-44f7-9614-88598a2e8f07
 ms.tgt_platform: multiple
 title: Retrieving WMI Class or Instance Data

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVOwnerMapAlreadyExistsException members"
 title: EsentSLVOwnerMapAlreadyExistsException members
 TOCTitle: EsentSLVOwnerMapAlreadyExistsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVOwnerMapAlreadyExistsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVOwnerMapAlreadyExistsException](dn334804\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVOwnerMapAlreadyExistsException](./esentslvownermapalreadyexistsexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +161,6 @@ Top
 
 #### Reference
 
-[EsentSLVOwnerMapAlreadyExistsException class](dn334804\(v=exchg.10\).md)
+[EsentSLVOwnerMapAlreadyExistsException class](./esentslvownermapalreadyexistsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

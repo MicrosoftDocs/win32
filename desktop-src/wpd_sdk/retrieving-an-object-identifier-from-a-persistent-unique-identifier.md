@@ -1,5 +1,5 @@
 ---
-Description: Retrieving an Object Identifier from a Persistent Unique Identifier
+description: Retrieving an Object Identifier from a Persistent Unique Identifier
 ms.assetid: 146f8943-d4e1-4b87-a812-e534082a4f14
 title: Retrieving an Object Id from a Persistent Unique Id
 ms.topic: article

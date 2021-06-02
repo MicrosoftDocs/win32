@@ -1,5 +1,5 @@
 ---
-Description: Although this mechanism is sufficient for simple applications, it cannot support the complex message-dispatching requirements of more advanced applications such as those using the Multiple Document Interface (MDI) model.
+description: Although this mechanism is sufficient for simple applications, it cannot support the complex message-dispatching requirements of more advanced applications such as those using the Multiple Document Interface (MDI) model.
 ms.assetid: e4558e71-bbec-415a-a7c2-9025a4d6c474
 title: Blocking Hook
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Implements an allocator that supports the IMemAllocator interface.
+description: Implements an allocator that supports the IMemAllocator interface.
 ms.assetid: c40eccef-d915-4bf3-81b2-b20e000718fb
 title: CMemAllocator class (Amfilter.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ This class derives from [**CBaseAllocator**](cbaseallocator.md). For more inform
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

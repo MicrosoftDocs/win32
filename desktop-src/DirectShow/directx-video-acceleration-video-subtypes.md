@@ -1,5 +1,5 @@
 ---
-Description: The following subtypes are used by decoders that are using DirectX Video Acceleration (DXVA).
+description: The following subtypes are used by decoders that are using DirectX Video Acceleration (DXVA).
 ms.assetid: 031b076b-cdfa-407f-8efa-391bce3075ef
 title: DirectX Video Acceleration Video Subtypes (Dshow.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ The following subtypes are used by decoders that are using DirectX Video Acceler
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

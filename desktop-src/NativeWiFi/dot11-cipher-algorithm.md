@@ -1,5 +1,5 @@
 ---
-Description: Defines a cipher algorithm for data encryption and decryption.
+description: Defines a cipher algorithm for data encryption and decryption.
 ms.assetid: 6b634d76-a159-438e-8fc6-5f05b326ed68
 title: DOT11_CIPHER_ALGORITHM enumeration (Wlantypes.h)
 ms.topic: reference
@@ -117,7 +117,7 @@ Specifies the end of the range that is used to define proprietary cipher algorit
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                        |

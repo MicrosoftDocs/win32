@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_RemoteFileSystem class represents a remote file system that is accessed by way of a network-related service. In this case, the file store is hosted by a computer, which acts as a file server.
+description: The CIM\_RemoteFileSystem class represents a remote file system that is accessed by way of a network-related service. In this case, the file store is hosted by a computer, which acts as a file server.
 ms.assetid: 932970a8-0ab3-45d8-912d-c4ba7cf433b5
 ms.tgt_platform: multiple
 title: CIM_RemoteFileSystem class
@@ -583,7 +583,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

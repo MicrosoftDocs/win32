@@ -1,5 +1,5 @@
 ---
-Description: The NTEventLogEventConsumer class logs a specific message to the operating system event log when an event is delivered to it.
+description: The NTEventLogEventConsumer class logs a specific message to the operating system event log when an event is delivered to it.
 ms.assetid: cf986812-f09a-4f32-ba76-db76a23e2e4c
 ms.tgt_platform: multiple
 title: NTEventLogEventConsumer class
@@ -332,7 +332,7 @@ For an example of using **NTEventLogEventConsumer** to create a consumer, see [L
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

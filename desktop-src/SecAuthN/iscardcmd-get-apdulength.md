@@ -1,5 +1,5 @@
 ---
-Description: Determines the length, in bytes, f the application protocol data unit (APDU).
+description: Determines the length, in bytes, f the application protocol data unit (APDU).
 ms.assetid: 005345d0-afdd-4534-9926-12378546d0ef
 title: ISCardCmd::get_ApduLength method (Scarddat.h)
 ms.topic: reference
@@ -94,7 +94,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Draws formatted text. This method supports ANSI and Unicode strings.
+description: Draws formatted text. This method supports ANSI and Unicode strings.
 ms.assetid: c1c3657e-632e-46a5-91da-e102ac8ef9bb
 title: ID3DXFont::DrawText method (D3dx9core.h)
 ms.topic: reference
@@ -139,7 +139,7 @@ This method supports only fonts whose escapement and orientation are both zero.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

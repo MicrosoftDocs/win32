@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the hashed data after successful calls to the Hash method.
+description: Retrieves the hashed data after successful calls to the Hash method.
 ms.assetid: 02ba92d2-38eb-4c01-99b9-11676e7d49ff
 title: HashedData.Value property
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # HashedData.Value property
 
-\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1) namespace.\]
+\[CAPICOM is a 32-bit only component that is available for use in the following operating systems: Windows Server 2008, Windows Vista, and Windows XP. Instead, use the [**HashAlgorithm Class**](/previous-versions/windows/) in the [**System.Security.Cryptography**](/dotnet/api/system.security.cryptography?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Value** property retrieves the hashed data after successful calls to the [**Hash**](hasheddata-hash.md) method. The hash value is returned in hexadecimal format. This is the default property.
 
@@ -42,7 +42,7 @@ To create the hash of a large amount of data, call the [**Hash**](hasheddata-has
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

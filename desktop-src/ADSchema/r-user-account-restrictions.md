@@ -21,7 +21,7 @@ Property set containing user attributes that describe account restrictions.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | User-Account-Restrictions            |
 | Display-Name | Account Restrictions                 |
@@ -43,7 +43,7 @@ Property set containing user attributes that describe account restrictions.
 
 
 
-|                         |                                                                                                                                                                                                                               |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/>                                                                                                                                                   |
 | Localization-Display-ID | 9                                                                                                                                                                                                                             |
@@ -55,7 +55,7 @@ Property set containing user attributes that describe account restrictions.
 
 
 
-|                         |                                                                                                                                                                                                                                                                                                                              |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                              |
 | Localization-Display-ID | 9                                                                                                                                                                                                                                                                                                                            |
@@ -67,7 +67,7 @@ Property set containing user attributes that describe account restrictions.
 
 
 
-|                         |                                                                                                                                                                                                       |
+| Entry | Value |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | \-                                                                                                                                                                                                    |
 | Localization-Display-ID | 9                                                                                                                                                                                                     |
@@ -79,7 +79,7 @@ Property set containing user attributes that describe account restrictions.
 
 
 
-|                         |                                                                                                                                                                                                                                                                                                                              |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                              |
 | Localization-Display-ID | 9                                                                                                                                                                                                                                                                                                                            |
@@ -91,7 +91,7 @@ Property set containing user attributes that describe account restrictions.
 
 
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                                                                                                   |
 | Localization-Display-ID | 9                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -103,7 +103,7 @@ Property set containing user attributes that describe account restrictions.
 
 
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                  |
 | Localization-Display-ID | 9                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -115,7 +115,7 @@ Property set containing user attributes that describe account restrictions.
 
 
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Entry | Value |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/>                                                                                                                                                                                                                  |
 | Localization-Display-ID | 9                                                                                                                                                                                                                                                                                                                                                                                                                                 |

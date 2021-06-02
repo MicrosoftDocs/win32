@@ -1,5 +1,5 @@
 ---
-Description: The Media Session is an object that manages data flow in the pipeline. It can be used for both playing and encoding files.
+description: The Media Session is an object that manages data flow in the pipeline. It can be used for both playing and encoding files.
 ms.assetid: 'dac99908-be90-415d-8837-2f97d573feb5'
 title: Media Session
 ms.topic: article

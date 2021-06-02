@@ -1,5 +1,5 @@
 ---
-Description: Describes a quaternion.
+description: D3DXQUATERNION structure (D3dx9math.h) - Describes a quaternion.
 ms.assetid: 3d88ed17-5b0a-46d5-8fe6-d66e1fa26c13
 title: D3DXQUATERNION structure (D3dx9math.h)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - d3dx9math.h
 ---
 
-# D3DXQUATERNION structure
+# D3DXQUATERNION structure (D3dx9math.h)
 
 Describes a quaternion.
 
@@ -101,7 +101,7 @@ C++ programmers can take advantage of operator overloading and type casting with
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9math.h</dt> </dl> |
 

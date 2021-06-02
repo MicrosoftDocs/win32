@@ -1,5 +1,5 @@
 ---
-Description: The OnWaitStart method updates times spent waiting and not waiting.
+description: The OnWaitStart method updates times spent waiting and not waiting.
 ms.assetid: 3f2e2bf2-f205-4b59-b969-cf8c2136437d
 title: CBaseVideoRenderer.OnWaitStart method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This member function is called when starting to wait for a rendering event. It i
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

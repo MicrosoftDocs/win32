@@ -1,5 +1,5 @@
 ---
-Description: A semaphore object is a synchronization object that maintains a count between zero and a specified maximum value.
+description: A semaphore object is a synchronization object that maintains a count between zero and a specified maximum value.
 ms.assetid: d9da1d98-a306-4e2d-a149-1eef6a724751
 title: Semaphore Objects
 ms.topic: article

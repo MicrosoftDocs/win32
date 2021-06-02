@@ -44,7 +44,7 @@ For an example, see [How to Draw Text](how-to--draw-text.md).
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>D2d1.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D2d1.dll</dt> </dl> |

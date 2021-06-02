@@ -1,5 +1,5 @@
 ---
-Description: The ICertConfig2 interface exposes the following methods.
+description: The ICertConfig2 interface exposes the following methods.
 ms.assetid: 210591C1-CCB9-49A3-84D7-25FD4EB0EC39
 title: ICertConfig2 Methods
 ms.topic: reference

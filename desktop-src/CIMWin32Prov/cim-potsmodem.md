@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_POTSModem class represents a device that translates binary data into wave modulations for sound-based transmission by connecting to the Plain Old Telephone System (POTS) network.
+description: The CIM\_POTSModem class represents a device that translates binary data into wave modulations for sound-based transmission by connecting to the Plain Old Telephone System (POTS) network.
 ms.assetid: 2740f305-769d-464c-910a-998522f5121b
 ms.tgt_platform: multiple
 title: CIM_POTSModem class
@@ -1714,7 +1714,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

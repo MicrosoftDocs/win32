@@ -1,6 +1,6 @@
 ---
 title: Texture2DArray::Sample(S,float,int,float,uint) function
-description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
+description: Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation. | Texture2DArray::Sample(S,float,int,float,uint) function
 ms.assetid: 0F9DBC0D-F35D-4A7A-B8F5-1EFBF7E14615
 keywords:
 - Sample function HLSL
@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 api_location: 
 ---
 
-# Sample(S,float,int,float,uint) function
+# Texture2DArray::Sample(S,float,int,float,uint) function
 
 Samples a texture with an optional value to clamp sample level-of-detail (LOD) values to, and returns status of the operation.
 

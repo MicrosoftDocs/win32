@@ -1,5 +1,5 @@
 ---
-Description: .
+description: System.Contact.ConnectedServiceIdentities
 ms.assetid: 265032ef-4cc7-4fcc-8294-d14ca184c4f2
 title: System.Contact.ConnectedServiceIdentities
 ms.topic: article

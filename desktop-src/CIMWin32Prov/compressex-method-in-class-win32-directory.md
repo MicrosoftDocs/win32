@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical directory entry file (or directory) specified in the object path (this method is an extended version of the Compress method).
+description: Compresses the logical directory entry file (or directory) specified in the object path (this method is an extended version of the Compress method).
 ms.assetid: 6b6e559c-4ca6-49d4-b255-5e1511fdf2e2
 ms.tgt_platform: multiple
 title: CompressEx method of the Win32_Directory class
@@ -168,7 +168,7 @@ A parameter specified is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

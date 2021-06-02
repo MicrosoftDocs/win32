@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications that the computer is about to enter a suspended state.
+description: Notifies applications that the computer is about to enter a suspended state.
 ms.assetid: 61b177a0-4cff-4740-bed8-a46c06c43be8
 title: PBT_APMSUSPEND event (WinUser.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ The system allows approximately two seconds for an application to handle this no
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

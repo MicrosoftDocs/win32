@@ -1,5 +1,5 @@
 ---
-Description: This event is not supported.
+description: EC_RENDER_FINISHED - This event is not supported.
 ms.assetid: a7d207c0-3d93-468a-b463-1eab68b286a2
 title: EC_RENDER_FINISHED (Dshow.h)
 ms.topic: reference
@@ -14,7 +14,7 @@ This event is not supported.
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

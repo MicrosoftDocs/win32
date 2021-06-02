@@ -22,7 +22,7 @@ To be set only when the link is created. Stable across rename or move as long as
 
 
 
-|                   |                                                       |
+| Entry | Value |
 |-------------------|-------------------------------------------------------|
 | CN                | ms-DFS-Link-Identity-GUID-v2                          |
 | Ldap-Display-Name | msDFS-LinkIdentityGUIDv2                              |
@@ -45,7 +45,7 @@ To be set only when the link is created. Stable across rename or move as long as
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
@@ -66,7 +66,7 @@ To be set only when the link is created. Stable across rename or move as long as
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
@@ -87,7 +87,7 @@ To be set only when the link is created. Stable across rename or move as long as
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |

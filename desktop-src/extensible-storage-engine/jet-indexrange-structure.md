@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXRANGE Structure"
 title: JET_INDEXRANGE Structure
 TOCTitle: JET_INDEXRANGE Structure
 ms:assetid: 8e437f7d-1e21-4a0b-a5a5-1c78235a4f80
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_INDEXRANGE Structure
 
-The **JET_INDEXRANGE** structure identifies an index range when it is used with the [JetIntersectIndexes](gg269289\(v=exchg.10\).md) function.
+The **JET_INDEXRANGE** structure identifies an index range when it is used with the [JetIntersectIndexes](./jetintersectindexes-function.md) function.
 
 ```cpp
     typedef struct {
@@ -42,7 +43,7 @@ The size, in bytes, of the **JET_INDEXRANGE**.
 
 **tableid**
 
-A cursor that has previously had an index range set with [JetSetIndexRange](gg294112\(v=exchg.10\).md).
+A cursor that has previously had an index range set with [JetSetIndexRange](./jetsetindexrange-function.md).
 
 **grbit**
 
@@ -74,7 +75,7 @@ A bitmask composed of exactly one of the following.
 
 ### Remarks
 
-Each **JET_INDEXRANGE** structure that is passed to [JetIntersectIndexes](gg269289\(v=exchg.10\).md) represents an index range, which will be intersected by the API call. The cursor that is given in **JET_INDEXRANGE** must have a valid index range set on it already, with a successful call to [JetSetIndexRange](gg294112\(v=exchg.10\).md).
+Each **JET_INDEXRANGE** structure that is passed to [JetIntersectIndexes](./jetintersectindexes-function.md) represents an index range, which will be intersected by the API call. The cursor that is given in **JET_INDEXRANGE** must have a valid index range set on it already, with a successful call to [JetSetIndexRange](./jetsetindexrange-function.md).
 
 ### Requirements
 
@@ -102,10 +103,9 @@ Each **JET_INDEXRANGE** structure that is passed to [JetIntersectIndexes](gg2692
 
 ### See Also
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetIntersectIndexes](gg269289\(v=exchg.10\).md)  
-[JetSetIndexRange](gg294112\(v=exchg.10\).md)
-
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetIntersectIndexes](./jetintersectindexes-function.md)  
+[JetSetIndexRange](./jetsetindexrange-function.md)

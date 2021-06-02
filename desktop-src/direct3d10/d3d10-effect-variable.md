@@ -1,5 +1,5 @@
 ---
-Description: These constants apply to effect variables.
+description: These constants apply to effect variables.
 ms.assetid: ef996443-b558-4aa6-acc1-38f8a89c9855
 title: D3D10_EFFECT_VARIABLE Constants
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: Destroys an existing reference point collection. This method may as a side effect destroy other reference points that are dependent on the affected reference point collection.
+description: Destroys an existing reference point collection. This method may as a side effect destroy other reference points that are dependent on the affected reference point collection.
 ms.assetid: 72c116f4-f844-494c-96ea-e97c49a2af7e
 title: DestroyReferencePoint method of the Msvm_CollectionReferencePointService class
 ms.topic: reference
@@ -92,7 +92,7 @@ If successful, returns either 0 (no error), or 4096 (job started); otherwise, re
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

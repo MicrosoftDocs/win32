@@ -1,5 +1,5 @@
 ---
-Description: The installer sets the RedirectedDLLSupport property if the system platform performing the installation supports Isolated Components.
+description: The installer sets the RedirectedDLLSupport property if the system platform performing the installation supports Isolated Components.
 ms.assetid: 703489c4-cac4-442c-bd96-d3927491a864
 title: RedirectedDLLSupport property
 ms.topic: reference
@@ -18,7 +18,7 @@ The **RedirectedDLLSupport** property can be used to condition the [IsolateCompo
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

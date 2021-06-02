@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Reference"
 title: Extensible Storage Engine Reference
 TOCTitle: Extensible Storage Engine Reference
 ms:assetid: 5033f53b-72f1-4a28-926e-242461863071
@@ -26,29 +27,28 @@ _**Applies to:** Windows | Windows Server_
 
 The Extensible Storage Engine Reference contains the following sections:
 
-  - [Extensible Storage Engine Callback Functions](gg294129\(v=exchg.10\).md)
+  - [Extensible Storage Engine Callback Functions](./extensible-storage-engine-callback-functions.md)
 
 <!-- end list -->
 
-  - [Extensible Storage Engine Constants](gg269351\(v=exchg.10\).md)
+  - [Extensible Storage Engine Constants](./extensible-storage-engine-constants.md)
 
 <!-- end list -->
 
-  - [Extensible Storage Engine Data Types](gg269226\(v=exchg.10\).md)
+  - [Extensible Storage Engine Data Types](./extensible-storage-engine-data-types.md)
 
 <!-- end list -->
 
-  - [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)
+  - [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)
 
 <!-- end list -->
 
-  - [Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)
+  - [Extensible Storage Engine Files](./extensible-storage-engine-files.md)
 
 <!-- end list -->
 
-  - [Extensible Storage Engine Functions](gg294078\(v=exchg.10\).md)
+  - [Extensible Storage Engine Functions](./extensible-storage-engine-functions.md)
 
 <!-- end list -->
 
-  - [Extensible Storage Engine Structures](gg269187\(v=exchg.10\).md)
-
+  - [Extensible Storage Engine Structures](./extensible-storage-engine-structures.md)

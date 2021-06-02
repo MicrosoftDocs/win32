@@ -1,5 +1,5 @@
 ---
-Description: Active Directory is the directory service for Windows and is the foundation of Windows distributed networks.
+description: Active Directory is the directory service for Windows and is the foundation of Windows distributed networks.
 ms.assetid: e7569754-87c3-4a18-bfed-a03a32a2ee22
 ms.tgt_platform: multiple
 title: Accessing Active Directory

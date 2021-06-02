@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth class of device service information.
+description: Bluetooth class of device service information.
 ms.assetid: db47f362-82e1-4fce-b0aa-4fc6cd3db102
 title: System.Devices.Aep.Bluetooth.Cod.Services.Information
 ms.topic: article

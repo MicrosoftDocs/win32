@@ -22,7 +22,7 @@ Contains an object that the NIS server uses for temporary storage.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | msSFU-30-Result-Attributes                  |
 | Ldap-Display-Name | msSFU30ResultAttributes                     |
@@ -46,7 +46,7 @@ Contains an object that the NIS server uses for temporary storage.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -67,7 +67,7 @@ Contains an object that the NIS server uses for temporary storage.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -88,7 +88,7 @@ Contains an object that the NIS server uses for temporary storage.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -109,7 +109,7 @@ Contains an object that the NIS server uses for temporary storage.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

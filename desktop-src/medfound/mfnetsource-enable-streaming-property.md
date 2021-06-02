@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether all streaming protocols are enabled.
+description: Specifies whether all streaming protocols are enabled.
 ms.assetid: cf072572-58f7-429a-954a-8808d05248f0
 title: MFNETSOURCE_ENABLE_STREAMING property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the network source. To set the p
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

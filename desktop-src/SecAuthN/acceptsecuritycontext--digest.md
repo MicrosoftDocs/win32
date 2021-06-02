@@ -1,7 +1,7 @@
 ---
-Description: 'Enables the server component of a transport application to establish a security context between the server and a remote client that is using Digest.'
+description: 'Enables the server component of a transport application to establish a security context between the server and a remote client that is using Digest.'
 ms.assetid: '017683e3-b21a-4e97-9232-582ac7dbd5b2'
-title: 'AcceptSecurityContext (Digest) function' (Sspi.h)
+title: 'AcceptSecurityContext (Digest) function (Sspi.h)'
 ms.topic: article
 ms.date: 07/25/2019
 ---
@@ -186,7 +186,7 @@ After the [*security context*](../secgloss/s-gly.md) has been established, the s
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

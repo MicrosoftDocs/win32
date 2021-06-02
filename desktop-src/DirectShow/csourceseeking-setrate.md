@@ -1,5 +1,5 @@
 ---
-Description: The SetRate method sets the playback rate. This method implements the IMediaSeeking::SetRate method.
+description: CSourceSeeking.SetRate method - The SetRate method sets the playback rate. This method implements the IMediaSeeking::SetRate method.
 ms.assetid: 954e2381-207a-47d9-a0a5-87dc325f52b4
 title: CSourceSeeking.SetRate method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method updates the value of the [**CSourceSeeking::m\_dRateSeeking**](csour
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

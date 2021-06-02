@@ -22,7 +22,7 @@ A list of metadata for each replicated attribute. The metadata indicates who cha
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Repl-Attribute-Meta-Data              |
 | Ldap-Display-Name | msDS-ReplAttributeMetaData                  |
@@ -48,7 +48,7 @@ A list of metadata for each replicated attribute. The metadata indicates who cha
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ A list of metadata for each replicated attribute. The metadata indicates who cha
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ A list of metadata for each replicated attribute. The metadata indicates who cha
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ A list of metadata for each replicated attribute. The metadata indicates who cha
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ A list of metadata for each replicated attribute. The metadata indicates who cha
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ A list of metadata for each replicated attribute. The metadata indicates who cha
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | \-                              |

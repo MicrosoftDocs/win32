@@ -1,5 +1,5 @@
 ---
-Description: The CreateDIB method creates a GDI device-independent bitmap (DIB). The DIB is allocated in a shared mempory block, which eliminates a copy operation when the owning filter blits the image.
+description: The CreateDIB method creates a GDI device-independent bitmap (DIB). The DIB is allocated in a shared mempory block, which eliminates a copy operation when the owning filter blits the image.
 ms.assetid: 8a9ab1cf-4104-48e9-ba6c-28d0f1a1d226
 title: CImageAllocator.CreateDIB method (Winutil.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Returns S\_OK if successful, or an error code otherwise.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

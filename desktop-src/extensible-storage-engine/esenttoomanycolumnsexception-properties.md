@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyColumnsException properties"
 title: EsentTooManyColumnsException properties
 TOCTitle: EsentTooManyColumnsException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentTooManyColumnsException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentTooManyColumnsException](dn334989\(v=exchg.10\).md) type exposes the following members.
+The [EsentTooManyColumnsException](./esenttoomanycolumnsexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentTooManyColumnsException class](dn334989\(v=exchg.10\).md)
+[EsentTooManyColumnsException class](./esenttoomanycolumnsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

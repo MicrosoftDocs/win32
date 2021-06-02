@@ -21,7 +21,7 @@ A string that contains digits.
 
 
 
-|              |                                                                        |
+| Entry | Value |
 |--------------|------------------------------------------------------------------------|
 | Name         | String(Numeric)                                                        |
 | Syntax ID    | 2.5.5.6                                                                |

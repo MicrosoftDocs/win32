@@ -1,5 +1,5 @@
 ---
-Description: The maximum number of frames the H.264 encoder takes to respond to a command.
+description: The maximum number of frames the H.264 encoder takes to respond to a command.
 ms.assetid: C856B2B0-4A06-436D-B589-B01DA86DB53D
 title: MF_MT_H264_MAX_CODEC_CONFIG_DELAY attribute (Mfapi.h)
 ms.topic: reference
@@ -34,7 +34,7 @@ This attribute is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                        |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Resource Parameters"
 title: Resource Parameters
 TOCTitle: Resource Parameters
 ms:assetid: 1f61845a-ffa5-4894-9fe0-a58737b3b54e
@@ -151,7 +152,7 @@ This parameter can be used to prevent the database engine from publishing data a
 
 This parameter allows applications that operate in multi-instance mode to pre-allocate memory for version pages in a global pool to emulate the older behavior. This is useful in case the application wishes to guarantee that transactions of a certain size can succeed later on even if memory becomes scarce.
 
-**Windows 2000:**  Enough memory to back all version pages is always reserved at [JetInit](gg294068\(v=exchg.10\).md) time.
+**Windows 2000:**  Enough memory to back all version pages is always reserved at [JetInit](./jetinit-function.md) time.
 
 **Windows XP:**  As of Windows XP, this is still true when in single instance mode. However, version page memory is dynamically allocated when in multi-instance mode.
 
@@ -212,7 +213,7 @@ This parameter allows applications that operate in multi-instance mode to pre-al
 *JET_paramMaxCursors*  
 8  
 
-This parameter reserves the requested number of cursor resources for use by an instance. A cursor resource directly corresponds to a [JET_TABLEID](gg269182\(v=exchg.10\).md) data type. This setting will affect how many cursors can be used at the same time. A cursor resource cannot be shared by different sessions so this parameter must be set to a large enough value so that each session can use as many cursors as are required.
+This parameter reserves the requested number of cursor resources for use by an instance. A cursor resource directly corresponds to a [JET_TABLEID](./jet-tableid.md) data type. This setting will affect how many cursors can be used at the same time. A cursor resource cannot be shared by different sessions so this parameter must be set to a large enough value so that each session can use as many cursors as are required.
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
@@ -395,7 +396,7 @@ In general, you will need two resources plus one resource per secondary index pe
 *JET_paramMaxSessions*  
 5  
 
-This parameter reserves the requested number of session resources for use by an instance. A session resource directly corresponds to a [JET_SESID](gg269253\(v=exchg.10\).md) data type. This setting will affect how many sessions can be used at the same time.
+This parameter reserves the requested number of session resources for use by an instance. A session resource directly corresponds to a [JET_SESID](./jet-sesid.md) data type. This setting will affect how many sessions can be used at the same time.
 
 **Windows 2000, Windows XP and Windows Server 2003:**  Large values for this parameter will consume address space and may increase memory usage.
 
@@ -925,6 +926,5 @@ This parameter controls the number of background cleanup work items that can be 
 
 ### See Also
 
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)

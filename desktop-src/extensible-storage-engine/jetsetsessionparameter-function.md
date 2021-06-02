@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetSessionParameter Function"
 title: JetSetSessionParameter Function
 TOCTitle: JetSetSessionParameter Function
 ms:assetid: 11aecf42-22ef-4bea-a3d7-961a7bdc85aa
@@ -59,7 +60,7 @@ The size of the data provided.
 
 ### Return value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -180,12 +181,11 @@ On failure, the system parameter value will remain unchanged.
 
 #### See also
 
-[JET_API_PTR](gg269209\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetGetSystemParameter](gg269291\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_API_PTR](./jet-api-ptr.md)  
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetGetSystemParameter](./jetgetsystemparameter-function.md)  
+[JetInit](./jetinit-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

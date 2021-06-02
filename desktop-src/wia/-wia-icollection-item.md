@@ -1,5 +1,5 @@
 ---
-Description: Returns the specified item in the collection
+description: Returns the specified item in the collection
 ms.assetid: c013508f-ce77-4fb2-9bf4-21fcba1284f3
 title: Collection.Item property
 ms.topic: reference
@@ -36,7 +36,7 @@ propVal = Collection.Item
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

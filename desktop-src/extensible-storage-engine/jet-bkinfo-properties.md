@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_BKINFO properties"
 title: JET_BKINFO properties
 TOCTitle: JET_BKINFO properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_BKINFO
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_BKINFO](hh577892\(v=exchg.10\).md) type exposes the following members.
+The [JET_BKINFO](./jet-bkinfo-structure2.md) type exposes the following members.
 
 ## Properties
 
@@ -61,7 +62,6 @@ Top
 
 #### Reference
 
-[JET_BKINFO structure](hh577892\(v=exchg.10\).md)
+[JET_BKINFO structure](./jet-bkinfo-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

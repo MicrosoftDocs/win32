@@ -1,5 +1,5 @@
 ---
-Description: Represents settings for the allocation of virtual storage.
+description: Represents settings for the allocation of virtual storage.
 ms.assetid: 128fd3e9-8759-4b2f-a881-d34e89c539ac
 title: CIM_StorageAllocationSettingData class
 ms.topic: reference
@@ -478,7 +478,7 @@ The size, in bytes, of the blocks that form the storage allocation request. If t
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

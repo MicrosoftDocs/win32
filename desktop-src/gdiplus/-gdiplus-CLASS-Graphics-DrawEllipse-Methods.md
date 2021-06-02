@@ -1,5 +1,5 @@
 ---
-Description: This topic lists the DrawEllipse methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
+description: This topic lists the DrawEllipse methods of the Graphics class. For a complete list of methods for the Graphics class, see Graphics.
 ms.assetid: 1abaee7d-63a5-4786-b08c-f3b59e50f180
 title: Graphics.DrawEllipse methods
 ms.date: 07/02/2019

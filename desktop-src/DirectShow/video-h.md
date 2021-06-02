@@ -1,5 +1,5 @@
 ---
-Description: This topic contains code for the tutorial Audio/Video Playback in DirectShow.
+description: This topic contains code for the tutorial Audio/Video Playback in DirectShow.
 ms.assetid: 5f7d5647-cdf0-4bb7-a4d5-09656c0ed702
 title: video.h
 ms.topic: article

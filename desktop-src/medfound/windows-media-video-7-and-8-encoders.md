@@ -1,5 +1,5 @@
 ---
-Description: The Windows Media Video 7/8 encoder implements previous versions of the Windows Media Video encoder.
+description: The Windows Media Video 7/8 encoder implements previous versions of the Windows Media Video encoder.
 ms.assetid: c4165614-b9ec-4216-b36c-f57bc05e3a8e
 title: Windows Media Video 7/8 Encoder (Wmcodecdsp.h)
 ms.topic: reference
@@ -273,7 +273,7 @@ Read-only<br />
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows XP, Windows Vista or Windows 7<br/>                                       |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

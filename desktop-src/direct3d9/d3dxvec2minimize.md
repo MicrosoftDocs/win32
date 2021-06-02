@@ -1,5 +1,5 @@
 ---
-Description: Returns a 2D vector that is made up of the smallest components of two 2D vectors.
+description: Returns a 2D vector that is made up of the smallest components of two 2D vectors.
 ms.assetid: 6944523e-33dd-456e-9cc2-17760d76c548
 title: D3DXVec2Minimize function (D3dx9math.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

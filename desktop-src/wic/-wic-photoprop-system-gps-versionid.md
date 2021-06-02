@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.VersionID property.
+description: The photo metadata policy for the System.GPS.VersionID property.
 ms.assetid: d3c88243-8744-4bb3-ab47-38b5354f6f7e
 title: System.GPS.VersionID Photo Metadata Policy
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Building the Recompression Graph
+description: Building the Recompression Graph
 ms.assetid: 8f25c60e-30be-4cc4-b924-b8d6654604d3
 title: Building the Recompression Graph
 ms.topic: article

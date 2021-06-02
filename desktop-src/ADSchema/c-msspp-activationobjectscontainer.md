@@ -22,7 +22,7 @@ Container for Activation Objects used by Active Directory based activation
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-SPP-Activation-Objects-Container  |
 | Ldap-Display-Name | msSPP-ActivationObjectsContainer     |
@@ -42,7 +42,7 @@ Container for Activation Objects used by Active Directory based activation
 
 
 
-|                             |                                                                   |
+| Entry | Value |
 |-----------------------------|-------------------------------------------------------------------|
 | System-Only                 | False                                                             |
 | Object-Category             | 1                                                                 |

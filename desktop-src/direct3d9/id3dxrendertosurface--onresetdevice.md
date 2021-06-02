@@ -1,5 +1,5 @@
 ---
-Description: Use this method to re-acquire resources and save initial state.
+description: ID3DXRenderToSurface::OnResetDevice method - Use this method to re-acquire resources and save initial state.
 ms.assetid: a326a465-ee90-466d-8e46-22e082e9533c
 title: ID3DXRenderToSurface::OnResetDevice method (D3dx9core.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ ID3DXRenderToSurface::OnResetDevice should be called each time the device is res
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9core.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: The topics in this section provide examples demonstrating IWICBitmapSource-related tasks.
+description: The topics in this section provide examples demonstrating IWICBitmapSource-related tasks.
 ms.assetid: c4925a04-b590-4312-a5ca-7997523d3587
 title: Bitmap Sources How-to Topics
 ms.topic: article

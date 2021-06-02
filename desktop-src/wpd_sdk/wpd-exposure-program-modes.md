@@ -1,5 +1,5 @@
 ---
-Description: The WPD\_EXPOSURE\_PROGRAM\_MODES enumeration type describes an exposure mode to use when capturing images with a device.
+description: The WPD\_EXPOSURE\_PROGRAM\_MODES enumeration type describes an exposure mode to use when capturing images with a device.
 ms.assetid: 68b76294-6ad3-4f4a-bf02-bc31c9e8ac62
 title: WPD_EXPOSURE_PROGRAM_MODES enumeration (PortableDevice.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ Indicates the exposure program mode of the device. This enumeration is used by t
 
 
 
-|                   |                                                                                             |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>PortableDevice.h</dt> </dl> |
 

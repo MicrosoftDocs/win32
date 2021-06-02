@@ -22,7 +22,7 @@ Security descriptor of the DFS links's re-parse point on the file system.
 
 
 
-|                   |                                                     |
+| Entry | Value |
 |-------------------|-----------------------------------------------------|
 | CN                | ms-DFS-Link-Security-Descriptor-v2                  |
 | Ldap-Display-Name | msDFS-LinkSecurityDescriptorv2                      |
@@ -45,7 +45,7 @@ Security descriptor of the DFS links's re-parse point on the file system.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -66,7 +66,7 @@ Security descriptor of the DFS links's re-parse point on the file system.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |
@@ -87,7 +87,7 @@ Security descriptor of the DFS links's re-parse point on the file system.
 
 
 
-|                        |                                                     |
+| Entry | Value |
 |------------------------|-----------------------------------------------------|
 | Link-Id                | \-                                                  |
 | MAPI-Id                | \-                                                  |

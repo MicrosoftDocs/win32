@@ -1,6 +1,6 @@
 ---
 title: templates (ProviderType) Element
-description: Defines a list of templates that specify the data to include with the events.
+description: Defines a list of templates that specify the data to include with the events. | templates (ProviderType) Element
 ms.assetid: bc1cd2ef-200c-40e5-a3cd-013c0a79a049
 keywords:
 - templates element EventLog
@@ -31,7 +31,7 @@ The **templates** element is defined by the [**ProviderType**](eventmanifestsche
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

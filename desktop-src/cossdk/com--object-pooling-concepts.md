@@ -1,5 +1,5 @@
 ---
-Description: Object pooling is an automatic service provided by COM+ that enables you to configure a component to have instances of itself kept active in a pool, ready to be used by any client that requests the component.
+description: Object pooling is an automatic service provided by COM+ that enables you to configure a component to have instances of itself kept active in a pool, ready to be used by any client that requests the component.
 ms.assetid: 74a45220-449a-4d89-a979-a206e5e3d3ad
 title: COM+ Object Pooling Concepts
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The tables in this document list wrapper functions from Shlwapi.dll that provide limited Unicode functionality to Windows 95, Windows 98, and Windows Millennium Edition (Windows Me).
+description: The tables in this document list wrapper functions from Shlwapi.dll that provide limited Unicode functionality to Windows 95, Windows 98, and Windows Millennium Edition (Windows Me).
 title: SHLWAPI Wrapper Functions
 ms.topic: reference
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: The following table specifies the most important font metrics for applications that require portable documents and the functions that allow an application to retrieve them.
+description: The following table specifies the most important font metrics for applications that require portable documents and the functions that allow an application to retrieve them.
 ms.assetid: 61f6d244-7397-42af-af58-0ab9d07bf19e
 title: Metrics for Portable Documents
 ms.topic: article

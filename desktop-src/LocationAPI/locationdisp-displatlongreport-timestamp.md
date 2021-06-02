@@ -1,5 +1,5 @@
 ---
-Description: The date and time when the report was generated.
+description: LocationDisp.DispLatLongReport.Timestamp property - The date and time when the report was generated.
 ms.assetid: 3b8036aa-499c-4baf-bcc4-5b6c3f54eb7b
 title: LocationDisp.DispLatLongReport.Timestamp property
 ms.topic: reference
@@ -47,7 +47,7 @@ For an example of how to use this property, see [A Simple LatLong Report Example
 
 
 
-|                                     |                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | None supported<br/>                  |

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Programming Guide
+# Programming Guide (XInput Game Controller APIs)
 
 This guide contains information on how to use the XInput API to interact with the Xbox Controller when it is connected to a Windows PC.
 

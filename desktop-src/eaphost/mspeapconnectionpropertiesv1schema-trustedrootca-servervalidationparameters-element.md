@@ -1,6 +1,6 @@
 ---
-title: TrustedRootCA (ServerValidationParameters) Element
-description: Captures the thumb print of root certificate authorities (CAs) that are trusted by the client.
+title: TrustedRootCA (ServerValidationParameters) Element (v1)
+description: Captures the thumb print of root certificate authorities (CAs) that are trusted by the client. | TrustedRootCA (ServerValidationParameters) Element
 ms.assetid: f0485dcc-8610-4c5b-b4db-6f2a77057489
 keywords:
 - TrustedRootCA element EAPHost
@@ -36,7 +36,7 @@ The thumb print is a hexadecimal string that contains the SHA-1 hash of the cert
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

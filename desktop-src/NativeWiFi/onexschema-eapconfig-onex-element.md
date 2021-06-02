@@ -1,5 +1,5 @@
 ---
-Description: specifies the EAPHost configuration.
+description: specifies the EAPHost configuration.
 ms.assetid: 71ec3ed6-3670-46fc-a24b-580d15297437
 title: EAPConfig (OneX) Element
 ms.topic: reference
@@ -41,7 +41,7 @@ The **EAPConfig** element is defined by the [**OneX**](onexschema-onex-element.m
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

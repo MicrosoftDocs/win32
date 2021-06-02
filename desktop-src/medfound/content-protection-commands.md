@@ -1,5 +1,5 @@
 ---
-Description: Lists the commands for the IDirect3DAuthenticatedChannel9::Configure method.
+description: Lists the commands for the IDirect3DAuthenticatedChannel9::Configure method.
 ms.assetid: 86be7dcf-7b7b-455a-a6ac-8a82b34fdafc
 title: Content Protection Commands
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Decoder Interfaces
+description: Decoder Interfaces
 ms.assetid: b88517cc-06fe-4d83-a6a9-76e1f34293f4
 title: Decoder Interfaces
 ms.topic: article

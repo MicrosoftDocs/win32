@@ -1,5 +1,5 @@
 ---
-Description: The SWbemDateTime object is a helper object to parse and set Common Information Model (CIM) datetime values.
+description: The SWbemDateTime object is a helper object to parse and set Common Information Model (CIM) datetime values.
 ms.assetid: 3dd34c73-3c2b-4d59-827b-169cf8020213
 ms.tgt_platform: multiple
 title: SWbemDateTime object (Wbemdisp.h)
@@ -272,7 +272,7 @@ The following Powershell code translates the code into a format ready to be cons
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

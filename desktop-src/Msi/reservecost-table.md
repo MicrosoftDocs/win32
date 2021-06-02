@@ -1,5 +1,5 @@
 ---
-Description: The ReserveCost table is an optional table that allows the author to reserve an amount of disk space in any directory that depends on the installation state of a component.
+description: The ReserveCost table is an optional table that allows the author to reserve an amount of disk space in any directory that depends on the installation state of a component.
 ms.assetid: 371e72f1-40a2-4ed2-b0ab-33840075ff47
 title: ReserveCost Table
 ms.topic: article

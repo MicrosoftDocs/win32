@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDerivedColumnCorruptionException properties"
 title: EsentDerivedColumnCorruptionException properties
 TOCTitle: EsentDerivedColumnCorruptionException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDerivedColumnCorruptionException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDerivedColumnCorruptionException](dn274270\(v=exchg.10\).md) type exposes the following members.
+The [EsentDerivedColumnCorruptionException](./esentderivedcolumncorruptionexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDerivedColumnCorruptionException class](dn274270\(v=exchg.10\).md)
+[EsentDerivedColumnCorruptionException class](./esentderivedcolumncorruptionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

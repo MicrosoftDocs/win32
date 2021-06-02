@@ -1,5 +1,5 @@
 ---
-Description: A client-implemented interface that allows developers to supply their own credentials dynamically at run time to authenticate non-domain joined containers with Active Directory. 
+description: A client-implemented interface that allows developers to supply their own credentials dynamically at run time to authenticate non-domain joined containers with Active Directory.
 title: ICcgDomainAuthCredentials interface (ccgplugins.h)
 ms.topic: reference
 ms.date: 10/20/2020
@@ -32,7 +32,7 @@ The **ICcgDomainAuthCredentials** interface has these methods.
 
 | Method                                           | Description                                                                                               |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------|
-| [**GetPasswordCredentials**](getpasswordcredentials.md)               | Returns credentials to authenticate a non-domain joined container with Active Directory.<br/>                                                              |
+| [**GetPasswordCredentials**](iccgdomainauthcredentials-getpasswordcredentials.md)               | Returns credentials to authenticate a non-domain joined container with Active Directory.<br/>                                                              |
 
 
 
@@ -42,7 +42,7 @@ The **ICcgDomainAuthCredentials** interface has these methods.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

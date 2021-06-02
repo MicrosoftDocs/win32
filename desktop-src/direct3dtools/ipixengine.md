@@ -1,5 +1,5 @@
 ---
-Description: Original interface for communicating data about a vsglog .
+description: Original interface for communicating data about a vsglog .
 MS-HAID: vspixengine.IPixEngine
 MSHAttr:
 - PreferredSiteName:MSDN

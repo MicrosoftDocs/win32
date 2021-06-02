@@ -1,5 +1,5 @@
 ---
-Description: Contains input data for a D3DAUTHENTICATEDQUERY\_OUTPUTID query.
+description: Contains input data for a D3DAUTHENTICATEDQUERY\_OUTPUTID query.
 ms.assetid: 8864c298-be9a-4ff4-a9c5-996b62937c18
 title: D3DAUTHENTICATEDCHANNEL_QUERYOUTPUTID_INPUT structure (D3d9types.h)
 ms.topic: reference
@@ -71,7 +71,7 @@ The index of the output ID.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

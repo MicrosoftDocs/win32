@@ -1,5 +1,5 @@
 ---
-Description: The known destinations containing the collected data. Available only if the collector is running with the status log enabled.
+description: The known destinations containing the collected data. Available only if the collector is running with the status log enabled.
 ms.assetid: ab0d2949-9808-49c3-8a0c-f2ce9c300a2a
 ms.tgt_platform: multiple
 title: TargetForwardingDestination class
@@ -263,7 +263,7 @@ Timestamp of when this state change was recorded.
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                            |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                       |

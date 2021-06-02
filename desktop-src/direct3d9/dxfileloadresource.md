@@ -1,5 +1,5 @@
 ---
-Description: Identifies resource data. Deprecated.
+description: Identifies resource data. Deprecated.
 ms.assetid: acb379c7-ac80-412f-8891-d5917b3f8da4
 title: DXFILELOADRESOURCE structure (DXFile.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ This structure identifies a resource to be loaded when an application uses the [
 
 
 
-|                   |                                                                                     |
+| Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DXFile.h</dt> </dl> |
 

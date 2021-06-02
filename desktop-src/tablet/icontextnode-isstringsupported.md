@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether recognized string of this IContextNode came from the system dictionary, user dictionary, or word list.
+description: Indicates whether recognized string of this IContextNode came from the system dictionary, user dictionary, or word list.
 ms.assetid: 9eaee549-ae78-4a67-a39e-2096c7d5d9cd
 title: IContextNode::IsStringSupported method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

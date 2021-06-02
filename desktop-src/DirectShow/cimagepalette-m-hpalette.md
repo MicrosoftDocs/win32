@@ -1,5 +1,5 @@
 ---
-Description: The m\_hPalette member variable is a handle to the logical palette that this object manages.
+description: The m\_hPalette member variable is a handle to the logical palette that this object manages.
 ms.assetid: 8c73adc1-0c01-4518-a0dd-17c7bff6c92b
 title: CImagePalette::m_hPalette member (Winutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ HPALETTE m_hPalette;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -107,9 +107,8 @@ Resources can be promoted from the COMMON state based on the following table:
 
 
 
-| State flag                    | Promotable State                             |                                      |
+| State flag                    | Buffers and Simultaneous-Access Textures                             | Non-Simultaneous-Access Textures                                     |
 |-------------------------------|----------------------------------------------|--------------------------------------|
-|                               | **Buffers and Simultaneous-Access Textures** | **Non-Simultaneous-Access Textures** |
 | VERTEX\_AND\_CONSTANT\_BUFFER | Yes                                          | No                                   |
 | INDEX\_BUFFER                 | Yes                                          | No                                   |
 | RENDER\_TARGET                | Yes                                          | No                                   |
@@ -132,7 +131,9 @@ Resources can be promoted from the COMMON state based on the following table:
 
 <sup>\*</sup>Depth-stencil resources must be non-simultaneous-access textures and thus can never be implicitly promoted.
 
-When this access occurs the promotion acts like an implicit resource barrier. For subsequent accesses, resource barriers will be required to change the resource state if necessary. For example, if a resource in the common state is promoted to PIXEL\_SHADER\_RESOURCE in a Draw call and is then used as a copy source, a resource state transition barrier from PIXEL\_SHADER\_RESOURCE to COPY\_SOURCE is needed.
+When this access occurs the promotion acts like an implicit resource barrier. For subsequent accesses, resource barriers will be required to change the resource state if necessary. Note that promotion from one promoted read state into multiple read state is valid, but this is not the case for write states.  
+For example, if a resource in the common state is promoted to PIXEL\_SHADER\_RESOURCE in a Draw call, it can still be promoted to NON_PIXEL\_SHADER\_RESOURCE | PIXEL\_SHADER\_RESOURCE in another Draw call. However, if it is used in a write operation, such as a copy destination, a resource state transition barrier from the combined promoted read states, here NON_PIXEL\_SHADER\_RESOURCE | PIXEL\_SHADER\_RESOURCE, to COPY\_DEST is needed.  
+Similarly, if promoted from COMMON to COPY\_DEST, a barrier is still required to transition from COPY\_DEST to RENDER\_TARGET.
 
 Note that common state promotion is "free" in that there is no need for the GPU to perform any synchronization waits. The promotion represents the fact that resources in the COMMON state should not require additional GPU work or driver tracking to support certain accesses.
 

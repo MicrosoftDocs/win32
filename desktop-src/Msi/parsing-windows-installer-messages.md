@@ -1,5 +1,5 @@
 ---
-Description: An external UI handler can process the list of installer messages specified by the dwMessagedFilter parameter of the MsiSetExternalUI function.
+description: An external UI handler can process the list of installer messages specified by the dwMessagedFilter parameter of the MsiSetExternalUI function.
 ms.assetid: c4405803-9abd-40f4-9090-c075e7dcf293
 title: Parsing Windows Installer Messages
 ms.topic: article

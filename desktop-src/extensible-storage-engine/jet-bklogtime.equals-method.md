@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKLOGTIME.Equals method"
 title: JET_BKLOGTIME.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_BKLOGTIME.Equals
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_BKLOGTIME structure](hh557662\(v=exchg.10\).md)
+[JET_BKLOGTIME structure](./jet-bklogtime-structure2.md)
 
-[JET_BKLOGTIME members](hh565503\(v=exchg.10\).md)
+[JET_BKLOGTIME members](./jet-bklogtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

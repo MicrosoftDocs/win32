@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentWriteConflictPrimaryIndexException members"
 title: EsentWriteConflictPrimaryIndexException members
 TOCTitle: EsentWriteConflictPrimaryIndexException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentWriteConflictPrimaryIndexException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.WriteConflictPrimaryIndex exceptions.
 
-The [EsentWriteConflictPrimaryIndexException](dn350897\(v=exchg.10\).md) type exposes the following members.
+The [EsentWriteConflictPrimaryIndexException](./esentwriteconflictprimaryindexexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentWriteConflictPrimaryIndexException class](dn350897\(v=exchg.10\).md)
+[EsentWriteConflictPrimaryIndexException class](./esentwriteconflictprimaryindexexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The GetInterface function retrieves an interface pointer.
+description: The GetInterface function retrieves an interface pointer.
 ms.assetid: 75fe8849-c779-4d47-a5ff-5a23308c8a21
 title: GetInterface function (Combase.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ This member function performs a thread-safe increment of the reference count. To
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

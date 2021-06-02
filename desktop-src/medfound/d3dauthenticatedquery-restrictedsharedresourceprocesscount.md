@@ -1,5 +1,5 @@
 ---
-Description: Returns the number of processes that are allowed to open shared resources with restricted access.
+description: Returns the number of processes that are allowed to open shared resources with restricted access.
 ms.assetid: e1b9ef18-fd08-4639-9ba9-4bccd33f5d16
 title: D3DAUTHENTICATEDQUERY_RESTRICTEDSHAREDRESOURCEPROCESSCOUNT (D3d9types.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ Returns the number of processes that are allowed to open shared resources with r
 
 
 
-|             |                                                                                                                                                                |
+| Requirement | Value |
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Query GUID  | **D3DAUTHENTICATEDQUERY\_RESTRICTEDSHAREDRESOURCEPROCESSCOUNT**                                                                                                |
 | Input data  | [**D3DAUTHENTICATEDCHANNEL\_QUERY\_INPUT**](d3dauthenticatedchannel-query-input.md)                                                                           |
@@ -42,7 +42,7 @@ The following channel types support this query:
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                |

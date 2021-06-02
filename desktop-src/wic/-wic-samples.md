@@ -1,5 +1,5 @@
 ---
-Description: Provides samples for WIC.
+description: Provides samples for WIC.
 ms.assetid: 0714f720-f06f-4480-bc3c-5cd0337510d7
 title: WIC Samples
 ms.topic: article

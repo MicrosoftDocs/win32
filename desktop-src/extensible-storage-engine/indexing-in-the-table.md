@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Indexing in the Table"
 title: Indexing in the Table
 TOCTitle: Indexing in the Table
 ms:assetid: d86c2c6b-d001-468d-ab74-937911b0036d
@@ -19,5 +20,4 @@ An index is a set of key columns that define a persistent ordering of records in
 
 Although multiple indices can be defined, the records are physically stored in B+ trees in the order specified by the primary index. The primary index is always a clustered index, and must also be unique. The primary index must be declared before the first table update to preserve the index ordering. When no primary index is defined by the application, the data is stored in the order in which records are added to the table. This special index is referred to as a sequential index.
 
-Separate B+ trees are used to order records according to the secondary index. Index entries in the secondary index contain pointers to the data stored according to the primary index. The index entries for records in the primary index must be unique because the secondary index points to the record using the primary key of the record. Secondary indices may or may not have a uniqueness constraint. For more information, see the [Database Overview](gg269290\(v=exchg.10\).md) topic.
-
+Separate B+ trees are used to order records according to the secondary index. Index entries in the secondary index contain pointers to the data stored according to the primary index. The index entries for records in the primary index must be unique because the secondary index points to the record using the primary key of the record. Secondary indices may or may not have a uniqueness constraint. For more information, see the [Database Overview](./database-overview.md) topic.

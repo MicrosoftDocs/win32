@@ -1,5 +1,5 @@
 ---
-Description: The put\_MaskNum method specifies the SMPTE wipe code of the wipe.
+description: The put\_MaskNum method specifies the SMPTE wipe code of the wipe.
 ms.assetid: d2d2382c-d920-49e7-b9b7-6897356a78de
 title: IDxtJpeg::put_MaskNum method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Describes a JPEG AC huffman table.
+description: Describes a JPEG AC huffman table.
 ms.assetid: E1923FFA-E7E5-4158-9793-3E7F5A6EA7FA
 title: DXGI_JPEG_AC_HUFFMAN_TABLE structure (Dxgitype.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ The Huffman code values, in order of increasing code length.
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dxgitype.h</dt> </dl> |
 

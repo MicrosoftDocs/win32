@@ -1,5 +1,5 @@
 ---
-Description: Uses the Microsoft Win32 GetThreadPriority function to retrieve the priority of the current worker thread.
+description: Uses the Microsoft Win32 GetThreadPriority function to retrieve the priority of the current worker thread.
 ms.assetid: a9db15cf-2c22-4c61-a817-20af5ade434b
 title: CMsgThread.GetThreadPriority method (Msgthrd.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the thread priority as an integer.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Msgthrd.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

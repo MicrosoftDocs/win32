@@ -1,5 +1,5 @@
 ---
-Description: Contains the sample description box for an MP4 or 3GP file.
+description: Contains the sample description box for an MP4 or 3GP file.
 ms.assetid: ea157988-bd15-465c-bd6a-6d33cc1a0323
 title: MF_MT_MPEG4_SAMPLE_DESCRIPTION attribute (Mfapi.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps \| UWP apps\]<br/>                                  |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps \| UWP apps\]<br/>                     |

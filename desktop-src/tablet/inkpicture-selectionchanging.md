@@ -1,5 +1,5 @@
 ---
-Description: Occurs when the selection of ink within the InkPicture control is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+description: Occurs when the selection of ink within the InkPicture control is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: a8ae30ff-fb0d-44cc-a5d3-295117addafd
 title: InkPicture.SelectionChanging event (Msinkaut.h)
 ms.topic: reference
@@ -44,7 +44,7 @@ This event method is defined in the **\_IInkOverlayEvents** and **\_IInkPictureE
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

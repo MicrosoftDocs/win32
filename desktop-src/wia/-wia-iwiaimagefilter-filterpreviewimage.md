@@ -1,5 +1,5 @@
 ---
-Description: Filters the preview image.
+description: Filters the preview image.
 ms.assetid: 1710211a-a35c-4a51-b3bb-6f03f234f247
 title: IWiaImageFilter::FilterPreviewImage method (Wia.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ An application must ensure that *pWiaChildItem2* has the same image format (WIA\
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

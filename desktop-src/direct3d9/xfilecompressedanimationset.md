@@ -1,5 +1,5 @@
 ---
-Description: Identifies compressed key frame animation data.
+description: Identifies compressed key frame animation data.
 ms.assetid: 2aab46db-e0ad-4bbb-b1c5-a254ec6cb984
 title: XFILECOMPRESSEDANIMATIONSET structure (D3dx9mesh.h)
 ms.topic: reference
@@ -85,7 +85,7 @@ Minimum buffer size, in bytes, required to hold compressed key frame animation d
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3dx9mesh.h</dt> </dl> |
 

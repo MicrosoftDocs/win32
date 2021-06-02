@@ -1,5 +1,5 @@
 ---
-Description: The UOPValid method retrieves a value that indicates whether the specified user operation (UOP) is currently valid.
+description: The UOPValid method retrieves a value that indicates whether the specified user operation (UOP) is currently valid.
 ms.assetid: 0d2c4693-95eb-4cc8-a8f6-61fd0b6d57be
 title: UOPValid Method (Segment.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Returns a Boolean value indicating whether the specified operation is permitted 
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

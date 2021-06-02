@@ -1,5 +1,5 @@
 ---
-Description: Critical section for this lock.
+description: Critical section for this lock.
 ms.assetid: 30f8b001-9a3b-4d07-9f02-5855ce793590
 title: CAutoLock::m_pLock member (Wxutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CCritSec *m_pLock;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Opening a Service
+description: Opening a Service
 ms.assetid: 722d657d-332a-40df-ac30-bc2050deda74
 title: Opening a Service
 ms.topic: article
@@ -12,9 +12,8 @@ Before your application can perform operations on a service, for example, enumer
 
 
 
-|                                                                        |                                                    |
-|------------------------------------------------------------------------|----------------------------------------------------|
 | Interface                                                              | Description                                        |
+|------------------------------------------------------------------------|----------------------------------------------------|
 | [**IPortableDeviceServiceManager**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager) | Used to enumerate the services on a device.        |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | Used to open a connection to a device service.     |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                 | Used to hold the application's client information. |

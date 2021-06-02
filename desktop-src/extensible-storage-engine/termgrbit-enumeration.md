@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: TermGrbit enumeration"
 title: TermGrbit enumeration
 TOCTitle: TermGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.TermGrbit
@@ -34,11 +35,11 @@ ROBOTS: INDEX,FOLLOW
 
 # TermGrbit enumeration
 
-Options for [JetTerm2(JET_INSTANCE, TermGrbit)](dn334037\(v=exchg.10\).md).
+Options for [JetTerm2(JET_INSTANCE, TermGrbit)](./api.jetterm2-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -90,6 +91,6 @@ public enum TermGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)
 
-[Dirty](dn335421\(v=exchg.10\).md)
+[Dirty](./windows7grbits.dirty-field.md)

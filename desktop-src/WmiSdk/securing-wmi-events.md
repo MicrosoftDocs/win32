@@ -1,5 +1,5 @@
 ---
-Description: WMI events are delivered by the event provider to a temporary or permanent consumer. The WMI event system uses the comparison of security descriptors on events and user account SIDs to control event access.
+description: WMI events are delivered by the event provider to a temporary or permanent consumer. The WMI event system uses the comparison of security descriptors on events and user account SIDs to control event access.
 ms.assetid: 86eaeb5c-c27e-4794-88e2-e0ffbb885290
 ms.tgt_platform: multiple
 title: Securing WMI Events

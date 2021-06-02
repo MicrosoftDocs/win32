@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to specify that an animation be displayed while items are enumerated on a background thread. Used by IShellFolderViewCB::MessageSFVCB.
+description: Allows the callback object to specify that an animation be displayed while items are enumerated on a background thread. Used by IShellFolderViewCB::MessageSFVCB.
 ms.assetid: 6f8b3894-f08f-4ebf-a645-87869e7d1b20
 title: SFVM_GETANIMATION message (Shlobj.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ By default, the system folder view object displays the "flashlight" animation du
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

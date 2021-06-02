@@ -1,5 +1,5 @@
 ---
-Description: The QueryPreferredFormat method retrieves the preferred time format for the stream. This method implements the IMediaSeeking::QueryPreferredFormat method.
+description: The QueryPreferredFormat method retrieves the preferred time format for the stream. This method implements the IMediaSeeking::QueryPreferredFormat method.
 ms.assetid: 8637448f-6b53-4ec9-9671-43bc8b713668
 title: CPosPassThru.QueryPreferredFormat method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

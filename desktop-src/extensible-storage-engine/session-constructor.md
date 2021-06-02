@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session constructor"
 title: Session constructor 
 TOCTitle: 'Session constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.#ctor(Microsoft.Isam.Esent.Interop.JET_INSTANCE)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the Session class. A new JET_SESSION is allocated from the given instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -55,7 +56,7 @@ public Session(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)  
     
     The instance to start the session in.
 
@@ -63,9 +64,8 @@ public Session(
 
 #### Reference
 
-[Session class](dn351164\(v=exchg.10\).md)
+[Session class](./session-class.md)
 
-[Session members](dn351125\(v=exchg.10\).md)
+[Session members](./session-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

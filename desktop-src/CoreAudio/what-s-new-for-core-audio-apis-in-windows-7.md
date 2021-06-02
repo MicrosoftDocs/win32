@@ -1,5 +1,5 @@
 ---
-Description: The Core Audio APIs were introduced in Windows Vista, which provided a new set of user-mode audio components that a client application can use to render or capture audio streams with improved audio capabilities.
+description: The Core Audio APIs were introduced in Windows Vista, which provided a new set of user-mode audio components that a client application can use to render or capture audio streams with improved audio capabilities.
 ms.assetid: eb99c266-16d2-4a14-bc1d-059a0a94db13
 title: What's New for Core Audio APIs in Windows 7
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: A callback that notifies the host of a canceled request by using a cookie that uniquely identifies the request.
+description: A callback that notifies the host of a canceled request by using a cookie that uniquely identifies the request.
 MS-HAID: vspixengine.INewFramesCallback\_CancelUsingCookie\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Common Return Codes"
 ms.assetid: 88bf94b0-b8fe-4293-aa22-8a04aa0de48a
 title: Common Return Codes
 ms.topic: article

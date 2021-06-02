@@ -1,5 +1,5 @@
 ---
-Description: The CreateTransformSummaryInfo method of the Database object creates and populates the summary information stream of an existing transform file. This method fills in the properties with the base and reference ProductCode and ProductVersion.
+description: The CreateTransformSummaryInfo method of the Database object creates and populates the summary information stream of an existing transform file. This method fills in the properties with the base and reference ProductCode and ProductVersion.
 ms.assetid: 67df9b9c-0e7c-49a6-a35e-5196327d6aff
 title: Database.CreateTransformSummaryInfo method
 ms.topic: reference
@@ -149,7 +149,7 @@ To create a summary information stream for a transform, the [**ProductCode**](pr
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

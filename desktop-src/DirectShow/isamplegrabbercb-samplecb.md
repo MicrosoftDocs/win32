@@ -1,5 +1,5 @@
 ---
-Description: The SampleCB method is a callback method that receives a pointer to the media sample.
+description: The SampleCB method is a callback method that receives a pointer to the media sample.
 ms.assetid: e919b694-75cb-48c6-8427-5a7a886e0ff3
 title: ISampleGrabberCB::SampleCB method (Qedit.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ To set up the callback, call [**ISampleGrabber::SetCallback**](isamplegrabber-se
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

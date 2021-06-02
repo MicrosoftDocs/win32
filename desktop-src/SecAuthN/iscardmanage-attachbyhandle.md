@@ -1,5 +1,5 @@
 ---
-Description: Creates a communication link to a smart card (ICC) using a handle returned by the smart card resource manager.
+description: Creates a communication link to a smart card (ICC) using a handle returned by the smart card resource manager.
 ms.assetid: dfd05dce-4416-4881-92ca-c85baccf3b86
 title: ISCardManage::AttachByHandle method
 ms.topic: reference
@@ -74,7 +74,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

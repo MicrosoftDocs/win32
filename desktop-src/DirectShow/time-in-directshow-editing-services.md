@@ -1,5 +1,5 @@
 ---
-Description: Time in DirectShow Editing Services
+description: Time in DirectShow Editing Services
 ms.assetid: 4e8cc766-97f3-45d5-9c4a-5cd6e9ad9c09
 title: Time in DirectShow Editing Services
 ms.topic: article

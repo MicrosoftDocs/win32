@@ -1,5 +1,5 @@
 ---
-Description: The wireless ad hoc interface defines and uses the following enumerations.
+description: The wireless ad hoc interface defines and uses the following enumerations.
 ms.assetid: d41682b5-eff2-4484-b6e9-af1272c990ad
 title: Wireless Ad Hoc Enumerations
 ms.topic: article

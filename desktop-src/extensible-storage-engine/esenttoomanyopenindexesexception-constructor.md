@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyOpenIndexesException constructor"
 title: EsentTooManyOpenIndexesException constructor 
 TOCTitle: 'EsentTooManyOpenIndexesException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyOpenIndexesException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyOpenIndexesException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTooManyOpenIndexesException()
 
 #### Reference
 
-[EsentTooManyOpenIndexesException class](dn350784\(v=exchg.10\).md)
+[EsentTooManyOpenIndexesException class](./esenttoomanyopenindexesexception-class.md)
 
-[EsentTooManyOpenIndexesException members](dn350767\(v=exchg.10\).md)
+[EsentTooManyOpenIndexesException members](./esenttoomanyopenindexesexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

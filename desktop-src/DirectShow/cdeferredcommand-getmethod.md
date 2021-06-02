@@ -1,5 +1,5 @@
 ---
-Description: The GetMethod method retrieves the dispatch identifier (DISPID) of the method to be run.
+description: The GetMethod method retrieves the dispatch identifier (DISPID) of the method to be run.
 ms.assetid: 93b48e04-7a47-4112-ae9d-dfda6adf100a
 title: CDeferredCommand.GetMethod method (Ctlutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the DISPID of the method to run.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

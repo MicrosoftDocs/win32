@@ -1,5 +1,5 @@
 ---
-Description: The CTransInPlaceInputPin class implements an input pin that is used by the CTransInPlaceFilter class.
+description: The CTransInPlaceInputPin class implements an input pin that is used by the CTransInPlaceFilter class.
 ms.assetid: 8cd2f17d-64b4-4ee6-b31a-e841ada03ce6
 title: CTransInPlaceInputPin class (Transip.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Typically, you do not need to derive from this class. If you do, you must overri
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

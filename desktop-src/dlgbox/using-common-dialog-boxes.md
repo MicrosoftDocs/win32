@@ -23,9 +23,9 @@ This section covers tasks that invoke common dialog boxes:
 
 ## Choosing a Color
 
-This topic describes sample code that displays a **Color** dialog box so that a user can select a color. The sample code first initializes a [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1) structure, and then calls the [**ChooseColor**](/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)) function to display the dialog box. If the function returns **TRUE**, indicating that the user selected a color, the sample code uses the selected color to create a new solid brush.
+This topic describes sample code that displays a **Color** dialog box so that a user can select a color. The sample code first initializes a [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1) structure, and then calls the [**ChooseColor**](/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)) function to display the dialog box. If the function returns **TRUE**, indicating that the user selected a color, the sample code uses the selected color to create a new solid brush.
 
-This example uses the [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora~r1) structure to initialize the dialog box as follows:
+This example uses the [**CHOOSECOLOR**](/windows/win32/api/commdlg/ns-commdlg-choosecolora-r1) structure to initialize the dialog box as follows:
 
 -   Initializes the **lpCustColors** member with a pointer to a static array of values. The colors in the array are initially black, but the static array preserves custom colors created by the user for subsequent [**ChooseColor**](/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)) calls.
 -   Sets the **CC\_RGBINIT** flag and initializes the **rgbResult** member to specify the color that is initially selected when the dialog box opens. If not specified, the initial selection is black. The example uses the *rgbCurrent* static variable to preserve the selected value between calls to [**ChooseColor**](/previous-versions/windows/desktop/legacy/ms646912(v=vs.85)).
@@ -100,7 +100,7 @@ if (ChooseFont(&cf)==TRUE)
 ## Opening a File
 
 > [!Note]  
-> Starting with Windows Vista, the Common File Dialog has been superseded by the Common Item Dialog when used to open a file. We recommend that you use the Common Item Dialog API instead of the Common File Dialog API. For more information, see [Common Item Dialog](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)).
+> Starting with Windows Vista, the Common File Dialog has been superseded by the Common Item Dialog when used to open a file. We recommend that you use the Common Item Dialog API instead of the Common File Dialog API. For more information, see [Common Item Dialog](/windows/win32/shell/common-file-dialog).
 
  
 

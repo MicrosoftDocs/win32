@@ -1,5 +1,5 @@
 ---
-Description: Wrappers
+description: Wrappers
 ms.assetid: 0AADEF94-9C6F-4FE9-B272-579423FCB46E
 title: Wrappers
 ms.topic: article
@@ -26,7 +26,6 @@ ms.date: 05/31/2018
 -   [**\_LoadCursor**](-loadcursor.md)
 -   [**\_LoadLibrary**](-loadlibrary.md)
 -   [**\_LoadString**](-loadstring.md)
--   [**\_MAKEINTRESOURCE**](-makeintresource.md)
 -   [**\_MessageBox**](-messagebox.md)
 -   [**\_MoveFile**](-movefile.md)
 -   [**\_PeekMessage**](-peekmessage.md)

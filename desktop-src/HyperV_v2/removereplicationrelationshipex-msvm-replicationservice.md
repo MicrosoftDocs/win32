@@ -1,5 +1,5 @@
 ---
-Description: Removes the specified virtual machine replication relationship.
+description: Removes the specified virtual machine replication relationship.
 ms.assetid: 0D5013CE-7BAE-4A99-ABF2-F1ECC644A1B2
 title: Msvm_ReplicationService::RemoveReplicationRelationshipEx method
 ms.topic: reference
@@ -113,7 +113,7 @@ For a replica virtual machine, primary replication can't be removed if extended 
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

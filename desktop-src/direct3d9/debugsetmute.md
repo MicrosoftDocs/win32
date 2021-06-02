@@ -1,5 +1,5 @@
 ---
-Description: DebugSetMute function
+description: DebugSetMute function
 ms.assetid: c480d56e-63e6-42f0-b02a-75599882cf65
 title: DebugSetMute function
 ms.topic: reference
@@ -43,7 +43,7 @@ This function does not return a value.
 
 
 
-|                    |                                                                                     |
+| Requirement | Value |
 |--------------------|-------------------------------------------------------------------------------------|
 | Library<br/> | <dl> <dt>D3d9.lib</dt> </dl> |
 | DLL<br/>     | <dl> <dt>D3d9.dll</dt> </dl> |

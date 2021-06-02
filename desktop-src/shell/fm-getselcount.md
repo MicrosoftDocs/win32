@@ -1,5 +1,5 @@
 ---
-Description: Sent by a File Manager extension to retrieve a count of the selected files in the active File Manager window (either the directory window or the Search Results window).
+description: Sent by a File Manager extension to retrieve a count of the selected files in the active File Manager window (either the directory window or the Search Results window).
 title: FM_GETSELCOUNT message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 0d43bf37-863c-45cc-94ea-5b2aedba5353
-api_name: 
- - FM_GETSELCOUNT
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -47,7 +38,7 @@ Returns the number of selected files.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

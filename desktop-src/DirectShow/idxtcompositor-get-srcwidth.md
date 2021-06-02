@@ -1,5 +1,5 @@
 ---
-Description: The get\_SrcWidth method retrieves the width of the source rectangle.
+description: The get\_SrcWidth method retrieves the width of the source rectangle.
 ms.assetid: 373bb108-5f0b-47f3-a39a-ed43b536e612
 title: IDxtCompositor::get_SrcWidth method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

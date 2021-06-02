@@ -1,5 +1,5 @@
 ---
-Description: Returns a Boolean value that indicates whether the EKU extension is present. This is the default property.
+description: Returns a Boolean value that indicates whether the EKU extension is present. This is the default property.
 ms.assetid: d7568525-1054-47e1-a176-f154792f9589
 title: ExtendedKeyUsage.IsPresent property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the EKU extension is present.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

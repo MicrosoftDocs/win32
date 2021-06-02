@@ -1,5 +1,5 @@
 ---
-Description: WPD\_CONTENT\_TYPE\_PROGRAM
+description: WPD\_CONTENT\_TYPE\_PROGRAM
 ms.assetid: 81eaf8cf-0f4f-4587-911a-063630af1c8e
 title: WPD_CONTENT_TYPE_PROGRAM
 ms.topic: article
@@ -14,9 +14,8 @@ This type of object supports the following properties.
 
 
 
-|                                                                                                                       |                                                                                    |
+| Property Name     | Required or Optional      |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| **Property Name**                                                                                                     | **Required or Optional**                                                           |
 | [WPD\_OBJECT\_ID](object-properties.md)                                                                | Required, but read-only. A client cannot set this property, even at creation time. |
 | [WPD\_OBJECT\_PARENT\_ID](object-properties.md)                                                 | Required.                                                                          |
 | [WPD\_OBJECT\_NAME](object-properties.md)                                                            | Required if the object represents a file.                                          |

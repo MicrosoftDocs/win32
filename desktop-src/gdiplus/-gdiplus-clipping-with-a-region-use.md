@@ -1,5 +1,5 @@
 ---
-Description: One of the properties of the Graphics class is the clipping region. All drawing done by a given Graphics object is restricted to the clipping region of that Graphics object. You can set the clipping region by calling the SetClip method.
+description: One of the properties of the Graphics class is the clipping region. All drawing done by a given Graphics object is restricted to the clipping region of that Graphics object. You can set the clipping region by calling the SetClip method.
 ms.assetid: 816a5845-ca03-46c6-bdda-e6a7d02ff614
 title: Clipping with a Region
 ms.topic: article

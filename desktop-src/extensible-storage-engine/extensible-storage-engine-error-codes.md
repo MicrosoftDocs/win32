@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Extensible Storage Engine Error Codes"
 title: Extensible Storage Engine Error Codes
 TOCTitle: Extensible Storage Engine Error Codes
 ms:assetid: 7534370d-aed6-4980-b1ca-c3d063507e31
@@ -26,7 +27,7 @@ _**Applies to:** Windows | Windows Server_
 
 The following error codes (flags) are used by functions in the Extensible Storage Engine API.
 
-A [JET_ERR](gg294092\(v=exchg.10\).md) value of zero should be interpreted as success.
+A [JET_ERR](./jet-err.md) value of zero should be interpreted as success.
 
 <table>
 <colgroup>
@@ -48,7 +49,7 @@ A [JET_ERR](gg294092\(v=exchg.10\).md) value of zero should be interpreted as su
 </table>
 
 
-A [JET_ERR](gg294092\(v=exchg.10\).md) value that is greater than zero should be interpreted as a warning.
+A [JET_ERR](./jet-err.md) value that is greater than zero should be interpreted as a warning.
 
 <table>
 <colgroup>
@@ -257,7 +258,7 @@ JET_wrnSeekNotEqual</p></td>
 </table>
 
 
-A [JET_ERR](gg294092\(v=exchg.10\).md) value that is less than zero should be interpreted as an error.
+A [JET_ERR](./jet-err.md) value that is less than zero should be interpreted as an error.
 
 <table>
 <colgroup>
@@ -1851,6 +1852,6 @@ In general, a value that is greater than zero should be interpreted as a warning
 
 ### See Also
 
-[Error Handling Parameters](gg269173\(v=exchg.10\).md)  
-[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)
+[Error Handling Parameters](./error-handling-parameters.md)  
+[Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)  
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)

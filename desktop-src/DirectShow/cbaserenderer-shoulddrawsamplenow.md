@@ -1,5 +1,5 @@
 ---
-Description: The ShouldDrawSampleNow method determines how a sample is scheduled for rendering.
+description: The ShouldDrawSampleNow method determines how a sample is scheduled for rendering.
 ms.assetid: 92994f1f-53d5-42d4-90a2-2984b693e4c0
 title: CBaseRenderer.ShouldDrawSampleNow method (Renbase.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The [**CBaseRenderer::GetSampleTimes**](cbaserenderer-getsampletimes.md) method 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

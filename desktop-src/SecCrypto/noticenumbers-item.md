@@ -1,5 +1,5 @@
 ---
-Description: The Item property retrieves the Long that represents the indexed notice number of the collection. This is the default property.
+description: The Item property retrieves the Long that represents the indexed notice number of the collection. This is the default property.
 ms.assetid: d1f8103f-5d8d-4590-ab35-fd697a39cd45
 title: NoticeNumbers.Item property
 ms.topic: reference
@@ -40,7 +40,7 @@ An [**Extension**](extension.md) object that represents the indexed notice numbe
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

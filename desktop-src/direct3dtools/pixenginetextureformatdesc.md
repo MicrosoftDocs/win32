@@ -1,5 +1,5 @@
 ---
-Description: Represents a description of a texture format.
+description: Represents a description of a texture format.
 MS-HAID: vspixengine.PixEngineTextureFormatDesc
 MSHAttr:
 - PreferredSiteName:MSDN

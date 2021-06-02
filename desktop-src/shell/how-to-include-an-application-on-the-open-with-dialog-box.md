@@ -1,5 +1,5 @@
 ---
-Description: Illustrates how to ensure your application appears in the Open With menu and dialog box for desktop apps, and is available as a default Windows Store app for specified file types.
+description: Illustrates how to ensure your application appears in the Open With menu and dialog box for desktop apps, and is available as a default Windows Store app for specified file types.
 ms.assetid: DFCC07A6-BED5-41A8-86DC-130082AE665A
 title: How to Include an Application in the Open With Dialog Box
 ms.topic: article

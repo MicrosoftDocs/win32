@@ -1,5 +1,5 @@
 ---
-Description: The RANGE structure defines a range of valid property values.
+description: The RANGE structure defines a range of valid property values.
 ms.assetid: 7bd14410-f5c1-487b-8776-405567991e5a
 title: RANGE structure (Netmon.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ The **RANGE** structure is used to specify a valid range of numbers for a protoc
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

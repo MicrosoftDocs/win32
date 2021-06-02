@@ -1,5 +1,5 @@
 ---
-Description: Supports the Secure Sockets Layer (SSL) protocol.
+description: Supports the Secure Sockets Layer (SSL) protocol.
 ms.assetid: c94d8584-f01b-469b-a0d6-5fb14796b93e
 title: PROV_SSL
 ms.topic: article

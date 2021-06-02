@@ -1,5 +1,5 @@
 ---
-Description: This section contains reference information for the Microsoft Direct3D 11 video API structures.
+description: This section contains reference information for the Microsoft Direct3D 11 video API structures.
 ms.assetid: 416159A4-F50E-4027-9367-727BA81D2A21
 title: Direct3D 11 Video Structures
 ms.topic: reference

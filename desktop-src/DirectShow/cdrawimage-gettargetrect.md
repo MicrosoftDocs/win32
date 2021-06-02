@@ -1,5 +1,5 @@
 ---
-Description: The GetTargetRect method retrieves the current destination rectangle.
+description: The GetTargetRect method retrieves the current destination rectangle.
 ms.assetid: b6542b06-af36-4666-b6fa-d9fa3c6c7044
 title: CDrawImage.GetTargetRect method (Winutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -22,7 +22,7 @@ IP addresses of a TAPI client computer that a user is logged into. This attribut
 
 
 
-|                   |                                                            |
+| Entry | Value |
 |-------------------|------------------------------------------------------------|
 | CN                | ms-TAPI-Ip-Address                                         |
 | Ldap-Display-Name | msTAPI-IpAddress                                           |
@@ -47,7 +47,7 @@ IP addresses of a TAPI client computer that a user is logged into. This attribut
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -68,7 +68,7 @@ IP addresses of a TAPI client computer that a user is logged into. This attribut
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -89,7 +89,7 @@ IP addresses of a TAPI client computer that a user is logged into. This attribut
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -110,7 +110,7 @@ IP addresses of a TAPI client computer that a user is logged into. This attribut
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |
@@ -131,7 +131,7 @@ IP addresses of a TAPI client computer that a user is logged into. This attribut
 
 
 
-|                        |                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------|
 | Link-Id                | \-                                                        |
 | MAPI-Id                | \-                                                        |

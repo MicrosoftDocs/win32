@@ -1,5 +1,5 @@
 ---
-Description: Simulates a key press.
+description: Simulates a key press.
 ms.assetid: 42C11F92-6143-40D7-9C07-56A6514EB4D1
 title: PressKey method of the Msvm_Keyboard class
 ms.topic: reference
@@ -316,7 +316,7 @@ End Function
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

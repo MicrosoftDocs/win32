@@ -1,5 +1,5 @@
 ---
-Description: Specifies the audio endpoint role for the audio renderer.
+description: Specifies the audio endpoint role for the audio renderer.
 ms.assetid: f0456337-5351-457e-9830-920bf346bfc4
 title: MF_AUDIO_RENDERER_ATTRIBUTE_ENDPOINT_ROLE attribute (Mfidl.h)
 ms.topic: reference
@@ -33,7 +33,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

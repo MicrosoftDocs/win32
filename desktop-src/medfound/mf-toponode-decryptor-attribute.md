@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a toplogy nodes underlying object is a decrypter.
+description: Specifies whether a toplogy nodes underlying object is a decrypter.
 ms.assetid: 211789d8-5e51-485c-b8f1-cd0ae3e39250
 title: MF_TOPONODE_DECRYPTOR attribute (Mfidl.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

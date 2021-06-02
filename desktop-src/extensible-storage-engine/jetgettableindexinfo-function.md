@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetTableIndexInfo Function"
 title: JetGetTableIndexInfo Function
 TOCTitle: JetGetTableIndexInfo Function
 ms:assetid: d250d254-2b10-4fe7-bbb1-72bb967f22dd
@@ -144,7 +145,7 @@ Specifies which information will be stored in *pvResult*. The valid values are:
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -176,7 +177,7 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### Remarks
 
-[JetGetIndexInfo](gg294084\(v=exchg.10\).md) and **JetGetTableIndexInfo** retrieve identical information about an index. The difference is in how the table is specified. [JetGetIndexInfo](gg294084\(v=exchg.10\).md) expects a database (*dbid*) and name of a table (*szTableName*), while **JetGetTableIndexInfo** expects a table identifier (*tableid*).
+[JetGetIndexInfo](./jetgetindexinfo-function.md) and **JetGetTableIndexInfo** retrieve identical information about an index. The difference is in how the table is specified. [JetGetIndexInfo](./jetgetindexinfo-function.md) expects a database (*dbid*) and name of a table (*szTableName*), while **JetGetTableIndexInfo** expects a table identifier (*tableid*).
 
 #### Requirements
 
@@ -216,11 +217,11 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### See Also
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JET_INDEXID](gg269327\(v=exchg.10\).md)  
-[JetGetIndexInfo](gg294084\(v=exchg.10\).md)
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JET_INDEXID](./jet-indexid-structure.md)  
+[JetGetIndexInfo](./jetgetindexinfo-function.md)

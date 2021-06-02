@@ -1,5 +1,5 @@
 ---
-Description: The GetNextTrans2 method retrieves the first transition that appears at the specified time or later. This method is equivalent to IAMTimelineTransable::GetNextTrans, but takes a REFTIME value.
+description: The GetNextTrans2 method retrieves the first transition that appears at the specified time or later. This method is equivalent to IAMTimelineTransable::GetNextTrans, but takes a REFTIME value.
 ms.assetid: e6910e94-f289-4a5d-9976-1e8f7373c882
 title: IAMTimelineTransable::GetNextTrans2 method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ Returns S\_OK if the method retrieves a transition, or S\_FALSE if it does not f
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

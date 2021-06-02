@@ -1,5 +1,5 @@
 ---
-Description: The PKEY\_Device\_FriendlyName property contains the friendly name of the endpoint device (for example, &\#0034;Speakers (XYZ Audio Adapter)&\#0034;).
+description: The PKEY\_Device\_FriendlyName property contains the friendly name of the endpoint device (for example, &\#0034;Speakers (XYZ Audio Adapter)&\#0034;).
 ms.assetid: 3ccd6a78-8bc3-4a46-8f11-7c2ae8a23c63
 title: PKEY_Device_FriendlyName (Functiondiscoverykeys\_devpkey.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ The **pwszVal** member of the **PROPVARIANT** structure points to a null-termina
 
 
 
-|                                     |                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                        |

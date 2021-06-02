@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXLIST.cRecord property"
 title: JET_INDEXLIST.cRecord property 
 TOCTitle: 'cRecord property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXLIST.cRecord
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the number of records in the temporary table.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[JET_INDEXLIST class](dn335123\(v=exchg.10\).md)
+[JET_INDEXLIST class](./jet-indexlist-class.md)
 
-[JET_INDEXLIST members](dn335164\(v=exchg.10\).md)
+[JET_INDEXLIST members](./jet-indexlist-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

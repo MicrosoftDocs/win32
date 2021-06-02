@@ -1,5 +1,5 @@
 ---
-Description: The StringFromResource function loads a string from a resource file with the given resource identifier.
+description: The StringFromResource function loads a string from a resource file with the given resource identifier.
 ms.assetid: 26b40905-db16-46d1-8621-9aa8cb8e7232
 title: StringFromResource function (Wxutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The *pBuffer* buffer must be at least STR\_MAX\_LENGTH bytes.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

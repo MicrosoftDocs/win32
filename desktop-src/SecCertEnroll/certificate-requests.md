@@ -1,5 +1,5 @@
 ---
-Description: The Certificate Enrollment SDK can be used to create PKCS \#10, PKCS \#7, CMC, and self-signed certificate requests.
+description: The Certificate Enrollment SDK can be used to create PKCS \#10, PKCS \#7, CMC, and self-signed certificate requests.
 ms.assetid: 218eafb9-c9c8-49ff-8288-3909ed708ffc
 title: Certificate Requests
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves data from the specified entries belonging to an EXE entry.
+description: Retrieves data from the specified entries belonging to an EXE entry.
 ms.assetid: 355eecd6-a0c9-4448-9aed-a9c3eb3b2071
 title: SdbQueryDataExTagID function
 ms.topic: reference
@@ -130,7 +130,7 @@ This function returns one of the following values.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

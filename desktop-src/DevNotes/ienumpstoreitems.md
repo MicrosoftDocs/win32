@@ -1,5 +1,5 @@
 ---
-Description: Provides the COM-standard enumeration methods for the IPStore interface.
+description: Provides the COM-standard enumeration methods for the IPStore interface.
 ms.assetid: f5290e6c-8752-4380-9210-c96a87f000ba
 title: IEnumPStoreItems interface (Pstore.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ It is necessary to free each item after enumerating it. The enumerator object mu
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

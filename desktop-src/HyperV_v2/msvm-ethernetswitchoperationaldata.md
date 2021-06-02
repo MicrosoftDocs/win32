@@ -1,5 +1,5 @@
 ---
-Description: Represents switch operational parameters.
+description: Represents switch operational parameters.
 ms.assetid: f225d321-8f40-4e6c-b30d-8fab3f84761d
 title: Msvm_EthernetSwitchOperationalData class
 ms.topic: reference
@@ -247,7 +247,7 @@ The name of the virtual switch to which the associated resource instance is boun
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

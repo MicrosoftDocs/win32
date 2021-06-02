@@ -1,5 +1,5 @@
 ---
-Description: The reference clock has changed.
+description: The reference clock has changed.
 ms.assetid: f6de9e74-85fa-4f36-9d7d-3d95f2dbf873
 title: EC_CLOCK_CHANGED (Dshow.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The filter graph manager sends this event when its [**IMediaFilter::SetSyncSourc
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

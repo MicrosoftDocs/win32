@@ -1,5 +1,6 @@
 ---
-title: JET_LS.ToString method 
+description: "Learn more about: JET_LS.ToString method overload list"
+title: JET_LS.ToString method overload list
 TOCTitle: 'ToString method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_LS.ToString
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_ls.tostring(v=EXCHG.10)
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_LS structure](hh557499\(v=exchg.10\).md)
+[JET_LS structure](./jet-ls-structure.md)
 
-[JET_LS members](hh596466\(v=exchg.10\).md)
+[JET_LS members](./jet-ls-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

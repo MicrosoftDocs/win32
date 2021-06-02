@@ -1,5 +1,5 @@
 ---
-Description: The DirectShow base classes provides helper functions for handling the AM\_MEDIA\_TYPE structure.
+description: The DirectShow base classes provides helper functions for handling the AM\_MEDIA\_TYPE structure.
 ms.assetid: 4dbea5b4-bf78-4253-be48-d81b77be6e77
 title: Media Type Functions (Mtype.h)
 ms.topic: reference
@@ -53,7 +53,7 @@ The following functions free memory:
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

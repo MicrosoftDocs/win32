@@ -1,5 +1,5 @@
 ---
-Description: Navigation topic for Windows Sockets (Winsock) socket IOCTLs.
+description: Navigation topic for Windows Sockets (Winsock) socket IOCTLs.
 ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: Winsock IOCTLs (Winsock2.h)
 ms.topic: reference
@@ -101,7 +101,7 @@ Applies a transport setting to a socket. The transport setting being applied is 
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket.
 
-If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) passed has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to apply real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041) to receive background network notifications in a Windows Store app.
+If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) passed has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to apply real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) to receive background network notifications in a Windows Store app.
 
 For more detailed information, see the [**SIO\_APPLY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553481(v=vs.85)) reference. **SIO\_APPLY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 
@@ -240,6 +240,19 @@ A sender may not call **SIO\_GET\_QOS** until the socket is connected.
 
 A receiver may call **SIO\_GET\_QOS** as soon as it is bound.
 
+### SIO_GET_TX_TIMESTAMP
+
+A socket IOCTL used to get timestamps for transmitted (TX) packets. Valid only for datagram sockets.
+
+The **SIO_GET_TX_TIMESTAMP** control code removes a transmit timestamp from a socket's transmit timestamp queue. Enable timestamp reception first by using the [**SIO_TIMESTAMPING**](#sio_timestamping) socket IOCTL. Then retrieve tx timestamps by ID by calling the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) (or [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))) function with the following parameters.
+
+For **SIO_GET_TX_TIMESTAMP**, the input is a **UINT32** timestamp ID, and the output is a **UINT64** timestamp value. On success, the tx timestamp is available, and is returned. If no transmit timestamps are available, then [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns **WSAEWOULDBLOCK**.
+
+> [!NOTE]
+> TX timestamps are not supported when doing a coalesced send via **UDP_SEND_MSG_SIZE**.
+
+Also see [Winsock timestamping](/windows/win32/winsock/winsock-timestamping).
+
 ### SIO\_IDEAL\_SEND\_BACKLOG\_CHANGE (opcode setting: V, T==0)
 
 Notifies an application when the ideal send backlog (ISB) value changes for the underlying connection.
@@ -321,7 +334,7 @@ Queries the transport settings on a socket. The transport setting being queried 
 
 The only transport setting currently defines is for the **REAL\_TIME\_NOTIFICATION\_CAPABILITY** capability on a TCP socket.
 
-If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) structure with the current status.
+If the [**TRANSPORT\_SETTING\_ID**](/windows/win32/api/transportsettingcommon/ns-transportsettingcommon-transport_setting_id) has the **Guid** member set to **REAL\_TIME\_NOTIFICATION\_CAPABILITY**, then this is a request to query the real time notification settings for the TCP socket used with the [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) to receive background network notifications in a Windows Store app. If the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) or [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85)) call is successful, this IOCTL returns a [**REAL\_TIME\_NOTIFICATION\_SETTING\_OUTPUT**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) structure with the current status.
 
 For more detailed information, see the [**SIO\_QUERY\_TRANSPORT\_SETTING**](/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)) reference. **SIO\_QUERY\_TRANSPORT\_SETTING** is supported on Windows 8, Windows Server 2012, and later.
 
@@ -470,6 +483,14 @@ For more detailed information, see the [**SIO\_SET\_COMPATIBILITY\_MODE**](/prev
 
 Reserved.
 
+### SIO_SET_PRIORITY_HINT (opcode setting: I, T==3)
+
+Provides a hint to the underlying transport protocol to treat the traffic on this socket with a specific priority. The *lpvInBuffer* must point to a variable of type **PRIORITY_HINT** with *cbInBuffer* set to sizeof(PRIORITY_HINT). The *lpvOutBuffer* and *cbOutBuffer* parameters must be **NULL** and 0, respectively. The Microsoft Windows TCP implementation supports this IOCTL starting with Windows 10, version 1809 (10.0; Build 17763) and later as follows: when the requested priority value is set to **IoPriorityHintVeryLow**, TCP uses a modified version of the LEDBAT algorithm (defined in RFC 6817) for controlling the outbound traffic rate on the socket. The inbound traffic is not affected by this IOCTL. LEDBAT is a scavenger algorithm, and its goal is to keep latency low and prevent any adverse effect on normal-priority traffic by getting out of the way when normal-priority traffic is present.
+
+Also see [RFC 6817](https://tools.ietf.org/html/rfc6817).
+
+**SIO_SET_PRIORITY_HINT** is supported on Windows 10, version 1809 (10.0; Build 17763) and later.
+
 ### SIO\_SET\_QOS (opcode setting: I, T==1)
 
 Associate the specified [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) structure with the socket. No output buffer is required, the **QOS** structure will be obtained from the input buffer. The [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) error code is indicated for service providers that do not support quality of service.
@@ -478,7 +499,13 @@ Associate the specified [**QOS**](/windows/win32/api/winsock2/ns-winsock2-qos) s
 
 Controls the initial (SYN / SYN+ACK) retransmission characteristics of a TCP socket by configuring initial retransmission timeout (RTO) parameters. The configuration parameters are specified in a [**TCP\_INITIAL\_RTO\_PARAMETERS**](/windows/desktop/api/mswsock/ns-mswsock-transmit_file_buffers) structure.
 
-For more detailed information, see the [**SIO_TCP_INITIAL_RTO**](/windows/win32/winsock/sio-tcp-initial-rto) reference. [**SIO_TCP_INITIAL_RTO**](/windows/win32/winsock/sio-tcp-initial-rto) is supported on Windows 8, Windows Server 2012, and later.
+For more detailed information, see the [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) reference. [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) is supported on Windows 8, Windows Server 2012, and later.
+
+### SIO_TIMESTAMPING
+
+A socket IOCTL used to configure reception of socket transmit/receive timestamps. Valid only for datagram sockets. The input type for **SIO_TIMESTAMPING** is the [**TIMESTAMPING_CONFIG**](/windows/win32/api/mstcpip/ns-mstcpip-timestamping_config) structure.
+
+Also see [Winsock timestamping](/windows/win32/winsock/winsock-timestamping).
 
 ### SIO\_TRANSLATE\_HANDLE (opcode setting: I, O, T==1)
 
@@ -514,6 +541,6 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## Requirements
 
-|||
+|Requirement|Value|
 |-|-|
 | Header<br/> | <dl> <dt>Winsock2.h; </dt> <dt>Mstcpip.h; </dt> <dt>Mswsock.h; </dt> <dt>Mswsockdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Mswsock.h); </dt> <dt>Ws2def.h on Windows Vista, Windows Server 2008 and Windows 7 (include Winsock2.h); </dt> <dt>Ws2ipdef.h on Windows Vista, Windows Server 2008 and Windows 7 (include Ws2tcpip.h)</dt> </dl> |

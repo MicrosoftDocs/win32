@@ -1,5 +1,5 @@
 ---
-Description: Adds a matrix to the stack.
+description: ID3DXMATRIXStack::Push method (D3dx9math.h) - Adds a matrix to the stack.
 ms.assetid: 99bc636d-f1fd-4ace-a649-6a1a952927e0
 title: ID3DXMATRIXStack::Push method (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# ID3DXMATRIXStack::Push method
+# ID3DXMATRIXStack::Push method (D3dx9math.h)
 
 Adds a matrix to the stack.
 
@@ -47,7 +47,7 @@ This method increments the count of items on the stack by 1, duplicating the cur
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

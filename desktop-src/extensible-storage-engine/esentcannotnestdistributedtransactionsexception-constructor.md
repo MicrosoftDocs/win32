@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDistributedTransactionsException constructor"
 title: EsentCannotNestDistributedTransactionsException constructor 
 TOCTitle: 'EsentCannotNestDistributedTransactionsException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentCannotNestDistributedTransactionsException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentCannotNestDistributedTransactionsException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentCannotNestDistributedTransactionsException()
 
 #### Reference
 
-[EsentCannotNestDistributedTransactionsException class](dn274174\(v=exchg.10\).md)
+[EsentCannotNestDistributedTransactionsException class](./esentcannotnestdistributedtransactionsexception-class.md)
 
-[EsentCannotNestDistributedTransactionsException members](dn274176\(v=exchg.10\).md)
+[EsentCannotNestDistributedTransactionsException members](./esentcannotnestdistributedtransactionsexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetAttachInfoInstance Function"
 title: JetGetAttachInfoInstance Function
 TOCTitle: JetGetAttachInfoInstance Function
 ms:assetid: 978e7817-0720-42fc-a5c1-46e4d44239f0
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetAttachInfoInstance Function
 
-The **JetGetAttachInfoInstance** function is used during a backup initiated by [JetBeginExternalBackupInstance](gg294132\(v=exchg.10\).md) to query an instance for the names of database files that should become part of the backup file set. Only databases that are currently attached to the instance using [JetAttachDatabase](gg294074\(v=exchg.10\).md) will be considered. These files may subsequently be opened using [JetOpenFileInstance](gg269238\(v=exchg.10\).md) and read using [JetReadFileInstance](gg294060\(v=exchg.10\).md).
+The **JetGetAttachInfoInstance** function is used during a backup initiated by [JetBeginExternalBackupInstance](./jetbeginexternalbackupinstance-function.md) to query an instance for the names of database files that should become part of the backup file set. Only databases that are currently attached to the instance using [JetAttachDatabase](./jetattachdatabase-function.md) will be considered. These files may subsequently be opened using [JetOpenFileInstance](./jetopenfileinstance-function.md) and read using [JetReadFileInstance](./jetreadfileinstance-function.md).
 
 **Windows XP:  JetGetAttachInfoInstance** is introduced in Windows XP.
 
@@ -66,7 +67,7 @@ Pointer to the output buffer that receives the actual amount of string data.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -174,12 +175,11 @@ It is important to note that this API does not return an error or warning if the
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetBeginExternalBackupInstance](gg294132\(v=exchg.10\).md)  
-[JetOpenFileInstance](gg269238\(v=exchg.10\).md)  
-[JetReadFileInstance](gg294060\(v=exchg.10\).md)  
-[JetStopBackupInstance](gg269309\(v=exchg.10\).md)  
-[JetStopServiceInstance](gg294108\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetBeginExternalBackupInstance](./jetbeginexternalbackupinstance-function.md)  
+[JetOpenFileInstance](./jetopenfileinstance-function.md)  
+[JetReadFileInstance](./jetreadfileinstance-function.md)  
+[JetStopBackupInstance](./jetstopbackupinstance-function.md)  
+[JetStopServiceInstance](./jetstopserviceinstance-function.md)

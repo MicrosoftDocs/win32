@@ -1,5 +1,5 @@
 ---
-Description: The CNG API is the long-term replacement for CryptoAPI. CNG is designed to be extensible at many levels and cryptography agnostic in behavior.
+description: The CNG API is the long-term replacement for CryptoAPI. CNG is designed to be extensible at many levels and cryptography agnostic in behavior.
 ms.assetid: d10533d8-e919-4d2a-a173-16a8f723551d
 title: About CNG
 ms.topic: article

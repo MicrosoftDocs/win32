@@ -1,5 +1,5 @@
 ---
-Description: This section provides an overview of the XPS Digital Signature API.
+description: This section provides an overview of the XPS Digital Signature API.
 ms.assetid: 895974df-d5e8-4974-b057-ec7e5e59d805
 title: About XPS Digital Signature API
 ms.topic: article
@@ -31,7 +31,7 @@ For examples of how to access the digital signatures of an XPS document, see [Co
 [Packaging](/previous-versions/windows/desktop/opc/packaging)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> <dt>
 
 [Standard ECMA-376, Office Open XML File Formats](https://www.ecma-international.org/publications/standards/Ecma-376.htm)

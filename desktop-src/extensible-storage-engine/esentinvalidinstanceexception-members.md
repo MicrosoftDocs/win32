@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidInstanceException members"
 title: EsentInvalidInstanceException members
 TOCTitle: EsentInvalidInstanceException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidInstanceException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidInstance exceptions.
 
-The [EsentInvalidInstanceException](dn319502\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidInstanceException](./esentinvalidinstanceexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidInstanceException class](dn319502\(v=exchg.10\).md)
+[EsentInvalidInstanceException class](./esentinvalidinstanceexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

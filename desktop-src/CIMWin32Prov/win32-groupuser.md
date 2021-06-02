@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_GroupUser association WMI class relates a group and an account that is a member of that group.
+description: The Win32\_GroupUser association WMI class relates a group and an account that is a member of that group.
 ms.assetid: 46dd65f0-b729-4b23-8a00-bc33d1a4868b
 ms.tgt_platform: multiple
 title: Win32_GroupUser class
@@ -93,7 +93,7 @@ The [WMI Information Retriever](https://Gallery.TechNet.Microsoft.Com/e493376c-1
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

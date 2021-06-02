@@ -25,7 +25,7 @@ If you use the Direct3D 11 API and updated drivers, [feature level](overviews-di
 -   Only one unordered-access view can be bound to the shader (D3D11\_CS\_4\_X\_UAV\_REGISTER\_COUNT is 1).
 -   Only [RWStructuredBuffer](/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer)s and [RWByteAddressBuffer](/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer)s are available as unordered-access views.
 -   A thread can only access its own region in groupshared memory for writing, though it can read from any location.
--   [SV\_GroupIndex](/previous-versions/windows/desktop/legacy/ff471569(v=vs.85)) or [SV\_DispatchThreadID](/windows/desktop/direct3dhlsl/sv-dispatchthreadid) must be used when accessing **groupshared** memory for writing.
+-   [SV\_GroupIndex](/previous-versions/windows/desktop/legacy/ff471569(v=vs.85)) or [SV\_GroupThreadID](/windows/desktop/direct3dhlsl/sv-groupthreadid) must be used when accessing **groupshared** memory for writing.
 -   **Groupshared** memory is limited to 16KB per group.
 -   A single thread is limited to a 256 byte region of **groupshared** memory for writing.
 -   No atomic instructions are available.

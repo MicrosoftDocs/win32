@@ -1,5 +1,5 @@
 ---
-Description: The SetPropertySetter method sets the object's property setter. When the object is rendered, the property information contained in the property setter is applied to the object. Call this method on transition and effect objects.
+description: The SetPropertySetter method sets the object's property setter. When the object is rendered, the property information contained in the property setter is applied to the object. Call this method on transition and effect objects.
 ms.assetid: 3ce2fe50-a884-4da4-95b5-9c97e188f819
 title: IAMTimelineObj::SetPropertySetter method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

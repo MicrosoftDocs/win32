@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_USERDEFINEDDEFAULT Structure"
 title: JET_USERDEFINEDDEFAULT Structure
 TOCTitle: JET_USERDEFINEDDEFAULT Structure
 ms:assetid: 1f0a5419-9fae-4a93-a271-2f9772ecc996
@@ -103,6 +104,6 @@ This member should always be set to NULL.
 
 ### See Also
 
-[JET_CBTYP](gg294071\(v=exchg.10\).md)  
-[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)
+[JET_CBTYP](./jet-cbtyp.md)  
+[JET_COLUMNCREATE](./jet-columncreate-structure.md)  
+[JET_COLUMNDEF](./jet-columndef-structure.md)

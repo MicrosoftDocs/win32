@@ -1,5 +1,5 @@
 ---
-Description: MIDI Parser Filter
+description: MIDI Parser Filter
 ms.assetid: a56576ad-f949-48fa-85e0-3e9898d2970d
 title: MIDI Parser Filter
 ms.topic: article
@@ -12,7 +12,7 @@ The MIDI Parser filter reads MIDI data that is found in .MID and .RMI files. The
 
 
 
-|                                          |                                                                                                          |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMMediaContent**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                           |
 | Input Pin Media Types                    | MEDIATYPE\_Stream, MEDIASUBTYPE\_Midi                                                                    |

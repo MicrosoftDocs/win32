@@ -1,5 +1,5 @@
 ---
-Description: Sent to an extension DLL when the user selects a file name in the File Manager directory window or Search Results window.
+description: Sent to an extension DLL when the user selects a file name in the File Manager directory window or Search Results window.
 title: FMEVENT_SELCHANGE message (Wfext.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 0773aa74-adf2-4e90-aead-2a9a981be3cb
-api_name: 
- - FMEVENT_SELCHANGE
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -53,7 +44,7 @@ Because the user can change the selection many times, the extension DLL must ret
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

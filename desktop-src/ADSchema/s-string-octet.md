@@ -21,7 +21,7 @@ A string that represents an array of bytes. This syntax is used to store binary 
 
 
 
-|              |                                                                   |
+| Entry | Value |
 |--------------|-------------------------------------------------------------------|
 | Name         | String(Octet)                                                     |
 | Syntax ID    | 2.5.5.10                                                          |

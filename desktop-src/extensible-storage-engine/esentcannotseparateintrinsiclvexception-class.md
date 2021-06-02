@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotSeparateIntrinsicLVException class"
 title: EsentCannotSeparateIntrinsicLVException class
 TOCTitle: EsentCannotSeparateIntrinsicLVException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException
@@ -34,13 +35,13 @@ Base class for JET_err.CannotSeparateIntrinsicLV exceptions.
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-        [Microsoft.Isam.Esent.Interop.EsentApiException](dn334231\(v=exchg.10\).md)  
-          [Microsoft.Isam.Esent.Interop.EsentUsageException](dn350849\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+        [Microsoft.Isam.Esent.Interop.EsentApiException](./esentapiexception-class.md)  
+          [Microsoft.Isam.Esent.Interop.EsentUsageException](./esentusageexception-class.md)  
             Microsoft.Isam.Esent.Interop.EsentCannotSeparateIntrinsicLVException  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -67,6 +68,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentCannotSeparateIntrinsicLVException members](dn274181\(v=exchg.10\).md)
+[EsentCannotSeparateIntrinsicLVException members](./esentcannotseparateintrinsiclvexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

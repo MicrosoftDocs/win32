@@ -1,5 +1,5 @@
 ---
-Description: The DeletePrinterDriverEx function removes the specified printer-driver name from the list of names of supported drivers on a server and deletes the files associated with the driver. This function can also delete specific versions of the driver.
+description: The DeletePrinterDriverEx function removes the specified printer-driver name from the list of names of supported drivers on a server and deletes the files associated with the driver. This function can also delete specific versions of the driver.
 ms.assetid: 1a3d7c7f-1d45-4877-a8f7-a77f40e3c319
 title: DeletePrinterDriverEx function (Winspool.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ Before calling **DeletePrinterDriverEx**, you must delete all printer objects th
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

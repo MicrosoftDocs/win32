@@ -1,5 +1,5 @@
 ---
-Description: The MULTICAST\_LOOPBACK\_MODE enum describes the multicast loopback mode.
+description: The MULTICAST\_LOOPBACK\_MODE enum describes the multicast loopback mode.
 ms.assetid: bf9c3665-71cc-4cde-9ad4-1a8b62eddf9f
 title: MULTICAST_LOOPBACK_MODE enumeration (Confpriv.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Selective loopback is enabled. That means enabled multiple applications on one m
 
 
 
-|                         |                                                                                       |
+| Requirement | Value |
 |-------------------------|---------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.0 or later<br/>                                                 |
 | Header<br/>       | <dl> <dt>Confpriv.h</dt> </dl> |

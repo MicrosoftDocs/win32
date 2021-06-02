@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the text from the specified window's title bar.
+description: Retrieves the text from the specified window's title bar.
 ms.assetid: c14151f9-222f-40a2-837e-7f9a728efc82
 title: '_GetWindowText function'
 ms.topic: reference
@@ -43,7 +43,7 @@ int _GetWindowText(
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Sqlunirl.dll</dt> </dl> |
 

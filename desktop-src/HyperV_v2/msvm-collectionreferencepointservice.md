@@ -1,5 +1,5 @@
 ---
-Description: Service to create, destroy and export reference points.
+description: Service to create, destroy and export reference points.
 ms.assetid: 88a76319-b5a7-44a3-8a31-83ade999b255
 title: Msvm_CollectionReferencePointService class
 ms.topic: reference
@@ -59,7 +59,7 @@ The **Msvm\_CollectionReferencePointService** class has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

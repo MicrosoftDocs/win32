@@ -1,5 +1,5 @@
 ---
-Description: Creates a new replication relationship for a virtual machine. When a client calls this method for a replica virtual machine, it extends the replication relationship to the specified provider.
+description: Creates a new replication relationship for a virtual machine. When a client calls this method for a replica virtual machine, it extends the replication relationship to the specified provider.
 ms.assetid: 44d3b5aa-46c2-4fe9-9a1d-6ee699d3640d
 title: CreateReplicationRelationship method of the Msvm_ReplicationService class
 ms.topic: reference
@@ -142,7 +142,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

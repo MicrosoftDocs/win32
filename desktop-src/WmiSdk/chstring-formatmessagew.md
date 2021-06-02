@@ -1,5 +1,5 @@
 ---
-Description: The overloaded FormatMessageW method formats a message string.
+description: The overloaded FormatMessageW method formats a message string.
 audience: developer
 ms.assetid: 45780467-d3aa-4927-aa53-60e5ee277c27
 ms.tgt_platform: multiple
@@ -29,7 +29,7 @@ The overloaded **FormatMessageW** method formats a message string.
 
 
 
-|                                     |                                                                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows�Vista<br/>                                                                                                                                      |
 | Minimum supported server<br/> | Windows Server�2008<br/>                                                                                                                                |

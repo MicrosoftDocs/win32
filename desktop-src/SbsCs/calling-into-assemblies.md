@@ -1,5 +1,5 @@
 ---
-Description: When calling into the entrypoints of an assembly, it is recommended that you use the same activation context that was active when searching for the assembly.
+description: When calling into the entrypoints of an assembly, it is recommended that you use the same activation context that was active when searching for the assembly.
 ms.assetid: 8b2de5f5-ea95-441f-9345-b64de53ea05f
 title: Calling Into Assemblies
 ms.topic: article

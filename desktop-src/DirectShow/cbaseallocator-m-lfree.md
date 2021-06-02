@@ -1,5 +1,5 @@
 ---
-Description: Pointer to a list of available (free) media samples.
+description: Pointer to a list of available (free) media samples.
 ms.assetid: 7736cf0a-48cf-4f33-8d03-c34a3d7cbddc
 title: CBaseAllocator::m_lFree member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CSampleList m_lFree;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

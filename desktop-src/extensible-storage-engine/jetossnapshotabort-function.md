@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotAbort Function"
 title: JetOSSnapshotAbort Function
 TOCTitle: JetOSSnapshotAbort Function
 ms:assetid: 629455af-b526-4366-9b9a-112757f72c32
@@ -50,7 +51,7 @@ The options for this call. This parameter is reserved for future use and the onl
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -86,7 +87,7 @@ If this function fails, the snapshot session will not be aborted.
 
 #### Remarks
 
-This function should be called instead of [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md) to inform the engine that the snapshot was aborted for reasons that don't relate to the engine. This information can be used later to help issue event log messages about the snapshot session or to help determine other appropriate actions.
+This function should be called instead of [JetOSSnapshotThaw](./jetossnapshotthaw-function.md) to inform the engine that the snapshot was aborted for reasons that don't relate to the engine. This information can be used later to help issue event log messages about the snapshot session or to help determine other appropriate actions.
 
 #### Requirements
 
@@ -122,9 +123,8 @@ This function should be called instead of [JetOSSnapshotThaw](gg269229\(v=exchg.
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_OSSNAPID](gg269325\(v=exchg.10\).md)  
-[JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  
-[JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md)  
-[JetOSSnapshotThaw](gg269229\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_OSSNAPID](./jet-ossnapid.md)  
+[JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)  
+[JetOSSnapshotPrepare](./jetossnapshotprepare-function.md)  
+[JetOSSnapshotThaw](./jetossnapshotthaw-function.md)

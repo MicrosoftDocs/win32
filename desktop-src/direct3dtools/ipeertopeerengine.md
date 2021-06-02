@@ -1,5 +1,5 @@
 ---
-Description: Interface for remote communicating data about a vsglog.
+description: Interface for remote communicating data about a vsglog.
 MS-HAID: vspixengine.IPeerToPeerEngine
 MSHAttr:
 - PreferredSiteName:MSDN

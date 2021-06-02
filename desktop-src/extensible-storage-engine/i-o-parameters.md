@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: I/O Parameters"
 title: I/O Parameters
 TOCTitle: I/O Parameters
 ms:assetid: 5df3c106-52ac-4ca0-9a6a-d5d62576bb23
@@ -595,6 +596,5 @@ Max number of bytes that can be gapped for a coalesced read I/O operation.
 
 ### See Also
 
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)

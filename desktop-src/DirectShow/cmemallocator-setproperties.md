@@ -1,5 +1,5 @@
 ---
-Description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer.
+description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer.
 ms.assetid: 01f63379-1d66-4a72-b87c-de55504b0bb4
 title: CMemAllocator.SetProperties method (Amfilter.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ The buffer alignment, specified by the **cbAlign** member of the **ALLOCATOR\_PR
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

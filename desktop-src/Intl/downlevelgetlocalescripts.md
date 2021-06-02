@@ -1,5 +1,5 @@
 ---
-Description: Provides a list of scripts for the specified locale.
+description: Provides a list of scripts for the specified locale.
 ms.assetid: 0cedcf6c-bab4-4e0f-ab8f-04aa8e51602f
 title: DownlevelGetLocaleScripts function (Idndl.h)
 ms.topic: reference
@@ -102,7 +102,7 @@ The required header file and DLL are part of the ["Microsoft Internationalized D
 
 
 
-|                                     |                                                                                                                                                             |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                 |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                        |

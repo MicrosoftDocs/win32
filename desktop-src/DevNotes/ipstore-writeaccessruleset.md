@@ -1,5 +1,5 @@
 ---
-Description: Writes the access rules for the given type.
+description: Writes the access rules for the given type.
 ms.assetid: d5cfd782-8d87-45ae-a574-0a294a30ca71
 title: IPStore::WriteAccessRuleset method (Pstore.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ Calls to this method will always fail.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Pstore.h</dt> </dl>    |
 | DLL<br/>    | <dl> <dt>Pstorec.dll</dt> </dl> |

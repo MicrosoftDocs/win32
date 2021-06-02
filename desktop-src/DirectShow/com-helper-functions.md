@@ -1,5 +1,5 @@
 ---
-Description: These functions provide support for implementing the IUnknown interface in DirectShow.
+description: These functions provide support for implementing the IUnknown interface in DirectShow.
 ms.assetid: 991e4c69-7d30-4ecf-9ccf-4920452c21d6
 title: COM Helper Functions (Combase.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ These functions provide support for implementing the **IUnknown** interface in D
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

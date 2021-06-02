@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RECPOS class"
 title: JET_RECPOS class
 TOCTitle: JET_RECPOS class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RECPOS
@@ -35,7 +36,7 @@ Represents a fractional position within an index. This is used by JetGotoPositio
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_RECPOS  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_RECPOS members](dn335257\(v=exchg.10\).md)
+[JET_RECPOS members](./jet-recpos-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

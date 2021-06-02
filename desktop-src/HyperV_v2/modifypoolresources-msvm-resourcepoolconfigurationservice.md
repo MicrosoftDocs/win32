@@ -1,5 +1,5 @@
 ---
-Description: Changes the parent pool resource settings for resources assigned to a child pool.
+description: Changes the parent pool resource settings for resources assigned to a child pool.
 ms.assetid: 419fca70-5f15-4593-80ac-ef2af2c3dde5
 title: ModifyPoolResources method of the Msvm_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -135,7 +135,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Media Foundation Functions
+description: Media Foundation Functions
 ms.assetid: 3018ffa7-e709-45b0-8b2b-7640d5633378
 title: Media Foundation Functions
 ms.topic: article

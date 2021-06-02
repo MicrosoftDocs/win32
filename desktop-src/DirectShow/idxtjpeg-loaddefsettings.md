@@ -1,5 +1,5 @@
 ---
-Description: The LoadDefSettings method restores the default settings of the Wipe transition.
+description: The LoadDefSettings method restores the default settings of the Wipe transition.
 ms.assetid: 3f81002a-ecac-4d5a-8d2a-ada4d4884d7d
 title: IDxtJpeg::LoadDefSettings method (Qedit.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

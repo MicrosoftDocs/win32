@@ -1,5 +1,5 @@
 ---
-Description: The Registry table holds the registry information that the application needs to set in the system registry.
+description: The Registry table holds the registry information that the application needs to set in the system registry.
 ms.assetid: 809ffd02-cf97-42d8-aed9-c13a14dcd8b4
 title: Registry Table
 ms.topic: article

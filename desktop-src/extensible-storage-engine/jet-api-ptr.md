@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_API_PTR"
 title: JET_API_PTR
 TOCTitle: JET_API_PTR
 ms:assetid: 27b1eeec-1707-4edb-a4b2-2619190c21e7
@@ -46,15 +47,15 @@ Like a **DWORD_PTR** data type, the **JET_API_PTR** data type is defined as 4 by
 
 The **JET_API_PTR** data type is used to define the following data types:
 
-  - [JET_HANDLE](gg269217\(v=exchg.10\).md)
+  - [JET_HANDLE](./jet-handle.md)
 
-  - [JET_INSTANCE](gg294048\(v=exchg.10\).md)
+  - [JET_INSTANCE](./jet-instance.md)
 
-  - [JET_SESID](gg269253\(v=exchg.10\).md)
+  - [JET_SESID](./jet-sesid.md)
 
-  - [JET_TABLEID](gg269182\(v=exchg.10\).md)
+  - [JET_TABLEID](./jet-tableid.md)
 
-  - [JET_LS](gg269336\(v=exchg.10\).md)
+  - [JET_LS](./jet-ls.md)
 
 ### Requirements
 
@@ -78,4 +79,3 @@ The **JET_API_PTR** data type is used to define the following data types:
 </tr>
 </tbody>
 </table>
-

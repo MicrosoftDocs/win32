@@ -1,5 +1,5 @@
 ---
-Description: Considerations for creating or opening a file by using the CreateFile function.
+description: Considerations for creating or opening a file by using the CreateFile function.
 ms.assetid: 094cac29-c66d-409e-8928-878dc693d393
 title: Creating and Opening Files
 ms.topic: article

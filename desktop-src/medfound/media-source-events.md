@@ -1,5 +1,5 @@
 ---
-Description: Media Source Events
+description: Media Source Events
 ms.assetid: c7b6ea86-e919-45b8-a1f9-bd18c3aed163
 title: Media Source Events
 ms.topic: article

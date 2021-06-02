@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetBeginSession Function"
 title: JetBeginSession Function
 TOCTitle: JetBeginSession Function
 ms:assetid: f1c33b78-f2d1-44ea-8ec9-94b729b94e24
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetBeginSession Function
 
-The **JetBeginSession** function starts a session and initializes and returns an ESE session handle ([JET_SESID](gg269253\(v=exchg.10\).md)). Sessions control all access to the database and are used to control the scope of transactions. The session can be used to begin, commit, or abort transactions. The session is also used to attach, create, or open a database. The session is used as the context for all DDL and DML operations. To increase concurrency and parallel access to the database, multiple sessions can be begun.
+The **JetBeginSession** function starts a session and initializes and returns an ESE session handle ([JET_SESID](./jet-sesid.md)). Sessions control all access to the database and are used to control the scope of transactions. The session can be used to begin, commit, or abort transactions. The session is also used to attach, create, or open a database. The session is used as the context for all DDL and DML operations. To increase concurrency and parallel access to the database, multiple sessions can be begun.
 
 ```cpp
     JET_ERR JET_API JetBeginSession(
@@ -60,7 +61,7 @@ This parameter is reserved.
 
 ### Return Value
 
-This function allows for the return of any [JET_ERR](gg294092\(v=exchg.10\).md)s that are defined in this API. For more information about Jet errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function allows for the return of any [JET_ERR](./jet-err.md)s that are defined in this API. For more information about Jet errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -121,9 +122,9 @@ On failure, there are no available sessions or a new session was unable to be in
 
 #### Remarks
 
-Careful attention must be used when using sessions across different threads. A session tracks which thread it was used on during [JetBeginTransaction](gg294083\(v=exchg.10\).md), [JetCommitTransaction](gg269191\(v=exchg.10\).md), or [JetRollback](gg269273\(v=exchg.10\).md), and it will throw an error if used on multiple threads with an open transaction. The [JetResetSessionContext](gg269250\(v=exchg.10\).md), [JetSetSessionContext](gg294124\(v=exchg.10\).md) can change this behavior. Since the session is still a serialized context, and multiple database operations cannot be performed on a single session concurrently, only serially. However, you can use multiple sessions to achieve concurrent database access. Sessions can be used inside a transaction across threads by setting and resetting the session contexts.
+Careful attention must be used when using sessions across different threads. A session tracks which thread it was used on during [JetBeginTransaction](./jetbegintransaction-function.md), [JetCommitTransaction](./jetcommittransaction-function.md), or [JetRollback](./jetrollback-function.md), and it will throw an error if used on multiple threads with an open transaction. The [JetResetSessionContext](./jetresetsessioncontext-function.md), [JetSetSessionContext](./jetsetsessioncontext-function.md) can change this behavior. Since the session is still a serialized context, and multiple database operations cannot be performed on a single session concurrently, only serially. However, you can use multiple sessions to achieve concurrent database access. Sessions can be used inside a transaction across threads by setting and resetting the session contexts.
 
-The session handle should be closed with [JetEndSession](gg294054\(v=exchg.10\).md).
+The session handle should be closed with [JetEndSession](./jetendsession-function.md).
 
 #### Requirements
 
@@ -163,16 +164,15 @@ The session handle should be closed with [JetEndSession](gg294054\(v=exchg.10\).
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetBeginTransaction](gg294083\(v=exchg.10\).md)  
-[JetCommitTransaction](gg269191\(v=exchg.10\).md)  
-[JetDupSession](gg294141\(v=exchg.10\).md)  
-[JetEndSession](gg294054\(v=exchg.10\).md)  
-[JetResetSessionContext](gg269250\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSetSessionContext](gg294124\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetBeginTransaction](./jetbegintransaction-function.md)  
+[JetCommitTransaction](./jetcommittransaction-function.md)  
+[JetDupSession](./jetdupsession-function.md)  
+[JetEndSession](./jetendsession-function.md)  
+[JetResetSessionContext](./jetresetsessioncontext-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSetSessionContext](./jetsetsessioncontext-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

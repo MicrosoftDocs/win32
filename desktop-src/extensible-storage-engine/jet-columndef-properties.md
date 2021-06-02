@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_COLUMNDEF properties"
 title: JET_COLUMNDEF properties
 TOCTitle: JET_COLUMNDEF properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_COLUMNDEF
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_COLUMNDEF](dn335038\(v=exchg.10\).md) type exposes the following members.
+The [JET_COLUMNDEF](./jet-columndef-class.md) type exposes the following members.
 
 ## Properties
 
@@ -61,7 +62,6 @@ Top
 
 #### Reference
 
-[JET_COLUMNDEF class](dn335038\(v=exchg.10\).md)
+[JET_COLUMNDEF class](./jet-columndef-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

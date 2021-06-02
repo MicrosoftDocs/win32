@@ -22,7 +22,7 @@ Reference to replica sets to which this computer belongs.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | Frs-Computer-Reference-BL               |
 | Ldap-Display-Name | frsComputerReferenceBL                  |
@@ -48,7 +48,7 @@ Reference to replica sets to which this computer belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 103                             |
 | MAPI-Id                | \-                              |
@@ -69,7 +69,7 @@ Reference to replica sets to which this computer belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 103                             |
 | MAPI-Id                | \-                              |
@@ -90,7 +90,7 @@ Reference to replica sets to which this computer belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 103                             |
 | MAPI-Id                | \-                              |
@@ -111,7 +111,7 @@ Reference to replica sets to which this computer belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 103                             |
 | MAPI-Id                | \-                              |
@@ -132,7 +132,7 @@ Reference to replica sets to which this computer belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 103                             |
 | MAPI-Id                | \-                              |
@@ -153,7 +153,7 @@ Reference to replica sets to which this computer belongs.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 103                             |
 | MAPI-Id                | \-                              |

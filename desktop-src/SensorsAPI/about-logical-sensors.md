@@ -1,5 +1,5 @@
 ---
-Description: Logical sensors provide data without depending on hardware devices.
+description: Logical sensors provide data without depending on hardware devices.
 ms.assetid: fb0f0324-d72e-4759-9f4d-deedf8848e21
 title: About Logical Sensors
 ms.topic: article

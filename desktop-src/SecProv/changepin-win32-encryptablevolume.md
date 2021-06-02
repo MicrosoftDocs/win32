@@ -1,5 +1,5 @@
 ---
-Description: Changes the PIN associated with an encrypted volume.
+description: Changes the PIN associated with an encrypted volume.
 ms.assetid: 8b0043cc-cf86-44e5-ab7c-038a6782f347
 title: ChangePIN method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -87,7 +87,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 Enterprise, Windows 7 Ultimate \[desktop apps only\]<br/>                               |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                                 |

@@ -1,5 +1,5 @@
 ---
-Description: Extends the ShellLinkObject object and supports one additional property.
+description: Extends the ShellLinkObject object and supports one additional property.
 title: IShellLinkDual2 object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 8a63552c-6bce-4583-8df8-a7f7731b35eb
-api_name: 
- - IShellLinkDual2
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -53,7 +44,7 @@ The **IShellLinkDual2** object has these properties.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

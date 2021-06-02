@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the keyCertSign bit is set.
+description: Retrieves a Boolean value that indicates whether the keyCertSign bit is set.
 ms.assetid: c0331293-4a65-40f0-a404-87d8546349c2
 title: KeyUsage.IsKeyCertSignEnabled property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the keyCertSign bit is set.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

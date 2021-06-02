@@ -1,5 +1,5 @@
 ---
-Description: Lists the elements used with event tracing.
+description: Lists the elements used with event tracing.
 ms.assetid: 8cb5907e-9006-45d1-9d48-13a43a631664
 title: Event Tracing Reference
 ms.topic: article

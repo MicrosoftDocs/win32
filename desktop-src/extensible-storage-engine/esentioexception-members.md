@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIOException members"
 title: EsentIOException members
 TOCTitle: EsentIOException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentIOException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for IO exceptions.
 
-The [EsentIOException](dn319595\(v=exchg.10\).md) type exposes the following members.
+The [EsentIOException](./esentioexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +168,6 @@ Top
 
 #### Reference
 
-[EsentIOException class](dn319595\(v=exchg.10\).md)
+[EsentIOException class](./esentioexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

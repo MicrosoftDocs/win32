@@ -1,5 +1,5 @@
 ---
-Description: Starts the service.
+description: StartService method of the Msvm_MetricService class - Starts the service.
 ms.assetid: 8ac863bc-d8a0-40dc-a4b6-1067045887d8
 title: StartService method of the Msvm_MetricService class
 ms.topic: reference
@@ -48,7 +48,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

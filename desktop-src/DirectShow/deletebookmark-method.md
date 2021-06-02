@@ -1,5 +1,5 @@
 ---
-Description: The DeleteBookmark method deletes the saved bookmark.
+description: The DeleteBookmark method deletes the saved bookmark.
 ms.assetid: f408a65d-3b95-446b-9a48-a98dc920ea30
 title: DeleteBookmark Method (Segment.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ There can only be one bookmark at a time.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Getting started (DirectShow)
+description: Getting started (DirectShow)
 ms.assetid: 1e0451b0-ff2a-4279-a73f-fadf717e9a45
 title: Getting Started
 ms.topic: article

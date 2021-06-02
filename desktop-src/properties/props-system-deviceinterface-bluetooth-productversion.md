@@ -1,5 +1,5 @@
 ---
-Description: Bluetooth device product version.
+description: Bluetooth device product version.
 ms.assetid: 30f3bfe5-a78c-41c0-a579-5c0f6bfd2388
 title: System.DeviceInterface.Bluetooth.ProductVersion
 ms.topic: article

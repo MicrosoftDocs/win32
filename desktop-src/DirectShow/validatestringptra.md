@@ -1,5 +1,5 @@
 ---
-Description: Verifies that the calling process has read access to an ANSI string. If not, the macro calls the DbgBreak macro.
+description: Verifies that the calling process has read access to an ANSI string. If not, the macro calls the DbgBreak macro.
 ms.assetid: 44be67f8-9896-4360-82de-083a5f28a3d0
 title: ValidateStringPtrA macro (Wxdebug.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ This macro is ignored unless DEBUG, \_DEBUG, or VFWROBUST is defined when the Di
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl> |
 

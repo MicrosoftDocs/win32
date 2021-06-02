@@ -1,5 +1,5 @@
 ---
-Description: GUIDs are used to specify the type of property for packet properties and recognizer properties.
+description: GUIDs are used to specify the type of property for packet properties and recognizer properties.
 ms.assetid: 04452eeb-0282-4c4b-afc8-34be7c750f82
 title: Recognizer GUIDs
 ms.topic: article

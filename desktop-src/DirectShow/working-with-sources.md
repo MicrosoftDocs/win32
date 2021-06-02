@@ -1,5 +1,5 @@
 ---
-Description: Working with Sources
+description: Working with Sources
 ms.assetid: add946ec-604c-4bfe-aff8-2f172ba44f73
 title: Working with Sources
 ms.topic: article

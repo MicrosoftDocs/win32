@@ -1,5 +1,5 @@
 ---
-Description: Sent to the owner window of a control or menu item when the control or menu is created.
+description: Sent to the owner window of a control or menu item when the control or menu is created.
 ms.assetid: 4584a3da-6c92-4ecd-8cf2-e4afc1b8321d
 title: DFM_WM_MEASUREITEM message (Shlobj.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ When the owner window receives the **DFM\_WM\_MEASUREITEM** message, the owner f
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

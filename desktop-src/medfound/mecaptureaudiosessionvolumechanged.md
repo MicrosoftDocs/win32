@@ -1,5 +1,5 @@
 ---
-Description: Sent by an audio capture source when the volume changes.
+description: Sent by an audio capture source when the volume changes.
 ms.assetid: 4A525D5F-9226-4277-BDB7-174BF65FE320
 title: MECaptureAudioSessionVolumeChanged event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The audio capture source sends this event if an external action changes the volu
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: The Revert method discards all changes that have been made to a transacted stream since the last IByteBuffer::Commit call.
+description: The Revert method discards all changes that have been made to a transacted stream since the last IByteBuffer::Commit call.
 ms.assetid: da3d9810-6511-43d5-af87-03a392f8be75
 title: IByteBuffer::Revert method (Scardssp.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

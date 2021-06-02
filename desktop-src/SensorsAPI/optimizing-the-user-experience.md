@@ -1,5 +1,5 @@
 ---
-Description: Optimizing the User Experience
+description: Optimizing the User Experience
 ms.assetid: 481d0b00-a3e2-46c6-883a-5ca183f5fead
 title: Optimizing the User Experience
 ms.topic: article

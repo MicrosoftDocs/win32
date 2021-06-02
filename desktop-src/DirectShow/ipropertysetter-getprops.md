@@ -1,5 +1,5 @@
 ---
-Description: The GetProps method retrieves the properties set on this object, with their corresponding values.
+description: The GetProps method retrieves the properties set on this object, with their corresponding values.
 ms.assetid: 2a2ac262-f5a4-4bbe-9cd2-aa7c7d359917
 title: IPropertySetter::GetProps method (Qedit.h)
 ms.topic: reference
@@ -115,7 +115,7 @@ for (LONG i = 0; i < count; i++)
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -14,7 +14,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Color Palettes
+# Color Palettes (Windows Media Player SDK)
 
 Different devices have different color palettes. You will probably want to create different skins for each color palette. The following color palettes are recommended:
 

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ParticipatesInSet class identifies physical elements that should be replaced together.
+description: The CIM\_ParticipatesInSet class identifies physical elements that should be replaced together.
 ms.assetid: 417607a3-6682-4745-a5ca-0538a0d4853d
 ms.tgt_platform: multiple
 title: CIM_ParticipatesInSet class
@@ -91,7 +91,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

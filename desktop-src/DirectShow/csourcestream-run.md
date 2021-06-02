@@ -1,5 +1,5 @@
 ---
-Description: The Run method signals the streaming thread to run.
+description: The Run method signals the streaming thread to run.
 ms.assetid: 9aef7801-dcfb-4597-bccb-5ba19327b2d5
 title: CSourceStream.Run method (Source.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ In the base class, this method has the same effect as the [**CSourceStream::Paus
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Source.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

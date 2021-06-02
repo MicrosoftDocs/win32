@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an array of pointers to item identifier lists (PIDLs) for all selected objects. Used by SHShellFolderView\_Message.
+description: Retrieves an array of pointers to item identifier lists (PIDLs) for all selected objects. Used by SHShellFolderView\_Message.
 title: SFVM_GETSELECTEDOBJECTS message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -50,7 +50,7 @@ When finished, you should call [**ILFree**](/windows/desktop/api/shlobj_core/nf-
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

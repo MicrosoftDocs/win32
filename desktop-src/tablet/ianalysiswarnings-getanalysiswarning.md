@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the IAnalysisWarning object at the specified index.
+description: Retrieves the IAnalysisWarning object at the specified index.
 ms.assetid: 8f5d5642-73ec-496e-bad7-9f636fc00217
 title: IAnalysisWarnings::GetAnalysisWarning method (IACom.h)
 ms.topic: reference
@@ -147,7 +147,7 @@ STDMETHODIMP CMyClass::Results(
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

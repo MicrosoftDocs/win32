@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVRootNotSpecifiedException constructor"
 title: EsentSLVRootNotSpecifiedException constructor 
 TOCTitle: 'EsentSLVRootNotSpecifiedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVRootNotSpecifiedException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVRootNotSpecifiedException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVRootNotSpecifiedException()
 
 #### Reference
 
-[EsentSLVRootNotSpecifiedException class](dn334835\(v=exchg.10\).md)
+[EsentSLVRootNotSpecifiedException class](./esentslvrootnotspecifiedexception-class.md)
 
-[EsentSLVRootNotSpecifiedException members](dn350746\(v=exchg.10\).md)
+[EsentSLVRootNotSpecifiedException members](./esentslvrootnotspecifiedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

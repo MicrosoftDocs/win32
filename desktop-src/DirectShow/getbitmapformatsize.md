@@ -1,5 +1,5 @@
 ---
-Description: The GetBitmapFormatSize function calculates the size needed for a VIDEOINFO structure that can hold a specified BITMAPINFOHEADER structure.
+description: The GetBitmapFormatSize function calculates the size needed for a VIDEOINFO structure that can hold a specified BITMAPINFOHEADER structure.
 ms.assetid: a559415a-070f-4674-be12-a65a46025809
 title: GetBitmapFormatSize function (Wxutil.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ if (pVi != NULL)
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

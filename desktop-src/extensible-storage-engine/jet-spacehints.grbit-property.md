@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS.grbit property"
 title: JET_SPACEHINTS.grbit property 
 TOCTitle: 'grbit property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS.grbit
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the space hints options.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public SpaceHintsGrbit grbit { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.SpaceHintsGrbit](hh163400\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.SpaceHintsGrbit](./spacehintsgrbit-enumeration.md)  
 
 ## See also
 
 #### Reference
 
-[JET_SPACEHINTS class](dn351095\(v=exchg.10\).md)
+[JET_SPACEHINTS class](./jet-spacehints-class.md)
 
-[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](./jet-spacehints-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

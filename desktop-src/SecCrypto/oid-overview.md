@@ -1,5 +1,5 @@
 ---
-Description: Extensibility is achieved by providing for the use of new object identifiers (OIDs), new encoding types, and new DLLs.
+description: Extensibility is achieved by providing for the use of new object identifiers (OIDs), new encoding types, and new DLLs.
 ms.assetid: 95e992fe-af30-4b4e-b20d-cfe5318d0a38
 title: OID Overview
 ms.topic: article

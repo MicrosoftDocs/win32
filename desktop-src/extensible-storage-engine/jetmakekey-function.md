@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetMakeKey Function"
 title: JetMakeKey Function
 TOCTitle: JetMakeKey Function
 ms:assetid: 8c1cff2f-2f24-4990-a9d8-fb4f822e50b1
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetMakeKey Function
 
-The **JetMakeKey** function constructs search keys that may then be used to find a set of entries in an index by some simple search criteria on their key column values. A search key is also one of the intrinsic properties of a cursor and is used by the [JetSeek](gg294103\(v=exchg.10\).md) and [JetSetIndexRange](gg294112\(v=exchg.10\).md) operations to locate index entries matching these search criteria on the current index of that cursor. A complete search key is built up in a series of **JetMakeKey** calls where each call is used to load the column value for the next key column of the current index of a cursor. It is also possible to load a previously constructed search key that has been retrieved from the cursor using [JetRetrieveKey](gg294051\(v=exchg.10\).md).
+The **JetMakeKey** function constructs search keys that may then be used to find a set of entries in an index by some simple search criteria on their key column values. A search key is also one of the intrinsic properties of a cursor and is used by the [JetSeek](./jetseek-function.md) and [JetSetIndexRange](./jetsetindexrange-function.md) operations to locate index entries matching these search criteria on the current index of that cursor. A complete search key is built up in a series of **JetMakeKey** calls where each call is used to load the column value for the next key column of the current index of a cursor. It is also possible to load a previously constructed search key that has been retrieved from the cursor using [JetRetrieveKey](./jetretrievekey-function.md).
 
 ```cpp
     JET_ERR JET_API JetMakeKey(
@@ -55,7 +56,7 @@ The input buffer containing the column data for the current key column of the cu
 
 The data type of the column data in the input buffer must exactly match the data type and other properties of the column definition of the current key column. No type coercion is performed on the column data whatsoever.
 
-If JET_bitNormalizedKey is specified in the *grbit* parameter, the input buffer must contain a previously constructed search key. Such keys are obtained using a call to [JetRetrieveKey](gg294051\(v=exchg.10\).md).
+If JET_bitNormalizedKey is specified in the *grbit* parameter, the input buffer must contain a previously constructed search key. Such keys are obtained using a call to [JetRetrieveKey](./jetretrievekey-function.md).
 
 *cbData*
 
@@ -166,7 +167,7 @@ A group of bits specifying zero or more of the following options.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -268,7 +269,7 @@ There is a very important ramification to this maximum key size. Whenever there 
 
   - For entries in all indexes, key truncation will cause index entries that would otherwise not match the search criteria of a given search key to be declared as matches.
 
-Applications must anticipate this truncation and either avoid it or compensate for its effects. In Windows Vista, a new index flag, JET_bitIndexDisallowTruncation, has been added to make it easier for applications to prevent key truncations. See the [JET_INDEXCREATE](gg269186\(v=exchg.10\).md) structure for more information on this indexing option.
+Applications must anticipate this truncation and either avoid it or compensate for its effects. In Windows Vista, a new index flag, JET_bitIndexDisallowTruncation, has been added to make it easier for applications to prevent key truncations. See the [JET_INDEXCREATE](./jet-indexcreate-structure.md) structure for more information on this indexing option.
 
 #### Requirements
 
@@ -304,11 +305,11 @@ Applications must anticipate this truncation and either avoid it or compensate f
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCreateIndex](gg294099\(v=exchg.10\).md)  
-[JetRetrieveKey](gg294051\(v=exchg.10\).md)  
-[JetSeek](gg294103\(v=exchg.10\).md)  
-[JetSetIndexRange](gg294112\(v=exchg.10\).md)
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCreateIndex](./jetcreateindex-function.md)  
+[JetRetrieveKey](./jetretrievekey-function.md)  
+[JetSeek](./jetseek-function.md)  
+[JetSetIndexRange](./jetsetindexrange-function.md)

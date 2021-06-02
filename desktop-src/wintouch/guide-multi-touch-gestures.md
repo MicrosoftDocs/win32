@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Windows Touch Gestures
+# Windows Touch Gestures (Programming Guide)
 
 This section contains topics about Windows Touch gestures.
 

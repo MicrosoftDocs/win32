@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVHeaderBadChecksumException properties"
 title: EsentSLVHeaderBadChecksumException properties
 TOCTitle: EsentSLVHeaderBadChecksumException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentSLVHeaderBadChecksumException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVHeaderBadChecksumException](dn350706\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVHeaderBadChecksumException](./esentslvheaderbadchecksumexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentSLVHeaderBadChecksumException class](dn350706\(v=exchg.10\).md)
+[EsentSLVHeaderBadChecksumException class](./esentslvheaderbadchecksumexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSesidException methods"
 title: EsentInvalidSesidException methods
 TOCTitle: EsentInvalidSesidException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentInvalidSesidException](dn319584\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidSesidException](./esentinvalidsesidexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentInvalidSesidException class](dn319584\(v=exchg.10\).md)
+[EsentInvalidSesidException class](./esentinvalidsesidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. Not implemented.
+description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. Not implemented.
 ms.assetid: 386f41e4-a673-4c67-a28f-e155810fbb5a
 title: CSourceSeeking.GetCurrentPosition method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Source filters typically do not support this method. Instead, renderer filters r
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

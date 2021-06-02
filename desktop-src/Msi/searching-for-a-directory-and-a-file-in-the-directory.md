@@ -1,5 +1,5 @@
 ---
-Description: During a Windows Installer installation, the installer can search for a directory and a file in that directory.
+description: During a Windows Installer installation, the installer can search for a directory and a file in that directory.
 ms.assetid: ddf624f9-6f85-4ef6-8dfc-8635a25915d0
 title: Searching for a Directory and a File in the Directory
 ms.topic: article

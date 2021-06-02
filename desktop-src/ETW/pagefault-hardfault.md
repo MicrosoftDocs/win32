@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for hard page fault events. The following syntax is simplified from MOF code.
+description: This class is the event type class for hard page fault events. The following syntax is simplified from MOF code.
 ms.assetid: 9837cc45-6485-46c3-a5d9-0d33e443cd32
 title: PageFault_HardFault class
 ms.topic: reference
@@ -153,7 +153,7 @@ Faulting address.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

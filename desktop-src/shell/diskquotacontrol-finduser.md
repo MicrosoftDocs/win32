@@ -1,5 +1,5 @@
 ---
-Description: Finds a user's entry, by name, in the volume's quota file.
+description: Finds a user's entry, by name, in the volume's quota file.
 title: DiskQuotaControl.FindUser method
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: e5767d28-4c0a-49bc-a1d3-ba809411456d
-api_name: 
- - DiskQuotaControl.FindUser
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -83,7 +74,7 @@ End Function
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

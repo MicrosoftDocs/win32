@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a message to provide privacy by using Kerberos.
+description: Encrypts a message to provide privacy by using Kerberos.
 ms.assetid: b9b6ca95-b986-4de7-bd28-994a5125ad05
 title: EncryptMessage (Kerberos) function
 ms.topic: reference
@@ -105,7 +105,7 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-|                          |                                           |
+| Requirement | Value |
 |--------------------------|-------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]          |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\] |

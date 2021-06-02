@@ -1,5 +1,5 @@
 ---
-Description: A video renderer requires a repaint.
+description: A video renderer requires a repaint.
 ms.assetid: 2e756dea-366c-4024-8fc8-6feabaef1954
 title: EC_REPAINT (Dshow.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ Video renderers send this message when they receive a [**WM\_PAINT**](/windows/d
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

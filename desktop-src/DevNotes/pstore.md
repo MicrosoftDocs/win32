@@ -1,5 +1,5 @@
 ---
-Description: Protected Storage provides applications with an interface to store user data that must be kept secure or free from modification.
+description: Protected Storage provides applications with an interface to store user data that must be kept secure or free from modification.
 ms.assetid: '85c1a009-c4f7-4b5a-ad96-6845a4e80de9'
 title: PStore
 ms.topic: article

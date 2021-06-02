@@ -1,5 +1,5 @@
 ---
-Description: Creating the Multiplexer Object
+description: Creating the Multiplexer Object
 ms.assetid: a5adc40c-abb4-4012-b6f2-eb871eaed7b9
 title: Creating the Multiplexer Object
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CloseDatabaseGrbit enumeration"
 title: CloseDatabaseGrbit enumeration
 TOCTitle: CloseDatabaseGrbit enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.CloseDatabaseGrbit
@@ -30,11 +31,11 @@ ROBOTS: INDEX,FOLLOW
 
 # CloseDatabaseGrbit enumeration
 
-Options for [JetCloseDatabase(JET_SESID, JET_DBID, CloseDatabaseGrbit)](dn292107\(v=exchg.10\).md).
+Options for [JetCloseDatabase(JET_SESID, JET_DBID, CloseDatabaseGrbit)](./api.jetclosedatabase-method.md).
 
 This enumeration has a [FlagsAttribute](/dotnet/api/system.flagsattribute) attribute that allows a bitwise combination of its member values.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -76,4 +77,4 @@ public enum CloseDatabaseGrbit
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

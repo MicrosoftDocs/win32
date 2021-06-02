@@ -1,5 +1,5 @@
 ---
-Description: The AddBefore method inserts a list before the specified position.
+description: The AddBefore method inserts a list before the specified position.
 ms.assetid: a4c0dbec-64a0-445b-95e5-000603cc0264
 title: CBaseList.AddBefore method (Wxlist.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Existing position indicators, including the one specified in the *pos* parameter
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

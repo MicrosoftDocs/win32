@@ -1,5 +1,5 @@
 ---
-Description: Specifies the copyright flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies the copyright flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 0fe02acb-cdac-4b6c-8835-6e338727973f
 title: AVEncDDCopyright property (Codecapi.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

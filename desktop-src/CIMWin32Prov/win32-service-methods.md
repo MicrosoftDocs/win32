@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_Service class exposes the following methods.
+description: The Win32\_Service class exposes the following methods.
 ms.assetid: E3E9F37F-487D-46BF-B664-D32A7C14BD1F
 ms.tgt_platform: multiple
 title: Win32_Service Methods

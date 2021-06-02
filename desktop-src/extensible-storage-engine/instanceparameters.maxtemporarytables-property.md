@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: InstanceParameters.MaxTemporaryTables property"
 title: InstanceParameters.MaxTemporaryTables property 
 TOCTitle: 'MaxTemporaryTables property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.InstanceParameters.MaxTemporaryTables
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the number of temporary table resources for use by an instance. This setting will affect how many temporary tables can be used at the same time. If this system parameter is set to zero then no temporary database will be created and any activity that requires use of the temporary database will fail. This setting can be useful to avoid the I/O required to create the temporary database if it is known that it will not be used.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -67,8 +68,8 @@ The use of a temporary table also requires a cursor resource.
 
 #### Reference
 
-[InstanceParameters class](dn350942\(v=exchg.10\).md)
+[InstanceParameters class](./instanceparameters-class.md)
 
-[InstanceParameters members](dn350943\(v=exchg.10\).md)
+[InstanceParameters members](./instanceparameters-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The Media Foundation H.265 video encoder is a Media Foundation Transform that supports encoding content into the H.265/HEVC format.
+description: The Media Foundation H.265 video encoder is a Media Foundation Transform that supports encoding content into the H.265/HEVC format.
 ms.assetid: 790CFB39-6FC0-432D-A434-5262C30EABF4
 title: H.265 / HEVC Video Encoder
 ms.topic: reference
@@ -245,7 +245,7 @@ The following is the set of required and optional **ICodecAPI** properties for e
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                              |
 | Minimum supported server<br/> | None supported<br/>                                                                |

@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.FlashManufacturer property.
+description: The photo metadata policy for the System.Photo.FlashManufacturer property.
 ms.assetid: f62e85ec-2dc6-456b-a43b-7b76d162b608
 title: System.Photo.FlashManufacturer Photo Metadata Policy
 ms.topic: article

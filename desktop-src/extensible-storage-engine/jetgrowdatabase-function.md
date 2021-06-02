@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGrowDatabase Function"
 title: JetGrowDatabase Function
 TOCTitle: JetGrowDatabase Function
 ms:assetid: d9719991-6c80-4dcb-a1d6-f0c7de61f459
@@ -58,7 +59,7 @@ Pointer to a number that receives the size of the database, in pages, after the 
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -94,7 +95,7 @@ If **JetGrowDatabase** is called prior to inserting large amounts of data, the d
 
 Only growing the file is currently supported. To shrink a file, use the defragmentation feature of the **esentutl.exe** utility program.
 
-To set the size of a database that is not opened, see [JetSetDatabaseSize](gg269242\(v=exchg.10\).md).
+To set the size of a database that is not opened, see [JetSetDatabaseSize](./jetsetdatabasesize-function.md).
 
 The file size might not match the number of pages that are returned in *pcpgReal*. There are two additional reserved pages that might not be counted in *pcpgReal*.
 
@@ -132,11 +133,10 @@ The file size might not match the number of pages that are returned in *pcpgReal
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_OBJECTINFO](gg269353\(v=exchg.10\).md)  
-[JET_OBJECTLIST](gg269348\(v=exchg.10\).md)  
-[JetSetDatabaseSize](gg269242\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_OBJECTINFO](./jet-objectinfo-structure.md)  
+[JET_OBJECTLIST](./jet-objectlist-structure.md)  
+[JetSetDatabaseSize](./jetsetdatabasesize-function.md)

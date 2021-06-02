@@ -1,5 +1,5 @@
 ---
-Description: Applications can query hardware to detect the supported Direct3D device types. This section contains information about the primary tasks involved in enumerating display adapters and selecting Direct3D devices.
+description: Applications can query hardware to detect the supported Direct3D device types. This section contains information about the primary tasks involved in enumerating display adapters and selecting Direct3D devices.
 ms.assetid: d140b90c-3a20-49f4-883b-662b6c05dcea
 title: Selecting a Device (Direct3D 9)
 ms.topic: article

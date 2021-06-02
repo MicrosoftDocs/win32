@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabase500FormatException properties"
 title: EsentDatabase500FormatException properties
 TOCTitle: EsentDatabase500FormatException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabase500FormatException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabase500FormatException](dn334350\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabase500FormatException](./esentdatabase500formatexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabase500FormatException class](dn334350\(v=exchg.10\).md)
+[EsentDatabase500FormatException class](./esentdatabase500formatexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

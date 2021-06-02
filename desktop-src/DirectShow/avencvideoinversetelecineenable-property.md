@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the encoder performs inverse telecine.
+description: Specifies whether the encoder performs inverse telecine.
 ms.assetid: 3467b0c8-c27d-448a-8cbf-971307e4c408
 title: AVEncVideoInverseTelecineEnable property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is **VARIANT\_TRUE**, the encoder performs inverse telecine. If inv
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogFileSizeMismatchException methods"
 title: EsentLogFileSizeMismatchException methods
 TOCTitle: EsentLogFileSizeMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentLogFileSizeMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogFileSizeMismatchException](dn334627\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogFileSizeMismatchException](./esentlogfilesizemismatchexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentLogFileSizeMismatchException class](dn334627\(v=exchg.10\).md)
+[EsentLogFileSizeMismatchException class](./esentlogfilesizemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: TopoEdit
+description: TopoEdit
 ms.assetid: '464bd562-e49f-4099-b66e-48b7caf230bb'
 title: TopoEdit
 ms.topic: article
@@ -39,7 +39,7 @@ TopoEdit is available in the Windows SDK, starting with the Windows SDK for Wind
 
 
 
-|                          |                                      |
+| Requirement | Value |
 |--------------------------|--------------------------------------|
 | Minimum SDK version      | Windows SDK for Windows Server 2008. |
 | Minimum operating system | Windows Vista                        |

@@ -1,5 +1,5 @@
 ---
-Description: The get\_StopTime method retrieves the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaPosition::get\_StopTime method.
+description: The get\_StopTime method retrieves the time at which the playback will stop, relative to the duration of the stream. This method implements the IMediaPosition::get\_StopTime method.
 ms.assetid: 0ca3f047-ac43-419e-a1ed-b406f89f7af7
 title: CPosPassThru.get_StopTime method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Displays the Run dialog to the user.
+description: Displays the Run dialog to the user.
 ms.assetid: BC7C4C26-593D-4467-A2AA-4F2DF835C989
 title: IShellDispatch.FileRun method (Shldisp.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

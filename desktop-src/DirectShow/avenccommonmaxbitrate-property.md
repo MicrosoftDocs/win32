@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
+description: Specifies the maximum bit rate, in bits per second. This property applies only to constant bit rate (CBR) and variable bit rate (VBR) encoding modes.
 ms.assetid: 053fdad0-dc5f-4af1-84a6-bb7c0dac7e79
 title: AVEncCommonMaxBitRate property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ This property has a linear range of values. To get the supported range, call [**
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -42,7 +42,7 @@ ms.topic: reference
 ms.date: 05/31/2018
 ---
 
-# Window Classes
+# Window Classes (CommCtrl.h)
 
 This section lists the window class names provided by the common control library.
 
@@ -86,7 +86,7 @@ This section lists the window class names provided by the common control library
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>CommCtrl.h</dt> </dl> |
 

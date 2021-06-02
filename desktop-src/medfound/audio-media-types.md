@@ -1,5 +1,5 @@
 ---
-Description: This section describes how to create and manipulate media types that describe audio data.
+description: This section describes how to create and manipulate media types that describe audio data.
 ms.assetid: 15aad4ea-7b4b-4a6f-bac7-18e0c281f2a6
 title: Audio Media Types
 ms.topic: article

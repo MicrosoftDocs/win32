@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetDeviceManufacturer method.
+description: Proxy function for the GetDeviceManufacturer method.
 ms.assetid: f4dbf67a-eb67-4138-a77a-7386567b95e6
 title: IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy function
 ms.topic: reference
@@ -86,7 +86,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

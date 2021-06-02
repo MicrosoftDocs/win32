@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetSystemParameter Function"
 title: JetGetSystemParameter Function
 TOCTitle: JetGetSystemParameter Function
 ms:assetid: 6e6ddb49-702c-4c45-ac9f-35ae817696dd
@@ -50,7 +51,7 @@ The instance to use for this call.
 
 For Windows 2000, this parameter is ignored and should always be **NULL**.
 
-For Windows XP and later releases, this parameter is somewhat overloaded. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported, this parameter may be **NULL** or may contain the actual instance returned by [JetInit](gg294068\(v=exchg.10\).md). In either case, all system parameter settings are read from that one instance. If the engine is operating in multi-instance mode, this parameter may be **NULL** or a pointer to an instance created using [JetInit](gg294068\(v=exchg.10\).md) or [JetCreateInstance](gg269354\(v=exchg.10\).md). When this parameter is **NULL** then the global system parameter setting (or default) is read. When this parameter is an instance then the system parameter setting for that instance is read.
+For Windows XP and later releases, this parameter is somewhat overloaded. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported, this parameter may be **NULL** or may contain the actual instance returned by [JetInit](./jetinit-function.md). In either case, all system parameter settings are read from that one instance. If the engine is operating in multi-instance mode, this parameter may be **NULL** or a pointer to an instance created using [JetInit](./jetinit-function.md) or [JetCreateInstance](./jetcreateinstance-function.md). When this parameter is **NULL** then the global system parameter setting (or default) is read. When this parameter is an instance then the system parameter setting for that instance is read.
 
 *sesid*
 
@@ -62,7 +63,7 @@ When specified, the specified instance is ignored and the instance associated wi
 
 The ID of the system parameter that will be read.
 
-See [System Parameters](gg294139\(v=exchg.10\).md) for a complete list of system parameters and their properties.
+See [System Parameters](./extensible-storage-engine-system-parameters.md) for a complete list of system parameters and their properties.
 
 *plParam*
 
@@ -78,7 +79,7 @@ The maximum size in bytes of the string output buffer.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -207,13 +208,12 @@ There is an important problem in this API that is present in all releases. If a 
 
 #### See Also
 
-[JET_API_PTR](gg269209\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_API_PTR](./jet-api-ptr.md)  
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetInit](./jetinit-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

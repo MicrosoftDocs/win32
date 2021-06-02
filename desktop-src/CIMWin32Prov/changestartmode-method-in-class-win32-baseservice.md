@@ -1,5 +1,5 @@
 ---
-Description: Modifies the start mode of a service object derived from Win32\_BaseService.
+description: Modifies the start mode of a service object derived from Win32\_BaseService.
 ms.assetid: 33040632-6c04-4084-af09-8e1b8bc29090
 ms.tgt_platform: multiple
 title: ChangeStartMode method of the Win32_BaseService class
@@ -341,7 +341,7 @@ The service is currently paused in the system.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

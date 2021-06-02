@@ -1,5 +1,5 @@
 ---
-Description: Designing for Deployment
+description: Designing for Deployment
 ms.assetid: 31244998-34f5-4fd8-95f6-adcc134bcaf3
 title: Designing for Deployment
 ms.topic: article

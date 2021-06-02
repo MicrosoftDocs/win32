@@ -1,5 +1,5 @@
 ---
-Description: Specifies the video encoding bit rate for the presentation, in bits per second. This attribute applies to presentation descriptors.
+description: Specifies the video encoding bit rate for the presentation, in bits per second. This attribute applies to presentation descriptors.
 ms.assetid: 0fe8cf64-2256-4e48-9853-2c734f97f3c7
 title: MF_PD_VIDEO_ENCODING_BITRATE attribute (Mfidl.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

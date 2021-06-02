@@ -1,5 +1,5 @@
 ---
-Description: The Register method adds the filter to the registry.
+description: The Register method adds the filter to the registry.
 ms.assetid: 934e421a-25a6-40fa-a48b-6d7331f34b78
 title: CBaseFilter.Register method (Amfilter.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ Returns one of the **HRESULT** values listed in the following table.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

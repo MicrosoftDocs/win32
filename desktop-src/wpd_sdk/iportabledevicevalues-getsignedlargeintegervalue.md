@@ -1,5 +1,5 @@
 ---
-Description: The GetSignedLargeIntegerValue method retrieves a LONGLONG value (type VT\_I8) specified by a key.
+description: The GetSignedLargeIntegerValue method retrieves a LONGLONG value (type VT\_I8) specified by a key.
 ms.assetid: b8d2a0b6-7ca3-4a56-a502-cc18b08df22a
 title: IPortableDeviceValues::GetSignedLargeIntegerValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The GetAdaptersInfo function fills a pointer to an IP\_ADAPTER\_INFO structure with information about the network adapters associated with the system.
+description: The GetAdaptersInfo function fills a pointer to an IP\_ADAPTER\_INFO structure with information about the network adapters associated with the system.
 ms.assetid: 5bc72ee5-3065-4bfb-8dcb-8befb2a4bbd9
 title: Managing Network Adapters Using GetAdaptersInfo
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Contains IHV-related connectivity settings. It is not currently implemented.
+description: Contains IHV-related connectivity settings. It is not currently implemented.
 ms.assetid: d943e82a-8660-4df7-8f5c-42ed83f17313
 title: connectivity (IHV) Element
 ms.topic: reference
@@ -41,7 +41,7 @@ The element is defined by the [**IHV**](wlan-profileschema-ihv-wlanprofile-eleme
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

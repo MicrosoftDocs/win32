@@ -1,5 +1,5 @@
 ---
-Description: The XMBYTE2 structure exposes the following operators.
+description: The XMBYTE2 structure exposes the following operators.
 ms.assetid: 402876b9-731e-4c30-b48f-bca67ed6dad1
 title: XMBYTE2 operators
 ms.topic: reference

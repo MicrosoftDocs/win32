@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJTYP"
 title: JET_OBJTYP
 TOCTitle: JET_OBJTYP
 ms:assetid: 7f549c84-584b-42b6-a4a5-385cf6dc25df

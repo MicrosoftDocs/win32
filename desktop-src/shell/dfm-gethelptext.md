@@ -1,5 +1,5 @@
 ---
-Description: Allows the callback object to specify a help text string.
+description: DFM_GETHELPTEXT message - Allows the callback object to specify a help text string.
 title: DFM_GETHELPTEXT message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -62,7 +62,7 @@ This message is sent to either the callback function or the callback object depe
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

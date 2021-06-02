@@ -1,5 +1,5 @@
 ---
-Description: Computes a coordinate-axis oriented bounding box.
+description: D3DXComputeBoundingBox function (D3DX10math.h) - Computes a coordinate-axis oriented bounding box.
 ms.assetid: 1b8f328c-2fe1-462e-b464-c8dd9dc03e67
 title: D3DXComputeBoundingBox function (D3DX10math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXComputeBoundingBox function
+# D3DXComputeBoundingBox function (D3DX10math.h)
 
 Computes a coordinate-axis oriented bounding box.
 
@@ -94,7 +94,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

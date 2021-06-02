@@ -44,9 +44,6 @@ The address of the factory with which *resource* was used.
 
 </dd> </dl> 
 
-|             |       |
-|-------------|-------|
-| Error Level | Error |
 
 
 

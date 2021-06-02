@@ -22,7 +22,7 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | System-Only                          |
 | Ldap-Display-Name | systemOnly                           |
@@ -49,7 +49,7 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -70,7 +70,7 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -91,7 +91,7 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -112,7 +112,7 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -133,7 +133,7 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -154,7 +154,7 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |
@@ -175,7 +175,7 @@ A Boolean value that specifies whether only Active Directory can modify the clas
 
 
 
-|                        |                                                                                                           |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                        |
 | MAPI-Id                | \-                                                                                                        |

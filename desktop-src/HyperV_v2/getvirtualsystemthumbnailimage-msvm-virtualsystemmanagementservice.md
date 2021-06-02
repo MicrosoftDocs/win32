@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the thumbnail image of an existing virtual machine.
+description: Retrieves the thumbnail image of an existing virtual machine.
 ms.assetid: 8D670D2E-EAD7-47FF-B13C-764EFFDF4547
 title: GetVirtualSystemThumbnailImage method of the Msvm_VirtualSystemManagementService class
 ms.topic: reference
@@ -437,7 +437,7 @@ End Function
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

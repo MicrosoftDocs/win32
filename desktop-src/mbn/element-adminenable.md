@@ -1,5 +1,5 @@
 ---
-Description: MBNProfileExt\/AdminEnable (v4)
+description: MBNProfileExt\/AdminEnable (v4)
 MS-HAID: WWAN\_profile\_v4.element\_AdminEnable
 MSHAttr:
 - PreferredSiteName:MSDN

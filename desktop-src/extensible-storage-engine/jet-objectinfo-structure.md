@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OBJECTINFO Structure"
 title: JET_OBJECTINFO Structure
 TOCTitle: JET_OBJECTINFO Structure
 ms:assetid: 9d348ab3-d453-4316-9233-681f165e8ef1
@@ -47,7 +48,7 @@ The size, in bytes, of the **JET_OBJECTINFO** structure.
 
 **objtyp**
 
-Holds the [JET_OBJTYP](gg269312\(v=exchg.10\).md) of the structure. Currently only tables will be returned (that is, JET_objtypTable).
+Holds the [JET_OBJTYP](./jet-objtyp.md) of the structure. Currently only tables will be returned (that is, JET_objtypTable).
 
 **dtCreate**
 
@@ -134,19 +135,19 @@ A bit field that contains zero or more of the following flags.
 
 The number of records in the table.
 
-This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](gg269232\(v=exchg.10\).md).
+This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](./jetgetobjectinfo-function.md).
 
 **cPage**
 
 The number of pages that are being used by the table.
 
-This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](gg269232\(v=exchg.10\).md).
+This value is retrieved only if **JET_OBJECTINFO** was passed to [JetGetObjectInfo](./jetgetobjectinfo-function.md).
 
 ### Remarks
 
-A **JET_OBJECTINFO** structure gets populated by a call to [JetGetObjectInfo](gg269232\(v=exchg.10\).md) or [JetGetTableInfo](gg269177\(v=exchg.10\).md). If the API call does not succeed, the contents of the structure are undefined.
+A **JET_OBJECTINFO** structure gets populated by a call to [JetGetObjectInfo](./jetgetobjectinfo-function.md) or [JetGetTableInfo](./jetgettableinfo-function.md). If the API call does not succeed, the contents of the structure are undefined.
 
-If applicable, the table statistics include the number of records and the number of pages that are in the clustered index (that is, the index containing the record data). The index statistics are accessed separately by name, using [JetGetIndexInfo](gg294084\(v=exchg.10\).md) or [JetGetTableIndexInfo](gg294102\(v=exchg.10\).md).
+If applicable, the table statistics include the number of records and the number of pages that are in the clustered index (that is, the index containing the record data). The index statistics are accessed separately by name, using [JetGetIndexInfo](./jetgetindexinfo-function.md) or [JetGetTableIndexInfo](./jetgettableindexinfo-function.md).
 
 ### Requirements
 
@@ -174,13 +175,12 @@ If applicable, the table statistics include the number of records and the number
 
 ### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_OBJTYP](gg269312\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetIndexInfo](gg294084\(v=exchg.10\).md)  
-[JetGetObjectInfo](gg269232\(v=exchg.10\).md)  
-[JetGetTableIndexInfo](gg294102\(v=exchg.10\).md)  
-[JetGetTableInfo](gg269177\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_OBJTYP](./jet-objtyp.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetIndexInfo](./jetgetindexinfo-function.md)  
+[JetGetObjectInfo](./jetgetobjectinfo-function.md)  
+[JetGetTableIndexInfo](./jetgettableindexinfo-function.md)  
+[JetGetTableInfo](./jetgettableinfo-function.md)

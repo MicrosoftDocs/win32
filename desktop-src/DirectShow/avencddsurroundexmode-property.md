@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This property applies to Dolby Digital audio encoders.
+description: Specifies whether a Dolby Digital audio stream is encoded in Dolby Digital Surround EX. This property applies to Dolby Digital audio encoders.
 ms.assetid: bc74a002-ef9a-4cb3-a999-cb7a0481e132
 title: AVEncDDSurroundExMode property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ This property is read/write.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

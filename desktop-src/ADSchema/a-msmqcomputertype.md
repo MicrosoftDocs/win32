@@ -22,7 +22,7 @@ Replaced by MSMQ-Computer-Type-Ex.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MSMQ-Computer-Type                          |
 | Ldap-Display-Name | mSMQComputerType                            |
@@ -48,7 +48,7 @@ Replaced by MSMQ-Computer-Type-Ex.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -69,7 +69,7 @@ Replaced by MSMQ-Computer-Type-Ex.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -90,7 +90,7 @@ Replaced by MSMQ-Computer-Type-Ex.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -111,7 +111,7 @@ Replaced by MSMQ-Computer-Type-Ex.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -132,7 +132,7 @@ Replaced by MSMQ-Computer-Type-Ex.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |
@@ -153,7 +153,7 @@ Replaced by MSMQ-Computer-Type-Ex.
 
 
 
-|                        |                                                              |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------|
 | Link-Id                | \-                                                           |
 | MAPI-Id                | \-                                                           |

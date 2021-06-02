@@ -1,5 +1,5 @@
 ---
-Description: The CheckPaletteHeader method validates the palette entries in a VIDEOINFO structure.
+description: The CheckPaletteHeader method validates the palette entries in a VIDEOINFO structure.
 ms.assetid: bc18cbe6-0446-43a6-a50c-e587815b789d
 title: CImageDisplay.CheckPaletteHeader method (Winutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ If the image format is not palettized, the method verifies that **biClrUsed** eq
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

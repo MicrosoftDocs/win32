@@ -1,5 +1,5 @@
 ---
-Description: Video Port Manager
+description: Video Port Manager
 ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: Video Port Manager
 ms.topic: article
@@ -17,7 +17,7 @@ The Video Port Manager filter (VPM) enables the Video Mixing Renderer Filter 7 (
 
 
 
-|                                          |                                                                                                                                                                                                                      |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMVideoDecimationProperties**](/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IKsPropertySet**](ikspropertyset.md), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop), [**IVPManager**](/windows/desktop/api/Strmif/nn-strmif-ivpmanager) |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_VPVideo or MEDIASUBTYPE\_VPVBI, FORMAT\_None                                                                                                                                         |

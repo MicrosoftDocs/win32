@@ -1,5 +1,5 @@
 ---
-Description: The TAPI LINE\_GENERATE message is sent to notify the application that the current digit or tone generation has terminated.
+description: The TAPI LINE\_GENERATE message is sent to notify the application that the current digit or tone generation has terminated.
 ms.assetid: 375823c5-22c2-4010-bfb4-5b8b46141c72
 title: LINE_GENERATE message (Tapi.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ If the service provider does not generate the timestamp (for example, if it was 
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

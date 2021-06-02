@@ -1,5 +1,5 @@
 ---
-Description: Specifies the source rectangle for video mixer of the Enhanced Video Renderer (EVR). The source rectangle is the portion of the video frame that the mixer blits to the destination surface.
+description: Specifies the source rectangle for video mixer of the Enhanced Video Renderer (EVR). The source rectangle is the portion of the video frame that the mixer blits to the destination surface.
 ms.assetid: 4364ff87-816e-4b64-b5e9-c53dd6c9bb33
 title: VIDEO_ZOOM_RECT attribute (Evr.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ HRESULT SetMixerSourceRect(IMFTransform *pMixer, const MFVideoNormalizedRect& nr
 
 
 
-|                                     |                                                                                  |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                   |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                             |

@@ -1,5 +1,5 @@
 ---
-Description: Callback to return the versions of all the interfaces supported. This allows the consumer to be out of sync with the capture engine.
+description: Callback to return the versions of all the interfaces supported. This allows the consumer to be out of sync with the capture engine.
 MS-HAID: vspixengine.IVersionCallback
 MSHAttr:
 - PreferredSiteName:MSDN

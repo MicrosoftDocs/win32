@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the bounding rectangle of the Windows taskbar.
+description: Retrieves the bounding rectangle of the Windows taskbar.
 ms.assetid: 8072bb2d-05e6-4baa-a7f4-1377b94fdd45
 title: ABM_GETTASKBARPOS message (Shellapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ Note that this applies only to the system taskbar. Other objects, particularly t
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

@@ -1,6 +1,6 @@
 ---
 title: Player.PlaylistCollectionChange event
-description: The PlaylistCollectionChange event occurs when something changes in the playlist collection.
+description: The PlaylistCollectionChange event occurs when something changes in the playlist collection. | Player.PlaylistCollectionChange event
 ms.assetid: b03fd52f-9b22-4535-9d6f-f7abc04b328e
 keywords:
 - PlaylistCollectionChange event Windows Media Player
@@ -47,7 +47,7 @@ This event does not return a value.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

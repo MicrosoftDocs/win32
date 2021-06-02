@@ -1,5 +1,5 @@
 ---
-Description: The LastErrorRecord method of the Installer object returns a Record object that contains error parameters for the most recent error from the function that produced the error record.
+description: The LastErrorRecord method of the Installer object returns a Record object that contains error parameters for the most recent error from the function that produced the error record.
 ms.assetid: 48fe46bc-6c10-4bd5-89bc-013e650a44e6
 title: Installer.LastErrorRecord method
 ms.topic: reference
@@ -102,7 +102,7 @@ End If
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

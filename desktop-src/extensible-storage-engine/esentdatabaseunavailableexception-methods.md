@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseUnavailableException methods"
 title: EsentDatabaseUnavailableException methods
 TOCTitle: EsentDatabaseUnavailableException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseUnavailableException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseUnavailableException](dn274227\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseUnavailableException](./esentdatabaseunavailableexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseUnavailableException class](dn274227\(v=exchg.10\).md)
+[EsentDatabaseUnavailableException class](./esentdatabaseunavailableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

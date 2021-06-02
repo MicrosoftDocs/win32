@@ -1,5 +1,5 @@
 ---
-Description: Represents a container for characteristics of a supported frequency range.
+description: Represents a container for characteristics of a supported frequency range.
 ms.assetid: eb07c10b-8d92-40bb-8a93-ebc5db46cfd3
 title: FrequencyRangeDescriptor class
 ms.topic: reference
@@ -238,7 +238,7 @@ Origin.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                         |

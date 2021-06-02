@@ -1,5 +1,5 @@
 ---
-Description: Computes a unit length quaternion.
+description: D3DXQuaternionNormalize function (D3DX10Math.h) - Computes a unit length quaternion.
 ms.assetid: 6735a632-64d7-4bc1-b63e-d0cd27f5a29b
 title: D3DXQuaternionNormalize function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXQuaternionNormalize function
+# D3DXQuaternionNormalize function (D3DX10Math.h)
 
 Computes a unit length quaternion.
 
@@ -68,7 +68,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

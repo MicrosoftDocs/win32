@@ -1,5 +1,5 @@
 ---
-Description: Specifies protection system specific data.
+description: Specifies protection system specific data.
 ms.assetid: 9FF8B67A-E7A3-4732-9770-503C1D07A1FF
 title: MF_EVENT_STREAM_METADATA_KEYDATA attribute (Mfapi.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies protection system specific data.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps \| UWP apps\]<br/>                                |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps \| UWP apps\]<br/>                     |

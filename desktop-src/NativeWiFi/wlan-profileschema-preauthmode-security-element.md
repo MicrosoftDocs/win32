@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether pre-authentication will be used by the client.
+description: Indicates whether pre-authentication will be used by the client.
 ms.assetid: 305d77b6-fe2d-45c6-ac91-5769f91de152
 title: preAuthMode (security) Element
 ms.topic: reference
@@ -45,7 +45,7 @@ The element is defined by the [**security**](wlan-profileschema-security-msm-ele
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

@@ -1,5 +1,5 @@
 ---
-Description: The following word constants form the set of valid Windows Image Acquisition (WIA) camera item properties.
+description: The following word constants form the set of valid Windows Image Acquisition (WIA) camera item properties.
 ms.assetid: 708f35e7-3ce4-4a9e-8547-2e12b6f535b2
 title: Camera WIA Item Property Constants (Wiadef.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ The prefix "WIA\_IPC\_" indicates an Item Property for cameras and is the naming
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

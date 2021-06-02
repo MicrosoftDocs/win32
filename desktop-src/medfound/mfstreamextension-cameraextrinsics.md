@@ -1,5 +1,5 @@
 ---
-Description: Contains the camera extrinsics for the stream.
+description: Contains the camera extrinsics for the stream.
 ms.assetid: 2236C135-BA3D-4C1B-8A39-5E23EF67425A
 title: MFStreamExtension_CameraExtrinsics attribute (Mfapi.h)
 ms.topic: reference
@@ -26,7 +26,7 @@ The value of the attribute is a [**MFCameraExtrinsics**](/windows/desktop/api/mf
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

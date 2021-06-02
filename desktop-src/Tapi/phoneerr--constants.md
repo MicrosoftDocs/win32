@@ -1,5 +1,5 @@
 ---
-Description: This is the list of error codes that the implementation can return when invoking operations on phone devices. Consult the individual function descriptions to determine which of these error codes each function can return.
+description: This is the list of error codes that the implementation can return when invoking operations on phone devices. Consult the individual function descriptions to determine which of these error codes each function can return.
 ms.assetid: 763a9dc2-3e70-4169-a66e-3aac78ef8d33
 title: PHONEERR_ Constants (Tapi.h)
 ms.topic: reference
@@ -372,7 +372,7 @@ If an application gets an error return that it does not specifically handle (suc
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

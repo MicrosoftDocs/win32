@@ -1,5 +1,5 @@
 ---
-Description: 'The following elements are used with Windows Resource Protection:'
+description: 'The following elements are used with Windows Resource Protection:'
 ms.assetid: 16f6a716-9d83-4d40-b4e9-794410df364f
 title: Windows Resource Protection Reference
 ms.topic: article

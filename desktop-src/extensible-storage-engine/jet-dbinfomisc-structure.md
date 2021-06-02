@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC Structure"
 title: JET_DBINFOMISC Structure
 TOCTitle: JET_DBINFOMISC Structure
 ms:assetid: ff287087-35b8-495e-9922-418ec2439e19
@@ -56,7 +57,7 @@ The **JET_DBINFOMISC** structure holds miscellaneous information about a databas
 
 **ulVersion**
 
-The native version of the database engine that created the database. See [JetGetVersion](gg294133\(v=exchg.10\).md) to retrieve the native version for the current database engine.
+The native version of the database engine that created the database. See [JetGetVersion](./jetgetversion-function.md) to retrieve the native version for the current database engine.
 
 **ulUpdate**
 
@@ -191,19 +192,19 @@ Null if the database is in a dirty state. This is the time when the database was
 
 **logtimeAttach**
 
-The time when the database was last attached with [JetAttachDatabase](gg294074\(v=exchg.10\).md).
+The time when the database was last attached with [JetAttachDatabase](./jetattachdatabase-function.md).
 
 **lgposAttach**
 
-The log position that was used the last time the database was attached with [JetAttachDatabase](gg294074\(v=exchg.10\).md).
+The log position that was used the last time the database was attached with [JetAttachDatabase](./jetattachdatabase-function.md).
 
 **logtimeDetach**
 
-The time when the database was last detached with [JetDetachDatabase](gg269266\(v=exchg.10\).md).
+The time when the database was last detached with [JetDetachDatabase](./jetdetachdatabase-function.md).
 
 **lgposDetach**
 
-The log position that was used the last time the database was detached with [JetDetachDatabase](gg269266\(v=exchg.10\).md).
+The log position that was used the last time the database was detached with [JetDetachDatabase](./jetdetachdatabase-function.md).
 
 **signLog**
 
@@ -249,7 +250,7 @@ Represents the Windows NT version numbers when the databases indexes were updat
 
 Database page size. 0 means the page size is 4 KB.
 
-This value is retrieved only if JET_DbInfoMisc was passed to [JetGetDatabaseInfo](gg294076\(v=exchg.10\).md) or [JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md).
+This value is retrieved only if JET_DbInfoMisc was passed to [JetGetDatabaseInfo](./jetgetdatabaseinfo-function.md) or [JetGetDatabaseFileInfo](./jetgetdatabasefileinfo-function.md).
 
 ### Requirements
 
@@ -277,10 +278,9 @@ This value is retrieved only if JET_DbInfoMisc was passed to [JetGetDatabaseInfo
 
 ### See Also
 
-[JET_BKINFO](gg294120\(v=exchg.10\).md)  
-[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JET_LGPOS](gg294113\(v=exchg.10\).md)  
-[JET_SIGNATURE](gg269340\(v=exchg.10\).md)  
-[JetGetDatabaseInfo](gg294076\(v=exchg.10\).md)  
-[JetGetDatabaseFileInfo](gg269239\(v=exchg.10\).md)
-
+[JET_BKINFO](./jet-bkinfo-structure.md)  
+[JET_LOGTIME](./jet-logtime-structure.md)  
+[JET_LGPOS](./jet-lgpos-structure.md)  
+[JET_SIGNATURE](./jet-signature-structure.md)  
+[JetGetDatabaseInfo](./jetgetdatabaseinfo-function.md)  
+[JetGetDatabaseFileInfo](./jetgetdatabasefileinfo-function.md)

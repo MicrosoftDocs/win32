@@ -1,5 +1,5 @@
 ---
-Description: The IChainContext interface exposes the following methods.
+description: The IChainContext interface exposes the following methods.
 ms.assetid: C1E2DE25-7364-4258-9FFD-D45C8441144C
 title: IChainContext Methods
 ms.topic: reference

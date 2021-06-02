@@ -1,5 +1,5 @@
 ---
-Description: The SetUnsignedLargeIntegerValue method adds a new ULONGLONG value (type VT\_UI8) or overwrites an existing one.
+description: The SetUnsignedLargeIntegerValue method adds a new ULONGLONG value (type VT\_UI8) or overwrites an existing one.
 ms.assetid: 64874b86-7bf1-407a-8fff-a2c07c22f0cb
 title: IPortableDeviceValues::SetUnsignedLargeIntegerValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

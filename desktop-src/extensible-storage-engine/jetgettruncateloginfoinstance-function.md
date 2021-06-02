@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetTruncateLogInfoInstance Function"
 title: JetGetTruncateLogInfoInstance Function
 TOCTitle: JetGetTruncateLogInfoInstance Function
 ms:assetid: 1ecb2f2f-2cad-4c55-9296-5e5893b57695
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetGetTruncateLogInfoInstance Function
 
-The **JetGetTruncateLogInfoInstance** function is used during a backup that is initiated by [JetBeginExternalBackup](gg269292\(v=exchg.10\).md) to query an instance for the names of the transaction log files that can be safely deleted after the backup has successfully completed.
+The **JetGetTruncateLogInfoInstance** function is used during a backup that is initiated by [JetBeginExternalBackup](./jetbeginexternalbackup-function.md) to query an instance for the names of the transaction log files that can be safely deleted after the backup has successfully completed.
 
 **Windows XP:**  **JetGetTruncateLogInfoInstance** is introduced in Windows XP.
 
@@ -64,7 +65,7 @@ Pointer to the output buffer that receives the actual amount of string data.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -175,17 +176,16 @@ This API does not return an error or warning if the output buffer is too small t
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetCloseDatabase](gg294123\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetEndSession](gg294054\(v=exchg.10\).md)  
-[JetOpenFile](gg269249\(v=exchg.10\).md)  
-[JetResetSessionContext](gg269250\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetStopBackup](gg294067\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[JetTerm](gg269298\(v=exchg.10\).md)  
-[JetTerm2](gg269223\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetCloseDatabase](./jetclosedatabase-function.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetEndSession](./jetendsession-function.md)  
+[JetOpenFile](./jetopenfile-function.md)  
+[JetResetSessionContext](./jetresetsessioncontext-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetStopBackup](./jetstopbackup-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[JetTerm](./jetterm-function.md)  
+[JetTerm2](./jetterm2-function.md)

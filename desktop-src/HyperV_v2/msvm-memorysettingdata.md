@@ -1,5 +1,5 @@
 ---
-Description: Represents the configured state of the memory for a virtual machine.
+description: Represents the configured state of the memory for a virtual machine.
 ms.assetid: 4B6FEE50-1C5F-4F41-B14A-E10B40400A1B
 title: Msvm_MemorySettingData class
 ms.topic: reference
@@ -589,7 +589,7 @@ if (WaitForResult($res) -ne 0)
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

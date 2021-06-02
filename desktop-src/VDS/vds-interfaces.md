@@ -1,5 +1,5 @@
 ---
-Description: Virtual Disk Service (VDS) objects provide interfaces that expose methods for querying, configuring, and maintaining storage devices.
+description: Virtual Disk Service (VDS) objects provide interfaces that expose methods for querying, configuring, and maintaining storage devices.
 ms.assetid: 0bddfd62-881d-4fda-b303-ed38d434af55
 title: VDS Interfaces
 ms.topic: article

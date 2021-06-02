@@ -1,5 +1,5 @@
 ---
-Description: The previewmode attribute specifies the preview mode for the group. If the value is TRUE, frames might be dropped during preview. Otherwise, no frames are dropped during preview. The default value is TRUE.
+description: The previewmode attribute specifies the preview mode for the group. If the value is TRUE, frames might be dropped during preview. Otherwise, no frames are dropped during preview. The default value is TRUE.
 ms.assetid: 5e4f4407-b43e-4b31-8676-1e12b6b70034
 title: previewmode Attribute
 ms.topic: reference

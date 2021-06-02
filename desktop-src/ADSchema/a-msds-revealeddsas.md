@@ -22,7 +22,7 @@ Backward link for [**ms-DS-Revealed-Users**](a-msds-revealedusers.md). Identifie
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Revealed-DSAs                     |
 | Ldap-Display-Name | msDS-RevealedDSAs                       |
@@ -45,7 +45,7 @@ Backward link for [**ms-DS-Revealed-Users**](a-msds-revealedusers.md). Identifie
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2103                            |
 | MAPI-Id                | \-                              |
@@ -66,7 +66,7 @@ Backward link for [**ms-DS-Revealed-Users**](a-msds-revealedusers.md). Identifie
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2103                            |
 | MAPI-Id                | \-                              |
@@ -87,7 +87,7 @@ Backward link for [**ms-DS-Revealed-Users**](a-msds-revealedusers.md). Identifie
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | 2103                            |
 | MAPI-Id                | \-                              |

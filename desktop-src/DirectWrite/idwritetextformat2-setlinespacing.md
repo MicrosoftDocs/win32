@@ -1,6 +1,6 @@
 ---
 title: IDWriteTextFormat2 SetLineSpacing method
-description: Set line spacing.
+description: Set line spacing. | IDWriteTextFormat2 SetLineSpacing method
 ms.assetid: 71d8c6c4-920f-a1b5-5a13-9985a7aca41e
 keywords:
 - SetLineSpacing method Direct Write
@@ -56,7 +56,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                 |

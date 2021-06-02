@@ -1,5 +1,5 @@
 ---
-Description: The SelectRightButton method selects the right directional button from the displayed menu.
+description: The SelectRightButton method selects the right directional button from the displayed menu.
 ms.assetid: 03e6034a-8db1-4724-9923-f19c4e835db7
 title: SelectRightButton Method (Segment.h)
 ms.topic: reference
@@ -27,7 +27,7 @@ No return value.
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Segment.h</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: Enables a transport application to query the Kerberos [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
+description: Enables a transport application to query the Kerberos [*security package*](../secgloss/s-gly.md) for certain attributes of a [*security context*](../secgloss/s-gly.md).
 ms.assetid: 8e80a9ed-0631-4932-aacc-ba3badcbd0a5
 title: QueryContextAttributes (Kerberos) function (Sspi.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ After the SECPKG\_ATTR\_REMOTE\_CERT\_CONTEXT or SECPKG\_ATTR\_LOCAL\_CERT\_CONT
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

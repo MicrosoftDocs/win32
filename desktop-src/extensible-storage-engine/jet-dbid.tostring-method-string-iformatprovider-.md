@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID.ToString method (String, IFormatProvider)"
 title: JET_DBID.ToString method (String, IFormatProvider)
 TOCTitle: ToString method (String, IFormatProvider)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBID.ToString(System.String,System.IFormatProvider)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Formats the value of the current instance using the specified format.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -81,10 +82,10 @@ A [String](/dotnet/api/system.string) containing the value of the current instan
 
 #### Reference
 
-[JET_DBID structure](hh596176\(v=exchg.10\).md)
+[JET_DBID structure](./jet-dbid-structure.md)
 
-[JET_DBID members](hh566162\(v=exchg.10\).md)
+[JET_DBID members](./jet-dbid-members.md)
 
-[ToString overload](hh557402\(v=exchg.10\).md)
+[ToString overload](./jet-dbid.tostring-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

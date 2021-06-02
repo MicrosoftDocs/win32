@@ -1,6 +1,6 @@
 ---
 title: VOLUMESLIDER
-description: This is a predefined SLIDER with the following default values.
+description: This is a predefined SLIDER with the following default values. | VOLUMESLIDER
 ms.assetid: 7533863b-49de-4c1b-8750-fd333c573a17
 keywords:
 - VOLUMESLIDER Windows Media Player
@@ -36,7 +36,7 @@ This creates a SLIDER control that sets the audio volume. The ToolTips are local
 
 
 
-|                    |                                              |
+| Requirement | Value |
 |--------------------|----------------------------------------------|
 | Version<br/> | Windows Media Player 7.0 or later<br/> |
 

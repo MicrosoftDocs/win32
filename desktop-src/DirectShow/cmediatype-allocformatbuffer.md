@@ -1,5 +1,5 @@
 ---
-Description: The AllocFormatBuffer method allocates memory for the format block.
+description: The AllocFormatBuffer method allocates memory for the format block.
 ms.assetid: 5ff716c7-f9cf-4b1c-9d3a-62ab955c1392
 title: CMediaType.AllocFormatBuffer method (Mtype.h)
 ms.topic: reference
@@ -58,7 +58,7 @@ The method updates the **cbFormat** and **pbFormat** members of the **AM\_MEDIA\
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

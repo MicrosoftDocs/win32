@@ -1,5 +1,5 @@
 ---
-Description: These options identify query resource types.
+description: These options identify query resource types.
 ms.assetid: d2030002-bd44-443f-8235-978919ebbda6
 title: D3DUSAGE_QUERY
 ms.topic: article
@@ -12,9 +12,8 @@ These options identify query resource types.
 
 
 
-|                                            |                                                                                                                                                                                                                                                                                                                                                     |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                                   | Description                                                                                                                                                                                                                                                                                                                                         |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DUSAGE\_QUERY\_FILTER                    | Query the resource format to see if it supports texture filter types other than D3DTEXF\_POINT (which is always supported).                                                                                                                                                                                                                         |
 | D3DUSAGE\_QUERY\_LEGACYBUMPMAP             | Query the resource about a legacy bump map.                                                                                                                                                                                                                                                                                                         |
 | D3DUSAGE\_QUERY\_POSTPIXELSHADER\_BLENDING | Query the resource to verify support for post pixel shader blending support. If [**CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat) fails with D3DUSAGE\_QUERY\_POSTPIXELSHADER\_BLENDING, post pixel blending operations are not supported. These include alpha test, pixel fog, render-target blending, color write enable, and dithering. |
@@ -33,7 +32,7 @@ Use [**CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevi
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

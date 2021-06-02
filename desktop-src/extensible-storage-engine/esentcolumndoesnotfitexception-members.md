@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDoesNotFitException members"
 title: EsentColumnDoesNotFitException members
 TOCTitle: EsentColumnDoesNotFitException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentColumnDoesNotFitException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.ColumnDoesNotFit exceptions.
 
-The [EsentColumnDoesNotFitException](dn334250\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnDoesNotFitException](./esentcolumndoesnotfitexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentColumnDoesNotFitException class](dn334250\(v=exchg.10\).md)
+[EsentColumnDoesNotFitException class](./esentcolumndoesnotfitexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

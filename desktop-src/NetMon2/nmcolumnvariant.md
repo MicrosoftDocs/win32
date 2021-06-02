@@ -1,5 +1,5 @@
 ---
-Description: Provides a line in the top pane of the Event Viewer that serves as a container for all possible data inserted into a column.
+description: Provides a line in the top pane of the Event Viewer that serves as a container for all possible data inserted into a column.
 ms.assetid: 2ad32c23-5dbe-46be-b0cc-ccf7a6fe8ec3
 title: NMCOLUMNVARIANT structure (Netmon.h)
 ms.topic: reference
@@ -178,7 +178,7 @@ Pointer to a string.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

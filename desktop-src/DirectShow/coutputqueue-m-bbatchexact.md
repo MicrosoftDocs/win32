@@ -1,5 +1,5 @@
 ---
-Description: Flag that specifies whether the object delivers samples in exact batches.
+description: Flag that specifies whether the object delivers samples in exact batches.
 ms.assetid: 1a37c78f-4499-4ebb-92b4-b71ba3ff1a02
 title: COutputQueue::m_bBatchExact member (Outputq.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ If the value is **TRUE**, the object waits until it has a complete batch of medi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

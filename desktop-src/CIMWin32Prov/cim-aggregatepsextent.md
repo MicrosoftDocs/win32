@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AggregatePSExtent class defines the number of addressable logical blocks on a single storage device, excluding logical blocks mapped as check data.
+description: The CIM\_AggregatePSExtent class defines the number of addressable logical blocks on a single storage device, excluding logical blocks mapped as check data.
 ms.assetid: 6c188955-a963-414d-94f9-b7e1cb5960ed
 ms.tgt_platform: multiple
 title: CIM_AggregatePSExtent class
@@ -1203,7 +1203,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

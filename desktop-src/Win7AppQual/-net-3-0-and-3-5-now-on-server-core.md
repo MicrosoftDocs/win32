@@ -1,5 +1,5 @@
 ---
-Description: .
+description: .NET 3.0 and 3.5 Now on Server Core
 ms.assetid: 61d6ee20-1304-4a89-b721-4d10a66e47fc
 title: .NET 3.0 and 3.5 Now on Server Core
 ms.topic: article

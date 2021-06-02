@@ -1,5 +1,5 @@
 ---
-Description: Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
+description: D3DXPlaneTransform function (D3DX10Math.h) - Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
 ms.assetid: ded06eac-4086-47e8-bc55-c37959afc22d
 title: D3DXPlaneTransform function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXPlaneTransform function
+# D3DXPlaneTransform function (D3DX10Math.h)
 
 Transforms a plane by a matrix. The input matrix is the inverse transpose of the actual transformation.
 
@@ -99,7 +99,7 @@ The parameter pM contains the inverse transpose of the transformation matrix. Th
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

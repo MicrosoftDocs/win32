@@ -1,5 +1,5 @@
 ---
-Description: System Reference Clock
+description: System Reference Clock
 ms.assetid: 0247dcb9-64ee-4562-944a-44bcfae80f2d
 title: System Reference Clock
 ms.topic: article
@@ -12,7 +12,7 @@ The System Reference Clock object implements a reference clock that returns the 
 
 
 
-|                  |                                                                                                                                                          |
+| Label | Value |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Class Identifier | CLSID\_SystemClock                                                                                                                                       |
 | Interfaces       | [**IAMClockAdjust**](/windows/desktop/api/Strmif/nn-strmif-iamclockadjust), [**IReferenceClock**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock), [**IReferenceClockTimerControl**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclocktimercontrol) |

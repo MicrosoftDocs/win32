@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CMemAllocator.CMemAllocator constructor - Constructor method.
 ms.assetid: 2340b39a-cab6-4524-b8cd-b22d4bdd24d0
 title: CMemAllocator.CMemAllocator constructor (Amfilter.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Pointer to a variable that receives an **HRESULT** value indicating the success 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

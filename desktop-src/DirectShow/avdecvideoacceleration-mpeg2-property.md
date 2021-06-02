@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables hardware acceleration for MPEG-2 video decoding.
+description: Enables or disables hardware acceleration for MPEG-2 video decoding.
 ms.assetid: 2e05f9e5-28a6-48f3-956d-a14eaf3bf4ba
 title: AVDecVideoAcceleration_MPEG2 property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is zero, the decoder does not use DirectX Video Acceleration (DXVA)
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

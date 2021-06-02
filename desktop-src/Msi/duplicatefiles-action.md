@@ -1,5 +1,5 @@
 ---
-Description: The DuplicateFiles action duplicates files installed by the InstallFiles action. The duplicate files can be copied to the same directory with a different name or to a different directory with the original name.
+description: The DuplicateFiles action duplicates files installed by the InstallFiles action. The duplicate files can be copied to the same directory with a different name or to a different directory with the original name.
 ms.assetid: 51cc0b3f-aa01-4f4d-9a4d-add832698061
 title: DuplicateFiles Action
 ms.topic: article

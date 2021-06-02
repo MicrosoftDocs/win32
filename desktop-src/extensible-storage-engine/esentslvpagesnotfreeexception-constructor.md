@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotFreeException constructor"
 title: EsentSLVPagesNotFreeException constructor 
 TOCTitle: 'EsentSLVPagesNotFreeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotFreeException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVPagesNotFreeException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVPagesNotFreeException()
 
 #### Reference
 
-[EsentSLVPagesNotFreeException class](dn350715\(v=exchg.10\).md)
+[EsentSLVPagesNotFreeException class](./esentslvpagesnotfreeexception-class.md)
 
-[EsentSLVPagesNotFreeException members](dn334823\(v=exchg.10\).md)
+[EsentSLVPagesNotFreeException members](./esentslvpagesnotfreeexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

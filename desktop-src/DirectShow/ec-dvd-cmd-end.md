@@ -1,5 +1,5 @@
 ---
-Description: Signals that a particular DVD Navigator command has completed.
+description: Signals that a particular DVD Navigator command has completed.
 ms.assetid: f460db8e-b966-41fa-bfa1-4ad3fa65c3e3
 title: EC_DVD_CMD_END (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in the title domain.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-Description: A concrete superclass for CIM alert notifications.
+description: A concrete superclass for CIM alert notifications.
 ms.assetid: ec4cf41d-decd-4f21-b805-90db4a61376d
 title: CIM_AlertIndication class
 ms.topic: reference
@@ -1572,7 +1572,7 @@ Provides information on trending - trending up, down or no change.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

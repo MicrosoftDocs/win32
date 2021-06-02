@@ -1,5 +1,5 @@
 ---
-Description: The COM+ Events service uses an event class object to manage the connection between publisher and subscriber.
+description: The COM+ Events service uses an event class object to manage the connection between publisher and subscriber.
 ms.assetid: 877c5890-588d-4978-8fb2-b4ecf4134068
 title: The COM+ Event Class Object
 ms.topic: article

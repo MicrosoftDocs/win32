@@ -1,5 +1,5 @@
 ---
-Description: Computes locally-deformable precomputed radiance transfer (LDPRT) coefficients relative to per-sample normal vectors to minimize the least-squares error with respect to input ID3DXPRTBuffer data.
+description: Computes locally-deformable precomputed radiance transfer (LDPRT) coefficients relative to per-sample normal vectors to minimize the least-squares error with respect to input ID3DXPRTBuffer data.
 ms.assetid: 302c20cd-d495-4a23-9692-7456355471eb
 title: ID3DXPRTEngine::ComputeLDPRTCoeffs method (D3DX9Mesh.h)
 ms.topic: reference
@@ -90,7 +90,7 @@ This method cannot be used with results from [**ID3DXPRTEngine::ComputeSurfSampl
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

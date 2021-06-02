@@ -1,5 +1,5 @@
 ---
-Description: The main landing page for Direct3D 11 Video APIs.
+description: The main landing page for Direct3D 11 Video APIs.
 ms.assetid: 7C91BEB9-53D2-4799-98F8-2B92128E37C3
 title: Direct3D 11 Video APIs
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentVersionStoreOutOfMemoryException members"
 title: EsentVersionStoreOutOfMemoryException members
 TOCTitle: EsentVersionStoreOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentVersionStoreOutOfMemoryException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.VersionStoreOutOfMemory exceptions.
 
-The [EsentVersionStoreOutOfMemoryException](dn350874\(v=exchg.10\).md) type exposes the following members.
+The [EsentVersionStoreOutOfMemoryException](./esentversionstoreoutofmemoryexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentVersionStoreOutOfMemoryException class](dn350874\(v=exchg.10\).md)
+[EsentVersionStoreOutOfMemoryException class](./esentversionstoreoutofmemoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

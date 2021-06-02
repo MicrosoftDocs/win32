@@ -1,5 +1,5 @@
 ---
-Description: Rotates the vector left by a given number of 32-bit elements.
+description: Rotates the vector left by a given number of 32-bit elements.
 ms.assetid: ba3698ed-212d-4ef0-846a-4099d0e1abec
 title: XMVectorRotateLeft template (DirectXMath.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 
-|                   |                                                                                          |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>DirectXMath.h</dt> </dl> |
 

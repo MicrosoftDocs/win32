@@ -1,5 +1,5 @@
 ---
-Description: The CheckTime method determines if a specified time is due.
+description: The CheckTime method determines if a specified time is due.
 ms.assetid: 522bc7ae-f998-4a7d-8bc3-caf09b4108a6
 title: CCmdQueue.CheckTime method (Winutil.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ Returns **TRUE** if the specified time has not yet passed.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

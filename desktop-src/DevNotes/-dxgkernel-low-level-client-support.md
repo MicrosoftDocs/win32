@@ -1,5 +1,5 @@
 ---
-Description: This topic lists functions that represent kernel-mode entry points, and the user-mode helper routines in Gdi32.dll that wrap these entry points.
+description: This topic lists functions that represent kernel-mode entry points, and the user-mode helper routines in Gdi32.dll that wrap these entry points.
 ms.assetid: 96d11d10-dd21-4e2b-a30d-fe29d24eeba6
 title: Graphics Low-Level Client Support
 ms.topic: article

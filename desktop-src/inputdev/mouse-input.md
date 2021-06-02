@@ -10,7 +10,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Mouse Input
+# Mouse Input (Keyboard and Mouse Input)
 
 This section describes how the system provides mouse input to your application and how the application receives and processes that input.
 

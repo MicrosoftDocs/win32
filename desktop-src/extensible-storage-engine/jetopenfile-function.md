@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenFile Function"
 title: JetOpenFile Function
 TOCTitle: JetOpenFile Function
 ms:assetid: 52f69050-ca1c-4a6b-a188-22bd7cb96bf5
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetOpenFile Function
 
-The **JetOpenFile** function opens an attached database, database patch file, or transaction log file of an active instance for the purpose of performing a streaming fuzzy backup. The data from these files can subsequently be read through the returned handle using [JetReadFile](gg269257\(v=exchg.10\).md). The returned handle must be closed using [JetCloseFile](gg294127\(v=exchg.10\).md). An external backup of the instance must have been previously initiated using [JetBeginExternalBackup](gg269292\(v=exchg.10\).md).
+The **JetOpenFile** function opens an attached database, database patch file, or transaction log file of an active instance for the purpose of performing a streaming fuzzy backup. The data from these files can subsequently be read through the returned handle using [JetReadFile](./jetreadfile-function.md). The returned handle must be closed using [JetCloseFile](./jetclosefile-function.md). An external backup of the instance must have been previously initiated using [JetBeginExternalBackup](./jetbeginexternalbackup-function.md).
 
 ```cpp
     JET_ERR JET_API JetOpenFile(
@@ -60,7 +61,7 @@ The output buffer that receives the most significant 32 bits of the size of the 
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -156,7 +157,7 @@ At this time, only one file can be open for backup at any one time.
 
 **JetOpenFile** does not assert the backup privilege prior to opening the requested file.
 
-The size of the file to be read as reported by this function may not match the size of the file on disk. On Windows XP and later releases, extra information may be appended to a database file which is used by the database engine during a restore operation. As such, the application should only rely on the file size returned by **JetOpenFile** or on the actual number of bytes of data returned by [JetReadFile](gg269257\(v=exchg.10\).md).
+The size of the file to be read as reported by this function may not match the size of the file on disk. On Windows XP and later releases, extra information may be appended to a database file which is used by the database engine during a restore operation. As such, the application should only rely on the file size returned by **JetOpenFile** or on the actual number of bytes of data returned by [JetReadFile](./jetreadfile-function.md).
 
 #### Requirements
 
@@ -196,16 +197,15 @@ The size of the file to be read as reported by this function may not match the s
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetAttachDatabase](gg294074\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetCloseFile](gg294127\(v=exchg.10\).md)  
-[JetGetAttachInfo](gg269286\(v=exchg.10\).md)  
-[JetGetLogInfo](gg294055\(v=exchg.10\).md)  
-[JetReadFile](gg269257\(v=exchg.10\).md)  
-[JetStopBackup](gg294067\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[JetTruncateLog](gg269263\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_HANDLE](./jet-handle.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetAttachDatabase](./jetattachdatabase-function.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetCloseFile](./jetclosefile-function.md)  
+[JetGetAttachInfo](./jetgetattachinfo-function.md)  
+[JetGetLogInfo](./jetgetloginfo-function.md)  
+[JetReadFile](./jetreadfile-function.md)  
+[JetStopBackup](./jetstopbackup-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[JetTruncateLog](./jettruncatelog-function.md)

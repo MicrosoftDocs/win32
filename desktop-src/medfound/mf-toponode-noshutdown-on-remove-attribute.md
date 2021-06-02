@@ -1,5 +1,5 @@
 ---
-Description: Specifies how the Media Session shuts down an object in the topology.
+description: Specifies how the Media Session shuts down an object in the topology.
 ms.assetid: 53b4faba-860f-4d6c-a145-09ea4ae63b8b
 title: MF_TOPONODE_NOSHUTDOWN_ON_REMOVE attribute (Mfidl.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

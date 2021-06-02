@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS Structure"
 title: JET_LGPOS Structure
 TOCTitle: JET_LGPOS Structure
 ms:assetid: dbce1a60-b32b-40c1-a215-e93bb77cd8c1
@@ -74,6 +75,5 @@ Supports the ESE infrastructure and cannot be used from your code.
 
 ### See Also
 
-[JET_BKINFO](gg294120\(v=exchg.10\).md)  
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
-
+[JET_BKINFO](./jet-bkinfo-structure.md)  
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

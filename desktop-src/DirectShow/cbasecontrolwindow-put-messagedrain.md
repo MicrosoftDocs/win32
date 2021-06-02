@@ -1,5 +1,5 @@
 ---
-Description: The put\_MessageDrain method sets the window to receive window messages sent to the video renderer.
+description: The put\_MessageDrain method sets the window to receive window messages sent to the video renderer.
 ms.assetid: b2d2d489-a66f-474a-b8bf-b019179f6f69
 title: CBaseControlWindow.put_MessageDrain method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ Messages sent to the video renderer filter can be posted to another window. This
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

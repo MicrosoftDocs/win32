@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Session Implicit conversion (Session to JET_SESID)"
 title: Session Implicit conversion (Session to JET_SESID)
 TOCTitle: Implicit conversion (Session to JET_SESID)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Session.op_Implicit(Microsoft.Isam.Esent.Interop.Session)~Microsoft.Isam.Esent.Interop.JET_SESID
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Implicit conversion operator from a Session to a JET_SESID. This allows a Session to be used with APIs which expect a JET_SESID.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,22 +58,21 @@ public static implicit operator JET_SESID (
 #### Parameters
 
   - session  
-    Type: [Microsoft.Isam.Esent.Interop.Session](dn351164\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Session](./session-class.md)  
     
     The session to convert.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
 The JET_SESID of the session.  
 
 ## See also
 
 #### Reference
 
-[Session class](dn351164\(v=exchg.10\).md)
+[Session class](./session-class.md)
 
-[Session members](dn351125\(v=exchg.10\).md)
+[Session members](./session-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

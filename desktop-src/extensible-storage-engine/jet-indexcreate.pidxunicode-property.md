@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE.pidxUnicode property"
 title: JET_INDEXCREATE.pidxUnicode property 
 TOCTitle: 'pidxUnicode property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE.pidxUnicode
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the optional unicode comparison options.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,15 +58,14 @@ public JET_UNICODEINDEX pidxUnicode { get; set; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](dn351106\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_UNICODEINDEX](./jet-unicodeindex-class.md)  
 
 ## See also
 
 #### Reference
 
-[JET_INDEXCREATE class](dn335112\(v=exchg.10\).md)
+[JET_INDEXCREATE class](./jet-indexcreate-class.md)
 
-[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](./jet-indexcreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

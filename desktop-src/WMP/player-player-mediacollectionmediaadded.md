@@ -1,6 +1,6 @@
 ---
 title: Player.MediaCollectionMediaAdded event
-description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library.
+description: The MediaCollectionMediaAdded event occurs when a media item is added to the local library. | Player.MediaCollectionMediaAdded event
 ms.assetid: 01696d28-e83b-4fd2-8e88-2871831b61e7
 keywords:
 - MediaCollectionMediaAdded event Windows Media Player
@@ -58,7 +58,7 @@ This event only occurs for the local library.
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 11.<br/>                                                |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

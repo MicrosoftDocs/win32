@@ -1,5 +1,5 @@
 ---
-Description: A swap chain is a collection of buffers that are used for displaying frames to the user.
+description: A swap chain is a collection of buffers that are used for displaying frames to the user.
 ms.assetid: aefc0680-cbe6-42eb-8c00-eaa343eee469
 title: What Is a Swap Chain? (Direct3D 9)
 ms.topic: article

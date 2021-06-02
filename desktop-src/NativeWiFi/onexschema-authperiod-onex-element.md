@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum length of time, in seconds, in which a client waits for a response from the authenticator.
+description: Specifies the maximum length of time, in seconds, in which a client waits for a response from the authenticator.
 ms.assetid: 5cb2e164-913f-4c35-854f-aac8ed180c46
 title: authPeriod (OneX) Element
 ms.topic: reference
@@ -45,7 +45,7 @@ The **authPeriod** element is defined by the [**OneX**](onexschema-onex-element.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

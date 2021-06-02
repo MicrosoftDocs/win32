@@ -1,5 +1,5 @@
 ---
-Description: This attribute measures how far the progress indicator bar is filled.
+description: This attribute measures how far the progress indicator bar is filled.
 ms.assetid: d2b64cdf-e0b4-4c92-9cce-7f50753b875f
 title: Progress Control Attribute
 ms.topic: article

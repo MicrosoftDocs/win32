@@ -1,5 +1,5 @@
 ---
-Description: When rendering 2D output using pre-transformed vertices, care must be taken to ensure that each texel area correctly corresponds to a single pixel area, otherwise texture distortion can occur.
+description: When rendering 2D output using pre-transformed vertices, care must be taken to ensure that each texel area correctly corresponds to a single pixel area, otherwise texture distortion can occur.
 ms.assetid: 6faeb1e3-ea6e-4cb1-a1e6-2a9a81b4c0c7
 title: Directly Mapping Texels to Pixels (Direct3D 9)
 ms.topic: article

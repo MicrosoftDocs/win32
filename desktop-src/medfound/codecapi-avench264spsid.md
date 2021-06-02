@@ -1,5 +1,5 @@
 ---
-Description: Sets the sequence parameter set (SPS) identifier in the SPS network abstraction layer (NAL) unit of the H.264 bit stream.
+description: Sets the sequence parameter set (SPS) identifier in the SPS network abstraction layer (NAL) unit of the H.264 bit stream.
 ms.assetid: 583DD539-6EE8-4DD4-A0FE-D2BBE1A4302F
 title: CODECAPI_AVEncH264SPSID property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The valid range is 0 31, as specified in the H.264/AVC specification.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: Microsoft CryptoAPI, application programming interface (API), and CAPICOM provide services that enable developers to add security based on cryptography to applications.
+description: Microsoft CryptoAPI, application programming interface (API), and CAPICOM provide services that enable developers to add security based on cryptography to applications.
 ms.assetid: 8ba85b5e-c80a-4781-a021-ac911b4fc7ca
 title: Cryptography Essentials
 ms.topic: article

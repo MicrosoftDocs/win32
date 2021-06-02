@@ -1,5 +1,5 @@
 ---
-Description: Building a Playback Topology with TopoEdit
+description: Building a Playback Topology with TopoEdit
 ms.assetid: 4d4c4ff9-dad1-4c79-a44a-2ad20f1bbca0
 title: Building a Playback Topology with TopoEdit
 ms.topic: article
@@ -28,7 +28,7 @@ TopoEdit can build a playback topology for a local media file by automatically a
     -   Connects the node inputs and the node outputs.
 
 5.  On the **Topology** menu, click **Resolve Topology**.
-6.  Click the **Play** button on the toolbar to play the topology. The following image shows the **Play** button. ![](images/536e8908-ef44-4d25-98f1-c06b5ef37591.jpg)
+6.  Click the **Play** button on the toolbar to play the topology. The following image shows the **Play** button :::image type="icon" source="images/536e8908-ef44-4d25-98f1-c06b5ef37591.jpg":::.
 
 ## Related topics
 

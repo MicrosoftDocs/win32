@@ -1,5 +1,5 @@
 ---
-Description: Allows the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwidth.
+description: Allows the Enhanced Video Renderer (EVR) to limit its output to match GPU bandwidth.
 ms.assetid: d591af2e-d47d-4220-a4f6-968f2ac45284
 title: EVRConfig_AllowDropToThrottle attribute (Uuids.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The GUID constant for this attribute is exported from strmiids.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                            |

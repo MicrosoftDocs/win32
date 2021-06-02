@@ -1,5 +1,5 @@
 ---
-Description: The GetCurrentSample method retrieves the current sample.
+description: The GetCurrentSample method retrieves the current sample.
 ms.assetid: cfdc66e3-7d32-47b7-87f6-99dd9513c93b
 title: CBaseRenderer.GetCurrentSample method (Renbase.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ Unless the method returns **NULL**, the method calls **AddRef** on the [**IMedia
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

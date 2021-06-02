@@ -1,5 +1,5 @@
 ---
-Description: Specifies the total size of the source file, in bytes. This attribute applies to presentation descriptors. A media source can optionally set this attribute.
+description: Specifies the total size of the source file, in bytes. This attribute applies to presentation descriptors. A media source can optionally set this attribute.
 ms.assetid: 722ebb14-c3e8-4f83-8fa2-e006b1094a59
 title: MF_PD_TOTAL_FILE_SIZE attribute (Mfidl.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

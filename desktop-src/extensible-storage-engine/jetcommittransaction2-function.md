@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetCommitTransaction2 Function"
 title: JetCommitTransaction2 Function
 TOCTitle: JetCommitTransaction2 Function
 ms:assetid: 55b89f8e-7073-4fc2-bf97-103b4bc45e1c
@@ -94,7 +95,7 @@ The Commit-ID associated with this commit record.
 
 ### Return value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -157,11 +158,11 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with on
 
 On success, any changes made to the database during the current save point for the given session will be committed and that save point will be ended. If the last save point for the session was ended, the transaction will optionally be flushed to the transaction log file and the session will exit the transaction.
 
-On failure, the transactional state of the session will remain unchanged. No change to the database state will occur. The application should call the [JetRollback](gg269273\(v=exchg.10\).md) function to abort the transaction.
+On failure, the transactional state of the session will remain unchanged. No change to the database state will occur. The application should call the [JetRollback](./jetrollback-function.md) function to abort the transaction.
 
 #### Remarks
 
-There must be one call to **JetCommitTransaction2** or [JetRollback](gg269273\(v=exchg.10\).md) to match every call to [JetBeginTransaction](gg294083\(v=exchg.10\).md) for a given session.
+There must be one call to **JetCommitTransaction2** or [JetRollback](./jetrollback-function.md) to match every call to [JetBeginTransaction](./jetbegintransaction-function.md) for a given session.
 
 #### Requirements
 
@@ -197,11 +198,10 @@ There must be one call to **JetCommitTransaction2** or [JetRollback](gg269273\(v
 
 #### See also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetBeginTransaction](gg294083\(v=exchg.10\).md)  
-[JetCommitTransaction](gg269191\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetBeginTransaction](./jetbegintransaction-function.md)  
+[JetCommitTransaction](./jetcommittransaction-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetStopService](./jetstopservice-function.md)

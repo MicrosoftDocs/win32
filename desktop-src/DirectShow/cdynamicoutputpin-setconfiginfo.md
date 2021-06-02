@@ -1,5 +1,5 @@
 ---
-Description: The SetConfigInfo method specifies the IGraphConfig pointer and the stop event.
+description: The SetConfigInfo method specifies the IGraphConfig pointer and the stop event.
 ms.assetid: 938fe8be-5622-4954-9ba3-31fc68fbfa31
 title: CDynamicOutputPin.SetConfigInfo method (Amfilter.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The filter must call this method when it joins the filter graph. The filter grap
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

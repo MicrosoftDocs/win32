@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_AssociatedSupplyCurrentSensor class associates a power supply with a current (amperage) sensor that monitors its input frequency.
+description: The CIM\_AssociatedSupplyCurrentSensor class associates a power supply with a current (amperage) sensor that monitors its input frequency.
 ms.assetid: bed4714f-ecf4-4c53-b231-c8fac673371f
 ms.tgt_platform: multiple
 title: CIM_AssociatedSupplyCurrentSensor class
@@ -152,7 +152,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

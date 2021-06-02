@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_ClusteringService class represents the functionality provided by a cluster. For example, failover functionality can be modeled as a service of a failover cluster.
+description: The CIM\_ClusteringService class represents the functionality provided by a cluster. For example, failover functionality can be modeled as a service of a failover cluster.
 ms.assetid: 550e3be3-c1e2-4714-b702-49cb1213c65b
 ms.tgt_platform: multiple
 title: CIM_ClusteringService class
@@ -384,7 +384,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

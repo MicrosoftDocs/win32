@@ -1,5 +1,5 @@
 ---
-Description: Forwards the events fired by a specified ShellFolderView object to corresponding ShellFolderViewOC event handlers.
+description: Forwards the events fired by a specified ShellFolderView object to corresponding ShellFolderViewOC event handlers.
 title: ShellFolderViewOC object (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: b50f549c-a79d-4411-a18e-a181b4b924e3
-api_name: 
- - ShellFolderViewOC
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -75,7 +66,7 @@ The **ShellFolderViewOC** object simplifies event handling for such scenarios. I
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

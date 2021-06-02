@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_BootService class exposes the following methods.
+description: The CIM\_BootService class exposes the following methods.
 ms.assetid: EEB082F8-A807-4154-BE5E-8CC0553698D1
 ms.tgt_platform: multiple
 title: CIM_BootService Methods

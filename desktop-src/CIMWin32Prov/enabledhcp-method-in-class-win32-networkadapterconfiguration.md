@@ -1,5 +1,5 @@
 ---
-Description: The EnableDHCP WMI class method enables the Dynamic Host Configuration Protocol (DHCP) for service with this network adapter. DHCP allows IP addresses to be dynamically allocated.
+description: The EnableDHCP WMI class method enables the Dynamic Host Configuration Protocol (DHCP) for service with this network adapter. DHCP allows IP addresses to be dynamically allocated.
 ms.assetid: 8c61d731-77a3-4ef4-bad9-26edaca60892
 ms.tgt_platform: multiple
 title: EnableDHCP method of the Win32_NetworkAdapterConfiguration class
@@ -461,7 +461,7 @@ else
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

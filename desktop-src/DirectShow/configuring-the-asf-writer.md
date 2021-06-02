@@ -1,5 +1,5 @@
 ---
-Description: Configuring the ASF Writer
+description: Configuring the ASF Writer
 ms.assetid: 5708c4a0-6197-4a42-adfd-01c6dfe86302
 title: Configuring the ASF Writer
 ms.topic: article

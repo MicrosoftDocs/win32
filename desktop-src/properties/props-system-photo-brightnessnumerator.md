@@ -1,5 +1,5 @@
 ---
-Description: The numerator of PKEY\_Photo\_Brightness.
+description: The numerator of PKEY\_Photo\_Brightness.
 ms.assetid: eba073d5-f0f0-42f2-8d14-89f90d469716
 title: System.Photo.BrightnessNumerator
 ms.topic: article

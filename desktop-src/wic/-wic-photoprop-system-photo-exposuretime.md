@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.ExposureTime property.
+description: The photo metadata policy for the System.Photo.ExposureTime property.
 ms.assetid: 26f6ff27-b326-46f8-b4be-b091acbec575
 title: System.Photo.ExposureTime Photo Metadata Policy
 ms.topic: article

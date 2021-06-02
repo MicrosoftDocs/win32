@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidSesidException members"
 title: EsentInvalidSesidException members
 TOCTitle: EsentInvalidSesidException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidSesidException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidSesid exceptions.
 
-The [EsentInvalidSesidException](dn319584\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidSesidException](./esentinvalidsesidexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidSesidException class](dn319584\(v=exchg.10\).md)
+[EsentInvalidSesidException class](./esentinvalidsesidexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Car telephone number of the contact.
+description: Car telephone number of the contact.
 ms.assetid: ef7d6ac7-ef7e-463c-8408-60948802e9c5
 title: System.Contact.CarTelephone
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Represents the capabilities and management capacity of a partitioned area of a physical disk on a computer system running Windows.
+description: Represents the capabilities and management capacity of a partitioned area of a physical disk on a computer system running Windows.
 ms.assetid: 7e78be3f-bae4-4374-abbf-7c4e63ba7593
 ms.tgt_platform: multiple
 title: Win32_DiskPartition class
@@ -1757,7 +1757,7 @@ Get-WmiObject -Query $wql -ComputerName '.' | Select-Object DiskIndex,Index,@{Na
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

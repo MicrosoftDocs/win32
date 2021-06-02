@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_PrinterSetting association WMI class relates a printer and its configuration settings.
+description: The Win32\_PrinterSetting association WMI class relates a printer and its configuration settings.
 ms.assetid: 5d0f0724-0583-449b-a6da-336e7c8e526e
 ms.tgt_platform: multiple
 title: Win32_PrinterSetting class
@@ -90,7 +90,7 @@ The **Win32\_PrinterSetting** class is derived from [**Win32\_DeviceSettings**](
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

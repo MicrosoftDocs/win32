@@ -22,7 +22,7 @@ The number of invalid logon attempts that are permitted before the account is lo
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Lockout-Threshold                    |
 | Ldap-Display-Name | lockoutThreshold                     |
@@ -48,7 +48,7 @@ The number of invalid logon attempts that are permitted before the account is lo
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -69,7 +69,7 @@ The number of invalid logon attempts that are permitted before the account is lo
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -90,7 +90,7 @@ The number of invalid logon attempts that are permitted before the account is lo
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -111,7 +111,7 @@ The number of invalid logon attempts that are permitted before the account is lo
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -132,7 +132,7 @@ The number of invalid logon attempts that are permitted before the account is lo
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |
@@ -153,7 +153,7 @@ The number of invalid logon attempts that are permitted before the account is lo
 
 
 
-|                        |                                                                                                                                                       |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                                    |

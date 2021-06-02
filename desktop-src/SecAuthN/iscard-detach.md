@@ -1,5 +1,5 @@
 ---
-Description: Closes the open connection to the smart card.
+description: Closes the open connection to the smart card.
 ms.assetid: 7d768945-8d5d-4d29-b5bc-1b2ac5b0e114
 title: ISCard::Detach method (Scardmgr.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

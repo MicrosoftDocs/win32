@@ -1,5 +1,5 @@
 ---
-Description: The GetSampleTimes method retrieves the time stamps from a sample.
+description: The GetSampleTimes method retrieves the time stamps from a sample.
 ms.assetid: a8fead22-a12c-489d-9c42-d5b61f480c25
 title: CBaseRenderer.GetSampleTimes method (Renbase.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ This method returns S\_OK if the sample has no time stamps, or if the filter doe
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

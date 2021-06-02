@@ -1,5 +1,5 @@
 ---
-Description: The IDxtJpeg interface sets properties on the SMPTE Wipe transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the SMPTE Wipe transition.
+description: The IDxtJpeg interface sets properties on the SMPTE Wipe transition.This interface is used internally by DirectShow Editing Services (DES) when it renders the SMPTE Wipe transition.
 ms.assetid: ce1920d4-ebe5-42d1-a2eb-d71ddeaf14fe
 title: IDxtJpeg interface (Qedit.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ The **IDxtJpeg** interface has these methods.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

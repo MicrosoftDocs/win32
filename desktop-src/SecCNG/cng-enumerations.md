@@ -1,5 +1,5 @@
 ---
-Description: 'Cryptography API: Next Generation (CNG) defines the following enumeration types.'
+description: 'Cryptography API: Next Generation (CNG) defines the following enumeration types.'
 ms.assetid: 15A24304-FC77-4512-AC74-79CB9B90A87D
 title: CNG Enumerations
 ms.topic: article

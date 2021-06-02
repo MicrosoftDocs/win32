@@ -1,5 +1,5 @@
 ---
-Description: Renders primitives and returns the updated render state.
+description: Renders primitives and returns the updated render state.
 ms.assetid: ef28ee62-a7ad-406c-a892-ffee14123d16
 title: NtGdiD3DDrawPrimitives2 function (Ntgdi.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ Specifies the minimum number of bytes that the driver must allocate for the swap
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                               |

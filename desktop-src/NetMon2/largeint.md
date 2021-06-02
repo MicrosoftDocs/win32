@@ -13,7 +13,7 @@ api_location:
 
 # LARGEINT
 
-The **LARGEINT** datatype defines a [**LARGE\_INTEGER**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer-r1) value.
+The **LARGEINT** datatype defines a [**LARGE\_INTEGER**](/windows/win32/api/winnt/ns-winnt-large_integer-r1) value.
 
 
 ```C++
@@ -34,7 +34,7 @@ The **lpLargeIntTable** member of the [**SET**](set.md) structure points to an a
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |
@@ -50,9 +50,4 @@ The **lpLargeIntTable** member of the [**SET**](set.md) structure points to an a
 </dt> </dl>
 
  
-
- 
-
-
-
 

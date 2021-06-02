@@ -1,5 +1,5 @@
 ---
-Description: The Name property of the SWbemQualifier object defines the name of this qualifier. This property is read-only.
+description: The Name property of the SWbemQualifier object defines the name of this qualifier. This property is read-only.
 ms.assetid: c0e0b0fb-8c79-4da1-8706-a9b785431e49
 ms.tgt_platform: multiple
 title: SWbemQualifier.Name property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemQualifier.Name As String
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

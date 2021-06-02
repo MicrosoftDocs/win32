@@ -1,5 +1,5 @@
 ---
-Description: The IX509PrivateKey interface exposes the following properties.
+description: The IX509PrivateKey interface exposes the following properties.
 ms.assetid: 680BE7FF-3251-46DA-8A3F-36AB4450D3BA
 title: IX509PrivateKey Properties
 ms.topic: reference

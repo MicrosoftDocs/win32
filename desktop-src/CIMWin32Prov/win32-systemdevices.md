@@ -1,5 +1,5 @@
 ---
-Description: The Win32\_SystemDevices association WMI class relates a computer system and a logical device installed on that system.
+description: The Win32\_SystemDevices association WMI class relates a computer system and a logical device installed on that system.
 ms.assetid: 84dfcb75-3b44-4b27-8eee-779be522eb1f
 ms.tgt_platform: multiple
 title: Win32_SystemDevices class
@@ -87,7 +87,7 @@ The **Win32\_SystemDevices** class is derived from [**CIM\_SystemDevice**](cim-s
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

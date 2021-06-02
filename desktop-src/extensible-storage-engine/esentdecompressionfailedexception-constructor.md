@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDecompressionFailedException constructor"
 title: EsentDecompressionFailedException constructor 
 TOCTitle: 'EsentDecompressionFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDecompressionFailedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDecompressionFailedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDecompressionFailedException()
 
 #### Reference
 
-[EsentDecompressionFailedException class](dn274251\(v=exchg.10\).md)
+[EsentDecompressionFailedException class](./esentdecompressionfailedexception-class.md)
 
-[EsentDecompressionFailedException members](dn334414\(v=exchg.10\).md)
+[EsentDecompressionFailedException members](./esentdecompressionfailedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidCodePageException constructor"
 title: EsentInvalidCodePageException constructor 
 TOCTitle: 'EsentInvalidCodePageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidCodePageException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidCodePageException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidCodePageException()
 
 #### Reference
 
-[EsentInvalidCodePageException class](dn319443\(v=exchg.10\).md)
+[EsentInvalidCodePageException class](./esentinvalidcodepageexception-class.md)
 
-[EsentInvalidCodePageException members](dn319483\(v=exchg.10\).md)
+[EsentInvalidCodePageException members](./esentinvalidcodepageexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

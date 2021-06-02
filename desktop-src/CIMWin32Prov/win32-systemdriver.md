@@ -1,5 +1,5 @@
 ---
-Description: Represents the system driver for a base service.
+description: Represents the system driver for a base service.
 ms.assetid: 67dc6e14-c8c1-4168-8f99-b04c6ecd4ad2
 ms.tgt_platform: multiple
 title: Win32_SystemDriver class
@@ -855,7 +855,7 @@ Get-WmiObject -Class Win32_SystemDriver | Where-Object -FilterScript {$_.State -
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

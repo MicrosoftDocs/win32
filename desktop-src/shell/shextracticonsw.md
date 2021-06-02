@@ -1,5 +1,5 @@
 ---
-Description: Creates an array of handles to icons extracted from a specified file.
+description: Creates an array of handles to icons extracted from a specified file.
 title: SHExtractIconsW function
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 9f138b4e-6a84-4c7e-9521-5f8ffe0eaebf
-api_name: 
- - SHExtractIconsW
- - SHExtractIconsW
-api_type: 
- - DllExport
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -156,7 +146,7 @@ The calling process is responsible for destroying all icons extracted through th
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

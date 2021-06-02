@@ -1,5 +1,5 @@
 ---
-Description: This topic identifies guidelines for you to the follow when you perform asynchronous Windows Update Agent (WUA) operations.
+description: This topic identifies guidelines for you to the follow when you perform asynchronous Windows Update Agent (WUA) operations.
 ms.assetid: 1fb16904-732d-4341-8267-ab8896fc0f7c
 title: Guidelines for Asynchronous WUA Operations
 ms.topic: article

@@ -22,7 +22,7 @@ The unique identifier for an object.
 
 
 
-|                   |                                                                     |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------|
 | CN                | Object-Guid                                                         |
 | Ldap-Display-Name | objectGUID                                                          |
@@ -49,7 +49,7 @@ The unique identifier for an object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C6D                          |
@@ -70,7 +70,7 @@ The unique identifier for an object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C6D                          |
@@ -91,7 +91,7 @@ The unique identifier for an object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C6D                          |
@@ -112,7 +112,7 @@ The unique identifier for an object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C6D                          |
@@ -133,7 +133,7 @@ The unique identifier for an object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C6D                          |
@@ -154,7 +154,7 @@ The unique identifier for an object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C6D                          |
@@ -175,7 +175,7 @@ The unique identifier for an object.
 
 
 
-|                        |                                 |
+| Entry | Value |
 |------------------------|---------------------------------|
 | Link-Id                | \-                              |
 | MAPI-Id                | 0x8C6D                          |

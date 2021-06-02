@@ -1,12 +1,12 @@
 ---
-Description: Describes statistics that you can retrieve from a Windows Media codec.
+description: Describes statistics that you can retrieve from a Windows Media codec.
 ms.assetid: 86c029af-e0fb-436a-b758-3f7d10c8bdeb
 title: Getting Encoding Statistics (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Getting Encoding Statistics
+# Getting Encoding Statistics (Microsoft Media Foundation)
 
 Information about what is happening in an encoding session is generally immediately available in the form of error codes returned when processing samples. However, there are some statistics that you can retrieve from the codec about various encoding aspects.
 

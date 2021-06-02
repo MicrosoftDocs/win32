@@ -1,5 +1,5 @@
 ---
-Description: MPEG-2 Splitter
+description: MPEG-2 Splitter
 ms.assetid: 06704a5a-e7ae-4187-ae36-32512d951aaf
 title: MPEG-2 Splitter
 ms.topic: article

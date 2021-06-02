@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSecondaryIndexCorruptedException constructor"
 title: EsentSecondaryIndexCorruptedException constructor 
 TOCTitle: 'EsentSecondaryIndexCorruptedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSecondaryIndexCorruptedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSecondaryIndexCorruptedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentSecondaryIndexCorruptedException()
 
 #### Reference
 
-[EsentSecondaryIndexCorruptedException class](dn350606\(v=exchg.10\).md)
+[EsentSecondaryIndexCorruptedException class](./esentsecondaryindexcorruptedexception-class.md)
 
-[EsentSecondaryIndexCorruptedException members](dn350607\(v=exchg.10\).md)
+[EsentSecondaryIndexCorruptedException members](./esentsecondaryindexcorruptedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

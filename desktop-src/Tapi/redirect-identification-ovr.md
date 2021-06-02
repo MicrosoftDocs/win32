@@ -1,5 +1,5 @@
 ---
-Description: When an application redirects a session, TAPI retains identification information about the location that redirected the session and the location to which it was redirected.
+description: When an application redirects a session, TAPI retains identification information about the location that redirected the session and the location to which it was redirected.
 ms.assetid: 08484b38-7c97-4acc-921e-0f566b2d3415
 title: Redirect Identification
 ms.topic: article

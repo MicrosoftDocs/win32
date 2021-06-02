@@ -1,5 +1,5 @@
 ---
-Description: Video Renderer Filter
+description: Video Renderer Filter
 ms.assetid: '7719ed9d-e3b9-4c84-b587-4e120b5cabf8'
 title: Video Renderer Filter
 ms.topic: article
@@ -24,7 +24,7 @@ The Video Renderer uses DirectDraw and overlay surfaces, if the video card suppo
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IBasicVideo**](/windows/desktop/api/Control/nn-control-ibasicvideo), [**IBasicVideo2**](/windows/desktop/api/Control/nn-control-ibasicvideo2), [**IDirectDrawVideo**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-idirectdrawvideo), [**IKsPropertySet**](ikspropertyset.md), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop), [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) |
 | Input Pin Media Types                    | Uncompressed video formats.                                                                                                                                                                                                                                                                                                                                                                              |

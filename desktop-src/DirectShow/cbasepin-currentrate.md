@@ -1,5 +1,5 @@
 ---
-Description: The CurrentRate method retrieves the segment rate, set by the CBasePin::NewSegment method.
+description: The CurrentRate method retrieves the segment rate, set by the CBasePin::NewSegment method.
 ms.assetid: 19780dd2-2dcf-4e5d-8a70-a46be05e040c
 title: CBasePin.CurrentRate method (Amfilter.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the value of [**CBasePin::m\_dRate**](cbasepin-m-drate.md).
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -22,7 +22,7 @@ An attribute used to define whether or not the DNS zone should be signed using N
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-NSEC3-OptOut                  |
 | Ldap-Display-Name | msDNS-NSEC3OptOut                    |
@@ -43,7 +43,7 @@ An attribute used to define whether or not the DNS zone should be signed using N
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

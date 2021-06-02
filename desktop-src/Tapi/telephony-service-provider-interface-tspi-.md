@@ -1,5 +1,5 @@
 ---
-Description: A Telephony Service Provider (TSPI) handles device-specific controls for communications programming.
+description: A Telephony Service Provider (TSPI) handles device-specific controls for communications programming.
 ms.assetid: da54e219-9adb-4a12-baab-52f2b2fb7c66
 title: Telephony Service Provider Interface (TSPI)
 ms.topic: article

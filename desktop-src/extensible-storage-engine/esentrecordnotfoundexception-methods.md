@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordNotFoundException methods"
 title: EsentRecordNotFoundException methods
 TOCTitle: EsentRecordNotFoundException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentRecordNotFoundException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecordNotFoundException](dn319846\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecordNotFoundException](./esentrecordnotfoundexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentRecordNotFoundException class](dn319846\(v=exchg.10\).md)
+[EsentRecordNotFoundException class](./esentrecordnotfoundexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

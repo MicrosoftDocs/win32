@@ -1,5 +1,5 @@
 ---
-Description: Signals that a DVD Navigator command has begun.
+description: Signals that a DVD Navigator command has begun.
 ms.assetid: 230116b4-23f1-4c37-a781-da2c5aa20a1f
 title: EC_DVD_CMD_START (Dvdevcode.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ This event is raised in the title domain.
 
 
 
-|                   |                                                                                                          |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdevcode.h (include Dshow.h)</dt> </dl> |
 

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetStopServiceInstance2 method"
 title: Windows8Api.JetStopServiceInstance2 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetStopServiceInstance2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetStopServiceInstance2(Microsoft.Isam.Esent.Interop.JET_INSTANCE,Microsoft.Isam.Esent.Interop.Windows8.StopServiceGrbit)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Prepares an instance for termination. Can also be used to resume a previous quiescing.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,14 +58,14 @@ public static void JetStopServiceInstance2(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)  
     
     The (running) instance to use.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.Windows8.StopServiceGrbit](dn335370\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Windows8.StopServiceGrbit](./stopservicegrbit-enumeration.md)  
     
     The options to stop or resume the instance.
 
@@ -72,9 +73,8 @@ public static void JetStopServiceInstance2(
 
 #### Reference
 
-[Windows8Api class](dn335490\(v=exchg.10\).md)
+[Windows8Api class](./windows8api-class.md)
 
-[Windows8Api members](dn335373\(v=exchg.10\).md)
+[Windows8Api members](./windows8api-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

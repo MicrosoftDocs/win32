@@ -1,5 +1,5 @@
 ---
-Description: The Next method retrieves the next position in the list.
+description: The Next method retrieves the next position in the list.
 ms.assetid: ba9753b0-c82e-4772-84a7-e9982de3b8ad
 title: CBaseList.Next method (Wxlist.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ If *pos* is the last position in the list, the method returns **NULL**. If *pos*
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

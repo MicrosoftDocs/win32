@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnNotUpdatableException constructor"
 title: EsentColumnNotUpdatableException constructor 
 TOCTitle: 'EsentColumnNotUpdatableException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentColumnNotUpdatableException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentColumnNotUpdatableException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentColumnNotUpdatableException()
 
 #### Reference
 
-[EsentColumnNotUpdatableException class](dn334291\(v=exchg.10\).md)
+[EsentColumnNotUpdatableException class](./esentcolumnnotupdatableexception-class.md)
 
-[EsentColumnNotUpdatableException members](dn274201\(v=exchg.10\).md)
+[EsentColumnNotUpdatableException members](./esentcolumnnotupdatableexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

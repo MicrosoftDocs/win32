@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCurrencyStackOutOfMemoryException members"
 title: EsentCurrencyStackOutOfMemoryException members
 TOCTitle: EsentCurrencyStackOutOfMemoryException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCurrencyStackOutOfMemoryException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CurrencyStackOutOfMemory exceptions.
 
-The [EsentCurrencyStackOutOfMemoryException](dn334249\(v=exchg.10\).md) type exposes the following members.
+The [EsentCurrencyStackOutOfMemoryException](./esentcurrencystackoutofmemoryexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCurrencyStackOutOfMemoryException class](dn334249\(v=exchg.10\).md)
+[EsentCurrencyStackOutOfMemoryException class](./esentcurrencystackoutofmemoryexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

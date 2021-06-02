@@ -1,5 +1,5 @@
 ---
-Description: The PdhVbOpenLog function opens the specified log file for reading and writing. This function calls PdhOpenLog.
+description: The PdhVbOpenLog function opens the specified log file for reading and writing. This function calls PdhOpenLog.
 ms.assetid: d9b8d98c-64f2-4319-8ab2-67b776143cf7
 title: PdhVbOpenLog function
 ms.topic: reference
@@ -155,7 +155,7 @@ Note that log files in the Perfmon format can only be opened for reading.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: The AddGroup method adds a group to the timeline.
+description: The AddGroup method adds a group to the timeline.
 ms.assetid: c7fc3b59-5852-4a3c-b9bf-f87e659819b5
 title: IAMTimeline::AddGroup method (Qedit.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ Currently, timelines support a maximum of 32 groups.
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

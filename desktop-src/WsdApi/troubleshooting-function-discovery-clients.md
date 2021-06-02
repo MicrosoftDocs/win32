@@ -1,5 +1,5 @@
 ---
-Description: Lists the diagnostic procedures to use when troubleshooting Function Discovery clients.
+description: Lists the diagnostic procedures to use when troubleshooting Function Discovery clients.
 ms.assetid: e488882a-fadd-4150-89ef-b958c3df34c6
 title: Troubleshooting Function Discovery Clients
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetExternalRestore2 Function"
 title: JetExternalRestore2 Function
 TOCTitle: JetExternalRestore2 Function
 ms:assetid: 66331be0-7abc-43a0-8b8b-dbdd227c918e
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetExternalRestore2 Function
 
-The **JetExternalRestore2** function restores an external backup that was taken with the external backup APIs and provides checkpoints to use for circular logging operations. This is known as hard recovery, which is similar but different than soft recovery as performed by the [JetInit](gg294068\(v=exchg.10\).md) function.
+The **JetExternalRestore2** function restores an external backup that was taken with the external backup APIs and provides checkpoints to use for circular logging operations. This is known as hard recovery, which is similar but different than soft recovery as performed by the [JetInit](./jetinit-function.md) function.
 
 **Windows XP:  JetExternalRestore2** is introduced in Windows XP.
 
@@ -60,7 +61,7 @@ The path or directory for the logs for the final phase (undo) of the recovery an
 
 *rgrstmap*
 
-This is an array of [JET_RSTMAP](gg294077\(v=exchg.10\).md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of the databases to restore.
+This is an array of [JET_RSTMAP](./jet-rstmap-structure.md) structures. This is a map of old and new database paths or filenames. This is used because the databases may need to be recovered to a location other than the location they were backed up from. In the case where multiple databases are attached to a single logging set, the restore map can specify a subset of the databases to restore.
 
 *crstfilemap*
 
@@ -92,7 +93,7 @@ The status callback, which reports the progress of the recovery.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -160,7 +161,7 @@ On failure, the engine could not recover the database. The database is in an inv
 
 #### Remarks
 
-See [JetExternalRestore](gg294088\(v=exchg.10\).md).
+See [JetExternalRestore](./jetexternalrestore-function.md).
 
 #### Requirements
 
@@ -200,11 +201,10 @@ See [JetExternalRestore](gg294088\(v=exchg.10\).md).
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_LOGINFO](gg294063\(v=exchg.10\).md)  
-[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JET_RSTMAP](gg294077\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetExternalRestore](gg294088\(v=exchg.10\).md)  
-[JetInit](gg294068\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_LOGINFO](./jet-loginfo-structure.md)  
+[JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)  
+[JET_RSTMAP](./jet-rstmap-structure.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetExternalRestore](./jetexternalrestore-function.md)  
+[JetInit](./jetinit-function.md)

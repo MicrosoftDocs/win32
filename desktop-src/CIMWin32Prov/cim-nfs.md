@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_NFS class represents a remote file system that is mounted, using the network file system (NFS) protocol, from a computer system.
+description: The CIM\_NFS class represents a remote file system that is mounted, using the network file system (NFS) protocol, from a computer system.
 ms.assetid: 24eba28f-fbd5-4aa3-a7c7-a611269d55ac
 ms.tgt_platform: multiple
 title: CIM_NFS class
@@ -820,7 +820,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

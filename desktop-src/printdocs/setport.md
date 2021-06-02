@@ -1,5 +1,5 @@
 ---
-Description: The SetPort function sets the status associated with a printer port.
+description: The SetPort function sets the status associated with a printer port.
 ms.assetid: 1b80ad93-aaa1-41ed-a668-a944fa62c3eb
 title: SetPort function (Winspool.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ When you set a printer port status value with the severity value PORT\_STATUS\_T
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

@@ -1,5 +1,5 @@
 ---
-Description: The put\_ErrorLog method specifies an error log for the object.
+description: The put\_ErrorLog method specifies an error log for the object.
 ms.assetid: 39da3fb0-57d3-452f-b2ae-6dcd84fa5c8e
 title: IAMSetErrorLog::put_ErrorLog method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

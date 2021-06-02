@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SNP"
 title: JET_SNP
 TOCTitle: JET_SNP
 ms:assetid: 7f3d1cc5-7b27-454d-8dd1-584ab4b60ab0
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_SNP
 
-The **JET_SNP** group of constants describe the type of the operation for which progress information is to be obtained. These constants are used as the *snp* parameter of the [JET_PFNSTATUS](gg269326\(v=exchg.10\).md) callback function.
+The **JET_SNP** group of constants describe the type of the operation for which progress information is to be obtained. These constants are used as the *snp* parameter of the [JET_PFNSTATUS](./jet-pfnstatus-callback-function.md) callback function.
 
 <table>
 <colgroup>
@@ -106,7 +107,6 @@ The **JET_SNP** group of constants describe the type of the operation for which 
 
 ### See Also
 
-[JET_PFNSTATUS](gg269326\(v=exchg.10\).md)  
-[JET_SNPROG](gg269328\(v=exchg.10\).md)  
-[JET_SNT](gg269294\(v=exchg.10\).md)
-
+[JET_PFNSTATUS](./jet-pfnstatus-callback-function.md)  
+[JET_SNPROG](./jet-snprog-structure.md)  
+[JET_SNT](./jet-snt.md)

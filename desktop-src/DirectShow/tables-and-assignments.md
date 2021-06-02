@@ -1,5 +1,5 @@
 ---
-Description: Tables and Assignments
+description: Tables and Assignments
 ms.assetid: 46dcf242-0182-4039-b761-1c93472b6270
 title: Tables and Assignments
 ms.topic: article

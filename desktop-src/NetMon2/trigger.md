@@ -1,5 +1,5 @@
 ---
-Description: The TRIGGER structure indicates an action to be taken by the driver at a specified time.
+description: The TRIGGER structure indicates an action to be taken by the driver at a specified time.
 ms.assetid: 63541796-b0d8-456c-8544-697fedbe05f7
 title: TRIGGER structure (Netmon.h)
 ms.topic: reference
@@ -93,7 +93,7 @@ Reserved.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

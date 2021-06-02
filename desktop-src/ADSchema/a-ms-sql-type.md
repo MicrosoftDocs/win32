@@ -34,7 +34,7 @@ The replication type used by this SQL server. The following values are the possi
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-SQL-Type                                 |
 | Ldap-Display-Name | mS-SQL-Type                                 |
@@ -60,7 +60,7 @@ The replication type used by this SQL server. The following values are the possi
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -81,7 +81,7 @@ The replication type used by this SQL server. The following values are the possi
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -102,7 +102,7 @@ The replication type used by this SQL server. The following values are the possi
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -123,7 +123,7 @@ The replication type used by this SQL server. The following values are the possi
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -144,7 +144,7 @@ The replication type used by this SQL server. The following values are the possi
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |
@@ -165,7 +165,7 @@ The replication type used by this SQL server. The following values are the possi
 
 
 
-|                        |                                                                                                                                     |
+| Entry | Value |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                  |

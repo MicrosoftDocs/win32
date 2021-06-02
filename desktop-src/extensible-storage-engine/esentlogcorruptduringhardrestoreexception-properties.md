@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogCorruptDuringHardRestoreException properties"
 title: EsentLogCorruptDuringHardRestoreException properties
 TOCTitle: EsentLogCorruptDuringHardRestoreException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentLogCorruptDuringHardRestoreException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentLogCorruptDuringHardRestoreException](dn334512\(v=exchg.10\).md) type exposes the following members.
+The [EsentLogCorruptDuringHardRestoreException](./esentlogcorruptduringhardrestoreexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentLogCorruptDuringHardRestoreException class](dn334512\(v=exchg.10\).md)
+[EsentLogCorruptDuringHardRestoreException class](./esentlogcorruptduringhardrestoreexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

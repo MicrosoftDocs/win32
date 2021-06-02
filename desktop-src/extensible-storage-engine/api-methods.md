@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Api methods"
 title: Api methods
 TOCTitle: Api methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.Api
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Api](dn292211\(v=exchg.10\).md) type exposes the following members.
+The [Api](./api-class.md) type exposes the following members.
 
 ## Methods
 
@@ -1196,7 +1197,6 @@ Top
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

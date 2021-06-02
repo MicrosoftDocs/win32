@@ -22,7 +22,7 @@ An attribute used to define whether the parental delegation to the DNS zone is s
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-Parent-Has-Secure-Delegation  |
 | Ldap-Display-Name | msDNS-ParentHasSecureDelegation      |
@@ -43,7 +43,7 @@ An attribute used to define whether the parental delegation to the DNS zone is s
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

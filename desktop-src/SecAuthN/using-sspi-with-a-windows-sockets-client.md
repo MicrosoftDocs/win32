@@ -1,5 +1,5 @@
 ---
-Description: This sample program works with the server program Using SSPI with a Windows Sockets Server.
+description: This sample program works with the server program Using SSPI with a Windows Sockets Server.
 ms.assetid: 7ec15770-d3bd-4488-abe8-058115fec071
 title: Using SSPI with a Windows Sockets Client
 ms.topic: article

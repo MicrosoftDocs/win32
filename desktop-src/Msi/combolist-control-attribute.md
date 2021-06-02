@@ -1,5 +1,5 @@
 ---
-Description: If the ComboList Control bit is set on a combo box, the edit field is replaced by a static text field. This prevents a user from entering a new value and requires the user to choose only one of the predefined values.
+description: If the ComboList Control bit is set on a combo box, the edit field is replaced by a static text field. This prevents a user from entering a new value and requires the user to choose only one of the predefined values.
 ms.assetid: 79af4bb0-1e0f-4df3-ae25-d2798842adb6
 title: ComboList Control Attribute
 ms.topic: article

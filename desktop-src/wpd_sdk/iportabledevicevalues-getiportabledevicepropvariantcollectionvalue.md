@@ -1,5 +1,5 @@
 ---
-Description: The GetIPortableDevicePropVariantCollectionValue method retrieves an IPortableDevicePropVariantCollection value (type VT\_UNKNOWN) specified by a key.
+description: The GetIPortableDevicePropVariantCollectionValue method retrieves an IPortableDevicePropVariantCollection value (type VT\_UNKNOWN) specified by a key.
 ms.assetid: a7b5ba64-c28e-42ae-9f04-2bdb67e93328
 title: IPortableDeviceValues::GetIPortableDevicePropVariantCollectionValue method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The method returns an **HRESULT**. Possible values include, but are not limited 
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

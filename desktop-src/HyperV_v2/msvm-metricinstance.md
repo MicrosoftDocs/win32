@@ -1,5 +1,5 @@
 ---
-Description: Represents an association of metric value objects with their metrics definitions.
+description: Represents an association of metric value objects with their metrics definitions.
 ms.assetid: 98ad9390-78b4-4c18-b068-d05efa2f1866
 title: Msvm_MetricInstance class
 ms.topic: reference
@@ -82,7 +82,7 @@ A reference to an instance of the [**Msvm\_BaseMetricValue**](msvm-basemetricval
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

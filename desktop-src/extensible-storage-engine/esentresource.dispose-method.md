@@ -1,5 +1,6 @@
-﻿---
-title: EsentResource.Dispose method 
+---
+description: "Learn more about: EsentResource.Dispose method overload list"
+title: EsentResource.Dispose method overload list
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentResource.Dispose
 ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esentresource.dispose(v=EXCHG.10)
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentResource class](dn319890\(v=exchg.10\).md)
+[EsentResource class](./esentresource-class.md)
 
-[EsentResource members](dn350521\(v=exchg.10\).md)
+[EsentResource members](./esentresource-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

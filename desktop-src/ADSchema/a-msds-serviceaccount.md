@@ -22,7 +22,7 @@ The FPO that represents the ADAM service account.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Service-Account                   |
 | Ldap-Display-Name | msDS-ServiceAccount                     |
@@ -43,7 +43,7 @@ The FPO that represents the ADAM service account.
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | 2040                                     |
 | MAPI-Id                | \-                                       |

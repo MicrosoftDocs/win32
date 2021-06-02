@@ -1,5 +1,5 @@
 ---
-Description: ProfileConditionedOn
+description: ProfileConditionedOn
 MS-HAID: WWAN\_profile\_v4.element\_ProfileConditionedOn
 MSHAttr:
 - PreferredSiteName:MSDN

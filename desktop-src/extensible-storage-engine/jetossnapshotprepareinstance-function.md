@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOSSnapshotPrepareInstance Function"
 title: JetOSSnapshotPrepareInstance Function
 TOCTitle: JetOSSnapshotPrepareInstance Function
 ms:assetid: b4f06342-633f-47c6-be32-64ec058920fe
@@ -31,11 +32,13 @@ The **JetOSSnapshotPrepareInstance** function selects a specific instance to be 
 
 **Windows Vista:** **JetOSSnapshotPrepareInstance** was introduced in Windows Vista.
 
-    JET_ERR JET_API JetOSSnapshotPrepareInstance(
-      __in          JET_OSSNAPID snapId,
-      __in          JET_INSTANCE instance,
-      __in          const JET_GRBIT grbit
-    );
+```cpp
+JET_ERR JET_API JetOSSnapshotPrepareInstance(
+  __in          JET_OSSNAPID snapId,
+  __in          JET_INSTANCE instance,
+  __in          const JET_GRBIT grbit
+);
+```
 
 ### Parameters
 
@@ -53,7 +56,7 @@ The options for this call. This parameter is reserved for future use. The only v
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -93,9 +96,9 @@ If this function fails, no change in the engine state occurs.
 
 #### Remarks
 
-The normal API sequence call is: [JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md), optionally followed by one or more calls to **JetOSSnapshotPrepareInstance**, then followed by [JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md). Once the freeze is started, it can be terminated using [JetOSSnapshotThaw](gg269229\(v=exchg.10\).md). At any time after the prepare, the snapshot session can be abruptly terminated with [JetOSSnapshotAbort](gg269265\(v=exchg.10\).md). Event log entries will be generated for the different steps of the snapshot.
+The normal API sequence call is: [JetOSSnapshotPrepare](./jetossnapshotprepare-function.md), optionally followed by one or more calls to **JetOSSnapshotPrepareInstance**, then followed by [JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md). Once the freeze is started, it can be terminated using [JetOSSnapshotThaw](./jetossnapshotthaw-function.md). At any time after the prepare, the snapshot session can be abruptly terminated with [JetOSSnapshotAbort](./jetossnapshotabort-function.md). Event log entries will be generated for the different steps of the snapshot.
 
-If **JetOSSnapshotPrepareInstance** is not called between the start of the session ([JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md)) and the freeze moment ([JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)), all the running instances in the engine will freeze and become part of the snapshot session. This occurs for two reasons:
+If **JetOSSnapshotPrepareInstance** is not called between the start of the session ([JetOSSnapshotPrepare](./jetossnapshotprepare-function.md)) and the freeze moment ([JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)), all the running instances in the engine will freeze and become part of the snapshot session. This occurs for two reasons:
 
   - It simplifies the code for users who want all instances.
 
@@ -135,12 +138,11 @@ If **JetOSSnapshotPrepareInstance** is not called between the start of the sessi
 
 #### See Also
 
-[Error Handling Parameters](gg269173\(v=exchg.10\).md)  
-[Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JetOSSnapshotAbort](gg269265\(v=exchg.10\).md)  
-[JetOSSnapshotEnd](gg294136\(v=exchg.10\).md)  
-[JetOSSnapshotFreeze](gg269332\(v=exchg.10\).md)  
-[JetOSSnapshotPrepare](gg269224\(v=exchg.10\).md)  
-[JetOSSnapshotThaw](gg269229\(v=exchg.10\).md)
-
+[Error Handling Parameters](./error-handling-parameters.md)  
+[Extensible Storage Engine Errors](./extensible-storage-engine-errors.md)  
+[JET_ERR](./jet-err.md)  
+[JetOSSnapshotAbort](./jetossnapshotabort-function.md)  
+[JetOSSnapshotEnd](./jetossnapshotend-function.md)  
+[JetOSSnapshotFreeze](./jetossnapshotfreeze-function.md)  
+[JetOSSnapshotPrepare](./jetossnapshotprepare-function.md)  
+[JetOSSnapshotThaw](./jetossnapshotthaw-function.md)

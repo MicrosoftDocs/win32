@@ -1,5 +1,5 @@
 ---
-Description: Represents a metric value defined by an instance of the Msvm\_BaseMetricDefinition class.
+description: Represents a metric value defined by an instance of the Msvm\_BaseMetricDefinition class.
 ms.assetid: bd872f21-ab71-4ab7-88d3-b26dd2fbdbe5
 title: Msvm_BaseMetricValue class
 ms.topic: reference
@@ -229,7 +229,7 @@ Access type: Read-only
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

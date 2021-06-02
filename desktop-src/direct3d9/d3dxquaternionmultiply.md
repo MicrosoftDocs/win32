@@ -1,5 +1,5 @@
 ---
-Description: Multiplies two quaternions.
+description: D3DXQuaternionMultiply function (D3dx9math.h) - Multiplies two quaternions.
 ms.assetid: 11072fc9-dae8-4f63-b07d-b709eed381df
 title: D3DXQuaternionMultiply function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXQuaternionMultiply function
+# D3DXQuaternionMultiply function (D3dx9math.h)
 
 Multiplies two quaternions.
 
@@ -94,7 +94,7 @@ Use [**D3DXQuaternionNormalize**](d3dxquaternionnormalize.md) for any quaternion
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

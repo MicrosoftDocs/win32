@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetColumns Function"
 title: JetSetColumns Function
 TOCTitle: JetSetColumns Function
 ms:assetid: a5b011dc-0da6-44bf-aaf5-352d8a57e5bf
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetSetColumns Function
 
-The **JetSetColumns** function is similar in behavior to [JetSetColumn](gg294137\(v=exchg.10\).md) but allows an application to set multiple column values in a single operation. An array of [JET_SETCOLUMN](gg269233\(v=exchg.10\).md) structures is used to describe the set of column values to be set, and to describe input buffers for each column value to be set.
+The **JetSetColumns** function is similar in behavior to [JetSetColumn](./jetsetcolumn-function.md) but allows an application to set multiple column values in a single operation. An array of [JET_SETCOLUMN](./jet-setcolumn-structure.md) structures is used to describe the set of column values to be set, and to describe input buffers for each column value to be set.
 
 ```cpp
     JET_ERR JET_API JetSetColumns(
@@ -50,15 +51,15 @@ The cursor to use for this call.
 
 *psetcolumn*
 
-A pointer to an array of one or more [JET_SETCOLUMN](gg269233\(v=exchg.10\).md) structures. Each structure includes descriptions of which column value to set and from where to get column data to set.
+A pointer to an array of one or more [JET_SETCOLUMN](./jet-setcolumn-structure.md) structures. Each structure includes descriptions of which column value to set and from where to get column data to set.
 
 *csetcolumn*
 
-The number of [JET_SETCOLUMN](gg269233\(v=exchg.10\).md) structures in the array given by *psetcolumn*.
+The number of [JET_SETCOLUMN](./jet-setcolumn-structure.md) structures in the array given by *psetcolumn*.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -202,11 +203,10 @@ If any individual set column operation returns an error then the whole **JetSetC
 
 #### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_SETCOLUMN](gg269233\(v=exchg.10\).md)  
-[JetRetrieveColumns](gg294135\(v=exchg.10\).md)  
-[JetSetColumn](gg294137\(v=exchg.10\).md)
-
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_SETCOLUMN](./jet-setcolumn-structure.md)  
+[JetRetrieveColumns](./jetretrievecolumns-function.md)  
+[JetSetColumn](./jetsetcolumn-function.md)

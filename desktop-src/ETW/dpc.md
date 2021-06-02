@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for device deferred procedure call (DPC) events. The following syntax is simplified from MOF code.
+description: This class is the event type class for device deferred procedure call (DPC) events. The following syntax is simplified from MOF code.
 ms.assetid: 46010179-7f0a-47dd-95fd-04d30fc597ba
 title: DPC class
 ms.topic: reference
@@ -87,7 +87,7 @@ The TimerDPC event records when a DPC fires as a result of a timer expiration an
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

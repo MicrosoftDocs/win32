@@ -11,7 +11,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Enumeration Types
+# Windows Media Format SDK Enumeration Types
 
 The Windows Media Format SDK implements the following enumeration types.
 

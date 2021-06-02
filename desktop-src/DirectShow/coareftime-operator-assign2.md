@@ -1,7 +1,7 @@
 ---
-Description: This operator assigns a new reference time.
+description: "The operator assigns a new reference time and uses the 'rt [ref]' parameter."
 ms.assetid: e3a005c0-95d5-41e0-80bb-e70399a50dca
-title: COARefTime.operator= method (Ctlutil.h)
+title: COARefTime.operator= method (Ctlutil.h) - rt [ref] parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# COARefTime.operator= method
+# COARefTime.operator= method (Ctlutil.h) - rt [ref] parameter
 
 This operator assigns a new reference time.
 
@@ -50,14 +50,10 @@ Returns a reference to the object.
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
+| Requirement                    | Value                                                                                                                                                                                           |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Header  | Ctlutil.h (include Streams.h)                                                                                   |
+| Library | Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

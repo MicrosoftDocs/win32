@@ -1,5 +1,5 @@
 ---
-Description: The GetProtocolFromTable function returns a handle to a protocol&\#8212;based on a given handoff table and value.
+description: The GetProtocolFromTable function returns a handle to a protocol&\#8212;based on a given handoff table and value.
 ms.assetid: 34b07079-0b20-40d8-a529-4179ecc68ebf
 title: GetProtocolFromTable function (Netmon.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ Instance data can be any data that is less than or equal to a DWORD\_PTR in leng
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

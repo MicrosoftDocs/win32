@@ -1,6 +1,6 @@
 ---
 title: FFWDELEMENT
-description: This is a predefined BUTTONELEMENT with the following default values.
+description: This is a predefined BUTTONELEMENT with the following default values. | FFWDELEMENT
 ms.assetid: 2745d960-9d86-42de-96cb-b9d14138d14e
 keywords:
 - FFWDELEMENT Windows Media Player
@@ -34,7 +34,7 @@ All properties of this **BUTTONELEMENT** can be overridden by explicitly specify
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

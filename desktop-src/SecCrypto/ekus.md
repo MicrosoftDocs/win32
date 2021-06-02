@@ -1,5 +1,5 @@
 ---
-Description: Represents a collection of EKU objects.
+description: Represents a collection of EKU objects.
 ms.assetid: 04b9f0bf-e1d4-4a2c-be5d-bae7c1090bdb
 title: EKUs object
 ms.topic: reference
@@ -61,7 +61,7 @@ The **EKUs** object cannot be created.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

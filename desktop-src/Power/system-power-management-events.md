@@ -1,5 +1,5 @@
 ---
-Description: A system power management event is a change in the system power status, the operational mode of a device or the system, or the value of a power setting.
+description: A system power management event is a change in the system power status, the operational mode of a device or the system, or the value of a power setting.
 ms.assetid: f73b072a-1f69-4e26-9712-dab428edca18
 title: System Power Management Events
 ms.topic: article

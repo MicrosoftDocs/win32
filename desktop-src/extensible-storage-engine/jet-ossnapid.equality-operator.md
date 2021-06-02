@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_OSSNAPID.Equality operator"
 title: JET_OSSNAPID.Equality operator 
 TOCTitle: 'Equality operator '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_OSSNAPID.op_Equality(Microsoft.Isam.Esent.Interop.JET_OSSNAPID,Microsoft.Isam.Esent.Interop.JET_OSSNAPID)
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Determines whether two specified instances of JET_OSSNAPID are equal.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -60,14 +61,14 @@ public static bool operator ==(
 #### Parameters
 
   - lhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](./jet-ossnapid-structure.md)  
     
     The first instance to compare.
 
 <!-- end list -->
 
   - rhs  
-    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](hh558483\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OSSNAPID](./jet-ossnapid-structure.md)  
     
     The second instance to compare.
 
@@ -80,8 +81,8 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_OSSNAPID structure](hh558483\(v=exchg.10\).md)
+[JET_OSSNAPID structure](./jet-ossnapid-structure.md)
 
-[JET_OSSNAPID members](hh596352\(v=exchg.10\).md)
+[JET_OSSNAPID members](./jet-ossnapid-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

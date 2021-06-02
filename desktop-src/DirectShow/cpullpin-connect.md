@@ -1,5 +1,5 @@
 ---
-Description: The Connect method completes a connection to the output pin.
+description: The Connect method completes a connection to the output pin.
 ms.assetid: fb20ef5d-e00a-4154-a6da-25bef663c0e7
 title: CPullPin.Connect method (Pullpin.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ If the value of *bSync* is **TRUE**, the **CPullPin** object makes synchronous r
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h</dt> </dl>                                                                                                       |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

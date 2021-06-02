@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_HANDLE.Equals method"
 title: JET_HANDLE.Equals method 
 TOCTitle: 'Equals method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.JET_HANDLE.Equals
@@ -51,8 +52,8 @@ Top
 
 #### Reference
 
-[JET_HANDLE structure](hh558081\(v=exchg.10\).md)
+[JET_HANDLE structure](./jet-handle-structure.md)
 
-[JET_HANDLE members](hh557479\(v=exchg.10\).md)
+[JET_HANDLE members](./jet-handle-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

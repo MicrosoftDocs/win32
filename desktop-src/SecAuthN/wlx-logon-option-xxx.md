@@ -1,5 +1,5 @@
 ---
-Description: Values are used by the dwOptions parameter of WlxLoggedOutSAS.
+description: Values are used by the dwOptions parameter of WlxLoggedOutSAS.
 ms.assetid: a146427b-f3f1-4221-b2eb-ee7da451314a
 title: WLX_LOGON_OPTION_XXX (Winwlx.h)
 ms.topic: reference
@@ -31,7 +31,7 @@ Upon a successful logon, your GINA DLL can use this value to specify the followi
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

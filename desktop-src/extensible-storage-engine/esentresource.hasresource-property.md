@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentResource.HasResource property"
 title: EsentResource.HasResource property 
 TOCTitle: 'HasResource property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.EsentResource.HasResource
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a value indicating whether the underlying resource is currently allocated.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -58,8 +59,8 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Reference
 
-[EsentResource class](dn319890\(v=exchg.10\).md)
+[EsentResource class](./esentresource-class.md)
 
-[EsentResource members](dn350521\(v=exchg.10\).md)
+[EsentResource members](./esentresource-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

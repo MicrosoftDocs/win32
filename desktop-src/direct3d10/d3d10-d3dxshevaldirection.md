@@ -1,5 +1,5 @@
 ---
-Description: Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
+description: D3DXSHEvalDirection function (D3DX10.h) - Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
 ms.assetid: c86973cc-c5b0-4358-b7eb-5c31f38b5b5a
 title: D3DXSHEvalDirection function (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSHEvalDirection function
+# D3DXSHEvalDirection function (D3DX10.h)
 
 Evaluates the spherical harmonic (SH) basis functions from an input direction vector.
 
@@ -89,7 +89,7 @@ The following equations show the relationship between Cartesian (x, y, z) and sp
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

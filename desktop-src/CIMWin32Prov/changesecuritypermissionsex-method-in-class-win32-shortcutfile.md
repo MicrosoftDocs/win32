@@ -1,5 +1,5 @@
 ---
-Description: Changes the security permissions for the logical shortcut file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
+description: Changes the security permissions for the logical shortcut file specified in the object path (this method is an extended version of the ChangeSecurityPermissions method).
 ms.assetid: 9a5c9fa9-ccd9-4792-969f-28f52ab9bc52
 ms.tgt_platform: multiple
 title: ChangeSecurityPermissionsEx method of the Win32_ShortcutFile class
@@ -258,7 +258,7 @@ A specified parameter is not valid.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

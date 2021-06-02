@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecordFormatConversionFailedException constructor"
 title: EsentRecordFormatConversionFailedException constructor 
 TOCTitle: 'EsentRecordFormatConversionFailedException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentRecordFormatConversionFailedException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentRecordFormatConversionFailedException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentRecordFormatConversionFailedException()
 
 #### Reference
 
-[EsentRecordFormatConversionFailedException class](dn319884\(v=exchg.10\).md)
+[EsentRecordFormatConversionFailedException class](./esentrecordformatconversionfailedexception-class.md)
 
-[EsentRecordFormatConversionFailedException members](dn319889\(v=exchg.10\).md)
+[EsentRecordFormatConversionFailedException members](./esentrecordformatconversionfailedexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

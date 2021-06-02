@@ -1,5 +1,5 @@
 ---
-Description: Implementation Guidelines for Serializing IWICDevelopRaw Settings
+description: Implementation Guidelines for Serializing IWICDevelopRaw Settings
 ms.assetid: 4ecff5cc-24f3-4b89-b681-85c867b053e7
 title: Implementation Guidelines for Serializing IWICDevelopRaw Settings
 ms.topic: article

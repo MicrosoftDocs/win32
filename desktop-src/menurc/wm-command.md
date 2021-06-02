@@ -13,6 +13,7 @@ api_location:
 api_type:
 - HeaderDef
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 05/31/2018
 ---
 
@@ -114,7 +115,7 @@ If an accelerator keystroke occurs that corresponds to a menu item when the wind
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                     |

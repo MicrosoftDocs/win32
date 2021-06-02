@@ -1,5 +1,5 @@
 ---
-Description: The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.
+description: The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.
 title: CRUMB Argument (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
@@ -12,7 +12,7 @@ topic_type:
 
 ---
 
-# CRUMB Argument
+# CRUMB Argument (The Windows Shell)
 
 The `crumb` argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search. In addition to AQS statments, the `crumb` argument can take a special `location` parameter on Windows Vista and `kind` and `store` parameters on Windows XP, as described later in this topic.
 

@@ -1,5 +1,5 @@
 ---
-Description: Raised by the sequencer source when a segment is completed and is followed by another segment. When the final segment is completed, the sequencer source raises an MEEndOfPresentation event.
+description: Raised by the sequencer source when a segment is completed and is followed by another segment. When the final segment is completed, the sequencer source raises an MEEndOfPresentation event.
 ms.assetid: 1be13c9a-d454-4642-b26b-556f2461b705
 title: MEEndOfPresentationSegment event (Mfobjects.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The following attributes are defined for this event.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

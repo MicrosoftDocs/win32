@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentReadVerifyFailureException properties"
 title: EsentReadVerifyFailureException properties
 TOCTitle: EsentReadVerifyFailureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentReadVerifyFailureException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentReadVerifyFailureException](dn319876\(v=exchg.10\).md) type exposes the following members.
+The [EsentReadVerifyFailureException](./esentreadverifyfailureexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentReadVerifyFailureException class](dn319876\(v=exchg.10\).md)
+[EsentReadVerifyFailureException class](./esentreadverifyfailureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

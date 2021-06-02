@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidLCMapStringFlagsException members"
 title: EsentInvalidLCMapStringFlagsException members
 TOCTitle: EsentInvalidLCMapStringFlagsException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidLCMapStringFlagsException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidLCMapStringFlags exceptions.
 
-The [EsentInvalidLCMapStringFlagsException](dn319538\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidLCMapStringFlagsException](./esentinvalidlcmapstringflagsexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidLCMapStringFlagsException class](dn319538\(v=exchg.10\).md)
+[EsentInvalidLCMapStringFlagsException class](./esentinvalidlcmapstringflagsexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

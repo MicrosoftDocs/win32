@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether the default proxy locator should force proxy auto-detection.
+description: Specifies whether the default proxy locator should force proxy auto-detection.
 ms.assetid: ab547a92-94a2-482e-b7ac-aeb3fdfb6b91
 title: MFNETSOURCE_PROXYRERUNAUTODETECTION property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the proxy locator when creating 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -95,7 +95,7 @@ For more information about Remote Desktop Web Connection, see [Requirements for 
 
 
 
-|                                     |                                                                                                 |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                       |

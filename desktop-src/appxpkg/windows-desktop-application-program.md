@@ -62,7 +62,7 @@ Here are two of the most common ways to use this tool to sign the signable file.
     signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin
     ```
 
-    ![command prompt window showing this command](images/signtool2.png)
+    ![Screenshot that shows a command prompt window showing the 'signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin' command.](images/signtool2.png)
 
 -   If the code-signing certificate is available in your local certificate store:
 
@@ -86,8 +86,9 @@ Our telemetry data will show health information such as crashes for each applica
 
 > [!Note]  
 > If we detect that an application's metadata has been updated to use a new name, we ll begin to report new data under the new name. Historical data associated with the old name will be preserved for 30 days.
+> 
+> Analytics will not be available for an application until it has been installed on at least 100 devices.
 
- 
 
 ### Health report
 
@@ -104,7 +105,7 @@ You can filter the data in a number of ways, allowing you to:
 -   Compare performance of your desktop applications across Windows versions, or on a specific version, such as the latest Windows 10 release
 -   View health info for one particular executable file included in your application
 
-Select **Upload symbols** in the top of the **Failures** table to upload a .zip file containing your application's [symbol files](http:/docs.microsoft.com/windows-hardware/drivers/debugger/symbols-and-symbol-files). These symbol files will be indexed and used to produce more accurate stack traces. Symbol file types within the .zip should be .pdb, .dll, or .exe. After you successfully upload your .zip file, you should see fewer **!Unknown** values for new failures in your application's failure list in approximately 5 days.
+Select **Upload symbols** in the top of the **Failures** table to upload a .zip file containing your application's [symbol files](/windows-hardware/drivers/debugger/symbols-and-symbol-files). These symbol files will be indexed and used to produce more accurate stack traces. Symbol file types within the .zip should be .pdb, .dll, or .exe. After you successfully upload your .zip file, you should see fewer **!Unknown** values for new failures in your application's failure list in approximately 5 days.
 
 ### Installs report
 

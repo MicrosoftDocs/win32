@@ -1,5 +1,5 @@
 ---
-Description: The Path\_ property of the SWbemObject object returns an SWbemObjectPath object that represents the object path of the current class or instance. This property can be passed as a parameter to methods that require an object path.
+description: The Path\_ property of the SWbemObject object returns an SWbemObjectPath object that represents the object path of the current class or instance. This property can be passed as a parameter to methods that require an object path.
 ms.assetid: 85a55159-5f10-49b5-bc37-39d7b4dfccd7
 ms.tgt_platform: multiple
 title: SWbemObject.Path_ property (Wbemdisp.h)
@@ -66,7 +66,7 @@ Next
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

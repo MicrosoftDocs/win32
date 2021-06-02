@@ -22,7 +22,7 @@ Used to index into the file Extrts.mc to get the localized displayName for the o
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Localization-Display-Id              |
 | Ldap-Display-Name | localizationDisplayId                |
@@ -49,7 +49,7 @@ Used to index into the file Extrts.mc to get the localized displayName for the o
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -70,7 +70,7 @@ Used to index into the file Extrts.mc to get the localized displayName for the o
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -91,7 +91,7 @@ Used to index into the file Extrts.mc to get the localized displayName for the o
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -112,7 +112,7 @@ Used to index into the file Extrts.mc to get the localized displayName for the o
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -133,7 +133,7 @@ Used to index into the file Extrts.mc to get the localized displayName for the o
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -154,7 +154,7 @@ Used to index into the file Extrts.mc to get the localized displayName for the o
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |
@@ -175,7 +175,7 @@ Used to index into the file Extrts.mc to get the localized displayName for the o
 
 
 
-|                        |                                                                 |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------|
 | Link-Id                | \-                                                              |
 | MAPI-Id                | \-                                                              |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotIndexException methods"
 title: EsentCannotIndexException methods
 TOCTitle: EsentCannotIndexException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentCannotIndexException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCannotIndexException](dn274099\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotIndexException](./esentcannotindexexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentCannotIndexException class](dn274099\(v=exchg.10\).md)
+[EsentCannotIndexException class](./esentcannotindexexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

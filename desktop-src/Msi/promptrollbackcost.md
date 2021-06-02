@@ -1,5 +1,5 @@
 ---
-Description: The PROMPTROLLBACKCOST property specifies the action the installer takes if rollback installation capabilities are enabled and there is insufficient disk space to complete the installation.The possible values of PROMPTROLLBACKCOST are as follows.ValueActionPDisplay a dialog box asking whether to continue without a rollback.DDisable rollback and continue without asking user.FFail with the out-of-disk-space error prompt. 
+description: The PROMPTROLLBACKCOST property specifies the action the installer takes if rollback installation capabilities are enabled and there is insufficient disk space to complete the installation.The possible values of PROMPTROLLBACKCOST are as follows.ValueActionPDisplay a dialog box asking whether to continue without a rollback.DDisable rollback and continue without asking user.FFail with the out-of-disk-space error prompt.
 ms.assetid: 6ffd0b3f-79b8-4ce3-a262-4d27ffc5a175
 title: PROMPTROLLBACKCOST property
 ms.topic: reference
@@ -34,7 +34,7 @@ When the user interface runs at the Full level, the user can be given additional
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # List Boxes
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 With a list box, users can select from a set of values presented in a list that is always visible. With a single-selection list box, users select one item from a list of mutually exclusive values. With a multiple-selection list box, users select zero or more items from a list of values.
 
@@ -301,6 +301,4 @@ When referring to list boxes:
 -   When possible, format the label and list items using bold text. Otherwise, put the label and items in quotation marks only if required to prevent confusion.
 
 Example: In the **Go to what** list, select **Bookmark**.
-
- 
 

@@ -1,5 +1,5 @@
 ---
-Description: Requests that the state of the planned system be changed to the value specified.
+description: Requests that the state of the planned system be changed to the value specified.
 ms.assetid: 54ed9514-4f09-458e-8e86-a807ee66df17
 title: RequestStateChange method of the Msvm_PlannedComputerSystem class
 ms.topic: reference
@@ -164,7 +164,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

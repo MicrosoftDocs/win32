@@ -1,5 +1,5 @@
 ---
-Description: Specifies trusted audio drivers.
+description: Specifies trusted audio drivers.
 ms.assetid: 6728D066-2954-4CE7-936B-CCAADC04CE30
 title: MFPROTECTION_TRUSTEDAUDIODRIVERS attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies trusted audio drivers.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

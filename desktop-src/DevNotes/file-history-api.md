@@ -1,5 +1,5 @@
 ---
-Description: File History API
+description: File History API
 ms.assetid: 7488BA36-DEBE-42F1-8A12-A2DB1DE8B827
 title: File History API
 ms.topic: article

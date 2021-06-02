@@ -1,5 +1,5 @@
 ---
-Description: The put\_Height method specifies the height of the target rectangle.
+description: The put\_Height method specifies the height of the target rectangle.
 ms.assetid: 032b5468-bce8-4492-abbe-e442131ebe3a
 title: IDxtCompositor::put_Height method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: A configured COM component is usually activated in its own context; that is, COM+ references the components catalog information to provide any configured services.
+description: A configured COM component is usually activated in its own context; that is, COM+ references the components catalog information to provide any configured services.
 ms.assetid: 09dc7165-22b1-4eca-9591-d83e85556f3f
 title: Enforcing Activation in the Default Context
 ms.topic: article

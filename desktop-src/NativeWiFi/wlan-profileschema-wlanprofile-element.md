@@ -1,5 +1,5 @@
 ---
-Description: Contains a wireless LAN profile.
+description: Contains a wireless LAN profile.
 ms.assetid: bc97cb49-3891-4a4a-aab4-895cd9ce6908
 title: WLANProfile Element
 ms.topic: reference
@@ -534,7 +534,7 @@ To view sample profiles, see [Wireless Profile Samples](wireless-profile-samples
 
 
 
-|                                     |                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista, Windows XP with SP3 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                |

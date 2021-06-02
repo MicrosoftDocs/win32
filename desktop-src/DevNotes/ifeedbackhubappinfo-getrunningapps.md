@@ -1,5 +1,5 @@
 ---
-Description: This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+description: IFeedbackHubAppInfo::GetRunningApps method - This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 ms.assetid: 2BD60D22-38AD-4027-B733-0B62F33AA4B3
 title: IFeedbackHubAppInfo::GetRunningApps method
 ms.topic: reference
@@ -48,7 +48,7 @@ This method does not return a value.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps only\]<br/> |
@@ -59,7 +59,7 @@ This method does not return a value.
 
 <dl> <dt>
 
-[**IFeedbackHubAppInfo**](winprog.ifeedbackhubappinfo.md)
+[**IFeedbackHubAppInfo**](ifeebackhubappinfo.md)
 </dt> </dl>
 
  

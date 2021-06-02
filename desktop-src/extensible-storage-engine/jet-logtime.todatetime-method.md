@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME.ToDateTime method"
 title: JET_LOGTIME.ToDateTime method 
 TOCTitle: 'ToDateTime method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LOGTIME.ToDateTime
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Generate a DateTime representation of this JET_LOGTIME.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,14 +57,14 @@ A DateTime representing the JET_LOGTIME. If the JET_LOGTIME is null then null is
 
 #### Implements
 
-[IJET_LOGTIME.ToDateTime()](hh577639\(v=exchg.10\).md)  
+[IJET_LOGTIME.ToDateTime()](./ijet-logtime.todatetime-method.md)  
 
 ## See also
 
 #### Reference
 
-[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](./jet-logtime-structure2.md)
 
-[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](./jet-logtime-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

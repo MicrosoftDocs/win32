@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVPagesNotDeletedException members"
 title: EsentSLVPagesNotDeletedException members
 TOCTitle: EsentSLVPagesNotDeletedException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSLVPagesNotDeletedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVPagesNotDeletedException](dn350724\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVPagesNotDeletedException](./esentslvpagesnotdeletedexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -160,6 +161,6 @@ Top
 
 #### Reference
 
-[EsentSLVPagesNotDeletedException class](dn350724\(v=exchg.10\).md)
+[EsentSLVPagesNotDeletedException class](./esentslvpagesnotdeletedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

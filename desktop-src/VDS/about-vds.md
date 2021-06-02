@@ -1,5 +1,5 @@
 ---
-Description: About VDS
+description: About VDS
 ms.assetid: b2f7628c-b567-40a9-9ad7-6c47077af5fb
 title: About VDS
 ms.topic: article
@@ -26,7 +26,7 @@ The sections that follow describe the architecture of VDS, the role of VDS provi
 
 VDS defines three interfaces: a single interface between the application layer and the service, and two interfaces between the service and provider programs in the data layer. The following illustration shows the application-to-service boundary and the service-to-provider boundary.
 
-![](images/vdsoverview.png)
+![Diagram that shows the service architecture broken into 'Applications', 'Virtual Disk Service', and 'VDS providers' sections.](images/vdsoverview.png)
 
 N-tier architecture enables VDS to coordinate with the file-system functions, synchronize provider activities, and arbitrate between applications. Being between the application and provider, VDS presents uniform functionality to applications even though some the underlying providers might lack such uniformity.
 

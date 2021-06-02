@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualNetworkCollection _NewEnum property (VPCCOMInterfaces.h)
-description: Retrieves an enumerator for the collection.
+description: Retrieves an enumerator for the collection. | IVMVirtualNetworkCollection _NewEnum property (VPCCOMInterfaces.h)
 ms.assetid: 3ea01a88-72ec-4dc0-901f-e48092cf9251
 keywords:
 - _NewEnum property Virtual PC
@@ -58,7 +58,7 @@ The [IEnumVARIANT](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) enumerator.
 
 
 
-|                                     |                                                                                                |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                     |
 | Minimum supported server<br/> | None supported<br/>                                                                      |

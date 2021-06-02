@@ -1,6 +1,6 @@
 ---
-title: IdentityPrivacy (PeapExtensionsType) Element
-description: Indicates whether a user's true identity or an anonymous identity is sent.
+title: IdentityPrivacy (PeapExtensionsType) Element (v1)
+description: Indicates whether a user's true identity or an anonymous identity is sent. | IdentityPrivacy (PeapExtensionsType) Element
 ms.assetid: 1ae5b6e8-b1f8-45a7-ad22-fdb57cc756a2
 keywords:
 - element EAPHost
@@ -16,6 +16,8 @@ api_location:
 ROBOTS: INDEX,FOLLOW
 ---
 
+
+# IdentityPrivacy (PeapExtensionsType) Element
 
 The **IdentityPrivacy (PeapExtensionsType)** element indicates whether a user's true identity or an anonymous identity is sent.
 
@@ -36,7 +38,7 @@ The **IdentityPrivacy** element is optional.
 
 
 
-|                                     |                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/> |

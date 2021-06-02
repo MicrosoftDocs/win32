@@ -1,5 +1,5 @@
 ---
-Description: A callback function used to notify the host of call stack information.
+description: A callback function used to notify the host of call stack information.
 MS-HAID: vspixengine.ICallStackCallback\_ResultCallback\_DWORD\_CallStackFrame\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

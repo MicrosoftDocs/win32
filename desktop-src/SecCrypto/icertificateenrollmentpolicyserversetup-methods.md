@@ -1,5 +1,5 @@
 ---
-Description: The ICertificateEnrollmentPolicyServerSetup interface exposes the following methods.
+description: The ICertificateEnrollmentPolicyServerSetup interface exposes the following methods.
 ms.assetid: EB94F3E1-8D3A-4E0E-9D7F-13A63713BF29
 title: ICertificateEnrollmentPolicyServerSetup Methods
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-Description: The JOB\_INFO\_1 structure specifies print-job information such as the job-identifier value, the name of the printer for which the job is spooled, the name of the machine that created the print job, the name of the user that owns the print job, and so on.
+description: The JOB\_INFO\_1 structure specifies print-job information such as the job-identifier value, the name of the printer for which the job is spooled, the name of the machine that created the print job, the name of the user that owns the print job, and so on.
 ms.assetid: 'd42ada89-6bc7-4006-81d9-dbcc0347edd3'
 title: JOB_INFO_1 structure (Winspool.h)
 ms.topic: reference
@@ -184,7 +184,7 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

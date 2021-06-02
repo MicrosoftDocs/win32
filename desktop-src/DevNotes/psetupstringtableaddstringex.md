@@ -1,5 +1,5 @@
 ---
-Description: Adds a string and extra data to a table.
+description: Adds a string and extra data to a table.
 ms.assetid: e6f29cb0-4468-435d-9ae3-217d4f69e87e
 title: pSetupStringTableAddStringEx function
 ms.topic: reference
@@ -94,7 +94,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 

@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Group
+# Group (Windows Ribbon Framework)
 
 The Group organizes related Commands and controls within a [Tab](windowsribbon-controls-tab.md).
 

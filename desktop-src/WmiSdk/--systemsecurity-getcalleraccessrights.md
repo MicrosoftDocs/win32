@@ -1,5 +1,5 @@
 ---
-Description: Sets the rights parameter as a bitmap with each bit corresponding to an access right.
+description: Sets the rights parameter as a bitmap with each bit corresponding to an access right.
 ms.assetid: f28391a8-2b34-4234-bf1a-4688726b0b4b
 ms.tgt_platform: multiple
 title: GetCallerAccessRights method of the __SystemSecurity class
@@ -159,7 +159,7 @@ This method is not supported on supported versions of Windows.
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

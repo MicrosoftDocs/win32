@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SPACEHINTS class"
 title: JET_SPACEHINTS class
 TOCTitle: JET_SPACEHINTS class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SPACEHINTS
@@ -35,7 +36,7 @@ Describes a column in a table of an ESENT database.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_SPACEHINTS  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_SPACEHINTS members](dn351096\(v=exchg.10\).md)
+[JET_SPACEHINTS members](./jet-spacehints-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

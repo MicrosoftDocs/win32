@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadCheckpointSignatureException members"
 title: EsentBadCheckpointSignatureException members
 TOCTitle: EsentBadCheckpointSignatureException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.BadCheckpointSignature exceptions.
 
-The [EsentBadCheckpointSignatureException](dn273995\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadCheckpointSignatureException](./esentbadcheckpointsignatureexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentBadCheckpointSignatureException class](dn273995\(v=exchg.10\).md)
+[EsentBadCheckpointSignatureException class](./esentbadcheckpointsignatureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

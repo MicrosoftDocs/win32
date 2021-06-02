@@ -1,5 +1,5 @@
 ---
-Description: Writing Video Renderers
+description: Writing Video Renderers
 ms.assetid: 61dfff97-86b2-4d75-ac1c-a69b1dbde02a
 title: Writing Video Renderers
 ms.topic: article

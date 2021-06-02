@@ -1,5 +1,5 @@
 ---
-Description: Shows the members of the CXAPOBase class.
+description: Shows the members of the CXAPOBase class.
 ms.assetid: 0791888B-7215-475B-95C8-B558A1E57783
 title: CXAPOBase Members
 ms.topic: article

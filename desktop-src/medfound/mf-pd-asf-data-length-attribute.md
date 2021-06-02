@@ -1,5 +1,5 @@
 ---
-Description: Specifies the size, in bytes, of the data section of an Advanced Systems Format (ASF) file.
+description: Specifies the size, in bytes, of the data section of an Advanced Systems Format (ASF) file.
 ms.assetid: 93a0bf27-23db-4e8a-b471-a42122e8f9aa
 title: MF_PD_ASF_DATA_LENGTH attribute (Wmcontainer.h)
 ms.topic: reference
@@ -24,7 +24,7 @@ The [**IMFASFContentInfo::GeneratePresentationDescriptor**](/windows/desktop/api
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

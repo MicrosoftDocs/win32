@@ -1,5 +1,5 @@
 ---
-Description: Creates an effect compiler from an ASCII effect description.
+description: D3DXCreateEffectCompiler function - Creates an effect compiler from an ASCII effect description.
 ms.assetid: 96e883f4-4055-4b8b-940a-164bbf893af4
 title: D3DXCreateEffectCompiler function (D3DX9Effect.h)
 ms.topic: reference
@@ -114,7 +114,7 @@ If the function succeeds, the return value is D3D\_OK. If the function fails, th
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Effect.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRestoreInstance Function"
 title: JetRestoreInstance Function
 TOCTitle: JetRestoreInstance Function
 ms:assetid: 7ba2b6ee-96f5-44c5-9842-5e58580f60f1
@@ -29,7 +30,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetRestoreInstance Function
 
-The **JetRestoreInstance** function restores and recovers a streaming backup of an instance including all the attached databases. It is designed to work with a backup created with the [JetBackupInstance](gg269318\(v=exchg.10\).md) function. This is the simplest and most encapsulated one restore function.
+The **JetRestoreInstance** function restores and recovers a streaming backup of an instance including all the attached databases. It is designed to work with a backup created with the [JetBackupInstance](./jetbackupinstance-function.md) function. This is the simplest and most encapsulated one restore function.
 
 **Windows XP:**  **JetRestoreInstance** is introduced in Windows XP.
 
@@ -48,15 +49,15 @@ The **JetRestoreInstance** function restores and recovers a streaming backup of 
 
 Specifies the instance to use for this call.
 
-For Windows XP and later releases, the use of this parameter depends on the operating mode of the engine. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported then this parameter may either be NULL or it may be set to a valid output buffer containing NULL or JET_instanceNil that will return the global instance handle created as a side effect of the initialization. This instance handle can then be passed to any other API that takes an instance. If the engine is operating in multi-instance mode then this parameter must be set to a valid input buffer that contains the instance handle returned by [JetCreateInstance](gg269354\(v=exchg.10\).md) that is being initialized.
+For Windows XP and later releases, the use of this parameter depends on the operating mode of the engine. If the engine is operating in legacy mode (Windows 2000 compatibility mode) where only one instance is supported then this parameter may either be NULL or it may be set to a valid output buffer containing NULL or JET_instanceNil that will return the global instance handle created as a side effect of the initialization. This instance handle can then be passed to any other API that takes an instance. If the engine is operating in multi-instance mode then this parameter must be set to a valid input buffer that contains the instance handle returned by [JetCreateInstance](./jetcreateinstance-function.md) that is being initialized.
 
 *sz*
 
-The folder where the backup is located. The backup should have been generated using the [JetBackup](gg294058\(v=exchg.10\).md) APIs.
+The folder where the backup is located. The backup should have been generated using the [JetBackup](./jetbackup-function.md) APIs.
 
 *szDest*
 
-Name of the folder where the database files from the backup set will be copied and recovered. If this is set to NULL (which is the case for the legacy [JetRestore](gg294093\(v=exchg.10\).md)), the database files will be copied and recovered to their original location.
+Name of the folder where the database files from the backup set will be copied and recovered. If this is set to NULL (which is the case for the legacy [JetRestore](./jetrestore-function.md)), the database files will be copied and recovered to their original location.
 
 *pfn*
 
@@ -64,7 +65,7 @@ The optional pointer to the function which will be called as notification inform
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -118,7 +119,7 @@ On failure, the instance remains in an uninitialized state. The state of the tra
 
 The recovery process will reconstruct the databases attached to the instance during the backup and save the changes back to the database files. The result will be databases that are transaction consistent. If possible, it will also save to the database the changes done since the backup was taken until the most recent change found in the transaction logs. This would be possible if the transaction logs generated since the backup was taken are still present in the transaction log directory. Note that if circular logging was enabled for the instance, the transaction logs generated are reused such that the recovery will be able to save the changes which took place up to the backup moment. In any case, it is possible for this process to take quite some time if the number of transaction log files to replay against the databases is large.
 
-**JetRestoreInstance** must be called on an instance which was already created using [JetCreateInstance](gg269354\(v=exchg.10\).md).
+**JetRestoreInstance** must be called on an instance which was already created using [JetCreateInstance](./jetcreateinstance-function.md).
 
 Because during recovery a significant number of database pages and transaction logs will be used, there is an entire series of error which might be returned by these functions. Such errors can be from temporary resource allocation failures like Jet_errOutOfMemory to errors representing physical corruptions like JET_errReadVerifyFailure, JET_errLogFileCorrupt or JET_errBadPageLink. These errors are almost always caused by hardware problems and thus cannot be avoided. File mismanagement will manifest itself most often as JET_errMissingLogFile or JET_errAttachedDatabaseMismatch or JET_errDatabaseSharingViolation or JET_errInvalidLogSequence. These errors are preventable by the application. The application must be careful to protect the repository of these files from manipulation by outside forces such as the user or other applications. If the application desires to destroy an instance entirely then all the files associated with the instance must be deleted. These include the checkpoint file, the transaction log files, and any database files attached to the instance.
 
@@ -162,11 +163,10 @@ The different steps of the recovery will have Event Log entries generated includ
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetBackup](gg294058\(v=exchg.10\).md)  
-[JetBackupInstance](gg269318\(v=exchg.10\).md)  
-[JetCreateInstance](gg269354\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetBackup](./jetbackup-function.md)  
+[JetBackupInstance](./jetbackupinstance-function.md)  
+[JetCreateInstance](./jetcreateinstance-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)

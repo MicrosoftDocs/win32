@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetCursorFilter Function"
 title: JetSetCursorFilter Function
 TOCTitle: JetSetCursorFilter Function
 ms:assetid: 3cea5beb-2cf8-4053-8e7f-7b8645580ef0
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 _**Applies to:** Windows | Windows Server_
 
-The **JetSetCursorFilter** function sets an array of simple filters for the [JetMove](gg294117\(v=exchg.10\).md) function.
+The **JetSetCursorFilter** function sets an array of simple filters for the [JetMove](./jetmove-function.md) function.
 
 The **JetSetCursorFilter** function was introduced in the Windows 8 operating system.
 
@@ -84,7 +85,7 @@ A group of bits that specifies zero or more of the move options listed in the fo
 
 ### Return value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) data type with one of the return codes listed in the following table. For more information about the possible Extensible Storage Engine (ESE) errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -140,6 +141,5 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) data type with on
 
 #### See also
 
-[JetMove](gg294117\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)
-
+[JetMove](./jetmove-function.md)  
+[JET_ERR](./jet-err.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies how far behind schedule a component is for processing samples.
+description: Specifies how far behind schedule a component is for processing samples.
 ms.assetid: 8bd202fb-3015-41a2-ad14-862f64cb252f
 title: EC_SAMPLE_LATENCY (Dshow.h)
 ms.topic: reference
@@ -42,7 +42,7 @@ The simplest way to calculate *lParam1* is: *QPC now*   *QPC target*, where *QPC
 
 
 
-|                   |                                                                                    |
+| Requirement | Value |
 |-------------------|------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dshow.h</dt> </dl> |
 

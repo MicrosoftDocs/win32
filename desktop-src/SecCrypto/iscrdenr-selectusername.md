@@ -1,5 +1,5 @@
 ---
-Description: Displays a Select User interface, allowing a user name to be selected.
+description: Displays a Select User interface, allowing a user name to be selected.
 ms.assetid: 0a02d9e5-b2cf-4818-a2e1-89e6019e53d4
 title: ISCrdEnr::selectUserName method
 ms.topic: reference
@@ -72,7 +72,7 @@ An alternative to using the 'Select User' interface is to specify a user by call
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

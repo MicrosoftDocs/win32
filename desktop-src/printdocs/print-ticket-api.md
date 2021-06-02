@@ -1,5 +1,5 @@
 ---
-Description: The Print Ticket API provides enables applications to manage and convert print tickets.
+description: The Print Ticket API provides enables applications to manage and convert print tickets.
 ms.assetid: 4f854c1a-f2e1-48c4-9cc1-8a0fcf1bebed
 title: Print Ticket API
 ms.topic: article
@@ -14,7 +14,7 @@ A print ticket is an XPS document component that contains the preferred printer 
 
 Before the printer can use the print ticket, the print ticket must be validated against the printer's characteristics, which are defined in the printer's Print Capabilities. The application performs that validation by calling the Print Ticket API.
 
-The PrintTicket and PrintCapabilities are described by using elements of the Print Schema, which is defined by the [Print Schema Specification](https://www.microsoft.com/whdc/xps/printschema.mspx).
+The PrintTicket and PrintCapabilities are described by using elements of the Print Schema, which is defined by the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
 This topic contains information about the following API elements:
 

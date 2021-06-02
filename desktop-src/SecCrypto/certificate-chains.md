@@ -1,5 +1,5 @@
 ---
-Description: To use certificates for security, the authenticity and validity of each certificate received must be verified. This verification depends upon the concept of trust and the delegation of trust \[Platform Software Development Kit (SDK)\].
+description: To use certificates for security, the authenticity and validity of each certificate received must be verified. This verification depends upon the concept of trust and the delegation of trust \[Platform Software Development Kit (SDK)\].
 ms.assetid: e6cb0280-f531-40dc-bbb1-d8115d026e03
 title: Certificate Chains
 ms.topic: article

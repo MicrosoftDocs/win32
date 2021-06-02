@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Windows8Api.JetOpenTemporaryTable2 method"
 title: Windows8Api.JetOpenTemporaryTable2 method  (Microsoft.Isam.Esent.Interop.Windows8)
 TOCTitle: 'JetOpenTemporaryTable2 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Windows8.Windows8Api.JetOpenTemporaryTable2(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE)
@@ -28,9 +29,9 @@ ROBOTS: INDEX,FOLLOW
 
 # Windows8Api.JetOpenTemporaryTable2 method
 
-Creates a temporary table with a single index. A temporary table stores and retrieves records just like an ordinary table created using JetCreateTableColumnIndex. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner. Also see [JetOpenTempTable(JET_SESID, \[\], Int32, TempTableGrbit, JET_TABLEID, \[\])](dn292231\(v=exchg.10\).md), "Api.JetOpenTempTable2", [JetOpenTempTable3(JET_SESID, \[\], Int32, JET_UNICODEINDEX, TempTableGrbit, JET_TABLEID, \[\])](dn292233\(v=exchg.10\).md). [JetOpenTemporaryTable(JET_SESID, JET_OPENTEMPORARYTABLE)](dn335326\(v=exchg.10\).md).
+Creates a temporary table with a single index. A temporary table stores and retrieves records just like an ordinary table created using JetCreateTableColumnIndex. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner. Also see [JetOpenTempTable(JET_SESID, \[\], Int32, TempTableGrbit, JET_TABLEID, \[\])](./api.jetopentemptable-method.md), "Api.JetOpenTempTable2", [JetOpenTempTable3(JET_SESID, \[\], Int32, JET_UNICODEINDEX, TempTableGrbit, JET_TABLEID, \[\])](./api.jetopentemptable3-method.md). [JetOpenTemporaryTable(JET_SESID, JET_OPENTEMPORARYTABLE)](./vistaapi.jetopentemporarytable-method.md).
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](dn335439\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,28 +58,27 @@ public static void JetOpenTemporaryTable2(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - temporarytable  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE](dn351217\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_OPENTEMPORARYTABLE](./jet-opentemporarytable-class.md)  
     
-    Description of the temporary table to create on input. After a successful call, the structure contains the handle to the temporary table and column identifications. Use [JetCloseTable(JET_SESID, JET_TABLEID)](dn292109\(v=exchg.10\).md) to free the temporary table when finished.
+    Description of the temporary table to create on input. After a successful call, the structure contains the handle to the temporary table and column identifications. Use [JetCloseTable(JET_SESID, JET_TABLEID)](./api.jetclosetable-method.md) to free the temporary table when finished.
 
 ## Remarks
 
-Use [JetOpenTemporaryTable(JET_SESID, JET_OPENTEMPORARYTABLE)](dn335326\(v=exchg.10\).md) for earlier versions of Esent.
+Use [JetOpenTemporaryTable(JET_SESID, JET_OPENTEMPORARYTABLE)](./vistaapi.jetopentemporarytable-method.md) for earlier versions of Esent.
 
 ## See also
 
 #### Reference
 
-[Windows8Api class](dn335490\(v=exchg.10\).md)
+[Windows8Api class](./windows8api-class.md)
 
-[Windows8Api members](dn335373\(v=exchg.10\).md)
+[Windows8Api members](./windows8api-members.md)
 
-[Microsoft.Isam.Esent.Interop.Windows8 namespace](dn335439\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Windows8 namespace](./microsoft.isam.esent.interop.windows8-namespace.md)

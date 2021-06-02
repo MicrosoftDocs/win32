@@ -1,5 +1,5 @@
 ---
-Description: The Metafile class, which inherits from the Image class, allows you to record a sequence of drawing commands.
+description: The Metafile class, which inherits from the Image class, allows you to record a sequence of drawing commands.
 ms.assetid: 062de6c2-9f82-415d-860e-2d1afd2ac027
 title: Recording Metafiles
 ms.topic: article

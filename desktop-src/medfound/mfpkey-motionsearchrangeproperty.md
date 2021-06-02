@@ -1,5 +1,5 @@
 ---
-Description: Specifies the range used in motion searches.
+description: Specifies the range used in motion searches.
 ms.assetid: b2026f47-ac39-4276-8359-c939b202f00c
 title: MFPKEY_MOTIONSEARCHRANGE Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -48,7 +48,7 @@ The automatic mode (-1) will dynamically select the most efficient mode.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: There are situations where data from one writer depends on data managed by another writer. In these cases, you should back up or restore data from both writers.
+description: There are situations where data from one writer depends on data managed by another writer. In these cases, you should back up or restore data from both writers.
 ms.assetid: 0413c289-74b7-4e83-a227-00bfb264e56e
 title: Dependencies between Components Managed by Different Writers
 ms.topic: article

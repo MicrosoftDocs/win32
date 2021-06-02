@@ -1,5 +1,5 @@
 ---
-Description: The IWiaDevMgr2 interface is used to create and manage image acquisition devices and to register to receive device events.
+description: The IWiaDevMgr2 interface is used to create and manage image acquisition devices and to register to receive device events.
 ms.assetid: 0e9fb3a1-bbe3-4dba-ba8c-b79f202d5a38
 title: IWiaDevMgr2 interface (Wia.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ The **IWiaDevMgr2** interface, like all Component Object Model (COM) interfaces,
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

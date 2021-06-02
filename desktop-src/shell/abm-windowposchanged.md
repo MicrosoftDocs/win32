@@ -1,5 +1,5 @@
 ---
-Description: Notifies the system when an appbar's position has changed. An appbar should call this message in response to the WM\_WINDOWPOSCHANGED message.
+description: Notifies the system when an appbar's position has changed. An appbar should call this message in response to the WM\_WINDOWPOSCHANGED message.
 ms.assetid: 8ca51f5f-b6cf-4f2c-98f4-69c992679320
 title: ABM_WINDOWPOSCHANGED message (Shellapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ This message is ignored if the **hWnd** member of the structure pointed to by *p
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

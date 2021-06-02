@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Instance.Term method"
 title: Instance.Term method 
 TOCTitle: 'Term method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Instance.Term
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Terminate the JET_INSTANCE.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -54,9 +55,8 @@ public void Term()
 
 #### Reference
 
-[Instance class](dn350923\(v=exchg.10\).md)
+[Instance class](./instance-class.md)
 
-[Instance members](dn350944\(v=exchg.10\).md)
+[Instance members](./instance-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

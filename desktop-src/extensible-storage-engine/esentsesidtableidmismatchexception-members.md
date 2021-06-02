@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSesidTableIdMismatchException members"
 title: EsentSesidTableIdMismatchException members
 TOCTitle: EsentSesidTableIdMismatchException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSesidTableIdMismatchException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.SesidTableIdMismatch exceptions.
 
-The [EsentSesidTableIdMismatchException](dn350621\(v=exchg.10\).md) type exposes the following members.
+The [EsentSesidTableIdMismatchException](./esentsesidtableidmismatchexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentSesidTableIdMismatchException class](dn350621\(v=exchg.10\).md)
+[EsentSesidTableIdMismatchException class](./esentsesidtableidmismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

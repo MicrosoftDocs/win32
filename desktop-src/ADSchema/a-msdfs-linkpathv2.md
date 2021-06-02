@@ -18,11 +18,11 @@ ms.date: 05/31/2018
 
 # ms-DFS-Link-Path-v2 attribute
 
-DFS link path relative to the DFS root target share (that is, without the server/domain and DFS namespace name components). Use forward slashes (/) instead of backslashes (\), so that LDAP searches can be done without having to use escapes.
+DFS link path relative to the DFS root target share (that is, without the server/domain and DFS namespace name components). Use forward slashes (/) instead of backslashes (\\), so that LDAP searches can be done without having to use escapes.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DFS-Link-Path-v2                         |
 | Ldap-Display-Name | msDFS-LinkPathv2                            |
@@ -45,7 +45,7 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
@@ -66,7 +66,7 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
@@ -87,7 +87,7 @@ DFS link path relative to the DFS root target share (that is, without the server
 
 
 
-|                        |                                                                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Link-Id                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |

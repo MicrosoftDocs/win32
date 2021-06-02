@@ -1,5 +1,5 @@
 ---
-Description: Indicates whether the volume and its encryption key are secured.
+description: Indicates whether the volume and its encryption key are secured.
 ms.assetid: bcd8fce5-da39-4aa8-93ff-0768deb900ec
 title: GetProtectionStatus method of the Win32_EncryptableVolume class
 ms.topic: reference
@@ -130,7 +130,7 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista Enterprise, Windows Vista Ultimate \[desktop apps only\]<br/>                       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                    |

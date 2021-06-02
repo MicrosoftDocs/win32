@@ -1,6 +1,6 @@
 ---
 title: DownloadStatus Element (Msfeeds.h)
-description: Note This section describes functionality designed for use by online stores.
+description: Note This section describes functionality designed for use by online stores. | DownloadStatus Element (Msfeeds.h)
 ms.assetid: 08d9719a-390d-454a-935e-27812c0f3599
 keywords:
 - DownloadStatus Element Windows Media Player
@@ -63,7 +63,7 @@ Windows Media Player displays a message to users when a download is in progress.
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later<br/>                                          |
 | Header<br/>  | <dl> <dt>Msfeeds.h</dt> </dl> |

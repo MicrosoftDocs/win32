@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetDelete Function"
 title: JetDelete Function
 TOCTitle: JetDelete Function
 ms:assetid: 807de5ba-2f4b-4779-ab29-a1f094beecc1
@@ -48,7 +49,7 @@ The cursor on a database table. The current row will be deleted.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -130,9 +131,9 @@ On success, the currency is left just before the next record. If the deleted rec
 
 The appropriate indexes are automatically updated.
 
-If an update is prepared (using [JetPrepareUpdate](gg269339\(v=exchg.10\).md)), it will be canceled. The update buffer will be reset.
+If an update is prepared (using [JetPrepareUpdate](./jetprepareupdate-function.md)), it will be canceled. The update buffer will be reset.
 
-On failure, the currency remains unchanged. If an update is prepared (see [JetPrepareUpdate](gg269339\(v=exchg.10\).md)), the update buffer may be reset.
+On failure, the currency remains unchanged. If an update is prepared (see [JetPrepareUpdate](./jetprepareupdate-function.md)), the update buffer may be reset.
 
 #### Remarks
 
@@ -144,7 +145,7 @@ Not all tables support deletion of rows. A temporary table does not normally sup
 
 Windows XP and later. Callback functions can be invoked by **JetDelete**, including JET_cbtypBeforeDelete and JET_cbtypAfterDelete.
 
-It is important to understand the impact of performing a large number of update operations inside of a single transaction. Each update to the database must be tracked by the database engine in the version store. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. Once the database engine has exhausted the resources used to store these versions then it can no longer accept further changes until some transactions have concluded to allow these resources to be reclaimed. When the engine is in this state, all updates will fail with JET_errVersionStoreOutOfMemory. The resources available to the database engine to store these versions can be controlled using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with *JET_paramMaxVerPages* and *JET_paramGlobalMinVerPages*.
+It is important to understand the impact of performing a large number of update operations inside of a single transaction. Each update to the database must be tracked by the database engine in the version store. The version store holds a live record of all the different versions of each record or index entry in the database that can be seen by all active transactions. These versions are used to support the multi-versioned concurrency control in use by the database engine to support transactions using snapshot isolation. Once the database engine has exhausted the resources used to store these versions then it can no longer accept further changes until some transactions have concluded to allow these resources to be reclaimed. When the engine is in this state, all updates will fail with JET_errVersionStoreOutOfMemory. The resources available to the database engine to store these versions can be controlled using [JetSetSystemParameter](./jetsetsystemparameter-function.md) with *JET_paramMaxVerPages* and *JET_paramGlobalMinVerPages*.
 
 #### Requirements
 
@@ -180,10 +181,9 @@ It is important to understand the impact of performing a large number of update 
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetOpenTempTable](gg269211\(v=exchg.10\).md)  
-[JetPrepareUpdate](gg269339\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetOpenTempTable](./jetopentemptable-function.md)  
+[JetPrepareUpdate](./jetprepareupdate-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

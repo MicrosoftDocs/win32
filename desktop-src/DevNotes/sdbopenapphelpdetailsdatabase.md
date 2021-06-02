@@ -1,5 +1,5 @@
 ---
-Description: Opens the specified Apphelp details database.
+description: Opens the specified Apphelp details database.
 ms.assetid: c3b07c00-a3c6-419c-94c6-34c573a04d6d
 title: SdbOpenApphelpDetailsDatabase function
 ms.topic: reference
@@ -49,7 +49,7 @@ The function returns a handle to the Apphelp details database.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                   |

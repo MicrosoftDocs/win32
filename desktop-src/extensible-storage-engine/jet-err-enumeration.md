@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_err enumeration"
 title: JET_err enumeration
 TOCTitle: JET_err enumeration
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_err
@@ -838,7 +839,7 @@ ROBOTS: INDEX,FOLLOW
 
 ESENT error codes.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -2893,5 +2894,4 @@ public enum JET_err
 
 #### Reference
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

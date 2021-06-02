@@ -45,7 +45,7 @@ A map of drive letters contained within the device. Each bit in the value repres
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 with SP1<br/>                                                          |
 | Minimum supported server<br/> | Windows Server 2008 R2 with SP1<br/>                                             |

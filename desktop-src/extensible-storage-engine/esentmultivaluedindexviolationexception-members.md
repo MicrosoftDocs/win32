@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMultiValuedIndexViolationException members"
 title: EsentMultiValuedIndexViolationException members
 TOCTitle: EsentMultiValuedIndexViolationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentMultiValuedIndexViolationException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.MultiValuedIndexViolation exceptions.
 
-The [EsentMultiValuedIndexViolationException](dn334706\(v=exchg.10\).md) type exposes the following members.
+The [EsentMultiValuedIndexViolationException](./esentmultivaluedindexviolationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentMultiValuedIndexViolationException class](dn334706\(v=exchg.10\).md)
+[EsentMultiValuedIndexViolationException class](./esentmultivaluedindexviolationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

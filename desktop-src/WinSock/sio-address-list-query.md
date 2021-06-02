@@ -1,5 +1,5 @@
 ---
-Description: Control code obtains a list of local transport addresses of the socket's protocol family to which the application can bind.
+description: Control code obtains a list of local transport addresses of the socket's protocol family to which the application can bind.
 ms.assetid: 6b23a019-812c-4623-941b-87928acabbd2
 title: SIO_ADDRESS_LIST_QUERY Control Code
 ms.topic: reference

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCorruptionException members"
 title: EsentCorruptionException members
 TOCTitle: EsentCorruptionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCorruptionException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for Corruption exceptions.
 
-The [EsentCorruptionException](dn274225\(v=exchg.10\).md) type exposes the following members.
+The [EsentCorruptionException](./esentcorruptionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -167,6 +168,6 @@ Top
 
 #### Reference
 
-[EsentCorruptionException class](dn274225\(v=exchg.10\).md)
+[EsentCorruptionException class](./esentcorruptionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

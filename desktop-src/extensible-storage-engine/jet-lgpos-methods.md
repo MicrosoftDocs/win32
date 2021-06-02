@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LGPOS methods"
 title: JET_LGPOS methods
 TOCTitle: JET_LGPOS methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_LGPOS
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_LGPOS](hh578063\(v=exchg.10\).md) type exposes the following members.
+The [JET_LGPOS](./jet-lgpos-structure2.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[JET_LGPOS structure](hh578063\(v=exchg.10\).md)
+[JET_LGPOS structure](./jet-lgpos-structure2.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

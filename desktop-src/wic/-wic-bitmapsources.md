@@ -1,5 +1,5 @@
 ---
-Description: This topic introduces bitmap sources, a core Windows Imaging Component (WIC) component that represents the bitmap pixels of an image.
+description: This topic introduces bitmap sources, a core Windows Imaging Component (WIC) component that represents the bitmap pixels of an image.
 ms.assetid: cff0c088-ca22-4d55-9cf0-9cbe9803923e
 title: Bitmap Sources Overview
 ms.topic: article

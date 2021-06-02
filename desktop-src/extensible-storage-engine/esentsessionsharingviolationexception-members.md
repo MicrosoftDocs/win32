@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionSharingViolationException members"
 title: EsentSessionSharingViolationException members
 TOCTitle: EsentSessionSharingViolationException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentSessionSharingViolationException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.SessionSharingViolation exceptions.
 
-The [EsentSessionSharingViolationException](dn350642\(v=exchg.10\).md) type exposes the following members.
+The [EsentSessionSharingViolationException](./esentsessionsharingviolationexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentSessionSharingViolationException class](dn350642\(v=exchg.10\).md)
+[EsentSessionSharingViolationException class](./esentsessionsharingviolationexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Encrypts a message to provide privacy by using Negotiate.
+description: Encrypts a message to provide privacy by using Negotiate.
 ms.assetid: b80b3d64-9c0a-4602-9378-1e208f6593fc
 title: EncryptMessage (Negotiate) function
 ms.topic: reference
@@ -91,7 +91,7 @@ For optimal performance, the *pMessage* structures should be allocated from cont
 
 ## Requirements
 
-|                          |                                                 |
+| Requirement | Value |
 |--------------------------|-------------------------------------------------|
 | Minimum supported client | Windows XP \[desktop apps only\]                |
 | Minimum supported server | Windows Server 2003 \[desktop apps only\]       |

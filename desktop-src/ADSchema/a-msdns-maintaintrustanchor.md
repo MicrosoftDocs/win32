@@ -22,7 +22,7 @@ An attribute used to define the type of trust anchor to automatically publish in
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | ms-DNS-Maintain-Trust-Anchor         |
 | Ldap-Display-Name | msDNS-MaintainTrustAnchor            |
@@ -43,7 +43,7 @@ An attribute used to define the type of trust anchor to automatically publish in
 
 
 
-|                        |                                          |
+| Entry | Value |
 |------------------------|------------------------------------------|
 | Link-Id                | \-                                       |
 | MAPI-Id                | \-                                       |

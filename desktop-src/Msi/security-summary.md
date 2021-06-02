@@ -1,5 +1,5 @@
 ---
-Description: The Security Summary property conveys whether the package should be opened as read-only.
+description: The Security Summary property conveys whether the package should be opened as read-only.
 ms.assetid: f064b899-8123-49e1-b275-511186f49750
 title: Security Summary property
 ms.topic: reference
@@ -28,7 +28,7 @@ This property should be set to read-only recommended (2) for an installation dat
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 

@@ -1,5 +1,5 @@
 ---
-Description: The QueueSample method queues a sample.
+description: The QueueSample method queues a sample.
 ms.assetid: f34c0689-5afb-4941-bc3a-e4765fbbe525
 title: COutputQueue.QueueSample method (Outputq.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ This method can also be used to put control messages onto the queue. A control m
 
 
 
-|               |                                        |
+| Label | Value |
 |---------------|----------------------------------------|
 | Message       | Action                                 |
 | EOS\_PACKET   | Deliver an end-of-stream notification. |
@@ -74,7 +74,7 @@ This is a protected method, which the **COutputQueue** class uses internally.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

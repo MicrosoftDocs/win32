@@ -1,5 +1,5 @@
 ---
-Description: Destructor method.
+description: CTransformFilter.~CTransformFilter destructor - Destructor method.
 ms.assetid: 17f4dacb-a262-44de-9bef-55da87e07a63
 title: CTransformFilter.~CTransformFilter destructor (Transfrm.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Destructor method.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

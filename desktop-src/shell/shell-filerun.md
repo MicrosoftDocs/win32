@@ -1,5 +1,5 @@
 ---
-Description: Displays the Run dialog to the user. This method has the same effect as clicking the Start menu and selecting Run.
+description: Displays the Run dialog to the user. This method has the same effect as clicking the Start menu and selecting Run.
 ms.assetid: bb984777-e09f-41e6-8359-51c5291654f7
 title: Shell.FileRun method (Shldisp.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

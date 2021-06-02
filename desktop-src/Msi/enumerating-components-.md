@@ -1,5 +1,5 @@
 ---
-Description: Windows Installer 5.0 running on Windows Server 2008 R2 or Windows 7 can enumerate all components installed on the computer and obtain the key path for the component.
+description: Windows Installer 5.0 running on Windows Server 2008 R2 or Windows 7 can enumerate all components installed on the computer and obtain the key path for the component.
 ms.assetid: a6676340-1695-48c7-a1e4-7a02a7bc3fef
 title: Enumerating Components
 ms.topic: article

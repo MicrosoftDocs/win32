@@ -1,5 +1,5 @@
 ---
-Description: The put\_DestinationLeft method sets the left coordinate of the destination rectangle.
+description: The put\_DestinationLeft method sets the left coordinate of the destination rectangle.
 ms.assetid: 5d61d41c-3935-4637-b092-f508ea0508d3
 title: CBaseControlVideo.put_DestinationLeft method (Ctlutil.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

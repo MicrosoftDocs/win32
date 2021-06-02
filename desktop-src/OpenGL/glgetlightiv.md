@@ -1,6 +1,6 @@
 ---
 title: glGetLightiv function (Gl.h)
-description: The glGetLightfv and glGetLightiv functions return light source parameter values.
+description: The glGetLightfv and glGetLightiv functions return light source parameter values. | glGetLightiv function (Gl.h)
 ms.assetid: be4316ca-dc49-4bfa-929a-fa25f5057fde
 keywords:
 - glGetLightiv function OpenGL
@@ -93,7 +93,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

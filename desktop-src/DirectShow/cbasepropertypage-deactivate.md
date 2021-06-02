@@ -1,5 +1,5 @@
 ---
-Description: The Deactivate method destroys the dialog window. This method implements the IPropertyPage::Deactivate method.
+description: The Deactivate method destroys the dialog window. This method implements the IPropertyPage::Deactivate method.
 ms.assetid: f2d2f15f-15f6-4902-bafc-f58a684ff193
 title: CBasePropertyPage.Deactivate method (Cprop.h)
 ms.topic: reference
@@ -54,7 +54,7 @@ Returns an **HRESULT** value. Possible values include the following.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Cprop.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

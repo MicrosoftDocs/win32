@@ -1,5 +1,5 @@
 ---
-Description: Removes a Certificate object from a Recipients collection.
+description: Removes a Certificate object from a Recipients collection.
 ms.assetid: bb75f6d0-4bab-40dd-9d0c-f0431da9c5f3
 title: Recipients.Remove method
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 
 # Recipients.Remove method
 
-\[The **Remove** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](/dotnet/api/system.security.cryptography.pkcs.cmsrecipientcollection?view=dotnet-plat-ext-3.1) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1) namespace.\]
+\[The **Remove** method is available for use in the operating systems specified in the Requirements section. Instead, use the [**CmsRecipientCollection Class**](/dotnet/api/system.security.cryptography.pkcs.cmsrecipientcollection?view=dotnet-plat-ext-3.1&preserve-view=true) in the [**System.Security.Cryptography.Pkcs**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true) namespace.\]
 
 The **Remove** method removes a [**Certificate**](certificate.md) object from a [**Recipients**](recipients.md) collection.
 
@@ -51,7 +51,7 @@ This method does not return a value.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The SetPowerState method of the CIM\_ProtectedSpaceExtent class sets the desired power state for a logical device and when a device should be put into that state.
+description: The SetPowerState method of the CIM\_ProtectedSpaceExtent class sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: b1767736-b612-4be3-9e0b-f737353fac54
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_ProtectedSpaceExtent class
@@ -111,7 +111,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

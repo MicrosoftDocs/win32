@@ -1,5 +1,5 @@
 ---
-Description: Sets the current state of the specified device button.
+description: SetButtonState method of the Msvm_Ps2Mouse class - Sets the current state of the specified device button.
 ms.assetid: 312A2B8B-D518-4797-9B50-F12493598CD6
 title: SetButtonState method of the Msvm_Ps2Mouse class
 ms.topic: reference
@@ -108,7 +108,7 @@ Access to the [**Msvm\_Ps2Mouse**](msvm-ps2mouse.md) class might be restricted b
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

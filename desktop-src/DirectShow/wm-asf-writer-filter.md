@@ -1,12 +1,12 @@
 ---
-Description: WM ASF Writer Filter
+description: WM ASF Writer Filter
 ms.assetid: 1b12f65f-8d77-4d38-aad9-92bb15cc0426
 title: WM ASF Writer Filter (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# WM ASF Writer Filter
+# WM ASF Writer Filter (DirectShow)
 
 The WM ASF Writer is a wrapper filter for the writer object provided with the Windows Media™ Format SDK. The filter accepts a variable number of input streams and creates an Advanced Systems Format (ASF) file. The filter handles all compression and multiplexing (although the compression mechanism can be bypassed). You can use the WM ASF Writer in various scenarios including digital video (DV) capture, audio recompression, and conversion of Audio-Video Interleaved (AVI) or MPEG multimedia files for network streaming. This filter provides the only way to create Microsoft® Windows Media™ Audio and Windows Media Video files in Microsoft DirectShow.
 
@@ -14,7 +14,7 @@ For more information, see [Creating ASF Files in DirectShow](creating-asf-files-
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Label | Value |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter interfaces                        | [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IConfigAsfWriter**](/previous-versions/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter), [**IConfigAsfWriter2**](/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2), [**IFileSinkFilter2**](/windows/desktop/api/Strmif/nn-strmif-ifilesinkfilter2), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), **IPersistStream**, **IServiceProvider**, **ISpecifyPropertyPages**In addition, the filter exposes the following Windows Media Format SDK interfaces: **IWMIndexer2**, **IWMHeaderInfo**, **IWMWriterAdvanced2**<br/> |
 | Input pin media types                    | Depends on the ASF profile. Typically uncompressed audio and video types, although the filter will accept compressed types if they match the ASF profile.                                                                                                                                                                                                                                                                                                                                             |

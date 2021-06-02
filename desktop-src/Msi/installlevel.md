@@ -1,5 +1,5 @@
 ---
-Description: The INSTALLLEVEL property is the initial level at which features are selected &\#0034;ON&\#0034; for installation by default.
+description: The INSTALLLEVEL property is the initial level at which features are selected &\#0034;ON&\#0034; for installation by default.
 ms.assetid: 5051cc46-837a-4446-a54c-4bd4081a424c
 title: INSTALLLEVEL property
 ms.topic: reference
@@ -37,7 +37,7 @@ An administrator can permanently disable a feature by applying a customization t
 
 
 
-|                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP. See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.<br/> |
 

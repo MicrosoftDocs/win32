@@ -1,5 +1,5 @@
 ---
-Description: Specifies the microphone array geometry for the Voice Capture DSP.
+description: Specifies the microphone array geometry for the Voice Capture DSP.
 ms.assetid: 1d91bdc8-5a09-487d-b45e-80d57a44cd0e
 title: MFPKEY_WMAAECMA_MICARRAY_DESCPTR Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ Set this property if you are using the DSP in filter mode and microphone array p
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

@@ -1,5 +1,5 @@
 ---
-Description: Pointer to an AMOVIESETUP\_FILTER structure.
+description: Pointer to an AMOVIESETUP\_FILTER structure.
 ms.assetid: 72db601b-78a3-484a-a27f-147ec36022ab
 title: CFactoryTemplate::m_pAMovieSetup_Filter member (Combase.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ Use this structure to make a filter self-registering. If your component is not a
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Combase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

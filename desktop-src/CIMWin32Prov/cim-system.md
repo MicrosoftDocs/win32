@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_System class aggregates an enumerable set of managed system elements.
+description: The CIM\_System class aggregates an enumerable set of managed system elements.
 ms.assetid: cbfa60d4-36ae-4e0c-a57f-aabf219851d0
 ms.tgt_platform: multiple
 title: CIM_System class (CIMWin32 WMI Providers)
@@ -26,7 +26,7 @@ api_location:
 - CIMWin32.dll
 ---
 
-# CIM\_System class
+# CIM_System class (CIMWin32 WMI Providers)
 
 The **CIM\_System** class aggregates an enumerable set of managed system elements. The aggregation operates as a functional whole. Within any particular subclass of the system, there is a well-defined list of managed system element classes whose instances must be aggregated.
 
@@ -331,7 +331,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -15,7 +15,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Client Logging
+# Client Logging (Windows Media Format 11 SDK)
 
 When the reader object reads data from a server, it sends logging information to the server. Content providers typically use this information to measure quality of service, generate billing information, or track advertising. The logging information contains no personal data.
 

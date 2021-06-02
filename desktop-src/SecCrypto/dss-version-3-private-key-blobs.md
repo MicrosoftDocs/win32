@@ -1,5 +1,5 @@
 ---
-Description: Describes the format of an exported DSS version 3 private key.
+description: Describes the format of an exported DSS version 3 private key.
 ms.assetid: 650532fd-919b-495a-9fb9-981790447d3d
 title: DSS Version 3 Private Key BLOBs
 ms.topic: article

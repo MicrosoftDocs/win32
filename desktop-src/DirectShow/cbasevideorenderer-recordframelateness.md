@@ -1,5 +1,5 @@
 ---
-Description: The RecordFrameLateness method records how timely the rendering occurred and gathers statistics for the property page.
+description: The RecordFrameLateness method records how timely the rendering occurred and gathers statistics for the property page.
 ms.assetid: 9d4b90d7-b529-40cc-a0fd-6635163fb7dd
 title: CBaseVideoRenderer.RecordFrameLateness method (Renbase.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

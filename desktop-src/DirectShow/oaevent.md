@@ -1,5 +1,5 @@
 ---
-Description: The OAEVENT data type defines an event handle that can be used by OLE Automation clients, such as Microsoft Visual Basic 6.0.
+description: The OAEVENT data type defines an event handle that can be used by OLE Automation clients, such as Microsoft Visual Basic 6.0.
 ms.assetid: 2c260592-98a9-4f85-accf-282bd5231d5c
 title: OAEVENT (Control.h)
 ms.topic: reference
@@ -21,7 +21,7 @@ typedef LONG_PTR OAEVENT;
 
 
 
-|                   |                                                                                                        |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Control.h (include Dshow.h)</dt> </dl> |
 

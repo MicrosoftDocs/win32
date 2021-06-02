@@ -1,5 +1,5 @@
 ---
-Description: A management application using the System Registry provider can define classes with properties that represent registry data for particular keys and then stores the classes in the WMI repository.
+description: A management application using the System Registry provider can define classes with properties that represent registry data for particular keys and then stores the classes in the WMI repository.
 ms.assetid: e8707a3d-a393-4be0-9e86-297f0af15d99
 ms.tgt_platform: multiple
 title: Defining Classes for the System Registry Provider

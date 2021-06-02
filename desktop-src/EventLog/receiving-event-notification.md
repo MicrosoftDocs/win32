@@ -1,5 +1,5 @@
 ---
-Description: Receiving Event Notification
+description: Receiving Event Notification
 ms.assetid: 3200d666-d927-4198-b1f6-1636971f5f07
 title: Receiving Event Notification
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Removes feature settings from an Ethernet switch port.
+description: Removes feature settings from an Ethernet switch port.
 ms.assetid: 3d45259e-34e4-417b-a895-4926b0eaaf59
 title: RemoveFeatureSettings method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference
@@ -89,7 +89,7 @@ This method returns one of the following values.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

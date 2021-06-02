@@ -1,5 +1,5 @@
 ---
-Description: Specifies the quality at which minimum coded bandwidth is allowed.
+description: Specifies the quality at which minimum coded bandwidth is allowed.
 ms.assetid: 2f0f43a9-2424-4b73-a9aa-a06474676fb4
 title: MFPKEY_DYN_BANDTRUNC_QCEIL Property (Wmcodecdsp.h)
 ms.topic: reference
@@ -22,7 +22,7 @@ Available only by using [**IPropertyStore**](/windows/win32/api/propsys/nn-props
 
 
 
-|                   |                                                                                         |
+| Requirement | Value |
 |-------------------|-----------------------------------------------------------------------------------------|
 | Client<br/> | Windows Vista or Windows 7<br/>                                                   |
 | Header<br/> | <dl> <dt>Wmcodecdsp.h</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Describes the raster status.
+description: Describes the raster status.
 ms.assetid: f7b5b714-8fc8-47b8-adec-1089b8d07081
 title: D3DRASTER_STATUS structure (D3D9Types.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ If InVBlank is **TRUE**, then this value is set to zero and can be ignored.
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

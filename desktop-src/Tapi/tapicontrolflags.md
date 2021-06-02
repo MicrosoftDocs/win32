@@ -1,5 +1,5 @@
 ---
-Description: The TAPIControlFlags enum is used by a number of methods to indicate whether a given property is controlled automatically or manually.
+description: The TAPIControlFlags enum is used by a number of methods to indicate whether a given property is controlled automatically or manually.
 ms.assetid: 48259444-bf7b-4f0e-9068-2bdf89dde694
 title: TAPIControlFlags enumeration (Ipmsp.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ The property is controlled manually.
 
 
 
-|                         |                                                                                    |
+| Requirement | Value |
 |-------------------------|------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                       |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl> |

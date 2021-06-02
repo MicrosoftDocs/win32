@@ -1,5 +1,5 @@
 ---
-Description: Stop time on the current sample.
+description: Stop time on the current sample.
 ms.assetid: 78045c9f-76bd-42a8-b40a-6b18ac93c9b2
 title: CBaseRenderer::m_SignalTime member (Renbase.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ REFERENCE_TIME m_SignalTime;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

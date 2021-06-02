@@ -1,5 +1,5 @@
 ---
-Description: Builds a right-handed, look-at matrix.
+description: D3DXMatrixLookAtRH function (D3DX10Math.h) - Builds a right-handed, look-at matrix.
 ms.assetid: 98c8932f-f179-42ed-a361-a89065b71876
 title: D3DXMatrixLookAtRH function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixLookAtRH function
+# D3DXMatrixLookAtRH function (D3DX10Math.h)
 
 Builds a right-handed, look-at matrix.
 
@@ -104,7 +104,7 @@ dot(xaxis, eye)  -dot(yaxis, eye)  -dot(zaxis, eye)  1
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

@@ -1,5 +1,5 @@
 ---
-Description: The LogError method logs an error. Applications do not need to call this method. It is called internally in response to rendering errors.
+description: The LogError method logs an error. Applications do not need to call this method. It is called internally in response to rendering errors.
 ms.assetid: 08765c8a-21ca-4c40-84a8-d13da87d9c5f
 title: IAMErrorLog::LogError method (Qedit.h)
 ms.topic: reference
@@ -105,7 +105,7 @@ For a list of errors defined by DES, along with the meaning and data type of the
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

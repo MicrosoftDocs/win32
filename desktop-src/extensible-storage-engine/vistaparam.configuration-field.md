@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaParam.Configuration field"
 title: VistaParam.Configuration field (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: Configuration field
 ms:assetid: F:Microsoft.Isam.Esent.Interop.Vista.VistaParam.Configuration
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 This parameter exposes multiple sets of default values for the entire set of system parameters. When this parameter is set to a specific configuration, all system parameter values are reset to their default values for that configuration. If the configuration is set for a specific instance then global system parameters will not be reset to their default values. Small Configuration (0): The database engine is optimized for memory use. Legacy Configuration (1): The database engine has its traditional defaults.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -52,9 +53,8 @@ public const JET_param Configuration
 
 #### Reference
 
-[VistaParam class](dn335284\(v=exchg.10\).md)
+[VistaParam class](./vistaparam-class.md)
 
-[VistaParam members](dn335372\(v=exchg.10\).md)
+[VistaParam members](./vistaparam-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

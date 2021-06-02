@@ -1,5 +1,5 @@
 ---
-Description: Indicates that an Intelligent Platform Management Interface (IPMI) system event has occurred. The error is written to the SMBIOS System Event Log (SEL). This class is available only in 64-bit Windows systems.
+description: Indicates that an Intelligent Platform Management Interface (IPMI) system event has occurred. The error is written to the SMBIOS System Event Log (SEL). This class is available only in 64-bit Windows systems.
 ms.assetid: 1964f850-ac55-4639-9205-2eb0996dbaae
 title: MSMCAEvent_SystemEventError class
 ms.topic: reference
@@ -419,7 +419,7 @@ The **MSMCAEvent\_SystemEventError** class is derived from [**WMIEvent**](wmieve
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP<br/>                                                                  |
 | Minimum supported server<br/> | Windows Server 2003<br/>                                                         |

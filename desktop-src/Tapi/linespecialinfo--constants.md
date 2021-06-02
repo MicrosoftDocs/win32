@@ -1,5 +1,5 @@
 ---
-Description: The LINESPECIALINFO\_ bit-flag constants describes special information signals that the network can use to report various reporting and network observation operations.
+description: The LINESPECIALINFO\_ bit-flag constants describes special information signals that the network can use to report various reporting and network observation operations.
 ms.assetid: b94f8a6f-b84d-4976-b4d4-10dee5a1a4d8
 title: LINESPECIALINFO_ Constants (Tapi.h)
 ms.topic: reference
@@ -72,7 +72,7 @@ Special information tones are defined for advisory messages and are not normally
 
 
 
-|                         |                                                                                   |
+| Requirement | Value |
 |-------------------------|-----------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 2.0 or later<br/>                                             |
 | Header<br/>       | <dl> <dt>Tapi.h</dt> </dl> |

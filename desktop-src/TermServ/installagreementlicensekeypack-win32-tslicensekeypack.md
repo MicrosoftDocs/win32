@@ -37,137 +37,55 @@ uint32 InstallAgreementLicenseKeyPack(
 );
 ```
 
-
-
 ## Parameters
 
-<dl> <dt>
-
 *AgreementType* \[in\]
-</dt> <dd>
 
 Agreement type.
 
-<dt>
-
-0
-</dt> <dd>
-
-The license key pack is from a Select volume license agreement (for customers with 250 or more computers). The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-The license key pack is from an Enterprise volume license agreement for customers with 250 or more computers. The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-The license key pack is from a Campus volume license agreement for a higher education institution. The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.
-
-</dd> <dt>
-
-3
-</dt> <dd>
-
-The license key pack is from a School volume license agreement for primary and secondary institutions. The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.
-
-</dd> <dt>
-
-4
-</dt> <dd>
-
-The license key pack is from a Service Provider license agreement for service providers to license Microsoft software on a monthly basis. The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form.
-
-</dd> <dt>
-
-5
-</dt> <dd>
-
-The license key pack is from another license agreement, such as Open Value, Multi-Year Open License, and Open Subscription License. The *sAgreementNumber* parameter is the agreement number provided with your program information.
-
-</dd> </dl> </dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | The license key pack is from a Select volume license agreement (for customers with 250 or more computers). The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form. |
+| 1 | The license key pack is from an Enterprise volume license agreement for customers with 250 or more computers. The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form. |
+| 2 | The license key pack is from a Campus volume license agreement for a higher education institution. The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form. |
+| 3 | The license key pack is from a School volume license agreement for primary and secondary institutions. The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form. |
+| 4 | The license key pack is from a Service Provider license agreement for service providers to license Microsoft software on a monthly basis. The *sAgreementNumber* parameter is the enrollment number (seven numeric digits) found on the signed agreement form. |
+| 5 | The license key pack is from another license agreement, such as Open Value, Multi-Year Open License, and Open Subscription License. The *sAgreementNumber* parameter is the agreement number provided with your program information. |
 
 *sAgreementNumber* \[in\]
-</dt> <dd>
 
 Agreement number or enrollment number. The *sAgreementNumber* parameter is a seven digit numeric string without hyphens.
 
-</dd> <dt>
-
 *ProductVersion* \[in\]
-</dt> <dd>
 
 Product version.
 
-<dt>
-
-0
-</dt> <dd>
-
-Not supported.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-Not supported.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-Windows Server 2008
-
-</dd> </dl> </dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | Not supported |
+| 1 | Not supported |
+| 2 | Windows Server 2008/Windows Server 2008 R2 |
+| 4 | Windows Server 2012/Windows Server 2012 R2 |
+| 5 | Windows Server 2016 |
+| 6 | Windows Server 2019 |
 
 *ProductType* \[in\]
-</dt> <dd>
 
 Product type.
 
-<dt>
-
-0
-</dt> <dd>
-
-The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license.
-
-</dd> <dt>
-
-1
-</dt> <dd>
-
-The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license.
-
-</dd> <dt>
-
-2
-</dt> <dd>
-
-This product type is not valid.
-
-</dd> </dl> </dd> <dt>
+| Value | Description |
+|-------|-------------|
+| 0 | The Remote Desktop Services license key pack product type is per device. Therefore, each device that connects to the RD Session Host server must have a license. |
+| 1 | The Remote Desktop Services license key pack product type is per user. Therefore, each user who connects to the RD Session Host server must have a license. |
+| 2 | This product type is not valid. |
 
 *LicenseCount* \[in\]
-</dt> <dd>
 
 Number of licenses to install.
 
-</dd> <dt>
-
 *KeyPackId* \[out\]
-</dt> <dd>
 
 Receives the key pack identifier.
-
-</dd> </dl>
 
 ## Return value
 
@@ -181,17 +99,13 @@ Managed Object Format (MOF) files contain the definitions for Windows Management
 
 ## Requirements
 
-
-
-|                                     |                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | None supported<br/>                                                                 |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                            |
 | Namespace<br/>                | Root\\CIMv2<br/>                                                                    |
 | MOF<br/>                      | <dl> <dt>TlsWmiProv.mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TlsWmiProv.dll</dt> </dl> |
-
-
 
 ## See also
 

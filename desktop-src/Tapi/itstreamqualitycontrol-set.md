@@ -1,5 +1,5 @@
 ---
-Description: The Set method sets the value of a given stream quality property.
+description: The Set method sets the value of a given stream quality property.
 ms.assetid: 57029d1c-ac63-45c0-9d07-43c7b46a27b1
 title: ITStreamQualityControl::Set method (Ipmsp.h)
 ms.topic: reference
@@ -69,7 +69,7 @@ This method can return one of these values.
 
 
 
-|                         |                                                                                      |
+| Requirement | Value |
 |-------------------------|--------------------------------------------------------------------------------------|
 | TAPI version<br/> | Requires TAPI 3.1<br/>                                                         |
 | Header<br/>       | <dl> <dt>Ipmsp.h</dt> </dl>   |

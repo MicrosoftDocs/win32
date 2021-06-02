@@ -1,5 +1,5 @@
 ---
-Description: The IsActive method determines whether the filter is currently active (running or paused).
+description: The IsActive method determines whether the filter is currently active (running or paused).
 ms.assetid: 3bbb50d5-6a07-4932-940c-4466b95e6412
 title: CBaseFilter.IsActive method (Amfilter.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the filter is paused or running, or **FALSE** if it is stopp
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Raised by the sequencer source when the IMFSequencerSource::UpdateTopology method completes asynchronously.
+description: Raised by the sequencer source when the IMFSequencerSource::UpdateTopology method completes asynchronously.
 ms.assetid: f573cbd0-689c-4bfe-846b-6fc8008101c8
 title: MESequencerSourceTopologyUpdated event (Mfobjects.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ This event signals that the sequencer source has updated the topology, but does 
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

@@ -1,5 +1,5 @@
 ---
-Description: Opens the specified registry key in an offline registry hive.
+description: Opens the specified registry key in an offline registry hive.
 ms.assetid: 4a4afbef-5107-4006-bd67-aecb5d3b5112
 title: OROpenKey function (Offreg.h)
 ms.topic: reference
@@ -81,7 +81,7 @@ The **OROpenKey** function cannot be used to open the root key in an offline reg
 
 
 
-|                            |                                                                                       |
+| Requirement | Value |
 |----------------------------|---------------------------------------------------------------------------------------|
 | Redistributable<br/> | Windows Offline Registry library version 1.0 or later<br/>                      |
 | Header<br/>          | <dl> <dt>Offreg.h</dt> </dl>   |

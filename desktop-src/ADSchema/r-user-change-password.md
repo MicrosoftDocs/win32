@@ -21,7 +21,7 @@ Permits changing password on user account.
 
 
 
-|              |                                      |
+| Entry | Value |
 |--------------|--------------------------------------|
 | CN           | User-Change-Password                 |
 | Display-Name | Change Password                      |
@@ -43,7 +43,7 @@ Permits changing password on user account.
 
 
 
-|                         |                                                                             |
+| Entry | Value |
 |-------------------------|-----------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> |
 | Localization-Display-ID | 2                                                                           |
@@ -54,7 +54,7 @@ Permits changing password on user account.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 2                                                                                                                               |
@@ -65,7 +65,7 @@ Permits changing password on user account.
 
 
 
-|                         |     |
+| Entry | Value |
 |-------------------------|-----|
 | Applies-To              | \-  |
 | Localization-Display-ID | 2   |
@@ -76,7 +76,7 @@ Permits changing password on user account.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 2                                                                                                                               |
@@ -87,7 +87,7 @@ Permits changing password on user account.
 
 
 
-|                         |                                                                                                                                 |
+| Entry | Value |
 |-------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 2                                                                                                                               |
@@ -98,7 +98,7 @@ Permits changing password on user account.
 
 
 
-|                         |                                                                                                                                                                                                                  |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 2                                                                                                                                                                                                                |
@@ -109,7 +109,7 @@ Permits changing password on user account.
 
 
 
-|                         |                                                                                                                                                                                                                  |
+| Entry | Value |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Applies-To              | [**User**](c-user.md)<br/> [**Computer**](c-computer.md)<br/> [**ms-DS-Managed-Service-Account**](c-msds-managedserviceaccount.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | Localization-Display-ID | 2                                                                                                                                                                                                                |

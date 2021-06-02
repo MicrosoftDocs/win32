@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBINFOMISC.Equals method (JET_DBINFOMISC)"
 title: JET_DBINFOMISC.Equals method (JET_DBINFOMISC)
 TOCTitle: Equals method (JET_DBINFOMISC)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_DBINFOMISC.Equals(Microsoft.Isam.Esent.Interop.JET_DBINFOMISC)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Indicates whether the current object is equal to another object of the same type.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,7 +54,7 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DBINFOMISC](hh538867\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBINFOMISC](./jet-dbinfomisc-class.md)  
     
     An object to compare with this object.
 
@@ -70,10 +71,10 @@ True if the current object is equal to the other parameter; otherwise, false.
 
 #### Reference
 
-[JET_DBINFOMISC class](hh538867\(v=exchg.10\).md)
+[JET_DBINFOMISC class](./jet-dbinfomisc-class.md)
 
-[JET_DBINFOMISC members](hh566148\(v=exchg.10\).md)
+[JET_DBINFOMISC members](./jet-dbinfomisc-members.md)
 
-[Equals overload](hh577631\(v=exchg.10\).md)
+[Equals overload](./jet-dbinfomisc.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

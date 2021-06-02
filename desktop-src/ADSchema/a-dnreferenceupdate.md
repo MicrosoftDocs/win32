@@ -22,7 +22,7 @@ If an object is renamed, this attribute is used to track all of the previous and
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | DN-Reference-Update                     |
 | Ldap-Display-Name | dNReferenceUpdate                       |
@@ -48,7 +48,7 @@ If an object is renamed, this attribute is used to track all of the previous and
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -69,7 +69,7 @@ If an object is renamed, this attribute is used to track all of the previous and
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -90,7 +90,7 @@ If an object is renamed, this attribute is used to track all of the previous and
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -111,7 +111,7 @@ If an object is renamed, this attribute is used to track all of the previous and
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -132,7 +132,7 @@ If an object is renamed, this attribute is used to track all of the previous and
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -153,7 +153,7 @@ If an object is renamed, this attribute is used to track all of the previous and
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

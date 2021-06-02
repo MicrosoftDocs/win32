@@ -1,5 +1,5 @@
 ---
-Description: Are some useful graphing references.
+description: Are some useful graphing references.
 ms.assetid: 2d72b1bc-4687-4672-9644-85ad9b197a72
 title: Graphing Reference Links
 ms.topic: article

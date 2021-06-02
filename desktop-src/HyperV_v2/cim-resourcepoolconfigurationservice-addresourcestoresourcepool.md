@@ -1,5 +1,5 @@
 ---
-Description: Starts a job to add resources to a resource pool.
+description: Starts a job to add resources to a resource pool.
 ms.assetid: b163619a-19bd-43d7-ba35-ec4bd8192100
 title: AddResourcesToResourcePool method of the CIM_ResourcePoolConfigurationService class
 ms.topic: reference
@@ -106,7 +106,7 @@ Returns a 0 on success; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

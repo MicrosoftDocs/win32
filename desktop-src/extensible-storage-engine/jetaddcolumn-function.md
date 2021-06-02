@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetAddColumn Function"
 title: JetAddColumn Function
 TOCTitle: JetAddColumn Function
 ms:assetid: e146f784-2cbd-42c0-bf64-b37dc6f9ee43
@@ -67,13 +68,13 @@ The name of the column to add. The name must meet the following criteria:
 
 *pcolumndef*
 
-A pointer to a [JET_COLUMNDEF](gg294130\(v=exchg.10\).md) structure, which defines the data that can be stored in a column.
+A pointer to a [JET_COLUMNDEF](./jet-columndef-structure.md) structure, which defines the data that can be stored in a column.
 
 *pvDefault*
 
 A pointer to a buffer that contains the default value for the column. The length of the buffer is **cbDefault**. If there is no default, set **pvDefault** to **NULL** and **cbDefault** to zero. Default values cannot be larger than JET_cbColumnMost bytes for fixed columns or JET_cbLVDefaultValueMost bytes for long values. If a default value is larger than that, it will be silently truncated.
 
-If *grbit* has JET_bitColumnUserDefinedDefault set, **pvDefault** will be interpreted as a pointer to a [JET_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md) structure.
+If *grbit* has JET_bitColumnUserDefinedDefault set, **pvDefault** will be interpreted as a pointer to a [JET_USERDEFINEDDEFAULT](./jet-userdefineddefault-structure.md) structure.
 
 *cbDefault*
 
@@ -81,11 +82,11 @@ The size, in bytes, of the buffer that is specified in **pvDefault**.
 
 *pcolumnid*
 
-A pointer to a [JET_COLUMNID](gg294104\(v=exchg.10\).md) structure, which, on success, will receive the identifier of the newly created column. On failure, the value is undefined.
+A pointer to a [JET_COLUMNID](./jet-columnid.md) structure, which, on success, will receive the identifier of the newly created column. On failure, the value is undefined.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -255,14 +256,13 @@ This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one
 
 #### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex2](gg294057\(v=exchg.10\).md)
-
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_COLUMNCREATE](./jet-columncreate-structure.md)  
+[JET_COLUMNDEF](./jet-columndef-structure.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetCreateTableColumnIndex2](./jetcreatetablecolumnindex2-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value of the path length constraint.
+description: Retrieves the value of the path length constraint.
 ms.assetid: 77a12fdf-e9ed-4c79-aa2c-bd476ab3ff90
 title: BasicConstraints.PathLenConstraint property
 ms.topic: reference
@@ -38,7 +38,7 @@ Value of the path length constraint.
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

@@ -1,5 +1,5 @@
 ---
-Description: Creates an instance of the BoundingSphere class.
+description: Creates an instance of the BoundingSphere class.
 ms.assetid: c733c15d-034f-4c95-bd10-f5757fc4e813
 title: DirectX.BoundingSphere constructors
 ms.topic: reference

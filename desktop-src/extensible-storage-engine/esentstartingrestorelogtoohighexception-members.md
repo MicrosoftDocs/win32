@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentStartingRestoreLogTooHighException members"
 title: EsentStartingRestoreLogTooHighException members
 TOCTitle: EsentStartingRestoreLogTooHighException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.StartingRestoreLogTooHigh exceptions.
 
-The [EsentStartingRestoreLogTooHighException](dn334858\(v=exchg.10\).md) type exposes the following members.
+The [EsentStartingRestoreLogTooHighException](./esentstartingrestorelogtoohighexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentStartingRestoreLogTooHighException class](dn334858\(v=exchg.10\).md)
+[EsentStartingRestoreLogTooHighException class](./esentstartingrestorelogtoohighexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

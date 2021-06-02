@@ -1,5 +1,5 @@
 ---
-Description: Specifies the audio production information flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
+description: Specifies the audio production information flag in a Dolby Digital audio stream. This property applies to Dolby Digital audio encoders.
 ms.assetid: 72f5f988-37c3-40d4-9c1c-07086e60ea51
 title: AVEncDDProductionInfoExists property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ If the value is **VARIANT\_TRUE**, the mixing level and room type settings are v
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

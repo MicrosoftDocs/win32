@@ -1,5 +1,5 @@
 ---
-Description: Windows GDI+ is the portion of the Windows XP operating system or Windows Server 2003 operating system that provides two-dimensional vector graphics, imaging, and typography.
+description: Windows GDI+ is the portion of the Windows XP operating system or Windows Server 2003 operating system that provides two-dimensional vector graphics, imaging, and typography.
 ms.assetid: edb9c9da-fe49-4cdd-9a4d-c307894446da
 title: About GDI+
 ms.topic: article

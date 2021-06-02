@@ -1,5 +1,5 @@
 ---
-Description: Adding Region-Change Support to an Application
+description: Adding Region-Change Support to an Application
 ms.assetid: 4a5c049d-b59f-4130-9252-bc28662a7931
 title: Adding Region-Change Support to an Application
 ms.topic: article

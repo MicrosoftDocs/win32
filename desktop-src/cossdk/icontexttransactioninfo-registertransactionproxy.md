@@ -1,5 +1,5 @@
 ---
-Description: Associates an ITransactionProxy implementation with the current context.
+description: Associates an ITransactionProxy implementation with the current context.
 ms.assetid: 64009632-b536-41fb-95ac-b23e2cbf18da
 title: IContextTransactionInfo::RegisterTransactionProxy method
 ms.topic: reference
@@ -72,7 +72,7 @@ The **RegisterTransactionProxy** method can only be called if the current contex
 
 
 
-|                                     |                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 with SP1 \[desktop apps only\]<br/> |

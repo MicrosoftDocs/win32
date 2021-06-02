@@ -1,5 +1,5 @@
 ---
-Description: The GetRenderEvent method retrieves the event that schedules rendering.
+description: The GetRenderEvent method retrieves the event that schedules rendering.
 ms.assetid: da0272f6-6a1d-4c07-a907-822227b56305
 title: CBaseRenderer.GetRenderEvent method (Renbase.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns a pointer to the [**CBaseRenderer::m\_RenderEvent**](cbaserenderer-m-ren
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Renbase.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

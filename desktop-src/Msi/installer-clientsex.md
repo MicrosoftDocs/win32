@@ -1,5 +1,5 @@
 ---
-Description: Returns a RecordList object that lists products that use a specified installed component.
+description: Returns a RecordList object that lists products that use a specified installed component.
 ms.assetid: c9756526-68d7-4d04-97e2-56a5eaf816be
 title: Installer.ClientsEx property
 ms.topic: reference
@@ -38,7 +38,7 @@ propVal = Installer.ClientsEx
 
 
 
-|                    |                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                      |

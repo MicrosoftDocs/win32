@@ -1,5 +1,5 @@
 ---
-Description: Cleans a mesh, preparing it for simplification.
+description: Cleans a mesh, preparing it for simplification.
 ms.assetid: 2b586ecc-db87-4b20-a4fc-c8b547bebf65
 title: D3DXCleanMesh function (D3DX9Mesh.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ This function cleans a mesh using the cleaning method and options specified in t
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

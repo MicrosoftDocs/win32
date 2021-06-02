@@ -1,5 +1,5 @@
 ---
-Description: COM+ CRM Security Considerations
+description: COM+ CRM Security Considerations
 ms.assetid: e212c847-b43b-43be-b089-82336551b89a
 title: COM+ CRM Security Considerations
 ms.topic: article

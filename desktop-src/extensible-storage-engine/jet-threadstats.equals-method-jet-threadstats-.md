@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_THREADSTATS.Equals method (JET_THREADSTATS)"
 title: JET_THREADSTATS.Equals method (JET_THREADSTATS) (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: Equals method (JET_THREADSTATS)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS.Equals(Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,7 +54,7 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](hh578565\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.Vista.JET_THREADSTATS](./jet-threadstats-structure2.md)  
     
     An instance to compare with this instance.
 
@@ -70,10 +71,10 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_THREADSTATS structure](hh578565\(v=exchg.10\).md)
+[JET_THREADSTATS structure](./jet-threadstats-structure2.md)
 
-[JET_THREADSTATS members](hh579250\(v=exchg.10\).md)
+[JET_THREADSTATS members](./jet-threadstats-members.md)
 
-[Equals overload](hh566145\(v=exchg.10\).md)
+[Equals overload](./jet-threadstats.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

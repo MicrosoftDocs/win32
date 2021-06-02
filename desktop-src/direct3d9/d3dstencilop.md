@@ -1,5 +1,5 @@
 ---
-Description: Defines stencil-buffer operations.
+description: Defines stencil-buffer operations.
 ms.assetid: 338a3b7f-236a-484f-96b8-1e6bfb014484
 title: D3DSTENCILOP enumeration (D3D9Types.h)
 ms.topic: reference
@@ -113,7 +113,7 @@ Stencil-buffer entries are integer values ranging from 0 through 2ⁿ - 1, where
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

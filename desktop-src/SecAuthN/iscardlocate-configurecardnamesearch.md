@@ -1,5 +1,5 @@
 ---
-Description: The ConfigureCardNameSearch method specifies the card names to be used in the search for the smart card.
+description: The ConfigureCardNameSearch method specifies the card names to be used in the search for the smart card.
 ms.assetid: fb406696-0cf0-4d67-8125-8888ee1b8213
 title: ISCardLocate::ConfigureCardNameSearch method (Scardmgr.h)
 ms.topic: reference
@@ -108,7 +108,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

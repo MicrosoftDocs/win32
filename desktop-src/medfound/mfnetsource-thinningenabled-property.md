@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether stream switching is enabled on the network source.
+description: Specifies whether stream switching is enabled on the network source.
 ms.assetid: 691a3549-eaf8-4e3d-ad0e-e5b013658f78
 title: MFNETSOURCE_THINNINGENABLED property (Mfidl.h)
 ms.topic: reference
@@ -38,7 +38,7 @@ The default value of this property is **TRUE**.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

@@ -1,5 +1,5 @@
 ---
-Description: The ViewDialog method of the UIPreview object displays an authored user interface dialog box stored in the current database.
+description: The ViewDialog method of the UIPreview object displays an authored user interface dialog box stored in the current database.
 ms.assetid: 5bc935ac-38ca-4a51-a1dc-6879dee97b05
 title: UIPreview.ViewDialog method
 ms.topic: reference
@@ -49,7 +49,7 @@ This method does not return a value.
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

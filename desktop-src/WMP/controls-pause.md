@@ -1,6 +1,6 @@
 ---
 title: Controls.pause method
-description: The pause method pauses playback of the media item.
+description: The pause method pauses playback of the media item. | Controls.pause method
 ms.assetid: 7307a3b2-e5d6-4067-bdb5-38011565142a
 keywords:
 - pause method Windows Media Player
@@ -68,7 +68,7 @@ The following example creates an HTML BUTTON element that uses **pause** to paus
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later.<br/>                              |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

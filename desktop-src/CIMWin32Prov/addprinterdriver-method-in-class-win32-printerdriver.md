@@ -1,5 +1,5 @@
 ---
-Description: Creates a new printer driver.
+description: Creates a new printer driver.
 ms.assetid: 23d9ec50-235a-4bf8-ab6b-be3509c3869f
 ms.tgt_platform: multiple
 title: AddPrinterDriver method of the Win32_PrinterDriver class
@@ -113,7 +113,7 @@ intResult = objDriver.AddPrinterDriver(objDriver)
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

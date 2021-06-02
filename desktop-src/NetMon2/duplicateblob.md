@@ -1,5 +1,5 @@
 ---
-Description: The DuplicateBlob function copies a specific BLOB.
+description: The DuplicateBlob function copies a specific BLOB.
 ms.assetid: d2478f53-328c-4799-890c-7849ce1f22e9
 title: DuplicateBlob function (Netmon.h)
 ms.topic: reference
@@ -59,7 +59,7 @@ If the function is unsuccessful, the return value is a NMERR value that describe
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

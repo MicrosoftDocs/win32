@@ -21,7 +21,7 @@ Extended control access right that allows users to enable or disable the "revers
 
 
 
-|              |                                               |
+| Entry | Value |
 |--------------|-----------------------------------------------|
 | CN           | Enable-Per-User-Reversibly-Encrypted-Password |
 | Display-Name | Enable Per User Reversibly Encrypted Password |
@@ -41,7 +41,7 @@ Extended control access right that allows users to enable or disable the "revers
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 70                                           |
@@ -52,7 +52,7 @@ Extended control access right that allows users to enable or disable the "revers
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 70                                           |
@@ -63,7 +63,7 @@ Extended control access right that allows users to enable or disable the "revers
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 70                                           |
@@ -74,7 +74,7 @@ Extended control access right that allows users to enable or disable the "revers
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 70                                           |
@@ -85,7 +85,7 @@ Extended control access right that allows users to enable or disable the "revers
 
 
 
-|                         |                                              |
+| Entry | Value |
 |-------------------------|----------------------------------------------|
 | Applies-To              | [**Domain-DNS**](c-domaindns.md)<br/> |
 | Localization-Display-ID | 70                                           |

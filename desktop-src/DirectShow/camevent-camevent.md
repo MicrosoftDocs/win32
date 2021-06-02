@@ -1,5 +1,5 @@
 ---
-Description: Constructor method.
+description: CAMEvent.CAMEvent constructor - Constructor method.
 ms.assetid: 35c9ac07-8756-42b1-beeb-5f0e79466742
 title: CAMEvent.CAMEvent constructor (Wxutil.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ With an auto-reset event, the [**CAMEvent::Wait**](camevent-wait.md) method rese
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxutil.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

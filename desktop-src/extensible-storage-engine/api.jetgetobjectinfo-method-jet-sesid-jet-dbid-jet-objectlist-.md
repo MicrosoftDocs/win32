@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Api.JetGetObjectInfo method (JET_SESID, JET_DBID, JET_OBJECTLIST)"
 title: Api.JetGetObjectInfo method (JET_SESID, JET_DBID, JET_OBJECTLIST)
 TOCTitle: JetGetObjectInfo method (JET_SESID, JET_DBID, JET_OBJECTLIST)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Api.JetGetObjectInfo(Microsoft.Isam.Esent.Interop.JET_SESID,Microsoft.Isam.Esent.Interop.JET_DBID,Microsoft.Isam.Esent.Interop.JET_OBJECTLIST@)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Retrieves information about database objects.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -56,21 +57,21 @@ public static void JetGetObjectInfo(
 #### Parameters
 
   - sesid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](hh596745\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_SESID](./jet-sesid-structure.md)  
     
     The session to use.
 
 <!-- end list -->
 
   - dbid  
-    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](hh596176\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_DBID](./jet-dbid-structure.md)  
     
     The database to use.
 
 <!-- end list -->
 
   - objectlist  
-    Type: [Microsoft.Isam.Esent.Interop.JET_OBJECTLIST](dn335206\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_OBJECTLIST](./jet-objectlist-class.md)  
     
     Filled in with information about the objects in the database.
 
@@ -78,11 +79,10 @@ public static void JetGetObjectInfo(
 
 #### Reference
 
-[Api class](dn292211\(v=exchg.10\).md)
+[Api class](./api-class.md)
 
-[Api members](dn292213\(v=exchg.10\).md)
+[Api members](./api-members.md)
 
-[JetGetObjectInfo overload](dn292176\(v=exchg.10\).md)
+[JetGetObjectInfo overload](./api.jetgetobjectinfo-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Rotates (relative to world coordinate space) around an arbitrary axis.
+description: ID3DXMATRIXStack::RotateAxis method (D3DX10.h) - Rotates (relative to world coordinate space) around an arbitrary axis.
 ms.assetid: 7c842bf6-2d13-422e-8136-0506a76ce9fe
 title: ID3DXMATRIXStack::RotateAxis method (D3DX10.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# ID3DXMATRIXStack::RotateAxis method
+# ID3DXMATRIXStack::RotateAxis method (D3DX10.h)
 
 Rotates (relative to world coordinate space) around an arbitrary axis.
 
@@ -79,7 +79,7 @@ Because the rotation is right-multiplied to the matrix stack, the rotation is re
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl> |

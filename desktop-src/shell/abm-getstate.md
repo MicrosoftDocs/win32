@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the autohide and always-on-top states of the Windows taskbar.
+description: Retrieves the autohide and always-on-top states of the Windows taskbar.
 title: ABM_GETSTATE message (Shellapi.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -80,7 +80,7 @@ As of Windows 7, ABS_ALWAYSONTOP is no longer returned because the taskbar is al
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

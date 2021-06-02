@@ -1,5 +1,5 @@
 ---
-Description: Sent by an audio capture source when the device is removed.
+description: Sent by an audio capture source when the device is removed.
 ms.assetid: A249D8B4-15A8-4AD3-8316-2886E5C37825
 title: MECaptureAudioSessionDeviceRemoved event (Mfobjects.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The capture source sends this event when it receives an [**IAudioSessionEvents::
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                               |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                     |

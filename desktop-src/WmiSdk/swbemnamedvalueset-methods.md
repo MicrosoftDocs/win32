@@ -1,5 +1,5 @@
 ---
-Description: The SWbemNamedValueSet object exposes the following methods.
+description: The SWbemNamedValueSet object exposes the following methods.
 ms.assetid: 58FD2D10-7134-4B8C-8034-2331F58D297F
 ms.tgt_platform: multiple
 title: SWbemNamedValueSet Methods

@@ -57,7 +57,7 @@ If *SubobjectType* corresponds to a subobject data type that is derived from ano
 
 
 
-|                    |                                                                                      |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx12.h</dt> </dl>  |
 | Library<br/> | <dl> <dt>D3D12.lib</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: Simulates a key release.
+description: Simulates a key release.
 ms.assetid: EAE84BD5-ECEA-44E7-A7AB-CD18299DF2FE
 title: ReleaseKey method of the Msvm_Keyboard class
 ms.topic: reference
@@ -100,7 +100,7 @@ Access to the [**Msvm\_Keyboard**](msvm-keyboard.md) class might be restricted b
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

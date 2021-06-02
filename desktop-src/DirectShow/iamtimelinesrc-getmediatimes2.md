@@ -1,5 +1,5 @@
 ---
-Description: The GetMediaTimes2 method retrieves the media start and stop times. This method is equivalent to IAMTimelineSrc::GetMediaTimes, but takes REFTIME values.
+description: The GetMediaTimes2 method retrieves the media start and stop times. This method is equivalent to IAMTimelineSrc::GetMediaTimes, but takes REFTIME values.
 ms.assetid: c3961c2c-7198-44bd-8734-7301a7c5b21e
 title: IAMTimelineSrc::GetMediaTimes2 method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

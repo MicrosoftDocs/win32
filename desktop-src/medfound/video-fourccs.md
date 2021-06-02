@@ -1,5 +1,5 @@
 ---
-Description: Video FOURCCs
+description: Video FOURCCs
 ms.assetid: bea4835d-fd7f-4ac3-8466-7f4e0d799a12
 title: Video FOURCCs
 ms.topic: article

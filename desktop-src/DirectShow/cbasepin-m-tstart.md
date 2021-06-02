@@ -1,5 +1,5 @@
 ---
-Description: Segment start time.
+description: Segment start time.
 ms.assetid: f1d094ff-15e0-4bd1-a939-4e3f65155037
 title: CBasePin::m_tStart member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ CRefTime m_tStart;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

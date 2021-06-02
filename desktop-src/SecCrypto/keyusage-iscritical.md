@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a Boolean value that indicates whether the KeyUsage extension is marked critical.
+description: Retrieves a Boolean value that indicates whether the KeyUsage extension is marked critical.
 ms.assetid: 'f7d53570-2b89-40a9-ab56-fcae4e4cb70c'
 title: KeyUsage.IsCritical property
 ms.topic: reference
@@ -38,7 +38,7 @@ If **true**, the KeyUsage extension is marked critical.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

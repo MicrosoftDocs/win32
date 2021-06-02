@@ -22,7 +22,7 @@ Used by the Group Policy Object for user policies.
 
 
 
-|                   |                                                                                 |
+| Entry | Value |
 |-------------------|---------------------------------------------------------------------------------|
 | CN                | GPC-User-Extension-Names                                                        |
 | Ldap-Display-Name | gPCUserExtensionNames                                                           |
@@ -48,7 +48,7 @@ Used by the Group Policy Object for user policies.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -69,7 +69,7 @@ Used by the Group Policy Object for user policies.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -90,7 +90,7 @@ Used by the Group Policy Object for user policies.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -111,7 +111,7 @@ Used by the Group Policy Object for user policies.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -132,7 +132,7 @@ Used by the Group Policy Object for user policies.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -153,7 +153,7 @@ Used by the Group Policy Object for user policies.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

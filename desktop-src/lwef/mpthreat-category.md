@@ -129,7 +129,7 @@ Threat category | Description
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Minimum supported client | Windows 8 (desktop apps only) |
 | Minimum supported server | Windows Server 2012 (desktop apps only) |

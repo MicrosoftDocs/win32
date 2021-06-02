@@ -1,5 +1,5 @@
 ---
-Description: The Invoke method provides access to methods and properties exposed by an object.
+description: The Invoke method provides access to methods and properties exposed by an object.
 ms.assetid: d9539b89-b7c2-4b4d-b6d6-6275cc6d7e7c
 title: CDeferredCommand.Invoke method (Ctlutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns VFW\_E\_ALREADY\_CANCELLED if **m\_pQueue** is **NULL**. Otherwise, retu
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

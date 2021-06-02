@@ -1,5 +1,5 @@
 ---
-Description: Limits the internal resources that are used by operations initiated by WMI clients.
+description: Limits the internal resources that are used by operations initiated by WMI clients.
 ms.assetid: e877899d-2f5e-4468-8c47-055fd4d16f56
 ms.tgt_platform: multiple
 title: '__ArbitratorConfiguration class'
@@ -366,7 +366,7 @@ Unused. Maximum number of connected users.
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

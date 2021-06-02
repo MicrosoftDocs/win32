@@ -1,5 +1,5 @@
 ---
-Description: Sets the control sample times.
+description: Sets the control sample times.
 ms.assetid: 17ffa106-8b6b-4077-895c-03400505c2a0
 title: ControlSampleTimes method of the Msvm_MetricService class
 ms.topic: reference
@@ -88,7 +88,7 @@ This method returns one of the following values:
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

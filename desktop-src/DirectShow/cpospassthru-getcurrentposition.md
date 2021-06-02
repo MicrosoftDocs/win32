@@ -1,5 +1,5 @@
 ---
-Description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. This method implements the IMediaSeeking::GetCurrentPosition method.
+description: The GetCurrentPosition method retrieves the current position, relative to the total duration of the stream. This method implements the IMediaSeeking::GetCurrentPosition method.
 ms.assetid: 07020182-2199-4153-9bab-f30d112bc09f
 title: CPosPassThru.GetCurrentPosition method (Ctlutil.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ The **GetMediaTime** method fails by default in the base class. If your filter c
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

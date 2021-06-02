@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Tabs
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Tabs provide a way to present related information on separate labeled pages.
 
@@ -189,6 +189,4 @@ When referring to tabs:
 -   Because multiple uses can be ambiguous, especially for a worldwide audience, use the noun tab alone to refer only to a tab control. For other uses, clarify the meaning with a descriptor: the Tab key, a tab stop, or a tab mark on the ruler.
 
 Example: On the **Tools** menu, click **Options**, and then click the **View** tab.
-
- 
 

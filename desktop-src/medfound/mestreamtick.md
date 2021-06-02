@@ -1,5 +1,5 @@
 ---
-Description: Signals that a media stream does not have data available at a specified time.
+description: Signals that a media stream does not have data available at a specified time.
 ms.assetid: 1a00fff1-c3ab-4965-a663-3c15bb48ea98
 title: MEStreamTick event (Mfobjects.h)
 ms.topic: reference
@@ -50,7 +50,7 @@ Do not set the [**MFSampleExtension\_Discontinuity**](mfsampleextension-disconti
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                     |

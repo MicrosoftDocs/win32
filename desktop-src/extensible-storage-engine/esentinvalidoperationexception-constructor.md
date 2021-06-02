@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidOperationException constructor"
 title: EsentInvalidOperationException constructor 
 TOCTitle: 'EsentInvalidOperationException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentInvalidOperationException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentInvalidOperationException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentInvalidOperationException()
 
 #### Reference
 
-[EsentInvalidOperationException class](dn319571\(v=exchg.10\).md)
+[EsentInvalidOperationException class](./esentinvalidoperationexception-class.md)
 
-[EsentInvalidOperationException members](dn319599\(v=exchg.10\).md)
+[EsentInvalidOperationException members](./esentinvalidoperationexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

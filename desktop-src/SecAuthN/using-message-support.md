@@ -1,5 +1,5 @@
 ---
-Description: Explains how to use SSPI message support.
+description: Explains how to use SSPI message support.
 ms.assetid: 14d4813e-413e-4ef9-85f0-96986c3c1eca
 title: Using Message Support
 ms.topic: article

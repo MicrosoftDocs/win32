@@ -1,5 +1,5 @@
 ---
-Description: The WM\_ENDSESSION message is sent to an application after the system processes the results of the WM\_QUERYENDSESSION message. The WM\_ENDSESSION message informs the application whether the session is ending.
+description: The WM\_ENDSESSION message is sent to an application after the system processes the results of the WM\_QUERYENDSESSION message. The WM\_ENDSESSION message informs the application whether the session is ending.
 ms.assetid: 9bf04f24-da1e-4680-a47b-28e9c500635e
 title: WM_ENDSESSION message (WinUser.h)
 ms.topic: reference
@@ -84,7 +84,7 @@ The application need not call the [**DestroyWindow**](/windows/win32/api/winuser
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps \| UWP apps\]<br/>                                                       |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps \| UWP apps\]<br/>                                              |

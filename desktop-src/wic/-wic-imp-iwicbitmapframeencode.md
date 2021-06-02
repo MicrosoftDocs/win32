@@ -1,5 +1,5 @@
 ---
-Description: Implementing IWICBitmapFrameEncode
+description: Implementing IWICBitmapFrameEncode
 ms.assetid: 509fa49c-c90d-4270-a338-6ce638ccd89a
 title: Implementing IWICBitmapFrameEncode
 ms.topic: article

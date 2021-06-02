@@ -1,5 +1,5 @@
 ---
-Description: Creates an enumerator that returns the instances of a specified class according to the user-specified selection criteria.
+description: Creates an enumerator that returns the instances of a specified class according to the user-specified selection criteria.
 ms.assetid: 6465a981-f98e-4ece-a9b6-9da8ae618bc6
 ms.tgt_platform: multiple
 title: SWbemServices.InstancesOf method (Wbemdisp.h)
@@ -215,7 +215,7 @@ If you run this script, you will get information back. However, this information
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

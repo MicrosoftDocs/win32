@@ -1,5 +1,5 @@
 ---
-Description: Describes a full set of values associated with a job and supports large spool files with sizes expressed with 64 bits.
+description: Describes a full set of values associated with a job and supports large spool files with sizes expressed with 64 bits.
 ms.assetid: 90932ae2-ea9e-43bc-9a1d-c68223f6d0ee
 title: JOB_INFO_4 structure (Winspool.h)
 ms.topic: reference
@@ -279,7 +279,7 @@ Port monitors that do not support TrueEndOfJob will set the job as JOB\_STATUS\_
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                            |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                  |

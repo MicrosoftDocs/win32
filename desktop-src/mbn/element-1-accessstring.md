@@ -1,10 +1,10 @@
 ---
-Description: ModemDMConfigProfile\/...\/AccessString (v4)
+description: ModemDMConfigProfile\/...\/AccessString (v4)
 MS-HAID: WWAN\_profile\_v4.element\_1\_AccessString
 MSHAttr:
 - PreferredSiteName:MSDN
 - PreferredLib:/library/windows/desktop
-title: AccessString
+title: AccessString (v4)
 ms.topic: reference
 ms.date: 05/31/2018
 ms.assetid: d3dc9d56-23cf-4af6-b220-0ec09eceebaa
@@ -16,7 +16,6 @@ api_location:
 topic_type: 
  - APIRef
  - kbSyntax
-
 ---
 
 # <span id="WWAN_profile_v4.element_1_AccessString"></span>ModemDMConfigProfile\/...\/AccessString (v4)

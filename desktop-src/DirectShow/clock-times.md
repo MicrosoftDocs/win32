@@ -1,5 +1,5 @@
 ---
-Description: Clock Times
+description: Clock Times
 ms.assetid: ff964f7f-a084-4de3-8b2b-8efb6c9f4a9f
 title: Clock Times
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Applications need to retrieve character-width data when they perform such tasks as fitting strings of text to page or column widths.
+description: Applications need to retrieve character-width data when they perform such tasks as fitting strings of text to page or column widths.
 ms.assetid: 0c84f5f9-71cd-4077-bc99-f23a393c1c4d
 title: Character Widths
 ms.topic: article

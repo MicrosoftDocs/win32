@@ -4,9 +4,12 @@ description: A list-view control is a window that displays a collection of items
 ms.assetid: 163f7778-690c-4166-b0c5-c7be1a03ae98
 ms.topic: article
 ms.date: 05/31/2018
+ms.custom: project-verbatim
 ---
 
 # About List-View Controls
+
+See the [Virtual listview control sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw).
 
 A list-view control is a window that displays a collection of items. List-view controls provide several ways to arrange and display items and are much more flexible than simple [List Boxes](list-boxes.md). For example, additional information about each item can be displayed in columns to the right of the icon and label.
 
@@ -134,7 +137,7 @@ List-view controls with the [**LVS\_OWNERDATA**](list-view-window-styles.md) sty
 
 
 
-|                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|      Notification                    |     Description                         |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [LVN\_GETDISPINFO](lvn-getdispinfo.md) | A virtual list-view control maintains very little item information on its own. As a result, it often sends the [LVN\_GETDISPINFO](lvn-getdispinfo.md) notification code to request item information. This message is handled in much the same way as callback items in a standard list control. Because the number of items supported by the control can be very large, caching item data improves performance. When handling LVN\_GETDISPINFO, the owner of the control first attempts to supply requested item information from the cache (for more information, see [Cache Management](#cache-management)). If the requested item is not cached, the owner must be prepared to supply the information by other means. |
 | [LVN\_ODCACHEHINT](lvn-odcachehint.md) | A virtual list view sends the [LVN\_ODCACHEHINT](lvn-odcachehint.md) notification code to assist in optimizing the cache. The notification code provides inclusive index values for a range of items that it recommends be cached. Upon receiving the notification code, the owner must be prepared to load the cache with item information for the requested range so that the information will be readily available when an [LVN\_GETDISPINFO](lvn-getdispinfo.md) message is sent.                                                                                                                                                                                                                                   |
@@ -338,6 +341,6 @@ Insertion marks show users where dragged items will be placed. Insertion marks c
 
 The insertion mark API elements enable placement of insertion marks by providing messages and flags that perform hit detection, that specify the location and appearance of the insertion mark by item, and that query for information about the current size and appearance of the insertion mark.
 
- 
+## See also
 
- 
+* [Virtual listview control sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw)

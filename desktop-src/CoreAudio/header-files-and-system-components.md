@@ -1,5 +1,5 @@
 ---
-Description: Header Files and System Components
+description: Header Files and System Components
 ms.assetid: de2776be-72e6-4391-8e6c-56694d683d57
 title: Header Files and System Components
 ms.topic: article
@@ -12,9 +12,8 @@ The following table lists the header files that contain the interface definition
 
 
 
-|                                              |                              |
-|----------------------------------------------|------------------------------|
 | Core Audio component                         | Header file                  |
+|----------------------------------------------|------------------------------|
 | [MMDevice API](mmdevice-api.md)             | Mmdeviceapi.h                |
 | [WASAPI](wasapi.md)                         | Audioclient.h, Audiopolicy.h |
 | [DeviceTopology API](devicetopology-api.md) | Devicetopology.h             |

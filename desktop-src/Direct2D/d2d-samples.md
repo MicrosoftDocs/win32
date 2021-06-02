@@ -22,7 +22,7 @@ The following samples demonstrate the Direct2D API.
 
 ## Windows 8 and Microsoft Visual Studio 2013 samples
 
-| | |
+| Sample | Description |
 |-|-|
 | [Direct2D composite effect modes sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample) | This sample shows the wide range of composite and blend modes available from Direct2D. |
 | [Direct2D basic image effects sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample) | This sample shows how to load an image, apply the Gaussian blur effect to it, and then display it in a Windows::UI::Core::CoreWindow. |

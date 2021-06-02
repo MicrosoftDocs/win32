@@ -1,5 +1,5 @@
 ---
-Description: The EnumPrintProcessors function enumerates the print processors installed on the specified server.
+description: The EnumPrintProcessors function enumerates the print processors installed on the specified server.
 ms.assetid: 98c9185c-c89d-4b4e-8c1e-7e22b315f188
 title: EnumPrintProcessors function (Winspool.h)
 ms.topic: reference
@@ -110,7 +110,7 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

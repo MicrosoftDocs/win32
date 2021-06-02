@@ -1,5 +1,5 @@
 ---
-Description: Enables or disables reading and writing of disk sectors.
+description: Enables or disables reading and writing of disk sectors.
 ms.assetid: 885e4db1-a131-4727-80ab-3be8c591b766
 title: FveEnableRawAccessW function
 ms.topic: reference
@@ -69,7 +69,7 @@ This function returns one of the following codes or another error code if it fai
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

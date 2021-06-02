@@ -1,5 +1,5 @@
 ---
-Description: This section describes the unions that are used by the Core Audio APIs.
+description: This section describes the unions that are used by the Core Audio APIs.
 ms.assetid: B2ED2C84-3226-49B3-9391-E1A2B2391A94
 title: Core Audio Datatypes
 ms.topic: article

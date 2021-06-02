@@ -1,5 +1,5 @@
 ---
-Description: The IsConnected method determines whether the pin is connected to another pin.
+description: The IsConnected method determines whether the pin is connected to another pin.
 ms.assetid: d8b9b43b-6f8d-4d75-9688-f0cee3794a78
 title: CBasePin.IsConnected method (Amfilter.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the pin is connected. Otherwise, returns **FALSE**.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

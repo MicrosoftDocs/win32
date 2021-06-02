@@ -1,5 +1,5 @@
 ---
-Description: The put\_SourceHeight method sets the source rectangle height.
+description: The put\_SourceHeight method sets the source rectangle height.
 ms.assetid: 45e7d73b-d141-4dc1-8b06-38e9d6ad9851
 title: CBaseControlVideo.put_SourceHeight method (Ctlutil.h)
 ms.topic: reference
@@ -70,7 +70,7 @@ An application can change the source and destination rectangles for the video th
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

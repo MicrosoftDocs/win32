@@ -1,5 +1,5 @@
 ---
-Description: The following globally unique identifiers (GUIDs) define node types for kernel-mode filters. To find the node type, query the filter for the IKsTopologyInfo interface.
+description: The following globally unique identifiers (GUIDs) define node types for kernel-mode filters. To find the node type, query the filter for the IKsTopologyInfo interface.
 ms.assetid: 0e133ce3-8815-47d1-a5c3-577a98963912
 title: KS Node Types (Ksmedia.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The following globally unique identifiers (GUIDs) define node types for kernel-m
 
 
 
-|                   |                                                                                      |
+| Requirement | Value |
 |-------------------|--------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Ksmedia.h</dt> </dl> |
 

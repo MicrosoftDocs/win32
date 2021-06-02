@@ -1,7 +1,7 @@
 ---
-Description: Occurs when the final analysis stage is finished.
+description: Occurs when the final analysis stage is finished.
 ms.assetid: 97318c2d-980e-436c-b97d-e064bace5bf0
-title: '_IAnalysisEvents::Results event' (IACom.h)
+title: '_IAnalysisEvents::Results event (IACom.h)'
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -69,7 +69,7 @@ For more information about synchronizing your application data with the [**IInkA
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

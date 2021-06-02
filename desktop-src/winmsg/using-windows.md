@@ -1,5 +1,5 @@
 ---
-Description: The examples in this section describe how to perform tasks associated with using windows.
+description: The examples in this section describe how to perform tasks associated with using windows.
 ms.assetid: 7695fb64-3918-4d9a-8cd8-01d20edd9c55
 title: Using Windows
 ms.topic: article
@@ -43,7 +43,7 @@ hwndMain = CreateWindowEx(
     CW_USEDEFAULT,          // default height               
     (HWND) NULL,            // no parent or owner window    
     (HMENU) NULL,           // class menu used              
-    hinstance,              // instance handle              
+    hinst,                  // instance handle              
     NULL);                  // no window creation data      
  
 if (!hwndMain) 

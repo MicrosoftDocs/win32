@@ -1,5 +1,5 @@
 ---
-Description: Notifies an application when the selected IME needs information about the coordinates of a character in the composition string. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
+description: Notifies an application when the selected IME needs information about the coordinates of a character in the composition string. The application receives this command through the WM\_IME\_REQUEST message with parameter settings as shown below.
 ms.assetid: cae7e5b3-8aaf-452d-80df-fb0ae04a342c
 title: IMR_QUERYCHARPOSITION notification code (Imm.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ An application that draws the composition string itself, instead of relying on t
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

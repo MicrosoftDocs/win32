@@ -1,5 +1,5 @@
 ---
-Description: This event notifies the installer, while keeping the present dialog running, that a feature or all features are to be run locally.
+description: This event notifies the installer, while keeping the present dialog running, that a feature or all features are to be run locally.
 ms.assetid: 074f347e-37d3-4365-a25d-caa0392a0dbc
 title: AddLocal ControlEvent
 ms.topic: article

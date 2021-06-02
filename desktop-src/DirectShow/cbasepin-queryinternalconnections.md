@@ -1,5 +1,5 @@
 ---
-Description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter). This method implements the IPin::QueryInternalConnections method.
+description: The QueryInternalConnections method retrieves the pins that are connected internally to this pin (within the filter). This method implements the IPin::QueryInternalConnections method.
 ms.assetid: 08344fc5-38b2-4dbe-8ef9-30d2fcd64187
 title: CBasePin.QueryInternalConnections method (Amfilter.h)
 ms.topic: reference
@@ -77,7 +77,7 @@ On some filters, input pins correspond to particular output pins. For each pin, 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

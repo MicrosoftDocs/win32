@@ -1,5 +1,5 @@
 ---
-Description: Proxy function for the GetDecoderInfo method.
+description: Proxy function for the GetDecoderInfo method.
 ms.assetid: 4117492e-d652-4c72-9979-cc4e554a6fd8
 title: IWICBitmapDecoder_GetDecoderInfo_Proxy function
 ms.topic: reference
@@ -66,7 +66,7 @@ If this function succeeds, it returns **S\_OK**. Otherwise, it returns an **HRES
 
 
 
-|                                     |                                                                                                                                                                  |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2, Windows Vista \[desktop apps only\]<br/>                                                                                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                                                                                             |

@@ -1,5 +1,5 @@
 ---
-Description: The trunk-level interfaces of the XPS Document API describe the structure of an XPS document as the XPS OM represents it.
+description: The trunk-level interfaces of the XPS Document API describe the structure of an XPS document as the XPS OM represents it.
 ms.assetid: b2f48e64-19a0-4313-baaa-db58e12c22a8
 title: XPS OM Trunk Interfaces
 ms.topic: article
@@ -27,7 +27,7 @@ The trunk-level interfaces of the XPS Document API describe the structure of an 
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

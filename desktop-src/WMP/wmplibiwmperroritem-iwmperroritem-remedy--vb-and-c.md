@@ -1,6 +1,6 @@
 ---
 title: IWMPErrorItem remedy property
-description: Reserved for future use.
+description: Reserved for future use. | IWMPErrorItem remedy property
 ms.assetid: 6aa2878a-2947-4afe-b8cd-ed79a65b3d8f
 keywords:
 - remedy property Windows Media Player
@@ -47,7 +47,7 @@ A **System.Int32** that is the remedy.
 
 
 
-|                      |                                                                                                                        |
+| Requirement | Value |
 |----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Version<br/>   | Windows Media Player 9 Series or later<br/>                                                                      |
 | Namespace<br/> | **WMPLib**<br/>                                                                                                  |

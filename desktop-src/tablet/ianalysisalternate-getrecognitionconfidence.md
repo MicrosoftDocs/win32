@@ -1,5 +1,5 @@
 ---
-Description: Gets a value that indicates the level of confidence that the IInkAnalyzer has in the accuracy of the IAnalysisAlternate.
+description: Gets a value that indicates the level of confidence that the IInkAnalyzer has in the accuracy of the IAnalysisAlternate.
 ms.assetid: ac1c68df-2e0c-4633-b7ee-519482a4d67a
 title: IAnalysisAlternate::GetRecognitionConfidence method (IACom.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ For a description of the return values, see [Classes and Interfaces - Ink Analys
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                 |
 | Minimum supported server<br/> | None supported<br/>                                                                                     |

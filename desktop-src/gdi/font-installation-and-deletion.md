@@ -1,5 +1,5 @@
 ---
-Description: An application can use a font to draw text only if that font is either resident on a specified device or installed in the system font table.
+description: An application can use a font to draw text only if that font is either resident on a specified device or installed in the system font table.
 ms.assetid: b422b981-8760-4484-9965-f212287c421e
 title: Font Installation and Deletion
 ms.topic: article

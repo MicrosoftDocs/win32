@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasePatchFileMismatchException methods"
 title: EsentDatabasePatchFileMismatchException methods
 TOCTitle: EsentDatabasePatchFileMismatchException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabasePatchFileMismatchException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabasePatchFileMismatchException](dn334483\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabasePatchFileMismatchException](./esentdatabasepatchfilemismatchexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabasePatchFileMismatchException class](dn334483\(v=exchg.10\).md)
+[EsentDatabasePatchFileMismatchException class](./esentdatabasepatchfilemismatchexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

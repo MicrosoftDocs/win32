@@ -1,5 +1,5 @@
 ---
-Description: Gets an array of pointers to transposed matrices.
+description: Gets an array of pointers to transposed matrices.
 ms.assetid: b859ff2f-cf62-4619-b8be-b940fa0513b3
 title: ID3DXBaseEffect::GetMatrixTransposePointerArray method (D3DX9Shader.h)
 ms.topic: reference
@@ -80,7 +80,7 @@ If the destination matrices are larger than the source matrices, only the upper-
 
 
 
-|                    |                                                                                          |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Shader.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>     |

@@ -1,5 +1,5 @@
 ---
-Description: The OnFrames method must be implemented by the monitor. The MCSVC calls this method when either the capture buffer is full or the update time has passed.
+description: The OnFrames method must be implemented by the monitor. The MCSVC calls this method when either the capture buffer is full or the update time has passed.
 ms.assetid: 243bd35b-2527-463e-b3d2-4bd840fe9c3f
 title: IMonitor::OnFrames method (Netmon.h)
 ms.topic: reference
@@ -51,7 +51,7 @@ If the method is unsuccessful, the return value is an error code. The MCSVC pass
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

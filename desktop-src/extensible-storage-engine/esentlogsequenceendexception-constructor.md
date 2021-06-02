@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentLogSequenceEndException constructor"
 title: EsentLogSequenceEndException constructor 
 TOCTitle: 'EsentLogSequenceEndException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentLogSequenceEndException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentLogSequenceEndException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentLogSequenceEndException()
 
 #### Reference
 
-[EsentLogSequenceEndException class](dn334652\(v=exchg.10\).md)
+[EsentLogSequenceEndException class](./esentlogsequenceendexception-class.md)
 
-[EsentLogSequenceEndException members](dn334653\(v=exchg.10\).md)
+[EsentLogSequenceEndException members](./esentlogsequenceendexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

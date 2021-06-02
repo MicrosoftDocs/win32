@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the class identifier for this filter.
+description: Retrieves the class identifier for this filter.
 ms.assetid: f0559437-5d0d-4522-a3dc-947e3494b576
 title: CPersistStream.GetClassID method (Pstream.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns an **HRESULT** value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pstream.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

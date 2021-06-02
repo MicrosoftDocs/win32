@@ -1,5 +1,5 @@
 ---
-Description: Defines a vertex declaration data type.
+description: Defines a vertex declaration data type.
 ms.assetid: 993fc7e4-4752-4bce-82d0-0a034fdc69c0
 title: D3DDECLTYPE enumeration (D3D9Types.h)
 ms.topic: reference
@@ -187,7 +187,7 @@ Use the DirectX Caps Viewer Tool (DXCapsViewer.exe) to see which types are suppo
 
 
 
-|                   |                                                                                        |
+| Requirement | Value |
 |-------------------|----------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>D3D9Types.h</dt> </dl> |
 

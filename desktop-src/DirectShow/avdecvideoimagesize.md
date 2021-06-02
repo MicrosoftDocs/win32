@@ -1,5 +1,5 @@
 ---
-Description: Gets the size of the decoded image, in pixels.
+description: Gets the size of the decoded image, in pixels.
 ms.assetid: 2F0DD10F-CF7A-4A6F-91A9-E3828DF2B947
 title: AVDecVideoImageSize property (Codecapi.h)
 ms.topic: reference
@@ -32,7 +32,7 @@ The number of channels includes the low frequency effect (LFE) channel, if prese
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

@@ -1,5 +1,5 @@
 ---
-Description: Generates C constants for XML schema tables for message types.
+description: Generates C constants for XML schema tables for message types.
 ms.assetid: 0b322acb-3326-42a2-a852-07251585b314
 title: messageTypeDefinitions element
 ms.topic: reference
@@ -60,7 +60,7 @@ This element is generally used in C source files to provide the schema tables de
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

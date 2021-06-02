@@ -1,5 +1,5 @@
 ---
-Description: Used to free memory that was allocated by one of the Secure Sockets Layer protocol (SSL) provider functions.
+description: Used to free memory that was allocated by one of the Secure Sockets Layer protocol (SSL) provider functions.
 ms.assetid: 75a85013-c745-43cb-85b5-e13a2778ec1d
 title: SslFreeBuffer function (Sslprovider.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ Possible return codes include, but are not limited to, the following.
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

@@ -1,6 +1,6 @@
 ---
 title: Task Dialog Functions
-description: .
+description: Task Dialog Functions
 ms.assetid: 609320c4-78af-4fe0-b6a1-ea17ebfb622f
 ms.topic: article
 ms.date: 05/31/2018

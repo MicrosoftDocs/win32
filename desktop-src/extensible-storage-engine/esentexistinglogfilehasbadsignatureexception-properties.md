@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentExistingLogFileHasBadSignatureException properties"
 title: EsentExistingLogFileHasBadSignatureException properties
 TOCTitle: EsentExistingLogFileHasBadSignatureException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentExistingLogFileHasBadSignatureException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentExistingLogFileHasBadSignatureException](dn274318\(v=exchg.10\).md) type exposes the following members.
+The [EsentExistingLogFileHasBadSignatureException](./esentexistinglogfilehasbadsignatureexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentExistingLogFileHasBadSignatureException class](dn274318\(v=exchg.10\).md)
+[EsentExistingLogFileHasBadSignatureException class](./esentexistinglogfilehasbadsignatureexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

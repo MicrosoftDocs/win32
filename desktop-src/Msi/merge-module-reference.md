@@ -1,5 +1,5 @@
 ---
-Description: This section contains detailed reference information about merge module database tables and summary information streams.
+description: This section contains detailed reference information about merge module database tables and summary information streams.
 ms.assetid: 27dc07a6-4bca-48fa-b8c7-f8560e72b4f6
 title: Merge Module Reference
 ms.topic: article

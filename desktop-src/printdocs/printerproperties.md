@@ -1,5 +1,5 @@
 ---
-Description: The PrinterProperties function displays a printer-properties property sheet for the specified printer.
+description: The PrinterProperties function displays a printer-properties property sheet for the specified printer.
 ms.assetid: 1d4c961b-178b-47af-b983-5b7327919f93
 title: PrinterProperties function (Winspool.h)
 ms.topic: reference
@@ -13,6 +13,7 @@ api_type:
 - DllExport
 api_location: 
 - plotui.dll
+- winspool.drv
 ---
 
 # PrinterProperties function
@@ -66,13 +67,13 @@ If the function fails, the return value is zero.
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |
 | Header<br/>                   | <dl> <dt>Winspool.h (include Windows.h)</dt> </dl> |
 | Library<br/>                  | <dl> <dt>Winspool.lib</dt> </dl>                   |
-| DLL<br/>                      | <dl> <dt>Plotui.dll</dt> </dl>                     |
+| DLL<br/>                      | <dl> <dt>winspool.drv</dt> </dl>                     |
 
 
 

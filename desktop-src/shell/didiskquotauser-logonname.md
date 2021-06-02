@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's logon account name.
+description: Gets the user's logon account name.
 title: DIDiskQuotaUser.LogonName property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: f423b394-77fc-4eea-9f0c-70befb934e48
-api_name: 
- - DIDiskQuotaUser.LogonName
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -48,7 +39,7 @@ A string value that is set to the user's account logon name.
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

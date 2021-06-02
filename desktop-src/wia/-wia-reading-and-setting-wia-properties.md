@@ -1,5 +1,5 @@
 ---
-Description: The IWiaPropertyStorage interface provides methods for reading and writing a Windows Image Acquisition (WIA) item's properties. Item properties include device commands, item format information, and device information.
+description: The IWiaPropertyStorage interface provides methods for reading and writing a Windows Image Acquisition (WIA) item's properties. Item properties include device commands, item format information, and device information.
 ms.assetid: 268d2298-bc9c-479b-b078-a8180cd38bc3
 title: Reading and Setting WIA Properties
 ms.topic: article

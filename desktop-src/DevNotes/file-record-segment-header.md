@@ -1,5 +1,5 @@
 ---
-Description: Represents the file record segment. This is the header for each file record segment in the master file table (MFT).
+description: Represents the file record segment. This is the header for each file record segment in the master file table (MFT).
 ms.assetid: 4548ad49-1924-4888-8966-c45f8e453c6f
 title: FILE_RECORD_SEGMENT_HEADER structure
 ms.topic: reference

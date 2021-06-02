@@ -1,5 +1,5 @@
 ---
-Description: Returns the normalized version of a 2D vector.
+description: D3DXVec2Normalize function (D3dx9math.h) - Returns the normalized version of a 2D vector.
 ms.assetid: 2796a5d1-cb1c-4093-87f2-a2ad43279d91
 title: D3DXVec2Normalize function (D3dx9math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - d3dx9.dll
 ---
 
-# D3DXVec2Normalize function
+# D3DXVec2Normalize function (D3dx9math.h)
 
 Returns the normalized version of a 2D vector.
 
@@ -68,7 +68,7 @@ The return value for this function is the same value returned in the *pOut* para
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

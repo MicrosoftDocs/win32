@@ -6,7 +6,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Combo Box
+# Combo Box (Windows Controls)
 
 This section contains information about the programming elements used with combo boxes. A *combo box* is a unique type of control, defined by the COMBOBOX class, that combines much of the functionality of a list box and an edit control.
 

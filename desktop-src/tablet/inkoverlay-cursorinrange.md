@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a cursor enters the physical detection range (proximity) of the tablet context.
+description: InkOverlay.CursorInRange event - Occurs when a cursor enters the physical detection range (proximity) of the tablet context.
 ms.assetid: 11327fef-1f5e-407a-812b-48f427af291e
 title: InkOverlay.CursorInRange event (Msinkaut.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The [**CursorInRange**](inkcollector-cursorinrange.md) event is fired even when 
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

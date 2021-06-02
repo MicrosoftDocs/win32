@@ -1,5 +1,5 @@
 ---
-Description: Looks for the target of a Shell link, even if the target has been moved or renamed.
+description: Looks for the target of a Shell link, even if the target has been moved or renamed.
 ms.assetid: 60e119be-8e45-4f63-a381-cad048de0765
 title: ShellLinkObject.Resolve method (Shldisp.h)
 ms.topic: reference
@@ -234,7 +234,7 @@ End Sub
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional with SP3 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

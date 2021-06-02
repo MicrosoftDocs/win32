@@ -1,5 +1,5 @@
 ---
-Description: The GetCaptureTotalFrames function returns the total number of frames in the capture.
+description: The GetCaptureTotalFrames function returns the total number of frames in the capture.
 ms.assetid: a2b7902c-b80f-4a0a-b12a-2a139df30fca
 title: GetCaptureTotalFrames function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is unsuccessful, the return value is 0.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

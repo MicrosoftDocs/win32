@@ -1,5 +1,5 @@
 ---
-Description: The Enhanced Video Renderer (EVR) filter is a 16-channel video mixer and renderer. It has the same core functionality and plug-in model as the Media Foundation EVR media sink.
+description: The Enhanced Video Renderer (EVR) filter is a 16-channel video mixer and renderer. It has the same core functionality and plug-in model as the Media Foundation EVR media sink.
 ms.assetid: ead99cb3-2be2-42c6-ac22-be0c2ddf28d5
 title: Enhanced Video Renderer Filter
 ms.topic: reference
@@ -128,7 +128,7 @@ The EVR forwards seek commands upstream through pin 0. The substream pins do not
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

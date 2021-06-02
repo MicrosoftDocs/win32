@@ -1,5 +1,5 @@
 ---
-Description: Certificate Revocation Lists
+description: Certificate Revocation Lists
 ms.assetid: 146e7e4a-4281-4f5c-8346-d6c0d5f5442f
 title: Certificate Revocation Lists
 ms.topic: article

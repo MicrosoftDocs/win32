@@ -1,5 +1,5 @@
 ---
-Description: Assigns vector component data to the current instance of XMU555.
+description: Assigns vector component data to the current instance of XMU555.
 ms.assetid: 'overload:microsoft.directx_sdk.reference.xmu555.operator = '
 title: XMU555 operator = operators
 ms.topic: reference
@@ -13,7 +13,7 @@ api_type:
 api_location: 
 ---
 
-# operator = operators
+# XMU555 operator = operators
 
 Assigns vector component data to the current instance of `XMU555`.
 

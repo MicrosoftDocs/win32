@@ -1,5 +1,5 @@
 ---
-Description: Sets or retrieves the private key associated with the certificate.
+description: Sets or retrieves the private key associated with the certificate.
 ms.assetid: 976d81b4-5cbe-4824-9087-9a908b0e60e5
 title: Certificate.PrivateKey property
 ms.topic: reference
@@ -46,7 +46,7 @@ This property raises CAPICOM\_E\_NOT\_ALLOWED when it is set from a web-based ap
 
 
 
-|                                  |                                                                                        |
+| Requirement | Value |
 |----------------------------------|----------------------------------------------------------------------------------------|
 | End of client support<br/> | Windows Vista<br/>                                                               |
 | End of server support<br/> | Windows Server 2008<br/>                                                         |

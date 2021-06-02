@@ -1,5 +1,5 @@
 ---
-Description: Lists and explains the responsibilities of the GINA.
+description: Lists and explains the responsibilities of the GINA.
 ms.assetid: 5cffe4a6-6475-441e-bf81-f3cbcf1fee3f
 title: Responsibilities of the GINA
 ms.topic: article

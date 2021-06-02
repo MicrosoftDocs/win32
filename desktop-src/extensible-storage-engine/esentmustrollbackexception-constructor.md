@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentMustRollbackException constructor"
 title: EsentMustRollbackException constructor 
 TOCTitle: 'EsentMustRollbackException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentMustRollbackException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentMustRollbackException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentMustRollbackException()
 
 #### Reference
 
-[EsentMustRollbackException class](dn319646\(v=exchg.10\).md)
+[EsentMustRollbackException class](./esentmustrollbackexception-class.md)
 
-[EsentMustRollbackException members](dn334717\(v=exchg.10\).md)
+[EsentMustRollbackException members](./esentmustrollbackexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

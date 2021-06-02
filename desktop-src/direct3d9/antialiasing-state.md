@@ -1,5 +1,5 @@
 ---
-Description: Antialiasing (Direct3D 9) is a method of making lines and edges appear smoother on the screen.
+description: Antialiasing (Direct3D 9) is a method of making lines and edges appear smoother on the screen.
 ms.assetid: e779d88d-a0d7-4bad-8d5a-4b10cd962f24
 title: Antialiasing State (Direct3D 9)
 ms.topic: article

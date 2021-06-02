@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetReadFile Function"
 title: JetReadFile Function
 TOCTitle: JetReadFile Function
 ms:assetid: 59dc9e04-7e02-4835-9aed-95cfcf74d780
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetReadFile Function
 
-The **JetReadFile** function retrieves the contents of a file opened with [JetOpenFile](gg269249\(v=exchg.10\).md).
+The **JetReadFile** function retrieves the contents of a file opened with [JetOpenFile](./jetopenfile-function.md).
 
 ```cpp
     JET_ERR JET_API JetReadFile(
@@ -58,7 +59,7 @@ Receives the actual amount of file data retrieved.
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -143,7 +144,7 @@ Multiple concurrent calls to **JetReadFile** using the same file handle are not 
 
 If the instance is configured such that database page scrubbing is enabled (see JET_paramZeroDatabaseDuringBackup in System Parameters) then deleted data will be removed from the database as a side effect of a call to **JetReadFile** against the database file.
 
-It is very important to understand how backup and data corruption interact. If the database engine detects data corruption during a backup then it will either fail the backup of the affected database or of the entire instance. This is a conscious design decision intended to protect against data loss. If the database engine allowed a backup to succeed where data corruption was present then it is possible that an older, uncorrupted backup could be discarded as a result. This would be unfortunate because it would be possible to fix the data corruption on the live instance by restoring that backup and replaying all the transaction log files against that database. This zero data loss scenario presumes that circular logging is not enabled (see [JET_paramCircularLog](gg269235\(v=exchg.10\).md) in [System Parameters](gg294139\(v=exchg.10\).md)).
+It is very important to understand how backup and data corruption interact. If the database engine detects data corruption during a backup then it will either fail the backup of the affected database or of the entire instance. This is a conscious design decision intended to protect against data loss. If the database engine allowed a backup to succeed where data corruption was present then it is possible that an older, uncorrupted backup could be discarded as a result. This would be unfortunate because it would be possible to fix the data corruption on the live instance by restoring that backup and replaying all the transaction log files against that database. This zero data loss scenario presumes that circular logging is not enabled (see [JET_paramCircularLog](./transaction-log-parameters.md) in [System Parameters](./extensible-storage-engine-system-parameters.md)).
 
 It is also important to understand that when data corruption is present streaming backup will be the most likely place that it will first be detected. This is the case because streaming backup is the only process that routinely scans every single page of the database file. It is also likely that streaming backup will be the first process to detect the early signs of hardware failure as manifested by intermittent data corruption errors. This is due to the amount of data retrieved by backup as well as the speed at which it is retrieved.
 
@@ -183,10 +184,9 @@ Data corruption is detected by the database engine through the use of block chec
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_HANDLE](gg269217\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetOpenFile](gg269249\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_HANDLE](./jet-handle.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetOpenFile](./jetopenfile-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

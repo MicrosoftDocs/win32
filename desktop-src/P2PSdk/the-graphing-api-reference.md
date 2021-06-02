@@ -1,5 +1,5 @@
 ---
-Description: The following list provides you with links to documentation that describes the functions, callbacks, structures, and constants to use when working with the Peer Graphing API.
+description: The following list provides you with links to documentation that describes the functions, callbacks, structures, and constants to use when working with the Peer Graphing API.
 ms.assetid: b0291daa-7f6a-4f4d-8b8c-fe09e8d1f4a4
 title: Graphing API Reference
 ms.topic: article

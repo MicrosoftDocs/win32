@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: JET_INDEXRANGE properties"
 title: JET_INDEXRANGE properties
 TOCTitle: JET_INDEXRANGE properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.JET_INDEXRANGE
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_INDEXRANGE](dn335175\(v=exchg.10\).md) type exposes the following members.
+The [JET_INDEXRANGE](./jet-indexrange-class.md) type exposes the following members.
 
 ## Properties
 
@@ -46,7 +47,6 @@ Top
 
 #### Reference
 
-[JET_INDEXRANGE class](dn335175\(v=exchg.10\).md)
+[JET_INDEXRANGE class](./jet-indexrange-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

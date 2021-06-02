@@ -1,5 +1,5 @@
 ---
-Description: The ReadXMLFile method loads an XML project file.
+description: The ReadXMLFile method loads an XML project file.
 ms.assetid: 8269da74-fb33-42cf-ae8c-fe3d7db27aea
 title: IXml2Dex::ReadXMLFile method (Qedit.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ This method does not clear existing objects from the timeline before it inserts 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Version<br/> | Internet Explorer 4.0 or later<br/>                                               |
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |

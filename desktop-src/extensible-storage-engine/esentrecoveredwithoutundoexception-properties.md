@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentRecoveredWithoutUndoException properties"
 title: EsentRecoveredWithoutUndoException properties
 TOCTitle: EsentRecoveredWithoutUndoException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentRecoveredWithoutUndoException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentRecoveredWithoutUndoException](dn350537\(v=exchg.10\).md) type exposes the following members.
+The [EsentRecoveredWithoutUndoException](./esentrecoveredwithoutundoexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentRecoveredWithoutUndoException class](dn350537\(v=exchg.10\).md)
+[EsentRecoveredWithoutUndoException class](./esentrecoveredwithoutundoexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

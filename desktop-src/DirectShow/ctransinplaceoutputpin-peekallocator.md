@@ -1,5 +1,5 @@
 ---
-Description: The PeekAllocator method returns a pointer to the pin's allocator. The method does not increment the reference count on the interface.
+description: CTransInPlaceOutputPin.PeekAllocator method - The PeekAllocator method returns a pointer to the pin's allocator. The method does not increment the reference count on the interface.
 ms.assetid: 3653d472-059c-426c-8e81-4f7cbd1a8ec3
 title: CTransInPlaceOutputPin.PeekAllocator method (Transip.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the [**CBaseOutputPin::m\_pAllocator**](cbaseoutputpin-m-pallocator.md) 
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

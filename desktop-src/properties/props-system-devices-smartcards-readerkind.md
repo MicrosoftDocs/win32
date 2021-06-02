@@ -1,5 +1,5 @@
 ---
-Description: Smart card reader kind.
+description: Smart card reader kind.
 ms.assetid: 380599cb-da28-4f64-8c72-13b79a18d0e0
 title: System.Devices.SmartCards.ReaderKind
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Winternl
+description: Winternl
 ms.assetid: 0EB37CAA-E323-46BD-9465-10022A2A499C
 title: Winternl
 ms.topic: article

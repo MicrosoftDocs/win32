@@ -1,5 +1,5 @@
 ---
-Description: The CanSeekBackward method determines whether the stream can be seeked backward. This method implements the IMediaPosition::CanSeekBackward method.
+description: The CanSeekBackward method determines whether the stream can be seeked backward. This method implements the IMediaPosition::CanSeekBackward method.
 ms.assetid: 6443980f-6863-4941-b2dd-4a31257b5810
 title: CPosPassThru.CanSeekBackward method (Ctlutil.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns the **HRESULT** value from the connected pin.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

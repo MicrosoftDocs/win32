@@ -1,5 +1,5 @@
 ---
-Description: The ReallyFree method releases the memory for the buffers.
+description: The ReallyFree method releases the memory for the buffers.
 ms.assetid: c5c5d09f-b4f2-4a06-9309-3b2a8b8f8f1f
 title: CMemAllocator.ReallyFree method (Amfilter.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The [**CMemAllocator**](cmemallocator.md) class holds memory until the object is
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

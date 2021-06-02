@@ -1,5 +1,5 @@
 ---
-Description: Some image files contain metadata that you can read to determine features of the image.
+description: Some image files contain metadata that you can read to determine features of the image.
 ms.assetid: 2febea35-3fea-4a2d-baaf-7a4f935fc81f
 title: Reading and Writing Metadata
 ms.topic: article

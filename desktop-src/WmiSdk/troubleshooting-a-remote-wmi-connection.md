@@ -1,5 +1,5 @@
 ---
-Description: The following sections describe common issues developers may have with creating a remote WMI connection.
+description: The following sections describe common issues developers may have with creating a remote WMI connection.
 ms.assetid: 328e420b-a859-4ce9-8a31-67150eb0a78f
 ms.tgt_platform: multiple
 title: Troubleshooting a Remote WMI Connection

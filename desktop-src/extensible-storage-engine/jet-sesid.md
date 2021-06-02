@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SESID"
 title: JET_SESID
 TOCTitle: JET_SESID
 ms:assetid: 56b53532-e0a8-4255-8442-bb90184d91da
@@ -34,17 +35,17 @@ The **JET_SESID** data type contains a handle to the session to use for a call t
 
 JET_SESID
 
-Either **NULL** or [JET_sesidNil](gg269256\(v=exchg.10\).md) can be used to indicate an invalid session handle.
+Either **NULL** or [JET_sesidNil](./invalid-handle-constants.md) can be used to indicate an invalid session handle.
 
 ### Remarks
 
 A session is the transaction context of the database engine. It can be used to begin, commit, or abort transactions that affect the visibility and durability of changes that are made by this or other sessions.
 
-A transaction can be started using [JetBeginTransaction](gg294083\(v=exchg.10\).md). A session may be created using [JetBeginSession](gg294131\(v=exchg.10\).md). The maximum number of sessions that can be created at any one time is controlled by [JET_paramMaxSessions](gg269201\(v=exchg.10\).md), which can be configured by means of [JetSetSystemParameter](gg294044\(v=exchg.10\).md).
+A transaction can be started using [JetBeginTransaction](./jetbegintransaction-function.md). A session may be created using [JetBeginSession](./jetbeginsession-function.md). The maximum number of sessions that can be created at any one time is controlled by [JET_paramMaxSessions](./resource-parameters.md), which can be configured by means of [JetSetSystemParameter](./jetsetsystemparameter-function.md).
 
-A session is explicitly ended by a call to [JetEndSession](gg294054\(v=exchg.10\).md) or implicitly ended by a call to [JetTerm](gg269298\(v=exchg.10\).md).
+A session is explicitly ended by a call to [JetEndSession](./jetendsession-function.md) or implicitly ended by a call to [JetTerm](./jetterm-function.md).
 
-Each session can only be used by one thread at a time. In addition, the default behavior of the engine is to restrict the use of a session to the same thread from the time the first call to [JetBeginTransaction](gg294083\(v=exchg.10\).md) is made until the time when the matching call to [JetCommitTransaction](gg269191\(v=exchg.10\).md) or [JetRollback](gg269273\(v=exchg.10\).md) is made. This behavior can be changed to remove this second restriction by setting a custom session context using [JetSetSessionContext](gg294124\(v=exchg.10\).md) and [JetResetSessionContext](gg269250\(v=exchg.10\).md).
+Each session can only be used by one thread at a time. In addition, the default behavior of the engine is to restrict the use of a session to the same thread from the time the first call to [JetBeginTransaction](./jetbegintransaction-function.md) is made until the time when the matching call to [JetCommitTransaction](./jetcommittransaction-function.md) or [JetRollback](./jetrollback-function.md) is made. This behavior can be changed to remove this second restriction by setting a custom session context using [JetSetSessionContext](./jetsetsessioncontext-function.md) and [JetResetSessionContext](./jetresetsessioncontext-function.md).
 
 ### Requirements
 
@@ -72,14 +73,13 @@ Each session can only be used by one thread at a time. In addition, the default 
 
 ### See Also
 
-[JET_paramMaxSessions](gg269201\(v=exchg.10\).md)  
-[JetBeginSession](gg294131\(v=exchg.10\).md)  
-[JetBeginTransaction](gg294083\(v=exchg.10\).md)  
-[JetCommitTransaction](gg269191\(v=exchg.10\).md)  
-[JetEndSession](gg294054\(v=exchg.10\).md)  
-[JetResetSessionContext](gg269250\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSetSessionContext](gg294124\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[JetTerm](gg269298\(v=exchg.10\).md)
-
+[JET_paramMaxSessions](./resource-parameters.md)  
+[JetBeginSession](./jetbeginsession-function.md)  
+[JetBeginTransaction](./jetbegintransaction-function.md)  
+[JetCommitTransaction](./jetcommittransaction-function.md)  
+[JetEndSession](./jetendsession-function.md)  
+[JetResetSessionContext](./jetresetsessioncontext-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSetSessionContext](./jetsetsessioncontext-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[JetTerm](./jetterm-function.md)

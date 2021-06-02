@@ -1,5 +1,5 @@
 ---
-Description: Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set.
+description: Sets the selected CPU Sets assignment for the specified thread. This assignment overrides the process default assignment, if one is set.
 ms.assetid: A73F7118-CC4A-45E6-869A-DFF6924D10C8
 title: SetThreadSelectedCpuSets function (Processthreadapi.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ This function cannot fail when passed valid parameters.
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps \| UWP apps\]<br/>                                            |
 | Minimum supported server<br/> | Windows Server 2016 \[desktop apps \| UWP apps\]<br/>                                   |

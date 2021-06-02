@@ -1,5 +1,5 @@
 ---
-Description: 'The effect system defines several interfaces for managing effect state. There are two types of interfaces: those used by the runtime to render an effect and reflection interfaces for getting and setting effect variables.'
+description: 'The effect system defines several interfaces for managing effect state. There are two types of interfaces: those used by the runtime to render an effect and reflection interfaces for getting and setting effect variables.'
 ms.assetid: 068d49d2-0e14-4080-9fee-20d984f22545
 title: Effect System Interfaces (Direct3D 10)
 ms.topic: article

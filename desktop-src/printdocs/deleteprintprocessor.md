@@ -1,5 +1,5 @@
 ---
-Description: The DeletePrintProcessor function removes a print processor added by the AddPrintProcessor function.
+description: The DeletePrintProcessor function removes a print processor added by the AddPrintProcessor function.
 ms.assetid: 65c77874-aa2c-4b4c-b218-fad361270a3e
 title: DeletePrintProcessor function (Winspool.h)
 ms.topic: reference
@@ -78,7 +78,7 @@ The caller must have the [SeLoadDriverPrivilege](/windows/desktop/SecAuthZ/autho
 
 
 
-|                                     |                                                                                                           |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                      |

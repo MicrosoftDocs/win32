@@ -1,5 +1,5 @@
 ---
-Description: Device Information Properties are properties that describe the setup and installation of the device.
+description: Device Information Property Constants - Device Information Properties are properties that describe the setup and installation of the device.
 ms.assetid: ff6771ac-491e-4765-8cfe-11c7efc1c971
 title: Device Information Property Constants (Wiadef.h)
 ms.topic: reference
@@ -200,7 +200,7 @@ Device Information Properties are properties that describe the setup and install
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                |

@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# S
+# S (Text Services Framework)
 
 <dl> <dt>
 

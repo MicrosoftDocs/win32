@@ -1,5 +1,5 @@
 ---
-Description: The pSetupGetGlobalFlags function is an unsupported utility.
+description: The pSetupGetGlobalFlags function is an unsupported utility.
 ms.assetid: c993ef5d-9f4e-4643-aa9b-017c90796c8d
 title: pSetupGetGlobalFlags function
 ms.topic: reference
@@ -46,7 +46,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                         |
+| Requirement | Value |
 |----------------|-----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Setupapi.dll</dt> </dl> |
 

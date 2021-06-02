@@ -1,5 +1,5 @@
 ---
-Description: Analog Television Audio
+description: Analog Television Audio
 ms.assetid: 793ab1bf-89a7-4592-b5a7-db597bdaec73
 title: Analog Television Audio
 ms.topic: article

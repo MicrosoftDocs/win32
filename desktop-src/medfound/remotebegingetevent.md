@@ -1,5 +1,5 @@
 ---
-Description: Remotable version of the IMFMediaEventGenerator::BeginGetEvent method.
+description: Remotable version of the IMFMediaEventGenerator::BeginGetEvent method.
 ms.assetid: 96a16fd3-10bc-4cd9-967a-ceb92e26ccc8
 title: RemoteBeginGetEvent (Mfobjects.h)
 ms.topic: reference
@@ -25,7 +25,7 @@ Applications cannot call this method directly, and objects do not implement this
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                                                    |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                                              |

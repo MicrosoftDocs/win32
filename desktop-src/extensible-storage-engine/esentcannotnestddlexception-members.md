@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotNestDDLException members"
 title: EsentCannotNestDDLException members
 TOCTitle: EsentCannotNestDDLException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotNestDDLException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CannotNestDDL exceptions.
 
-The [EsentCannotNestDDLException](dn274172\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotNestDDLException](./esentcannotnestddlexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCannotNestDDLException class](dn274172\(v=exchg.10\).md)
+[EsentCannotNestDDLException class](./esentcannotnestddlexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

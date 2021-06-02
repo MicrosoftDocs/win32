@@ -1,5 +1,5 @@
 ---
-Description: Enumerating Filters
+description: Enumerating Filters
 ms.assetid: 57bcaa4d-37bf-457d-937e-f9d24fb5784f
 title: Enumerating Filters
 ms.topic: article

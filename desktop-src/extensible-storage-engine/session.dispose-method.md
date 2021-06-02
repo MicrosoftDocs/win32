@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Session.Dispose method"
 title: Session.Dispose method 
 TOCTitle: 'Dispose method '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.Session.Dispose
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[Session class](dn351164\(v=exchg.10\).md)
+[Session class](./session-class.md)
 
-[Session members](dn351125\(v=exchg.10\).md)
+[Session members](./session-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

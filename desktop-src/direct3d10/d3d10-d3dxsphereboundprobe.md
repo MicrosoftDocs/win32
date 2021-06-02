@@ -1,5 +1,5 @@
 ---
-Description: Determines if a ray intersects the volume of a sphere's bounding box.
+description: D3DXSphereBoundProbe function (D3DX10math.h) - Determines if a ray intersects the volume of a sphere's bounding box.
 ms.assetid: 5984a1a6-d36c-4a05-8c74-0ece7443356c
 title: D3DXSphereBoundProbe function (D3DX10math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXSphereBoundProbe function
+# D3DXSphereBoundProbe function (D3DX10math.h)
 
 Determines if a ray intersects the volume of a sphere's bounding box.
 
@@ -88,7 +88,7 @@ Returns **TRUE** if the ray intersects the volume of the sphere's bounding box. 
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

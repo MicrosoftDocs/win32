@@ -1,5 +1,5 @@
 ---
-Description: Lists tasks necessary for creating a network provider.
+description: Lists tasks necessary for creating a network provider.
 ms.assetid: 2383ee2a-182b-4190-989d-be923fcf812b
 title: Using Network Provider API
 ms.topic: article

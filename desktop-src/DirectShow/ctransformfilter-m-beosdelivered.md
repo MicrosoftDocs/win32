@@ -1,5 +1,5 @@
 ---
-Description: Flag that indicates whether the filter has sent an end-of-stream notification.
+description: Flag that indicates whether the filter has sent an end-of-stream notification.
 ms.assetid: 93f897de-04bb-4de4-a612-39b27c7d6f6c
 title: CTransformFilter::m_bEOSDelivered member (Transfrm.h)
 ms.topic: reference
@@ -39,7 +39,7 @@ If the filter pauses when it does not have an input connection, it sends an end-
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transfrm.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

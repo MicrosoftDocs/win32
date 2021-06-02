@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSeek Function"
 title: JetSeek Function
 TOCTitle: JetSeek Function
 ms:assetid: d3d5bfae-dd27-47ab-96c4-6bc9a01a501b
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetSeek Function
 
-The **JetSeek** function efficiently positions a cursor to an index entry that matches the search criteria specified by the search key in that cursor and the specified inequality. A search key must have been previously constructed using [JetMakeKey](gg269329\(v=exchg.10\).md).
+The **JetSeek** function efficiently positions a cursor to an index entry that matches the search criteria specified by the search key in that cursor and the specified inequality. A search key must have been previously constructed using [JetMakeKey](./jetmakekey-function.md).
 
 ```cpp
     JET_ERR JET_API JetSeek(
@@ -106,7 +107,7 @@ A group of bits that contain the options to be used for this call. *Grbit* must 
 
 ### Return Value
 
-This function allows for the return of any [JET_ERRs](gg294092\(v=exchg.10\).md) that are defined in this API. For more information about Jet errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function allows for the return of any [JET_ERRs](./jet-err.md) that are defined in this API. For more information about Jet errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -210,11 +211,10 @@ On failure, the position of the cursor will remain unchanged unless JET_errRecor
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetMakeKey](gg269329\(v=exchg.10\).md)  
-[JetSetIndexRange](gg294112\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetMakeKey](./jetmakekey-function.md)  
+[JetSetIndexRange](./jetsetindexrange-function.md)  
+[JetStopService](./jetstopservice-function.md)

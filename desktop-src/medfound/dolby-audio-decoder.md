@@ -1,5 +1,5 @@
 ---
-Description: The Dolby audio decoder is an MFT that decodes Dolby Digital (AC-3) and Dolby Digital Plus.
+description: The Dolby audio decoder is an MFT that decodes Dolby Digital (AC-3) and Dolby Digital Plus.
 ms.assetid: A968914A-E4C5-4472-8776-C73F5910089A
 title: Dolby Audio Decoder
 ms.topic: reference
@@ -315,7 +315,7 @@ The decoder MFT is registered with the flag **MFT\_ENUM\_FLAG\_FIELDOFUSE**, whi
 
 
 
-|                                     |                                                                                            |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                          |
 | Minimum supported server<br/> | None supported<br/>                                                                  |

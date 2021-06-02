@@ -1,5 +1,5 @@
 ---
-Description: The WriteEnvironmentStrings action modifies the values of environment variables.
+description: The WriteEnvironmentStrings action modifies the values of environment variables.
 ms.assetid: a91c1ffe-1bdd-49bb-aa6a-71667a1ed812
 title: WriteEnvironmentStrings Action
 ms.topic: article

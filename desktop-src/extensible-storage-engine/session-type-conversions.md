@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: Session type conversions"
 title: Session type conversions
 TOCTitle: Session type conversions
 ms:assetid: 699a5362-c72c-34b1-824f-b1dc3b386fee
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [Session](dn351164\(v=exchg.10\).md) type exposes the following members.
+The [Session](./session-class.md) type exposes the following members.
 
 ## Operators
 
@@ -41,7 +42,6 @@ Top
 
 #### Reference
 
-[Session class](dn351164\(v=exchg.10\).md)
+[Session class](./session-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

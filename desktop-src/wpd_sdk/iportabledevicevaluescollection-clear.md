@@ -1,5 +1,5 @@
 ---
-Description: The Clear method releases all items from the collection.
+description: The Clear method releases all items from the collection.
 ms.assetid: 151d1f61-11f0-40f0-8da1-79e9eb2001ce
 title: IPortableDeviceValuesCollection::Clear method (PortableDeviceTypes.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ The method releases all memory that is allocated for the items in the collection
 
 
 
-|                    |                                                                                                    |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>PortableDeviceTypes.h</dt> </dl>   |
 | Library<br/> | <dl> <dt>PortableDeviceGUIDs.lib</dt> </dl> |

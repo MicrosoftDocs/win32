@@ -1,5 +1,5 @@
 ---
-Description: This topic shows example code to manage seeking and rate changes, when using the Media Session for playback.
+description: This topic shows example code to manage seeking and rate changes, when using the Media Session for playback.
 ms.assetid: 50bf4c05-99c0-4cf0-aaca-8ee717cafd12
 title: Seeking, Fast Forward, and Reverse Play
 ms.topic: article

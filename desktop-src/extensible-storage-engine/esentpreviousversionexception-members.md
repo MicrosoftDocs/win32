@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPreviousVersionException members"
 title: EsentPreviousVersionException members
 TOCTitle: EsentPreviousVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPreviousVersionException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.PreviousVersion exceptions.
 
-The [EsentPreviousVersionException](dn319852\(v=exchg.10\).md) type exposes the following members.
+The [EsentPreviousVersionException](./esentpreviousversionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentPreviousVersionException class](dn319852\(v=exchg.10\).md)
+[EsentPreviousVersionException class](./esentpreviousversionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

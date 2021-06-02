@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_BKINFO Structure"
 title: JET_BKINFO Structure
 TOCTitle: JET_BKINFO Structure
 ms:assetid: dfaf1d72-1d5f-4777-91c1-6affb735b092
@@ -64,7 +65,7 @@ The high log generation number associated with this backup event.
 
 ### Remarks
 
-This structure is used inside the [JET_DBINFOMISC](gg294147\(v=exchg.10\).md) structure to represent data about the database backup event.
+This structure is used inside the [JET_DBINFOMISC](./jet-dbinfomisc-structure.md) structure to represent data about the database backup event.
 
 ### Requirements
 
@@ -92,8 +93,7 @@ This structure is used inside the [JET_DBINFOMISC](gg294147\(v=exchg.10\).md) st
 
 ### See Also
 
-[JET_LGPOS](gg294113\(v=exchg.10\).md)  
-[JET_LOGTIME](gg294089\(v=exchg.10\).md)  
-[JET_BKLOGTIME](gg269219\(v=exchg.10\).md)  
-[JET_DBINFOMISC](gg294147\(v=exchg.10\).md)
-
+[JET_LGPOS](./jet-lgpos-structure.md)  
+[JET_LOGTIME](./jet-logtime-structure.md)  
+[JET_BKLOGTIME](./jet-bklogtime-structure.md)  
+[JET_DBINFOMISC](./jet-dbinfomisc-structure.md)

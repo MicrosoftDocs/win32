@@ -1,5 +1,5 @@
 ---
-Description: This section contains the core constants for Tablet PC.
+description: This section contains the core constants for Tablet PC.
 ms.assetid: 6d2ea0ee-d5a2-4b8c-977c-f815c465fdac
 title: Core Tablet PC Constants
 ms.topic: article

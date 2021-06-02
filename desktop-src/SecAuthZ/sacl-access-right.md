@@ -1,5 +1,5 @@
 ---
-Description: The ACCESS\_SYSTEM\_SECURITY access right controls the ability to get or set the SACL in an objects security descriptor. The system grants this access right if the SE\_SECURITY\_NAME privilege is enabled in the access token of the requesting thread.
+description: The ACCESS\_SYSTEM\_SECURITY access right controls the ability to get or set the SACL in an objects security descriptor. The system grants this access right if the SE\_SECURITY\_NAME privilege is enabled in the access token of the requesting thread.
 ms.assetid: 88198243-dae5-49ac-9d54-bfae7a3a0b1a
 title: SACL Access Right
 ms.topic: article

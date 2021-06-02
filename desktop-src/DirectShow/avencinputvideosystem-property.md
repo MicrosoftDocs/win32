@@ -1,5 +1,5 @@
 ---
-Description: Specifies the video system of the source content.
+description: Specifies the video system of the source content.
 ms.assetid: a4ad7ca2-bab0-42f7-a098-a5ff6853b109
 title: AVEncInputVideoSystem property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ The value of this property is a member of the [**eAVEncInputVideoSystem**](/wind
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps \| UWP apps\]<br/>                     |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps \| UWP apps\]<br/>                           |

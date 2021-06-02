@@ -1,5 +1,5 @@
 ---
-Description: The following are the Flicks constants.
+description: The following are the Flicks constants.
 ms.assetid: 21aaf8f0-13b7-4f97-ad4a-3557a7020337
 title: Flicks Constants (Tabflicks.h)
 ms.topic: reference
@@ -23,7 +23,7 @@ The following are the Flicks constants.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                   |

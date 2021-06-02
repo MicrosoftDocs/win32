@@ -1,5 +1,5 @@
 ---
-Description: An abstract class for subclasses that represent a collection of CIM\_ManagedSystemElement objects. These collections allow managed system elements to be grouped for identification purposes and to simplify the association of settings and configurations.
+description: An abstract class for subclasses that represent a collection of CIM\_ManagedSystemElement objects. These collections allow managed system elements to be grouped for identification purposes and to simplify the association of settings and configurations.
 ms.assetid: f47bf1d6-6d89-4d9f-82d1-99a7343481bc
 title: CIM_CollectionOfMSEs class (Hyper-V management)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_CollectionOfMSEs class
+# CIM_CollectionOfMSEs class (Hyper-V management)
 
 An abstract class for subclasses that represent a collection of [**CIM\_ManagedSystemElement**](cim-managedsystemelement.md) objects. These collections allow managed system elements to be grouped for identification purposes and to simplify the association of settings and configurations.
 
@@ -62,7 +62,7 @@ The identification of the collection object. When subclassed, the **CollectionID
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

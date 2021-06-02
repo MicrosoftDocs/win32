@@ -1,5 +1,5 @@
 ---
-Description: The Resume method restarts a paused capture.
+description: IDelaydC::Resume method - The Resume method restarts a paused capture.
 ms.assetid: 4fa47220-d323-407b-9dae-704969f66bdd
 title: IDelaydC::Resume method (Netmon.h)
 ms.topic: reference
@@ -63,7 +63,7 @@ To stop the capture, call [**IDelaydC::Stop**](idelaydc-stop.md).
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

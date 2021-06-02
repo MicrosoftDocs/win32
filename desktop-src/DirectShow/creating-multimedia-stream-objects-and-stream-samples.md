@@ -1,5 +1,5 @@
 ---
-Description: Creating Multimedia Stream Objects and Stream Samples
+description: Creating Multimedia Stream Objects and Stream Samples
 ms.assetid: 1aecdd39-f1b3-490b-b092-86d51439be02
 title: Creating Multimedia Stream Objects and Stream Samples
 ms.topic: article

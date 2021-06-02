@@ -1,5 +1,5 @@
 ---
-Description: The SetFormat method initializes the format block.
+description: The SetFormat method initializes the format block.
 ms.assetid: 71f1c3d4-9c45-4124-8560-378c8f66e710
 title: CMediaType.SetFormat method (Mtype.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ To set the format type, call the [**CMediaType::SetFormatType**](cmediatype-setf
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Mtype.h (include Streams.h)</dt> </dl>                                                                                     |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

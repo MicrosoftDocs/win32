@@ -1,5 +1,5 @@
 ---
-Description: The Seek method sets the start and stop positions of the stream.
+description: The Seek method sets the start and stop positions of the stream.
 ms.assetid: d84476f5-688c-429d-a51b-7020a6316e35
 title: CPullPin.Seek method (Pullpin.h)
 ms.topic: reference
@@ -68,7 +68,7 @@ When the pin first connects, the stop and start positions default to the beginni
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Pullpin.h</dt> </dl>                                                                                                       |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

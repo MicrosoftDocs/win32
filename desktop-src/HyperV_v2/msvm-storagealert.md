@@ -1,5 +1,5 @@
 ---
-Description: Represents an event that is raised each time the OperationalStatus property of the Msvm\_ResourcePool or Msvm\_LogicalDisk class changes.
+description: Represents an event that is raised each time the OperationalStatus property of the Msvm\_ResourcePool or Msvm\_LogicalDisk class changes.
 ms.assetid: 20E7C22A-A151-4EDC-90D8-4BCD53C42355
 title: Msvm_StorageAlert class
 ms.topic: reference
@@ -280,7 +280,7 @@ When a client receives an **Msvm\_StorageAlert** event, if the value of the **Pr
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                                                 |

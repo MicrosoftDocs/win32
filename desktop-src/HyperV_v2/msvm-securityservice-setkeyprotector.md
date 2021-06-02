@@ -1,5 +1,5 @@
 ---
-Description: Sets the key protector for a virtual system.
+description: SetKeyProtector method of the Msvm_SecurityService class - Sets the key protector for a virtual system.
 ms.assetid: 84c114cb-a3a0-44f2-b862-38b05b96bd46
 title: SetKeyProtector method of the Msvm_SecurityService class
 ms.topic: reference
@@ -106,7 +106,7 @@ On success, returns a 0 or 4096; otherwise, returns an error.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1703 \[desktop apps only\]<br/>                                               |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

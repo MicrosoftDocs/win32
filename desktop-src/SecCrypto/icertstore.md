@@ -1,5 +1,5 @@
 ---
-Description: Provides access to the context of a CAPICOM Store object. This context allows the CAPICOM certificate store to be used in other derivations of CryptoAPI.
+description: Provides access to the context of a CAPICOM Store object. This context allows the CAPICOM certificate store to be used in other derivations of CryptoAPI.
 ms.assetid: dc108e2d-d6ec-4972-9c8e-e6e738c25756
 title: ICertStore interface
 ms.topic: reference
@@ -65,7 +65,7 @@ The **ICertStore** interface has these properties.
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

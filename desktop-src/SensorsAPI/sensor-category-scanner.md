@@ -1,5 +1,5 @@
 ---
-Description: The SENSOR\_CATEGORY\_SCANNER category contains sensors that provide information that is obtained by scanning.
+description: The SENSOR\_CATEGORY\_SCANNER category contains sensors that provide information that is obtained by scanning.
 ms.assetid: 98a772c9-2a21-489f-ad8d-3b772b7ff892
 title: SENSOR_CATEGORY_SCANNER (Sensors.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ This category includes the following platform-defined data fields.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | None supported<br/>                                                            |

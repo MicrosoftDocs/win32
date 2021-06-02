@@ -1,5 +1,5 @@
 ---
-Description: Create a signed certificate trust list (CTL) and save it to a certificate store.
+description: Create a signed certificate trust list (CTL) and save it to a certificate store.
 ms.assetid: 82d75d60-2343-413c-ba53-ccee02d1ad41
 title: Creating, Signing, and Storing a CTL
 ms.topic: article

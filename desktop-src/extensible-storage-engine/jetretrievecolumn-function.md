@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetRetrieveColumn Function"
 title: JetRetrieveColumn Function
 TOCTitle: JetRetrieveColumn Function
 ms:assetid: 1e55063f-6033-4416-a9a6-894032fed069
@@ -54,7 +55,7 @@ The cursor to use for this call.
 
 *columnid*
 
-The [JET_COLUMNID](gg294104\(v=exchg.10\).md) of the column to retrieve.
+The [JET_COLUMNID](./jet-columnid.md) of the column to retrieve.
 
 A *columnid* value of 0 (zero) can be given which does not itself refer to any individual column. When *columnid* 0 (zero) is given, all tagged columns, sparse, and multi-valued columns are treated as a single column. This facilitates retrieving all sparse columns that are present in a record.
 
@@ -164,7 +165,7 @@ This parameter is used to provide one or more of the following:
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -259,7 +260,7 @@ On failure, the cursor location is left unchanged and no data is copied into the
 
 This call is used just once to retrieve data of fixed or known size for non-multi-valued columns. However, when column data is of unknown size, this call is typically used twice. It is called first to determine the size of the data so it can allocate the necessary storage space. Then, the same call is made again to retrieve the column data. When the actual number of values is unknown, because a column is multi-valued, the call is typically used three times. First to get the number of values and then twice more to allocate storage and retrieve the actual data.
 
-Retrieving all the values for a multi-valued column can be done by repeatedly calling this function with a pretinfo-\>itagSequence value beginning at 1 and increasing on each subsequent call. The last column value is known to be retrieved when a JET_wrnColumnNull is returned from the function. Note that this method cannot be done if the multi-value column has explicit **NULL** values set in its value sequence, since these values would be skipped. If an application desires to retrieve all multi-valued column values, including those explicitly set to **NULL**, then [JetRetrieveColumns](gg294135\(v=exchg.10\).md) must be used instead of **JetRetrieveColumn**. Note that this function does not return the number of values for a multi-valued function when an *itagSequence* value of 0 (zero) is given. Only [JetRetrieveColumns](gg294135\(v=exchg.10\).md) will return the number of values of a column value when an *itagSequence* value of 0 (zero) is passed.
+Retrieving all the values for a multi-valued column can be done by repeatedly calling this function with a pretinfo-\>itagSequence value beginning at 1 and increasing on each subsequent call. The last column value is known to be retrieved when a JET_wrnColumnNull is returned from the function. Note that this method cannot be done if the multi-value column has explicit **NULL** values set in its value sequence, since these values would be skipped. If an application desires to retrieve all multi-valued column values, including those explicitly set to **NULL**, then [JetRetrieveColumns](./jetretrievecolumns-function.md) must be used instead of **JetRetrieveColumn**. Note that this function does not return the number of values for a multi-valued function when an *itagSequence* value of 0 (zero) is given. Only [JetRetrieveColumns](./jetretrievecolumns-function.md) will return the number of values of a column value when an *itagSequence* value of 0 (zero) is passed.
 
 If this function is called at transaction level 0 (zero), for example, the calling session is not itself in a transaction, then a transaction is opened and closed within the function. The purpose of this is to return consistent results in the case that a long value spans database pages. Note that the transaction is released between function calls and a series of calls to this function when the session is not in a transaction may return data updated after the first call to this function.
 
@@ -303,11 +304,10 @@ When retrieving all tagged, multi-valued, and sparse columns, by setting *column
 
 #### See Also
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_RETINFO](gg294049\(v=exchg.10\).md)  
-[JetSetColumn](gg294051\(v=exchg.10\).md)  
-[JetRetrieveColumns](gg294135\(v=exchg.10\).md)
-
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_RETINFO](./jet-retinfo-structure.md)  
+[JetSetColumn](./jetretrievekey-function.md)  
+[JetRetrieveColumns](./jetretrievecolumns-function.md)

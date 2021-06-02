@@ -1,6 +1,6 @@
 ---
 title: External.appColorButtonShadow
-description: Note This topic describes functionality designed for use by online stores.
+description: Note This topic describes functionality designed for use by online stores. | External.appColorButtonShadow
 ms.assetid: 82ee5b9d-33e5-4622-be68-3922f2469606
 keywords:
 - External.appColorButtonShadow Windows Media Player
@@ -42,7 +42,7 @@ Users can change the color of the Windows Media Player user interface. You can u
 
 
 
-|                    |                                                                                    |
+| Requirement | Value |
 |--------------------|------------------------------------------------------------------------------------|
 | Version<br/> | Windows Media Player 10 or later.<br/>                                       |
 | DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |

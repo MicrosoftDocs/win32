@@ -1,6 +1,6 @@
 ---
 title: emitThenCut (sm4 - asm)
-description: Equivalent to an emit command followed by a cut command.
+description: Equivalent to an emit command followed by a cut command. | emitThenCut (sm4 - asm)
 ms.assetid: 80DE112A-790A-4DDF-A5BE-51F70BD7872C
 ms.topic: reference
 ms.date: 05/31/2018

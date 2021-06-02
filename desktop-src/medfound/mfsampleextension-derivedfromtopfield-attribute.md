@@ -1,5 +1,5 @@
 ---
-Description: Specifies whether a deinterlaced video frame was derived from the upper field or the lower field.
+description: Specifies whether a deinterlaced video frame was derived from the upper field or the lower field.
 ms.assetid: 3710ab94-afb3-44d3-a680-b4a716810ec1
 title: MFSampleExtension_DerivedFromTopField attribute (Mfapi.h)
 ms.topic: reference
@@ -40,7 +40,7 @@ The GUID constant for this attribute is exported from mfuuid.lib.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps \| UWP apps\]<br/>                              |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps \| UWP apps\]<br/>                        |

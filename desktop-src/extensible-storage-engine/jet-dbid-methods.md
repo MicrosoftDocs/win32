@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID methods"
 title: JET_DBID methods
 TOCTitle: JET_DBID methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.JET_DBID
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [JET_DBID](hh596176\(v=exchg.10\).md) type exposes the following members.
+The [JET_DBID](./jet-dbid-structure.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[JET_DBID structure](hh596176\(v=exchg.10\).md)
+[JET_DBID structure](./jet-dbid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

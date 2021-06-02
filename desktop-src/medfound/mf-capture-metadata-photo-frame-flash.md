@@ -1,5 +1,5 @@
 ---
-Description: Indicates if a flash was triggered for the captured frame.
+description: Indicates if a flash was triggered for the captured frame.
 ms.assetid: CF900CB4-8967-40F3-B60C-867192A641E9
 title: MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH attribute (Mfapi.h)
 ms.topic: reference
@@ -30,7 +30,7 @@ Indicates if a flash was triggered for the captured frame.
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1 \[desktop apps only\]<br/>                                       |
 | Minimum supported server<br/> | Windows Server 2012 R2 \[desktop apps only\]<br/>                            |

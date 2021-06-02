@@ -1,5 +1,5 @@
 ---
-Description: Instructs the IME window to show the status window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
+description: Instructs the IME window to show the status window. To send this command, the application uses the WM\_IME\_CONTROL message with the parameter settings shown below.
 ms.assetid: 8c422592-ef59-4030-b684-81e4e552c6b0
 title: IMC_OPENSTATUSWINDOW command (Imm.h)
 ms.topic: reference
@@ -49,7 +49,7 @@ If the status window is already shown, this command does nothing. Although the a
 
 
 
-|                                     |                                                                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                 |

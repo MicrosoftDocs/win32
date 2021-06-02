@@ -1,5 +1,5 @@
 ---
-Description: Alphabetical List of DirectShow Interfaces
+description: Alphabetical List of DirectShow Interfaces
 ms.assetid: 9c7f56f4-92af-40c6-8124-f2715ac3f6d7
 title: Alphabetical List of DirectShow Interfaces
 ms.topic: article

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetSetLS Function"
 title: JetSetLS Function
 TOCTitle: JetSetLS Function
 ms:assetid: 4fc77e09-7173-42e8-9dfd-9a8d8de2fb9b
@@ -94,7 +95,7 @@ A group of bits that contain the options to be used for this call, which include
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -154,9 +155,9 @@ On failure, no change to the state of the requested object has occurred. No chan
 
 #### Remarks
 
-The Local Storage for a cursor or table should be viewed as a volatile cache. The application should first try to retrieve the context handle using [JetGetLS](gg269234\(v=exchg.10\).md). If the value is not set (that is it is JET_LSNil) then the application should create a new context and load it into the cache using **JetSetLS**. The application can purge the cache using a call to [JetGetLS](gg269234\(v=exchg.10\).md) with JET_bitLSReset. If the database engine purges the cache then a runtime callback will be generated to give the application a chance to cleanup that context. The callback type will be JET_cbtypFreeCursorLS for a context handle associated with a cursor and JET_cbtypFreeTableLS for a context handle associated with a table. In either case, the context handle will be passed as pvArg1. See [JET_CALLBACK](gg294098\(v=exchg.10\).md) for more information.
+The Local Storage for a cursor or table should be viewed as a volatile cache. The application should first try to retrieve the context handle using [JetGetLS](./jetgetls-function.md). If the value is not set (that is it is JET_LSNil) then the application should create a new context and load it into the cache using **JetSetLS**. The application can purge the cache using a call to [JetGetLS](./jetgetls-function.md) with JET_bitLSReset. If the database engine purges the cache then a runtime callback will be generated to give the application a chance to cleanup that context. The callback type will be JET_cbtypFreeCursorLS for a context handle associated with a cursor and JET_cbtypFreeTableLS for a context handle associated with a table. In either case, the context handle will be passed as pvArg1. See [JET_CALLBACK](./jet-callback-callback-function.md) for more information.
 
-The runtime callback must be properly configured for the instance associated with the given session before Local Storage can be used. This callback can be set using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with [JET_paramRuntimeCallback](gg269310\(v=exchg.10\).md). See [JetSetSystemParameter](gg294044\(v=exchg.10\).md) and [JET_paramRuntimeCallback](gg269310\(v=exchg.10\).md) in System Parameters for more information.
+The runtime callback must be properly configured for the instance associated with the given session before Local Storage can be used. This callback can be set using [JetSetSystemParameter](./jetsetsystemparameter-function.md) with [JET_paramRuntimeCallback](./callback-parameters.md). See [JetSetSystemParameter](./jetsetsystemparameter-function.md) and [JET_paramRuntimeCallback](./callback-parameters.md) in System Parameters for more information.
 
 #### Requirements
 
@@ -192,13 +193,12 @@ The runtime callback must be properly configured for the instance associated wit
 
 #### See Also
 
-[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_LS](gg269336\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetLS](gg269234\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_CALLBACK](./jet-callback-callback-function.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_LS](./jet-ls.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetLS](./jetgetls-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

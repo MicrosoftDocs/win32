@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetOpenTempTable2 Function"
 title: JetOpenTempTable2 Function
 TOCTitle: JetOpenTempTable2 Function
 ms:assetid: 788ec4f9-b0c3-409b-850c-7567dec47024
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetOpenTempTable2 Function
 
-The **JetOpenTempTable2** function creates a temporary table with a single index that can be used to store and retrieve records just like an ordinary table created using [JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md). This function also has a Locale ID that can be used to compare Unicode key column data in the temporary table. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner.
+The **JetOpenTempTable2** function creates a temporary table with a single index that can be used to store and retrieve records just like an ordinary table created using [JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md). This function also has a Locale ID that can be used to compare Unicode key column data in the temporary table. However, temporary tables are much faster than ordinary tables due to their volatile nature. They can also be used to very quickly sort and perform duplicate removal on record sets when accessed in a purely sequential manner.
 
 ```cpp
     JET_ERR JET_API JetOpenTempTable2(
@@ -171,7 +172,7 @@ The column IDs in this array will exactly correspond to the input array of colum
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -279,7 +280,7 @@ On failure, the temporary table will not be created and a cursor will not be ret
 
 #### Remarks
 
-See [JetOpenTempTable](gg269211\(v=exchg.10\).md).
+See [JetOpenTempTable](./jetopentemptable-function.md).
 
 #### Requirements
 
@@ -315,19 +316,18 @@ See [JetOpenTempTable](gg269211\(v=exchg.10\).md).
 
 #### See Also
 
-[JET_COLUMNDEF](gg294130\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JET_UNICODEINDEX](gg294097\(v=exchg.10\).md)  
-[JetCloseTable](gg294087\(v=exchg.10\).md)  
-[JetCreateTableColumnIndex](gg269343\(v=exchg.10\).md)  
-[JetDupCursor](gg269193\(v=exchg.10\).md)  
-[JetMove](gg294117\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSeek](gg294103\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[System Parameters](gg294139\(v=exchg.10\).md)
-
+[JET_COLUMNDEF](./jet-columndef-structure.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ERR](./jet-err.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JET_UNICODEINDEX](./jet-unicodeindex-structure.md)  
+[JetCloseTable](./jetclosetable-function.md)  
+[JetCreateTableColumnIndex](./jetcreatetablecolumnindex-function.md)  
+[JetDupCursor](./jetdupcursor-function.md)  
+[JetMove](./jetmove-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSeek](./jetseek-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[System Parameters](./extensible-storage-engine-system-parameters.md)

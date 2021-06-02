@@ -1,5 +1,5 @@
 ---
-Description: Displays the Shut Down Windows dialog box. This is the same as clicking the Start menu and selecting Shut Down.
+description: IShellDispatch.ShutdownWindows method - Displays the Shut Down Windows dialog box. This is the same as clicking the Start menu and selecting Shut Down.
 ms.assetid: 3C4F6579-6398-4af4-8911-FE22555B0ABC
 title: IShellDispatch.ShutdownWindows method (Shldisp.h)
 ms.topic: reference
@@ -112,7 +112,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

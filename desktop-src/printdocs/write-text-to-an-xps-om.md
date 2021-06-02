@@ -1,5 +1,5 @@
 ---
-Description: This topic describes how to write text to an XPS OM.
+description: This topic describes how to write text to an XPS OM.
 ms.assetid: 5552b7b0-1c95-43fa-ad06-c167c69c5a56
 title: Write Text to an XPS OM
 ms.topic: article
@@ -272,7 +272,7 @@ The final section of the code example creates the glyph runs for each run of sim
 [XPS Document API Reference](xps-programming-reference.md)
 </dt> <dt>
 
-[XML Paper Specification](https://www.microsoft.com/download/details.aspx?id=11816)
+[XML Paper Specification](https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf)
 </dt> </dl>
 
  

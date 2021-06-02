@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_SETCOLUMN class"
 title: JET_SETCOLUMN class
 TOCTitle: JET_SETCOLUMN class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_SETCOLUMN
@@ -28,14 +29,14 @@ ROBOTS: INDEX,FOLLOW
 
 # JET_SETCOLUMN class
 
-Contains input and output parameters for [JetSetColumns(JET_SESID, JET_TABLEID, \[\], Int32)](dn334006\(v=exchg.10\).md). Fields in the structure describe what column value to set, how to set it, and where to get the column set data.
+Contains input and output parameters for [JetSetColumns(JET_SESID, JET_TABLEID, \[\], Int32)](./api.jetsetcolumns-method.md). Fields in the structure describe what column value to set, how to set it, and where to get the column set data.
 
 ## Inheritance hierarchy
 
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_SETCOLUMN  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,6 +62,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_SETCOLUMN members](dn335261\(v=exchg.10\).md)
+[JET_SETCOLUMN members](./jet-setcolumn-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

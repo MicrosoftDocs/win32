@@ -1,5 +1,5 @@
 ---
-Description: The ActionText Table contains text to be displayed in a progress dialog box, and written to the log for actions that take a long time to execute. The displayed text consists of the action description and optionally formatted data from the action.
+description: The ActionText Table contains text to be displayed in a progress dialog box, and written to the log for actions that take a long time to execute. The displayed text consists of the action description and optionally formatted data from the action.
 ms.assetid: 88d18422-77d0-4929-9341-d078843cb2a9
 title: ActionText Table
 ms.topic: article

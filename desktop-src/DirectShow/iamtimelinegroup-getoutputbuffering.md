@@ -1,5 +1,5 @@
 ---
-Description: The GetOutputBuffering method retrieves the number of frames rendered in advance during preview.
+description: The GetOutputBuffering method retrieves the number of frames rendered in advance during preview.
 ms.assetid: 93cb8d18-f1b7-48f9-af41-97f010304b05
 title: IAMTimelineGroup::GetOutputBuffering method (Qedit.h)
 ms.topic: reference
@@ -67,7 +67,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

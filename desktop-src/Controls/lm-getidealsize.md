@@ -1,6 +1,6 @@
 ---
 title: LM_GETIDEALSIZE message (Commctrl.h)
-description: Retrieves the preferred height of a link for the control's current width.
+description: LM_GETIDEALSIZE message - Retrieves the preferred height of a link for the control's current width.
 ms.assetid: 63aad7eb-26ee-41d2-90d4-65fdcf0f182a
 keywords:
 - LM_GETIDEALSIZE message Windows Controls
@@ -45,7 +45,7 @@ Integer that represents the preferred height of the link text, in pixels.
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                  |

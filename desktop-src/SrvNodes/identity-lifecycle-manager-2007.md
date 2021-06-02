@@ -1,5 +1,5 @@
 ---
-Description: Identity Lifecycle Manager 2007
+description: Identity Lifecycle Manager 2007
 ms.assetid: 9fd54c51-dcb3-48af-a22d-620f56aeef66
 title: Identity Lifecycle Manager 2007
 ms.topic: reference

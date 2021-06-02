@@ -1,5 +1,5 @@
 ---
-Description: Contains the number of items in the collection.
+description: FolderItems.Count property - Contains the number of items in the collection.
 ms.assetid: 383382d5-7e3f-4b27-bebf-6b79dbe677b8
 title: FolderItems.Count property (Shldisp.h)
 ms.topic: reference
@@ -140,7 +140,7 @@ End Sub
 
 
 
-|                                     |                                                                                                                |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                           |

@@ -1,5 +1,5 @@
 ---
-Description: When a module supports multiple languages, you can merge it into the same Windows Installer database multiple times, but make sure that each merge uses a different language.
+description: When a module supports multiple languages, you can merge it into the same Windows Installer database multiple times, but make sure that each merge uses a different language.
 ms.assetid: 816b1f52-1ca2-4332-9a9b-462ea372c3bb
 title: Merging a Multiple Language Module into the Same Package Multiple Times
 ms.topic: article

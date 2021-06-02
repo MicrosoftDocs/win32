@@ -1,5 +1,5 @@
 ---
-Description: To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific namespace.
+description: To get data from WMI, either on the local computer or from a remote computer, you must connect to the WMI service by connecting to a specific namespace.
 ms.assetid: 71ff6b06-af7d-43ee-ae6e-1964ec249472
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Connecting to the WMI Service'

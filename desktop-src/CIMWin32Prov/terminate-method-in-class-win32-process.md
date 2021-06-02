@@ -1,5 +1,5 @@
 ---
-Description: The Terminate&\#32;WMI class method terminates a process and all of its threads.
+description: The Terminate&\#32;WMI class method terminates a process and all of its threads.
 ms.assetid: 6c6b27d4-cf9b-42d7-9136-42641ea56ee8
 ms.tgt_platform: multiple
 title: Terminate method of the Win32_Process class
@@ -383,7 +383,7 @@ int main(int iArgCnt, char ** argv)
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

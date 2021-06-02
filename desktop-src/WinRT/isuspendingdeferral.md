@@ -1,5 +1,5 @@
 ---
-Description: Manages a delayed app suspending operation.
+description: Manages a delayed app suspending operation.
 ms.assetid: 9F40659E-9B16-4FC9-B320-5679BB8A8161
 title: ISuspendingDeferral interface (Windows.ApplicationModel.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ The **ISuspendingDeferral** interface has these methods.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

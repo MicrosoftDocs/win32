@@ -1,5 +1,5 @@
 ---
-Description: ICE96 verifies that the PublishFeatures action and the PublishProduct action are entered in the AdvtExecuteSequence table. A package cannot be advertised without these actions.
+description: ICE96 verifies that the PublishFeatures action and the PublishProduct action are entered in the AdvtExecuteSequence table. A package cannot be advertised without these actions.
 ms.assetid: 577e7800-b07a-411a-ac47-b1899fddef34
 title: ICE96
 ms.topic: article

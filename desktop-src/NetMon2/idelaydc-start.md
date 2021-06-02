@@ -1,5 +1,5 @@
 ---
-Description: The Start method starts a capture.
+description: IDelaydC::Start method - The Start method starts a capture.
 ms.assetid: 92b25afc-d5d8-47e4-a155-4ed2a3571038
 title: IDelaydC::Start method (Netmon.h)
 ms.topic: reference
@@ -76,7 +76,7 @@ To restart the capture by using **IDelaydC::Start** and [**IDelaydC::Stop**](ide
 
 
 
-|                                     |                                                                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                                                               |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                                                                     |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnValueOfStruct<T>.Value property"
 title: ColumnValueOfStruct(T).Value property 
 TOCTitle: 'Value property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnValueOfStruct`1.Value
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets or sets the value in the struct.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -57,14 +58,14 @@ public Nullable<T> Value { get; set; }
 
 #### Property value
 
-Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[T](dn334171\(v=exchg.10\).md)\>  
+Type: [System.Nullable](/dotnet/api/system.nullable-1)\<[T](./columnvalueofstruct-t-class.md)\>  
 
 ## See also
 
 #### Reference
 
-[ColumnValueOfStruct\<T\> class](dn334171\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> class](./columnvalueofstruct-t-class.md)
 
-[ColumnValueOfStruct\<T\> members](dn334217\(v=exchg.10\).md)
+[ColumnValueOfStruct\<T\> members](./columnvalueofstruct-t-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

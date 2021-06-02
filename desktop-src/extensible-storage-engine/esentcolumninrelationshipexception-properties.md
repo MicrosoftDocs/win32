@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnInRelationshipException properties"
 title: EsentColumnInRelationshipException properties
 TOCTitle: EsentColumnInRelationshipException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnInRelationshipException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnInRelationshipException](dn334259\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnInRelationshipException](./esentcolumninrelationshipexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentColumnInRelationshipException class](dn334259\(v=exchg.10\).md)
+[EsentColumnInRelationshipException class](./esentcolumninrelationshipexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

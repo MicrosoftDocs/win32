@@ -1,5 +1,5 @@
 ---
-Description: ProfileCreationType (in MBNProfileExt)
+description: ProfileCreationType (in MBNProfileExt)
 MS-HAID: WWAN\_profile\_v4.element\_ProfileCreationType
 MSHAttr:
 - PreferredSiteName:MSDN

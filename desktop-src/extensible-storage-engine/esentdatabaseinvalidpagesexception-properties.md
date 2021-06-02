@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPagesException properties"
 title: EsentDatabaseInvalidPagesException properties
 TOCTitle: EsentDatabaseInvalidPagesException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseInvalidPagesException](dn334339\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInvalidPagesException](./esentdatabaseinvalidpagesexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInvalidPagesException class](dn334339\(v=exchg.10\).md)
+[EsentDatabaseInvalidPagesException class](./esentdatabaseinvalidpagesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

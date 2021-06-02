@@ -941,6 +941,15 @@
       href: jeterrformattedmessage.md
     - name: "JetErrRawMessage"
       href: jeterrrawmessage.md
+  - name: "MSDelta"
+    href: msdelta.md
+    items: 
+    - name: "ApplyDeltaB"
+      href: msdelta-applydeltab.md
+    - name: "CreateDeltaB"
+      href: msdelta-createdeltab.md
+    - name: "DeltaFree"
+      href: msdelta-deltafree.md
   - name: "MSN"
     href: msn.md
     items: 

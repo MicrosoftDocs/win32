@@ -1,5 +1,5 @@
 ---
-Description: Using the Device Context Functions
+description: Using the Device Context Functions
 ms.assetid: 50a66d66-07e5-4cde-ae0b-13f626644719
 title: Using the Device Context Functions
 ms.topic: article

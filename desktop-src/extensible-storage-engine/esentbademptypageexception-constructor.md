@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadEmptyPageException constructor"
 title: EsentBadEmptyPageException constructor 
 TOCTitle: 'EsentBadEmptyPageException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBadEmptyPageException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBadEmptyPageException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentBadEmptyPageException()
 
 #### Reference
 
-[EsentBadEmptyPageException class](dn274059\(v=exchg.10\).md)
+[EsentBadEmptyPageException class](./esentbademptypageexception-class.md)
 
-[EsentBadEmptyPageException members](dn274013\(v=exchg.10\).md)
+[EsentBadEmptyPageException members](./esentbademptypageexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

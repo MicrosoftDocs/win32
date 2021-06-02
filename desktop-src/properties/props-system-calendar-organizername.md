@@ -1,5 +1,5 @@
 ---
-Description: The name of the event organizer.
+description: The name of the event organizer.
 ms.assetid: cee193d6-f683-44c0-90d2-f793c76eff3e
 title: System.Calendar.OrganizerName
 ms.topic: article

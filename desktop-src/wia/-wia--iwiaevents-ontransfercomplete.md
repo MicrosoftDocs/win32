@@ -1,5 +1,5 @@
 ---
-Description: Event that occurs when a data transfer is completed successfully.
+description: Event that occurs when a data transfer is completed successfully.
 ms.assetid: 6110867b-21e2-48ab-97ad-0e084a0ccf07
 title: Wia.OnTransferComplete event
 ms.topic: reference
@@ -63,7 +63,7 @@ For example, you might want a script to display an image after it is transferred
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

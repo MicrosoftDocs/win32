@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_InstalledOS association class represents a link between the computer system and the installed operating system.
+description: The CIM\_InstalledOS association class represents a link between the computer system and the installed operating system.
 ms.assetid: 6db5b5a2-91b6-4540-83b8-bb9c86c7f94e
 ms.tgt_platform: multiple
 title: CIM_InstalledOS class
@@ -114,7 +114,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

@@ -1,5 +1,5 @@
 ---
-Description: Retrieving Supported Service Events
+description: Retrieving Supported Service Events
 ms.assetid: 1bf3aa08-7ffc-417f-a67e-9eee042337b9
 title: Retrieving Supported Service Events
 ms.topic: article
@@ -12,9 +12,8 @@ The WpdServicesApiSample application includes code that demonstrates how an appl
 
 
 
-|                                                                                      |                                                                                                       |
+| Interface                | Description    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Interface                                                                            | Description                                                                                           |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | Used to retrieve the **IPortableDeviceServiceCapabilities** interface to access the supported events. |
 | [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | Provides access to the supported events and event attributes.                                         |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | Contains the list of supported events.                                                                |

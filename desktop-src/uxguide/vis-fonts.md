@@ -9,7 +9,7 @@ ms.date: 10/20/2020
 # Fonts
 
 > [!NOTE]
-> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](https://docs.microsoft.com/windows/uwp/design/).
+> This design guide was created for Windows 7 and has not been updated for newer versions of Windows. Much of the guidance still applies in principle, but the presentation and examples do not reflect our [current design guidance](/windows/uwp/design/).
 
 Users interact with text more than with any other element in Microsoft Windows. Segoe UI (pronounced "SEE-go") is the Windows system font. The standard font size has been increased to 9 point.
 
@@ -31,7 +31,7 @@ A variation of Meiryo, called Meiryo UI, is preferred in the [ribbons](cmd-ribbo
 
 To support locales using these character sets, Segoe UI is replaced with the correct fonts depending on each locale during the [localization](glossary.md) process.
 
-To license Segoe UI and other Microsoft fonts for distribution with a Windows-based program, contact [Ascender](https://www.ascendercorp.com/msfonts/msfonts_main.mdl).
+To license Segoe UI and other Microsoft fonts for distribution with a Windows-based program, contact [Monotype](https://www.monotype.com/).
 
 **Note:** Guidelines related to [style and tone](text-style-tone.md) and [user interface text](text-ui.md) are presented in separate articles.
 
@@ -180,6 +180,4 @@ Text has several usage patterns:
     -   **Bold italic.** Don't use.
     -   **Underline.** Don't use except for links. Use italic instead for emphasis.
 -   Not all fonts support bold and italic, so they should never be crucial to understanding the text.
-
- 
 

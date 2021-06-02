@@ -1,5 +1,5 @@
 ---
-Description: The Billboard table lists the Billboard controls displayed in the full user interface.
+description: The Billboard table lists the Billboard controls displayed in the full user interface.
 ms.assetid: bb8c1d7c-aa1d-43cc-9fb4-3a0ad75c4615
 title: Billboard Table
 ms.topic: article

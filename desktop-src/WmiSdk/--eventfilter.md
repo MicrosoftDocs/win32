@@ -1,5 +1,5 @@
 ---
-Description: The registration of a permanent event consumer requires an instance of the \_\_EventFilter system class.
+description: The registration of a permanent event consumer requires an instance of the \_\_EventFilter system class.
 ms.assetid: 369d3c28-2b69-456f-9144-d7c73e3123bc
 ms.tgt_platform: multiple
 title: '__EventFilter class'
@@ -158,7 +158,7 @@ The [Create Permanent WMI Event registration to monitor files](https://Gallery.T
 
 
 
-|                                     |                                |
+| Requirement | Value |
 |-------------------------------------|--------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>       |
 | Minimum supported server<br/> | Windows Server 2008<br/> |

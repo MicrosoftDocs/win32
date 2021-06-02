@@ -1,5 +1,5 @@
 ---
-Description: Retrieves DDE share information. This is usually done for editing.
+description: Retrieves DDE share information. This is usually done for editing.
 ms.assetid: a2e48a4d-2b72-40a3-b827-474da1db0910
 title: NDdeShareGetInfo function (Nddeapi.h)
 ms.topic: reference
@@ -103,7 +103,7 @@ If the function fails, the return value is an error code, which can be translate
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                             |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                   |

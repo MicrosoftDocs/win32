@@ -1,6 +1,6 @@
 ---
 title: WPD samples
-Description: Samples
+description: Samples
 ms.assetid: f84f22ab-37df-45df-b85b-7cc4887c2550
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-Description: The StylusInput APIs allow you to interact with the tablet pen data stream. To interact with the data stream add a RealTimeStylus object to your application, and add plug-ins to the RealTimeStylus object.
+description: The StylusInput APIs allow you to interact with the tablet pen data stream. To interact with the data stream add a RealTimeStylus object to your application, and add plug-ins to the RealTimeStylus object.
 ms.assetid: 88bab0ab-df9f-4813-9a9f-9a137813f0b4
 title: Architecture of the StylusInput APIs
 ms.topic: article

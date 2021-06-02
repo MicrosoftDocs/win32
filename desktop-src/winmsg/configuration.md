@@ -1,12 +1,12 @@
 ---
-Description: Configuration
+description: Configuration
 ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
 title: Configuration (Windows and Messages)
 ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Configuration
+# Configuration (Windows and Messages)
 
 *Display elements* are the parts of a window and the display that appear on the system display screen. *System metrics* are the dimensions of various display elements. Typical system metrics include the window border width, icon height, and so on. System metrics also describe other aspects of the system, such as whether a mouse is installed, double-byte characters are supported, or a debugging version of the operating system is installed. The [**GetSystemMetrics**](/windows/win32/api/winuser/nf-winuser-getsystemmetrics) function retrieves the specified system metric.
 

@@ -1,5 +1,5 @@
 ---
-Description: Suggests the security policy to be applied to the browser.
+description: Suggests the security policy to be applied to the browser.
 ms.assetid: 73541611-2024-4c33-ab03-e3204244c46c
 title: IItemPreviewerExt::SuggestBrowserPolicy method
 ms.topic: reference
@@ -70,7 +70,7 @@ Using the **BROWSERPOLICY\_UNTRUSTED\_CONTENT** flag is strongly recommended to 
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP with SP2 \[desktop apps only\]<br/> |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

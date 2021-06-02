@@ -1,5 +1,5 @@
 ---
-Description: COPP Command Reference
+description: COPP Command Reference
 ms.assetid: b21db1cf-cac3-41d6-8189-6e01c8f91a7d
 title: COPP Command Reference
 ms.topic: article

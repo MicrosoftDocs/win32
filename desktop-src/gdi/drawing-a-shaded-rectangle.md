@@ -1,5 +1,5 @@
 ---
-Description: To draw a shaded rectangle, define a TRIVERTEX array with two elements and a single GRADIENT\_RECT structure. The following code example shows how to draw a shaded rectangle using the GradientFill function with the GRADIENT\_FILL\_RECT mode defined.
+description: To draw a shaded rectangle, define a TRIVERTEX array with two elements and a single GRADIENT\_RECT structure. The following code example shows how to draw a shaded rectangle using the GradientFill function with the GRADIENT\_FILL\_RECT mode defined.
 ms.assetid: a4277e22-03f8-470f-87e9-5aeab258b6d2
 title: Drawing a Shaded Rectangle
 ms.topic: article

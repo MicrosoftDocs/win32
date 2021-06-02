@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.Photo.Flash property.
+description: The photo metadata policy for the System.Photo.Flash property.
 ms.assetid: 24b400a4-f4c7-4b59-a9e3-8a20144cd52e
 title: System.Photo.Flash Photo Metadata Policy
 ms.topic: article

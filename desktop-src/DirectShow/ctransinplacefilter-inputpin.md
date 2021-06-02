@@ -1,5 +1,5 @@
 ---
-Description: The InputPin method retrieves a pointer to the filter's input pin.
+description: The InputPin method retrieves a pointer to the filter's input pin.
 ms.assetid: 533a962e-225d-4f10-a9c3-1464bea512ba
 title: CTransInPlaceFilter.InputPin method (Transip.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the [**CTransformFilter::m\_pInput**](ctransformfilter-m-pinput.md) memb
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Transip.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

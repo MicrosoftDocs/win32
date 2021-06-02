@@ -22,7 +22,7 @@ A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-COM-DefaultPartitionLink             |
 | Ldap-Display-Name | msCOM-DefaultPartitionLink              |
@@ -47,7 +47,7 @@ A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -68,7 +68,7 @@ A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -89,7 +89,7 @@ A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -110,7 +110,7 @@ A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |
@@ -131,7 +131,7 @@ A link used to identify the 'default' COM+ partition in a COM+ PartitionSet.
 
 
 
-|                        |                                                                |
+| Entry | Value |
 |------------------------|----------------------------------------------------------------|
 | Link-Id                | \-                                                             |
 | MAPI-Id                | \-                                                             |

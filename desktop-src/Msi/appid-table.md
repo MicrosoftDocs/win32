@@ -1,5 +1,5 @@
 ---
-Description: The AppId table or the Registry table specifies that the installer configure and register DCOM servers to do one of the following during an installation.
+description: The AppId table or the Registry table specifies that the installer configure and register DCOM servers to do one of the following during an installation.
 ms.assetid: d76ed6df-944b-4996-bf07-e42ceb7a1b69
 title: AppId Table
 ms.topic: article

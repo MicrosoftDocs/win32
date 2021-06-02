@@ -1,5 +1,5 @@
 ---
-Description: Computes a hash to use during certificate authentication.
+description: Computes a hash to use during certificate authentication.
 ms.assetid: f4a12464-8ad6-4bf9-8b6e-49bdf5332b66
 title: SslComputeClientAuthHash function (Sslprovider.h)
 ms.topic: reference
@@ -125,7 +125,7 @@ The manner in which the hash is computed depends on the protocol and cipher suit
 
 
 
-|                                     |                                                                                          |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                           |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                     |

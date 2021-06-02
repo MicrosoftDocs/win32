@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCannotDeleteTemplateTableException members"
 title: EsentCannotDeleteTemplateTableException members
 TOCTitle: EsentCannotDeleteTemplateTableException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCannotDeleteTemplateTableException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CannotDeleteTemplateTable exceptions.
 
-The [EsentCannotDeleteTemplateTableException](dn274084\(v=exchg.10\).md) type exposes the following members.
+The [EsentCannotDeleteTemplateTableException](./esentcannotdeletetemplatetableexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCannotDeleteTemplateTableException class](dn274084\(v=exchg.10\).md)
+[EsentCannotDeleteTemplateTableException class](./esentcannotdeletetemplatetableexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_TemperatureSensor class exists for backward compatibility with earlier CIM schema definitions.
+description: The CIM\_TemperatureSensor class exists for backward compatibility with earlier CIM schema definitions.
 ms.assetid: ddef21db-e33a-4e2b-ac31-df3f0acd6fc2
 ms.tgt_platform: multiple
 title: CIM_TemperatureSensor class
@@ -1486,7 +1486,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

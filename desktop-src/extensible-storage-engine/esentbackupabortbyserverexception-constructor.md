@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBackupAbortByServerException constructor"
 title: EsentBackupAbortByServerException constructor 
 TOCTitle: 'EsentBackupAbortByServerException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentBackupAbortByServerException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentBackupAbortByServerException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentBackupAbortByServerException()
 
 #### Reference
 
-[EsentBackupAbortByServerException class](dn274014\(v=exchg.10\).md)
+[EsentBackupAbortByServerException class](./esentbackupabortbyserverexception-class.md)
 
-[EsentBackupAbortByServerException members](dn334241\(v=exchg.10\).md)
+[EsentBackupAbortByServerException members](./esentbackupabortbyserverexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

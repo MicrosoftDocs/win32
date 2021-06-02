@@ -1,5 +1,5 @@
 ---
-Description: Determines if a locale specified by name is installed or supported on the operating system.
+description: Determines if a locale specified by name is installed or supported on the operating system.
 ms.assetid: 6df92e4d-d78e-48b5-9515-18f0497de95b
 title: RtlIsValidLocaleName function (Ntrtl.h)
 ms.topic: reference
@@ -66,7 +66,7 @@ This function is similar to [**IsValidLocaleName**](/windows/desktop/api/Winnls/
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                          |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                    |

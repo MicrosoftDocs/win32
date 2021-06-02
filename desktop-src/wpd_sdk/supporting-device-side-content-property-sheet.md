@@ -1,6 +1,6 @@
 ---
 title: Supporting device-side content (PropertySheet)
-Description: Supporting Device-Side Content
+description: Supporting Device-Side Content
 ms.assetid: ea11f8e6-fb53-46e4-b210-2dae33cdc056
 ms.topic: article
 ms.date: 05/31/2018

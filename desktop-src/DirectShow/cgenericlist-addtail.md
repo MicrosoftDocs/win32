@@ -1,7 +1,7 @@
 ---
-Description: The AddTail method appends an item to the end of the list.
+description: The AddTail method appends an item to the end of the list.
 ms.assetid: e365a23e-7447-42ec-b836-21dd68962db1
-title: CGenericList.AddTail method (Wxlist.h)
+title: CGenericList.AddTail method (Wxlist.h) - pObj parameter
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type: 
@@ -18,7 +18,7 @@ api_location:
 - Strmbasd.dll
 ---
 
-# CGenericList.AddTail method
+# CGenericList.AddTail method (Wxlist.h) - pObj parameter
 
 The `AddTail` method appends an item to the end of the list.
 
@@ -50,14 +50,10 @@ Returns a POSITION value for the new tail position. If the method fails, it retu
 
 ## Requirements
 
-
-
-|                    |                                                                                                                                                                                            |
-|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
-| Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |
-
-
+| Requirement | Value |
+|-|-|
+| Header | Wxlist.h (include Streams.h) |
+| Library| Strmbase.lib (retail builds); Strmbasd.lib (debug builds) |
 
 ## See also
 

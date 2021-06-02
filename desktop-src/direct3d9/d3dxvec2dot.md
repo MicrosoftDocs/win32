@@ -1,5 +1,5 @@
 ---
-Description: Determines the dot product of two 2D vectors.
+description: Determines the dot product of two 2D vectors.
 ms.assetid: ae77ff29-44be-4b67-9c63-aaffa4fe8d59
 title: D3DXVec2Dot function (D3dx9math.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ The dot product.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

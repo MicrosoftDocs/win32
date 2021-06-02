@@ -1,5 +1,5 @@
 ---
-Description: Product ID from the USB device's USB Device Descriptor.
+description: Product ID from the USB device's USB Device Descriptor.
 ms.assetid: 74246827-8f32-4292-9ca1-ecbf7c08299e
 title: System.DeviceInterface.WinUsb.UsbProductId
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The following table describes IPPROTO\_UDP socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the protocol parameter to the socket function specified as UDP (IPPROTO\_UDP).
+description: The following table describes IPPROTO\_UDP socket options that apply to sockets created for the IPv4 and IPv6 address families (AF\_INET and AF\_INET6) with the protocol parameter to the socket function specified as UDP (IPPROTO\_UDP).
 ms.assetid: 579448a1-22af-488f-a1f5-97ba69a15524
 title: IPPROTO_UDP socket options
 ms.topic: article
@@ -31,6 +31,6 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 ## Requirements
 
-| | |
+| Requirement | Value |
 |-|-|
 | Header<br/> | <dl> <dt>ws2ipdef.h (include ws2tcpip.h), and ws2tcpip.h</dt> <dt>Winsock2.h on Windows Server 2003, Windows XP, and Windows 2000</dt> </dl> |

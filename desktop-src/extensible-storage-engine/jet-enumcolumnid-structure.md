@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_ENUMCOLUMNID Structure"
 title: JET_ENUMCOLUMNID Structure
 TOCTitle: JET_ENUMCOLUMNID Structure
 ms:assetid: 5480ebf1-4fc9-49b5-bbb3-12542b86c8f1
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_ENUMCOLUMNID Structure
 
-The **JET_ENUMCOLUMNID** structure enumerates a specific set of columns and, optionally, a specific set of multiple values for those columns when the [JetEnumerateColumns](gg269321\(v=exchg.10\).md) function is used. [JetEnumerateColumns](gg269321\(v=exchg.10\).md) returns an array of **JET_ENUMCOLUMNID** structures.
+The **JET_ENUMCOLUMNID** structure enumerates a specific set of columns and, optionally, a specific set of multiple values for those columns when the [JetEnumerateColumns](./jetenumeratecolumns-function.md) function is used. [JetEnumerateColumns](./jetenumeratecolumns-function.md) returns an array of **JET_ENUMCOLUMNID** structures.
 
 ```cpp
     typedef struct {
@@ -40,7 +41,7 @@ The **JET_ENUMCOLUMNID** structure enumerates a specific set of columns and, opt
 
 The column ID to enumerate.
 
-If the column ID is 0 (zero) then the enumeration of this column is skipped and a corresponding slot in the output array of [JET_ENUMCOLUMN](gg294138\(v=exchg.10\).md) structures will be generated with a column state of JET_wrnColumnSkipped.
+If the column ID is 0 (zero) then the enumeration of this column is skipped and a corresponding slot in the output array of [JET_ENUMCOLUMN](./jet-enumcolumn-structure.md) structures will be generated with a column state of JET_wrnColumnSkipped.
 
 **ctagSequence**
 
@@ -52,7 +53,7 @@ If an element of **rgtagSequence** is 0 (zero), then the enumeration of that col
 
 **rgtagSequence**
 
-An array of one-based indices into the array of column values for a given column. A single element is an **itagSequence** which is defined in [JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md). An **itagSequence** of 0 (zero) means "skip". An **itagSequence** of 1 means return the first column value of the column, 2 means the second, and so on.
+An array of one-based indices into the array of column values for a given column. A single element is an **itagSequence** which is defined in [JET_RETRIEVECOLUMN](./jet-retrievecolumn-structure.md). An **itagSequence** of 0 (zero) means "skip". An **itagSequence** of 1 means return the first column value of the column, 2 means the second, and so on.
 
 ### Requirements
 
@@ -80,9 +81,8 @@ An array of one-based indices into the array of column values for a given column
 
 ### See Also
 
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_ENUMCOLUMN](gg294138\(v=exchg.10\).md)  
-[JET_ENUMCOLUMNID](gg269251\(v=exchg.10\).md)  
-[JET_RETRIEVECOLUMN](gg269334\(v=exchg.10\).md)  
-[JetEnumerateColumns](gg269321\(v=exchg.10\).md)
-
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_ENUMCOLUMN](./jet-enumcolumn-structure.md)  
+[JET_ENUMCOLUMNID]()  
+[JET_RETRIEVECOLUMN](./jet-retrievecolumn-structure.md)  
+[JetEnumerateColumns](./jetenumeratecolumns-function.md)

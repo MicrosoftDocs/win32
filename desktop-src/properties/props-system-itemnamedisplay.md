@@ -1,5 +1,5 @@
 ---
-Description: The display name in &\#0034;most complete&\#0034; form.
+description: The display name in &\#0034;most complete&\#0034; form.
 ms.assetid: fdb6b0fa-0741-4edc-8902-763a461313b9
 title: System.ItemNameDisplay
 ms.topic: article

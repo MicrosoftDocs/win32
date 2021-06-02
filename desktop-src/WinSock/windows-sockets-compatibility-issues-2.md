@@ -1,5 +1,5 @@
 ---
-Description: Windows Sockets 2 continues to support all of the Windows Sockets 1.1 semantics and function calls except for those dealing with pseudo-blocking.
+description: Windows Sockets 2 continues to support all of the Windows Sockets 1.1 semantics and function calls except for those dealing with pseudo-blocking.
 ms.assetid: e4dc4019-d421-49b8-825a-faa6d5f5fcae
 title: Windows Sockets Compatibility Issues
 ms.topic: article

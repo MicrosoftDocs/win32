@@ -1,5 +1,5 @@
 ---
-Description: The Environment property of the Installer object is a read-write property that is the string value for an environment variable of the current process.
+description: The Environment property of the Installer object is a read-write property that is the string value for an environment variable of the current process.
 ms.assetid: f59a270f-9bd8-4d17-96e2-cb3c62a31cad
 title: Installer.Environment property
 ms.topic: reference
@@ -43,7 +43,7 @@ Setting an environment variable with the **Environment** property only affects t
 
 
 
-|                    |                                                                                                                                                                                                                                                         |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7. Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista. Windows Installer on Windows Server 2003 or Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |

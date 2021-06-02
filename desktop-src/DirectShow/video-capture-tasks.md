@@ -1,5 +1,5 @@
 ---
-Description: Video Capture Tasks
+description: Video Capture Tasks
 ms.assetid: 65eb2005-a390-4772-a2f8-a6de86c6f7c9
 title: Video Capture Tasks
 ms.topic: article

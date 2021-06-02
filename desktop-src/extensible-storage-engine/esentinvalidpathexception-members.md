@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInvalidPathException members"
 title: EsentInvalidPathException members
 TOCTitle: EsentInvalidPathException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentInvalidPathException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.InvalidPath exceptions.
 
-The [EsentInvalidPathException](dn319577\(v=exchg.10\).md) type exposes the following members.
+The [EsentInvalidPathException](./esentinvalidpathexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentInvalidPathException class](dn319577\(v=exchg.10\).md)
+[EsentInvalidPathException class](./esentinvalidpathexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

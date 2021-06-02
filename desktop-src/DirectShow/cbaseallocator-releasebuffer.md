@@ -1,5 +1,5 @@
 ---
-Description: The ReleaseBuffer method returns a media sample to the list of free media samples. This method implements the IMemAllocator::ReleaseBuffer method.
+description: The ReleaseBuffer method returns a media sample to the list of free media samples. This method implements the IMemAllocator::ReleaseBuffer method.
 ms.assetid: 35e4e426-044c-4e57-af13-2fddf8501db7
 title: CBaseAllocator.ReleaseBuffer method (Amfilter.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ When a media sample's reference count reaches zero, the sample calls **ReleaseBu
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

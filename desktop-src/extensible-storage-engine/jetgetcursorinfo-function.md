@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetGetCursorInfo Function"
 title: JetGetCursorInfo Function
 TOCTitle: JetGetCursorInfo Function
 ms:assetid: e779fa5d-1d7e-46f1-80c9-f7c819279188
@@ -63,7 +64,7 @@ Must be set to 0 (zero), otherwise unused. It is present for future functionalit
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -163,11 +164,10 @@ This operation does not affect the state of the cursor or the data. It only retu
 
 #### See Also
 
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JET_TABLEID](gg269182\(v=exchg.10\).md)  
-[JetGetLock](gg294094\(v=exchg.10\).md)  
-[JetPrepareUpdate](gg269339\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)  
-[JetUpdate](gg269288\(v=exchg.10\).md)
-
+[JET_ERR](./jet-err.md)  
+[JET_SESID](./jet-sesid.md)  
+[JET_TABLEID](./jet-tableid.md)  
+[JetGetLock](./jetgetlock-function.md)  
+[JetPrepareUpdate](./jetprepareupdate-function.md)  
+[JetStopService](./jetstopservice-function.md)  
+[JetUpdate](./jetupdate-function.md)

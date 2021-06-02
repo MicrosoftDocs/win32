@@ -1,5 +1,5 @@
 ---
-Description: The first step in connecting to WMI is setting up the COM calls to CoInitializeEx and CoInitializeSecurity.
+description: The first step in connecting to WMI is setting up the COM calls to CoInitializeEx and CoInitializeSecurity.
 ms.assetid: c9291aa7-702c-4752-8bd0-97d7a6e6dd54
 ms.tgt_platform: multiple
 title: Initializing COM for a WMI Application

@@ -1,5 +1,5 @@
 ---
-Description: Generates functions that create event source classes.
+description: Generates functions that create event source classes.
 ms.assetid: 002e5b2c-8853-4500-bf53-71f839da97f3
 title: eventSourceBuilderImplementations element
 ms.topic: reference
@@ -52,7 +52,7 @@ proxyClass
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | No            |

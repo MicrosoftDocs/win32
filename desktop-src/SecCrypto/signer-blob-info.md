@@ -1,5 +1,5 @@
 ---
-Description: Specifies a BLOB to sign.
+description: Specifies a BLOB to sign.
 ms.assetid: 214c9c05-5c95-4803-8993-23a87266f991
 title: SIGNER_BLOB_INFO structure
 ms.topic: reference
@@ -83,7 +83,7 @@ The display name of the BLOB. This member can be set to **NULL**.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>          |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/> |

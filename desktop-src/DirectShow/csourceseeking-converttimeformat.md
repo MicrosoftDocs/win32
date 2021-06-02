@@ -1,5 +1,5 @@
 ---
-Description: The ConvertTimeFormat method converts from one time format to another. This method implements the IMediaSeeking::ConvertTimeFormat method.
+description: CSourceSeeking.ConvertTimeFormat method - The ConvertTimeFormat method converts from one time format to another. This method implements the IMediaSeeking::ConvertTimeFormat method.
 ms.assetid: d0cb44fa-30c1-41b4-92a4-7169161e3140
 title: CSourceSeeking.ConvertTimeFormat method (Ctlutil.h)
 ms.topic: reference
@@ -92,7 +92,7 @@ The only time format supported by the base class is TIME\_FORMAT\_MEDIA\_TIME (1
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

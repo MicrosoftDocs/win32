@@ -1,5 +1,5 @@
 ---
-Description: Sets the video usage for a video encoder.
+description: Sets the video usage for a video encoder.
 ms.assetid: 2A6941A3-CCA0-467C-AC8A-DADC2CD1D405
 title: CODECAPI_AVEncVideoUsage property (Codecapi.h)
 ms.topic: reference
@@ -28,7 +28,7 @@ This property is also used with [H.264 UVC 1.5 camera encoders](camera-encoder-h
 
 
 
-|                                     |                                                                                       |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps \| UWP apps\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps \| UWP apps\]<br/>                           |

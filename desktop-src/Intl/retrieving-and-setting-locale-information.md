@@ -1,5 +1,5 @@
 ---
-Description: Retrieving and Setting Locale Information
+description: Retrieving and Setting Locale Information
 ms.assetid: 7675f826-76be-4361-a82c-9573040a7e72
 title: Retrieving and Setting Locale Information
 ms.topic: article

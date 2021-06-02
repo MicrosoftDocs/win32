@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetEndSession Function"
 title: JetEndSession Function
 TOCTitle: JetEndSession Function
 ms:assetid: a9a8f98a-258e-4fbb-bed0-657581984a07
@@ -47,7 +48,7 @@ Reserved. This parameter can contain the JET_bitForceSessionClosed flag, but thi
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -152,10 +153,9 @@ This API will rollback any open transactions (not committed to level 0). Also al
 
 #### See Also
 
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_SESID](gg269253\(v=exchg.10\).md)  
-[JetBeginSession](gg294131\(v=exchg.10\).md)  
-[JetRollback](gg269273\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[JET_GRBIT](./jet-grbit.md)  
+[JET_SESID](./jet-sesid.md)  
+[JetBeginSession](./jetbeginsession-function.md)  
+[JetRollback](./jetrollback-function.md)  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)  
+[JetStopService](./jetstopservice-function.md)

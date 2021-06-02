@@ -1,5 +1,5 @@
 ---
-Description: The SetRenderRange method sets the range of time on the timeline to be rendered. Objects that lie outside the specified range are not rendered, and resources are not allocated for them.
+description: The SetRenderRange method sets the range of time on the timeline to be rendered. Objects that lie outside the specified range are not rendered, and resources are not allocated for them.
 ms.assetid: 2dcdca6b-2bae-4a27-bfbc-19a9b2ea633a
 title: IRenderEngine::SetRenderRange method (Qedit.h)
 ms.topic: reference
@@ -86,7 +86,7 @@ Returns one of the following **HRESULT** values:
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

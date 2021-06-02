@@ -1,5 +1,5 @@
 ---
-Description: To validate a database, use a special validation tool to merge a .cub file containing the Internal Consistency Evaluators (ICEs) into your database, execute the ICEs, and report the results.
+description: To validate a database, use a special validation tool to merge a .cub file containing the Internal Consistency Evaluators (ICEs) into your database, execute the ICEs, and report the results.
 ms.assetid: bdf38673-ee3d-47d8-ad6e-562cd5626918
 title: Using Internal Consistency Evaluators
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The IStringCollection interface defines the following properties.
+description: The IStringCollection interface defines the following properties.
 ms.assetid: 85d3f900-3e6e-4ea3-9de9-c9a3e8f08562
 title: IStringCollection Properties
 ms.topic: article

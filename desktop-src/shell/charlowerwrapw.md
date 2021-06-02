@@ -1,5 +1,5 @@
 ---
-Description: Converts a Unicode character string or a single character to lowercase.
+description: Converts a Unicode character string or a single character to lowercase.
 ms.assetid: 09b7cf8e-6aed-40f4-9dfa-29be3559ae89
 title: CharLowerWrapW function
 ms.topic: reference
@@ -70,7 +70,7 @@ The preferred method is to use [**CharLowerW**](/windows/win32/api/winuser/nf-wi
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional, Windows XP \[desktop apps only\]<br/>                                        |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                          |

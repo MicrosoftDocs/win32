@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnStream methods"
 title: ColumnStream methods
 TOCTitle: ColumnStream methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.ColumnStream
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [ColumnStream](dn334143\(v=exchg.10\).md) type exposes the following members.
+The [ColumnStream](./columnstream-class.md) type exposes the following members.
 
 ## Methods
 
@@ -161,6 +162,6 @@ Top
 
 #### Reference
 
-[ColumnStream class](dn334143\(v=exchg.10\).md)
+[ColumnStream class](./columnstream-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

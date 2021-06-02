@@ -1,5 +1,5 @@
 ---
-Description: Generates declarations for stub functions for port type operations.
+description: Generates declarations for stub functions for port type operations.
 ms.assetid: d43baeff-c941-4ce9-a6ae-8aa61ef44048
 title: stubDeclarations element
 ms.topic: reference
@@ -58,7 +58,7 @@ There are no attributes.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

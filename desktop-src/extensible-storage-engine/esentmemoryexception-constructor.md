@@ -1,4 +1,5 @@
-﻿---
+---
+description: "Learn more about: EsentMemoryException constructor"
 title: EsentMemoryException constructor 
 TOCTitle: 'EsentMemoryException constructor '
 ms:assetid: Overload:Microsoft.Isam.Esent.Interop.EsentMemoryException.#ctor
@@ -51,9 +52,8 @@ Top
 
 #### Reference
 
-[EsentMemoryException class](dn334636\(v=exchg.10\).md)
+[EsentMemoryException class](./esentmemoryexception-class.md)
 
-[EsentMemoryException members](dn334695\(v=exchg.10\).md)
+[EsentMemoryException members](./esentmemoryexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

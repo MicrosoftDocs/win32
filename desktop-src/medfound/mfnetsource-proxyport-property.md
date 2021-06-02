@@ -1,5 +1,5 @@
 ---
-Description: Specifies the port number of the proxy server.
+description: Specifies the port number of the proxy server.
 ms.assetid: cd84911b-3658-489f-b454-23eded0cbfa0
 title: MFNETSOURCE_PROXYPORT property (Mfidl.h)
 ms.topic: reference
@@ -36,7 +36,7 @@ Applications can use this property to configure the proxy locator when creating 
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                     |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                               |

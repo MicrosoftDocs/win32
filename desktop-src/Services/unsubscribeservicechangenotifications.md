@@ -1,5 +1,5 @@
 ---
-Description: Unsubscribes from service status change notifications.
+description: Unsubscribes from service status change notifications.
 ms.assetid: 8c04ebf7-4d61-4617-b120-dbe26b2f9ad2
 title: UnsubscribeServiceChangeNotifications function (Winsvcp.h)
 ms.topic: reference
@@ -57,7 +57,7 @@ This function does not return a value.
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                   |

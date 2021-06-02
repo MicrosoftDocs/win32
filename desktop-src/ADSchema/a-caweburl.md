@@ -22,7 +22,7 @@ URL for http connection to a certification authority.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | CA-WEB-URL                                  |
 | Ldap-Display-Name | cAWEBURL                                    |
@@ -48,7 +48,7 @@ URL for http connection to a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -69,7 +69,7 @@ URL for http connection to a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -90,7 +90,7 @@ URL for http connection to a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -111,7 +111,7 @@ URL for http connection to a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -132,7 +132,7 @@ URL for http connection to a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |
@@ -153,7 +153,7 @@ URL for http connection to a certification authority.
 
 
 
-|                        |                                                                        |
+| Entry | Value |
 |------------------------|------------------------------------------------------------------------|
 | Link-Id                | \-                                                                     |
 | MAPI-Id                | \-                                                                     |

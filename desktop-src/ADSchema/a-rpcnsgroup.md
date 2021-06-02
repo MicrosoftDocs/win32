@@ -22,7 +22,7 @@ A reference to an RPC Server entry or another RPC Group.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | rpc-Ns-Group                                |
 | Ldap-Display-Name | rpcNsGroup                                  |
@@ -48,7 +48,7 @@ A reference to an RPC Server entry or another RPC Group.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -69,7 +69,7 @@ A reference to an RPC Server entry or another RPC Group.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -90,7 +90,7 @@ A reference to an RPC Server entry or another RPC Group.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -111,7 +111,7 @@ A reference to an RPC Server entry or another RPC Group.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -132,7 +132,7 @@ A reference to an RPC Server entry or another RPC Group.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |
@@ -153,7 +153,7 @@ A reference to an RPC Server entry or another RPC Group.
 
 
 
-|                        |                                            |
+| Entry | Value |
 |------------------------|--------------------------------------------|
 | Link-Id                | \-                                         |
 | MAPI-Id                | \-                                         |

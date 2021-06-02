@@ -1,6 +1,6 @@
 ---
 title: glPushName function (Gl.h)
-description: The glPushName and glPopName functions push and pop the name stack.
+description: The glPushName and glPopName functions push and pop the name stack. | glPushName function (Gl.h)
 ms.assetid: e4319018-42c0-4567-b67f-31dbdbee9b13
 keywords:
 - glPushName function OpenGL
@@ -75,7 +75,7 @@ The following functions retrieve information related to **glPushName** and [**gl
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

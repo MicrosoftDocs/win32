@@ -1,5 +1,5 @@
 ---
-Description: Use the Count automation property of the SWbemPropertySet object to determine how many items are in the SWbemPropertySet collection. This property is read-only.
+description: Use the Count automation property of the SWbemPropertySet object to determine how many items are in the SWbemPropertySet collection. This property is read-only.
 ms.assetid: 141d2577-da5e-4ada-abf8-5456ffd24244
 ms.tgt_platform: multiple
 title: SWbemPropertySet.Count property (Wbemdisp.h)
@@ -41,7 +41,7 @@ SWbemPropertySet.Count As Integer
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

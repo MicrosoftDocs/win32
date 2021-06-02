@@ -1,5 +1,5 @@
 ---
-Description: Number of buffers currently allocated.
+description: Number of buffers currently allocated.
 ms.assetid: 6a3d0948-7e03-4f41-8014-fa15d4578014
 title: CBaseAllocator::m_lAllocated member (Amfilter.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ long m_lAllocated;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

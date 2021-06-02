@@ -1,5 +1,5 @@
 ---
-Description: A depth buffer is a property of the device. To create a depth buffer that is managed by Direct3D, set the appropriate members of the D3DPRESENT\_PARAMETERS structure as shown in the following code example.
+description: A depth buffer is a property of the device. To create a depth buffer that is managed by Direct3D, set the appropriate members of the D3DPRESENT\_PARAMETERS structure as shown in the following code example.
 ms.assetid: 2b442cf7-2146-4dea-809a-ebb8bcfbec08
 title: Creating a Depth Buffer (Direct3D 9)
 ms.topic: article

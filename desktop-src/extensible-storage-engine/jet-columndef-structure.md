@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_COLUMNDEF Structure"
 title: JET_COLUMNDEF Structure
 TOCTitle: JET_COLUMNDEF Structure
 ms:assetid: ee1fc473-bff5-438e-98ae-247de12e76f9
@@ -52,7 +53,7 @@ Reserved. **columnid** must be set to 0 (zero).
 
 **coltyp**
 
-The type of the column (for example, text, binary, or numerical). For more information, see [JET_COLTYP](gg269213\(v=exchg.10\).md).
+The type of the column (for example, text, binary, or numerical). For more information, see [JET_COLTYP](./jet-coltyp.md).
 
 **wCountry**
 
@@ -197,17 +198,16 @@ A group of bits that contain the options to be used for this call, which include
 
 ### See Also
 
-[JET_CALLBACK](gg294098\(v=exchg.10\).md)  
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_COLUMNCREATE](gg269252\(v=exchg.10\).md)  
-[JET_COLUMNID](gg294104\(v=exchg.10\).md)  
-[JET_GRBIT](gg294066\(v=exchg.10\).md)  
-[JET_USERDEFINEDDEFAULT](gg269200\(v=exchg.10\).md)  
-[JetAddColumn](gg294122\(v=exchg.10\).md)  
-[JetEscrowUpdate](gg294125\(v=exchg.10\).md)  
-[JetGetTableColumnInfo](gg294061\(v=exchg.10\).md)  
-[JetOpenTempTable](gg269211\(v=exchg.10\).md)  
-[JetOpenTempTable2](gg269302\(v=exchg.10\).md)  
-[JetOpenTempTable3](gg269255\(v=exchg.10\).md)  
-[JetRenameColumn](gg269218\(v=exchg.10\).md)
-
+[JET_CALLBACK](./jet-callback-callback-function.md)  
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_COLUMNCREATE](./jet-columncreate-structure.md)  
+[JET_COLUMNID](./jet-columnid.md)  
+[JET_GRBIT](./jet-grbit.md)  
+[JET_USERDEFINEDDEFAULT](./jet-userdefineddefault-structure.md)  
+[JetAddColumn](./jetaddcolumn-function.md)  
+[JetEscrowUpdate](./jetescrowupdate-function.md)  
+[JetGetTableColumnInfo](./jetgettablecolumninfo-function.md)  
+[JetOpenTempTable](./jetopentemptable-function.md)  
+[JetOpenTempTable2](./jetopentemptable2-function.md)  
+[JetOpenTempTable3](./jetopentemptable3-function.md)  
+[JetRenameColumn](./jetrenamecolumn-function.md)

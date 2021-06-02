@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the value of the alternate class ID.
+description: Retrieves the value of the alternate class ID.
 ms.assetid: 80c7cbba-e28d-4973-9f3f-7636ff331b64
 title: ISCardCmd::get_AlternateClassId method (Scarddat.h)
 ms.topic: reference
@@ -87,7 +87,7 @@ if (FAILED(hr))
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

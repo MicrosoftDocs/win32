@@ -1,5 +1,5 @@
 ---
-Description: Determines the size, in bytes, of the IStream COM interface.
+description: Determines the size, in bytes, of the IStream COM interface.
 ms.assetid: 8c2f081d-cc41-409e-a868-bcf834e1f128
 title: ISCardTypeConv::SizeOfIStream method (Scarddat.h)
 ms.topic: reference
@@ -73,7 +73,7 @@ The method returns one of the following possible values.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

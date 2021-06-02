@@ -1,5 +1,5 @@
 ---
-Description: To install your applications efficiently and reduce the total cost of ownership (TCO) for your customers, you can use the Windows Installer.
+description: To install your applications efficiently and reduce the total cost of ownership (TCO) for your customers, you can use the Windows Installer.
 ms.assetid: fdeb8cc2-af4e-419d-a234-6d86061219fe
 title: About Windows Installer
 ms.topic: article

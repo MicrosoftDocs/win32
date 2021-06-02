@@ -1,5 +1,5 @@
 ---
-Description: The following message is used by the Print Spooler API.
+description: The following message is used by the Print Spooler API.
 ms.assetid: 64c83abb-4511-4227-b64b-1cdbda6d6ca6
 title: Print Spooler API Messages
 ms.topic: article

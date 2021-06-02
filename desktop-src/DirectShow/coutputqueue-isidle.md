@@ -1,5 +1,5 @@
 ---
-Description: The IsIdle method determines whether the object is waiting for data.
+description: The IsIdle method determines whether the object is waiting for data.
 ms.assetid: be1b5633-f9e9-497e-8b6f-5634eae91273
 title: COutputQueue.IsIdle method (Outputq.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the thread is waiting and the sample array is empty. Otherwi
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Outputq.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

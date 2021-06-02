@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentIndexTuplesVarSegMacNotAllowedException properties"
 title: EsentIndexTuplesVarSegMacNotAllowedException properties
 TOCTitle: EsentIndexTuplesVarSegMacNotAllowedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentIndexTuplesVarSegMacNotAllowedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentIndexTuplesVarSegMacNotAllowedException](dn319430\(v=exchg.10\).md) type exposes the following members.
+The [EsentIndexTuplesVarSegMacNotAllowedException](./esentindextuplesvarsegmacnotallowedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentIndexTuplesVarSegMacNotAllowedException class](dn319430\(v=exchg.10\).md)
+[EsentIndexTuplesVarSegMacNotAllowedException class](./esentindextuplesvarsegmacnotallowedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

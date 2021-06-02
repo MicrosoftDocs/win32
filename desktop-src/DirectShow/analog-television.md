@@ -1,5 +1,5 @@
 ---
-Description: Analog Television
+description: Analog Television
 ms.assetid: 9f2c18ec-3684-42a8-a3df-5f8827b27642
 title: Analog Television
 ms.topic: article

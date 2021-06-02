@@ -1,5 +1,5 @@
 ---
-Description: Represents a disk drive.
+description: Represents a disk drive.
 ms.assetid: f3d853a0-d6e9-45d8-92d3-d233c274238b
 title: CIM_DiskDrive class (Hyper-V management)
 ms.topic: reference
@@ -15,7 +15,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_DiskDrive class
+# CIM_DiskDrive class (Hyper-V management)
 
 Represents a disk drive.
 
@@ -36,7 +36,7 @@ The **CIM\_DiskDrive** class does not define any members.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8<br/>                                                                                    |
 | Minimum supported server<br/> | Windows Server 2012<br/>                                                                          |

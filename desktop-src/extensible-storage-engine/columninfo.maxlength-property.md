@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: ColumnInfo.MaxLength property"
 title: ColumnInfo.MaxLength property 
 TOCTitle: 'MaxLength property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.ColumnInfo.MaxLength
@@ -32,7 +33,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the maximum length of the column.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -61,8 +62,8 @@ Type: [System.Int32](/dotnet/api/system.int32)
 
 #### Reference
 
-[ColumnInfo class](dn334128\(v=exchg.10\).md)
+[ColumnInfo class](./columninfo-class.md)
 
-[ColumnInfo members](dn334181\(v=exchg.10\).md)
+[ColumnInfo members](./columninfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

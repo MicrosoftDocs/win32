@@ -1,5 +1,5 @@
 ---
-Description: After any type of failure that disrupts normal transaction processing, KTM and each resource manager must perform recovery operations. Recovery is the process by which transaction participants arrive at a consistent view of each transactions state.
+description: After any type of failure that disrupts normal transaction processing, KTM and each resource manager must perform recovery operations. Recovery is the process by which transaction participants arrive at a consistent view of each transactions state.
 ms.assetid: 5bc9a155-6ba4-41f8-8e12-e87f48d83940
 title: Recovery Processing
 ms.topic: article

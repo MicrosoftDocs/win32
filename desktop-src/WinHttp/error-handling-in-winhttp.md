@@ -1,5 +1,5 @@
 ---
-Description: Error Handling in WinHTTP
+description: Error Handling in WinHTTP
 ms.assetid: 96bceda2-ca96-4f88-ab38-35021889c2dd
 title: Error Handling in WinHTTP
 ms.topic: article

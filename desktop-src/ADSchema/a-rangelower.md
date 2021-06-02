@@ -22,7 +22,7 @@ The minimum value or length of an attribute.
 
 
 
-|                   |                                      |
+| Entry | Value |
 |-------------------|--------------------------------------|
 | CN                | Range-Lower                          |
 | Ldap-Display-Name | rangeLower                           |
@@ -49,7 +49,7 @@ The minimum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8113                                                   |
@@ -70,7 +70,7 @@ The minimum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8113                                                   |
@@ -91,7 +91,7 @@ The minimum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8113                                                   |
@@ -112,7 +112,7 @@ The minimum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8113                                                   |
@@ -133,7 +133,7 @@ The minimum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8113                                                   |
@@ -154,7 +154,7 @@ The minimum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8113                                                   |
@@ -175,7 +175,7 @@ The minimum value or length of an attribute.
 
 
 
-|                        |                                                          |
+| Entry | Value |
 |------------------------|----------------------------------------------------------|
 | Link-Id                | \-                                                       |
 | MAPI-Id                | 0x8113                                                   |

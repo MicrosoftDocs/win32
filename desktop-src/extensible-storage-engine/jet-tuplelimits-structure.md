@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_TUPLELIMITS Structure"
 title: JET_TUPLELIMITS Structure
 TOCTitle: JET_TUPLELIMITS Structure
 ms:assetid: 2610e2e5-5883-4aec-bc66-e6160b76c264
@@ -24,7 +25,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JET_TUPLELIMITS Structure
 
-The **JET_TUPLELIMITS** structure allows customization of the tuple index characteristics on a per-index basis, rather than a per-instance basis, using [JetSetSystemParameter](gg294044\(v=exchg.10\).md).
+The **JET_TUPLELIMITS** structure allows customization of the tuple index characteristics on a per-index basis, rather than a per-instance basis, using [JetSetSystemParameter](./jetsetsystemparameter-function.md).
 
 **Windows Server 2003:** The **JET_TUPLELIMITS** structure is introduced in Windows Server 2003.
 
@@ -88,7 +89,7 @@ Assuming a row with a text field of "RAIN IN SPAIN\!", if a tuple index gets cre
 
 Note that "IN " occurs twice, and that the last entry ("N\!") is shorter than 3 (**chLengthMax**). Also note that the splitting algorithm is not aware of spaces or words, and treats all characters identically.
 
-**Windows XP:** Windows XP supports tuple indexes, but does not have **JET_TUPLELIMITS**. The database engine will used the default values (**chLengthMin**=3, **chLengthMax**=10, **chToIndexMax**=32767). It is still possible to change these values, but they are set on a per-instance basis using [JetSetSystemParameter](gg294044\(v=exchg.10\).md) with [JET_paramIndexTuplesLengthMin](gg294119\(v=exchg.10\).md), [JET_paramIndexTuplesLengthMax](gg294119\(v=exchg.10\).md), and [JET_paramIndexTuplesToIndexMax](gg294119\(v=exchg.10\).md).
+**Windows XP:** Windows XP supports tuple indexes, but does not have **JET_TUPLELIMITS**. The database engine will used the default values (**chLengthMin**=3, **chLengthMax**=10, **chToIndexMax**=32767). It is still possible to change these values, but they are set on a per-instance basis using [JetSetSystemParameter](./jetsetsystemparameter-function.md) with [JET_paramIndexTuplesLengthMin](./index-parameters.md), [JET_paramIndexTuplesLengthMax](./index-parameters.md), and [JET_paramIndexTuplesToIndexMax](./index-parameters.md).
 
 ### Requirements
 
@@ -116,8 +117,7 @@ Note that "IN " occurs twice, and that the last entry ("N\!") is shorter than 3 
 
 ### See Also
 
-[JET_COLTYP](gg269213\(v=exchg.10\).md)  
-[JET_INDEXCREATE](gg269186\(v=exchg.10\).md)  
-[JET_TUPLELIMITS](gg269207\(v=exchg.10\).md)  
-[JetSetSystemParameter](gg294044\(v=exchg.10\).md)
-
+[JET_COLTYP](./jet-coltyp.md)  
+[JET_INDEXCREATE](./jet-indexcreate-structure.md)  
+[JET_TUPLELIMITS]()  
+[JetSetSystemParameter](./jetsetsystemparameter-function.md)

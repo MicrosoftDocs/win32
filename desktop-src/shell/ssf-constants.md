@@ -1,5 +1,5 @@
 ---
-Description: Used by the SHGetSetSettings function to specify which members of its SHELLSTATE structure should be set or retrived.
+description: Used by the SHGetSetSettings function to specify which members of its SHELLSTATE structure should be set or retrived.
 title: SSF Constants (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -407,7 +407,7 @@ Not used.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

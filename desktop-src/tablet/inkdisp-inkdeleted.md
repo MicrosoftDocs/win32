@@ -1,5 +1,5 @@
 ---
-Description: Occurs when a stroke is deleted from the InkDisp object.
+description: Occurs when a stroke is deleted from the InkDisp object.
 ms.assetid: 59ada470-6620-411d-889e-882f41ccea3e
 title: InkDisp.InkDeleted event (Msinkaut.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ The **InkDeleted** event is fired even when in select or erase mode, not just wh
 
 
 
-|                                     |                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                                                       |
 | Minimum supported server<br/> | None supported<br/>                                                                                           |

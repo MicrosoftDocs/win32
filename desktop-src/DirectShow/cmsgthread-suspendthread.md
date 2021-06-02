@@ -1,5 +1,5 @@
 ---
-Description: Uses the Microsoft Win32 SuspendThread function to suspend the operation of a running thread.
+description: Uses the Microsoft Win32 SuspendThread function to suspend the operation of a running thread.
 ms.assetid: 07d919a2-797d-47c3-83e3-c8e2d2b2cddd
 title: CMsgThread.SuspendThread method (Msgthrd.h)
 ms.topic: reference
@@ -47,7 +47,7 @@ The client thread calls this member function to suspend the operation of the wor
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Msgthrd.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

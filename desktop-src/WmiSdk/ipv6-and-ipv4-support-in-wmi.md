@@ -1,5 +1,5 @@
 ---
-Description: WMI IP Route Provider and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities.
+description: WMI IP Route Provider and network classes supply data for IPv4 addresses. Starting with Windows Vista, WMI also provides limited support for IPv6 network capabilities.
 ms.assetid: 8ab6287d-be3f-4fa2-a9f5-fa5e1aba66c8
 ms.tgt_platform: multiple
 title: IPv6 and IPv4 Support in WMI

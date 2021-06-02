@@ -1,5 +1,5 @@
 ---
-Description: Saves a surface to an image file.
+description: Saves a surface to an image file.
 ms.assetid: 6320e5ed-e43d-43bf-a746-5478df42941d
 title: D3DXSaveSurfaceToFileInMemory function (D3dx9tex.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ This function handles conversion to and from compressed texture formats.
 
 
 
-|                    |                                                                                       |
+| Requirement | Value |
 |--------------------|---------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9tex.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>  |

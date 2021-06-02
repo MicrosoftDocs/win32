@@ -1,5 +1,5 @@
 ---
-Description: Registers a service that provides global resource pool-related objects.
+description: Registers a service that provides global resource pool-related objects.
 ms.assetid: B602F6E1-2889-43CF-AAF1-40F339231DB4
 title: Msvm_ResourcePoolRegistration class
 ms.topic: reference
@@ -79,7 +79,7 @@ Access to the **Msvm\_ResourcePoolRegistration** class might be restricted by UA
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                                                    |

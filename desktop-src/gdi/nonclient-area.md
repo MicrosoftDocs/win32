@@ -1,5 +1,5 @@
 ---
-Description: The system sends a WM\_NCPAINT message to the window whenever a part of the nonclient area of the window, such as the title bar, menu bar, or window frame, must be updated.
+description: The system sends a WM\_NCPAINT message to the window whenever a part of the nonclient area of the window, such as the title bar, menu bar, or window frame, must be updated.
 ms.assetid: e4dc61f3-6a9f-4ed4-8685-62eb4ceb85f1
 title: Nonclient Area
 ms.topic: article

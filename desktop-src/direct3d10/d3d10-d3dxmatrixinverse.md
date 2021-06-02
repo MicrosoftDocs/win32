@@ -1,5 +1,5 @@
 ---
-Description: Calculates the inverse of a matrix.
+description: D3DXMatrixInverse function (D3DX10Math.h) - Calculates the inverse of a matrix.
 ms.assetid: 928a201b-814d-41cc-bfab-d2f8a12addeb
 title: D3DXMatrixInverse function (D3DX10Math.h)
 ms.topic: reference
@@ -16,7 +16,7 @@ api_location:
 - D3DX10.dll
 ---
 
-# D3DXMatrixInverse function
+# D3DXMatrixInverse function (D3DX10Math.h)
 
 Calculates the inverse of a matrix.
 
@@ -76,7 +76,7 @@ The return value for this function is the same value returned in the pOut parame
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX10Math.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3DX10.lib</dt> </dl>   |

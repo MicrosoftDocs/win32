@@ -3,6 +3,7 @@ Description: The following option flags are supported by WinHttpQueryOption and 
 ms.assetid: 2d0441f4-ddba-4f2a-8861-8803cad6f1ac
 title: Option Flags (Winhttp.h)
 ms.topic: reference
+ms.custom: snippet-project
 ms.date: 02/25/2020
 ---
 
@@ -151,7 +152,7 @@ Retrieves the source and destination IP address, and port of the request that ge
 
 
 
-Retrieves the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
+Retreives the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
 
 > [!Note]
 > This option has been superseded by **WINHTTP\_OPTION\_CONNECTION\_STATS\_V1**.
@@ -164,7 +165,7 @@ Retrieves the [**TCP\_INFO\_v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info
 
 
 
-Retrieves the [**TCP_INFO_v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
+Retreives the [**TCP\_INFO\_v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) struct for the underlying connection used by the request. The returned struct may contain statistics from prior requests sent over the same connection.
 
 
 </dt> </dl> </dd> <dt>
@@ -290,6 +291,16 @@ Alternatively, you can percent encode before calling WinHttp.
 </dt> </dl> </dd>
 
 <dt>
+
+<span id="WINHTTP_OPTION_EXPIRE_CONNECTION"></span><span id="winhttp_option_expire_connection"></span>**WINHTTP\_OPTION\_EXPIRE\_CONNECTION**
+</dt> <dd> <dl> <dt>
+
+
+
+This option can only be set on a request handle which is still active (sending or receiving). Setting this option will tell WinHttp to stop serving requests on the connection associated with the request handle passed in. The connection will be closed after the request handle this option is called with is completed. This option does not take any parameters.
+
+
+</dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_EXTENDED_ERROR"></span><span id="winhttp_option_extended_error"></span>**WINHTTP\_OPTION\_EXTENDED\_ERROR**
 </dt> <dd> <dl> <dt>
@@ -657,7 +668,7 @@ This option has been deprecated; it has no effect.
 
 
 
-Retrieves statistics for the request.  For a list of the available statistics, see [**WINHTTP\_REQUEST\_STATS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats).
+Retreives statistics for the request.  For a list of the available statistics, see [**WINHTTP\_REQUEST\_STATS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats).
 
 
 </dt> </dl> </dd> <dt>
@@ -667,7 +678,7 @@ Retrieves statistics for the request.  For a list of the available statistics, s
 
 
 
-Retrieves timing information for the request. For a list of the available timings, see [**WINHTTP\_REQUEST\_TIMES**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times).
+Retreives timing information for the request. For a list of the available timings, see [**WINHTTP\_REQUEST\_TIMES**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times).
 
 
 </dt> </dl> </dd> <dt>
@@ -738,7 +749,7 @@ Sets or retrieves an unsigned long integer value that contains the security flag
 
 
 
-Retrieves the SChannel connection and cipher information for a request.
+Retreives the SChannel connection and cipher information for a request.
 
 
 </dt> </dl> </dd> <dt>
@@ -829,6 +840,16 @@ Includes or removes the server port number when the SPN (service principal name)
 
 
 Enables TCP Fast Open for the connection.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_TCP_KEEPALIVE"></span><span id="winhttp_option_tcp_keepalive"></span>**WINHTTP\_OPTION\_TCP\_KEEPALIVE**
+</dt> <dd> <dl> <dt>
+
+
+
+This option can be set on a WinHttp session handle to enable TCP keep-alive behavior on the underlying socket. Takes a [**tcp\_keepalive**](/windows/win32/winsock/sio-keepalive-vals) struct.
 
 
 </dt> </dl> </dd> <dt>
@@ -1007,6 +1028,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL<br/>**DWORD** | X | X | \- | X | Windows 10 Version 1607 |
 | WINHTTP\_OPTION\_ENABLETRACING<br/>**DWORD** | \- | \- | X | X | \- |
 | WINHTTP\_OPTION\_ENCODE\_EXTRA<br/>**BOOL** | X | X | \- | X | Windows 10 Version 1803 |
+| WINHTTP\_OPTION\_EXPIRE\_CONNECTION<br/>N/A | \- | X | \- | X | Windows 10 Version 1903 |
 | WINHTTP\_OPTION\_EXTENDED\_ERROR<br/>**DWORD** | X | X | X | \- | \- |
 | WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS<br/>[**WINHTTP\_CREDS**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS<br/>[**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
@@ -1055,6 +1077,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_SERVER\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- | \- |
 | WINHTTP\_OPTION\_SPN<br/>**DWORD** | \- | X | \- | X | \- |
 | WINHTTP\_OPTION\_TCP\_FAST\_OPEN<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 2004 |
+| WINHTTP\_OPTION\_TCP\_KEEPALIVE<br/>[**tcp\_keepalive**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10 Version 2004 |
 | WINHTTP\_OPTION\_TLS\_FALSE\_START<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 2004 |
 | WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVENT<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_UNSAFE\_HEADER\_PARSING<br/>**DWORD** | \- | X | \- | X | \- |
@@ -1075,7 +1098,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 
 ## Requirements
 
-|                          |                                                                                 |
+| Requirement | Value |
 |--------------------------|---------------------------------------------------------------------------------|
 | Minimum supported client | Windows XP, Windows 2000 Professional with SP3 \[desktop apps only\]            |
 | Minimum supported server | Windows Server 2003, Windows 2000 Server with SP3 \[desktop apps only\]         |

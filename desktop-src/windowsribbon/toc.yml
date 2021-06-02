@@ -261,8 +261,6 @@
           href: windowsribbon-element-controlnamemap.md
         - name: "ControlSizeDefinition"
           href: windowsribbon-element-controlsizedefinition.md
-        - name: "DynamicUI"
-          href: windowsribbon-element-dynamicui.md
         - name: "FlowMenuLayout"
           href: windowsribbon-element-flowmenulayout.md
         - name: "GroupSizeDefinition"

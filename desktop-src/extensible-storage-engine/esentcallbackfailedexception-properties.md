@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCallbackFailedException properties"
 title: EsentCallbackFailedException properties
 TOCTitle: EsentCallbackFailedException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentCallbackFailedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentCallbackFailedException](dn274120\(v=exchg.10\).md) type exposes the following members.
+The [EsentCallbackFailedException](./esentcallbackfailedexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentCallbackFailedException class](dn274120\(v=exchg.10\).md)
+[EsentCallbackFailedException class](./esentcallbackfailedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

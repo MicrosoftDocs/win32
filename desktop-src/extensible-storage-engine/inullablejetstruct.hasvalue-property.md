@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: INullableJetStruct.HasValue property"
 title: INullableJetStruct.HasValue property 
 TOCTitle: 'HasValue property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.INullableJetStruct.HasValue
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets a value indicating whether the structure has a null value.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -59,8 +60,8 @@ Type: [System.Boolean](/dotnet/api/system.boolean)
 
 #### Reference
 
-[INullableJetStruct interface](hh578599\(v=exchg.10\).md)
+[INullableJetStruct interface](./inullablejetstruct-interface.md)
 
-[INullableJetStruct members](hh596493\(v=exchg.10\).md)
+[INullableJetStruct members](./inullablejetstruct-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The IX509Attributes interface exposes the following properties.
+description: The IX509Attributes interface exposes the following properties.
 ms.assetid: 3947605A-487C-4FC0-9C54-1728E1632918
 title: IX509Attributes Properties
 ms.topic: reference

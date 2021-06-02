@@ -1,5 +1,5 @@
 ---
-Description: The GetPointer method retrieves a read/write pointer to the buffer. This method implements the IMediaSample::GetPointer method.
+description: The GetPointer method retrieves a read/write pointer to the buffer. This method implements the IMediaSample::GetPointer method.
 ms.assetid: dd797ad5-6066-4366-a56f-621132f2e6ea
 title: CMediaSample.GetPointer method (Amfilter.h)
 ms.topic: reference
@@ -52,7 +52,7 @@ Returns S\_OK.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Amfilter.h (include Streams.h)</dt> </dl>                                                                                  |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

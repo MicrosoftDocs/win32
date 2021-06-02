@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentOutOfBuffersException methods"
 title: EsentOutOfBuffersException methods
 TOCTitle: EsentOutOfBuffersException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentOutOfBuffersException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentOutOfBuffersException](dn319715\(v=exchg.10\).md) type exposes the following members.
+The [EsentOutOfBuffersException](./esentoutofbuffersexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentOutOfBuffersException class](dn319715\(v=exchg.10\).md)
+[EsentOutOfBuffersException class](./esentoutofbuffersexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

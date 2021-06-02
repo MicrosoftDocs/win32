@@ -1,5 +1,5 @@
 ---
-Description: Provides functionality for signing executable files with an Authenticode digital signature.
+description: Provides functionality for signing executable files with an Authenticode digital signature.
 ms.assetid: e6d4e694-471f-4d30-983c-6bc5d631d99e
 title: SignedCode object
 ms.topic: reference
@@ -85,7 +85,7 @@ The executable file should be of a type that can be signed with Authenticode tec
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

@@ -1,5 +1,5 @@
 ---
-Description: The MsiSFCBypass Table contains a list of files that should bypass Windows File Protection when the files are installed on Microsoft Windows Me.
+description: The MsiSFCBypass Table contains a list of files that should bypass Windows File Protection when the files are installed on Microsoft Windows Me.
 ms.assetid: 86de0dc1-ed8f-410c-a411-6c44c8e5c9fd
 title: MsiSFCBypass Table
 ms.topic: article

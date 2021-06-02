@@ -1,5 +1,5 @@
 ---
-Description: Account and domain administrative tasks obtain information such as the computer domain or the currently logged-on user.
+description: Account and domain administrative tasks obtain information such as the computer domain or the currently logged-on user.
 ms.assetid: 1a9cc44b-c366-465d-a0d0-536d5dc818b5
 ms.tgt_platform: multiple
 title: 'WMI Tasks: Accounts and Domains'

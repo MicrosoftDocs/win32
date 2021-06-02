@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentBadLogVersionException members"
 title: EsentBadLogVersionException members
 TOCTitle: EsentBadLogVersionException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentBadLogVersionException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.BadLogVersion exceptions.
 
-The [EsentBadLogVersionException](dn274023\(v=exchg.10\).md) type exposes the following members.
+The [EsentBadLogVersionException](./esentbadlogversionexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentBadLogVersionException class](dn274023\(v=exchg.10\).md)
+[EsentBadLogVersionException class](./esentbadlogversionexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

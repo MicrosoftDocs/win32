@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentKeyNotMadeException constructor"
 title: EsentKeyNotMadeException constructor 
 TOCTitle: 'EsentKeyNotMadeException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentKeyNotMadeException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentKeyNotMadeException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentKeyNotMadeException()
 
 #### Reference
 
-[EsentKeyNotMadeException class](dn334554\(v=exchg.10\).md)
+[EsentKeyNotMadeException class](./esentkeynotmadeexception-class.md)
 
-[EsentKeyNotMadeException members](dn319612\(v=exchg.10\).md)
+[EsentKeyNotMadeException members](./esentkeynotmadeexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

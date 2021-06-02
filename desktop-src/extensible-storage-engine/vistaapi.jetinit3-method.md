@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: VistaApi.JetInit3 method"
 title: VistaApi.JetInit3 method  (Microsoft.Isam.Esent.Interop.Vista)
 TOCTitle: 'JetInit3 method '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.Vista.VistaApi.JetInit3(Microsoft.Isam.Esent.Interop.JET_INSTANCE@,Microsoft.Isam.Esent.Interop.JET_RSTINFO,Microsoft.Isam.Esent.Interop.InitGrbit)
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initialize the ESENT database engine.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](hh558039\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop.Vista](./microsoft.isam.esent.interop.vista-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,36 +64,35 @@ public static JET_wrn JetInit3(
 #### Parameters
 
   - instance  
-    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](hh564593\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_INSTANCE](./jet-instance-structure.md)  
     
     The instance to initialize. If an instance hasn't been allocated then a new one is created and the engine will operate in single-instance mode.
 
 <!-- end list -->
 
   - recoveryOptions  
-    Type: [Microsoft.Isam.Esent.Interop.JET_RSTINFO](dn335235\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_RSTINFO](./jet-rstinfo-class.md)  
     
     Additional recovery parameters for remapping databases during recovery, position where to stop recovery at, or recovery status.
 
 <!-- end list -->
 
   - grbit  
-    Type: [Microsoft.Isam.Esent.Interop.InitGrbit](hh596658\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.InitGrbit](./initgrbit-enumeration.md)  
     
     Initialization options.
 
 #### Return value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_wrn](hh557250\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_wrn](./jet-wrn-enumeration.md)  
 A warning code.  
 
 ## See also
 
 #### Reference
 
-[VistaApi class](dn335321\(v=exchg.10\).md)
+[VistaApi class](./vistaapi-class.md)
 
-[VistaApi members](dn335317\(v=exchg.10\).md)
+[VistaApi members](./vistaapi-members.md)
 
-[Microsoft.Isam.Esent.Interop.Vista namespace](hh558039\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop.Vista namespace](./microsoft.isam.esent.interop.vista-namespace.md)

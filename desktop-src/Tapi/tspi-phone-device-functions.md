@@ -1,5 +1,5 @@
 ---
-Description: This section contains an alphabetic list of the phone device functions in the Telephony SPI.
+description: This section contains an alphabetic list of the phone device functions in the Telephony SPI.
 ms.assetid: 6210a205-0ab6-4695-b4f4-62f8e018bf0e
 title: TSPI Phone Device Functions
 ms.topic: article

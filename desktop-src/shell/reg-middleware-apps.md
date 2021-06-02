@@ -1,5 +1,5 @@
 ---
-Description: 'This topic explains how to register a program in the Windows registry as one of the following client types: browser, email, media playback, instant messaging, or virtual machine for Java.'
+description: 'This topic explains how to register a program in the Windows registry as one of the following client types: browser, email, media playback, instant messaging, or virtual machine for Java.'
 title: Registering Programs with Client Types
 ms.topic: article
 ms.date: 05/31/2018
@@ -18,7 +18,7 @@ This topic explains how to register a program in the Windows registry as one of 
 
 > [!Note]  
 > This information applies to the following operating systems:
->
+> 
 > -   Windows 2000 Service Pack 3 (SP3)
 > -   Windows 2000 Service Pack 4 (SP4)
 > -   Windows XP Service Pack 1 (SP1)
@@ -566,19 +566,21 @@ HKEY_LOCAL_MACHINE
             (Default) = CanonicalName
 ```
 
-> [!Note]**: The following information applies to Windows XP only.**
->
+> [!Note]
+> 
+> **The following information applies to Windows XP only.**
+> 
 > If the registration of the computer-level default under HKEY\_LOCAL\_MACHINE as shown above is successful, the application should delete the value assigned to the Default entry under the following subkey:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE
 >       Clients
 >          ClientTypeName
 > ```
->
+> 
 > If the registration of the computer-level default under HKEY\_LOCAL\_MACHINE as shown above fails, usually because the user does not have write permission to the subkey, the application should set the following value:
->
+> 
 > ```
 > HKEY_CURRENT_USER
 >    SOFTWARE
@@ -586,7 +588,7 @@ HKEY_LOCAL_MACHINE
 >          ClientTypeName
 >             (Default) = CanonicalName
 > ```
->
+> 
 > This registers the canonical name only for the current user, not for all users.
 
  

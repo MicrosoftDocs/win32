@@ -1,5 +1,5 @@
 ---
-Description: The UsingImageAllocator method indicates whether the current allocator is a CImageAllocator object.
+description: The UsingImageAllocator method indicates whether the current allocator is a CImageAllocator object.
 ms.assetid: 842bbcbc-2cc8-4e9d-b6c0-e07f7e472ca1
 title: CDrawImage.UsingImageAllocator method (Winutil.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns **TRUE** if the current allocator is a **CImageAllocator** object, or **
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

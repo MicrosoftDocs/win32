@@ -113,7 +113,7 @@ Windows Media Player renders the graphic beginning in the leftmost pixel of the 
 
 
 
-|                    |                                                     |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------|
 | Version<br/> | Windows Media Player version 70 or later<br/> |
 

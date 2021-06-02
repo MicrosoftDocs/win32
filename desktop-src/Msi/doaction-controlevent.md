@@ -1,5 +1,5 @@
 ---
-Description: The DoAction ControlEvent notifies the installer to execute a custom action. This event can be published by a PushButton control, CheckBox control, or a SelectionTree control. This event should be authored into the ControlEvent table.
+description: The DoAction ControlEvent notifies the installer to execute a custom action. This event can be published by a PushButton control, CheckBox control, or a SelectionTree control. This event should be authored into the ControlEvent table.
 ms.assetid: 9a855330-8241-4912-84da-4fca43f1d240
 title: DoAction ControlEvent
 ms.topic: article

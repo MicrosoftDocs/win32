@@ -1,5 +1,5 @@
 ---
-Description: Retrieves a pointer to the data in the buffer.
+description: Retrieves a pointer to the data in the buffer.
 ms.assetid: f38dd003-b476-4937-b5d1-cefe7789bb2b
 title: ID3DXBuffer::GetBufferPointer method (D3DX9Mesh.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns a pointer to the data in the buffer.
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3DX9Mesh.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

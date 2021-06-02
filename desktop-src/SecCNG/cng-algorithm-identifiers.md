@@ -1,5 +1,5 @@
 ---
-Description: Used to identify standard encryption algorithms in various CNG functions and structures, such as the CRYPT\_INTERFACE\_REG structure.
+description: Used to identify standard encryption algorithms in various CNG functions and structures, such as the CRYPT\_INTERFACE\_REG structure.
 ms.assetid: a05ae7e6-d882-4287-9990-23e4cd340b05
 title: CNG Algorithm Identifiers (Bcrypt.h)
 ms.topic: reference
@@ -188,7 +188,7 @@ To provider user-defined elliptic curve parameters directly, use [**BCryptSetPro
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>                                      |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: Sent to all windows after the user has logged on or off. When the user logs on or off, the system updates the user-specific settings. The system sends this message immediately after updating the settings.
+description: Sent to all windows after the user has logged on or off. When the user logs on or off, the system updates the user-specific settings. The system sends this message immediately after updating the settings.
 title: WM_USERCHANGED message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -62,7 +62,7 @@ An application should return zero if it processes this message.
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | None supported<br/>                                                                                |

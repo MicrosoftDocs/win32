@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSessionInUseException constructor"
 title: EsentSessionInUseException constructor 
 TOCTitle: 'EsentSessionInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSessionInUseException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentSessionInUseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentSessionInUseException()
 
 #### Reference
 
-[EsentSessionInUseException class](dn350638\(v=exchg.10\).md)
+[EsentSessionInUseException class](./esentsessioninuseexception-class.md)
 
-[EsentSessionInUseException members](dn350633\(v=exchg.10\).md)
+[EsentSessionInUseException members](./esentsessioninuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

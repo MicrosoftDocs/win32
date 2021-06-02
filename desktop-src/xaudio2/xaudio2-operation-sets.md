@@ -1,5 +1,5 @@
 ---
-Description: This overview introduces several XAudio2 methods that you can call as part of an operation set.
+description: This overview introduces several XAudio2 methods that you can call as part of an operation set.
 ms.assetid: 5bfd747d-af65-f619-e549-be8130748261
 title: XAudio2 Operation Sets
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: Provides access to memory shared between tablet threads.
+description: Provides access to memory shared between tablet threads.
 ms.assetid: 047ff598-7d20-49d7-bdd3-498fe5c778c6
 title: ITabletContextP::UseSharedMemoryCommunications method
 ms.topic: reference
@@ -110,7 +110,7 @@ The following list describes the sequence of events for accessing and using shar
 
 
 
-|                                     |                                                                                        |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP Tablet PC Edition \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | None supported<br/>                                                              |

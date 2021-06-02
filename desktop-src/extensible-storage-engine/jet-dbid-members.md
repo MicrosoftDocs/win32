@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_DBID members"
 title: JET_DBID members
 TOCTitle: JET_DBID members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.JET_DBID
@@ -15,7 +16,7 @@ Include inherited members
 
 A JET_DBID contains the handle to the database. A database handle is used to manage the schema of a database. It can also be used to manage the tables inside of that database.
 
-The [JET_DBID](hh596176\(v=exchg.10\).md) type exposes the following members.
+The [JET_DBID](./jet-dbid-structure.md) type exposes the following members.
 
 ## Properties
 
@@ -127,6 +128,6 @@ Top
 
 #### Reference
 
-[JET_DBID structure](hh596176\(v=exchg.10\).md)
+[JET_DBID structure](./jet-dbid-structure.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

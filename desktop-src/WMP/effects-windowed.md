@@ -47,7 +47,7 @@ If **windowed** is set to true, any image covering the visualization window is i
 
 
 
-|                    |                                                      |
+| Requirement | Value |
 |--------------------|------------------------------------------------------|
 | Version<br/> | Windows Media Player version 7.0 or later<br/> |
 

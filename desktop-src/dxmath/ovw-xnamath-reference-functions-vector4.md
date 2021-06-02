@@ -1,5 +1,5 @@
 ---
-Description: Lists the 4D vector functions provided by DirectXMath.
+description: Lists the 4D vector functions provided by DirectXMath.
 ms.assetid: 81dddeb0-c143-5d09-057e-f7941520e268
 title: DirectXMath Library 4D vector functions
 ms.topic: reference

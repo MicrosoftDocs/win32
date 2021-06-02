@@ -1,5 +1,5 @@
 ---
-Description: Returns the security descriptor that controls access to the printer.
+description: Returns the security descriptor that controls access to the printer.
 ms.assetid: c12ca35c-07b3-41ad-98c4-48ee584059d1
 ms.tgt_platform: multiple
 title: GetSecurityDescriptor method of the Win32_Printer class
@@ -143,7 +143,7 @@ Next
 
 
 
-|                                     |                                                                                               |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                      |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                                |

@@ -1,5 +1,5 @@
 ---
-Description: The ITSubStreamControl interface is exposed on the Stream Object if there is an associated MSP and it implements substreams. The methods of this interface allow an application to create and remove substreams.
+description: The ITSubStreamControl interface is exposed on the Stream Object if there is an associated MSP and it implements substreams. The methods of this interface allow an application to create and remove substreams.
 ms.assetid: a6716a43-3322-48c9-9112-3d7fdb4103b3
 title: ITSubStreamControl (MSPI)
 ms.topic: article

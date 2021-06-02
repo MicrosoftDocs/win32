@@ -1,7 +1,7 @@
 ---
 title: Named Pipes Channel Layer Examples
 ms.assetid: 6222BEA5-C746-4301-8186-110669A0BFDC
-description: 
+description: "Learn more about: Named Pipes Channel Layer Examples"
 ms.topic: article
 ms.date: 05/31/2018
 ---

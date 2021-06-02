@@ -1,5 +1,5 @@
 ---
-Description: XMUSHORTN2 describes a 2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type int16\_t).
+description: XMUSHORTN2 describes a 2D vector for storing unsigned, normalized values as unsigned 16-bit integers, (type int16\_t).
 ms.assetid: b13018c2-cb31-45d6-ba42-f94945a0b63b
 title: XMUSHORTN2 Extensions
 ms.topic: reference

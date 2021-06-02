@@ -1,5 +1,5 @@
 ---
-Description: The GetFrameRecognizeData function returns a table of RECOGNIZEDATA structures. Each of these structures contains a protocol identifier and an offset that points to the start of the specified protocol in the data.
+description: The GetFrameRecognizeData function returns a table of RECOGNIZEDATA structures. Each of these structures contains a protocol identifier and an offset that points to the start of the specified protocol in the data.
 ms.assetid: 3bf809ff-8d87-4746-95ee-fb68c5e51d42
 title: GetFrameRecognizeData function (Netmon.h)
 ms.topic: reference
@@ -55,7 +55,7 @@ If the function is not successful, the return value is zero.
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

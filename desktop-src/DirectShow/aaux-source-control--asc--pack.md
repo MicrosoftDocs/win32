@@ -1,5 +1,5 @@
 ---
-Description: AAUX Source Control (ASC) Pack
+description: AAUX Source Control (ASC) Pack
 ms.assetid: 3df80895-81e1-42a4-a095-913e77b199e5
 title: AAUX Source Control (ASC) Pack
 ms.topic: article

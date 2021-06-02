@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: Table.JetTableid property"
 title: Table.JetTableid property 
 TOCTitle: 'JetTableid property '
 ms:assetid: P:Microsoft.Isam.Esent.Interop.Table.JetTableid
@@ -31,7 +32,7 @@ ROBOTS: INDEX,FOLLOW
 
 Gets the JET_TABLEID that this table contains.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,15 +54,14 @@ public JET_TABLEID JetTableid { get; }
 
 #### Property value
 
-Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](hh566310\(v=exchg.10\).md)  
+Type: [Microsoft.Isam.Esent.Interop.JET_TABLEID](./jet-tableid-structure.md)  
 
 ## See also
 
 #### Reference
 
-[Table class](dn351163\(v=exchg.10\).md)
+[Table class](./table-class.md)
 
-[Table members](dn351162\(v=exchg.10\).md)
+[Table members](./table-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

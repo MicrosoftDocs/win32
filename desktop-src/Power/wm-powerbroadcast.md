@@ -1,5 +1,5 @@
 ---
-Description: Notifies applications that a power-management event has occurred.
+description: Notifies applications that a power-management event has occurred.
 ms.assetid: 46452909-ac0e-4c06-8542-0b94d00e6556
 title: WM_POWERBROADCAST message (WinUser.h)
 ms.topic: reference
@@ -98,7 +98,7 @@ The following messages are not supported on any of the operating systems specifi
 
 
 
-|                                     |                                                                                                          |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                              |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                     |

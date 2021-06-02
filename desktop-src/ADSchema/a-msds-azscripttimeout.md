@@ -22,7 +22,7 @@ The maximum time, in milliseconds, to wait for a script to finish auditing a spe
 
 
 
-|                   |                                         |
+| Entry | Value |
 |-------------------|-----------------------------------------|
 | CN                | ms-DS-Az-Script-Timeout                 |
 | Ldap-Display-Name | msDS-AzScriptTimeout                    |
@@ -47,7 +47,7 @@ The maximum time, in milliseconds, to wait for a script to finish auditing a spe
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -68,7 +68,7 @@ The maximum time, in milliseconds, to wait for a script to finish auditing a spe
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -89,7 +89,7 @@ The maximum time, in milliseconds, to wait for a script to finish auditing a spe
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -110,7 +110,7 @@ The maximum time, in milliseconds, to wait for a script to finish auditing a spe
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |
@@ -131,7 +131,7 @@ The maximum time, in milliseconds, to wait for a script to finish auditing a spe
 
 
 
-|                        |                                                                    |
+| Entry | Value |
 |------------------------|--------------------------------------------------------------------|
 | Link-Id                | \-                                                                 |
 | MAPI-Id                | \-                                                                 |

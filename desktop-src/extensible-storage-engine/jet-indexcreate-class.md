@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_INDEXCREATE class"
 title: JET_INDEXCREATE class
 TOCTitle: JET_INDEXCREATE class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_INDEXCREATE
@@ -35,7 +36,7 @@ Contains the information needed to create an index over data in an ESE database.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_INDEXCREATE  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_INDEXCREATE members](dn335151\(v=exchg.10\).md)
+[JET_INDEXCREATE members](./jet-indexcreate-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

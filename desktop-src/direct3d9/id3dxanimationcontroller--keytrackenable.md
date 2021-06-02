@@ -1,5 +1,5 @@
 ---
-Description: Sets an event key that enables or disables an animation track.
+description: Sets an event key that enables or disables an animation track.
 ms.assetid: de81e646-0b94-40d3-89c2-060d118d17b2
 title: ID3DXAnimationController::KeyTrackEnable method (D3dx9anim.h)
 ms.topic: reference
@@ -74,7 +74,7 @@ Event handle to the priority blend event. **NULL** is returned if Track is inval
 
 
 
-|                    |                                                                                        |
+| Requirement | Value |
 |--------------------|----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>D3dx9anim.h</dt> </dl> |
 | Library<br/> | <dl> <dt>D3dx9.lib</dt> </dl>   |

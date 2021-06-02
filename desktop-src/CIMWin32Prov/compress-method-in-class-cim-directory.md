@@ -1,5 +1,5 @@
 ---
-Description: Compresses the logical directory entry file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
+description: Compresses the logical directory entry file (or directory) specified in the object path. This method is inherited from CIM\_LogicalFile.
 ms.assetid: 40aac2f8-4ff6-4e21-9395-5d3d40b39b00
 ms.tgt_platform: multiple
 title: Compress method of the CIM_Directory class
@@ -147,7 +147,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

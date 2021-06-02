@@ -1,6 +1,6 @@
 ---
 title: glGetTexLevelParameteriv function (Gl.h)
-description: The glGetTexLevelParameterfv and glGetTexLevelParameteriv functions return texture parameter values for a specific level of detail.
+description: The glGetTexLevelParameterfv and glGetTexLevelParameteriv functions return texture parameter values for a specific level of detail. | glGetTexLevelParameteriv function (Gl.h)
 ms.assetid: 536d7bc9-1599-47ff-8559-374f96f1d5f3
 keywords:
 - glGetTexLevelParameteriv function OpenGL
@@ -114,7 +114,7 @@ If an error is generated, no change is made to the contents of *params*.
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                              |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                    |

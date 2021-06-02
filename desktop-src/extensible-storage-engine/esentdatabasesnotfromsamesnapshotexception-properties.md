@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabasesNotFromSameSnapshotException properties"
 title: EsentDatabasesNotFromSameSnapshotException properties
 TOCTitle: EsentDatabasesNotFromSameSnapshotException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentDatabasesNotFromSameSnapshotException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabasesNotFromSameSnapshotException](dn334386\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabasesNotFromSameSnapshotException](./esentdatabasesnotfromsamesnapshotexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentDatabasesNotFromSameSnapshotException class](dn334386\(v=exchg.10\).md)
+[EsentDatabasesNotFromSameSnapshotException class](./esentdatabasesnotfromsamesnapshotexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

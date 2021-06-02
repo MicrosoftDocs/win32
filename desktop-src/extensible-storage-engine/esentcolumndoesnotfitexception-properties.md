@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentColumnDoesNotFitException properties"
 title: EsentColumnDoesNotFitException properties
 TOCTitle: EsentColumnDoesNotFitException properties
 ms:assetid: Properties.T:Microsoft.Isam.Esent.Interop.EsentColumnDoesNotFitException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentColumnDoesNotFitException](dn334250\(v=exchg.10\).md) type exposes the following members.
+The [EsentColumnDoesNotFitException](./esentcolumndoesnotfitexception-class.md) type exposes the following members.
 
 ## Properties
 
@@ -81,6 +82,6 @@ Top
 
 #### Reference
 
-[EsentColumnDoesNotFitException class](dn334250\(v=exchg.10\).md)
+[EsentColumnDoesNotFitException class](./esentcolumndoesnotfitexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

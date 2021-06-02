@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseIdInUseException constructor"
 title: EsentDatabaseIdInUseException constructor 
 TOCTitle: 'EsentDatabaseIdInUseException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentDatabaseIdInUseException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentDatabaseIdInUseException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentDatabaseIdInUseException()
 
 #### Reference
 
-[EsentDatabaseIdInUseException class](dn334396\(v=exchg.10\).md)
+[EsentDatabaseIdInUseException class](./esentdatabaseidinuseexception-class.md)
 
-[EsentDatabaseIdInUseException members](dn334418\(v=exchg.10\).md)
+[EsentDatabaseIdInUseException members](./esentdatabaseidinuseexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

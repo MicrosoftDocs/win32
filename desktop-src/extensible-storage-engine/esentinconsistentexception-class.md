@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentInconsistentException class"
 title: EsentInconsistentException class
 TOCTitle: EsentInconsistentException class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.EsentInconsistentException
@@ -34,13 +35,13 @@ Base class for Inconsistent exceptions.
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-        [Microsoft.Isam.Esent.Interop.EsentDataException](dn334392\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+        [Microsoft.Isam.Esent.Interop.EsentDataException](./esentdataexception-class.md)  
           Microsoft.Isam.Esent.Interop.EsentInconsistentException  
             
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -67,41 +68,41 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[EsentInconsistentException members](dn350428\(v=exchg.10\).md)
+[EsentInconsistentException members](./esentinconsistentexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)
 
 ## Derived types
 
 [System.Object](/dotnet/api/system.object)  
   [System.Exception](/dotnet/api/system.exception)  
-    [Microsoft.Isam.Esent.EsentException](dn292088\(v=exchg.10\).md)  
-      [Microsoft.Isam.Esent.Interop.EsentErrorException](dn274314\(v=exchg.10\).md)  
-        [Microsoft.Isam.Esent.Interop.EsentDataException](dn334392\(v=exchg.10\).md)  
+    [Microsoft.Isam.Esent.EsentException](./esentexception-class.md)  
+      [Microsoft.Isam.Esent.Interop.EsentErrorException](./esenterrorexception-class.md)  
+        [Microsoft.Isam.Esent.Interop.EsentDataException](./esentdataexception-class.md)  
           Microsoft.Isam.Esent.Interop.EsentInconsistentException  
-            [Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException](dn334236\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException](dn273995\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException](dn274072\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentBadLogVersionException](dn274023\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException](dn274140\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException](dn274215\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentDatabaseDirtyShutdownException](dn334290\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteIncrementalReseedException](dn334412\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException](dn334359\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException](dn334407\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException](dn274245\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException](dn274239\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentExistingLogFileHasBadSignatureException](dn274318\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentExistingLogFileIsNotContiguousException](dn274260\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException](dn274337\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentGivenLogFileHasBadSignatureException](dn350421\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException](dn350479\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentInvalidCreateDbVersionException](dn319468\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException](dn319486\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException](dn334564\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentMissingCurrentLogFilesException](dn334701\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException](dn334656\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException](dn334755\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException](dn319780\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException](dn350548\(v=exchg.10\).md)  
-            [Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException](dn334858\(v=exchg.10\).md)
+            [Microsoft.Isam.Esent.Interop.EsentAttachedDatabaseMismatchException](./esentattacheddatabasemismatchexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentBadCheckpointSignatureException](./esentbadcheckpointsignatureexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentBadLogSignatureException](./esentbadlogsignatureexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentBadLogVersionException](./esentbadlogversionexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentCheckpointFileNotFoundException](./esentcheckpointfilenotfoundexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentConsistentTimeMismatchException](./esentconsistenttimemismatchexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentDatabaseDirtyShutdownException](./esentdatabasedirtyshutdownexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentDatabaseIncompleteIncrementalReseedException](./esentdatabaseincompleteincrementalreseedexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentDatabaseLogSetMismatchException](./esentdatabaselogsetmismatchexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentDbTimeTooNewException](./esentdbtimetoonewexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentDbTimeTooOldException](./esentdbtimetoooldexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentEndingRestoreLogTooLowException](./esentendingrestorelogtoolowexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentExistingLogFileHasBadSignatureException](./esentexistinglogfilehasbadsignatureexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentExistingLogFileIsNotContiguousException](./esentexistinglogfileisnotcontiguousexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentFileInvalidTypeException](./esentfileinvalidtypeexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentGivenLogFileHasBadSignatureException](./esentgivenlogfilehasbadsignatureexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentGivenLogFileIsNotContiguousException](./esentgivenlogfileisnotcontiguousexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentInvalidCreateDbVersionException](./esentinvalidcreatedbversionexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentInvalidDatabaseVersionException](./esentinvaliddatabaseversionexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentLogGenerationMismatchException](./esentloggenerationmismatchexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentMissingCurrentLogFilesException](./esentmissingcurrentlogfilesexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentMissingFileToBackupException](./esentmissingfiletobackupexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentMissingRestoreLogFilesException](./esentmissingrestorelogfilesexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentPageSizeMismatchException](./esentpagesizemismatchexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentRequiredLogFilesMissingException](./esentrequiredlogfilesmissingexception-class.md)  
+            [Microsoft.Isam.Esent.Interop.EsentStartingRestoreLogTooHighException](./esentstartingrestorelogtoohighexception-class.md)

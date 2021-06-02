@@ -1,5 +1,5 @@
 ---
-Description: You cannot use the Certadm.dll's backup and restore functions to back up the Certificate Services private keys.
+description: You cannot use the Certadm.dll's backup and restore functions to back up the Certificate Services private keys.
 ms.assetid: 27ee8caa-8f5e-46dc-b55d-afde5471507e
 title: Backing Up and Restoring the Certificate Services Private Key
 ms.topic: article

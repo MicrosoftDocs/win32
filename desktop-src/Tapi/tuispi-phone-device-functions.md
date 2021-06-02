@@ -1,5 +1,5 @@
 ---
-Description: This section contains the TUISPI phone device function.
+description: This section contains the TUISPI phone device function.
 ms.assetid: 9a0bf12a-4e3b-4c6f-8659-9f76ec240675
 title: TUISPI Phone Device Functions
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The CIM\_HostedJobDestination class represents an association between a job destination and the system on which it resides. A system may host many job queues. Job destinations defer to the hosting system.
+description: The CIM\_HostedJobDestination class represents an association between a job destination and the system on which it resides. A system may host many job queues. Job destinations defer to the hosting system.
 ms.assetid: 5d853826-1f27-417b-a053-5e0ee9816376
 ms.tgt_platform: multiple
 title: CIM_HostedJobDestination class
@@ -96,7 +96,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

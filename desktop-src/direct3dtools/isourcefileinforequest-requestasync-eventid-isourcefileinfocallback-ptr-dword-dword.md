@@ -1,5 +1,5 @@
 ---
-Description: An asynchronous request to get the source files associated with the callstack of an event.
+description: An asynchronous request to get the source files associated with the callstack of an event.
 MS-HAID: vspixengine.ISourceFileInfoRequest\_RequestAsync\_EventID\_ISourceFileInfoCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

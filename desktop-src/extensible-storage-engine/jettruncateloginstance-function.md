@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JetTruncateLogInstance Function"
 title: JetTruncateLogInstance Function
 TOCTitle: JetTruncateLogInstance Function
 ms:assetid: 9b6852c6-a991-4d7b-bc54-49092f788751
@@ -27,7 +28,7 @@ _**Applies to:** Windows | Windows Server_
 
 ## JetTruncateLogInstance Function
 
-The **JetTruncateLogInstance** function is used during a backup initiated by [JetBeginExternalBackup](gg269292\(v=exchg.10\).md) to delete any transaction log files that will no longer be needed once the current backup completes successfully.
+The **JetTruncateLogInstance** function is used during a backup initiated by [JetBeginExternalBackup](./jetbeginexternalbackup-function.md) to delete any transaction log files that will no longer be needed once the current backup completes successfully.
 
 **Windows XP:**  **JetTruncateLogInstance** is introduced in Windows XP.
 
@@ -49,7 +50,7 @@ For Windows XP and later releases, the API variant that does not accept this pa
 
 ### Return Value
 
-This function returns the [JET_ERR](gg294092\(v=exchg.10\).md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](gg269184\(v=exchg.10\).md) and [Error Handling Parameters](gg269173\(v=exchg.10\).md).
+This function returns the [JET_ERR](./jet-err.md) datatype with one of the following return codes. For more information about the possible ESE errors, see [Extensible Storage Engine Errors](./extensible-storage-engine-errors.md) and [Error Handling Parameters](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -150,11 +151,10 @@ If this function fails, the backup state machine can be advanced such that the b
 
 #### See Also
 
-[Extensible Storage Engine Files](gg294069\(v=exchg.10\).md)  
-[JET_ERR](gg294092\(v=exchg.10\).md)  
-[JET_INSTANCE](gg294048\(v=exchg.10\).md)  
-[JetBeginExternalBackup](gg269292\(v=exchg.10\).md)  
-[JetOpenFile](gg269249\(v=exchg.10\).md)  
-[JetStopBackup](gg294067\(v=exchg.10\).md)  
-[JetStopService](gg269240\(v=exchg.10\).md)
-
+[Extensible Storage Engine Files](./extensible-storage-engine-files.md)  
+[JET_ERR](./jet-err.md)  
+[JET_INSTANCE](./jet-instance.md)  
+[JetBeginExternalBackup](./jetbeginexternalbackup-function.md)  
+[JetOpenFile](./jetopenfile-function.md)  
+[JetStopBackup](./jetstopbackup-function.md)  
+[JetStopService](./jetstopservice-function.md)

@@ -1,5 +1,5 @@
 ---
-Description: Gets the user's current disk usage as a text string.
+description: Gets the user's current disk usage as a text string.
 title: DIDiskQuotaUser.QuotaUsedText property
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: be27a17c-77ec-4016-8c2e-16fbc88c7c7a
-api_name: 
- - DIDiskQuotaUser.QuotaUsedText
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 
@@ -48,7 +39,7 @@ A string value that is set to the amount of disk space currently in use. If NTFS
 
 
 
-|                                     |                                                                                                               |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                                                    |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                                          |

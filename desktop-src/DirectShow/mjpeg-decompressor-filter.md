@@ -1,5 +1,5 @@
 ---
-Description: MJPEG Decompressor Filter
+description: MJPEG Decompressor Filter
 ms.assetid: 0862fd8c-7e64-4472-9405-4d8e31e4401f
 title: MJPEG Decompressor Filter
 ms.topic: article
@@ -12,7 +12,7 @@ This filter decodes a video stream from motion JPEG to uncompressed video. Some 
 
 
 
-|                                          |                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_MJPG                                                                                                               |

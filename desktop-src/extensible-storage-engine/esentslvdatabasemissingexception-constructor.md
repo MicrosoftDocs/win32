@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVDatabaseMissingException constructor"
 title: EsentSLVDatabaseMissingException constructor 
 TOCTitle: 'EsentSLVDatabaseMissingException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentSLVDatabaseMissingException.#ctor
@@ -28,7 +29,7 @@ ROBOTS: INDEX,FOLLOW
 
 # EsentSLVDatabaseMissingException constructor
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -49,9 +50,8 @@ public EsentSLVDatabaseMissingException()
 
 #### Reference
 
-[EsentSLVDatabaseMissingException class](dn350668\(v=exchg.10\).md)
+[EsentSLVDatabaseMissingException class](./esentslvdatabasemissingexception-class.md)
 
-[EsentSLVDatabaseMissingException members](dn350674\(v=exchg.10\).md)
+[EsentSLVDatabaseMissingException members](./esentslvdatabasemissingexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: Specifies the maximum number of frames that the video capture source will buffer for this stream.
+description: Specifies the maximum number of frames that the video capture source will buffer for this stream.
 ms.assetid: 5AB109D8-1033-4DD9-B267-E66BE82DCB16
 title: MF_DEVICESTREAM_MAX_FRAME_BUFFERS attribute (Mfidl.h)
 ms.topic: reference
@@ -18,7 +18,7 @@ Specifies the maximum number of frames that the video capture source will buffer
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8 \[desktop apps only\]<br/>                                         |
 | Minimum supported server<br/> | Windows Server 2012 \[desktop apps only\]<br/>                               |

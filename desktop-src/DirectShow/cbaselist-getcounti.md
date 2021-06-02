@@ -1,5 +1,5 @@
 ---
-Description: The GetCountI method retrieves the number of items in the list.
+description: The GetCountI method retrieves the number of items in the list.
 ms.assetid: 1c6f6a3b-8604-44e4-a5fc-b29fa6869173
 title: CBaseList.GetCountI method (Wxlist.h)
 ms.topic: reference
@@ -43,7 +43,7 @@ Returns the number of items in the list.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

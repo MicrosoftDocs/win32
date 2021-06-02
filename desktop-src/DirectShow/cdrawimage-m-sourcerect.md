@@ -1,5 +1,5 @@
 ---
-Description: The m\_SourceRect member variable specifies the source rectangle for drawing. The initial value is an empty rectangle, indicating the entire image should be drawn.
+description: The m\_SourceRect member variable specifies the source rectangle for drawing. The initial value is an empty rectangle, indicating the entire image should be drawn.
 ms.assetid: 6a13823b-18e0-43fe-80d5-97357fa87fa5
 title: CDrawImage::m_SourceRect member (Winutil.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ RECT m_SourceRect;
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Winutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSPAvailExtCacheOutOfSyncException methods"
 title: EsentSPAvailExtCacheOutOfSyncException methods
 TOCTitle: EsentSPAvailExtCacheOutOfSyncException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSPAvailExtCacheOutOfSyncException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSPAvailExtCacheOutOfSyncException](dn334808\(v=exchg.10\).md) type exposes the following members.
+The [EsentSPAvailExtCacheOutOfSyncException](./esentspavailextcacheoutofsyncexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSPAvailExtCacheOutOfSyncException class](dn334808\(v=exchg.10\).md)
+[EsentSPAvailExtCacheOutOfSyncException class](./esentspavailextcacheoutofsyncexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

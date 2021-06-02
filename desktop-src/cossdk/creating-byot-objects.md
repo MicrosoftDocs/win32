@@ -1,5 +1,5 @@
 ---
-Description: Creating BYOT Objects
+description: Creating BYOT Objects
 ms.assetid: 16b68ce2-46b2-4e35-bf92-f132dcb354e3
 title: Creating BYOT Objects
 ms.topic: article

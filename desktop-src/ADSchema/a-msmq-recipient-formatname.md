@@ -22,7 +22,7 @@ Used as the recipient format name in the MSMQ-Custom-Recipient class.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | MSMQ-Recipient-FormatName                   |
 | Ldap-Display-Name | msMQ-Recipient-FormatName                   |
@@ -47,7 +47,7 @@ Used as the recipient format name in the MSMQ-Custom-Recipient class.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -68,7 +68,7 @@ Used as the recipient format name in the MSMQ-Custom-Recipient class.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -89,7 +89,7 @@ Used as the recipient format name in the MSMQ-Custom-Recipient class.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -110,7 +110,7 @@ Used as the recipient format name in the MSMQ-Custom-Recipient class.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |
@@ -131,7 +131,7 @@ Used as the recipient format name in the MSMQ-Custom-Recipient class.
 
 
 
-|                        |                                                                     |
+| Entry | Value |
 |------------------------|---------------------------------------------------------------------|
 | Link-Id                | \-                                                                  |
 | MAPI-Id                | \-                                                                  |

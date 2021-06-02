@@ -1,5 +1,5 @@
 ---
-Description: The following GUIDS define the different types of sensor profiles.
+description: The following GUIDS define the different types of sensor profiles.
 ms.assetid: 9CA55255-484F-44C9-B3B7-3C152392FDF5
 title: Sensor Profile GUIDs (Mfapi.h)
 ms.topic: reference
@@ -62,11 +62,19 @@ Video HDR8.
 
 </dt> </dl> </dd> </dl>
 
+<span id="KSCAMERAPROFILE_CompressedCamera"></span><span id="kscameraprofile_compressedcamera"></span><span id="KSCAMERAPROFILE_COMPRESSEDCAMERA"></span>**KSCAMERAPROFILE\_CompressedCamera**
+</dt> <dd> <dl> <dt>
+
+The profile supports compressed camera streams to enable saving compressed streams directly to a compressed format without incurring the cost of decompressing and then recompressing the stream.
+
+
+</dt> </dl> </dd> </dl>
+
 ## Requirements
 
 
 
-|                                     |                                                                                    |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10, version 1709 \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows Server \[desktop apps only\]<br/>                                    |

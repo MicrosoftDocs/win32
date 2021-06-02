@@ -1,5 +1,5 @@
 ---
-Description: Indicates full set of IEs provided by the Wi-Fi Direct Device.
+description: Indicates full set of IEs provided by the Wi-Fi Direct Device.
 ms.assetid: b761889e-209d-4456-80af-a9de934be408
 title: System.Devices.WiFiDirect.InformationElements
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-Description: The ExpertMemorySize function returns the amount of memory allocated by the ExpertAllocMemory function.
+description: The ExpertMemorySize function returns the amount of memory allocated by the ExpertAllocMemory function.
 ms.assetid: 60d3f33d-dc03-4c39-98fa-ec093398b51b
 title: ExpertMemorySize function (Netmon.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ For information on the **SIZE\_T** data type that **ExpertMemorySize** returns, 
 
 
 
-|                                     |                                                                                      |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                           |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                 |

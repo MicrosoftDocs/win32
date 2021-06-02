@@ -1,5 +1,5 @@
 ---
-Description: The param element specifies the value of a property on a transition, effect, or other subobject.
+description: The param element specifies the value of a property on a transition, effect, or other subobject.
 ms.assetid: a727c47c-b925-436c-b1e8-d5f407120dc9
 title: param Element (DirectShow)
 ms.topic: reference
@@ -23,7 +23,7 @@ The `param` element specifies the value of a property on a transition, effect, o
 
 
 
-|          |                                                                                                          |
+| Label | Value |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**clip**](clip-element.md), [**effect**](effect-element.md), [**transition**](transition-element.md) |
 | Children | [**at**](at-element.md), [**linear**](linear-element.md)                                               |

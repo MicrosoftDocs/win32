@@ -1,5 +1,5 @@
 ---
-Description: Provides properties and methods that you can use to choose, manage, and use certificate stores and the certificates in those stores.
+description: Provides properties and methods that you can use to choose, manage, and use certificate stores and the certificates in those stores.
 ms.assetid: 'de4eecf7-c03b-4733-ac29-d5b26b873dba'
 title: Store object
 ms.topic: reference
@@ -75,7 +75,7 @@ The **Store** object can be created, and it is safe for scripting. The ProgID fo
 
 
 
-|                            |                                                                                        |
+| Requirement | Value |
 |----------------------------|----------------------------------------------------------------------------------------|
 | Redistributable<br/> | CAPICOM 2.0 or later on Windows Server 2003 and Windows XP<br/>                  |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |

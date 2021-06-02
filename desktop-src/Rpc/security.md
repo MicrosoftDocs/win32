@@ -8,7 +8,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Security
+# Security (RPC)
 
 With the increased use of distributed applications, the need for secure communications between the client and server portions of applications is paramount. The Remote Procedure Call (RPC) run-time library provides a standardized interface to authentication services for both clients and servers. The authentication services on the server host system provide RPC authentication. Applications use authenticated remote procedure calls to ensure that all calls come from authorized clients. They can also help ensure that all server replies come from authenticated servers.
 

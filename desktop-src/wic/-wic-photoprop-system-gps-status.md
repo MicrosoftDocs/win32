@@ -1,5 +1,5 @@
 ---
-Description: The photo metadata policy for the System.GPS.Status property.
+description: The photo metadata policy for the System.GPS.Status property.
 ms.assetid: 74ea0384-3b1f-4d5e-8713-7b3936813a3a
 title: System.GPS.Status Photo Metadata Policy
 ms.topic: article

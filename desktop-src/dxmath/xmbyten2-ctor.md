@@ -1,5 +1,5 @@
 ---
-Description: Constructors exposed by XMBYTEN2.
+description: Constructors exposed by XMBYTEN2.
 ms.assetid: 4fad24ee-f825-454d-a712-7917116de0b3
 title: XMBYTEN2 constructors
 ms.topic: reference

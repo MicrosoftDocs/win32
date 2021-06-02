@@ -1,5 +1,5 @@
 ---
-Description: The SetPMTUDiscovery WMI class static method is used to enable Maximum Transmission Unit (MTU) discovery over the path to a remote host.
+description: The SetPMTUDiscovery WMI class static method is used to enable Maximum Transmission Unit (MTU) discovery over the path to a remote host.
 ms.assetid: 43c640bb-c4e7-4b4b-9c18-6cc426229954
 ms.tgt_platform: multiple
 title: SetPMTUDiscovery method of the Win32_NetworkAdapterConfiguration class
@@ -411,7 +411,7 @@ The [Enable PMTU Discovery on all Network Adapters](https://Gallery.TechNet.Micr
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

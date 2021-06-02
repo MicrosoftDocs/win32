@@ -22,7 +22,7 @@ Terminal Services Home Directory specifies the Home directory for the user.
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-TS-Home-Directory                        |
 | Ldap-Display-Name | msTSHomeDirectory                           |
@@ -45,7 +45,7 @@ Terminal Services Home Directory specifies the Home directory for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Terminal Services Home Directory specifies the Home directory for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Terminal Services Home Directory specifies the Home directory for the user.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | \-                                |
 | MAPI-Id                | \-                                |

@@ -1,5 +1,5 @@
 ---
-Description: The AddAfter method inserts a list after the specified position.
+description: The AddAfter method inserts a list after the specified position.
 ms.assetid: c2a2e599-0a83-4eb0-aceb-c483f153ba7e
 title: CBaseList.AddAfter method (Wxlist.h)
 ms.topic: reference
@@ -64,7 +64,7 @@ Existing position indicators, including the one specified in the *pos* parameter
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxlist.h (include Streams.h)</dt> </dl>                                                                                    |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_LOGTIME.Equals method (JET_LOGTIME)"
 title: JET_LOGTIME.Equals method (JET_LOGTIME)
 TOCTitle: Equals method (JET_LOGTIME)
 ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_LOGTIME.Equals(Microsoft.Isam.Esent.Interop.JET_LOGTIME)
@@ -26,7 +27,7 @@ ROBOTS: INDEX,FOLLOW
 
 Returns a value indicating whether this instance is equal to another instance.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -53,7 +54,7 @@ public bool Equals(
 #### Parameters
 
   - other  
-    Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](hh557188\(v=exchg.10\).md)  
+    Type: [Microsoft.Isam.Esent.Interop.JET_LOGTIME](./jet-logtime-structure2.md)  
     
     An instance to compare with this instance.
 
@@ -70,10 +71,10 @@ True if the two instances are equal.
 
 #### Reference
 
-[JET_LOGTIME structure](hh557188\(v=exchg.10\).md)
+[JET_LOGTIME structure](./jet-logtime-structure2.md)
 
-[JET_LOGTIME members](hh579151\(v=exchg.10\).md)
+[JET_LOGTIME members](./jet-logtime-members.md)
 
-[Equals overload](hh566490\(v=exchg.10\).md)
+[Equals overload](./jet-logtime.equals-method.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

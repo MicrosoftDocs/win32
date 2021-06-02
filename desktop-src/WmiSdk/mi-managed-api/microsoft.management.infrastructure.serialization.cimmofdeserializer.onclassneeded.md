@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: CimMofDeserializer.OnClassNeeded delegate (String, String, String)"
 title: CimMofDeserializer.OnClassNeeded delegate (Microsoft.Management.Infrastructure.Serialization)
 TOCTitle: CimMofDeserializer.OnClassNeeded delegate (Microsoft.Management.Infrastructure.Serialization)
 ms:assetid: T:Microsoft.Management.Infrastructure.Serialization.CimMofDeserializer.OnClassNeeded

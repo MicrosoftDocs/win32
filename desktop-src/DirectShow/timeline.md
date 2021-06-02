@@ -1,5 +1,5 @@
 ---
-Description: Timeline
+description: Timeline
 ms.assetid: '6cc36034-224c-4126-873b-0cfeceec9781'
 title: Timeline
 ms.topic: article

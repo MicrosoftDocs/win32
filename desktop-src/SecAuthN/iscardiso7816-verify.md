@@ -1,5 +1,5 @@
 ---
-Description: Constructs an application protocol data unit (APDU) command that initiates the comparison (in the card) of the verification data sent from the interface device with the reference data stored in the card (for example, password).
+description: Constructs an application protocol data unit (APDU) command that initiates the comparison (in the card) of the verification data sent from the interface device with the reference data stored in the card (for example, password).
 ms.assetid: a0837c39-d741-42eb-88b2-87c4e043e64f
 title: ISCardISO7816::Verify method (Scardssp.h)
 ms.topic: reference
@@ -106,7 +106,7 @@ In addition to the COM error codes listed above, this interface may return a sma
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: UInt64ColumnValue methods"
 title: UInt64ColumnValue methods
 TOCTitle: UInt64ColumnValue methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.UInt64ColumnValue
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [UInt64ColumnValue](dn351190\(v=exchg.10\).md) type exposes the following members.
+The [UInt64ColumnValue](./uint64columnvalue-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[UInt64ColumnValue class](dn351190\(v=exchg.10\).md)
+[UInt64ColumnValue class](./uint64columnvalue-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

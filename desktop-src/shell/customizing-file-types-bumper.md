@@ -1,5 +1,5 @@
 ---
-Description: Implementing a Custom File Format
+description: Implementing a Custom File Format
 title: Implementing a Custom File Format
 ms.topic: article
 ms.date: 05/31/2018

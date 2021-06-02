@@ -1,5 +1,5 @@
 ---
-Description: Thread Environment Block (Debugging Notes)
+description: Thread Environment Block (Debugging Notes)
 ms.assetid: 5040CB82-D32F-4C44-8C03-30238D5B897A
 title: Thread Environment Block (Debugging Notes)
 ms.topic: article
@@ -14,7 +14,7 @@ In the following versions of Windows, the offset of the 32-bit TEB address withi
 
 
 
-|               |                        |
+|  Platform     | Version                |
 |---------------|------------------------|
 | Windows Vista | Windows Server 2008    |
 | Windows 7     | Windows Server 2008 R2 |

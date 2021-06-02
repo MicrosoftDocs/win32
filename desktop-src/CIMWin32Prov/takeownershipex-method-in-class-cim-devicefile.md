@@ -1,5 +1,5 @@
 ---
-Description: Obtains ownership of the logical device file specified in the object path. This method is an extended version of the TakeOwnerShip method and is inherited from CIM\_LogicalFile.
+description: Obtains ownership of the logical device file specified in the object path. This method is an extended version of the TakeOwnerShip method and is inherited from CIM\_LogicalFile.
 ms.assetid: 084f755a-e837-4d21-8bd2-0f63f80302fc
 ms.tgt_platform: multiple
 title: TakeOwnerShipEx method of the CIM_DeviceFile class
@@ -198,7 +198,7 @@ This documentation is derived from the CIM class descriptions published by the D
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista<br/>                                                                |
 | Minimum supported server<br/> | Windows Server 2008<br/>                                                          |

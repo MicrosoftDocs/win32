@@ -9,7 +9,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Using the Code Examples
+# Using the Windows Media Format SDK Code Examples
 
 Many of the explanatory sections of this SDK include code examples. The examples are written to be as clear and concise as possible. When reading the examples, you should be aware of the following conventions.
 

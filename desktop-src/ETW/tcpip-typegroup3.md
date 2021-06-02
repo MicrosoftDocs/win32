@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for IPv6 TCP/IP events. The following syntax is simplified from MOF code.
+description: This class is the event type class for IPv6 TCP/IP events. The following syntax is simplified from MOF code.
 ms.assetid: d24e667e-ec7f-492a-989e-a02ff4c8ac10
 title: TcpIp_TypeGroup3 class
 ms.topic: reference
@@ -189,7 +189,7 @@ Source port number.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

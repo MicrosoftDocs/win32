@@ -1,6 +1,6 @@
 ---
 title: ms-PKI-AccountCredentials attribute
-description: Storage of encrypted user credential token BLOBs for roaming.
+description: Storage of encrypted user credential token BLOBs for roaming. | ms-PKI-AccountCredentials attribute
 ms.assetid: 08df5c7d-3aae-4cff-97df-25da6995c72e
 ms.tgt_platform: multiple
 keywords:
@@ -22,7 +22,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                   |                                                 |
+| Entry | Value |
 |-------------------|-------------------------------------------------|
 | CN                | ms-PKI-AccountCredentials                       |
 | Ldap-Display-Name | msPKIAccountCredentials                         |
@@ -45,7 +45,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2048                              |
 | MAPI-Id                | \-                                |
@@ -66,7 +66,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2048                              |
 | MAPI-Id                | \-                                |
@@ -87,7 +87,7 @@ Storage of encrypted user credential token BLOBs for roaming.
 
 
 
-|                        |                                   |
+| Entry | Value |
 |------------------------|-----------------------------------|
 | Link-Id                | 2048                              |
 | MAPI-Id                | \-                                |

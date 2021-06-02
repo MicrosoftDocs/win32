@@ -1,5 +1,5 @@
 ---
-Description: The ReturnFromSubmenu method returns display from a submenu to its parent menu, or to the current title if the menu is a top-level menu.
+description: The ReturnFromSubmenu method returns display from a submenu to its parent menu, or to the current title if the menu is a top-level menu.
 ms.assetid: 900151e9-3fb3-4665-9169-c1cae6659e72
 title: ReturnFromSubmenu Method
 ms.topic: reference

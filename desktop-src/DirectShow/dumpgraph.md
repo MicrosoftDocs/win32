@@ -1,5 +1,5 @@
 ---
-Description: The DumpGraph function sends information about a filter graph to the debug output location. Ignored in retail builds.
+description: The DumpGraph function sends information about a filter graph to the debug output location. Ignored in retail builds.
 ms.assetid: c78f86bb-44d0-4904-b7f8-e756bda0151d
 title: DumpGraph function (Wxdebug.h)
 ms.topic: reference
@@ -60,7 +60,7 @@ This function does not return a value.
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Wxdebug.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

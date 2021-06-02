@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentDatabaseInvalidPagesException methods"
 title: EsentDatabaseInvalidPagesException methods
 TOCTitle: EsentDatabaseInvalidPagesException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentDatabaseInvalidPagesException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentDatabaseInvalidPagesException](dn334339\(v=exchg.10\).md) type exposes the following members.
+The [EsentDatabaseInvalidPagesException](./esentdatabaseinvalidpagesexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentDatabaseInvalidPagesException class](dn334339\(v=exchg.10\).md)
+[EsentDatabaseInvalidPagesException class](./esentdatabaseinvalidpagesexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

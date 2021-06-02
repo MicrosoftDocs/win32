@@ -1,5 +1,5 @@
 ---
-Description: Retrieving Supported Service Formats
+description: Retrieving Supported Service Formats
 ms.assetid: b54dfeda-c2a3-42ec-895f-9abbbd4dd2ec
 title: Retrieving Supported Service Formats
 ms.topic: article
@@ -12,9 +12,8 @@ The WpdServicesApiSample application includes code that demonstrates how an appl
 
 
 
-|                                                                                      |                                                                                                       |
+| Interface | Description   |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Interface                                                                            | Description                                                                                           |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | Used to retrieve the **IPortableDeviceServiceCapabilities** interface to access the supported events. |
 | [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | Provides access to the supported events and event attributes.                                         |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | Contains the list of supported formats.                                                               |

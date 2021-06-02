@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentTooManyKeysException constructor"
 title: EsentTooManyKeysException constructor 
 TOCTitle: 'EsentTooManyKeysException constructor '
 ms:assetid: M:Microsoft.Isam.Esent.Interop.EsentTooManyKeysException.#ctor
@@ -30,7 +31,7 @@ ROBOTS: INDEX,FOLLOW
 
 Initializes a new instance of the EsentTooManyKeysException class.
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -51,9 +52,8 @@ public EsentTooManyKeysException()
 
 #### Reference
 
-[EsentTooManyKeysException class](dn334998\(v=exchg.10\).md)
+[EsentTooManyKeysException class](./esenttoomanykeysexception-class.md)
 
-[EsentTooManyKeysException members](dn350772\(v=exchg.10\).md)
+[EsentTooManyKeysException members](./esenttoomanykeysexception-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
-
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

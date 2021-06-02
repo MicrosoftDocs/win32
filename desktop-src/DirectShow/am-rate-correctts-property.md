@@ -1,5 +1,5 @@
 ---
-Description: The DVD Navigator uses this property to inform the decoder that the Navigator is setting the correct time stamps on the samples it delivers to the decoder.
+description: The DVD Navigator uses this property to inform the decoder that the Navigator is setting the correct time stamps on the samples it delivers to the decoder.
 ms.assetid: f04e8291-734f-483e-b756-5362beb68d9c
 title: AM_RATE_CorrectTS Property (Dvdmedia.h)
 ms.topic: reference
@@ -12,7 +12,7 @@ The DVD Navigator uses this property to inform the decoder that the Navigator is
 
 
 
-|                   |                               |
+| Label | Value |
 |-------------------|-------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange |
 | Property ID       | AM\_RATE\_CorrectTS           |
@@ -32,7 +32,7 @@ These problems have been corrected in the current version of the DVD Navigator. 
 
 
 
-|                   |                                                                                       |
+| Requirement | Value |
 |-------------------|---------------------------------------------------------------------------------------|
 | Header<br/> | <dl> <dt>Dvdmedia.h</dt> </dl> |
 

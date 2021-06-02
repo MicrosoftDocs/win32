@@ -1,5 +1,5 @@
 ---
-Description: Retrieves an object handle for the specified object associated with the specified process.
+description: Retrieves an object handle for the specified object associated with the specified process.
 ms.assetid: c7b371c3-02c0-4137-ad9d-dd07a74fe2a5
 title: ObFindHandleForObject function (Ntosp.h)
 ms.topic: reference
@@ -88,7 +88,7 @@ This function is available in Ntoskrnl.exe and can be called only from kernel mo
 
 
 
-|                                     |                                                                                         |
+| Requirement | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                             |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                    |

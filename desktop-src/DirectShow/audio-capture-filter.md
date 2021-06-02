@@ -1,5 +1,5 @@
 ---
-Description: Audio Capture Filter
+description: Audio Capture Filter
 ms.assetid: 'f76d5c82-33b2-4579-9420-8f97eca53ede'
 title: Audio Capture Filter
 ms.topic: article
@@ -14,7 +14,7 @@ This filter can work with more than one hardware device, so calling CoCreateInst
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer), [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags), [**IAMResourceControl**](/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), IPersistPropertyBag, ISpecifyPropertyPages                                                               |
 | Input Pin Media Types                    | MEDIATYPE\_AnalogAudio, MEDIASUBTYPE\_NULL                                                                                                                                                                                                                                                         |

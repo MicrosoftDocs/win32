@@ -1,5 +1,5 @@
 ---
-Description: Windows 7 introduces libraries, which provide users with a single, coherent view of their files even when those files are stored in different locations.
+description: Windows 7 introduces libraries, which provide users with a single, coherent view of their files even when those files are stored in different locations.
 title: Windows Libraries
 ms.topic: article
 ms.date: 05/31/2018

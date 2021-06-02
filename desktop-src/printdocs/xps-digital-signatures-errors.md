@@ -1,5 +1,5 @@
 ---
-Description: The following table lists all HRESULT values that can be returned by the methods in the XPS Digital Signature API.
+description: The following table lists all HRESULT values that can be returned by the methods in the XPS Digital Signature API.
 ms.assetid: d20707b0-55ea-438a-8ce3-972c61678928
 title: XPS Digital Signature API Errors (Xpsdigitalsignature.h)
 ms.topic: reference
@@ -35,7 +35,7 @@ Some XPS digital signature API methods make calls to the [Packaging](/previous-v
 
 
 
-|                                     |                                                                                                    |
+| Requirement | Value |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 7 \[desktop apps only\]<br/>                                                         |
 | Minimum supported server<br/> | Windows Server 2008 R2 \[desktop apps only\]<br/>                                            |

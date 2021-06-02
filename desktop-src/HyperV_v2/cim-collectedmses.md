@@ -1,5 +1,5 @@
 ---
-Description: Represents a generic association between a collection of managed system elements and the members of the collection.
+description: Represents a generic association between a collection of managed system elements and the members of the collection.
 ms.assetid: c9e2bbca-67be-41f2-a94c-cf4eaf5f4694
 title: CIM_CollectedMSEs class (Hyper-V management)
 ms.topic: reference
@@ -17,7 +17,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_CollectedMSEs class
+# CIM_CollectedMSEs class (Hyper-V management)
 
 Represents a generic association between a collection of managed system elements and the members of the collection.
 
@@ -80,7 +80,7 @@ The members of the collection.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 10 \[desktop apps only\]<br/>                                                             |
 | Minimum supported server<br/> | Windows Server 2016<br/>                                                                          |

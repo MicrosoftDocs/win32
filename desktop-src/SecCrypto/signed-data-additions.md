@@ -1,5 +1,5 @@
 ---
-Description: Lists the changes in capabilities of signed data.
+description: Lists the changes in capabilities of signed data.
 ms.assetid: 0518a336-d996-4a82-9336-a448284c72dd
 title: Signed Data Additions
 ms.topic: article

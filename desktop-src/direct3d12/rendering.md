@@ -7,7 +7,7 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Rendering
+# Rendering (Direct3D 12 Graphics)
 
 This section contains information about rendering features new to Direct3D 12 (and Direct3D 11.3).
 

@@ -1,5 +1,5 @@
 ---
-Description: Implementing DllRegisterServer
+description: Implementing DllRegisterServer
 ms.assetid: aaa4069e-0b6a-4a76-b950-1a85a9ed969d
 title: Implementing DllRegisterServer
 ms.topic: article

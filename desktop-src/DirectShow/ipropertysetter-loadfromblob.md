@@ -1,5 +1,5 @@
 ---
-Description: The LoadFromBlob method loads property data from a persistence format.
+description: The LoadFromBlob method loads property data from a persistence format.
 ms.assetid: b314a844-2190-469a-a030-4494e2140ce6
 title: IPropertySetter::LoadFromBlob method (Qedit.h)
 ms.topic: reference
@@ -75,7 +75,7 @@ If this method succeeds, it returns **S\_OK**. Otherwise, it returns an **HRESUL
 
 
 
-|                    |                                                                                         |
+| Requirement | Value |
 |--------------------|-----------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Qedit.h</dt> </dl>      |
 | Library<br/> | <dl> <dt>Strmiids.lib</dt> </dl> |

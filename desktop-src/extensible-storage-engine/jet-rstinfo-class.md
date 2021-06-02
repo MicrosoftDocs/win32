@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: JET_RSTINFO class"
 title: JET_RSTINFO class
 TOCTitle: JET_RSTINFO class
 ms:assetid: T:Microsoft.Isam.Esent.Interop.JET_RSTINFO
@@ -35,7 +36,7 @@ Contains optional input and output parameters for JetRetrieveColumn.
 [System.Object](/dotnet/api/system.object)  
   Microsoft.Isam.Esent.Interop.JET_RSTINFO  
 
-**Namespace:**  [Microsoft.Isam.Esent.Interop](hh596136\(v=exchg.10\).md)  
+**Namespace:**  [Microsoft.Isam.Esent.Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly:**  Microsoft.Isam.Esent.Interop (in Microsoft.Isam.Esent.Interop.dll)
 
 ## Syntax
@@ -63,6 +64,6 @@ Any public static (Shared in Visual Basic) members of this type are thread safe.
 
 #### Reference
 
-[JET_RSTINFO members](dn335237\(v=exchg.10\).md)
+[JET_RSTINFO members](./jet-rstinfo-members.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

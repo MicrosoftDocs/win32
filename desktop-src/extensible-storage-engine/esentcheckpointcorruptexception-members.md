@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentCheckpointCorruptException members"
 title: EsentCheckpointCorruptException members
 TOCTitle: EsentCheckpointCorruptException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentCheckpointCorruptException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.CheckpointCorrupt exceptions.
 
-The [EsentCheckpointCorruptException](dn274132\(v=exchg.10\).md) type exposes the following members.
+The [EsentCheckpointCorruptException](./esentcheckpointcorruptexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentCheckpointCorruptException class](dn274132\(v=exchg.10\).md)
+[EsentCheckpointCorruptException class](./esentcheckpointcorruptexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -1,5 +1,5 @@
 ---
-Description: The management characteristics of a USB device.
+description: The management characteristics of a USB device.
 ms.assetid: c0589346-7683-49c6-bd34-5ee38d71d00e
 title: CIM_USBDevice class (Hyper-V management)
 ms.topic: reference
@@ -31,7 +31,7 @@ api_location:
 - vmms.exe
 ---
 
-# CIM\_USBDevice class
+# CIM_USBDevice class (Hyper-V management)
 
 The management characteristics of a USB device.
 
@@ -341,7 +341,7 @@ The vendor ID assigned to the device by USB.org.
 
 
 
-|                                     |                                                                                                         |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 8.1<br/>                                                                                  |
 | Minimum supported server<br/> | Windows Server 2012 R2<br/>                                                                       |

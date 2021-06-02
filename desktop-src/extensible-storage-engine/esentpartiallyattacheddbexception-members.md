@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentPartiallyAttachedDBException members"
 title: EsentPartiallyAttachedDBException members
 TOCTitle: EsentPartiallyAttachedDBException members
 ms:assetid: AllMembers.T:Microsoft.Isam.Esent.Interop.EsentPartiallyAttachedDBException
@@ -15,7 +16,7 @@ Include inherited members
 
 Base class for JET_err.PartiallyAttachedDB exceptions.
 
-The [EsentPartiallyAttachedDBException](dn319835\(v=exchg.10\).md) type exposes the following members.
+The [EsentPartiallyAttachedDBException](./esentpartiallyattacheddbexception-class.md) type exposes the following members.
 
 ## Constructors
 
@@ -162,6 +163,6 @@ Top
 
 #### Reference
 
-[EsentPartiallyAttachedDBException class](dn319835\(v=exchg.10\).md)
+[EsentPartiallyAttachedDBException class](./esentpartiallyattacheddbexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

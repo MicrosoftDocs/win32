@@ -1,5 +1,5 @@
 ---
-Description: The CONFIGUREDEXPERT structure associates an expert with its configuration data.
+description: The CONFIGUREDEXPERT structure associates an expert with its configuration data.
 ms.assetid: 96a6650b-6d6f-495e-83bb-385d44ff015d
 title: CONFIGUREDEXPERT structure (Netmon.h)
 ms.topic: reference
@@ -61,7 +61,7 @@ Pointer to an [**EXPERTCONFIG**](expertconfig.md) structure.
 
 
 
-|                                     |                                                                                     |
+| Requirement | Value |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows 2000 Professional \[desktop apps only\]<br/>                          |
 | Minimum supported server<br/> | Windows 2000 Server \[desktop apps only\]<br/>                                |

@@ -1,5 +1,5 @@
 ---
-Description: The GetVideoFormat method retrieves a video sample that represents the current video format.
+description: The GetVideoFormat method retrieves a video sample that represents the current video format.
 ms.assetid: f7457c5b-037c-4a63-963e-0fc6086609a4
 title: CBaseControlVideo.GetVideoFormat method (Ctlutil.h)
 ms.topic: reference
@@ -56,7 +56,7 @@ To return and check certain information through [**IBasicVideo**](/windows/deskt
 
 
 
-|                    |                                                                                                                                                                                            |
+| Requirement | Value |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Header<br/>  | <dl> <dt>Ctlutil.h (include Streams.h)</dt> </dl>                                                                                   |
 | Library<br/> | <dl> <dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt> </dl> |

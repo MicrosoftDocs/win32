@@ -1,5 +1,5 @@
 ---
-Description: This class is the event type class for PnP events. The following syntax is simplified from MOF code.
+description: This class is the event type class for PnP events. The following syntax is simplified from MOF code.
 ms.assetid: 01e9a8bb-3f54-4e20-b4db-1b4bba745d4f
 title: SystemConfig_PnP class
 ms.topic: reference
@@ -153,7 +153,7 @@ Length, in characters, of the DeviceID string.
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

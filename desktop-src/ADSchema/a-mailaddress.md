@@ -22,7 +22,7 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | SMTP-Mail-Address                           |
 | Ldap-Display-Name | mailAddress                                 |
@@ -49,7 +49,7 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -70,7 +70,7 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -91,7 +91,7 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -112,7 +112,7 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -133,7 +133,7 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -154,7 +154,7 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |
@@ -175,7 +175,7 @@ Generic mail address attribute. Used in the box as an optional attribute of serv
 
 
 
-|                        |                                       |
+| Entry | Value |
 |------------------------|---------------------------------------|
 | Link-Id                | \-                                    |
 | MAPI-Id                | \-                                    |

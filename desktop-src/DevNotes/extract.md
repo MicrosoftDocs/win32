@@ -1,5 +1,5 @@
 ---
-Description: The Extract function extracts files from a cabinet.
+description: The Extract function extracts files from a cabinet.
 ms.assetid: c6a79d81-7adf-4b8e-a1ef-fec868f7fdbf
 title: Extract function
 ms.topic: reference
@@ -63,7 +63,7 @@ This function has no associated import library or header file; you must call it 
 
 
 
-|                |                                                                                        |
+| Requirement | Value |
 |----------------|----------------------------------------------------------------------------------------|
 | DLL<br/> | <dl> <dt>Cabinet.dll</dt> </dl> |
 

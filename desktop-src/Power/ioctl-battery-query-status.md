@@ -1,5 +1,5 @@
 ---
-Description: Retrieves the current status of the battery.
+description: Retrieves the current status of the battery.
 ms.assetid: 7a7bf429-9b2c-4faf-9f27-fb5fd8dd18df
 title: IOCTL_BATTERY_QUERY_STATUS control code (Poclass.h)
 ms.topic: reference
@@ -132,7 +132,7 @@ For an example, see [Enumerating Battery Devices](enumerating-battery-devices.md
 
 
 
-|                                     |                                                                                                                                                                                                                                                                     |
+| Requirement | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                                                                                                                                                                                         |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                                                                                                                                                                                |

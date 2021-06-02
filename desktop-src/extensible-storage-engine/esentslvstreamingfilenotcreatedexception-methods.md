@@ -1,4 +1,5 @@
 ---
+description: "Learn more about: EsentSLVStreamingFileNotCreatedException methods"
 title: EsentSLVStreamingFileNotCreatedException methods
 TOCTitle: EsentSLVStreamingFileNotCreatedException methods
 ms:assetid: Methods.T:Microsoft.Isam.Esent.Interop.EsentSLVStreamingFileNotCreatedException
@@ -13,7 +14,7 @@ ms.topic: article
 Include protected members  
 Include inherited members  
 
-The [EsentSLVStreamingFileNotCreatedException](dn334768\(v=exchg.10\).md) type exposes the following members.
+The [EsentSLVStreamingFileNotCreatedException](./esentslvstreamingfilenotcreatedexception-class.md) type exposes the following members.
 
 ## Methods
 
@@ -76,6 +77,6 @@ Top
 
 #### Reference
 
-[EsentSLVStreamingFileNotCreatedException class](dn334768\(v=exchg.10\).md)
+[EsentSLVStreamingFileNotCreatedException class](./esentslvstreamingfilenotcreatedexception-class.md)
 
-[Microsoft.Isam.Esent.Interop namespace](hh596136\(v=exchg.10\).md)
+[Microsoft.Isam.Esent.Interop namespace](./microsoft.isam.esent.interop-namespace.md)

@@ -22,7 +22,7 @@ For a resource property, this attribute indicates what resource types this resou
 
 
 
-|                   |                                             |
+| Entry | Value |
 |-------------------|---------------------------------------------|
 | CN                | ms-DS-Applies-To-Resource-Types             |
 | Ldap-Display-Name | msDS-AppliesToResourceTypes                 |
@@ -43,7 +43,7 @@ For a resource property, this attribute indicates what resource types this resou
 
 
 
-|                        |                                                                       |
+| Entry | Value |
 |------------------------|-----------------------------------------------------------------------|
 | Link-Id                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |

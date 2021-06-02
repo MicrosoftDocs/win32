@@ -1,5 +1,5 @@
 ---
-Description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client.
+description: Enables the server component of a transport application to establish a [*security context*](../secgloss/s-gly.md) between the server and a remote client.
 ms.assetid: eaa15fed-4438-4e43-9be3-aa100ca453c7
 title: AcceptSecurityContext (General) function (Sspi.h)
 ms.topic: reference
@@ -197,7 +197,7 @@ After the [*security context*](../secgloss/s-gly.md) has been established, the s
 
 
 
-|                                     |                                                                                                        |
+| Requirement | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | Minimum supported client<br/> | Windows XP \[desktop apps only\]<br/>                                                            |
 | Minimum supported server<br/> | Windows Server 2003 \[desktop apps only\]<br/>                                                   |

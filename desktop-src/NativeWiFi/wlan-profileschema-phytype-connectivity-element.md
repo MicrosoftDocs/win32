@@ -1,5 +1,5 @@
 ---
-Description: Specifies the 802.11 wireless LAN standard used on a wireless LAN.
+description: Specifies the 802.11 wireless LAN standard used on a wireless LAN.
 ms.assetid: 19582ff0-59bd-4c93-8c92-0135e6e025d2
 title: phyType (connectivity) Element
 ms.topic: reference
@@ -54,7 +54,7 @@ The element is defined by the [**connectivity**](wlan-profileschema-connectivity
 
 
 
-|                                     |                                                      |
+| Requirement | Value |
 |-------------------------------------|------------------------------------------------------|
 | Minimum supported client<br/> | Windows Vista \[desktop apps only\]<br/>       |
 | Minimum supported server<br/> | Windows Server 2008 \[desktop apps only\]<br/> |

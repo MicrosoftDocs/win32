@@ -355,13 +355,13 @@ LRESULT CTestWndApp::OnWindowsGestureNotify(
     gc.dwWant  = GC_ROTATE;  // The gesture command you are enabling for GID_ROTATE.
     gc.dwBlock = 0;          // Don&#39;t block anything.
     UINT uiGcs = 1;          // The number of gestures being set.
-     
-    BOOL bResult = SetGestureConfig(g_hMainWnd, 0, uiGcs, &gc, sizeof(GESTURECONFIG));
+
+  BOOL bResult = SetGestureConfig(g_hMainWnd, 0, uiGcs, &gc, sizeof(GESTURECONFIG));
     if(!bResult) {
         // Something went wrong, report the error using your preferred logging.
     }
 
-    return 0;
+  return 0;
 }  </code></pre></td>
 </tr>
 </tbody>
