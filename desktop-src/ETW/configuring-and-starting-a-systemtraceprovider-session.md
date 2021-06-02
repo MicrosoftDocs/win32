@@ -3,7 +3,7 @@ description: The SystemTraceProvider is a kernel provider with a predefined sets
 ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: Configuring and Starting a SystemTraceProvider Session
 ms.topic: article
-ms.date: 02/01/2021
+ms.date: 06/02/2021
 ---
 
 # Configuring and Starting a SystemTraceProvider Session
@@ -14,7 +14,7 @@ On Windows 8, Windows Server 2012, and later, the SystemTraceProvider can be m
 
 For more information on using the NT Kernel Logger session as a trace provider, see [Configuring and Starting the NT Kernel Logger Session](configuring-and-starting-the-nt-kernel-logger-session.md).
 
-On Window ____ and later, the SystemTraceProvider can be configured via separate System Providers, which can be controlled with [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) like standard Event Tracing for Windows event providers. For a full list of system providers, keywords, and corresponding legacy flags and groups, see [System Providers](system-providers.md)
+On Windows 10 SDK build 20348 and later, the SystemTraceProvider can be configured via separate System Providers, which can be controlled with [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) like standard Event Tracing for Windows event providers. For a full list of system providers, keywords, and corresponding legacy flags and groups, see [System Providers](system-providers.md)
 
 ## Enable a SystemTraceProvider session
 
