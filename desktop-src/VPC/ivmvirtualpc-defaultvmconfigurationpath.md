@@ -45,7 +45,7 @@ HRESULT get_DefaultVMConfigurationPath(
 
 ## Property value
 
-Specifies the directory path for the default virtual machine configuration files. In the path string, a backslash (\) may appear immediately before the terminating null character.
+Specifies the directory path for the default virtual machine configuration files. In the path string, a backslash (\\) may appear immediately before the terminating null character.
 
 ## Error codes
 
