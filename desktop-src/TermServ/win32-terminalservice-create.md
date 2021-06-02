@@ -54,7 +54,7 @@ uint32 Create(
 *Name* \[in\]
 </dt> <dd>
 
-Name of the service to install to the **Create** method. The maximum string length is 256 characters. The Service Control Manager database preserves the case of the characters, but service name comparisons are always case-insensitive. Forward-slashes (/) and double back-slashes (\\) are invalid service name characters.
+Name of the service to install to the **Create** method. The maximum string length is 256 characters. The Service Control Manager database preserves the case of the characters, but service name comparisons are always case-insensitive. Forward-slashes (/) and double back-slashes (\\\\) are invalid service name characters.
 
 </dd> <dt>
 
