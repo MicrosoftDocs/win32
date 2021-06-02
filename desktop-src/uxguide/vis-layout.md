@@ -686,9 +686,8 @@ The following table lists the recommended sizes (width x height, or height if a 
 
 
 
-|                                                                                                 |                            |                                                                                                   |                                                                                                            |
+| Example | Control | Dialog units | Relative pixels |
 |-------------------------------------------------------------------------------------------------|----------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|                                                                                                 | **Control**<br/>     | **Dialog units**<br/>                                                                       | **Relative pixels**<br/>                                                                             |
 | ![screen shot of check boxes and their labels ](images/vis-layout-image45.png)<br/>       | Check boxes<br/>     | 10<br/>                                                                                     | 17<br/>                                                                                              |
 | ![screen shot of combo box ](images/vis-layout-image46.png)<br/>                          | Combo boxes<br/>     | width of longest item + 30% x 14<br/>                                                       | width of longest item + 30% x 23<br/>                                                                |
 | ![screen shot of a command button ](images/vis-layout-image47.png)<br/>                   | Command buttons<br/> | 50 x 14<br/>                                                                                | 75 x 23<br/>                                                                                         |
