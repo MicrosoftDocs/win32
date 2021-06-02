@@ -844,6 +844,16 @@ Enables TCP Fast Open for the connection.
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_TCP_KEEPALIVE"></span><span id="winhttp_option_tcp_keepalive"></span>**WINHTTP\_OPTION\_TCP\_KEEPALIVE**
+</dt> <dd> <dl> <dt>
+
+
+
+This option can be set on a WinHttp session handle to enable TCP keep-alive behavior on the underlying socket. Takes a [**tcp\_keepalive**](/windows/win32/winsock/sio-keepalive-vals) struct.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_TLS_FALSE_START"></span><span id="winhttp_option_tls_false_start"></span>**WINHTTP\_OPTION\_TLS\_FALSE\_START**
 </dt> <dd> <dl> <dt>
 
@@ -1067,6 +1077,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_SERVER\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- | \- |
 | WINHTTP\_OPTION\_SPN<br/>**DWORD** | \- | X | \- | X | \- |
 | WINHTTP\_OPTION\_TCP\_FAST\_OPEN<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 2004 |
+| WINHTTP\_OPTION\_TCP\_KEEPALIVE<br/>[**tcp\_keepalive**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10 Version 2004 |
 | WINHTTP\_OPTION\_TLS\_FALSE\_START<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 2004 |
 | WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVENT<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_UNSAFE\_HEADER\_PARSING<br/>**DWORD** | \- | X | \- | X | \- |
