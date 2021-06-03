@@ -116,7 +116,7 @@ The WIA topics are organized as shown in the following table.
 
 
 
-|                                                                                                                              |                                                                                                   |
+|  Topic                                                                                                                            | Description                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | [About Windows Image Acquisition](-wia-about-windows-image-acquisition.md)                                                  | General information about WIA                                                                     |
 | [Windows Image Acquisition Drivers](/windows-hardware/drivers/image/windows-image-acquisition-drivers)                  | WIA driver development                                                                            |

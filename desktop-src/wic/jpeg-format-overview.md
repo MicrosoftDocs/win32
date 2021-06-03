@@ -16,7 +16,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                         |
+|   Component            | Description                             |
 |------------------------|-----------------------------------------|
 | Formal Name(s)         | Joint Photographic Experts Group (JPEG) |
 | File Name Extension(s) | jpe, jpeg, jpg                          |

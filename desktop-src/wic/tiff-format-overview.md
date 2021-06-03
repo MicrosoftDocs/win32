@@ -21,7 +21,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                 |
+|   Component            |   Description                   |
 |------------------------|---------------------------------|
 | Formal Name(s)         | Tagged Image File Format (TIFF) |
 | File Name Extension(s) | tiff, tif                       |

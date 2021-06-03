@@ -16,7 +16,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                       |
+|  Component             | Description                           |
 |------------------------|---------------------------------------|
 | Formal Name(s)         | Graphics Interchange Format 89a (GIF) |
 | File Name Extension(s) | gif                                   |

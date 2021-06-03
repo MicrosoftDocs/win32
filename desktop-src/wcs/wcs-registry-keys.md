@@ -40,7 +40,7 @@ Desktop apps should listen for changes to the registry to determine when a color
 
 
 
-|                                  |                                                                                                                                                    |
+|    &nbsp;  |  &nbsp;      | 
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Per-user profile associations    | **HKEY\_CURRENT\_USER SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\ICM\\ProfileAssociations\\Display\\{4d36e96e-e325-11ce-bfc1-08002be10318}** |
 | System-wide profile associations | **HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Class\\{4d36e96e-e325-11ce-bfc1-08002be10318}**                                        |
