@@ -30,7 +30,7 @@ This section delineates functions that are obsolete in WCS 1.0. They are current
 
 
 
-|                                            |                                              |
+|     Function                               |      Description                             |
 |--------------------------------------------|----------------------------------------------|
 | [**UpdateICMRegKey**](/windows/desktop/api/Wingdi/nf-wingdi-updateicmregkeya) | *Obsolete*: manages color profiles and CMMs. |
 

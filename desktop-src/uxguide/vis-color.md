@@ -212,9 +212,8 @@ All the screen elements should be legible and appear as expected, even immediate
 
 
 
-|                                      |                                                                               |                                                                                                                                                                 |
+| Hue | Meaning | Use in Windows  |
 |--------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Hue**<br/>                   | **Meaning**<br/>                                                        | **Use in Windows**<br/>                                                                                                                                   |
 | blue/green<br/>                | Windows brand<br/>                                                      | Background: Windows branding.<br/>                                                                                                                        |
 | glass, black, gray, white<br/> | neutral<br/>                                                            | Background: standard window frames, Start menu, taskbar, Sidebar.<br/> Foreground: normal text.<br/>                                                |
 | blue<br/>                      | start, commit<br/>                                                      | Background: default command buttons, search, log on.<br/> Icons: information, Help.<br/> Foreground: main instructions, links.<br/>           |

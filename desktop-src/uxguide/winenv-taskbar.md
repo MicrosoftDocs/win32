@@ -227,9 +227,8 @@ For general icon guidelines and examples, see [Icons](vis-icons.md).
 -   **Don't flash the taskbar button to draw attention to a status change.** Doing so would be too distracting. Let users discover overlay icons on their own.
 -   **Prefer standard overlay icons to indicate status or status changes.** Use these standard overlay icons: 
 
-    |                                                                                                   |                                  |
+    | Overlay | Status |
     |---------------------------------------------------------------------------------------------------|----------------------------------|
-    | **Overlay**<br/>                                                                            | **Status**<br/>            |
     | ![screen shot of small warning icon ](images/winenv-taskbar-image20.png)<br/>               | Warning<br/>               |
     | ![screen shot of small error icon ](images/winenv-taskbar-image21.png)<br/>                 | Error<br/>                 |
     | ![screen shot of small disabled/disconnected icon ](images/winenv-taskbar-image22.png)<br/> | Disabled/Disconnected<br/> |
