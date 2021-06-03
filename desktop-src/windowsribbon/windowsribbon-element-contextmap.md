@@ -188,11 +188,8 @@ This section of code shows a set of **ContextMap** control declarations.
 ## Element information
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 

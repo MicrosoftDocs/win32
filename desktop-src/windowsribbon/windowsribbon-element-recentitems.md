@@ -126,13 +126,8 @@ The following example shows the associated **RecentItems** controls declaration.
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
-
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 ## See also

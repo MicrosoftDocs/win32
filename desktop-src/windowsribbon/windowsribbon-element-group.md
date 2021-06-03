@@ -133,12 +133,8 @@ The following code example illustrates the use of a custom template in a **Group
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | No        |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: No
 
 
 
