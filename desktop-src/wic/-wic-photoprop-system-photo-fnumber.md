@@ -49,13 +49,10 @@ This value is generated from System.Photo.FNumberNumerator and System.Photo.FNum
 
 
 
-| Order | Path                          | Disk Format |     |
-|-------|-------------------------------|-------------|-----|
-| 1     | /app1/ifd/exif/{ushort=33437} |             |     |
-| 2     | /xmp/exif:FNumber             |             |     |
-
-
-
+| Order | Path                          | Disk Format |
+|-------|-------------------------------|-------------|
+| 1     | /app1/ifd/exif/{ushort=33437} |             |
+| 2     | /xmp/exif:FNumber             |             | 
  
 
 ### Remove Paths
