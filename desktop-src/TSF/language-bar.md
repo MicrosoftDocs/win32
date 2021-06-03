@@ -29,7 +29,7 @@ Four types of language bar items can be installed and each of the required inter
 
 
 
-|               |                                                                                                                                                                                   |
+|   Element            |    Description                                                                                                                                                                               |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Button        | A language bar button functions as a command button, toggle control, or a menu on the language bar. The object must support the ITfLangBarItemButton interface.                   |
 | Balloon       | A language bar balloon functions as a pop-up notification on the language bar. The object must support the ITfLangBarItemBalloon interface.                                       |

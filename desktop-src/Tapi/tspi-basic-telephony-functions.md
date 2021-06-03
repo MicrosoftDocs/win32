@@ -25,7 +25,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                                           |                                                           |
+|  Function                                                         |   Description                                                        |
 |-----------------------------------------------------------|-----------------------------------------------------------|
 | [**TUISPI\_providerInstall**](/windows/win32/api/tspi/nf-tspi-tuispi_providerinstall) | Installs a TSP. Synchronous.                              |
 | [**TSPI\_providerInstall**](/windows/win32/api/tspi/nf-tspi-tspi_providerinstall)     | Installs the TSP. Obsolete with Version 2.0. Synchronous. |
@@ -42,7 +42,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                                                           |                                                                                         |
+|  Function                                                         |   Description                                                        |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | [**TSPI\_phoneNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion) | Returns the highest SPI version the service provider can operate under for this device. |
 
@@ -54,7 +54,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                                                         |                                                                                                 |
+|  Function                                                         |   Description                                                        |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [**TSPI\_lineNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_linenegotiatetspiversion) | Allows an application to negotiate a TSPI version to use with a given line device. Synchronous. |
 
@@ -66,7 +66,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                                                     |                                                                                                                                                                |
+|  Function                                                         |   Description                                                        |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**TSPI\_lineGetDevCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevcaps)                 | Returns the capabilities of a given line device. Synchronous.                                                                                                  |
 | [**TSPI\_lineGetDevConfig**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevconfig)             | Returns configuration of a media stream device. Synchronous.                                                                                                   |
@@ -86,7 +86,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                                                 |                                                                                          |
+|  Function                                                         |   Description                                                        |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [**TSPI\_lineGetAddressCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddresscaps)     | Returns the telephony capabilities of an address. Synchronous.                           |
 | [**TSPI\_lineGetAddressStatus**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddressstatus) | Returns current status of a specified address. Synchronous.                              |
@@ -101,7 +101,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                           |                                                                                                            |
+|  Function                                                         |   Description                                                        |
 |-------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | [**TSPI\_lineOpen**](/windows/win32/api/tspi/nf-tspi-tspi_lineopen)   | Opens a specified line device for providing subsequent monitoring and/or control of the line. Synchronous. |
 | [**TSPI\_lineClose**](/windows/win32/api/tspi/nf-tspi-tspi_lineclose) | Closes a specified opened line device. Synchronous.                                                        |
@@ -114,7 +114,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                                             |                                                                                     |
+|  Function                                                         |   Description                                                        |
 |-------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [**TSPI\_lineGetCallInfo**](/windows/win32/api/tspi/nf-tspi-tspi_linegetcallinfo)       | Returns fixed information about a call. Synchronous.                                |
 | [**TSPI\_lineGetCallStatus**](/windows/win32/api/tspi/nf-tspi-tspi_linegetcallstatus)   | Returns complete call status information for the specified call. Synchronous.       |
@@ -128,7 +128,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                                 |                                                                        |
+|  Function                                                         |   Description                                                        |
 |-------------------------------------------------|------------------------------------------------------------------------|
 | [**TSPI\_lineMakeCall**](/windows/win32/api/tspi/nf-tspi-tspi_linemakecall) | Makes an outbound call and returns a call handle for it. Asynchronous. |
 | [**TSPI\_lineDial**](/windows/win32/api/tspi/nf-tspi-tspi_linedial)         | Dials (parts of one or more) dialable addresses. Asynchronous.         |
@@ -141,7 +141,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                             |                                         |
+|  Function                                                         |   Description                                                        |
 |---------------------------------------------|-----------------------------------------|
 | [**TSPI\_lineAnswer**](/windows/win32/api/tspi/nf-tspi-tspi_lineanswer) | Answers an incoming call. Asynchronous. |
 
@@ -153,7 +153,7 @@ All service providers must implement Basic Telephony functions. The following is
 
 
 
-|                                         |                                                                           |
+|  Function                                                         |   Description                                                        |
 |-----------------------------------------|---------------------------------------------------------------------------|
 | [**TSPI\_lineDrop**](/windows/win32/api/tspi/nf-tspi-tspi_linedrop) | Disconnects a call, or abandons a call attempt in progress. Asynchronous. |
 
