@@ -806,7 +806,7 @@ The following images show how the templates from the previous example are applie
 
 
 
-|        |                                                                                                    |
+|  Type  |      Image                                                                                         |
 |--------|----------------------------------------------------------------------------------------------------|
 | Large  | ![picture of an inline large custom template.](images/overviews/sizedefinition-custom-large.png)   |
 | Medium | ![picture of an inline medium custom template.](images/overviews/sizedefinition-custom-medium.png) |

@@ -48,14 +48,14 @@ Some socket options require more explanation than these tables can convey; such 
 | Option | Windows 8 | Windows Server 2012 | Windows 7 | Windows Server 2008 | Windows Vista |
 |-|-|-|-|-|-|
 | IP\_ORIGINAL\_ARRIVAL\_IF | x | x | x | | |
-| IPV6_ADD_IFLIST | Starting with Windows 10, version 1803 | | | | | |
+| IPV6_ADD_IFLIST | Starting with Windows 10, version 1803 | | | | |
 | IPV6\_ADD\_MEMBERSHIP | x | x | x | x | x |
-| IPV6_DEL_IFLIST | Starting with Windows 10, version 1803 | | | | | |
+| IPV6_DEL_IFLIST | Starting with Windows 10, version 1803 | | | | |
 | IPV6\_DROP\_MEMBERSHIP | x | x | x | x | x |
-| IPV6_GET_IFLIST | Starting with Windows 10, version 1803 | | | | | |
+| IPV6_GET_IFLIST | Starting with Windows 10, version 1803 | | | | |
 | IPV6\_HDRINCL | x | x | x | x | x |
 | IPV6\_HOPLIMIT | x | x | x | x | x |
-| IPV6_IFLIST | Starting with Windows 10, version 1803 | | | | | |
+| IPV6_IFLIST | Starting with Windows 10, version 1803 | | | | |
 | IPV6\_JOIN\_GROUP | x | x | x | x | x |
 | IPV6\_LEAVE\_GROUP | x | x | x | x | x |
 | IPV6\_MULTICAST\_HOPS | x | x | x | x | x |

@@ -23,9 +23,8 @@ In most cases, whenever a 32-bit application attempts to access %windir%\\System
 
 
 
-|                              |                                          |                                          |
-|------------------------------|------------------------------------------|------------------------------------------|
 | Original Path                | Redirected Path for 32-bit x86 Processes | Redirected Path for 32-bit ARM Processes |
+|------------------------------|------------------------------------------|------------------------------------------|
 | %windir%\\System32           | %windir%\\SysWOW64                       | %windir%\\SysArm32                       |
 | %windir%\\lastgood\\system32 | %windir%\\lastgood\\SysWOW64             | %windir%\\lastgood\\SysArm32             |
 | %windir%\\regedit.exe        | %windir%\\SysWOW64\\regedit.exe          | %windir%\\ SysArm32\\regedit.exe         |
