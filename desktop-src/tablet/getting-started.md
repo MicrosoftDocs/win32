@@ -18,7 +18,7 @@ The Tablet PC platform enables input and output of handwriting and speech data o
 -   [What's New in Tablet PC Development](what-s-new-in-tablet-pc-development.md)
 -   [The Development Environment](the-development-environment.md)
 -   [Referencing the SDK from Microsoft Visual Studio](referencing-the-sdk-from-microsoft-visual-studio.md)
--   [Frequently Asked Questions](frequently-asked-questions.md)
+-   [Frequently Asked Questions](frequently-asked-questions.yml)
 
  
 
