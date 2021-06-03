@@ -31,15 +31,15 @@ The *dwMaximumSizeHigh* and *dwMaximumSizeLow* parameters of [**CreateFileMappin
 
 The size of the file mapping object that you select controls how far into the file you can "see" with memory mapping. If you create a file mapping object that is 500 Kb in size, you have access only to the first 500 Kb of the file, regardless of the size of the file. Since it does not cost you any system resources to create a larger file mapping object, create a file mapping object that is the size of the file (set the *dwMaximumSizeHigh* and *dwMaximumSizeLow* parameters of [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) both to zero) even if you do not expect to view the entire file. The cost in system resources comes in creating the views and accessing them.
 
-If you want to view a portion of the file that does not start at the beginning of the file, you must create a file mapping object. This object is the size of the portion of the file that you want to view plus the offset into the file.
+You can view a portion of the file that does not start at the beginning of the file. For more information, see [Creating a View Within a File](creating-a-view-within-a-file.md).
 
 ## Related topics
 
 <dl> <dt>
-
+[Creating a File View](creating-a-file-view.md)
+</dt> <dt>
 [Creating a View Within a File](creating-a-view-within-a-file.md)
 </dt> </dl>
 
- 
 
  
