@@ -14,9 +14,9 @@ For general DirectML version history, see [DirectML version history](./dml-versi
 
 Introduced in DirectML version 1.5.0.
 
-Added support for the following operators.
+Added support for the following [operators](/windows/win32/api/directml/ne-directml-dml_operator_type).
 
-* [DML_OPERATOR_ELEMENT_WISE_ATAN_YX](/windows/win32/api/directml/ne-directml-dml_operator_type)
+* **DML_OPERATOR_ELEMENT_WISE_ATAN_YX**
 * **DML_OPERATOR_ELEMENT_WISE_CLIP_GRAD**
 * **DML_OPERATOR_ELEMENT_WISE_DIFFERENCE_SQUARE**
 * **DML_OPERATOR_LOCAL_RESPONSE_NORMALIZATION_GRAD**
@@ -41,9 +41,9 @@ The maximum number of supported dimensions for the following operators has incre
 
 Introduced in DirectML version 1.4.0.
 
-Added support for the following operators.
+Added support for the following [operators](/windows/win32/api/directml/ne-directml-dml_operator_type).
 
-* [DML_OPERATOR_ELEMENT_WISE_BIT_AND](/windows/win32/api/directml/ne-directml-dml_operator_type)
+* **DML_OPERATOR_ELEMENT_WISE_BIT_AND**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_OR**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_XOR**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_NOT**
