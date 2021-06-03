@@ -58,7 +58,7 @@ Contains a paragraph.
 
 
 
-|              |                                                                 |
+|  Element     | Value                                                     |
 |--------------|-----------------------------------------------------------------|
 | Element type | [**ParagraphType**](paragraphtype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                      |

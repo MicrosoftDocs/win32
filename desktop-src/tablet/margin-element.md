@@ -101,7 +101,7 @@ None..
 
 
 
-|              |                                                           |
+|  Element     | Value                                                     |
 |--------------|-----------------------------------------------------------|
 | Element type | [**MarginType**](margintype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                |

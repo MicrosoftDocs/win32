@@ -54,7 +54,7 @@ None.
 
 
 
-|              |                                            |
+|  Element     | Value                                                     |
 |--------------|--------------------------------------------|
 | Element type | **JournalDocument**                        |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink |

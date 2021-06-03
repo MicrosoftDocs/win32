@@ -1556,7 +1556,7 @@ Use with TAPI version(s)
 
 
 
-| TAPI structure                                                     | Use with TAPI version(s) |     |     |     |
+| TAPI structure                                                     | Use with TAPI version(s) |  &nbsp;   | &nbsp;    |  &nbsp;   |
 |--------------------------------------------------------------------|--------------------------|-----|-----|-----|
 | [**LINEADDRESSCAPS**](/windows/desktop/api/Tapi/ns-tapi-lineaddresscaps)                     | 1.4                      | 2.0 | 2.1 | 2.2 |
 | [**LINEADDRESSSTATUS**](/windows/desktop/api/Tapi/ns-tapi-lineaddressstatus)                 | 1.4                      | 2.0 | 2.1 | 2.2 |

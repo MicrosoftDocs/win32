@@ -58,7 +58,7 @@ Contains information about a given ink word in the Journal note, including posit
 
 
 
-|              |                                                             |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------------|
 | Element type | [**InkWordType**](inkwordtype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                  |

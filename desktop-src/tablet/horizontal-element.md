@@ -93,7 +93,7 @@ None.
 
 
 
-|              |                                                                   |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------------------|
 | Element type | [**HorizontalType complexType**](horizontaltype-complex-type.md) |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                        |

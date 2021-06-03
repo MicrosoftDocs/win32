@@ -41,7 +41,7 @@ None.
 
 
 
-|              |                                                       |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------|
 | Element type | [**LineType**](linetype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink            |

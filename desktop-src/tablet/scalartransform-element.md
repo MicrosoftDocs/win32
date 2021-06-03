@@ -50,7 +50,7 @@ None.
 
 
 
-|              |                                                                             |
+| Element      | Value                                                                       |
 |--------------|-----------------------------------------------------------------------------|
 | Element type | [**ScalarTransformType**](scalartransformtype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                                  |

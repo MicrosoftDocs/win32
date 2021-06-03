@@ -77,7 +77,7 @@ Contains the content for a Journal page.
 
 
 
-|              |                                                             |
+|  Element     | Value                                                     |
 |--------------|-------------------------------------------------------------|
 | Element type | [**ContentType**](contenttype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                  |
