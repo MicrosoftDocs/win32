@@ -87,8 +87,8 @@ Introduced in DirectML version 1.2.0.
 
 Added the following APIs.
 
-* [IDMLDevice1 interface](./directml/nn-directml-idmldevice1.md)
-* Operator graph support (see [IDMLDevice1::CompileGraph](./directml/nf-directml-idmldevice1-compilegraph.md)
+* [IDMLDevice1 interface](/windows/win32/api/directml/nn-directml-idmldevice1)
+* Operator graph support (see [IDMLDevice1::CompileGraph](/windows/win32/api/directml/nf-directml-idmldevice1-compilegraph)
 
 Added support for the following operators.
 
@@ -161,7 +161,7 @@ Added the following enhancements.
 Introduced in DirectML version 1.1.0.
 
 Added the following APIs.
-* [DMLCreateDevice1 function](./directml/nf-directml-dmlcreatedevice1.md)
+* [DMLCreateDevice1 function](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
 * [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
 * Feature level queries (see [DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels))
 
@@ -208,5 +208,5 @@ The feature level in which DirectML was introduced.
 
 * [DirectML version history](./dml-version-history.md)
 * [DML_FEATURE_LEVEL enumeration](/windows/win32/api/directml/ne-directml-dml_feature_level)
-* [DMLCreateDevice1 function](./directml/nf-directml-dmlcreatedevice1.md)
+* [DMLCreateDevice1 function](/windows/win32/api/directml/nf-directml-dmlcreatedevice1.md)
 * [DML_FEATURE_QUERY_FEATURE_LEVELS structure](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)

@@ -85,9 +85,9 @@ The index of the dimension to multiply elements over. This value must be less th
 
 `AxisDirection`
 
-Type: **[DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md)**
+Type: **[DML_AXIS_DIRECTION](/windows/win32/api/directml/ne-directml-dml_axis_direction)**
 
-One of the values of the [DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md) enumeration. If set to **DML_AXIS_DIRECTION_INCREASING**, then the product occurs by traversing the tensor along the specified axis by ascending element index. If set to **DML_AXIS_DIRECTION_DECREASING**, the reverse is true and the product occurs by traversing elements by descending index.
+One of the values of the [DML_AXIS_DIRECTION](/windows/win32/api/directml/ne-directml-dml_axis_direction) enumeration. If set to **DML_AXIS_DIRECTION_INCREASING**, then the product occurs by traversing the tensor along the specified axis by ascending element index. If set to **DML_AXIS_DIRECTION_DECREASING**, the reverse is true and the product occurs by traversing elements by descending index.
 
 `HasExclusiveProduct`
 
@@ -136,7 +136,7 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
 
 ### Example 3. Axis direction
 
-Setting the *AxisDirection* to [**DML_AXIS_DIRECTION_DECREASING**](./ne-directml-dml_axis_direction.md) has the effect of reversing the traversal order of elements when computing the running tally.
+Setting the *AxisDirection* to [**DML_AXIS_DIRECTION_DECREASING**](/windows/win32/api/directml/ne-directml-dml_axis_direction) has the effect of reversing the traversal order of elements when computing the running tally.
 
 ```
 Axis: 3

@@ -169,4 +169,4 @@ auto result = dml::Convolution(/* ... */);
 * [DirectML GitHub](https://github.com/microsoft/DirectML/tree/master/Libraries)
 * [DirectMLX yolov4 sample](https://github.com/microsoft/DirectML/tree/master/Samples/yolov4)
 * [Using strides to express padding and memory layout](./dml-strides.md)
-* [DML_GRAPH_DESC structure](./directml/ns-directml-dml_graph_desc.md)
+* [DML_GRAPH_DESC structure](/windows/win32/api/directml/ns-directml-dml_graph_desc)
