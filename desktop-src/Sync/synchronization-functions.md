@@ -352,7 +352,7 @@ The following functions are used in synchronization.
 | [**ChangeTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-changetimerqueuetimer) | Updates a timer-queue timer. |
 | [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue)           | Creates a queue for timers.  |
 | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) | Creates a timer-queue timer. |
-| [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue)           | Deletes a timer queue.       |
+| [**DeleteTimerQueue**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue)           | Deletes a timer queue.       |
 | [**DeleteTimerQueueEx**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex)       | Deletes a timer queue.       |
 | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer) | Cancels a timer-queue timer. |
 
