@@ -84,9 +84,8 @@ Present settings and tasks to users during the first experiences when you must, 
 
 
 
-|                                             |                                                                                                                                                    |
+| First experience  | Alternatives       |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **First experience**<br/>             | **Alternatives**<br/>                                                                                                                        |
 | Setup questions<br/>                  | Select appropriate defaults.<br/> Allow users to change from program options.<br/> Provide typical vs. custom setup paths. <br/> |
 | First use questions<br/>              | Select appropriate defaults, and allow users to change from program options.<br/>                                                            |
 | First use tasks<br/>                  | Present contextually instead.<br/>                                                                                                           |

@@ -216,9 +216,8 @@ For guidelines on this pattern, see <a href="mess-confirm.md">Confirmations</a>.
 
 
 
-|                               |                                                                                                                                        |
+| User interface  | Best used for |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **User interface**<br/> | **Best used for**<br/>                                                                                                           |
 | Modal dialog boxes<br/> | Critical warnings (including confirmations) that users must respond to now.<br/>                                                 |
 | In-place<br/>           | Information that might prevent a problem, especially when users are making choices.<br/>                                         |
 | Banners<br/>            | Information that might prevent a problem, especially when related to completing a task.<br/>                                     |
@@ -309,9 +308,8 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
-|                                      |                                                                      |
+| Pattern                        | Main instruction                                               |
 |--------------------------------------|----------------------------------------------------------------------|
-| **Pattern**<br/>               | **Main instruction**<br/>                                      |
 | Awareness<br/>                 | Describe the condition or potential problem.<br/>              |
 | Imminent problem<br/>          | Describe what the user needs to do now.<br/>                   |
 | Risky action confirmation<br/> | Ask a question to determine if the user wants to proceed.<br/> |
@@ -335,9 +333,8 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
-|                                      |                                                                                    |
+| Pattern            | Supplemental instruction                                            |
 |--------------------------------------|------------------------------------------------------------------------------------|
-| **Pattern**<br/>               | **Supplemental instruction**<br/>                                            |
 | Awareness<br/>                 | Explain the implication and why it is important.<br/>                        |
 | Imminent problem<br/>          | Explain the condition and why it is important.<br/>                          |
 | Risky action confirmation<br/> | Explain any non-obvious reasons why the user might not want to proceed.<br/> |
@@ -355,9 +352,8 @@ In this example, "Security Warning" doesn't identify the command or feature wher
 
 
 
-|                                      |                                                                                                                 |
+| Pattern               | Commit buttons        |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>               | **Commit buttons**<br/>                                                                                   |
 | Awareness<br/>                 | Close. Don't use OK because it suggests that potential problems are OK.<br/>                              |
 | Imminent problem<br/>          | A command button or command link for each option, or OK if the action occurs outside the dialog box.<br/> |
 | Risky action confirmation<br/> | Yes, No.<br/>                                                                                             |
