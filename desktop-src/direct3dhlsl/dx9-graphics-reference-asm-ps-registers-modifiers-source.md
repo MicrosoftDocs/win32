@@ -21,16 +21,15 @@ This table identifies the versions that support each modifier:
 
 
 
-| Source register modifiers                                                                                    | Syntax         | Version |      |      |      |     |     |
-|--------------------------------------------------------------------------------------------------------------|----------------|---------|------|------|------|-----|-----|
-|                                                                                                              |                | 1\_1    | 1\_2 | 1\_3 | 1\_4 |     |     |
-| [bias](dx9-graphics-reference-asm-ps-registers-modifiers-bias.md)                                           | register\_bias | X       | X    | X    | X    |     |     |
-| [invert](dx9-graphics-reference-asm-ps-registers-modifiers-invert.md)                                       | 1 - register   | X       | X    | X    | X    |     |     |
-| [negate](dx9-graphics-reference-asm-ps-registers-modifiers-negate.md)                                       | \- register    | X       | X    | X    | X    |     |     |
-| [scale by 2](dx9-graphics-reference-asm-ps-registers-modifiers-scale-x2.md)                                 | register\_x2   |         |      |      | X    |     |     |
-| [signed scaling](dx9-graphics-reference-asm-ps-registers-modifiers-signed-scale.md)                         | register\_bx2  | X       | X    | X    | X    |     |     |
-| [texld and texcrd modifiers](dx9-graphics-reference-asm-ps-registers-modifiers-ps-1-4.md)                   | register\_d\*  | X       | X    | X    | X    |     |     |
-| [source register swizzling](dx9-graphics-reference-asm-ps-registers-modifiers-source-register-swizzling.md) | register.xyzw  | X       | X    | X    | X    |     |     |
+| Source register modifiers                                                                                    | Syntax         | Version 1\_1 | Version 1\_2     | Version 1\_3     | Version 1\_4     |
+|--------------------------------------------------------------------------------------------------------------|----------------|---------|------|------|------|
+| [bias](dx9-graphics-reference-asm-ps-registers-modifiers-bias.md)                                           | register\_bias | X       | X    | X    | X    |
+| [invert](dx9-graphics-reference-asm-ps-registers-modifiers-invert.md)                                       | 1 - register   | X       | X    | X    | X    |
+| [negate](dx9-graphics-reference-asm-ps-registers-modifiers-negate.md)                                       | \- register    | X       | X    | X    | X    |
+| [scale by 2](dx9-graphics-reference-asm-ps-registers-modifiers-scale-x2.md)                                 | register\_x2   |         |      |      | X    |
+| [signed scaling](dx9-graphics-reference-asm-ps-registers-modifiers-signed-scale.md)                         | register\_bx2  | X       | X    | X    | X    |
+| [texld and texcrd modifiers](dx9-graphics-reference-asm-ps-registers-modifiers-ps-1-4.md)                   | register\_d\*  | X       | X    | X    | X    |
+| [source register swizzling](dx9-graphics-reference-asm-ps-registers-modifiers-source-register-swizzling.md) | register.xyzw  | X       | X    | X    | X    |
 
 
 
