@@ -36,8 +36,10 @@ You can view a portion of the file that does not start at the beginning of the f
 ## Related topics
 
 <dl> <dt>
+  
 [Creating a File View](creating-a-file-view.md)
 </dt> <dt>
+
 [Creating a View Within a File](creating-a-view-within-a-file.md)
 </dt> </dl>
 
