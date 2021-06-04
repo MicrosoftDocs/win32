@@ -134,7 +134,7 @@
       - name: "DeleteSynchronizationBarrier"
         href: /windows/desktop/api/SynchAPI/nf-synchapi-deletesynchronizationbarrier
       - name: "DeleteTimerQueue"
-        href: /windows/desktop/api/WinBase/nf-winbase-deletetimerqueue
+        href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue
       - name: "DeleteTimerQueueEx"
         href: /windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex
       - name: "DeleteTimerQueueTimer"

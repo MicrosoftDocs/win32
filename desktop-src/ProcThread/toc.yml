@@ -478,7 +478,7 @@
       - name: "GetProcessVersion"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessversion
       - name: "GetProcessWorkingSetSize"
-        href: /windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize
+        href: /windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsize
       - name: "GetProcessWorkingSetSizeEx"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex
       - name: "GetProcessorSystemCycleTime"
@@ -608,7 +608,7 @@
       - name: "SetProcessShutdownParameters"
         href: /windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters
       - name: "SetProcessWorkingSetSize"
-        href: /windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize
+        href: /windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize
       - name: "SetProcessWorkingSetSizeEx"
         href: /windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex
       - name: "SetProtectedPolicy"
