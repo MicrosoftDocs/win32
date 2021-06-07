@@ -11,20 +11,23 @@ ms.date: 05/31/2018
 
 # Accessibility tools - Inspect
 
-**Inspect** (Inspect.exe) is a Windows-based tool that enables you select any UI element and view the element's accessibility data. You can view Microsoft UI Automation properties and control patterns, as well as Microsoft Active Accessibility properties. **Inspect** also enables you to test the navigational structure of the automation elements in the UI Automation tree, and the accessible objects in the Microsoft Active Accessibility hierarchy.
-
-**Inspect** is installed with the Windows Software Development Kit (SDK). (It is also available in previous versions of Windows SDK.) It is located in the \\bin\\<*version*>\\<*platform*> folder of the SDK installation path (Inspect.exe).
-
-> [!NOTE]
+> [!Important]
 > **Inspect** is a legacy tool. We recommend using [Accessibility Insights](https://accessibilityinsights.io/) instead.
+
+**Inspect** (Inspect.exe) is a Windows-based tool that enables you select any UI element and view the element's accessibility data. You can view Microsoft UI Automation properties and control patterns, as well as Microsoft Active Accessibility properties. **Inspect** also enables you to test the navigational structure of the automation elements in the UI Automation tree, and the accessible objects in the Microsoft Active Accessibility hierarchy.
 
 ## Requirements
 
-**Inspect** can be used to examine accessibility data on systems that don't have UI Automation, but can only examine the Microsoft Active Accessibility properties. To examine UI Automation, UI Automation must be present on the system. For more information, see the "Requirements" section of [UI Automation](entry-uiauto-win32.md).
+To examine UI Automation, UI Automation must be present on the system. For more information, see the "Requirements" section of [UI Automation](entry-uiauto-win32.md).
 
-**Inspect** is installed as part of the overall set of tools in the Windows SDK, it is not distributed as a separate download. The Windows SDK includes all of the accessibility-related tools documented in this section. [Get the Windows SDK.](https://developer.microsoft.com/) (There's also an SDK download archive linked from that page, if you need a previous version.)
+**Inspect** is installed as part of the overall set of tools in the Windows Software Development Kit (SDK), it is not distributed as a separate download. The Windows SDK includes all of the accessibility-related tools documented in this section.
 
-To run **Inspect**, find Inspect.exe in the \\bin\\<*version*>\\<*platform*> folder and run it (you don't typically have to run as administrator).
+[Download the Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/).
+
+> [!NOTE]
+> For older versions of the Windows SDK, see the [Windows SDK and emulator archive](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/).
+
+**Inspect.exe** is located in the \\bin\\<*version*>\\<*platform*> folder of the SDK installation path (you don't typically have to run as administrator).
 
 ## The Inspect Window
 
