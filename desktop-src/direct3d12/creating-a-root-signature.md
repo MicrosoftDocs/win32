@@ -200,7 +200,7 @@ CreatePipelineStatesAhreadOfTime(pRootSignature); // The root signature is passe
 ...
 
 ID3D12DescriptorHeap* pHeaps[2] = {pCommonHeap, pSamplerHeap};
-pGraphicsCommandList->SetDescriptorHeaps(pHeaps,2);
+pGraphicsCommandList->SetDescriptorHeaps(2,pHeaps);
 pGraphicsCommandList->SetGraphicsRootSignature(pRootSignature);
 pGraphicsCommandList->SetGraphicsRootDescriptorTable(
                         6,heapOffsetForMoreData,DescRange[5].NumDescriptors);
