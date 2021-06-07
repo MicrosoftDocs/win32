@@ -22,7 +22,7 @@ ms.date: 05/31/2018
 
 **Inspect** can be used to examine accessibility data on systems that don't have UI Automation, but can only examine the Microsoft Active Accessibility properties. To examine UI Automation, UI Automation must be present on the system. For more information, see the "Requirements" section of [UI Automation](entry-uiauto-win32.md).
 
-**Inspect** is installed as part of the overall set of tools in the Windows SDK, it is not distributed as a separate download. The Windows SDK includes all of the accessibility-related tools documented in this section. [Get the Windows SDK.](https://developer.microsoft.com/) (There's also an SDK download archive linked from that page, if you need a previous version.)
+**Inspect** is installed as part of the overall set of tools in the Windows SDK, it is not distributed as a separate download. The Windows SDK includes all of the accessibility-related tools documented in this section. [Get the Windows SDK.](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/) (There's also [an SDK download archive linked from that page](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/), if you need a previous version.)
 
 To run **Inspect**, find Inspect.exe in the \\bin\\<*version*>\\<*platform*> folder and run it (you don't typically have to run as administrator).
 
