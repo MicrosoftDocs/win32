@@ -28,9 +28,11 @@ Lists the transcendental vector functions.
 | [**XMVectorCosEst**](/windows/win32/api/directxmath/nf-directxmath-xmvectorcosest)<br/>       | Estimates the cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>            |
 | [**XMVectorCosH**](/windows/win32/api/directxmath/nf-directxmath-xmvectorcosh)<br/>           | Computes the hyperbolic cosine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>  |
 | [**XMVectorExp**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp)<br/>             | Computes two raised to the power for each component.<br/>                                            |
+| [**XMVectorExp10**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp10)<br/>         | Computes ten raised to the power for each component.<br/>                                            |
 | [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2)<br/>           | Computes two raised to the power for each component.<br/>                                            |
 | [**XMVectorExpE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe)<br/>           | Computes e (~2.71828) raised to the power for each component.<br/>                                   |
 | [**XMVectorLog**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog)<br/>             | Computes the base two logarithm of each component of a vector.<br/>                                  |
+| [**XMVectorLog10**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog10)<br/>         | Computes the base ten logarithm of each component of a vector.<br/>                                  |
 | [**XMVectorLog2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog2)<br/>           | Computes the base two logarithm of each component of a vector.<br/>                                  |
 | [**XMVectorLogE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorloge)<br/>           | Computes the base e logarithm of each component of a vector.<br/>                                    |
 | [**XMVectorSin**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsin)<br/>             | Computes the sine of each component of an [**XMVECTOR**](xmvector-data-type.md).<br/>               |
