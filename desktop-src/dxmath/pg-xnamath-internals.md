@@ -25,19 +25,19 @@ To enhance portability and optimize data layout, you need to use the appropriate
 
 **For 32-bit Windows**
 
-For 32-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values (which implements [**XMVECTOR**](xmvector-data-type.md) on that platform). The standard is [\_\_fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx), which can pass the first three [\_\_m128](/cpp/cpp/m128) values (**XMVECTOR** instances) as arguments to a function in a *SSE/SSE2* register. [\_\_fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx) passes remaining arguments via the stack.
+For 32-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values (which implements [**XMVECTOR**](xmvector-data-type.md) on that platform). The standard is [\_\_fastcall](https://docs.microsoft.com/en-us/cpp/cpp/fastcall), which can pass the first three [\_\_m128](/cpp/cpp/m128) values (**XMVECTOR** instances) as arguments to a function in a *SSE/SSE2* register. [\_\_fastcall](https://docs.microsoft.com/en-us/cpp/cpp/fastcall) passes remaining arguments via the stack.
 
 Newer Microsoft Visual Studio compilers support a new calling convention, \_\_vectorcall, which can pass up to six [\_\_m128](/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via *SSE/SSE2* registers if there is sufficient room.
 
 **For 64-bit editions of Windows**
 
-For 64-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values. The standard is [\_\_fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx), which passes all [\_\_m128](/cpp/cpp/m128) values on the stack.
+For 64-bit Windows, there are two calling conventions available for efficient passing of [\_\_m128](/cpp/cpp/m128) values. The standard is [\_\_fastcall](https://docs.microsoft.com/en-us/cpp/cpp/fastcall), which passes all [\_\_m128](/cpp/cpp/m128) values on the stack.
 
 Newer Visual Studio compilers support the \_\_vectorcall calling convention, which can pass up to six [\_\_m128](/cpp/cpp/m128) values ([**XMVECTOR**](xmvector-data-type.md) instances) as arguments to a function in a *SSE/SSE2* register. It can also pass heterogeneous vector aggregates (also known as [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via *SSE/SSE2* registers if there is sufficient room.
 
-**For Windows RT**
+**For Windows on ARM**
 
-The Windows RT operating system supports passing the first four \_\_n128 values ([**XMVECTOR**](xmvector-data-type.md) instances) in-register.
+The Windows on ARM & ARM64 supports passing the first four \_\_n128 values ([**XMVECTOR**](xmvector-data-type.md) instances) in-register.
 
 **DirectXMath solution**
 
@@ -147,7 +147,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 
 
-**Windows RT**
+**Windows on ARM**
 
 
 ```C++
@@ -167,7 +167,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 ## Graphics Library Type Equivalence
 
-To support the use of the DirectXMath Library, many DirectXMath Library types and structures are equivalent to the Windows implementations of the **D3DDECLTYPE** and **D3DFORMAT** types, as well as the [**DXGI\_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) types. 
+To support the use of the DirectXMath Library, many DirectXMath Library types and structures are equivalent to the Windows implementations of the **D3DDECLTYPE** and **D3DFORMAT** types, as well as the [**DXGI\_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) types.
 
 | DirectXMath                      | D3DDECLTYPE                                                                           | D3DFORMAT                                                     | DXGI\_FORMAT                                                                                                                                                                                            |
 |----------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -227,7 +227,7 @@ These internal global constants are subject to change in future revisions of the
 The SSE instruction set provides support only for single-precision floating-point vectors. DirectXMath must make use of the SSE2 instruction set to provide integer vector support. SSE2 is supported by all Intel processors since the introduction of the Pentium 4, all AMD K8 and later processors, and all x64-capable processors.
 
 > [!Note]  
-> Windows 8 for x86 requires support for SSE2. All versions of Windows x64 require support for SSE2. Windows RT (also known as Windows on ARM) requires ARM\_NEON.
+> Windows 8 for x86 or later requires support for SSE2. All versions of Windows x64 require support for SSE2. Windows on ARM / ARM64 requires ARM\_NEON.
 
  
 
@@ -260,7 +260,7 @@ For example, here is a simplified example of leveraging the SSE 4.1 dot-product 
 
 
 ```
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
 
 #include <DirectXMath.h>
@@ -278,12 +278,20 @@ void DetectCPUFeatures()
    // See __cpuid documentation on MSDN for more information
 
    int CPUInfo[4] = {-1};
-   __cpuid( CPUInfo, 0 );
+#if defined(__clang__) || defined(__GNUC__)
+   __cpuid(0, CPUInfo[0], CPUInfo[1], CPUInfo[2], CPUInfo[3]);
+#else
+   __cpuid(CPUInfo, 0);
+#endif
 
    if ( CPUInfo[0] >= 1 )
    {
-       __cpuid(CPUInfo, 1 );
- 
+#if defined(__clang__) || defined(__GNUC__)
+        __cpuid(1, CPUInfo[0], CPUInfo[1], CPUInfo[2], CPUInfo[3]);
+#else
+        __cpuid(CPUInfo, 1);
+#endif
+
        if ( CPUInfo[2] & 0x80000 )
            g_bSSE41 = true;
    }
@@ -319,7 +327,7 @@ int main()
        r4 = XMVector4Dot( v1, v2 );
    }
 
-   ... 
+   ...
 
    return 0;
 }
