@@ -12,7 +12,7 @@ Enables low-latency mode in a codec.
 
 ## Data type
 
-**ULONG** (**VT\_BOOL**)
+**USHORT** (**VT\_UI4**)
 
 ## Property GUID
 
