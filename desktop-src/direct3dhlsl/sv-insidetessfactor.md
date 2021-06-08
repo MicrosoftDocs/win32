@@ -23,9 +23,8 @@ Defines the tessellation amount within a patch surface.
 
 
 
-|            |                |
+|  Type          | Input topology               |
 |------------|----------------|
-| Type       | Input Topology |
 | float\[2\] | quad patch     |
 | float      | tri patch      |
 | unused     | isoline        |

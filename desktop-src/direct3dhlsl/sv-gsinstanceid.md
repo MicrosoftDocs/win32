@@ -23,9 +23,8 @@ Defines the [instance](sm5-attributes-instance.md) of the geometry shader.
 
 
 
-|      |
+| Type     |
 |------|
-| Type |
 | uint |
 
 

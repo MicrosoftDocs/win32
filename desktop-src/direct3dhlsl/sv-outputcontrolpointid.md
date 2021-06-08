@@ -23,9 +23,8 @@ Defines the index of the control point ID being operated on by an invocation of 
 
 
 
-|      |
+| Type     |
 |------|
-| Type |
 | uint |
 
 

@@ -23,9 +23,8 @@ Indices for which combined thread and thread group a compute shader is executing
 
 
 
-|       |
+| Type      |
 |-------|
-| Type  |
 | uint3 |
 
 
