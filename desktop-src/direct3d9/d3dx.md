@@ -8,6 +8,7 @@ ms.date: 05/31/2018
 
 # D3DX (Direct3D 9)
 
+> [!NOTE]
 > The D3DX library is deprecated. If upgrading to a newer version of Direct3D and associated utility code is not an option, you can make use of the [Microsoft.DXSDK.D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet package rather than relying on the legacy DirectX SDK or DirectSetup.
 
 D3DX is a library of tools designed to provide additional graphics functionality on top of Direct3D. D3DX is provided as a dynamic-link library (DLL).
