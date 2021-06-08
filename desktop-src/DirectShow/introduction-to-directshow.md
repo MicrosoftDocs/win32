@@ -22,7 +22,7 @@ This section contains the following topics:
 
 -   [What's New in DirectShow](whats-new-in-directshow.md)
 -   [Supported Formats in DirectShow](supported-formats-in-directshow.md)
--   [DirectShow FAQ](directshow-faq.md)
+-   [DirectShow FAQ](directshow-faq.yml)
 
 ## Related topics
 

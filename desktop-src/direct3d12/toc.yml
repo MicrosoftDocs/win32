@@ -239,7 +239,7 @@
         - name: "Enable TensorFlow with DirectML on Windows"
           href: gpu-tensorflow-windows.md
         - name: "FAQ for TensorFlow with DirectML Package"
-          href: gpu-faq.md
+          href: gpu-faq.yml
       - name: "Helper functions"
         href: dml-helper-functions.md
       - name: "Sample applications"

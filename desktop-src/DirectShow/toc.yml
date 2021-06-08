@@ -9,7 +9,7 @@
     - name: "Supported Formats in DirectShow"
       href: supported-formats-in-directshow.md
     - name: "DirectShow FAQ"
-      href: directshow-faq.md
+      href: directshow-faq.yml
   - name: "Getting Started"
     href: getting-started.md
     items: 
