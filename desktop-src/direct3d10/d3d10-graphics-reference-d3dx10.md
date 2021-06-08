@@ -8,10 +8,8 @@ ms.date: 05/31/2018
 
 # D3DX Reference (Direct3D 10 Graphics)
 
-> [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-
- 
+> [!NOTE]  
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8, and is not supported for Microsoft Store apps. If upgrading to a newer version of Direct3D and associated utility code is not an option, you can make use of the [Microsoft.DXSDK.D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet package rather than relying on the legacy DirectX SDK or DirectSetup.
 
 This section contains the following sections:
 
@@ -22,14 +20,4 @@ This section contains the following sections:
 
 ## Related topics
 
-<dl> <dt>
-
-[Reference for Direct3D 10](d3d10-graphics-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Reference for Direct3D 10](d3d10-graphics-reference.md)
