@@ -11,9 +11,8 @@ ms.date: 05/31/2018
 The D3DX 11 API is described in this section.
 
 > [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps. For details on recommended replacements for D3DX11, see [this article](https://walbourn.github.io/living-without-d3dx/). For older projects, you can make use of the [Microsoft.DXSDK.D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet package rather than relying on the legacy DirectX SDK or DirectSetup.
 
- 
 
 
 ## In this section
