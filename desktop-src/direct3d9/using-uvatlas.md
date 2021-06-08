@@ -6,6 +6,8 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
+> UVAtlas was originally shipped in the now deprecated D3DX9 utilty library. The latest version is available from [GitHub](http://go.microsoft.com/fwlink/?LinkID=512686).
+
 # Using UVAtlas (Direct3D 9)
 
 Many rendering and content generation techniques require a unique, non-overlapping map of a 2D signal (such as a texture) onto a mesh. Such techniques include:
@@ -169,7 +171,7 @@ Packed charts are separated by a user-specified gutter width. The gutter width i
 
 In addition to being artist-invoked prior to texture painting, these functions can be integrated into an automated art pipeline. For example, a UVAtlas call can be issued automatically after an asset is updated, prior to performing a PRT simulation or normal mapping pass. This avoids any need to manually manual repair of an object's UV mapping if the mesh's topology has been modified.
 
-See the [UV Atlas Command-Line Tool (uvatlas.exe)](https://msdn.microsoft.com/library/Ee419017(v=VS.85).aspx) for example usage of the UVAtlas functions.
+See the [UV Atlas Command-Line Tool (uvatlas.exe)](http://go.microsoft.com/fwlink/?LinkID=512686) for example usage of the UVAtlas functions.
 
 ## Related topics
 
