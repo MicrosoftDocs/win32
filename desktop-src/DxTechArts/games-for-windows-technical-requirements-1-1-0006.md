@@ -1124,26 +1124,26 @@ For more information about the Windows Error Reporting APIs, and how to analyze 
 
 
 
-|                                          |                                                                                                  |
+| Name                                          | Description                                                                                                 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------|
-| A                                        | The A button                                                                                     |
-| B                                        | The B button                                                                                     |
-| BACK                                     | The Back button                                                                                  |
+| A                                        | The A button.                                                                                     |
+| B                                        | The B button.                                                                                     |
+| BACK                                     | The Back button.                                                                                  |
 | (right/left) bumper                      | The button at the top right and left edge of the controller. Equivalent to a shoulder button.    |
-| directional pad                          | The controller directional pad                                                                   |
-| D-pad                                    | Accepted abbreviation of directional pad                                                         |
-| DP                                       | Directional pad abbreviation and controller label                                                |
-| RB, LB                                   | Right and left bumper abbreviations and controller labels                                        |
-| RS, LS                                   | Right and left stick abbreviations and controller labels                                         |
-| RT, LT                                   | Right and left trigger abbreviations and controller labels                                       |
-| RSB, LSB                                 | Right and left stick abbreviations and controller labels                                         |
-| START                                    | The Start button                                                                                 |
+| directional pad                          | The controller directional pad.                                                                   |
+| D-pad                                    | Accepted abbreviation of directional pad.                                                         |
+| DP                                       | Directional pad abbreviation and controller label.                                                |
+| RB, LB                                   | Right and left bumper abbreviations and controller labels.                                        |
+| RS, LS                                   | Right and left stick abbreviations and controller labels.                                         |
+| RT, LT                                   | Right and left trigger abbreviations and controller labels.                                       |
+| RSB, LSB                                 | Right and left stick abbreviations and controller labels.                                         |
+| START                                    | The Start button.                                                                                 |
 | (right/left) stick                       | The controller stick. Formerly thumbstick.                                                       |
 | (right/left) stick button                | The controller stick button. Formerly thumbstick button.                                         |
 | (right/left) trigger                     | The controller trigger.                                                                          |
 | Vibration                                | Gameplay feedback produced by the controller motor. Do not use rumble.                           |
-| X                                        | The X button                                                                                     |
-| Y                                        | The Y button                                                                                     |
+| X                                        | The X button.                                                                                     |
+| Y                                        | The Y button.                                                                                     |
 | Xbox 360 Controller for Windows          | The Xbox 360 gamepad sold as a PC hardware SKU, including a Windows device driver disc.          |
 | Xbox 360 Wireless Controller for Windows | The Xbox 360 wireless gamepad sold as a PC hardware SKU, including a Windows device driver disc. |
 

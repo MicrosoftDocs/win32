@@ -67,9 +67,8 @@ The **ControlStream** method defines some special values for the start and stop 
 
 
 
-| Label | Value |
-|-------------|----------------------------------------|------------------------------------|
-|             | Start                                  | Stop                               |
+| Value | Start                                  | Stop                               |
+|-------------|----------------------------------------|---------|
 | MAXLONGLONG | Never start this stream.               | Do not stop until the graph stops. |
 | **NULL**    | Start immediately when the graph runs. | Stop immediately.                  |
 
