@@ -1,5 +1,5 @@
 ---
-description: Note  This interface has been deprecated.
+description: Learn about the IAMFilterData::ParseFilterData method, unpacks the binary registry data for a filter. This interface has been deprecated.
 ms.assetid: 86095fcf-3364-42a0-95db-08223fa3cc20
 title: IAMFilterData::ParseFilterData method (Fil\_data.h)
 ms.topic: reference

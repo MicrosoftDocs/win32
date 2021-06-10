@@ -1,6 +1,6 @@
 ---
 title: Legal Information (OpenGL)
-description: Information in this document, including URL and other Internet Web site references, is subject to change without notice.
+description: This article provides legal information about OpenGL, including information about copyright and trademarks.
 ms.assetid: c17525c3-b438-4529-abf7-a55f532398f8
 keywords:
 - OpenGL,legal information
