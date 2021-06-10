@@ -31,7 +31,7 @@ A variant datatype that must be one of the following:
 
 
 
-|            |                                                                       |
+| Value           | Description                                                                      |
 |------------|-----------------------------------------------------------------------|
 | *filespec* | The local file location of the specified character's definition file. |
 | *URL*      | The HTTP address for the character's definition file.                 |

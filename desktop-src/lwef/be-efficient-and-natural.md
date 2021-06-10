@@ -20,16 +20,9 @@ Shared context is also communicated by the use of linguistic *ellipsis*, the tru
 
 Implicit understanding can also be conveyed through other forms of abbreviated conversational style, where content is inferred without repetition, as shown in the following example:
 
+**User:** I'd like a Chicago-style pizza.
 
-
-|            |                                 |
-|------------|---------------------------------|
-| User:      | I'd like a Chicago-style pizza. |
-| Character: | With "Extra Cheese"?            |
-
-
-
- 
+**Character:** With "Extra Cheese"?
 
 Similarly, if someone says, "It is hot in here," the phrase is understandable and requires no further detail if you know where the speaker is. However, if the context is not well established or is ambiguous, eliminating all contextual references may leave the user confused.
 
