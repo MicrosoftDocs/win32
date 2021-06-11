@@ -1,5 +1,5 @@
 ---
-description: About Media Types
+description: Learn about media types in DirectShow. The media type is a universal and extensible way to describe digital media formats.
 ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
 title: About Media Types (DirectShow)
 ms.topic: article
