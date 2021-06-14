@@ -1,5 +1,5 @@
 ---
-description: For an explanation of the following tables, see Tables and Assignments.
+description: This article contains frequency tables for international analog TV tuning for the Czech Republic. Frequency indexes are not suitable for channel numbers.
 ms.assetid: 6bbef2a3-7104-4b5f-8381-0a89751e572b
 title: Czech Republic
 ms.topic: article

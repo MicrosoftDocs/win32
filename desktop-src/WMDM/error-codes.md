@@ -1,6 +1,6 @@
 ---
 title: Error Codes (Windows Media Device Manager 11 SDK)
-description: Error Codes
+description: Learn about the various error codes that can be returned by Windows Media technologies, organized by origin.
 ms.assetid: 37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad
 keywords:
 - Windows Media Device Manager,error codes

@@ -1,5 +1,5 @@
 ---
-description: In Windows 7, high-level platform APIs that use Core Audio APIs, such as Media Foundation, DirectSound, and Wave APIs, implement the stream routing feature by handling stream switching from an existing device to a new default audio endpoint.
+description: Learn about notifications for stream routing. APIs implement stream routing by handling stream switching to a new default audio endpoint.
 ms.assetid: caf831bb-b8de-467f-bdb4-f9f8991dc7a8
 title: Relevant Notifications for Stream Routing
 ms.topic: article

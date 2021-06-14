@@ -1,6 +1,6 @@
 ---
 title: Windows Media Format SDK Enumeration Types
-description: Enumeration Types
+description: Learn about the enumeration types that the Windows Media Format SDK implements, such as DRM_HTTP_STATUS and DRM_LICENSE_STATE_CATEGORY.
 ms.assetid: 'cd28f608-25ba-44a7-868b-b1cd4dfcfa45'
 keywords:
 - Windows Media Format SDK,enumeration types
