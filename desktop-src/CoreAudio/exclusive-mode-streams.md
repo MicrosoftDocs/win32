@@ -81,7 +81,8 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
     UINT32 bufferFrameCount;
     BYTE *pData;
     DWORD flags = 0;
-
+    DWORD taskIndex = 0;
+    
     hr = CoCreateInstance(
            CLSID_MMDeviceEnumerator, NULL,
            CLSCTX_ALL, IID_IMMDeviceEnumerator,
@@ -113,6 +114,20 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
                          hnsRequestedDuration,
                          pwfx,
                          NULL);
+    if (hr == AUDCLNT_E_BUFFER_SIZE_NOT_ALIGNED) {
+        // Align the buffer if needed, see IAudioClient::Initialize() documentation
+        UINT32 nFrames = 0;
+        hr = pAudioClient->GetBufferSize(&nFrames);
+        EXIT_ON_ERROR(hr)
+        hnsRequestedDuration = (REFERENCE_TIME)((double)REFTIMES_PER_SEC / pwfx->nSamplesPerSec * nFrames + 0.5);
+        hr = pAudioClient->Initialize(
+            AUDCLNT_SHAREMODE_EXCLUSIVE,
+            AUDCLNT_STREAMFLAGS_EVENTCALLBACK,
+            hnsRequestedDuration,
+            hnsRequestedDuration,
+            pwfx,
+            NULL);
+    }
     EXIT_ON_ERROR(hr)
 
     // Tell the audio source which format to use.
@@ -153,7 +168,6 @@ HRESULT PlayExclusiveStream(MyAudioSource *pMySource)
 
     // Ask MMCSS to temporarily boost the thread priority
     // to reduce glitches while the low-latency stream plays.
-    DWORD taskIndex = 0;
     hTask = AvSetMmThreadCharacteristics(TEXT("Pro Audio"), &taskIndex);
     if (hTask == NULL)
     {
