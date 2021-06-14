@@ -1,6 +1,6 @@
 ---
 title: WM ASF Reader Filter (Windows Media Format 11 SDK)
-description: Learn about WM ASF Reader filter.
+description: Learn about WM ASF Reader filter for the Windows Media Format 11 SDK. Review filter information and see related topics.
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
 - Windows Media Format SDK,WM ASF Reader

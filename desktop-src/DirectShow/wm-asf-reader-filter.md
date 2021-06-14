@@ -1,5 +1,5 @@
 ---
-description: WM ASF Reader Filter
+description: Learn about the WM ASF Reader filter for DirectShow. This is a wrapper filter for the reader object that's provided with the Windows Media Format SDK.
 ms.assetid: '82b9f849-b9dc-439b-8ca7-9dcd992338ab'
 title: WM ASF Reader Filter (DirectShow)
 ms.topic: article
