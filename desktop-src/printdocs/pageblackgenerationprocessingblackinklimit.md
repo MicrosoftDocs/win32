@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageBlackGenerationProcessingBlackInkLimit parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 96b48917-1fbc-467f-b2b4-1a9673f1ee99
 title: PageBlackGenerationProcessingBlackInkLimit
 ms.topic: article

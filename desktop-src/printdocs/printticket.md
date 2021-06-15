@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Find information about the PrintTicket element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 'fe6bd921-cbf3-4cca-afae-82d3822206ba'
 title: PrintTicket
 ms.topic: article

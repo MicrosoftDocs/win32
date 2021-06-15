@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn to support different Print Schema Framework versions. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: fc89dd2d-9a5d-400b-aee9-a1e4cf7d83da
 title: Supporting Schema Versions
 ms.topic: article
