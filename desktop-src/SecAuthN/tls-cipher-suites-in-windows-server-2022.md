@@ -1,5 +1,5 @@
 ---
-description: Cipher suites can only be negotiated for TLS versions which support them. The highest supported TLS version is always preferred in the TLS handshake.
+description: Learn about TLS cipher suites in Windows Server 2022. Cipher suites can only be negotiated for TLS versions which support them.
 title: TLS Cipher Suites in Windows Server 2022.
 ms.topic: article
 ms.date: 02/16/2021

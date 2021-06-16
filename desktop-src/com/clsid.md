@@ -1,6 +1,6 @@
 ---
 title: CLSID
-description: Associates a ProgID with a CLSID.
+description: Learn about the HKEY_LOCAL_MACHINE\SOFTWARE\Classes registry key, which associates a ProgID with a CLSID.
 ms.assetid: '8f2be90c-360a-410c-81aa-bae9ae2c1a21'
 keywords:
 - CLSID registry key (ProgID) COM

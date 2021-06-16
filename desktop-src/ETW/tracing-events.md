@@ -1,5 +1,5 @@
 ---
-description: Before you can write events to a trace session, you must register your provider.
+description: Learn about writing MOF events to a trace session. Begin with registering your provider, so that it is ready to write events to a trace session.
 ms.assetid: 21f62b5d-0a2d-468c-af88-2fab1512f0ec
 title: Writing MOF (Classic) Events
 ms.topic: article
