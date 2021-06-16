@@ -12,7 +12,10 @@ The installer sets the **VersionNT64** property to the version number for the op
 
 The value is an integer: MajorVersion \* 100 + MinorVersion.
 
-For compatibility reasons, the property is also undefined if the [**Template Summary**](template-summary.md) property indicates the package is for 32-bit Intel systems and the operating system is a 64-bit architecture that is not Intel64 or x64 (such as ARM64).
+For compatibility reasons, the property is also undefined if the [**Template Summary**](template-summary.md) property indicates the package is for 32-bit Intel (x86) systems and the operating system can not run 64-bit Intel (x64) code, such as Windows 10 on ARM (ARM64).
+
+> [!NOTE]
+> As of build 21277, ARM64 builds in the Dev channel of the Windows Insider Preview program have support for x64 applications.  On these ARM64 builds, the VersionNT64 property is defined for x86 packages.
 
 ## Remarks
 
