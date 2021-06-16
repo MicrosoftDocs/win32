@@ -14,7 +14,8 @@ DWriteCore is the [Project Reunion](/windows/apps/project-reunion/) implementati
 
 This introductory topic describes what DWriteCore is, and shows how to install it into your dev environment and program with it.
 
-Make sure that you visit the [DirectX Landing Page](https://devblogs.microsoft.com/directx/landing-page/) for more resources for DirectX developers.
+> [!TIP]
+> For descriptions of, and links to, DirectX components in active development, see the blog post [DirectX Landing Page](https://devblogs.microsoft.com/directx/landing-page/).
 
 ## The value proposition of DWriteCore
 
