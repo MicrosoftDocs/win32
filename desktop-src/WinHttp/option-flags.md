@@ -267,6 +267,15 @@ Legacy versions of HTTP (1.1 and prior) cannot be disabled using this option. Th
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_ENABLE_HTTP2_PLUS_CLIENT_CERT"></span><span id="winhttp_option_enable_http2_plus_client_cert"></span>**WINHTTP\_OPTION\_ENABLE\_HTTP2\_PLUS\_CLIENT\_CERT**
+</dt> <dd> <dl> <dt>
+
+
+This option can be set on a WinHttp session handle to allow WinHttp to use the caller-provided client certificate context when HTTP/2 is being used.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_ENABLETRACING"></span><span id="winhttp_option_enabletracing"></span>**WINHTTP\_OPTION\_ENABLETRACING**
 </dt> <dd> <dl> <dt>
 
@@ -378,6 +387,25 @@ Sets or retrieves an [**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-win
 
 
 </dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_HTTP2_KEEPALIVE"></span><span id="winhttp_option_http2_keepalive"></span>**WINHTTP\_OPTION\_HTTP2\_KEEPALIVE**
+</dt> <dd> <dl> <dt>
+
+
+This option can be set on a session handle to have WinHttp use HTTP/2 PING frames as a keepalive mechanism. Callers specify a timeout in milliseconds, and after there is no activity on a connection for that timeout period, WinHttp will begin to send HTTP/2 PING frames. Callers cannot set a timeout value less than 5000 milliseconds.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_HTTP2_PLUS_TRANSFER_ENCODING"></span><span id="winhttp_option_http2_plus_transfer_encoding"></span>**WINHTTP\_OPTION\_HTTP2\_PLUS\_TRANSFER\_ENCODING**
+</dt> <dd> <dl> <dt>
+
+
+This option can be set on a WinHttp request handle to control how WinHttp behaves when an HTTP/2 response contains a "Transfer-Encoding" header. In such a case, WinHttp will return an error if this option is set to **FALSE**.
+
+
+</dt> </dl> </dd> <dt>
+
 
 <span id="WINHTTP_OPTION_IGNORE_CERT_REVOCATION_OFFLINE"></span><span id="winhttp_option_ignore_cert_revocation_offline"></span>**WINHTTP\_OPTION\_IGNORE\_CERT\_REVOCATION\_OFFLINE**
 </dt> <dd> <dl> <dt>
@@ -683,6 +711,26 @@ Retreives timing information for the request. For a list of the available timing
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_REQUIRE_STREAM_END"></span><span id="winhttp_option_require_stream_end"></span>**WINHTTP\_OPTION\_REQUIRE\_STREAM\_END**
+</dt> <dd> <dl> <dt>
+
+
+This option tells WinHttp to ignore "Content-Length" response headers, and continue receiving on a stream until the END_STREAM flag is received.
+
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_RESOLUTION_HOSTNAME"></span><span id="winhttp_option_resolution_hostname"></span>**WINHTTP\_OPTION\_RESOLUTION\_HOSTNAME**
+</dt> <dd> <dl> <dt>
+
+
+This option can be set on a WinHttp request handle before it has been sent. If set, WinHttp will use the caller-provided string as the hostname for DNS resolution.
+
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_RESOLVE_TIMEOUT"></span><span id="winhttp_option_resolve_timeout"></span>**WINHTTP\_OPTION\_RESOLVE\_TIMEOUT**
 </dt> <dd> <dl> <dt>
 
@@ -834,6 +882,16 @@ Includes or removes the server port number when the SPN (service principal name)
 
 </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_STREAM_ERROR_CODE"></span><span id="winhttp_option_stream_error_code"></span>**WINHTTP\_OPTION\_STREAM\_ERROR\_CODE**
+</dt> <dd> <dl> <dt>
+
+
+This option can be queried on a WinHttp request handle, and will return the error code indicated by a RST_STREAM frame received on an HTTP stream.
+
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_TCP_FAST_OPEN"></span><span id="winhttp_option_tcp_fast_open"></span>**WINHTTP\_OPTION\_TCP\_FAST\_OPEN**
 </dt> <dd> <dl> <dt>
 
@@ -860,6 +918,16 @@ This option can be set on a WinHttp session handle to enable TCP keep-alive beha
 
 
 Enables TLS False Start for the connection.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_TLS_PROTOCOL_INSECURE_FALLBACK"></span><span id="winhttp_option_tls_protocol_insecure_fallback"></span>**WINHTTP\_OPTION\_TLS\_PROTOCOL\_INSECURE\_FALLBACK**
+</dt> <dd> <dl> <dt>
+
+
+
+This option can be set on a WinHttp session handle to control whether fallback to TLS 1.0 is allowed if there is a TLS handshake failure with a newer protocol version.
 
 
 </dt> </dl> </dd> <dt>
@@ -1026,6 +1094,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_DISABLE\_STREAM\_QUEUE<br/>**BOOL** | X | X | \- | X | Windows 10 Version 1809 |
 | WINHTTP\_OPTION\_ENABLE\_FEATURE<br/>**DWORD** | \* | \* | \- | X | \- |
 | WINHTTP\_OPTION\_ENABLE\_HTTP\_PROTOCOL<br/>**DWORD** | X | X | \- | X | Windows 10 Version 1607 |
+| WINHTTP\_OPTION\_ENABLE\_HTTP2\_PLUS\_CLIENT\_CERT\_CONTEXT<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 21H1 |
 | WINHTTP\_OPTION\_ENABLETRACING<br/>**DWORD** | \- | \- | X | X | \- |
 | WINHTTP\_OPTION\_ENCODE\_EXTRA<br/>**BOOL** | X | X | \- | X | Windows 10 Version 1803 |
 | WINHTTP\_OPTION\_EXPIRE\_CONNECTION<br/>N/A | \- | X | \- | X | Windows 10 Version 1903 |
@@ -1036,6 +1105,8 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_HTTP\_PROTOCOL\_REQUIRED<br/>**BOOL** | X | X | \- | X | Windows 10 Version 1903 |
 | WINHTTP\_OPTION\_HTTP\_PROTOCOL\_USED<br/>**DWORD** | \- | X | X | \- | Windows 10 Version 1607 |
 | WINHTTP\_OPTION\_HTTP\_VERSION<br/>[**HTTP\_VERSION\_INFO**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) | X | X | X | X | \- |
+| WINHTTP\_OPTION\_HTTP2\_KEEPALIVE<br/>**DWORD** | X | \- | \- | X | Windows 10 Version 21H1 |
+| WINHTTP\_OPTION\_HTTP2\_PLUS\_TRANSFER\_ENCODING<br/>**BOOL** | X | X | \- | X | Windows 10 Version 21H1 |
 | WINHTTP\_OPTION\_IGNORE\_CERT\_REVOCATION\_OFFLINE<br/>**BOOL** | \- | X | \- | X | Windows 10 Version 2004 |
 | WINHTTP\_OPTION\_IPV6\_FAST\_FALLBACK<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 1903 |
 | WINHTTP\_OPTION\_IS\_PROXY\_CONNECT\_RESPONSE<br/>**BOOL** | X | X | X | \- | \- |
@@ -1064,6 +1135,8 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_REQUEST\_PRIORITY<br/>**DWORD** | \- | X | X | X | \- |
 | WINHTTP\_OPTION\_REQUEST\_STATS<br/>[**WINHTTP\_REQUEST\_STATS**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats) | \- | X | X | \- | Windows 10 Version 1903 |
 | WINHTTP\_OPTION\_REQUEST\_TIMES<br/>[**WINHTTP\_REQUEST\_TIMES**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times) | \- | X | X | \- | Windows 10 Version 1903 |
+| WINHTTP\_OPTION\_REQUIRE\_STREAM\_END<br/>**BOOL** | X | X | \- | X | Windows 10 Version 21H1 |
+| WINHTTP\_OPTION\_RESOLUTION\_HOSTNAME<br/>**LPWSTR** | \- | X | \- | X | Windows 10 Version 21H1 |
 | WINHTTP\_OPTION\_RESOLVE\_TIMEOUT<br/>**DWORD** | X | X | X | X | \- |
 | WINHTTP\_OPTION\_SECURE\_PROTOCOLS<br/>**DWORD** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_SECURITY\_CERTIFICATE\_STRUCT<br/>[**WINHTTP\_CERTIFICATE\_INFO**](/windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info) | \- | X | X | \- | \- |
@@ -1076,9 +1149,11 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_SERVER\_CERT\_CONTEXT<br/>[**CERT CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | X | \- | \- |
 | WINHTTP\_OPTION\_SERVER\_SPN\_USED<br/>**LPWSTR** | \- | X | X | \- | \- |
 | WINHTTP\_OPTION\_SPN<br/>**DWORD** | \- | X | \- | X | \- |
+| WINHTTP\_OPTION\_STREAM\_ERROR\_CODE<br/>**DWORD** | \- | X | X | \- | Windows 10 Version 21H1 |
 | WINHTTP\_OPTION\_TCP\_FAST\_OPEN<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 2004 |
 | WINHTTP\_OPTION\_TCP\_KEEPALIVE<br/>[**tcp\_keepalive**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10 Version 2004 |
 | WINHTTP\_OPTION\_TLS\_FALSE\_START<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 2004 |
+| WINHTTP\_OPTION\_TLS\_PROTOCOL\_INSECURE\_FALLBACK<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 21H1 |
 | WINHTTP\_OPTION\_UNLOAD\_NOTIFY\_EVENT<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_UNSAFE\_HEADER\_PARSING<br/>**DWORD** | \- | X | \- | X | \- |
 | WINHTTP\_OPTION\_UPGRADE\_TO\_WEB\_SOCKET<br/>N/A | \- | X | \- | X | \- |
