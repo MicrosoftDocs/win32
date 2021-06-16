@@ -1,6 +1,6 @@
 ---
 title: Art File Formats (Mobile)
-description: Art File Formats
+description: Learn about the art file formats that Mobile recognizes for skins. These include bitmap, GIF, JPEG, and PNG.
 ms.assetid: c20a8eeb-6a13-4631-bb20-df03c4a4a1d2
 keywords:
 - Windows Media Player Mobile skins,art files
