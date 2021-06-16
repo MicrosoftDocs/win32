@@ -384,7 +384,7 @@ The maximum number of full live dumps that may be on disk at any given time. The
 
 **REG\_QWORD**
 
-A [SystemTime](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) indicating the last full live report time, for the system or a specific ReportType. This is used to calculate whether a policy threshold has been satisfied.
+A [FileTime](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) indicating the last full live report time, for the system or a specific ReportType. This is used to calculate whether a policy threshold has been satisfied.
 
 </dd> <dt>
 
