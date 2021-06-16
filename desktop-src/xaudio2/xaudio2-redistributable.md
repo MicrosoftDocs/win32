@@ -10,6 +10,8 @@ ms.date: 10/17/2019
 
 A version of XAudio 2.9 is available as a [NuGet package](/nuget/what-is-nuget). Developers can redistribute this version of XAudio 2.9 with their apps. This allows an app to use XAudio 2.9 on older versions of Windows that do no not include XAudio 2.9 as part of the operating system image. Use of this redistributable is preferred over redistributing XAudio 2.7 from the DirectX SDK, as XAudio 2.7 has not been updated since 2010.
 
+Make sure that you visit the [DirectX Landing Page](https://devblogs.microsoft.com/directx/landing-page/) for more resources for DirectX developers.
+
 ## Supported platforms
 
 The XAudio 2.9 NuGet package (*Microsoft.XAudio2.Redist.\*.nupkg*) includes a 32-bit and a 64-bit version of a DLL that implements the XAudio 2.9 API. The DLL is called XAUDIO2\_9REDIST.DLL. This DLL will work on Windows 7 SP1, Windows 8, Windows 8.1 and Windows 10.
