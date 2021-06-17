@@ -75,6 +75,13 @@ Frees the data retrieved from a previous call to [**WinHttpGetProxyResult**](/wi
 
 </dd> <dt>
 
+[**WinHttpFreeQueryConnectionGroupResult**](/windows/win32/api/Winhttp/nf-winhttp-winhttpfreequeryconnectiongroupresult)
+</dt> <dd>
+
+Frees the memory allocated by a previous call to [WinHttpQueryConnectionGroup](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup).
+
+</dd> <dt>
+
 [**WinHttpGetDefaultProxyConfiguration**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration)
 </dt> <dd>
 
@@ -128,6 +135,13 @@ Creates an HTTP request handle.
 </dt> <dd>
 
 Returns the authorization schemes that the server supports.
+
+</dd> <dt>
+
+[**WinHttpQueryConnectionGroup**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup)
+</dt> <dd>
+
+Retrieves a description of the current state of WinHttp's connections.
 
 </dd> <dt>
 
