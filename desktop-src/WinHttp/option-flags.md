@@ -41,6 +41,15 @@ Sets an unsigned long integer value that specifies the [Automatic Logon Policy](
 
 </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_BACKGROUND_CONNECTIONS"></span><span id="winhttp_option_background_connections"></span>**WINHTTP\_OPTION\_BACKGROUND\_CONNECTIONS**
+</dt> <dd> <dl> <dt>
+
+
+When this option is set on a session handle, callers must pass a number of connections they wish to open. Then, upon first sending a request, rather than only opening a single connection, WinHttp will open a number of connections in parallel. This can improve performance of subsequent requests to the same destination, which won't have the overhead of connection establishment.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_CALLBACK"></span><span id="winhttp_option_callback"></span>**WINHTTP\_OPTION\_CALLBACK**
 </dt> <dd> <dl> <dt>
 
@@ -198,6 +207,15 @@ By default, WinHTTP will deliver compressed responses to the caller unmodified.
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_DISABLE_CERT_CHAIN_BUILDING"></span><span id="winhttp_option_disable_cert_chain_building"></span>**WINHTTP\_OPTION\_DISABLE\_CERT\_CHAIN\_BUILDING**
+</dt> <dd> <dl> <dt>
+
+
+Setting this option on a WinHttp session handle allows callers to enable/disable whether the server certificate chain is built.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_DISABLE_FEATURE"></span><span id="winhttp_option_disable_feature"></span>**WINHTTP\_OPTION\_DISABLE\_FEATURE**
 </dt> <dd> <dl> <dt>
 
@@ -317,6 +335,15 @@ This option can only be set on a request handle which is still active (sending o
 
 
 Retrieves an unsigned long integer value that contains a Microsoft Windows Sockets error code that was mapped to the ERROR\_WINHTTP\_\* error messages last returned in this thread context. You can pass **NULL** as the handle value.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_FIRST_AVAILABLE_CONNECTION"></span><span id="winhttp_option_first_available_connection"></span>**WINHTTP\_OPTION\_FIRST\_AVAILABLE\_CONNECTION**
+</dt> <dd> <dl> <dt>
+
+
+By default, when WinHttp sends a request, if there are no available connections to serve the request, WinHttp will attempt to establish a new connection, and the request will be bound to this new connection. When this option is set, such a request will instead be served on the first connection that becomes available, not necessarily the one being established.
 
 
 </dt> </dl> </dd> <dt>
@@ -1077,6 +1104,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 |-|-|-|-|-|-|
 | WINHTTP\_OPTION\_ASSURED\_NON\_BLOCKING\_CALLBACKS<br/>**BOOL** | X | \- | \- | X | \- |
 | WINHTTP\_OPTION\_AUTOLOGON\_POLICY<br/>**DWORD** | \- | X | \- | X | \- |
+| WINHTTP\_OPTION\_BACKGROUND\_CONNECTIONS<br/>**DWORD** | X | \- | \- | X | Windows 10 Version 21H1 |
 | WINHTTP\_OPTION\_CALLBACK<br/>**LPVOID** | X | X | X | X | \- |
 | WINHTTP\_OPTION\_CLIENT\_CERT\_CONTEXT<br/>[**CERT\_CONTEXT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | \- | X | Windows Vista |
 | WINHTTP\_OPTION\_CLIENT\_CERT\_ISSUER\_LIST<br/>[**SecPkgContext\_IssuerListInfoEx**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) | \- | X | X | \- | Windows Vista |
@@ -1089,6 +1117,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_CONNECTION\_STATS\_V1<br/>[**TCP\_INFO\_v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) | \- | X | X | \- | Windows 10 Version 2004 |
 | WINHTTP\_OPTION\_CONTEXT\_VALUE<br/>**DWORD\_PTR** | X | X | X | X | \- |
 | WINHTTP\_OPTION\_DECOMPRESSION<br/>**DWORD** | X | X | \- | X | Windows 8.1 |
+| WINHTTP\_OPTION\_DISABLE\_CERT\_CHAIN\_BUILDING<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 21H1 |
 | WINHTTP\_OPTION\_DISABLE\_FEATURE<br/>**DWORD** | \- | X | \- | X | \- |
 | WINHTTP\_OPTION\_DISABLE\_SECURE\_PROTOCOL\_FALLBACK<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 1903 |
 | WINHTTP\_OPTION\_DISABLE\_STREAM\_QUEUE<br/>**BOOL** | X | X | \- | X | Windows 10 Version 1809 |
@@ -1099,6 +1128,7 @@ Attempting to set or query an option flag on a Windows version where it is not s
 | WINHTTP\_OPTION\_ENCODE\_EXTRA<br/>**BOOL** | X | X | \- | X | Windows 10 Version 1803 |
 | WINHTTP\_OPTION\_EXPIRE\_CONNECTION<br/>N/A | \- | X | \- | X | Windows 10 Version 1903 |
 | WINHTTP\_OPTION\_EXTENDED\_ERROR<br/>**DWORD** | X | X | X | \- | \- |
+| WINHTTP\_OPTION\_FIRST\_AVAILABLE\_CONNECTION<br/>**BOOL** | X | \- | \- | X | Windows 10 Version 21H1 |
 | WINHTTP\_OPTION\_GLOBAL\_PROXY\_CREDS<br/>[**WINHTTP\_CREDS**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | WINHTTP\_OPTION\_GLOBAL\_SERVER\_CREDS<br/>[**WINHTTP\_CREDS\_EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
 | WINHTTP\_OPTION\_HANDLE\_TYPE<br/>**DWORD** | X | X | X | \- | \- |
