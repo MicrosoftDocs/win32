@@ -44,8 +44,7 @@ Sets an unsigned long integer value that specifies the [Automatic Logon Policy](
 <span id="WINHTTP_OPTION_BACKGROUND_CONNECTIONS"></span><span id="winhttp_option_background_connections"></span>**WINHTTP\_OPTION\_BACKGROUND\_CONNECTIONS**
 </dt> <dd> <dl> <dt>
 
-
-When this option is set on a session handle, callers must pass a number of connections they wish to open. Then, upon first sending a request, rather than only opening a single connection, WinHttp will open a number of connections in parallel. This can improve performance of subsequent requests to the same destination, which won't have the overhead of connection establishment.
+When you set this option on a session handle, you must pass the number of connections you wish to open. Then, upon first sending a request, rather than opening only a single connection, WinHttp opens a number of connections in parallel. This can improve the performance of subsequent requests to the same destination, which won't have the overhead of connection establishment.
 
 
 </dt> </dl> </dd> <dt>
@@ -211,7 +210,7 @@ By default, WinHTTP will deliver compressed responses to the caller unmodified.
 </dt> <dd> <dl> <dt>
 
 
-Setting this option on a WinHttp session handle allows callers to enable/disable whether the server certificate chain is built.
+Setting this option on a WinHttp session handle allows you to enable/disable whether the server certificate chain is built.
 
 
 </dt> </dl> </dd> <dt>
@@ -343,7 +342,7 @@ Retrieves an unsigned long integer value that contains a Microsoft Windows Socke
 </dt> <dd> <dl> <dt>
 
 
-By default, when WinHttp sends a request, if there are no available connections to serve the request, WinHttp will attempt to establish a new connection, and the request will be bound to this new connection. When this option is set, such a request will instead be served on the first connection that becomes available, not necessarily the one being established.
+By default, when WinHttp sends a request, if there are no available connections to serve the request, WinHttp will attempt to establish a new connection, and the request will be bound to this new connection. When you set this option, such a request will instead be served on the first connection that becomes available, and not necessarily the one being established.
 
 
 </dt> </dl> </dd> <dt>
