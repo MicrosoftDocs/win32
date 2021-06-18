@@ -1,6 +1,6 @@
 ---
 title: Advanced Character Options Window (Microsoft Agent User Interface)
-description: The Advanced Character Options Window
+description: Learn about the Advanced Character Options Window, which displays global settings options and their current settings.
 ms.assetid: c54e462e-d60a-42ce-96ad-3db531c6f9fd
 ms.topic: article
 ms.date: 05/31/2018

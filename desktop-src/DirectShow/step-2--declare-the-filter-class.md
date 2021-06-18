@@ -1,5 +1,5 @@
 ---
-description: Step 2.
+description: Declare a C++ class that inherits the base class that your chose as part of writing a transform filter.
 ms.assetid: 74fbfc16-541f-4f80-a72f-26b67dc09a93
 title: Step 2. Declare the Filter Class
 ms.topic: article

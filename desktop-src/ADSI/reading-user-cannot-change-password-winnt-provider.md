@@ -1,6 +1,6 @@
 ---
 title: Reading User Cannot Change Password (WinNT Provider)
-description: The ability of a user to change their own password is a permission that can be granted or denied.
+description: Learn how to determine if a user has permission to change a password for WinNT Provider. The ability of a user to change a password can be granted or denied.
 ms.assetid: b8b8de00-0def-4506-ab73-d03a7e06256d
 ms.tgt_platform: multiple
 keywords:
