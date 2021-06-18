@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the DocumentNUp element, which describes the output and format of multiple logical pages to a single physical sheet.
 ms.assetid: 941515a8-ba3f-47b9-9f3f-08a48122661a
 title: DocumentNUp
 ms.topic: article

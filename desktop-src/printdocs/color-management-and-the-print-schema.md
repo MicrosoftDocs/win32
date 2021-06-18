@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about user configurable keywords in the Print Schema for color management, such as PageColorManagement and PageBlackGenerationProcessing.
 ms.assetid: 296255b8-fe5c-46dd-b717-487aaae0db80
 title: Color Management and the Print Schema
 ms.topic: article

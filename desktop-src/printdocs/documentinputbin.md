@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the DocumentInputBin element, which describes the installed input bin in a device or the full list of supported bins for a device.
 ms.assetid: 334503d7-c044-41f7-b6aa-892b002b7a4e
 title: DocumentInputBin
 ms.topic: article

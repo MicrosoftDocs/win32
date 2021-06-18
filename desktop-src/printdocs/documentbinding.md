@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the DocumentBinding element, which describes the method of binding. DocumentBinding and JobBindAllDocuments are mutually exclusive.
 ms.assetid: 36a7c360-2d26-46b9-b829-0fb35b36c79c
 title: DocumentBinding
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageBlackGenerationProcessingGrayComponentReplacementStart element, which describes the point where GCR should start.
 ms.assetid: 28ea95a2-e602-4f71-9488-48525e995814
 title: PageBlackGenerationProcessingGrayComponentReplacementStart
 ms.topic: article

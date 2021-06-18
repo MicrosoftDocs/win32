@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the ParameterRef element, which defines a reference to a ParameterInit element, and how it works with ScoredProperty.
 ms.assetid: 35e1ccc2-ffc1-47a6-aba8-5a5cb442e8ae
 title: ParameterRef
 ms.topic: article

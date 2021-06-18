@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobURI element, which specifies a uniform resource identifier (URI) for the document.
 ms.assetid: c7abb657-6c9d-435a-a700-2eb0f14707c0
 title: JobURI
 ms.topic: article
