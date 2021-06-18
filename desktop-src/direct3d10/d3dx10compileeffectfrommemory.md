@@ -1,5 +1,5 @@
 ---
-description: Deprecated. See D3DX10CompileFromMemory.
+description: Learn about the D3DX10CompileEffectFromResource function, which has been deprecated. . See D3DX10CompileFromMemory.
 ms.assetid: 4acb898c-1a00-4085-86e4-5054ebdff6d3
 title: D3DX10CompileEffectFromMemory
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
+description: Learn about math function support in D3DX. D3DX is a utility library that provides helper services. It is a layer above the Direct3D component.
 ms.assetid: a44d25de-f79d-4132-a75a-0c22ccd84341
 title: Math Function Support in D3DX (Direct3D 9)
 ms.topic: article

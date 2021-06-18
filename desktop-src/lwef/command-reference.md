@@ -1,6 +1,6 @@
 ---
 title: Command Reference (Linguistic Information Sound Editing Tool)
-description: Command Reference
+description: This command reference describes the Linguistic Information Sound Editing Tool. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 084f14ee-6774-46e2-a4ec-92f480f2f74a
 ms.topic: article
 ms.date: 05/31/2018

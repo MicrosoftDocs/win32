@@ -1,5 +1,5 @@
 ---
-description: Creating ASF Files in DirectShow
+description: Learn about creating ASF files in DirectShow. ASF is a container format that can contain any type of data.
 ms.assetid: dffda43a-5831-4889-864f-81351b9e2bb3
 title: Creating ASF Files in DirectShow (DirectShow)
 ms.topic: article

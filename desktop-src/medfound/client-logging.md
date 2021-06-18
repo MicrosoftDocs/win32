@@ -1,5 +1,5 @@
 ---
-description: Client Logging
+description: Learn about client logging for Microsoft Media Foundation. Logging provides a way for the media server to track the activity of the clients that connect to it.
 ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Client Logging (Microsoft Media Foundation)
 ms.topic: article
