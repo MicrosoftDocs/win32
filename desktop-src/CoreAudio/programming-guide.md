@@ -1,5 +1,5 @@
 ---
-description: Programming Guide
+description: Learn about the concepts and features of the core audio APIs of Windows Vista and how to use them in application programming.
 ms.assetid: 825c7cd7-dc66-47b6-a1b6-d10101daebb3
 title: Core Audio Programming Guide
 ms.topic: article

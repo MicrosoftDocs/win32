@@ -1,5 +1,5 @@
 ---
-description: Provisions are made for extending constants and structures both in a device-independent way and in a device-specific (vendor-specific) way.
+description: Learn about constant extensibility. Provisions are made for extending constants and structures both in a device-independent way and in a device-specific way.
 ms.assetid: 78430503-3e1f-49ab-be9c-d48bd21a840e
 title: Constant Extensibility
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: WPD reference
-description: Programming Reference
+description: This article links to reference articles for WPD, such as constants, client interfaces, driver interfaces, and collection interfaces.
 ms.assetid: e9dcb602-d04f-4067-8abc-d39e5a29de4e
 ms.topic: article
 ms.date: 05/31/2018

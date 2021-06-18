@@ -1,5 +1,5 @@
 ---
-description: Sets the Bluetooth device address to query.
+description: Learn how the System.Devices.AepService.Bluetooth.GattService.Device property sets the Bluetooth device address to query.
 ms.assetid: 0a84f283-4b18-4042-afc5-5b75907fe9f2
 title: System.Devices.AepService.Bluetooth.GattService.Device
 ms.topic: article
