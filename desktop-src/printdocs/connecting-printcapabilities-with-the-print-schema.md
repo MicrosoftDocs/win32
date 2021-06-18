@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the general PrintCapabilities Schema, which  covers the structure, purpose, and use of the various element types.
 ms.assetid: 2f6c51a3-003c-4d68-9e4d-9be5d325a477
 title: Connecting PrintCapabilities with the Print Schema
 ms.topic: article

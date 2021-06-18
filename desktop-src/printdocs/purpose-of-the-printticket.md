@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: PrintTicket's purpose is to define a single specific configuration that is applied to the job object that is being processed. 
 ms.assetid: 8a7dd185-0324-44a0-8405-59a2fdc1efcb
 title: Purpose of the PrintTicket
 ms.topic: article

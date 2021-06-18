@@ -1,6 +1,6 @@
 ---
 title: Using the Fill Element
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This article describes using the Fill element of VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: ed36601d-2e90-412e-ac3f-58324fac300d
 keywords:
 - Web workshop,fill element
