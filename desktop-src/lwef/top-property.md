@@ -1,6 +1,6 @@
 ---
 title: Top Property (Characters Object)
-description: Top Property
+description: Learn about the Top property (Characters object). Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.
 ms.assetid: d5758a77-2d9a-44b8-bbbb-57ddf96c7fe4
 ms.topic: article
 ms.date: 05/31/2018

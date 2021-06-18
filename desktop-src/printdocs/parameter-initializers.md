@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about parameter initializers in a Print Schema PrintTicket. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: bc7683b8-a3f0-44f2-9493-0acc3fe3b4e2
 title: Parameter Initializers
 ms.topic: article
