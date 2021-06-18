@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: These articles describe the public keywords which may appear in a PrintTicket. All keywords are not required to be supported.
 ms.assetid: 6ab4b34f-554f-4ecd-b2a5-7eacb66d0d72
 title: PrintTicket Specific Property Descriptions
 ms.topic: article

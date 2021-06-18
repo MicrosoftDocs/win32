@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This article provides a checklist that authors of PrintCapabilities documents can use to create a PrintCapabilities document that describes a device.
 ms.assetid: 4b8fa1a4-6461-4722-861b-354f206b2a73
 title: PrintCapabilities Document Construction Checklist
 ms.topic: article
