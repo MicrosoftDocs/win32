@@ -1,5 +1,5 @@
 ---
-description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
+description: Windows GDI+ exposes a flat API that consists of about 600 functions. Microsoft .NET Framework provides a set of managed-code wrapper classes for GDI+.
 ms.assetid: afd8cf81-8a20-4592-bd0a-46341742cc9b
 title: GDI+ Flat API
 ms.topic: article

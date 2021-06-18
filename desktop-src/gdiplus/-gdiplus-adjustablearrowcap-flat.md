@@ -1,5 +1,5 @@
 ---
-description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
+description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the AdjustableArrowCap C++ class.
 ms.assetid: 809d8b1e-ccdd-4156-b650-1bb7443a59fa
 title: AdjustableArrowCap Functions
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Width Property (CommandsWindow Object)
-description: Width Property
+description: Learn about the Width Property of the CommandsWindow object, which returns an integer value specifying the width, in pixels, of the Voice Commands Window.
 ms.assetid: 'vs|msagent|~\pacontrol_7ca2.htm'
 ms.topic: article
 ms.date: 05/31/2018

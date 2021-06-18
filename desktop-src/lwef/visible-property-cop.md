@@ -1,6 +1,6 @@
 ---
 title: Visible Property (Command Object)
-description: Visible Property
+description: Learn about the Visible Property of the Command object, which returns or sets whether the Command is visible in the character's pop-up menu.
 ms.assetid: 80137e16-4646-4251-b1c0-bca39ff7a233
 ms.topic: article
 ms.date: 05/31/2018
