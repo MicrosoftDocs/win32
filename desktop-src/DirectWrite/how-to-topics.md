@@ -1,6 +1,6 @@
 ---
 title: How-to Topics (DirectWrite)
-description: The following topics provide an overview of the DirectWrite API.
+description: View how-to topics in the DirectWrite API programming guide. DirectWrite enables Windows applications to enhance the text experience for UI and documents.
 ms.assetid: da4817ee-0bff-433f-b595-4250199bcc14
 ms.topic: article
 ms.date: 05/31/2018

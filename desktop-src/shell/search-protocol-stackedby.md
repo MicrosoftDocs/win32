@@ -1,5 +1,5 @@
 ---
-description: The stackedby argument specifies the property column to stack results by. You can stack by any valid property from the property system.
+description: Understand how to use the stackedby argument in the Windows Shell UI. This argument specifies the property column to stack results by.
 title: STACKEDBY Argument (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
@@ -29,9 +29,9 @@ search:query=vacation&stackedby=System.Author
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Minimum Operating System | Windows Vista with Service Pack 1 (SP1) |
+|                              | Value                                   |
+|------------------------------|-----------------------------------------|
+| **Minimum Operating System** | Windows Vista with Service Pack 1 (SP1) |
 
 
 

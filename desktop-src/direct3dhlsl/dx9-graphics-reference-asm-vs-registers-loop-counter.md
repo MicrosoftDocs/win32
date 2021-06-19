@@ -1,6 +1,6 @@
 ---
 title: Loop Counter Register (HLSL VS reference)
-description: The only register in this bank is the current loop counter (aL) register.
+description: Read about the loop counter register for vertex shaders. The only register in this bank is the current loop counter (aL) register.
 ms.assetid: b32fabf8-38d3-446c-bb80-c647d5aa028d
 ms.topic: article
 ms.date: 05/31/2018
