@@ -1,5 +1,5 @@
 ---
-description: These values are used with the ImmGetConversionStatus and ImmSetConversionStatus functions.
+description: Review the list of input method editor (IME) conversion mode values. These values are used with the ImmGetConversionStatus and ImmSetConversionStatus functions.
 ms.assetid: 0b0afb4e-f7aa-4ca6-9174-21983b2a422b
 title: IME Conversion Mode Values
 ms.topic: article

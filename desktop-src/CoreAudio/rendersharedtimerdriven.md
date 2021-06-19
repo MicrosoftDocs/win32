@@ -1,5 +1,5 @@
 ---
-description: This sample application uses the Core Audio APIs to render audio data to an output device specified by the user.
+description: This sample application, which demonstrates timer-driven buffering, uses the Core Audio APIs to render audio data to an output device specified by the user.
 ms.assetid: eae7d896-77ef-4340-bd77-1f3333166987
 title: RenderSharedTimerDriven
 ms.topic: article

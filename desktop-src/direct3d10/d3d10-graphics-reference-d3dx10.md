@@ -1,5 +1,5 @@
 ---
-description: 'This section contains the following sections:'
+description: Find links to the interface, function, structure, and enumeration reference sections in Direct3D 10 Graphics.
 ms.assetid: 27bd0b8a-fece-4db1-a954-ff91c2a919e6
 title: D3DX Reference (Direct3D 10 Graphics)
 ms.topic: article

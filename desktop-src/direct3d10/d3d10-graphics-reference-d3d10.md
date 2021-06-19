@@ -1,5 +1,5 @@
 ---
-description: 'This section contains the following sections:'
+description: Find links to the core, resource, shader, effect, and return code reference sections in Direct3D 10 Graphics.
 ms.assetid: fc96a980-83a0-406f-adfa-c82e3851a0a8
 title: Direct3D Reference (Direct3D 10 Graphics)
 ms.topic: article
