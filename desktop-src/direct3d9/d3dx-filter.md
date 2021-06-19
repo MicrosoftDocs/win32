@@ -1,5 +1,5 @@
 ---
-description: The following flags are used to specify which channels in a texture to operate on.
+description: Learn about the D3DX_FILTER flags that are used to specify which channels in a texture to operate on, such as D3DX_FILTER_TRIANGLE.
 ms.assetid: 0317b857-2512-4ad7-b6e3-82afdda7ea10
 title: D3DX_FILTER
 ms.topic: article
