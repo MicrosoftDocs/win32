@@ -48,9 +48,9 @@ This group of state (see [**D3D10\_SAMPLER\_DESC**](/windows/desktop/api/D3D10/n
 
 
 
-|                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> In Direct3D 10, the sampler object is no longer bound to a specific texture - it just describes how to do filtering given any attached resource. |
+Differences between Direct3D 9 and Direct3D 10:
+
+- In Direct3D 10, the sampler object is no longer bound to a specific texture, it just describes how to do filtering given any attached resource.
 
 
 

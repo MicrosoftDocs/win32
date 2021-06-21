@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: The Print Schema addresses opaqueness and ambiguity in communication between components of the print subsystem and between print subsystem and applications.
 ms.assetid: 193dd600-7cbb-4f4e-bb7d-7f7117e9d16a
 title: Print Schema Background
 ms.topic: article

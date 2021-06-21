@@ -1,5 +1,5 @@
 ---
-description: Defines the data needed to call a device dialog.
+description: DEVICEDIALOGDATA structure - Defines the data needed to call a device dialog.
 ms.assetid: 424defa6-1452-4a8b-bacc-738209c236c3
 title: DEVICEDIALOGDATA structure (Wiadefd.h)
 ms.topic: reference

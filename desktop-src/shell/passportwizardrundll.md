@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Netplwiz.dll
 ms.assetid: 015c3875-698e-4d80-bbfc-4fc8a71197b7
-api_name: 
- - PassportWizardRunDll
-api_type: 
- - DllExport
-api_location: 
- - Netplwiz.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

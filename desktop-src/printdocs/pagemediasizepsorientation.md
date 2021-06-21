@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageMediaSizePSOrientation parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: b091c250-66f2-47cc-a012-1526c0ed02c9
 title: PageMediaSizePSOrientation
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the orientation relative to the feed-orientation direction (Reference 
 
 
 
-| Name                       |                                                             |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                     |
 | Scoping Prefix <br/> | Page<br/>                                             |

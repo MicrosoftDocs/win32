@@ -1,5 +1,5 @@
 ---
-description: Occurs when the cursor tip contacts the digitizing tablet surface.
+description: InkOverlay.CursorDown event - Occurs when the cursor tip contacts the digitizing tablet surface.
 ms.assetid: 753aa733-8d62-4983-b76d-d58844b79c35
 title: InkOverlay.CursorDown event (Msinkaut.h)
 ms.topic: reference

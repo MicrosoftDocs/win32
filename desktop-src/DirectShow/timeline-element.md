@@ -32,7 +32,7 @@ The `timeline` element defines the timeline. This element is the root node in th
 
 
 
-|          |                                                       |
+| Label | Value |
 |----------|-------------------------------------------------------|
 | Parent   | None. This element must be the root node in the file. |
 | Children | [**group**](group-element.md)                        |

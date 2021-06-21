@@ -1,5 +1,5 @@
 ---
-description: The GetIDsOfNames method maps a set of names to a corresponding set of DISPIDs.
+description: CMediaPosition.GetIDsOfNames method - The GetIDsOfNames method maps a set of names to a corresponding set of DISPIDs.
 ms.assetid: 4d3780ff-905f-4166-86d4-32395090b5cb
 title: CMediaPosition.GetIDsOfNames method (Ctlutil.h)
 ms.topic: reference

@@ -85,7 +85,7 @@ ms.date: 05/31/2018
 ## Transform
 
 -   [2D affine transform effect](2d-affine-transform.md) - CLSID\_D2D12DAffineTransform
--   [3D transform effect](3d-perspective-transform.md) - CLSID\_D2D13DTransform
+-   [3D transform effect](3d-transform.md) - CLSID\_D2D13DTransform
 -   [3D perspective transform effect](3d-perspective-transform.md) - CLSID\_D2D13DPerspectiveTransform
 -   [Border effect](border.md) - CLSID\_D2D1Border
 -   [Crop effect](crop.md) - CLSID\_D2D1Crop

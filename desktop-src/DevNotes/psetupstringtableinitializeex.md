@@ -1,5 +1,5 @@
 ---
-description: Initializes a string table.
+description: pSetupStringTableInitializeEx function - Initializes a string table.
 ms.assetid: 184df85a-6d59-42c5-8ec1-f0c046091645
 title: pSetupStringTableInitializeEx function
 ms.topic: reference

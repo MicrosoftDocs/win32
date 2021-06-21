@@ -16,7 +16,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                 |
+|     Component          | Description                     |
 |------------------------|---------------------------------|
 | Formal Name(s)         | Portable Network Graphics (PNG) |
 | File Name Extension(s) | png                             |

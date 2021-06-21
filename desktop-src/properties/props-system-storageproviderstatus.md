@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.StorageProviderStatus
 ms.assetid: 2da04c74-c657-49da-b1bb-098bdcf6e974
 title: System.StorageProviderStatus
 ms.topic: article

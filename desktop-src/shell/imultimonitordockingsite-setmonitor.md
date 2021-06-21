@@ -12,14 +12,6 @@ api_type:
 - COM
 api_location: 
 ms.assetid: ba4ace13-7096-4f05-bcb0-ab37f1632406
-api_name: 
- - IMultiMonitorDockingSite.SetMonitor
-api_type: 
- - COM
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

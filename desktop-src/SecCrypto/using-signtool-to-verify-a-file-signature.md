@@ -24,7 +24,7 @@ The following command verifies a system file that may be signed in a catalog:
 
 The following command verifies a system file that is signed in a catalog named *MyCat.cat*:
 
-**SignTool verify /c** *MyCat.catMyFile.ini*
+**SignTool verify /c** *MyCat.cat* *MyFile.ini*
 
 For any [SignTool](signtool.md) verification, you can retrieve the signer of the certificate. The following command verifies a system file and displays the signer certificate:
 

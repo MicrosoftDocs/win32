@@ -30,7 +30,7 @@ Vertex shader caps constants. These constants are used by the VS20Caps member of
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

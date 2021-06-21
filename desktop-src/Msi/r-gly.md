@@ -1,5 +1,5 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Learn about Windows Installer concepts that begin with the letter R, such as reduced UI and resiliency.
 ms.assetid: 868cb5b7-d5ab-41c7-a6d4-d7964a8ff6de
 title: R (Windows Installer)
 ms.topic: article

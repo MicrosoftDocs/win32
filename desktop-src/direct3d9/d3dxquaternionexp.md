@@ -1,5 +1,5 @@
 ---
-description: Calculates the exponential.
+description: D3DXQuaternionExp function (D3dx9math.h) - Calculates the exponential.
 ms.assetid: 648aeaf1-ead3-4b21-819f-cd2a70881a13
 title: D3DXQuaternionExp function (D3dx9math.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Link.FeedItemLocalId
 ms.assetid: abfe0b70-1890-4b42-a0b3-83a14462510e
 title: System.Link.FeedItemLocalId
 ms.topic: article

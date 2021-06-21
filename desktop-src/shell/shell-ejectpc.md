@@ -1,5 +1,5 @@
 ---
-description: Ejects the computer from its docking station. This is the same as clicking the Start menu and selecting Eject PC, if your computer supports this command.
+description: Shell.EjectPC method - Ejects the computer from its docking station. This is the same as clicking the Start menu and selecting Eject PC, if your computer supports this command.
 ms.assetid: eaba3dce-8fea-453f-90c2-4a9b5cb05ecc
 title: Shell.EjectPC method (Shldisp.h)
 ms.topic: reference

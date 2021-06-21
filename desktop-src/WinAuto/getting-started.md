@@ -14,7 +14,7 @@ This documentation is organized to meet the needs of developers new to, as well 
 
 
 
-|                                                        |                                                                                                                                                                   |
+|  Section                                                      |  Description                                                                                                                                                                 |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Technical Overview](technical-overview.md)           | Overview of Microsoft Active Accessibility and general guidelines for Microsoft Active Accessibility client and server developers.                                |
 | [C/C++ Developer's Guide](c-c---developer-s-guide.md) | In-depth information about the key Microsoft Active Accessibility application API elements and concepts. Uses terms and examples familiar to C or C++ developers. |

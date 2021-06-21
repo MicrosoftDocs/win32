@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageWatermarkTextColor parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: edbdd2c7-da04-49fb-a0f8-31a7df88f8ef
 title: PageWatermarkTextColor
 ms.topic: article
@@ -19,7 +19,7 @@ Defines the sRGB color for the watermark text. Format is ARGB: \#AARRGGBB.
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Page<br/>                            |

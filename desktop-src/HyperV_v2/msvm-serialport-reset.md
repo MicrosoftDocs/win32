@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_SerialPort class - Requests a reset.
 ms.assetid: 4f22c81e-323a-45ad-b81f-9fb3980e91f9
 title: Reset method of the Msvm_SerialPort class
 ms.topic: reference

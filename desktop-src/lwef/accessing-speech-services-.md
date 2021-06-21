@@ -1,6 +1,6 @@
 ---
 title: Accessing Speech Services (Microsoft Agent Control)
-description: Accessing Speech Services
+description: Learn about accessing speech services with Microsoft Agent Control. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: c6c10f2a-a433-4a8e-a069-48e3c2032fb8
 ms.topic: article
 ms.date: 05/31/2018

@@ -53,7 +53,7 @@ Contains a set of elements—[**Paragraph**](paragraph-element.md), [**InkWord**
 
 
 
-|              |                                                                 |
+|  Element     | Value                                                     |
 |--------------|-----------------------------------------------------------------|
 | Element type | [**GroupNodeType**](groupnodetype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                      |

@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_S3DisplayController class - Requests a reset.
 ms.assetid: bd28a4be-7dec-4520-a917-3fcbb566b1d8
 title: Reset method of the Msvm_S3DisplayController class
 ms.topic: reference

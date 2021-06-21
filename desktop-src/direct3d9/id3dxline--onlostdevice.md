@@ -1,5 +1,5 @@
 ---
-description: Use this method to release all references to video memory resources and delete all stateblocks. This method should be called whenever a device is lost, or before resetting a device.
+description: ID3DXLine::OnLostDevice method - Use this method to release all references to video memory resources and delete all stateblocks. This method should be called whenever a device is lost, or before resetting a device.
 ms.assetid: a5c82a58-10f9-44bd-a42f-555867b2c857
 title: ID3DXLine::OnLostDevice method (D3dx9core.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: .
+description: Internet Explorer 8 Compatibility Wizard (Aggiorno)
 ms.assetid: E8287262-16CB-43F4-AFFC-BEE37EF881E8
 title: IE 8 Compatibility Wizard
 ms.topic: article

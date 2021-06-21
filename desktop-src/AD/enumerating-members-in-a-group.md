@@ -1,6 +1,6 @@
 ---
 title: Enumerating Members in a Group
-description: The members of a group are stored in a multi-value attribute called member.
+description: Learn about enumerating members in an Azure Active Directory group. The members of a group are stored in a multi-value attribute called member.
 ms.assetid: 28cafdbe-e599-4b1d-a384-264f41d81c79
 ms.tgt_platform: multiple
 keywords:

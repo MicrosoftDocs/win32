@@ -1,5 +1,5 @@
 ---
-description: Allows the callback object to specify a help text string.
+description: DFM_GETHELPTEXT message - Allows the callback object to specify a help text string.
 title: DFM_GETHELPTEXT message (Shlobj.h)
 ms.topic: reference
 ms.date: 05/31/2018

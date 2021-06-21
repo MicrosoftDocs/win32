@@ -1,6 +1,6 @@
 ---
 title: Working with Strings
-description: .
+description: Working with Strings
 ms.assetid: 876ff8bb-67c3-4dcc-aa94-7fbd915c67dc
 ms.topic: article
 ms.date: 05/31/2018

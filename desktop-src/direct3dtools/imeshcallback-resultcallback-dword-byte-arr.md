@@ -1,5 +1,5 @@
 ---
-description: Not used.
+description: <span id="vspixengine.imeshcallback_resultcallback_dword_byte_arr"></span>IMeshCallback::ResultCallback method - Not used.
 MS-HAID: vspixengine.IMeshCallback\_ResultCallback\_DWORD\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN

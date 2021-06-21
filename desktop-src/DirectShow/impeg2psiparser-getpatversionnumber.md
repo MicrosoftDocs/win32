@@ -1,5 +1,5 @@
 ---
-description: The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
+description: IMpeg2PsiParser::GetPatVersionNumber method - The implementation of this method is provided as sample code with the DirectShow SDK. It is not a supported DirectShow API.
 ms.assetid: 2f5ad9bf-3d70-491a-ab45-15cd922a02d4
 title: IMpeg2PsiParser::GetPatVersionNumber method
 ms.topic: reference

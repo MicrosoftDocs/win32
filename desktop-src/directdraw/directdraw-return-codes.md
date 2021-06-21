@@ -1,6 +1,6 @@
 ---
 title: DirectDraw Return Codes (Ddraw.h)
-description: Errors are represented by negative values and cannot be combined.
+description: DirectDraw Return Codes - Errors are represented by negative values and cannot be combined.
 ms.assetid: F713193E-3614-4741-B293-D312C170270A
 topic_type:
 - apiref

@@ -1,6 +1,6 @@
 ---
 title: Relative Addressing (HLSL VS reference)
-description: The \ \ syntax can be used only in register types that can be relatively addressed in certain shader models.
+description: For vertex shaders, the \ \ syntax can be used only in register types that can be relatively addressed in certain shader models.
 ms.assetid: 9f9d2499-73a5-4c9d-9dce-94c914933334
 ms.topic: article
 ms.date: 05/31/2018

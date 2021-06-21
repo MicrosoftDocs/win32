@@ -1,5 +1,5 @@
 ---
-description: The CertificateStatus object exposes the following properties.
+description: CertificateStatus Properties - The CertificateStatus object exposes the following properties.
 ms.assetid: 1E4AAC43-217A-4190-8FD8-3EA6676E96F3
 title: CertificateStatus Properties
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Retrieves the error objects for the job, if any exist.
+description: Msvm_CopyFileToGuestJob::GetErrorEx method - Retrieves the error objects for the job, if any exist.
 ms.assetid: 817AF83B-B601-4AE4-AB5B-CFEACB9A7F41
 title: Msvm_CopyFileToGuestJob::GetErrorEx method
 ms.topic: reference

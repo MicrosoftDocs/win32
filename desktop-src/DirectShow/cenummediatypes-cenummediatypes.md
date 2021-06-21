@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CEnumMediaTypes.CEnumMediaTypes constructor - Constructor method.
 ms.assetid: fae2e05c-3f7b-4511-9b9d-5a37ea03f851
 title: CEnumMediaTypes.CEnumMediaTypes constructor (Amfilter.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: The inputlocale and keywordlocale identifiers help the search engine use the correct word breakers by identifying the language of user-entered queries and the language the of Advanced Query Syntax keywords.
+description: Understand the inputlocale and keywordlocale arguments in Windows Search, which helps the search engine use the correct word breakers.
 ms.assetid: dc610f49-5106-47f9-b29b-84949dd2c42b
 title: Locale Identifier Arguments (Windows Search)
 ms.topic: article

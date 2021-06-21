@@ -36,9 +36,8 @@ Even descriptor tables have options where an app can allow the implementation to
 
 
 
-|                   |                                    |                                        |
+|                   | Shader visible, CPU write only                                   | Non-shader visible, CPU read/write                                       |
 |-------------------|------------------------------------|----------------------------------------|
-|                   | **shader visible, CPU write only** | **non-shader visible, CPU read/write** |
 | **CBV, SRV, UAV** | yes                                | yes                                    |
 | **SAMPLER**       | yes                                | yes                                    |
 | **RTV**           | no                                 | yes                                    |

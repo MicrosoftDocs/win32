@@ -1,6 +1,6 @@
 ---
 title: Supporting WPD device-side content (ContextMenu)
-description: Supporting Device-Side Content
+description: Learn how to use the Windows Shell API or the WPD API to get data for WPD device objects, which is not accessible through the file system in Windows Vista.
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 ms.topic: article
 ms.date: 05/31/2018

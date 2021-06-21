@@ -46,7 +46,7 @@ api_name:
 Retrieves the pixel data from a bitmap render target.
 
 > [!IMPORTANT]
-> This API is available as part of the DWriteCore implementation of [DirectWrite](../direct-write-portal.md). DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform. For more info, and code examples, see [DWriteCore overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview).
+> This API is available as part of the DWriteCore implementation of [DirectWrite](../direct-write-portal.md). DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform. For more info, and code examples, see [DWriteCore overview](../dwritecore-overview.md).
 
 ## Syntax
 
@@ -72,12 +72,12 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## Examples
 
-See the [DWriteCore overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
+See the [DWriteCore overview](../dwritecore-overview.md) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.
 
 ## Requirements
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Minimum supported client** | Windows 10, Project Reunion 0.1 Prerelease [Win32 apps] |
+| **Minimum supported client** | Windows 10, Project Reunion [Win32 apps] |
 | **Header** | dwrite_3.h (include dwrite_core.h) |
 | **Library** | Dwrite.lib |
 | **DLL** | Dwrite.dll |

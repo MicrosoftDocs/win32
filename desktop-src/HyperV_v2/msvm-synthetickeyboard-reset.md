@@ -1,5 +1,5 @@
 ---
-description: Resets the virtual keyboard.
+description: Reset method of the Msvm_SyntheticKeyboard class - Resets the virtual keyboard.
 ms.assetid: 2a943dd8-3b94-4b20-8786-7f9d8b0aeaa6
 title: Reset method of the Msvm_SyntheticKeyboard class
 ms.topic: reference

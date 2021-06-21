@@ -1,5 +1,5 @@
 ---
-description: The CheckMediaType method determines if the pin accepts a specific media type.
+description: CTransformOutputPin.CheckMediaType method - The CheckMediaType method determines if the pin accepts a specific media type.
 ms.assetid: 9e31480b-129c-4741-846a-854c70c65606
 title: CTransformOutputPin.CheckMediaType method (Transfrm.h)
 ms.topic: reference

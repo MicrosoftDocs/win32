@@ -1,5 +1,5 @@
 ---
-description: .
+description: Protected Mode
 ms.assetid: 88810916-A85E-4EC7-A6AE-1CA2A2205DBC
 title: Protected Mode
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Admin Interfaces in Active Directory Domain Services
-description: This category of interfaces includes the following.
+description: Get links to admin interfaces in Active Directory Domain Services, such as IDsAdminCreateObj and IDsAdminNewObj.
 ms.assetid: 9b9bcbe5-bad9-49ae-8c8f-f6c09542edbe
 ms.tgt_platform: multiple
 ms.topic: article

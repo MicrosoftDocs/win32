@@ -1,5 +1,5 @@
 ---
-description: Builds a right-handed, look-at matrix.
+description: D3DXMatrixLookAtRH function (D3DX10Math.h) - Builds a right-handed, look-at matrix.
 ms.assetid: 98c8932f-f179-42ed-a361-a89065b71876
 title: D3DXMatrixLookAtRH function (D3DX10Math.h)
 ms.topic: reference

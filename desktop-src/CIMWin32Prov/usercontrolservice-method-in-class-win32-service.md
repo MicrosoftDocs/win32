@@ -1,5 +1,5 @@
 ---
-description: Attempts to send a user-defined control code to the referenced service.
+description: UserControlService method of the Win32_Service class (CIMWin32 WMI Providers) - Attempts to send a user-defined control code to the referenced service.
 ms.assetid: a7132c9b-6faf-4182-a5b8-3f2334c1a74b
 ms.tgt_platform: multiple
 title: UserControlService method of the Win32_Service class (CIMWin32 WMI Providers)

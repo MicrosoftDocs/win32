@@ -1,5 +1,5 @@
 ---
-description: The crumb argument supports full Advanced Query Syntax (AQS) statements and is especially useful as a means of controlling the scope of a search.
+description: Understand how to use the CRUMB argument in the Windows Shell UI as a means of controlling the scope of a search.
 title: CRUMB Argument (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
@@ -182,9 +182,9 @@ The following table lists the CSIDL values. Refer to [**ShellSpecialFolderConsta
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Minimum Operating System | Windows Vista with Service Pack 1 (SP1) |
+|                              | Value                                   |
+|------------------------------|-----------------------------------------|
+| **Minimum Operating System** | Windows Vista with Service Pack 1 (SP1) |
 
 
 

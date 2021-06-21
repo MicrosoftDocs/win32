@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: b8fb4ce8-d284-4558-82a4-488d4d833bcb
-api_name: 
- - FMEVENT_USER_REFRESH
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

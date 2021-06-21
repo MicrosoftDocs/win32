@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CSeekingPassThru.CSeekingPassThru constructor - Constructor method.
 ms.assetid: e31253fc-b365-4414-9dee-906d4c41d16e
 title: CSeekingPassThru.CSeekingPassThru constructor (Seekpt.h)
 ms.topic: reference

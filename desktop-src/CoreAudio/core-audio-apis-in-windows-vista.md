@@ -10,7 +10,7 @@ ms.custom: project-verbatim
 # Core Audio APIs
 
 > [!NOTE]
-> For code examples, see [SDK samples that use the core audio APIs](/windows/win32/coreaudio/sdk-samples-that-use-the-core-audio-apis).
+> For code examples, see [SDK samples that use the core audio APIs](./sdk-samples-that-use-the-core-audio-apis.md).
 
 This documentation provides information about core audio application programming interfaces (APIs) for the Microsoft Windows family of operating systems. It provides guidelines for software developers to follow in developing applications that use the core audio APIs in Windows Vista. These APIs were new in Windows Vista and are not available in earlier versions of Windows.
 
@@ -30,4 +30,4 @@ This documentation includes the following sections.
 
 [Media Technologies for Windows](/previous-versions/bg125389(v=msdn.10))
 
-[SDK samples that use the core audio APIs](/windows/win32/coreaudio/sdk-samples-that-use-the-core-audio-apis)
+[SDK samples that use the core audio APIs](./sdk-samples-that-use-the-core-audio-apis.md)

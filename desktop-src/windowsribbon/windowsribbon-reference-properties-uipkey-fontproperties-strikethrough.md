@@ -36,7 +36,7 @@ The following table describes the properties and the UI result.
 
 
 
-|                                  |                                                                              |
+|   Property                       |    UI Result                                                                 |
 |----------------------------------|------------------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | **Strikethrough** button is disabled and can only be set by the application. |
 | `UI_FONTPROPERTIES_NOTSET`       | **Strikethrough** button is not selected.                                    |

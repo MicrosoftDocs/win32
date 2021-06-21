@@ -1,5 +1,5 @@
 ---
-description: .
+description: Creating DXVA-HD Video Surfaces
 ms.assetid: a4508a1e-d68b-4c55-bce4-c8b462134fa1
 title: Creating DXVA-HD Video Surfaces
 ms.topic: article

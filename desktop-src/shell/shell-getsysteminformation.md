@@ -1,5 +1,5 @@
 ---
-description: Retrieves system information.
+description: Shell.GetSystemInformation method - Retrieves system information.
 ms.assetid: 94C10DD6-FE49-4dd4-AEED-69B73A75EDEF
 title: Shell.GetSystemInformation method (Shldisp.h)
 ms.topic: reference

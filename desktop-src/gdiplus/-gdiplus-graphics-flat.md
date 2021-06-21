@@ -1,5 +1,5 @@
 ---
-description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
+description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the Graphics C++ class.
 ms.assetid: 0d10b3cc-6d1d-4e14-80c9-fd3b8b3880d7
 title: Graphics Functions
 ms.topic: article

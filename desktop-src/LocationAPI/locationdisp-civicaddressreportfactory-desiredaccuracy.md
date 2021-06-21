@@ -1,5 +1,5 @@
 ---
-description: The current desired-accuracy value.
+description: LocationDisp.CivicAddressReportFactory.DesiredAccuracy property - The current desired-accuracy value.
 ms.assetid: 296164cf-a8ed-4277-bb4c-83ac09e63291
 title: LocationDisp.CivicAddressReportFactory.DesiredAccuracy property
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Besides PrintCapabilities, the PrintTicket allows additional information to be added by clients in the form of Property elements.
 ms.assetid: 00f1d2c4-3c71-4b64-b689-83b4399aa61d
 title: Configuration Information Not Related to PrintCapabilities
 ms.topic: article

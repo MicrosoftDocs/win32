@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 7eee1be7-8ad5-4796-910c-987fe3fd6338
-api_name: 
- - DIDiskQuotaUser.QuotaLimit
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

@@ -30,7 +30,7 @@ There are various functions in the graphics device interface (GDI) that use or o
 
 
 
-|                    |                                                                                                                                                                                                                                 |
+|    Function                |   Description                                                                                                                                                                                                                              |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CreateCompatibleDC | If the device context (DC) that is passed to this function through its hdc parameter is enabled for ICM, then the DC the function creates is also ICM-enabled. The source and destination color spaces are specified in the DC. |
 | CreateDC           | ICM can be enabled by setting the dmICMMethod member of the DEVMODE structure pointed to by the pInitData parameter to the appropriate value. For details, see the documentation in the Platform SDK on the DEVMODE structure.  |
@@ -44,7 +44,7 @@ There are various functions in the graphics device interface (GDI) that use or o
 
 
 
-|                 |                                                                                                                                               |
+|    Function                |   Description                                                                                                                                                                                                                              |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Brush Functions | No color management is done at brush creation. However, color management will be performed when the brush is selected into an ICM-enabled DC. |
 | CreatePen       | No color management is done at pen creation. However, color management will be performed when the brush is selected into an ICM-enabled DC.   |
@@ -61,7 +61,7 @@ There are various functions in the graphics device interface (GDI) that use or o
 
 
 
-|              |                                                  |
+|    Function                |   Description                                                                                                                                                                                                                              |
 |--------------|--------------------------------------------------|
 | SetBkColor   | Color management is performed if WCS is enabled. |
 | SetTextColor | Color management is performed if WCS is enabled. |
@@ -74,7 +74,7 @@ There are various functions in the graphics device interface (GDI) that use or o
 
 
 
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|    Function                |   Description                                                                                                                                                                                                                              |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | BitBlt            | No color management is performed when blits occur.                                                                                                                                                                                                                                                                                                                                                                                             |
 | CreateDIBitmap    | The fuUsage parameter specifies that the bmiColors member of the BITMAPINFO structure pointed at by the lpbmi parameter does or does not contain color information. If it does not, no color management is performed for this bitmap. The bitmap must use version 4 or version 5 of the BITMAPINFO structure for color management to be enabled. The contents of the resulting bitmap are not color matched after the bitmap has been created. |

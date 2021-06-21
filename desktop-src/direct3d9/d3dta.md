@@ -26,9 +26,8 @@ You can combine an argument flag with a modifier, but two argument flags cannot 
 
 
 
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DTA\_CONSTANT   | Select a constant from a texture stage. The default value is 0xffffffff.                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | D3DTA\_CURRENT    | The texture argument is the result of the previous blending stage. In the first texture stage (stage 0), this argument is equivalent to D3DTA\_DIFFUSE. If the previous blending stage uses a bump-map texture (the D3DTOP\_BUMPENVMAP operation), the system chooses the texture from the stage before the bump-map texture. If s represents the current texture stage and s - 1 contains a bump-map texture, this argument becomes the result output by texture stage s - 2. Permissions are read/write. |
 | D3DTA\_DIFFUSE    | The texture argument is the diffuse color interpolated from vertex components during Gouraud shading. If the vertex does not contain a diffuse color, the default color is 0xffffffff. Permissions are read-only.                                                                                                                                                                                                                                                                                          |
@@ -48,9 +47,8 @@ An argument flag may be combined with one of the following modifier flags.
 
 
 
-|                       |                                                                                                                |
-|-----------------------|----------------------------------------------------------------------------------------------------------------|
 | \#define              | Description                                                                                                    |
+|-----------------------|----------------------------------------------------------------------------------------------------------------|
 | D3DTA\_ALPHAREPLICATE | Replicate the alpha information to all color channels before the operation completes. This is a read modifier. |
 | D3DTA\_COMPLEMENT     | Take the complement of the argument x, (1.0 - x). This is a read modifier.                                     |
 
@@ -62,7 +60,7 @@ An argument flag may be combined with one of the following modifier flags.
 
 
 
-|                          |             |
+|   Requirement                       |  Value           |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

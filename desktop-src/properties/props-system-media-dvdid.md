@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Media.DVDID
 ms.assetid: 2de30c3a-f982-4a65-bb25-a76b99d9ee13
 title: System.Media.DVDID
 ms.topic: article

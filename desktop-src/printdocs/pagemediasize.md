@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageMediaSize user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 6f99f54b-c401-42ea-8715-95a2aad73042
 title: PageMediaSize
 ms.topic: article
@@ -22,18 +22,11 @@ The following diagram illustrates the PageMediaSize variable usage (option ISOA4
 
 ## Element Information
 
-
-
-|                            |                    |
-|----------------------------|--------------------|
-| Name                       |                    |
+| Name                 | Value        |
+|----------------------|--------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |
 | Notes <br/>          | None<br/>    |
-
-
-
- 
 
 ## Structural Content
 

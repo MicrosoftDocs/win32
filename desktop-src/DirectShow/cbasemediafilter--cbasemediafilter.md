@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CBaseMediaFilter.~CBaseMediaFilter destructor - Destructor method.
 ms.assetid: f6e272c3-bb6c-4730-aa2b-a94bc5971db6
 title: CBaseMediaFilter.~CBaseMediaFilter destructor (Amfilter.h)
 ms.topic: reference

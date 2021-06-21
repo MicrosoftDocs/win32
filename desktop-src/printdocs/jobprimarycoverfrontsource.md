@@ -19,7 +19,7 @@ Specifies the source for a custom front-cover primary sheet for the job.
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Job<br/>                             |

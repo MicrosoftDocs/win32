@@ -43,7 +43,7 @@ None.
 
 
 
-|              |                                                                 |
+|   Element    | Value                                                           |
 |--------------|-----------------------------------------------------------------|
 | Element type | [**TitleAreaType**](titleareatype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink                      |

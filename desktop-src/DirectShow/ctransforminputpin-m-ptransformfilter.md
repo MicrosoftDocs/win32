@@ -1,5 +1,5 @@
 ---
-description: Pointer to the owning filter.
+description: CTransformInputPin::m_pTransformFilter member - Pointer to the owning filter.
 ms.assetid: 209b1d64-27ae-4f40-83a1-5485a470aef9
 title: CTransformInputPin::m_pTransformFilter member (Transfrm.h)
 ms.topic: reference

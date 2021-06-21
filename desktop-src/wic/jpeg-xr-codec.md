@@ -32,7 +32,7 @@ Substantial performance improvements, in relation to the HD Photo codec, have be
 
 
 
-|                     |                                                                         |
+|      Component      |    Description                                                          |
 |---------------------|-------------------------------------------------------------------------|
 | File name extension | "jxr" and "wdp"                                                         |
 | Container GUID      | **GUID\_ContainerFormatWmp**                                            |

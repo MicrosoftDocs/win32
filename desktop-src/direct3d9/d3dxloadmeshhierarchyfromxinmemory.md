@@ -1,5 +1,5 @@
 ---
-description: Loads the first frame hierarchy from a .x file.
+description: D3DXLoadMeshHierarchyFromXInMemory function - Loads the first frame hierarchy from a .x file.
 ms.assetid: 428e5cfb-d6a5-4a7f-b082-2d8898e65490
 title: D3DXLoadMeshHierarchyFromXInMemory function (D3dx9anim.h)
 ms.topic: reference

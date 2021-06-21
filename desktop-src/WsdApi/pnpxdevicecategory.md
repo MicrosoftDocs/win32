@@ -46,7 +46,7 @@ If a **PnPXDeviceCategory** element is present, then at least one [**hosted**](h
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

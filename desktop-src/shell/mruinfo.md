@@ -14,16 +14,6 @@ api_type:
 - NA
 api_location: 
 ms.assetid: 31d5831d-9a19-4bd9-8439-ce844966c414
-api_name: 
- - _MRUINFO
- - MRUINFOA
- - MRUINFOW
-api_type: 
- - NA
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

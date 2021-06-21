@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the DocumentPageRanges element, which describes the output range of the document in pages.
 ms.assetid: 4cd1b0f8-7f7e-40cc-8d19-d44187822cd1
 title: DocumentPageRanges
 ms.topic: article
@@ -27,7 +27,7 @@ Whitespace in the string should be ignored.
 
 
 
-| Name                       |                         |
+| Name | Value |
 |----------------------------|-------------------------|
 | Element Type <br/>   | ParameterDef<br/> |
 | Scoping Prefix <br/> | Document<br/>     |

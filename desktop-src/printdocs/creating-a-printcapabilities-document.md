@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: After a PrintTicket is validated, it can be used to create a snapshot of the PrintCapabilities.
 ms.assetid: b49e20b7-bd9e-4b8f-bb4a-bb1e99b0c417
 title: Creating a PrintCapabilities Document
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: The GetTypeInfo method retrieves the type information for the object, which can then be used to get the type information for an interface.
+description: CBaseDispatch.GetTypeInfo method - The GetTypeInfo method retrieves the type information for the object, which can then be used to get the type information for an interface.
 ms.assetid: aa06b97c-541b-44fc-bdef-97fd1f014e85
 title: CBaseDispatch.GetTypeInfo method (Ctlutil.h)
 ms.topic: reference

@@ -80,17 +80,15 @@ The member of [**D3D12\_SHADER\_VISIBILITY**](/windows/desktop/api/d3d12/ne-d3d1
 
 One use of shader visibility is to help with shaders that are authored expecting different bindings per shader stage using an overlapping namespace. For example, a vertex shader may declare:
 
- 
-
-Texture2D foo : register(t0);"
-
- 
+```hlsl
+Texture2D foo : register(t0);
+```
 
 and the pixel shader may also declare:
 
- 
-
+```hlsl
 Texture2D bar : register(t0);
+```
 
 If the application makes a root signature binding to t0 VISIBILITY\_ALL, both shaders see the same texture. If the shader defines actually wants each shader to see different textures, it can define 2 root signature slots with VISIBILITY\_VERTEX and \_PIXEL. No matter what the visibility is on a root signature slot, it always has the same cost (cost only depending on what the SlotType is) towards one fixed maximum root signature size.
 
@@ -134,9 +132,8 @@ The example below shows how to create a root signature with the following format
 
 
 
-|                        |                                                |                                              |
-|------------------------|------------------------------------------------|----------------------------------------------|
-| **RootParameterIndex** | **Contents**                                   |                                              |
+| RootParameterIndex                       | Contents                                               | Values                                             |
+|------------------------|------------------------------------------------|----------------------------------------------|                                              
 | \[0\]                  | Root constants: { b2 }                         | (1 CBV)                                      |
 | \[1\]                  | Descriptor table: { t2-t7, u0-u3 }             | (6 SRVs + 4 UAVs)                            |
 | \[2\]                  | Root CBV: { b0 }                               | (1 CBV, static data)                         |
@@ -203,7 +200,7 @@ CreatePipelineStatesAhreadOfTime(pRootSignature); // The root signature is passe
 ...
 
 ID3D12DescriptorHeap* pHeaps[2] = {pCommonHeap, pSamplerHeap};
-pGraphicsCommandList->SetDescriptorHeaps(pHeaps,2);
+pGraphicsCommandList->SetDescriptorHeaps(2,pHeaps);
 pGraphicsCommandList->SetGraphicsRootSignature(pRootSignature);
 pGraphicsCommandList->SetGraphicsRootDescriptorTable(
                         6,heapOffsetForMoreData,DescRange[5].NumDescriptors);

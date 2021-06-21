@@ -20,7 +20,7 @@ Describes the full list of supported bins for the device. Allows specification o
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

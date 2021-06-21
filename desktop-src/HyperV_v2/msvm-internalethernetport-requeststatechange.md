@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_InternalEthernetPort class - Requests a state change.
 ms.assetid: 34f226a2-392b-4b3c-898e-308af52b71a2
 title: RequestStateChange method of the Msvm_InternalEthernetPort class
 ms.topic: reference

@@ -45,7 +45,7 @@ Possible values are 1 (fault parameters included) and 0 (fault parameters exclud
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

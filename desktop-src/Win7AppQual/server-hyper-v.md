@@ -1,5 +1,5 @@
 ---
-description: .
+description: Server Hyper-V
 ms.assetid: 6a31cca3-f47c-4663-b2e8-aad6b4a6f28f
 title: Server Hyper-V
 ms.topic: article

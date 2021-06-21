@@ -1,6 +1,6 @@
 ---
 title: Signed and Unsigned Types (RPC)
-description: Compilers that use different defaults for signed and unsigned types can cause software errors in your distributed application.
+description: Learn about signed and unsigned types in RPC. Compilers that use different defaults types can cause software errors in your distributed application.
 ms.assetid: 0464d465-84b7-49fc-968e-5efe037966c2
 ms.topic: article
 ms.date: 05/31/2018

@@ -12,9 +12,8 @@ These flags identify a surface to reset when calling [**Clear**](/windows/win32/
 
 
 
-|                   |                                                                                                                                             |
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define          | Description                                                                                                                                 |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DCLEAR\_STENCIL | Clear the stencil buffer.                                                                                                                   |
 | D3DCLEAR\_TARGET  | Clear a render target, or all targets in a multiple render target. See [Multiple Render Targets (Direct3D 9)](multiple-render-targets.md). |
 | D3DCLEAR\_ZBUFFER | Clear the depth buffer.                                                                                                                     |
@@ -27,7 +26,7 @@ These flags identify a surface to reset when calling [**Clear**](/windows/win32/
 
 
 
-|                          |             |
+| Requirement                         |  Value           |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

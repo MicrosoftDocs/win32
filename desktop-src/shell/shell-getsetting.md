@@ -1,5 +1,5 @@
 ---
-description: Retrieves a global Shell setting.
+description: Shell.GetSetting method - Retrieves a global Shell setting.
 ms.assetid: 3E8C7C6A-5696-4756-B4BF-902FA2420AE9
 title: Shell.GetSetting method (Shldisp.h)
 ms.topic: reference

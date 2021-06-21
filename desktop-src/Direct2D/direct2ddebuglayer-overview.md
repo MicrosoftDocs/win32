@@ -1,6 +1,6 @@
 ---
 title: Direct2D Debug Layer Overview
-description: .
+description: Direct2D Debug Layer Overview
 ms.assetid: 7c28e00b-ebb9-4b79-939c-64eade1351ad
 ms.topic: article
 ms.date: 05/31/2018

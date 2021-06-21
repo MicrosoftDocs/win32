@@ -10,11 +10,8 @@ ms.date: 05/31/2018
 
 ## SDK Version
 
-
-
-|                     |
+|  \#define                   |
 |---------------------|
-| \#define            |
 | D3D\_SDK\_VERSION   |
 | D3D9b\_SDK\_VERSION |
 
@@ -30,9 +27,8 @@ The following table lists constants that are used internally:
 
 
 
-|                                       |                                                   |                                                                    |
-|---------------------------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | \#define                              | Value                                             | Description                                                        |
+|---------------------------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | D3D\_MAX\_SIMULTANEOUS\_RENDERTARGETS | 4                                                 | The maximum number of rendertargets.                               |
 | D3DDMAPSAMPLER                        | 256                                               | The maximum number of displacement map samples.                    |
 | D3DDP\_MAXTEXCOORD                    | 8                                                 | The maximum number of texture coordinates.                         |
@@ -49,7 +45,7 @@ These \#defines are declared in d3d9types.h.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Minimum operating system | Windows 98 |
 

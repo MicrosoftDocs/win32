@@ -1,6 +1,6 @@
 ---
 title: MCM_SETUNICODEFORMAT message (Commctrl.h)
-description: Sets the Unicode character format flag for the control.
+description: MCM_SETUNICODEFORMAT message - Sets the Unicode character format flag for the control.
 ms.assetid: 250789b5-694b-4502-9cc0-3bc260ea06e7
 keywords:
 - MCM_SETUNICODEFORMAT message Windows Controls

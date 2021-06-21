@@ -1,5 +1,5 @@
 ---
-description: Computes a quaternion's axis and angle of rotation.
+description: D3DXQuaternionToAxisAngle function (D3DX10Math.h) - Computes a quaternion's axis and angle of rotation.
 ms.assetid: 1e81b88b-071d-46f1-b640-c70d063a14d1
 title: D3DXQuaternionToAxisAngle function (D3DX10Math.h)
 ms.topic: reference

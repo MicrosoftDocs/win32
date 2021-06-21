@@ -45,7 +45,7 @@ None.
 
 
 
-|              |                                                         |
+|  Element     | Value                                                     |
 |--------------|---------------------------------------------------------|
 | Element type | [**ImageType**](imagetype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink              |

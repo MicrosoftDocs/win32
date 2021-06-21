@@ -44,7 +44,7 @@ Valid values for this element are 1 (TRUE/stub function references included) and
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

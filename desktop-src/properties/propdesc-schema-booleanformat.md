@@ -1,5 +1,5 @@
 ---
-description: Specifies how IPropertyDescription::FormatForDisplay should format the property's value as a string. This is applicable only if <displayInfo displayType=&\#0034;String&\#0034;>.
+description: Specifies how IPropertyDescription::FormatForDisplay should format the booleanFormat property's value as a string.
 ms.assetid: f6384910-4411-4ac2-884d-3476c1b6ff96
 title: booleanFormat
 ms.topic: article

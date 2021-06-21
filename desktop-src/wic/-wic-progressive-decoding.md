@@ -77,7 +77,7 @@ PNG image files provide seven progressive levels for decoding, as described in t
 
 
 
-|     |     |     |     |     |     |     |     |
+|  &nbsp;  |  &nbsp;   |  &nbsp;   |  &nbsp;   |   &nbsp;  |  &nbsp;   |  &nbsp;   | &nbsp;    |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | 1   | 6   | 4   | 6   | 2   | 6   | 4   | 6   |
 | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   |

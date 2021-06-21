@@ -16,7 +16,7 @@ For MPEG-2 video, the media types are as follows.
 
 
 
-|                  |                                          |                                |
+| Label | Value |
 |------------------|------------------------------------------|--------------------------------|
 |                  | PES output                               | Payload output                 |
 | Major Type       | **MEDIATYPE\_MPEG2\_PES**                | **MEDIATYPE\_Video**           |
@@ -34,7 +34,7 @@ For AC-3 audio, the media types are as follows.
 
 
 
-|                  |                                      |                              |
+| Label | Value |
 |------------------|--------------------------------------|------------------------------|
 |                  | PES output                           | Payload output               |
 | Major Type       | MEDIATYPE\_MPEG2\_PES                | **MEDIATYPE\_Audio**         |
@@ -54,7 +54,7 @@ For MPEG-2 audio, the media types are as follows.
 
 
 
-|                  |                               |                                |
+| Label | Value |
 |------------------|-------------------------------|--------------------------------|
 |                  | PES output                    | Payload output                 |
 | Major Type       | **MEDIATYPE\_MPEG2\_PES**     | **MEDIATYPE\_Audio**           |
@@ -76,7 +76,7 @@ For LPCM audio, the media types are as follows.
 
 
 
-|                  |                                    |                                    |
+| Label | Value |
 |------------------|------------------------------------|------------------------------------|
 |                  | PES output                         | Payload output                     |
 | Major Type       | **MEDIATYPE\_MPEG2\_PES**          | **MEDIATYPE\_Audio**               |

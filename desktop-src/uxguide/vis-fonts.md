@@ -100,7 +100,7 @@ Text has several usage patterns:
 
 
 
-|                                                                                                                                                                                                                                                           |                                                                                                                                                       |
+|    Usage                                         |    Description                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Title bar text**<br/> Text on the title bar that identifies the window.<br/>                                                                                                                                                                | ![example of title-bar text font ](images/vis-fonts-image2.png)<br/>                                                                            |
 | **Main instructions**<br/> Text that explains what to do on a page, window, or dialog box. <br/>                                                                                                                                              | ![example of main-instructions text font ](images/vis-fonts-image3.png)<br/>                                                                    |
@@ -127,9 +127,8 @@ Text has several usage patterns:
 
 
 
-|                                                                                               |                             |                                                            |
+| Pattern | Theme symbol | Font, Color |
 |-----------------------------------------------------------------------------------------------|-----------------------------|------------------------------------------------------------|
-| **Pattern**<br/>                                                                        | **Theme symbol**<br/> | **Font, Color**<br/>                                 |
 | ![example of title-bar text font ](images/vis-fonts-image2.png)<br/>                    | CaptionFont<br/>      | 9 pt. black (\#000000) Segoe UI<br/>                 |
 | ![example of main-instructions text font ](images/vis-fonts-image3.png)<br/>            | MainInstruction<br/>  | 12 pt. blue (\#003399) Segoe UI<br/>                 |
 | ![example of secondary-instructions text font ](images/vis-fonts-image4.png)<br/>       | Instruction<br/>      | 9 pt. black (\#000000) Segoe UI<br/>                 |
@@ -152,9 +151,8 @@ Text has several usage patterns:
 
 
 
-|                                            |                                                       |                                                                                                                                                                                                                                                                                                                                                                  |
+| UI technology | Target Windows version | Fonts to use and optimize for |
 |--------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **UI technology**<br/>               | **Target Windows version**<br/>                 | **Fonts to use and optimize for**<br/>                                                                                                                                                                                                                                                                                                                     |
 | Windows Presentation Foundation<br/> | All<br/>                                        | Use WPF theme parts.<br/>                                                                                                                                                                                                                                                                                                                                  |
 | Win32 or WinForms<br/>               | Windows Vista or later<br/>                     | Use the appropriate Segoe UI font.<br/>                                                                                                                                                                                                                                                                                                                    |
 |                                            | Extensible components or pre-Windows Vista<br/> | To target Windows XP and Windows 2000, use the 8 point MS Shell Dlg 2 pseudo font, which maps to Tahoma.<br/> To target earlier versions of Windows, use 8 point MS Shell Dlg pseudo font, which maps to Tahoma on Windows 2000 and Windows XP, and to MS Sans Serif on Windows 95, Windows 98, Windows Millennium Edition, and Windows NT 4.0.<br/> |

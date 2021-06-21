@@ -1,5 +1,5 @@
 ---
-description: The CompleteConnect method completes a pin connection.
+description: CTransformFilter.CompleteConnect method - The CompleteConnect method completes a pin connection.
 ms.assetid: b687d2ee-4aee-4fae-bc2f-23ee037d0e6d
 title: CTransformFilter.CompleteConnect method (Transfrm.h)
 ms.topic: reference

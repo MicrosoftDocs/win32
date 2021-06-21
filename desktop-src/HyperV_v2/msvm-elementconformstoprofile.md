@@ -15,15 +15,6 @@ api_type:
 - DllExport
 api_location: 
 - vmms.exe
-topic_type: 
-- APIRef
-- kbSyntax
-api_name: 
-- Msvm_ElementConformsToProfile
-- Msvm_ElementConformsToProfile.ConformantStandard
-- Msvm_ElementConformsToProfile.ManagedElement
-api_type: 
-- DllExport
 api_location: 
 - vmms.exe
 ---

@@ -1,5 +1,5 @@
 ---
-description: Proxy function for the GetMetadataQueryWriter method.
+description: IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy function - Proxy function for the GetMetadataQueryWriter method.
 ms.assetid: 64d2c6d8-f1dd-4397-8487-4d23c69aea82
 title: IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy function
 ms.topic: reference

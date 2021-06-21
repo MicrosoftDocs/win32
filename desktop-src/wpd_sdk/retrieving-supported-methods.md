@@ -20,9 +20,8 @@ The WpdServicesApiSample application includes code that demonstrates how an appl
 
 
 
-|                                                                                      |                                                                                                                |
+| Interface      | Description         |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Interface                                                                            | Description                                                                                                    |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | Used to retrieve the **IPortableDeviceServiceCapabilities** interface to access the supported service methods. |
 | [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | Provides access to the supported methods, method attributes and method parameters.                             |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | Contains the list of supported methods.                                                                        |

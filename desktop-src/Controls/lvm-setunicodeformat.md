@@ -1,6 +1,6 @@
 ---
 title: LVM_SETUNICODEFORMAT message (Commctrl.h)
-description: Sets the UNICODE character format flag for the control.
+description: LVM_SETUNICODEFORMAT message - Sets the UNICODE character format flag for the control.
 ms.assetid: e332ae88-821f-4341-a98d-59d8a01a126f
 keywords:
 - LVM_SETUNICODEFORMAT message Windows Controls

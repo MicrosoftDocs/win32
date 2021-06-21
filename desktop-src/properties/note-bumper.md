@@ -1,5 +1,5 @@
 ---
-description: .
+description: Note
 ms.assetid: 5f246236-8299-4ef3-ab07-98811cc57afa
 title: Note (Windows Property System)
 ms.topic: article

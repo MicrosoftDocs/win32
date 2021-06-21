@@ -1,6 +1,6 @@
 ---
 title: How to Ensure That Your Application Displays Properly on High-DPI Displays (DirectWrite)
-description: Describes how to create a window the displays properly on high-DPI displays.
+description: Describes how to ensure that your application creates a window that displays properly on high-DPI displays.
 ms.assetid: d174a337-c98e-46c7-86d2-c208900882d1
 ms.topic: article
 ms.date: 05/31/2018

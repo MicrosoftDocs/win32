@@ -31,7 +31,7 @@ Always verify that [Probe](probe-message.md) messages are being multicast. Optio
 
 Messages must be triggered in order to be sent as described in step 3 above. The WSD Debug Client displays the raw SOAP message as output. Because all messages printed by WSD Debug Client in multicast mode are received over a multicast socket, the message destination address is not displayed.
 
-The following sample WSD Debug Client output shows a Probe message. The <wsa:Action> element identifies the message as a Probe message. Inspect the <wsa:Action> field to verify that the received message was a Probe message.
+The following sample WSD Debug Client output shows a Probe message. The \<wsa:Action> element identifies the message as a Probe message. Inspect the \<wsa:Action> field to verify that the received message was a Probe message.
 
 ``` syntax
 UDP message at 05/08/07 10:06:55 from soap.udp://[127.0.0.1:49334]
@@ -46,7 +46,7 @@ ap:Header><soap:Body><wsd:Probe><wsd:Types>wsdp:Device</wsd:Types></wsd:Probe></
 soap:Body></soap:Envelope>
 ```
 
-The following sample WSD Debug Client output shows a Hello message. The <wsa:Action> element identifies the message as a Hello message.
+The following sample WSD Debug Client output shows a Hello message. The \<wsa:Action> element identifies the message as a Hello message.
 
 ``` syntax
 UDP message at 05/08/07 10:10:49 from soap.udp://[[::1]:49343]

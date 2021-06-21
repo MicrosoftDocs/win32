@@ -1,5 +1,5 @@
 ---
-description: Not used.
+description: <span id="vspixengine.isingleeventrequest"></span>ISingleEventRequest interface - Not used.
 MS-HAID: vspixengine.ISingleEventRequest
 MSHAttr:
 - PreferredSiteName:MSDN

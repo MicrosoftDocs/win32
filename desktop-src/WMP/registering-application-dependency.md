@@ -1,6 +1,6 @@
 ---
 title: Registering Application Dependency (Windows Media Player SDK)
-description: Registering Application Dependency
+description: Learn how to register your application with runtime components of APIs provided by the Windows Media Player SDK.
 ms.assetid: 966683d6-e082-448d-8473-baae2311c082
 keywords:
 - Windows Media Player,application dependency registry settings

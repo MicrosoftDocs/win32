@@ -23,7 +23,7 @@ This section gives solutions to common problems.
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                    |
+| Category | Description |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | I am running Windows Server 2008 and Windows Touch features are not working.                                                                                                                                                                                                                                       |
 | Cause    | You haven't enabled the Desktop Experience.                                                                                                                                                                                                                                                                        |
@@ -35,7 +35,7 @@ This section gives solutions to common problems.
 
 
 
-|          |                                                                                                                                                                                                    |
+| Category | Description |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | Whenever I move my finger quickly across my application, an arrow appears and my gesture or manipulation is not registering correctly.                                                             |
 | Cause    | Having flicks enabled when you don't need it.                                                                                                                                                      |
@@ -97,7 +97,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 
 
-|          |                                                                                    |
+| Category | Description |
 |----------|------------------------------------------------------------------------------------|
 | Issue    | How do I run Microsoft PixelSense applications on Windows 7?                       |
 | Cause    | Windows Touch and Microsoft PixelSense are incompatible.                           |
@@ -111,7 +111,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 
 
-|          |                                                                                                                                                                                                                                                          |
+| Category | Description |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | My application is freezing for no reason. I'm getting access violations when I initialize my object interfaces.                                                                                                                                          |
 | Cause    | Missing a call to **CoInitialize** when using the [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) or [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) interfaces.                                                                                 |
@@ -123,7 +123,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                                                                         |
+| Category | Description |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | My object is rotating improperly when it's being translated. Single-finger rotation is not working correctly.                                                                                                                                                                                                                                                                           |
 | Cause    | Improperly setting pivots on an object.                                                                                                                                                                                                                                                                                                                                                 |
@@ -137,7 +137,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                        |
+| Category | Description |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | After I handle the [**WM\_TOUCH**](wm-touchdown.md) message, I stop getting boundary feedback.                                                                                                                                                                                                                                        |
 | Cause    | Consuming the [**WM\_TOUCH**](wm-touchdown.md) message without handling it.                                                                                                                                                                                                                                                           |
@@ -259,7 +259,7 @@ In order to use the <a href="/windows/desktop/api/winuser/nf-winuser-screentocli
 
 
 
-|          |                                                                                                                                                                                                                                |
+| Category | Description |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | I'm not seeing [**WM\_TOUCH**](wm-touchdown.md) messages, but I know that Windows Touch is working because I'm seeing [**WM\_GESTURE**](wm-gesture.md) messages.                                                             |
 | Cause    | Missing a call to [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow).                                                                                                                                                          |
@@ -271,7 +271,7 @@ In order to use the <a href="/windows/desktop/api/winuser/nf-winuser-screentocli
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                                       |
+| Category | Description |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | I am noticing small delays from the time I touch my finger down to when I am getting input in my application.                                                                                                                                                                                                                                         |
 | Cause    | Palm rejection is causing delays in input.                                                                                                                                                                                                                                                                                                            |
@@ -285,7 +285,7 @@ In order to use the <a href="/windows/desktop/api/winuser/nf-winuser-screentocli
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                                                                 |
+| Category | Description |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | After handling the [**WM\_GESTURE**](wm-gesture.md) message, I stop getting boundary feedback. Or, a gesture that worked previously does not work now.                                                                                                                                                                                                                         |
 | Cause    | Consuming the [**WM\_GESTURE**](wm-gesture.md) message without handling it.                                                                                                                                                                                                                                                                                                    |
@@ -297,7 +297,7 @@ In order to use the <a href="/windows/desktop/api/winuser/nf-winuser-screentocli
 
 
 
-|          |                                                                                                                                                                                                                         |
+| Category | Description |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | I'm not seeing [**WM\_GESTURE**](wm-gesture.md) messages, but I know that Windows Touch is working because I'm seeing [**WM\_TOUCH**](wm-touchdown.md) messages.                                                      |
 | Cause    | Calling [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow).                                                                                                                                                             |
@@ -378,7 +378,7 @@ For more examples of typical gesture configurations, see <strong>SetGestureConfi
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Category | Description |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | The custom scroll bars in my application are not scrolling when I perform the pan gesture.                                                                                                                                                                                                                                                                                                         |
 | Cause    | Missing handlers for the correct WM\_\*SCROLL messages.                                                                                                                                                                                                                                                                                                                                            |
@@ -390,7 +390,7 @@ For more examples of typical gesture configurations, see <strong>SetGestureConfi
 
 
 
-|          |                                                                                                                                                                                                                                                                 |
+| Category | Description |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Issue    | I am getting delays for gestures.                                                                                                                                                                                                                               |
 | Cause    | Flicks may be causing delays for gestures.                                                                                                                                                                                                                      |

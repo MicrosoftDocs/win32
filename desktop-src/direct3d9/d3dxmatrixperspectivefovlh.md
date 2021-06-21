@@ -1,5 +1,5 @@
 ---
-description: Builds a left-handed perspective projection matrix based on a field of view.
+description: D3DXMatrixPerspectiveFovLH function (D3dx9math.h) - Builds a left-handed perspective projection matrix based on a field of view.
 ms.assetid: 90328798-f124-4b61-90a9-971946066b02
 title: D3DXMatrixPerspectiveFovLH function (D3dx9math.h)
 ms.topic: reference

@@ -33,7 +33,7 @@ MonthlyDOWTrigger.RandomDelay As String
 
 ## Property value
 
-The delay time that is randomly added to the start time of the trigger. The format for this string is P<days>DT<hours>H<minutes>M<seconds>S (for example, P2DT5S is a 2 day, 5 second delay).
+The delay time that is randomly added to the start time of the trigger. The format for this string is `P<days>DT<hours>H<minutes>M<seconds>S` (for example, P2DT5S is a 2 day, 5 second delay).
 
 ## Requirements
 

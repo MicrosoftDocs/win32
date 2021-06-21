@@ -12,7 +12,7 @@ Decoders that implement frame-accurate seeking under Microsoft DirectShow must i
 
 
 
-|                   |                            |
+| Label | Value |
 |-------------------|----------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_FrameStep |
 

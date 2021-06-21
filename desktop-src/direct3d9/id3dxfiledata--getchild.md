@@ -1,5 +1,5 @@
 ---
-description: Retrieves a child object in this file data object.
+description: ID3DXFileData::GetChild method - Retrieves a child object in this file data object.
 ms.assetid: 0c4f1efa-f096-443d-a482-a3c5a9138c3d
 title: ID3DXFileData::GetChild method (D3DX9Xof.h)
 ms.topic: reference

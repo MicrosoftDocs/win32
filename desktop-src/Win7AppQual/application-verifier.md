@@ -1,5 +1,5 @@
 ---
-description: .
+description: Application Verifier (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.assetid: edf719b7-9bd9-4e23-9bba-d0d7c3c5dbf5
 title: Application Verifier (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-**Clients** - Windows XP \| Windows Vista \| Windows 7  
-**Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+**Clients** - Windows XP, Windows Vista, Windows 7  
+**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 
 ## Description

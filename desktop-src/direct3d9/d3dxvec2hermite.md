@@ -1,5 +1,5 @@
 ---
-description: Performs a Hermite spline interpolation, using the specified 2D vectors.
+description: D3DXVec2Hermite function (D3dx9math.h) - Performs a Hermite spline interpolation, using the specified 2D vectors.
 ms.assetid: 30eb9490-bc01-4449-adfb-1c552e8ad3e7
 title: D3DXVec2Hermite function (D3dx9math.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseObject.CBaseObject constructor - Constructor method.
 ms.assetid: 20c3c4af-b22f-4b74-a6b6-5ee309de4eef
 title: CBaseObject.CBaseObject constructor (Combase.h)
 ms.topic: reference

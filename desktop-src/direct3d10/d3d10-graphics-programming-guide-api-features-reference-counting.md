@@ -31,9 +31,9 @@ pDevice->RSGetState( &pCurRasterizerState );
 
 
 
-|                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> In Direct3D 9, set functions hold a reference to the device objects; in Direct3D 10 set functions do not hold a reference to the device-child objects.<br/> |
+Differences between Direct3D 9 and Direct3D 10:
+
+- In Direct3D 9, set functions hold a reference to the device objects; in Direct3D 10 set functions do not hold a reference to the device-child objects.
 
 
 

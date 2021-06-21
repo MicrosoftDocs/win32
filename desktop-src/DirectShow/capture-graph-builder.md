@@ -12,7 +12,7 @@ The Capture Graph Builder is a helper object for building video and audio captur
 
 
 
-|                  |                                                        |
+| Label | Value |
 |------------------|--------------------------------------------------------|
 | Class Identifier | CLSID\_CaptureGraphBuilder2                            |
 | Interfaces       | [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) |

@@ -1,5 +1,5 @@
 ---
-description: This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
+description: FileIo class - This class is the parent class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: 8e006a63-a061-4b62-8f90-b8c8823bb047
 title: FileIo class
 ms.topic: reference

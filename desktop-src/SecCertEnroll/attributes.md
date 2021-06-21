@@ -1,5 +1,5 @@
 ---
-description: Attributes can be added to a certificate request to provide a certification authority (CA) with additional information that it can use when creating and issuing a certificate.
+description: Attributes (Certificate Enrollment API) - Attributes can be added to a certificate request to provide a certification authority (CA) with additional information that it can use when creating and issuing a certificate.
 ms.assetid: '6116e61e-3ec5-4992-90ab-e3c7ced291b6'
 title: Attributes (Certificate Enrollment API)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: .
+description: Why Do You Need Compatibility View?
 ms.assetid: 5B8D3A76-F30B-4F17-9257-0B6ED7F2D753
 title: Why Do You Need Compatibility View?
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: Returns a uint32 bitmap with the access rights to the share held by the user or group on whose behalf the instance is returned.
+description: GetAccessMask method of the Win32_ClusterShare class - Returns a uint32 bitmap with the access rights to the share held by the user or group on whose behalf the instance is returned.
 ms.assetid: 1f656c63-f5ee-4b14-845a-0eb34a0e7a64
 ms.tgt_platform: multiple
 title: GetAccessMask method of the Win32_ClusterShare class

@@ -1,6 +1,6 @@
 ---
 title: Set Effect State (Direct3D 11)
-description: Some effect constants only need to be initialized.
+description: Some effect constants only need to be initialized. See the basic code for setting effect variables in Direct3D 12.
 ms.assetid: f94ba82e-fc67-4e4d-a49d-20e1163bdff7
 ms.topic: article
 ms.date: 05/31/2018

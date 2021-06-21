@@ -42,7 +42,7 @@ Structures for known types are referenced by much of the generated code and by a
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

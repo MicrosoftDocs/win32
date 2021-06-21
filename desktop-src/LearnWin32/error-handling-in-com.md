@@ -1,6 +1,6 @@
 ---
 title: Error Handling in COM (Get Started with Win32 and C++)
-description: .
+description: Error Handling in COM (Get Started with Win32 and C++)
 ms.assetid: 022ca652-59d2-4513-9d73-1c6d8688c478
 ms.topic: article
 ms.date: 05/31/2018

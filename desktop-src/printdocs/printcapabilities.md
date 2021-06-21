@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PrintCapabilities element, which represents the root of the PrintCapabilities document.
 ms.assetid: 'f503b62f-02e1-4621-8799-a8b6ad12f489'
 title: PrintCapabilities
 ms.topic: article

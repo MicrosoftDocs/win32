@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Media.AuthorUrl
 ms.assetid: b8891bae-31da-48f6-b4e6-18799a199c9a
 title: System.Media.AuthorUrl
 ms.topic: article

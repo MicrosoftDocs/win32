@@ -16,7 +16,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                       |
+| Component              | Description           |
 |------------------------|-----------------------|
 | Formal Name(s)         | Windows Bitmap Format |
 | File Name Extension(s) | bmp, dib              |

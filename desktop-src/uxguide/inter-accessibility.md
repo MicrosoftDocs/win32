@@ -31,9 +31,8 @@ The following table describes common user disabilities and impairments, and list
 
 
 
-|                               |                                                                                                                                                                                                         |                                                                                                                                                                                       |
+| Impairment    | Description   | Solutions  |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Impairment**<br/>     | **Description**<br/>                                                                                                                                                                              | **Solutions**<br/>                                                                                                                                                              |
 | Visual<br/>             | Ranges from mild (affecting 17 percent of users) to severe (affecting 9 percent of users).<br/>                                                                                                   | Customizable magnification, colors, and contrast; Braille utilities; screen readers.<br/>                                                                                       |
 | Hearing<br/>            | Ranges from mild (affecting 18 percent of users) to severe (affecting 2 percent of users).<br/>                                                                                                   | Information redundancy: sound used only as supplement to text or visual communication.<br/>                                                                                     |
 | Dexterity<br/>          | Ranges from mild (affecting 19 percent of users) to severe (affecting 5 percent of users). This impairment often involves difficulty performing certain motor skills with keyboard or mouse.<br/> | Input method redundancy: program features accessed by mouse or keyboard equivalents.<br/>                                                                                       |
@@ -331,9 +330,8 @@ For more guidelines and examples, see [Keyboard](inter-keyboard.md).
 
 
 
-|                                                               |                                                                                  |
+| Use these terms           | Instead of                                                        |
 |---------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **Use these terms**<br/>                                | **Instead of**<br/>                                                        |
 | Has limited dexterity, has motion disabilities<br/>     | Crippled, lame<br/>                                                        |
 | Without disabilities<br/>                               | Normal, able-bodied, healthy<br/>                                          |
 | One-handed, people who type with one hand<br/>          | Single-handed <br/>                                                        |

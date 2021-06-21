@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Winshfhc.dll
 ms.assetid: 33a5589a-201b-4d94-afbf-5965a39e2748
-api_name: 
- - EstimateFileRiskLevel
-api_type: 
- - DllExport
-api_location: 
- - Winshfhc.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

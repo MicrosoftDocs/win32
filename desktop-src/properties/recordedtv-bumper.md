@@ -1,5 +1,5 @@
 ---
-description: .
+description: RecordedTV
 ms.assetid: 30be0468-1b4e-4650-a5d2-aa467d800ef7
 title: RecordedTV
 ms.topic: article

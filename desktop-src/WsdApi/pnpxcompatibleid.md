@@ -42,7 +42,7 @@ To specify more than one CompatibleID, separate the identifiers with a space cha
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

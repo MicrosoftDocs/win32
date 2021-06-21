@@ -1,5 +1,5 @@
 ---
-description: Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
+description: D3DXMatrixScaling function (D3dx9math.h) - Builds a matrix that scales along the x-axis, the y-axis, and the z-axis.
 ms.assetid: f51baa4e-0aec-4de8-b746-24cb52f318d6
 title: D3DXMatrixScaling function (D3dx9math.h)
 ms.topic: reference

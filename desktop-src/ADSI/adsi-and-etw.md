@@ -43,7 +43,7 @@ Then execute the following command:
 
 
 
-|                                 |                       |
+|         Flag                        |         Value              |
 |---------------------------------|-----------------------|
 | **DEBUG\_SCHEMA**<br/>    | 0x00000001<br/> |
 | **DEBUG\_CHANGEPWD**<br/> | 0x00000002<br/> |
@@ -134,7 +134,7 @@ Finally, the *traceLevel* flag should be one of the following values:
 
 
 
-|                                          |                       |
+|      Flag                                    |       Value                |
 |------------------------------------------|-----------------------|
 | **TRACE\_LEVEL\_ERROR**<br/>       | 0x00000002<br/> |
 | **TRACE\_LEVEL\_INFORMATION**<br/> | 0x00000004<br/> |

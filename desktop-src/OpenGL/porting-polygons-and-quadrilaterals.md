@@ -62,7 +62,7 @@ where face is one of:
 
 
 
-|                      |                                                            |
+|GLenum value                      |  Meaning                                                          |
 |----------------------|------------------------------------------------------------|
 | GL\_FRONT            | mode which applies to front-facing polygons                |
 | GL\_BACK             | mode which applies to back-facing polygons                 |

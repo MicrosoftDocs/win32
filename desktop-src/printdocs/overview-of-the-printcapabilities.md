@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: The PrintCapabilities describe the configurations or states available on a device, which can often be placed in a number of different configurations.
 ms.assetid: 094472fc-28ca-4d7a-a8be-cc4623d02ff2
 title: Overview of the PrintCapabilities
 ms.topic: article

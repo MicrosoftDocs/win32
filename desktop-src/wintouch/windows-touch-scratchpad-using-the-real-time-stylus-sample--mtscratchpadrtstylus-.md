@@ -1,6 +1,6 @@
 ---
 title: Windows Touch Scratchpad using the Real-time Stylus Sample (C++)
-description: The Windows Touch Scratchpad sample (MTScratchpadRTStylus) shows how to use Windows Touch messages to draw traces of the touch points to a window.
+description: Review a Windows Touch Scratchpad C++ sample (MTScratchpadRTStylus), which shows how to use Windows Touch messages to draw traces of the touch points to a window.
 ms.assetid: c72ddc71-48b7-4c26-af2b-10919038eaf8
 keywords:
 - Windows Touch,code samples

@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CAMSchedule.CAMSchedule constructor - Constructor method.
 ms.assetid: ff210374-f394-4267-a67a-1a60a2f9538d
 title: CAMSchedule.CAMSchedule constructor (Dsschedule.h)
 ms.topic: reference

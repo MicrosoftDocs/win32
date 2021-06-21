@@ -16,7 +16,7 @@ For example, assume that stream 0 (which corresponds to pin 0) contains the main
 
 
 
-|        |                             |
+| Label | Value |
 |--------|-----------------------------|
 | Time   | Rectangle                   |
 | t + 0  | { -1.0f, 0.0f, 0.0f, 1.0f } |

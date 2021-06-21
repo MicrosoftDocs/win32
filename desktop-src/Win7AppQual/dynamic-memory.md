@@ -1,5 +1,5 @@
 ---
-description: .
+description: Dynamic Memory
 ms.assetid: 0ea1de35-34ea-4e94-b90d-0f89503cb3fb
 title: Dynamic Memory
 ms.topic: article

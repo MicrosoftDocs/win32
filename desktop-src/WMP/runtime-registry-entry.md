@@ -23,9 +23,8 @@ The **Runtime** entry specifies the underlying technology that Windows Media Pla
 
 
 
-|          |                |                                                               |
+|   Name   |   Type         |   Value                                                       |
 |----------|----------------|---------------------------------------------------------------|
-| **Name** | **Type**       | **Value**                                                     |
 | Runtime  | **REG\_DWORD** | A positive integer that identifies the underlying technology. |
 
 

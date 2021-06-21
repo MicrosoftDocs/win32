@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 99229d13-40dc-4750-81a7-48a2f608b778
-api_name: 
- - IShellFolderViewType.GetDefaultViewName
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

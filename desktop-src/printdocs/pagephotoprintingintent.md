@@ -22,7 +22,7 @@ Indicates a high-level intent to the driver for population of photo printing set
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.DisplayMobilePhoneNumbers
 ms.assetid: 6158551c-d073-416b-adc3-adc6e335f2d5
 title: System.Contact.DisplayMobilePhoneNumbers
 ms.topic: article

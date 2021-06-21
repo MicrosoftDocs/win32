@@ -12,14 +12,6 @@ api_type:
 - COM
 api_location: 
 ms.assetid: 358921b0-46c4-4428-b0b5-57a44fc3247b
-api_name: 
- - IACLCustomMRU.Initialize
-api_type: 
- - COM
-api_location: 
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-description: File ownership.
+description: Learn about the System.Security.EncryptionOwners property, which supports file ownership for different versions of Windows.
 ms.assetid: d29d70d7-8a0b-4fa5-afb7-ba115028e115
 title: System.Security.EncryptionOwners
 ms.topic: article

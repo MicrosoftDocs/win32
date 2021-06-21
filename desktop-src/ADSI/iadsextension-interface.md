@@ -1,6 +1,6 @@
 ---
 title: IADsExtension Interface
-description: This topic contains C++ code examples for using the IADsExtension interface.
+description: This article contains the C++ code definition of the IADsExtension interface and discussion of its methods. 
 ms.assetid: fa94cc55-1ab2-4b6e-a3b6-8c20542adb42
 ms.tgt_platform: multiple
 keywords:

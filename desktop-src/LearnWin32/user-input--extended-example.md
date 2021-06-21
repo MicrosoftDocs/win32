@@ -1,6 +1,6 @@
 ---
 title: User Input Extended Example
-description: .
+description: User Input: Extended Example
 ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
 ms.topic: article
 ms.date: 05/31/2018

@@ -29,7 +29,7 @@ Four types of language bar items can be installed and each of the required inter
 
 
 
-|               |                                                                                                                                                                                   |
+|   Element            |    Description                                                                                                                                                                               |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Button        | A language bar button functions as a command button, toggle control, or a menu on the language bar. The object must support the ITfLangBarItemButton interface.                   |
 | Balloon       | A language bar balloon functions as a pop-up notification on the language bar. The object must support the ITfLangBarItemBalloon interface.                                       |
@@ -46,7 +46,7 @@ A button element can function as any of the following. The function of the butto
 
 
 
-|               |                                                                                                                                                                                                                                                                                                                                                                                      |
+|    Element           |    Description                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Button        | The button functions as a standard command button. This button style is identified by the TF\_LBI\_STYLE\_BTN\_BUTTON style. ITfLangBarItemButton::OnClick is called when the item is clicked. ITfLangBarItemButton::InitMenu and ITfLangBarItemButton::OnMenuSelect are not used.                                                                                                   |
 | Toggle Button | The button functions as a toggle control that can maintain a clicked state, similar to a check box. This button style is identified by the TF\_LBI\_STYLE\_BTN\_TOGGLE style. ITfLangBarItemButton::OnClick is called when the item is clicked. ITfLangBarItemButton::InitMenu and ITfLangBarItemButton::OnMenuSelect are not used.                                                  |

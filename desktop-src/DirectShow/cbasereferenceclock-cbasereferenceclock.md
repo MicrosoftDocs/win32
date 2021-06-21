@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseReferenceClock.CBaseReferenceClock constructor - Constructor method.
 ms.assetid: 0fbfdc68-e1df-449f-a7d1-739504db8a2f
 title: CBaseReferenceClock.CBaseReferenceClock constructor (Refclock.h)
 ms.topic: reference

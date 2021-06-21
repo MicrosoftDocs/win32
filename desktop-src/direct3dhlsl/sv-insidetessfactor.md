@@ -23,9 +23,8 @@ Defines the tessellation amount within a patch surface.
 
 
 
-|            |                |
+|  Type          | Input topology               |
 |------------|----------------|
-| Type       | Input Topology |
 | float\[2\] | quad patch     |
 | float      | tri patch      |
 | unused     | isoline        |
@@ -46,9 +45,8 @@ This function is supported in the following types of shaders:
 
 
 
-|        |      |        |          |       |         |
-|--------|------|--------|----------|-------|---------|
 | Vertex | Hull | Domain | Geometry | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 
 

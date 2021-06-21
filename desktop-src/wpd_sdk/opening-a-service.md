@@ -12,9 +12,8 @@ Before your application can perform operations on a service, for example, enumer
 
 
 
-|                                                                        |                                                    |
-|------------------------------------------------------------------------|----------------------------------------------------|
 | Interface                                                              | Description                                        |
+|------------------------------------------------------------------------|----------------------------------------------------|
 | [**IPortableDeviceServiceManager**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager) | Used to enumerate the services on a device.        |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | Used to open a connection to a device service.     |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                 | Used to hold the application's client information. |

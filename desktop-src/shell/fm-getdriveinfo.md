@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 142fff71-3a1b-4197-8c06-2e981cce4e4f
-api_name: 
- - FM_GETDRIVEINFO
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

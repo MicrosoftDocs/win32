@@ -1,6 +1,6 @@
 ---
 title: Dialog Box Structures
-description: .
+description: Dialog Box Structures
 ms.assetid: 'b6acae79-673f-453b-954f-9073712085ce'
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-description: The get\_\_NewEnum method returns an enumerator for the collection.
+description: ITMediaCollection::get__NewEnum method - The get\_\_NewEnum method returns an enumerator for the collection.
 ms.assetid: 22b1eb48-e1ef-4694-a1dc-b2de326989c8
 title: ITMediaCollection::get__NewEnum method (Sdpblb.h)
 ms.topic: reference

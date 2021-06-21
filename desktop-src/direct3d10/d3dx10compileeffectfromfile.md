@@ -1,5 +1,5 @@
 ---
-description: Deprecated. See D3DX10CompileFromFile.
+description: Learn about the D3DX10CompileEffectFromFile function, which has been deprecated. See D3DX10CompileFromFile.
 ms.assetid: a55c7d83-2cac-4421-ac0e-880e1b97c0f8
 title: D3DX10CompileEffectFromFile
 ms.topic: article

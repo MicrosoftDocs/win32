@@ -1,6 +1,6 @@
 ---
 title: Visible Property (PropertySheet Object)
-description: Visible Property
+description: Learn about the Visible Property of the PropertySheet object, which returns or sets whether the Microsoft Agent property sheet window is visible (open).
 ms.assetid: 8a58cd45-0391-4897-b3a2-d4f5d7297ea8
 ms.topic: article
 ms.date: 05/31/2018

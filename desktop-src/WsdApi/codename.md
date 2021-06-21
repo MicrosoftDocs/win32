@@ -44,7 +44,7 @@ This element overrides the default code name used for generated code. By default
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

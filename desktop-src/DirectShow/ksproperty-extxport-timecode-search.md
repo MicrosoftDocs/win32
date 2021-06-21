@@ -12,7 +12,7 @@ This property sends a command to the device to search for a specified time code.
 
 
 
-|                   |                                        |
+| Label | Value |
 |-------------------|----------------------------------------|
 | Property Set GUID | PROPSETID\_EXT\_TRANSPORT              |
 | Property ID       | KSPROPERTY\_EXTXPORT\_TIMECODE\_SEARCH |

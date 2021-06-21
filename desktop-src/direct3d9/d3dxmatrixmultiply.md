@@ -1,5 +1,5 @@
 ---
-description: Determines the product of two matrices.
+description: D3DXMatrixMultiply function (D3dx9math.h) - Determines the product of two matrices.
 ms.assetid: 160c801a-6589-4a0d-8e90-7e7a99fbd5f7
 title: D3DXMatrixMultiply function (D3dx9math.h)
 ms.topic: reference

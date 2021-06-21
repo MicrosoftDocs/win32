@@ -14,7 +14,7 @@ In the following versions of Windows, the offset of the 32-bit TEB address withi
 
 
 
-|               |                        |
+|  Platform     | Version                |
 |---------------|------------------------|
 | Windows Vista | Windows Server 2008    |
 | Windows 7     | Windows Server 2008 R2 |

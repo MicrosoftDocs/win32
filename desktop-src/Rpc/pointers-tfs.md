@@ -1,6 +1,6 @@
 ---
 title: Pointers (RPC)
-description: Pointers
+description: Learn about an RPC common pointer, which is defined as everything other than interface pointers and byte count pointers.
 ms.assetid: 9756E637-BCBB-48F1-B962-25AF2C917921
 ms.topic: article
 ms.date: 05/31/2018

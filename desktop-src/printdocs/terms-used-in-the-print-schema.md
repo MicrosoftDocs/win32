@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This article lists and defines terms that are specific to the Print Schema and related technologies.
 ms.assetid: ab441a37-3a4e-4dd3-85e9-a50e08618d72
 title: Terms Used in the Print Schema
 ms.topic: article

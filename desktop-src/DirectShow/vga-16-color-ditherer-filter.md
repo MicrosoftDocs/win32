@@ -12,7 +12,7 @@ The VGA 16 Color Ditherer filter converts from an RGB color type to a 4-bit colo
 
 
 
-|                                          |                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_RGB8                                                                                                               |

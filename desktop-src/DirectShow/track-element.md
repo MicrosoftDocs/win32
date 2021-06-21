@@ -23,7 +23,7 @@ The `track` element defines a track object.
 
 
 
-|          |                                                                                                          |
+| Label | Value |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**composite**](composite-element.md), [**group**](group-element.md)                                   |
 | Children | [**clip**](clip-element.md), [**effect**](effect-element.md), [**transition**](transition-element.md) |

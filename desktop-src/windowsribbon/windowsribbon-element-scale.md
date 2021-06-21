@@ -164,10 +164,8 @@ The [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) manifest in this
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 

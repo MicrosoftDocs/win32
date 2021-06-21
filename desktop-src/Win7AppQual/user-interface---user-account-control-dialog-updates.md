@@ -1,5 +1,5 @@
 ---
-description: .
+description: User Interface - User Account Control Dialog Updates
 ms.assetid: f2d4b82d-a84a-4fc1-b7ad-cdc92a24f889
 title: User Interface - User Account Control Dialog Updates
 ms.topic: article

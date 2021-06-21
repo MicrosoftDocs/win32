@@ -1,5 +1,5 @@
 ---
-description: The Add method adds an item to the collection.
+description: IPortableDevicePropVariantCollection::Add method - The Add method adds an item to the collection.
 ms.assetid: e9e8975f-f9b8-4940-b967-020cf3812582
 title: IPortableDevicePropVariantCollection::Add method (PortableDeviceTypes.h)
 ms.topic: reference

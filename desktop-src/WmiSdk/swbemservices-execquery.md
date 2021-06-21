@@ -1,5 +1,5 @@
 ---
-description: Executes a query to retrieve objects.
+description: SWbemServices.ExecQuery method - Executes a query to retrieve objects.
 ms.assetid: 06b9d4c9-cd72-49b2-92b0-d18d94dfbd9f
 ms.tgt_platform: multiple
 title: SWbemServices.ExecQuery method (Wbemdisp.h)

@@ -1,5 +1,5 @@
 ---
-description: This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
+description: IFeedbackHubAppInfo::GetRunningApps method - This API is not available to all apps. Unless your app is specially provisioned by Microsoft, calls to these APIs will fail at runtime.
 ms.assetid: 2BD60D22-38AD-4027-B733-0B62F33AA4B3
 title: IFeedbackHubAppInfo::GetRunningApps method
 ms.topic: reference

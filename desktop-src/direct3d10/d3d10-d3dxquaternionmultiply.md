@@ -1,5 +1,5 @@
 ---
-description: Multiplies two quaternions.
+description: D3DXQuaternionMultiply function (D3DX10Math.h) - Multiplies two quaternions.
 ms.assetid: f549e383-9c39-47a9-84e4-82365bdf1155
 title: D3DXQuaternionMultiply function (D3DX10Math.h)
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: Using NPS Extensions
-description: Internet Authentication Service (IAS) was renamed Network Policy Server (NPS).
+description: Learn about using NPS Extensions. Internet Authentication Service (IAS) was renamed Network Policy Server (NPS).
 ms.assetid: 3ee16279-7e11-4587-ae43-f0296b7e7594
 ms.tgt_platform: multiple
 keywords:

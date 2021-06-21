@@ -1,5 +1,5 @@
 ---
-description: Sets a floating-point number.
+description: ID3DXTextureShader::SetFloat method - Sets a floating-point number.
 ms.assetid: 69bb9b15-5d66-4b1a-9559-29bcb38a965f
 title: ID3DXTextureShader::SetFloat method (D3DX9Shader.h)
 ms.topic: reference

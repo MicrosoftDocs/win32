@@ -22,8 +22,10 @@
         href: /windows/desktop/api/amsi/nf-amsi-amsiclosesession
       - name: "AmsiInitialize"
         href: /windows/desktop/api/amsi/nf-amsi-amsiinitialize
-      - name: "AmsiOpenSession"
+      - name: "AmsiNotifyOperation"
         href: /windows/desktop/api/amsi/nf-amsi-amsiopensession
+      - name: "AmsiOpenSession"
+        href: /windows/desktop/api/amsi/nf-amsi-amsinotifyoperation
       - name: "AmsiResultIsMalware"
         href: /windows/desktop/api/amsi/nf-amsi-amsiresultismalware
       - name: "AmsiScanBuffer"
@@ -49,6 +51,11 @@
           href: /windows/desktop/api/amsi/nf-amsi-iantimalware-closesession
         - name: "Scan method"
           href: /windows/desktop/api/amsi/nf-amsi-iantimalware-scan
+      - name: "IAntimalware2"
+        href: /windows/desktop/api/amsi/nn-amsi-iantimalware2
+        items: 
+        - name: "Notify method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalware2-notify
       - name: "IAntimalwareProvider"
         href: /windows/desktop/api/amsi/nn-amsi-iantimalwareprovider
         items: 
@@ -58,3 +65,8 @@
           href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider-displayname
         - name: "Scan method"
           href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider-scan
+      - name: "IAntimalwareProvider2"
+        href: /windows/desktop/api/amsi/nn-amsi-iantimalwareprovider2
+        items: 
+        - name: "Notify method"
+          href: /windows/desktop/api/amsi/nf-amsi-iantimalwareprovider2-notify

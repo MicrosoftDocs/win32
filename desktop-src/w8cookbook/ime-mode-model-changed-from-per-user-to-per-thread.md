@@ -24,7 +24,7 @@ At application start up, the IME mode is set to the following defaults:
 
 
 
-|          | Software input panel | Hardware keyboard |
+| &nbsp;   | Software input panel | Hardware keyboard |
 |----------|----------------------|-------------------|
 | KOR, JPN | On                   | Off               |
 | CHS,CHT  | On                   | On                |

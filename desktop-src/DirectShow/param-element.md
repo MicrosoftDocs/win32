@@ -23,7 +23,7 @@ The `param` element specifies the value of a property on a transition, effect, o
 
 
 
-|          |                                                                                                          |
+| Label | Value |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**clip**](clip-element.md), [**effect**](effect-element.md), [**transition**](transition-element.md) |
 | Children | [**at**](at-element.md), [**linear**](linear-element.md)                                               |

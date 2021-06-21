@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: d0815afc-5356-48a7-a90d-5f48dae6bee5
-api_name: 
- - FM_GETSELCOUNTLFN
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

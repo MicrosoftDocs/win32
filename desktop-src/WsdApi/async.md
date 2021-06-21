@@ -46,7 +46,7 @@ A proxy can have both asynchronous and synchronous versions of the same operatio
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

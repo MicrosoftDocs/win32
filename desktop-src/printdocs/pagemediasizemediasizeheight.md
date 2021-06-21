@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageMediaSizeMediaSizeHeight parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 209b3024-60cf-47e0-8738-cd7795e38c2a
 title: PageMediaSizeMediaSizeHeight
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the dimension MediaSizeHeight direction for the Custom MediaSize optio
 
 
 
-| Name                       |                                                           |
+| Name | Value |
 |----------------------------|-----------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                   |
 | Scoping Prefix <br/> | Page<br/>                                           |

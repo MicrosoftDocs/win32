@@ -1,5 +1,5 @@
 ---
-description: Sets an array of integers.
+description: ID3DXTextureShader::SetIntArray method - Sets an array of integers.
 ms.assetid: 1ceb8bb0-d168-49cf-8964-8ae582b5ec2e
 title: ID3DXTextureShader::SetIntArray method (D3DX9Shader.h)
 ms.topic: reference

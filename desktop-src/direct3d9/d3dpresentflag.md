@@ -166,7 +166,7 @@ These constants are used by [**D3DPRESENT\_PARAMETERS**](d3dpresent-parameters.m
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

@@ -12,9 +12,8 @@ Specifies the maximum dimensions of texture convolution filters.
 
 
 
-|                               |       |                                                            |
-|-------------------------------|-------|------------------------------------------------------------|
 | \#define                      | Value | Description                                                |
+|-------------------------------|-------|------------------------------------------------------------|
 | D3DCONVOLUTIONMONO\_MAXHEIGHT | 7     | Maximum height of a monochrome texture convolution filter. |
 | D3DCONVOLUTIONMONO\_MAXWIDTH  | 7     | Maximum width of a monochrome texture convolution filter.  |
 
@@ -26,7 +25,7 @@ Specifies the maximum dimensions of texture convolution filters.
 
 
 
-|                          |             |
+| Requirement                         |  Value           |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system |             |

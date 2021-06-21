@@ -66,7 +66,15 @@ The database to defragment.
 
 *szTableName*
 
-Unused parameter. Defragmentation is performed for the entire database described by the given database ID.
+Sometimes *szTableName* is required, and sometimes it is forbidden:
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | Must be `NULL`. |
+| `JET_bitDefragmentBTree` | Specifies the name of the table/BTree to defragment. |
+| *other* | Must be `NULL`. |
+ 
+Defragmentation is performed for the entire database described by the given database ID.
 
 *pcPasses*
 
@@ -83,6 +91,13 @@ When this parameter is set to NULL or if *pcSeconds* points to a negative value,
 *callback*
 
 Callback function that defragmentation calls regularly to report progress.
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | Must be `NULL`. |
+| `JET_bitDefragmentBTree` | Must be `NULL`. |
+| *other* | Optional.
+
 
 *grbit*
 
@@ -114,7 +129,11 @@ A group of bits specifying zero or more of the following options.
 </tr>
 <tr class="even">
 <td><p>JET_bitDefragmentBTree</p></td>
-<td><p>This option is used to defrag a B-Tree.</p></td>
+<td><p>This option is used to defrag a B-Tree, specified by szTableName.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_bitDefragmentBTreeBatch</p></td>
+<td><p>This option is used to call OLD2 on the entire database.</p></td>
 </tr>
 </tbody>
 </table>

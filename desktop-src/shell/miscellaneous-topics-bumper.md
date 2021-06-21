@@ -1,5 +1,5 @@
 ---
-description: .
+description: Legacy Shell Topics
 title: Legacy Shell Topics
 ms.topic: article
 ms.date: 05/31/2018

@@ -16,7 +16,7 @@ This media type is used for the pin connection between the Network Provider filt
 
 
 
-|             |                                  |
+| Label | Value |
 |-------------|----------------------------------|
 | Major type  | KSDATAFORMAT\_TYPE\_BDA\_ANTENNA |
 | Subtype     | MEDIASUBTYPE\_None               |
@@ -32,7 +32,7 @@ This media type represents the IF signal that is sent from the tuner to the demo
 
 
 
-|             |                                     |
+| Label | Value |
 |-------------|-------------------------------------|
 | Major type  | KSDATAFORMAT\_TYPE\_BDA\_IF\_SIGNAL |
 | Subtype     | MEDIASUBTYPE\_None                  |

@@ -32,7 +32,7 @@ The following constants are declared in `DirectML.h`.
 
 | Requirement | Value |
 |-|-|
-| Header | D3D12.h |
+| Header | DirectML.h |
 
 ## See also
 

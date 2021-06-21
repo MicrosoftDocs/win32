@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 6e02d655-f7d8-460a-97d2-5b369493e941
-api_name: 
- - FMExtensionProc
- - FMExtensionProcW
-api_type: 
- - UserDefined
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

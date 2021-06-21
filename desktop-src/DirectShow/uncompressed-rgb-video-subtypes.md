@@ -62,7 +62,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 -   For RGB 24, every pixel is an [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple). Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
 
-    |       |      |       |     |
+| Label | Value |
     |-------|------|-------|-----|
     | Byte  | 0    | 1     | 2   |
     | Value | Blue | Green | Red |
@@ -73,7 +73,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 -   For RGB 32, every pixel is an **RGBQUAD**. Each color is one byte, with a value from 0 to 255, inclusive. The memory layout is: 
 
-    |       |      |       |     |                     |
+| Label | Value |
     |-------|------|-------|-----|---------------------|
     | Byte  | 0    | 1     | 2   | 3                   |
     | Value | Blue | Green | Red | Alpha or Don't Care |
@@ -86,7 +86,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 -   A2R10G10B10 uses the following layout: 
 
-    |       |       |         |         |         |
+| Label | Value |
     |-------|-------|---------|---------|---------|
     | Bit   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
     | Value | Blue  | Green   | Red     | Alpha   |
@@ -97,7 +97,7 @@ For palettized formats, the color of each pixel is specified as an index into a 
 
 -   A2B10G10R10 uses the following layout: 
 
-    |       |       |         |         |         |
+| Label | Value |
     |-------|-------|---------|---------|---------|
     | Bit   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
     | Value | Red   | Green   | Blue    | Alpha   |

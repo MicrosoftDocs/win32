@@ -1,5 +1,5 @@
 ---
-description: Compile a shader file.
+description: D3DXCompileShaderFromFile function - Compile a shader file.
 ms.assetid: 2ad6042f-3601-4f4a-9624-6319a3372355
 title: D3DXCompileShaderFromFile function (D3DX9Shader.h)
 ms.topic: reference

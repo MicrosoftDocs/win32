@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 91700764-6cdf-488d-adc0-e34d9b4cb71d
-api_name: 
- - IShellFolderSearchableCallback.RunEnd
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

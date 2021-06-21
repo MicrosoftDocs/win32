@@ -1,5 +1,5 @@
 ---
-description: Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
+description: ID3DXMATRIXStack::Translate method (D3DX10.h) - Determines the product of the current matrix and the computed translation matrix determined by the given factors (x, y, and z).
 ms.assetid: d6e347a5-bb66-451d-b66e-49ea8eff70b3
 title: ID3DXMATRIXStack::Translate method (D3DX10.h)
 ms.topic: reference

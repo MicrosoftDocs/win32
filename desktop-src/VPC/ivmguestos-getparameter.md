@@ -43,7 +43,7 @@ HRESULT GetParameter(
 *inParameterName* \[in\]
 </dt> <dd>
 
-The parameter name. It must be between 1 and 255 characters in length and cannot contain a backslash (\) character.
+The parameter name. It must be between 1 and 255 characters in length and cannot contain a backslash (\\) character.
 
 </dd> <dt>
 

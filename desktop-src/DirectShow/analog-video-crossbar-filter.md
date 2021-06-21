@@ -18,7 +18,7 @@ For more information on wrapper filters and WDM streaming devices, see [How Hard
 
 
 
-|                                          |                                                                                                |
+| Label | Value |
 |------------------------------------------|------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMCrossbar**](/windows/desktop/api/Strmif/nn-strmif-iamcrossbar), ISpecifyPropertyPages, IPersistPropertyBag, IPersistStream |
 | Input Pin Media Types                    | MEDIATYPE\_AnalogAudio, MEDIATYPE\_AnalogVideo                                                 |

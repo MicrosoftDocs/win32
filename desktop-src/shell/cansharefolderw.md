@@ -14,16 +14,6 @@ api_type:
 api_location: 
 - Ntshrui.dll
 ms.assetid: 5fd28a14-53e7-4016-9c49-9bb14ce7808b
-api_name: 
- - CanShareFolderW
- - CanShareFolderW
-api_type: 
- - DllExport
-api_location: 
- - Ntshrui.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

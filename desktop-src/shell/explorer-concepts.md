@@ -1,5 +1,5 @@
 ---
-description: The Shell namespace organizes the file system and other objects managed by the Shell into a single tree-structured hierarchy. Conceptually, it is a larger and more inclusive version of the file system.
+description: Understand common concepts when you want to extend Windows Explorer, which is one of many extensibility options in the Windows Shell UI.
 title: Common Explorer Concepts
 ms.topic: article
 ms.date: 05/31/2018

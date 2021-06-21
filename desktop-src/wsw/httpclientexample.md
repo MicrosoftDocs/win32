@@ -1,6 +1,6 @@
 ---
 title: HttpClientExample
-description: This example shows a HTTP client that sends request-reply messages.
+description: Review an HTTP client example that uses the Windows Web Services API (WWSAPI). This example shows a HTTP client that sends request-reply messages.
 ms.assetid: e32a35f7-df01-4d6d-966c-6cf079b1b3a7
 keywords:
 - HttpClientExample Native-Web-Services

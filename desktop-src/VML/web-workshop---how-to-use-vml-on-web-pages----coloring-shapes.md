@@ -1,6 +1,6 @@
 ---
 title: Coloring Shapes
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This article describes coloring shapes in VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: f528f0c7-1351-4bca-b309-67511431b711
 keywords:
 - Web workshop,coloring shapes

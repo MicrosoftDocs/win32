@@ -1,6 +1,6 @@
 ---
 title: Querying the Index (WDS 2.x)
-description: .
+description: Querying the Index (WDS 2.x)
 ms.assetid: e3f790be-40f7-4796-bae8-5c12983f92c5
 ms.topic: article
 ms.date: 05/31/2018

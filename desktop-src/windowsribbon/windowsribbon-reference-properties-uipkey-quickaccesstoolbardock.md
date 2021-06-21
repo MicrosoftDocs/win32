@@ -28,7 +28,7 @@ The property value is from the [**UI\_CONTROLDOCK**](/windows/desktop/api/uiribb
 
 
 
-|                         |                                                                                                                                                                                                                                                       |
+|    Enumeration                     |    Description                                                                                                                                                                                                                                                   |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | UI\_CONTROLDOCK\_TOP    | The QAT is docked in the nonclient area of the Ribbon host application, as shown in the following screen shot.![screen shot of the quick access toolbar docked above the ribbon in the nonclient area.](images/properties/qat-docktop.png)<br/> |
 | UI\_CONTROLDOCK\_BOTTOM | The QAT is docked as a visually integral band below the Ribbon, as shown in the following screen shot. ![screen shot of the quick access toolbar docked below the ribbon.](images/properties/qat-dockbottom.png)<br/>                           |

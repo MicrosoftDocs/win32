@@ -1,6 +1,6 @@
 ---
 title: Windows Media Format SDK Constants
-description: Constants
+description: These articles describe constants used by the objects of the Windows Media DRM Client Extended APIs.
 ms.assetid: 4a481813-c876-4603-85e3-7652e3e20c02
 keywords:
 - Windows Media Format SDK,constants

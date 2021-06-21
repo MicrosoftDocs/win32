@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseFilter.CBaseFilter(const TCHAR\*, LPUNKNOWN, CCritSec\*, REFCLSID, HRESULT\*) constructor - Constructor method.
 ms.assetid: 705a075e-3f0f-4e7d-94b6-3458f87b6718
 title: CBaseFilter.CBaseFilter(const TCHAR*, LPUNKNOWN, CCritSec*, REFCLSID, HRESULT*) constructor (Amfilter.h)
 ms.topic: reference

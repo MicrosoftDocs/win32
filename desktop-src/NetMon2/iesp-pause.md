@@ -1,5 +1,5 @@
 ---
-description: The Pause method pauses the current capture.
+description: IESP::Pause method - The Pause method pauses the current capture.
 ms.assetid: efbc8947-b9fe-4dbd-8097-375b5f99845e
 title: IESP::Pause method (Netmon.h)
 ms.topic: reference

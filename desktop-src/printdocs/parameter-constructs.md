@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Understand parameter constructs in the Print Schema Framework. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 3cb9dcf9-25fc-4d85-a770-bc5b5fdf74ef
 title: Parameter Constructs
 ms.topic: article

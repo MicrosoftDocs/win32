@@ -1,6 +1,6 @@
 ---
 title: Reading ASF Files in DirectShow (Windows Media Format 11 SDK)
-description: Reading ASF Files in DirectShow
+description: Playback of ASF files is handled by the WM ASF Reader filter. Learn about reading ASF files in DirectShow in the Windows Media Format 11 SDK.
 ms.assetid: eec2c91f-1762-4798-91d0-d68ec2160d6a
 keywords:
 - Windows Media Format SDK,DirectShow

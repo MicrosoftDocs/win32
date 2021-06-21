@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: d8339f87-ba05-40bf-b7d1-a9de29eb15a4
-api_name: 
- - FMS_GETFILESEL
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

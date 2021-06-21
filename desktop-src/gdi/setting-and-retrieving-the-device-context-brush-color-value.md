@@ -13,10 +13,10 @@ The following example shows how an application can retrieve the current DC brush
 
 ```C++
 SelectObject(hdc,GetStockObject(DC_BRUSH));
-SetDCBrushColor(hdc, RGB(00,0xff;00);
-PatBlt(0,0,200,200,PATCOPY)
-SetDCBrushColor(hdc,RGB(00,00,0xff);
-PatBlt(0,0,200,200,PATCOPY);
+SetDCBrushColor(hdc,RGB(00,0xff,00));
+PatBlt(hdc,0,0,200,200,PATCOPY);
+SetDCBrushColor(hdc,RGB(00,00,0xff));
+PatBlt(hdc,0,0,200,200,PATCOPY);
 ```
 
 

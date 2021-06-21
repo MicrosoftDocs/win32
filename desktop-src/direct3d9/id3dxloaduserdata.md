@@ -1,5 +1,5 @@
 ---
-description: This interface is implemented by the application to save any additional user data embedded in .x files.
+description: ID3DXLoadUserData interface - This interface is implemented by the application to save any additional user data embedded in .x files.
 ms.assetid: 0d656f99-c24c-4326-bc6f-c0e7874c0fb2
 title: ID3DXLoadUserData interface (D3dx9anim.h)
 ms.topic: reference

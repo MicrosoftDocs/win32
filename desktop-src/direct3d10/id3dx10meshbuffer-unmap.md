@@ -43,9 +43,9 @@ The return value is one of the values listed in [Direct3D 10 Return Codes](d3d10
 
 
 
-|                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> Unmap() in Direct3D 10 is analogous to resource Unlock() in Direct3D 9.<br/> |
+Differences between Direct3D 9 and Direct3D 10:
+
+- Unmap() in Direct3D 10 is analogous to resource Unlock() in Direct3D 9.
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Not implemented.
+description: IXml2Dex::Reset method - Not implemented.
 ms.assetid: f51972fe-e095-4ce2-93b6-841ed24c6ce7
 title: IXml2Dex::Reset method
 ms.topic: reference

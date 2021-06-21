@@ -1,6 +1,6 @@
 ---
 title: Attributes (Windows Media Format 11 SDK)
-description: Attributes
+description: Learn about attributes in the Windows Media Format 11 SDK. An attribute is an individual item of metadata.
 ms.assetid: 1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4
 keywords:
 - Windows Media Format SDK,attributes

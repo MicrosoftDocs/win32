@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: e5767d28-4c0a-49bc-a1d3-ba809411456d
-api_name: 
- - DiskQuotaControl.FindUser
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

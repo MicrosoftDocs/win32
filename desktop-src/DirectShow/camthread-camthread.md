@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CAMThread.CAMThread constructor - Constructor method.
 ms.assetid: 0057adfe-e397-476b-90f9-7edbf7377b65
 title: CAMThread.CAMThread constructor (Wxutil.h)
 ms.topic: reference

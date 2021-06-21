@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the DocumentSeparatorSheet element, which describes the separator sheet usage for a document.
 ms.assetid: f0b2192d-4bb7-4ba2-8dd0-35a20183ea31
 title: DocumentSeparatorSheet
 ms.topic: article
@@ -20,7 +20,7 @@ Describes the separator sheet usage for a document. Separator sheets should appe
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Feature<br/>  |
 | Scoping Prefix <br/> | Document<br/> |

@@ -10,15 +10,10 @@ ms.date: 05/31/2018
 
 The D3DX 11 API is described in this section.
 
-> [!Note]  
-> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8 and is not supported for Windows Store apps.
-
- 
-
+> [!NOTE]  
+> The D3DX (D3DX 9, D3DX 10, and D3DX 11) utility library is deprecated for Windows 8, and is not supported for Microsoft Store apps. For details on recommended replacements for D3DX11, see [Living without D3DX](https://walbourn.github.io/living-without-d3dx/). For older projects, you can make use of the [Microsoft.DXSDK.D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet package rather than relying on the legacy DirectX SDK or DirectSetup.
 
 ## In this section
-
-
 
 | Topic                                                                        | Description                                                                                                                                  |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -26,26 +21,9 @@ The D3DX 11 API is described in this section.
 | [D3DX Functions](d3d11-graphics-reference-d3dx11-functions.md)<br/>   | This section contains information about the D3DX 11 functions.<br/>                                                                    |
 | [D3DX Structures](d3d11-graphics-reference-d3dx11-structures.md)<br/> | This section contains information about the D3DX 11 structures.<br/>                                                                   |
 | [D3DX Enumerations](d3d11-graphics-reference-d3dx11-enums.md)<br/>    | This section contains information about D3DX 11 enumerations.<br/>                                                                     |
-
-
-
- 
-
 ## Related topics
 
-<dl> <dt>
+* [Direct3D 11 Reference](atoc-d3d11-graphics-reference.md)
 
-[Direct3D 11 Reference](atoc-d3d11-graphics-reference.md)
-</dt> <dt>
-
-[Direct3D 11 Reference](d3d11-graphics-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
-
+* [Direct3D 11 Reference](d3d11-graphics-reference.md)
+* 
