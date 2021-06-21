@@ -18,6 +18,10 @@ The AAC decoder supports both raw AAC streams with no headers and AAC in an audi
 
 Starting in Windows 8, the AAC decoder also supports decoding MPEG-4 audio transport streams with a multiplex layer (LATM) and synchronization layer (LOAS). It can also convert an LATM/LOAS stream to ADTS.
 
+## Class Identifier
+
+The class identifier (CLSID) of the AAC encoder is **CLSID\_CMSAACDecMFT**, defined in the header file wmcodecdsp.h.
+
 ## Media Types
 
 The AAC decoder supports the following media types.
