@@ -23,7 +23,7 @@ Today's applications must support high-quality text rendering, resolution-indepe
 The API supports measuring, drawing, and hit-testing of multi-format text. DirectWrite handles text in all supported languages for global and localized applications, building on the key language infrastructure found in Windows 7. DirectWrite also provides a low-level glyph rendering API for developers who want to perform their own layout and Unicode-to-glyph processing.
 
 > [!NOTE]
-> [Project Reunion](/windows/apps/project-reunion/) introduces a new version of DirectWrite&mdash;called DWriteCore&mdash;that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform. For more details, see [DWriteCore overview](dwritecore-overview.md).
+> [Windows App SDK](/windows/apps/windows-app-sdk/) introduces a new version of DirectWrite&mdash;called DWriteCore&mdash;that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform. For more details, see [DWriteCore overview](dwritecore-overview.md).
 
 ## Run-time requirements
 
