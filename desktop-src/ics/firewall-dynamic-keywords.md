@@ -1,6 +1,6 @@
 ---
 title: Firewall dynamic keywords
-description: You use the firewall dynamic keywords APIs to manage dynamic keyword addresses in Windows Defender Firewall.
+description: You use the firewall dynamic keywords APIs to manage dynamic keyword addresses in Microsoft Defender Firewall.
 keywords:
 - Firewall dynamic keywords
 ms.topic: article
@@ -10,7 +10,7 @@ ms.localizationpriority: low
 
 # Firewall dynamic keywords
 
-You use the firewall dynamic keywords APIs to manage *dynamic keyword addresses* in [Windows Defender Firewall](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security). A dynamic keyword address is used to create a set of IP addresses to which one or more firewall rules can refer. Dynamic keyword addresses support both IPv4 and IPv6.
+You use the firewall dynamic keywords APIs to manage *dynamic keyword addresses* in [Microsoft Defender Firewall](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security). A dynamic keyword address is used to create a set of IP addresses to which one or more firewall rules can refer. Dynamic keyword addresses support both IPv4 and IPv6.
 
 > [!NOTE]
 > For API reference content for the APIs introduced in this topic, see [Firewall dynamic keywords reference](firewall-dynamic-keywords-reference.md).
