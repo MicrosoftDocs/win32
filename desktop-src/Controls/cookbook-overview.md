@@ -115,10 +115,10 @@ The following topics describe the steps for applying visual styles to different 
 The following are examples of applications that do not use third-party extensions.
 
 -   Calculator
--   FreeCell
--   Minesweeper
+-   FreeCell (in Windows Vista and Windows 7)
+-   Minesweeper (in Windows Vista and Windows 7)
 -   Notepad
--   Solitaire
+-   Solitaire (in Windows Vista and Windows 7)
 
 **To create a manifest and enable your application to use visual styles.**
 
