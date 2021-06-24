@@ -33,13 +33,13 @@ DWriteCore is demonstrated by way of the [DWriteCoreGallery](https://github.com/
 
 ## Get started with DWriteCore
 
-DWriteCore is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/0.8.0). This section describes how to set up your development environment for programming with DWriteCore.
+DWriteCore is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0). This section describes how to set up your development environment for programming with DWriteCore.
 
 ### Install the Windows App SDK 0.8 VSIX
 
 In Visual Studio, click **Extensions** > **Manage Extensions**, search for *Windows App SDK*, and download the Windows App SDK extension. Close and reopen Visual Studio, and follow the prompts to install the extension.
 
-For more info, see [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/0.8.0), and [Build desktop Windows apps with Windows App SDK 0.8](/windows/apps/windows-app-sdk/#set-up-your-development-environment).
+For more info, see [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0) and [Set up your development environment](/windows/apps/windows-app-sdk/set-up-your-development-environment#3-install-the-windows-app-sdk-extension-for-visual-studio).
 
 ### Create a new project
 
@@ -65,7 +65,7 @@ Porting DirectWrite to DWriteCore is a sufficiently large project to span multip
 
 ### Features in the current release of DWriteCore
 
-The version of DWriteCore currently available is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/0.8.0). It contains the basic tools that you, as a developer, need to consume DWriteCore, including the following features.
+The version of DWriteCore currently available is part of [Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0). It contains the basic tools that you, as a developer, need to consume DWriteCore, including the following features.
 
 - Font enumeration.
 - Font API.
