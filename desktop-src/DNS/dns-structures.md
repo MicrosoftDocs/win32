@@ -17,10 +17,12 @@ The following structures are defined for use with DNS:
 
 - [**DNS_ADDR**](/windows/win32/api/windns/ns-windns-dns_addr)
 - [**DNS_ADDR_ARRAY**](/windows/win32/api/windns/ns-windns-dns_addr_array)
+- [**DNS_CUSTOM_SERVER**](/windows/win32/api/windns/ns-windns-dns_custom_server)
 - [**DNS_HEADER**](/windows/desktop/api/Windns/ns-windns-dns_header)
 - [**DNS_MESSAGE_BUFFER**](/windows/desktop/api/Windns/ns-windns-dns_message_buffer)
 - [**DNS_PROXY_INFORMATION**](/windows/desktop/api/Windns/ns-windns-dns_proxy_information)
 - [**DNS_QUERY_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_query_request)
+- [**DNS_QUERY_REQUEST3**](/windows/desktop/api/Windns/ns-windns-dns_query_request3)
 - [**DNS_RECORD**](/windows/win32/api/windns/ns-windns-dns_recorda)
 - [**DNS_RECORD_FLAGS**](/windows/win32/api/windns/ns-windns-dns_record_flags)
 - [**DNS_SERVICE_BROWSE_REQUEST**](/windows/desktop/api/Windns/ns-windns-dns_service_browse_request)

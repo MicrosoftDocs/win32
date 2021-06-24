@@ -47,6 +47,10 @@ DirectWrite defines the following enumerations.
 <td>Specifies the type of DirectWrite factory object.</td>
 </tr>
 <tr>
+<td><a href="/windows/windows-app-sdk/api/win32/dwrite/ne-dwrite-dwrite_factory_type"><strong>DWRITE_FACTORY_TYPE (DWriteCore)</strong></a></td>
+<td>Specifies the type of DirectWrite factory object.</td>
+</tr>
+<tr>
 <td><a href="/windows/win32/api/dwrite/ne-dwrite-dwrite_flow_direction"><strong>DWRITE_FLOW_DIRECTION</strong></a></td>
 <td>Indicates the direction of how lines of text are placed relative to one another. </td>
 </tr>
