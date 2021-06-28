@@ -14,7 +14,7 @@ This tool is only available in the [Windows SDK Components for Windows Installer
 
 ## Syntax
 
-**orca** *\[<options>\]\[<source file>\]*
+**orca** *\[\<options>\]\[\<source file>\]*
 
 ## Command Line Options
 
