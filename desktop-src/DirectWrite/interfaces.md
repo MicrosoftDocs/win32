@@ -19,7 +19,7 @@ DirectWrite defines the following interfaces.
 | [**IDWriteAsyncResult**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult) | Represents the result of an asynchronous operation. A client can use the interface to wait for the operation to complete, and to get the result.  |
 | [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) | Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs. |
 | [**IDWriteBitmapRenderTarget1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1) | Encapsulates a 32-bit device independent bitmap and device context, which you can use for rendering glyphs. |
-| [**IDWriteBitmapRenderTarget2**](./dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2.md) | Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs. |
+| [**IDWriteBitmapRenderTarget2**](/windows/windows-app-sdk/api/win32/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2) | Encapsulates a 32-bit device independent bitmap and device context, which can be used for rendering glyphs. |
 | [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) | This interface allows the application to enumerate through the color glyph runs. |
 | [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) | Enumerator for an ordered collection of color glyph runs. |
 | [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | Used to create all subsequent DirectWrite objects. This interface is the root factory interface for all DirectWrite objects. |

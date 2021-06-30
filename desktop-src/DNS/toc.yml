@@ -124,6 +124,8 @@
         href: /windows/desktop/api/Windns/ns-windns-dns_addr_array
       - name: "DNS_ATMA_DATA"
         href: /windows/desktop/api/Windns/ns-windns-dns_atma_data
+      - name: "DNS_CUSTOM_SERVER"
+        href: /windows/win32/api/windns/ns-windns-dns_custom_server
       - name: "DNS_DHCID_DATA"
         href: /windows/desktop/api/Windns/ns-windns-dns_dhcid_data
       - name: "DNS_DS_DATA"
@@ -158,6 +160,8 @@
         href: /windows/win32/api/Windns/ns-windns-dns_query_cancel
       - name: "DNS_QUERY_REQUEST"
         href: /windows/win32/api/Windns/ns-windns-dns_query_request
+      - name: "DNS_QUERY_REQUEST3"
+        href: /windows/win32/api/windns/ns-windns-dns_query_request3
       - name: "DNS_QUERY_RESULT"
         href: /windows/win32/api/Windns/ns-windns-dns_query_result
       - name: "DNS_RRSET"
