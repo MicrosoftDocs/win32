@@ -16,7 +16,7 @@ This documentation contains the following sections:
 
 
 
-|                                                                                      |                                                                                                                                                        |
+| Topic                                                                                     | Description                                                                                                                                                       |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [What's New for Media Foundation](whats-new-for-media-foundation.md)                | Describes what has changed in the latest version of Media Foundation.                                                                                  |
 | [About Media Foundation](about-the-media-foundation-sdk.md)                         | Lists the headers and libraries you will need, and describes the tools and code samples that are provided to make Media Foundation development easier. |
