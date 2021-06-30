@@ -60,7 +60,7 @@ dest.w = src0.w + src1.w;
 
 
 
-|                          |            |
+|   Requirement                       | Value           |
 |--------------------------|------------|
 | Minimum operating system | Windows 98 |
 

@@ -17,9 +17,8 @@ HLSL supports many different intrinsic data types. This table shows which types 
 
 
 
-|                                                                                                                         |                                            |
+| Use this intrinsic type                                                                                                                         | To define this shader variable                                            |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| Use This Intrinsic Type                                                                                                 | To Define This Shader Variable             |
 | [Scalar](dx-graphics-hlsl-scalar.md)                                                                                   | One-component scalar                       |
 | [Vector](dx-graphics-hlsl-vector.md), [Matrix](dx-graphics-hlsl-matrix.md)                                            | Multiple-component vector or matrix        |
 | [Sampler](dx-graphics-hlsl-sampler.md), [Texture](dx-graphics-hlsl-texture.md) or [Buffer](dx-graphics-hlsl-buffer.md)   | Sampler, texture, or buffer object         |
