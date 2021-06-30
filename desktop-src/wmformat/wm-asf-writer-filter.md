@@ -1,6 +1,6 @@
 ---
 title: WM ASF Writer Filter (Windows Media Format 11 SDK)
-description: Learn about the WM ASF Writer filter.
+description: Learn about the WM ASF Writer filter for the Windows Media Format 11 SDK. Review filter information and see related topics.
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK,WM ASF Writer
