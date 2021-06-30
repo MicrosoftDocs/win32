@@ -10,7 +10,8 @@ ms.date: 05/31/2018
 
 This content focuses on using DirectX in a Win32 application. For information on using DirectX in a UWP application, see the [Windows 10 game development guide (UWP)](/windows/uwp/gaming/e2e).
 
-Make sure that you visit the [DirectX Landing Page](https://devblogs.microsoft.com/directx/landing-page/) for the full list of resources relevant to DirectX developers.
+> [!TIP]
+> For descriptions of and links to DirectX components in active development, see the blog post [DirectX Landing Page](https://devblogs.microsoft.com/directx/landing-page/).
 
 ## In this section
 
