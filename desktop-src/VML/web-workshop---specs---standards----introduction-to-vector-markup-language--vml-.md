@@ -67,7 +67,7 @@ Finally, add VML elements to define visuals effects. For example, the following 
 
 See the links below:
 
--   For answers to frequently asked questions about VML, see the [VML FAQ](frequently-asked-questions-about-vml.md).
+-   For answers to frequently asked questions about VML, see the [VML FAQ](frequently-asked-questions-about-vml.yml).
 -   For a tutorial on using VML on Web pages, see [How to Use VML on Web Pages](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md), which complements the [VML specification](https://www.w3.org/TR/NOTE-datetime.html) submitted to the W3C.
 -   For information on VML data types, see the [Basic VML Types](basic-vml-types.md) document.
 -   For the complete reference on VML, including information on how to use VML with tags as well as scripting, see the [VML Reference](msdn-online-vml-introduction.md).

@@ -15,9 +15,7 @@ api_location:
 
 Samples a texture.
 
-|                                                                                  |
-|----------------------------------------------------------------------------------|
-| &lt;Template Type&gt; Object.Sample( sampler\_state S, float Location \[, int Offset\] ); |
+&lt;Template Type&gt; Object.Sample( sampler\_state S, float Location \[, int Offset\] );
 
 ## Parameters
 

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageWatermarkOriginHeight parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: ef429727-d881-408b-95ce-2acce667654a
 title: PageWatermarkOriginHeight
 ms.topic: article

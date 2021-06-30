@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This overview describes the Print Schema and links to Print Schema reference topics. The Print Schema includes the Print Schema Keywords and the Framework.
 ms.assetid: 'd746bdd1-96c2-41f5-ad99-0b51c8ee8731'
 title: Legacy Print Schema Reference
 ms.topic: article

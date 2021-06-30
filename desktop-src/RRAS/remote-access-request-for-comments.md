@@ -1,6 +1,6 @@
 ---
 title: Remote Access Request for Comments
-description: Requests for Comments (RFCs) are an ongoing series of documents that discuss the Internet and Internet-related technologies.
+description: This article lists Requests for Comments (RFCs) for Remote Access. RFCs are an ongoing series of documents that discuss Internet-related technologies.
 ms.assetid: ee52dde3-e87d-437f-8321-77d771d715ec
 keywords:
 - RFCs, Remote Access

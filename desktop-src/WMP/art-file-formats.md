@@ -1,6 +1,6 @@
 ---
 title: Art File Formats
-description: Art File Formats
+description: Learn about the art file formats that Windows Media Player recognizes for skins. These include bitmap, GIF, JPEG, and PNG.
 ms.assetid: 803479e8-0e00-4724-80b7-9d86709c43db
 keywords:
 - Windows Media Player skins,art files

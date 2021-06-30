@@ -1,5 +1,5 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Learn about Windows Installer concepts that begin with the letter G, such as globally unique identifier (GUID).
 ms.assetid: 5cd0e997-cb40-4209-a74e-a65b307637b8
 title: G (Windows Installer)
 ms.topic: article

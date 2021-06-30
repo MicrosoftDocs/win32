@@ -1,5 +1,5 @@
 ---
-description: Uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) with certificates to authenticate to the network.
+description: Uses Extensible Authentication Protocol Transport Level Security (EAP-TLS) with certificates to authenticate to the network (WPA-Enterprise).
 ms.assetid: fceeae22-3761-48ab-a190-1a7b1568ed64
 title: WPA-Enterprise with TLS Profile Sample
 ms.topic: article

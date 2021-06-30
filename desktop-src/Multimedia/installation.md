@@ -1,6 +1,6 @@
 ---
 title: Installation (Windows Multimedia)
-description: Installation
+description: Learn about Windows Multimedia installation, including processing the DRV_INSTALL and DRV_REMOVE messages.
 ms.assetid: '1f0e23ad-4db7-4f32-98d9-e672370db559'
 keywords:
 - installable drivers,installing

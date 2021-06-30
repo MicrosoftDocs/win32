@@ -1,5 +1,5 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Learn about Windows Installer concepts that begin with the letter C, such as cabinet file and checksum.
 ms.assetid: f98d19c5-5187-4718-b241-3ec69454c2d6
 title: C (Windows Installer)
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: WMDM structures
-description: Structures
+description: This article includes reference articles about structures defined by Windows Media Device Manager, such as _BITMAPINFOHEADER and MTP_COMMAND_DATA_IN.
 ms.assetid: 3068359f-5ac0-41e0-a09b-283b439527a0
 keywords:
 - Windows Media Device Manager,structures

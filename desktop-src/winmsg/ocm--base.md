@@ -23,7 +23,7 @@ The following are the ranges of message numbers.
 
 | Range                                                 | Meaning                                                        |
 |-------------------------------------------------------|----------------------------------------------------------------|
-| 0 through [**WM\_USER**](wm-user.md)  1<br/>   | Messages reserved for use by the system.<br/>            |
+| 0 through [**WM\_USER**](wm-user.md)-1<br/>   | Messages reserved for use by the system.<br/>            |
 | [**WM\_USER**](wm-user.md) through 0x7FFF<br/> | Integer messages for use by private window classes.<br/> |
 | [**WM\_APP**](wm-app.md) through 0xBFFF<br/>   | Messages available for use by applications.<br/>         |
 | 0xC000 through 0xFFFF<br/>                      | String messages for use by applications.<br/>            |

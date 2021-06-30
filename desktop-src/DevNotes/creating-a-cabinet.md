@@ -1,5 +1,5 @@
 ---
-description: The following syntax illustrates the creation of a cabinet.
+description: View a code example that illustrates how to create a cabinet by using the Cabinet API. To compile, the callback functions must be defined.
 ms.assetid: a16c332d-5afc-46ad-992b-324ed5e70683
 title: Creating a Cabinet
 ms.topic: article

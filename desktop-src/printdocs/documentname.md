@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the DocumentName property, which specifies a descriptive name for the document.
 ms.assetid: acb25fd6-6706-43ee-9ac0-539f20c13390
 title: DocumentName
 ms.topic: article

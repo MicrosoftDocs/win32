@@ -1,5 +1,5 @@
 ---
-description: Refreshes the contents of the Start menu. Used only with systems preceding Windows XP.
+description: Learn about the Shell.RefreshMenu method, which refreshes the contents of the Start menu. Used only with systems preceding Windows XP.
 ms.assetid: 1269c66d-61df-432d-9220-5ac975e3ad58
 title: Shell.RefreshMenu method (Shldisp.h)
 ms.topic: reference

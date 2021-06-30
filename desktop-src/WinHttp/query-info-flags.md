@@ -798,6 +798,24 @@ Returns the header value as a [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-
 
 </dt> </dl> </dd> </dl>
 
+<span id="WINHTTP_QUERY_FLAG_TRAILERS"></span><span id="winhttp_query_flag_trailers"></span>**WINHTTP\_QUERY\_FLAG\_TRAILERS**
+</dt> <dd> <dl> <dt>
+
+
+Queries response trailers. Prior to querying response trailers, you must call [**WinHttpReadData**](/windows/win32/api/Winhttp/nf-winhttp-winhttpreaddata) until it returns 0 bytes read.
+
+
+</dt> </dl> </dd> </dl>
+
+<span id="WINHTTP_QUERY_FLAG_WIRE_ENCODING"></span><span id="winhttp_query_flag_wire_encoding"></span>**WINHTTP\_QUERY\_FLAG\_WIRE\_ENCODING**
+</dt> <dd> <dl> <dt>
+
+
+By default, [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) performs a Unicode conversion before returning the header that was queried. If this flag is set, WinHttp returns the header to the caller without performing this conversion.
+
+
+</dt> </dl> </dd> </dl>
+
 ## Requirements
 
 | Requirement | Value |

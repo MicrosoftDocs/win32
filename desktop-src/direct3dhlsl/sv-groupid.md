@@ -25,9 +25,8 @@ Defines the group offset within a [**Dispatch**](/windows/desktop/api/d3d11/nf-d
 
 
 
-|       |
+| Type      |
 |-------|
-| Type  |
 | uint3 |
 
 

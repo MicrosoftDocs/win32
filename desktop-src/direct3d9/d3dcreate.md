@@ -1,5 +1,5 @@
 ---
-description: See a combination of one or more flags that control the device create behavior.
+description: See a combination of one or more flags that control the device create behavior in the D3DCREATE constant.
 ms.assetid: 91387a2d-3927-4285-a09b-9ce247e6bfdd
 title: D3DCREATE
 ms.topic: article

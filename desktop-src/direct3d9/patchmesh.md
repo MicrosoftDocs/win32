@@ -1,5 +1,5 @@
 ---
-description: Defines a mesh defined by Bézier patches. The first array is a list of vertices, and the second array defines the patches for the mesh by indexing into the vertex array.
+description: PatchMesh defines a mesh defined by Bézier patches, including a list of vertices and the patches for the mesh by indexing into the vertex array.
 ms.assetid: 'vs|directx_sdk|~\patchmesh.htm'
 title: PatchMesh
 ms.topic: article

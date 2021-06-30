@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: PrintTickets are expressed in the syntax of the XML-based Print Schema Framework. Review the Summary of Element Types for the required syntax.
 ms.assetid: 2f595ff9-ac0e-414c-a266-43feea3de034
 title: PrintTicket Syntax and Schema
 ms.topic: article

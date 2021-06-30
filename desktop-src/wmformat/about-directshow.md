@@ -1,5 +1,5 @@
 ---
-title: About DirectShow (Windows Media Format 11 SDK)
+title: Learn about DirectShow in Windows Media Format 11 SDK, a high-level, modular, extensible, data-streaming architecture for the Windows platform.
 description: About DirectShow
 ms.assetid: 1a0b68c7-9444-4389-8d81-dc734e95634d
 keywords:

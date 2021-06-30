@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This article lists the element types that are defined in the Print Schema Framework, and that are used to express the Print Schema-related technologies.
 ms.assetid: 48b259e0-10ff-4964-a8de-a54ae3731c60
 title: Summary of Element Types
 ms.topic: article

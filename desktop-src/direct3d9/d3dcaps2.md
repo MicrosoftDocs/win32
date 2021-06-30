@@ -1,5 +1,5 @@
 ---
-description: See a list of driver capability flags. Includes the definitions, values, and descriptions with links to APIs.
+description: See a list of D3DCAPS2 driver capability flags. Includes the definitions, values, and descriptions with links to APIs.
 ms.assetid: 0c0c65fc-f953-4379-a6d0-6ce447a0c183
 title: D3DCAPS2
 ms.topic: article

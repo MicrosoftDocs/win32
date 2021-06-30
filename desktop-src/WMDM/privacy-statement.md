@@ -1,6 +1,6 @@
 ---
 title: Privacy Statement (Windows Media Device Manager 11 SDK)
-description: Privacy Statement
+description: Learn about a privacy statement, where developers using the Windows Media Device Manager 11 SDK should communicate how user privacy could be affected.
 ms.assetid: cfa5bc63-9774-418a-b1ae-207b277b63ba
 keywords:
 - Windows Media Device Manager,privacy statements

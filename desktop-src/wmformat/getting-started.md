@@ -1,6 +1,6 @@
 ---
 title: Getting Started with Windows Media Format SDK
-description: Getting Started
+description: Use these resources to get stared with the Windows Media Format SDK, such as library files and compiler settings.
 ms.assetid: 'e6f560a6-e677-47dc-b99c-e14bd60e4007'
 keywords:
 - Windows Media Format SDK,getting started

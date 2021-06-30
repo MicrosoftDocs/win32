@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn how the JobCollateAllDocuments element describes the collating characteristics of the output. All documents in each individual job are collated.
 ms.assetid: 64fcd03f-8e0a-498d-82ea-0c69be0a3886
 title: JobCollateAllDocuments
 ms.topic: article

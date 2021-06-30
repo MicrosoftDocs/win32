@@ -1,6 +1,6 @@
 ---
 title: Grouping Shapes
-description: This topic describes VML, a feature that is deprecated as of Windows Internet Explorer 9. Webpages and applications that rely on VML should be migrated to SVG or other widely supported standards.
+description: This article describes grouping shapes in VML, a feature that is deprecated as of Windows Internet Explorer 9.
 ms.assetid: 469c9e4d-d1ae-4285-b2cb-ac833ebe59ff
 keywords:
 - Web workshop,grouping shapes

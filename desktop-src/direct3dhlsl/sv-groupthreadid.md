@@ -23,9 +23,8 @@ Indices for which an individual thread within a thread group a compute shader is
 
 
 
-|       |
+| Type      |
 |-------|
-| Type  |
 | uint3 |
 
 

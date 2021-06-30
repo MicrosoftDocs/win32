@@ -15,11 +15,7 @@ api_location:
 
 Samples a texture using a mipmap-level offset.
 
-
-
-|                                                                                                  |
-|--------------------------------------------------------------------------------------------------|
-| &lt;Template Type&gt; Object.SampleLevel( sampler\_state S, float Location, float LOD \[, int Offset\] ); |
+&lt;Template Type&gt; Object.SampleLevel( sampler\_state S, float Location, float LOD \[, int Offset\] );
 
 
 

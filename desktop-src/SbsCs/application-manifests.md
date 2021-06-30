@@ -141,7 +141,7 @@ The **supportedOS** element has the following attribute. It has no subelements.
 
 ### maxversiontested
 
-The **maxversiontested** element specifies the maximum version of Windows that the application was tested against. This is intended to be used by desktop applications that use [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) and that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
+The **maxversiontested** element specifies the versions of Windows that the application was tested against starting with the minimum OS version the application supports up to the maximum version. The complete set of versions can be found [here](https://developer.microsoft.com/windows/downloads/sdk-archive/). This is intended to be used by desktop applications that use [XAML Islands](/windows/apps/desktop/modernize/xaml-islands) and that are not deployed in an MSIX package. This element is supported in Windows 10, version 1903, and later versions.
 
 The **maxversiontested** element has the following attribute. It has no subelements.
 

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PrintTicket format, which expresses configuration information using the XML-based Print Schema Framework.
 ms.assetid: 573c2c82-aeb9-4ef2-8a1b-40b4db6ac6e4
 title: PrintTicket Schema and Document Construction
 ms.topic: article

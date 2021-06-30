@@ -1,5 +1,5 @@
 ---
-description: Before you can write events to a trace session, you must register your provider.
+description: Learn about writing manifest-based events to a trace session. Begin with registering your provider, so that it is ready to write events to a trace session.
 ms.assetid: 76e7202e-74ce-40a3-a04b-9af5117fe20e
 title: Writing Manifest-based Events
 ms.topic: article

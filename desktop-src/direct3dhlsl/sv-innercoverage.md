@@ -22,9 +22,8 @@ SV\_InputCoverage represents underestimated conservative rasterization informati
 
 
 
-|      |
+| Type     |
 |------|
-| Type |
 | uint |
 
 

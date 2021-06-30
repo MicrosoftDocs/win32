@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobPrimaryCoverFront element, which describes the front cover sheet. The entire job will have a single primary sheet. 
 ms.assetid: 270b16f6-677c-430a-aa69-1b5c6dfd3ba4
 title: JobPrimaryCoverFront
 ms.topic: article

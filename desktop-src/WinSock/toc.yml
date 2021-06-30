@@ -1138,6 +1138,8 @@
         href: /windows/win32/api/ws2def/ns-ws2def-addrinfoa
       - name: "addrinfoW"
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfow
+      - name: "ADDRINFO_DNS_SERVER"
+        href: /windows/win32/api/ws2def/ns-ws2def-addrinfo_dns_server
       - name: "addrinfoex"
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoexw
       - name: "addrinfoex2"
@@ -1146,6 +1148,10 @@
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoex3
       - name: "addrinfoex4"
         href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoex4
+      - name: "addrinfoex5"
+        href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoex5
+      - name: "addrinfoex6"
+        href: /windows/win32/api/Ws2def/ns-ws2def-addrinfoex6
       - name: "AFPROTOCOLS"
         href: /windows/win32/api/Winsock2/ns-winsock2-afprotocols
       - name: "ASSOCIATE_NAMERES_CONTEXT_INPUT"

@@ -8,9 +8,12 @@ ms.date: 05/31/2018
 
 # D3DX (Direct3D 9)
 
+> [!NOTE]
+> The D3DX library is deprecated. If upgrading to a newer version of Direct3D and associated utility code is not an option, you can make use of the [Microsoft.DXSDK.D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet package rather than relying on the legacy DirectX SDK or DirectSetup.
+
 D3DX is a library of tools designed to provide additional graphics functionality on top of Direct3D. D3DX is provided as a dynamic-link library (DLL).
 
-Only one version of D3DX is provided in this release of the DirectX SDK. The retail D3DX DLL is included in the redistributable provided in the SDK, and is automatically installed as part of [Installing DirectX with DirectSetup](https://msdn.microsoft.com/library/ee418267(VS.85).aspx). The D3DX library included in this release is dependent on the Direct3D runtimes that shipped with this SDK. Applications linking against the version of D3DX in this release must also redistribute the runtime from this SDK.
+Only one version of D3DX is provided in this release of the DirectX SDK. The retail D3DX DLL is included in the redistributable provided in the SDK, and is automatically installed as part of **Installing DirectX with DirectSetup**. The D3DX library included in this release is dependent on the Direct3D runtimes that shipped with this SDK. Applications linking against the version of D3DX in this release must also redistribute the runtime from this SDK.
 
 Multiple releases of D3DX can reside independently on a single system simultaneously. By statically linking an application to D3dx9.lib, the application dynamically links to the corresponding retail D3DX DLL at run-time. This DLL corresponds to the D3DX headers the application is compiled against (named with the D3DX\_SDK\_VERSION constant in D3dx9core.h). As new versions of D3DX are shipped in future releases of the DirectX SDK, applications linking to earlier D3DX libraries will remain unaffected.
 

@@ -1,6 +1,6 @@
 ---
 title: Registering Application Dependency (Windows Media Format 11 SDK)
-description: Registering Application Dependency
+description: Learn how to register your application with runtime components of APIs provided by the Windows Media Format 11 SDK.
 ms.assetid: 09f63519-5c65-4784-9ea4-4fbecfa6d4aa
 keywords:
 - Windows Media Format SDK,registering application dependencies

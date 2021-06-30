@@ -15,11 +15,7 @@ api_location:
 
 Samples a texture using a gradient to influence the way the sample location is calculated.
 
-
-
-|                                                                                                            |
-|------------------------------------------------------------------------------------------------------------|
-| &lt;Template Type&gt; Object.SampleGrad( sampler\_state S, float Location, float DDX, float DDY \[, int Offset\] ); |
+&lt;Template Type&gt; Object.SampleGrad( sampler\_state S, float Location, float DDX, float DDY \[, int Offset\] );
 
 
 

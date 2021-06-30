@@ -1,5 +1,5 @@
 ---
-description: Windows GDI+ exposes a flat API that consists of about 600 functions, which are implemented in Gdiplus.dll and declared in Gdiplusflat.h.
+description: Windows GDI+ exposes a flat API that consists of about 600 functions. These flat API functions are wrapped by the GraphicsPathIterator C++ class.
 ms.assetid: 07408bce-88c7-43ef-b437-7b2ce37fca91
 title: PathIterator Functions
 ms.topic: article

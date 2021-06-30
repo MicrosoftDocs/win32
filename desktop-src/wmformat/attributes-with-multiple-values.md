@@ -1,6 +1,6 @@
 ---
 title: Attributes with Multiple Values (Windows Media Format 11 SDK)
-description: Attributes with Multiple Values
+description: Learn about attributes with multiple values in the Windows Media Format 11 SDK. Some media item attributes can have multiple values.
 ms.assetid: 2e65c5d0-6f5e-45a4-8e13-9e49da007145
 keywords:
 - Windows Media Format SDK,attributes

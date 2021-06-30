@@ -1,6 +1,6 @@
 ---
 title: IPv6 Information Types for Router Information Blocks
-description: Learn about the information types listed in Ipinfoid.h.
+description: Learn about the IPv6 information types listed in Ipinfoid.h. Use these information types with the Information Header functions when running the IP transport.
 ms.assetid: 58fa59e6-e0f3-4f04-9c57-585f1d496b31
 ms.topic: article
 ms.date: 05/31/2018

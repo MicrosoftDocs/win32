@@ -1,5 +1,5 @@
 ---
-description: Learn about a combination of one or more flags that control the device create behavior.
+description: Learn about a combination of one or more flags that control the device create behavior in the D3DVTXPCAPS constant.
 ms.assetid: 2d3e548f-8559-4a36-b814-6d598bead1d0
 title: D3DVTXPCAPS
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Read about the PageDeviceColorSpaceProfileURI parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: ab26850e-554a-4a1b-9250-edb0b4e17fe2
 title: PageDeviceColorSpaceProfileURI
 ms.topic: article

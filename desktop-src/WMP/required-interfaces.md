@@ -1,6 +1,6 @@
 ---
 title: Required Interfaces (Windows Media Player SDK)
-description: Required Interfaces
+description: Learn about the required interfaces that Windows Media Player implements in DirectShow or Media Foundation.
 ms.assetid: 202d5769-edff-46df-bc05-bbb630a8f3f4
 keywords:
 - Windows Media Player plug-ins,interfaces

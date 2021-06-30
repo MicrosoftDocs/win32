@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: PrintCapabilities providers must support a minimum set of capabilities, which are implied by the PrintTicket/PrintCapabilities Provider Interface.
 ms.assetid: 92e9bce1-d58e-40a4-9721-832d7c3bc2b2
 title: Responsibilities of PrintCapabilities Providers
 ms.topic: article

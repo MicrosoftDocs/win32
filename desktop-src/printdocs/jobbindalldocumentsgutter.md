@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobBindAllDocumentsGutter element, which specifies the width of the binding gutter.
 ms.assetid: 97a00cd6-508c-47e9-a1c1-75646ca0c721
 title: JobBindAllDocumentsGutter
 ms.topic: article

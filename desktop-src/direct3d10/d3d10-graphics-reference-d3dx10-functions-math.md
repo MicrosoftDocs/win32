@@ -1,5 +1,5 @@
 ---
-description: The math library provided by the D3DX utility library supplies functions to compute 3D mathematical operations.
+description: Learn about the math library provided by the D3DX utility library in Direct3D 10 Graphics. The library supplies functions to compute 3D mathematical operations.
 ms.assetid: 6e180c12-8cbe-4013-8bb4-3ac5bb9c65f1
 title: Math Functions (Direct3D 10 Graphics)
 ms.topic: article

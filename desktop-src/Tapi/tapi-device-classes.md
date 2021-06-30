@@ -1,5 +1,5 @@
 ---
-description: A device class is a group of related physical devices or device drivers through which applications send and receive the information or data that makes up a call.
+description: Learn about TAPI device classes. A device class is a group of devices or device drivers through which applications send and receive call information or data.
 ms.assetid: 859979a8-0d16-4b7b-b183-d6e30f3e034d
 title: TAPI Device Classes
 ms.topic: article

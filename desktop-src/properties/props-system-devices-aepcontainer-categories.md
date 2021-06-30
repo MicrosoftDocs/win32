@@ -1,5 +1,5 @@
 ---
-description: Categories the device is part of. e.g. Printer, Camera, etc.
+description: The System.Devices.AepContainer.Categories property indicates the categories the device is part of, such as Printer or Camera.
 ms.assetid: c435770e-57c5-4527-9bcb-c44d8c84b4f8
 title: System.Devices.AepContainer.Categories
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Voice Property (Command Object)
-description: Voice Property
+description: Learn about the Voice Property of the Command object, which returns or sets the text for the speech engine grammar for matching this Command for the character.
 ms.assetid: e393aa89-6fa7-4080-9faf-66faca83d561
 ms.topic: article
 ms.date: 05/31/2018

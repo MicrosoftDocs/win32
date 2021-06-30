@@ -1,6 +1,6 @@
 ---
 title: Windows Desktop Search 2.x
-description: The use of and development for the 2.x versions of Microsoft Windows Desktop Search (WDS) is strongly discouraged in favor of Windows Search.
+description: Understand Windows Desktop Search 2.x. For Windows releases later than Windows XP and Windows Server 2003, use Windows Search instead.
 ms.assetid: 3d73f850-58b8-4a41-8863-e2914661d4b9
 ms.topic: article
 ms.date: 05/31/2018

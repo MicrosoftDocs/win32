@@ -1,6 +1,6 @@
 ---
 title: Windows Media Player SDK Enumeration Types
-description: Enumeration Types
+description: Learn about the enumeration types that the Windows Media Player SDK supports, such as WMPBurnFormat and WMPBurnState.
 ms.assetid: '90689fb7-656d-4c06-a0a9-02bbe0e5b5dd'
 keywords:
 - Windows Media Player,enumeration types

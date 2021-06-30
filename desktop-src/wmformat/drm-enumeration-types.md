@@ -1,6 +1,6 @@
 ---
 title: Microsoft Windows Media DRM Client Enumeration Types
-description: Enumeration Types
+description: Learn about the enumerations that are supported by the Microsoft Windows Media DRM Client Extended APIs.
 ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
 keywords:
 - Windows Media Format SDK,enumeration types

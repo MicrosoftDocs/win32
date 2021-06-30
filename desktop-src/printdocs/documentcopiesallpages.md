@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn how the DocumentCopiesAllPages element, which specifies the number of copies of a document.
 ms.assetid: 6319e8fc-787f-4bc8-8436-1b498b3882d2
 title: DocumentCopiesAllPages
 ms.topic: article
