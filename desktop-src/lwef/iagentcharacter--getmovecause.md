@@ -29,7 +29,7 @@ Address of a variable that receives the cause of the character's last move and w
 
 
 
-|                                                                |                                                                                      |
+| Value                                                               | Description                                                                                     |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | **const unsigned short** **NeverMoved = 0;**<br/>        | Character has not been moved.                                                        |
 | **const unsigned short** **UserMoved = 1;**<br/>         | User dragged the character.                                                          |

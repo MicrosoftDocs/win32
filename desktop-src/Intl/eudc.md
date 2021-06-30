@@ -20,7 +20,7 @@ where:
 
 
 
-|                          |                                                                                                                                          |
+| Value                         | Description                                                                                                                                         |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | SystemDefaultEUDCFont    | Predefined name used to set the system default font. There is no system default EUDC font unless this entry is explicitly specified.     |
 | TrueTypeFontTypeface     | User-defined name associated with a non-EUDC TrueType font.                                                                              |

@@ -39,7 +39,7 @@ A parameter that indicates the mouse button and modifier key state. The paramete
 
 
 
-|        |                                                |
+| Value  | Description                               |
 |--------|------------------------------------------------|
 | 0x0001 | Left Button                                    |
 | 0x0010 | Middle Button                                  |

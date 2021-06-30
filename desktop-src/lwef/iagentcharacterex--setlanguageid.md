@@ -33,7 +33,7 @@ A Long integer specifying the language ID for the character. The language ID (LA
 
 
 
-|                       |        |                       |        |
+| Language              | ID     |  Language             | ID     |
 |-----------------------|--------|-----------------------|--------|
 | Arabic (Saudi)        | 0x0401 | Italian               | 0x0410 |
 | Basque                | 0x042d | Japanese              | 0x0411 |
