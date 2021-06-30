@@ -15,11 +15,7 @@ api_location:
 
 Gets the position of the specified sample.
 
-
-
-|                                        |
-|----------------------------------------|
-| ret Object.GetSamplePosition( int s ); |
+ret Object.GetSamplePosition( int s );
 
 
 

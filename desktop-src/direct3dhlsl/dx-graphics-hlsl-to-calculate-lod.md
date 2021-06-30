@@ -15,11 +15,7 @@ api_location:
 
 Calculates the level of detail.
 
-
-
-|                                                                 |
-|-----------------------------------------------------------------|
-| ret Object.CalculateLevelOfDetail( sampler\_state S, float x ); |
+ret Object.CalculateLevelOfDetail( sampler\_state S, float x );
 
 
 

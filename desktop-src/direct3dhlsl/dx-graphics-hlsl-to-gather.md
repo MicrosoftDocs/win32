@@ -15,11 +15,7 @@ api_location:
 
 Gets the four samples (red component only) that would be used for bilinear interpolation when sampling a texture.
 
-
-
-|                                                                                                    |
-|----------------------------------------------------------------------------------------------------|
-| &lt;Template Type&gt;4 Object.Gather( sampler\_state S, float2\|3\|4 Location \[, int2 Offset\] ); |
+&lt;Template Type&gt;4 Object.Gather( sampler\_state S, float2\|3\|4 Location \[, int2 Offset\] );
 
 
 

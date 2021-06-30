@@ -17,9 +17,8 @@ Expressions are sequences of [variables](dx-graphics-hlsl-variable-syntax.md) an
 
 
 
-|                                                                                 |                                                                    |
+| Operator name                                                                                | Operators                                                                   |
 |---------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| Operator Name                                                                   | Operators                                                          |
 | [Additive and Multiplicative Operators](#additive-and-multiplicative-operators) | +, -, \*, /, %                                                     |
 | [Array Operator](#array-operator)                                               | \[i\]                                                              |
 | [Assignment Operators](#assignment-operators)                                   | =, +=, -=, \*=, /=, %=                                             |
@@ -258,9 +257,8 @@ HLSL supports the following bitwise operators, which follow the same precedence 
 
 
 
-|           |                   |
+| Operator          |  Function                 |
 |-----------|-------------------|
-| Operator  | Function          |
 | ~         | Logical Not       |
 | <<  | Left Shift        |
 | >>  | Right Shift       |

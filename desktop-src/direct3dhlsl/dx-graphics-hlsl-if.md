@@ -19,11 +19,7 @@ api_location:
 
 Conditionally execute a series of statements, based on the evaluation of the conditional expression.
 
-
-
-|                                                               |
-|---------------------------------------------------------------|
-| \[*Attribute*\] if ( *Conditional* ) {   *Statement Block*; } |
+\[*Attribute*\] if ( *Conditional* ) {   *Statement Block*; }
 
 
 
