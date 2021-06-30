@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review the Print Schema language notes. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: a14462de-19bd-472d-a073-3a9810c0aee9
 title: Print Schema Language Notes
 ms.topic: article

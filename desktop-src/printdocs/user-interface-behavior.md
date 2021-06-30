@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review a discussion about user interface behavior with respect to features and options for documents and printing.
 ms.assetid: dc19a568-3673-4061-b19a-50d5df0485d0
 title: User Interface Behavior
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Represent attributes as feature/option constructs or as parameters. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 055e502d-631f-49d2-8577-65396373d478
 title: Representing Attributes as Feature/Option Constructs or as Parameters
 ms.topic: article

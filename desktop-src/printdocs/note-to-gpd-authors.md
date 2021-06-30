@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review GPD keywords without PrintCapabilities document equivalents. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: f1b94241-5376-423f-b10a-336dc47f3d59
 title: Note to GPD Authors
 ms.topic: article
