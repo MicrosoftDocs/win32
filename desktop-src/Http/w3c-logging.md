@@ -50,7 +50,7 @@ Fields that are not marked "HTTP Server API generated" have to be passed inside 
 
 The log file is a customizable ASCII text-based format. The field prefixes in the file are defined as follows:
 
-|     |                           |
+| Prefix    | Description                          |
 |-----|---------------------------|
 | s   | Server actions.           |
 | c   | Client actions.           |

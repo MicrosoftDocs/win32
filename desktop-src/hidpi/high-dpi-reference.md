@@ -12,9 +12,8 @@ ms.date: 05/31/2018
 
 
 
-|                                                                                          |                                                                                                                                                                   |
+| Topic                                                                                         |Description                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Topic**                                                                                | **Description**                                                                                                                                                   |
 | [**AdjustWindowRectExForDpi**](/windows/desktop/api/Winuser/nf-winuser-adjustwindowrectexfordpi)                             | A variant of [AdjustWindowRectEx](/windows/desktop/api/winuser/nf-winuser-adjustwindowrectex) that returns values scaled to a specific DPI.       |
 | [**AreDpiAwarenessContextsEqual**](/windows/desktop/api/Winuser/nf-winuser-aredpiawarenesscontextsequal)                     | Determines whether two [**DPI\_AWARENESS\_CONTEXT**](dpi-awareness-context.md) values are equivalent.                                                            |
 | [**EnableNonClientDpiScaling**](/windows/desktop/api/Winuser/nf-winuser-enablenonclientdpiscaling)                           | Enables automatic scaling of the non-client area of the specified top-level window.                                                                               |
@@ -52,9 +51,8 @@ ms.date: 05/31/2018
 
 
 
-|                                                                            |                                                                                        |
+| Topic                                                                           |Description                                                                                        |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| **Topic**                                                                  | **Description**                                                                        |
 | [**DPI\_AWARENESS**](/windows/desktop/api/windef/ne-windef-dpi_awareness)                                    | Represents DPI coordinate virtualization modes.                                        |
 | [**DPI\_AWARENESS\_CONTEXT**](dpi-awareness-context.md)                   | A token which represents a DPI virtualization mode and associated behaviors.           |
 | [**DIALOG\_CONTROL\_DPI\_CHANGE\_BEHAVIORS**](/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors) | Describes per-monitor DPI scaling behavior overrides for child windows within dialogs. |
@@ -71,9 +69,8 @@ ms.date: 05/31/2018
 
 
 
-|                                                                    |                                                                                                                                         |
+| Topic                                                                   | Description                                                                                                                                        |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Topic**                                                          | **Description**                                                                                                                         |
 | [**WM\_DPICHANGED**](wm-dpichanged.md)                            | Notifies a top-level window that its DPI has changed.                                                                                   |
 | [**WM\_DPICHANGED\_BEFOREPARENT**](wm-dpichanged-beforeparent.md) | Notifies a child window that the DPI associated with its containing window has changed. Delivered before the parent window is notified. |
 | [**WM\_DPICHANGED\_AFTERPARENT**](wm-dpichanged-afterparent.md)   | Notifies a child window that the DPI associated with its containing window has changed. Delivered after the parent window is notified.  |
