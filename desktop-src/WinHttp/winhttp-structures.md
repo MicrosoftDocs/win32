@@ -85,6 +85,20 @@ Contains the Internet Explorer proxy configuration information.
 
 </dd> <dt>
 
+[**WINHTTP_EXTENDED_HEADER**](/windows/win32/api/winhttp/ns-winhttp-winhttp_extended_header)
+</dt> <dd>
+
+Represents an HTTP request header as a name/value string pair.
+
+</dd> <dt>
+
+[**WINHTTP_HEADER_NAME**](/windows/win32/api/winhttp/ns-winhttp-winhttp_header_name)
+</dt> <dd>
+
+Represents an HTTP request header name.
+
+</dd> <dt>
+
 [**WINHTTP_HOST_CONNECTION_GROUP**](/windows/win32/api/Winhttp/ns-winhttp-winhttp_host_connection_group)
 </dt> <dd>
 

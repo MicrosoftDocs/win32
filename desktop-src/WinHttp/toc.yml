@@ -163,6 +163,8 @@
         items: 
         - name: "WinHttpAddRequestHeaders"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheaders
+        - name: "WinHttpAddRequestHeadersEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheadersex
         - name: "WinHttpCheckPlatform"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpcheckplatform
         - name: "WinHttpCloseHandle"
@@ -203,10 +205,14 @@
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpquerydataavailable
         - name: "WinHttpQueryHeaders"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryheaders
+        - name: "WinHttpQueryHeadersEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryheadersex
         - name: "WinHttpQueryOption"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryoption
         - name: "WinHttpReadData"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpreaddata
+        - name: "WinHttpReadDataEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpreaddataex
         - name: "WinHttpReceiveResponse"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpreceiveresponse
         - name: "WinHttpResetAutoProxy"
@@ -269,6 +275,10 @@
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex
         - name: "WINHTTP_CURRENT_USER_IE_PROXY_CONFIG"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config
+        - name: "WINHTTP_EXTENDED_HEADER"
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_extended_header
+        - name: "WINHTTP_HEADER_NAME"
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_header_name
         - name: "WINHTTP_HOST_CONNECTION_GROUP"
           href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_host_connection_group
         - name: "WINHTTP_MATCH_CONNECTION_GUID"
