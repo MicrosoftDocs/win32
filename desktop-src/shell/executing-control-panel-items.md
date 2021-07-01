@@ -188,7 +188,7 @@ For Windows 2000 and later systems:
 
 
 
-|                            |                                                          |
+| Command                    | Description                                              |
 |----------------------------|----------------------------------------------------------|
 | control.exe folders        | Launches the **Folder Options** window.                  |
 | control.exe netware        | Launches the **Novell NetWare** window (if installed).   |
