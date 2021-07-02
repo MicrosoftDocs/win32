@@ -32,13 +32,73 @@ The following items identify the differences between version 0 and version 1 pro
 
 
 
-|             |          |             |           |
-|-------------|----------|-------------|-----------|
-| VT\_I1      | VT\_UI1  | VT\_I2      | VT\_UI2   |
-| VT\_I4      | VT\_UI4  | VT\_INT     | VT\_UINT  |
-| VT\_R4      | VT\_R8   | VT\_CY      | VT\_DATE  |
-| VT\_BSTR    | VT\_BOOL | VT\_DECIMAL | VT\_ERROR |
-| VT\_VARIANT |          |             |           |
+:::row:::
+   :::column span="":::
+      VT\_I1
+   :::column-end:::
+   :::column span="":::
+      VT\_UI1
+   :::column-end:::
+   :::column span="":::
+      -VT\_I2
+   :::column-end:::
+   :::column span="":::
+      VT\_UI2
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      VT\_I4
+   :::column-end:::
+   :::column span="":::
+      VT\_UI4
+   :::column-end:::
+   :::column span="":::
+      VT\_INT
+   :::column-end:::
+   :::column span="":::
+      VT\_UINT
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      VT\_R4
+   :::column-end:::
+   :::column span="":::
+      VT\_R8
+   :::column-end:::
+   :::column span="":::
+      VT\_CY
+   :::column-end:::
+   :::column span="":::
+      VT\_DATE
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      VT\_BSTR
+   :::column-end:::
+   :::column span="":::
+      VT\_BOOL
+   :::column-end:::
+   :::column span="":::
+      VT\_DECIMAL
+   :::column-end:::
+   :::column span="":::
+      VT\_ERROR
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      VT\_VARIANT
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+:::row-end:::
 
 
 

@@ -74,11 +74,11 @@ Contains the background for a [**JournalDocument**](journaldocument-element.md) 
 
 
 
-|              |                                                                   |
-|--------------|-------------------------------------------------------------------|
-| Element type | [**BackgroundType**](backgroundtype-complex-type.md) complexType |
-| Namespace    | urn:schemas-microsoft-com:tabletpc:richink                        |
-| Schema name  | Journal Reader                                                    |
+|                  | Value                                                             |
+|------------------|-------------------------------------------------------------------|
+| **Element type** | [**BackgroundType**](backgroundtype-complex-type.md) complexType |
+| **Namespace**    | urn:schemas-microsoft-com:tabletpc:richink                        |
+| **Schema name**  | Journal Reader                                                    |
 
 
 

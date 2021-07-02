@@ -42,11 +42,11 @@ None.
 
 
 
-|              |                                                               |
-|--------------|---------------------------------------------------------------|
-| Element type | [**BaselineType**](baselinetype-complex-type.md) complexType |
-| Namespace    | urn:schemas-microsoft-com:tabletpc:richink                    |
-| Schema name  | Journal Reader                                                |
+|                  | Value                                                         |
+|------------------|---------------------------------------------------------------|
+| **Element type** | [**BaselineType**](baselinetype-complex-type.md) complexType |
+| **Namespace**    | urn:schemas-microsoft-com:tabletpc:richink                    |
+| **Schema name**  | Journal Reader                                                |
 
 
 

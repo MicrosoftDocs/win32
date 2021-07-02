@@ -44,10 +44,10 @@ None.
 
 
 
-|             |                                            |
-|-------------|--------------------------------------------|
-| Namespace   | urn:schemas-microsoft-com:tabletpc:richink |
-| Schema name | Journal Reader                             |
+|                 | Value                                      |
+|-----------------|--------------------------------------------|
+| **Namespace**   | urn:schemas-microsoft-com:tabletpc:richink |
+| **Schema name** | Journal Reader                             |
 
 
 
