@@ -30,83 +30,77 @@ The following items identify the differences between version 0 and version 1 pro
 
     The following element types are valid for a SafeArray in a serialized property set:
 
+    :::row:::
+       :::column span="":::
+          VT\_I1
+       :::column-end:::
+       :::column span="":::
+          VT\_UI1
+       :::column-end:::
+       :::column span="":::
+          -VT\_I2
+       :::column-end:::
+       :::column span="":::
+          VT\_UI2
+       :::column-end:::
+    :::row-end:::
+    :::row:::
+       :::column span="":::
+          VT\_I4
+       :::column-end:::
+       :::column span="":::
+          VT\_UI4
+       :::column-end:::
+       :::column span="":::
+          VT\_INT
+       :::column-end:::
+       :::column span="":::
+          VT\_UINT
+       :::column-end:::
+    :::row-end:::
+    :::row:::
+       :::column span="":::
+          VT\_R4
+       :::column-end:::
+       :::column span="":::
+          VT\_R8
+       :::column-end:::
+       :::column span="":::
+          VT\_CY
+       :::column-end:::
+       :::column span="":::
+          VT\_DATE
+       :::column-end:::
+    :::row-end:::
+    :::row:::
+       :::column span="":::
+          VT\_BSTR
+       :::column-end:::
+       :::column span="":::
+          VT\_BOOL
+       :::column-end:::
+       :::column span="":::
+          VT\_DECIMAL
+       :::column-end:::
+       :::column span="":::
+          VT\_ERROR
+       :::column-end:::
+    :::row-end:::
+    :::row:::
+       :::column span="":::
+          VT\_VARIANT
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+    :::row-end:::
 
-
-:::row:::
-   :::column span="":::
-      VT\_I1
-   :::column-end:::
-   :::column span="":::
-      VT\_UI1
-   :::column-end:::
-   :::column span="":::
-      -VT\_I2
-   :::column-end:::
-   :::column span="":::
-      VT\_UI2
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      VT\_I4
-   :::column-end:::
-   :::column span="":::
-      VT\_UI4
-   :::column-end:::
-   :::column span="":::
-      VT\_INT
-   :::column-end:::
-   :::column span="":::
-      VT\_UINT
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      VT\_R4
-   :::column-end:::
-   :::column span="":::
-      VT\_R8
-   :::column-end:::
-   :::column span="":::
-      VT\_CY
-   :::column-end:::
-   :::column span="":::
-      VT\_DATE
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      VT\_BSTR
-   :::column-end:::
-   :::column span="":::
-      VT\_BOOL
-   :::column-end:::
-   :::column span="":::
-      VT\_DECIMAL
-   :::column-end:::
-   :::column span="":::
-      VT\_ERROR
-   :::column-end:::
-:::row-end:::
-:::row:::
-   :::column span="":::
-      VT\_VARIANT
-   :::column-end:::
-   :::column span="":::
-   :::column-end:::
-   :::column span="":::
-   :::column-end:::
-   :::column span="":::
-   :::column-end:::
-:::row-end:::
-
-
-
- 
-
-When the VT\_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT\_VARIANT types.
-
-Note that implementations of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) must be able to recover gracefully by returning an error when a new type is encountered; for example, VARENUM types.
+    When the VT\_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT\_VARIANT types.
+    
+    Note that implementations of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) must be able to recover gracefully by returning an error when a new type is encountered; for example, VARENUM types.
 
 -   Case sensitive property names. Property names, for example those specified in the [**IPropertyStorage::WritePropertyNames**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writepropertynames) method, are not case sensitive in version 0 property sets. In version 1 property sets, property names can be case-sensitive depending on the value of the new Behavior property.
 
