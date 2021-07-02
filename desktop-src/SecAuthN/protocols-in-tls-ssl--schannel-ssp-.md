@@ -15,7 +15,8 @@ The Schannel SSP implements versions of the TLS, DTLS and SSL protocols. Differe
 
 The following table displays the Microsoft Schannel Provider support of TLS protocol versions.
 
-*Tip: you may need to scroll horizontally to view all columns in this table:*
+> [!TIP]
+> You may need to scroll horizontally to view all columns in the table.
 
 | Windows OS | TLS 1.0 Client | TLS 1.0 Server | TLS 1.1 Client | TLS 1.1 Server | TLS 1.2 Client | TLS 1.2 Server | TLS 1.3 Client | TLS 1.3 Server |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|
