@@ -107,6 +107,26 @@ The following items identify the differences between version 0 and version 1 pro
        :::column span="":::
        :::column-end:::
     :::row-end:::
+    :::row:::
+       :::column span="":::
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+    :::row-end:::
+    :::row:::
+       :::column span="":::
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+       :::column span="":::
+       :::column-end:::
+    :::row-end:::
 
     When the VT\_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT\_VARIANT types.
     
