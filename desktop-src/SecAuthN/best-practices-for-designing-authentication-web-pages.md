@@ -98,7 +98,7 @@ The following articles provide guidance for writing secure C++ code.
 [Considerations for the web page development](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[FAQ for Web Authentication Broker](faq-for-web-authentication-broker.md)
+[FAQ for Web Authentication Broker](faq-for-web-authentication-broker.yml)
 </dt> <dt>
 
 [Web Authentication Broker SDK sample app](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

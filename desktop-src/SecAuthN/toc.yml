@@ -393,7 +393,7 @@
       - name: "Web authentication problems"
         href: web-authentication-problems.md
       - name: "FAQ for Web Authentication Broker"
-        href: faq-for-web-authentication-broker.md
+        href: faq-for-web-authentication-broker.yml
     - name: "Using Network Provider API"
       href: using-network-provider-api.md
       items: 
