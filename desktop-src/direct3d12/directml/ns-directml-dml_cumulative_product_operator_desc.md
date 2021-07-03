@@ -171,9 +171,16 @@ This operator supports in-place execution, meaning that the output tensor is per
 This operator was introduced in `DML_FEATURE_LEVEL_3_1`.
 
 ## Tensor constraints
-*InputTensor* and *OutputTensor* must have the same *DataType* and *Sizes*.
+*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.
 
 ## Tensor support
+### DML_FEATURE_LEVEL_4_0 and above
+| Tensor | Kind | Supported dimension counts | Supported data types |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Input | 1 to 8 | FLOAT32, FLOAT16, UINT32, UINT16 |
+| OutputTensor | Output | 1 to 8 | FLOAT32, FLOAT16, UINT32, UINT16 |
+
+### DML_FEATURE_LEVEL_3_1 and above
 | Tensor | Kind | Supported dimension counts | Supported data types |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Input | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |

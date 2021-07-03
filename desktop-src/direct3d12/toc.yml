@@ -1969,6 +1969,8 @@
           href: /windows/win32/api/directml/ns-directml-dml_depth_to_space1_operator_desc
         - name: "DML_DIAGONAL_MATRIX_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_diagonal_matrix_operator_desc
+        - name: "DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_dynamic_quantize_linear_operator_desc
         - name: "DML_ELEMENT_WISE_ABS_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_abs_operator_desc
         - name: "DML_ELEMENT_WISE_ACOS_OPERATOR_DESC"
@@ -2071,6 +2073,8 @@
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_pow_operator_desc
         - name: "DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_quantize_linear_operator_desc
+        - name: "DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_element_wise_quantized_linear_add_operator_desc
         - name: "DML_ELEMENT_WISE_RECIP_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_element_wise_recip_operator_desc
         - name: "DML_ELEMENT_WISE_ROUND_OPERATOR_DESC"
@@ -2181,6 +2185,8 @@
           href: /windows/win32/api/directml/ns-directml-dml_rnn_operator_desc
         - name: "DML_ROI_ALIGN_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc
+        - name: "DML_ROI_ALIGN1_OPERATOR_DESC"
+          href: /windows/win32/api/directml/ns-directml-dml_roi_align1_operator_desc
         - name: "DML_ROI_POOLING_OPERATOR_DESC"
           href: /windows/win32/api/directml/ns-directml-dml_roi_pooling_operator_desc
         - name: "DML_SCALAR_UNION"
