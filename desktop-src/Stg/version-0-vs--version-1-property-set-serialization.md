@@ -30,14 +30,16 @@ The following items identify the differences between version 0 and version 1 pro
 
     The following element types are valid for a SafeArray in a serialized property set:
 
-    | <!--tabular list: col headers unnecessary-->  ||||
-    |-------------|----------|-------------|-----------|
-    | VT_I1       | VT_UI1   | VT_I2       | VT_UI2    |
-    | VT_I4       | VT_UI4   | VT_INT      | VT_UINT   |
-    | VT_R4       | VT_R8    | VT_CY       | VT_DATE   |
-    | VT_BSTR     | VT_BOOL  | VT_DECIMAL  | VT_ERROR  |
-    | VT_VARIANT  |          |             |           |
-    |             |          |             |           |
+| <!--tabular list: col headers unnecessary-->  ||||
+|-------------|----------|-------------|-----------|
+| VT_I1       | VT_UI1   | VT_I2       | VT_UI2    |
+| VT_I4       | VT_UI4   | VT_INT      | VT_UINT   |
+| VT_R4       | VT_R8    | VT_CY       | VT_DATE   |
+| VT_BSTR     | VT_BOOL  | VT_DECIMAL  | VT_ERROR  |
+| VT_VARIANT  |          |             |           |
+|             |          |             |           |
+
+
 
     When the VT_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT_VARIANT types.
     
