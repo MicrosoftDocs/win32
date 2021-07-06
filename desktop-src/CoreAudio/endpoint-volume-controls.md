@@ -219,7 +219,7 @@ Exit:
         MessageBox(NULL, TEXT("This program requires Windows Vista."),
                    TEXT("Error termination"), MB_OK);
     }
-    if (pEnumerator != NULL)
+    if (g_pEndptVol != NULL)
     {
         g_pEndptVol->UnregisterControlChangeNotify(
                     (IAudioEndpointVolumeCallback*)&EPVolEvents);
