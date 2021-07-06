@@ -17,7 +17,7 @@ For rendering that uses extremely few resources, descriptor table/heap use may n
 
 The only types of descriptors supported in the root signature are:
 - CBVs.
-- Shader Resource Views (SRVs)/Unordered Access Views (UAVs) of buffer resources where the SRV/UAV format contains only 32 bit FLOAT/UINT/SINT components (there is no format conversion).
+- Shader Resource Views (SRVs) / Unordered Access Views (UAVs) of buffer resources where format conversion is not required (Untyped Buffers). Some examples of Untyped Buffers that can be bound with root descriptors include `StructuredBuffer<type>`, `RWStructuredBuffer<type>`, `ByteAddressBuffer` and `RWByteAddressBuffer`. For the avoidance of doubt, Typed Buffers such as `Buffer<uint>` and `Buffer<float2>` cannot.
 - SRVs of raytracing acceleration structures, in local or global root signatures. 
 
 UAVs in the root cannot have counters associated with them. Descriptors in the root signature appear each as individual separate descriptors&mdash;they cannot be dynamically indexed.
