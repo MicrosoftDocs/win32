@@ -393,7 +393,7 @@
       - name: "Web authentication problems"
         href: web-authentication-problems.md
       - name: "FAQ for Web Authentication Broker"
-        href: faq-for-web-authentication-broker.md
+        href: faq-for-web-authentication-broker.yml
     - name: "Using Network Provider API"
       href: using-network-provider-api.md
       items: 
@@ -1434,11 +1434,6 @@
             href: ibytebuffer-unlockregion.md
           - name: "Write Method"
             href: ibytebuffer-write.md
-      - name: "ICcgDomainAuthCredentials"
-        href: windows/win32/api/ccgplugins/nn-ccgplugins-iccgdomainauthcredentials
-        items: 
-        - name: "GetPasswordCredentials Method"
-          href: windows/win32/api/ccgplugins/nf-ccgplugins-iccgdomainauthcredentials-getpasswordcredentials
       - name: "IConnectedIdentityProvider"
         href: /windows/desktop/api/Identityprovider/nn-identityprovider-iconnectedidentityprovider
         items: 
