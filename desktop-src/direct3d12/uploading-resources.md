@@ -1,5 +1,5 @@
 ---
-title: Uploading Different Types of Resources
+title: Uploading different types of resources
 description: Shows how to use one buffer to upload both constant buffer data and vertex buffer data to the GPU, and how to properly sub-allocate and place data within buffers.
 ms.assetid: 255B0482-21D6-4276-8009-3F3891879CA1
 ms.localizationpriority: high
@@ -7,31 +7,31 @@ ms.topic: article
 ms.date: 05/31/2018
 ---
 
-# Uploading Different Types of Resources
+# Uploading different types of resources
 
-Shows how to use one buffer to upload both constant buffer data and vertex buffer data to the GPU, and how to properly sub-allocate and place data within buffers. The use of one single buffer increases memory usage flexibility and provides applications with tighter control of memory usage. Also shows the differences between the D3D11 and D3D12 models for uploading different types of resources.
+Shows how to use one buffer to upload both constant buffer data and vertex buffer data to the GPU, and how to properly sub-allocate and place data within buffers. The use of a single buffer increases memory usage flexibility, and provides applications with tighter control over memory usage. Also shows the differences between the Direct3D 11 and Direct3D 12 models for uploading different types of resources.
 
--   [Upload Different Types of Resources](#upload-different-types-of-resources)
-    -   [Code Example: D3D11](#code-example-d3d11)
-    -   [Code Example: D3D12](#code-example-d3d12)
--   [Constants](#constants)
--   [Resources](#uploading-different-types-of-resources)
--   [Resource size reflection](#resource-size-reflection)
--   [Buffer alignment](#buffer-alignment)
--   [Related topics](#related-topics)
+## Upload different types of resources
 
-## Upload Different Types of Resources
+In Direct3D 12, you create one buffer to accommodate different types of resource data for uploading, and you copy resource data to the same buffer in a similar way for different resource data. Individual views are then created to bind those resource data to the graphics pipeline in the Direct3D 12 resource binding model.
 
-In D3D12, applications create one buffer to accommodate different types of resource data for uploading, and copy resource data to the same buffer in a similar way for different resource data. Individual views are then created to bind those resource data to the graphics pipeline in the new resource binding model.
+In Direct3D 11, you create separate buffers for different types of resource data (note the different `BindFlags` used in the Direct3D 11 sample code below), explicitly binding each resource buffer to the graphics pipeline, and update the resource data with different methods based on different resource types.
 
-In D3D11, applications create separate buffers for different types of resource data (note the different `BindFlags` used in the D3D11 sample code below), explicitly binding each resource buffer to the graphics pipeline, and update the resource data with different methods based on different resource types.
+In both Direct3D 12 and Direct3D 11, you should use upload resources only where the CPU will write the data once, and the GPU will read it once.
 
-In both D3D12 and D3D11, applications should only use upload resources where the CPU will write the data once and the GPU will read it once. If the GPU will read the data multiple times, the GPU will not read the data linearly, or the rendering is significantly GPU-limited already. The better option may be to use [**ID3D12GraphicsCommandList::CopyTextureRegion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion) or [**ID3D12GraphicsCommandList::CopyBufferRegion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion) to copy the upload buffer data to a default resource. A default resource can reside in physical video memory on discrete GPUs.
+In some cases,
+* the GPU will read the data multiple times, or
+* the GPU won't read the data linearly, or
+* the rendering is significantly GPU-limited already.
 
-### Code Example: D3D11
+In those cases, the better option might be to use [**ID3D12GraphicsCommandList::CopyTextureRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion) or [**ID3D12GraphicsCommandList::CopyBufferRegion**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion) to copy the upload buffer data to a default resource.
 
-``` syntax
-// D3D11: Separate buffers for each resource type.
+A default resource can reside in physical video memory on discrete GPUs.
+
+### Code Example: Direct3D 11
+
+```cpp
+// Direct3D 11: Separate buffers for each resource type.
 
 void main()
 {
@@ -106,10 +106,10 @@ void DrawFrame()
 }
 ```
 
-### Code Example: D3D12
+### Code Example: Direct3D 12
 
-``` syntax
-// D3D12: One buffer to accommodate different types of resources
+```cpp
+// Direct3D 12: One buffer to accommodate different types of resources
 
 ComPtr<ID3D12Resource> m_spUploadBuffer;
 UINT8* m_pDataBegin = nullptr;    // starting position of upload buffer
@@ -260,67 +260,56 @@ UINT Align(UINT uLocation, UINT uAlign)
 }
 ```
 
-Note the use of the helper structures [**CD3DX12\_HEAP\_PROPERTIES**](cd3dx12-heap-properties.md) and [**CD3DX12\_RESOURCE\_DESC**](cd3dx12-resource-desc.md).
+Note the use of the helper structures [**CD3DX12_HEAP_PROPERTIES**](cd3dx12-heap-properties.md) and [**CD3DX12_RESOURCE_DESC**](cd3dx12-resource-desc.md).
 
 ## Constants
 
-To set constants, vertices and indexes within an Upload or Readback heap, use the following APIs:
+To set constants, vertices, and indexes within an upload or readback heap, use the following APIs.
 
--   [**ID3D12Device::CreateConstantBufferView**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview)
--   [**ID3D12GraphicsCommandList::IASetVertexBuffers**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers)
--   [**ID3D12GraphicsCommandList::IASetIndexBuffer**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer)
+-   [**ID3D12Device::CreateConstantBufferView**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createconstantbufferview)
+-   [**ID3D12GraphicsCommandList::IASetVertexBuffers**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetvertexbuffers)
+-   [**ID3D12GraphicsCommandList::IASetIndexBuffer**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-iasetindexbuffer)
 
 ## Resources
 
-Resources are the D3D concept which abstracts the usage of GPU physical memory. Resources require GPU virtual address space to access physical memory. Resource creation is free-threaded.
+Resources are the Direct3D concept that abstracts the usage of GPU physical memory. Resources require GPU virtual address space to access physical memory. Resource creation is free-threaded.
 
-There are three types of resources with respect to virtual address creation and flexibility in D3D12:
+There are three types of resources with respect to virtual address creation and flexibility in Direct3D 12.
 
--   Committed resources
+### Committed resources
 
-    Committed resources are the most common idea of D3D resources over the generations. Creating such a resource allocates virtual address range, an implicit heap large enough to fit the whole resource, and commits the virtual address range to the physical memory encapsulated by the heap. The implicit heap properties must be passed to match functional parity with previous D3D versions. Refer to [**ID3D12Device::CreateCommittedResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource).
+Committed resources are the most common idea of Direct3D resources over the generations. Creating such a resource allocates virtual address range, an implicit heap large enough to fit the whole resource, and commits the virtual address range to the physical memory encapsulated by the heap. The implicit heap properties must be passed to match functional parity with previous Direct3D versions. Refer to [**ID3D12Device::CreateCommittedResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createcommittedresource).
 
--   Reserved resources
+### Reserved resources
 
-    Reserved resources are equivalent to D3D11 tiled resources. On their creation, only a virtual address range is allocated and not mapped to any heap. The application will map such resources to heaps later. The capabilities of such resources are currently unchanged over D3D11, as they can be mapped to a heap at a 64KB tile granularity with [**UpdateTileMappings**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings). Refer to [**ID3D12Device::CreateReservedResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createreservedresource)
+Reserved resources are equivalent to Direct3D 11 tiled resources. On their creation, only a virtual address range is allocated, and not mapped to any heap. The application will map such resources to heaps later. The capabilities of such resources are currently unchanged from Direct3D 11, as they can be mapped to a heap at a 64KB tile granularity with [**UpdateTileMappings**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings). Refer to [**ID3D12Device::CreateReservedResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createreservedresource).
 
--   Placed resources
+### Placed resources
 
-    New for D3D12, applications may create heaps separate from resources. Afterward, the application may locate multiple resources within a single heap. This can be done without creating tiled or reserved resources, enabling the capabilities for all resource types able to be created directly by applications. Multiple resources may overlap, and the application must use the [**ID3D12GraphicsCommandList::ResourceBarrier**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) to re-use physical memory correctly. Refer to [**ID3D12Device::CreatePlacedResource**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createplacedresource)
+New for Direct3D 12, you can create heaps separate from resources. Afterward, you can locate multiple resources within a single heap. You can do that without creating tiled or reserved resources, enabling the capabilities for all resource types able to be created directly by your application. Multiple resources might overlap, and you must use the [**ID3D12GraphicsCommandList::ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier) to re-use physical memory correctly. Refer to [**ID3D12Device::CreatePlacedResource**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-createplacedresource).
 
 ## Resource size reflection
 
-Applications must use resource size reflection to understand how much room textures with unknown texture layouts require in heaps. Buffers are also supported, but mostly as a convenience.
+You must use resource size reflection to understand how much space textures with unknown texture layouts require in heaps. Buffers are also supported, but mostly as a convenience.
 
-Applications should be aware of major alignment discrepancies, to help pack resources more densely.
+You should be aware of major alignment discrepancies, to help pack resources more densely.
 
-For example, a single-element array with a one-byte-buffer returns a Size of 64KB and an Alignment of 64KB, as buffers currently can only be 64KB aligned.
+For example, a single-element array with a one-byte-buffer returns a *Size* of 64KB, and an *Alignment* of 64KB, because buffers can be only 64KB-aligned.
 
-Also, a three element array with two single-texel 64KB aligned textures and a single-texel 4MB aligned texture reports differing sizes based on the order of the array. If the 4MB aligned textures is in the middle, the resulting Size is 12MB. Otherwise, the resulting Size is 8MB. The Alignment returned would always be 4MB, the super-set of all alignments in the resource array.
+Also, a three element array with two single-texel 64KB aligned textures and a single-texel 4MB aligned texture reports differing sizes based on the order of the array. If the 4MB aligned textures is in the middle, then the resulting *Size* is 12MB. Otherwise, the resulting Size is 8MB. The Alignment returned would always be 4MB, the superset of all alignments in the resource array.
 
-Reference the following APIs:
+Reference the following APIs.
 
--   [**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_resource_allocation_info)
--   [**GetResourceAllocationInfo**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo)
+- [**D3D12\_RESOURCE\_ALLOCATION\_INFO**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_allocation_info)
+- [**GetResourceAllocationInfo**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourceallocationinfo)
 
 ## Buffer alignment
 
-Buffer alignment restrictions have not changed from D3D11, notably:
+Buffer alignment restrictions have not changed from Direct3D 11, notably:
 
--   4 MB for multi-sample textures.
--   64 KB for single-sample textures and buffers.
+- 4 MB for multi-sample textures.
+- 64 KB for single-sample textures and buffers.
 
 ## Related topics
 
-<dl> <dt>
-
-[Suballocation Within Buffers](large-buffers.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [Suballocation within buffers](large-buffers.md)
