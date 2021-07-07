@@ -25,7 +25,7 @@
       - name: "Registering and Distributing Property Handlers"
         href: prophand-reg-dist.md
       - name: "Property Handler Best Practices and FAQ"
-        href: prophand-bestprac-faq.md
+        href: prophand-bestprac-faq.yml
   - name: "Property System Reference"
     href: property-system-reference.md
     items: 
