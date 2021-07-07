@@ -120,8 +120,8 @@ There are multiple APIs that let you specify the default DPI awareness for your 
 <td><a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a></td>
 <td>Windows 8.1</td>
 <td>SetProcessDpiAwareness(PROCESS_DPI_UNAWARE)</td>
-<td>SetProcessDpiAwareness(PROCESS_DPI_SYSTEM_DPI_AWARE)</td>
-<td>SetProcessDpiAwareness(PROCESS_DPI_PER_MONITOR_DPI_AWARE)</td>
+<td>SetProcessDpiAwareness(PROCESS_SYSTEM_DPI_AWARE)</td>
+<td>SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE)</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessContext</strong></a></td>
