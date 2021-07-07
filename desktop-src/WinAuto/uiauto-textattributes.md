@@ -48,8 +48,8 @@ Annotation objects and annotation types are available through the following attr
 
 | Attribute             | Identifier                                                            |
 |-----------------------|-----------------------------------------------------------------------|
-| **AnnotationObjects** | [**UIA\_AnnotationObjectsAttributeId**](uiauto-textattribute-ids.md) |
-| **AnnotationTypes**   | [**UIA\_AnnotationTypesAttributeId**](uiauto-textattribute-ids.md)   |
+| **AnnotationObjects** | [**UIA\_AnnotationObjectsAttributeId**](uiauto-annotation-type-identifiers.md) |
+| **AnnotationTypes**   | [**UIA\_AnnotationTypesAttributeId**](uiauto-annotation-type-identifiers.md)   |
 
 
 
