@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageMediaColor user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 3e0e2cb2-cb51-446d-a6ff-f76aa8c305f6
 title: PageMediaColor
 ms.topic: article

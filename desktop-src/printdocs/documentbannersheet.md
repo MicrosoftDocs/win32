@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Read about the DocumentBannerSheet user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: c10da176-946a-4439-8ad7-037013b39e41
 title: DocumentBannerSheet
 ms.topic: article

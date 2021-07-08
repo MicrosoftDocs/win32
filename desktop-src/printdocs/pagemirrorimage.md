@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageMirrorImage user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: a05357c0-6a82-42ff-b4f8-d3e0ee089055
 title: PageMirrorImage
 ms.topic: article
