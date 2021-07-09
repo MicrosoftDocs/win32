@@ -55,7 +55,12 @@ This message can be useful if an application must add several items to a list bo
 
  
 
-If the application sends the **WM\_SETREDRAW** message to a hidden window, the window becomes visible (that is, the operating system adds the **WS\_VISIBLE** style to the window).
+Passing a **WM\_SETREDRAW** message to the **DefWindowProc** function will remove the **WS\_VISIBLE** style from the window when *wParam* is set to **FALSE**. Although the window content will remain visible on screen, the [**IsWindowVisible**](/windows/desktop/api/winuser/nf-winuser-iswindowvisible) function will return **FALSE** when called on a window in this state. 
+
+Passing a **WM\_SETREDRAW** message to the **DefWindowProc** function will add the **WS\_VISIBLE** style to the window, if not set, when *wParam* is set to **TRUE**. If the application sends the **WM\_SETREDRAW** message with *wParam* set to **TRUE** to a hidden window, the window becomes visible. 
+
+**Windows 10 and later, Windows Server 2016 and later**: The system will set a property named *SysSetRedraw* on a window whose window procedure passes **WM\_SETREDRAW** messages to **DefWindowProc**. Applications can use the [**GetProp**](/windows/desktop/api/Winuser/nf-winuser-getpropa) function to get the property value when available. **GetProp** will return a non-zero value when redraw is disabled. **GetProp** will return zero when redraw is enabled, or when the window property does not exist. 
+
 
 ## Requirements
 
