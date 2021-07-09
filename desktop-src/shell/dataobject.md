@@ -59,7 +59,7 @@ The [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) structure is 
 -   The Shell uses the **lIndex** member with its [CFSTR\_FILECONTENTS](clipboard.md) format to allow a data object to contain more than one data item per format. For a discussion of how to use this format, see the *Using the CFSTR\_FILECONTENTS Format to Extract Data from a File* section of [Handling Shell Data Transfer Scenarios](datascenarios.md).
 -   The **dwAspect** member is typically set to DVASPECT\_CONTENT. However, there are three values defined in Shlobj.h that can be used for Shell data transfer. 
 
-    |                     |                                                                                                   |
+    | Value               | Description                                                                                       |
     |---------------------|---------------------------------------------------------------------------------------------------|
     | DVASPECT\_COPY      | Used to indicate that the format represents a copy of the data.                                   |
     | DVASPECT\_LINK      | Used to indicate that the format represents a shortcut to the data.                               |
