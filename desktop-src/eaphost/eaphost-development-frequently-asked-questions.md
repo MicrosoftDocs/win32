@@ -14,9 +14,9 @@ The following topics provide answers to commonly-asked development questions abo
 
 | Topic                                                                                              | Description                                              |
 |----------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| [General Frequently Asked Questions](general-frequently-asked-questions.md)                       | General questions                                        |
-| [EAPHost Supplicant Frequently Asked Questions](eaphost-supplicant-frequently-asked-questions.md) | Questions about calls made to the EAPHost Supplicant API |
-| [EAP Method Frequently Asked Questions](eap-method-frequently-asked-questions.md)                 | Questions about EAP method authoring                     |
+| [General Frequently Asked Questions](general-frequently-asked-questions.yml)                       | General questions                                        |
+| [EAPHost Supplicant Frequently Asked Questions](eaphost-supplicant-frequently-asked-questions.yml) | Questions about calls made to the EAPHost Supplicant API |
+| [EAP Method Frequently Asked Questions](eap-method-frequently-asked-questions.yml)                 | Questions about EAP method authoring                     |
 
 
 
