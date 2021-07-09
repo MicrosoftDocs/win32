@@ -14,10 +14,10 @@ The RSA public key algorithm is used for all public key operations.
 
 To maintain backward compatibility with earlier versions the new version of the provider retains the version 1.0 designation of the name in Wincrypt.h. However, version 2.0 of this provider is currently shipping. To determine the actual version of the provider in use, call [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) with the *dwParam* argument set to **PP\_VERSION**. If 0x0200 is returned in *pbData*, then you have version 2.0.
 
-|                |                     |
-|----------------|---------------------|
-| Provider type: | **PROV\_RSA\_FULL** |
-| Provider name: | **MS\_DEF\_PROV**   |
+|                   | Value            |
+|-------------------|------------------|
+| **Provider type** | PROV\_RSA\_FULL  |
+| **Provider name** | MS\_DEF\_PROV    |
 
 
 

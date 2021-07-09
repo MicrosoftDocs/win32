@@ -12,10 +12,10 @@ The Microsoft Base DSS and Diffie-Hellman Cryptographic Provider supports Diffie
 
 
 
-|                |                            |
-|----------------|----------------------------|
-| Provider type: | **PROV\_DSS\_DH**          |
-| Provider name: | **MS\_DEF\_DSS\_DH\_PROV** |
+|                   | Value                   |
+|-------------------|-------------------------|
+| **Provider type** | PROV\_DSS\_DH           |
+| **Provider name** | MS\_DEF\_DSS\_DH\_PROV  |
 
 
 

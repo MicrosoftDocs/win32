@@ -12,10 +12,10 @@ The Microsoft DSS Cryptographic Provider supports hashing, data signing, and sig
 
 
 
-|                |                        |
-|----------------|------------------------|
-| Provider type: | **PROV\_DSS**          |
-| Provider name: | **MS\_DEF\_DSS\_PROV** |
+|                   | Value               |
+|-------------------|---------------------|
+| **Provider type** | PROV\_DSS           |
+| **Provider name** | MS\_DEF\_DSS\_PROV  |
 
 
 
