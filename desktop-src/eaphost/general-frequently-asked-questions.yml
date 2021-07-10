@@ -64,7 +64,7 @@ sections:
           The native APIs are simpler and have fewer features. All new EAP methods should be written using the EAPHost API.
 
       - question: |
-          What is &quot;group policy&quot;?
+          What is "group policy"?
         answer: |
           For a description of group policy, see [Group Policy Collection](/previous-versions/windows/it-pro/windows-server-2003/cc779838(v=ws.10)).
           
@@ -109,7 +109,7 @@ sections:
           The trace logs contain debugging information (available in English only) that may assist Microsoft developers and partners in finding the root causes of any issues being experienced with the authentication process. For more information, see [Enabling Tracing](enabling-tracing.md).<br/>
           
       - question: |
-          Why do I encounter the error code, NTE_BAD_KEY_STATE (0x8009000BL) when I use the [Cryptography](/windows/desktop/SecCrypto/cryptography-portal) API to sign into the EAP-TLS exchange?
+          Why do I encounter the error code, NTE_BAD_KEY_STATE (0x8009000BL) when I use the Cryptography API to sign into the EAP-TLS exchange?
         answer: |
           In Winerror.h NTE_BAD_KEY_STATE (0x8009000BL) is defined as a &quot;key not valid for use in specified state&quot;. This error is typically returned in the following scenarios.
           <ul>
