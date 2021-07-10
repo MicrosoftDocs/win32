@@ -58,6 +58,7 @@ sections:
           <li>Change password notification</li>
           <li>Microsoft Point-to-Point Encryption (MPPE) send/receive keys. VendorId/VendorType = 331/16 and 311/1</li>
           </ul>
+          
           MPPE keys are keys generated at the end of successful authentication, by both peer and authenticator. These keys are used by [802.1X](/previous-versions/windows/embedded/ms890287(v=msdn.10)) and the network access server (NAS) to encrypt and decrypt packets that are sent and received.<br/>
           
           
