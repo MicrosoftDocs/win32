@@ -45,7 +45,7 @@ Call [<strong>CoCreateInstance</strong>](/windows/win32/api/combaseapi/nf-combas
 CoCreateInstance(__uuidof(InkDesktopHost), 
   nullptr, 
   CLSCTX_INPROC_SERVER, 
-  IID_PPV_ARGS(&amp;_spInkHost));
+  IID_PPV_ARGS(&_spInkHost));
 ```
 
 ## Requirements
