@@ -29,7 +29,7 @@ The primary value that DWriteCore gives you, as a developer, in Windows App SDK 
 
 ## The DWriteCore demo app&mdash;DWriteCoreGallery
 
-DWriteCore is demonstrated by way of the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app, which is available for you now to download and study.
+DWriteCore is demonstrated by way of the [DWriteCoreGallery](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering) sample app, which is available for you now to download and study.
 
 ## Get started with DWriteCore
 
@@ -53,7 +53,7 @@ In Visual Studio, click **Project** \> **Manage NuGet Packages...** \> **Browse*
 
 ### Alternatively, begin with the DWriteCoreGallery sample app
 
-Alternatively, you can program with DWriteCore by beginning with the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app project, and base your development on that project. You can then feel free to remove any existing source code (or files) from that sample project, and to add any new source code (or files) to the project.
+Alternatively, you can program with DWriteCore by beginning with the [DWriteCoreGallery](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering) sample app project, and base your development on that project. You can then feel free to remove any existing source code (or files) from that sample project, and to add any new source code (or files) to the project.
 
 ### Use DWriteCore in your project
 
