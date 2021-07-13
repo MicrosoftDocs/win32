@@ -2541,6 +2541,8 @@
           href: mf-capture-engine-use-video-device-only.md
         - name: "MF_CAPTURE_METADATA_DIGITALWINDOW"
           href: mf-capture-metadata-digitalwindow.md
+        - name: "MF_CAPTURE_METADATA_FRAME_BACKGROUND_MASK"
+          href: mf-capture-metadata-frame-background-mask.md
         - name: "MF_CAPTURE_METADATA_FRAME_ILLUMINATION"
           href: mf-capture-metadata-frame-illumination.md
         - name: "MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH"
@@ -3241,6 +3243,8 @@
           href: mf-video-processor-algorithm.md
         - name: "MF_VIDEODSP_MODE"
           href: mf-videodsp-mode.md
+        - name: "MF_VIRTUALCAMERA_APP_PACKAGE_FAMILY_NAME"
+          href: mf-virtualcamera-configuration-app-package-family-name.md
         - name: "MF_XVP_CALLER_ALLOCATES_OUTPUT"
           href: mf-xvp-caller-allocates-output.md
         - name: "MF_XVP_DISABLE_FRC"
