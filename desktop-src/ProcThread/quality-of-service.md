@@ -13,7 +13,7 @@ Developers may already be employing other facilities to control when to execute,
 
 ## Quality of Service levels
 
-The system maintains multiple QoS levels, each with differentiated performance and power efficiency. Windows provides standard default settings for scheduling and processor power management for each QoS level. The precise tuning of each QoS level for processor power management and heterogenous scheduling can be modified through Windows Provisioning. For more information on performance tuning and provisioning, see [Processor power management options](windows-hardware/customize/power-settings/configure-processor-power-management-options).
+The system maintains multiple QoS levels, each with differentiated performance and power efficiency. Windows provides standard default settings for scheduling and processor power management for each QoS level. The precise tuning of each QoS level for processor power management and heterogenous scheduling can be modified through Windows Provisioning. For more information on performance tuning and provisioning, see [Processor power management options](/windows-hardware/customize/power-settings/configure-processor-power-management-options).
 
 | QoS level | Description|Performance and power | Release |
 | --- | --- | --- | --- |
