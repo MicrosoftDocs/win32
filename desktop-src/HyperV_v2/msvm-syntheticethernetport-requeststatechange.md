@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_SyntheticEthernetPort class - Requests a state change.
 ms.assetid: 9aea3a8e-8b62-48c3-bbdb-49f24aeeca22
 title: RequestStateChange method of the Msvm_SyntheticEthernetPort class
 ms.topic: reference

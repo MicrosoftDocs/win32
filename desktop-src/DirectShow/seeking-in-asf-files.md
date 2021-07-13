@@ -1,5 +1,5 @@
 ---
-description: Seeking in ASF Files
+description: Learn how the WM ASF Reader can perform very accurate temporal seeking on Windows Media–based content that has a temporal index in DirectShow.
 ms.assetid: da0d687b-f571-4623-9705-e697ba8bc04e
 title: Seeking in ASF Files (DirectShow)
 ms.topic: article

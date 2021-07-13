@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the DocumentHolePunch element, which describes  the hole punching characteristics of the output.
 ms.assetid: 46fd5e22-a2f3-424d-8c2f-2d5ac089a230
 title: DocumentHolePunch
 ms.topic: article
@@ -20,7 +20,7 @@ Describes the hole punching characteristics of the output. Each document is punc
 
 
 
-| Name                       |                                                                                |
+| Name | Value |
 |----------------------------|--------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                             |
 | Scoping Prefix <br/> | Document<br/>                                                            |

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the DocumentCollate element, which describes the collating characteristics of the output.
 ms.assetid: 752cccf7-1f95-4597-b0e2-a96fd22ffeef
 title: DocumentCollate
 ms.topic: article
@@ -40,7 +40,7 @@ OFF: For all copies (JobCopiesAllDocuments x DocumentCopiesAllPages) printed con
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Feature<br/>  |
 | Scoping Prefix <br/> | Document<br/> |

@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_Memory class - Requests a state change.
 ms.assetid: 836ee3a1-e28e-4f84-8e1c-09f4a2ff0a25
 title: RequestStateChange method of the Msvm_Memory class
 ms.topic: reference

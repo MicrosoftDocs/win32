@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review the PagePhotoPrintingIntent user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: f9a00828-52df-449e-914b-4c6cd7c29f3a
 title: PagePhotoPrintingIntent
 ms.topic: article
@@ -22,7 +22,7 @@ Indicates a high-level intent to the driver for population of photo printing set
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

@@ -1,5 +1,5 @@
 ---
-description: Starts the service.
+description: StartService method of the Msvm_VirtualEthernetSwitchManagementService class - Starts the service.
 ms.assetid: 8b232523-3311-47a9-949a-3bbb9944d80f
 title: StartService method of the Msvm_VirtualEthernetSwitchManagementService class
 ms.topic: reference

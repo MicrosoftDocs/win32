@@ -30,7 +30,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                                                                                 |
+|   Component            | Description                                                                     |
 |------------------------|---------------------------------------------------------------------------------|
 | Formal Name(s)         | HD Photo, Windows Media Photo                                                   |
 | File Name Extension(s) | wdp                                                                             |

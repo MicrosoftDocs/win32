@@ -92,7 +92,7 @@ Note that the `Kind` can be a single value or multiple values in a semi-colon de
 [Registering and Distributing Property Handlers](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.md)
+[Property Handler Best Practices and FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

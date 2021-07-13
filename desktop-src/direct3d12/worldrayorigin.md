@@ -1,5 +1,5 @@
 ---
-description: The world-space direction for the current ray.
+description: WorldRayOrigin - The world-space direction for the current ray.
 ms.assetid: 
 title: WorldRayOrigin
 ms.localizationpriority: low

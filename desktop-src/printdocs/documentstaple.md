@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobStapleAllDocuments element, which describes the stapling characteristics of the output.
 ms.assetid: 53e38979-2065-4304-a0ed-0434c8d2efc8
 title: DocumentStaple
 ms.topic: article
@@ -20,7 +20,7 @@ Describes the stapling characteristics of the output. Each document is stapled s
 
 
 
-| Name                       |                                                                                |
+| Name | Value |
 |----------------------------|--------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                             |
 | Scoping Prefix <br/> | Document<br/>                                                            |

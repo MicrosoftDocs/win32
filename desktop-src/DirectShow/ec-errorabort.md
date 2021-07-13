@@ -1,5 +1,5 @@
 ---
-description: An operation was aborted because of an error.
+description: EC_ERRORABORT - An operation was aborted because of an error.
 ms.assetid: b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5
 title: EC_ERRORABORT (Dshow.h)
 ms.topic: reference

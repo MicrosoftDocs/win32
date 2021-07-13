@@ -516,12 +516,9 @@ The following guidelines apply to links to task pages, such as Category page tas
 
 -   **Retain similar language between task links and the pages they point to.** Users shouldn't be surprised by the page that is displayed by a link.
 -   **For task pages, design the main instruction, commit buttons, and task links as a related set of text.**
-
-    **Examples:**
-
     
 
-    |                              |                                                       |
+    | Example                             |    Instruction                                                   |
     |------------------------------|-------------------------------------------------------|
     | Task link:<br/>        | Connect to a wireless network<br/>              |
     | Main instruction:<br/> | Choose a network to connect to<br/>             |

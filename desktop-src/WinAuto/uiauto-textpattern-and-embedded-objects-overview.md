@@ -99,7 +99,7 @@ However, providers can use different text stores for different TextPattern objec
 
 The following table lists some examples of compatible and non-compatible embedded objects.
 
-|   | Compatible embedded objects | Non-compatible embedded objects |
+| Objects  | Compatible embedded objects | Non-compatible embedded objects |
 | --- | --- | --- |
 | Non-TextPattern embedded objects | Button in Microsoft Edge<br>Data Table in Microsoft Edge | Button in RichTextBlock in Microsoft’s XAML framework<br>Images with alt-text in Microsoft Edge<br>ListView with ListItems in RichTextBlock in Microsoft’s XAML framework |
 | TextPattern embedded objects | Input control of type “text” in Microsoft Edge<br>Table in a Word document | TextBox element in a Microsoft Word document |

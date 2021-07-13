@@ -43,9 +43,8 @@ The following table shows the results obtained when executing the instruction wi
 
 
 
-|                    |          |              |          |         |
-|--------------------|----------|--------------|----------|---------|
 | **src0 src1->** | **-inf** | **F**        | **+inf** | **NaN** |
+|--------------------|----------|--------------|----------|---------|
 | **-inf**           | -inf     | -inf         | -inf     | -inf    |
 | **F**              | -inf     | src0 or src1 | src0     | src0    |
 | **-inf**           | -inf     | src1         | +inf     | +inf    |

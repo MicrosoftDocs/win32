@@ -1,5 +1,5 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Learn about Windows Installer concepts that begin with the letter S, such as sequence tables and source list.
 ms.assetid: 8570bf99-e7db-4af1-acc5-abc236a640d6
 title: S (Windows Installer)
 ms.topic: article

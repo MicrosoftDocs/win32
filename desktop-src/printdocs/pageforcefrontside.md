@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageForceFrontSide user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 0658c808-f050-41f3-90b6-2a013b616b58
 title: PageForceFrontSide
 ms.topic: article
@@ -20,7 +20,7 @@ Forces the output to appear on the front of a media sheet. Relevant to media she
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

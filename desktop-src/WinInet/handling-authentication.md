@@ -16,7 +16,7 @@ If authentication is required, the client application receives a status code 401
 
 Each authenticate response header contains an available authentication scheme and a realm. If multiple authentication schemes are supported, the server returns multiple authenticate response headers. The realm value is case-sensitive and defines a protection space on the proxy or server. For example, the header "WWW-Authenticate: Basic Realm="example"" would be an example of a header returned when server authentication is required.
 
-The client application that sent the request can authenticate itself by including an Authorization header field with the request. The Authorization header would contain the authentication scheme and the appropriate response required by that scheme. For example, the header "Authorization: Basic <username:password>" would be added to the request and re-sent to the server if the client received the authenticate response header "WWW-Authenticate: Basic Realm="example"".
+The client application that sent the request can authenticate itself by including an Authorization header field with the request. The Authorization header would contain the authentication scheme and the appropriate response required by that scheme. For example, the header "Authorization: Basic \<username:password>" would be added to the request and re-sent to the server if the client received the authenticate response header "WWW-Authenticate: Basic Realm="example"".
 
 There are two general types of authentication schemes:
 

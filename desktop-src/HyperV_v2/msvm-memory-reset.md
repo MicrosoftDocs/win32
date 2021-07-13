@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_Memory class - Requests a reset.
 ms.assetid: c21be284-acb0-46e3-9629-b1d95154f58b
 title: Reset method of the Msvm_Memory class
 ms.topic: reference

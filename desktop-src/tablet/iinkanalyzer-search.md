@@ -1,5 +1,5 @@
 ---
-description: Provides a fuzzy, case-insensitive phrase based search for analyzed writing strokes and analyzed drawing strokes that have recognized types.
+description: IInkAnalyzer::Search method - Provides a fuzzy, case-insensitive phrase based search for analyzed writing strokes and analyzed drawing strokes that have recognized types.
 ms.assetid: 5b5ce4b5-45ef-42ef-866b-2f38c32d8c86
 title: IInkAnalyzer::Search method (IACom.h)
 ms.topic: reference

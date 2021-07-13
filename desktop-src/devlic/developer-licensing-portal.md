@@ -1,6 +1,6 @@
 ---
 title: Developer licensing
-description: .
+description: Developer licensing
 ms.assetid: ca2cca08-5af3-4a96-8963-0d118a137652
 ms.topic: article
 ms.date: 05/31/2018

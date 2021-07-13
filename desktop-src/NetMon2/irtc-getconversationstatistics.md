@@ -1,5 +1,5 @@
 ---
-description: The GetConversationStatistics method retrieves session and station information about the current capture.
+description: IRTC::GetConversationStatistics method - The GetConversationStatistics method retrieves session and station information about the current capture.
 ms.assetid: 27f364cd-fee9-4262-b181-c5f15fb12e51
 title: IRTC::GetConversationStatistics method (Netmon.h)
 ms.topic: reference

@@ -76,9 +76,8 @@ Each of these functions fills a structure with information about the capabilitie
 
 
 
-|                                                |                                    |
+|  Function                                              |  Structure                                  |
 |------------------------------------------------|------------------------------------|
-| Function                                       | Structure                          |
 | [**auxGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetdevcaps)         | [**AUXCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-auxcaps)         |
 | [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps)   | [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)   |
 | [**waveOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetdevcaps) | [**WAVEOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps) |
@@ -141,9 +140,8 @@ The **lpData** member of the [**WAVEHDR**](/windows/win32/api/mmeapi/ns-mmeapi-w
 
 
 
-|             |                 |                  |                |
-|-------------|-----------------|------------------|----------------|
 | Data format | Maximum value   | Minimum value    | Midpoint value |
+|-------------|-----------------|------------------|----------------|
 | 8-bit PCM   | 255 (0xFF)      | 0                | 128 (0x80)     |
 | 16-bit PCM  | 32,767 (0x7FFF) | –32,768 (0x8000) | 0              |
 

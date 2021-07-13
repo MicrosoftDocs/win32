@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CCritSec.~CCritSec destructor - Destructor method.
 ms.assetid: cade850c-391c-41dc-adfe-56de8b2bbfff
 title: CCritSec.~CCritSec destructor (Wxutil.h)
 ms.topic: reference

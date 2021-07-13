@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobPrimaryBannerSheetSource element, which specifies the source for a primary custom banner sheet for the job.
 ms.assetid: ad33b2cd-8409-4782-8eb9-5f12aca8405b
 title: JobPrimaryBannerSheetSource
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the source for a primary custom banner sheet for the job.
 
 
 
-| Name                       |                                             |
+| Name | Value |
 |----------------------------|---------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                     |
 | Scoping Prefix <br/> | Job<br/>                              |

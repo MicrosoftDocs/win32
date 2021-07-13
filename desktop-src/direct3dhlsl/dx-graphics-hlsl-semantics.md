@@ -93,7 +93,9 @@ These semantics have meaning when attached to a vertex-shader parameter. These s
 | PSIZE\[n\] | Point size | float |
 | TANGENT\[n\] | Tangent | float4 |
 | TEXCOORD\[n\] | Texture coordinates | float4 |
+
 | Output | Description | Type |
+|-|-|-|
 | COLOR\[n\] | Diffuse or specular color | float4 |
 | FOG | Vertex fog | float |
 | POSITION\[n\] | Position of a vertex in homogenous space. Compute position in screen-space by dividing (x,y,z) by w. Every vertex shader must write out a parameter with this semantic. | float4 |
@@ -145,22 +147,22 @@ This semantic is available in <a href="dx-graphics-hlsl-sm3.md">Direct3D 9 Shade
 <td>The pixel location (x,y) in screen space. To convert a Direct3D 9 shader (that uses this semantic) to a Direct3D 10 and later shader, see <a href="#direct3d-9-vpos-and-direct3d-10-sv_position">Direct3D 9 VPOS and Direct3D 10 SV_Position</a>)</td>
 <td>float2</td>
 </tr>
-<tr class="odd">
-<td>Output</td>
-<td>Description</td>
-<td>Type</td>
+</tbody>
+</table>
+
+<table>
+<th>Output</th>
+<th>Description</th>
+<th>Type</th>
 </tr>
-<tr class="even">
 <td>COLOR[n]</td>
 <td>Output color</td>
 <td>float4</td>
 </tr>
-<tr class="odd">
 <td>DEPTH[n]</td>
 <td>Output depth</td>
 <td>float</td>
 </tr>
-</tbody>
 </table>
 
 `n` is an optional integer between 0 and the number of resources supported. For example, PSIZE0, COLOR1, etc.

@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_HeartbeatComponent class - Requests a state change.
 ms.assetid: ba129ef5-4ebf-45b7-829c-830d06ff0618
 title: RequestStateChange method of the Msvm_HeartbeatComponent class
 ms.topic: reference

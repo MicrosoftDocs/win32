@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
-**Clients:** Windows XP \| Windows Vista \| Windows 7  
-**Servers:** Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+**Clients:** Windows XP, Windows Vista, Windows 7  
+**Servers:** Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 ## Description
 

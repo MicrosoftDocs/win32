@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Read about the PageDestinationColorProfileEmbedded parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: b360f870-bfaa-4d4d-adce-17fcfc48b6a6
 title: PageDestinationColorProfileEmbedded
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the embedded destination color profile.
 
 
 
-| Name                       |                                                          |
+| Name | Value |
 |----------------------------|----------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                  |
 | Scoping Prefix <br/> | Page<br/>                                          |

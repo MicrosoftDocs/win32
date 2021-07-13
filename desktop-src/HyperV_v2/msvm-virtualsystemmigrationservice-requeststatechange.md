@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_VirtualSystemMigrationService class - Requests a state change.
 ms.assetid: 8355f2d8-d6d1-4bfa-b404-91376c2e2bdd
 title: RequestStateChange method of the Msvm_VirtualSystemMigrationService class
 ms.topic: reference

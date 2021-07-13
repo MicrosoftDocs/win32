@@ -16,7 +16,7 @@ This filter is designed to be used with the [Internal Script Command Renderer](i
 
 
 
-|                                          |                                                                                                          |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMStreamSelect**](/windows/desktop/api/Strmif/nn-strmif-iamstreamselect), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                           |
 | Input Pin Media Types                    | MEDIATYPE\_Stream                                                                                        |

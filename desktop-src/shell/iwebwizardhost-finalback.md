@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shldisp.h
 ms.assetid: a0616388-cf94-4433-ae52-24f02f1d15ac
-api_name: 
- - WebWizardHost.FinalBack
-api_type: 
- - COM
-api_location: 
- - Shldisp.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

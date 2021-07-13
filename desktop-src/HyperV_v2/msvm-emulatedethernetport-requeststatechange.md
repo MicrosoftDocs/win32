@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_EmulatedEthernetPort class - Requests a state change.
 ms.assetid: 3fbfa303-2fee-4c70-9bc1-1882821e9317
 title: RequestStateChange method of the Msvm_EmulatedEthernetPort class
 ms.topic: reference

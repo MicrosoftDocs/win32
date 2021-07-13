@@ -1,6 +1,6 @@
 ---
 title: DirectWrite programming guide
-description: The following topics provide an overview of the DirectWrite API.
+description: View the articles in the DirectWrite API programming guide. DirectWrite enables Windows applications to enhance the text experience for UI and documents.
 ms.assetid: ca80d130-0579-409f-9054-6e63af14ebe3
 keywords:
 - DirectWrite,about

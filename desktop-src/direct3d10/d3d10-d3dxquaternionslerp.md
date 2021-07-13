@@ -1,5 +1,5 @@
 ---
-description: Interpolates between two quaternions, using spherical linear interpolation.
+description: D3DXQuaternionSlerp function (D3DX10Math.h) - Interpolates between two quaternions, using spherical linear interpolation.
 ms.assetid: 487e1df1-bf20-49cb-ad14-61fcf1300904
 title: D3DXQuaternionSlerp function (D3DX10Math.h)
 ms.topic: reference

@@ -12,19 +12,22 @@ Coordinate systems for Direct3D 10 are defined for pixels and texels.
 
 
 
-|                                                                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10:<br/> Direct3D 10 defines the upper-left corner of the upper-left pixel as the origin of a render target.<br/> Direct3D 9 defines the center of the upper-left pixel as the origin of a render target.<br/> |
+Differences between Direct3D 9 and Direct3D 10:
+
+- Direct3D 10 defines the upper-left corner of the upper-left pixel as the origin of a render target.
+- Direct3D 9 defines the center of the upper-left pixel as the origin of a render target.
 
 
 
  
 
--   [Pixel Coordinate System](#pixel-coordinate-system)
-    -   [Pixel Coordinate System for Direct3D 9](#pixel-coordinate-system-for-direct3d-9)
--   [Texel Coordinate System](#texel-coordinate-system)
-    -   [Texel Coordinate System](#texel-coordinate-system)
--   [Related topics](#related-topics)
+[Pixel Coordinate System](#pixel-coordinate-system)
+- [Pixel Coordinate System for Direct3D 9](#pixel-coordinate-system-for-direct3d-9)
+
+[Texel Coordinate System](#texel-coordinate-system)
+- [Texel Coordinate System](#texel-coordinate-system)
+
+[Related topics](#related-topics)
 
 ## Pixel Coordinate System
 

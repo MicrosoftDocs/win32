@@ -44,7 +44,7 @@ A user typically carries out clipboard operations by choosing commands from an a
 
 
 
-|            |                                                                                                                                                                                                                   |
+|  Command        |  Description                                                                                                                                                                                                                 |
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Cut**    | Places a copy of the current selection on the clipboard and deletes the selection from the document. The previous content of the clipboard is destroyed.                                                          |
 | **Copy**   | Places a copy of the current selection on the clipboard. The document remains unchanged. The previous content of the clipboard is destroyed.                                                                      |

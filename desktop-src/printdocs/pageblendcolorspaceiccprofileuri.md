@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Read about the PageBlendColorSpaceICCProfileURI parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 05924c7d-e074-4835-b42c-53c77dc1bbb5
 title: PageBlendColorSpaceICCProfileURI
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies a relative URI reference to an ICC profile defining the color space th
 
 
 
-| Name                       |                                                                                                                                        |
+| Name | Value |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                                                                                                |
 | Scoping Prefix <br/> | Page<br/>                                                                                                                        |

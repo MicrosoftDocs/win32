@@ -1,5 +1,5 @@
 ---
-description: The GetRate method retrieves the playback rate. This method implements the IMediaSeeking::GetRate method.
+description: CPosPassThru.GetRate method - The GetRate method retrieves the playback rate. This method implements the IMediaSeeking::GetRate method.
 ms.assetid: 19de3ea3-280e-4320-9cce-2c29801bd84b
 title: CPosPassThru.GetRate method (Ctlutil.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
+description: SetPowerState method of the CIM_AlarmDevice class - The SetPowerState method sets the desired power state for a logical device and when the device should be put into that state.
 ms.assetid: 3194c363-4db7-4928-b47a-7e9c8a5339d7
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_AlarmDevice class

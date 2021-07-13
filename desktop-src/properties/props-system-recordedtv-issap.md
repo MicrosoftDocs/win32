@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.RecordedTV.IsSAP
 ms.assetid: 9fd78517-ba1f-4832-9c1c-31acb16548f7
 title: System.RecordedTV.IsSAP
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: The following flags are used to specify which channels in a texture to operate on.
+description: Learn about the D3DX_FILTER flags that are used to specify which channels in a texture to operate on, such as D3DX_FILTER_TRIANGLE.
 ms.assetid: 0317b857-2512-4ad7-b6e3-82afdda7ea10
 title: D3DX_FILTER
 ms.topic: article
@@ -12,9 +12,8 @@ The following flags are used to specify which channels in a texture to operate o
 
 
 
-|                         |                                                                                                                                                                                                             |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                | Description                                                                                                                                                                                                 |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DX\_FILTER\_NONE      | No scaling or filtering will take place. Pixels outside the bounds of the source image are assumed to be transparent black.                                                                                 |
 | D3DX\_FILTER\_POINT     | Each destination pixel is computed by sampling the nearest pixel from the source image.                                                                                                                     |
 | D3DX\_FILTER\_LINEAR    | Each destination pixel is computed by sampling the four nearest pixels from the source image. This filter works best when the scale on both axes is less than two.                                          |
@@ -46,7 +45,7 @@ Reference each method to check for information about how D3DX\_DEFAULT filter is
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3dx9tex.h |
 | Minimum operating system | Windows 98 |

@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # What's New (DirectXMath)
 
-The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04](https://walbourn.github.io/). Here we describe how DirectXMath differs from XNA Math and how DirectXMath versions differ.
+The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04](https://walbourn.github.io/xna-math-version-2-04/). Here we describe how DirectXMath differs from XNA Math and how DirectXMath versions differ.
 
 -   [Rlease history](#release-history)
 -   [DirectXMath differences from XNA Math](#directxmath-differences-from-xna-math)
@@ -17,6 +17,9 @@ The DirectXMath library is based on the [XNA Math C++ SIMD library version 2.04]
 ## Release history
 
 <table>
+ <tr>
+  <td>Windows 10 SDK (20348), version 2104</td><td>DirectXMath 3.16</td>
+ </td>
  <tr>
   <td>Windows 10 May 2020 Update SDK</td><td>DirectXMath 3.14</td>
  </tr>

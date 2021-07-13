@@ -64,7 +64,7 @@ media = Player.newMedia("C:\\WMSDK\\WMPSDK10\\samples\\media\\laure.wma");
 
 
 > [!Note]  
-> You must include two backslash (\) characters (or use the @ character in C#) in a string to represent one actual backslash character. This is because C# uses a single backslash character to define an escape sequence.
+> You must include two backslash (\\) characters (or use the @ character in C#) in a string to represent one actual backslash character. This is because C# uses a single backslash character to define an escape sequence.
 
  
 

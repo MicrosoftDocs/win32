@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CBaseControlWindow.CBaseControlWindow constructor - Constructor method.
 ms.assetid: 575f7f94-5f55-4834-bdb6-0db877187388
 title: CBaseControlWindow.CBaseControlWindow constructor (Ctlutil.h)
 ms.topic: reference

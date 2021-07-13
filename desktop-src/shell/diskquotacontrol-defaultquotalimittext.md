@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: ea1b02e0-c480-4ef1-b6e0-1ec202d5f3c5
-api_name: 
- - DiskQuotaControl.DefaultQuotaLimitText
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

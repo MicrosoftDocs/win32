@@ -29,7 +29,7 @@ The DirectShow base classes are recommended for implementing DirectShow filters.
 
 -   Link to the following lib files.
 
-    |              |                                      |
+| Label | Value |
     |--------------|--------------------------------------|
     | Debug Build  | Strmbasd.lib, Msvcrtd.lib, Winmm.lib |
     | Retail Build | Strmbase.lib, Msvcrt.lib, Winmm.lib  |

@@ -1,5 +1,5 @@
 ---
-description: The Alloc method allocates memory for the buffers.
+description: CBaseAllocator.Alloc method - The Alloc method allocates memory for the buffers.
 ms.assetid: a22c97ef-6a8d-4cad-b5a5-3e6b225f5c81
 title: CBaseAllocator.Alloc method (Amfilter.h)
 ms.topic: reference

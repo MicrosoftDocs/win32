@@ -62,7 +62,7 @@ Defines a group that contains a set of grouped content in a Journal note.
 
 
 
-|             |                                            |
+|  Element     | Value                                                     |
 |-------------|--------------------------------------------|
 | Namespace   | urn:schemas-microsoft-com:tabletpc:richink |
 | Schema name | Journal Reader                             |

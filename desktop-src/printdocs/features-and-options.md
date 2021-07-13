@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Read about features and options in a PrintCapabilities document. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 8084fa15-85e5-4c8d-b585-8c349482a6eb
 title: Features and Options
 ms.topic: article

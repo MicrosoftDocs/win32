@@ -1,5 +1,5 @@
 ---
-description: Transforms a 2D vector by a given matrix.
+description: D3DXVec2Transform function (D3DX10Math.h) - Transforms a 2D vector by a given matrix.
 ms.assetid: 4b57eb7f-fae9-48ac-a806-510da75d25a6
 title: D3DXVec2Transform function (D3DX10Math.h)
 ms.topic: reference

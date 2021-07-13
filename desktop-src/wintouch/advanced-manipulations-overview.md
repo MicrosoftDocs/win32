@@ -1,6 +1,6 @@
 ---
 title: Advanced Manipulations Overview
-description: This section explains advanced manipulations for applications.
+description: Read a graphical overview about advanced manipulations for applications. Learn about expansion, rotation, and translation.
 ms.assetid: a0c3fecb-d3c7-4f12-90be-5f77f4f5883e
 keywords:
 - Windows Touch,manipulations

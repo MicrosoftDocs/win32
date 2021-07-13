@@ -20,7 +20,7 @@ A *hard page fault* must be resolved by reading page contents from the page's *b
 
 Pages can be removed from a process working set as a result of the following actions:
 
--   The process reduces or empties the working set by calling the [**SetProcessWorkingSetSize**](/windows/win32/api/winbase/nf-winbase-setprocessworkingsetsize), [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) or [**EmptyWorkingSet**](/windows/win32/api/psapi/nf-psapi-emptyworkingset) function.
+-   The process reduces or empties the working set by calling the [**SetProcessWorkingSetSize**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize), [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) or [**EmptyWorkingSet**](/windows/win32/api/psapi/nf-psapi-emptyworkingset) function.
 -   The process calls the [**VirtualUnlock**](/windows/win32/api/memoryapi/nf-memoryapi-virtualunlock) function on a memory range that is not locked.
 -   The process unmaps a mapped view of a file using the [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) function.
 -   The memory manager trims pages from the working set to create more available memory.

@@ -57,7 +57,7 @@ HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Server\\S
 
 
 
-|                  | Server Core | Minimal Server Interface | Server Graphical Shell |
+|   &nbsp;         | Server Core | Minimal Server Interface | Server Graphical Shell |
 |------------------|-------------|--------------------------|------------------------|
 | ServerCore=1     | X           | X                        | X                      |
 | Server-GuiMgmt=1 |             | X                        | X                      |

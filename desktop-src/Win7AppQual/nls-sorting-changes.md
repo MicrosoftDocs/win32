@@ -1,5 +1,5 @@
 ---
-description: .
+description: NLS Sorting Changes
 ms.assetid: 24617b5f-14f1-4f1b-a288-7d20a8166da0
 title: NLS Sorting Changes
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
- **Clients** - Windows XP \| Windows Vista \| Windows 7  
-**Servers** - Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+ **Clients** - Windows XP, Windows Vista, Windows 7  
+**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Transforms an array (x, y, 0, 1) by a given matrix, and projects the result back into w = 1.
+description: D3DXVec2TransformCoordArray function (D3DX10Math.h) - Transforms an array (x, y, 0, 1) by a given matrix, and projects the result back into w = 1.
 ms.assetid: dba68678-2ab4-4f64-9975-5e9f2a20f66a
 title: D3DXVec2TransformCoordArray function (D3DX10Math.h)
 ms.topic: reference

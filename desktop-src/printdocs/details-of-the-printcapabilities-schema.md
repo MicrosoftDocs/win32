@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get details about the PrintCapabilities schema. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 45782478-cfbd-4155-9bb4-3badfeef3595
 title: Details of the PrintCapabilities Schema
 ms.topic: article

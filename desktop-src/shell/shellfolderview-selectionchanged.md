@@ -1,5 +1,5 @@
 ---
-description: Occurs when the selection state of any item or items in the view has changed.
+description: ShellFolderView.SelectionChanged event - Occurs when the selection state of any item or items in the view has changed.
 title: ShellFolderView.SelectionChanged event (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: e91b72fd-fd26-4e38-8e80-41febec3ca03
-api_name: 
- - SelectionChanged
-api_type: 
- - DllExport
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

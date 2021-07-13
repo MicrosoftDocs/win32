@@ -86,11 +86,9 @@ Direct3D 10 and later only. Optional array size; a positive integer greater than
 
 \[in\] The sampler type, which is one of the following: *sampler*, *sampler1D*, *sampler2D*, *sampler3D*, *samplerCUBE*, *sampler\_state*, *SamplerState*.
 
+Differences between Direct3D 9 and Direct3D 10 and later:
 
-
-|                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Differences between Direct3D 9 and Direct3D 10 and later:<br/> Direct3D 10 and later supports one additional sampler type: *SamplerComparisonState*.<br/> |
+- Direct3D 10 and later supports one additional sampler type: *SamplerComparisonState*.
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: This class is the event type class for process events. The following syntax is simplified from MOF code.
+description: Process_V1_TypeGroup1 class - This class is the event type class for process events. The following syntax is simplified from MOF code.
 ms.assetid: b114d7fd-c308-4f21-8f1a-ab27dc93abc5
 title: Process_V1_TypeGroup1 class
 ms.topic: reference

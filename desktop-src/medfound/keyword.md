@@ -33,8 +33,6 @@ There are no child elements.
 
 ## Parent elements
 
-
-
 | Element                                   |
 |-------------------------------------------|
 | [**mfdetours**](mfdetours.md)<br/> |
@@ -50,13 +48,14 @@ For the [**provider**](provider.md) element, the key words depend on the event p
 
 ## Element information
 
-
-
-|              |     |
-|--------------|-----|
-| Can be empty | Yes |
-
-
+:::row:::
+    :::column:::
+        Can be empty
+    :::column-end:::
+    :::column span="2":::
+        Yes
+    :::column-end:::
+:::row-end:::
 
 ## See also
 

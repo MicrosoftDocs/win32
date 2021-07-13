@@ -1,6 +1,6 @@
 ---
 title: Create method of the Win32_Service class (Remote Desktop Services)
-description: Creates a new system service.
+description: Create method of the Win32_Service class (Remote Desktop Services) - Creates a new system service.
 ms.assetid: 805754AA-B62A-4324-B289-503C42BEFA49
 ms.tgt_platform: multiple
 keywords:
@@ -54,7 +54,7 @@ uint32 Create(
 *Name* \[in\]
 </dt> <dd>
 
-Name of the service to install to the **Create** method. The maximum string length is 256 characters. The Service Control Manager database preserves the case of the characters, but service name comparisons are always case-insensitive. Forward-slashes (/) and double back-slashes (\) are invalid service name characters.
+Name of the service to install to the **Create** method. The maximum string length is 256 characters. The Service Control Manager database preserves the case of the characters, but service name comparisons are always case-insensitive. Forward-slashes (/) and double back-slashes (\\\\) are invalid service name characters.
 
 </dd> <dt>
 

@@ -1,6 +1,6 @@
 ---
 title: Seeking in ASF Files (Windows Media Format 11 SDK)
-description: Seeking in ASF Files
+description: Learn how the WM ASF Reader can perform very accurate temporal seeking on Windows Media–based content that has a temporal index in Windows Media Format 11 SDK.
 ms.assetid: a1717cb4-9f41-4148-b088-a6517be7da9b
 keywords:
 - Windows Media Format SDK,seeking in ASF files

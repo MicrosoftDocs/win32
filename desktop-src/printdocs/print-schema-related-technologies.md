@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Explore Print Schema-related technologies. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 360325dc-51b5-44d5-981b-b69f7d6c82fd
 title: Print Schema-Related Technologies
 ms.topic: article

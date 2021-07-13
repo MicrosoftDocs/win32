@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CTransInPlaceFilter.CTransInPlaceFilter constructor - Constructor method.
 ms.assetid: f0d30125-5d16-470c-a5fb-a7df96814dad
 title: CTransInPlaceFilter.CTransInPlaceFilter constructor (Transip.h)
 ms.topic: reference

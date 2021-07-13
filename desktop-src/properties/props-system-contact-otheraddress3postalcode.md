@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.OtherAddress3PostalCode
 ms.assetid: 6ab3cadf-a8ea-4a29-8a90-700f8927b339
 title: System.Contact.OtherAddress3PostalCode
 ms.topic: article

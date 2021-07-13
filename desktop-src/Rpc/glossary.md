@@ -1,6 +1,6 @@
 ---
 title: Glossary (RPC)
-description: Glossary
+description: This glossary includes key terms and concepts about Remote Procedure Calls. Follow these links to view entries.
 ms.assetid: 4EC80A0B-D816-452C-93C0-D48A5220EEF6
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,6 +1,6 @@
 ---
 title: Interfaces (Active Accessibility User Interface Services)
-description: Interfaces
+description: Learn about interfaces used with Microsoft Active Accessibility, such as IAccessible and IAccessibleWindowlessSite.
 ms.assetid: 304ba3f8-5d1e-4a74-a0d5-36f29207f178
 ms.topic: article
 ms.date: 05/31/2018

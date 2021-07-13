@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageScalingScale parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 49a60a94-fb65-4439-bebf-3f77ea0861fe
 title: PageScalingScale
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the scaling factor for custom square scaling.
 
 
 
-| Name                       |                                                         |
+| Name | Value |
 |----------------------------|---------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                 |
 | Scoping Prefix <br/> | Page<br/>                                         |

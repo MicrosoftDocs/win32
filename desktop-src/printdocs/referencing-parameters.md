@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about referencing parameters and the ParameterDef element. An example of an Option that includes a ParameterRef element is the custom media size Option.
 ms.assetid: 2c796d5c-1556-4348-83e2-23e93780ebc1
 title: Referencing Parameters
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: Computes the intersection of a ray and a triangle.
+description: D3DXIntersectTri function (D3DX9Mesh.h) - Computes the intersection of a ray and a triangle.
 ms.assetid: f335a71d-7203-4ea1-a6bf-407b28c712e6
 title: D3DXIntersectTri function (D3DX9Mesh.h)
 ms.topic: reference

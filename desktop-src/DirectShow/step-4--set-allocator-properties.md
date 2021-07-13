@@ -1,5 +1,5 @@
 ---
-description: Step 4.
+description: Set allocator properties as part of writing a transform filter. The transform filter's output pin selects the downstream allocator.
 ms.assetid: c2fd6d8b-b239-45e4-9c02-41edafa58762
 title: Step 4. Set Allocator Properties
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.
+description: D3DXGetPixelShaderProfile function - Returns the name of the highest high-level shader language (HLSL) profile supported by a given device.
 ms.assetid: a6c1be4e-f6f5-4f08-b6a7-b9c621e5f19b
 title: D3DXGetPixelShaderProfile function (D3DX9Shader.h)
 ms.topic: reference

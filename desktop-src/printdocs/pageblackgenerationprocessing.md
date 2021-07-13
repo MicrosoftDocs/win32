@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageBlackGenerationProcessing element, which specifies black generation behavior for CMYK separations.
 ms.assetid: 4edd1fdf-9601-440d-b967-82ffa6dceeb1
 title: PageBlackGenerationProcessing
 ms.topic: article
@@ -20,7 +20,7 @@ Specifies black generation behavior for CMYK separations.
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobPrimaryCoverBackSource element, which specifies the source for a custom back-cover primary sheet for the job.
 ms.assetid: b5c8e79c-cdae-4c53-b594-915726423b4f
 title: JobPrimaryCoverBackSource
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the source for a custom back-cover primary sheet for the job.
 
 
 
-| Name                       |                                           |
+| Name | Value |
 |----------------------------|-------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                   |
 | Scoping Prefix <br/> | Job<br/>                            |

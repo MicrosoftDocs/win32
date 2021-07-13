@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Journal.EntryType
 ms.assetid: 1a93a505-0c63-4cbf-9ad3-8c99f40315a1
 title: System.Journal.EntryType
 ms.topic: article

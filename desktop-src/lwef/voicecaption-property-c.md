@@ -1,6 +1,6 @@
 ---
 title: VoiceCaption Property (Command Object)
-description: VoiceCaption Property
+description: Learn about the VoiceCaption Property of the Command object, which sets or returns the text displayed for the Command object in the Voice Commands Window.
 ms.assetid: 97a3015c-6c39-42d5-b6bd-7563bd444b38
 ms.topic: article
 ms.date: 05/31/2018

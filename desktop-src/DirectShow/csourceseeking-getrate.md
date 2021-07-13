@@ -1,5 +1,5 @@
 ---
-description: The GetRate method retrieves the playback rate. This method implements the IMediaSeeking::GetRate method.
+description: CSourceSeeking.GetRate method - The GetRate method retrieves the playback rate. This method implements the IMediaSeeking::GetRate method.
 ms.assetid: e5c3ef27-6f57-4c74-b197-a3c4efb31239
 title: CSourceSeeking.GetRate method (Ctlutil.h)
 ms.topic: reference

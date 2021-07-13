@@ -28,19 +28,11 @@ HLSL statements are constructed using the following rules for grammar.
 
 The following characters are recognized as white space.
 
-
-
-|                            |
-|----------------------------|
-| SPACE                      |
-| TAB                        |
-| EOL                        |
-| C style comments (/\* \*/) |
-| C++ style comments (//)    |
-
-
-
- 
+- SPACE
+- TAB
+- EOL
+- C style comments (/\* \*/)
+- C++ style comments (//)
 
 ## Floating point numbers
 
@@ -117,7 +109,7 @@ Characters are represented in HLSL as follows:
 
 
 
-|                                           |                                                                 |
+| Character                                          | Description                                                                |
 |-------------------------------------------|-----------------------------------------------------------------|
 | 'c'                                       | (character)                                                     |
 | '\\a' '\\b' '\\f' '\\b' '\\r' '\\t' '\\v' | (escapes)                                                       |

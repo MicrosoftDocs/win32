@@ -1,5 +1,5 @@
 ---
-description: Provides access to properties and methods exposed by an object.
+description: CMediaEvent.Invoke method - Provides access to properties and methods exposed by an object.
 ms.assetid: 2b091b57-0855-489a-9a33-cfc75f63ad07
 title: CMediaEvent.Invoke method (Ctlutil.h)
 ms.topic: reference

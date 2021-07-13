@@ -1,5 +1,5 @@
 ---
-description: The user-friendly display path to the item.
+description: Read about the System.ItemPathDisplayNarrow property, which represents the user-friendly display path to the item.
 ms.assetid: 5dd44e13-bc5c-4e32-b5eb-2c7c40e10dfb
 title: System.ItemPathDisplayNarrow
 ms.topic: article

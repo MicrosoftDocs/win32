@@ -101,9 +101,8 @@ For Windows Vista, the Open File and Save File have a new extensible architectur
 
 
 
-|                              |                                               |
-|------------------------------|-----------------------------------------------|
-| **Common dialog**<br/> | **Command**<br/>                        |
+| Common dialog          | Command                                 |
+|------------------------|-----------------------------------------|
 | Open File<br/>         | Open...<br/>                            |
 | Save File<br/>         | Save as...<br/>                         |
 | Open Folder<br/>       | Open folder... or Choose folder...<br/> |

@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CMediaControl.CMediaControl constructor - Constructor method.
 ms.assetid: 00549dfe-5dd4-445e-bad3-eb6bcfea8f5f
 title: CMediaControl.CMediaControl constructor (Ctlutil.h)
 ms.topic: reference

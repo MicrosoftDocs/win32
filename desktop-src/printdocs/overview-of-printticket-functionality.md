@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: This overview of PrintTicket functionality describes the format for expressing device configuration information and use of a PrintTicket.
 ms.assetid: c48b9821-9194-47d9-a3ec-b10dbbdf14cc
 title: Overview of PrintTicket Functionality
 ms.topic: article

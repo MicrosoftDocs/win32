@@ -1,5 +1,5 @@
 ---
-description: Cipher suites can only be negotiated for TLS versions which support them.
+description: Learn about TLS cipher suites in Windows 7. Cipher suites can only be negotiated for TLS versions which support them.
 ms.assetid: 283CB634-25EA-47F5-A2E3-0913F7D3D9DC
 title: TLS Cipher Suites in Windows 7
 ms.topic: article

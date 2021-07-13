@@ -1,5 +1,5 @@
 ---
-description: .
+description: Addressing Application Compatibility When Migrating to Internet Explorer 8
 ms.assetid: 3F79CF5F-416D-4C06-AAAE-D935F36CD2E2
 title: Addressing Application Compatibility When Migrating to Internet Explorer 8
 ms.topic: article

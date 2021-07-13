@@ -1,5 +1,5 @@
 ---
-description: Stops the service.
+description: StopService method of the Msvm_CollectionManagementService class - Stops the service.
 ms.assetid: 26d0aa9f-f5ca-481f-9bed-6788b0dc2803
 title: StopService method of the Msvm_CollectionManagementService class
 ms.topic: reference

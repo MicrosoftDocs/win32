@@ -1,6 +1,6 @@
 ---
 title: Top Property (CommandsWindow Object)
-description: Top Property
+description: Learn about the Top property (CommandsWindow object). Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.
 ms.assetid: 3840b036-8f8d-4180-a8d6-6c521fe3d728
 ms.topic: article
 ms.date: 05/31/2018

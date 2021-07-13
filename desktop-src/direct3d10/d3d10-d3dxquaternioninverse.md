@@ -1,5 +1,5 @@
 ---
-description: Conjugates and renormalizes a quaternion.
+description: D3DXQuaternionInverse function (D3DX10Math.h) - Conjugates and renormalizes a quaternion.
 ms.assetid: 8e1bba91-8895-43a2-805b-1368050f8e82
 title: D3DXQuaternionInverse function (D3DX10Math.h)
 ms.topic: reference

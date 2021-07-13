@@ -44,7 +44,7 @@ WSDAPI uses the prefix "WSD".
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

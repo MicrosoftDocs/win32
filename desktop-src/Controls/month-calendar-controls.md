@@ -51,7 +51,7 @@ The following keyboard commands can also be used to move the selection. The cale
 
 
 
-|                         |                                                                                                                                                                                                                                          |
+|    Command      |    Description                    |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Left arrow (VK\_LEFT)   | Select the previous day.                                                                                                                                                                                                                 |
 | Right arrow (VK\_RIGHT) | Select the next day.                                                                                                                                                                                                                     |
@@ -96,7 +96,7 @@ The month calendar control does not display the time. However, the [**SYSTEMTIME
 
 
 
-|                                             |                                                                                                                                                                                                                            |
+|  Message         |  Description            |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MCM\_SETCURSEL**](mcm-setcursel.md)     | The control copies the time fields as they are, without validation or modification.                                                                                                                                        |
 | [**MCM\_SETRANGE**](mcm-setrange.md)       | The time fields of the structures passed in are validated. If they are valid, the time fields are copied without modification. If they are invalid, the control copies the time fields from today's data.                  |

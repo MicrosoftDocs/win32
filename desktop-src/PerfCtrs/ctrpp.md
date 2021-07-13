@@ -95,7 +95,7 @@ If the **-ch** parameter is specified on the command line, the CTRPP tool will g
 
 ## Requirements
 
-|                         ||
-|-------------------------|----
+| Requirement             | Value |
+|-------------------------|-------|
 | Minimum supported client| Windows Vista \[desktop apps only\]
 | Minimum supported server| Windows Server 2008 \[desktop apps only\]

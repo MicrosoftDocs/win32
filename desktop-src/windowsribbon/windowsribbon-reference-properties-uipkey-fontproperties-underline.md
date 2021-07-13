@@ -36,7 +36,7 @@ The following table describes the properties and the UI result.
 
 
 
-|                                 |                                                                          |
+|      Property                   |       UI Result                                                          |
 |---------------------------------|--------------------------------------------------------------------------|
 | `UI_FONTUNDERLINE_NOTAVAILABLE` | **Underline** button is disabled and can only be set by the application. |
 | `UI_FONTUNDERLINE_NOTSET`       | **Underline** button is not selected.                                    |

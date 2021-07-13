@@ -15,7 +15,7 @@ Specifies if the MFT’s Sample Allocator (SA) should allocate the underlying Di
 
 ## Remarks
 
-This attribute is available staring with Windows 10 Preview build 14383. 
+This attribute is available staring with Windows 10 build 20348. 
 
 > [!NOTE]
 > The **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** member field of the [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) enumeration will be available in a future release of the SDK.
@@ -127,7 +127,7 @@ private:
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | Windows 10 Preview Build 14383<br/>                                    |
+| Minimum supported client<br/> | Windows 10 build 20348<br/>                                    |
 | Header<br/>                   | <dl> <dt>Mftransform.h</dt> </dl> |
 
 

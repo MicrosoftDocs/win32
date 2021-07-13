@@ -60,7 +60,7 @@ Message structures are referenced by generated proxy and stub code. This element
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

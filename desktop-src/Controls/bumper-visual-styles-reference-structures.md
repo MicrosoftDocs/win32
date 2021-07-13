@@ -1,6 +1,6 @@
 ---
 title: Structures (Visual Styles Reference)
-description: Structures
+description: This Visual Styles reference includes articles about Structures, such as BP_ANIMATIONPARAMS and BP_PAINTPARAMS.
 ms.assetid: 11addbb0-b771-4f4b-93fc-94afd320d55b
 ms.topic: article
 ms.date: 05/31/2018

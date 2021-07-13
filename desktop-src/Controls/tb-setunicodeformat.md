@@ -1,6 +1,6 @@
 ---
 title: TB_SETUNICODEFORMAT message (Commctrl.h)
-description: Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control.
+description: TB_SETUNICODEFORMAT message - Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control.
 ms.assetid: d4eec78d-c25b-4b86-9449-64f091cd8501
 keywords:
 - TB_SETUNICODEFORMAT message Windows Controls

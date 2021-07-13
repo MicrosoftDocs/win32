@@ -1,6 +1,6 @@
 ---
 title: Client Logging (Windows Media Format 11 SDK)
-description: Client Logging
+description: Learn about client logging for Windows Media Format 11 SDK. Logging provides a way for the media server to track the activity of the clients that connect to it.
 ms.assetid: 3e0d0fea-4370-41f8-b461-73a37de8d8bc
 keywords:
 - Windows Media Format SDK,client logging

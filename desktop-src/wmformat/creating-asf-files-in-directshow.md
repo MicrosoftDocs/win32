@@ -1,6 +1,6 @@
 ---
 title: Creating ASF Files in DirectShow (Windows Media Format 11 SDK)
-description: Creating ASF Files in DirectShow
+description: Learn about creating ASF files in DirectShow by using the Windows Media Format 11 SDK. ASF is a container format that can contain any type of data.
 ms.assetid: 8b7af340-934d-43a9-88e9-7bbb2d3a38e0
 keywords:
 - Windows Media Format SDK,creating ASF files in DirectShow

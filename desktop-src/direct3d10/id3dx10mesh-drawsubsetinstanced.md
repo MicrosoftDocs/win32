@@ -76,7 +76,7 @@ A mesh contains an attribute table. The attribute table can divide a mesh into s
 
 
 
-|            |                 |
+| Subset     | Faces           |
 |------------|-----------------|
 | AttribID 0 | Faces 0 ~ 50    |
 | AttribID 1 | Faces 51 ~ 125  |

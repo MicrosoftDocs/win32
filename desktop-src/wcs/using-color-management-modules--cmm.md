@@ -52,11 +52,11 @@ _CRTAPI1 main (int argc, char *argv[])
 
     HANDLE hkCMM;
     DWORD dwErr = RegCreateKey(HKEY_LOCAL_MACHINE,
-                 gszICMatcher, &amp;hkCMM);
+                 gszICMatcher, &hkCMM);
     DWORD dwMaxName, dwMaxValue;
-    DWORD dwInfoErr = RegQueryInfoKey(&amp;hkCMM, NULL, NULL,
+    DWORD dwInfoErr = RegQueryInfoKey(&hkCMM, NULL, NULL,
                                 NULL, NULL, NULL, NULL, NULL,
-                                &amp;dwMaxName, &amp;dwMaxValue,
+                                &dwMaxName, &dwMaxValue,
                                 NULL, NULL);
     TCHAR chCMM[dwMaxName];
     ULONG cjCMM = sizeof(chCMM)/sizeof(chCMM[0]);
@@ -73,8 +73,8 @@ _CRTAPI1 main (int argc, char *argv[])
     {
         while (RegEnumValue(
                    hkCMM,dwNumCMM,chCMM,
-                   &amp;cjCMM,NULL,&amp;dwType,
-                   chCMMFile,&amp;cjCMMFile) == ERROR_SUCCESS)
+                   &cjCMM,NULL,&dwType,
+                   chCMMFile,&cjCMMFile) == ERROR_SUCCESS)
         {
             if (dwType == REG_SZ)
             {

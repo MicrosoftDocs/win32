@@ -1,5 +1,5 @@
 ---
-description: Helper object to pass seek commands upstream.
+description: CBaseRenderer::m_pPosition member - Helper object to pass seek commands upstream.
 ms.assetid: 10fe022d-8707-4059-90b8-5740c3861071
 title: CBaseRenderer::m_pPosition member (Renbase.h)
 ms.topic: reference

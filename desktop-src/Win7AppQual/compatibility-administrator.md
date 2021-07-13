@@ -1,5 +1,5 @@
 ---
-description: .
+description: Compatibility Administrator
 ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: Compatibility Administrator
 ms.topic: article
@@ -10,8 +10,8 @@ ms.date: 05/31/2018
 
 ## Affected Platforms
 
- **Clients:** Windows 2000 \| Windows XP \| Windows Vista \| Windows 7  
-**Servers:** Windows Server 2003 \| Windows Server 2008 \| Windows Server 2008 R2  
+ **Clients:** Windows 2000, Windows XP, Windows Vista, Windows 7  
+**Servers:** Windows Server 2003, Windows Server 2008, Windows Server 2008 R2  
 
 
 ## Description
@@ -28,7 +28,7 @@ The following flowchart illustrates the steps required in using the Compatibilit
 
 
 
-|                                            |          |                                                                                            |          |                                                     |          |                                                                             |
+| &nbsp;    | &nbsp;  |  &nbsp;   | &nbsp;  | &nbsp; | &nbsp;  |  &nbsp;  |
 |--------------------------------------------|----------|--------------------------------------------------------------------------------------------|----------|-----------------------------------------------------|----------|-----------------------------------------------------------------------------|
 | Create a new compatibility database (.sdb) | **>** | Select the application and then select the compatibility fixes to apply to the application | **>** | Test the application with the new compatibility fix | **>** | Save the compatibility database and then deploy the fix to your corporation |
 

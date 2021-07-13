@@ -25,7 +25,7 @@ The Library Description schema consists of three major parts, described in the f
 
 
 
-|                             |                                                                                                                                                            |
+| Part                        | Description                                                                                                                                                |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | General library information | Information about the library, such as name, owner, version, icon, that Windows Explorer can use when it displays the library to a user.                   |
 | Library properties          | One or more properties that describe the library. These custom properties are specific to the library.                                                     |

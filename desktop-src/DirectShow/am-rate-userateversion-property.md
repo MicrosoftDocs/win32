@@ -14,7 +14,7 @@ If the decoder does not support the specified version, it should fail the call t
 
 
 
-|                   |                               |
+| Label | Value |
 |-------------------|-------------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_TSRateChange |
 | Property ID       | AM\_RATE\_UseRateVersion      |

@@ -1,5 +1,5 @@
 ---
-description: The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPin::NotifyAllocator method.
+description: CBaseInputPin.NotifyAllocator method - The NotifyAllocator method specifies an allocator for the connection. This method implements the IMemInputPin::NotifyAllocator method.
 ms.assetid: 16167bd5-2d33-4329-87ec-6a6c578e0060
 title: CBaseInputPin.NotifyAllocator method (Amfilter.h)
 ms.topic: reference

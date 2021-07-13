@@ -97,5 +97,5 @@ Any operators not in this list are not supported for fused activation.
 
 ## See also
 
-[DirectMLSuperResolution sample](https://github.com/microsoft/DirectML/tree/master/Samples)    
-[DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)
+* [DirectMLSuperResolution sample](https://github.com/microsoft/DirectML/tree/master/Samples)    
+* [DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)

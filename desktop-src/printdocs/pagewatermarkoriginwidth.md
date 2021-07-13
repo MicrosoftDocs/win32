@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageWatermarkOriginWidth parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: e1bea06b-11b9-4652-915a-deb563ad59f8
 title: PageWatermarkOriginWidth
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the origin of a watermark relative to the origin of the PageImageableS
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Page<br/>                            |

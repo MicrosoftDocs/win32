@@ -1,5 +1,5 @@
 ---
-description: This class is the parent class for image load events. The following syntax is simplified from MOF code.
+description: Image_V1 class - This class is the parent class for image load events. The following syntax is simplified from MOF code.
 ms.assetid: 78c68080-90fc-4ebf-aa8a-4e03ce629d54
 title: Image_V1 class
 ms.topic: reference

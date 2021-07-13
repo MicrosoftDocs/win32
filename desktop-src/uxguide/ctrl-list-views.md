@@ -30,9 +30,8 @@ A list view is more than just a more flexible and functional list box: its extra
 
 
 
-|                             |                                           |                                                                                                                                               |
+|   Usage                          | List boxes                 | List views               |
 |-----------------------------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-|                             | **List boxes**<br/>                 | **List views**<br/>                                                                                                                     |
 | **Data type**<br/>    | Both data and program options.<br/> | Data only.<br/>                                                                                                                         |
 | **Contents**<br/>     | Labels only.<br/>                   | Labels and auxiliary data, possibly in multiple columns.<br/>                                                                           |
 | **Interaction**<br/>  | Used for making selections.<br/>    | Can be used for making selections, but often used for displaying and interacting with data. Can be a drag source or a drop target.<br/> |
@@ -70,7 +69,7 @@ The list view control supports five standard views:
 
 
 
-|                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           |
+|    Usage    |   Example        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Tile**<br/> each item appears as a medium icon, with a label and optional details to the right. <br/>                                                                                                                         | ![screen shot of thumbnails with titles and details ](images/ctrl-list-views-image2.png)<br/> Tile view shows medium icons with labels and optional details on the right.<br/>                                                                                                                                                                |
 | **Large icon**<br/> each item appears as an extra large, large, or medium icon with a label below it.<br/>                                                                                                                      | ![screen shot of large thumbnail list view ](images/ctrl-list-views-image3.png)<br/> Large Icon view shows each item as a large icon with a label below it.<br/>                                                                                                                                                                              |

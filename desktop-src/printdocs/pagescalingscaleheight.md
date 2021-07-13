@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageScalingScaleHeight parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: ccc2ad1c-b0c2-4c45-bc95-7c15426c2534
 title: PageScalingScaleHeight
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the scaling factor in the ImageableSizeHeight direction for custom sca
 
 
 
-| Name                       |                                                         |
+| Name | Value |
 |----------------------------|---------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                 |
 | Scoping Prefix <br/> | Page<br/>                                         |

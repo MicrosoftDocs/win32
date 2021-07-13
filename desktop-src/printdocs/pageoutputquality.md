@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageOutputQuality user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4720f812-a71a-458f-85fa-7885cca0dbbb
 title: PageOutputQuality
 ms.topic: article
@@ -20,7 +20,7 @@ Describes the quality level of the output.
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

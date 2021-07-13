@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_TransparentBridgingService class - Requests a state change.
 ms.assetid: d0a75ede-7f59-4464-abea-e5a84a7f16da
 title: RequestStateChange method of the Msvm_TransparentBridgingService class
 ms.topic: reference

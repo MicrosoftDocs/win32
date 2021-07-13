@@ -1,5 +1,5 @@
 ---
-description: Attempts to place the service in the paused state.
+description: PauseService method of the Win32_Service class (CIMWin32 WMI Providers) - Attempts to place the service in the paused state.
 ms.assetid: 5382457e-7f9c-48a5-9262-b815a1a4a605
 ms.tgt_platform: multiple
 title: PauseService method of the Win32_Service class (CIMWin32 WMI Providers)

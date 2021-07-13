@@ -48,7 +48,7 @@ The following table shows the resulting color transforms when a default device i
 
 
 
-|                                 | Output Profile Specified                              | Output Profile Not Specified                             |
+|  &nbsp;                               | Output Profile Specified                              | Output Profile Not Specified                             |
 |---------------------------------|-------------------------------------------------------|----------------------------------------------------------|
 | Input Color Space Specified     | Transform uses the specified profiles.                | Transform converts from known input color space to sRGB. |
 | Input Color Space Not Specified | Transform converts from sRGB to known output profile. | Transform from sRGB to sRGB is assumed; nothing is done. |

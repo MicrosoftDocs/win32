@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Contact.HomeAddress1PostalCode
 ms.assetid: ccedce99-f7b4-473e-805c-62ad13b2fe0d
 title: System.Contact.HomeAddress1PostalCode
 ms.topic: article

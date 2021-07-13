@@ -1,5 +1,5 @@
 ---
-description: Step 1.
+description: Choose a base class as part of writing a transform filter. Learn which classes are appropriate for transform filters.
 ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
 title: Step 1. Choose a Base Class
 ms.topic: article

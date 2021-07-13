@@ -31,7 +31,7 @@ Specifies the name of a response file. The response file name must immediately f
 
 As an alternative to placing all options associated with a switch on the command line, the MIDL compiler accepts response files that contain switches and arguments. Options in a response file are interpreted as if they are present in that location in the MIDL command line.
 
-Each argument in a response file must begin and end on the same line. The backslash character (\) cannot be used to concatenate lines. When it is part of a quoted string in the response file, the backslash character can only be used before another backslash or before a double quotation mark character ("). When it is not part of a quoted string, the backslash character can only be used before a double quotation mark character.
+Each argument in a response file must begin and end on the same line. The backslash character (\\) cannot be used to concatenate lines. When it is part of a quoted string in the response file, the backslash character can only be used before another backslash or before a double quotation mark character ("). When it is not part of a quoted string, the backslash character can only be used before a double quotation mark character.
 
 MIDL supports command-line arguments that include one or more response files combined with other command-line switches.
 

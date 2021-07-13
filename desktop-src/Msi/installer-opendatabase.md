@@ -67,7 +67,7 @@ A parameter from the following list or a string that contains the path name of t
 
 ## Return value
 
-This method does not return a value.
+A [**Database**](database-object.md) object that represents the existing or new installer database that was opened.
 
 ## Remarks
 

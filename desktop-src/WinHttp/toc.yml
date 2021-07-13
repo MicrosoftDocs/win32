@@ -163,6 +163,8 @@
         items: 
         - name: "WinHttpAddRequestHeaders"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheaders
+        - name: "WinHttpAddRequestHeadersEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheadersex
         - name: "WinHttpCheckPlatform"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpcheckplatform
         - name: "WinHttpCloseHandle"
@@ -179,6 +181,8 @@
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpdetectautoproxyconfigurl
         - name: "WinHttpFreeProxyResult"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpfreeproxyresult
+        - name: "WinHttpFreeQueryConnectionGroupResult"
+          href: /windows/win32/api/Winhttp/nf-winhttp-winhttpfreequeryconnectiongroupresult
         - name: "WinHttpGetDefaultProxyConfiguration"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration
         - name: "WinHttpGetIEProxyConfigForCurrentUser"
@@ -195,14 +199,20 @@
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpopenrequest
         - name: "WinHttpQueryAuthSchemes"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryauthschemes
+        - name: "WinHttpQueryConnectionGroup"
+          href: /windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup
         - name: "WinHttpQueryDataAvailable"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpquerydataavailable
         - name: "WinHttpQueryHeaders"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryheaders
+        - name: "WinHttpQueryHeadersEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryheadersex
         - name: "WinHttpQueryOption"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpqueryoption
         - name: "WinHttpReadData"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpreaddata
+        - name: "WinHttpReadDataEx"
+          href: /windows/win32/api/winhttp/nf-winhttp-winhttpreaddataex
         - name: "WinHttpReceiveResponse"
           href: /windows/win32/api/winhttp/nf-winhttp-winhttpreceiveresponse
         - name: "WinHttpResetAutoProxy"
@@ -255,6 +265,8 @@
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_autoproxy_options
         - name: "WINHTTP_CERTIFICATE_INFO"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info
+        - name: "WINHTTP_CONNECTION_GROUP"
+          href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_connection_group
         - name: "WINHTTP_CONNECTION_INFO"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_connection_info
         - name: "WINHTTP_CREDS"
@@ -263,12 +275,22 @@
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex
         - name: "WINHTTP_CURRENT_USER_IE_PROXY_CONFIG"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config
+        - name: "WINHTTP_EXTENDED_HEADER"
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_extended_header
+        - name: "WINHTTP_HEADER_NAME"
+          href: /windows/win32/api/winhttp/ns-winhttp-winhttp_header_name
+        - name: "WINHTTP_HOST_CONNECTION_GROUP"
+          href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_host_connection_group
+        - name: "WINHTTP_MATCH_CONNECTION_GUID"
+          href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_match_connection_group
         - name: "WINHTTP_PROXY_INFO"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info
         - name: "WINHTTP_PROXY_RESULT"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_result
         - name: "WINHTTP_PROXY_RESULT_ENTRY"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_result_entry
+        - name: "WINHTTP_QUERY_CONNECTION_GROUP_RESULT"
+          href: /windows/win32/api/Winhttp/ns-winhttp-winhttp_query_connection_group_result
         - name: "WINHTTP_REQUEST_STATS"
           href: /windows/win32/api/winhttp/ns-winhttp-winhttp_request_stats
         - name: "WINHTTP_REQUEST_TIMES"

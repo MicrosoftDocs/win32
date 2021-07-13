@@ -32,7 +32,7 @@ None.
 
 
 
-|              |                                            |
+|  Element     | Value                                                     |
 |--------------|--------------------------------------------|
 | Element type | **xs:dateTime**                            |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink |

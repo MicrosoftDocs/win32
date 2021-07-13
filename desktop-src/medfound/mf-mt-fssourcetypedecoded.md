@@ -1,5 +1,5 @@
 ---
-description: Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.
+description: MF_MT_FSSourceTypeDecoded attribute - Specifies whether a decoder can use decode time stamps (DTS) when setting time stamps.
 title: MF_MT_FSSourceTypeDecoded
 ms.topic: reference
 ms.date: 05/31/2018

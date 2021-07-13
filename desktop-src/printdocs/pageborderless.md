@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageBorderless user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: c5e75f57-7426-41fa-88f4-789153fcd0c5
 title: PageBorderless
 ms.topic: article
@@ -20,7 +20,7 @@ Describes when image content should be printed to the physical edges of the medi
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

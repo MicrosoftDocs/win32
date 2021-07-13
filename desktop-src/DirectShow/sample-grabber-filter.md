@@ -28,7 +28,7 @@ If you want to retrieve samples without rendering the data, connect the Sample G
 
 
 
-|                                          |                                                                                                                                                    |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**ISampleGrabber**](isamplegrabber.md)                                                                       |
 | Input pin media types                    | Any media type.                                                                                                                                    |

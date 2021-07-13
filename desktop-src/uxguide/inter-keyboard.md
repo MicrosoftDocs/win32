@@ -260,9 +260,8 @@ where \[Do it\] and \[Don't do it\] are specific responses to the main instructi
 
 -   **Whenever possible, assign access keys for commonly used commands according to the following table.** While consistent access key assignments aren't always possible, they are certainly preferred especially for frequently used commands.
 
-    |                           |                                           |
+    |  Access key         | Command                             |
     |---------------------------|-------------------------------------------|
-    | **Access key**<br/> | **Command**<br/>                    |
     | A<br/>              | About<br/>                          |
     | A<br/>              | Always on top<br/>                  |
     | A<br/>              | Apply<br/>                          |

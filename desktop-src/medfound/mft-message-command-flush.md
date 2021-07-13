@@ -1,5 +1,5 @@
 ---
-description: Requests a Media Foundation transform (MFT) to flush all stored data.
+description: MFT_MESSAGE_COMMAND_FLUSH - Requests a Media Foundation transform (MFT) to flush all stored data.
 ms.assetid: c799a962-da79-46df-a37f-4016c8c1701e
 title: MFT_MESSAGE_COMMAND_FLUSH (Mftransform.h)
 ms.topic: reference

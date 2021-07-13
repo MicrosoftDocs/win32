@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: 0773aa74-adf2-4e90-aead-2a9a981be3cb
-api_name: 
- - FMEVENT_SELCHANGE
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

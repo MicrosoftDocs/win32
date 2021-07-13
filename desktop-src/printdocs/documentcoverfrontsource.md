@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the DocumentCoverFrontSource parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: ec41d0c8-ea77-44ac-a02b-6a48237b324f
 title: DocumentCoverFrontSource
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the source for a custom front-cover sheet.
 
 
 
-| Name                       |                                                 |
+| Name | Value |
 |----------------------------|-------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                         |
 | Scoping Prefix <br/> | Document<br/>                             |

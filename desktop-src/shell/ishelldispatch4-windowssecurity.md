@@ -1,5 +1,5 @@
 ---
-description: Displays the Windows Security dialog box.
+description: IShellDispatch4.WindowsSecurity method - Displays the Windows Security dialog box.
 title: IShellDispatch4.WindowsSecurity method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 665c4644-7749-446e-8212-3ecc9901a035
-api_name: 
- - IShellDispatch4.WindowsSecurity
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

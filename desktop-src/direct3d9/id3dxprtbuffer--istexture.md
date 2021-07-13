@@ -1,5 +1,5 @@
 ---
-description: Indicates whether the buffer contains a texture.
+description: ID3DXPRTBuffer::IsTexture method - Indicates whether the buffer contains a texture.
 ms.assetid: 2c64a155-4b38-45fa-a62e-02e0da2fbeef
 title: ID3DXPRTBuffer::IsTexture method (D3DX9Mesh.h)
 ms.topic: reference

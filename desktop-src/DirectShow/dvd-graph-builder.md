@@ -12,7 +12,7 @@ The DVD Graph Builder is a helper object for building DVD playback graphs. Appli
 
 
 
-|                  |                                              |
+| Label | Value |
 |------------------|----------------------------------------------|
 | Class Identifier | CLSID\_DvdGraphBuilder                       |
 | Interfaces       | [**IDvdGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-idvdgraphbuilder) |

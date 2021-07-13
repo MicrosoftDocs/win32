@@ -1,5 +1,5 @@
 ---
-description: Windows Server 2008 R2.
+description: Learn about new modifications for Network Share Management in Windows Server 2008 R2 and Windows 7.
 ms.assetid: 85b98a7e-7897-4bf2-b56f-37785261b9da
 title: Whats New in Network Share Management in Windows Server 2008 R2 and Windows 7
 ms.topic: article

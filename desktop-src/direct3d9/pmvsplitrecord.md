@@ -1,5 +1,5 @@
 ---
-description: Not supported. Used internally by DirectX.
+description: PMVSplitRecord - Not supported. Used internally by DirectX.
 ms.assetid: 9a79500c-8015-4431-807f-c54ba136e700
 title: PMVSplitRecord
 ms.topic: reference

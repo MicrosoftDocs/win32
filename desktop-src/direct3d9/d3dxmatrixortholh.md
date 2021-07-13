@@ -1,5 +1,5 @@
 ---
-description: Builds a left-handed orthographic projection matrix.
+description: D3DXMatrixOrthoLH function (D3dx9math.h) - Builds a left-handed orthographic projection matrix.
 ms.assetid: e42151bd-2302-491b-a211-7d5a4b8e437f
 title: D3DXMatrixOrthoLH function (D3dx9math.h)
 ms.topic: reference

@@ -60,7 +60,7 @@ Schema tables are referenced by port type definitions. This element is therefore
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

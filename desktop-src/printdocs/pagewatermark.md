@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageWatermark user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: d1c36c47-107c-4012-a839-1018c2652209
 title: PageWatermark
 ms.topic: article
@@ -20,7 +20,7 @@ Describes the watermark setting of the output and the watermark characteristics.
 
 
 
-| Name                       |                                                                                                                                                 |
+| Name | Value |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                                                                                              |
 | Scoping Prefix <br/> | Page<br/>                                                                                                                                 |

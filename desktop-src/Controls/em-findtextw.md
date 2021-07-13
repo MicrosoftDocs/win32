@@ -1,6 +1,6 @@
 ---
 title: EM_FINDTEXTW message (Richedit.h)
-description: Finds Unicode text within a rich edit control.
+description: EM_FINDTEXTW message - Finds Unicode text within a rich edit control.
 ms.assetid: 0c1579f5-3b37-4e28-86a2-f4e03e195f38
 keywords:
 - EM_FINDTEXTW message Windows Controls

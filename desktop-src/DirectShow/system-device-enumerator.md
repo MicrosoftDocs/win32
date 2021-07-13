@@ -12,7 +12,7 @@ The System Device Enumerator enumerates filters and hardware devices installed o
 
 
 
-|                  |                                          |
+| Label | Value |
 |------------------|------------------------------------------|
 | Class Identifier | CLSID\_SystemDeviceEnum                  |
 | Interfaces       | [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) |

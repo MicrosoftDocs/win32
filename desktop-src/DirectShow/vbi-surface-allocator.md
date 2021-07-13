@@ -12,7 +12,7 @@ The VBI Surface Allocator controls the allocation of VBI buffers in analog telev
 
 
 
-|                                          |                                                                                     |
+| Label | Value |
 |------------------------------------------|-------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                  |
 | Input Pin Media Types                    | MEDIATYPE\_Video, MEDIASUBTYPE\_VPVBI                                               |

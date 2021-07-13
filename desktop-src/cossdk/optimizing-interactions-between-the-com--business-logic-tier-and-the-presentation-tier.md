@@ -31,7 +31,7 @@ The following table shows areas where extra care needs to be taken when using an
 
 
 
-|                       | Concurrency  | WAN          | Deployment   | Complexity   |
+|     &nbsp;                  | Concurrency  | WAN          | Deployment   | Complexity   |
 |-----------------------|--------------|--------------|--------------|--------------|
 | Entry | Value |
 | Recordsets<br/> |              | X<br/> | X<br/> | X<br/> |

@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Music.Composer
 ms.assetid: 60eda2b4-2631-41dc-94ee-181a69e9c5f4
 title: System.Music.Composer
 ms.topic: article

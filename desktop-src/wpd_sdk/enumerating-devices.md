@@ -1,6 +1,6 @@
 ---
 title: Enumerating devices (WPD)
-description: Enumerating Devices
+description: Learn how an application enumerates devices by using the EnumerateAllDevices function, which gets a count of connected devices and device-specific information.
 ms.assetid: 28ded3cf-b0c8-4c90-ab39-efc879adb6e7
 ms.topic: article
 ms.date: 05/31/2018

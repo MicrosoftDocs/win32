@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageMediaSizeMediaSizeWidth parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 22e4a6e9-4d18-4fff-873c-27ba59a79222
 title: PageMediaSizeMediaSizeWidth
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the dimension MediaSizeWidth direction for the Custom MediaSize option
 
 
 
-| Name                       |                                                           |
+| Name | Value |
 |----------------------------|-----------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                   |
 | Scoping Prefix <br/> | Page<br/>                                           |

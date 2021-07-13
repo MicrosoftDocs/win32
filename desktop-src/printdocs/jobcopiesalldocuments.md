@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobCopiesAllDocuments element, which specifies the number of copies of a job.
 ms.assetid: 584a71cd-fc32-485e-a627-27be95c377a9
 title: JobCopiesAllDocuments
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the number of copies of a job.
 
 
 
-| Name                       |                         |
+| Name | Value |
 |----------------------------|-------------------------|
 | Element Type <br/>   | ParameterDef<br/> |
 | Scoping Prefix <br/> | Job<br/>          |

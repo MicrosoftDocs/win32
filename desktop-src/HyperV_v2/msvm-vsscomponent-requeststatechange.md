@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_VssComponent class - Requests a state change.
 ms.assetid: 27a8ab6e-afbd-4d87-afd6-8da0cc5e3fba
 title: RequestStateChange method of the Msvm_VssComponent class
 ms.topic: reference

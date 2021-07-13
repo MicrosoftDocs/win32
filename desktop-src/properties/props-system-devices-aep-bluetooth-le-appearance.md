@@ -1,5 +1,5 @@
 ---
-description: Bluetooth LE device appearance.
+description: Learn about the Bluetooth LE device appearance. This reference page describes the System.Devices.Aep.Bluetooth.Le.Appearance property.
 ms.assetid: 03c10b03-5821-476c-a1f3-3387ee4d6318
 title: System.Devices.Aep.Bluetooth.Le.Appearance
 ms.topic: article

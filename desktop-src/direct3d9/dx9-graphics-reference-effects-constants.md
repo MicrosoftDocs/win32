@@ -17,7 +17,7 @@ Effects use [Handles (Direct3D 9)](handles.md) to reference techniques, passes, 
 
 
 
-|         |        |            |
+| Parameter        | Effect       |  Handle          |
 |---------|--------|------------|
 | typedef | LPCSTR | D3DXHANDLE |
 

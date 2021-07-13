@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Media.Publisher
 ms.assetid: 64de54af-6900-4361-a7b5-f29fbd5cd0e0
 title: System.Media.Publisher
 ms.topic: article

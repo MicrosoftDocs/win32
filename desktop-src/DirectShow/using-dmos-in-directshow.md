@@ -61,7 +61,7 @@ Instead of creating a DMO directly, you can use the [System Device Enumerator](s
 
 
 
-|                             |                                |
+| Label | Value |
 |-----------------------------|--------------------------------|
 | DMO Category                | DirectShow Equivalent          |
 | DMOCATEGORY\_AUDIO\_ENCODER | CLSID\_AudioCompressorCategory |

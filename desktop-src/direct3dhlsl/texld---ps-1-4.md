@@ -28,9 +28,8 @@ Loads the destination register with color data (RGBA) sampled using the contents
 
 
 
-| Argument | Description          | Registers |     |     |     | Version      |
+| Value         | Description                     | vₙ        | cₙ  | tₙ  | rₙ  | Pixel shader version              |
 |----------|----------------------|-----------|-----|-----|-----|--------------|
-|          |                      | vₙ        | cₙ  | tₙ  | rₙ  |              |
 | dst      | Destination register |           |     |     | x   | 1\_4         |
 | src      | Source register      |           |     | x   |     | 1\_4 phase 1 |
 |          |                      |           |     | x   | x   | 1\_4 phase   |

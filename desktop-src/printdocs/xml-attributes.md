@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about XML attributes in the Print Schema Framework. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: XML Attributes
 ms.topic: article

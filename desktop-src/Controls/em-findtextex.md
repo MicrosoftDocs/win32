@@ -1,6 +1,6 @@
 ---
 title: EM_FINDTEXTEX message (Richedit.h)
-description: Finds text within a rich edit control.
+description: EM_FINDTEXTEX message - Finds text within a rich edit control.
 ms.assetid: f1bf925b-2776-40b8-9d05-8484daf8d989
 keywords:
 - EM_FINDTEXTEX message Windows Controls

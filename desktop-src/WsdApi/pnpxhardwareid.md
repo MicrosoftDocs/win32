@@ -42,7 +42,7 @@ To specify more than one hardware ID, separate the identifiers with a space char
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

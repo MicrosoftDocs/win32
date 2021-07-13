@@ -1,5 +1,5 @@
 ---
-description: 'This topic is organized as follows:'
+description: Choose a static or dynamic shortcut menu method when you implement a custom file format in the Windows Shell.
 title: Choosing a Static or Dynamic Shortcut Menu Method
 ms.topic: article
 ms.date: 05/31/2018
@@ -115,9 +115,8 @@ Support for verb invocation methods by operating system are listed in the follow
 
 
 
-|                      |            |               |                      |
+| Verb Method          | Windows XP | Windows Vista | Windows 7 and beyond |
 |----------------------|------------|---------------|----------------------|
-|                      | Windows XP | Windows Vista | Windows 7 and beyond |
 | CreateProcess        | X          | X             | X                    |
 | DDE                  | X          | X             | X                    |
 | DropTarget           | X          | X             | X                    |

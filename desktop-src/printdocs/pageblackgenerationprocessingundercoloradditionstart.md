@@ -1,6 +1,6 @@
 ---
 title: PageBlackGenerationProcessingUnderColorAdditionStart
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review the PageBlackGenerationProcessingUnderColorAdditionStart parameter. This topic isn't current. For current information, see the Print Schema Specification.
 ms.assetid: 6c2a7bb5-436d-40ed-a855-242a6a04bc16
 ms.topic: article
 ms.date: 05/31/2018
@@ -19,7 +19,7 @@ Describes the shadow level below which UCA will be applied.
 
 
 
-| Name                       |                                                            |
+| Name | Value |
 |----------------------------|------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                    |
 | Scoping Prefix <br/> | Page<br/>                                            |

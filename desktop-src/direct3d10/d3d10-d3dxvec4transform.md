@@ -1,5 +1,5 @@
 ---
-description: Transforms a 4D vector by a given matrix.
+description: D3DXVec4Transform function (D3DX10Math.h) - Transforms a 4D vector by a given matrix.
 ms.assetid: ccbf33bc-1f94-4cf8-b048-220d54516e00
 title: D3DXVec4Transform function (D3DX10Math.h)
 ms.topic: reference

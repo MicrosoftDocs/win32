@@ -1,6 +1,6 @@
 ---
 title: WMDM samples
-description: Samples
+description: Learn how to compile and run these samples in the Windows Media Device Manager SDK, and how the samples work.
 ms.assetid: 5e58ba53-3c3c-4492-8b87-7e50d10e655f
 keywords:
 - Windows Media Device Manager,samples

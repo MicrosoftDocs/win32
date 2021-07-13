@@ -79,7 +79,7 @@ In general, [**file**](file.md) elements should occur last because they generate
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

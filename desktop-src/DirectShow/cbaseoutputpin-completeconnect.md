@@ -1,5 +1,5 @@
 ---
-description: The CompleteConnect method completes a connection to an input pin.
+description: CBaseOutputPin.CompleteConnect method - The CompleteConnect method completes a connection to an input pin.
 ms.assetid: 44c28c71-2c69-40ca-9bc4-c10394475a0f
 title: CBaseOutputPin.CompleteConnect method (Amfilter.h)
 ms.topic: reference

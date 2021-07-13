@@ -1,5 +1,5 @@
 ---
-description: The GetAvailable method retrieves the range of times in which seeking is efficient. This method implements the IMediaSeeking::GetAvailable method.
+description: CSourceSeeking.GetAvailable method - The GetAvailable method retrieves the range of times in which seeking is efficient. This method implements the IMediaSeeking::GetAvailable method.
 ms.assetid: 2a7b6cdb-47c3-4aeb-89ff-ea968c6a809b
 title: CSourceSeeking.GetAvailable method (Ctlutil.h)
 ms.topic: reference

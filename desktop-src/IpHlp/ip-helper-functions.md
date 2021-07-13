@@ -1,9 +1,9 @@
 ---
+title: IP Helper functions
 description: The following functions retrieve and modify configuration settings for the TCP/IP transport on the local computer.
-ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
-title: IP Helper Functions
 ms.topic: article
 ms.date: 05/31/2018
+ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
 ---
 
 # IP Helper functions
@@ -176,6 +176,14 @@ The following functions retrieve and modify configuration settings for the TCP/I
 -   [**NotifyRouteChange**](/windows/win32/api/Iphlpapi/nf-iphlpapi-notifyroutechange)
 -   [**NotifyRouteChange2**](/windows/win32/api/Netioapi/nf-netioapi-notifyroutechange2)
 -   [**NotifyUnicastIpAddressChange**](/windows/win32/api/Netioapi/nf-netioapi-notifyunicastipaddresschange)
+
+## Packet timestamping
+
+-   [**CaptureInterfaceHardwareCrossTimestamp**](/windows/win32/api/iphlpapi/nf-iphlpapi-captureinterfacehardwarecrosstimestamp)
+-   [**GetInterfaceActiveTimestampCapabilities**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfaceactivetimestampcapabilities)
+-   [**GetInterfaceSupportedTimestampCapabilities**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfacesupportedtimestampcapabilities)
+-   [**RegisterInterfaceTimestampConfigChange**](/windows/win32/api/iphlpapi/nf-iphlpapi-registerinterfacetimestampconfigchange)
+-   [**UnregisterInterfaceTimestampConfigChange**](/windows/win32/api/iphlpapi/unregisterinterfacetimestampconfigchange)
 
 ## Persistent port reservation
 

@@ -33,7 +33,7 @@ TaskFolder.Path As String
 
 ## Property value
 
-The path to where the folder is stored. The root task folder is specified with a backslash (\). An example of a task folder path, under the root task folder, is \\MyTaskFolder.
+The path to where the folder is stored. The root task folder is specified with a backslash (\\). An example of a task folder path, under the root task folder, is \\MyTaskFolder.
 
 ## Requirements
 

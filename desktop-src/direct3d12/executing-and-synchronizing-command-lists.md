@@ -67,8 +67,9 @@ The runtime will validate the submitted command list and will drop the call to [
 
 There are a couple of rules imposed by the runtime that restrict the access of resources from multiple command queues. These rules are as follows:
 
-<dl> 1. A resource cannot be written to from multiple command queues simultaneously. When a resource has transitioned to a writeable state on a queue, it is considered exclusively owned by that queue, and must transition to a read or COMMON state (refer to <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">**D3D12\_RESOURCE\_STATES**</a>) before it can be accessed by another queue.  </dl>
-<dl> 2. When in a read state, a resource can be read from multiple command queues simultaneously, including across processes, based on its read state. </dl>
+1. A resource cannot be written to from multiple command queues simultaneously. When a resource has transitioned to a writeable state on a queue, it is considered exclusively owned by that queue, and must transition to a read or COMMON state (refer to [**D3D12_RESOURCE_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states)) before it can be accessed by another queue.
+
+2. When in a read state, a resource can be read from multiple command queues simultaneously, including across processes, based on its read state.
 
 For more information about resource access restrictions and using resource barriers to synchronize access to resources, see [Using resource barriers to synchronize resource states](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md).
 

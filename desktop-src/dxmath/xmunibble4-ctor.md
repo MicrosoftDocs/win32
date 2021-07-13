@@ -4,13 +4,13 @@ ms.assetid: 56b8ad7d-4dd5-4d73-95e0-1bb7a12f9989
 title: XMUNIBBLE4 constructors
 ms.topic: reference
 ms.date: 05/31/2018
-topic_type: 
+topic_type:
 - APIRef
 - kbSyntax
-api_name: 
-api_type: 
+api_name:
+api_type:
 - NA
-api_location: 
+api_location:
 ---
 
 # XMUNIBBLE4 constructors
@@ -68,8 +68,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const int8_t*)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from a four element <code>int8_t</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from a from a four element <code>int8_t</code> array argument. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const uint8_t*)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from a four element <code>uint8_t</code> array argument. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from a from a four element <code>uint8_t</code> array argument. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.
@@ -86,8 +86,8 @@ This constructor is only available under C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (int8_t,int8_t,int8_t,int8_t)</strong></a></td>
-<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from four <code>int8_t</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from four <code>int8_t</code> arguments. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (uint8_t,uint8_t,uint8_t,uint8_t)</strong></a></td>
+<td style="text-align: left;">Initializes a new instance of <code>XMUNIBBLE4</code> from four <code>uint8_t</code> arguments. <br/> This constructor initializes a new instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> from four <code>uint8_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 This constructor is only available under C++.

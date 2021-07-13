@@ -1,5 +1,5 @@
 ---
-description: Deletes the logical paging file (or directory) specified in the object path.
+description: Delete method of the Win32_PageFile class - Deletes the logical paging file (or directory) specified in the object path.
 ms.assetid: cc36d621-597e-4343-8bf6-bfca7fa29276
 ms.tgt_platform: multiple
 title: Delete method of the Win32_PageFile class

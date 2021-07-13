@@ -1,5 +1,5 @@
 ---
-description: Proxy function for the InitializeFromMemory method.
+description: IWICColorContext_InitializeFromMemory_Proxy function - Proxy function for the InitializeFromMemory method.
 ms.assetid: d98fe40c-c3f1-4c46-a558-1910e3dee51b
 title: IWICColorContext_InitializeFromMemory_Proxy function
 ms.topic: reference

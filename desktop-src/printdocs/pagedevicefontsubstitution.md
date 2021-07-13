@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Review the PageDeviceFontSubstitution user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 741aa729-35c3-43c2-93d8-e25ed508cfa6
 title: PageDeviceFontSubstitution
 ms.topic: article
@@ -20,7 +20,7 @@ Describes the enabled/disabled state of device font substitution.
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

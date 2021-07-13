@@ -49,7 +49,7 @@ Driver capability flag.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3d9.h     |
 | Minimum operating system | Windows 98 |

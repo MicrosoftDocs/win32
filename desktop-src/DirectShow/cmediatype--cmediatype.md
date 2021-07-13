@@ -1,5 +1,5 @@
 ---
-description: Destructor method.
+description: CMediaType.~CMediaType destructor - Destructor method.
 ms.assetid: 92375e95-adfb-414b-abbb-e827db2186ac
 title: CMediaType.~CMediaType destructor (Mtype.h)
 ms.topic: reference

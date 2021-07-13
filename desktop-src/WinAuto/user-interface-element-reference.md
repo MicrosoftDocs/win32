@@ -12,8 +12,8 @@ The following table lists the system-provided user interface elements provided b
 
 
 
-|                                                    |                                                      |
-|----------------------------------------------------|------------------------------------------------------|
+|      &nbsp;                                       |                     &nbsp;                          |
+|---------------------------------------------------|-----------------------------------------------------|
 | [**Animation control**](animation-control.md)     | [**Pop-up menu**](pop-up-menu.md)                   |
 | [**Caret**](caret.md)                             | [**Progress bar control**](progress-bar-control.md) |
 | [**Check box**](check-box.md)                     | [**Push button**](push-button.md)                   |

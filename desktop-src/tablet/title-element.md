@@ -88,7 +88,7 @@ Contains title information about the Journal note.
 
 
 
-|              |                                                         |
+| Element      | Value                                                   |
 |--------------|---------------------------------------------------------|
 | Element type | [**TitleType**](titletype-complex-type.md) complexType |
 | Namespace    | urn:schemas-microsoft-com:tabletpc:richink              |

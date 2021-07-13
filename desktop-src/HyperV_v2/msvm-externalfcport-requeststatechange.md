@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_ExternalFcPort class - Requests a state change.
 ms.assetid: 6f76a036-f8f0-4011-9446-168946787f0e
 title: RequestStateChange method of the Msvm_ExternalFcPort class
 ms.topic: reference

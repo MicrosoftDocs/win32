@@ -12,7 +12,7 @@ The MIDI Parser filter reads MIDI data that is found in .MID and .RMI files. The
 
 
 
-|                                          |                                                                                                          |
+| Label | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Filter Interfaces                        | [**IAMMediaContent**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                           |
 | Input Pin Media Types                    | MEDIATYPE\_Stream, MEDIASUBTYPE\_Midi                                                                    |

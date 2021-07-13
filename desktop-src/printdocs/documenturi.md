@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the DocumentURI property. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 7926ae9b-e195-4391-9006-1eb4cf386f88
 title: DocumentURI
 ms.topic: article
@@ -20,7 +20,7 @@ Specifies a uniform resource identifier (URI) for the document.
 
 
 
-| Name                       |                     |
+| Name | Value |
 |----------------------------|---------------------|
 | Element Type <br/>   | Property<br/> |
 | Scoping Prefix <br/> | Document<br/> |

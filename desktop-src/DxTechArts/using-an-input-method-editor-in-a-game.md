@@ -92,8 +92,8 @@ An IME needs to get the reading string, hide the reading window, and get the ori
 
 |                    | Getting reading string                                                | Hiding reading window                       | Orientation of reading window                              |
 |--------------------|-----------------------------------------------------------------------|---------------------------------------------|------------------------------------------------------------|
-| Before version 6.0 | A. Reading Window Access IME private data directly. See "4 Structure" | Trap IME private messages. See "3 Messages" | Examine registry information. See "5 Registry Information" |
-| After version 6.0  | [GetReadingString](#getreadingstring)                                 | [ShowReadingWindow](#showreadingwindow)     | [GetReadingString](#getreadingstring)                      |
+| **Before version 6.0** | A. Reading Window Access IME private data directly. See "4 Structure" | Trap IME private messages. See "3 Messages" | Examine registry information. See "5 Registry Information" |
+| **After version 6.0**  | [GetReadingString](#getreadingstring)                                 | [ShowReadingWindow](#showreadingwindow)     | [GetReadingString](#getreadingstring)                      |
 
 
 
@@ -118,11 +118,11 @@ The following examples illustrate how to get reading string information from old
 
 
 
-|              |                                                                                       |
+| Output              | Description                                                                                      |
 |--------------|---------------------------------------------------------------------------------------|
-| DWORD dwlen  | Length of the reading string                                                          |
-| DWORD dwerr  | Index of error char                                                                   |
-| LPWSTR wstr  | Pointer to the reading string                                                         |
+| DWORD dwlen  | Length of the reading string.                                                          |
+| DWORD dwerr  | Index of the error character.                                                                   |
+| LPWSTR wstr  | Pointer to the reading string.                                                         |
 | BOOL unicode | If true, the reading string is in Unicode format. Otherwise it's in multibyte format. |
 
 

@@ -19,7 +19,6 @@ void main(void)
 {
     HANDLE hPdhLibrary = NULL;
     LPWSTR pMessage = NULL;
-    DWORD_PTR pArgs[] = { (DWORD_PTR)L"<collectionname>" };
     DWORD dwErrorCode = PDH_PLA_ERROR_ALREADY_EXISTS;
 
     hPdhLibrary = LoadLibrary(L"pdh.dll");
@@ -29,8 +28,8 @@ void main(void)
         return;
     }
 
-    if (!FormatMessage(FORMAT_MESSAGE_FROM_HMODULE
-                       FORMAT_MESSAGE_ALLOCATE_BUFFER
+    if (!FormatMessage(FORMAT_MESSAGE_FROM_HMODULE |
+                       FORMAT_MESSAGE_ALLOCATE_BUFFER |
                        FORMAT_MESSAGE_IGNORE_INSERTS,
                        hPdhLibrary,
                        dwErrorCode,

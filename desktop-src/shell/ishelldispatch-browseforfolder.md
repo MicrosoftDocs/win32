@@ -1,5 +1,5 @@
 ---
-description: Creates a dialog box that enables the user to select a folder and then returns the selected folder's Folder object.
+description: IShellDispatch.BrowseForFolder method - Creates a dialog box that enables the user to select a folder and then returns the selected folder's Folder object.
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
 title: IShellDispatch.BrowseForFolder method (Shldisp.h)
 ms.topic: reference

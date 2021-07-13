@@ -1,5 +1,5 @@
 ---
-description: Requests a state change.
+description: RequestStateChange method of the Msvm_LogicalDisk class - Requests a state change.
 ms.assetid: ab704257-b7f4-45a0-8287-b7c6cc66402d
 title: RequestStateChange method of the Msvm_LogicalDisk class
 ms.topic: reference

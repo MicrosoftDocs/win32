@@ -1,5 +1,5 @@
 ---
-description: Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.
+description: InkOverlay.CursorOutOfRange event - Occurs when the cursor leaves the physical detection range (proximity) of the tablet context.
 ms.assetid: c696b2a9-dc47-4b73-a556-9bb222f5bf59
 title: InkOverlay.CursorOutOfRange event (Msinkaut.h)
 ms.topic: reference

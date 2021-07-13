@@ -1,5 +1,5 @@
 ---
-description: The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
+description: SetPowerState method of the CIM_PCIController class - The SetPowerState method sets the desired power state for a logical device and when a device should be put into that state.
 ms.assetid: 846177b6-eb78-4dbd-8463-8295a5ad3cdf
 ms.tgt_platform: multiple
 title: SetPowerState method of the CIM_PCIController class

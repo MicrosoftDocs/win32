@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: 3b7fa6c4-3d02-44ed-b63d-80a799e4017a
-api_name: 
- - IShellFolderViewType.TranslateViewPidl
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

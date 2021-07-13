@@ -12,9 +12,8 @@ D3DDEVCAPS2 driver capability flags.
 
 
 
-|                                                 |                                                                                                                                                                                                                           |
-|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                                        | Description                                                                                                                                                                                                               |
+|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DDEVCAPS2\_ADAPTIVETESSRTPATCH                | Device supports adaptive tessellation of RT-patches                                                                                                                                                                       |
 | D3DDEVCAPS2\_ADAPTIVETESSNPATCH                 | Device supports adaptive tessellation of N-patches.                                                                                                                                                                       |
 | D3DDEVCAPS2\_CAN\_STRETCHRECT\_FROM\_TEXTURES   | Device supports [**StretchRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-stretchrect) using a texture as the source.                                                                                                                       |
@@ -31,7 +30,7 @@ D3DDEVCAPS2 driver capability flags.
 
 
 
-|                          |            |
+| Requirement                         | Value           |
 |--------------------------|------------|
 | Header                   | d3d9caps.h |
 | Minimum operating system | Windows 98 |

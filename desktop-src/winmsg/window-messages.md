@@ -1,5 +1,5 @@
 ---
-description: .
+description: Window Messages (Windows and Messages)
 ms.assetid: 5e9bdfff-d91c-4e21-ae2d-7920103bdb5c
 title: Window Messages (Windows and Messages)
 ms.topic: article

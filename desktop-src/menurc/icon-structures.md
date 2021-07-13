@@ -1,6 +1,6 @@
 ---
 title: Icon Structures
-description: .
+description: Icon Structures
 ms.assetid: c7923cc6-a84c-4c94-8359-0b7165c2c33c
 ms.topic: article
 ms.date: 05/31/2018

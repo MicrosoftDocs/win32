@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Read about the PageICMRenderingIntent user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: df11ee89-fe62-4fe5-a1d6-0f925360ca39
 title: PageICMRenderingIntent
 ms.topic: article
@@ -20,7 +20,7 @@ Describes the rendering intent as defined by the ICC v2 Specification. This valu
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Page<br/>    |

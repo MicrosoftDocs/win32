@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.RecordedTV.IsATSCContent
 ms.assetid: c90a3efc-0d90-4eae-8651-a0dac04db862
 title: System.RecordedTV.IsATSCContent
 ms.topic: article

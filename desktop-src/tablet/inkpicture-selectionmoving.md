@@ -1,5 +1,5 @@
 ---
-description: Occurs when the position of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
+description: InkPicture.SelectionMoving event - Occurs when the position of the current selection is about to change, such as through alterations to the user interface, cut-and-paste procedures, or the Selection property.
 ms.assetid: 310003a1-f282-4efa-9a75-c575a9193a77
 title: InkPicture.SelectionMoving event (Msinkaut.h)
 ms.topic: reference

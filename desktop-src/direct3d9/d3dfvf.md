@@ -16,9 +16,8 @@ The following flags describe a vertex format. For information regarding vertex f
 
 
 
-|                                     |                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                           |
-|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | \#define                            | Description                                                                                                                                                                                                                                                                                                                                                             | Data order and type                                                                                       |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | D3DFVF\_DIFFUSE                     | Vertex format includes a diffuse color component.                                                                                                                                                                                                                                                                                                                       | DWORD in ARGB order. See [**D3DCOLOR\_ARGB**](d3dcolor-argb.md).                                         |
 | D3DFVF\_NORMAL                      | Vertex format includes a vertex normal vector. This flag cannot be used with the D3DFVF\_XYZRHW flag.                                                                                                                                                                                                                                                                   | float, float, float                                                                                       |
 | D3DFVF\_PSIZE                       | Vertex format specified in point size. This size is expressed in camera space units for vertices that are not transformed and lit, and in device-space units for transformed and lit vertices.                                                                                                                                                                          | float                                                                                                     |
@@ -38,9 +37,8 @@ The following flags describe texture flags used by the fixed-function pipeline.
 
 
 
-|                                   |                                                                                                                                                                                                                                                                                    |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#define                          | Description                                                                                                                                                                                                                                                                        |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DFVF\_TEX0 - D3DFVF\_TEX8       | Number of texture coordinate sets for this vertex. The actual values for these flags are not sequential.                                                                                                                                                                           |
 | D3DFVF\_TEXCOORDSIZEN(coordIndex) | Define a texture coordinate data set. n indicates the dimension of the texture coordinates. coordIndex indicates texture coordinate index number. See [**D3DFVF\_TEXCOORDSIZEN**](d3dfvf-texcoordsizen.md) and [Texture coordinates and Texture Stages](texture-coordinates.md). |
 
@@ -54,9 +52,8 @@ The following flags describe mask flags used by the fixed-function pipeline.
 
 
 
-|                                      |                                                       |
-|--------------------------------------|-------------------------------------------------------|
 | \#define                             | Description                                           |
+|--------------------------------------|-------------------------------------------------------|
 | D3DFVF\_POSITION\_MASK               | Mask for position bits.                               |
 | D3DFVF\_RESERVED0, D3DFVF\_RESERVED2 | Mask values for reserved bits in the FVF. Do not use. |
 | D3DFVF\_TEXCOUNT\_MASK               | Mask value for texture flag bits.                     |
@@ -196,7 +193,7 @@ dwFVF = ( D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_DIFFUSE |
 
 
 
-|                          |             |
+| Requirement                         | Value            |
 |--------------------------|-------------|
 | Header                   | d3d9types.h |
 | Minimum operating system | Windows 98  |

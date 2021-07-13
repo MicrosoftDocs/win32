@@ -1,5 +1,5 @@
 ---
-description: Builds a matrix that rotates around the z-axis.
+description: D3DXMatrixRotationZ function (D3DX10Math.h) - Builds a matrix that rotates around the z-axis.
 ms.assetid: a168ea24-0cec-4e1b-a128-e9dadedf190b
 title: D3DXMatrixRotationZ function (D3DX10Math.h)
 ms.topic: reference

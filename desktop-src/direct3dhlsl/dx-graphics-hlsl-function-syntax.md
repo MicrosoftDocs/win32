@@ -15,11 +15,7 @@ api_location:
 
 HLSL functions are declared with the following syntax.
 
-
-
-|                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*StorageClass*\] \[clipplanes()\] \[precise\] Return\_Value *Name* ( \[*ArgumentList*\] ) \[: *Semantic*\] {   \[*StatementBlock*\] }; |
+\[*StorageClass*\] \[clipplanes()\] \[precise\] Return\_Value *Name* ( \[*ArgumentList*\] ) \[: *Semantic*\] {   \[*StatementBlock*\] };
 
 
 

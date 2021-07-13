@@ -1,5 +1,5 @@
 ---
-description: WM ASF Reader Filter
+description: Learn about the WM ASF Reader filter for DirectShow. This is a wrapper filter for the reader object that's provided with the Windows Media Format SDK.
 ms.assetid: '82b9f849-b9dc-439b-8ca7-9dcd992338ab'
 title: WM ASF Reader Filter (DirectShow)
 ms.topic: article
@@ -12,7 +12,7 @@ The WM ASF Reader is a wrapper filter for the reader object provided with the Wi
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Label | Value |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filter interfaces                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter), [**IAMExtendedSeeking**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking), **IServiceProvider**In addition, the filter exposes the following Windows Media Format SDK interfaces: [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo), [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced), [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2), [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) (through **IServiceProvider**)<br/> |
 | Input pin media types                    | Not applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

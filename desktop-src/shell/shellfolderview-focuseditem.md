@@ -1,5 +1,5 @@
 ---
-description: Gets a FolderItem object that represents the item that has the input focus.
+description: ShellFolderView.FocusedItem property - Gets a FolderItem object that represents the item that has the input focus.
 ms.assetid: ca88801d-c8fa-4c1c-9294-f52eada40ff6
 title: ShellFolderView.FocusedItem property (Shldisp.h)
 ms.topic: reference

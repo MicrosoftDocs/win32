@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobRollCutAtEndOfJob element, which describes the cutting method for roll paper. The roll should be cut at the end of the job.
 ms.assetid: 1e2cd767-685b-47d8-9020-a0a5dda63506
 title: JobRollCutAtEndOfJob
 ms.topic: article
@@ -20,7 +20,7 @@ Describes the cutting method for roll paper. The roll should be cut at the end o
 
 
 
-| Name                       |                    |
+| Name | Value |
 |----------------------------|--------------------|
 | Element Type <br/>   | Feature<br/> |
 | Scoping Prefix <br/> | Job<br/>     |

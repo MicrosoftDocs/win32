@@ -1,6 +1,6 @@
 ---
 title: HelpContextID Property (Characters Object)
-description: HelpContextID Property
+description: Learn about the HelpContextID property of the Characters object. Microsoft Agent is deprecated as of Windows 7.
 ms.assetid: 7ef190ba-c194-4386-a8d6-d32d902a1c03
 ms.topic: article
 ms.date: 05/31/2018

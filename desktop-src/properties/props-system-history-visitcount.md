@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.History.VisitCount
 ms.assetid: 71043fd9-d128-4d2e-82b0-5d76107c2592
 title: System.History.VisitCount
 ms.topic: article

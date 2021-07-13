@@ -1,5 +1,5 @@
 ---
-description: Projects an array (x, y, z, 0) from object space into screen space.
+description: D3DXVec3ProjectArray function (D3DX10Math.h) - Projects an array (x, y, z, 0) from object space into screen space.
 ms.assetid: 33f0f65a-c027-4a31-83a7-f5f6b2a2f72f
 title: D3DXVec3ProjectArray function (D3DX10Math.h)
 ms.topic: reference

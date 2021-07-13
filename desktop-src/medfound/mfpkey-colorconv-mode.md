@@ -1,5 +1,5 @@
 ---
-description: Specifies whether the input stream is interlaced.
+description: MFPKEY_COLORCONV_MODE Property - Specifies whether the input stream is interlaced.
 ms.assetid: d0d93151-5b0d-44a7-8497-f11b3e23a031
 title: MFPKEY_COLORCONV_MODE Property (Wmcodecdsp.h)
 ms.topic: reference

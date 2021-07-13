@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IRenderEngine::UseInSmartRecompressionGraph method - Not supported.
 ms.assetid: 77c51c19-c67b-472d-87d7-9adc274b20ca
 title: IRenderEngine::UseInSmartRecompressionGraph method
 ms.topic: reference

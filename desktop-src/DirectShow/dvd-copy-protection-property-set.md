@@ -20,7 +20,7 @@ The following information presents the necessary constants and data types to use
 
 
 
-|                   |                           |
+| Label | Value |
 |-------------------|---------------------------|
 | Property Set GUID | AM\_KSPROPSETID\_CopyProt |
 

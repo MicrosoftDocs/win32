@@ -6,13 +6,15 @@
     items: 
     - name: "MDM Registration Error Values"
       href: mdm-registration-constants.md
-    - name: "MDM Registration Functions"
+    - name: "MDM Registration functions"
       href: mdm-registration-functions.md
       items: 
       - name: "DiscoverManagementService"
         href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-discovermanagementservice
       - name: "DiscoverManagementServiceEx"
         href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-discovermanagementserviceex
+      - name: "GetDeviceManagementConfigInfo"
+        href: /windows/win32/api/mdmregistration/nf-mdmregistration-getdevicemanagementconfiginfo
       - name: "GetDeviceRegistrationInfo"
         href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-getdeviceregistrationinfo
       - name: "GetManagementAppHyperlink"
@@ -25,6 +27,8 @@
         href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagement
       - name: "RegisterDeviceWithManagementUsingAADCredentials"
         href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagementusingaadcredentials
+      - name: "SetDeviceManagementConfigInfo"
+        href: /windows/win32/api/mdmregistration/nf-mdmregistration-setdevicemanagementconfiginfo
       - name: "SetManagedExternally"
         href: /windows/desktop/api/MDMRegistration/nf-mdmregistration-setmanagedexternally
       - name: "UnregisterDeviceWithManagement"

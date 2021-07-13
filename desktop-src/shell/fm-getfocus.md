@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Wfext.h
 ms.assetid: e2d5f825-5678-4dd7-adad-eec1cbcc7e49
-api_name: 
- - FM_GETFOCUS
-api_type: 
- - HeaderDef
-api_location: 
- - Wfext.h
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

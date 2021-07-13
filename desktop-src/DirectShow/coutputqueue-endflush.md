@@ -1,5 +1,5 @@
 ---
-description: The EndFlush method ends a flush operation.
+description: COutputQueue.EndFlush method - The EndFlush method ends a flush operation.
 ms.assetid: 9171a62a-9072-49a3-8e83-f66d7e1483da
 title: COutputQueue.EndFlush method (Outputq.h)
 ms.topic: reference

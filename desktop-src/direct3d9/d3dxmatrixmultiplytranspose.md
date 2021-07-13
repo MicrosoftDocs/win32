@@ -1,5 +1,5 @@
 ---
-description: Calculates the transposed product of two matrices.
+description: D3DXMatrixMultiplyTranspose function (D3dx9math.h) - Calculates the transposed product of two matrices.
 ms.assetid: 43927500-9413-41a4-a6ee-974d85dd1054
 title: D3DXMatrixMultiplyTranspose function (D3dx9math.h)
 ms.topic: reference

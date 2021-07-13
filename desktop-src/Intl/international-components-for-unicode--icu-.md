@@ -96,7 +96,7 @@ Then, you can call whatever ICU C API from these libraries you want. (No C++ API
 > [!Note]  
 >
 > - This is the configuration for “All Platforms”.
-> - For Win32 apps to use ICU, they need to call [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) first.
+> - For Win32 apps to use ICU, they need to call [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) first. On Windows 10 version 1903 and above, where the combined ICU library (icu.dll/icu.lib) is available, you can omit the CoInitializeEx call by using the combined library.
 > - Not all data returned by ICU APIs will align with the Windows OS, as this alignment work is still in progress. 
 
 ## ICU Example App

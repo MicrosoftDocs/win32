@@ -1,6 +1,6 @@
 ---
 title: About Skins
-description: About Skins
+description: Learn about skins. Skins are computer art files organized by a text file, which tells Windows Media Player how to display a skin.
 ms.assetid: 35c8c8b0-6feb-4fc5-b944-da712b521300
 keywords:
 - Windows Media Player,skins

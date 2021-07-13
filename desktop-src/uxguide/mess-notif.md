@@ -222,9 +222,8 @@ Notifications have several usage patterns:
 
 
 
-|                                      |                                                                                                                                                                                                                    |
+| Pattern              | When to notify          |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>               | **When to notify**<br/>                                                                                                                                                                                      |
 | Action success<br/>            | Upon completion of an asynchronous task. Notify users of successful actions only if they are likely to be waiting for completion, or after recent failures.<br/>                                             |
 | Action failure<br/>            | Upon failure of an asynchronous task.<br/>                                                                                                                                                                   |
 | Non-critical system event<br/> | When an event occurs and the user is active, or the condition continues to exist. If this results from a problem, remove the currently displayed notification immediately once the problem is resolved.<br/> |
@@ -260,9 +259,8 @@ In Windows Vista and later, notifications are displayed for a fixed duration of 
 
 
 
-|                                      |                                                                                                                             |
+| Pattern           | How often to notify  |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>               | **How often to notify**<br/>                                                                                          |
 | Action success<br/>            | Once.<br/>                                                                                                            |
 | Action failure<br/>            | Once.<br/>                                                                                                            |
 | Non-critical system event<br/> | Once when the event first occurs. If this results from a problem that users need to solve, redisplay once a day.<br/> |

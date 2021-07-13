@@ -1,5 +1,5 @@
 ---
-description: Indicates the latitude of the destination point.
+description: Learn how the System.GPS.DestLongitude property indicates the longitude of the destination point.
 ms.assetid: 72a3fb10-4554-4a4d-bb73-ee515341b9c1
 title: System.GPS.DestLongitude
 ms.topic: article

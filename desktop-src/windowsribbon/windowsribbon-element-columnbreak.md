@@ -172,12 +172,8 @@ The following example demonstrates the basic markup for a **ColumnBreak** elemen
 
 ## Element information
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
+* **Minimum supported system**: Windows 7
+* **Can be empty**: Yes
 
 
 

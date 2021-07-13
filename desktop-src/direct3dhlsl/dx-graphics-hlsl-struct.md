@@ -19,11 +19,7 @@ api_location:
 
 Use the following syntax to declare a structure using HLSL.
 
-
-
-|                                                                                           |
-|-------------------------------------------------------------------------------------------|
-| struct *Name*{     \[*InterpolationModifier*\] *Type*\[*R*x*C*\] *MemberName*;     ... }; |
+struct *Name*{     \[*InterpolationModifier*\] *Type*\[*R*x*C*\] *MemberName*;     ... };
 
 
 

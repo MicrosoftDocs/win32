@@ -1,5 +1,5 @@
 ---
-description: Constructor method.
+description: CDeferredCommand.CDeferredCommand constructor - Constructor method.
 ms.assetid: 0b372fa2-78a9-4e38-813c-f18123716c6d
 title: CDeferredCommand.CDeferredCommand constructor (Ctlutil.h)
 ms.topic: reference

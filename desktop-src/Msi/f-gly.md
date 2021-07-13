@@ -1,5 +1,5 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: Learn about Windows Installer concepts that begin with the letter F, such as feature and full UI.
 ms.assetid: b6623bd8-bc83-4d84-bc82-eb4051e10260
 title: F (Windows Installer)
 ms.topic: article

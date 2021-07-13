@@ -1,5 +1,5 @@
 ---
-description: This class is the event type class for file I/O events. The following syntax is simplified from MOF code.
+description: FileIo_V1_Name class - This class is the event type class for file I/O events. The following syntax is simplified from MOF code.
 ms.assetid: a4ee38df-af75-4aec-89ec-5a1c39302c82
 title: FileIo_V1_Name class
 ms.topic: reference

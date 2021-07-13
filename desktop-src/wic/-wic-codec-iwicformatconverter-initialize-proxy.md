@@ -1,5 +1,5 @@
 ---
-description: Proxy function for the Initialize method.
+description: IWICFormatConverter_Initialize_Proxy function - Proxy function for the Initialize method.
 ms.assetid: 26112d52-95e2-4c67-83fc-cf5e28712730
 title: IWICFormatConverter_Initialize_Proxy function
 ms.topic: reference

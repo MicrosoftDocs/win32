@@ -1,89 +1,33 @@
 ---
-title: MDM Registration Functions
-description: The following functions are used by MDM Registration.
+title: MDM registration functions
+description: The following functions are declared in `mdmregistration.h`, and are used by MDM registration.
 ms.assetid: 1b063a56-f59f-4b02-949f-c8b6bbf45a13
+ms.localizationpriority: low
 ms.topic: reference
-ms.date: 05/31/2018
+ms.date: 11/19/2020
 ---
 
-# MDM Registration Functions
+# MDM registration functions
 
-The following functions are used by MDM Registration.
+The following functions are declared in `mdmregistration.h`, and are used by MDM registration.
 
 ## In this section
 
-<dl> <dt>
+| Topic | Description |
+|-|-|
+| [**DiscoverManagementService**](/windows/win32/api/MDMRegistration/nf-mdmregistration-discovermanagementservice) | Discovers the MDM service. |
+| [**DiscoverManagementServiceEx**](/windows/win32/api/MDMRegistration/nf-mdmregistration-discovermanagementserviceex) | Discovers the MDM service using a candidate server. |
+| [**GetDeviceManagementConfigInfo**](/windows/win32/api/mdmregistration/nf-mdmregistration-getdevicemanagementconfiginfo) | Gets the config info associated with the provider ID. |
+| [**GetDeviceRegistrationInfo**](/windows/win32/api/MDMRegistration/nf-mdmregistration-getdeviceregistrationinfo) | Retrieves the device registration information. |
+| [**GetManagementAppHyperlink**](/windows/win32/api/MDMRegistration/nf-mdmregistration-getmanagementapphyperlink) | Retrieves the management app hyperlink associated with the MDM service. |
+| [**IsDeviceRegisteredWithManagement**](/windows/win32/api/MDMRegistration/nf-mdmregistration-isdeviceregisteredwithmanagement) | Checks whether the device is registered with an MDM service. |
+| [**IsManagementRegistrationAllowed**](/windows/win32/api/MDMRegistration/nf-mdmregistration-ismanagementregistrationallowed) | Checks whether MDM registration is allowed by local policy. |
+| [**RegisterDeviceWithManagement**](/windows/win32/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagement) | Registers a device with a MDM service, using the [\[MS-MDE\]: Mobile Device Enrollment Protocol](/openspecs/windows_protocols/ms-mde/5c841535-042e-489e-913c-9d783d741267). |
+| [**RegisterDeviceWithManagementUsingAADCredentials**](/windows/win32/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagementusingaadcredentials) | Registers a device with a MDM service, using Azure Active Directory (AAD) credentials. |
+| [**SetDeviceManagementConfigInfo**](/windows/win32/api/mdmregistration/nf-mdmregistration-setdevicemanagementconfiginfo) | Sets the config info associated with the provider ID. |
+| [**SetManagedExternally**](/windows/win32/api/MDMRegistration/nf-mdmregistration-setmanagedexternally) | Indicates to the MDM agent that the device is managed externally and is not to be registered with an MDM service. |
+| [**UnregisterDeviceWithManagement**](/windows/win32/api/MDMRegistration/nf-mdmregistration-unregisterdevicewithmanagement) | Unregisters a device with the MDM service. |
 
-[**DiscoverManagementService**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-discovermanagementservice)
-</dt> <dd>
+## Related topics
 
-Discovers the MDM service.
-
-</dd> <dt>
-
-[**DiscoverManagementServiceEx**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-discovermanagementserviceex)
-</dt> <dd>
-
-Discovers the MDM service using a candidate server.
-
-</dd> <dt>
-
-[**GetDeviceRegistrationInfo**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-getdeviceregistrationinfo)
-</dt> <dd>
-
-Retrieves the device registration information.
-
-</dd> <dt>
-
-[**GetManagementAppHyperlink**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-getmanagementapphyperlink)
-</dt> <dd>
-
-Retrieves the management app hyperlink associated with the MDM service.
-
-</dd> <dt>
-
-[**IsDeviceRegisteredWithManagement**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-isdeviceregisteredwithmanagement)
-</dt> <dd>
-
-Checks whether the device is registered with an MDM service.
-
-</dd> <dt>
-
-[**IsManagementRegistrationAllowed**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-ismanagementregistrationallowed)
-</dt> <dd>
-
-Checks whether MDM registration is allowed by local policy.
-
-</dd> <dt>
-
-[**RegisterDeviceWithManagement**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagement)
-</dt> <dd>
-
-Registers a device with a MDM service, using the [\[MS-MDE\]: Mobile Device Enrollment Protocol](/openspecs/windows_protocols/ms-mde/5c841535-042e-489e-913c-9d783d741267).
-
-</dd> <dt>
-
-[**RegisterDeviceWithManagementUsingAADCredentials**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-registerdevicewithmanagementusingaadcredentials)
-</dt> <dd>
-
-Registers a device with a MDM service, using Azure Active Directory (AAD) credentials.
-
-</dd> <dt>
-
-[**SetManagedExternally**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-setmanagedexternally)
-</dt> <dd>
-
-Indicates to the MDM agent that the device is managed externally and is not to be registered with an MDM service.
-
-</dd> <dt>
-
-[**UnregisterDeviceWithManagement**](/windows/desktop/api/MDMRegistration/nf-mdmregistration-unregisterdevicewithmanagement)
-</dt> <dd>
-
-Unregisters a device with the MDM service
-
-</dd> </dl>
-
- 
-
- 
+* [MDM registration reference](./mdm-registration-reference.md)

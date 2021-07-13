@@ -44,7 +44,7 @@ By default, the code generated creates a preferred macro prefix from the URI.
 
 
 
-|                                     |               |
+| Label | Value |
 |-------------------------------------|---------------|
 | Minimum supported system<br/> | Windows Vista |
 | Can be empty                        | Yes           |

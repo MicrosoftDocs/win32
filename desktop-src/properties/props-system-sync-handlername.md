@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.Sync.HandlerName
 ms.assetid: b611be6d-cc9b-4993-9e6e-76acfe82de44
 title: System.Sync.HandlerName
 ms.topic: article

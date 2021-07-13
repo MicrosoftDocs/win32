@@ -36,7 +36,7 @@ The switch window supports the following [**IAccessible**](/windows/desktop/api/
 
 
 
-|                                                                                |                                                                                                                                                                                                                                |
+|      Property                                                                          |      Description                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**get\_accChildCount**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)       | The **ChildCount** property is zero.                                                                                                                                                                                           |
 | [**get\_accDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction) | The switch window object itself does not have a **DefaultAction** property. The **DefaultAction** property for each item in the switch window is "Switch".                                                                     |

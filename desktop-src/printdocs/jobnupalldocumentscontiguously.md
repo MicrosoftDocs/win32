@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the JobNUpAllDocumentsContiguously element, which describes the output of multiple logical pages to a single physical sheet.
 ms.assetid: e73e1736-9be5-4831-8277-23a62658b7b5
 title: JobNUpAllDocumentsContiguously
 ms.topic: article
@@ -24,7 +24,7 @@ The following diagram illustrates an example with Document 1 containing 3 pages,
 
 
 
-| Name                       |                                                                                                                                                |
+| Name | Value |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Element Type <br/>   | Feature<br/>                                                                                                                             |
 | Scoping Prefix <br/> | Job<br/>                                                                                                                                 |

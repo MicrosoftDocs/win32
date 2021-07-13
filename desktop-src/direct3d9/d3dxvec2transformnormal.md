@@ -1,5 +1,5 @@
 ---
-description: Transforms the 2D vector normal by the given matrix.
+description: D3DXVec2TransformNormal function (D3dx9math.h) - Transforms the 2D vector normal by the given matrix.
 ms.assetid: aa9adf6d-5aae-4acf-bbd9-f5c14d90470e
 title: D3DXVec2TransformNormal function (D3dx9math.h)
 ms.topic: reference

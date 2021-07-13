@@ -1,5 +1,5 @@
 ---
-description: Transforms an array (x, y, 0, 0) by a given matrix.
+description: D3DXVec2TransformNormalArray function (D3dx9math.h) - Transforms an array (x, y, 0, 0) by a given matrix.
 ms.assetid: 9f5d8fdc-f3e1-41dc-be4e-9ffc6be1947f
 title: D3DXVec2TransformNormalArray function (D3dx9math.h)
 ms.topic: reference

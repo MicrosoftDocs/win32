@@ -1,6 +1,6 @@
 ---
 title: RB_GETUNICODEFORMAT message (Commctrl.h)
-description: Retrieves the Unicode character format flag for the control.
+description: RB_GETUNICODEFORMAT message - Retrieves the Unicode character format flag for the control.
 ms.assetid: 48a4472b-dda4-41a2-b5bc-6f74b1cdc70b
 keywords:
 - RB_GETUNICODEFORMAT message Windows Controls

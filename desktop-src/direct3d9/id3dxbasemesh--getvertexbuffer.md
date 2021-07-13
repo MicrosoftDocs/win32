@@ -1,5 +1,5 @@
 ---
-description: Retrieves the vertex buffer associated with the mesh.
+description: ID3DXBaseMesh::GetVertexBuffer method - Retrieves the vertex buffer associated with the mesh.
 ms.assetid: 5caa6ce1-feab-4919-944e-f92fad3ad443
 title: ID3DXBaseMesh::GetVertexBuffer method (D3DX9Mesh.h)
 ms.topic: reference

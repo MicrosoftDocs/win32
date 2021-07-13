@@ -68,7 +68,7 @@ If an application defines an accelerator that is also defined in the system acce
 
 
 
-|                  |                                                                                                       |
+| Accelerator                 | Description                                                                                                      |
 |------------------|-------------------------------------------------------------------------------------------------------|
 | ALT+ESC          | Switches to the next application.                                                                     |
 | ALT+F4           | Closes an application or a window.                                                                    |

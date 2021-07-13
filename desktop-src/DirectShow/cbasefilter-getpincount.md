@@ -1,5 +1,5 @@
 ---
-description: The GetPinCount method retrieves the number of pins.
+description: CBaseFilter.GetPinCount method - The GetPinCount method retrieves the number of pins.
 ms.assetid: 6cbeb123-d899-4f13-8b40-5666adec610f
 title: CBaseFilter.GetPinCount method (Amfilter.h)
 ms.topic: reference

@@ -387,9 +387,8 @@ In this example, the large graphic serves no purpose.
 
 
 
-|                                      |                                                                                                                            |
+| Pattern | Body icon |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Pattern**<br/>               | **Body icon**<br/>                                                                                                   |
 | **Question dialogs**<br/>      | Program, feature, object, warning icon (if potential loss of data or system access), security warning, or none.<br/> |
 | **Choice dialogs**<br/>        | None.<br/>                                                                                                           |
 | **Progress dialogs**<br/>      | None (but may have an animation).<br/>                                                                               |

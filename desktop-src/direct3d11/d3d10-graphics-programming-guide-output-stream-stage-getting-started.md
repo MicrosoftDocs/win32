@@ -131,14 +131,14 @@ defines the output to be a maximum of 12 vertices.</td>
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream<GSPS_INPUT> TriStream</code></pre></td>
+<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream&lt;GSPS_INPUTT&gt; TriStream</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 </div>
 <p>The first parameter is an array of vertices (3 in this case) defined by a GSPS_INPUT structure (which defines per-vertex data as a position, a normal and a texture coordinate). The first parameter also uses the triangle keyword, which means the input assembler stage must output data to the geometry shader as one of the triangle primitive types (triangle list or triangle strip).</p>
-<p>The second parameter is a triangle stream defined by the type TriangleStream<GSPS_INPUT>. This means the parameter is an array of triangles, each of which is made up of three vertices (that contain the data from the members of GSPS_INPUT).</p>
+<p>The second parameter is a triangle stream defined by the type TriangleStream&lt;GSPS_INPUTT&gt;. This means the parameter is an array of triangles, each of which is made up of three vertices (that contain the data from the members of GSPS_INPUT).</p>
 <p>Use the triangle and trianglestream keywords to identify individual triangles or a stream of triangles in a GS.</p></td>
 </tr>
 <tr class="odd">

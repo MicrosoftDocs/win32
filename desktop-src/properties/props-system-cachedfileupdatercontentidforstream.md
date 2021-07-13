@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.CachedFileUpdaterContentIdForStream
 ms.assetid: c558c038-83e3-4b37-b5df-610f9afea7ac
 title: System.CachedFileUpdaterContentIdForStream
 ms.topic: article

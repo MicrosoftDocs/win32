@@ -1,5 +1,5 @@
 ---
-description: The GetMediaType method retrieves a preferred media type, by index value.
+description: CBasePin.GetMediaType method - The GetMediaType method retrieves a preferred media type, by index value.
 ms.assetid: 96f102b0-e2d1-49a1-84af-aa4622cae2a9
 title: CBasePin.GetMediaType method (Amfilter.h)
 ms.topic: reference

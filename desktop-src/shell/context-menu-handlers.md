@@ -8,17 +8,16 @@ ms.date: 05/31/2018
 
 # Creating Shortcut Menu Handlers
 
-Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. Like all such handlers, they are in-process Component Object Model (COM) objects implemented as DLLs.
+Shortcut menu handlers, also known as context menu handlers or verb handlers, are a type of file type handler. These handlers may be impelmented in a way that causes them to load in their own process or in the explorer, or other 3rd party processes. Take care when creating in-process handlers as they can cause harm to the process that loads them.
 
 > [!Note]  
-> There are special considerations for 64-bit Windows when registering handlers that work in the context of 32-bit applications: when Shell verbs are invoked in the context of a 32-bit application, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
-
- 
+> There are special considerations for 64-bit based versions of Windows when registering handlers that work in the context of 32-bit applications: when invoked in the context of an application of different bitness, the WOW64 subsystem redirects file system access to some paths. If your .exe handler is stored in one of those paths, it is not accessible in this context. Therefore, as a work around, either store your .exe in a path that does not get redirected, or store a stub version of your .exe that launches the real version.
 
 This topic is organized as follows:
 
 -   [Canonical Verbs](#canonical-verbs)
 -   [Extended Verbs](#extended-verbs)
+-   [Programmatic Access Only Verbs](#programmaticaccessonly-verbs)
 -   [Customizing a Shortcut Menu Using Static Verbs](#customizing-a-shortcut-menu-using-static-verbs)
     -   [Activating Your Handler Using the IDropTarget Interface](#activating-your-handler-using-the-idroptarget-interface)
     -   [Specifying the Position and Order of Static Verbs](#specifying-the-position-and-order-of-static-verbs)
@@ -40,7 +39,6 @@ This topic is organized as follows:
 Applications are generally responsible for providing localized display strings for the verbs they define. However, to provide a degree of language independence, the system defines a standard set of commonly used verbs called canonical verbs. A canonical verb is never displayed to the user, and can be used with any UI language. The system uses the canonical name to automatically generate a properly localized display string. For instance, the open verb's display string is set to **Open** on an English system, and to the German equivalent on a German system.
 
 
-
 | Canonical verb | Description                                                          |
 |----------------|----------------------------------------------------------------------|
 | Open           | Opens the file or folder.                                            |
@@ -50,20 +48,20 @@ Applications are generally responsible for providing localized display strings f
 | Explore        | Opens Windows Explorer with the folder selected.                     |
 | Properties     | Opens the object's property sheet.                                   |
 
-
-
- 
-
 > [!Note]  
 > The **Printto** verb is also canonical, but it is never displayed. Its inclusion enables the user to print a file by dragging it to a printer object.
-
- 
 
 Shortcut menu handlers can provide their own canonical verbs through [**IContextMenu::GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) with **GCS\_VERBW**, or **GCS\_VERBA**. The system will use the canonical verbs as the second parameter (*lpOperation*) passed to [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea), and is the [**CMINVOKECOMMANDINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo).**lpVerb** member passed to the [**IContextMenu::InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) method.
 
 ## Extended Verbs
 
 When the user right-clicks an object, the shortcut menu displays the default verbs. You might want to add and support commands on some shortcut menus that are not displayed on every shortcut menu. For example, you could have commands that are not commonly used or that are intended for experienced users. For this reason, you can also define one or more extended verbs. These verbs are similar to normal verbs, but are distinguished from normal verbs by the way they are registered. To have access to extended verbs, the user must right-click an object while pressing the SHIFT key. When the user does so, the extended verbs are displayed in addition to the default verbs.
+
+You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while also pressing the SHIFT key. To define a verb as extended, add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
+
+## Programmatic Access Only
+
+These verbs are never displayed in a context menu. These can be accessed by using [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) and specifying the **lpVerb** field of the *pExecInfo* parameter (a [SHELLEXECUTEINFO](/windows/win32/api/shellapi/ns-shellapi-shellexecuteinfoa) object). To define a verb as programmatic access only, add a "ProgrammaticAccessOnly" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 
 You can use the registry to define one or more extended verbs. The associated commands will be displayed only when the user right-clicks an object while also pressing the SHIFT key. To define a verb as extended, add an "extended" **REG\_SZ** value to the verb's subkey. The value should not have any data associated with it.
 

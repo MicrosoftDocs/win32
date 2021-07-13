@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 # MakeCert
 
 > [!Note]  
-> MakeCert is deprecated. To create self-signed certificates, use the Powershell Cmdlet [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate).
+> MakeCert is deprecated. To create self-signed certificates, use the Powershell Cmdlet [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate).
 
  
 

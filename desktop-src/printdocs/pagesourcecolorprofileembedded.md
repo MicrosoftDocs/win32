@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageSourceColorProfileEmbedded parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 38411802-2b2e-441c-b3a6-334d87b11b5d
 title: PageSourceColorProfileEmbedded
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the embedded source color profile.
 
 
 
-| Name                       |                                                     |
+| Name | Value |
 |----------------------------|-----------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                             |
 | Scoping Prefix <br/> | Page<br/>                                     |

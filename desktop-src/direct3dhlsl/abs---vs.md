@@ -17,28 +17,19 @@ Computes absolute value.
 
 ## Syntax
 
-
-
-|              |
-|--------------|
-| abs dst, src |
-
-
-
- 
+**abs dst, src**
 
 where
 
--   dst is the destination register.
--   src is a source register.
+- dst is the destination register.
+- src is a source register.
 
 ## Remarks
 
 
 
-|                        |      |      |      |       |      |       |
-|------------------------|------|------|------|-------|------|-------|
 | Vertex shader versions | 1\_1 | 2\_0 | 2\_x | 2\_sw | 3\_0 | 3\_sw |
+|------------------------|------|------|------|-------|------|-------|
 | abs                    |      | x    | x    | x     | x    | x     |
 
 

@@ -1,5 +1,5 @@
 ---
-description: The following interfaces are used in asynchronous communication between applications and components that are hosted by the print spooler, such as printer drivers and port monitors.
+description: Learn about functions that are used in asynchronous communication between applications and components that are hosted by the print spooler.
 ms.assetid: 7e98e63f-616c-4cd1-a8aa-482d27529b8c
 title: Asynchronous Printing Notification Functions
 ms.topic: article
@@ -8,7 +8,7 @@ ms.date: 05/31/2018
 
 # Asynchronous Printing Notification Functions
 
-The following interfaces are used in asynchronous communication between applications and components that are hosted by the print spooler, such as printer drivers and port monitors.
+The following functions are used in asynchronous communication between applications and components that are hosted by the print spooler, such as printer drivers and port monitors.
 
 ## In this section
 

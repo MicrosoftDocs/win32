@@ -1,5 +1,5 @@
 ---
-description: Requests a reset.
+description: Reset method of the Msvm_ExternalFcPort class - Requests a reset.
 ms.assetid: 5bd615c6-a87c-404d-a482-277fa02a8510
 title: Reset method of the Msvm_ExternalFcPort class
 ms.topic: reference

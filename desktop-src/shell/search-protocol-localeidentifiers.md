@@ -1,5 +1,5 @@
 ---
-description: The inputlocale and keywordlocale identifiers help the search engine use the correct word breakers by identifying the language of user-entered queries and the language the of Advanced Query Syntax keywords.
+description: Understand the inputlocale and keywordlocale arguments in the Windows Shell UI, which helps the search engine use the correct word breakers.
 title: Locale Identifier Arguments (The Windows Shell)
 ms.topic: article
 ms.date: 05/31/2018
@@ -29,9 +29,9 @@ search:query=matthew&inputlocale=2072&keywordlocale=1033
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Minimum Operating System | Windows Vista with Service Pack 1 (SP1) |
+|                              | Value                                   |
+|------------------------------|-----------------------------------------|
+| **Minimum Operating System** | Windows Vista with Service Pack 1 (SP1) |
 
 
 

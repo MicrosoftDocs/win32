@@ -134,11 +134,8 @@ This section of code shows the [**InRibbonGallery**](windowsribbon-element-inrib
 ## Element information
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Minimum supported system<br/> | Windows 7 |
-| Can be empty                        | Yes       |
+- **Minimum supported system**: Windows 7 
+- **Can be empty**: Yes
 
 
 

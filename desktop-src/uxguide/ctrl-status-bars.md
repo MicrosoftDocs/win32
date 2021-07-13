@@ -61,7 +61,7 @@ Status bars have several usage patterns:
 
 
 
-|                                                                                                                                    |                                                                                                                                                                                                                                 |
+|   Usage                                                                                                                                 |    Example                                                                                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Current window status**<br/> Show the source of what is being displayed along with any view modes <br/>              | ![screen shot of a 'location' status bar ](images/ctrl-status-bars-image3.png)<br/> In this example, the status bar displays the path to the document.<br/>                                                         |
 | **Progress**<br/> Show the progress of background tasks, either with a determinate progress bar or an animation. <br/> | ![screen shot of status bar with progress bar ](images/ctrl-status-bars-image4.png)<br/> In this example, the status bar includes a progress bar to show the Web page loading into a Internet Explorer window.<br/> |
@@ -101,9 +101,8 @@ Status bars have several usage patterns:
 
 -   Use icon variations or overlays to indicate status or status changes. Use icon variations to show changes in quantities or strengths. For other types of status, use these standard overlays: 
 
-    |                                                                                               |                                  |
+    | Overlay                 | Status            |
     |-----------------------------------------------------------------------------------------------|----------------------------------|
-    | **Overlay**<br/>                                                                        | **Status**<br/>            |
     | ![screen shot of warning icon ](images/ctrl-status-bars-image8.png)<br/>                | Warning<br/>               |
     | ![screen shot of error icon ](images/ctrl-status-bars-image9.png)<br/>                  | Error<br/>                 |
     | ![screen shot of disabled/disconnected icon ](images/ctrl-status-bars-image10.png)<br/> | Disabled/Disconnected<br/> |

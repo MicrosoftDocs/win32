@@ -1,5 +1,5 @@
 ---
-description: .
+description: PMP Media Session
 ms.assetid: CF3A427D-31D2-45FF-BE87-F192B758204E
 title: PMP Media Session
 ms.topic: article

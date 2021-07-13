@@ -35,7 +35,7 @@ TaskSettings.RestartInterval As String
 
 ## Property value
 
-A value that specifies how long the Task Scheduler will attempt to restart the task. If this property is set, the [**RestartCount**](tasksettings-restartcount.md) property must also be set. The format for this string is P<days>DT<hours>H<minutes>M<seconds>S (for example, "PT5M" is 5 minutes, "PT1H" is 1 hour, and "PT20M" is 20 minutes). The maximum time allowed is 31 days, and the minimum time allowed is 1 minute.
+A value that specifies how long the Task Scheduler will attempt to restart the task. If this property is set, the [**RestartCount**](tasksettings-restartcount.md) property must also be set. The format for this string is `P<days>DT<hours>H<minutes>M<seconds>S` (for example, "PT5M" is 5 minutes, "PT1H" is 1 hour, and "PT20M" is 20 minutes). The maximum time allowed is 31 days, and the minimum time allowed is 1 minute.
 
 ## Remarks
 

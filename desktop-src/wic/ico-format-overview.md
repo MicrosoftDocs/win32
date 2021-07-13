@@ -16,7 +16,7 @@ The following table provides codec identification information.
 
 
 
-|                        |                   |
+|   Component            | Description       |
 |------------------------|-------------------|
 | Formal Name(s)         | Icon Format (ICO) |
 | File Name Extension(s) | ico               |

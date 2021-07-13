@@ -1,5 +1,5 @@
 ---
-description: Draws a subset of a mesh.
+description: ID3DXBaseMesh::DrawSubset method - Draws a subset of a mesh.
 ms.assetid: 99eaa185-b681-47f2-aed8-5ca1697ff73c
 title: ID3DXBaseMesh::DrawSubset method (D3DX9Mesh.h)
 ms.topic: reference

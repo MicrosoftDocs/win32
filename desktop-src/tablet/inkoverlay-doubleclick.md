@@ -1,5 +1,5 @@
 ---
-description: Occurs when the InkCollector or InkOverlay object is double-clicked.
+description: InkOverlay.DoubleClick event - Occurs when the InkCollector or InkOverlay object is double-clicked.
 ms.assetid: 76ea40d4-82cf-420a-a9eb-66cb0492b43b
 title: InkOverlay.DoubleClick event (Msinkaut.h)
 ms.topic: reference

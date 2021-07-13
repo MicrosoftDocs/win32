@@ -12,9 +12,8 @@ After your application opens a service, it can begin performing service-related 
 
 
 
-|                                                                      |                                                                                                  |
-|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Interface                                                            | Description                                                                                      |
+|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | Used to retrieve the IPortableDeviceContent2 interface to access content on the service.         |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | Used to retrieve the IEnumPortableDeviceObjectIDs interface to enumerate objects on the service. |
 | [**IEnumPortableDeviceObjectIDs**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids) | Used to enumerate objects on the service.                                                        |

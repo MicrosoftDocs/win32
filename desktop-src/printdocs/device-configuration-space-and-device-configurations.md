@@ -1,6 +1,6 @@
 ---
 title: Device Configuration Space
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: A device's configuration space is the set of all possible values that can be assigned to all of the attributes of the device.
 ms.assetid: 598299c3-159f-4cad-b6a5-d282cd5bb4a1
 ms.topic: article
 ms.date: 05/31/2018

@@ -1,5 +1,5 @@
 ---
-description: Bluetooth service GUID.
+description: Learn about the Bluetooth service GUID. This reference page describes the System.Devices.AepService.Bluetooth.ServiceGuid property.
 ms.assetid: b623c597-3cf3-4c46-a1df-3a15425a41c6
 title: System.Devices.AepService.Bluetooth.ServiceGuid
 ms.topic: article

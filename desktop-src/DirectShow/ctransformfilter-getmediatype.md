@@ -1,5 +1,5 @@
 ---
-description: The GetMediaType method retrieves a preferred media type for the output pin.
+description: CTransformFilter.GetMediaType method - The GetMediaType method retrieves a preferred media type for the output pin.
 ms.assetid: 9a1b123b-aa8a-4bf0-a926-466ded24e506
 title: CTransformFilter.GetMediaType method (Transfrm.h)
 ms.topic: reference

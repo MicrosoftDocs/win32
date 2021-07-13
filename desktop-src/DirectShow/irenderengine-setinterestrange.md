@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IRenderEngine::SetInterestRange method - Not supported.
 ms.assetid: 1e4c3bd4-2540-428f-9ca6-dd4c65c53434
 title: IRenderEngine::SetInterestRange method
 ms.topic: reference

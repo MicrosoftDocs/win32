@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Get information about the PageWatermarkTransparency parameter. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: f94c1450-9648-4aee-8f88-2a9213eba4a9
 title: PageWatermarkTransparency
 ms.topic: article
@@ -19,7 +19,7 @@ Specifies the transparency for the watermark. Fully opaque would have a value of
 
 
 
-| Name                       |                                            |
+| Name | Value |
 |----------------------------|--------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                    |
 | Scoping Prefix <br/> | Page<br/>                            |

@@ -69,14 +69,88 @@ For some languages, it is possible to use a localized equivalent of "\_files" to
 
 
 
-|              |               |                 |               |
-|--------------|---------------|-----------------|---------------|
-| "\_archivos" | "\_arquivos"  | "\_bestanden"   | "\_bylos"     |
-| "-Dateien"   | "\_datoteke"  | "\_dosyalar"    | "\_elemei"    |
-| "\_failid"   | "\_fails"     | "\_fajlovi"     | "\_ficheiros" |
-| "\_fichiers" | "-filer"      | ".files"        | "\_files"     |
-| "\_file"     | "\_fitxers"   | "\_fitxategiak" | "\_pliki"     |
-| "\_soubory"  | "\_tiedostot" |                 |               |
+:::row:::
+   :::column span="":::
+      "\_archivos"
+   :::column-end:::
+   :::column span="":::
+      "\_arquivos"
+   :::column-end:::
+   :::column span="":::
+      "\_bestanden"
+   :::column-end:::
+   :::column span="":::
+      "\_bylos"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "-Dateien"
+   :::column-end:::
+   :::column span="":::
+      "\_datoteke"
+   :::column-end:::
+   :::column span="":::
+      "\_dosyalar"
+   :::column-end:::
+   :::column span="":::
+      "\_elemei"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "\_failid"
+   :::column-end:::
+   :::column span="":::
+      "\_fails"
+   :::column-end:::
+   :::column span="":::
+      "\_fajlovi"
+   :::column-end:::
+   :::column span="":::
+      "\_ficheiros"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "\_fichiers"
+   :::column-end:::
+   :::column span="":::
+      "-filer"
+   :::column-end:::
+   :::column span="":::
+      ".files"
+   :::column-end:::
+   :::column span="":::
+      "\_files"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "\_file"
+   :::column-end:::
+   :::column span="":::
+      "\_fitxers"
+   :::column-end:::
+   :::column span="":::
+      "\_fitxategiak"
+   :::column-end:::
+   :::column span="":::
+      "\_pliki"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "\_soubory"
+   :::column-end:::
+   :::column span="":::
+      "\_tiedostot"
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+:::row-end:::
 
 
 

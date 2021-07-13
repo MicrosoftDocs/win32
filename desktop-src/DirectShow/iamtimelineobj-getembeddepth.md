@@ -1,5 +1,5 @@
 ---
-description: Not supported.
+description: IAMTimelineObj::GetEmbedDepth method - Not supported.
 ms.assetid: 1b9d0c78-ced9-496b-89c3-fc205b37d894
 title: IAMTimelineObj::GetEmbedDepth method (Qedit.h)
 ms.topic: reference

@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: The PageBlackGenerationProcessingGrayComponentReplacementExtent parameter describes the extent beyond neutrals into chromatic colors that GCR applies.
 ms.assetid: ba62f902-9bc9-4492-ab53-4a4ddbc23530
 title: PageBlackGenerationProcessingGrayComponentReplacementExtent
 ms.topic: article
@@ -19,7 +19,7 @@ Describes the extented beyond neutrals (into chromatic colors) that GCR applies.
 
 
 
-| Name                       |                                                            |
+| Name | Value |
 |----------------------------|------------------------------------------------------------|
 | Element Type <br/>   | ParameterDef<br/>                                    |
 | Scoping Prefix <br/> | Page<br/>                                            |

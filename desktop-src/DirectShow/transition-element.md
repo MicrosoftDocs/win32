@@ -23,7 +23,7 @@ The `transition` element defines a transition object. A transition is a two-inpu
 
 
 
-|          |                                                                        |
+| Label | Value |
 |----------|------------------------------------------------------------------------|
 | Parent   | [**composite**](composite-element.md), [**track**](track-element.md) |
 | Children | [**param**](param-element.md)                                         |

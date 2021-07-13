@@ -1,5 +1,5 @@
 ---
-description: Offline Files
+description: Review these resources about offline files for the PatchAPI interface, such as CreatePatchFileEx and ExtractPatchHeaderToFile.
 title: PatchAPI
 ms.topic: article
 ms.date: 04/17/2020

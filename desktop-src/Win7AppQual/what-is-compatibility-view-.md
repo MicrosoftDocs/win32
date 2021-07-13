@@ -1,5 +1,5 @@
 ---
-description: .
+description: What Is Compatibility View?
 ms.assetid: 1EAC5799-7943-40AB-A67E-F6D6888C4B7D
 title: What Is Compatibility View?
 ms.topic: article

@@ -1,5 +1,5 @@
 ---
-description: Not used.
+description: <span id="vspixengine.imeshrequest_requestasync_pipelinestages_imeshcallback_ptr_dword_dword"></span>IMeshRequest::RequestAsync method - Not used.
 MS-HAID: vspixengine.IMeshRequest\_RequestAsync\_PipeLineStages\_IMeshCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN

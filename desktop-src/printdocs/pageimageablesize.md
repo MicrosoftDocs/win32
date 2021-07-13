@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about the PageImageableSize user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 6b81814f-2d9e-4862-8633-6ba016c11dac
 title: PageImageableSize
 ms.topic: article
@@ -22,18 +22,11 @@ The following diagrams illustrate the PageImageableSize variables usage based on
 
 ## Element Information
 
-
-
-|                            |                     |
-|----------------------------|---------------------|
-| Name                       |                     |
+| Name                 | Value         |
+|----------------------|---------------|
 | Element Type<br/>    | Property<br/> |
 | Scoping Prefix <br/> | Page<br/>     |
 | Notes <br/>          | None<br/>     |
-
-
-
- 
 
 ## Structural Content
 

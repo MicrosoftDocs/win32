@@ -1,5 +1,5 @@
 ---
-description: .
+description: System.OfflineAvailability
 ms.assetid: 4d0c880b-923d-4f83-91da-dd99bf111f13
 title: System.OfflineAvailability
 ms.topic: article

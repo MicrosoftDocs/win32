@@ -1,5 +1,5 @@
 ---
-description: .
+description: DEP/NX Protection
 ms.assetid: 92F628E4-6106-42F7-B868-A3101C7A3F0A
 title: DEP/NX Protection
 ms.topic: article

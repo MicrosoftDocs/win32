@@ -1,5 +1,5 @@
 ---
-description: Displays or hides the desktop.
+description: Shell.ToggleDesktop method - Displays or hides the desktop.
 title: Shell.ToggleDesktop method (Shldisp.h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,15 +13,6 @@ api_type:
 api_location: 
 - Shell32.dll
 ms.assetid: BD07F7F2-A588-4189-95F4-3A8E2905E8F5
-api_name: 
- - Shell.ToggleDesktop
-api_type: 
- - COM
-api_location: 
- - Shell32.dll
-topic_type: 
- - APIRef
- - kbSyntax
 
 ---
 

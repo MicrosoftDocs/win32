@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn to use parameters in a PrintCapabilities document. This topic is not current. For the most current information, see the Print Schema Specification.
 ms.assetid: 4a596604-8a0d-4971-96f3-643727312cfc
 title: Using Parameters
 ms.topic: article

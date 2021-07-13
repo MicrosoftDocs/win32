@@ -688,7 +688,7 @@ This example returns the scalar result of an expression:
 
 
 ```
-return  light.enabled = true ;
+return  light.enabled;
 ```
 
 

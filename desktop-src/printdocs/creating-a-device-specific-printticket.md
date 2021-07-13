@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Learn about creating a device-specific PrintTicket, which targets a particular device and is portable across multiple devices.
 ms.assetid: 487f294f-dfe0-48f8-9077-06c55c3af8f1
 title: Creating a Device-Specific PrintTicket
 ms.topic: article

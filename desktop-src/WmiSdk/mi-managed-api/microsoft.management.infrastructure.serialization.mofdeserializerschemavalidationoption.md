@@ -67,13 +67,13 @@ Friend Enumeration MofDeserializerSchemaValidationOption
 
 ## Members
 
-||Member name|Description|
-|-|-|-|
-||Default|Specifies default schema validation.|
-||Strict|Specifies strict schema validation.|
-||Loose|Specifies loose schema validation.|
-||IgnorePropertyType|Specifies that schema validation should ignore property types.|
-||Ignore|Specifies that schema validation should be ignored.|
+|Member name|Description|
+|-|-|
+|Default|Specifies default schema validation.|
+|Strict|Specifies strict schema validation.|
+|Loose|Specifies loose schema validation.|
+|IgnorePropertyType|Specifies that schema validation should ignore property types.|
+|Ignore|Specifies that schema validation should be ignored.|
 
 ## See Also
 

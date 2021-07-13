@@ -44,7 +44,7 @@
         - name: "EnumResourceLanguagesEx"
           href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
         - name: "EnumResourceNames"
-          href: /windows/desktop/api/Winbase/nf-winbase-enumresourcenamesa
+          href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesa
         - name: "EnumResourceNamesEx"
           href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw
         - name: "EnumResourceTypes"

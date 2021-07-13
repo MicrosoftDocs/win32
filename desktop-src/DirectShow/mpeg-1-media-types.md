@@ -14,7 +14,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                 |
+| Label | Value |
 |-----------------------|-------------------------------------------------|
 | Major type            | MEDIATYPE\_Stream                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1System                       |
@@ -30,7 +30,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                            |
+| Label | Value |
 |-----------------------|----------------------------|
 | Major type            | MEDIATYPE\_Stream          |
 | Subtype               | MEDIASUBTYPE\_MPEG1VideoCD |
@@ -46,7 +46,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                |
+| Label | Value |
 |-----------------------|------------------------------------------------|
 | Major type            | MEDIATYPE\_Audio                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1Packet                      |
@@ -62,7 +62,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                            |
+| Label | Value |
 |-----------------------|--------------------------------------------|
 | Major type            | MEDIATYPE\_Audio                           |
 | Subtype               | MEDIASUBTYPE\_MPEG1Payload                 |
@@ -78,7 +78,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                |
+| Label | Value |
 |-----------------------|------------------------------------------------|
 | Major type            | MEDIATYPE\_Video                               |
 | Subtype               | MEDIASUBTYPE\_MPEG1Packet                      |
@@ -94,7 +94,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                          |
+| Label | Value |
 |-----------------------|------------------------------------------|
 | Major type            | MEDIATYPE\_Video                         |
 | Subtype               | MEDIASUBTYPE\_MPEG1Payload               |
@@ -110,7 +110,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                |
+| Label | Value |
 |-----------------------|------------------------------------------------|
 | Major type            | MEDIATYPE\_Stream                              |
 | Subtype               | MEDIASUBTYPE\_ MPEG1Video                      |
@@ -126,7 +126,7 @@ This section lists the media types used for MPEG-1 data.
 
 
 
-|                       |                                                |
+| Label | Value |
 |-----------------------|------------------------------------------------|
 | Major type            | MEDIATYPE\_Stream                              |
 | Subtype               | MEDIASUBTYPE\_ MPEG1Audio                      |

@@ -23,7 +23,7 @@ The linear element defines the value of a [**param**](param-element.md) element 
 
 
 
-|          |                                |
+| Label | Value |
 |----------|--------------------------------|
 | Parent   | [**param**](param-element.md) |
 | Children | None                           |

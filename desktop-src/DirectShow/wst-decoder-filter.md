@@ -21,7 +21,7 @@ This filter can be added to the graph automatically by calling [**ICaptureGraphB
 
 
 
-|                                          |                                                               |
+| Label | Value |
 |------------------------------------------|---------------------------------------------------------------|
 | Filter Interfaces                        | ISpecifyPropertyPages, [**IAMWstDecoder**](/previous-versions/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder) |
 | Input Pin Media Types                    | MEDIATYPE\_VBI, MEDIASUBTYPE\_TELETEXT                        |
