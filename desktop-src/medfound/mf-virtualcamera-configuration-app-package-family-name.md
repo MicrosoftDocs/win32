@@ -26,8 +26,8 @@ If the configuration application is not yet installed on the machine, the Store 
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | TBD<br/>                          |
-| Minimum supported server<br/> | TBD<br/>                      |
+| Minimum supported client<br/> | Windows Build 22000<br/>                          |
+| Minimum supported server<br/> | Windows Build 22000<br/>                      |
 | Header<br/>                   | <dl> <dt>Mfapi.h</dt> </dl> |
 
 

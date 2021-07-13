@@ -15,7 +15,7 @@ Reports the metadata and mask buffer for a background segmentation mask that dis
 
 ## Remarks
 
-The data carried by this attribute is a [KSCAMERA_METADATA_BACKGROUNDSEGMENTATIONMASK](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_metadata_backgroundsegmentationmask) structure that contains information about the dimensions of the background mask as well as its coverage of the frame it is inferred from, which is the frame that is outputted by the stream. It also carries a contiguous buffer representing the mask to be leveraged by the consuming app to define which pixels are considered part of the foreground or background. The scaling and image coordinate correlation of the mask regarding the frame is handled by the consuming app. 
+The data carried by this attribute is a [KSCAMERA_METADATA_BACKGROUNDSEGMENTATIONMASK](/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-kscamera_metadata_backgroundsegmentationmask) structure that contains information about the dimensions of the background mask as well as its coverage of the frame it is inferred from, which is the frame that is outputted by the stream. It also carries a contiguous buffer representing the mask to be leveraged by the consuming app to define which pixels are considered part of the foreground or background. The scaling and image coordinate correlation of the mask regarding the frame is handled by the consuming app. 
 
 ## Requirements
 
@@ -23,8 +23,8 @@ The data carried by this attribute is a [KSCAMERA_METADATA_BACKGROUNDSEGMENTATIO
 
 | Requirement | Value |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Minimum supported client<br/> | TBD release cobalt<br/>                          |
-| Minimum supported server<br/> | TBD release cobalt<br/>                      |
+| Minimum supported client<br/> | Windows Build 22000t<br/>                          |
+| Minimum supported server<br/> | Windows Build 22000<br/>                      |
 | Header<br/>                   | <dl> <dt>Mfapi.h</dt> </dl> |
 
 
