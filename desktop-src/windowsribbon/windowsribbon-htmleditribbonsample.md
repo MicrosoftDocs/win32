@@ -3,19 +3,19 @@ title: HTMLEditRibbon Sample
 description: This code sample shows markup and code required to migrate an existing Microsoft Foundation Classes (MFC) application to use the Windows Ribbon.
 ms.assetid: 1505aaea-76d2-47bc-bdc9-12e761da93f9
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/13/2021
 ---
 
 # HTMLEditRibbon Sample
 
 This code sample shows markup and code required to migrate an existing Microsoft Foundation Classes (MFC) application to use the Windows Ribbon. It was created by taking the existing MFC HTMLEdit sample application and modifying its code and resources to use the Windows Ribbon.
 
--   [Remarks](#remarks)
--   [Usage](#usage)
-    -   [Building the Sample](#building-the-sample)
-    -   [Running the Sample](#running-the-sample)
--   [Support](#support)
--   [Minimum Requirements](#minimum-requirements)
+- [Remarks](#remarks)
+- [Usage](#usage)
+  - [Building the Sample](#building-the-sample)
+  - [Running the Sample](#running-the-sample)
+- [Support](#support)
+- [Minimum Requirements](#minimum-requirements)
 
 ## Remarks
 
@@ -23,14 +23,13 @@ For the MFC sample, see [HTMLEdit Sample: Wraps the Internet Explorer MSHTML Edi
 
 ## Usage
 
-The HTMLEditRibbon Sample can be downloaded as a standalone Microsoft Visual Studio project from the [Microsoft Download Center](https://www.microsoft.com/DOWNLOADS/en/default.aspx) or installed as part of the [Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windows/bb980924.aspx).
+The Windows Ribbon framework samples can be downloaded as standalone Microsoft Visual Studio projects from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=9620) or installed as part of the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/sdk-archive/).
 
--   Microsoft Download Center: [Windows Ribbon Samples](https://www.microsoft.com/downloads/details.aspx?familyid=141e13e8-b10b-4356-aaa5-609b2981574a&displaylang=en)
--   Windows Software Development Kit (SDK) (standard installation path): %ProgramFiles%\\Microsoft SDKs\\Windows\\\[version number\]\\Samples\\winui\\WindowsRibbon\\HTMLEditRibbon
+- Windows Software Development Kit (SDK) (standard installation path): %ProgramFiles%\\Microsoft SDKs\\Windows\\\[version number\]\\Samples\\winui\\WindowsRibbon\\HTMLEditRibbon
 
 ### Building the Sample
 
-Download the sample to your hard disk.
+Download the sample.
 
 Install the Windows SDK for Windows 7 and open its build environment command window. On the Start menu, point to All Programs, Microsoft Windows SDK, and then click CMD Shell.
 

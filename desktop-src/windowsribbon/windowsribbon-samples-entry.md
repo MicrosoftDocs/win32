@@ -3,7 +3,7 @@ title: Windows Ribbon Framework Samples
 description: The topics contained in this section provide details about the code samples that support the Windows Ribbon framework documentation.
 ms.assetid: 79d092c9-347b-4b8f-8ba4-a8f696ce6a85
 ms.topic: article
-ms.date: 05/31/2018
+ms.date: 07/13/2021
 ---
 
 # Windows Ribbon Framework Samples
@@ -12,11 +12,9 @@ The topics contained in this section provide details about the code samples that
 
 ## Download Information
 
-The Windows Ribbon framework samples can be downloaded as standalone Microsoft Visual Studio projects from the [Microsoft Download Center](https://www.microsoft.com/DOWNLOADS/en/default.aspx) or installed as part of the [Windows Software Development Kit (SDK)](https://msdn.microsoft.com/windows/bb980924.aspx).
+The Windows Ribbon framework samples can be downloaded as standalone Microsoft Visual Studio projects from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=9620) or installed as part of the [Windows Software Development Kit (SDK)](https://developer.microsoft.com/windows/downloads/sdk-archive/).
 
 ## Samples
-
-
 
 | Sample                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
