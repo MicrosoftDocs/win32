@@ -7,13 +7,13 @@ ms.date: 07/09/2021
 
 # Quality of Service
 
-The Quality of Service (QoS) associated with a thread is used to indicate the desired performance and power efficiency. Each thread is assigned to a QoS level. While scheduling priority remains the main metric by which the system determines which thread to schedule next, QoS can influence core selection and processor power management. On platforms with heterogenous processors, the QoS of a thread may restrict scheduling to a subset of processors, or indicate a preference for a particular class of processor.
+The Quality of Service (QoS) associated with a thread is used to indicate the desired performance and power efficiency. Each thread is assigned to a QoS level. While scheduling priority remains the main metric by which the system determines which thread to schedule next, QoS can influence core selection and processor power management. On platforms with heterogeneous processors, the QoS of a thread may restrict scheduling to a subset of processors, or indicate a preference for a particular class of processor.
 
 Developers may already be employing other facilities to control when to execute, such as when the user is not present, only on AC/charging, or depending on the battery level. QoS provides a facility to influence how to execute. This facility can help to improve CPU efficiency and thus extend battery life. In addition, this process can assist in reducing CPU power consumption while operating on AC power to reduce thermal output which can lead to high fan noise, or even thermal throttling.
 
 ## Quality of Service levels
 
-The system maintains multiple QoS levels, each with differentiated performance and power efficiency. Windows provides standard default settings for scheduling and processor power management for each QoS level. The precise tuning of each QoS level for processor power management and heterogenous scheduling can be modified through Windows Provisioning. For more information on performance tuning and provisioning, see [Processor power management options](/windows-hardware/customize/power-settings/configure-processor-power-management-options).
+The system maintains multiple QoS levels, each with differentiated performance and power efficiency. Windows provides standard default settings for scheduling and processor power management for each QoS level. The precise tuning of each QoS level for processor power management and heterogeneous scheduling can be modified through Windows Provisioning. For more information on performance tuning and provisioning, see [Processor power management options](/windows-hardware/customize/power-settings/configure-processor-power-management-options).
 
 | QoS level | Description|Performance and power | Release |
 | --- | --- | --- | --- |
