@@ -54,6 +54,9 @@ The **MDM\_RemoteWipe** class has these methods.
 | Method                                              | Description                                              |
 |:----------------------------------------------------|:---------------------------------------------------------|
 | [**doWipeMethod**](mdm-remotewipe-dowipemethod.md) | Triggers the device to start the remote wipe.<br/> |
+| [**doWipePersistProvisionedDataMethod**](mdm-remotewipe-doWipepersistprovisioneddatamethod.md) | Triggers the device to back up provisioning data to a persistent location and perform a remote wipe on the device. The information that was backed up will be restored and applied to the device when it resumes.<br/> |
+| [**doWipePersistUserDataMethod**](mdm-remotewipe-doWipepersistuserdatamethod.md) | Triggers the device to start the remote wipe while persisting user accounts and data.<br/> |
+| [**doWipeProtectedMethod**](mdm-remotewipe-dowipeprotectedmethod.md) | Triggers the device to start the remote wipe on the device and fully clean the internal drive. In some device configurations, this command may leave the device unable to boot.<br/> |
 
 
 
