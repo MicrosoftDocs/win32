@@ -137,7 +137,7 @@ In BC7, you can encode the alpha component in one of the following ways:
     -   RAB\|G: "green" color channel separate
     -   RGA\|B: "blue" color channel separate
 
-    The decoder reorders the channel order back to RGBA after decoding, so the internal block format is invisible to the developer. Blacks with separate color and alpha components also have two sets of index data: one for the vectored set of channels, and one for the scalar channel. (In the case of Mode 4, these indices are of differing widths \[2 or 3 bits\]. Mode 4 also contains a 1-bit selector that specifies whether the vector or the scalar channel uses the 3-bit indices.)
+    The decoder reorders the channel order back to RGBA after decoding, so the internal block format is invisible to the developer. Blocks with separate color and alpha components also have two sets of index data: one for the vectored set of channels, and one for the scalar channel. (In the case of Mode 4, these indices are of differing widths \[2 or 3 bits\]. Mode 4 also contains a 1-bit selector that specifies whether the vector or the scalar channel uses the 3-bit indices.)
 
 ## Related topics
 
