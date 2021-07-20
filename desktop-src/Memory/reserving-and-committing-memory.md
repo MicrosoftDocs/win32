@@ -16,11 +16,11 @@ As an alternative to dynamic allocation, the process can simply commit the entir
 
 The [**ExitProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) function in the **\_\_except** block automatically releases virtual memory allocations, so it is not necessary to explicitly free the pages when the program terminates through this execution path. The [**VirtualFree**](/windows/win32/api/memoryapi/nf-memoryapi-virtualfree) function frees the reserved and committed pages if the program is built with exception handling disabled. This function uses **MEM\_RELEASE** to decommit and release the entire region of reserved and committed pages.
 
-The following C++ example demonstrates dynamic memory allocation using a structured exception handler.
+The following C example program demonstrates dynamic memory allocation using a structured exception handler.
 
 
-```C++
-// A short program to demonstrate dynamic memory allocation
+```C
+// A short C program to demonstrate dynamic memory allocation
 // using a structured exception handler.
 
 #include <windows.h>
@@ -87,7 +87,7 @@ VOID ErrorExit(LPTSTR lpMsg)
 {
     _tprintf(TEXT("Error! %s with error code of %ld.\n"),
              lpMsg, GetLastError ());
-    exit (0);
+    exit (EXIT_FAILURE);
 }
 
 VOID _tmain(VOID)
