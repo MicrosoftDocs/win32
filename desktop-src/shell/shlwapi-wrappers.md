@@ -391,7 +391,7 @@ The MSLU does not have these limitations.
 
 
 
-|                      |                                                                                                           |
+| Message              | Description                                                                                               |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | CB\_ADDSTRING        | (b) (f) (c)                                                                                               |
 | CB\_FINDSTRING       | (b) (f) (c)                                                                                               |

@@ -65,6 +65,8 @@
     - name: "IP Helper enumerations"
       href: ip-helper-enumerations.md
       items: 
+      - name: "DNS_SERVER_PROPERTY_TYPE"
+        href: /windows/win32/api/netioapi/ne-netioapi-dns_server_property_type
       - name: "IF_OPER_STATUS"
         href: /windows/win32/api/ifdef/ne-ifdef-if_oper_status
       - name: "IP_DAD_STATE"
@@ -184,6 +186,8 @@
         href: /windows/win32/api/Netioapi/nf-netioapi-flushipnettable2
       - name: "FlushIpPathTable"
         href: /windows/win32/api/Netioapi/nf-netioapi-flushippathtable
+      - name: "FreeInterfaceDnsSettings"
+        href: /windows/win32/api/netioapi/nf-netioapi-freeinterfacednssettings
       - name: "FreeMibTable"
         href: /windows/win32/api/Netioapi/nf-netioapi-freemibtable
       - name: "GetAdapterIndex"
@@ -234,6 +238,8 @@
         href: /windows/win32/api/Netioapi/nf-netioapi-getiftable2ex
       - name: "GetInterfaceActiveTimestampCapabilities"
         href: /windows/win32/api/iphlpapi/nf-iphlpapi-getinterfaceactivetimestampcapabilities
+      - name: "GetInterfaceDnsSettings"
+        href: /windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings
       - name: "GetInterfaceInfo"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo
       - name: "GetInterfaceSupportedTimestampCapabilities"
@@ -420,6 +426,8 @@
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-sendarp
       - name: "SetIfEntry"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-setifentry
+      - name: "SetInterfaceDnsSettings"
+        href: /windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings
       - name: "SetIpForwardEntry"
         href: /windows/win32/api/Iphlpapi/nf-iphlpapi-setipforwardentry
       - name: "SetIpForwardEntry2"
@@ -453,6 +461,16 @@
       items: 
       - name: "ARP_SEND_REPLY"
         href: /windows/win32/api/Ipexport/ns-ipexport-arp_send_reply
+      - name: "DNS_DOH_SERVER_SETTINGS"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_doh_server_settings
+      - name: "DNS_INTERFACE_SETTINGS"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_interface_settings
+      - name: "DNS_INTERFACE_SETTINGS3"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3
+      - name: "DNS_SERVER_PROPERTY_TYPES"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_server_property_types
+      - name: "DNS_SERVER_PROPERTY"
+        href: /windows/win32/api/netioapi/ns-netioapi-dns_server_property
       - name: "FIXED_INFO"
         href: /windows/win32/api/Iptypes/ns-iptypes-fixed_info_w2ksp1
       - name: "ICMP_ECHO_REPLY"

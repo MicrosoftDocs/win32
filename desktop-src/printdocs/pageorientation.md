@@ -1,5 +1,5 @@
 ---
-description: This topic is not current. For the most current information, see the Print Schema Specification.
+description: Read about the PageOrientation user-configurable element. This topic isn't current. For the most current information, see the Print Schema Specification.
 ms.assetid: 52f02fc1-56fb-404d-8939-df3a4b21570d
 title: PageOrientation
 ms.topic: article

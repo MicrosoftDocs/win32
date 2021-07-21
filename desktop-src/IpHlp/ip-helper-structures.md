@@ -11,6 +11,11 @@ ms.assetid: d53c3821-00a0-4eaa-9a06-69ec7aa98d84
 The following structures and unions are used with IP Helper.
 
 - [**ARP_SEND_REPLY**](/windows/win32/api/Ipexport/ns-ipexport-arp_send_reply)
+- [**DNS_DOH_SERVER_SETTINGS**](/windows/win32/api/netioapi/ns-netioapi-dns_doh_server_settings)
+- [**DNS_INTERFACE_SETTINGS**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings)
+- [**DNS_INTERFACE_SETTINGS3**](/windows/win32/api/netioapi/ns-netioapi-dns_interface_settings3)
+- [**DNS_SERVER_PROPERTY_TYPES**](/windows/win32/api/netioapi/ns-netioapi-dns_server_property_types)
+- [**DNS_SERVER_PROPERTY**](/windows/win32/api/netioapi/ns-netioapi-dns_server_property)
 - [**FIXED_INFO**](/windows/win32/api/Iptypes/ns-iptypes-fixed_info_w2ksp1)
 - [**ICMP_ECHO_REPLY**](/windows/win32/api/Ipexport/ns-ipexport-icmp_echo_reply)
 - [**ICMP_ECHO_REPLY32**](/windows/win32/api/Ipexport/ns-ipexport-icmp_echo_reply32)

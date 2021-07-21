@@ -1045,7 +1045,7 @@
             - name: "IAgentUserInput::GetItemText"
               href: iagentuserinput--getitemtext.md
       - name: "Programming/Scripting FAQ"
-        href: programming-scripting-faq.md
+        href: programming-scripting-faq.yml
       - name: "Microsoft Agent Error Codes"
         href: microsoft-agent-error-codes.md
     - name: "Using Speech Engines with Microsoft Agent"

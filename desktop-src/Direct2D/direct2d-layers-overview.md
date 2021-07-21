@@ -78,7 +78,7 @@ Working with layers requires familiarity with the [**CreateLayer**](/windows/des
 
     | Field                 | Description|
     |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | **contentBounds**     | The content bounds of the layer. Content outside these bounds is guaranteed not to render. This parameter defaults to [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect). When the default value is used, the content bounds are effectively taken to be the bounds of the render target. |
+    | **contentBounds**     | The content bounds of the layer. Content won't render outside these bounds. This parameter defaults to [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect). When the default value is used, the content bounds are effectively taken to be the bounds of the render target. |
     | **geometricMask**     | (Optional) The area, defined by an [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry), to which the layer should be clipped. Set to **NULL** if the layer shouldn't be clipped to a geometry. |
     | **maskAntialiasMode** | A value that specifies the antialiasing mode for the geometric mask specified by the **geometricMask** field. |
     | **maskTransform**     | A value that specifies the transform that is applied to the geometric mask when composing the layer. This is relative to the world transform.  |

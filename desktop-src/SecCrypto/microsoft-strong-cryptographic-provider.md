@@ -12,10 +12,10 @@ The Microsoft Strong Cryptographic Provider is used as the default RSA Full [*cr
 
 
 
-|                |                      |
-|----------------|----------------------|
-| Provider type: | **PROV\_RSA\_FULL**  |
-| Provider name: | **MS\_STRONG\_PROV** |
+|                   | Value             |
+|-------------------|-------------------|
+| **Provider type** | PROV\_RSA\_FULL   |
+| **Provider name** | MS\_STRONG\_PROV  |
 
 
 

@@ -423,9 +423,9 @@ A column-major matrix is laid out like the following:
         34<br/>
     :::column-end:::
     :::column:::
-        14<br/>
-        24<br/>
-        34<br/>
+        41<br/>
+        42<br/>
+        43<br/>
         44<br/>
     :::column-end:::
 :::row-end:::

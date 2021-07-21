@@ -17,7 +17,8 @@ DirectML follows the [semantic versioning](https://semver.org/) conventions. Tha
 ## Version table
 
 |DirectML version|Feature level supported (see [DirectML feature level history](./dml-feature-level-history.md))|DML_TARGET_VERSION|First available in|First available in (Redistributable)|
-|-|-|-|-|-|-|
+|-|-|-|-|-|
+|1.6.0|DML_FEATURE_LEVEL_4_0|`0x4000`|N/A|[DirectML-1.6.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.6.0)|
 |1.5.0|DML_FEATURE_LEVEL_3_1|`0x3100`|N/A|[DirectML-1.5.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.5.0)|
 |1.4.0<sup>1</sup>|DML_FEATURE_LEVEL_3_0|`0x3000`|N/A|[DirectML-1.4.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.4.0)|
 |1.1.0|DML_FEATURE_LEVEL_2_0|`0x2000`|Windows 10, version 2004 (10.0; Build 19041) (Windows 10 May 2020 Update). Aka "20H1".|N/A|
@@ -35,6 +36,7 @@ Here are the valid values for the `DML_TARGET_VERSION` macro.
 
 |DML_TARGET_VERSION|Effect|
 |-|-|
+|`0x4000`|Any features that require a version of DirectML newer than **1.6.0** are excluded from `DirectML.h`.|
 |`0x3000`|Any features that require a version of DirectML newer than **1.4.0** are excluded from `DirectML.h`.|
 |`0x2000`|Any features that require a version of DirectML newer than **1.1.0** are excluded from `DirectML.h`.|
 |`0x1000`|Any features that require a version of DirectML newer than **1.0.0** are excluded from `DirectML.h`.|
@@ -44,8 +46,10 @@ If `DML_TARGET_VERSION` is not set, then it is selected automatically by the fol
 
 * If the `DML_TARGET_VERSION_USE_LATEST` macro is defined, then the latest target version is selected.
 * Otherwise, the target version is selected based on the value of the `NTDDI_VERSION` macro.
-  *  `NTDDI_WIN10_19H1` results in a target version of `0x1000`.
+  *  `NTDDI_WIN10_CO` results in a target version of `0x4000`.
+  *  `NTDDI_WIN10_FE` results in a target version of `0x3000`.
   *  `NTDDI_WIN10_VB` results in a target version of `0x2000`.
+  *  `NTDDI_WIN10_19H1` results in a target version of `0x1000`.
   *  If `NTDDI_VERSION` is not defined, then the latest target version is selected (as if `DML_TARGET_VERSION_USE_LATEST` were specified).
 
 ### Example

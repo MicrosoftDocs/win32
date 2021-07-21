@@ -12,10 +12,10 @@ The Microsoft DSS and [*Diffie-Hellman*](../secgloss/d-gly.md)/[*Schannel*](../s
 
 
 
-|                |                                 |
-|----------------|---------------------------------|
-| Provider type: | **PROV\_DH\_SCHANNEL**          |
-| Provider name: | **MS\_DEF\_DH\_SCHANNEL\_PROV** |
+|                   | Value                       |
+|-------------------|-----------------------------|
+| **Provider type** | PROV\_DH\_SCHANNEL          |
+| **Provider name** | MS\_DEF\_DH\_SCHANNEL\_PROV |
 
 
 
