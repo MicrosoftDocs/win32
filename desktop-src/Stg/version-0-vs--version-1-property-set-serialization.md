@@ -16,45 +16,40 @@ The following items identify the differences between version 0 and version 1 pro
 
     The following **VARTYPE** values are not supported in version 0 property sets, but are supported in version 1:
 
-    VT\_I1
+    VT_I1
 
-    VT\_VECTOR \| VT\_I1
+    VT_VECTOR \| VT_I1
 
-    VT\_INT
+    VT_INT
 
-    VT\_UINT
+    VT_UINT
 
-    VT\_DECIMAL
+    VT_DECIMAL
 
-    Additionally, SafeArrays can be serialized in a property set. The presence of a SafeArray is indicated by the VT\_ARRAY bit combined, using an **OR** operation, with the array elements in the **vt** member of the [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure. For example, a SafeArray of 4-byte signed integers has a type of VT\_ARRAY \| VT\_I4.
+    Additionally, SafeArrays can be serialized in a property set. The presence of a SafeArray is indicated by the VT_ARRAY bit combined, using an **OR** operation, with the array elements in the **vt** member of the [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structure. For example, a SafeArray of 4-byte signed integers has a type of VT_ARRAY \| VT_I4.
 
     The following element types are valid for a SafeArray in a serialized property set:
 
+    | <!--tabular list: col headers unnecessary-->  ||||
+    |-------------|----------|-------------|-----------|
+    | VT_I1       | VT_UI1   | VT_I2       | VT_UI2    |
+    | VT_I4       | VT_UI4   | VT_INT      | VT_UINT   |
+    | VT_R4       | VT_R8    | VT_CY       | VT_DATE   |
+    | VT_BSTR     | VT_BOOL  | VT_DECIMAL  | VT_ERROR  |
+    | VT_VARIANT  |          |             |           |
+    |             |          |             |           |
 
-
-|             |          |             |           |
-|-------------|----------|-------------|-----------|
-| VT\_I1      | VT\_UI1  | VT\_I2      | VT\_UI2   |
-| VT\_I4      | VT\_UI4  | VT\_INT     | VT\_UINT  |
-| VT\_R4      | VT\_R8   | VT\_CY      | VT\_DATE  |
-| VT\_BSTR    | VT\_BOOL | VT\_DECIMAL | VT\_ERROR |
-| VT\_VARIANT |          |             |           |
-
-
-
- 
-
-When the VT\_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT\_VARIANT types.
-
-Note that implementations of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) must be able to recover gracefully by returning an error when a new type is encountered; for example, VARENUM types.
+    When the VT_VARIANT data type is specified, it indicates that the SafeArray itself holds [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures. The types for these elements must be from the preceding list, except they cannot contain nested VT_VARIANT types.
+    
+    Note that implementations of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) must be able to recover gracefully by returning an error when a new type is encountered; for example, VARENUM types.
 
 -   Case sensitive property names. Property names, for example those specified in the [**IPropertyStorage::WritePropertyNames**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writepropertynames) method, are not case sensitive in version 0 property sets. In version 1 property sets, property names can be case-sensitive depending on the value of the new Behavior property.
 
-    The Behavior property is [Property ID 0x80000003](/windows/desktop/Stg/reserved-property-identifiers) with a type of VT\_UI4. If the lowest bit of this value is set, the property set names are case sensitive. Set the PROPSETFLAG\_CASE\_SENSITIVE flag in the *grfFlags* parameter of the [**IPropertySetStorage::Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) method to specify a case-sensitive property set.
+    The Behavior property is [Property ID 0x80000003](/windows/desktop/Stg/reserved-property-identifiers) with a type of VT_UI4. If the lowest bit of this value is set, the property set names are case sensitive. Set the PROPSETFLAG_CASE_SENSITIVE flag in the *grfFlags* parameter of the [**IPropertySetStorage::Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) method to specify a case-sensitive property set.
 
 -   Long property names. Property names for version 0 property sets must be less than or equal to 256 characters, including the string terminator, for property sets in the Unicode code page. If not in the Unicode code page, they must be less than 256 bytes. Version 1 property sets, on the other hand, can have property names of unlimited length, although they are still limited by the overall property set size limit of 256 kilobytes (KB).
 
-It is recommended that implementations of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) create and maintain version 0 property sets by default. If a caller subsequently requests a feature specific to the version 1 format, only then should the version of the property set be updated. For example, if a property of type VT\_ARRAY is written or if a long property name is written, then the implementation should update the property set format to version 1. One exception to this guideline occurs if the PROPSETFLAG\_CASE\_SENSITIVE enumeration value is specified in the call to [**IPropertySetStorage::Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create). In this case, the property set must be created as a version 1 property set.
+It is recommended that implementations of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage) create and maintain version 0 property sets by default. If a caller subsequently requests a feature specific to the version 1 format, only then should the version of the property set be updated. For example, if a property of type VT_ARRAY is written or if a long property name is written, then the implementation should update the property set format to version 1. One exception to this guideline occurs if the PROPSETFLAG_CASE_SENSITIVE enumeration value is specified in the call to [**IPropertySetStorage::Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create). In this case, the property set must be created as a version 1 property set.
 
  
 

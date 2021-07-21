@@ -14,13 +14,13 @@ The following table shows the set of conflicting application gestures with an X 
 
 
 
-|                          | UpLeft       | UpRight      | DownLeft     | DownRight    | ChevronDown  |
-|--------------------------|--------------|--------------|--------------|--------------|--------------|
-| UpLeftLong<br/>    | X<br/> | -<br/> | -<br/> | -<br/> | -<br/> |
-| UpRightLong<br/>   | -<br/> | X<br/> | -<br/> | -<br/> | -<br/> |
-| DownLeftLong<br/>  | -<br/> | -<br/> | X<br/> | -<br/> | -<br/> |
-| DownRightLong<br/> | -<br/> | -<br/> | -<br/> | X<br/> | -<br/> |
-| Check<br/>         | -<br/> | -<br/> | -<br/> | -<br/> | X<br/> |
+|                   | UpLeft       | UpRight      | DownLeft     | DownRight    | ChevronDown  |
+|-------------------|--------------|--------------|--------------|--------------|--------------|
+| **UpLeftLong**    | X<br/> | -<br/> | -<br/> | -<br/> | -<br/> |
+| **UpRightLong**   | -<br/> | X<br/> | -<br/> | -<br/> | -<br/> |
+| **DownLeftLong**  | -<br/> | -<br/> | X<br/> | -<br/> | -<br/> |
+| **DownRightLong** | -<br/> | -<br/> | -<br/> | X<br/> | -<br/> |
+| **Check**         | -<br/> | -<br/> | -<br/> | -<br/> | X<br/> |
 
 
 
