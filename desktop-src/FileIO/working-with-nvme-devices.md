@@ -298,6 +298,10 @@ To specify a type of NVMe protocol-specific information, configure the [**STORAG
 
 When **ProtocolTypeNVMe** is used as the **ProtocolType**, queries for protocol-specific information can be retrieved in parallel with other I/O on the NVMe drive.
 
+> [!IMPORTANT]
+> For an [**IOCTL_STORAGE_QUERY_PROPERTY**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) that uses a **STORAGE_PROPERTY_ID** of [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), and whose [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) or [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) structure is set to `ProtocolType=ProtocolTypeNvme` and `DataType=NVMeDataTypeLogPage`, set the ProtocolDataLength member of that same structure to a minimum value of 512 (bytes).
+
+
 The following examples demonstrate NVMe protocol-specific queries.
 
 ### Example: NVMe Identify query
@@ -421,6 +425,8 @@ In this example, the **Identify** request is sent to an NVMe drive. The followin
   
 ```
 
+> [!IMPORTANT]
+> For an [**IOCTL_STORAGE_QUERY_PROPERTY**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) that uses a **STORAGE_PROPERTY_ID** of [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), and whose [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) or [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) structure is set to `ProtocolType=ProtocolTypeNvme` and `DataType=NVMeDataTypeLogPage`, set the ProtocolDataLength member of that same structure to a minimum value of 512 (bytes).
 
 
 Note that the caller needs to allocate a single buffer containing STORAGE\_PROPERTY\_QUERY and the size of STORAGE\_PROTOCOL\_SPECIFIC\_DATA. In this example, it’s using the same buffer for input and output from the property query. That’s why the buffer that was allocated has a size of “FIELD\_OFFSET(STORAGE\_PROPERTY\_QUERY, AdditionalParameters) + sizeof(STORAGE\_PROTOCOL\_SPECIFIC\_DATA) + NVME\_MAX\_LOG\_SIZE”. Although separate buffers could be allocated for both input and output, we recommend using a single buffer to query NVMe related-information.
