@@ -66,6 +66,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_LOGIC_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_logic_op). Specifies logical operations to configure for a render target. |
 | [**D3D12_MEASUREMENTS_ACTION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action). Defines constants that specify what should be done with the results of earlier workload instrumentation. |
 | [**D3D12_MEMORY_POOL**](/windows/win32/api/d3d12/ne-d3d12-d3d12_memory_pool). Specifies the memory pool for the heap. |
+| [**D3D12_MESH_SHADER_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_mesh_shader_tier). Defines constants that specify mesh and amplification shader support. |
 | [**D3D12_META_COMMAND_PARAMETER_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_flags). Defines constants that specify the flags for a parameter to a meta command. Values can be bitwise OR'd together. |
 | [**D3D12_META_COMMAND_PARAMETER_STAGE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_stage). Defines constants that specify the stage of a parameter to a meta command. |
 | [**D3D12_META_COMMAND_PARAMETER_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_type). Defines constants that specify the data type of a parameter to a meta command. |
@@ -107,6 +108,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_ROOT_PARAMETER_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_parameter_type). Specifies the type of root signature slot.  |
 | [**D3D12_ROOT_SIGNATURE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags). Specifies options for root signature layout.  |
 | [**D3D12_RTV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_rtv_dimension). Identifies the type of resource to view as a render target. |
+| [**D3D12_SAMPLER_FEEDBACK_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_sampler_feedback_tier). Defines constants that specify sampler feedback support. |
 | [**D3D12_SHADER_CACHE_SUPPORT_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags). Describes the level of support for shader caching in the current graphics driver. |
 | [**D3D12_SHADER_COMPONENT_MAPPING**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping). Specifies how memory gets routed by a shader resource view (SRV).  |
 | [**D3D12_SHADER_MIN_PRECISION_SUPPORT**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_min_precision_support). Describes minimum precision support options for shaders in the current graphics driver.  |
@@ -125,6 +127,7 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_UAV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_uav_dimension). Identifies unordered access view options. |
 | [**D3D12_VIEW_INSTANCING_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_flags). Specifies options for view instancing. |
 | [**D3D12_VIEW_INSTANCING_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_tier). Indicates the tier level at which view instancing is supported. |
+| [**D3D12_WAVE_MMA_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_wave_mma_tier). Defines constants that specify a level of support for WaveMMA (wave_matrix) operations. |
 | [**D3D12_WRITEBUFFERIMMEDIATE_MODE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode). Specifies the mode used by a **WriteBufferImmediate** operation. |
 
 ## Related topics

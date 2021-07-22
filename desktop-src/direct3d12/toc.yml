@@ -874,6 +874,12 @@
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS6"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS7"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options7
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS8"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options8
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS9"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9
         - name: "D3D12_FEATURE_DATA_EXISTING_HEAPS"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps
         - name: "D3D12_FEATURE_DATA_FEATURE_LEVELS"
@@ -1263,6 +1269,8 @@
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action
         - name: "D3D12_MEMORY_POOL"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_memory_pool
+        - name: "D3D12_MESH_SHADER_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_mesh_shader_tier
         - name: "D3D12_META_COMMAND_PARAMETER_FLAGS"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_flags
         - name: "D3D12_META_COMMAND_PARAMETER_STAGE"
@@ -1345,6 +1353,8 @@
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags
         - name: "D3D12_RTV_DIMENSION"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_rtv_dimension
+        - name: "D3D12_SAMPLER_FEEDBACK_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_sampler_feedback_tier
         - name: "D3D12_SERIALIZED_DATA_TYPE"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_serialized_data_type
         - name: "D3D12_SHADER_CACHE_SUPPORT_FLAGS"
@@ -1395,6 +1405,8 @@
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_flags
         - name: "D3D12_VIEW_INSTANCING_TIER"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_tier
+        - name: "D3D12_WAVE_MMA_TIER"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_wave_mma_tier
         - name: "D3D12_WRITEBUFFERIMMEDIATE_MODE"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode
       - name: "Core constants"
