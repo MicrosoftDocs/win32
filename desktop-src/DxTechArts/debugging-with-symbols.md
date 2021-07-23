@@ -93,13 +93,13 @@ A useful tool that is installed with this package is symchk.exe. It can help to 
 ### Check if a given DLL or .exe file and PDB in the same folder match
 
 ``` syntax
-"c:\Program Files\Debugging Tools for Windows\symchk" testing.dll /s
+"c:\Program Files\Debugging Tools for Windows\symchk" testing.dll /s .
 
 SYMCHK: FAILED files = 0
 SYMCHK: PASSED + IGNORED files = 1
 ```
 
-The **/s** option tells **symchk** to look for symbols only in the current folder, and not to look in any symbol servers.
+The **/s .** option tells **symchk** to look for symbols only in the current folder, and not to look in any symbol servers.
 
 ### Check if all the DLLs and executable files in a set of folders have matching PDBs
 
