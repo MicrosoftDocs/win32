@@ -3609,7 +3609,7 @@ This FOLDERID is deprecated in Windows 10, version 1803 and later versions. In 
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATE%\Microsoft\Windows\Libraries\SavedPictures.library-ms</td>
+<td>%APPDATA%\Microsoft\Windows\Libraries\SavedPictures.library-ms</td>
 </tr>
 <tr class="odd">
 <td>CSIDL Equivalent</td>
