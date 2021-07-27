@@ -1,7 +1,7 @@
 ---
 title: IUniversalOrchestrator::HasMoratoriumPassed
 description: Queries Universal Orchestrator to determine if post-OOBE period has been surpassed.
-ms.topic: method
+ms.topic: reference
 ms.date: 01/14/2021
 ---
 
