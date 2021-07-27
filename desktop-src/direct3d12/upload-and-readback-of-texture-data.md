@@ -96,7 +96,7 @@ D3D12 methods enable applications to replace D3D11 [**UpdateSubresource**](/wind
 
 Note the following two constants:
 
-``` syntax
+```cpp syntax
 const UINT D3D12_TEXTURE_DATA_PITCH_ALIGNMENT = 256;
 const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 ```
