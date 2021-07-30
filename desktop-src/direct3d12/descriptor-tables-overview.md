@@ -22,9 +22,9 @@ A descriptor table is actually just a sub-range of a descriptor heap. Descriptor
 
 It is certainly possible for an app to define very large descriptor tables when its shaders want the freedom to select from a vast set of available descriptors (often referencing textures) on the fly (perhaps driven by material data).
 
-The Root Signature references the descriptor table entry with a reference to the heap, the start location of the table (an offset from the start of the heap), and the length (in entries) of the table. The image below shows these concepts: the descriptor table pointers from the Root Signature and the descriptors within the descriptor heap referencing the full texture or buffer data in an upload heap.
+The Root Signature references the descriptor table entry with a reference to the heap, the start location of the table (an offset from the start of the heap), and the length (in entries) of the table. The image below shows these concepts: the descriptor table pointers from the Root Signature and the descriptors within the descriptor heap referencing the full texture or buffer data in a default heap.
 
-![descriptor tables](images/descriptor-table.png)
+![image](https://user-images.githubusercontent.com/7800721/127701147-aadcf545-f617-4561-aaa2-36979331ec21.png)
 
 ## Related topics
 
