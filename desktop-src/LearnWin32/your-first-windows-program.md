@@ -66,7 +66,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
     // Run the message loop.
 
     MSG msg = { };
-    while (GetMessage(&msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0) > 0)
     {
         TranslateMessage(&msg);
         DispatchMessage(&msg);
@@ -88,7 +88,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             PAINTSTRUCT ps;
             HDC hdc = BeginPaint(hwnd, &ps);
 
-
+            // All painting occurs here, between BeginPaint and EndPaint.
 
             FillRect(hdc, &ps.rcPaint, (HBRUSH) (COLOR_WINDOW+1));
 
