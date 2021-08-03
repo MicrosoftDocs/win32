@@ -9,7 +9,7 @@ ms.date: 05/31/2018
 
 # Using descriptors directly in the root signature
 
-To avoid the need to go through a descriptor heap, you can put a descriptor directly into the root signature. These descriptors take up a lot of space in the root signature (see [Root signature limits](/windows/win32/direct3d12/root-signature-limits)), so we recommend that you use them sparingly.
+To avoid the need to go through a descriptor heap, you can put a descriptor directly into the root signature. These descriptors take up a lot of space in the root signature (see [Root signature limits](./root-signature-limits.md)), so we recommend that you use them sparingly.
 
 An example usage would be to place in the root layout a constant buffer view (CBV) that is changing per draw. That's so that descriptor heap space doesn't have to be allocated by the application per draw (and saves pointing a descriptor table at the new location in the descriptor heap). By putting something in the root signature, the application is merely handing the versioning responsibility to the driver; but that's infrastructure that drivers already have.
 

@@ -174,7 +174,7 @@ The following features are available for the feature levels listed. The headings
 
 <sup>8</sup> Requires the Direct3D 12 runtime.
 
-<sup>9</sup> In the Direct3D 12 API there are limits on the number of descriptors in a CBV/SRV/UAV heap. See [Hardware Tiers](/windows/win32/direct3d12/hardware-support) for details. Separately, there's a limit on the number of UAVs in all descriptor tables across all stages, which is based on [resource binding tier](https://microsoft.github.io/DirectX-Specs/d3d/ResourceBinding.html#levels-of-hardware-support).
+<sup>9</sup> In the Direct3D 12 API there are limits on the number of descriptors in a CBV/SRV/UAV heap. See [Hardware Tiers](../direct3d12/hardware-support.md) for details. Separately, there's a limit on the number of UAVs in all descriptor tables across all stages, which is based on [resource binding tier](https://microsoft.github.io/DirectX-Specs/d3d/ResourceBinding.html#levels-of-hardware-support).
 
 For details of format support at different hardware feature levels, refer to:
 
