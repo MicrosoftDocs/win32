@@ -26,13 +26,13 @@ When the **Compression** member of the bitmap information header structure is BI
 
  
 
--   In *absolute mode*, the first byte is zero and the second byte is a value in the range 03H through FFH. The second byte represents the number of bytes that follow, each of which contains the color index of a single pixel. When the second byte is two or less, the escape has the same meaning as encoded mode. In absolute mode, each run must be aligned on a word boundary.
+-   In *absolute mode*, the first byte is zero and the second byte is a value in the range 03H through FFH. The second byte represents the number of bytes that follow, each of which contains the color index of a single pixel. When the second byte is two or less, the escape has the same meaning as encoded mode. In absolute mode, each run must be zero-padded to end on a 16-bit word boundary.
 
 The following example shows the hexadecimal values of an 8-bit compressed bitmap:
 
 
 ```C++
-[03 04] [05 06] [00 03 45 56 67] [02 78] [00 02 05 01] 
+[03 04] [05 06] [00 03 45 56 67 00] [02 78] [00 02 05 01] 
 [02 78] [00 00] [09 1E] [00 01] 
 ```
 
