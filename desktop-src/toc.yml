@@ -514,8 +514,8 @@
           href: ./sync/synchronization.md
         - name: "Windows System Information"
           href: ./sysinfo/windows-system-information.md
-      - name: "Windows Machine Learning"
-        href: ./machinelearning/machine-learning-portal.md
+      - name: "AI and machine learning"
+        href: /windows/ai/
       - name: "Developer Notes"
         href: ./devnotes/developer-notes.md
     - name: "Develop with Server Technologies"

@@ -771,11 +771,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "desktop-src/MachineLearning/index.md",
-      "redirect_url": "/windows/desktop/MachineLearning/machine-learning-portal",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "desktop-src/MDMReg/index.md",
       "redirect_url": "/windows/desktop/MDMReg/mobile-device-management-registration-portal",
       "redirect_document_id": false
@@ -42533,6 +42528,101 @@
 {
       "source_path": "desktop-src/SecAuthN/-iccgdomainauthcredentials.md",
       "redirect_url": "/windows/win32/api/ccgplugins/nn-ccgplugins-iccgdomainauthcredentials",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-barriers.md",
+      "redirect_url": "/windows/ai/directml/dml-barriers",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-binding.md",
+      "redirect_url": "/windows/ai/directml/dml-binding",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-debug-layer.md",
+      "redirect_url": "/windows/ai/directml/dml-debug-layer",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-directmlx.md",
+      "redirect_url": "/windows/ai/directml/dml-directmlx",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-errors.md",
+      "redirect_url": "/windows/ai/directml/dml-errors",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-feature-level-history.md",
+      "redirect_url": "/windows/ai/directml/dml-feature-level-history",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-fused-activations.md",
+      "redirect_url": "/windows/ai/directml/dml-fused-activations",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-helper-functions.md",
+      "redirect_url": "/windows/ai/directml/dml-helper-functions",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-intro.md",
+      "redirect_url": "/windows/ai/directml/dml-intro",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-min-app.md",
+      "redirect_url": "/windows/ai/directml/dml-min-app",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-resource-lifetime.md",
+      "redirect_url": "/windows/ai/directml/dml-resource-lifetime",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-strides.md",
+      "redirect_url": "/windows/ai/directml/dml-strides",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml-version-history.md",
+      "redirect_url": "/windows/ai/directml/dml-version-history",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/dml.md",
+      "redirect_url": "/windows/ai/directml/dml",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-accelerated-training.md",
+      "redirect_url": "/windows/ai/directml/gpu-accelerated-training",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-cuda-in-wsl.md",
+      "redirect_url": "/windows/ai/directml/gpu-cuda-in-wsl",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-faq.yml",
+      "redirect_url": "/windows/ai/directml/gpu-faq",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-tensorflow-windows.md",
+      "redirect_url": "/windows/ai/directml/gpu-tensorflow-windows",
+      "redirect_document_id": false
+},
+{
+      "source_path": "desktop-src/direct3d12/gpu-tensorflow-wsl.md",
+      "redirect_url": "/windows/ai/directml/gpu-tensorflow-wsl",
       "redirect_document_id": false
 }
   ]

@@ -27,6 +27,7 @@ This section provides in-depth guidance and code examples about Windows features
 | [Networking and Internet](networking.md) | Provides guidance about the networking and Internet-related features of Windows, including network management, HTTP APIs, and Remote Procedure Call (RPC). |
 | [Security and identity](security.md) | Provides information about authentication, authorization, cryptography, and other security features of Windows. |
 | [System services](system-services.md) | Provides guidance about fundamental OS features such as process and threads, services, dynamic-link libraries, COM, the registry, and more. |
+| [AI and machine learning](/windows/ai/) | Transform your Windows application with the power of artificial intelligence. Windows AI empowers you and your business to achieve more by providing intelligent solutions to complex problems. |
 
 <!--
 <br/>
