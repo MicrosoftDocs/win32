@@ -880,6 +880,10 @@
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options8
         - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS9"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS10"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options10
+        - name: "D3D12_FEATURE_DATA_D3D12_OPTIONS11"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options11
         - name: "D3D12_FEATURE_DATA_EXISTING_HEAPS"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps
         - name: "D3D12_FEATURE_DATA_FEATURE_LEVELS"
@@ -894,6 +898,10 @@
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_multisample_quality_levels
         - name: "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_SUPPORT"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_protected_resource_session_support
+        - name: "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_TYPE_COUNT"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_protected_resource_session_type_count
+        - name: "D3D12_FEATURE_DATA_PROTECTED_RESOURCE_SESSION_TYPES"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_protected_resource_session_types
         - name: "D3D12_FEATURE_DATA_QUERY_META_COMMAND"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_query_meta_command
         - name: "D3D12_FEATURE_DATA_ROOT_SIGNATURE"
@@ -1450,6 +1458,16 @@
             href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug3-setenablesynchronizedcommandqueuevalidation
           - name: "SetGPUBasedValidationFlags"
             href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug3-setgpubasedvalidationflags
+        - name: "ID3D12Debug4"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug4
+          items: 
+          - name: "DisableDebugLayer method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug4-disabledebuglayer
+        - name: "ID3D12Debug5"
+          href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug5
+          items: 
+          - name: "SetEnableAutoName method"
+            href: /windows/win32/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debug5-setenableautoname.md
         - name: "ID3D12DebugCommandList"
           href: /windows/win32/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist
           items: 
@@ -2372,6 +2390,8 @@
           href: cd3dx12-pipeline-state-stream.md
         - name: "CD3DX12_PIPELINE_STATE_STREAM1"
           href: cd3dx12-pipeline-state-stream1.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM2"
+          href: cd3dx12-pipeline-state-stream2.md
         - name: "CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC"
           href: cd3dx12-pipeline-state-stream-blend-desc.md
         - name: "CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO"
@@ -2434,6 +2454,8 @@
           href: cd3dx12-resource-barrier.md
         - name: "CD3DX12_RESOURCE_DESC"
           href: cd3dx12-resource-desc.md
+        - name: "CD3DX12_RESOURCE_DESC1"
+          href: cd3dx12-resource-desc1.md
         - name: "CD3DX12_ROOT_CONSTANTS"
           href: cd3dx12-root-constants.md
         - name: "CD3DX12_ROOT_DESCRIPTOR"
@@ -2454,6 +2476,8 @@
           href: cd3dx12-rt-format-array.md
         - name: "CD3DX12_SHADER_BYTECODE"
           href: cd3dx12-shader-bytecode.md
+        - name: "CD3DX12_STATE_OBJECT_DESC"
+          href: cd3dx12-state-object-desc.md
         - name: "CD3DX12_STATIC_SAMPLER_DESC"
           href: cd3dx12-static-sampler-desc.md
         - name: "CD3DX12_SUBRESOURCE_FOOTPRINT"
@@ -2472,8 +2496,12 @@
           href: cd3dx12-tiled-resource-coordinate.md
         - name: "CD3DX12_VERSIONED_ROOT_SIGNATURE_DESC"
           href: cd3dx12-versioned-root-signature-desc.md
+        - name: "CD3DX12_VIEW_INSTANCING_DESC"
+          href: cd3dx12-view-instancing-desc.md
         - name: "CD3DX12_VIEWPORT"
           href: cd3dx12-viewport.md
+        - name: "D3DX12_MESH_SHADER_PIPELINE_STATE_DESC"
+          href: d3dx12-mesh-shader-pipeline-state-desc.md
       - name: "Helper Functions for D3D12"
         href: helper-functions-for-d3d12.md
         items: 
