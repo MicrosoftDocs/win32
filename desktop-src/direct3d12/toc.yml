@@ -956,6 +956,8 @@
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_instance_desc
         - name: "D3D12_RAYTRACING_PIPELINE_CONFIG"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config
+        - name: "D3D12_RAYTRACING_PIPELINE_CONFIG1"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_pipeline_config1
         - name: "D3D12_RAYTRACING_SHADER_CONFIG"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_raytracing_shader_config
         - name: "D3D12_RECT"
@@ -1287,6 +1289,8 @@
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_geometry_type
         - name: "D3D12_RAYTRACING_INSTANCE_FLAGS"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_instance_flags
+        - name: "D3D12_RAYTRACING_PIPELINE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_pipeline_flags
         - name: "D3D12_RAYTRACING_TIER"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_raytracing_tier
         - name: "D3D12_RENDER_PASS_BEGINNING_ACCESS_TYPE"
@@ -1855,12 +1859,26 @@
           href: cd3dx12-descriptor-range.md
         - name: "CD3DX12_DESCRIPTOR_RANGE1"
           href: cd3dx12-descriptor-range1.md
+        - name: "CD3DX12_DXIL_LIBRARY_SUBOBJECT"
+          href: cd3dx12-dxil-library-subobject.md
+        - name: "CD3DX12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION"
+          href: cd3dx12-dxil-subobject-to-exports-association.md
+        - name: "CD3DX12_EXISTING_COLLECTION_SUBOBJECT"
+          href: cd3dx12-existing-collection-subobject.md
+        - name: "CD3DX12_GLOBAL_ROOT_SIGNATURE_SUBOBJECT"
+          href: cd3dx12-global-root-signature-subobject.md
         - name: "CD3DX12_GPU_DESCRIPTOR_HANDLE"
           href: cd3dx12-gpu-descriptor-handle.md
         - name: "CD3DX12_HEAP_DESC"
           href: cd3dx12-heap-desc.md
         - name: "CD3DX12_HEAP_PROPERTIES"
           href: cd3dx12-heap-properties.md
+        - name: "CD3DX12_HIT_GROUP_SUBOBJECT"
+          href: cd3dx12-hit-group-subobject.md
+        - name: "CD3DX12_LOCAL_ROOT_SIGNATURE_SUBOBJECT"
+          href: cd3dx12-local-root-signature-subobject.md
+        - name: "CD3DX12_NODE_MASK_SUBOBJECT"
+          href: cd3dx12-node-mask-subobject.md
         - name: "CD3DX12_PACKED_MIP_INFO"
           href: cd3dx12-packed-mip-info.md
         - name: "CD3DX12_PIPELINE_STATE_STREAM"
@@ -1915,6 +1933,8 @@
           href: cd3dx12-pipeline-state-stream-stream-output.md
         - name: "CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT"
           href: cd3dx12-pipeline-state-stream-subobject.md
+        - name: "CD3DX12_PIPELINE_STATE_STREAM_VIEW_INSTANCING"
+          href: cd3dx12-pipeline-state-stream-view-instancing.md
         - name: "CD3DX12_PIPELINE_STATE_STREAM_VS"
           href: cd3dx12-pipeline-state-stream-vs.md
         - name: "CD3DX12_RANGE"
@@ -1923,6 +1943,12 @@
           href: cd3dx12-range-uint64.md
         - name: "CD3DX12_RASTERIZER_DESC"
           href: cd3dx12-rasterizer-desc.md
+        - name: "CD3DX12_RAYTRACING_PIPELINE_CONFIG_SUBOBJECT"
+          href: cd3dx12-raytracing-pipeline-config-subobject.md
+        - name: "CD3DX12_RAYTRACING_PIPELINE_CONFIG1_SUBOBJECT"
+          href: cd3dx12-raytracing-pipeline-config1-subobject.md
+        - name: "CD3DX12_RAYTRACING_SHADER_CONFIG_SUBOBJECT"
+          href: cd3dx12-raytracing-shader-config-subobject.md
         - name: "CD3DX12_RECT"
           href: cd3dx12-rect.md
         - name: "CD3DX12_RESOURCE_ALLOCATION_INFO"
@@ -1953,10 +1979,14 @@
           href: cd3dx12-rt-format-array.md
         - name: "CD3DX12_SHADER_BYTECODE"
           href: cd3dx12-shader-bytecode.md
+        - name: "CD3DX12_STATE_OBJECT_CONFIG_SUBOBJECT"
+          href: cd3dx12-state-object-config-subobject.md
         - name: "CD3DX12_STATE_OBJECT_DESC"
           href: cd3dx12-state-object-desc.md
         - name: "CD3DX12_STATIC_SAMPLER_DESC"
           href: cd3dx12-static-sampler-desc.md
+        - name: "CD3DX12_SUBOBJECT_TO_EXPORTS_ASSOCIATION_SUBOBJECT"
+          href: cd3dx12-subobject-to-exports-association-subobject.md
         - name: "CD3DX12_SUBRESOURCE_FOOTPRINT"
           href: cd3dx12-subresource-footprint.md
         - name: "CD3DX12_SUBRESOURCE_RANGE_UINT64"

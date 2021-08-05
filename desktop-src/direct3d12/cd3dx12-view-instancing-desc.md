@@ -63,7 +63,7 @@ Constructor that creates a new instance of a **CD3DX12_VIEW_INSTANCING_DESC** in
 
 | Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header | [D3dx12.h](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12) |
+| Header | [D3dx12.h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
 ## See also
 

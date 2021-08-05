@@ -14,7 +14,7 @@ ms.date: 05/31/2018
 
 These helper functions help particularly in handling subresources, and are declared in `d3dx12.h`.
 
-`d3dx12.h` is available separately from the Direct3D 12 headers. You can download `d3dx12.h` from [The D3D12 Helper Library](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12).
+`d3dx12.h` is available separately from the Direct3D 12 headers. You can download `d3dx12.h` from [The D3D12 Helper Library](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h).
 
 ## In this section
 

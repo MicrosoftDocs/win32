@@ -49,7 +49,7 @@ C++ is the only supported language for Direct3D 12 development, C# and other .NE
 
 ## Helper structures
 
-There are a number of helper structures that, in particular, make it easy to initialize a number of the D3D12 structures. These structures, and some utility functions, are in the header D3dx12.h. This header is open source, and can be modified by a developer as required - download it from [The D3D12 Helper Library](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12) and refer to [Helper Structures and Functions for D3D12](helper-structures-and-functions-for-d3d12.md).
+There are a number of helper structures that, in particular, make it easy to initialize a number of the D3D12 structures. These structures, and some utility functions, are in the header D3dx12.h. This header is open source, and can be modified by a developer as required - download it from [The D3D12 Helper Library](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) and refer to [Helper Structures and Functions for D3D12](helper-structures-and-functions-for-d3d12.md).
 
 ## Memory Management Library
 

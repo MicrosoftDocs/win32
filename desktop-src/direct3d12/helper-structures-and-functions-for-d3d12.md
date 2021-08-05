@@ -15,7 +15,7 @@ ms.date: 05/31/2018
 
 These helper structures and helper functions are declared in `d3dx12.h`.
 
-`d3dx12.h` is available separately from the Direct3D 12 headers. You can download `d3dx12.h` from [The D3D12 Helper Library](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12).
+`d3dx12.h` is available separately from the Direct3D 12 headers. You can download `d3dx12.h` from [The D3D12 Helper Library](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h).
 
 You can use these helper structures to create and initialize Direct3D structures. These helper structures behave like C++ classes. Each helper structure typically has a default constructor, an explicit constructor, a destructor, and a cast operator for the associated D3D12 structure. Each helper structure has a 'C' prefix and is associated with a D3D12 structure which lacks the 'C' prefix. Most helper structures contain initialization member methods, some contain comparison functions.
 

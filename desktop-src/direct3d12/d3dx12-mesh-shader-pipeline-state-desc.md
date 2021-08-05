@@ -50,91 +50,91 @@ struct D3DX12_MESH_SHADER_PIPELINE_STATE_DESC
 
 ## Members
 
-### pRootSignature
+`pRootSignature`
 
 Type: **[ID3D12RootSignature](/windows/win32/api/d3d12/nn-d3d12-id3d12rootsignature)\***
 
 A root signature object defining what resources are bound to the pipeline.
 
-### AS
+`AS`
 
 Type: **[D3D12_SHADER_BYTECODE](/windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode)**
 
 Contains the data representing the amplification shader program.
 
-### MS
+`MS`
 
 Type: **[D3D12_SHADER_BYTECODE](/windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode)**
 
 Contains the data representing the mesh shader program.
 
-### PS
+`PS`
 
 Type: **[D3D12_SHADER_BYTECODE](/windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode)**
 
 Contains the data representing the pixel shader program.
 
-### BlendState
+`BlendState`
 
 Type: **[D3D12_BLEND_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_blend_desc)**
 
 Describes the blend state.
 
-### SampleMask
+`SampleMask`
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
 The sample mask for the blend state.
 
-### RasterizerState
+`RasterizerState`
 
 Type: **[D3D12_RASTERIZER_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_rasterizer_desc)**
 
 Describes the rasterizer state.
 
-### DepthStencilState
+`DepthStencilState`
 
 Type: **[D3D12_DEPTH_STENCIL_DESC](/windows/win32/api/d3d12/ns-d3d12-d3d12_rasterizer_desc)**
 
 Describes the depth-stencil state.
 
-### PrimitiveTopologyType
+`PrimitiveTopologyType`
 
 Type: **[D3D12_PRIMITIVE_TOPOLOGY_TYPE](/windows/win32/api/d3d12/ne-d3d12-d3d12_primitive_topology_type)**
 
 Describes the type and ordering of the primitive data.
 
-### NumRenderTargets
+`NumRenderTargets`
 
 Type: **[UINT](/windows/win32/winprog/windows-data-types)**
 
 The number of render target formats in the *RTVFormats* member.
 
-### RTVFormats
+`RTVFormats`
 
 Type: **[DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
 An array of values for the render target formats.
 
-### DSVFormat
+`DSVFormat`
 
 Type: **[DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
 A value for the depth-stencil format.
 
-### SampleDesc
+`SampleDesc`
 
 Type: **[DXGI_SAMPLE_DESC](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format)**
 
 Specifies multisampling parameters.
 
-### CachedPSO
+`CachedPSO`
 
 Type: **[D3D12_CACHED_PIPELINE_STATE](/windows/win32/api/d3d12/ns-d3d12-d3d12_cached_pipeline_state)**
 
 A cached pipeline state object. *pCachedBlob* and *CachedBlobSizeInBytes* may be set to NULL and 0 respectively.
 
-### Flags
+`Flags`
 
 Type: **[D3D12_PIPELINE_STATE_FLAGS](/windows/win32/api/d3d12/ne-d3d12-d3d12_pipeline_state_flags)**
 
@@ -144,7 +144,7 @@ A flag enumeration constant (for example, to indicate that the pipeline state sh
 
 | Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header | [D3dx12.h](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12) |
+| Header | [D3dx12.h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
 ## See also
 

@@ -14,7 +14,7 @@ ms.date: 07/28/2021
 
 These helper structures help initialize many of the Direct3D 12 structures. They're declared in `d3dx12.h`.
 
-`d3dx12.h` is available separately from the Direct3D 12 headers. You can download `d3dx12.h` from [The D3D12 Helper Library](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12).
+`d3dx12.h` is available separately from the Direct3D 12 headers. You can download `d3dx12.h` from [The D3D12 Helper Library](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h).
 
 ## In this section
 
@@ -29,9 +29,16 @@ These helper structures help initialize many of the Direct3D 12 structures. They
 | [**CD3DX12_DEPTH_STENCIL_DESC1**](cd3dx12-depth-stencil-desc1.md) | A helper structure to enable easy initialization of a [**D3D12_DEPTH_STENCIL_DESC1**](/windows/win32/api/d3d12/ns-d3d12-d3d12_depth_stencil_desc1) structure. |
 | [**CD3DX12_DESCRIPTOR_RANGE**](cd3dx12-descriptor-range.md) | A helper structure to enable easy initialization of a [**D3D12_DESCRIPTOR_RANGE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_range) structure. |
 | [**CD3DX12_DESCRIPTOR_RANGE1**](cd3dx12-descriptor-range1.md) | A helper structure to enable easy initialization of a [**D3D12_DESCRIPTOR_RANGE1**](/windows/win32/api/d3d12/ns-d3d12-d3d12_descriptor_range1) structure. |
+| [**CD3DX12_DXIL_LIBRARY_SUBOBJECT**](cd3dx12-dxil-library-subobject.md) | A helper class for creating a DXIL library state subobject. |
+| [**CD3DX12_DXIL_SUBOBJECT_TO_EXPORTS_ASSOCIATION**](cd3dx12-dxil-subobject-to-exports-association.md) | A helper class for creating a DXIL-subobject-to-exports association state subobject. |
+| [**CD3DX12_EXISTING_COLLECTION_SUBOBJECT**](cd3dx12-existing-collection-subobject.md) | A helper class for creating an existing collection state subobject. |
+| [**CD3DX12_GLOBAL_ROOT_SIGNATURE_SUBOBJECT**](cd3dx12-global-root-signature-subobject.md) | A helper class for creating a global root signature state suboject. |
 | [**CD3DX12_GPU_DESCRIPTOR_HANDLE**](cd3dx12-gpu-descriptor-handle.md) | A helper structure to enable easy initialization of a [**D3D12_GPU_DESCRIPTOR_HANDLE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_gpu_descriptor_handle) structure. |
 | [**CD3DX12_HEAP_DESC**](cd3dx12-heap-desc.md) | A helper structure to enable easy initialization of a [**D3D12_HEAP_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_desc) structure. |
 | [**CD3DX12_HEAP_PROPERTIES**](cd3dx12-heap-properties.md) | A helper structure to enable easy initialization of a [**D3D12_HEAP_PROPERTIES**](/windows/win32/api/d3d12/ns-d3d12-d3d12_heap_properties) structure. |
+| [**CD3DX12_HIT_GROUP_SUBOBJECT**](cd3dx12-hit-group-subobject.md) | A helper class for creating a hit group state subobject. |
+| [**CD3DX12_NODE_MASK_SUBOBJECT**](cd3dx12-node-mask-subobject.md) | A helper class for creating a state subobject that identifies the GPU nodes to which the state object applies. |
+| [**CD3DX12_LOCAL_ROOT_SIGNATURE_SUBOBJECT**](cd3dx12-local-root-signature-subobject.md) | A helper class for creating a local root signature state suboject. |
 | [**CD3DX12_PACKED_MIP_INFO**](cd3dx12-packed-mip-info.md) | A helper structure to enable easy initialization of a [**D3D12_PACKED_MIP_INFO**](/windows/win32/api/d3d12/ns-d3d12-d3d12_packed_mip_info) structure. |
 | [**CD3DX12_PIPELINE_STATE_STREAM**](cd3dx12-pipeline-state-stream.md) | A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See [**D3D12_GRAPHICS_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) and [**D3D12_COMPUTE_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc). |
 | [**CD3DX12_PIPELINE_STATE_STREAM1**](cd3dx12-pipeline-state-stream1.md) | A helper structure for creating and working with graphics and compute pipeline states through a combined interface. See [**D3D12_GRAPHICS_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) and [**D3D12_COMPUTE_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc). |
@@ -59,10 +66,14 @@ These helper structures help initialize many of the Direct3D 12 structures. They
 | [**CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK**](cd3dx12-pipeline-state-stream-sample-mask.md) | A helper structure used to describe a sample mask as a single object suitable for a stream description. |
 | [**CD3DX12_PIPELINE_STATE_STREAM_STREAM_OUTPUT**](cd3dx12-pipeline-state-stream-stream-output.md) | A helper structure used to describe the stream output description as a single object suitable for a stream description. |
 | [**CD3DX12_PIPELINE_STATE_STREAM_SUBOBJECT**](cd3dx12-pipeline-state-stream-subobject.md) | A templated helper structure used to encapsulate subobject type and subobject data pairs as a single object suitable for a stream description. |
+| [**CD3DX12_PIPELINE_STATE_STREAM_VIEW_INSTANCING**](cd3dx12-pipeline-state-stream-view-instancing.md) | A helper structure used to wrap a [CD3DX12_VIEW_INSTANCING_DESC](cd3dx12-view-instancing-desc.md) structure. Allows shaders to render to multiple views with a single draw call; useful for stereo vision or cubemap generation. |
 | [**CD3DX12_PIPELINE_STATE_STREAM_VS**](cd3dx12-pipeline-state-stream-vs.md) | A helper structure used to describe a vertex shader as a single object suitable for a stream description. |
 | [**CD3DX12_RANGE**](cd3dx12-range.md) | A helper structure to enable easy initialization of a [**D3D12_RANGE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_range) structure. |
 | [**CD3DX12_RANGE_UINT64**](cd3dx12-range-uint64.md) | A helper structure to enable easy initialization of a [**D3D12_RANGE_UINT64**](/windows/win32/api/d3d12/ns-d3d12-d3d12_range_uint64) structure. |
 | [**CD3DX12_RASTERIZER_DESC**](cd3dx12-rasterizer-desc.md) | A helper structure to enable easy initialization of a [**D3D12_RASTERIZER_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_rasterizer_desc) structure. |
+| [**CD3DX12_RAYTRACING_PIPELINE_CONFIG_SUBOBJECT**](cd3dx12-raytracing-pipeline-config-subobject.md) | A helper class for creating a raytracing pipeline configuration state subobject. |
+| [**CD3DX12_RAYTRACING_PIPELINE_CONFIG1_SUBOBJECT**](cd3dx12-raytracing-pipeline-config1-subobject.md) | A helper class for creating a raytracing pipeline configuration state subobject, with flags. |
+| [**CD3DX12_RAYTRACING_SHADER_CONFIG_SUBOBJECT**](cd3dx12-raytracing-shader-config-subobject.md) | A helper class for creating a raytracing shader configuration state subobject. |
 | [**CD3DX12_RECT**](cd3dx12-rect.md) | A helper structure to enable easy initialization of a [**D3D12_RECT**](d3d12-rect.md) structure. |
 | [**CD3DX12_RESOURCE_ALLOCATION_INFO**](cd3dx12-resource-allocation-info.md) | A helper structure to enable easy initialization of a [**D3D12_RESOURCE_ALLOCATION_INFO**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_allocation_info) structure. |
 | [**CD3DX12_RESOURCE_BARRIER**](cd3dx12-resource-barrier.md) | A helper structure to enable easy initialization of a [**D3D12_RESOURCE_BARRIER**](/windows/win32/api/d3d12/ns-d3d12-d3d12_resource_barrier) structure. |
@@ -78,8 +89,10 @@ These helper structures help initialize many of the Direct3D 12 structures. They
 | [**CD3DX12_ROOT_SIGNATURE_DESC**](cd3dx12-root-signature-desc.md) | A helper structure to enable easy initialization of a [**D3D12_ROOT_SIGNATURE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_root_signature_desc) structure. |
 | [**CD3DX12_RT_FORMAT_ARRAY**](cd3dx12-rt-format-array.md) | A helper structure to enable easy initialization of a [**D3D12_RT_FORMAT_ARRAY**](/windows/win32/api/d3d12/ns-d3d12-d3d12_rt_format_array) structure. |
 | [**CD3DX12_SHADER_BYTECODE**](cd3dx12-shader-bytecode.md) | A helper structure to enable easy initialization of a [**D3D12_SHADER_BYTECODE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode) structure. |
+| [**CD3DX12_STATE_OBJECT_CONFIG_SUBOBJECT**](cd3dx12-state-object-config-subobject.md) | A helper class for creating a subobject that defines the general properties of a state object. |
 | [**CD3DX12_STATE_OBJECT_DESC**](cd3dx12-state-object-desc.md) | The central class of the D3DX12 State Object Creation Helpers, which are helper classes for creating state objects out of an arbitrary set of subobjects. |
 | [**CD3DX12_STATIC_SAMPLER_DESC**](cd3dx12-static-sampler-desc.md) | A helper structure to enable easy initialization of a [**D3D12_STATIC_SAMPLER_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_static_sampler_desc) structure. |
+| [**CD3DX12_SUBOBJECT_TO_EXPORTS_ASSOCIATION_SUBOBJECT**](cd3dx12-subobject-to-exports-association-subobject.md) | A helper class for creating a subobject-to-exports association state subobject. |
 | [**CD3DX12_SUBRESOURCE_FOOTPRINT**](cd3dx12-subresource-footprint.md) | A helper structure to enable easy initialization of a [**D3D12_SUBRESOURCE_FOOTPRINT**](/windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_footprint) structure. |
 | [**CD3DX12_SUBRESOURCE_RANGE_UINT64**](cd3dx12-subresource-range-uint64.md) | A helper structure to enable easy initialization of a [**D3D12_SUBRESOURCE_RANGE_UINT64**](/windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_range_uint64) structure. |
 | [**CD3DX12_SUBRESOURCE_TILING**](cd3dx12-subresource-tiling.md) | A helper structure to enable easy initialization of a [**D3D12_SUBRESOURCE_TILING**](/windows/win32/api/d3d12/ns-d3d12-d3d12_subresource_tiling) structure. |

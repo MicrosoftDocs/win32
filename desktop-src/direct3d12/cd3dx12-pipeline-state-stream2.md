@@ -62,175 +62,175 @@ struct CD3DX12_PIPELINE_STATE_STREAM2
 
 ## Members
 
-### CD3DX12_PIPELINE_STATE_STREAM2
+`CD3DX12_PIPELINE_STATE_STREAM2`
 
 Default constructor. Creates a new, uninitialized, instance of a **CD3DX12_PIPELINE_STATE_STREAM2**.
 
-### CD3DX12_PIPELINE_STATE_STREAM2(const D3D12_GRAPHICS_PIPELINE_STATE_DESC&)
+`CD3DX12_PIPELINE_STATE_STREAM2(const D3D12_GRAPHICS_PIPELINE_STATE_DESC&)`
 
 Constructor that creates a new instance of a **CD3DX12_PIPELINE_STATE_STREAM2** initialized with the contents of a [**D3D12_GRAPHICS_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc) structure.
 
 You'll then need to set mesh and amplification shaders manually, since they don't have representation in **D3D12_GRAPHICS_PIPELINE_STATE_DESC**.
 
-### CD3DX12_PIPELINE_STATE_STREAM2(const D3DX12_MESH_SHADER_PIPELINE_STATE_DESC&)
+`CD3DX12_PIPELINE_STATE_STREAM2(const D3DX12_MESH_SHADER_PIPELINE_STATE_DESC&)`
 
 Constructor that creates a new instance of a **CD3DX12_PIPELINE_STATE_STREAM2** initialized with the contents of a [**D3DX12_MESH_SHADER_PIPELINE_STATE_DESC**](d3dx12-mesh-shader-pipeline-state-desc.md) structure.
 
-### CD3DX12_PIPELINE_STATE_STREAM2(const D3D12_COMPUTE_PIPELINE_STATE_DESC&)
+`CD3DX12_PIPELINE_STATE_STREAM2(const D3D12_COMPUTE_PIPELINE_STATE_DESC&)`
 
 Constructor that creates a new instance of a **CD3DX12_PIPELINE_STATE_STREAM2** initialized with the contents of a [**D3D12_COMPUTE_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc) structure.
 
-### Flags
+`Flags`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_FLAGS](cd3dx12-pipeline-state-stream-flags.md)**
 
 Flags (for example, to indicate that the pipeline state should be compiled with additional information to assist debugging).
 
-### NodeMask
+`NodeMask`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_NODE_MASK](cd3dx12-pipeline-state-stream-node-mask.md)**
 
 Describes the pipeline state node mask, which is used to identify the nodes (physical adapters of the device) that the PSO applies to in multi-adapter scenarios; each bit in the mask corresponds to a single node. For single-adapter scenarios, use 0.
 
-### pRootSignature
+`pRootSignature`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_ROOT_SIGNATURE](cd3dx12-pipeline-state-stream-root-signature.md)**
 
 Describes the root signature.
 
-### InputLayout
+`InputLayout`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_INPUT_LAYOUT](cd3dx12-pipeline-state-stream-input-layout.md)**
 
 Describes the input-buffer format for the input-assembler stage
 
-### IBStripCutValue
+`IBStripCutValue`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_IB_STRIP_CUT_VALUE](cd3dx12-pipeline-state-stream-ib-strip-cut-value.md)**
 
 Describes the special index value of the input buffer that indicates a cut (discontinuity) when using triangle-strip topology.
 
-### PrimitiveTopologyType
+`PrimitiveTopologyType`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_PRIMITIVE_TOPOLOGY](cd3dx12-pipeline-state-stream-primitive-topology.md)**
 
 Describes the primitive topology and its order.
 
-### VS
+`VS`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_VS](cd3dx12-pipeline-state-stream-vs.md)**
 
 Describes the vertex shader.
 
-### GS
+`GS`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_GS](cd3dx12-pipeline-state-stream-gs.md)**
 
 Describes the geometry shader.
 
-### StreamOutput
+`StreamOutput`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_STREAM_OUTPUT](cd3dx12-pipeline-state-stream-stream-output.md)**
 
 Describes the streaming output-buffer.
 
-### HS
+`HS`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_HS](cd3dx12-pipeline-state-stream-hs.md)**
 
 Describes the hull shader.
 
-### DS
+`DS`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_DS](cd3dx12-pipeline-state-stream-ds.md)**
 
 Describes the domain shader.
 
-### PS
+`PS`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_PS](cd3dx12-pipeline-state-stream-ps.md)**
 
 Describes the pixel shader.
 
-### AS
+`AS`
 
-Type: **[CD3DX12_PIPELINE_STATE_STREAM_AS](cd3dx12-pipeline-state-stream-as.md)**
+Type: **CD3DX12_PIPELINE_STATE_STREAM_AS**
 
 Describes the amplification shader.
 
-### MS
+`MS`
 
-Type: **[CD3DX12_PIPELINE_STATE_STREAM_MS](cd3dx12-pipeline-state-stream-ms.md)**
+Type: **CD3DX12_PIPELINE_STATE_STREAM_MS**
 
 Describes the mesh shader.
 
-### CS
+`CS`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_CS](cd3dx12-pipeline-state-stream-cs.md)**
 
 Describes the compute shader.
 
-### BlendState
+`BlendState`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_BLEND_DESC](cd3dx12-pipeline-state-stream-blend-desc.md)**
 
 Describes the blend state.
 
-### DepthStencilState
+`DepthStencilState`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL1](cd3dx12-pipeline-state-stream-depth-stencil1.md)**
 
 Describes the depth-stencil state.
 
-### DSVFormat
+`DSVFormat`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_DEPTH_STENCIL_FORMAT](cd3dx12-pipeline-state-stream-depth-stencil-format.md)**
 
 Describes the depth-stencil format.
 
-### RasterizerState
+`RasterizerState`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_RASTERIZER](cd3dx12-pipeline-state-stream-rasterizer.md)**
 
 Describes the rasterizer state.
 
-### RTVFormats
+`RTVFormats`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_RENDER_TARGET_FORMATS](cd3dx12-pipeline-state-stream-render-target-formats.md)**
 
 Describes the render target formats.
 
-### SampleDesc
+`SampleDesc`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_DESC](cd3dx12-pipeline-state-stream-sample-desc.md)**
 
 Describes the sample count and quality.
 
-### SampleMask
+`SampleMask`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_SAMPLE_MASK](cd3dx12-pipeline-state-stream-sample-mask.md)**
 
 Describes the sample mask used with the blend state.
 
-### CachedPSO
+`CachedPSO`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_CACHED_PSO](cd3dx12-pipeline-state-stream-cached-pso.md)**
 
 Describes a cached PSO.
 
-### ViewInstancingDesc
+`ViewInstancingDesc`
 
 Type: **[CD3DX12_PIPELINE_STATE_STREAM_VIEW_INSTANCING](cd3dx12-pipeline-state-stream-view-instancing.md)**
 
 Describes a view instancing configuration.
 
-### GraphicsDescV0
+`GraphicsDescV0`
 
 Returns [**D3D12_GRAPHICS_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_graphics_pipeline_state_desc).
 
 returns the contents of the **CD3DX12_PIPELINE_STATE_STREAM2** object as a **D3D12_GRAPHICS_PIPELINE_STATE_DESC** structure by value. **D3D12_GRAPHICS_PIPELINE_STATE_DESC** doesn't include the *CS* member, so that value is lost in the conversion.
 
-### ComputeDescV0
+`ComputeDescV0`
 
 Returns [**D3D12_COMPUTE_PIPELINE_STATE_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_compute_pipeline_state_desc).
 
@@ -240,7 +240,7 @@ returns the contents of the **CD3DX12_PIPELINE_STATE_STREAM2** object as a **D3D
 
 | Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header | [D3dx12.h](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12) |
+| Header | [D3dx12.h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
 ## See also
 

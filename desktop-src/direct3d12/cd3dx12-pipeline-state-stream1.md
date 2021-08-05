@@ -257,7 +257,7 @@ The accessible member variables of this structure are all typedefs of the [**CD3
 
 | Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header | [D3dx12.h](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12) |
+| Header | [D3dx12.h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
 ## See also
 

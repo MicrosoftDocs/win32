@@ -36,27 +36,27 @@ class CD3DX12_STATE_OBJECT_DESC
 
 ## Members
 
-### CD3DX12_STATE_OBJECT_DESC
+`CD3DX12_STATE_OBJECT_DESC`
 
 Default constructor. Creates a new, default-initialized, instance of a **CD3DX12_STATE_OBJECT_DESC**.
 
-### CD3DX12_STATE_OBJECT_DESC(D3D12_STATE_OBJECT_TYPE)
+`CD3DX12_STATE_OBJECT_DESC(D3D12_STATE_OBJECT_TYPE)`
 
 Constructor that creates a new instance of a **CD3DX12_STATE_OBJECT_DESC** initialized with a subjobject type corresponding to the value of the [**D3D12_STATE_OBJECT_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_state_object_type) passed to it.
 
-### SetStateObjectType(D3D12_STATE_OBJECT_TYPE)
+`SetStateObjectType(D3D12_STATE_OBJECT_TYPE)`
 
 Method that sets the subjobject type to the value of the [**D3D12_STATE_OBJECT_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_state_object_type) passed to it.
 
-### operator const D3D12_STATE_OBJECT_DESC&
+`operator const D3D12_STATE_OBJECT_DESC&`
 
 Conversion operator that returns a reference to a constant [**D3D12_STATE_OBJECT_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_desc) object describing the state object.
 
-### operator const D3D12_STATE_OBJECT_DESC*
+`operator const D3D12_STATE_OBJECT_DESC*`
 
 Conversion operator that returns a pointer to a constant [**D3D12_STATE_OBJECT_DESC**](/windows/win32/api/d3d12/ns-d3d12-d3d12_state_object_desc) object describing the state object.
 
-### CreateSubobject
+`CreateSubobject`
 
 A function template that creates a sububject helper whose lifetime is owned by this class.
 
@@ -91,7 +91,7 @@ LibA.SetDXILLibrary(&pMyAppDxilLibs[4]);
 
 | Requirement | Value |
 |-------------------|-------------------------------------------------------------------------------------|
-| Header | [D3dx12.h](https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Libraries/D3DX12) |
+| Header | [D3dx12.h](https://github.com/microsoft/DirectX-Headers/blob/main/include/directx/d3dx12.h) |
 
 ## See also
 
