@@ -46,7 +46,7 @@ The bitmap expands as follows (two-digit values represent a color index for a si
 06 06 06 06 06 
 45 56 67 
 78 78 
-move current position 5 right and 1 down 
+move current position 5 right and 1 up 
 78 78 
 end of line 
 1E 1E 1E 1E 1E 1E 1E 1E 1E 
@@ -78,7 +78,7 @@ The bitmap expands as follows (single-digit values represent a color index for a
 0 6 0 6 0 
 4 5 5 6 6 7 
 7 8 7 8 
-move current position 5 right and 1 down 
+move current position 5 right and 1 up 
 7 8 7 8 
 end of line 
 1 E 1 E 1 E 1 E 1 
