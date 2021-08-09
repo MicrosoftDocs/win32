@@ -41,7 +41,7 @@ In this example, glass is used in the client area to make it look like part of t
 
 Sometimes the best window frame is no frame at all. This is often the case for the [primary window](glossary.md) of immersive [full screen](glossary.md) applications that aren't used in conjunction with other programs, such as media players, games, and kiosk applications.
 
-Content viewers often benefit from having the option to show content full screen. Examples include Windows Internet Explorer , Windows Live Photo Gallery, Windows Movie Maker HD, Microsoft PowerPoint , and Microsoft Word.
+Content viewers often benefit from having the option to show content full screen. Examples include Windows Internet Explorer , Windows Live Photo Gallery, Windows Movie Maker HD, Microsoft PowerPoint, and Microsoft Word.
 
 ![screen shot of media player in full-screen view ](images/win-window-frames-image4.png)
 
