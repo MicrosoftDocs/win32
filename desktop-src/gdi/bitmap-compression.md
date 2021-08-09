@@ -16,11 +16,11 @@ When the **Compression** member of the bitmap information header structure is BI
 
 
 
-| Value | Meaning                                                                                                                                                     |
-|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0     | End of line.                                                                                                                                                |
-| 1     | End of bitmap.                                                                                                                                              |
-| 2     | Delta. The 2 bytes following the escape contain unsigned values indicating the horizontal and vertical offsets of the next pixel from the current position. |
+| Value | Meaning                                                                                                                                                |
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0     | End of line.                                                                                                                                           |
+| 1     | End of bitmap.                                                                                                                                         |
+| 2     | Delta. The 2 bytes following the escape contain unsigned values indicating the offset to the right and up of the next pixel from the current position. |
 
 
 
