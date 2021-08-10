@@ -129,7 +129,7 @@ Important considerations about file types include:
 
 When uninstalling an application, the ProgIDs and most other registry information associated with that application should be deleted as part of the uninstallation. However, applications that have taken ownership of a file type (by setting the Default value of the file type's **HKEY\_CLASSES\_ROOT**\\*.extension* subkey to the ProgID of the application) should not attempt to remove that value when uninstalling. Leaving the data in place for the Default value avoids the difficulty of determining whether another application has taken ownership of the file type and overwritten the Default value after the original application was installed. Windows respects the Default value only if the ProgID found there is a registered ProgID. If the ProgID is unregistered, it is ignored.
 
-Note that other file-type ownership information is stored in the **HKEY\_CURRENT\_USER**subtree and also is used only when the application that it references is registered. Therefore, this data does not need to be removed when uninstalling an application.
+Note that other file-type ownership information is stored in the **HKEY\_CURRENT\_USER** subtree and also is used only when the application that it references is registered. Therefore, this data does not need to be removed when uninstalling an application.
 
 As an example, the following shows the state of the registry before an application is uninstalled:
 
