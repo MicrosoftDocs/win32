@@ -31,7 +31,7 @@ Both Direct3D 11 and Direct3D 12 share a simliar device creation pattern. Existi
 
 Also keep in mind that with Direct3D 12, you should explicitly enumerate device information using DXGI interfaces. In Direct3D 11, you could *chain back* to the DXGI device from the Direct3D device, and this is not supported for Direct3D 12.
 
-Creating a WARP software device on Direct3D 12 is done by providing an explicit adapter obtained from **IDXGIFcatory4::EnumWarpAdapter**. The WARP device for Direct3D 12 is available only on systems with the **Graphics Tools** optional feature enabled.
+Creating a WARP software device on Direct3D 12 is done by providing an explicit adapter obtained from **IDXGIFactory4::EnumWarpAdapter**. The WARP device for Direct3D 12 is available only on systems with the **Graphics Tools** optional feature enabled.
 
 > [!NOTE]
 > There is no equivalent to **D3D11CreateDeviceAndSwapChain**. Even with Direct3D 11, we discourage the use of this function as it's often better to create the device and swapchain in distinct steps.
