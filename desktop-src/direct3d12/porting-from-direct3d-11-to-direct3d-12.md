@@ -27,7 +27,7 @@ This section provides some guidance on porting from a custom Direct3D 11 graphic
 
 ## Device creation
 
-Both Direct3D 11 and Direct3D 12 share a simliar device creation pattern. Existing Direct3D 12 drivers are all **D3D_FEATURE_LEVEL_11_0** or better, so you can ignore the older feature levels and associated lmitations.
+Both Direct3D 11 and Direct3D 12 share a similar device creation pattern. Existing Direct3D 12 drivers are all **D3D_FEATURE_LEVEL_11_0** or better, so you can ignore the older feature levels and associated lmitations.
 
 Also keep in mind that with Direct3D 12, you should explicitly enumerate device information using DXGI interfaces. In Direct3D 11, you could *chain back* to the DXGI device from the Direct3D device, and this is not supported for Direct3D 12.
 
