@@ -122,7 +122,7 @@ In Direct3D 11 CPU/GPU synchronization was largely automatic, and there was no n
 
 in Direct3D 12 the app must manage the two timelines (CPU and GPU) explicitly. This requires that information needs to be maintained, by the app, on what resources are required by the GPU, and for how long. This also means that the app is responsible for ensuring the contents of resources (committed resources, heaps, command allocators, for example) do not change until the GPU has finished using them.
 
-The main object for synchronizing the timelines is the [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) object. The operation of fences is failry simple, they enable the GPU to signal when it has completed a task. The GPU and CPU can both signal, and can both wait on fences.
+The main object for synchronizing the timelines is the [**ID3D12Fence**](/windows/win32/api/d3d12/nn-d3d12-id3d12fence) object. The operation of fences is fairly simple, they enable the GPU to signal when it has completed a task. The GPU and CPU can both signal, and can both wait on fences.
 
 Typically the approach is that when submitting a command list for execution, a fence signal is transmitted by the GPU on completion (when it has finished reading the data), enabling the CPU to reuse or destroy the resources.
 
