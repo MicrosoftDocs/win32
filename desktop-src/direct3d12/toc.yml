@@ -404,6 +404,35 @@
           items: 
           - name: "SetBackgroundProcessingMode"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12device6-setbackgroundprocessingmode
+        - name: "ID3D12Device7"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device7
+          items: 
+          - name: "AddToStateObject"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device7-addtostateobject
+          - name: "CreateProtectedResourceSession1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device7-createprotectedresourcesession1
+        - name: "ID3D12Device8"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device8
+          items: 
+          - name: "CreateCommittedResource2"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-createcommittedresource2
+          - name: "CreatePlacedResource1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-createplacedresource1
+          - name: "CreateSamplerFeedbackUnorderedAccessView"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-createsamplerfeedbackunorderedaccessview
+          - name: "GetCopyableFootprints1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-getcopyablefootprints1
+          - name: "GetResourceAllocationInfo2"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device8-getresourceallocationinfo2
+        - name: "ID3D12Device9"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12device9
+          items: 
+          - name: "CreateCommandQueue1"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device9-createcommandqueue1
+          - name: "CreateShaderCacheSession"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device9-createshadercachesession
+          - name: "ShaderCacheControl"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12device9-shadercachecontrol
         - name: "ID3D12DeviceChild"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12devicechild
           items: 
@@ -691,6 +720,17 @@
           items: 
           - name: "GetRootSignatureDesc"
             href: /windows/win32/api/d3d12/nf-d3d12-id3d12rootsignaturedeserializer-getrootsignaturedesc
+        - name: "ID3D12ShaderCacheSession"
+          href: /windows/win32/api/d3d12/nn-d3d12-id3d12shadercachesession
+          items: 
+          - name: "FindValue"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12shadercachesession-findvalue
+          - name: "GetDesc"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12shadercachesession-getdesc
+          - name: "SetDeleteOnDestroy"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12shadercachesession-setdeleteondestroy
+          - name: "StoreValue"
+            href: /windows/win32/api/d3d12/nf-d3d12-id3d12shadercachesession-storevalue
         - name: "ID3D12StateObject"
           href: /windows/win32/api/d3d12/nn-d3d12-id3d12stateobject
         - name: "ID3D12StateObjectProperties"
@@ -1024,6 +1064,8 @@
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_serialized_raytracing_acceleration_structure_header
         - name: "D3D12_SHADER_BYTECODE"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_shader_bytecode
+        - name: "D3D12_SHADER_CACHE_SESSION_DESC"
+          href: /windows/win32/api/d3d12/ns-d3d12-d3d12_shader_cache_session_desc
         - name: "D3D12_SHADER_RESOURCE_VIEW_DESC"
           href: /windows/win32/api/d3d12/ns-d3d12-d3d12_shader_resource_view_desc
         - name: "D3D12_SO_DECLARATION_ENTRY"
@@ -1331,6 +1373,14 @@
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_sampler_feedback_tier
         - name: "D3D12_SERIALIZED_DATA_TYPE"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_serialized_data_type
+        - name: "D3D12_SHADER_CACHE_CONTROL_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_control_flags
+        - name: "D3D12_SHADER_CACHE_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_flags
+        - name: "D3D12_SHADER_CACHE_KIND_FLAGS"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_kind_flags
+        - name: "D3D12_SHADER_CACHE_MODE"
+          href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_mode
         - name: "D3D12_SHADER_CACHE_SUPPORT_FLAGS"
           href: /windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags
         - name: "D3D12_SHADER_COMPONENT_MAPPING"

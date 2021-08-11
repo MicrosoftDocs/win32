@@ -110,6 +110,10 @@ The following enumerations are declared in d3d12.h.
 | [**D3D12_ROOT_SIGNATURE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags). Specifies options for root signature layout.  |
 | [**D3D12_RTV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_rtv_dimension). Identifies the type of resource to view as a render target. |
 | [**D3D12_SAMPLER_FEEDBACK_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_sampler_feedback_tier). Defines constants that specify sampler feedback support. |
+| [**D3D12_SHADER_CACHE_CONTROL_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_control_flags). Defines constants that specify shader cache control options. |
+| [**D3D12_SHADER_CACHE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_flags). Defines constants that specify shader cache flags. |
+| [**D3D12_SHADER_CACHE_KIND_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_kind_flags). Defines constants that specify a kind of shader cache. |
+| [**D3D12_SHADER_CACHE_MODE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_mode). Defines constants that specify a shader cache's mode. |
 | [**D3D12_SHADER_CACHE_SUPPORT_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags). Describes the level of support for shader caching in the current graphics driver. |
 | [**D3D12_SHADER_COMPONENT_MAPPING**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping). Specifies how memory gets routed by a shader resource view (SRV).  |
 | [**D3D12_SHADER_MIN_PRECISION_SUPPORT**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_min_precision_support). Describes minimum precision support options for shaders in the current graphics driver.  |
