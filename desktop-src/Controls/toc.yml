@@ -11,9 +11,9 @@
     - name: "Unicode Support for Common Controls"
       href: unicode-support.md
     - name: "Localization Support for Common Controls"
-      href: cc-faq-localization.md
+      href: cc-faq-localization.yml
     - name: "Common Controls FAQ"
-      href: cc-faq.md
+      href: cc-faq.yml
   - name: "Control Messages"
     href: control-messages.md
   - name: "Custom Controls"
@@ -5391,9 +5391,9 @@
           - name: "How to Use Hot-tracking with Toolbars"
             href: use-hot-tracking-with-toolbars.md
           - name: "How to Create an Internet Explorer-style Toolbar"
-            href: cc-faq-ietoolbar.md
+            href: cc-faq-ietoolbar.yml
           - name: "How to Create an Internet Explorer-style Menu Bar"
-            href: cc-faq-iemenubar.md
+            href: cc-faq-iemenubar.yml
       - name: "Toolbar Control Reference"
         href: bumper-toolbar-toolbar-control-reference.md
         items: 

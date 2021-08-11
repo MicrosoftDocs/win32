@@ -25,7 +25,7 @@ This section contains reference information about programming elements that appl
 | Topic                                              | Contents                                                                                                                                                           |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [About Common Controls](common-controls-intro.md) | The common controls are a set of windows that are implemented by the common control library, which is a DLL included with the Windows operating system.<br/> |
-| [Common Controls FAQ](cc-faq.md)                  | This FAQ provides answers to some common questions about the common controls.<br/>                                                                           |
+| [Common Controls FAQ](cc-faq.yml)                  | This FAQ provides answers to some common questions about the common controls.<br/>                                                                           |
 
 
 
