@@ -31,7 +31,7 @@ For EAPHost API related NAP information refer to the following topics.
 
 -   [**EAP\_ATTRIBUTE\_TYPE**](/windows/desktop/api/eaptypes/ne-eaptypes-eap_attribute_type)
 -   [**EAP\_ERROR**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_error)
--   [EAPHost Supplicant Frequently Asked Questions](eaphost-supplicant-frequently-asked-questions.md)
+-   [EAPHost Supplicant Frequently Asked Questions](eaphost-supplicant-frequently-asked-questions.yml)
 -   [**EAP Method Properties**](eap-method-properties.md)
 -   [**EapHostPeerBeginSession**](/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeerbeginsession)
 -   [**EAP Related Error and Information Constants**](eap-related-error-and-information-constants.md)

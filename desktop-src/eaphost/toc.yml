@@ -64,11 +64,11 @@
     href: eaphost-development-frequently-asked-questions.md
     items: 
     - name: "General Frequently Asked Questions"
-      href: general-frequently-asked-questions.md
+      href: general-frequently-asked-questions.yml
     - name: "EAPHost Supplicant Frequently Asked Questions"
-      href: eaphost-supplicant-frequently-asked-questions.md
+      href: eaphost-supplicant-frequently-asked-questions.yml
     - name: "EAP Method Frequently Asked Questions"
-      href: eap-method-frequently-asked-questions.md
+      href: eap-method-frequently-asked-questions.yml
   - name: "EAPHost and Legacy Schema Samples"
     href: eap-host-schemas.md
     items: 
