@@ -3057,7 +3057,7 @@
           href: mf-sa-d3d12-clear-value.md
         - name: MF_SA_D3D12_HEAP_FLAGS
           href: mf-sa-d3d12-heap-flags.md
-	      - name: MF_SA_D3D12_HEAP_TYPE
+        - name: MF_SA_D3D12_HEAP_TYPE
           href: mf-sa-d3d12-heap-type.md
         - name: "MF_SA_MINIMUM_OUTPUT_SAMPLE_COUNT"
           href: mf-sa-minimum-output-sample-count.md
