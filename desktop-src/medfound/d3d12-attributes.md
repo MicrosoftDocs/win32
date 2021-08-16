@@ -1,11 +1,11 @@
 ---
 description: Direct3D 12 Attributes
-title: EVR Attributes
+title: Direct3D 12 Attributes
 ms.topic: article
 ms.date: 08/13/2021
 ---
 
-# EVR Attributes
+# Direct3D 12 Attributes
 
 The following attributes can be used to configure Direct3D 12 Media Foundation resources.
 
