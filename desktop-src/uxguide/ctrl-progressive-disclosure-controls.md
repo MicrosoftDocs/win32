@@ -60,7 +60,7 @@ The goals of progressive disclosure are to:
 Both goals can be achieved by using progressive disclosure controls, where users click to see more detail. However, you can achieve the second goal of simplifying the appearance without using explicit progressive disclosure controls by:
 
 -   **Showing contextual detail only in context.** For example, you can show contextual commands or toolbars automatically when relevant to the selected object or mode.
--   **Reducing the weight of affordances for secondary UI.**[Affordances](glossary.md) are visual properties that suggest how objects are used. The trend is to have UI that users can interact with in place, but to have all such UI drawn to scream "click me!" leads to too much visual clutter. For secondary UI, it is often better to use subtle affordances and give the full effects on mouse over.
+-   **Reducing the weight of affordances for secondary UI.** [Affordances](glossary.md) are visual properties that suggest how objects are used. The trend is to have UI that users can interact with in place, but to have all such UI drawn to scream "click me!" leads to too much visual clutter. For secondary UI, it is often better to use subtle affordances and give the full effects on mouse over.
 
     ![screen shot of star icons used to rate photos ](images/progressive-disclosure-controls-image5.png)
 
@@ -88,7 +88,7 @@ Progressive disclosure controls are usually displayed without direct labels that
 
 While users can determine the above by trial and error, you should try to make such experimentation unnecessary.
 
-Progressive disclosure controls have a fairly weak [affordances](glossary.md), which means their visual properties suggest how they are used, albeit weakly. The following table compares the appearance of the common progressive disclosure controls:
+Progressive disclosure controls have a fairly weak [affordance](glossary.md), which means their visual properties suggest how they are used, albeit weakly. The following table compares the appearance of the common progressive disclosure controls:
 
 
 
@@ -242,7 +242,7 @@ Preview arrows are best reserved for situations where a standard chevron doesn't
 
     ![screen shot of label with right-pointing triangle ](images/progressive-disclosure-controls-image26.png)
 
-    Although this example isn't a progressive disclosure pattern, using an arrow here suggests that commands will be shown in a popup window.
+    Although this example isn't a progressive disclosure pattern, using an arrow here suggests that commands will be shown in a pop-up window.
 
     **Correct:**
 
