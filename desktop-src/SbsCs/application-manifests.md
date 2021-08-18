@@ -183,9 +183,9 @@ The **file** element has the attributes shown in the following table.
 
 On Windows 10, this element forces a process to use UTF-8 as the process code page. For more information, see [Use the UTF-8 code page](/windows/uwp/design/globalizing/use-utf8-code-page). On Windows 10, the only valid value for **activeCodePage** is **UTF-8**.
 
-Starting in Windows 11, this element also allows selection of either the legacy non-UTF-8 code page, or code pages for a specific locale for legacy application compatibility. Modern applications are strongly encouraged to use Unicode. On Windows 11, this value may also be set to **Legacy** or a locale name such as **en-US** or **ja-JP**.
+Starting in Windows 11, this element also allows selection of either the legacy non-UTF-8 code page, or code pages for a specific locale for legacy application compatibility. Modern applications are strongly encouraged to use Unicode. On Windows 11, **activeCodePage** may also be set to the value **Legacy** or a locale name such as **en-US** or **ja-JP**.
 
-- On machines configured to a UTF-8 system active code page, **Legacy** will revert the process to the system locale code pages. If the system locale does not have defined code pages, then Windows-1252/437 will be used. The **Legacy** codepage setting is only supported in Fusion manifests and only beginning with Windows 11
+- On machines configured to a UTF-8 system active code page, **Legacy** will revert the process to the system locale code pages. If the system locale does not have defined code pages, then Windows-1252/437 will be used. The **Legacy** codepage setting is only supported in Fusion manifests and only beginning with Windows 11.
 - When a locale name such as **en-US** is supplied, then the process code page will be set appropriately for that locale code page. For example, Windows-1252 and 437 for en-US, or 932 for ja-JP.
 
 This element was first added in Windows 10 version 1903 (May 2019 Update). You can declare this property and target/run on earlier Windows builds, but you must handle legacy code page detection and conversion as usual. This element has no attributes. 
