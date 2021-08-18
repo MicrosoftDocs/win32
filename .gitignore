@@ -7,3 +7,5 @@ _repo.*/
 *.xlsx
 
 .openpublishing.buildcore.ps1
+# Visual Studio cache/options directory
+.vs/
