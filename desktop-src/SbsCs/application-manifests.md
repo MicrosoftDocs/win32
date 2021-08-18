@@ -181,11 +181,19 @@ The **file** element has the attributes shown in the following table.
 
 ### activeCodePage
 
-Force a process to use UTF-8 as the process code page.
+Force a process to use UTF-8 as the process code page. 
+
+With Windows 11, also allows selection of either the legacy non-UTF-8 codepage, or codepages for a specific locale for legacy application compatibility. Modern applications are strongly encouraged to use Unicode.
 
 **activeCodePage** was added in Windows Version 1903 (May 2019 Update). You can declare this property and target/run on earlier Windows builds, but you must handle legacy code page detection and conversion as usual. See [Use the UTF-8 code page](/windows/uwp/design/globalizing/use-utf8-code-page) for details.
 
-This element has no attributes. **UTF-8** is only valid value for **activeCodePage** element.
+This element has no attributes. **UTF-8** is only valid value for **activeCodePage** element prior to Windows 11.
+
+With Windows 11, this value may also be set to **Legacy** or a locale name such as **en-US** or **ja-JP**.
+
+On machines configured to a UTF-8 system ACP, **Legacy** will revert the process to the System Locale codepages. If the System Locale does not have defined codepages, then Windows-1252/437 will be used. The Legacy codepage setting is only supported in Fusion manifests and only beginning with Windows 11
+
+When a locale name such as **en-US** is supplied, then the process code page will be set appropriately for that locale codepages. For example, Windows-1252 and 437 for en-US, or 932 for ja-JP. Specifying a locale name is only supported with Fusion manifests, and only starting with Windows 11.
 
 ```XML
 <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
