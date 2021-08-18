@@ -10,7 +10,7 @@ ms.date: 05/31/2018
 
 The installer sets the **TemplateFolder** property to the full path to the Template folder for the current user.
 
-On Windows 2000 only, if the [**ALLUSERS**](allusers.md) property is set, this property points to a file system directory that contains the templates that are available to all users.
+If the [**ALLUSERS**](allusers.md) property is set, this property points to a file system directory that contains the templates that are available to all users.
 
 ## Requirements
 
